@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="800" height="380" rx="16" fill="#FBF6ED"/>
+  <text x="40" y="52" font-size="21" font-weight="bold" fill="#7A2E0E">FIGUR 2 · Ét gæt ad gangen — det næste ord</text>
+
+  <text x="40" y="108" font-size="26" font-weight="bold" fill="#2b2118">»Katten sad på</text>
+  <rect x="248" y="84" width="96" height="34" rx="8" fill="none" stroke="#E85D04" stroke-width="2.5" stroke-dasharray="7 5"/>
+  <text x="296" y="107" font-size="24" fill="#E85D04" text-anchor="middle">?</text>
+  <text x="352" y="108" font-size="26" font-weight="bold" fill="#2b2118">«</text>
+
+  <text x="40" y="164" font-size="15" fill="#5c5040">Modellens sandsynligheder for næste token:</text>
+  <g font-size="17">
+    <text x="40" y="204" fill="#2b2118" font-weight="bold">måtten</text>
+    <rect x="150" y="188" width="434" height="24" rx="6" fill="#E85D04"/>
+    <text x="596" y="206" fill="#7A2E0E" font-weight="bold">62 %</text>
+
+    <text x="40" y="248" fill="#2b2118" font-weight="bold">taget</text>
+    <rect x="150" y="232" width="98" height="24" rx="6" fill="#F08A3C"/>
+    <text x="260" y="250" fill="#7A2E0E" font-weight="bold">14 %</text>
+
+    <text x="40" y="292" fill="#2b2118" font-weight="bold">bordet</text>
+    <rect x="150" y="276" width="63" height="24" rx="6" fill="#FFC145"/>
+    <text x="225" y="294" fill="#7A2E0E" font-weight="bold">9 %</text>
+
+    <text x="40" y="336" fill="#2b2118" font-weight="bold">månen</text>
+    <rect x="150" y="320" width="8" height="24" rx="4" fill="#d9c9a8"/>
+    <text x="170" y="338" fill="#8a7a63" font-weight="bold">1 %</text>
+  </g>
+  <text x="420" y="300" font-size="14" fill="#8a7a63" font-style="italic">Den vælger, skriver ordet —</text>
+  <text x="420" y="322" font-size="14" fill="#8a7a63" font-style="italic">og gætter så straks på det næste.</text>
+</svg>

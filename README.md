@@ -6,6 +6,7 @@ Dansk magasinforlag, hvor hvert nummer produceres af en chefredaktør-agent med 
 
 | Magasin | Om | Seneste nummer |
 |---|---|---|
+| **GNISTEN** | AI for begyndere: modeller, priser, opsætning, prompts | Nr. 1 · Juli 2026 · *"Sig hej til Claude"* |
 | **PULSEN** | Sundhedssektoren, AI i klinikken, ergoterapi | Nr. 1 · Juli 2026 · *"Når maskinen lytter med"* |
 | **SPÆNDING** | Elbiler og teknologien bag, europæisk fokus | Nr. 1 · Juli 2026 |
 
@@ -50,6 +51,15 @@ python3 -m venv .venv
 .venv/bin/python production/reassemble_articles.py   # genbygger artikler fra _extract/
 .venv/bin/python production/cleanup_articles.py      # redaktionel oprydning
 ```
+
+## Markdown → PDF (nye numre)
+
+```bash
+.venv/bin/python production/build_magazine.py <slug> <issue-slug>
+# fx: .venv/bin/python production/build_magazine.py gnisten 2026-07-nr1
+```
+
+Genererer print-PDF'en (`production/build_magazine.py`, ReportLab, A4) ud fra markdown-artiklerne, `issue.json` og magasinets farver i `magazine.json`. Generisk på tværs af titler. Frontmatter-feltet `flow: true` lader en artikel dele side med den foregående (til korte bagsnit-sektioner); `figures:` i frontmatter erstatter `[FIGUR N]`-markører i brødteksten med billeder.
 
 ## Hemmeligheder & omkostninger
 

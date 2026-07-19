@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 340" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="800" height="340" rx="16" fill="#FBF6ED"/>
+  <text x="40" y="52" font-size="21" font-weight="bold" fill="#7A2E0E">FIGUR 1 · Teksten hakkes i småbidder — tokens</text>
+
+  <!-- sentence as tokens -->
+  <text x="40" y="96" font-size="15" fill="#5c5040">Din sætning:</text>
+  <g font-size="19" font-weight="bold">
+    <rect x="40" y="112" width="92" height="44" rx="10" fill="#E85D04"/>
+    <text x="86" y="140" fill="#ffffff" text-anchor="middle">Katten</text>
+    <rect x="142" y="112" width="66" height="44" rx="10" fill="#F08A3C"/>
+    <text x="175" y="140" fill="#ffffff" text-anchor="middle">sad</text>
+    <rect x="218" y="112" width="56" height="44" rx="10" fill="#E85D04"/>
+    <text x="246" y="140" fill="#ffffff" text-anchor="middle">på</text>
+    <rect x="284" y="112" width="106" height="44" rx="10" fill="#F08A3C"/>
+    <text x="337" y="140" fill="#ffffff" text-anchor="middle">måtten</text>
+    <rect x="400" y="112" width="36" height="44" rx="10" fill="#FFC145"/>
+    <text x="418" y="140" fill="#7A2E0E" text-anchor="middle">.</text>
+  </g>
+
+  <!-- long word split -->
+  <text x="40" y="212" font-size="15" fill="#5c5040">Lange ord bliver ofte til flere tokens:</text>
+  <g font-size="18" font-weight="bold">
+    <rect x="40" y="228" width="102" height="42" rx="10" fill="#E85D04"/>
+    <text x="91" y="255" fill="#ffffff" text-anchor="middle">fødsel</text>
+    <rect x="150" y="228" width="44" height="42" rx="10" fill="#FFC145"/>
+    <text x="172" y="255" fill="#7A2E0E" text-anchor="middle">s</text>
+    <rect x="202" y="228" width="84" height="42" rx="10" fill="#F08A3C"/>
+    <text x="244" y="255" fill="#ffffff" text-anchor="middle">dags</text>
+    <rect x="294" y="228" width="82" height="42" rx="10" fill="#E85D04"/>
+    <text x="335" y="255" fill="#ffffff" text-anchor="middle">kort</text>
+  </g>
+  <text x="40" y="308" font-size="14" fill="#8a7a63" font-style="italic">Modellen ser aldrig bogstaver eller hele ord — kun disse nummererede klodser.</text>
+</svg>

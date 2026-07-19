@@ -1,0 +1,117 @@
+{
+  "magazine": "gnisten",
+  "number": 1,
+  "title": "GNISTEN nr. 1 · Juli 2026",
+  "issueTheme": "Sig hej til Claude",
+  "published": "2026-07-19",
+  "status": "published",
+  "pdf": "GNISTEN_nr1_juli2026.pdf",
+  "cover": "images/gnisten_cover.png",
+  "images": [
+    "images/gnisten_cover.png",
+    "images/gnisten_fokus.png",
+    "images/gnisten_vaerksted.png",
+    "images/gnisten_projekt.png",
+    "images/figur1_tokens.svg",
+    "images/figur2_naesteord.svg",
+    "images/figur3_kontekstvindue.svg"
+  ],
+  "productionCostUSD": 0.11,
+  "imageCredits": "Illustrationer: Gemini 3 Pro Image (forside) og Gemini 3.1 Flash Image (artikler) via OpenRouter. Diagrammer i \"Sådan virker en sprogmodel\": egen produktion (SVG).",
+  "backCoverPromise": "GNISTEN nr. 2 udkommer, når den næste gnist har taget fat — med ChatGPT, MCP'er og de første skridt ud af browseren.",
+  "articles": [
+    {
+      "slug": "leder",
+      "file": "articles/01-leder.md",
+      "order": 1,
+      "title": "Velkommen til GNISTEN",
+      "section": "Leder",
+      "byline": "Claude Fable 5",
+      "standfirst": "Et magasin til alle, der har en computer og en nysgerrighed på AI — men ingen lyst til at føle sig dum undervejs."
+    },
+    {
+      "slug": "kortet",
+      "file": "articles/02-kortet.md",
+      "order": 2,
+      "title": "Kortet over AI-landskabet",
+      "section": "Kortet",
+      "byline": "GPT-5.6 Terra (OpenAI)",
+      "standfirst": "OpenAI, Anthropic, Google, xAI, Meta, det europæiske Mistral og de kinesiske udfordrere — her er de vigtigste navne, du vil møde i 2026."
+    },
+    {
+      "slug": "fokus-claude",
+      "file": "articles/03-fokus-claude.md",
+      "order": 3,
+      "title": "Fokus: Sig hej til Claude",
+      "section": "Fokus",
+      "byline": "Claude Sonnet 5 (Anthropic)",
+      "standfirst": "Firmaet der navngiver sine modeller efter digtformer, og assistenten der har skrevet det meste af dette blad — inklusive denne artikel om sig selv.",
+      "image": "../images/gnisten_fokus.png"
+    },
+    {
+      "slug": "saadan-virker-en-sprogmodel",
+      "file": "articles/04-saadan-virker-en-sprogmodel.md",
+      "order": 4,
+      "title": "Sådan virker en sprogmodel",
+      "section": "Kortet",
+      "byline": "Gemini 3.1 Pro (Google)",
+      "standfirst": "Ingen matematik, ingen forkundskaber. Bare tre billeder og en kat, der sad på måtten."
+    },
+    {
+      "slug": "vaerkstedet",
+      "file": "articles/05-vaerkstedet.md",
+      "order": 5,
+      "title": "Værkstedet: Kom i gang med Claude",
+      "section": "Værkstedet",
+      "byline": "Gemini 3.5 Flash (Google)",
+      "standfirst": "Fra tom skærm til din første samtale — en søndagsguide, der ikke kræver andet end en computer og en e-mailadresse.",
+      "image": "../images/gnisten_vaerksted.png"
+    },
+    {
+      "slug": "mit-foerste-projekt",
+      "file": "articles/06-mit-foerste-projekt.md",
+      "order": 6,
+      "title": "Mit første projekt",
+      "section": "Værkstedet",
+      "byline": "Grok 4.5 (xAI)",
+      "standfirst": "En helt almindelig person, en mors fødselsdag, og en eftermiddag med Claude Code. Ingen kode blev skrevet af et menneske.",
+      "image": "../images/gnisten_projekt.png"
+    },
+    {
+      "slug": "maanedens-prompt",
+      "file": "articles/07-maanedens-prompt.md",
+      "order": 7,
+      "title": "Månedens prompt: Dagens Gnist",
+      "section": "Månedens prompt",
+      "byline": "Claude Fable 5",
+      "standfirst": "En femminutters-idé, du kan kopiere direkte ind i din AI-samtale — bygget og afprøvet af redaktionen, før du fik den."
+    },
+    {
+      "slug": "regningen",
+      "file": "articles/08-regningen.md",
+      "order": 8,
+      "title": "Regningen",
+      "section": "Regningen",
+      "byline": "GLM-5.2 (Z.ai)",
+      "standfirst": "Hvad koster det egentlig at bruge AI — og hvordan undgår du at betale for tre abonnementer, du aldrig åbner?"
+    },
+    {
+      "slug": "ordbogen",
+      "file": "articles/09-ordbogen.md",
+      "order": 9,
+      "title": "Ordbogen",
+      "section": "Ordbogen",
+      "byline": "Qwen3.7 Max (Alibaba)",
+      "standfirst": "Ti gloser fra AI-verdenen, forklaret så du kan gengive dem ved middagsbordet."
+    },
+    {
+      "slug": "sladder",
+      "file": "articles/10-sladder.md",
+      "order": 10,
+      "title": "Sladder fra serverrummet",
+      "section": "Sladder fra serverrummet",
+      "byline": "Kimi K3 (Moonshot AI)",
+      "standfirst": "Rygter, drillerier og ren gætteværk fra AI-verdenen. Troværdigheden måler vi i tændstikker."
+    }
+  ]
+}

@@ -18,3 +18,7 @@ content/**/_extract/
 # OS
 .DS_Store
 content/**/images/p0*_img*.png
+
+# Python
+__pycache__/
+*.pyc

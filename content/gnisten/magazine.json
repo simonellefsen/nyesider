@@ -1,0 +1,23 @@
+{
+  "slug": "gnisten",
+  "name": "GNISTEN",
+  "tagline": "Magasinet for nysgerrige, der vil skabe med AI — uden at være programmør",
+  "language": "da",
+  "audience": "Alle med en computer og en gnist af nysgerrighed: folk der hører om AI overalt, men ikke ved, hvor de selv skal starte",
+  "sections": [
+    "Kortet (AI-landskabet)",
+    "Fokus (månedens model/værktøj)",
+    "Værkstedet (installation & opsætning)",
+    "Regningen (priser & abonnementer)",
+    "Månedens prompt",
+    "Ordbogen",
+    "Sladder fra serverrummet"
+  ],
+  "theme": {
+    "colors": {
+      "primary": "#7A2E0E",
+      "accent": "#E85D04",
+      "highlight": "#FFC145"
+    }
+  }
+}

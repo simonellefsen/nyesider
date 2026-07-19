@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="800" height="400" rx="16" fill="#FBF6ED"/>
+  <text x="40" y="52" font-size="21" font-weight="bold" fill="#7A2E0E">FIGUR 3 · Kontekstvinduet — modellens blok papir</text>
+
+  <!-- notepad -->
+  <rect x="60" y="84" width="420" height="280" rx="12" fill="#ffffff" stroke="#d9c9a8" stroke-width="2"/>
+  <line x1="60" y1="120" x2="480" y2="120" stroke="#d9c9a8" stroke-width="1"/>
+
+  <!-- fading old lines -->
+  <g font-size="15">
+    <text x="84" y="112" fill="#e5dccb">Du: Hej! Jeg vil lave et fødselsdagskort …</text>
+    <text x="84" y="148" fill="#cdbfa5">Claude: Hyggeligt! Hvem er det til?</text>
+    <text x="84" y="184" fill="#a89272">Du: Min mor. Hun elsker konfetti.</text>
+    <text x="84" y="220" fill="#7a6a4f">Claude: Så laver vi konfettiregn …</text>
+    <text x="84" y="256" fill="#4a3c28">Du: Gør farverne stærkere.</text>
+    <text x="84" y="292" fill="#2b2118" font-weight="bold">Claude: Klart — prøv nu!</text>
+    <text x="84" y="328" fill="#E85D04" font-weight="bold">Du: Perfekt! Og musik? ◀ nyeste</text>
+  </g>
+
+  <!-- arrow out the top -->
+  <path d="M 520 150 C 560 130, 560 110, 540 88" fill="none" stroke="#E85D04" stroke-width="3" stroke-dasharray="6 5"/>
+  <path d="M 545 100 L 540 84 L 528 95 Z" fill="#E85D04"/>
+  <text x="520" y="190" font-size="15" fill="#7A2E0E" font-weight="bold">Når blokken er fuld,</text>
+  <text x="520" y="212" font-size="15" fill="#7A2E0E" font-weight="bold">ryger de ældste linjer ud</text>
+  <text x="520" y="234" font-size="15" fill="#7A2E0E" font-weight="bold">— og modellen har</text>
+  <text x="520" y="256" font-size="15" fill="#7A2E0E" font-weight="bold">glemt dem helt.</text>
+
+  <text x="520" y="310" font-size="14" fill="#8a7a63" font-style="italic">Alt hvad modellen »ved« om</text>
+  <text x="520" y="330" font-size="14" fill="#8a7a63" font-style="italic">jeres samtale, står på blokken.</text>
+  <text x="520" y="350" font-size="14" fill="#8a7a63" font-style="italic">Intet andet sted.</text>
+</svg>
