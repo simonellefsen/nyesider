@@ -81,6 +81,22 @@ export function articleImageUrl(
 	return contentAssetUrl(magazine, issueSlug, image);
 }
 
+const FIGURE_MARKER_RE = /^\[FIGUR\s*\d*\]$/gim;
+
+/**
+ * Replace [FIGUR N] placeholder lines with <figure> markup, positionally —
+ * the Nth marker gets the Nth url in figureUrls (mirrors production/build_magazine.py).
+ */
+function resolveFigures(md: string, figureUrls: string[]): string {
+	if (!figureUrls.length) return md;
+	let i = 0;
+	return md.replace(FIGURE_MARKER_RE, () => {
+		const url = figureUrls[i++];
+		if (!url) return '';
+		return `<figure class="prose-figure"><img src="${url}" alt="" loading="lazy" /></figure>`;
+	});
+}
+
 async function markdownToHtml(md: string): Promise<string> {
 	const file = await unified()
 		.use(remarkParse)
@@ -116,7 +132,11 @@ export async function getArticle(
 	const mdPath = path.join(CONTENT_ROOT, magazine, 'issues', issueSlug, meta.file);
 	const raw = readFileSync(mdPath, 'utf-8');
 	const { data, content } = matter(raw);
-	const html = await markdownToHtml(content);
+
+	const figureUrls = ((data.figures as string[] | undefined) ?? [])
+		.map((f) => articleImageUrl(magazine, issueSlug, f))
+		.filter((u): u is string => !!u);
+	const html = await markdownToHtml(resolveFigures(content, figureUrls));
 
 	return {
 		slug: meta.slug,
