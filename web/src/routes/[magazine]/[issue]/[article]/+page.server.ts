@@ -39,7 +39,8 @@ export const load: PageServerLoad = async ({ params }) => {
 			issue: {
 				slug: issue.slug,
 				title: issue.title,
-				number: issue.number
+				number: issue.number,
+				published: issue.published
 			},
 			article: {
 				slug: article.slug,

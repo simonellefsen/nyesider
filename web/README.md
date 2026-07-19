@@ -27,6 +27,16 @@ Renault Twingo E-Tech er et af de tydeligste tegn.[^2]
 
 Ekstern links i artikler åbnes i nyt faneblad.
 
+## SEO
+
+- Prerendered HTML (bots get full content without running JS)
+- Canonical URLs, Open Graph, Twitter cards, `robots` meta
+- JSON-LD (`Organization`, `WebSite`, `Periodical`, `PublicationIssue`, `Article`)
+- `/sitemap.xml` and `/robots.txt` (Sitemap-directive)
+- Default origin: `https://nyesider.vercel.app` — override with `PUBLIC_SITE_URL` for a custom domain
+
+**Vercel bots:** Production `*.vercel.app` **does allow** crawlers (no automatic `noindex`). Preview deployments get `X-Robots-Tag: noindex` from Vercel by default. Ensure Deployment Protection / SSO is off for production if you want public indexing.
+
 ## Scripts
 
 - `npm run dev` — sync assets + dev server

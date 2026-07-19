@@ -1,5 +1,7 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
+	import Seo from '$lib/components/Seo.svelte';
+	import { absoluteUrl, articleJsonLd, pageTitle } from '$lib/seo';
 
 	let { data } = $props();
 	const colors = $derived(data.magazine.colors);
@@ -7,6 +9,13 @@
 		!['Leder', 'Rygtebørsen', 'Sjov & Spil', 'Kort & Watt', 'Vandrehistorier fra vagtstuen'].includes(
 			data.article.section
 		) && data.article.order > 1
+	);
+	const path = $derived(
+		`/${data.magazine.slug}/${data.issue.slug}/${data.article.slug}`
+	);
+	const description = $derived(
+		data.article.standfirst ||
+			`${data.article.title} — ${data.article.section} i ${data.magazine.name}. Af ${data.article.byline}.`
 	);
 
 	let progress = $state(0);
@@ -23,15 +32,26 @@
 	});
 </script>
 
-<svelte:head>
-	<title>{data.article.title} — {data.magazine.name}</title>
-	{#if data.article.standfirst}
-		<meta name="description" content={data.article.standfirst} />
-	{/if}
-	{#if data.article.image}
-		<meta property="og:image" content={data.article.image} />
-	{/if}
-</svelte:head>
+<Seo
+	title={pageTitle([data.article.title, data.magazine.name])}
+	description={description}
+	path={path}
+	image={data.article.image}
+	type="article"
+	publishedTime={data.issue.published}
+	author={data.article.byline}
+	jsonLd={articleJsonLd({
+		headline: data.article.title,
+		url: absoluteUrl(path),
+		description: data.article.standfirst,
+		image: data.article.image,
+		datePublished: data.issue.published,
+		authorName: data.article.byline,
+		section: data.article.section,
+		magazineName: data.magazine.name,
+		issueName: data.issue.title
+	})}
+/>
 
 <div
 	style:--mag-primary={colors.primary ?? '#0b1220'}
@@ -61,7 +81,13 @@
 
 		{#if data.article.image}
 			<figure class="article-figure">
-				<img src={data.article.image} alt="" width="800" height="450" loading="eager" />
+				<img
+					src={data.article.image}
+					alt=""
+					width="800"
+					height="450"
+					loading="eager"
+				/>
 			</figure>
 		{/if}
 

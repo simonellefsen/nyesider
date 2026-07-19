@@ -1,17 +1,33 @@
 <script lang="ts">
+	import Seo from '$lib/components/Seo.svelte';
+	import { absoluteUrl, pageTitle, publicationIssueJsonLd } from '$lib/seo';
+
 	let { data } = $props();
 	const colors = $derived(data.magazine.colors);
+	const path = $derived(`/${data.magazine.slug}/${data.issue.slug}`);
+	const description = $derived(
+		data.issue.issueTheme
+			? `${data.issue.title} — ${data.issue.issueTheme}. Læs indholdsfortegnelsen og hent PDF-udgaven.`
+			: `${data.issue.title}. Læs indholdsfortegnelsen og hent PDF-udgaven hos Nye Sider.`
+	);
 </script>
 
-<svelte:head>
-	<title>{data.issue.title} — {data.magazine.name}</title>
-	{#if data.issue.issueTheme}
-		<meta name="description" content={data.issue.issueTheme} />
-	{/if}
-	{#if data.issue.cover}
-		<meta property="og:image" content={data.issue.cover} />
-	{/if}
-</svelte:head>
+<Seo
+	title={pageTitle([data.issue.title, data.magazine.name])}
+	description={description}
+	path={path}
+	image={data.issue.cover}
+	jsonLd={publicationIssueJsonLd({
+		name: data.issue.title,
+		url: absoluteUrl(path),
+		description: data.issue.issueTheme,
+		issueNumber: data.issue.number,
+		datePublished: data.issue.published,
+		image: data.issue.cover,
+		periodicalName: data.magazine.name,
+		periodicalUrl: absoluteUrl(`/${data.magazine.slug}`)
+	})}
+/>
 
 <div
 	style:--mag-primary={colors.primary ?? '#0b1220'}
@@ -41,14 +57,17 @@
 		{/if}
 
 		{#if data.issue.pdf}
-			<a class="pdf-link" href={data.issue.pdf} download>
-				↓ Hent PDF-udgaven
-			</a>
+			<a class="pdf-link" href={data.issue.pdf} download> ↓ Hent PDF-udgaven </a>
 		{/if}
 
 		{#if data.issue.cover}
 			<figure class="issue-cover" style="margin-top:1.25rem">
-				<img src={data.issue.cover} alt="Forside: {data.issue.title}" width="360" height="480" />
+				<img
+					src={data.issue.cover}
+					alt="Forside: {data.issue.title}"
+					width="360"
+					height="480"
+				/>
 			</figure>
 		{/if}
 

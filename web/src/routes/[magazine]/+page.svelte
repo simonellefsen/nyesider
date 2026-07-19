@@ -1,12 +1,28 @@
 <script lang="ts">
+	import Seo from '$lib/components/Seo.svelte';
+	import { absoluteUrl, pageTitle, periodicalJsonLd } from '$lib/seo';
+
 	let { data } = $props();
 	const colors = $derived(data.magazine.colors);
+	const path = $derived(`/${data.magazine.slug}`);
+	const cover = $derived(data.issues[0]?.cover ?? null);
+	const description = $derived(
+		data.magazine.tagline +
+			(data.magazine.audience ? ` ${data.magazine.audience}.` : '')
+	);
 </script>
 
-<svelte:head>
-	<title>{data.magazine.name} — Nye Sider</title>
-	<meta name="description" content={data.magazine.tagline} />
-</svelte:head>
+<Seo
+	title={pageTitle([data.magazine.name])}
+	description={description}
+	path={path}
+	image={cover}
+	jsonLd={periodicalJsonLd({
+		name: data.magazine.name,
+		url: absoluteUrl(path),
+		description: data.magazine.tagline
+	})}
+/>
 
 <div
 	style:--mag-primary={colors.primary ?? '#0b1220'}
@@ -57,7 +73,7 @@
 					<li>
 						<a href="/{data.magazine.slug}/{issue.slug}">
 							{#if issue.cover}
-								<img src={issue.cover} alt="" width="56" height="75" />
+								<img src={issue.cover} alt="" width="56" height="75" loading="lazy" />
 							{/if}
 							<div>
 								<strong>{issue.title}</strong>

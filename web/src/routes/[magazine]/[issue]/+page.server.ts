@@ -37,6 +37,7 @@ export const load: PageServerLoad = async ({ params }) => {
 				slug: issue.slug,
 				title: issue.title,
 				number: issue.number,
+				published: issue.published,
 				publishedLabel: formatDanishDate(issue.published),
 				issueTheme: issue.issueTheme ?? null,
 				cover: coverUrl(params.magazine, issue),

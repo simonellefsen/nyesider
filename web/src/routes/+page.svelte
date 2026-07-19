@@ -1,10 +1,25 @@
 <script lang="ts">
+	import Seo from '$lib/components/Seo.svelte';
+	import {
+		SITE_DESCRIPTION,
+		organizationJsonLd,
+		websiteJsonLd
+	} from '$lib/seo';
+
 	let { data } = $props();
+
+	const defaultCover = $derived(
+		data.magazines.find((m) => m.latest?.cover)?.latest?.cover ?? null
+	);
 </script>
 
-<svelte:head>
-	<title>Nye Sider — magasiner</title>
-</svelte:head>
+<Seo
+	title="Nye Sider — danske magasiner"
+	description={SITE_DESCRIPTION}
+	path="/"
+	image={defaultCover}
+	jsonLd={[organizationJsonLd(), websiteJsonLd()]}
+/>
 
 <header class="site-header">
 	<a class="brand" href="/">Nye <span>Sider</span></a>
@@ -35,7 +50,13 @@
 					style:--mag-highlight={mag.colors.highlight ?? '#c9842f'}
 				>
 					{#if mag.latest?.cover}
-						<img src={mag.latest.cover} alt="Forside: {mag.latest.title}" width="120" height="160" />
+						<img
+							src={mag.latest.cover}
+							alt="Forside: {mag.latest.title}"
+							width="120"
+							height="160"
+							loading="lazy"
+						/>
 					{:else}
 						<div style="width:7.5rem;aspect-ratio:3/4;background:#ddd;border-radius:8px"></div>
 					{/if}
