@@ -1,6 +1,6 @@
 # Plan: HTML editions of the two current PDFs (phone-first)
 
-Detailed execution plan for turning **PULSEN nr. 2** and **SPÆNDING nr. 1** into HTML that reads comfortably on a phone. This is the concrete version of Phases 1–2 in [PLAN.md](PLAN.md), applied to the two existing issues.
+Detailed execution plan for turning **PULSEN nr. 1** and **SPÆNDING nr. 1** into HTML that reads comfortably on a phone. This is the concrete version of Phases 1–2 in [PLAN.md](PLAN.md), applied to the two existing issues.
 
 ## Principle: reflow, don't reproduce
 
@@ -46,7 +46,7 @@ No throwaway interim site: the two extracted issues become the first content of 
 ## Order of work
 
 1. Extraction script + SPÆNDING nr. 1 (easier: images already exported) → proof.
-2. PULSEN nr. 2 (incl. image extraction + brand colors) → proof.
+2. PULSEN nr. 1 (incl. image extraction + brand colors) → proof.
 3. Scaffold `web/`, build kiosk → magazine → issue → article routes with the two issues.
 4. Image pipeline + mobile polish + phone QA.
 5. Deploy preview to Vercel and read on a phone.

@@ -195,7 +195,7 @@ def fix_rygte_trovaerdighed(path: Path) -> None:
 def main() -> None:
     for issue in [
         ROOT / "content/spaending/issues/2026-07-nr1/articles",
-        ROOT / "content/pulsen/issues/2026-07-nr2/articles",
+        ROOT / "content/pulsen/issues/2026-07-nr1/articles",
     ]:
         for md in sorted(issue.glob("*.md")):
             if md.name.startswith("01-leder") and "spaending" in str(md):
@@ -232,12 +232,12 @@ def main() -> None:
     print("extra fix folkebilen")
 
     # corti trailing label
-    corti = ROOT / "content/pulsen/issues/2026-07-nr2/articles/02-corti-maskinen-der-laerte-at-lytte.md"
+    corti = ROOT / "content/pulsen/issues/2026-07-nr1/articles/02-corti-maskinen-der-laerte-at-lytte.md"
     t = corti.read_text(encoding="utf-8")
     t = re.sub(r" taler\.\s+A N A L Y S E.*$", " taler.\n", t, flags=re.M)
     corti.write_text(t, encoding="utf-8")
 
-    bupa = ROOT / "content/pulsen/issues/2026-07-nr2/articles/03-bupa-digitale-tvilling.md"
+    bupa = ROOT / "content/pulsen/issues/2026-07-nr1/articles/03-bupa-digitale-tvilling.md"
     t = bupa.read_text(encoding="utf-8")
     t = re.sub(r" gavner\.\s+B R A N C H E.*$", " gavner.\n", t, flags=re.M)
     t = t.replace("DNAdrevet", "DNA-drevet").replace("her-ognu", "her-og-nu")
@@ -257,7 +257,7 @@ def main() -> None:
             {"leder-strom-til-folket": {"byline": "Claude Fable 5"}},
         ),
         (
-            ROOT / "content/pulsen/issues/2026-07-nr2/issue.json",
+            ROOT / "content/pulsen/issues/2026-07-nr1/issue.json",
             {
                 "leder-lyt-engang": {
                     "byline": "Claude Fable 5",

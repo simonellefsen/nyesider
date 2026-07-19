@@ -6,7 +6,7 @@ Dansk magasinforlag, hvor hvert nummer produceres af en chefredaktør-agent med 
 
 | Magasin | Om | Seneste nummer |
 |---|---|---|
-| **PULSEN** | Sundhedssektoren, AI i klinikken, ergoterapi | Nr. 2 · Juli 2026 · *"Når maskinen lytter med"* |
+| **PULSEN** | Sundhedssektoren, AI i klinikken, ergoterapi | Nr. 1 · Juli 2026 · *"Når maskinen lytter med"* |
 | **SPÆNDING** | Elbiler og teknologien bag, europæisk fokus | Nr. 1 · Juli 2026 |
 
 ## Struktur

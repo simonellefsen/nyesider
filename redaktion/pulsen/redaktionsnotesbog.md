@@ -1,8 +1,8 @@
 # PULSEN – Redaktionsnotesbog
 
-Redaktionel backlog — historier der ikke kom med i nr. 2 (juli 2026, "Når maskinen lytter med"). Opdateres løbende af chefredaktionen. Modelerfaringer ligger i det fælles [modelkartotek](../modelkartotek.md).
+Redaktionel backlog — historier der ikke kom med i nr. 1 (juli 2026, "Når maskinen lytter med"). Opdateres løbende af chefredaktionen. Modelerfaringer ligger i det fælles [modelkartotek](../modelkartotek.md).
 
-## Opfølgninger på nr. 2
+## Opfølgninger på nr. 1
 
 - **Corti mod børsen** — IPO-watch: Cleve sagde "ikke i 2026". Hvornår, hvor (København/NY?), og hvad betyder det for dansk health-tech? Oplagt når der kommer nyt signal.
 - **OpenAI rykker ind i sundhed** — Corti positionerer sig som specialiseret alternativ og støtter startups, mens andre trækker sig fra Europa. Konkurrenceanalyse: generalister vs. kliniske specialmodeller.
@@ -11,7 +11,7 @@ Redaktionel backlog — historier der ikke kom med i nr. 2 (juli 2026, "Når mas
 - **Aiforia/Dedalus i praksis** — kliniske resultater fra AI-patologien: hurtigere kræftdiagnoser eller mest PowerPoint? Kræver kilder fra laboratorierne.
 - **Bupa Prevention Pathways: første tal** — 200.000 kunder inden udgangen af 2027. Opfølgning med data + de etiske spørgsmål fra vores analyse.
 
-## Nye historier (researchet, men ikke brugt i nr. 2)
+## Nye historier (researchet, men ikke brugt i nr. 1)
 
 - **"Nordic modularity"** — hvordan Norden genopbygger healthcare-AI-stakken modulært (Healthcare IT Today, feb. 2026). God systemhistorie.
 - **Bupa Blua deep-dive** — AI-platformen bag den digitale tvilling; evt. interview-format.

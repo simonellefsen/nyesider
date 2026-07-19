@@ -13,9 +13,9 @@ Fælles erfaringer med OpenRouter-modeller på tværs af alle titler. Opdateres 
 | Qwen3.7 Max | Rammer sladderformatet perfekt; enkelte anglicismer | Rygtebørsen o.l. |
 | Mistral Medium 3.5 | Varm essaystemme, men flest dansk/engelsk-blandingsfejl | Essays — med redigering |
 | Gemini 3.5 Flash / MiniMax M3 | Første drafts afbrudt ved lavt max_tokens (reasoning æder budgettet) | Giv altid 5-6.000 tokens |
-| Kimi K3 | Missede deadline i PULSEN nr. 2 | Fortjener en revanche-opgave i nr. 3 |
+| Kimi K3 | Missede deadline i PULSEN nr. 1 | Fortjener en revanche-opgave i nr. 2 |
 
-**Hurtige reservemodeller** (leverede hurtigt til PULSEN nr. 2): llama-4-maverick, deepseek-v3.2, grok-4.3, mistral-large, gemini-3.5-flash.
+**Hurtige reservemodeller** (leverede hurtigt til PULSEN nr. 1): llama-4-maverick, deepseek-v3.2, grok-4.3, mistral-large, gemini-3.5-flash.
 
 ## Billedmodeller
 

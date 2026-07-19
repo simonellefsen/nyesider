@@ -707,12 +707,12 @@ def copy_pulsen_images(issue_dir: Path) -> None:
 def main():
     root = Path(__file__).resolve().parents[1]
     spa = root / "content/spaending/issues/2026-07-nr1"
-    pul = root / "content/pulsen/issues/2026-07-nr2"
+    pul = root / "content/pulsen/issues/2026-07-nr1"
 
     print("=== SPÆNDING nr. 1 ===")
     reassemble_issue(spa, SPAENDING_ARTICLES, cover_image="images/spaending_cover.png")
 
-    print("=== PULSEN nr. 2 ===")
+    print("=== PULSEN nr. 1 ===")
     copy_pulsen_images(pul)
     # assign images to articles where sensible
     for a in PULSEN_ARTICLES:
