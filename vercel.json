@@ -1,0 +1,5 @@
+{
+	"$schema": "https://openapi.vercel.sh/vercel.json",
+	"installCommand": "npm --prefix web ci",
+	"buildCommand": "npm --prefix web run build && rm -rf .vercel && cp -a web/.vercel ."
+}
