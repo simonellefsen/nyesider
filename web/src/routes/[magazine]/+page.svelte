@@ -1,4 +1,5 @@
 <script lang="ts">
+	import Breadcrumb from '$lib/components/Breadcrumb.svelte';
 	import Seo from '$lib/components/Seo.svelte';
 	import { absoluteUrl, pageTitle, periodicalJsonLd } from '$lib/seo';
 
@@ -30,10 +31,9 @@
 	style:--mag-highlight={colors.highlight ?? '#c9842f'}
 >
 	<header class="site-header">
-		<a class="brand" href="/">Nye <span>Sider</span></a>
-		<nav class="site-nav" aria-label="Primær">
-			<a href="/{data.magazine.slug}">{data.magazine.name}</a>
-		</nav>
+		<Breadcrumb
+			crumbs={[{ label: 'Nye Sider', href: '/' }, { label: data.magazine.name }]}
+		/>
 	</header>
 
 	<main class="page">

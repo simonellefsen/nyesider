@@ -2,11 +2,15 @@ import { error } from '@sveltejs/kit';
 import {
 	adjacentArticles,
 	articleImageUrl,
+	coverUrl,
+	enrichArticles,
 	getArticle,
 	getIssue,
 	getMagazine,
 	listIssueSlugs,
-	listMagazineSlugs
+	listMagazines,
+	listMagazineSlugs,
+	pdfUrl
 } from '$lib/server/content';
 import type { EntryGenerator, PageServerLoad } from './$types';
 
@@ -30,6 +34,19 @@ export const load: PageServerLoad = async ({ params }) => {
 		const article = await getArticle(params.magazine, params.issue, params.article);
 		const { prev, next } = adjacentArticles(issue, params.article);
 
+		const sortedArticles = [...issue.articles].sort((a, b) => a.order - b.order);
+		const positionIndex = sortedArticles.findIndex((a) => a.slug === params.article);
+
+		const otherMagazines = listMagazines()
+			.filter((m) => m.slug !== params.magazine && m.latestIssue)
+			.map((m) => ({
+				slug: m.slug,
+				name: m.name,
+				tagline: m.tagline,
+				issueHref: `/${m.slug}/${m.latestIssue!.slug}`,
+				cover: coverUrl(m.slug, m.latestIssue!)
+			}));
+
 		return {
 			magazine: {
 				slug: magazine.slug,
@@ -40,7 +57,8 @@ export const load: PageServerLoad = async ({ params }) => {
 				slug: issue.slug,
 				title: issue.title,
 				number: issue.number,
-				published: issue.published
+				published: issue.published,
+				pdf: pdfUrl(params.magazine, issue)
 			},
 			article: {
 				slug: article.slug,
@@ -52,6 +70,7 @@ export const load: PageServerLoad = async ({ params }) => {
 				image: articleImageUrl(params.magazine, params.issue, article.image),
 				order: article.order
 			},
+			articles: enrichArticles(params.magazine, issue),
 			nav: {
 				prev: prev
 					? {
@@ -67,8 +86,10 @@ export const load: PageServerLoad = async ({ params }) => {
 							href: `/${params.magazine}/${params.issue}/${next.slug}`
 						}
 					: null,
-				tocHref: `/${params.magazine}/${params.issue}`
-			}
+				tocHref: `/${params.magazine}/${params.issue}`,
+				position: { index: positionIndex + 1, total: sortedArticles.length }
+			},
+			otherMagazines
 		};
 	} catch {
 		error(404, 'Artikel ikke fundet');

@@ -129,6 +129,53 @@ button,
 	color: var(--ink-muted);
 }
 
+/* Breadcrumb (magazine / issue headers) */
+.breadcrumb {
+	display: flex;
+	align-items: center;
+	gap: 0.3rem;
+	min-width: 0;
+	overflow: hidden;
+}
+
+.breadcrumb a,
+.breadcrumb span[aria-current] {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.breadcrumb a:first-child {
+	font-weight: 700;
+	letter-spacing: 0.04em;
+	text-transform: uppercase;
+	font-size: 0.85rem;
+	color: inherit;
+	flex-shrink: 0;
+}
+
+.breadcrumb a:not(:first-child) {
+	color: var(--ink-muted);
+	font-size: 0.9rem;
+}
+
+.breadcrumb a:hover {
+	color: var(--mag-accent);
+}
+
+.breadcrumb span[aria-current] {
+	color: var(--ink);
+	font-weight: 600;
+	font-size: 0.9rem;
+	min-width: 0;
+}
+
+.breadcrumb .sep {
+	color: var(--ink-muted);
+	opacity: 0.55;
+	flex-shrink: 0;
+}
+
 .site-footer {
 	margin-top: 3rem;
 	padding: 2rem var(--page-pad) 2.5rem;
@@ -401,8 +448,7 @@ button,
 .reading-bar-inner {
 	display: flex;
 	align-items: center;
-	justify-content: space-between;
-	gap: 0.75rem;
+	gap: 0.6rem;
 	padding: 0.65rem var(--page-pad);
 	font-size: 0.8rem;
 	max-width: 72rem;
@@ -415,7 +461,25 @@ button,
 	font-weight: 600;
 }
 
+.reading-bar .crumb {
+	display: flex;
+	align-items: baseline;
+	gap: 0.25rem;
+	flex-shrink: 0;
+}
+
+.reading-bar .crumb a:first-child {
+	color: var(--ink-muted);
+	font-weight: 500;
+}
+
+.reading-bar .crumb .sep {
+	color: var(--ink-muted);
+	opacity: 0.55;
+}
+
 .reading-bar .section-label {
+	flex: 1 1 auto;
 	color: var(--mag-accent);
 	font-weight: 700;
 	letter-spacing: 0.06em;
@@ -424,6 +488,138 @@ button,
 	text-overflow: ellipsis;
 	white-space: nowrap;
 	min-width: 0;
+	text-align: center;
+}
+
+.reading-bar-actions {
+	display: flex;
+	align-items: center;
+	gap: 0.65rem;
+	flex-shrink: 0;
+}
+
+.reading-bar .position {
+	color: var(--ink-muted);
+	font-variant-numeric: tabular-nums;
+	font-weight: 500;
+	white-space: nowrap;
+}
+
+.toc-toggle {
+	appearance: none;
+	background: none;
+	border: none;
+	padding: 0;
+	font: inherit;
+	font-weight: 600;
+	color: inherit;
+	cursor: pointer;
+}
+
+.toc-toggle:hover {
+	color: var(--mag-primary);
+}
+
+/* Contents bottom sheet */
+.toc-sheet {
+	border: none;
+	padding: 0;
+	margin: 0;
+	inset: auto 0 0 0;
+	width: 100%;
+	max-width: 100%;
+	max-height: 82vh;
+	border-radius: 18px 18px 0 0;
+	background: var(--bg-elevated);
+	color: var(--ink);
+	box-shadow: 0 -12px 40px rgba(0, 0, 0, 0.25);
+}
+
+.toc-sheet::backdrop {
+	background: rgba(10, 10, 10, 0.45);
+}
+
+.toc-sheet-head {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 1rem;
+	padding: 1rem 1.1rem 0.75rem;
+	border-bottom: 1px solid var(--line);
+	position: sticky;
+	top: 0;
+	background: var(--bg-elevated);
+}
+
+.toc-sheet-head p {
+	margin: 0;
+	font-weight: 700;
+	font-family: var(--font-sans);
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.toc-sheet-head button {
+	appearance: none;
+	flex-shrink: 0;
+	border: none;
+	background: var(--bg);
+	color: var(--ink);
+	width: 2rem;
+	height: 2rem;
+	border-radius: 999px;
+	cursor: pointer;
+	font-size: 1rem;
+	line-height: 1;
+}
+
+.toc-sheet ol {
+	list-style: none;
+	margin: 0;
+	padding: 0.4rem 0 1.25rem;
+	overflow-y: auto;
+}
+
+.toc-sheet li a {
+	display: block;
+	padding: 0.65rem 1.1rem;
+	text-decoration: none;
+	color: inherit;
+}
+
+.toc-sheet li.current a {
+	background: color-mix(in srgb, var(--mag-accent) 12%, transparent);
+}
+
+.toc-sheet li a .num {
+	color: var(--ink-muted);
+	font-weight: 500;
+	margin-right: 0.35rem;
+}
+
+.toc-sheet li a .section {
+	display: block;
+	font-size: 0.68rem;
+	font-weight: 700;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+	color: var(--mag-accent);
+	margin-bottom: 0.15rem;
+}
+
+.toc-sheet li a .title {
+	font-weight: 600;
+}
+
+@media (min-width: 640px) {
+	.toc-sheet {
+		inset: 0;
+		margin: auto;
+		width: min(28rem, 92vw);
+		max-height: 78vh;
+		border-radius: 16px;
+	}
 }
 
 .progress {
@@ -685,6 +881,56 @@ button,
 	.article-nav .toc-link {
 		grid-column: 1 / -1;
 	}
+}
+
+/* Back cover (shown after the last article of an issue) */
+.backcover {
+	margin-top: 2.5rem;
+	padding-top: 1.75rem;
+	border-top: 1px solid var(--line);
+}
+
+.backcover > .eyebrow {
+	margin: 0 0 1rem;
+}
+
+.also-reading {
+	margin-top: 1.5rem;
+}
+
+.also-reading > p {
+	margin: 0 0 0.6rem;
+	font-size: 0.78rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.06em;
+	color: var(--ink-muted);
+}
+
+.mag-card-mini {
+	display: flex;
+	gap: 0.85rem;
+	align-items: center;
+	padding: 0.85rem;
+	margin-bottom: 0.6rem;
+	border: 1px solid var(--line);
+	border-radius: 12px;
+	background: var(--bg-elevated);
+	text-decoration: none;
+	color: inherit;
+}
+
+.mag-card-mini img {
+	border-radius: 6px;
+	flex-shrink: 0;
+}
+
+.mag-card-mini strong {
+	display: block;
+}
+
+.mag-card-mini small {
+	color: var(--ink-muted);
 }
 
 /* Dark mode */

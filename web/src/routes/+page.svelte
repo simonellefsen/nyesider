@@ -24,7 +24,9 @@
 <header class="site-header">
 	<a class="brand" href="/">Nye <span>Sider</span></a>
 	<nav class="site-nav" aria-label="Primær">
-		<a href="/#titler">Titler</a>
+		{#each data.magazines as mag (mag.slug)}
+			<a href="/{mag.slug}">{mag.name}</a>
+		{/each}
 	</nav>
 </header>
 

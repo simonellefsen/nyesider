@@ -30,6 +30,14 @@
 		window.addEventListener('scroll', onScroll, { passive: true });
 		return () => window.removeEventListener('scroll', onScroll);
 	});
+
+	let tocDialog: HTMLDialogElement | undefined = $state();
+	function openToc() {
+		tocDialog?.showModal();
+	}
+	function closeToc() {
+		tocDialog?.close();
+	}
 </script>
 
 <Seo
@@ -60,14 +68,46 @@
 >
 	<div class="reading-bar">
 		<div class="reading-bar-inner">
-			<a href="/{data.magazine.slug}">{data.magazine.name}</a>
+			<div class="crumb">
+				<a href="/">Nye Sider</a>
+				<span class="sep" aria-hidden="true">/</span>
+				<a href="/{data.magazine.slug}">{data.magazine.name}</a>
+			</div>
 			<span class="section-label">{data.article.section}</span>
-			<a href={data.nav.tocHref}>Indhold</a>
+			<div class="reading-bar-actions">
+				<span class="position">{data.nav.position.index}/{data.nav.position.total}</span>
+				<button type="button" class="toc-toggle" onclick={openToc}>Indhold</button>
+			</div>
 		</div>
 		<div class="progress" aria-hidden="true">
 			<span style:width="{progress}%"></span>
 		</div>
 	</div>
+
+	<dialog
+		bind:this={tocDialog}
+		class="toc-sheet"
+		onclick={(e) => {
+			if (e.target === tocDialog) closeToc();
+		}}
+	>
+		<div class="toc-sheet-head">
+			<p>{data.issue.title}</p>
+			<button type="button" onclick={closeToc} aria-label="Luk indholdsfortegnelse">✕</button>
+		</div>
+		<ol>
+			{#each data.articles as a (a.slug)}
+				<li class:current={a.slug === data.article.slug}>
+					<a href={a.href} onclick={closeToc}>
+						<span class="section">{a.section}</span>
+						<span class="title"
+							><span class="num">{String(a.order).padStart(2, '0')}</span>{a.title}</span
+						>
+					</a>
+				</li>
+			{/each}
+		</ol>
+	</dialog>
 
 	<article class="page-narrow">
 		<header class="article-header">
@@ -109,8 +149,38 @@
 					<span class="label">Næste artikel</span>
 					<span class="title">{data.nav.next.title}</span>
 				</a>
+			{:else}
+				<a href={data.nav.tocHref}>
+					<span class="label">Sidste artikel</span>
+					<span class="title">Til forsiden af {data.issue.title}</span>
+				</a>
 			{/if}
 			<a class="toc-link" href={data.nav.tocHref}>Til indholdet</a>
 		</nav>
+
+		{#if !data.nav.next}
+			<section class="backcover" aria-labelledby="backcover-heading">
+				<p id="backcover-heading" class="eyebrow">Det var {data.issue.title}</p>
+				{#if data.issue.pdf}
+					<a class="pdf-link" href={data.issue.pdf} download>↓ Hent PDF-udgaven</a>
+				{/if}
+				{#if data.otherMagazines.length}
+					<div class="also-reading">
+						<p>Læs også</p>
+						{#each data.otherMagazines as m (m.slug)}
+							<a class="mag-card-mini" href={m.issueHref}>
+								{#if m.cover}
+									<img src={m.cover} alt="" width="64" height="85" loading="lazy" />
+								{/if}
+								<span>
+									<strong>{m.name}</strong>
+									<small>{m.tagline}</small>
+								</span>
+							</a>
+						{/each}
+					</div>
+				{/if}
+			</section>
+		{/if}
 	</article>
 </div>
