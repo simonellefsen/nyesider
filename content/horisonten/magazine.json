@@ -1,0 +1,24 @@
+{
+  "slug": "horisonten",
+  "name": "HORISONTEN",
+  "tagline": "Magasinet om at rejse i Europa",
+  "language": "da",
+  "audience": "Danskere der planlægger rejser i Europa — aktive rejsende, der gerne vil vandre, cykle eller løbe, men også bare nyde et sted uden for højsæsonen",
+  "sections": [
+    "Vandring",
+    "Cykling",
+    "Løb",
+    "Byliv",
+    "Strande",
+    "Kalenderen",
+    "Mad & Vin",
+    "Praktisk"
+  ],
+  "theme": {
+    "colors": {
+      "primary": "#123C46",
+      "accent": "#D97A4A",
+      "highlight": "#E8C468"
+    }
+  }
+}

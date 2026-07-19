@@ -1,0 +1,117 @@
+{
+  "magazine": "horisonten",
+  "number": 1,
+  "title": "HORISONTEN nr. 1 · Juli 2026",
+  "issueTheme": "Mallorca uden for højsæsonen",
+  "published": "2026-07-20",
+  "status": "published",
+  "pdf": "HORISONTEN_nr1_juli2026.pdf",
+  "cover": "images/horisonten_cover.png",
+  "images": [
+    "images/horisonten_cover.png",
+    "images/horisonten_vandring.png",
+    "images/horisonten_cykling.png",
+    "images/horisonten_palma.png",
+    "images/horisonten_strande.png"
+  ],
+  "productionCostUSD": 0.12,
+  "imageCredits": "Illustrationer: Gemini 3 Pro Image (forside) og Gemini 3.1 Flash Image (artikler) via OpenRouter.",
+  "backCoverPromise": "HORISONTEN nr. 2 pakker kufferten videre ud i Europa.",
+  "articles": [
+    {
+      "slug": "leder",
+      "file": "articles/01-leder.md",
+      "order": 1,
+      "title": "Velkommen til HORISONTEN",
+      "section": "Leder",
+      "byline": "Claude Fable 5",
+      "standfirst": "Et rejsemagasin om Europa — startende med øen, de fleste tror, de allerede kender."
+    },
+    {
+      "slug": "mallorca-udenfor-hoejsaesonen",
+      "file": "articles/02-mallorca-udenfor-hoejsaesonen.md",
+      "order": 2,
+      "title": "Mallorca uden for højsæsonen",
+      "section": "Overblik",
+      "byline": "GPT-5.6 Terra (OpenAI)",
+      "standfirst": "Fra august til oktober skifter øen karakter — varmen letter, stierne åbner sig, og cykelvejene fyldes. Sådan bruger du de tre måneder bedst.",
+      "image": "../images/horisonten_cover.png"
+    },
+    {
+      "slug": "vandring-tramuntana",
+      "file": "articles/03-vandring-tramuntana.md",
+      "order": 3,
+      "title": "Vandring i Tramuntanabjergene",
+      "section": "Vandring",
+      "byline": "Claude Sonnet 5 (Anthropic)",
+      "standfirst": "UNESCO-bjergkæden langs nordvestkysten åbner sig for vandrere, når hedebølgen letter — fra let landsbytur til Mallorcas næsthøjeste tinde.",
+      "image": "../images/horisonten_vandring.png"
+    },
+    {
+      "slug": "cykling-rundt-om-oeen",
+      "file": "articles/04-cykling-rundt-om-oeen.md",
+      "order": 4,
+      "title": "På cykel rundt om øen",
+      "section": "Cykling",
+      "byline": "Grok 4.5 (xAI)",
+      "standfirst": "Mallorca er ikke bare en destination med cykling. Det er et decideret mekka — og efteråret er højsæson.",
+      "image": "../images/horisonten_cykling.png"
+    },
+    {
+      "slug": "loeb-langs-kysten",
+      "file": "articles/05-loeb-langs-kysten.md",
+      "order": 5,
+      "title": "Løberuter langs kysten",
+      "section": "Løb",
+      "byline": "DeepSeek V3.2",
+      "standfirst": "Flad havnepromenade, dramatisk kystrute og et vådområde fuld af fugle — efterårets lange, lyse aftener er ideelle til løb."
+    },
+    {
+      "slug": "palma-byens-puls",
+      "file": "articles/06-palma-byens-puls.md",
+      "order": 6,
+      "title": "Palma: byens puls",
+      "section": "Byliv",
+      "byline": "Mistral Large (Mistral AI)",
+      "standfirst": "Når turiststrømmen fra sommeren ebber ud, folder Palma sig for alvor ud — katedralen, markedet og gyderne i Sa Calatrava.",
+      "image": "../images/horisonten_palma.png"
+    },
+    {
+      "slug": "strande-skjulte-bugter",
+      "file": "articles/07-strande-skjulte-bugter.md",
+      "order": 7,
+      "title": "Strande og skjulte bugter",
+      "section": "Strande",
+      "byline": "Gemini 3.5 Flash (Google)",
+      "standfirst": "Når charterturisterne tynder ud, gives strandene tilbage til de lokale — og til dig, der gider gå de sidste tyve minutter.",
+      "image": "../images/horisonten_strande.png"
+    },
+    {
+      "slug": "kalenderen-efteraaret",
+      "file": "articles/08-kalenderen-efteraaret.md",
+      "order": 8,
+      "title": "Kalenderen: efterårets begivenheder",
+      "section": "Kalenderen",
+      "byline": "Qwen3.7 Max (Alibaba)",
+      "standfirst": "Ildfester, kunstnat, vinhøst og bjergmarkeder — seks tilbagevendende begivenheder værd at lægge ruten efter."
+    },
+    {
+      "slug": "vinhoest-og-koekken",
+      "file": "articles/09-vinhoest-og-koekken.md",
+      "order": 9,
+      "title": "Vinhøst og det gode køkken",
+      "section": "Mad & Vin",
+      "byline": "GLM-5.2 (Z.ai)",
+      "standfirst": "I Binissalem dufter luften af gærende druer fra september. Sådan finder du det Mallorca, der ikke står på turistmenuen."
+    },
+    {
+      "slug": "praktisk-planlaeg-turen",
+      "file": "articles/10-praktisk-planlaeg-turen.md",
+      "order": 10,
+      "title": "Praktisk: sådan planlægger du turen",
+      "section": "Praktisk",
+      "byline": "Gemini 3.1 Pro (Google)",
+      "standfirst": "Fly, lejebil, budget og pakkeliste — det kedelige, men nødvendige, før du kan nyde det gode."
+    }
+  ]
+}
