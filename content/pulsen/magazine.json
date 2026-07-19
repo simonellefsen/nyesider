@@ -1,0 +1,21 @@
+{
+  "slug": "pulsen",
+  "name": "PULSEN",
+  "tagline": "Magasinet om sundhedssektoren, teknologi og mennesker",
+  "language": "da",
+  "audience": "Den danske sundhedssektor: klinikere, ergoterapeuter, sundheds-it og ledelse",
+  "sections": [
+    "AI i klinikken",
+    "Ergoterapi",
+    "Rygtebørsen",
+    "Vandrehistorier fra vagtstuen",
+    "Quiz & gåder"
+  ],
+  "theme": {
+    "colors": {
+      "primary": "#064253",
+      "accent": "#1A8A8C",
+      "highlight": "#C4A35A"
+    }
+  }
+}

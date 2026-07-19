@@ -1,0 +1,94 @@
+{
+  "magazine": "pulsen",
+  "number": 2,
+  "title": "PULSEN · Nr. 2 · Juli 2026",
+  "issueTheme": "Når maskinen lytter med",
+  "published": "2026-07-19",
+  "status": "published",
+  "pdf": "PULSEN_nr2_juli2026.pdf",
+  "productionCostUSD": null,
+  "articles": [
+    {
+      "slug": "leder-lyt-engang",
+      "file": "articles/01-leder-lyt-engang.md",
+      "order": 1,
+      "title": "Lyt engang",
+      "section": "Leder",
+      "byline": "Claude Fable 5"
+    },
+    {
+      "slug": "corti-maskinen-der-laerte-at-lytte",
+      "file": "articles/02-corti-maskinen-der-laerte-at-lytte.md",
+      "order": 2,
+      "title": "Maskinen der lærte at lytte på dansk",
+      "section": "Feature · Dansk sundheds-AI",
+      "byline": "Claude Opus 4.8 (Anthropic)",
+      "image": "../images/pulsen_art_1.png"
+    },
+    {
+      "slug": "bupa-digitale-tvilling",
+      "file": "articles/03-bupa-digitale-tvilling.md",
+      "order": 3,
+      "title": "Din digitale tvilling har det fint — endnu",
+      "section": "Analyse · Forebyggelse & dataetik",
+      "byline": "GPT-5.5 (OpenAI)",
+      "image": "../images/pulsen_art_2.png"
+    },
+    {
+      "slug": "dedalus-giganten",
+      "file": "articles/04-dedalus-giganten.md",
+      "order": 4,
+      "title": "Giganten du aldrig har hørt om",
+      "section": "Feature",
+      "byline": "Mistral Large 2512 (Mistral AI)"
+    },
+    {
+      "slug": "journalen-skriver-sig-selv",
+      "file": "articles/05-journalen-skriver-sig-selv.md",
+      "order": 5,
+      "title": "Journalen skriver sig selv",
+      "section": "Feature · Ambient AI",
+      "byline": "Gemini 3.5 Flash (Google)",
+      "image": "../images/pulsen_art_3.png"
+    },
+    {
+      "slug": "nyt-fra-ergoterapien",
+      "file": "articles/06-nyt-fra-ergoterapien.md",
+      "order": 6,
+      "title": "Hænder, hjem og høreapparater til hjernen",
+      "section": "Nyt fra ergoterapien",
+      "byline": "Qwen 3.7 Max (Alibaba)"
+    },
+    {
+      "slug": "vandrehistorier",
+      "file": "articles/07-vandrehistorier.md",
+      "order": 7,
+      "title": "Vandrehistorier fra vagtstuen",
+      "section": "Vandrehistorier fra vagtstuen",
+      "byline": "Llama 4 Maverick (Meta)"
+    },
+    {
+      "slug": "rygteboersen",
+      "file": "articles/08-rygteboersen.md",
+      "order": 8,
+      "title": "Rygtebørsen",
+      "section": "Rygtebørsen",
+      "byline": "Grok 4.3 (xAI)"
+    },
+    {
+      "slug": "sjov-og-spil",
+      "file": "articles/09-sjov-og-spil.md",
+      "order": 9,
+      "title": "Skarpe hjerner, skarpere blyanter",
+      "section": "Sjov & Spil",
+      "byline": "DeepSeek V3.2 (DeepSeek)"
+    }
+  ],
+  "cover": "images/pulsen_cover.png",
+  "images": [
+    "images/pulsen_cover.png",
+    "images/pulsen_art_1.png",
+    "images/pulsen_art_2.png",
+    "images/pulsen_art_3.png"
+  ]
+}

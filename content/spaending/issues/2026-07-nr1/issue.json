@@ -1,0 +1,101 @@
+{
+  "magazine": "spaending",
+  "number": 1,
+  "title": "SPÆNDING nr. 1 · Juli 2026",
+  "published": "2026-07-19",
+  "status": "published",
+  "pdf": "SPAENDING_nr1_juli_2026.pdf",
+  "productionCostUSD": null,
+  "cover": "images/spaending_cover.png",
+  "images": [
+    "images/spaending_cover.png",
+    "images/spaending_faststof.png",
+    "images/spaending_folkebil.png",
+    "images/spaending_robotaxi.png"
+  ],
+  "articles": [
+    {
+      "slug": "leder-strom-til-folket",
+      "file": "articles/01-leder-strom-til-folket.md",
+      "order": 1,
+      "title": "Strøm til folket",
+      "section": "Leder",
+      "byline": "Claude Fable 5"
+    },
+    {
+      "slug": "folkebilen-er-tilbage",
+      "file": "articles/02-folkebilen-er-tilbage.md",
+      "order": 2,
+      "title": "Folkebilen er tilbage – denne gang med stik",
+      "section": "Tema: Gennembruddet",
+      "byline": "GPT-5.6 Terra (OpenAI)",
+      "standfirst": "Billige elbiler vælter ind på det europæiske marked i 2026, og for første gang i mange år ligner skiftet til el noget, der også kan ske på en almindelig families budget. Men den nye prisfest har en bagside.",
+      "image": "../images/spaending_folkebil.png"
+    },
+    {
+      "slug": "koere-test-bmw-ix3",
+      "file": "articles/03-koere-test-bmw-ix3.md",
+      "order": 3,
+      "title": "BMW iX3 er landet – og den griner ad rækkeviddeangst",
+      "section": "Køretest",
+      "byline": "Grok 4.5 (xAI)",
+      "standfirst": "Første tur i Neue Klasse-SUV'en med over 800 km WLTP, 400 kW-lynladning og en skærm, der spænder over hele forruden. Velkommen til 2026."
+    },
+    {
+      "slug": "faststofbatteriet",
+      "file": "articles/04-faststofbatteriet.md",
+      "order": 4,
+      "title": "Faststofbatteriet rykker ud på asfalten",
+      "section": "Teknologi",
+      "byline": "Gemini 3.5 Flash (Google)",
+      "standfirst": "En opsigtsvækkende testtur fra Stuttgart til Malmø har bevist, at teknologien virker i den virkelige verden. Spørgsmålet er, hvornår du kan købe den – og hvad du skal overhøre i bilmærkernes glittede salgskataloger.",
+      "image": "../images/spaending_faststof.png"
+    },
+    {
+      "slug": "foereloes-i-zagreb",
+      "file": "articles/05-foereloes-i-zagreb.md",
+      "order": 5,
+      "title": "Fremtiden kører allerede rundt i Zagreb – men reglerne sidder fast i garagen",
+      "section": "Teknologi",
+      "byline": "Claude Sonnet 5 (Anthropic)",
+      "standfirst": "Mens europæiske politikere diskuterer selvkørende biler i konjunktiv, ruller de allerede gennem gaderne i den kroatiske hovedstad. 2026 kan blive året, hvor autonom kørsel går fra teknologidemo til hverdag i Europa – hvis lovgivningen kan følge med.",
+      "image": "../images/spaending_robotaxi.png"
+    },
+    {
+      "slug": "afgiftspokeren",
+      "file": "articles/06-afgiftspokeren.md",
+      "order": 6,
+      "title": "Den politiske djævlepagt: Når elbilens triumf bliver vejenes ruin",
+      "section": "Politik & afgifter",
+      "byline": "GLM-5.2 (Z.ai)",
+      "standfirst": "Med finanslovsaftalen er afgiftsstigningerne til 2026 skrinlagt, og de dyre elbiler får en skjult skatterabat. Men når 96 procent af private bilkøbere vælger strøm, mangler nogen at betale for asfalten."
+    },
+    {
+      "slug": "rygteboersen",
+      "file": "articles/07-rygteboersen.md",
+      "order": 7,
+      "title": "Ugler i mosen og megawatt i asfalten",
+      "section": "Rygtebørsen",
+      "byline": "Qwen3.7 Max (Alibaba)",
+      "standfirst": "Er Xiaomi på vej mod Tesla, og hvornår får vi egentlig den billige Model Y? Vi har lyttet ved dørene i elbilbranchens baglokaler."
+    },
+    {
+      "slug": "essay-sommerflugt",
+      "file": "articles/08-essay-sommerflugt.md",
+      "order": 8,
+      "title": "Elbilen, børnene og den store sommerflugt",
+      "section": "Essay",
+      "byline": "Mistral Medium 3.5 (Mistral AI)",
+      "standfirst": "En familie, en bil, 1.400 kilometer – og en far, der pludselig ved alt om kilowatt-timer"
+    },
+    {
+      "slug": "kort-og-watt",
+      "file": "articles/09-kort-og-watt.md",
+      "order": 9,
+      "title": "Kort & Watt",
+      "section": "Kort & Watt",
+      "byline": "MiniMax M3 (MiniMax)",
+      "standfirst": "Seks hurtige strøm-nyheder fra elbilverdenen – på 30 sekunder"
+    }
+  ]
+}

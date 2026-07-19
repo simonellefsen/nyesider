@@ -1,0 +1,20 @@
+# Secrets — never commit API keys
+.env
+.env.*
+!.env.example
+
+# Node / SvelteKit (web/)
+node_modules/
+web/.svelte-kit/
+web/build/
+web/.vercel/
+web/static/content/
+.vercel/
+.venv/
+
+# PDF extraction intermediates
+content/**/_extract/
+
+# OS
+.DS_Store
+content/**/images/p0*_img*.png

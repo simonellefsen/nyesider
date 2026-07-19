@@ -1,0 +1,21 @@
+{
+  "slug": "spaending",
+  "name": "SPÆNDING",
+  "tagline": "Magasinet om elbiler og teknologien bag — med europæisk fokus",
+  "language": "da",
+  "audience": "Danske og europæiske elbil-interesserede: købere, entusiaster og branchefolk",
+  "sections": [
+    "Køretest",
+    "Teknologi (batterier, selvkørsel, ladning)",
+    "Politik & afgifter",
+    "Rygtebørsen",
+    "Anekdoter"
+  ],
+  "theme": {
+    "colors": {
+      "primary": "#0E3A5C",
+      "accent": "#19B5C8",
+      "highlight": "#F2A03D"
+    }
+  }
+}
