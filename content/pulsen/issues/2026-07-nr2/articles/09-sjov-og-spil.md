@@ -7,7 +7,7 @@ order: 9
 
 ## Den store PULSEN-quiz
 
-Test din viden fra dette nummer. Vælg a, b eller c.
+Test din viden fra dette nummer. Vælg a, b eller c. Spørgsmålene bygger på artiklerne i dette nummer — se »Kilder & links« dér for de underliggende kilder.[^1]
 
 1. Hvor stor en andel af danske sundhedsprofessionelle bruger ifølge en YouGov-undersøgelse AI-værktøjer regelmæssigt?
    - a) 15 %
@@ -81,3 +81,5 @@ Sygeplejerskerne Anne, Bente og Cecilie skal dække vagterne Morgen, Dag og Afte
 Anne = Dag, Bente = Morgen, Cecilie = Aften
 
 </details>
+
+[^1]: Facit trækker på Corti-featuren (YouGov/HealthBench), Bupa-analysen, ergoterapi-klummen og MDR-tal fra Corti-artiklen. Latinkursus og vagtgåde er redaktionelle opgaver uden eksterne kilder.

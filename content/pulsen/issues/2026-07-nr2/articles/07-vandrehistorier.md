@@ -5,7 +5,7 @@ section: Vandrehistorier fra vagtstuen
 order: 7
 ---
 
-Redaktionen gør opmærksom på, at samtlige anekdoter er frit opfundne — men enhver lighed med teknologi, der har mødt virkeligheden, er næppe helt tilfældig.
+Redaktionen gør opmærksom på, at samtlige anekdoter er frit opfundne — men enhver lighed med teknologi, der har mødt virkeligheden, er næppe helt tilfældig.[^1]
 
 ### Kaffe-diagnosen
 
@@ -26,3 +26,5 @@ Viceværten Karl kiggede forbi med en klemt finger og blev af den nye AI-triage 
 ### Kat eller kage
 
 EPJ-systemet besluttede, at en patients »allergi over for katte« i virkeligheden betød »allergi over for kage«. Personalet opdagede fejlen, bestilte en grundig allergitest — og delte den kasserede kage i kaffestuen. AI'en forstår ikke altid konteksten. Det gør vi. Og det er trods alt det, der tæller.
+
+[^1]: Satire. Ingen af anekdoterne beskriver navngivne produkter, hospitaler eller personer. Formålet er at pege på velkendte fejltyper i talegenkendelse, triage og EPJ — ikke at dokumentere konkrete hændelser.
