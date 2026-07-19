@@ -9,15 +9,15 @@ image: ../images/spaending_folkebil.png
 
 Det begynder ikke længere i premiumklassen. Det begynder foran supermarkedet, ved rækkehusets parkeringsplads og i den tætte trafik på vej til arbejde, skole og fritidsaktiviteter. I 2026 er elbilen ikke bare blevet den biltype, flest danskere vælger. Den er også på vej til at blive bilen, langt flere faktisk har råd til at købe.
 
-Tallene fra årets første seks måneder fortæller, hvor hurtigt udviklingen går. Der blev indregistreret 80.704 nye elbiler i Danmark i første halvår af 2026, en fremgang på 41,2 procent sammenlignet med samme periode året før. Elbiler stod for 79,9 procent af alle nyregistreringer, mens de udgjorde hele 96 procent af de private bilkøb. Det er ikke længere et nichevalg. Elbilen er blevet standarden. Nu handler kampen om, hvem der kan gøre den tilgængelig for flest.
+Tallene fra årets første seks måneder fortæller, hvor hurtigt udviklingen går. Der blev indregistreret 80.704 nye elbiler i Danmark i første halvår af 2026, en fremgang på 41,2 procent sammenlignet med samme periode året før.[^1] Elbiler stod for 79,9 procent af alle nyregistreringer, mens de udgjorde hele 96 procent af de private bilkøb.[^2] Det er ikke længere et nichevalg. Elbilen er blevet standarden. Nu handler kampen om, hvem der kan gøre den tilgængelig for flest.
 
-Skoda Elroq er det klare billede på den nye virkelighed. Med 5.065 indregistreringer i første halvår er den Danmarks mest solgte bil, uanset drivmiddel. Det er en bil, der taler direkte til den danske families behov for plads, overskuelighed og et mærke, man kender. Men under Elroq-klassen er en endnu større bølge på vej.
+Skoda Elroq er det klare billede på den nye virkelighed.[^3] Med 5.065 indregistreringer i første halvår er den Danmarks mest solgte bil, uanset drivmiddel.[^4] Det er en bil, der taler direkte til den danske families behov for plads, overskuelighed og et mærke, man kender. Men under Elroq-klassen er en endnu større bølge på vej.
 
-Renault Twingo E-Tech er et af de tydeligste tegn. Den lille elbil kommer til en pris under 20.000 euro, med 82 hk, omkring 260 kilometers rækkevidde og 50 kW lynladning. Det er ikke en bil, der forsøger at være alt på én gang. Renault har bevidst holdt den enkel: mindre batteri, færre dyre løsninger og et format, der passer til byen og den daglige kørsel.
+Renault Twingo E-Tech er et af de tydeligste tegn.[^5] Den lille elbil kommer til en pris under 20.000 euro, med 82 hk, omkring 260 kilometers rækkevidde og 50 kW lynladning.[^6] Det er ikke en bil, der forsøger at være alt på én gang. Renault har bevidst holdt den enkel: mindre batteri, færre dyre løsninger og et format, der passer til byen og den daglige kørsel.
 
 For nogle vil 260 kilometer på papiret lyde som et kompromis. For andre er det præcis pointen. Langt de fleste hverdagskilometer køres ikke på tværs af Europa, men mellem hjemmet, arbejdspladsen, institutionen og indkøbene. Når bilen kan lade hjemme, på arbejdet eller ved de stadig flere offentlige ladere, får den praktiske rækkevidde en anden betydning end i en benzinbil.
 
-Volkswagen-koncernen går efter samme marked med VW ID Polo og Cupra Raval, som ventes fra omkring 190.000 kroner i Danmark. Fiat Panda og Citroën ë-C3 placerer sig under 25.000 euro med en opgivet rækkevidde omkring 320 kilometer. Samtidig presser Tesla prisbilledet med Model 3 Standard til 36.990 euro i Tyskland. FDM venter over 100 elektriske nyheder i 2026, heraf mindst 60 helt nye modeller. Det betyder flere karrosseriformer, flere størrelser og flere bud på, hvad en billig elbil skal kunne.
+Volkswagen-koncernen går efter samme marked med VW ID. Polo[^7] og Cupra Raval,[^8] som ventes fra omkring 190.000 kroner i Danmark. Fiat Grande Panda[^9] og Citroën ë-C3[^10] placerer sig under 25.000 euro med en opgivet rækkevidde omkring 320 kilometer. Samtidig presser Tesla prisbilledet med Model 3 Standard til 36.990 euro i Tyskland.[^11] FDM venter over 100 elektriske nyheder i 2026, heraf mindst 60 helt nye modeller.[^12] Det betyder flere karrosseriformer, flere størrelser og flere bud på, hvad en billig elbil skal kunne.
 
 Der er noget næsten gammeldags over idéen: En bil behøver ikke være et rullende teknologicenter for at løse sin vigtigste opgave. Den skal være til at betale, til at forstå og til at leve med. Det var folkebilens løfte dengang, og det kan blive dens løfte igen – nu med stik i stedet for tankdæksel.
 
@@ -27,3 +27,26 @@ Forhandlerne står også i en vanskelig position. De skal forklare kunderne, hvo
 
 Det er en konkurrence, der kan gavne danske familier. Men den kræver også, at køberne holder hovedet koldt. Den billigste bil er ikke altid den billigste at eje, og den længste rækkevidde er ikke altid den vigtigste. I 2026 er det afgørende måske ikke længere, om familien skal vælge el. For de fleste er spørgsmålet snarere, hvilken elbil der giver mening. Folkebilen er tilbage. Denne gang siger den ikke vroom, når den kører hjemmefra.
 
+[^1]: Mobility Denmark (tidl. De Danske Bilimportører), [statistik over nyregistreringer](https://mobility.dk/nyregistreringer/) for 1. jan. – 30. jun. 2026. Se også [Mobilsiden: Tal om elbiler](https://mobilsiden.dk/nyheder/opkoblede-biler/tal-om-elbiler-statistik-og-salgstal-i-danmark/).
+
+[^2]: Samme kilde som ovenfor: elbilandel af samlede personbil-nyregistreringer og af private køb i 1. halvår 2026. [Mobility Denmark](https://mobility.dk/nyregistreringer/).
+
+[^3]: [Škoda Elroq — officiel modelside](https://www.skoda.dk/modeller/elroq) (skoda.dk).
+
+[^4]: Salgstal 1. halvår 2026 via [Mobility Denmark](https://mobility.dk/nyregistreringer/); Elroq som Danmarks mest solgte bil uanset drivmiddel.
+
+[^5]: [Renault Twingo E-Tech electric](https://www.renault.dk/elbiler/twingo-e-tech-electric) (renault.dk) — europæisk folkebil i A-segmentet.
+
+[^6]: Renaults officielle lancering: fra 19.490 euro (Evolution, før nationale tilskud), 60 kW / 82 hk, op til ca. 263 km WLTP. [Renault media](https://media.renault.com/renault-twingo-e-tech-electric-from-eur19490/?lang=eng).
+
+[^7]: [Volkswagen ID. Polo](https://www.volkswagen.dk/) — kommende lille elbil i koncernens volumenprogram (forventet DK-pris ca. 190.000 kr.).
+
+[^8]: [Cupra Raval](https://www.cupraofficial.dk/) — Cupras by-elbil på samme platformfamilie.
+
+[^9]: [Fiat Grande Panda](https://www.fiat.dk/) — elektrisk bybil under 25.000 euro-klassen.
+
+[^10]: [Citroën ë-C3](https://www.citroen.dk/modeller/ny-e-c3.html) — kompakt el-SUV/hatch med opgivet rækkevidde omkring 320 km.
+
+[^11]: Tesla Model 3 Standard, tysk listepris som nævnt i artiklen; se [tesla.com/de_de/model3](https://www.tesla.com/de_de/model3) (priser ændres løbende).
+
+[^12]: FDM’s forventning til elektriske modelnyheder i 2026; se [fdm.dk](https://fdm.dk/) / bilstof om elbilmarkedet.

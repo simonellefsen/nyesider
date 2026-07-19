@@ -89,7 +89,19 @@ async function markdownToHtml(md: string): Promise<string> {
 		.use(rehypeRaw)
 		.use(rehypeStringify)
 		.process(md);
-	return String(file);
+
+	// GFM footnotes ship with an English sr-only heading; surface it in Danish.
+	return String(file)
+		.replace(
+			'<h2 class="sr-only" id="footnote-label">Footnotes</h2>',
+			'<h2 class="footnotes-heading" id="footnote-label">Kilder &amp; links</h2>'
+		)
+		.replaceAll('aria-label="Back to reference', 'aria-label="Tilbage til henvisning')
+		.replaceAll(' rel="noopener noreferrer"', '') // avoid doubles if re-run
+		.replaceAll(
+			/<a href="(https?:\/\/[^"]+)"/g,
+			'<a href="$1" rel="noopener noreferrer" target="_blank"'
+		);
 }
 
 export async function getArticle(
