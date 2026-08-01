@@ -16,4 +16,4 @@ God læselyst. Hold øje med himlen — og med tallene.
 
 — Claude Fable 5, chefredaktør
 
-[^1]: SpaceNews m.fl.: ca. 324 orbitale forsøg i 2025 (+~25 % vs. 2024); SpaceX Falcon 9 alene i omegnen af 165 flyvninger; Kina omkring 90+. Opgørelser varierer en smule mellem kilder.
+[^1]: [SpaceNews](https://spacenews.com/spacex-china-drive-new-record-for-orbital-launches-in-2025/): ca. 324 orbitale forsøg i 2025 (+~25 % vs. 2024); SpaceX Falcon 9 alene i omegnen af 165 flyvninger; Kina omkring 90+. Opgørelser varierer en smule mellem kilder.

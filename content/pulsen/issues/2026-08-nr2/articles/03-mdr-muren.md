@@ -28,6 +28,6 @@ Når en sælger lover "AI der letter journalen", er tre spørgsmål værd at sti
 
 MDR er ikke fjenden. Hastværk er. Den bedste innovation i sundhedsvæsenet er den, der både virker *og* kan forklares i et tilsyn.
 
-[^1]: Typiske omkostnings- og tidsestimater for MDR-certificering i healthtech-økosystemet; se Europa-Kommissionen om MDR og brancheanalyser.
+[^1]: Typiske omkostnings- og tidsestimater for MDR-certificering i healthtech-økosystemet; se [Europa-Kommissionen om MDR](https://health.ec.europa.eu/medical-devices-new-regulations_en) og brancheanalyser.
 
-[^2]: Corti accelerator (maj 2026) — omtalt i PULSEN nr. 1.
+[^2]: [Corti](https://www.corti.ai/) accelerator (maj 2026) — omtalt i PULSEN nr. 1.

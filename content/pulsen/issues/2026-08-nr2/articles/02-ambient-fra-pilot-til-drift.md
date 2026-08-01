@@ -26,10 +26,10 @@ Danske Regioner har afsat midler til at skalere automatiseret dokumentation frem
 
 Spørgsmålet til efteråret er ikke, om teknologien virker i en demo. Det er, om den virker en tirsdag formiddag i et fuldt ambulatorium, når netværket hakker, patienten er urolig, og der er tre udeblevne i køen.
 
-[^1]: Romion Health m.fl. om ansvarlig adoption af AI medical scribes i Europa (2026); leverandørpositionering som Class I.
+[^1]: Brancheanalyser om ansvarlig adoption af AI medical scribes i Europa (2026); leverandørpositionering som Class I (fx [Corti EU medical device registration](https://www.corti.ai/stories/corti-achieves-eu-medical-device-registration-strengthening-the-foundation-for-regulated-healthcare-ai)).
 
-[^2]: CAI-X / AID_NOTE — dansk vurdering af ambient scribe-løsninger på tværs af specialer.
+[^2]: [CAI-X / AID_NOTE](https://cai-x.com/projects/current-projects/aid_note-test-and-assessment-of-ambient-scribe-solutions) — dansk vurdering af ambient scribe-løsninger på tværs af specialer.
 
-[^3]: Corti FactsR og arbejde med klinisk præcision i ambient notes (selskabsmeddelelser 2025–26).
+[^3]: [Corti](https://www.corti.ai/) — FactsR og arbejde med klinisk præcision i ambient notes (selskabsmeddelelser 2025–26).
 
-[^4]: Danske Regioner — investeringer i automatiseret dokumentation; se regioner.dk og omtale i PULSEN nr. 1.
+[^4]: [Danske Regioner](https://www.regioner.dk/) — investeringer i automatiseret dokumentation; se også omtale i PULSEN nr. 1.

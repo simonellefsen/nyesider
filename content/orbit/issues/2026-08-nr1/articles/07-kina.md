@@ -25,4 +25,4 @@ Vi spekulerer ikke i hemmelige payloads. Vi tæller offentlige opsendelser, føl
 
 En raket på en ørkenpad er det visuelle modstykke til Falcon på Florida: to systemer, to politiske modeller, samme fysik.
 
-[^1]: SpaceNews / China launch recaps 2025 — ~92–93 orbital launches.
+[^1]: [SpaceNews](https://spacenews.com/spacex-china-drive-new-record-for-orbital-launches-in-2025/) / China launch recaps 2025 — ~92–93 orbital launches.

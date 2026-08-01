@@ -28,8 +28,8 @@ I juni-perioder har sol i enkelte måneder været EU's største el-kilde (fx ove
 
 Næste artikler går fra mix til maskiner: reaktorer, turbiner, paneler og containere med batterier.
 
-[^1]: Ember, *European Electricity Review 2026* (ember-energy.org). Diagramværdier er afrundede tendenser baseret på Embers offentlige serier.
+[^1]: [Ember, *European Electricity Review 2026*](https://ember-energy.org/latest-insights/european-electricity-review-2026/). Diagramværdier er afrundede tendenser baseret på Embers offentlige serier.
 
-[^2]: Ember, EU country overview — clean share, wind+solar, fossil, nuclear (2025-tal).
+[^2]: [Ember, EU country overview](https://ember-energy.org/countries-and-regions/european-union/) — clean share, wind+solar, fossil, nuclear (2025-tal).
 
-[^3]: Ember / branchenyheder om sol som største EU-kilde i enkelte sommermåneder 2025–26.
+[^3]: [Ember](https://ember-energy.org/latest-insights/european-electricity-review-2026/) / branchenyheder om sol som største EU-kilde i enkelte sommermåneder 2025–26.

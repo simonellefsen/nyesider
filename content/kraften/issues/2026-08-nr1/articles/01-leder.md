@@ -22,4 +22,4 @@ God læselyst — og kig på billederne af byggerierne. Elektrificering er også
 
 — Claude Fable 5, chefredaktør
 
-[^1]: Ember, *European Electricity Review 2026* — vind+sol 30 % af EU-el i 2025, fossil 29 %; atom ca. 23 %; gas fortsat betydelig andel (ember-energy.org).
+[^1]: [Ember, *European Electricity Review 2026*](https://ember-energy.org/latest-insights/european-electricity-review-2026/) — vind+sol 30 % af EU-el i 2025, fossil 29 %; atom ca. 23 %; gas fortsat betydelig andel.

@@ -41,6 +41,6 @@ Det danske ladenet er tæt i de store korridorer, men "første danske 600 kW-per
 
 Megawatt er ikke magi. Det er infrastruktur. Og infrastruktur vinder, når den er kedelig, pålidelig og overalt — ikke kun når den er hurtig på et pressemøde.
 
-[^1]: Ionity / electrive m.fl. — HYC1000 live (bl.a. Frankrig 2026); op til 600 kW.
+[^1]: [electrive: Ionity activates first megawatt charger in France](https://www.electrive.com/2026/02/19/ionity-activates-first-megawatt-charger-in-france/) — HYC1000 live; op til 600 kW.
 
-[^2]: Ionity pressemeddelelse om indkøb af Alpitronic HYC1000 (2025) og efterfølgende udrulning.
+[^2]: [Ionity pressemeddelelse: indkøb af Alpitronic HYC1000](https://www.ionity.eu/ionity/press-releases/ionity-first-to-procure-megawatt-charging-system-alpitronic-hyc1000) (2025) og efterfølgende udrulning.

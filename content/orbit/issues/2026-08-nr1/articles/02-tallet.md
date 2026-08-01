@@ -24,6 +24,6 @@ Det er ikke det samme som “succesrate 100 %”, ikke det samme som masse til 
 
 Næste artikler packer tallet ud: fabriksrytme i Texas/Florida, Kinas portefølje, og skrotstatistikken der følger med.
 
-[^1]: SpaceNews, jan. 2026 — global launch record 2025; SpaceX 165 Falcon 9; China ~92.
+[^1]: [SpaceNews, jan. 2026](https://spacenews.com/spacex-china-drive-new-record-for-orbital-launches-in-2025/) — global launch record 2025; SpaceX 165 Falcon 9; China ~92.
 
-[^2]: SpaceStatsOnline / Wikipedia 2025 in spaceflight — success/failure splits i samme størrelsesorden.
+[^2]: [SpaceStatsOnline 2025](https://spacestatsonline.com/launches/year/2025/) / [Wikipedia: 2025 in spaceflight](https://en.wikipedia.org/wiki/2025_in_spaceflight) — success/failure splits i samme størrelsesorden.

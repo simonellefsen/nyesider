@@ -30,6 +30,6 @@ Det er *ikke* det samme som "nu bliver elbiler dyre overnight". Det er en trappe
 
 Statskassen har opdaget, at 96 % private elbilkøb er en sejr for klimaet og en udfordring for provenuet. Den spænding forsvinder ikke i 2027. Den skifter bare form.
 
-[^1]: Finanslov / lovgivning om udskydelse af højere registreringsafgift for ZEV til efter 2026.
+[^1]: [Finansministeriet: Aftale om finansloven for 2026](https://fm.dk/media/qluaqowg/aftale-om-finansloven-for-2026.pdf) — udskydelse af højere registreringsafgift for ZEV til efter 2026.
 
-[^2]: European Alternative Fuels Observatory m.fl. — oversigt over danske BEV-afgiftssatser og indfasning.
+[^2]: [European Alternative Fuels Observatory — Denmark incentives](https://alternative-fuels-observatory.ec.europa.eu/transport-mode/road/denmark/incentives-legislations) — oversigt over danske BEV-afgiftssatser og indfasning.

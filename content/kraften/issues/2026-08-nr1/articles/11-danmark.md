@@ -22,10 +22,10 @@ I det samlede energiforbrug spiller **biomasse, olie og gas** stadig store rolle
 
 Regeringen har varslet kraftig lempelse af **elafgiften** for 2026–27 — et signal om, at elektrificering skal gøres billigere i drift for husholdninger.[^4] Power-to-X (PtX: strøm til brint og andre brændsler), havvind og net er de store anlægsposter. KRAFTEN vender tilbage med konkrete anlægsstatus, når Energistyrelsens årstal for 2025/26 er endelige.
 
-[^1]: IEA (International Energy Agency), country page Denmark — høj vindandel i el.
+[^1]: [IEA, Denmark country page](https://www.iea.org/countries/denmark) — høj vindandel i el.
 
-[^2]: Energistyrelsen — månedlige el- og energistatistikker (ens.dk). Diagram: afrundet tendens; officielle serier hos ENS.
+[^2]: [Energistyrelsen](https://ens.dk/) — månedlige el- og energistatistikker. Diagram: afrundet tendens; officielle serier hos ENS.
 
-[^3]: Eurostat / EEA (European Environment Agency) — renewables share of final energy vs. electricity.
+[^3]: [Eurostat](https://ec.europa.eu/eurostat/) / [EEA (European Environment Agency)](https://www.eea.europa.eu/) — renewables share of final energy vs. electricity.
 
-[^4]: Dansk medieomtale af elafgiftslempelse 2026–27 (regeringsudspil).
+[^4]: [Finansministeriet: Aftale om finansloven for 2026](https://fm.dk/media/qluaqowg/aftale-om-finansloven-for-2026.pdf) (bl.a. elafgift/elbil-afgifter).

@@ -25,6 +25,6 @@ Brancheomtale peger typisk på et europæisk prisleje, der kan lande et sted i *
 
 Hold øje. Køb ikke rygter. Og husk: en bil uden serviceværksted er bare en meget dyr telefon på hjul.
 
-[^1]: Euronews / Xiaomi-ledelse — europæisk indtog planlagt 2027; R&D i Tyskland.
+[^1]: [Euronews: Xiaomi's EV push ahead of planned 2027 Europe entry](https://www.euronews.com/next/2026/05/02/made-in-china-engineered-in-germany-inside-xiaomis-ev-push-ahead-of-planned-2027-europe-en) — R&D i Tyskland.
 
-[^2]: Omtale af SU7-prototyper testet i Europa (2026).
+[^2]: [Euronews](https://www.euronews.com/next/2026/05/02/made-in-china-engineered-in-germany-inside-xiaomis-ev-push-ahead-of-planned-2027-europe-en) m.fl. — omtale af europæisk forberedelse/SU7-prototyper (2026).

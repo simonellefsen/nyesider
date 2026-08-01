@@ -27,6 +27,6 @@ Hver ny batch er både en **kundemulighed** for launch providers og en **genopfy
 
 ORBIT dækker konstellationer som *industri*, ikke som moralprædiken. Men vi nægter at kalde 10.000 satellitter for “usynlig infrastruktur”. De er synlige i kataloget — og i telescopernes data.
 
-[^1]: planet4589.org / J. McDowell active sats stats (2026).
+[^1]: [Jonathan McDowell / planet4589.org — active sats stats](https://planet4589.org/space/stats/acdec.html) (2026).
 
-[^2]: ESA DISCOS / Space Environment statistics — tracked objects vs. active payloads.
+[^2]: [ESA DISCOS / Space Environment statistics](https://sdup.esoc.esa.int/discosweb/statistics/) — tracked objects vs. active payloads.

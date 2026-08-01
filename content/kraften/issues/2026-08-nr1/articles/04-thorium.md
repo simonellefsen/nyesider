@@ -48,8 +48,8 @@ Copenhagen Atomics er blandt de mest **hardware-orienterede** thorium-spor i Eur
 
 Thorium-historien er ikke død, og den er ikke færdig. Følg **PSI-demoen**, salt- og materialegodkendelser, og den første myndighed der tør give en rigtig licens. Indtil da: respekter prototypen — og lad være med at booke 20 euro/MWh ind i energisystemet, før reaktoren har et serienummer.
 
-[^1]: Copenhagen Atomics (copenhagenatomics.com) — MSR/thorium, masseproduktion, kædereaktion på Paul Scherrer Institut (PSI) pejlet til **2028**; kommerciel horisont tidligt **2030'erne**.
+[^1]: [Copenhagen Atomics](https://www.copenhagenatomics.com/) — MSR/thorium, masseproduktion, kædereaktion på [Paul Scherrer Institut (PSI)](https://www.psi.ch/) pejlet til **2028**; kommerciel horisont tidligt **2030'erne**.
 
-[^2]: *World Nuclear News*, 10. feb. 2026 — pumpetest-milepæl; 100 MWt containeriseret design; tungtvandsmodereret; mål om lav LCOE (selskabets tal).
+[^2]: [*World Nuclear News*, 10. feb. 2026](https://www.world-nuclear-news.org/articles/copenhagen-atomics-reaches-pump-testing-milestone) — pumpetest-milepæl; 100 MWt containeriseret design; tungtvandsmodereret; mål om lav LCOE (selskabets tal).
 
-[^3]: Copenhagen Atomics invest/roadmap og branchenyheder 2026 (bl.a. *Nuclear Engineering International*) — fertile salt 2026, LEU-subkritisk, 1 MWt-demo; tidligere mere optimistiske årstal er skubbet.
+[^3]: [Copenhagen Atomics](https://www.copenhagenatomics.com/) invest/roadmap og branchenyheder 2026 (bl.a. *Nuclear Engineering International*) — fertile salt 2026, LEU-subkritisk, 1 MWt-demo; tidligere mere optimistiske årstal er skubbet.

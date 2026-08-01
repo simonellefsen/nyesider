@@ -35,4 +35,4 @@ Elektrolyse, når der er overskud; brændsel eller råstof senere. Energitab er 
 
 Gaffeltrucks, transformere og åbne battericontainere er pointen: lagring er **byggeri og el-teknik**, ikke magi i skyen.
 
-[^1]: IEA og brancheopgørelser for grid-scale storage — diagram er afrundet tendens, ikke inventarliste.
+[^1]: [IEA, *Electricity 2026*](https://www.iea.org/reports/electricity-2026) og brancheopgørelser for grid-scale storage — diagram er afrundet tendens, ikke inventarliste.

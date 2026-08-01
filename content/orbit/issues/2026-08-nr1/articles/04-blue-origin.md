@@ -23,6 +23,6 @@ I slutningen af maj **2026** ødelagde en alvorlig anomali under en hotfire/inte
 
 Kadence er ikke kun SpaceX's ord. Det er også det ord, Blue Origin skal genvinde tillid med — én vellykket flyvning ad gangen.
 
-[^1]: Blue Origin missionssider — New Glenn-flyvninger 2026 (fx NG-3, april 2026).
+[^1]: [Blue Origin: New Glenn Mission NG-3](https://www.blueorigin.com/missions/ng-3) (april 2026).
 
-[^2]: Blue Origin / branchemeldier om maj 2026-anomalien og return-to-flight-planer.
+[^2]: [Blue Origin: New Glenn Return to Flight](https://www.blueorigin.com/news/new-glenn-return-to-flight) — maj 2026-anomalien og return-to-flight-planer.

@@ -27,6 +27,6 @@ Et jack-up-skib, der sænker en monopæl i bølgerne, er ikke "grøn illustratio
 
 Onshore er ofte billigere pr. MWh, men møder modstand, netkøer og lokalpolitik. Offshore er dyrere og mere vejrudsat i anlægsfasen — og leverer store, koncentrerede parker tæt på forbrugscentre, når kablerne er på plads.
 
-[^1]: IEA, *Electricity 2026* — EU wind/renewables outlook.
+[^1]: [IEA, *Electricity 2026*](https://www.iea.org/reports/electricity-2026) — EU wind/renewables outlook.
 
-[^2]: Ember, *European Electricity Review 2026*. Diagram: afrundet vindproduktion (TWh) for EU/USA/Kina baseret på Ember/IEA-tendenser.
+[^2]: [Ember, *European Electricity Review 2026*](https://ember-energy.org/latest-insights/european-electricity-review-2026/). Diagram: afrundet vindproduktion (TWh) for EU/USA/Kina baseret på Ember/IEA-tendenser.

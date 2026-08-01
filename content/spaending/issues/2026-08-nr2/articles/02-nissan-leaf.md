@@ -31,6 +31,6 @@ At Nissan lancerer fra København er ikke tilfældigt. Danmark er et af Europas 
 
 Vi vender tilbage med en længere bag-rattet-test, når pressede biler har kørt danske motorveje i sne — ikke kun i pressemeddelelser.
 
-[^1]: Nissan Europe — "All-new LEAF Hits the Road", København; op til 622 km, 150 kW, produktion Sunderland, levering fra foråret 2026.
+[^1]: [Nissan Europe — "All-new LEAF Hits the Road"](https://europe.nissannews.com/en-GB/releases/all-new-leaf-hits-the-road-boasting-elite-622km-range-top-level-technology-and-sleek-aerodynamic-design), København; op til 622 km, 150 kW, produktion Sunderland, levering fra foråret 2026.
 
-[^2]: Uafhængige tests/omtale af 2026 Leaf (bl.a. amerikanske reviews med EPA-rækkevidde i visse udstyrslinjer).
+[^2]: Uafhængige tests/omtale af 2026 Leaf (bl.a. [Car and Driver](https://www.caranddriver.com/nissan/leaf) med EPA-rækkevidde i visse udstyrslinjer).

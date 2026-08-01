@@ -23,6 +23,6 @@ order: 12
 
 Tallene er afrundede pejlemærker fra offentlige opgørelser. Brug dem til **sammenligning**, ikke som facit uden kildeopslag. Næste nummer graver dybere i ét land ad gangen.
 
-[^1]: Ember, *European Electricity Review 2026*.
+[^1]: [Ember, *European Electricity Review 2026*](https://ember-energy.org/latest-insights/european-electricity-review-2026/).
 
-[^2]: IEA, *Electricity 2026* — nuclear capacity additions outlook.
+[^2]: [IEA, *Electricity 2026* — Supply](https://www.iea.org/reports/electricity-2026/supply) (nuclear capacity additions outlook).

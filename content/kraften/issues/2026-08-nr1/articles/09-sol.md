@@ -27,6 +27,6 @@ Billedet af paneler, der monteres på stålrammer med pæle og kraner, minder om
 
 Netudbygning, batterier bag måleren og ved transformerstationen, og hvordan auktioner prissætter *ikke bare* kilowatt-timer, men *hvornår* de leveres.
 
-[^1]: Ember, *European Electricity Review 2026* (EU 369 TWh i 2025). Diagram: afrundede EU/USA/Kina-serier baseret på Ember/EIA-tendenser — pejlinger, ikke erstatning for årlige nationalregnskaber.
+[^1]: [Ember, *European Electricity Review 2026*](https://ember-energy.org/latest-insights/european-electricity-review-2026/) (EU 369 TWh i 2025). Diagram: afrundede EU/USA/Kina-serier baseret på Ember/EIA-tendenser — pejlinger, ikke erstatning for årlige nationalregnskaber.
 
-[^2]: Ember / Reuters m.fl. om sol som største EU-kilde i enkelte måneder.
+[^2]: [Ember](https://ember-energy.org/latest-insights/european-electricity-review-2026/) / branchenyheder om sol som største EU-kilde i enkelte måneder.

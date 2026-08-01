@@ -23,4 +23,4 @@ Frankrig forbliver rygraden i EU-atom. Storbritannien, Tjekkiet, Polen og flere 
 
 Når vi viser et reaktorbyggeri med kraner og armeringsjern, er pointen ikke nostalgi. Det er, at **kapacitet kræver kapital, tid og kompetence**. Levetidsforlængelse er ofte den hurtigste "nye" megawatt. Nybyggeri er den dyreste og langsomste — og stadig den eneste vej til stor, vejr-uafhængig baseload uden fossil.
 
-[^1]: IEA, *Electricity 2026* — Supply / nuclear outlook (iea.org).
+[^1]: [IEA, *Electricity 2026* — Supply](https://www.iea.org/reports/electricity-2026/supply) (nuclear outlook).

@@ -18,4 +18,4 @@ Den europæiske rumorganisation **ESA** (*European Space Agency*) kæmper for **
 
 Både NASA og ESA lever med, at SpaceX og snart flere kommercielle aktører ejer *tempoet*. Agenturernes opgave bliver at købe klogt, regulere fornuftigt og stadig levere missioner, markedet ikke vil finansiere alene.
 
-[^1]: Årlige launch-opgørelser — Europa med lavtocifret antal orbitale forsøg vs. USA/Kina.
+[^1]: [SpaceStatsOnline 2025](https://spacestatsonline.com/launches/year/2025/) / [SpaceNews](https://spacenews.com/spacex-china-drive-new-record-for-orbital-launches-in-2025/) — Europa med lavtocifret antal orbitale forsøg vs. USA/Kina.

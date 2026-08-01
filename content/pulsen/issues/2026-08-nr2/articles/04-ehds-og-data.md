@@ -20,6 +20,6 @@ Klinikere vil have beslutningsstøtte, der kender patienten. Borgere vil ikke ha
 
 For PULSENs læsere er den praktiske opfordring: når din organisation taler om "AI-strategi", så spørg også ind til **datastrategi**. Uden den er den smarte model bare en elegant måde at gætte på.
 
-[^1]: Europa-Kommissionen — Artificial Intelligence in healthcare / European Health Data Space.
+[^1]: [Europa-Kommissionen — European Health Data Space (EHDS)](https://health.ec.europa.eu/ehealth-digital-health-and-care/european-health-data-space_en); se også AI in healthcare-spor.
 
-[^2]: EU-opdateringer 2026 om EHDS-implementering (bl.a. implementation dialogue, juni 2026).
+[^2]: [EU Health — EHDS](https://health.ec.europa.eu/ehealth-digital-health-and-care/european-health-data-space_en) — opdateringer om implementering (bl.a. implementation dialogue, 2026).

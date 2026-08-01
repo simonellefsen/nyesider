@@ -18,4 +18,4 @@ Rusland lå i 2025-opgørelser omkring **15–17** orbitale opsendelser — lang
 
 Kadence er magt. Lav kadence er ikke nødvendigvis inkompetence — men det er et andet spil end 165 Falcon-flyvninger.
 
-[^1]: SpaceStatsOnline / årlige country tables 2025 — Russia ~17.
+[^1]: [SpaceStatsOnline 2025](https://spacestatsonline.com/launches/year/2025/) — årlige country tables; Russia ~17.

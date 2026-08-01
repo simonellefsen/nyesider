@@ -27,6 +27,6 @@ Starship forbliver den store variable: testflyvninger, iteration, og en ambition
 
 En booster der lander på et skib er ikke bare æstetik. Det er den maskine, der gjorde 165 flyvninger mulige. Uden genbrug er kadence en regning, ingen vil betale.
 
-[^1]: SpaceNews / launch trackers — Falcon 9 kadence 2025.
+[^1]: [SpaceNews](https://spacenews.com/spacex-china-drive-new-record-for-orbital-launches-in-2025/) / launch trackers — Falcon 9 kadence 2025.
 
-[^2]: BryceTech (2026-omtale) — SpaceX andel af launches og satellitter 2025.
+[^2]: [BryceTech](https://brycetech.com/reports) (2026-omtale via bl.a. [Via Satellite](https://www.satellitetoday.com/launch/2026/04/10/brycetech-report-shows-spacex-accounted-for-50-of-launches-in-2025/)) — SpaceX andel af launches og satellitter 2025.

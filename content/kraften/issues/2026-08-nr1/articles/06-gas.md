@@ -33,6 +33,6 @@ Prisvolatilitet, metanudslip i kæden, og en klimaprofil der ikke forsvinder, fo
 
 De hvide tanke og lastearmene er ikke baggrundsstøj. De er **infrastruktur**, der blev bygget i hast, koster penge, og binder handelspartnere. KRAFTEN viser dem, fordi forsyningssikkerhed har en adresse på et kort — ikke kun en kurve i et regneark.
 
-[^1]: Ember EU electricity data — fossil/gas shares; *European Electricity Review 2026*. Diagram afrundet efter Embers offentlige tendenser.
+[^1]: [Ember, *European Electricity Review 2026*](https://ember-energy.org/latest-insights/european-electricity-review-2026/) — fossil/gas-andele. Diagram afrundet efter Embers offentlige tendenser.
 
-[^2]: European Council infographic *Where does the EU's gas come from?* (2025-tal); Eurostat/Kommissionen om LNG vs. rør; Bruegel European natural gas imports.
+[^2]: [European Council: *Where does the EU's gas come from?*](https://www.consilium.europa.eu/en/infographics/where-does-the-eu-s-gas-come-from/) (2025-tal); [Eurostat — EU imports of energy products](https://ec.europa.eu/eurostat/statistics-explained/index.php?title=EU_imports_of_energy_products_-_latest_developments); [Bruegel](https://www.bruegel.org/) om europæisk gasimport.

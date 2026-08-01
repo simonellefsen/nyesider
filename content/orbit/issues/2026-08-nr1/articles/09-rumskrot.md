@@ -21,4 +21,4 @@ Retningslinjer for **deorbit** (styret nedtagning ud af kredsløb), **design-for
 
 ORBIT følger både opsendelserne *og* det, der bliver hængende.
 
-[^1]: ESA Space Debris Office / DISCOS web statistics 2026.
+[^1]: [ESA Space Debris Office / DISCOS web statistics](https://sdup.esoc.esa.int/discosweb/statistics/) (2026).

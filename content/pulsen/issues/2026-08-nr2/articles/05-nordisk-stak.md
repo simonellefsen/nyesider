@@ -22,4 +22,4 @@ Dedalus og andre store EPJ-/sundheds-it-spillere er stadig en del af landskabet 
 
 For klinikeren er den rigtige test simpel: sparer det tid *i dag*, uden at skabe tre nye skærme at logge ind på?
 
-[^1]: Debatten om "Nordic modularity" i healthcare-AI (bl.a. brancheanalyser 2026).
+[^1]: Debatten om "Nordic modularity" i healthcare-AI (bl.a. brancheanalyser 2026); se også [CAI-X](https://cai-x.com/) og nordiske sundheds-it-miljøer.
