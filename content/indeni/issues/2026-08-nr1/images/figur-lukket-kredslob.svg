@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+  <title id="title">Lukket kredsløb for aluminiumdåser</title>
+  <desc id="desc">Cirkulært procesdiagram fra brugt dåse over sortering, omsmeltning, valsning og dåsefabrik til ny dåse, med et markeret tabspunkt.</desc>
+  <style>.bg{fill:#f5f5ef}.ring{fill:none;stroke:#94c9be;stroke-width:34}.arrow{fill:#94c9be}.card{fill:#fff;stroke:#d8e1dd;stroke-width:2}.metal{fill:#bcc7c5;stroke:#58716d;stroke-width:3}.orange{fill:#e88d45}.ink{fill:#071c2c}text{font-family:Arial,sans-serif;fill:#071c2c}.h{font-size:29px;font-weight:bold}.s{font-size:18px;fill:#3c5654}.label{font-size:20px;font-weight:bold}</style>
+  <rect class="bg" width="1200" height="700" rx="24"/><text x="60" y="70" class="h">Hvornår er kredsløbet lukket?</text><text x="60" y="102" class="s">Materialet kan gå rundt igen; men det kræver, at det indsamles, sorteres og finder tilbage til den rigtige kvalitet.</text>
+  <circle cx="600" cy="374" r="215" class="ring"/><path class="arrow" d="M765 194l41 55-72 8z"/><path class="arrow" d="M820 440l-54 41-8-72z"/><path class="arrow" d="M435 555l-41-54 72-8z"/><path class="arrow" d="M380 308l54-41 8 72z"/>
+  <g transform="translate(515 128)"><rect class="card" width="170" height="86" rx="16"/><text x="24" y="37" class="label">1 · Brug</text><text x="24" y="65" class="s">tom drikkedåse</text></g>
+  <g transform="translate(804 286)"><rect class="card" width="190" height="86" rx="16"/><text x="24" y="37" class="label">2 · Indsamling</text><text x="24" y="65" class="s">pant eller anden sortering</text></g>
+  <g transform="translate(715 518)"><rect class="card" width="180" height="86" rx="16"/><text x="24" y="37" class="label">3 · Omsmeltning</text><text x="24" y="65" class="s">metal bliver til ingot</text></g>
+  <g transform="translate(305 518)"><rect class="card" width="180" height="86" rx="16"/><text x="24" y="37" class="label">4 · Valsning</text><text x="24" y="65" class="s">ny can stock-strimmel</text></g>
+  <g transform="translate(206 286)"><rect class="card" width="185" height="86" rx="16"/><text x="24" y="37" class="label">5 · Dåsefabrik</text><text x="24" y="65" class="s">krop, top, fyldning</text></g>
+  <g transform="translate(472 291)"><circle cx="128" cy="88" r="72" class="metal"/><path d="M88 64h80l-11 104q-2 18-29 18h-1q-27 0-29-18z" class="metal"/><ellipse cx="128" cy="64" rx="40" ry="12" fill="#e9efed" stroke="#58716d" stroke-width="3"/><text x="33" y="208" class="label">Ny dåse</text></g>
+  <path d="M872 391l84 56" stroke="#e88d45" stroke-width="7" stroke-dasharray="13 10"/><path d="M959 435l18 18-26 5z" class="orange"/><text x="878" y="485" class="label">Tabspunkt</text><text x="878" y="512" class="s">Hvis dåsen ikke samles ind,</text><text x="878" y="537" class="s">forlader metallet kæden.</text>
+  <text x="60" y="650" class="s">Forenklet principdiagram. En høj genanvendelsesgrad er ikke det samme som dokumentation for, at hvert batch bliver til nye dåser. INDENI · nr. 1</text>
+</svg>

@@ -1,0 +1,35 @@
+{
+  "magazine": "indeni",
+  "number": 1,
+  "title": "INDENI nr. 1 · August 2026",
+  "issueTheme": "Dåsen",
+  "published": "2026-08-01",
+  "status": "published",
+  "pdf": "INDENI_nr1_august2026.pdf",
+  "cover": "images/indeni_daasen_cover.png",
+  "coverCredit": "AI-genereret forside (OpenAI ImageGen) — geometrisk cutaway-illustration af drikkedåsens kredsløb",
+  "coverSource": "https://openai.com/",
+  "images": [
+    "images/indeni_daasen_cover.png",
+    "images/figur-daseformning.svg",
+    "images/figur-pantstrom.svg",
+    "images/figur-lukket-kredslob.svg"
+  ],
+  "productionCostUSD": 0.0102,
+  "imageCredits": "Forside genereret med OpenAI ImageGen. Tre procesdiagrammer er egenproduktion som SVG. Ingen logoer, mærker eller tredjepartsfotos — se images/SOURCES.md.",
+  "backCoverPromise": "Næste gang: hvad sker der egentlig, når fjernvarmen drejer på radiatoren?",
+  "articles": [
+    {"slug":"leder","file":"articles/01-leder.md","order":1,"title":"Det usynlige arbejde","section":"Leder","byline":"Claude Fable 5","standfirst":"En drikkedåse er ikke enkel. Den er bare blevet god til at skjule sit arbejde."},
+    {"slug":"fra-sten-til-strimmel","file":"articles/02-fra-sten-til-strimmel.md","order":2,"title":"Fra sten til strimmel","section":"Materialet","byline":"GPT-5.6 Terra (OpenAI)","standfirst":"Før dåsen kan trækkes i form, skal aluminium blive til en meget præcis rulle."},
+    {"slug":"to-stykker-og-en-fane","file":"articles/03-to-stykker-og-en-fane.md","order":3,"title":"To stykker og en fane","section":"Maskinen","byline":"Gemini 3.1 Pro (Google)","standfirst":"Kroppen er ét stykke metal. Toppen kommer senere."},
+    {"slug":"det-usynlige-lag","file":"articles/04-det-usynlige-lag.md","order":4,"title":"Det usynlige lag","section":"Brugen","byline":"Claude Sonnet 5 (Anthropic)","standfirst":"Mellem drikken og metallet ligger et tyndt lag, som får dåsen til at opføre sig roligt."},
+    {"slug":"pantens-lange-bane","file":"articles/05-pantens-lange-bane.md","order":5,"title":"Pantens lange bane","section":"Kredsløbet","byline":"GPT-5.6 Terra (OpenAI)","standfirst":"Automaten er begyndelsen på en logistisk kæde — ikke slutningen på historien."},
+    {"slug":"daarligt-eller-lukket-kredslob","file":"articles/06-daarligt-eller-lukket-kredslob.md","order":6,"title":"Dårligt — eller lukket — kredsløb?","section":"Kredsløbet","byline":"DeepSeek V3.2 (DeepSeek)","standfirst":"At smelte aluminium om er én ting. At holde det i en dåsekæde er en anden."},
+    {"slug":"europas-dasevaerksteder","file":"articles/07-europas-dasevaerksteder.md","order":7,"title":"Europas dåseværksteder","section":"Europa","byline":"Mistral Large (Mistral AI)","standfirst":"Tre anlæg viser, at en europæisk dåse ikke har én adresse."},
+    {"slug":"hvorfor-33-cl","file":"articles/08-hvorfor-33-cl.md","order":8,"title":"Hvorfor 33 cl?","section":"Brugen","byline":"Claude Fable 5","standfirst":"Størrelsen på hylden er et kompromis mellem hånd, maskine, transport og drik."},
+    {"slug":"tallet","file":"articles/09-tallet.md","order":9,"title":"Tallet: dåsen i fem mål","section":"Tallet","byline":"Claude Fable 5","standfirst":"Tal uden år og sted er pynt. Her er begge dele."},
+    {"slug":"diagrammet","file":"articles/10-diagrammet.md","order":10,"title":"Sådan læser du et procesdiagram","section":"Maskinen","byline":"Claude Fable 5","standfirst":"Pile fortæller ikke hele sandheden. Se efter, hvad der ikke kommer med."},
+    {"slug":"ordbogen","file":"articles/11-ordbogen.md","order":11,"title":"Ordbogen","section":"Ordbogen","byline":"Claude Fable 5","standfirst":"De ord, der gemmer sig i dåsens maskinrum."},
+    {"slug":"paastandskontoret","file":"articles/12-paastandskontoret.md","order":12,"title":"Påstandskontoret","section":"Påstandskontoret","byline":"Claude Fable 5","standfirst":"Tre hurtige svar på de sætninger, som lyder enklere, end de er."}
+  ]
+}

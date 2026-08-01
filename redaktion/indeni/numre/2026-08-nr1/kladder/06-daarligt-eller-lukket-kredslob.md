@@ -1,0 +1,15 @@
+# Kredsløbet: Fra brugt dåse til ny plade
+
+Når den tomme drikkedåse ryger i containeren, begynder dens egentlige rejse. For aluminiumsdåser er kredsløbet veldefineret, men ikke nødvendigt lukket. Processen starter med indsamling og sortering, hvor dåserne – ofte blandet med andre metaller – presses til store kubelignende baller. Disse transporteres til et omsmeltningsværk, hvor de i en schmelteovn bliver opvarmet til cirka 750°C. Aluminiet smelter og samler sig på bunden, mens lak, tryk og eventuelle urenringer driver ovenpå som et lag *slagge*, der skrabes af. Det flydende metal støbes derefter om til store blokke, kaldet *wirebars* eller *ingots*.
+
+Herfra går turen typisk til et valseværk. Blokkene opvarmes igen og passes gennem en serie af stålvalser, der langsomt flader og forlænger metallet til en tynd, lang båndstål-lignende plade. Denne plade – *aluminiumcoil* – er råmaterialet til dåsefabrikkerne, som stanser, former og lakrerer den til nye dåser.
+
+Men høj indsamlingsprocent er ikke det samme som et lukket kredsløb. Ifølge European Aluminium var den europæiske genanvendelsesgrad for drikkedåser i 2022 på 73 % [^1]. Dette tal måler andelen af dåser på markedet, der blev indsamlet til genanvendelse. Den samlede mængde genanvendt aluminium fra dåser i Europa udgjorde ca. 550.000 ton i 2022 [^1]. Det lyder imponerende, men ikke alt det indsamlede materiale vender tilbage som nye dåser. En del går til lavere kvalitetsanvendelser i bil- eller byggeindustrien, fordi metallet kan være for urenset eller blandet med andre aluminiumslegeringer. Dette skel mellem branchens aspirational *genanvendelsesmål* og det faktisk målte *materialeefterliv* er afgørende.
+
+Energibesparelsen er den stærkeste drivkraft. At fremstille aluminium fra brugte dåser kræver kun omkring 5 % af den energi, der skal til for at lave *primæraluminium* fra råstoffet bauxit [^2]. Alligevel forbliver der et spildpotentiale i selve logistikken: transportenergi, tab ved omsmeltning og kvalitetsnedbrydning af materialet.
+
+Kredsløbet knækker ofte i detaljen. Det dokumenterede, lukkede kredsløb mellem dåse til dåse er stadig en udfordring. Et EU-projekt som "Every Can Counts" fremhæver et mål på 90 % genanvendelse af dåser i Europa i 2030 [^3]. Sådanne mål skal dog altid læses sammen med rapporter om den faktiske *materialestrøm*, der viser, hvor stor en andel der virkelig ender i en ny dåse – og ikke blot i et andet produkt.
+
+[^1]: European Aluminium, "Recycling of aluminium beverage cans. 2022 data." (2023). https://www.european-aluminium.eu/policy-areas/circular-economy/recycling/
+[^2]: Aluminium för framtiden, "Energibesparing vid återvinning av aluminium." https://www.aluminium.se/energi-och-klimat/atervinning/
+[^3]: Every Can Counts, "Our mission: a 90% recycling rate for beverage cans in Europe by 2030." https://everycancounts.eu/our-mission/

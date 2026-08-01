@@ -1,0 +1,26 @@
+{
+  "slug": "indeni",
+  "name": "INDENI",
+  "tagline": "Magasinet om hvordan hverdagen bliver til",
+  "language": "da",
+  "audience": "Nysgerrige danskere, der vil forstå de materialer, processer, maskiner og kredsløb, som får hverdagsgenstande til at virke — uden at være ingeniører.",
+  "sections": [
+    "Leder",
+    "Turen",
+    "Materialet",
+    "Maskinen",
+    "Brugen",
+    "Kredsløbet",
+    "Europa",
+    "Tallet",
+    "Ordbogen",
+    "Påstandskontoret"
+  ],
+  "theme": {
+    "colors": {
+      "primary": "#071C2C",
+      "accent": "#94C9BE",
+      "highlight": "#E88D45"
+    }
+  }
+}
