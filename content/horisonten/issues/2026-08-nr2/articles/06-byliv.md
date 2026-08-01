@@ -4,6 +4,9 @@ standfirst: Den ene er en grøn by med palmefølelse i alperne. Den anden er vin
 byline: Mistral Large (Mistral AI)
 section: Byliv
 order: 6
+image: ../images/horisonten_byliv.png
+imageCredit: "AI-genereret rejsemotiv (Imagine / xAI)"
+imageSource: "https://x.ai/"
 ---
 
 ## Bolzano / Bozen

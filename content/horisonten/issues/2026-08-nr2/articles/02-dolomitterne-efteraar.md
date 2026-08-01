@@ -4,6 +4,9 @@ standfirst: Fra midten af september skifter Sydtyrol og Belluno-provinsen gear �
 byline: GPT-5.6 Terra (OpenAI)
 section: Overblik
 order: 2
+image: ../images/horisonten_overblik.png
+imageCredit: "AI-genereret rejsemotiv (Imagine / xAI)"
+imageSource: "https://x.ai/"
 ---
 
 Dolomitterne er ikke én by og én strand. Det er et net af dale, passer og plateauer mellem Bolzano/Bozen, Brunico/Bruneck, Cortina d'Ampezzo og de ladinske dale Val Gardena, Val Badia og Val di Fassa. Om sommeren er det et af Europas tættest befærdede naturområder. Om efteråret får det vejret tilbage.

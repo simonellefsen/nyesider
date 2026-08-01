@@ -4,6 +4,9 @@ standfirst: Flade dalbunde, stejle skyrunnerspor og en sø-runde der får pulsen
 byline: DeepSeek V3.2
 section: Løb
 order: 5
+image: ../images/horisonten_loeb.png
+imageCredit: "AI-genereret rejsemotiv (Imagine / xAI)"
+imageSource: "https://x.ai/"
 ---
 
 Du behøver ikke være skyrunner for at løbe i Dolomitterne. Du skal bare vælge terræn med omhu.

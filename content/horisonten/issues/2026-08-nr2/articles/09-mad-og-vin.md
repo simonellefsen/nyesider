@@ -4,6 +4,9 @@ standfirst: Sydtyrolsk køkken er alpint og middelhavsk på samme tallerken. Så
 byline: GLM-5.2 (Z.ai)
 section: Mad & Vin
 order: 9
+image: ../images/horisonten_mad.png
+imageCredit: "AI-genereret rejsemotiv (Imagine / xAI)"
+imageSource: "https://x.ai/"
 ---
 
 I Dolomitterne spiser du dig gennem en grænse, der for længst er blevet en styrke: østrigsk bjergmad møder italiensk lethed.

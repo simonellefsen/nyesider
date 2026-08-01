@@ -4,6 +4,9 @@ standfirst: Fra blide alper til de ikoniske Tre Cime — tre niveauer af Dolomit
 byline: Claude Sonnet 5 (Anthropic)
 section: Vandring
 order: 3
+image: ../images/horisonten_vandring.png
+imageCredit: "AI-genereret rejsemotiv (Imagine / xAI)"
+imageSource: "https://x.ai/"
 ---
 
 Dolomiternes berømte aftenlys — enrosadira — farver klippen rosa og rød, når solen går ned. Det er smukt på postkort. Det er endnu smukkere, når du selv har gået dig dertil.

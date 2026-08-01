@@ -4,6 +4,9 @@ standfirst: Dolomitterne er et af Europas helligste cykel-templer. Efteråret er
 byline: Grok 4.5 (xAI)
 section: Cykling
 order: 4
+image: ../images/horisonten_cykling.png
+imageCredit: "AI-genereret rejsemotiv (Imagine / xAI)"
+imageSource: "https://x.ai/"
 ---
 
 Der findes landeveje, og så findes der Sella, Pordoi, Gardena og Campolongo. De fire passer omkring Sellamassivet udgør den klassiske **Sellaronda** — en rundtur, der kan køres med eller mod uret, typisk 50–60 km med et sted mellem 1.600 og 2.000 højdemeter afhængigt af start og varianter.

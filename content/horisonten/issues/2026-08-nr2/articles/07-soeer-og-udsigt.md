@@ -4,6 +4,9 @@ standfirst: Mallorca havde bugter. Dolomitterne har spejle af vand og græsgange
 byline: Gemini 3.5 Flash (Google)
 section: Strande
 order: 7
+image: ../images/horisonten_soeer.png
+imageCredit: "AI-genereret rejsemotiv (Imagine / xAI)"
+imageSource: "https://x.ai/"
 ---
 
 Der er ingen Middelhavsbugter her. Der er noget andet: højtliggende søer, plateauer og udsigtspunkter, der fungerer som "pause-kapitlet" mellem de hårde dage.
