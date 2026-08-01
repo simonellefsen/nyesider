@@ -115,6 +115,7 @@ async function markdownToHtml(md: string): Promise<string> {
 		.process(md);
 
 	// GFM footnotes ship with an English sr-only heading; surface it in Danish.
+	// Wrap tables for horizontal scroll without breaking table layout.
 	return String(file)
 		.replace(
 			'<h2 class="sr-only" id="footnote-label">Footnotes</h2>',
@@ -125,7 +126,9 @@ async function markdownToHtml(md: string): Promise<string> {
 		.replaceAll(
 			/<a href="(https?:\/\/[^"]+)"/g,
 			'<a href="$1" rel="noopener noreferrer" target="_blank"'
-		);
+		)
+		.replace(/<table>/g, '<div class="table-wrap"><table>')
+		.replace(/<\/table>/g, '</table></div>');
 }
 
 const CHART_MARKER_RE = /\[CHART\s+([a-z0-9_-]+)\]/gi;

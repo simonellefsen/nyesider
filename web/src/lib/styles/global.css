@@ -1081,10 +1081,59 @@ a.mag-card:hover {
 	color: var(--mag-primary);
 }
 
-.prose pre,
-.prose table {
+.prose pre {
 	overflow-x: auto;
 	max-width: 100%;
+}
+
+/* Data tables — readable multi-column snapshots (not free-flow serif prose) */
+.prose .table-wrap {
+	overflow-x: auto;
+	-webkit-overflow-scrolling: touch;
+	margin: 1.25em 0 1.5em;
+	max-width: 100%;
+}
+
+.prose table {
+	width: 100%;
+	min-width: 28rem;
+	border-collapse: collapse;
+	font-family: var(--font-sans);
+	font-size: 0.9rem;
+	line-height: 1.45;
+	hyphens: manual;
+	-webkit-hyphens: manual;
+}
+
+.prose th,
+.prose td {
+	text-align: left;
+	vertical-align: top;
+	padding: 0.7em 1em 0.7em 0;
+	border-bottom: 1px solid var(--line);
+}
+
+.prose th {
+	font-size: 0.72rem;
+	font-weight: 700;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+	color: var(--ink-muted);
+	white-space: nowrap;
+	padding-bottom: 0.55em;
+}
+
+.prose td:first-child,
+.prose th:first-child {
+	white-space: nowrap;
+	font-weight: 650;
+	width: 6.5rem;
+	padding-right: 1.1em;
+	color: var(--mag-primary);
+}
+
+.prose tbody tr:last-child td {
+	border-bottom: none;
 }
 
 .prose strong {

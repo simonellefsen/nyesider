@@ -6,10 +6,17 @@
 
 	let { data } = $props();
 	const colors = $derived(data.magazine.colors);
+	// Skip drop caps on list/data sections and openers that start with a statistic
+	// (Tallet often leads with "30 %" / "324" — ::first-letter would split the number).
 	const useDropcap = $derived(
-		!['Leder', 'Rygtebørsen', 'Sjov & Spil', 'Kort & Watt', 'Vandrehistorier fra vagtstuen'].includes(
-			data.article.section
-		) && data.article.order > 1
+		![
+			'Leder',
+			'Tallet',
+			'Rygtebørsen',
+			'Sjov & Spil',
+			'Kort & Watt',
+			'Vandrehistorier fra vagtstuen'
+		].includes(data.article.section) && data.article.order > 1
 	);
 	const path = $derived(
 		`/${data.magazine.slug}/${data.issue.slug}/${data.article.slug}`
