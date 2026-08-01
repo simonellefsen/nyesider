@@ -19,6 +19,8 @@ Prioritér **anlæg, maskiner og byggeri** — ikke stock "grønt blad på panel
 
 Stil: dokumentarisk/editorial foto (AI-genereret OK, **ingen logoer, ingen læsbar skiltetekst**). Cover + 4–6 artikelbilleder pr. nummer.
 
+**Billedkilde er obligatorisk:** `imageCredit` + `imageSource` (URL) under hvert artikelbillede; cover: `coverCredit` + `coverSource`. Samlet liste i `images/SOURCES.md` og `imageCredits` i issue-kolofonen.
+
 ## Nr. 1 — udgivet
 
 14 artikler, cover + 5 feature-billeder (atom, vind, sol, lagring, gas). Kilder primært Ember EER 2026, IEA Electricity 2026, ENS/IEA DK.
