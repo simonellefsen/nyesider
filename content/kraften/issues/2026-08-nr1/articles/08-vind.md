@@ -7,9 +7,23 @@ order: 8
 image: ../images/kraften_vind.png
 imageCredit: "AI-genereret anlægsmotiv (Imagine / xAI)"
 imageSource: "https://x.ai/"
+charts:
+  - id: eu-vind-andel
+    title: "EU: vindandel af elproduktion (ca.)"
+    unit: "%"
+    note: "Afrundede andele; vind alene (onshore + offshore). Ember-baseret tendens."
+    source: Ember
+    sourceUrl: "https://ember-energy.org/"
+    years: [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025]
+    series:
+      - name: Vind (EU)
+        color: "#4EC9B0"
+        values: [9, 10, 11, 12, 13, 14, 14, 15, 17, 17, 18]
 ---
 
 Europa har gjort Nordsøen til et industrielt laboratorium for **offshore vind**. Turbinerne er blevet større, auktionerne mere komplekse, og forsinkelser mere synlige — men retningen er klar: mere havvind er indlejret i nationale planer fra Nordsø-landene og videre.
+
+[CHART eu-vind-andel]
 
 ### Hvad det Internationale Energiagentur forventer
 
@@ -25,4 +39,4 @@ Onshore er ofte billigere pr. MWh, men møder modstand, netkøer og lokalpolitik
 
 [^1]: IEA, *Electricity 2026* — EU wind/renewables outlook.
 
-[^2]: Ember, *European Electricity Review 2026*.
+[^2]: Ember, *European Electricity Review 2026*. Diagram: afrundet vindandel baseret på Ember-tendenser.

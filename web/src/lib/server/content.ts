@@ -7,7 +7,15 @@ import remarkGfm from 'remark-gfm';
 import remarkRehype from 'remark-rehype';
 import rehypeRaw from 'rehype-raw';
 import rehypeStringify from 'rehype-stringify';
-import type { Article, ArticleMeta, Issue, Magazine, MagazineSummary } from '$lib/types';
+import type {
+	Article,
+	ArticleBodyPart,
+	ArticleMeta,
+	ChartSpec,
+	Issue,
+	Magazine,
+	MagazineSummary
+} from '$lib/types';
 
 /**
  * Repo content/ directory (sibling of web/).
@@ -120,6 +128,75 @@ async function markdownToHtml(md: string): Promise<string> {
 		);
 }
 
+const CHART_MARKER_RE = /\[CHART\s+([a-z0-9_-]+)\]/gi;
+
+function normalizeCharts(raw: unknown): ChartSpec[] {
+	if (!Array.isArray(raw)) return [];
+	const out: ChartSpec[] = [];
+	for (const item of raw) {
+		if (!item || typeof item !== 'object') continue;
+		const c = item as Record<string, unknown>;
+		if (typeof c.id !== 'string' || !Array.isArray(c.years) || !Array.isArray(c.series)) {
+			continue;
+		}
+		const years = (c.years as unknown[]).map(Number).filter((n) => !Number.isNaN(n));
+		const series = (c.series as unknown[])
+			.map((s) => {
+				if (!s || typeof s !== 'object') return null;
+				const row = s as Record<string, unknown>;
+				if (typeof row.name !== 'string' || !Array.isArray(row.values)) return null;
+				return {
+					name: row.name,
+					values: (row.values as unknown[]).map(Number),
+					color: typeof row.color === 'string' ? row.color : undefined
+				};
+			})
+			.filter((s): s is NonNullable<typeof s> => !!s);
+		if (!years.length || !series.length) continue;
+		out.push({
+			id: c.id,
+			title: typeof c.title === 'string' ? c.title : c.id,
+			unit: typeof c.unit === 'string' ? c.unit : undefined,
+			note: typeof c.note === 'string' ? c.note : undefined,
+			source: typeof c.source === 'string' ? c.source : undefined,
+			sourceUrl: typeof c.sourceUrl === 'string' ? c.sourceUrl : undefined,
+			years,
+			series
+		});
+	}
+	return out;
+}
+
+async function buildBodyParts(md: string, charts: ChartSpec[]): Promise<ArticleBodyPart[]> {
+	const byId = new Map(charts.map((c) => [c.id, c]));
+	const parts: ArticleBodyPart[] = [];
+	let last = 0;
+	const re = new RegExp(CHART_MARKER_RE.source, 'gi');
+	let m: RegExpExecArray | null;
+	const matches: { index: number; end: number; id: string }[] = [];
+	while ((m = re.exec(md)) !== null) {
+		matches.push({ index: m.index, end: m.index + m[0].length, id: m[1] });
+	}
+	if (!matches.length) {
+		const html = await markdownToHtml(md);
+		return html.trim() ? [{ type: 'html', html }] : [];
+	}
+	for (const match of matches) {
+		const before = md.slice(last, match.index).trim();
+		if (before) {
+			parts.push({ type: 'html', html: await markdownToHtml(before) });
+		}
+		const chart = byId.get(match.id);
+		if (chart) parts.push({ type: 'chart', chart });
+		last = match.end;
+	}
+	const after = md.slice(last).trim();
+	if (after) {
+		parts.push({ type: 'html', html: await markdownToHtml(after) });
+	}
+	return parts;
+}
+
 export async function getArticle(
 	magazine: string,
 	issueSlug: string,
@@ -136,7 +213,13 @@ export async function getArticle(
 	const figureUrls = ((data.figures as string[] | undefined) ?? [])
 		.map((f) => articleImageUrl(magazine, issueSlug, f))
 		.filter((u): u is string => !!u);
-	const html = await markdownToHtml(resolveFigures(content, figureUrls));
+	const withFigures = resolveFigures(content, figureUrls);
+	const charts = normalizeCharts(data.charts);
+	const body = await buildBodyParts(withFigures, charts);
+	const html = body
+		.filter((p): p is { type: 'html'; html: string } => p.type === 'html')
+		.map((p) => p.html)
+		.join('\n');
 
 	return {
 		slug: meta.slug,
@@ -152,6 +235,8 @@ export async function getArticle(
 		imageSource:
 			(data.imageSource as string | undefined) ?? meta.imageSource,
 		html,
+		body,
+		charts,
 		bodyMarkdown: content
 	};
 }

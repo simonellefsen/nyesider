@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import Seo from '$lib/components/Seo.svelte';
+	import TrendChart from '$lib/components/TrendChart.svelte';
 	import { absoluteUrl, articleJsonLd, pageTitle } from '$lib/seo';
 
 	let { data } = $props();
@@ -148,9 +149,21 @@
 			</figure>
 		{/if}
 
-		<div class="prose" class:dropcap={useDropcap}>
-			{@html data.article.html}
-		</div>
+		{#if data.article.body?.length}
+			{#each data.article.body as part, i (i)}
+				{#if part.type === 'html'}
+					<div class="prose" class:dropcap={useDropcap && i === 0}>
+						{@html part.html}
+					</div>
+				{:else if part.type === 'chart'}
+					<TrendChart chart={part.chart} />
+				{/if}
+			{/each}
+		{:else}
+			<div class="prose" class:dropcap={useDropcap}>
+				{@html data.article.html}
+			</div>
+		{/if}
 
 		<nav class="article-nav" aria-label="Artikelnavigation">
 			{#if data.nav.prev}

@@ -70,6 +70,14 @@ Mål 12–16 artikler. Forslag:
 - Rum: skeln **operationel hardware** fra PowerPoint-koncepter.  
 - OpenRouter: **kun** `.env.kraften`. Imagine: `.env.local`.
 
+## Tendensdiagrammer (online)
+
+Hvor det giver mening (elmix, sol, vind, gas, landeandele): tilføj **multi-år-serie** i frontmatter `charts:` og indsæt `[CHART id]` i brødteksten.
+
+- Web: interaktivt (`TrendChart.svelte` — hover for årstal/værdi).  
+- Data: afrundede offentlige serier med `source` / `sourceUrl` + note om usikkerhed.  
+- Procent: `unit: "%"` og husreglen om ikke-brydende mellemrum i brødtekst.
+
 ## Praktisk
 
 - `python production/load_env.py kraften`  

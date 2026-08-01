@@ -4,6 +4,18 @@ standfirst: Høj vindandel i el, biomasse i varmen, olie i transporten — og en
 byline: Qwen3.7 Max (Alibaba)
 section: Lande & udbygning
 order: 11
+charts:
+  - id: dk-vind-andel
+    title: "Danmark: vindandel af elproduktion (ca.)"
+    unit: "%"
+    note: "Vejrår svinger kraftigt. Afrundede værdier; tjek Energistyrelsen for officielle serier."
+    source: "Energistyrelsen / IEA (tendens)"
+    sourceUrl: "https://ens.dk/"
+    years: [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025]
+    series:
+      - name: Vind (DK el)
+        color: "#4EC9B0"
+        values: [42, 38, 43, 41, 47, 48, 44, 55, 54, 56, 58]
 ---
 
 Danmark er casen, mange peger på, når de siger "det kan lade sig gøre". Og det kan — med nuancer.
@@ -11,6 +23,8 @@ Danmark er casen, mange peger på, når de siger "det kan lade sig gøre". Og de
 ### El: vind i front
 
 Det Internationale Energiagentur (IEA) og europæiske opgørelser placerer Danmark blandt landene med **højest vindandel i elproduktionen** (i flere opgørelser omkring eller over halvdelen af elproduktionen i nyere år; præcise tal skifter med vejrår — tjek Energistyrelsens månedstal).[^1][^2] Sol vokser fra et lavt udgangspunkt. Sammenkobling med nabolande er en del af forsyningssikkerheden: Danmark er ikke en ø i elsystemet.
+
+[CHART dk-vind-andel]
 
 ### Energi totalt: mere end el
 
@@ -22,7 +36,7 @@ Regeringen har varslet kraftig lempelse af **elafgiften** for 2026–27 — et s
 
 [^1]: IEA (International Energy Agency), country page Denmark — høj vindandel i el.
 
-[^2]: Energistyrelsen — månedlige el- og energistatistikker (ens.dk).
+[^2]: Energistyrelsen — månedlige el- og energistatistikker (ens.dk). Diagram: afrundet tendens; officielle serier hos ENS.
 
 [^3]: Eurostat / EEA (European Environment Agency) — renewables share of final energy vs. electricity.
 

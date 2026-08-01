@@ -865,6 +865,129 @@ a.mag-card:hover {
 	display: block;
 }
 
+/* Interactive multi-year trend charts (KRAFTEN online) */
+.trend-chart {
+	margin: 1.5rem 0 1.75rem;
+	padding: 1rem 1rem 0.85rem;
+	background: var(--bg-elevated);
+	border: 1px solid var(--line);
+	border-radius: 12px;
+	box-shadow: var(--shadow);
+}
+
+.trend-chart-title {
+	margin: 0 0 0.65rem;
+	font-size: 0.95rem;
+	font-weight: 700;
+	color: var(--ink);
+	font-style: normal;
+}
+
+.trend-chart-svg {
+	display: block;
+	width: 100%;
+	height: auto;
+	max-height: 320px;
+	cursor: crosshair;
+	touch-action: pan-y;
+}
+
+.trend-chart-svg .grid {
+	stroke: var(--line);
+	stroke-width: 1;
+}
+
+.trend-chart-svg .axis {
+	fill: var(--ink-muted);
+	font-size: 11px;
+	font-family: var(--font-sans);
+}
+
+.trend-chart-svg .line {
+	stroke-width: 2.5;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+}
+
+.trend-chart-svg .dot {
+	stroke: var(--bg-elevated);
+	stroke-width: 1.5;
+}
+
+.trend-chart-svg .hover-line {
+	stroke: var(--mag-accent);
+	stroke-width: 1;
+	stroke-dasharray: 4 3;
+	opacity: 0.7;
+}
+
+.trend-tooltip {
+	margin: 0.35rem 0 0.25rem;
+	padding: 0.5rem 0.65rem;
+	background: color-mix(in srgb, var(--mag-primary) 8%, var(--bg));
+	border-radius: 8px;
+	font-size: 0.85rem;
+	border: 1px solid var(--line);
+}
+
+.trend-tooltip strong {
+	font-weight: 700;
+}
+
+.trend-tooltip ul {
+	list-style: none;
+	margin: 0.35rem 0 0;
+	padding: 0;
+}
+
+.trend-tooltip li {
+	margin: 0.15rem 0;
+	display: flex;
+	align-items: center;
+	gap: 0.35rem;
+}
+
+.trend-hint {
+	margin: 0.35rem 0 0;
+	font-size: 0.8rem;
+	color: var(--ink-muted);
+}
+
+.trend-legend {
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.65rem 1rem;
+	margin: 0.65rem 0 0.35rem;
+	padding: 0;
+	font-size: 0.85rem;
+	color: var(--ink-muted);
+}
+
+.trend-legend li {
+	display: flex;
+	align-items: center;
+	gap: 0.35rem;
+}
+
+.trend-chart .swatch {
+	width: 0.65rem;
+	height: 0.65rem;
+	border-radius: 999px;
+	flex-shrink: 0;
+}
+
+.trend-source {
+	margin: 0.5rem 0 0;
+	font-size: 0.78rem;
+	color: var(--ink-muted);
+	line-height: 1.4;
+}
+
+.trend-source a {
+	color: var(--mag-accent);
+}
+
 /* Inline diagrams within article body — natural aspect ratio, never cropped */
 .prose-figure {
 	margin: 1.5rem 0;

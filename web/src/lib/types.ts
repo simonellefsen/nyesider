@@ -52,8 +52,33 @@ export type Issue = {
 	productionCostUSD?: number | null;
 };
 
+/** Interactive multi-year trend chart (KRAFTEN online, etc.). */
+export type ChartSeries = {
+	name: string;
+	values: number[];
+	color?: string;
+};
+
+export type ChartSpec = {
+	id: string;
+	title: string;
+	unit?: string;
+	note?: string;
+	source?: string;
+	sourceUrl?: string;
+	years: number[];
+	series: ChartSeries[];
+};
+
+export type ArticleBodyPart =
+	| { type: 'html'; html: string }
+	| { type: 'chart'; chart: ChartSpec };
+
 export type Article = ArticleMeta & {
 	html: string;
+	/** Segmented body for interactive charts; falls back to `html` only if empty. */
+	body: ArticleBodyPart[];
+	charts: ChartSpec[];
 	bodyMarkdown: string;
 };
 
