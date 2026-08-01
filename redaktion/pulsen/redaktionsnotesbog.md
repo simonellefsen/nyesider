@@ -26,3 +26,8 @@ Redaktionel backlog — opdateret efter nr. 2 (august 2026, "Når tasterne blive
 
 - Nr. 2 mangler PDF og cover-billeder.
 - Behold kilde-fodnoter på features.
+
+## Nabotitel: DOSIS
+
+[DOSIS](../dosis/redaktionsnotesbog.md) dækker **longevity, ernæring/kost, tilskud, proteser/implantater og research** for den nysgerrige krop — ikke sygehusdrift.  
+PULSEN = sektor, klinik, AI i journalen, ergoterapi. Krydslink når et emne skifter fra “patient i systemet” til “dosis i hverdagen” (eller omvendt).

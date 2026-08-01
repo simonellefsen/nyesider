@@ -1,0 +1,31 @@
+{
+  "slug": "dosis",
+  "name": "DOSIS",
+  "tagline": "Magasinet om levetid, krop og det vi putter i den",
+  "language": "da",
+  "audience": "Danskere, der vil forstå longevity, ernæring, tilskud, implantater og medicinsk forskning — uden guru-hype og uden at forveksle det med sygehus-politik",
+  "sections": [
+    "Leder",
+    "Gennembrud & forskning",
+    "Longevity & aldring",
+    "Ernæring & kost",
+    "Mad i praksis",
+    "Protein & træning",
+    "Vitaminer & mineraler",
+    "Tilskud, piller & væsker",
+    "Sikkerhed & bivirkninger",
+    "Proteser & implantater",
+    "Hardware til kroppen",
+    "Laboratoriet / tallet",
+    "Ordbogen",
+    "Rygtebørsen",
+    "Kryds (PULSEN m.fl.)"
+  ],
+  "theme": {
+    "colors": {
+      "primary": "#0A2E36",
+      "accent": "#2BB5A0",
+      "highlight": "#F0B429"
+    }
+  }
+}

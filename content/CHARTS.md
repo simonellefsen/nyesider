@@ -51,4 +51,5 @@ Rules:
 | **ORBIT** | Opsendelser/år, aktive satellitter (lande/aktører side om side) |
 | **SPÆNDING** | Elbilandel af nyregistreringer (DK + NO + EU + Kina + USA), volumen-gaps |
 | **KULTURBOXEN** | Sammenlignende pejlemærker (DK/EU vs. den behandlede kultur: arbejdstid, skat, priser …) |
+| **DOSIS** | Ernæring/tilskud/longevity-tal med gap (DK vs. andre, før/efter evidens — ærlig note) |
 | Andre | Kun hvis det styrker artiklen — ikke diagram for diagrammets skyld |
