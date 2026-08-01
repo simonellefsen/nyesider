@@ -1,4 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
-  <rect width="32" height="32" rx="6" fill="#0b1220"/>
-  <text x="16" y="21" text-anchor="middle" font-family="system-ui,sans-serif" font-size="14" font-weight="700" fill="#19B5C8">NS</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="Nye Sider">
+  <!-- Publisher mark: open magazine on dark field -->
+  <rect width="32" height="32" rx="7" fill="#0b1220"/>
+  <!-- Left page -->
+  <path fill="#19B5C8" d="M6.5 7.5h8.2c.7 0 1.3.6 1.3 1.3v14.4c0 .7-.6 1.3-1.3 1.3H6.5V7.5z"/>
+  <!-- Spine gap / fold shadow -->
+  <path fill="#0b1220" opacity=".35" d="M14.7 8.8h1.6v14.4h-1.6z"/>
+  <!-- Right page -->
+  <path fill="#E8C468" d="M17.3 7.5h8.2v17H17.3c-.7 0-1.3-.6-1.3-1.3V8.8c0-.7.6-1.3 1.3-1.3z"/>
+  <!-- Page lines (left) -->
+  <path stroke="#0b1220" stroke-opacity=".25" stroke-width="1" stroke-linecap="round" d="M8.2 12.2h5.2M8.2 15h5.2M8.2 17.8h3.6"/>
+  <!-- Page lines (right) -->
+  <path stroke="#0b1220" stroke-opacity=".2" stroke-width="1" stroke-linecap="round" d="M18.6 12.2h5.2M18.6 15h5.2M18.6 17.8h3.6"/>
 </svg>
