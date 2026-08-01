@@ -6,10 +6,12 @@
   "published": "2026-08-01",
   "status": "published",
   "pdf": null,
-  "cover": null,
-  "images": [],
+  "cover": "images/horisonten_cover.png",
+  "images": [
+    "images/horisonten_cover.png"
+  ],
   "productionCostUSD": null,
-  "imageCredits": null,
+  "imageCredits": "Forside: ny akvarel til Dolomitterne (Imagine).",
   "backCoverPromise": "HORISONTEN nr. 3 pakker kufferten videre — næste horisont venter i Europa.",
   "articles": [
     {

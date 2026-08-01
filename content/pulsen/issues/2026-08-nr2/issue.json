@@ -7,8 +7,10 @@
   "status": "published",
   "pdf": null,
   "productionCostUSD": null,
-  "cover": null,
-  "images": [],
+  "cover": "images/pulsen_cover.png",
+  "images": [
+    "images/pulsen_cover.png"
+  ],
   "backCoverPromise": "PULSEN nr. 3 følger op, når ambient-driften har talt — og når Corti næste gang rører ved børsen.",
   "articles": [
     {
@@ -89,5 +91,6 @@
       "section": "Sjov & Spil",
       "byline": "DeepSeek V3.2 (DeepSeek)"
     }
-  ]
+  ],
+  "imageCredits": "Forside: genbrugt nr. 1-illustration."
 }

@@ -7,8 +7,10 @@
   "status": "published",
   "pdf": null,
   "productionCostUSD": null,
-  "cover": null,
-  "images": [],
+  "cover": "images/spaending_cover.png",
+  "images": [
+    "images/spaending_cover.png"
+  ],
   "backCoverPromise": "SPÆNDING nr. 3 udkommer, når batterierne er ladet op — igen.",
   "articles": [
     {
@@ -89,5 +91,6 @@
       "section": "Kort & Watt",
       "byline": "MiniMax M3 (MiniMax)"
     }
-  ]
+  ],
+  "imageCredits": "Forside: ny illustration til nr. 2 (Imagine)."
 }

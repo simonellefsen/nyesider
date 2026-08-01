@@ -6,10 +6,12 @@
   "published": "2026-08-01",
   "status": "published",
   "pdf": null,
-  "cover": null,
-  "images": [],
+  "cover": "images/gnisten_cover.png",
+  "images": [
+    "images/gnisten_cover.png"
+  ],
   "productionCostUSD": null,
-  "imageCredits": null,
+  "imageCredits": "Forside: genbrugt nr. 1-illustration (Gemini 3 Pro Image via OpenRouter).",
   "backCoverPromise": "GNISTEN nr. 3 tænder næste gnist — med Gemini, lokale modeller og den første rigtige agent-arbejdsgang.",
   "articles": [
     {
