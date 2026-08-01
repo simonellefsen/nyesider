@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" role="img" aria-label="Jordens kredsløb: LEO, MEO og GEO">
+  <rect width="720" height="400" fill="#0B1020"/>
+  <!-- Earth -->
+  <circle cx="360" cy="200" r="52" fill="#1a3a5c" stroke="#5B8DEF" stroke-width="2"/>
+  <circle cx="360" cy="200" r="48" fill="#0d2840"/>
+  <text x="360" y="205" text-anchor="middle" fill="#E8B86D" font-family="system-ui,sans-serif" font-size="14" font-weight="700">Jorden</text>
+  <!-- LEO -->
+  <ellipse cx="360" cy="200" rx="110" ry="78" fill="none" stroke="#5B8DEF" stroke-width="2.5" opacity="0.95"/>
+  <text x="480" y="145" fill="#5B8DEF" font-family="system-ui,sans-serif" font-size="13" font-weight="700">LEO</text>
+  <text x="480" y="162" fill="#9ab4e8" font-family="system-ui,sans-serif" font-size="11">~160–2.000 km</text>
+  <text x="480" y="176" fill="#9ab4e8" font-family="system-ui,sans-serif" font-size="11">Starlink, ISS, mange obs</text>
+  <!-- MEO -->
+  <ellipse cx="360" cy="200" rx="175" ry="125" fill="none" stroke="#7ec8a3" stroke-width="2" opacity="0.9"/>
+  <text x="545" y="95" fill="#7ec8a3" font-family="system-ui,sans-serif" font-size="13" font-weight="700">MEO</text>
+  <text x="545" y="112" fill="#a8d4c0" font-family="system-ui,sans-serif" font-size="11">~2.000–35.000 km</text>
+  <text x="545" y="126" fill="#a8d4c0" font-family="system-ui,sans-serif" font-size="11">GPS, Galileo, GLONASS</text>
+  <!-- GEO -->
+  <ellipse cx="360" cy="200" rx="250" ry="175" fill="none" stroke="#E8B86D" stroke-width="2" opacity="0.95"/>
+  <text x="55" y="55" fill="#E8B86D" font-family="system-ui,sans-serif" font-size="13" font-weight="700">GEO</text>
+  <text x="55" y="72" fill="#e8d4a8" font-family="system-ui,sans-serif" font-size="11">~35.786 km</text>
+  <text x="55" y="86" fill="#e8d4a8" font-family="system-ui,sans-serif" font-size="11">TV, vejr, kommunikation</text>
+  <!-- small sats on LEO -->
+  <circle cx="450" cy="160" r="3" fill="#fff"/>
+  <circle cx="300" cy="130" r="3" fill="#fff"/>
+  <circle cx="270" cy="250" r="3" fill="#fff"/>
+  <circle cx="420" cy="270" r="3" fill="#fff"/>
+  <text x="360" y="385" text-anchor="middle" fill="#6a7a9a" font-family="system-ui,sans-serif" font-size="11">ORBIT · Sådan virker det — banetyper (skitseret, ikke i skala)</text>
+</svg>
