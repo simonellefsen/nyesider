@@ -26,7 +26,7 @@ I juni-perioder har sol i enkelte måneder været EU's største el-kilde (fx ove
 2. **Import og gas** er stadig europæiske realiteter.  
 3. **Nybyggeri** (atom, offshore, net, lagring) er det, der afgør, om kurven holder i 2030.
 
-Næste artikler går fra mix til maskiner: reaktorer, turbiner, paneler og containere med batterier.
+Næste artikler går fra mix til maskiner: [reaktorer](/kraften/2026-08-nr1/fission), [turbiner](/kraften/2026-08-nr1/vind), [paneler](/kraften/2026-08-nr1/sol) og [containere med batterier](/kraften/2026-08-nr1/lagring). Lande-snapshots: [Tallet & landene](/kraften/2026-08-nr1/lande).
 
 [^1]: [Ember, *European Electricity Review 2026*](https://ember-energy.org/latest-insights/european-electricity-review-2026/). Diagramværdier er afrundede tendenser baseret på Embers offentlige serier.
 

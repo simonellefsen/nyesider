@@ -25,7 +25,7 @@ Et jack-up-skib, der sænker en monopæl i bølgerne, er ikke "grøn illustratio
 
 ### Onshore vs. offshore
 
-Onshore er ofte billigere pr. MWh, men møder modstand, netkøer og lokalpolitik. Offshore er dyrere og mere vejrudsat i anlægsfasen — og leverer store, koncentrerede parker tæt på forbrugscentre, når kablerne er på plads.
+Onshore er ofte billigere pr. MWh, men møder modstand, netkøer og lokalpolitik. Offshore er dyrere og mere vejrudsat i anlægsfasen — og leverer store, koncentrerede parker tæt på forbrugscentre, når kablerne er på plads. For det danske vindlandskab se [Danmark: vindland med import og ambitioner](/kraften/2026-08-nr1/danmark).
 
 [^1]: [IEA, *Electricity 2026*](https://www.iea.org/reports/electricity-2026) — EU wind/renewables outlook.
 

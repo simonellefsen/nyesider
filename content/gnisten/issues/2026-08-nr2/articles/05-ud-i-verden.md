@@ -6,7 +6,7 @@ section: Værkstedet
 order: 5
 ---
 
-I nr. 1 fulgte vi en almindelig person, der byggede et lille projekt med Claude Code. Den følelse, der mangler bagefter, er den her: *men det lever kun hos mig*. Dette er guiden til den første publicering — uden at du behøver en server i kælderen eller et kreditkort, du er bange for.
+I nr. 1 fulgte vi en almindelig person, der [byggede et lille projekt](/gnisten/2026-07-nr1/mit-foerste-projekt) med Claude Code. Den følelse, der mangler bagefter, er den her: *men det lever kun hos mig*. Dette er guiden til den første publicering — uden at du behøver en server i kælderen eller et kreditkort, du er bange for.
 
 ## Hvad "at publicere" betyder
 

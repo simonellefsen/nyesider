@@ -17,7 +17,7 @@ Danmarks elbilandel af nyregistreringer er steget stejlt — og ligger nu i samm
 
 ### Tallene, der betyder noget
 
-Nissan taler om op til **622 km** rækkevidde efter den europæiske WLTP-norm (*Worldwide Harmonised Light Vehicle Test Procedure* — standardiseret laboratorietest) i topkonfigurationen og **150 kW** jævnstrøms-hurtigopladning (DC) — nok til at hente i omegnen af 400+ km på en halv time under gode forhold, ifølge fabrikken.[^1] Det er ikke BMW iX3-niveau fra nr. 1's køretest, men det er et niveau, hvor Leaf igen kan være *første bil* i husstanden, ikke kun bybil nummer to.
+Nissan taler om op til **622 km** rækkevidde efter den europæiske WLTP-norm (*Worldwide Harmonised Light Vehicle Test Procedure* — standardiseret laboratorietest) i topkonfigurationen og **150 kW** jævnstrøms-hurtigopladning (DC) — nok til at hente i omegnen af 400+ km på en halv time under gode forhold, ifølge fabrikken.[^1] Det er ikke [BMW iX3-niveau fra nr. 1's køretest](/spaending/2026-07-nr1/koere-test-bmw-ix3), men det er et niveau, hvor Leaf igen kan være *første bil* i husstanden, ikke kun bybil nummer to.
 
 Amerikanske tests taler om mere moderate EPA-tal (amerikansk testnorm) i visse trim — en påmindelse om, at WLTP-tal og virkelighed altid skal holdes adskilt.[^2] For danske købere er det vigtigste: forbrug, ladekurve, varmeapparat om vinteren, og hvad forhandleren faktisk har på lager.
 

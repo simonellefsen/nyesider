@@ -22,7 +22,7 @@ Hold musen over kurven (online) for årstal. Print gengiver ikke interaktivitete
 
 Det er ikke det samme som “succesrate 100 %”, ikke det samme som masse til Mars, og ikke det samme som bæredygtig LEO. Kadence uden debris-disciplin er bare hurtigere fyldning af banen.
 
-Næste artikler packer tallet ud: fabriksrytme i Texas/Florida, Kinas portefølje, og skrotstatistikken der følger med.
+Næste artikler packer tallet ud: [fabriksrytme i Texas/Florida](/orbit/2026-08-nr1/spacex), [Kinas portefølje](/orbit/2026-08-nr1/kina), og [skrotstatistikken](/orbit/2026-08-nr1/rumskrot) der følger med.
 
 [^1]: [SpaceNews, jan. 2026](https://spacenews.com/spacex-china-drive-new-record-for-orbital-launches-in-2025/) — global launch record 2025; SpaceX 165 Falcon 9; China ~92.
 

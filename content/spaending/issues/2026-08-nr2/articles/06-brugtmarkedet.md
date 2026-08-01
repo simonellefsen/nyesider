@@ -9,7 +9,7 @@ imageCredit: "AI-genereret motiv (Imagine / xAI)"
 imageSource: "https://x.ai/"
 ---
 
-I nr. 1 advarede vi om bagsiden af prisfesten: når fabrikssikre nyheder lander billigere end den bil, du købte for to år siden, rykker regnearket. I sommeren 2026 er det ikke længere en hypotese. Det er samtalen på brugtvognspladsen.
+I nr. 1 — se [folkebilen med stik](/spaending/2026-07-nr1/folkebilen-er-tilbage) — advarede vi om bagsiden af prisfesten: når fabrikssikre nyheder lander billigere end den bil, du købte for to år siden, rykker regnearket. I sommeren 2026 er det ikke længere en hypotese. Det er samtalen på brugtvognspladsen.
 
 [CHART eu-bev-salg]
 

@@ -10,7 +10,7 @@ I 2025 forsøgte verden i størrelsesordenen **320+ orbitale opsendelser** — e
 
 **ORBIT** er Nye Siders magasin om den virkelighed. Vi dækker SpaceX og Blue Origin; den amerikanske rumfartsadministration **NASA** (*National Aeronautics and Space Administration*); den europæiske rumorganisation **ESA** (*European Space Agency*); Indien, Kina og Rusland; satellitter og skrot; kalender og statistik; og *sådan virker det* med diagrammer. Vi er nøgterne: planlagt er ikke opsendt, PowerPoint er ikke payload.
 
-KRAFTEN tager watt og elektrificering — også i rummet. Her tager vi **missionen, raketten og kataloget**. Overlap er uundgåeligt; vinklen er forskellig.
+[KRAFTEN](/kraften/2026-08-nr1/leder) tager watt og elektrificering — også i rummet. Her tager vi **missionen, raketten og kataloget**. Overlap er uundgåeligt; vinklen er forskellig.
 
 God læselyst. Hold øje med himlen — og med tallene.
 

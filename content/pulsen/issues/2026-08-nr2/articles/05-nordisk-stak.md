@@ -18,7 +18,7 @@ Der var en tid, hvor drømmen hed "ét journalsystem til alle". Den tid er ikke 
 
 Moduler kræver disciplin: fælles datastandarder, klare ansvar, og en indkøbskultur der ikke bare køber det, sælgeren viser i demoen. Uden det ender man med ti "moduler", der ikke taler sammen — det gamle rod i ny indpakning.
 
-Dedalus og andre store EPJ-/sundheds-it-spillere er stadig en del af landskabet (vi mødte giganten i nr. 1). Spørgsmålet er, om de store platforme åbner sig nok til, at nordiske specialværktøjer kan bo *ved siden af* dem — eller om integrationen forbliver den dyre flaskehals.
+Dedalus og andre store EPJ-/sundheds-it-spillere er stadig en del af landskabet (vi mødte [giganten i nr. 1](/pulsen/2026-07-nr1/dedalus-giganten)). Spørgsmålet er, om de store platforme åbner sig nok til, at nordiske specialværktøjer kan bo *ved siden af* dem — eller om integrationen forbliver den dyre flaskehals.
 
 For klinikeren er den rigtige test simpel: sparer det tid *i dag*, uden at skabe tre nye skærme at logge ind på?
 

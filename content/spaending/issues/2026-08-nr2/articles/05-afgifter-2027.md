@@ -9,11 +9,11 @@ imageCredit: "AI-genereret motiv (Imagine / xAI)"
 imageSource: "https://x.ai/"
 ---
 
-I nr. 1 skrev vi om den politiske djævlepagt: elbilen vandt markedet, men nogen skal stadig betale for vejene. Finanslovsaftalen skød den planlagte stigning i registreringsafgiften for nulemissionsbiler — og holdt 2026 på det lavere, indfasede niveau (omkring **40 %**-sporet i stedet for det højere trin, der ellers truede).[^1]
+I nr. 1 skrev vi om [den politiske djævlepagt](/spaending/2026-07-nr1/afgiftspokeren): elbilen vandt markedet, men nogen skal stadig betale for vejene. Finanslovsaftalen skød den planlagte stigning i registreringsafgiften for nulemissionsbiler — og holdt 2026 på det lavere, indfasede niveau (omkring **40 %**-sporet i stedet for det højere trin, der ellers truede).[^1]
 
 [CHART dk-elbil-andel]
 
-Når Danmark nærmer sig norsk tempo — mens EU og især USA stadig hænger — er afgiftsprovenuet den politiske bagside af samme kurve: næsten alle private køb er el.
+Når Danmark nærmer sig norsk tempo — mens EU og især USA stadig hænger — er afgiftsprovenuet den politiske bagside af samme kurve: næsten alle private køb er el. (Elafgift og elmix er KRAFTENs spor — se [Danmark i KRAFTEN](/kraften/2026-08-nr1/danmark).)
 
 ### Hvad der er politisk aftalt i grove træk
 

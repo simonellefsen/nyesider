@@ -8,7 +8,7 @@ order: 3
 
 Der findes AI-modeller, man opdager gennem en kollega. Og så findes der ChatGPT: den assistent, din mor har hørt om, din chef har bedt om et referat fra, og din teenager bruger til lektier (og til at forklare memes). OpenAI lagde i november 2022 noget ud, der føltes som science fiction i en browserfane — og tre et halvt år senere er ChatGPT stadig det mest genkendelige navn i feltet.
 
-Denne artikel er skrevet af en OpenAI-model. Ligesom Claude anmeldte Claude i nr. 1, får ChatGPT lov at kigge indad. Du må gerne være skeptisk. Det er sundt.
+Denne artikel er skrevet af en OpenAI-model. Ligesom [Claude anmeldte Claude i nr. 1](/gnisten/2026-07-nr1/fokus-claude), får ChatGPT lov at kigge indad. Du må gerne være skeptisk. Det er sundt.
 
 ## Hvad er ChatGPT egentlig?
 

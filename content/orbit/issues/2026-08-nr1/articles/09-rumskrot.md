@@ -13,7 +13,7 @@ Miljøstatistik fra den europæiske rumorganisation ESA (*European Space Agency*
 
 ### Hvorfor det hører i nr. 1
 
-Fordi 324 opsendelser ikke kun er triumf. Hver opsendelse kan efterlade trin; hver konstellation øger trafikken; hver ASAT-test (historisk) har efterladt skyer. Kessler-scenariet er ikke en film — det er en risiko-model.
+Fordi [324 opsendelser](/orbit/2026-08-nr1/tallet) ikke kun er triumf. Hver opsendelse kan efterlade trin; hver [konstellation](/orbit/2026-08-nr1/satellitter) øger trafikken; hver ASAT-test (historisk) har efterladt skyer. Kessler-scenariet er ikke en film — det er en risiko-model.
 
 ### Hvad der gøres
 

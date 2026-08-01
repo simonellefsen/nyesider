@@ -17,7 +17,7 @@ I rapporten *Electricity 2026* forventer IEA, at global atomproduktion stiger me
 
 ### Europa: politik møder beton
 
-Frankrig forbliver rygraden i EU-atom. Storbritannien, Tjekkiet, Polen og flere østeuropæiske lande har politiske spor for ny kapacitet eller partnerskaber om små modulære reaktorer (SMR) — men **første beton** og **kommerciel drift** er to forskellige årstal. SMR er i 2026 stadig primært licens-, design- og demonstrationsfase i Vesten; dem, der lover "billig strøm om fem år", bør mødes med anlægsplaner, ikke pressemeddelelser.
+Frankrig forbliver rygraden i EU-atom. Storbritannien, Tjekkiet, Polen og flere østeuropæiske lande har politiske spor for ny kapacitet eller partnerskaber om små modulære reaktorer (SMR) — men **første beton** og **kommerciel drift** er to forskellige årstal. SMR er i 2026 stadig primært licens-, design- og demonstrationsfase i Vesten; dem, der lover "billig strøm om fem år", bør mødes med anlægsplaner, ikke pressemeddelelser. Det danske spor følger vi i [Thorium: Copenhagen Atomics](/kraften/2026-08-nr1/thorium).
 
 ### Hvad billedet minder om
 

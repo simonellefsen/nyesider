@@ -25,7 +25,7 @@ Billedet af paneler, der monteres på stålrammer med pæle og kraner, minder om
 
 ### Hvad KRAFTEN følger næste gang
 
-Netudbygning, batterier bag måleren og ved transformerstationen, og hvordan auktioner prissætter *ikke bare* kilowatt-timer, men *hvornår* de leveres.
+Netudbygning, [batterier og lagring](/kraften/2026-08-nr1/lagring) bag måleren og ved transformerstationen, og hvordan auktioner prissætter *ikke bare* kilowatt-timer, men *hvornår* de leveres.
 
 [^1]: [Ember, *European Electricity Review 2026*](https://ember-energy.org/latest-insights/european-electricity-review-2026/) (EU 369 TWh i 2025). Diagram: afrundede EU/USA/Kina-serier baseret på Ember/EIA-tendenser — pejlinger, ikke erstatning for årlige nationalregnskaber.
 

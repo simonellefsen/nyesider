@@ -28,6 +28,6 @@ Debatten er skiftet fra "hvornår løber vi tør" til "hvornår topper efterspø
 
 ### Overlap med el
 
-Elektrificering af bilparken (SPÆNDINGs domæne) er den største knap på olieefterspørgslen i rige lande. Men indtil last og luft er løst, er olie en energivare, ikke en historisk fodnote.
+Elektrificering af bilparken ([SPÆNDINGs](/spaending/2026-08-nr2/leder) domæne — se også [elbilandelen i markedsdata](/spaending/2026-08-nr2/nissan-leaf)) er den største knap på olieefterspørgslen i rige lande. Men indtil last og luft er løst, er olie en energivare, ikke en historisk fodnote.
 
 [^1]: [Eurostat — EU imports of energy products](https://ec.europa.eu/eurostat/statistics-explained/index.php?title=EU_imports_of_energy_products_-_latest_developments) (råolie/partners); afrundede andele i diagrammet er tendenser, ikke erstatning for den officielle tabel.

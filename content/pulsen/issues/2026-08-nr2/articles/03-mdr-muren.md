@@ -16,7 +16,7 @@ Formålet er reelt: medicinsk software kan skade, hvis den tager fejl. Klassific
 
 ### Hvem forsøger at sænke muren
 
-I nr. 1 skrev vi om Cortis accelerator for healthcare-AI-startups uden ejerandele.[^2] Den type initiativer er et svar på netop MDR-presset: del viden, del infrastruktur, del vejen ind i klinikken. Samtidig ser vi leverandører positionere ambient scribes som Class I — den "lettere" ende af spektret — hvor det er forsvarligt. Grænsen mellem "produktivitetsværktøj" og "medicinsk udstyr" er dog stadig et juridisk minefelt.
+I nr. 1 skrev vi om Cortis accelerator for healthcare-AI-startups uden ejerandele (se også [maskinen der lærte at lytte](/pulsen/2026-07-nr1/corti-maskinen-der-laerte-at-lytte)).[^2] Den type initiativer er et svar på netop MDR-presset: del viden, del infrastruktur, del vejen ind i klinikken. Samtidig ser vi leverandører positionere ambient scribes som Class I — den "lettere" ende af spektret — hvor det er forsvarligt. Grænsen mellem "produktivitetsværktøj" og "medicinsk udstyr" er dog stadig et juridisk minefelt.
 
 ### Hvad klinikere bør spørge om
 

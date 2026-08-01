@@ -6,7 +6,7 @@ section: Værkstedet
 order: 4
 ---
 
-I nr. 1's ordbog lovede vi at vende tilbage til **MCP**. Her er den forklaring, der mangler i de fleste "det er en protokol"-artikler.
+I [nr. 1's ordbog](/gnisten/2026-07-nr1/ordbogen) lovede vi at vende tilbage til **MCP**. Her er den forklaring, der mangler i de fleste "det er en protokol"-artikler.
 
 ## Problemet MCP løser
 

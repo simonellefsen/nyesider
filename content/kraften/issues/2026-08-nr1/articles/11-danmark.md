@@ -20,7 +20,7 @@ I det samlede energiforbrug spiller **biomasse, olie og gas** stadig store rolle
 
 ### Politik 2026
 
-Regeringen har varslet kraftig lempelse af **elafgiften** for 2026–27 — et signal om, at elektrificering skal gøres billigere i drift for husholdninger.[^4] Power-to-X (PtX: strøm til brint og andre brændsler), havvind og net er de store anlægsposter. KRAFTEN vender tilbage med konkrete anlægsstatus, når Energistyrelsens årstal for 2025/26 er endelige.
+Regeringen har varslet kraftig lempelse af **elafgiften** for 2026–27 — et signal om, at elektrificering skal gøres billigere i drift for husholdninger.[^4] (Bilafgiften er en anden historie — se SPÆNDING om [afgiftsfreden og 2027-trappen](/spaending/2026-08-nr2/afgifter-2027).) Power-to-X (PtX: strøm til brint og andre brændsler), [havvind](/kraften/2026-08-nr1/vind) og net er de store anlægsposter. KRAFTEN vender tilbage med konkrete anlægsstatus, når Energistyrelsens årstal for 2025/26 er endelige.
 
 [^1]: [IEA, Denmark country page](https://www.iea.org/countries/denmark) — høj vindandel i el.
 
