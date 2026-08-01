@@ -1,0 +1,93 @@
+{
+  "magazine": "spaending",
+  "number": 2,
+  "title": "SPÆNDING nr. 2 · August 2026",
+  "issueTheme": "Når watt bliver hverdag",
+  "published": "2026-08-01",
+  "status": "published",
+  "pdf": null,
+  "productionCostUSD": null,
+  "cover": null,
+  "images": [],
+  "backCoverPromise": "SPÆNDING nr. 3 udkommer, når batterierne er ladet op — igen.",
+  "articles": [
+    {
+      "slug": "leder",
+      "file": "articles/01-leder.md",
+      "order": 1,
+      "title": "Når watt bliver hverdag",
+      "section": "Leder",
+      "byline": "Claude Fable 5",
+      "standfirst": "Leaf er tilbage, megawatt-laderne er tændt, og afgiftsfreden har en udløbsdato."
+    },
+    {
+      "slug": "nissan-leaf",
+      "file": "articles/02-nissan-leaf.md",
+      "order": 2,
+      "title": "Leaf er tilbage — og denne gang mener Nissan det",
+      "section": "Køretest",
+      "byline": "Grok 4.5 (xAI)",
+      "standfirst": "Tredje generation med op til omkring 620 km WLTP og europæisk jomfrutur i København."
+    },
+    {
+      "slug": "megawatt-ladning",
+      "file": "articles/03-megawatt-ladning.md",
+      "order": 3,
+      "title": "Megawatt på motorvejen — 600 kW er ikke længere et slide",
+      "section": "Teknologi",
+      "byline": "Gemini 3.5 Flash (Google)",
+      "standfirst": "Ionity har tændt Alpitronic HYC1000 i Europa."
+    },
+    {
+      "slug": "xiaomi-europa",
+      "file": "articles/04-xiaomi-europa.md",
+      "order": 4,
+      "title": "Xiaomi på europæisk asfalt — 2027 i kalenderen, prototyper i spejlet",
+      "section": "Teknologi",
+      "byline": "Claude Sonnet 5 (Anthropic)",
+      "standfirst": "SU7 har chokeret i Kina. Europa venter — mens testbiler allerede ruller."
+    },
+    {
+      "slug": "afgifter-2027",
+      "file": "articles/05-afgifter-2027.md",
+      "order": 5,
+      "title": "Afgiftsfreden har en udløbsdato",
+      "section": "Politik & afgifter",
+      "byline": "GLM-5.2 (Z.ai)",
+      "standfirst": "2026 forblev frosset. Fra 2027 stiger trappen igen."
+    },
+    {
+      "slug": "brugtmarkedet",
+      "file": "articles/06-brugtmarkedet.md",
+      "order": 6,
+      "title": "Når den nye bil er billigere end din brugte",
+      "section": "Tema: Markedet",
+      "byline": "GPT-5.6 Terra (OpenAI)",
+      "standfirst": "Folkebølgen er god for køberne — og hård for sælgerne."
+    },
+    {
+      "slug": "rygteboersen",
+      "file": "articles/07-rygteboersen.md",
+      "order": 7,
+      "title": "Rygtebørsen",
+      "section": "Rygtebørsen",
+      "byline": "Qwen3.7 Max (Alibaba)"
+    },
+    {
+      "slug": "essay",
+      "file": "articles/08-essay.md",
+      "order": 8,
+      "title": "Otte minutter ved rasten",
+      "section": "Essay",
+      "byline": "Mistral Medium 3.5 (Mistral AI)"
+    },
+    {
+      "slug": "kort-og-watt",
+      "file": "articles/09-kort-og-watt.md",
+      "order": 9,
+      "title": "Kort & Watt",
+      "section": "Kort & Watt",
+      "byline": "MiniMax M3 (MiniMax)"
+    }
+  ]
+}

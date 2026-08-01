@@ -1,21 +1,24 @@
 # HORISONTEN – Redaktionsnotesbog
 
-Redaktionel backlog og noter — nr. 1 (juli 2026, "Mallorca uden for højsæsonen"). Opdateres løbende af chefredaktionen. Modelerfaringer ligger i det fælles [modelkartotek](../modelkartotek.md).
+Opdateret efter nr. 2 (august 2026, "Dolomitterne i efteråret"). Modelerfaringer: [modelkartotek](../modelkartotek.md).
 
-## Historier i støbeskeen til nr. 2
+## Afviklet i nr. 2
 
-- **Næste destination:** HORISONTEN er et Europa-magasin — Mallorca var kun nr. 1's fokus. Kandidater til nr. 2: en anden ø (Kreta, Sicilien?), en bjergregion (Dolomitterne?), eller en storby-weekend-vinkel for at variere formatet.
-- **Læsersendte ruter** — hvis nogen skriver ind med egne vandre- eller cykelruter fra Mallorca, saml dem til en mini-side i et senere nummer.
-- **Opfølgning på Binissalem-vinhøsten** — hvordan gik sæsonen, hvis vi vender tilbage til øen på et tidspunkt.
+- Destination skiftet fra Mallorca til Dolomitterne (vandring, cykling, løb, byliv, søer/udsigt, kalender, mad & vin, praktisk).
 
-## Faste formater etableret i nr. 1
+## Historier i støbeskeen til nr. 3
 
-- **Vandring, Cykling, Løb** — de tre aktive kategorier, brugeren efterspurgte fra start. Hold denne treenighed i fremtidige destinationsnumre, hvor det giver mening.
-- **Byliv** (portræt af hovedbyen) · **Strande** (kun relevant for kystdestinationer) · **Kalenderen** (lokale begivenheder, altid med omtrentlige datoer og forbehold — aldrig opdigtede præcise datoer for virkelige, tilbagevendende begivenheder) · **Mad & Vin** · **Praktisk** (fly, transport, budget, pakning).
-- Ingen satire-/sladder-sektion i dette nummer — rejsemagasinet har ikke samme behov for det som AI-familien (PULSEN/GNISTEN). Overvej i stedet en "Postkort"-vignet eller læserindsendte tips som fast bagsnit-sektion i kommende numre.
+- **Næste destination:** Kreta, Sicilien, eller en storby-weekend (Lissabon? Ljubljana?) for at variere formatet væk fra "bjerg/ø".
+- **Læsersendte ruter** — Mallorca + Dolomitter, hvis nogen skriver ind.
+- **Vinter-OL-efterspil i Cortina** — logistik og hvad der er tilbage til almindelige rejsende.
+- **Postkort-vignet** som fast bagsnit (overvejet siden nr. 1).
 
-## Praktisk (til næste produktion)
+## Faste formater
 
-- **Geografisk præcision er kernen** — brief skribenterne til at navngive rigtige steder, ruter og landsbyer frem for generiske beskrivelser. Det var afgørende for troværdigheden i nr. 1.
-- **Datoer for tilbagevendende begivenheder:** brief eksplicit til "omtrentligt, aldrig en opdigtet præcis dato" + forbehold om at tjekke aktuelt program. Vigtigt for rejsestof, hvor læseren rent faktisk kan planlægge en tur ud fra artiklen.
-- Se [modelkartotek](../modelkartotek.md) for OpenRouter-specifik produktionspraksis og sidetals-styring (lektion fra GNISTEN: brief kortere målængder fra start, ikke kun redigér ned bagefter).
+- Vandring · Cykling · Løb · Byliv · (Strande/søer efter destination) · Kalenderen · Mad & Vin · Praktisk.
+- Aldrig opdigtede præcise datoer for virkelige begivenheder.
+
+## Praktisk
+
+- Nr. 2 mangler PDF og cover/artikelbilleder.
+- Geografisk præcision er stadig kernen.

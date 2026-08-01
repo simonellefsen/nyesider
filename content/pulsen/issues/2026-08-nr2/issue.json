@@ -1,0 +1,93 @@
+{
+  "magazine": "pulsen",
+  "number": 2,
+  "title": "PULSEN · Nr. 2 · August 2026",
+  "issueTheme": "Når tasterne bliver stille",
+  "published": "2026-08-01",
+  "status": "published",
+  "pdf": null,
+  "productionCostUSD": null,
+  "cover": null,
+  "images": [],
+  "backCoverPromise": "PULSEN nr. 3 følger op, når ambient-driften har talt — og når Corti næste gang rører ved børsen.",
+  "articles": [
+    {
+      "slug": "leder",
+      "file": "articles/01-leder.md",
+      "order": 1,
+      "title": "Når tasterne bliver stille",
+      "section": "Leder",
+      "byline": "Claude Fable 5",
+      "standfirst": "Ambient AI er på vej fra pilot til hverdag."
+    },
+    {
+      "slug": "ambient-fra-pilot-til-drift",
+      "file": "articles/02-ambient-fra-pilot-til-drift.md",
+      "order": 2,
+      "title": "Fra pilot til stuegang — ambient AI i 2026",
+      "section": "Feature · Ambient AI",
+      "byline": "Claude Opus 4.8 (Anthropic)",
+      "standfirst": "AI-scribes ruller ud i europæisk klinik. Danmark tester, og dokumentationsbyrden er endelig til forhandling."
+    },
+    {
+      "slug": "mdr-muren",
+      "file": "articles/03-mdr-muren.md",
+      "order": 3,
+      "title": "MDR-muren — hvorfor gode idéer dør i venteværelset",
+      "section": "Analyse · Regulering",
+      "byline": "Mistral Large (Mistral AI)",
+      "standfirst": "EU's regler for medicinsk udstyr koster tid og penge, de fleste startups ikke har."
+    },
+    {
+      "slug": "ehds-og-data",
+      "file": "articles/04-ehds-og-data.md",
+      "order": 4,
+      "title": "EHDS — når patientdata skal kunne rejse",
+      "section": "Analyse · Data & politik",
+      "byline": "GPT-5.5 (OpenAI)",
+      "standfirst": "Det europæiske sundhedsdataområde: deling til behandling og forskning. Tillid er den knappe ressource."
+    },
+    {
+      "slug": "nordisk-stak",
+      "file": "articles/05-nordisk-stak.md",
+      "order": 5,
+      "title": "Den nordiske stak — modul for modul",
+      "section": "Feature · Systemer",
+      "byline": "Gemini 3.5 Flash (Google)",
+      "standfirst": "I stedet for ét kæmpesystem forsøger Norden at bygge sundheds-AI som legoklodser."
+    },
+    {
+      "slug": "ergoterapi-2035",
+      "file": "articles/06-ergoterapi-2035.md",
+      "order": 6,
+      "title": "Nyt fra ergoterapien: 2035-bomben er allerede tændt",
+      "section": "Nyt fra ergoterapien",
+      "byline": "Qwen 3.7 Max (Alibaba)",
+      "standfirst": "Flere 80+-årige, pressede kommuner og en faggruppe midt mellem hjælpemidler, hjem og teknologi."
+    },
+    {
+      "slug": "vandrehistorier",
+      "file": "articles/07-vandrehistorier.md",
+      "order": 7,
+      "title": "Vandrehistorier fra vagtstuen",
+      "section": "Vandrehistorier fra vagtstuen",
+      "byline": "Llama 4 Maverick (Meta)"
+    },
+    {
+      "slug": "rygteboersen",
+      "file": "articles/08-rygteboersen.md",
+      "order": 8,
+      "title": "Rygtebørsen",
+      "section": "Rygtebørsen",
+      "byline": "Grok 4.3 (xAI)"
+    },
+    {
+      "slug": "sjov-og-spil",
+      "file": "articles/09-sjov-og-spil.md",
+      "order": 9,
+      "title": "Skarpe hjerner, stille taster",
+      "section": "Sjov & Spil",
+      "byline": "DeepSeek V3.2 (DeepSeek)"
+    }
+  ]
+}

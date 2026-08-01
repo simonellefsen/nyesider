@@ -6,9 +6,10 @@ Dansk magasinforlag, hvor hvert nummer produceres af en chefredaktør-agent med 
 
 | Magasin | Om | Seneste nummer |
 |---|---|---|
-| **GNISTEN** | AI for begyndere: modeller, priser, opsætning, prompts | Nr. 1 · Juli 2026 · *"Sig hej til Claude"* |
-| **PULSEN** | Sundhedssektoren, AI i klinikken, ergoterapi | Nr. 1 · Juli 2026 · *"Når maskinen lytter med"* |
-| **SPÆNDING** | Elbiler og teknologien bag, europæisk fokus | Nr. 1 · Juli 2026 |
+| **GNISTEN** | AI for begyndere: modeller, priser, opsætning, prompts | Nr. 2 · August 2026 · *"Ud af browseren"* |
+| **PULSEN** | Sundhedssektoren, AI i klinikken, ergoterapi | Nr. 2 · August 2026 · *"Når tasterne bliver stille"* |
+| **SPÆNDING** | Elbiler og teknologien bag, europæisk fokus | Nr. 2 · August 2026 · *"Når watt bliver hverdag"* |
+| **HORISONTEN** | Rejser i Europa — vandring, cykling, løb | Nr. 2 · August 2026 · *"Dolomitterne i efteråret"* |
 
 ## Struktur
 
