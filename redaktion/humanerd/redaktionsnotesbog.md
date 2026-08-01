@@ -28,6 +28,7 @@ Vi bruger "fysisk AI" som en forklaring, ikke som en magisk etiket: en robot ska
 - **(2026-08) Dronen som robot** — inspektion, lager, landbrug og beredskab; skeln mellem fjernstyring, assisteret flyvning og autonomi.
 - **(2026-08) Robotter i krig** — militære anvendelser, dual use, menneskelig kontrol, fejlrisiko og dokumentation. Må ikke behandles som gadgetstof eller produktpromovering; brug primærkilder, folkeretlige rammer og uafhængig rapportering.
 - **(2026-08) Boston Dynamics efter videoen** — fra mobilitet til konkret arbejdscelle, med den samme pilot→drift-målestok som nr. 1.
+- **(2026-08) Humanoiden på scenen** — robotter i koncert, teater, forlystelse, tv og brandaktivering. Skeln mellem autonom robot, teleoperation, forudprogrammeret koreografi og visuel illusion; undersøg performerarbejde, publikumsforventninger, samtykke, sikkerhedsafstande, vedligehold og retten til ikke at blive filmet eller manipuleret. Ingen reklameforklædt teknologihype.
 
 ## Løfter til læseren
 

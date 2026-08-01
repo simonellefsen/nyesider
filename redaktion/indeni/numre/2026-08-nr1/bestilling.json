@@ -118,12 +118,14 @@
       "brief": {
         "angle": "Forklar hvorfor drikkevareemballage har indvendig coating, hvad fyldelinjen gør, og hvorfor dåsen først lukkes efter fyldning. Undgå sundhedspåstande uden dokumentation.",
         "words": [
-          300,
-          420
+          500,
+          650
         ],
-        "mustCite": 2,
+        "mustCite": 5,
         "mustNumber": [
           "barriere mellem drik og metal",
+          "hvordan coatingen afhænger af drik og proces",
+          "EU's BPA-regler og EFSA's 2023-vurdering",
           "låg påsættes efter fyldning"
         ],
         "format": "feature"
@@ -141,8 +143,8 @@
       "verdict": {
         "status": "accepted-after-edit",
         "checkedAt": "2026-08-01",
-        "citations": 2,
-        "editorNote": "Færdigredigeret med forsigtige, kildebelagte formuleringer."
+        "citations": 5,
+        "editorNote": "Opdateret 2026-08-01: materialegrupper, drikspecifik validering og BPA-regler er udbygget med EU-, EFSA- og fagfællebedømt kildegrundlag."
       }
     },
     {

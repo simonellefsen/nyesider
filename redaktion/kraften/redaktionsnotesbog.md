@@ -68,12 +68,14 @@ Mål 12–16 artikler. Forslag:
 12. **Lande-snapshot-tabel** — 6 lande, samme elektrificerings-indikatorer  
 13. **Ordbogen** — electrification rate, final energy, RTG, ISP, curtailment …  
 14. **Rygtebørsen**  
+15. **Sverige: atomudbygningens lange vej** — regeringens mål, mulig ny kapacitet, finansiering, elnet og lokalsamfund. Skeln konsekvent mellem politisk ramme, ansøgning, myndighedsgodkendelse, investeringsbeslutning, anlæg under byggeri og MW i faktisk drift; sammenlign med Sverige, Danmark og EU uden at gøre mål til megawatt.
 
 ## Research-regler
 
 - Tal med **kilde + årstal** (IEA, Ember, IRENA, nationale agenturer, NASA/ESA pressemeddelelser for rum).  
 - Skeln nameplate MW / TWh / planlagt / under byggeri / i drift.  
 - Rum: skeln **operationel hardware** fra PowerPoint-koncepter.  
+- Svensk atomkraft: brug svenske myndigheder og systemoperatør, reaktoroperatører samt lov-/budgetmateriale som primærkilder; angiv altid dato og status for hver reaktor eller udvidelse.  
 - OpenRouter: **kun** `.env.kraften`. Imagine: `.env.local`.
 
 ## Tendensdiagrammer (online)

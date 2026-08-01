@@ -19,6 +19,10 @@ Målgruppen er den almindeligt nysgerrige danske læser. Forklar fagord første 
 
 - **(2026-08) Nr. 1 — “Dåsen”**: aluminiumsdrikkedås fra materiale og formning til dansk pant og europæisk omsmeltning. Originale SVG-diagrammer viser formning, pantstrøm og lukket kredsløb.
 
+## Redaktionslog
+
+- **2026-08-01:** “Det usynlige lag” udvidet efter læserspørgsmål med polymertyper, drikspecifik coating-validering og EU/EFSA's BPA-spor. Læringen: skriv aldrig “dåselak” som én universel kemisk opskrift.
+
 ## Idébank
 
 - **(2026-08) Kaffefilteret** — papirfibre, brygning, affald og kompost: hvad sker der med den brune pose?
