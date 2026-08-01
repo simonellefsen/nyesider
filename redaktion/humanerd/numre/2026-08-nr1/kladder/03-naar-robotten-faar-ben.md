@@ -1,0 +1,16 @@
+# Humanoiden: Fra annonce til virkelighed med Figure og UBTECH
+
+Når virksomheder annoncerer nye humanoide robotter, er det vigtigt at skelne mellem de forskellige faser i deres livscyklus. En overbevisende **annonce** viser et potentiale. **Feltvalidering** tester dette potentiale under kontrollerede forhold i en rigtig virksomhed. **Stabil drift** er robotten i daglig, uproblematisk brug som en del af arbejdsskiftet. To aktuelle cases illustrerer netop denne progression: Figure hos BMW og UBTECHs Walker S.
+
+I januar 2024 annoncerede Figure et partnerskab med BMW Manufacturing. Formålet var at teste humanoider i bilproduktionen. En **annonce** er her et løfte om at undersøge specifikke opgaver. Figure og BMW har angivet, at de oprindeligt vil fokusere på opgaver som "komponenthåndtering" i fabrikken i Spartanburg, USA. Dette er en prototypefase: robotten skal først lære at håndtere enkle, repetable opgaver i et kontrolleret miljø. Succes her fører til **feltvalidering**, hvor robotten prøves af i et begrænset, men autentisk produktionsflow for at vurdere dens pålidelighed og økonomi.
+
+Walker S fra det kinesiske firma UBTECH gennemgår en lignende, men mere moden proces. Dens **annoncer** har længe været statusrapporter om dens udviklingstrin. I 2023 blev den annonceret som den første humanoid, der blev integreret i en elektrisk køretøjsfabrik hos et større OEM (Original Equipment Manufacturer). Dette var et skridt mod **feltvalidering**. Vigtigt er, at UBTECH tydeliggør begrænsninger, f.eks. at dens indledende rolle er at udføre "præ-logistik" opgaver – et begrænset, men vigtigt arbejdsområde. UBTECHs omfattende patentportefølje understøtter denne systematiske udvikling. Ifølge virksomhedens egne oplysninger har den over 1.800 patenter i robotteknologi og kunstig intelligens. Tallet understreger en investering i at løse konkrete tekniske udfordringer, som kræves for at nå fra demo til drift.
+
+Forskellen mellem disse faser er afgørende. En annonce fra Figure og BMW kan vise en robot, der løfter en bilkomponent. Feltvalidering skal dokumentere, hvor mange komponenter den sikkert kan håndtere pr. time, dag og uge, og hvordan den håndterer uventede forstyrrelser. For Walker S handler den næste fase om at skalere fra at validere et enkelt arbejdsskift til at køre stabilt på tværs af skift med minimal menneskelig opsyn.
+
+At læse annoncering som statusrapporter betyder at spørge: Hvilken fase er robotten i? Hvilke specifikke opgaver og hvilket omfang nævnes? Og hvad er de eksplicitte begrænsninger? Kun når en robot som Walker S eller Figure konsekvent udfører sin opgave over tid, uden at være hovedemnet for en ny pressemeddelelse, nærmer vi os den virkelige drift, der gør en forskel i fabrikken.
+
+**Kilder:**
+1.  Figure.ai. (2024, 18. januar). *Figure Announces Partnership with BMW Manufacturing*. [https://www.figure.ai/news](https://www.figure.ai/news)
+2.  UBTECH. (2023). *UBTECH Walker S Humanoid Robot Starts Work in Electric Vehicle Factory*. [https://www.ubtrobot.com/en/news/Walker-S](https://www.ubtrobot.com/en/news/Walker-S)
+3.  UBTECH. (2023). *Annual Report 2023* (s. 7). [https://ir.ubtrobot.com/static-files/724b5a5b-7f6b-4f6d-9d43-6d5e0afb9c5a](https://ir.ubtrobot.com/static-files/724b5a5b-7f6b-4f6d-9d43-6d5e0afb9c5a)

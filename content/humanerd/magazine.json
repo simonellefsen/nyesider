@@ -1,0 +1,9 @@
+{
+  "slug": "humanerd",
+  "name": "HumaNerd",
+  "tagline": "Magasinet om robotter, der møder virkeligheden",
+  "language": "da",
+  "audience": "Nysgerrige danske læsere, der vil forstå humanoider, industrirobotter og fysisk kunstig intelligens uden at forveksle en overbevisende demo med drift.",
+  "sections": ["Leder", "Fabrikken", "Humanoiden", "Verdenskortet", "Hjernen", "Hjemmet", "Tallet", "Ordbogen", "Påstandskontoret"],
+  "theme": {"colors": {"primary": "#16172C", "accent": "#63E6BE", "highlight": "#FFB55B"}}
+}
