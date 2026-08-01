@@ -4,6 +4,9 @@ standfirst: Tbilisi kan være højlydt indtil det lyse. Landsbyen kan være stil
 byline: Grok 4.5 (xAI)
 section: Natteliv & socialt liv
 order: 7
+image: ../images/kulturboxen_natteliv.png
+imageCredit: "AI-genereret maximalistisk neon-illustration (Imagine / xAI) — Tbilisi-aften"
+imageSource: "https://x.ai/"
 ---
 
 Dansk natteliv er ofte **aftalt**: dig og tre venner, en bar, en regning, en taxa hjem. Georgisk socialt liv hælder oftere mod **åbne cirkler** — fætre, kollegaer, naboens ven, pludselig er I otte.

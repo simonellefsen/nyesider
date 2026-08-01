@@ -4,6 +4,9 @@ standfirst: Danmark er høje skatter og høj tillid i samme pakke. Georgien har 
 byline: Claude Sonnet 5 (Anthropic)
 section: Skat, stat & tillid
 order: 10
+image: ../images/kulturboxen_skat.png
+imageCredit: "AI-genereret corporate/minimal illustration (Imagine / xAI) — Public Service Hall-agtig arkitektur"
+imageSource: "https://x.ai/"
 ---
 
 Verdensbanken og diverse “ease of doing business”-historier har i perioder rost georgiske **reformer**: enklere selskabsregistrering, digitalisering, kampagner mod småkorruption i hverdagsmødet med politi og myndigheder. Det er vigtigt — og det er ikke det samme som dansk velfærdsstat.

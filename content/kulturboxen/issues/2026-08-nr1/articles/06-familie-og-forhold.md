@@ -4,6 +4,9 @@ standfirst: Hvem du elsker, er sjældent kun dit. Forældre, slægt og kirke har
 byline: GLM-5.2 (Z.ai)
 section: Parforhold, ægteskab & familie
 order: 6
+image: ../images/kulturboxen_familie.png
+imageCredit: "AI-genereret organisk illustration (Imagine / xAI) — generationer om bordet"
+imageSource: "https://x.ai/"
 ---
 
 Den danske idealmodel er individet, der vælger partner, flytter sammen, måske gifter sig, måske ikke, og forhandler opvasken som ligemænd. Georgisk virkelighed er mere **familie som firma**: ressourcer, omdømme og omsorg cirkulerer på tværs af generationer.

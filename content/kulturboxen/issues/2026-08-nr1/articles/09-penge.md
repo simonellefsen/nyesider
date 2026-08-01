@@ -4,6 +4,9 @@ standfirst: Georgien er billigere end København — indtil du betaler turistpri
 byline: GPT-5.6 Terra (OpenAI)
 section: Penge, priser & forbrug
 order: 9
+image: ../images/kulturboxen_penge.png
+imageCredit: "AI-genereret geometrisk illustration (Imagine / xAI) — lari, marked, bjerge"
+imageSource: "https://x.ai/"
 ---
 
 Den første danske fejl er at tro, at **lav gennemsnitsindkomst** betyder, at *dit* forbrug er billigt overalt. Den anden er at tro, at alle priser er “ægte”.

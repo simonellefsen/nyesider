@@ -14,10 +14,16 @@
     "images/kulturboxen_tbilisi.png",
     "images/kulturboxen_supra.png",
     "images/kulturboxen_marked.png",
-    "images/kulturboxen_kirke.png"
+    "images/kulturboxen_kirke.png",
+    "images/kulturboxen_dagligdag.png",
+    "images/kulturboxen_familie.png",
+    "images/kulturboxen_natteliv.png",
+    "images/kulturboxen_penge.png",
+    "images/kulturboxen_skat.png",
+    "images/kulturboxen_toej.png"
   ],
   "productionCostUSD": null,
-  "imageCredits": "Alle motiver AI-genereret via Imagine (xAI). Illustrative scener uden logoer eller læsbar skiltetekst. Se SOURCES.md.",
+  "imageCredits": "Alle motiver AI-genereret via Imagine (xAI) i varierede stilarter (flat, organisk, maximalistisk, geometrisk, corporate, retro). Illustrative scener uden logoer. Se SOURCES.md.",
   "backCoverPromise": "KULTURBOXEN nr. 2 åbner en ny boks — anden kultur, samme nysgerrighed.",
   "articles": [
     {
@@ -60,7 +66,10 @@
       "title": "Dagligdag: Tbilisis tempo og landsbyens ur",
       "section": "Dagligdag & tempo",
       "byline": "Gemini 3.1 Pro (Google)",
-      "standfirst": "Hverdagen er minibusser og relationer — ikke kun solnedgange."
+      "standfirst": "Hverdagen er minibusser og relationer — ikke kun solnedgange.",
+      "image": "../images/kulturboxen_dagligdag.png",
+      "imageCredit": "AI-genereret flat-illustration (Imagine / xAI)",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "arbejde",
@@ -81,7 +90,10 @@
       "title": "Familie, ægteskab og det private rum",
       "section": "Parforhold, ægteskab & familie",
       "byline": "GLM-5.2 (Z.ai)",
-      "standfirst": "Hvem du elsker, er sjældent kun dit."
+      "standfirst": "Hvem du elsker, er sjældent kun dit.",
+      "image": "../images/kulturboxen_familie.png",
+      "imageCredit": "AI-genereret organisk illustration (Imagine / xAI)",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "natteliv",
@@ -90,7 +102,10 @@
       "title": "Når solen går ned: natteliv og det sociale efter kl. 18",
       "section": "Natteliv & socialt liv",
       "byline": "Grok 4.5 (xAI)",
-      "standfirst": "Åbne cirkler, lange aftener, andre grænser."
+      "standfirst": "Åbne cirkler, lange aftener, andre grænser.",
+      "image": "../images/kulturboxen_natteliv.png",
+      "imageCredit": "AI-genereret maximalistisk illustration (Imagine / xAI)",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "ceremonier",
@@ -111,7 +126,10 @@
       "title": "Penge: priser, tip og dobbelte menukort",
       "section": "Penge, priser & forbrug",
       "byline": "GPT-5.6 Terra (OpenAI)",
-      "standfirst": "Billigere end København — indtil det ikke er."
+      "standfirst": "Billigere end København — indtil det ikke er.",
+      "image": "../images/kulturboxen_penge.png",
+      "imageCredit": "AI-genereret geometrisk illustration (Imagine / xAI)",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "skat-og-stat",
@@ -120,7 +138,10 @@
       "title": "Skat, stat og tillid: hvorfor systemet føles anderledes",
       "section": "Skat, stat & tillid",
       "byline": "Claude Sonnet 5 (Anthropic)",
-      "standfirst": "Reformeret bureaukrati, anden velfærdspakke."
+      "standfirst": "Reformeret bureaukrati, anden velfærdspakke.",
+      "image": "../images/kulturboxen_skat.png",
+      "imageCredit": "AI-genereret corporate illustration (Imagine / xAI)",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "toej-og-status",
@@ -129,7 +150,10 @@
       "title": "Tøj, udseende og det, man signalerer",
       "section": "Tøj, udseende & status",
       "byline": "Qwen3.7 Max (Alibaba)",
-      "standfirst": "Streetwear, kirketøj, festguld."
+      "standfirst": "Streetwear, kirketøj, festguld.",
+      "image": "../images/kulturboxen_toej.png",
+      "imageCredit": "AI-genereret retro-illustration (Imagine / xAI)",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "tallet",
@@ -138,7 +162,7 @@
       "title": "Tallet: Georgien og Danmark side om side",
       "section": "Tallet / pejlemærker",
       "byline": "DeepSeek V3.2 (DeepSeek)",
-      "standfirst": "Afrundede pejlemærker til sammenligning."
+      "standfirst": "BNP, arbejdsløshed og religion med konkrete tal."
     },
     {
       "slug": "ordbogen",

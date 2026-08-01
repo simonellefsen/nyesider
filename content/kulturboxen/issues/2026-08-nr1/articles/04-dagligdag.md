@@ -4,6 +4,9 @@ standfirst: Hverdagen er ikke supra hver aften. Den er minibusser, markeder, app
 byline: Gemini 3.1 Pro (Google)
 section: Dagligdag & tempo
 order: 4
+image: ../images/kulturboxen_dagligdag.png
+imageCredit: "AI-genereret flat-illustration (Imagine / xAI) — marshrutka i Tbilisi-agtig gade"
+imageSource: "https://x.ai/"
 ---
 
 Hvis du kun møder Georgien gennem en weekend i Tbilisi, tror du måske, at landet er én lang solnedgang over gamle bade og naturvin. Hverdagen er mere banalt: at komme på arbejde, hente børn, handle ind, ordne papir.

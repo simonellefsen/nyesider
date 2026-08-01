@@ -5,6 +5,9 @@ byline: Qwen3.7 Max (Alibaba)
 section: Tøj, udseende & status
 order: 11
 flow: true
+image: ../images/kulturboxen_toej.png
+imageCredit: "AI-genereret retro-illustration (Imagine / xAI) — chokha møder streetwear"
+imageSource: "https://x.ai/"
 ---
 
 Tbilisi kan ligne Berlin en tirsdag og en bryllupsmagasin-side en lørdag. **Kontekstskift** er nøglen: det, der er cool på en bar, er forkert i et kloster.
