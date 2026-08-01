@@ -3,7 +3,7 @@ title: "Tallet: pejlemærker for kroppen i Danmark"
 standfirst: Afrundede retninger — tjek SST, Fødevarestyrelsen og Danmarks Statistik for facit.
 byline: DeepSeek V3.2 (DeepSeek)
 section: Laboratoriet / tallet
-order: 10
+order: 11
 ---
 
 | Pejlemærke | Retning (ballpark) |

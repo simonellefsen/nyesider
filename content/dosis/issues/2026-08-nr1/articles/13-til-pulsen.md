@@ -3,7 +3,7 @@ title: "Når dosis møder systemet"
 standfirst: Kort bro til PULSEN — for når kroppen bliver til en journal.
 byline: Claude Fable 5
 section: Kryds (PULSEN m.fl.)
-order: 13
+order: 14
 flow: true
 ---
 

@@ -14,7 +14,8 @@
     "images/dosis_protein.png",
     "images/dosis_tallerken.png",
     "images/dosis_vitamin.png",
-    "images/dosis_implantat.png"
+    "images/dosis_implantat.png",
+    "images/dosis_wearable.png"
   ],
   "productionCostUSD": null,
   "imageCredits": "Alle motiver AI-genereret via Imagine (xAI). Ingen lægemiddel-logoer eller emballage-tekst. Se SOURCES.md.",
@@ -105,9 +106,21 @@
       "imageSource": "https://x.ai/"
     },
     {
+      "slug": "wearables-og-hjemmetests",
+      "file": "articles/09-wearables-og-hjemmetests.md",
+      "order": 9,
+      "title": "Wearables og hjemmelab: når håndleddet og postkassen måler dig",
+      "section": "Hardware til kroppen",
+      "byline": "GPT-5.6 Terra (OpenAI)",
+      "standfirst": "Ur, CGM, blod- og urintest hjemme — data vs. diagnose.",
+      "image": "../images/dosis_wearable.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/"
+    },
+    {
       "slug": "longevity-hype",
       "file": "articles/09-longevity-hype.md",
-      "order": 9,
+      "order": 10,
       "title": "Longevity-hyben: blå zoner, biologisk alder og dig",
       "section": "Longevity & aldring",
       "byline": "Qwen3.7 Max (Alibaba)",
@@ -116,7 +129,7 @@
     {
       "slug": "tallet",
       "file": "articles/10-tallet.md",
-      "order": 10,
+      "order": 11,
       "title": "Tallet: pejlemærker for kroppen i Danmark",
       "section": "Laboratoriet / tallet",
       "byline": "DeepSeek V3.2 (DeepSeek)",
@@ -125,16 +138,16 @@
     {
       "slug": "ordbogen",
       "file": "articles/11-ordbogen.md",
-      "order": 11,
+      "order": 12,
       "title": "Ordbogen",
       "section": "Ordbogen",
       "byline": "Gemini 3.5 Flash (Google)",
-      "standfirst": "Sarkopeni, whey, 25-OH-D, RCT."
+      "standfirst": "Sarkopeni, whey, CGM, hjemmetest."
     },
     {
       "slug": "rygteboersen",
       "file": "articles/12-rygteboersen.md",
-      "order": 12,
+      "order": 13,
       "title": "Rygtebørsen",
       "section": "Rygtebørsen",
       "byline": "Qwen3.7 Max (Alibaba)",
@@ -143,7 +156,7 @@
     {
       "slug": "til-pulsen",
       "file": "articles/13-til-pulsen.md",
-      "order": 13,
+      "order": 14,
       "title": "Når dosis møder systemet",
       "section": "Kryds (PULSEN m.fl.)",
       "byline": "Claude Fable 5",

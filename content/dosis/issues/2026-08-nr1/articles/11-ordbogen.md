@@ -3,7 +3,7 @@ title: Ordbogen
 standfirst: Tolv gloser, så du kan læse et etiket og et abstract uden at bluffe.
 byline: Gemini 3.5 Flash (Google)
 section: Ordbogen
-order: 11
+order: 12
 flow: true
 ---
 
@@ -30,3 +30,9 @@ flow: true
 **Biologisk alder:** Estimat af “slid” vs. fødselsdag — felt under udvikling.
 
 **Claim:** Markedsføringspåstand; i EU stramt reguleret for fødevarer/tilskud.
+
+**CGM:** *Continuous glucose monitor* — sensor der følger glukose over tid.
+
+**HRV:** Hjerteratevariabilitet — ofte brugt i “recovery”-scores; tolk forsigtigt.
+
+**Hjemmetest / DTC-lab:** *Direct-to-consumer* — du bestiller test uden for den klassiske henvisning; kvalitet afhænger af lab og tolkning.

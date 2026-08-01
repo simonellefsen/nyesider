@@ -3,7 +3,7 @@ title: Rygtebørsen
 standfirst: Hype-aktier i kroppen. Vurderet i kapsler — ikke i likes.
 byline: Qwen3.7 Max (Alibaba)
 section: Rygtebørsen
-order: 12
+order: 13
 flow: true
 ---
 
@@ -24,3 +24,6 @@ Det er ofte for mennesker, der vil **gå igen**.
 
 **“Næste år kommer pillen der stopper aldring”** ★★☆☆☆  
 Forskning bevæger sig. Kalenderen i pressemeddelelsen lyver oftere end cellerne.
+
+**“Mit ur + en hjemmetest erstatter lægen”** ★☆☆☆☆  
+Tendenser er fine. Diagnoser og medicin er det ikke.

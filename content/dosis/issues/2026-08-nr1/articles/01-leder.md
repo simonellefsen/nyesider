@@ -14,7 +14,7 @@ Der er en ny standardreplik i fitnesscentret, i kantinen og i farmorens køkken:
 
 ### Nr. 1: Protein-æraen
 
-I dette nummer pakker vi protein ud: behov vs. marketing, pulver vs. mad, ældre muskler, og det nordiske D-vitamin-mørke, der altid lurer bag tilskudshypen. Vi kigger på implantater i hverdagen (ikke sci-fi), på sikkerhed i tilskudsjunglen, og vi lukker med pejlemærker, ordbog og en rygtebørs for det, alle deler i groupchatten.
+I dette nummer pakker vi protein ud: behov vs. marketing, pulver vs. mad, ældre muskler, og det nordiske D-vitamin-mørke, der altid lurer bag tilskudshypen. Vi kigger på implantater i hverdagen (ikke sci-fi), på **wearables og hjemmetests** (blod, urin, glukose på håndleddet), på sikkerhed i tilskudsjunglen, og vi lukker med pejlemærker, ordbog og en rygtebørs for det, alle deler i groupchatten.
 
 God læselyst — og husk: mere er ikke altid bedre. Nogle gange er den rigtige dosis **mindre**.
 
