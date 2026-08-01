@@ -50,4 +50,5 @@ Rules:
 | **KRAFTEN** | Elmix, sol TWh, vind/gas-andele, landeandele (EU/USA/Kina) |
 | **ORBIT** | Opsendelser/år, aktive satellitter (lande/aktører side om side) |
 | **SPÆNDING** | Elbilandel af nyregistreringer (DK + NO + EU + Kina + USA), volumen-gaps |
+| **KULTURBOXEN** | Sammenlignende pejlemærker (DK/EU vs. den behandlede kultur: arbejdstid, skat, priser …) |
 | Andre | Kun hvis det styrker artiklen — ikke diagram for diagrammets skyld |

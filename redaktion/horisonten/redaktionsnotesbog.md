@@ -22,3 +22,8 @@ Opdateret efter nr. 2 (august 2026, "Dolomitterne i efteråret"). Modelerfaringe
 
 - Nr. 2 mangler PDF og cover/artikelbilleder.
 - Geografisk præcision er stadig kernen.
+
+## Søstertitel: KULTURBOXEN
+
+[KULTURBOXEN](../kulturboxen/redaktionsnotesbog.md) dækker **livet i kulturen** (mad, arbejde, parforhold, penge, ceremonier …) set fra Danmark — også mindre/oversete kulturer.  
+HORISONTEN dækker **rejsen til stedet** (ruter, sæson, praktisk). Når destination og kultur overlapper: krydslink. Vi stjæler ikke hinandens format.

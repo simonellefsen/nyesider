@@ -23,7 +23,7 @@ Redaktionel hukommelse for forlaget. Chefredaktør-agenten læser og opdaterer d
 
 | Formål | Fil | Variabel |
 |---|---|---|
-| OpenRouter pr. magasin | `.env.gnisten`, `.env.pulsen`, `.env.spaending`, `.env.horisonten`, `.env.kraften`, `.env.orbit` | `OPENROUTER_API_KEY` |
+| OpenRouter pr. magasin | `.env.gnisten`, `.env.pulsen`, `.env.spaending`, `.env.horisonten`, `.env.kulturboxen`, `.env.kraften`, `.env.orbit` | `OPENROUTER_API_KEY` |
 | xAI Imagine (billeder) | `.env.local` | `XAI_API_KEY` |
 
 Skabelon: [`.env.example`](../.env.example). Alle `.env*` er gitignored. Webappen bruger **ingen** af nøglerne.
@@ -58,4 +58,4 @@ Opret `redaktion/<slug>/redaktionsnotesbog.md` og `content/<slug>/magazine.json`
 
 3. **Diagrammer / tendenskurver:** Vis **gap mellem verdensøkonomier**. Standard er at lægge **EU, USA og Kina** side om side, plus relevante top performers (fx Norge for elbilandel). En dansk eller europæisk kurve alene fortæller for lidt — læseren skal se, hvem der fører, hvem der hænger, og hvor stort springet er. Se [content/CHARTS.md](../content/CHARTS.md).
 
-4. **Krydsreferencer:** Når et emne overlapper et andet magasin eller et tidligere nummer (fx SPÆNDING↔KRAFTEN, ORBIT↔KRAFTEN, «i nr. 1 skrev vi…»), sæt en **relativ intern link** i brødteksten: `/<slug>/<issue-slug>/<article-slug>` (fx `[KRAFTEN](/kraften/2026-08-nr1/leder)`). Ikke linkfarm — kun hvor læseren reelt har glæde af at hoppe.
+4. **Krydsreferencer:** Når et emne overlapper et andet magasin eller et tidligere nummer (fx SPÆNDING↔KRAFTEN, ORBIT↔KRAFTEN, HORISONTEN↔KULTURBOXEN, «i nr. 1 skrev vi…»), sæt en **relativ intern link** i brødteksten: `/<slug>/<issue-slug>/<article-slug>` (fx `[KRAFTEN](/kraften/2026-08-nr1/leder)`). Ikke linkfarm — kun hvor læseren reelt har glæde af at hoppe.

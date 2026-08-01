@@ -1,0 +1,34 @@
+{
+  "slug": "kulturboxen",
+  "name": "KULTURBOXEN",
+  "tagline": "Magasinet om, hvordan andre kulturer lever — set fra Danmark",
+  "language": "da",
+  "audience": "Danskere og europæere, der vil forstå hverdag, normer og systemer i andre kulturer — også de mindre og oversete — uden rejseslogan og uden at dømme",
+  "sections": [
+    "Leder",
+    "Kulturen i fokus (destination / folk)",
+    "Spise & drikke",
+    "Natteliv & socialt liv",
+    "Dagligdag & tempo",
+    "Arbejde & hierarki",
+    "Parforhold, ægteskab & familie",
+    "Krop, intimt & grænser",
+    "Tøj, udseende & status",
+    "Ceremonier & ritualer",
+    "Penge, priser & forbrug",
+    "Skat, stat & tillid",
+    "Tabuer & det usagte",
+    "Sammenligning med Danmark/Europa",
+    "Tallet / pejlemærker",
+    "Ordbogen",
+    "Rygtebørsen / myter",
+    "Til HORISONTEN (kryds)"
+  ],
+  "theme": {
+    "colors": {
+      "primary": "#2C1830",
+      "accent": "#C45C26",
+      "highlight": "#D4A574"
+    }
+  }
+}
