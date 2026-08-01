@@ -16,6 +16,14 @@ OpenRouter: **kun** `.env.kulturboxen`. Imagine: `.env.local` / `XAI_API_KEY`.
 
 Krydslink når destination og kultur overlapper.
 
+### Synk-regel (planlægning)
+
+**Prøv at synke numre med HORISONTEN**, når det giver mening: vælg kultur *og* foreslå en matchende rejseudgave (eller omvendt).  
+- Eksempel: Georgien (KULTURBOXEN nr. 1 + HORISONTEN nr. 2).  
+- **Ikke obligatorisk hver gang** — nogle kulturer egner sig dårligt til “vandring/cykling/praktisk” i samme kvartal. Notér asynk bevidst.  
+- Ved synk: fælles timing hvis muligt, gensidige links, “Søster: …” i begge notesbøger.  
+- Se husregel i [redaktion/README](../README.md).
+
 ## Nr. 1 — udgivet
 
 **Tema:** Supra og tillid · **Kultur:** Georgien  
