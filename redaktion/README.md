@@ -41,3 +41,17 @@ Skabelon: [`.env.example`](../.env.example). Alle `.env*` er gitignored. Webappe
 ## Ny titel
 
 Opret `redaktion/<slug>/redaktionsnotesbog.md` og `content/<slug>/magazine.json` (brand, farver, sektioner, målgruppe).
+
+## Sprog & typografi (husregler)
+
+1. **Procent:** Dansk form med mellemrum før `%`, men brug **ikke-brydende mellemrum** (U+00A0), så tal og tegn ikke skilles ved linjeskift.  
+   Skriv: `30\u00a0%` → vises som «30 %».  
+   Undgå almindeligt mellemrum: `30 %` (kan give `30` på én linje og `%` på næste).
+
+2. **Forkortelser:** Antag ikke, at læseren kender dem. **Første gang** i en artikel: fuldt navn + forkortelse i parentes, derefter forkortelsen frit.  
+   Eksempler:  
+   - det Internationale Energiagentur (IEA)  
+   - den europæiske rumorganisation ESA (*European Space Agency*)  
+   - WLTP (*Worldwide Harmonised Light Vehicle Test Procedure*)  
+   - LCOE (*levelized cost of energy*)  
+   Meget kendte navne (NASA, EU, USA) kan stå alene, men det skader ikke at udfolde dem første gang i en leder eller intro.

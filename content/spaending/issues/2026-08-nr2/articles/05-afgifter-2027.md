@@ -9,7 +9,7 @@ imageCredit: "AI-genereret motiv (Imagine / xAI)"
 imageSource: "https://x.ai/"
 ---
 
-I nr. 1 skrev vi om den politiske djævlepagt: elbilen vandt markedet, men nogen skal stadig betale for vejene. Finanslovsaftalen skød den planlagte stigning i registreringsafgiften for nulemissionsbiler — og holdt 2026 på det lavere, indfasede niveau (omkring **40 %**-sporet i stedet for det højere trin, der ellers truede).[^1]
+I nr. 1 skrev vi om den politiske djævlepagt: elbilen vandt markedet, men nogen skal stadig betale for vejene. Finanslovsaftalen skød den planlagte stigning i registreringsafgiften for nulemissionsbiler — og holdt 2026 på det lavere, indfasede niveau (omkring **40 %**-sporet i stedet for det højere trin, der ellers truede).[^1]
 
 ### Hvad der er politisk aftalt i grove træk
 
@@ -24,7 +24,7 @@ Det er *ikke* det samme som "nu bliver elbiler dyre overnight". Det er en trappe
 2. **Pas på panik-køb** "før afgiften stiger" — markedet prissætter forventninger ind i forvejen.
 3. **Følg ekspertudvalg og politiske forlig** om fremtidens bilbeskatning (kilometer, ejerafgift, omregistrering). Den store arkitektur er stadig under forhandling i den offentlige debat.
 
-Statskassen har opdaget, at 96 % private elbilkøb er en sejr for klimaet og en udfordring for provenuet. Den spænding forsvinder ikke i 2027. Den skifter bare form.
+Statskassen har opdaget, at 96 % private elbilkøb er en sejr for klimaet og en udfordring for provenuet. Den spænding forsvinder ikke i 2027. Den skifter bare form.
 
 [^1]: Finanslov / lovgivning om udskydelse af højere registreringsafgift for ZEV til efter 2026.
 

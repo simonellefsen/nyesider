@@ -9,11 +9,11 @@ imageCredit: "AI-genereret anlægsmotiv (Imagine / xAI)"
 imageSource: "https://x.ai/"
 ---
 
-Sol er Embers stjerne i 2025: **369 TWh** i EU, vækst over **20 %** for fjerde år i træk, **13 %** af elproduktionen.[^1] I sommermåneder har sol i perioder været den største enkelte kilde i EU-mixet.[^2] Det er en teknologisk triumf — og en systemudfordring.
+Sol er Embers stjerne i 2025: **369 TWh** i EU, vækst over **20 %** for fjerde år i træk, **13 %** af elproduktionen.[^1] I sommermåneder har sol i perioder været den største enkelte kilde i EU-mixet.[^2] Det er en teknologisk triumf — og en systemudfordring.
 
-### LCOE er ikke regningen
+### Den regnskabsmæssige kilowatt-time er ikke regningen
 
-Levelized cost of energy for sol kan se uovertruffen ud i regneark. Men når produktionen er koncentreret midt på dagen, falder **spotpriserne** (canibalisation), og behovet for **net, lagring og fleksibelt forbrug** stiger. Curtailment — at smide strøm væk — er ikke fiasko i panelerne; det er et signal om flaskehalse.
+Den såkaldte LCOE (*levelized cost of energy*: gennemsnitlig produktionsomkostning pr. kilowatt-time over anlæggets levetid) for sol kan se uovertruffen ud i regneark. Men når produktionen er koncentreret midt på dagen, falder **spotpriserne** (canibalisation), og behovet for **net, lagring og fleksibelt forbrug** stiger. Curtailment — at smide strøm væk — er ikke fiasko i panelerne; det er et signal om flaskehalse.
 
 ### Anlægget i jorden
 

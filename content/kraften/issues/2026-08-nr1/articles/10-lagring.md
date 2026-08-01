@@ -9,11 +9,11 @@ imageCredit: "AI-genereret anlægsmotiv (Imagine / xAI)"
 imageSource: "https://x.ai/"
 ---
 
-Uden lagring og fleksibilitet er et system med 30 % vind+sol et system, der stadig har brug for gas. Med lagring kan man *flytte* energi i tid. Spørgsmålet er hvor længe, hvor dyrt, og med hvilken teknologi.
+Uden lagring og fleksibilitet er et system med 30 % vind+sol et system, der stadig har brug for gas. Med lagring kan man *flytte* energi i tid. Spørgsmålet er hvor længe, hvor dyrt, og med hvilken teknologi.
 
-### Batterier (BESS)
+### Batterier (BESS — *battery energy storage system*)
 
-Grid-scale batterier kommer i **containerform**, stables på gruspladser, kobles til transformere. De er gode til minutter og timer — frekvens, peak shaving, arbitrage. De er ikke (endnu) sæsonlagring. Branden- og sikkerhedsstandarder er en del af historien, ikke en fodnote.
+Store batterianlæg på netniveau (BESS) kommer i **containerform**, stables på gruspladser, kobles til transformere. De er gode til minutter og timer — frekvens, peak shaving, arbitrage. De er ikke (endnu) sæsonlagring. Branden- og sikkerhedsstandarder er en del af historien, ikke en fodnote.
 
 ### Pumpelagring
 

@@ -9,9 +9,9 @@ flow: true
 
 **Baseload:** Den jævne bund af produktion, der kører det meste af tiden (klassisk: atom, noget vand, tidligere kul).
 
-**Kapacitetsfaktor:** Hvor meget et anlæg producerede i forhold til, hvis det kørte 100 % hele året. Vind/sol er lavere end atom — det er fysik, ikke fiasko.
+**Kapacitetsfaktor:** Hvor meget et anlæg producerede i forhold til, hvis det kørte 100 % hele året. Vind/sol er lavere end atom — det er fysik, ikke fiasko.
 
-**LCOE:** Levelized cost of energy — regnearks-pris pr. MWh over levetiden. Ignorerer ofte systemomkostninger.
+**LCOE:** *Levelized cost of energy* — regnearks-pris pr. megawatt-time (MWh) over anlæggets levetid. Ignorerer ofte systemomkostninger.
 
 **Curtailment:** Planlagt eller tvungen nedlukning af produktion (ofte sol/vind), når nettet ikke kan tage imod mere.
 

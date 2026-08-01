@@ -8,7 +8,7 @@ order: 6
 
 ### Indien (ISRO)
 
-Indien har i 2020'erne cementeret et ry for **omkostningseffektiv** rumfart og voksende cadence på nationale køretøjer. Antallet af årlige orbitale opsendelser er lavere end USA/Kina, men den strategiske linje er klar: egen adgang, kommercielle slots, og måne-/planetariske missioner når budget og vindue passer. ORBIT følger manifests — ikke kun jubilæumstal.
+Indiens nationale rumorganisation **ISRO** (*Indian Space Research Organisation*) har i 2020'erne cementeret et ry for **omkostningseffektiv** rumfart og voksende cadence på nationale køretøjer. Antallet af årlige orbitale opsendelser er lavere end USA/Kina, men den strategiske linje er klar: egen adgang, kommercielle slots, og måne-/planetariske missioner når budget og vindue passer. ORBIT følger manifests — ikke kun jubilæumstal.
 
 ### Rusland
 

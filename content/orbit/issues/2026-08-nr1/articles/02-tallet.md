@@ -6,7 +6,7 @@ section: Tallet
 order: 2
 ---
 
-**324** orbitale launch attempts i **2025** — ifølge SpaceNews' åbne kildeanalyse — omkring **25 %** flere end rekorden året før.[^1] Andre opgørelser lander i samme boldgade (ca. 320–330 afhængigt af, hvordan partielle fejl og “nåede næsten kredsløb” tælles).[^2]
+**324** orbitale launch attempts i **2025** — ifølge SpaceNews' åbne kildeanalyse — omkring **25 %** flere end rekorden året før.[^1] Andre opgørelser lander i samme boldgade (ca. 320–330 afhængigt af, hvordan partielle fejl og “nåede næsten kredsløb” tælles).[^2]
 
 ### Hvem trak tallet op?
 
@@ -16,7 +16,7 @@ order: 2
 
 ### Hvad tallet *ikke* er
 
-Det er ikke det samme som “succesrate 100 %”, ikke det samme som masse til Mars, og ikke det samme som bæredygtig LEO. Cadence uden debris-disciplin er bare hurtigere fyldning af banen.
+Det er ikke det samme som “succesrate 100 %”, ikke det samme som masse til Mars, og ikke det samme som bæredygtig LEO. Cadence uden debris-disciplin er bare hurtigere fyldning af banen.
 
 Næste artikler packer tallet ud: fabriksrytme i Texas/Florida, Kinas portefølje, og skrotstatistikken der følger med.
 

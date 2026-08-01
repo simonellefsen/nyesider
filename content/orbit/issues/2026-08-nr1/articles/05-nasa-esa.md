@@ -8,11 +8,11 @@ order: 5
 
 ### NASA
 
-NASA er både kunde og kapacitet: kommercielle LEO-destinationer, CLPS-månelandere, SLS/Orion hvor det stadig gælder, og science-missioner der ikke passer i en Starlink-slot. I en verden med 300+ opsendelser om året er agenturets magt ofte **kravspecifikation og penge** mere end egne ugentlige launches.
+Den amerikanske rumfartsadministration **NASA** (*National Aeronautics and Space Administration*) er både kunde og kapacitet: kommercielle destinationer i lav jordbane (LEO), CLPS-månelandere (kommercielle leverancer til Månen), SLS/Orion hvor det stadig gælder, og science-missioner der ikke passer i en Starlink-slot. I en verden med 300+ opsendelser om året er agenturets magt ofte **kravspecifikation og penge** mere end egne ugentlige launches.
 
 ### ESA
 
-Europa kæmper for **autonom adgang til rummet** — Ariane 6, Vega-familien, og industrielle partnerskaber. Få europæiske orbitale opsendelser i 2025-tallene minder om, at kontinentet ikke vinder på cadence, men på instrumenter, jordsegment og politisk vilje til ikke at være 100 % afhængig af andres manifests.[^1]
+Den europæiske rumorganisation **ESA** (*European Space Agency*) kæmper for **autonom adgang til rummet** — Ariane 6, Vega-familien, og industrielle partnerskaber. Få europæiske orbitale opsendelser i 2025-tallene minder om, at kontinentet ikke vinder på cadence (tempo), men på instrumenter, jordsegment og politisk vilje til ikke at være 100 % afhængig af andres manifests.[^1]
 
 ### Fælles punkt
 

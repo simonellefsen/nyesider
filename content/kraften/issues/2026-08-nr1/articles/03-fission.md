@@ -9,15 +9,15 @@ imageCredit: "AI-genereret anlægsmotiv (Imagine / xAI)"
 imageSource: "https://x.ai/"
 ---
 
-Mens debatten om atomkraft ofte kører i absolutte, er anlægsvirkeligheden mere jordnær: **forlængelse af eksisterende reaktorer**, et begrænset antal nybyggerier i Europa, og en global vækst, der i IEA's fremskrivninger især drives af **Kina, Indien og andre asiatiske markeder** — ikke af EU alene.[^1]
+Mens debatten om atomkraft ofte kører i absolutte, er anlægsvirkeligheden mere jordnær: **forlængelse af eksisterende reaktorer**, et begrænset antal nybyggerier i Europa, og en global vækst, der i fremskrivninger fra det Internationale Energiagentur (IEA) især drives af **Kina, Indien og andre asiatiske markeder** — ikke af EU alene.[^1]
 
 ### Hvad IEA siger om produktionen
 
-I *Electricity 2026* forventer IEA, at global atomproduktion stiger med i snit omkring **2,8 %** årligt i fremskrivningsperioden — mere end i de foregående år — drevet af nye enheder, genstart i Japan og stabil fransk produktion efter vedligeholdelsesindhentning.[^1] I **EU og USA** ventes produktionen derimod relativt stabil; Kinas andel af global atomproduktion stiger, mens EU's og USA's andele falder procentvis.[^1]
+I rapporten *Electricity 2026* forventer IEA, at global atomproduktion stiger med i snit omkring **2,8 %** årligt i fremskrivningsperioden — mere end i de foregående år — drevet af nye enheder, genstart i Japan og stabil fransk produktion efter vedligeholdelsesindhentning.[^1] I **EU og USA** ventes produktionen derimod relativt stabil; Kinas andel af global atomproduktion stiger, mens EU's og USA's andele falder procentvis.[^1]
 
 ### Europa: politik møder beton
 
-Frankrig forbliver rygraden i EU-atom. Storbritannien, Tjekkiet, Polen og flere østeuropæiske lande har politiske spor for ny kapacitet eller SMR-partnerskaber — men **første beton** og **kommerciel drift** er to forskellige årstal. SMR (small modular reactors) er i 2026 stadig primært licens-, design- og demonstrationsfase i Vesten; dem, der lover "billig strøm om fem år", bør mødes med anlægsplaner, ikke pressemeddelelser.
+Frankrig forbliver rygraden i EU-atom. Storbritannien, Tjekkiet, Polen og flere østeuropæiske lande har politiske spor for ny kapacitet eller partnerskaber om små modulære reaktorer (SMR) — men **første beton** og **kommerciel drift** er to forskellige årstal. SMR er i 2026 stadig primært licens-, design- og demonstrationsfase i Vesten; dem, der lover "billig strøm om fem år", bør mødes med anlægsplaner, ikke pressemeddelelser.
 
 ### Hvad billedet minder om
 

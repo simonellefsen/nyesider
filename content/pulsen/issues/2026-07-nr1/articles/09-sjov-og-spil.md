@@ -10,9 +10,9 @@ order: 9
 Test din viden fra dette nummer. Vælg a, b eller c. Spørgsmålene bygger på artiklerne i dette nummer — se »Kilder & links« dér for de underliggende kilder.[^1]
 
 1. Hvor stor en andel af danske sundhedsprofessionelle bruger ifølge en YouGov-undersøgelse AI-værktøjer regelmæssigt?
-   - a) 15 %
-   - b) 25 %
-   - c) 35 %
+   - a) 15 %
+   - b) 25 %
+   - c) 35 %
 
 2. Hvilket dansk AI-selskab slog OpenAI på et klinisk benchmark?
    - a) Corti

@@ -9,7 +9,7 @@ imageCredit: "AI-genereret motiv (Imagine / xAI)"
 imageSource: "https://x.ai/"
 ---
 
-ESA's miljøstatistik (opdateret 2026) minder om skellet: **tusindvis** af fungerende satellitter — og langt flere objekter i overvågning, når man medregner fragmenter, trin og døde payloads.[^1] Små fragmenter (cm-skala) tælles i estimater i **millionklassen**; de er for små til fuld tracking, store nok til at smadre en mission.
+Miljøstatistik fra den europæiske rumorganisation ESA (*European Space Agency*, opdateret 2026) minder om skellet: **tusindvis** af fungerende satellitter — og langt flere objekter i overvågning, når man medregner fragmenter, trin og døde payloads.[^1] Små fragmenter (cm-skala) tælles i estimater i **millionklassen**; de er for små til fuld tracking, store nok til at smadre en mission.
 
 ### Hvorfor det hører i nr. 1
 

@@ -6,19 +6,19 @@ section: Lande & udbygning
 order: 2
 ---
 
-Ifølge Ember producerede vind og sol i **2025** tilsammen **30 %** af EU's elektricitet — højere end fossil kraft (**29 %**) for første gang i opgørelserne.[^1] Sol alene nåede rekord **369 TWh**, omkring **13 %** af EU-el, mere end kul og vandkraft hver for sig i den opgørelse.[^1] I **14 af 27** EU-lande genererede vind+sol mere end fossil i 2025.[^1]
+Ifølge Ember producerede vind og sol i **2025** tilsammen **30 %** af EU's elektricitet — højere end fossil kraft (**29 %**) for første gang i opgørelserne.[^1] Sol alene nåede rekord **369 TWh** (terawatt-timer: milliarder kilowatt-timer), omkring **13 %** af EU-el, mere end kul og vandkraft hver for sig i den opgørelse.[^1] I **14 af 27** EU-lande genererede vind+sol mere end fossil i 2025.[^1]
 
 ### Det, der stadig bærer basen
 
-Atomkraft forblev den største enkelte *rene* kilde med omkring **23 %** af EU-el i 2025.[^1] Gas stod for en stor del af den fossile rest — Embers landesider peger på omtrent **17 %** gasandel i EU-el for 2025 — og EU er fortsat afhængig af importeret gas til elproduktion.[^2] Kul er presset ned, men forsvundet er det ikke.
+Atomkraft forblev den største enkelte *rene* kilde med omkring **23 %** af EU-el i 2025.[^1] Gas stod for en stor del af den fossile rest — Embers landesider peger på omtrent **17 %** gasandel i EU-el for 2025 — og EU er fortsat afhængig af importeret gas til elproduktion.[^2] Kul er presset ned, men forsvundet er det ikke.
 
 ### Sommeren som forvarsel
 
-I juni-perioder har sol i enkelte måneder været EU's største el-kilde (fx over 20 % i juni-opgørelser 2025–26 ifølge Ember/medieomtale), mens atom, gas og vind skifter plads afhængigt af vejr og vedligehold.[^3] Det er godt for klimatal — og hårdt for systemoperatører, der skal balancere midt på dagen og aftenens ramping.
+I juni-perioder har sol i enkelte måneder været EU's største el-kilde (fx over 20 % i juni-opgørelser 2025–26 ifølge Ember/medieomtale), mens atom, gas og vind skifter plads afhængigt af vejr og vedligehold.[^3] Det er godt for klimatal — og hårdt for systemoperatører, der skal balancere midt på dagen og aftenens ramping.
 
 ### Læren til KRAFTENs læsere
 
-1. **Procentdele er ikke forsyningssikkerhed.** 30 % vind+sol er produktion over et år — ikke garanti kl. 19 en vindstille januar.  
+1. **Procentdele er ikke forsyningssikkerhed.** 30 % vind+sol er produktion over et år — ikke garanti kl. 19 en vindstille januar.  
 2. **Import og gas** er stadig europæiske realiteter.  
 3. **Nybyggeri** (atom, offshore, net, lagring) er det, der afgør, om kurven holder i 2030.
 

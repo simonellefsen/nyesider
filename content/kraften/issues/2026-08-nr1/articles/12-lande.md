@@ -8,13 +8,13 @@ order: 12
 
 ### Tallet
 
-**30 %** — vind og sols andel af EU-elproduktionen i **2025**, højere end fossil (**29 %**) for første gang ifølge Ember.[^1]
+**30 %** — vind og sols andel af EU-elproduktionen i **2025**, højere end fossil (**29 %**) for første gang ifølge Ember.[^1]
 
 ### Fem snapshots (forenklet)
 
 | Land/region | El-karakter (ca.) | Byggeri / politik at følge |
 |---|---|---|
-| **EU** | Vind+sol 30 %, atom ~23 %, fossil ~29 % (2025)[^1] | Net, offshore, SMR-debat, gas-flex |
+| **EU** | Vind+sol 30 %, atom ~23 %, fossil ~29 % (2025)[^1] | Net, offshore, SMR-debat, gas-flex |
 | **Danmark** | Meget høj vindandel i el; import/eksport via kabler | Havvind, PtX, elafgift 2026–27 |
 | **Frankrig** | Atom-domineret baseload | Levetid, ny EPR-kapacitet, vedligehold |
 | **Tyskland** | Høj VE-andel, mindre atom efter udfasning | Kul/gas-flex, net nord–syd, industri |

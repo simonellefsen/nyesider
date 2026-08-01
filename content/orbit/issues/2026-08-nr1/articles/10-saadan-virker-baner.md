@@ -12,7 +12,7 @@ figures:
 
 ### LEO — Low Earth Orbit
 
-Fra ca. **160 til 2.000 km**. Kort omløbstid, lav latenstid for kommunikation, ideel til jordobservation og mega-konstellationer. ISS og Starlink bor her. Ulempen: atmosfærisk drag i de laveste baner, og *meget* trafik.
+Fra ca. **160 til 2.000 km**. Kort omløbstid, lav latenstid for kommunikation, ideel til jordobservation og mega-konstellationer. den internationale rumstation ISS (*International Space Station*) og Starlink bor her. Ulempen: atmosfærisk drag i de laveste baner, og *meget* trafik.
 
 ### MEO — Medium Earth Orbit
 

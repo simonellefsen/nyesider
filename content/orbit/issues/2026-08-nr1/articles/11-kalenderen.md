@@ -9,7 +9,7 @@ order: 11
 ORBIT opfinder ikke launch-datoer. Vi pejler **kategorier**, du kan følge i efteråret 2026:
 
 1. **Falcon 9 / Starlink-batches** — forvent høj frekvens; konkrete NET-datoer skifter ofte.  
-2. **Starship testflyvninger** — følg SpaceX og FAA/lukninger, ikke rygter alene.  
+2. **Starship testflyvninger** — følg SpaceX og den amerikanske luftfartsmyndighed FAA (Federal Aviation Administration)/lukninger, ikke rygter alene.  
 3. **New Glenn return-to-flight** — Blue Origin har peget på 2026; industrien er skeptisk over tempoet efter maj-anomalien.  
 4. **ESA/Ariane-familien** — færre slots, højere politisk vægt pr. flyvning.  
 5. **ISRO og kinesiske manifests** — nationale calendars + kommercielle rideshares.  
