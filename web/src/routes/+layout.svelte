@@ -7,6 +7,7 @@
 <svelte:head>
 	<link rel="icon" href="/favicon.svg" type="image/svg+xml" />
 	<meta name="theme-color" content="#0b1220" />
+	<meta name="google-site-verification" content="eTmjB_6nbevrnCnUvV35qbc7gH5soFDNsly58ZuMQzk" />
 </svelte:head>
 
 {@render children()}
