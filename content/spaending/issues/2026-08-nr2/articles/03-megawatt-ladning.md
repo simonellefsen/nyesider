@@ -17,10 +17,23 @@ Alpitronics HYC1000 er bygget som et system med central power cabinet og flere d
 
 ### Flaskehalsen er ikke kun ladestanderen
 
-1. **Bilen** skal kunne tage strømmen (800V-arkitektur, køling, ladekurve).
+1. **Bilen** skal kunne tage strømmen: typisk **800V-arkitektur** (højspændingsbatteri og elektronik), plus batterikøling og en ladekurve der tør holde højt watt-tal mere end få sekunder. 400V-biler (mange volume-modeller, inkl. de fleste Tesla) kan stadig hurtiglade — men de rammer loftet længe før 600 kW.
 2. **Nettet** skal levere uden at naboen mister ovnen.
 3. **Prisen** pr. kWh må ikke gøre "otte minutter" til en dyr fornøjelse.
 4. **Køen** — en stander på 600 kW hjælper dig ikke, hvis der er fire biler foran, der deler effekten.
+
+### Hvem har egentlig 800V?
+
+Listen vokser, men den er stadig kortere end elbilkataloget. Blandt modeller, der er solgt eller under udrulning med 800V-klasse-arkitektur (eller tæt på — Lucid kører endnu højere), finder du blandt andet:
+
+- **Porsche Taycan** og **Macan Electric** — pionererne i premium-enden.
+- **Audi e-tron GT** (samme tekniske familie som Taycan).
+- **Hyundai Ioniq 5** og **Ioniq 6**, **Kia EV6** og **EV9**, **Genesis GV60** — Hyundai-Kia-gruppens 800V-platform (E-GMP), som har gjort ultra-hurtig DC-ladning til et volumenargument.
+- **Lucid Air** — 900V-klasse; i praksis i samme “meget hurtig DC”-liga.
+- **BMW Neue Klasse** (fx nye **iX3**) og **Mercedes**’ næste generations kompakt-el (fx **CLA**) — premium der rykker op i 800V.
+- **Lotus Eletre** og en række kinesiske volume-/premium-modeller (fx **Zeekr**, udvalgte **BYD**/Seal-varianter, **Xiaomi SU7**), der allerede bruger 800V som standardargument på hjemmemarkedet.
+
+Vigtigt: **800V er en forudsætning, ikke en garanti** for 600 kW. Maksimal ladeeffekt afhænger af bilens software, batteritemperatur, SoC (state of charge — batteriets ladestand) og hvad standeren faktisk leverer i det øjeblik. En Ioniq 5, der topper omkring 230–350 kW under gode forhold, udnytter 800V — men den er ikke en 600 kW-bil. De første personbiler, der *reelt* kan tømme en HYC1000-stander, er stadig en elite; 600 kW er netværkets loft, bilens kurve er flaskehalsen.
 
 ### Danmarksvinklen
 

@@ -13,7 +13,7 @@ I nr. 1 skrev vi om den politiske djævlepagt: elbilen vandt markedet, men nogen
 
 [CHART dk-elbil-andel]
 
-Når næsten alle private køb er el, er afgiftsprovenuet den politiske bagside af samme kurve.
+Når Danmark nærmer sig norsk tempo — mens EU og især USA stadig hænger — er afgiftsprovenuet den politiske bagside af samme kurve: næsten alle private køb er el.
 
 ### Hvad der er politisk aftalt i grove træk
 

@@ -1,12 +1,26 @@
 {
   "id": "eu-bev-salg",
-  "title": "Europa: solgte rene elbiler (BEV), ca. tusinde enheder",
-  "unit": "tusd.",
-  "note": "Afrundet årsvolumen (EU+EFTA-agtig ballpark). 2025–26 er pejlinger — se ACEA/branchestatistik for facit.",
-  "source": "ACEA / branchen (tendens)",
-  "sourceUrl": "https://www.acea.auto/",
+  "title": "Solgte elektriske personbiler: Kina, Europa og USA (ca. mio.)",
+  "unit": "mio.",
+  "note": "Afrundet årsvolumen for el + plugin-hybrid (IEA-stil ballpark). Kina er volumenmotoren; Europa og USA er langt bagud i absolutte tal. 2025–26 er pejlinger — se IEA/ACEA for facit.",
+  "source": "IEA Global EV Outlook / ACEA (tendens)",
+  "sourceUrl": "https://www.iea.org/reports/global-ev-outlook-2026/trends-in-electric-cars",
   "years": [2019, 2020, 2021, 2022, 2023, 2024, 2025],
   "series": [
-    { "name": "BEV-salg (ca.)", "color": "#F2A03D", "values": [360, 540, 880, 1120, 1500, 1450, 1600] }
+    {
+      "name": "Kina",
+      "color": "#E3A008",
+      "values": [1.1, 1.2, 3.3, 5.9, 8.1, 11.0, 13.0]
+    },
+    {
+      "name": "Europa",
+      "color": "#4EC9B0",
+      "values": [0.6, 1.4, 2.3, 2.6, 3.2, 3.0, 4.2]
+    },
+    {
+      "name": "USA",
+      "color": "#5B8DEF",
+      "values": [0.3, 0.3, 0.6, 1.0, 1.4, 1.6, 1.6]
+    }
   ]
 }

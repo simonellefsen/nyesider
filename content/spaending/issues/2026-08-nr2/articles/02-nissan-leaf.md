@@ -13,7 +13,7 @@ Der var en tid, hvor Nissan Leaf var elbilen, man kendte — og den, man lidt ov
 
 [CHART dk-elbil-andel]
 
-Danmarks elbilandel af nyregistreringer er steget stejlt — baggrunden for, at en ny Leaf skal ramme et allerede elektrisk marked.
+Danmarks elbilandel af nyregistreringer er steget stejlt — og ligger nu i samme liga som Norges forspring, langt over EU-gennemsnittet og især USA. Det er baggrunden for, at en ny Leaf skal ramme et allerede elektrisk marked.
 
 ### Tallene, der betyder noget
 

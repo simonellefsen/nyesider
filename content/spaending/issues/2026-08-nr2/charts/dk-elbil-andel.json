@@ -1,12 +1,36 @@
 {
   "id": "dk-elbil-andel",
-  "title": "Danmark: elbilandel af nyregistreringer (ca.)",
+  "title": "Elbilandel af nyregistreringer: udvalgte markeder (ca.)",
   "unit": "%",
-  "note": "Afrundet tendens for personbiler; private andele har været endnu højere i 2025–26. Tjek Mobility Denmark for aktuelle tal.",
-  "source": "Mobility Denmark / Mobilsiden (tendens)",
-  "sourceUrl": "https://mobility.dk/",
+  "note": "Afrundet tendens for andel af nye personbiler. Internationale serier følger typisk el + plugin-hybrid (IEA-stil); Danmark kan være tættere på ren-BEV i de seneste år. 2026 er pejling (DK H1-agtig). Formål: vise gap mellem markeder — tjek Mobility Denmark / IEA for facit.",
+  "source": "IEA Global EV Outlook / nationale registreringer (tendens)",
+  "sourceUrl": "https://www.iea.org/reports/global-ev-outlook-2026/trends-in-electric-cars",
   "years": [2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026],
   "series": [
-    { "name": "Elbiler af nyregistreringer", "color": "#19B5C8", "values": [4, 7, 13, 21, 36, 51, 65, 80] }
+    {
+      "name": "Norge",
+      "color": "#E4572E",
+      "values": [56, 75, 86, 88, 90, 92, 97, 98]
+    },
+    {
+      "name": "Danmark",
+      "color": "#19B5C8",
+      "values": [4, 16, 35, 39, 46, 52, 71, 80]
+    },
+    {
+      "name": "Kina",
+      "color": "#E3A008",
+      "values": [5, 5, 15, 30, 37, 47, 54, 58]
+    },
+    {
+      "name": "EU",
+      "color": "#4EC9B0",
+      "values": [3, 10, 17, 21, 22, 21, 28, 30]
+    },
+    {
+      "name": "USA",
+      "color": "#5B8DEF",
+      "values": [2, 2, 4, 7, 9, 10, 10, 11]
+    }
   ]
 }

@@ -23,7 +23,8 @@
 ## Tendensdiagrammer (online)
 
 Kanonisk data i `content/spaending/issues/<issue>/charts/*.json` — se [content/CHARTS.md](../../content/CHARTS.md).  
-Nr. 2: `dk-elbil-andel`, `eu-bev-salg` (afrundede tendenser; tjek Mobility Denmark / ACEA for facit).
+Nr. 2: `dk-elbil-andel` (NO/DK/Kina/EU/USA andele), `eu-bev-salg` (Kina/Europa/USA volumen i mio.) — afrundede tendenser; tjek Mobility Denmark / IEA / ACEA for facit.  
+**Husregel:** diagrammer skal vise gap mellem verdensøkonomier, ikke kun DK.
 
 ## Praktisk
 

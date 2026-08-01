@@ -13,7 +13,7 @@ I nr. 1 advarede vi om bagsiden af prisfesten: når fabrikssikre nyheder lander 
 
 [CHART eu-bev-salg]
 
-Europæisk BEV-volumen er vokset kraftigt — og presser restværdier, når nye modeller bliver billigere.
+Europæisk elbil-volumen er vokset kraftigt — men Kina er stadig den store volumenmotor i absolutte tal. Begge dele presser restværdier, når nye modeller bliver billigere.
 
 ### Hvorfor værdierne presses
 

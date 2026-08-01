@@ -55,3 +55,5 @@ Opret `redaktion/<slug>/redaktionsnotesbog.md` og `content/<slug>/magazine.json`
    - WLTP (*Worldwide Harmonised Light Vehicle Test Procedure*)  
    - LCOE (*levelized cost of energy*)  
    Meget kendte navne (NASA, EU, USA) kan stå alene, men det skader ikke at udfolde dem første gang i en leder eller intro.
+
+3. **Diagrammer / tendenskurver:** Vis **gap mellem verdensøkonomier**. Standard er at lægge **EU, USA og Kina** side om side, plus relevante top performers (fx Norge for elbilandel). En dansk eller europæisk kurve alene fortæller for lidt — læseren skal se, hvem der fører, hvem der hænger, og hvor stort springet er. Se [content/CHARTS.md](../content/CHARTS.md).
