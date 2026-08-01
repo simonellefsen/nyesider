@@ -4,7 +4,12 @@ standfirst: "Husholdningsrobotten lever i rod, tæpper, børn, kæledyr og priva
 byline: "Claude Fable 5"
 section: "Hjemmet"
 order: 9
+image: "images/home-robot-vacuum.png"
+imageCredit: "AI-genereret redaktionel illustration (OpenAI ImageGen, fladgeometrisk stil)"
+imageSource: "https://openai.com/"
 ---
+
+*Illustrationen er en fiktiv hverdagsscene og viser ikke et bestemt produkt.*
 
 Robotten i hjemmet behøver ikke ben og arme for at være en robot. Den kan være en støvsuger, klipper, poolrenser eller en lille mobil platform. Dens svære opgave er ikke bare at flytte sig. Den skal virke i rum, der ændrer sig, uden at brugeren har sat sikkerhedshegn op først.
 

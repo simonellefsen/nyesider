@@ -24,6 +24,10 @@ Vi bruger "fysisk AI" som en forklaring, ikke som en magisk etiket: en robot ska
 - **(2026-08) Robotten der kan se** — kameraer, kraftsensorer og grænserne for perception.
 - **(2026-08) Lagerets koreografi** — AMR'er, pluk, paller og den menneskelige undtagelse.
 - **(2026-08) Håndens problem** — gribere, taktilitet og hvorfor det bløde stadig er svært.
+- **(2026-08) Tre humanoider, tre beviser** — 1X, Figure og Boston Dynamics sammenlignet på opgave, dokumentation, autonomi, kundeadgang og sikker drift; undgå at lave en model- eller nationalitetsrangliste af demoer.
+- **(2026-08) Dronen som robot** — inspektion, lager, landbrug og beredskab; skeln mellem fjernstyring, assisteret flyvning og autonomi.
+- **(2026-08) Robotter i krig** — militære anvendelser, dual use, menneskelig kontrol, fejlrisiko og dokumentation. Må ikke behandles som gadgetstof eller produktpromovering; brug primærkilder, folkeretlige rammer og uafhængig rapportering.
+- **(2026-08) Boston Dynamics efter videoen** — fra mobilitet til konkret arbejdscelle, med den samme pilot→drift-målestok som nr. 1.
 
 ## Løfter til læseren
 

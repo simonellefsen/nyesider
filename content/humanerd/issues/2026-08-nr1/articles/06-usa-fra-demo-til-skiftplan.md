@@ -4,7 +4,12 @@ standfirst: "Amerikanske humanoider møder et marked med færre robotter end Kin
 byline: "Claude Fable 5"
 section: "Verdenskortet"
 order: 6
+image: "images/warehouse-human-robot.png"
+imageCredit: "AI-genereret redaktionel illustration (OpenAI ImageGen, tekstureret editorial-stil)"
+imageSource: "https://openai.com/"
 ---
+
+*Illustrationen viser en generisk lageropgave — ikke en bestemt Digit-, Figure- eller kundedeployment.*
 
 USA er en god påmindelse om, at en stærk robotfortælling og en stor robotbestand ikke er samme ting. IFR opgjorde **393.700** operative industrirobotter i amerikanske fabrikker ved udgangen af 2024 og **34.200** nye installationer det år. Det var fem gange færre operative robotter end Kina, ifølge samme IFR-notat.[^1]
 

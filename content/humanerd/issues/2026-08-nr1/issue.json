@@ -9,9 +9,9 @@
   "cover": "images/humanerd_cover.png",
   "coverCredit": "AI-genereret forside (OpenAI ImageGen) — redaktionel illustration af humanoid, robotarm og fabriksarbejde",
   "coverSource": "https://openai.com/",
-  "images": ["images/humanerd_cover.png", "images/figur-robotstack.svg", "images/figur-fra-pilot-til-drift.svg"],
+  "images": ["images/humanerd_cover.png", "images/figur-robotstack.svg", "images/figur-fra-pilot-til-drift.svg", "images/china-robot-ecosystem.png", "images/warehouse-human-robot.png", "images/home-robot-vacuum.png"],
   "productionCostUSD": 0.0006,
-  "imageCredits": "Forsiden er genereret med OpenAI ImageGen. To forklarende SVG-diagrammer er egenproduktion. Ingen logoer, mærker eller tredjepartsfotos — se images/SOURCES.md.",
+  "imageCredits": "Forside og tre artikelillustrationer er genereret med OpenAI ImageGen; de er redaktionelle illustrationer, ikke dokumentation for bestemte produkter eller anlæg. To forklarende SVG-diagrammer er egenproduktion. Ingen logoer, mærker eller tredjepartsfotos — se images/SOURCES.md.",
   "backCoverPromise": "Næste gang: Robotten der kan se — kameraer, kraftsensorer og den ubehagelige virkelighed bag et godt greb.",
   "articles": [
     {"slug":"leder","file":"articles/01-leder.md","order":1,"title":"Først: hvad skal den gøre?","section":"Leder","byline":"Claude Fable 5","standfirst":"En robotkrop er interessant. En gennemført arbejdsopgave er interessant på en anden måde."},

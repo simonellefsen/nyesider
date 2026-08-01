@@ -4,7 +4,12 @@ standfirst: "Kina er både det største fabriksrobotmarked og en intens scene fo
 byline: "Claude Fable 5"
 section: "Verdenskortet"
 order: 4
+image: "images/china-robot-ecosystem.png"
+imageCredit: "AI-genereret redaktionel illustration (OpenAI ImageGen, 3D-industriel stil)"
+imageSource: "https://openai.com/"
 ---
+
+*Illustrationen viser en mulig fabriksscene — ikke en virkelig kinesisk fabrik eller bestemt producent.*
 
 Kinas vigtigste robotfordel er ikke, at alle nye maskiner kommer derfra. Det er volumen. IFR angiver, at Kina stod for **43,5 %** af verdens operative industrirobotter ved udgangen af 2024, og at landet installerede **295.000** nye industrirobotter samme år.[^1] Det giver producenter og fabrikker et stort fælles øvelsesrum for integration, service og leverandørkæder.
 
