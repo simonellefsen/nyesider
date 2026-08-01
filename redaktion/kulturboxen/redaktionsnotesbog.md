@@ -33,14 +33,15 @@ Cover + 4 feature-billeder (Imagine). PDF mangler.
 
 ## Nr. 2 — kandidater
 
-- **Marokko** (by vs. land, Ramadan-rytme, handel, kønsrum)  
-- **Japan uden kirsebærtræer** (arbejde, service, bolig, dating)  
-- **Filippinerne / OFW** (familieøkonomi, remitter, diaspora i DK)  
-- **Et overset europæisk spor** (fx Sardinien, Sámi, Syditalien som *system*)
+- **(2026-08) Marokko** (by vs. land, Ramadan-rytme, handel, kønsrum)  
+- **(2026-08) Japan uden kirsebærtræer** (arbejde, service, bolig, dating)  
+- **(2026-08) Filippinerne / OFW** (familieøkonomi, remitter, diaspora i DK)  
+- **(2026-08) Et overset europæisk spor** (fx Sardinien, Sámi, Syditalien som *system*)
 
-## Nummerstruktur (10–20)
+## Format
 
-Typisk **12–16**. Faste: Leder · Fokus · Mad · Dagligdag · Arbejde · Familie · Socialt · Penge · Stat · Tallet · Ordbog · Myter · Til HORISONTEN.
+- **Artikeltal:** typisk **12–16** (10–20 rummeligt). Faste: Leder · Fokus · Mad · Dagligdag · Arbejde · Familie · Socialt · Penge · Stat · Tallet · Ordbog · Myter · Til HORISONTEN.
+- **Standard `mustCite`:** 3+ for Tallet (skal være en kildetabel, ikke en "ballpark"-liste — nr. 1's `12-tallet.md` er et negativt eksempel: 38 tal, 0 kilder, se Workstream C); 1–2 for Fokus/Arbejde/Penge/Stat med konkrete satser eller andele; 0 for Dagligdag/Familie/Myter medmindre en påstand kræver det.
 
 ## Produktion
 
@@ -50,3 +51,7 @@ python3 production/load_env.py kulturboxen
 
 Output: `content/kulturboxen/issues/<YYYY-MM-nrN>/`  
 Brand: `#2C1830` / `#C45C26` / `#D4A574`.
+
+## Log
+
+- **2026-08-01:** Notesbog udvidet med `## Format`; leads datostemplet (se [redaktion/README](../README.md)).

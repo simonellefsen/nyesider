@@ -1,26 +1,53 @@
 # Nye Sider · Modelkartotek
 
-Fælles erfaringer med OpenRouter-modeller på tværs af alle titler. Opdateres af chefredaktionen efter hver produktion. Bruges ved casting af skribenter til nye numre.
+Fælles erfaringer med OpenRouter-modeller på tværs af alle titler. Bruges ved casting af skribenter til nye numre.
 
-## Skribenter (tekstmodeller)
+To slags indhold i denne fil, bevidst adskilt:
 
-| Model | Erfaring | Anbefaling |
-|---|---|---|
-| GPT-5.6 Terra | Stærk, disciplineret feature-prosa; leverede længst og renest (SPÆNDING nr. 1) | Genansæt til tunge features |
-| Claude Sonnet 5 | Bedste scene-åbning; ren dansk (SPÆNDING nr. 1) | Reportage/analyse |
-| Grok 4.5 | Personlighed og humor, men flest sprogfejl på dansk | Tests — kræver hård redigering |
-| GLM-5.2 | Skarp klumme-stemme, men løb tør midt i sidste sætning | Klummer — bestil kortere end ønsket længde |
-| Qwen3.7 Max | Rammer sladderformatet perfekt; enkelte anglicismer | Rygtebørsen o.l. |
-| Mistral Medium 3.5 | Varm essaystemme, men flest dansk/engelsk-blandingsfejl | Essays — med redigering |
-| Gemini 3.5 Flash / MiniMax M3 | Første drafts afbrudt ved lavt max_tokens (reasoning æder budgettet) | Giv altid 5-6.000 tokens |
-| Kimi K3 | Ustabil på tværs af numre: missede deadline i PULSEN nr. 1, leverede fint i GNISTEN nr. 1 (467 ord), men fejlede igen i HORISONTEN nr. 1 (0 ord, finish=length — brugte hele token-budgettet på reasoning uden at nå frem til svaret) | Alt for uforudsigelig til at stole på uden fallback klar. Sæt altid en fallback-model op (fx DeepSeek V3.2) og accepter, at ca. 1 ud af 3 opgaver må gå til fallback |
-| DeepSeek V3.2 | Pålidelig fallback: overtog "Løberuter langs kysten" i HORISONTEN nr. 1, da Kimi K3 fejlede — solid, stedkonkret dansk uden ekstra redigeringsbyrde | God standard-fallback til enhver opgave |
-| Mistral Large | Sanselig, stemningsfuld essayprosa til byportræt (HORISONTEN's "Palma: byens puls") — bedre disciplin end tidligere noteret for Mistral Medium 3.5 | Stemningsfulde by-/stedportrætter |
-| GPT-5.6 Terra | Stærk, informationstæt overbliksprosa til GNISTEN's "Kortet"-sektion (AI-landskab), god til at holde styr på mange navne uden at blive en liste | Overbliks-/landkort-artikler |
-| Gemini 3.1 Pro | Fremragende til pædagogisk "forklar det helt fra bunden"-stof (GNISTEN's "Sådan virker en sprogmodel") — rammer analogier og tempo godt | Pædagogiske dybdeartikler til nybegyndere |
-| Grok 4.5 | Stærk førstepersons-fortælling med humor og selvironi (GNISTEN's "Mit første projekt") — matcher tidligere note om personlighed, men fungerer fint uredigeret på dansk til narrativ non-fiktion | Førstepersons-reportager/anekdoter |
+1. **Statistik** (nedenfor) — *afledt*, aldrig håndskrevet. Genereres af `production/modelstats.py` fra alle titlers `bestilling.json`-ledgere. Kan ikke gå forældet, fordi den ikke er skrevet — kør scriptet igen efter en produktion, den opdaterer sig selv.
+2. **Kvalitative noter** (`## Skribenter — kvalitative noter`) — håndskrevne observationer om *stemme, stil, pålidelighed*, ting tal ikke fanger. Hver note er **dateret og citerer sit nummer**, så modstridende observationer om samme model (fx Grok 4.5 nedenfor) læses som to punkter i tid, ikke en selvmodsigelse.
 
-**Hurtige reservemodeller** (leverede hurtigt til PULSEN nr. 1): llama-4-maverick, deepseek-v3.2, grok-4.3, mistral-large, gemini-3.5-flash.
+## Statistik (afledt)
+
+<!-- AUTO:modelstats:start -->
+| Model | Kommissioner | Godkendt | Efter redigering | Omskrevet | Afvist | Ord i mål | Kilder opfyldt | Total omkostning (USD) |
+|---|---|---|---|---|---|---|---|---|
+| Claude Fable 5 | 2 | 2 | 0 | 0 | 0 | 2/2 | 2/2 | — |
+| GPT-5.6 Terra (OpenAI) | 2 | 2 | 0 | 0 | 0 | 2/2 | 0/2 | — |
+| DeepSeek V3.2 (DeepSeek) | 2 | 0 | 1 | 1 | 0 | 2/2 | 2/2 | — |
+| Qwen3.7 Max (Alibaba) | 2 | 1 | 1 | 0 | 0 | 2/2 | 2/2 | — |
+| Claude Sonnet 5 (Anthropic) | 1 | 1 | 0 | 0 | 0 | 1/1 | 0/1 | — |
+| Gemini 3.1 Pro (Google) | 1 | 1 | 0 | 0 | 0 | 1/1 | 1/1 | — |
+| Mistral Large (Mistral AI) | 1 | 0 | 1 | 0 | 0 | 1/1 | 1/1 | — |
+| GLM-5.2 (Z.ai) | 1 | 0 | 1 | 0 | 0 | 1/1 | 1/1 | — |
+| Grok 4.5 (xAI) | 1 | 1 | 0 | 0 | 0 | 1/1 | 0/1 | — |
+| Gemini 3.5 Flash (Google) | 1 | 1 | 0 | 0 | 0 | 1/1 | 1/1 | — |
+
+_Afledt af 1 `bestilling.json`-ledger(e) — kør `python production/modelstats.py` for at gendanne. Kolonner uden data (—) venter på flere kommissioner via `commission.py`._
+<!-- AUTO:modelstats:end -->
+
+## Skribenter — kvalitative noter
+
+Hver linje er dateret og navngiver sit nummer. Modstridende noter om samme model er **ikke rettet ud** — begge stod, fordi begge var sande på deres tidspunkt; datoen er hvad der adskiller dem.
+
+| Model | Dato / nummer | Erfaring | Anbefaling |
+|---|---|---|---|
+| GPT-5.6 Terra | 2026-07, SPÆNDING nr. 1 | Stærk, disciplineret feature-prosa; leverede længst og renest | Genansæt til tunge features |
+| Claude Sonnet 5 | 2026-07, SPÆNDING nr. 1 | Bedste scene-åbning; ren dansk | Reportage/analyse |
+| Grok 4.5 | 2026-07, tidlig note | Personlighed og humor, men flest sprogfejl på dansk | Tests — kræver hård redigering |
+| GLM-5.2 | 2026-07/08 | Skarp klumme-stemme, men løb tør midt i sidste sætning | Klummer — bestil kortere end ønsket længde |
+| Qwen3.7 Max | 2026-07/08 | Rammer sladderformatet perfekt; enkelte anglicismer | Rygtebørsen o.l. |
+| Mistral Medium 3.5 | 2026-07 | Varm essaystemme, men flest dansk/engelsk-blandingsfejl | Essays — med redigering |
+| Gemini 3.5 Flash / MiniMax M3 | 2026-07 | Første drafts afbrudt ved lavt max_tokens (reasoning æder budgettet) | Giv altid 5-6.000 tokens |
+| Kimi K3 | 2026-07, PULSEN/GNISTEN/HORISONTEN nr. 1 | Ustabil på tværs af numre: missede deadline i PULSEN nr. 1, leverede fint i GNISTEN nr. 1 (467 ord), men fejlede igen i HORISONTEN nr. 1 (0 ord, finish=length — brugte hele token-budgettet på reasoning uden at nå frem til svaret) | Alt for uforudsigelig til at stole på uden fallback klar. Sæt altid en fallback-model op (fx DeepSeek V3.2) og accepter, at ca. 1 ud af 3 opgaver må gå til fallback |
+| DeepSeek V3.2 | 2026-07, HORISONTEN nr. 1 | Pålidelig fallback: overtog "Løberuter langs kysten", da Kimi K3 fejlede — solid, stedkonkret dansk uden ekstra redigeringsbyrde | God standard-fallback til enhver opgave |
+| Mistral Large | 2026-07, HORISONTEN nr. 1 | Sanselig, stemningsfuld essayprosa til byportræt ("Palma: byens puls") — bedre disciplin end den 2026-07-note for Mistral Medium 3.5 ovenfor | Stemningsfulde by-/stedportrætter |
+| GPT-5.6 Terra | 2026-07, GNISTEN nr. 1 | Stærk, informationstæt overbliksprosa til "Kortet"-sektionen (AI-landskab), god til at holde styr på mange navne uden at blive en liste | Overbliks-/landkort-artikler |
+| Gemini 3.1 Pro | 2026-07, GNISTEN nr. 1 | Fremragende til pædagogisk "forklar det helt fra bunden"-stof ("Sådan virker en sprogmodel") — rammer analogier og tempo godt | Pædagogiske dybdeartikler til nybegyndere |
+| Grok 4.5 | 2026-07, GNISTEN nr. 1 | Stærk førstepersons-fortælling med humor og selvironi ("Mit første projekt") — matcher tidligere note om personlighed, men fungerer fint uredigeret på dansk til narrativ non-fiktion. **Modsiger ikke** 2026-07-noten ovenfor: samme styrke (personlighed), forskellig svaghed synlig afhængig af format (test vs. førstepersonsfortælling) | Førstepersons-reportager/anekdoter |
+| DOSIS' skribentkorps | 2026-08, DOSIS nr. 1 | Se `redaktion/dosis/numre/2026-08-nr1/bestilling.json` for komplet, retro-udfyldt eksempel — første nummer med skrevne briefs + verdikter, se `redaktion/bestilling.schema.md` | Skabelon for fremtidige numres kvalitative noter: citer `bestilling.json`, ikke kun hukommelse |
+
+**Hurtige reservemodeller** (2026-07, leverede hurtigt til PULSEN nr. 1): llama-4-maverick, deepseek-v3.2, grok-4.3, mistral-large, gemini-3.5-flash.
 
 ## Billedmodeller
 

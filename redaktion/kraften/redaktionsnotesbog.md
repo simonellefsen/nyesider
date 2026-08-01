@@ -21,6 +21,12 @@ Opdateret august 2026 — **fokus skærpet:** global elektrificering + rumkraft.
 - **Fossilt** dækkes, når det forklarer tempo, flaskehalse eller backup — ikke som olie-/gas-magasin i sig selv.
 - Tone: nøgtern, kildetung, global. Ingen hype uden hardware.
 
+## Format
+
+- **Ordmål:** Features 500–750 ord; bagsnit `flow: true`.
+- **Artikeltal:** typisk 12–16.
+- **Standard `mustCite`:** 2+ for enhver artikel med MW/TWh/andels-tal (se Research-regler nedenfor — kilde + årstal er allerede påkrævet, dette gør det eksplicit pr. artikel før bestilling); 0 for rygtebørs.
+
 ## Visuel linje
 
 **Kun xAI Imagine** (`.env.local` → `XAI_API_KEY`). Se [redaktion/README.md](../README.md).
@@ -81,5 +87,8 @@ Se [content/CHARTS.md](../../content/CHARTS.md).
 ## Praktisk
 
 - `python production/load_env.py kraften`  
-- Features 500–750 ord; bagsnit `flow: true`  
-- PDF: `build_magazine.py kraften <issue-slug>`  
+- PDF: `build_magazine.py kraften <issue-slug>`
+
+## Log
+
+- **2026-08-01:** Notesbog udvidet med `## Format` (fælles skabelon, se [redaktion/README](../README.md)); ordmål/mustCite konsolideret her fra `## Praktisk`.  

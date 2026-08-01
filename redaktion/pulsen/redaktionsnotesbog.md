@@ -2,6 +2,16 @@
 
 Redaktionel backlog — opdateret efter nr. 2 (august 2026, "Når tasterne bliver stille"). Modelerfaringer: [modelkartotek](../modelkartotek.md).
 
+## Identitet
+
+**PULSEN** dækker sundhedssektoren som system: klinik, teknologi, journalen, regulering, AI i drift. Menneskene i systemet, ikke kroppen selv. Se [nabotitel-note](#nabotitel-dosis) nedenfor for grænsen mod DOSIS.
+
+## Format
+
+- **Faste formater:** vandrehistorier, rygtebørs, quiz.
+- **Standard `mustCite`:** 2–3 for features med kliniske/regulatoriske påstande (MDR, EHDS, kliniske resultater); 0 for vandrehistorier og rygtebørs.
+- Behold kilde-fodnoter på features — den ene regel, der allerede er skrevet ned, og som stadig er rigtig.
+
 ## Afviklet i nr. 2
 
 - Ambient scribes fra pilot til drift (EU/DK).
@@ -13,19 +23,22 @@ Redaktionel backlog — opdateret efter nr. 2 (august 2026, "Når tasterne blive
 
 ## Opfølgninger til nr. 3+
 
-- **Corti mod børsen** — stadig "ikke 2026"; følg signaler ind i 2027.
-- **Storskalaprojekterne i regionerne** — status når drift har kørt et halvt år: hvad siger klinikerne?
-- **Region Østdanmark-fusionen** — AI-projekter under omorganisering.
-- **Aiforia/Dedalus i praksis** — kliniske resultater fra AI-patologi.
-- **Bupa Prevention Pathways: første tal** — 200.000-mål ind i 2027.
-- **Farmakogenomik** — spytprøve/medicin-match i det offentlige?
-- **OK26 efter implementering** — ergoterapeut-løn/læserpanel.
-- **Valdebebas-reportage** — Bupas digitale hospital (rejseformat).
+- **(2026-08) Corti mod børsen** — stadig "ikke 2026"; følg signaler ind i 2027.
+- **(2026-08) Storskalaprojekterne i regionerne** — status når drift har kørt et halvt år: hvad siger klinikerne?
+- **(2026-08) Region Østdanmark-fusionen** — AI-projekter under omorganisering.
+- **(2026-08) Aiforia/Dedalus i praksis** — kliniske resultater fra AI-patologi.
+- **(2026-08) Bupa Prevention Pathways: første tal** — 200.000-mål ind i 2027.
+- **(2026-08) Farmakogenomik** — spytprøve/medicin-match i det offentlige?
+- **(2026-08) OK26 efter implementering** — ergoterapeut-løn/læserpanel.
+- **(2026-08) Valdebebas-reportage** — Bupas digitale hospital (rejseformat).
 
 ## Praktisk
 
 - Nr. 2 mangler PDF og cover-billeder.
-- Behold kilde-fodnoter på features.
+
+## Log
+
+- **2026-08-01:** Notesbog udvidet med `## Identitet` og `## Format` (fælles skabelon, se [redaktion/README](../README.md)); leads datostemplet.
 
 ## Nabotitel: DOSIS
 

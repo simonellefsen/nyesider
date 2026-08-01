@@ -22,11 +22,16 @@ Cover + 5 Imagine-features + SVG-diagram.
 
 ## Nr. 2 — kandidater
 
-- Starship vs. Falcon manifests i praksis  
-- New Glenn return-to-flight opfølgning  
-- Kuiper / kinesiske konstellationer  
-- Rumsituationsoverblik (SSA) og nærpassage-statistik 
-- ESA launcher-politik  
+- **(2026-08) Starship vs. Falcon manifests i praksis**  
+- **(2026-08) New Glenn return-to-flight opfølgning**  
+- **(2026-08) Kuiper / kinesiske konstellationer**  
+- **(2026-08) Rumsituationsoverblik (SSA) og nærpassage-statistik**
+- **(2026-08) ESA launcher-politik**
+
+## Format
+
+- **Artikeltal:** typisk 12–14. Faste: Leder · Tallet · agentur-features (SpaceX/Blue Origin/NASA-ESA/Indien-Rusland/Kina) · satellitter · skrot · LEO/MEO/GEO-diagram · kalender · ordbog · rygtebørs.
+- **Standard `mustCite`:** 2+ for Tallet og agentur-features med launch-tal/masse/dato; 0 for rygtebørs.
 
 ## Research-regler
 
@@ -37,3 +42,8 @@ Ingen opdigtede launch-datoer. Skeln planlagt/scrub/success/failure. Primære ki
 
 Kanonisk data i `content/orbit/issues/<issue>/charts/*.json` — se [content/CHARTS.md](../../content/CHARTS.md).  
 Nr. 1: `global-launches`, `active-sats`.
+
+## Log
+
+- **2026-08-01:** Notesbog udvidet med `## Format`; leads datostemplet (se [redaktion/README](../README.md)).
+- **2026-08-01 rettelse:** `10-saadan-virker-baner.md` (chefredaktør-skrevet) angav LEO 160-2.000 km og GEO 35.786 km korrekt, men uden kilde — tilføjede ESA/NASA-kilder. Ingen faktafejl fundet, kun manglende kildehenvisning.

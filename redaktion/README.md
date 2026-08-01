@@ -6,6 +6,7 @@ Redaktionel hukommelse for forlaget. Chefredaktør-agenten læser og opdaterer d
 
 - **[modelkartotek.md](modelkartotek.md)** — fælles erfaringer med OpenRouter-modeller (skribenter og billedmodeller) på tværs af alle titler. Læs før casting af nye numre; opdater efter hver produktion.
 - **`<titel>/redaktionsnotesbog.md`** — pr. magasin: historier i støbeskeen, opfølgninger, idébank, faste formater og titelspecifik praktik. Grundlag for næste nummer.
+- **`<titel>/numre/<issue-slug>/bestilling.json`** — pr. nummer: det skrevne brief til hver skribent og chefredaktørens verdikt på hver artikel. Se [bestilling.schema.md](bestilling.schema.md). Dette er kontraktens **anden halvdel** — uden den overlever kun det færdige resultat, aldrig hvad der blev bedt om.
 
 ## Arbejdsgang for et nyt nummer
 
@@ -14,7 +15,9 @@ Redaktionel hukommelse for forlaget. Chefredaktør-agenten læser og opdaterer d
    - **OpenRouter-tekst:** kun `.env.<slug>` for den titel, der produceres (fx `.env.kraften`). Aldrig en anden titels fil — cost tracking i OpenRouter-dashboardet afhænger af det.
    - **Imagine-billeder:** `XAI_API_KEY` i **`.env.local`** (fælles for forlaget).
    - Hjælper: `python production/load_env.py <slug>` (loader begge; printer kun filstier, aldrig hemmeligheder).
-3. Cast og indhent artikler fra teamet (modeller / skribenter).
+3. **Skriv briefet, så bestil.** Før du kaster en opgave til en skribentmodel, opret (eller udvid) `redaktion/<titel>/numre/<issue-slug>/bestilling.json` — se [bestilling.schema.md](bestilling.schema.md). Hver `opgave` skal som minimum have `brief.angle`, `brief.words` og `brief.mustCite`, **før** du sender prompten. `mustCite` er en bevidst beslutning, ikke en eftertanke: `0` er lovligt og almindeligt (leder, ordbog, rygtebørs, førstepersonsanekdote), men det skal skrives ned som `0`, ikke bare udelades.
+   - **Sourcing hører hjemme i briefet, ikke kun i godkendelsen.** Det er den enkelte lære fra denne fil, der har haft størst konsekvens: da kildekravet kun stod i fact-check-tjeklisten (trin 4 nedenfor), var det for sent at rette, når artiklen landede — så det blev sjældent gjort. To hele titler blev udgivet med 0 % kildedækning, fordi ingen skribent nogensinde blev bedt om en kilde. Fortæl skribenten `mustCite`-tallet og eventuelle `mustNumber`-krav direkte i prompten, sammen med `words`-intervallet.
+   - Skriv én artikel ad gangen (sandboxens shell-kald har typisk et loft på ~45 sek.). Brug `production/commission.py <titel> <issue-slug> <artikel-slug>` når det findes (se `production/README` eller scriptets docstring) — det virker som et rent transportlag: det henter, tæller ord/kilder og pris, og skriver kladden til `kladder/`, men **kan ikke selv skrive til `content/`**. Du læser stadig hele udkastet, og du skriver stadig selv den godkendte fil.
 4. **Fact-check & accept (chefredaktør — obligatorisk før publicering):**  
    Ingen artikel går i `content/…` som færdige/publiceret, før chefredaktøren har gennemgået den. Minimum:
    - **Fakta:** tal, årstal, stednavne, institutioner, priser og “første gang”-påstande tjekkes mod troværdige kilder (officiel statistik, primære sitet, seriøs journalistik). Opdigt ikke præcise datoer for virkelige begivenheder.
@@ -23,10 +26,11 @@ Redaktionel hukommelse for forlaget. Chefredaktør-agenten læser og opdaterer d
    - **Sprog & husregler:** dansk, forkortelser første gang, nbsp før `%`, ingen engelsk teen/jargon uden forklaring.
    - **Vinkel:** passer til titlens identitet (fx HORISONTEN ≠ KULTURBOXEN); krydslink kun hvor det hjælper.
    - **Ret eller afvis:** ret faktafejl, stram vage påstande, eller send tilbage til skribent. Først derefter: accept → commit til nummeret.
-5. Læg godkendt output i `content/<titel>/issues/<YYYY-MM-nrN>/` (artikler, billeder, `issue.json`, PDF).
-6. Notér produktionsomkostningen i nummerets `issue.json` (`productionCostUSD`, gerne `text` / `images` breakdown).
-7. Opdater notesbogen: afvikl brugte leads, tilføj nye, notér løfter givet i det trykte nummer.
-8. Opdater modelkartoteket med nye modelerfaringer.
+   - **Skriv verdikten ned:** udfyld `verdict.status` (`accepted` / `accepted-after-edit` / `rewritten-by-editor` / `rejected` / `fallback-used`), `citations` (talt fodnote-antal) og en kort `editorNote` i den tilhørende `opgave` i `bestilling.json`. Uden dette felt findes der intet sted, der viser, at en artikel faktisk blev gennemgået — kun at nummeret endte med `"status": "published"`.
+5. Læg godkendt output i `content/<titel>/issues/<YYYY-MM-nrN>/` (artikler, billeder, `issue.json`, PDF). Kør `production/check_issue.py <titel> <issue-slug>` — det er hurtigt (sekunder) og fanger det, der ellers glider stille igennem: manglende billedfiler, filnavne-præfiks der ikke matcher `order`, ubrugte/manglende fodnoter, brudt `[CHART]`-reference. Fejl her bør rettes før udgivelse; advarsler (fx manglende `standfirst`) er redaktionelle valg, ikke blokerende.
+6. Notér produktionsomkostningen i nummerets `issue.json` (`productionCostUSD`). Summér `receipt.costUSD` på tværs af nummerets `opgaver` i `bestilling.json` — `production/commission.py --sum <titel> <issue-slug>` gør det for dig, når scriptet findes.
+7. Opdater notesbogen: afvikl brugte leads, tilføj nye **med datostempel** (`(2026-08)`), og notér løfter givet i det trykte nummer.
+8. Modelkartoteket opdaterer sig selv — `production/modelstats.py` afleder statistikken fra alle titlers `bestilling.json`-filer, når det findes. Tilføj kun kvalitative, daterede observationer med hånd (se `modelkartotek.md`'s egen struktur).
 
 ## Hemmeligheder (kort)
 
