@@ -1,0 +1,29 @@
+{
+  "slug": "kraften",
+  "name": "KRAFTEN",
+  "tagline": "Magasinet om energi — atom, sol, vind, gas, olie, lagring og det der holder nettet i live",
+  "language": "da",
+  "audience": "Danskere og europæere der vil forstå energisystemet: beslutningstagere, branchefolk, nysgerrige borgere og investorer — uden at forudsætte en ingeniørgrad",
+  "sections": [
+    "Leder",
+    "Atom (fission, thorium, fusion)",
+    "Fossilt (olie, gas, kul)",
+    "Vedvarende (sol, vind, vand, geo)",
+    "Lagring & fleksibilitet",
+    "Teknologi & innovation",
+    "Lande & udbygning (statistik)",
+    "Planer & politik",
+    "Byggeri & anlæg",
+    "Marked & priser",
+    "Tallet (datavisning)",
+    "Ordbogen",
+    "Rygtebørsen"
+  ],
+  "theme": {
+    "colors": {
+      "primary": "#14231F",
+      "accent": "#E3A008",
+      "highlight": "#4EC9B0"
+    }
+  }
+}

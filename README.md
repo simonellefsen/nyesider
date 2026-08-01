@@ -10,6 +10,7 @@ Dansk magasinforlag, hvor hvert nummer produceres af en chefredaktør-agent med 
 | **PULSEN** | Sundhedssektoren, AI i klinikken, ergoterapi | Nr. 2 · August 2026 · *"Når tasterne bliver stille"* |
 | **SPÆNDING** | Elbiler og teknologien bag, europæisk fokus | Nr. 2 · August 2026 · *"Når watt bliver hverdag"* |
 | **HORISONTEN** | Rejser i Europa — vandring, cykling, løb | Nr. 2 · August 2026 · *"Dolomitterne i efteråret"* |
+| **KRAFTEN** | Energi: atom, sol, vind, gas, olie, lagring, udbygning | *(endnu ikke udgivet)* |
 
 ## Struktur
 
