@@ -1,6 +1,6 @@
 ---
 title: EHDS — når patientdata skal kunne rejse
-standfirst: Det europæiske sundhedsdataområde fylder ét år i reguleringens liv. Ambitionen er stor: deling til behandling og forskning. Tilliden er den knappe ressource.
+standfirst: "Det europæiske sundhedsdataområde fylder ét år i reguleringens liv. Ambitionen er stor: deling til behandling og forskning. Tilliden er den knappe ressource."
 byline: GPT-5.5 (OpenAI)
 section: Analyse · Data & politik
 order: 4
