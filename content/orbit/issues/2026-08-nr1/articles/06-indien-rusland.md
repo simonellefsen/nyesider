@@ -2,13 +2,13 @@
 title: "Indien og Rusland: to tempoer"
 standfirst: ISRO jagter pålidelig, billig adgang. Roscosmos kæmper for at holde kapacitet under pres.
 byline: Gemini 3.1 Pro (Google)
-section: Nationer & agencer
+section: Nationer & agenturer
 order: 6
 ---
 
 ### Indien (ISRO)
 
-Indiens nationale rumorganisation **ISRO** (*Indian Space Research Organisation*) har i 2020'erne cementeret et ry for **omkostningseffektiv** rumfart og voksende cadence på nationale køretøjer. Antallet af årlige orbitale opsendelser er lavere end USA/Kina, men den strategiske linje er klar: egen adgang, kommercielle slots, og måne-/planetariske missioner når budget og vindue passer. ORBIT følger manifests — ikke kun jubilæumstal.
+Indiens nationale rumorganisation **ISRO** (*Indian Space Research Organisation*) har i 2020'erne cementeret et ry for **omkostningseffektiv** rumfart og voksende kadence på nationale køretøjer. Antallet af årlige orbitale opsendelser er lavere end USA/Kina, men den strategiske linje er klar: egen adgang, kommercielle slots, og måne-/planetariske missioner når budget og vindue passer. ORBIT følger manifests — ikke kun jubilæumstal.
 
 ### Rusland
 
@@ -16,6 +16,6 @@ Rusland lå i 2025-opgørelser omkring **midten af teen** orbitale opsendelser �
 
 ### Læren
 
-Cadence er magt. Lav cadence er ikke nødvendigvis inkompetence — men det er et andet spil end 165 Falcon-flyvninger.
+Kadence er magt. Lav kadence er ikke nødvendigvis inkompetence — men det er et andet spil end 165 Falcon-flyvninger.
 
 [^1]: SpaceStatsOnline / årlige country tables 2025 — Russia ~17.

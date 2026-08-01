@@ -15,7 +15,7 @@ Jonathan McDowells offentlige statistik (juli 2026) peger på i størrelsesorden
 
 Tendensen er klar: LEO-konstellationer har skubbet antallet af aktive satellitter op i tocifrede tusinder.
 
-### Hvad konstellationer gør ved cadence
+### Hvad konstellationer gør ved kadence
 
 Hver ny batch er både en **kundemulighed** for launch providers og en **genopfyldningspligt**. Det er derfor Falcon 9 kan flyve uge efter uge: efterspørgslen er indbygget i forretningsmodellen.
 

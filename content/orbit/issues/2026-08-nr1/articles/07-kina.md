@@ -1,8 +1,8 @@
 ---
-title: "Kina: den anden cadence-motor"
+title: "Kina: den anden kadence-motor"
 standfirst: Omkring 90 orbitale opsendelser på et år. Statslige Long March-familier, private startups — og LEO-bredbånd under opbygning.
 byline: Claude Sonnet 5 (Anthropic)
-section: Nationer & agencer
+section: Nationer & agenturer
 order: 7
 image: ../images/orbit_kina.png
 imageCredit: "AI-genereret motiv (Imagine / xAI)"
@@ -19,7 +19,7 @@ Hvis SpaceX er den ene motor i 2025-rekorden, er **Kina** den anden. Opgørelser
 
 ### Hvad ORBIT ikke gør
 
-Vi spekulerer ikke i hemmelige payloads. Vi tæller offentlige opsendelser, følger station- og måneprogrammer når de er bekræftede, og husker at kinesisk cadence også betyder flere objekter i kataloget.
+Vi spekulerer ikke i hemmelige payloads. Vi tæller offentlige opsendelser, følger station- og måneprogrammer når de er bekræftede, og husker at kinesisk kadence også betyder flere objekter i kataloget.
 
 ### Billedet
 

@@ -1,16 +1,16 @@
 # ORBIT – Redaktionsnotesbog
 
-Opdateret efter nr. 1 (august 2026, *"Cadence"*).  
+Opdateret efter nr. 1 (august 2026, *"Kadence"*).  
 OpenRouter: **kun** `.env.orbit`. Imagine: `.env.local` / `XAI_API_KEY`.
 
 ## Identitet
 
-Rumfart som industri og geopolitik: opsendelser, agencer, sats, skrot, kalender, statistik, how-it-works.  
+Rumfart som industri og geopolitik: opsendelser, agenturer, sats, skrot, kalender, statistik, how-it-works.  
 vs **KRAFTEN:** de tager rum-*kraft* (watt); vi tager mission/ops/katalog. Overlap OK.
 
 ## Forside (skifter hvert nummer)
 
-1. Sæt `issueTheme` (nr. 1: **Cadence**).  
+1. Sæt `issueTheme` (nr. 1: **Kadence**).  
 2. Generér ny `images/orbit_cover.png` (3:4, Imagine) der fanger temaet.  
 3. `issue.json`: `cover`, `coverCredit`, `coverSource`.  
 4. Brand: navy `#0B1020`, blå `#5B8DEF`, guld `#E8B86D`. Ingen masthead-tekst i billedet.

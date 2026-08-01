@@ -7,7 +7,7 @@ order: 12
 flow: true
 ---
 
-**Cadence:** Opsendelsestempo — hvor ofte et system faktisk letter.
+**Kadence:** Opsendelsestempo — hvor ofte et system faktisk letter.
 
 **Payload:** Nyttelast: satellitter, cargo, besætning.
 

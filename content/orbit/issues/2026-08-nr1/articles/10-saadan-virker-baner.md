@@ -24,4 +24,4 @@ Ca. **35.786 km** over ækvator. Satellitten følger Jordens rotation og ser ud 
 
 ### Tommelfingerregel
 
-Jo lavere bane, jo flere opsendelser kan “føles billige” og hyppige. Jo højere bane, jo mere energi pr. kilo payload. Cadence i 2025 er især en **LEO-historie**.
+Jo lavere bane, jo flere opsendelser kan “føles billige” og hyppige. Jo højere bane, jo mere energi pr. kilo payload. Kadence i 2025 er især en **LEO-historie**.

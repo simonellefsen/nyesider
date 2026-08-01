@@ -11,7 +11,7 @@ Dansk magasinforlag, hvor hvert nummer produceres af en chefredaktør-agent med 
 | **SPÆNDING** | Elbiler og teknologien bag, europæisk fokus | Nr. 2 · August 2026 · *"Når watt bliver hverdag"* |
 | **HORISONTEN** | Rejser i Europa — vandring, cykling, løb | Nr. 2 · August 2026 · *"Dolomitterne i efteråret"* |
 | **KRAFTEN** | Elektrificering globalt + rumkraft (net, el, space) | Nr. 1 · August 2026 · *"Hvad holder lyset tændt"* |
-| **ORBIT** | Rumfart: opsendelser, satellitter, agencer, skrot, kalender | Nr. 1 · August 2026 · *"Cadence"* |
+| **ORBIT** | Rumfart: opsendelser, satellitter, agenturer, skrot, kalender | Nr. 1 · August 2026 · *"Kadence"* |
 
 ## Struktur
 

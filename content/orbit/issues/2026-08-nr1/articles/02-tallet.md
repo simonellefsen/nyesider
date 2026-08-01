@@ -1,6 +1,6 @@
 ---
 title: "Tallet: 324"
-standfirst: Omkring tre hundrede og fireogtyve orbitale opsendelsesforsøg i 2025. Det er cadence skrevet med tre cifre.
+standfirst: Omkring tre hundrede og fireogtyve orbitale opsendelsesforsøg i 2025. Det er kadence skrevet med tre cifre.
 byline: GPT-5.6 Terra (OpenAI)
 section: Tallet
 order: 2
@@ -16,11 +16,11 @@ Hold musen over kurven (online) for årstal. Print gengiver ikke interaktivitete
 
 - **SpaceX / Falcon 9:** i størrelsesordenen **165** flyvninger i 2025 — mere end resten af verden tilsammen i flere opgørelser.[^1]  
 - **Kina:** omkring **90–93** orbitale opsendelser — ny national rekordrytme.[^1]  
-- **USA + Kina** tegnede sig for langt hovedparten af verdens cadence.
+- **USA + Kina** tegnede sig for langt hovedparten af verdens kadence.
 
 ### Hvad tallet *ikke* er
 
-Det er ikke det samme som “succesrate 100 %”, ikke det samme som masse til Mars, og ikke det samme som bæredygtig LEO. Cadence uden debris-disciplin er bare hurtigere fyldning af banen.
+Det er ikke det samme som “succesrate 100 %”, ikke det samme som masse til Mars, og ikke det samme som bæredygtig LEO. Kadence uden debris-disciplin er bare hurtigere fyldning af banen.
 
 Næste artikler packer tallet ud: fabriksrytme i Texas/Florida, Kinas portefølje, og skrotstatistikken der følger med.
 

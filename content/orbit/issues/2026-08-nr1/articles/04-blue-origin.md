@@ -21,7 +21,7 @@ I slutningen af maj **2026** ødelagde en alvorlig anomali under en hotfire/inte
 - **BE-4**-motorproduktion og second stage.  
 - **CLPS / Blue Moon**-spor — kun når hardware og manifests er konkrete.
 
-Cadence er ikke kun SpaceX's ord. Det er også det ord, Blue Origin skal genvinde tillid med — én vellykket flyvning ad gangen.
+Kadence er ikke kun SpaceX's ord. Det er også det ord, Blue Origin skal genvinde tillid med — én vellykket flyvning ad gangen.
 
 [^1]: Blue Origin missionssider — New Glenn-flyvninger 2026 (fx NG-3, april 2026).
 

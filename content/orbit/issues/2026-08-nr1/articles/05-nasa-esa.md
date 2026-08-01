@@ -1,8 +1,8 @@
 ---
-title: "NASA & ESA: agencer i en kommerciel tidsalder"
+title: "NASA & ESA: agenturer i en kommerciel tidsalder"
 standfirst: De køber lift, de sætter krav, og de flyver stadig flagskibe. Sådan ser den transatlantiske akse ud i 2026.
 byline: Mistral Large (Mistral AI)
-section: Nationer & agencer
+section: Nationer & agenturer
 order: 5
 ---
 
@@ -12,7 +12,7 @@ Den amerikanske rumfartsadministration **NASA** (*National Aeronautics and Space
 
 ### ESA
 
-Den europæiske rumorganisation **ESA** (*European Space Agency*) kæmper for **autonom adgang til rummet** — Ariane 6, Vega-familien, og industrielle partnerskaber. Få europæiske orbitale opsendelser i 2025-tallene minder om, at kontinentet ikke vinder på cadence (tempo), men på instrumenter, jordsegment og politisk vilje til ikke at være 100 % afhængig af andres manifests.[^1]
+Den europæiske rumorganisation **ESA** (*European Space Agency*) kæmper for **autonom adgang til rummet** — Ariane 6, Vega-familien, og industrielle partnerskaber. Få europæiske orbitale opsendelser i 2025-tallene minder om, at kontinentet ikke vinder på kadence (tempo), men på instrumenter, jordsegment og politisk vilje til ikke at være 100 % afhængig af andres manifests.[^1]
 
 ### Fælles punkt
 

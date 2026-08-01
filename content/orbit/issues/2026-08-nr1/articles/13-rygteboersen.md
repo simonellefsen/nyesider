@@ -13,7 +13,7 @@ Efter maj-knaket? Ambition er ikke pad-beton.
 **Starship erstatter Falcon i 2026** ★★☆☆☆  
 Test flyver. Manifestet elsker stadig Falcon 9.
 
-**ESA matcher kinesisk cadence** ★☆☆☆☆  
+**ESA matcher kinesisk kadence** ★☆☆☆☆  
 Ikke med nuværende opsendelsestal. Anden strategi.
 
 **Alle Starlinks deorbiterer pænt** ★★★☆☆  
