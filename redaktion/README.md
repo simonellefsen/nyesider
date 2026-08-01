@@ -18,6 +18,7 @@ Redaktionel hukommelse for forlaget. Chefredaktør-agenten læser og opdaterer d
 4. **Fact-check & accept (chefredaktør — obligatorisk før publicering):**  
    Ingen artikel går i `content/…` som færdige/publiceret, før chefredaktøren har gennemgået den. Minimum:
    - **Fakta:** tal, årstal, stednavne, institutioner, priser og “første gang”-påstande tjekkes mod troværdige kilder (officiel statistik, primære sitet, seriøs journalistik). Opdigt ikke præcise datoer for virkelige begivenheder.
+   - **Hårde tal er et krav, ikke en bonus:** hvor en artikel *kan* underbygges med et konkret tal (absolut antal, procent, kr., år, g/kg osv.), skal den. Vage formuleringer som “en betydelig andel”, “mange danskere” eller “stiger markant” sendes tilbage til skribenten, medmindre chefredaktøren selv kan finde og indsætte det præcise tal med kilde. Afrundede pejlemærker er kun acceptable, når et præcist tal reelt ikke findes (mærk dem da eksplicit som ballpark) — ikke fordi ingen gad slå det op. Se DOSIS' `11-tallet.md` (august 2026) som skabelon: tabel med tal + år + fodnote pr. celle.
    - **Kilder:** fodnoter/`[^n]` skal pege på reelle, gerne klikbare kilder, hvor det er muligt; afrundede pejlemærker skal være ærligt mærket som sådan.
    - **Sprog & husregler:** dansk, forkortelser første gang, nbsp før `%`, ingen engelsk teen/jargon uden forklaring.
    - **Vinkel:** passer til titlens identitet (fx HORISONTEN ≠ KULTURBOXEN); krydslink kun hvor det hjælper.
@@ -38,10 +39,11 @@ Skabelon: [`.env.example`](../.env.example). Alle `.env*` er gitignored. Webappe
 
 ## Billeder (copyright-politik)
 
-**Standard: generér selv via xAI Imagine** med `XAI_API_KEY` fra `.env.local` (Grok Build `image_gen` / Imagine API). Undgår stock- og pressefoto-copyright.
+**Standard: generér selv via xAI Imagine** med `XAI_API_KEY` fra `.env.local` (Grok Build `image_gen` / Imagine API). Undgår stock- og pressefoto-copyright. Brug `production/generate_image.py` (se `--list-styles`) — den holder styr på stilkatalog og husregler i prompten.
 
-- Prompt: motiver uden logoer, uden læsbar skiltetekst; stil tilpasset titlen (akvarel, editorial foto, osv.).
-- Kreditering: `imageCredit` + `imageSource` (typisk Imagine / xAI → `https://x.ai/`) under figuren; cover: `coverCredit` + `coverSource`; samlet `imageCredits` + `images/SOURCES.md` i nummeret.
+- **Varier stilart bevidst — fotorealisme er ét valg blandt mange, ikke standarden.** Skribenter og chefredaktør skal aktivt overveje [The Noun Project's 17 grafiske designstile](https://blog.thenounproject.com/graphic-design-styles/) (minimalisme, maksimalisme, typografisk, retro, abstrakt, geometrisk, flad vektor, 3D, organisk, moderne, corporate, illustreret, legende, feminin, maskulin, grunge, fotorealisme) og vælge den stil, der passer *emnet* i den enkelte artikel — fx flad vektor til et enkelt sammenligningsmotiv, maksimalisme til en overvældende "jungle" af valgmuligheder, geometrisk til et data-tungt "Tallet". Et helt nummer i samme fotorealistiske stil er en smagsfejl, ikke et neutralt valg.
+- Prompt: motiver uden logoer, uden læsbar skiltetekst; stil tilpasset både titlen og den enkelte artikels emne (se ovenfor).
+- Kreditering: `imageCredit` + `imageSource` (typisk Imagine / xAI → `https://x.ai/`) under figuren, gerne med stilnavn i parentes (fx "— retrostil"); cover: `coverCredit` + `coverSource`; samlet `imageCredits` + `images/SOURCES.md` i nummeret (inkl. stilart pr. billede).
 - **Træk ikke** billeder fra nettet, Google Images, Wikipedia eller agency feeds uden eksplicit licens og kilde-URL.
 - Undtagelse: egenproducerede diagrammer/SVG (fx GNISTEN) og materiale med dokumenteret fri/egen licens.
 - **Gemini/OpenRouter-billeder** kun som fallback — og så på **titlens egen** OpenRouter-nøgle (`.env.<slug>`), så billedforbrug også kan spores pr. magasin.

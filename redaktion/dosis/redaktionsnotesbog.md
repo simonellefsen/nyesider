@@ -12,7 +12,8 @@ Longevity, ernæring/kost, tilskud, proteser/implantater, **wearables & hjemmete
 
 **Tema:** Protein-æraen  
 **14 artikler:** leder, protein-æra, gram-behov, tallerken, pulver vs mad, D-vitamin, tilskudsjungle, implantater, **wearables/hjemmetests**, longevity-hype, tallet, ordbog, rygtebørs, til PULSEN.  
-Cover + features (Imagine). PDF mangler.
+Cover + features (Imagine). PDF mangler.  
+**2026-08-01 rettelse:** 4 artikler manglede billede (pulver-vs-mad, tilskudsjunglen, longevity-hype, tallet) — tilføjet, hver i sin egen stilart (flad vektor / maksimalisme / retro / geometrisk) i stedet for endnu et fotorealistisk motiv, jf. ny stilregel i [redaktion/README](../README.md). Samtidig tilføjet hårde tal med kilde i pulver-vs-mad (NNR2023 protein g/kg), tilskudsjunglen (FDA/JAMA 776 forurenede produkter; DTU 60 % bruger tilskud), D-vitamin (SST's 5–10/20 µg), og longevity-hype (Newman/Ig Nobel 2024 blå zone-data), samt genopbygget "Tallet" med en kildetabel (levetid, overvægt, fysisk aktivitet, tilskud, D-vitamin, hofte-/knæalloplastik) i stedet for vage "ballpark"-rækker. Filnavne-præfikser i `articles/` rettet til at matche `issue.json`'s rækkefølge (var 09/09/10/11/12/13, nu 09–14 fortløbende).
 
 ## Nr. 2 — kandidater
 

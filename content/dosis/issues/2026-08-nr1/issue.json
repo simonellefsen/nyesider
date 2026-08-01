@@ -15,10 +15,14 @@
     "images/dosis_tallerken.png",
     "images/dosis_vitamin.png",
     "images/dosis_implantat.png",
-    "images/dosis_wearable.png"
+    "images/dosis_wearable.png",
+    "images/dosis_pulver.png",
+    "images/dosis_tilskud.png",
+    "images/dosis_longevity.png",
+    "images/dosis_tallet.png"
   ],
   "productionCostUSD": null,
-  "imageCredits": "Alle motiver AI-genereret via Imagine (xAI). Ingen lægemiddel-logoer eller emballage-tekst. Se SOURCES.md.",
+  "imageCredits": "Alle motiver AI-genereret via Imagine (xAI), i varierede grafiske stilarter (flad vektor, maksimalisme, retro, geometrisk m.fl. — se The Noun Project's stilkatalog). Ingen lægemiddel-logoer eller emballage-tekst. Se SOURCES.md.",
   "backCoverPromise": "DOSIS nr. 2 måler videre — ny forskning, ny tallerken, samme skepsis.",
   "articles": [
     {
@@ -70,7 +74,10 @@
       "title": "Pulver vs. mad: hvornår shakeren vinder",
       "section": "Mad i praksis",
       "byline": "Mistral Large (Mistral AI)",
-      "standfirst": "Værktøj eller dyrt skum?"
+      "standfirst": "Værktøj eller dyrt skum?",
+      "image": "../images/dosis_pulver.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI) — flad vektorstil",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "d-vitamin",
@@ -91,7 +98,10 @@
       "title": "Tilskudsjunglen: piller, shots og det, lab’et ikke garanterer",
       "section": "Tilskud, piller & væsker",
       "byline": "GLM-5.2 (Z.ai)",
-      "standfirst": "Reguleret — men ikke som medicin."
+      "standfirst": "Reguleret — men ikke som medicin.",
+      "image": "../images/dosis_tilskud.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI) — maksimalistisk stil",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "implantater",
@@ -119,25 +129,31 @@
     },
     {
       "slug": "longevity-hype",
-      "file": "articles/09-longevity-hype.md",
+      "file": "articles/10-longevity-hype.md",
       "order": 10,
       "title": "Longevity-hyben: blå zoner, biologisk alder og dig",
       "section": "Longevity & aldring",
       "byline": "Qwen3.7 Max (Alibaba)",
-      "standfirst": "Måling er spændende. Salg er en forretning."
+      "standfirst": "Måling er spændende. Salg er en forretning.",
+      "image": "../images/dosis_longevity.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI) — retrostil",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "tallet",
-      "file": "articles/10-tallet.md",
+      "file": "articles/11-tallet.md",
       "order": 11,
       "title": "Tallet: pejlemærker for kroppen i Danmark",
       "section": "Laboratoriet / tallet",
       "byline": "DeepSeek V3.2 (DeepSeek)",
-      "standfirst": "Afrundede retninger, ikke facit."
+      "standfirst": "Konkrete tal med kilde — ikke facit.",
+      "image": "../images/dosis_tallet.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI) — geometrisk stil",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "ordbogen",
-      "file": "articles/11-ordbogen.md",
+      "file": "articles/12-ordbogen.md",
       "order": 12,
       "title": "Ordbogen",
       "section": "Ordbogen",
@@ -146,7 +162,7 @@
     },
     {
       "slug": "rygteboersen",
-      "file": "articles/12-rygteboersen.md",
+      "file": "articles/13-rygteboersen.md",
       "order": 13,
       "title": "Rygtebørsen",
       "section": "Rygtebørsen",
@@ -155,7 +171,7 @@
     },
     {
       "slug": "til-pulsen",
-      "file": "articles/13-til-pulsen.md",
+      "file": "articles/14-til-pulsen.md",
       "order": 14,
       "title": "Når dosis møder systemet",
       "section": "Kryds (PULSEN m.fl.)",
