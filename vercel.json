@@ -1,5 +1,25 @@
 {
 	"$schema": "https://openapi.vercel.sh/vercel.json",
 	"installCommand": "npm --prefix web ci",
-	"buildCommand": "npm --prefix web run build && rm -rf .vercel && cp -a web/.vercel ."
+	"buildCommand": "npm --prefix web run build && rm -rf .vercel && cp -a web/.vercel .",
+	"headers": [
+		{
+			"source": "/feed.xsl",
+			"headers": [{ "key": "Content-Type", "value": "text/xsl; charset=utf-8" }]
+		},
+		{
+			"source": "/feed.xml",
+			"headers": [
+				{ "key": "Content-Type", "value": "application/xml; charset=utf-8" },
+				{ "key": "Cache-Control", "value": "public, max-age=1800" }
+			]
+		},
+		{
+			"source": "/:magazine/feed.xml",
+			"headers": [
+				{ "key": "Content-Type", "value": "application/xml; charset=utf-8" },
+				{ "key": "Cache-Control", "value": "public, max-age=1800" }
+			]
+		}
+	]
 }

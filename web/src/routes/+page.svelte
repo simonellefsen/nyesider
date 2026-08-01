@@ -34,22 +34,6 @@
 
 	<ContinueReading />
 
-	<section class="rss-home" aria-labelledby="rss-home-heading">
-		<div class="rss-home-inner">
-			<div>
-				<h2 id="rss-home-heading" class="rss-home-title">Nye numre via RSS</h2>
-				<p>
-					Følg udgivelser i din egen læser-app — uden konto hos os. Vi publicerer et feed, hver
-					gang et nyt magasinnummer er ude.
-				</p>
-			</div>
-			<div class="rss-home-actions">
-				<a class="btn btn-primary" href="/rss">Sådan virker RSS</a>
-				<a class="btn btn-ghost" href="/feed.xml">Feed (XML)</a>
-			</div>
-		</div>
-	</section>
-
 	<section id="titler" aria-labelledby="titler-heading">
 		<h2 id="titler-heading" class="section-heading">Titler</h2>
 		<div class="mag-grid">
@@ -114,6 +98,22 @@
 					</div>
 				</article>
 			{/each}
+		</div>
+	</section>
+
+	<section class="rss-home" aria-labelledby="rss-home-heading">
+		<div class="rss-home-inner">
+			<div>
+				<h2 id="rss-home-heading" class="rss-home-title">Nye numre via RSS</h2>
+				<p>
+					Følg udgivelser i din egen læser-app — uden konto hos os. Vi publicerer et feed, hver
+					gang et nyt magasinnummer er ude.
+				</p>
+			</div>
+			<div class="rss-home-actions">
+				<a class="btn btn-primary" href="/rss">Sådan virker RSS</a>
+				<a class="btn btn-ghost" href="/feed.xml">Feed (XML)</a>
+			</div>
 		</div>
 	</section>
 </main>

@@ -8,6 +8,27 @@
 
 	const description =
 		'Følg Nye Sider med RSS — få besked om nye magasinernumre i din læser-app. Ingen konto, ingen app fra os.';
+
+	function feedScheme(url: string): string {
+		return `feed://${url.replace(/^https?:\/\//, '')}`;
+	}
+	function feedlyUrl(url: string): string {
+		return `https://feedly.com/i/subscription/feed/${encodeURIComponent(url)}`;
+	}
+	function inoreaderUrl(url: string): string {
+		return `https://www.inoreader.com/?add_feed=${encodeURIComponent(url)}`;
+	}
+	function newsblurUrl(url: string): string {
+		return `https://newsblur.com/?url=${encodeURIComponent(url)}`;
+	}
+
+	async function copyFeed(url: string, event: MouseEvent) {
+		await navigator.clipboard.writeText(url);
+		const btn = event.currentTarget as HTMLButtonElement;
+		const original = btn.textContent;
+		btn.textContent = 'Kopieret ✓';
+		setTimeout(() => (btn.textContent = original), 1500);
+	}
 </script>
 
 <Seo
@@ -43,7 +64,26 @@
 					<code class="rss-url">{data.siteFeedUrl}</code>
 				</div>
 				<div class="rss-feed-actions">
-					<a class="btn btn-primary" href={data.siteFeedPath}>Åbn feed</a>
+					<a class="btn btn-primary" href={feedScheme(data.siteFeedUrl)}>Åbn i app</a>
+					<a class="btn btn-ghost" href={feedlyUrl(data.siteFeedUrl)} target="_blank" rel="noopener"
+						>Feedly</a
+					>
+					<a
+						class="btn btn-ghost"
+						href={inoreaderUrl(data.siteFeedUrl)}
+						target="_blank"
+						rel="noopener">Inoreader</a
+					>
+					<a class="btn btn-ghost" href={newsblurUrl(data.siteFeedUrl)} target="_blank" rel="noopener"
+						>NewsBlur</a
+					>
+					<button
+						class="btn btn-ghost"
+						type="button"
+						onclick={(e) => copyFeed(data.siteFeedUrl, e)}
+					>
+						Kopiér adresse
+					</button>
 				</div>
 			</li>
 			{#each data.magazines as mag (mag.slug)}
@@ -54,7 +94,13 @@
 						<code class="rss-url">{mag.feedUrl}</code>
 					</div>
 					<div class="rss-feed-actions">
-						<a class="btn btn-ghost" href={mag.feedPath}>Åbn feed</a>
+						<a class="btn btn-ghost" href={feedScheme(mag.feedUrl)}>Åbn i app</a>
+						<a class="btn btn-ghost" href={feedlyUrl(mag.feedUrl)} target="_blank" rel="noopener"
+							>Feedly</a
+						>
+						<button class="btn btn-ghost" type="button" onclick={(e) => copyFeed(mag.feedUrl, e)}>
+							Kopiér
+						</button>
 					</div>
 				</li>
 			{/each}

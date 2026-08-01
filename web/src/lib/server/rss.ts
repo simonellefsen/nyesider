@@ -103,6 +103,7 @@ export function buildRssXml(opts: {
 		.join('\n');
 
 	return `<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/feed.xsl"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>${escapeXml(opts.title)}</title>
@@ -143,11 +144,22 @@ export function magazineFeedXml(magazineSlug: string): string {
 	});
 }
 
+/**
+ * NOTE — these headers are advisory only and do NOT reach the browser.
+ * Every feed route below sets `export const prerender = true`, so
+ * SvelteKit writes this response to a static .xml file at build time and
+ * Vercel serves it from disk with Vercel's own defaults
+ * (`content-type: application/xml`, `cache-control: max-age=0,
+ * must-revalidate`) — not these. Do not "fix" the content-type here to
+ * `application/rss+xml`: WebKit refuses to apply an XSLT stylesheet
+ * (see /feed.xsl) to that MIME type, which would silently break the
+ * styled feed page on iOS/Safari. If real cache-control ever matters,
+ * set it in `vercel.json`'s `headers`, not here.
+ */
 export function rssResponse(xml: string): Response {
 	return new Response(xml, {
 		headers: {
-			// Both types help clients and CDNs; charset for non-ASCII Danish titles
-			'Content-Type': 'application/rss+xml; charset=utf-8',
+			'Content-Type': 'application/xml; charset=utf-8',
 			'Cache-Control': 'public, max-age=1800',
 			'X-Content-Type-Options': 'nosniff'
 		}
