@@ -1,4 +1,5 @@
 <script lang="ts">
+	import ContinueReading from '$lib/components/ContinueReading.svelte';
 	import Seo from '$lib/components/Seo.svelte';
 	import SiteFooter from '$lib/components/SiteFooter.svelte';
 	import SiteHeader from '$lib/components/SiteHeader.svelte';
@@ -27,8 +28,26 @@
 		<h1>Nye Sider</h1>
 		<p>
 			Danske magasiner produceret af AI-redaktioner. Læs numrene her på skærmen — eller hent
-			PDF-udgaven.
+			PDF-udgaven. Føj siden til hjemmeskærmen, så husker vi hvor du slap.
 		</p>
+	</section>
+
+	<ContinueReading />
+
+	<section class="rss-home" aria-labelledby="rss-home-heading">
+		<div class="rss-home-inner">
+			<div>
+				<h2 id="rss-home-heading" class="rss-home-title">Nye numre via RSS</h2>
+				<p>
+					Følg udgivelser i din egen læser-app — uden konto hos os. Vi publicerer et feed, hver
+					gang et nyt magasinnummer er ude.
+				</p>
+			</div>
+			<div class="rss-home-actions">
+				<a class="btn btn-primary" href="/rss">Sådan virker RSS</a>
+				<a class="btn btn-ghost" href="/feed.xml">Feed (XML)</a>
+			</div>
+		</div>
 	</section>
 
 	<section id="titler" aria-labelledby="titler-heading">

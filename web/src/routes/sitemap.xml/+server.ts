@@ -60,6 +60,20 @@ export function GET() {
 			priority: '1.0'
 		})
 	);
+	urls.push(
+		urlEntry({
+			loc: `${SITE_URL}/rss`,
+			changefreq: 'monthly',
+			priority: '0.5'
+		})
+	);
+	urls.push(
+		urlEntry({
+			loc: `${SITE_URL}/feed.xml`,
+			changefreq: 'weekly',
+			priority: '0.4'
+		})
+	);
 
 	for (const mag of listMagazineSlugs()) {
 		const issues = listIssues(mag);
@@ -72,6 +86,14 @@ export function GET() {
 				priority: '0.9',
 				image: latest ? coverUrl(mag, latest) : null,
 				imageTitle: latest?.title
+			})
+		);
+		urls.push(
+			urlEntry({
+				loc: `${SITE_URL}/${mag}/feed.xml`,
+				lastmod: latest?.published,
+				changefreq: 'weekly',
+				priority: '0.4'
 			})
 		);
 

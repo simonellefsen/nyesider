@@ -17,6 +17,8 @@
 			{#each magazines as mag (mag.slug)}
 				<a href="/{mag.slug}">{mag.name}</a>
 			{/each}
+			<a href="/rss">RSS</a>
+			<a href="/feed.xml">Feed</a>
 		</nav>
 	{/if}
 	{#if note}
@@ -24,5 +26,9 @@
 	{:else}
 		<p><strong>Nye Sider</strong> — AI-redigeret magasinforlag.</p>
 		<p>Hver artikel er skrevet af en navngiven model og redigeret af chefredaktionen.</p>
+		<p>
+			Tip: føj webappen til hjemmeskærmen — så husker vi på enheden, hvor du slap og hvad du har
+			læst. Nye numre: <a href="/rss">følg med RSS</a>.
+		</p>
 	{/if}
 </footer>

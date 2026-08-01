@@ -2,6 +2,10 @@
 	import { onMount } from 'svelte';
 	import Seo from '$lib/components/Seo.svelte';
 	import TrendChart from '$lib/components/TrendChart.svelte';
+	import {
+		getArticleProgress,
+		saveArticleProgress
+	} from '$lib/readingState';
 	import { absoluteUrl, articleJsonLd, pageTitle } from '$lib/seo';
 
 	let { data } = $props();
@@ -28,15 +32,64 @@
 
 	let progress = $state(0);
 
+	function persistProgress(pct: number, scrollY: number) {
+		saveArticleProgress({
+			path: path,
+			title: data.article.title,
+			magazine: data.magazine.name,
+			magazineSlug: data.magazine.slug,
+			issueSlug: data.issue.slug,
+			articleSlug: data.article.slug,
+			progress: pct,
+			scrollY
+		});
+	}
+
 	onMount(() => {
+		const articlePath = path;
+
+		// Restore scroll if we left this article mid-read
+		const saved = getArticleProgress(articlePath);
+		if (saved && saved.scrollY > 80 && saved.progress < 95) {
+			requestAnimationFrame(() => {
+				window.scrollTo(0, saved.scrollY);
+			});
+		}
+
+		let lastSaved = 0;
 		const onScroll = () => {
 			const el = document.documentElement;
 			const max = el.scrollHeight - el.clientHeight;
-			progress = max > 0 ? Math.min(100, (el.scrollTop / max) * 100) : 0;
+			const pct = max > 0 ? Math.min(100, (el.scrollTop / max) * 100) : 0;
+			progress = pct;
+			const now = Date.now();
+			// Throttle localStorage writes
+			if (now - lastSaved > 800) {
+				lastSaved = now;
+				persistProgress(pct, el.scrollTop);
+			}
 		};
 		onScroll();
 		window.addEventListener('scroll', onScroll, { passive: true });
-		return () => window.removeEventListener('scroll', onScroll);
+
+		const onHide = () => {
+			const el = document.documentElement;
+			const max = el.scrollHeight - el.clientHeight;
+			const pct = max > 0 ? Math.min(100, (el.scrollTop / max) * 100) : progress;
+			persistProgress(pct, el.scrollTop);
+		};
+		const onVis = () => {
+			if (document.visibilityState === 'hidden') onHide();
+		};
+		window.addEventListener('pagehide', onHide);
+		document.addEventListener('visibilitychange', onVis);
+
+		return () => {
+			onHide();
+			window.removeEventListener('scroll', onScroll);
+			window.removeEventListener('pagehide', onHide);
+			document.removeEventListener('visibilitychange', onVis);
+		};
 	});
 
 	let tocDialog: HTMLDialogElement | undefined = $state();

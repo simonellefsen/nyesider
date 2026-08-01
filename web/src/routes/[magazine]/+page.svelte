@@ -13,7 +13,17 @@
 			(data.magazine.audience ? ` ${data.magazine.audience}.` : '')
 	);
 	const latest = $derived(data.issues[0] ?? null);
+	const feedPath = $derived(`/${data.magazine.slug}/feed.xml`);
 </script>
+
+<svelte:head>
+	<link
+		rel="alternate"
+		type="application/rss+xml"
+		title="{data.magazine.name} — Nye Sider"
+		href={feedPath}
+	/>
+</svelte:head>
 
 <Seo
 	title={pageTitle([data.magazine.name])}
@@ -69,6 +79,9 @@
 					<div class="mag-card-actions" style="margin-top:0.25rem">
 						<a class="btn btn-primary" href="/{data.magazine.slug}/{latest.slug}">
 							Læs nr. {latest.number}
+						</a>
+						<a class="btn btn-ghost" href="/{data.magazine.slug}/feed.xml" title="RSS for {data.magazine.name}">
+							RSS
 						</a>
 					</div>
 				{/if}
