@@ -1,0 +1,72 @@
+{
+  "id": "eu-olie-import",
+  "title": "EU: råolieimport — udvalgte leverandører (ca. %)",
+  "unit": "%",
+  "note": "Afrundet andel af EU-råolieimport. USA er steget kraftigt som leverandør af råolie/kondensat; Norge, Mellemøsten og andre skifter med markedet. Se Eurostat for facit.",
+  "source": "Eurostat (tendens)",
+  "sourceUrl": "https://ec.europa.eu/eurostat/",
+  "years": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "series": [
+    {
+      "name": "USA",
+      "color": "#5B8DEF",
+      "values": [
+        8,
+        12,
+        14,
+        15,
+        15
+      ]
+    },
+    {
+      "name": "Norge",
+      "color": "#4EC9B0",
+      "values": [
+        10,
+        11,
+        12,
+        12,
+        11
+      ]
+    },
+    {
+      "name": "Kasakhstan",
+      "color": "#E3A008",
+      "values": [
+        7,
+        8,
+        9,
+        9,
+        8
+      ]
+    },
+    {
+      "name": "Saudi-Arabien / Mellemøsten",
+      "color": "#c45c26",
+      "values": [
+        8,
+        9,
+        10,
+        9,
+        9
+      ]
+    },
+    {
+      "name": "Rusland",
+      "color": "#64748b",
+      "values": [
+        25,
+        15,
+        4,
+        3,
+        2
+      ]
+    }
+  ]
+}

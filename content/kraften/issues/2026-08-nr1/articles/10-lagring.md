@@ -15,6 +15,14 @@ Uden lagring og fleksibilitet er et system med 30 % vind+sol et system, der sta
 
 Store batterianlæg på netniveau (BESS) kommer i **containerform**, stables på gruspladser, kobles til transformere. De er gode til minutter og timer — frekvens, peak shaving, arbitrage. De er ikke (endnu) sæsonlagring. Branden- og sikkerhedsstandarder er en del af historien, ikke en fodnote.
 
+### Hvem installerer — og hvor hurtigt?
+
+Globalt er **Kina** og **USA** de to største markeder for net-tilsluttede batterier; **EU** vokser hurtigt, men fra en lavere base. Kurven nedenfor er **kumulativ kapacitet i GW** (afrundet pejling) — ikke det samme som timer lagret energi (GWh).
+
+[CHART world-batteri-gw]
+
+Indien, Australien, Storbritannien, Sydkorea og Mellemøsten dukker op som **emergente** markeder i branchenyheder, men i absolut GW er det stadig Kina/USA der trækker det globale total.
+
 ### Pumpelagring
 
 Vand op ad bjerget, når strømmen er billig; ned, når den er dyr. Gammel teknologi, høj virkningsgrad, begrænset af geografi og miljøtilladelser. Europas bedste "batteri" er nogle steder stadig en sø.
@@ -26,3 +34,5 @@ Elektrolyse, når der er overskud; brændsel eller råstof senere. Energitab er 
 ### Billedet
 
 Gaffeltrucks, transformere og åbne battericontainere er pointen: lagring er **byggeri og el-teknik**, ikke magi i skyen.
+
+[^1]: IEA og brancheopgørelser for grid-scale storage — diagram er afrundet tendens, ikke inventarliste.

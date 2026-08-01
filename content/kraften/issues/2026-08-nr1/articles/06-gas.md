@@ -13,6 +13,14 @@ Efter 2022 lærte Europa den hårde lektie: gas er både **flex-kraft** i elsyst
 
 [CHART eu-gas-andel]
 
+### Hvor kommer gassen fra — og hvordan?
+
+Efter 2022 skiftede EU's indkøbskort: **rør** fra Norge (og Nordafrika/Aserbajdsjan) bærer stadig en stor del af *pipeline*-gassen, mens **LNG med skib** — især fra **USA** — har overtaget en langt større del af den samlede import.[^2] Rådet og Kommissionen opgør for **2025** Norge som største samlede leverandør (omkring en tredjedel), USA som næststørste (primært LNG), derefter Nordafrika og et reduceret, men ikke-nul, russisk bidrag (rør via bl.a. Tyrkiet plus LNG).[^2]
+
+[CHART eu-gas-import]
+
+**Rør** = gas i gasform gennem pipelines (Norge, Algeriet, Aserbajdsjan, resterende russiske ruter). **LNG** = flydende gas på skib, genfordampet i terminaler i bl.a. Nederlandene, Frankrig, Spanien, Italien og Tyskland.
+
 ### Hvad gas gør godt
 
 Gasværker kan **rampe** hurtigt, når solen går ned, og vinden lægger sig. Det er grunden til, at "vi lukker bare gas" lyder lettere i en tale end i en control room. Uden tilstrækkelig lagring, demand response og net, erstattes gas ikke af ønsketænkning.
@@ -26,3 +34,5 @@ Prisvolatilitet, metanudslip i kæden, og en klimaprofil der ikke forsvinder, fo
 De hvide tanke og lastearmene er ikke baggrundsstøj. De er **infrastruktur**, der blev bygget i hast, koster penge, og binder handelspartnere. KRAFTEN viser dem, fordi forsyningssikkerhed har en adresse på et kort — ikke kun en kurve i et regneark.
 
 [^1]: Ember EU electricity data — fossil/gas shares; *European Electricity Review 2026*. Diagram afrundet efter Embers offentlige tendenser.
+
+[^2]: European Council infographic *Where does the EU's gas come from?* (2025-tal); Eurostat/Kommissionen om LNG vs. rør; Bruegel European natural gas imports.

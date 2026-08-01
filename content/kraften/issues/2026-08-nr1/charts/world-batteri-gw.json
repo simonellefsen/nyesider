@@ -1,0 +1,71 @@
+{
+  "id": "world-batteri-gw",
+  "title": "Grid-scale batterier: kumulativ kapacitet (ca. GW)",
+  "unit": "GW",
+  "note": "Afrundet kumulativ net-tilsluttet batterikapacitet. Kina og USA dominerer; EU vokser hurtigt fra lavere base. Pejlinger fra IEA/branche — ikke præcis inventarliste.",
+  "source": "IEA / branchen (tendens)",
+  "sourceUrl": "https://www.iea.org/",
+  "years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "series": [
+    {
+      "name": "Kina",
+      "color": "#E3A008",
+      "values": [
+        2,
+        3,
+        5,
+        10,
+        25,
+        50,
+        80
+      ]
+    },
+    {
+      "name": "USA",
+      "color": "#5B8DEF",
+      "values": [
+        1,
+        2,
+        4,
+        8,
+        15,
+        25,
+        35
+      ]
+    },
+    {
+      "name": "EU",
+      "color": "#4EC9B0",
+      "values": [
+        1,
+        1.5,
+        2.5,
+        4,
+        7,
+        12,
+        18
+      ]
+    },
+    {
+      "name": "Øvrige verden",
+      "color": "#64748b",
+      "values": [
+        1,
+        1.5,
+        2,
+        4,
+        8,
+        12,
+        17
+      ]
+    }
+  ]
+}

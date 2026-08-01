@@ -210,28 +210,39 @@ function mergeCharts(
 	return map;
 }
 
+/**
+ * Convert full markdown in one pass (so GFM footnotes stay linked), using
+ * raw HTML placeholders for charts. Then split HTML into body parts.
+ */
 async function buildBodyParts(
 	md: string,
 	byId: Map<string, ChartSpec>
 ): Promise<{ parts: ArticleBodyPart[]; used: ChartSpec[] }> {
-	const parts: ArticleBodyPart[] = [];
 	const used: ChartSpec[] = [];
+	const withSlots = md.replace(CHART_MARKER_RE, (_m, id: string) => {
+		return `\n\n<div data-chart-slot="${id}"></div>\n\n`;
+	});
+	const fullHtml = await markdownToHtml(withSlots);
+
+	const slotRe = /<div\s+data-chart-slot="([a-z0-9_-]+)"\s*><\/div>/gi;
+	const parts: ArticleBodyPart[] = [];
 	let last = 0;
-	const re = new RegExp(CHART_MARKER_RE.source, 'gi');
 	let m: RegExpExecArray | null;
 	const matches: { index: number; end: number; id: string }[] = [];
-	while ((m = re.exec(md)) !== null) {
+	while ((m = slotRe.exec(fullHtml)) !== null) {
 		matches.push({ index: m.index, end: m.index + m[0].length, id: m[1] });
 	}
+
 	if (!matches.length) {
-		const html = await markdownToHtml(md);
-		return { parts: html.trim() ? [{ type: 'html', html }] : [], used };
+		return {
+			parts: fullHtml.trim() ? [{ type: 'html', html: fullHtml }] : [],
+			used
+		};
 	}
+
 	for (const match of matches) {
-		const before = md.slice(last, match.index).trim();
-		if (before) {
-			parts.push({ type: 'html', html: await markdownToHtml(before) });
-		}
+		const before = fullHtml.slice(last, match.index).trim();
+		if (before) parts.push({ type: 'html', html: before });
 		const chart = byId.get(match.id);
 		if (chart) {
 			parts.push({ type: 'chart', chart });
@@ -239,10 +250,8 @@ async function buildBodyParts(
 		}
 		last = match.end;
 	}
-	const after = md.slice(last).trim();
-	if (after) {
-		parts.push({ type: 'html', html: await markdownToHtml(after) });
-	}
+	const after = fullHtml.slice(last).trim();
+	if (after) parts.push({ type: 'html', html: after });
 	return { parts, used };
 }
 

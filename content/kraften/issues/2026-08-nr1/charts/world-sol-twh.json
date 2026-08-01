@@ -1,0 +1,74 @@
+{
+  "id": "world-sol-twh",
+  "title": "Solproduktion: EU, USA og Kina (ca. TWh pr. år)",
+  "unit": "TWh",
+  "note": "Afrundet. Kina dominerer; EU 2025 ≈ 369 TWh (Ember). USA og Kina er pejlinger fra offentlige generation-serier.",
+  "source": "Ember / EIA-tendens",
+  "sourceUrl": "https://ember-energy.org/",
+  "years": [
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "series": [
+    {
+      "name": "EU",
+      "color": "#4EC9B0",
+      "values": [
+        100,
+        105,
+        115,
+        125,
+        135,
+        150,
+        165,
+        205,
+        250,
+        305,
+        369
+      ]
+    },
+    {
+      "name": "USA",
+      "color": "#5B8DEF",
+      "values": [
+        40,
+        55,
+        75,
+        95,
+        105,
+        130,
+        165,
+        205,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "name": "Kina",
+      "color": "#E3A008",
+      "values": [
+        45,
+        65,
+        115,
+        175,
+        225,
+        260,
+        325,
+        420,
+        580,
+        830,
+        1050
+      ]
+    }
+  ]
+}

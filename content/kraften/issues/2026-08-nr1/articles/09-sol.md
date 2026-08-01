@@ -11,9 +11,9 @@ imageSource: "https://x.ai/"
 
 Sol er Embers stjerne i 2025: **369 TWh** i EU, vækst over **20 %** for fjerde år i træk, **13 %** af elproduktionen.[^1] I sommermåneder har sol i perioder været den største enkelte kilde i EU-mixet.[^2] Det er en teknologisk triumf — og en systemudfordring.
 
-[CHART eu-sol-twh]
+[CHART world-sol-twh]
 
-Kurven viser *hvor hurtigt* sol er vokset — ikke hvornår på døgnet strømmen kommer. Det sidste er systemets problem.
+Kurverne sammenligner **EU, USA og Kina** i terawatt-timer. Kina trækker fra i absolut produktion; EU's 369 TWh i 2025 er stadig rekord *for Europa*. Kurven siger ikke, *hvornår på døgnet* strømmen kommer — det er systemets problem.
 
 ### Den regnskabsmæssige kilowatt-time er ikke regningen
 
@@ -27,6 +27,6 @@ Billedet af paneler, der monteres på stålrammer med pæle og kraner, minder om
 
 Netudbygning, batterier bag måleren og ved transformerstationen, og hvordan auktioner prissætter *ikke bare* kilowatt-timer, men *hvornår* de leveres.
 
-[^1]: Ember, *European Electricity Review 2026*. Diagram: afrundede årsværdier baseret på Embers vækstspor frem til 369 TWh i 2025.
+[^1]: Ember, *European Electricity Review 2026* (EU 369 TWh i 2025). Diagram: afrundede EU/USA/Kina-serier baseret på Ember/EIA-tendenser — pejlinger, ikke erstatning for årlige nationalregnskaber.
 
 [^2]: Ember / Reuters m.fl. om sol som største EU-kilde i enkelte måneder.

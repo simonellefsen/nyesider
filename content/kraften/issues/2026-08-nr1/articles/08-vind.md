@@ -11,7 +11,9 @@ imageSource: "https://x.ai/"
 
 Europa har gjort Nordsøen til et industrielt laboratorium for **offshore vind**. Turbinerne er blevet større, auktionerne mere komplekse, og forsinkelser mere synlige — men retningen er klar: mere havvind er indlejret i nationale planer fra Nordsø-landene og videre.
 
-[CHART eu-vind-andel]
+[CHART world-vind-twh]
+
+**EU, USA og Kina** i samme enhed (TWh): Kina er verdens største vindproducent; EU og USA vokser, men fra en anden absolut skala. Andele af *national* elproduktion er en anden historie (Danmark topper relative andele — se Danmark-artiklen).
 
 ### Hvad det Internationale Energiagentur forventer
 
@@ -27,4 +29,4 @@ Onshore er ofte billigere pr. MWh, men møder modstand, netkøer og lokalpolitik
 
 [^1]: IEA, *Electricity 2026* — EU wind/renewables outlook.
 
-[^2]: Ember, *European Electricity Review 2026*. Diagram: afrundet vindandel baseret på Ember-tendenser.
+[^2]: Ember, *European Electricity Review 2026*. Diagram: afrundet vindproduktion (TWh) for EU/USA/Kina baseret på Ember/IEA-tendenser.

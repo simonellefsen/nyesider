@@ -1,0 +1,74 @@
+{
+  "id": "world-vind-twh",
+  "title": "Vindproduktion: EU, USA og Kina (ca. TWh pr. år)",
+  "unit": "TWh",
+  "note": "Afrundet. Kina er verdens største vindproducent; EU og USA følger. Onshore+offshore samlet.",
+  "source": "Ember / IEA-tendens",
+  "sourceUrl": "https://ember-energy.org/",
+  "years": [
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "series": [
+    {
+      "name": "EU",
+      "color": "#4EC9B0",
+      "values": [
+        300,
+        300,
+        360,
+        380,
+        430,
+        450,
+        440,
+        480,
+        520,
+        540,
+        580
+      ]
+    },
+    {
+      "name": "USA",
+      "color": "#5B8DEF",
+      "values": [
+        190,
+        225,
+        255,
+        275,
+        300,
+        340,
+        380,
+        435,
+        425,
+        450,
+        480
+      ]
+    },
+    {
+      "name": "Kina",
+      "color": "#E3A008",
+      "values": [
+        185,
+        240,
+        305,
+        365,
+        405,
+        465,
+        655,
+        760,
+        885,
+        990,
+        1100
+      ]
+    }
+  ]
+}
