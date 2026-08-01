@@ -16,6 +16,15 @@ Redaktionel hukommelse for forlaget. Chefredaktør-agenten læser og opdaterer d
 5. Opdater notesbogen: afvikl brugte leads, tilføj nye, notér løfter givet i det trykte nummer.
 6. Opdater modelkartoteket med nye modelerfaringer.
 
+## Billeder (copyright-politik)
+
+**Standard: generér selv via xAI Imagine** (Grok Build `image_gen` / Imagine API). Det er forlagets standardvej for covers og artikelbilleder — undgår stock- og pressefoto-copyright.
+
+- Prompt: motiver uden logoer, uden læsbar skiltetekst; stil tilpasset titlen (akvarel, editorial foto, osv.).
+- Kreditering: `imageCredit` + `imageSource` (typisk Imagine / xAI → `https://x.ai/`) under figuren; cover: `coverCredit` + `coverSource`; samlet `imageCredits` + `images/SOURCES.md` i nummeret.
+- **Træk ikke** billeder fra nettet, Google Images, Wikipedia eller agency feeds uden eksplicit licens og kilde-URL.
+- Undtagelse: egenproducerede diagrammer/SVG (fx GNISTEN) og materiale med dokumenteret fri/egen licens.
+
 ## Ny titel
 
 Opret `redaktion/<slug>/redaktionsnotesbog.md` og `content/<slug>/magazine.json` (brand, farver, sektioner, målgruppe).

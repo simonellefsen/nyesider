@@ -1,6 +1,6 @@
 # Billedkilder · KRAFTEN nr. 1
 
-Alle motiver er **AI-genererede** (dokumentarisk stil, ingen logoer) til redaktionel brug i Nye Sider / KRAFTEN.
+Alle motiver er **genereret med xAI Imagine** (ikke scrapede stock-/pressefotos) — dokumentarisk stil, ingen logoer — til redaktionel brug i Nye Sider / KRAFTEN. Det er forlagets standard for at undgå ophavsretsproblemer på andres fotos.
 
 | Fil | Motiv | Kilde / generator | Link |
 |---|---|---|---|

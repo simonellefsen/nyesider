@@ -24,9 +24,13 @@ Fælles erfaringer med OpenRouter-modeller på tværs af alle titler. Opdateres 
 
 ## Billedmodeller
 
-- **Gemini 3 Pro Image** — forsider; gode resultater.
-- **Gemini 3.1 Flash Image** — artikelbilleder.
-- Tip: skriv altid "no text" i prompten.
+**Standard fra august 2026: xAI Imagine** (Grok Build `image_gen` / Imagine) til covers og artikelbilleder — primært for at **undgå copyright** på stock/pressefotos. Krediter altid med `imageCredit` + `imageSource` (fx «AI-genereret … (Imagine / xAI)» → `https://x.ai/`).
+
+- **Imagine (xAI)** — forsider + feature-billeder (KRAFTEN nr. 1: anlæg/maskiner; HORISONTEN/SPÆNDING nr. 2-covers). Foretrukket default.
+- **Gemini 3 Pro Image** (via OpenRouter) — ældre forsider (nr. 1-titler); stadig brugbar fallback.
+- **Gemini 3.1 Flash Image** — ældre artikelbilleder via OpenRouter.
+- Tip: skriv altid "no text" / "no logos" / "no readable signage" i prompten.
+- **Ikke:** scrapte fotos fra web uden licens.
 
 ## Produktionspraktik
 

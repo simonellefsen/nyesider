@@ -8,6 +8,8 @@ Opdateret efter nr. 1 (august 2026, *"Hvad holder lyset tændt"*). Modelerfaring
 
 ## Visuel linje (bindende fra nr. 1)
 
+**Kun xAI Imagine** til fotos/illustrationer (ingen scrapede presse-/stockfotos) — se [redaktion/README.md](../README.md) copyright-politik.
+
 Prioritér **anlæg, maskiner og byggeri** — ikke stock "grønt blad på panel":
 
 - Kraner, jack-up-skibe, monopæle  
@@ -17,9 +19,9 @@ Prioritér **anlæg, maskiner og byggeri** — ikke stock "grønt blad på panel
 - LNG-tanke, rør, lastearme  
 - Net/master hvor det er relevant  
 
-Stil: dokumentarisk/editorial foto (AI-genereret OK, **ingen logoer, ingen læsbar skiltetekst**). Cover + 4–6 artikelbilleder pr. nummer.
+Stil: dokumentarisk/editorial (Imagine), **ingen logoer, ingen læsbar skiltetekst**. Cover + 4–6 artikelbilleder pr. nummer.
 
-**Billedkilde er obligatorisk:** `imageCredit` + `imageSource` (URL) under hvert artikelbillede; cover: `coverCredit` + `coverSource`. Samlet liste i `images/SOURCES.md` og `imageCredits` i issue-kolofonen.
+**Billedkilde er obligatorisk:** `imageCredit` + `imageSource` under hvert artikelbillede (Imagine / xAI → `https://x.ai/`); cover: `coverCredit` + `coverSource`. Samlet liste i `images/SOURCES.md` og `imageCredits` i issue-kolofonen.
 
 ## Nr. 1 — udgivet
 
