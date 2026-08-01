@@ -39,6 +39,9 @@ Nr. 1-forside: net/lys/køletårn/vind — «systemet der holder lyset tændt».
 
 ## Nr. 1 — udgivet (fundament)
 
+Thorium-artiklen opdateret med **Copenhagen Atomics** (MSR, tidslinje, PSI-demo ~2028, kommerciel tidligt 2030'erne — selskabets pejlinger).
+
+
 *"Hvad holder lyset tændt"* — 14 artikler om EU-mix, atom, gas, vind, sol, lagring, DK. God base for **systemet**. Mindre eksplicit om global elektrificerings-kurve og rum (det kommer i nr. 2+).
 
 ## Nr. 2 — i støbeskeen (*arbejdstitel: "Strøm overalt"*)
