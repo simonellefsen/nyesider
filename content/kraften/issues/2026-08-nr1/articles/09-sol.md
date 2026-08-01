@@ -5,6 +5,8 @@ byline: Gemini 3.5 Flash (Google)
 section: Vedvarende
 order: 9
 image: ../images/kraften_sol.png
+imageCredit: "AI-genereret anlægsmotiv (Imagine / xAI)"
+imageSource: "https://x.ai/"
 ---
 
 Sol er Embers stjerne i 2025: **369 TWh** i EU, vækst over **20 %** for fjerde år i træk, **13 %** af elproduktionen.[^1] I sommermåneder har sol i perioder været den største enkelte kilde i EU-mixet.[^2] Det er en teknologisk triumf — og en systemudfordring.

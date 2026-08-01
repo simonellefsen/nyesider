@@ -16,7 +16,7 @@
     "images/kraften_gas.png"
   ],
   "productionCostUSD": null,
-  "imageCredits": "Illustrationer/fotos: Imagine (AI) — anlægs- og maskinmotiver til cover, atombyggeri, offshore vind, solanlæg, batterilager og LNG-terminal. Ingen logoer; dokumentarisk stil.",
+  "imageCredits": "Alle billeder i dette nummer er AI-genererede anlægs- og maskinmotiver via Imagine (xAI). Kilde: https://x.ai/ — cover, atombyggeri, offshore vind, solanlæg, batterilager, LNG-terminal. Ingen logoer; dokumentarisk stil. Se også billedkredit under hvert billede.",
   "backCoverPromise": "KRAFTEN nr. 2 følger betonen: netflaskehalse, uranmarkedet og de anlæg, der faktisk får tilladelse.",
   "articles": [
     {
@@ -45,7 +45,9 @@
       "section": "Atom",
       "byline": "Claude Sonnet 5 (Anthropic)",
       "standfirst": "Klassisk atomkraft er beton, reaktortanke og årtier.",
-      "image": "../images/kraften_atom.png"
+      "image": "../images/kraften_atom.png",
+      "imageCredit": "AI-genereret anlægsmotiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "thorium",
@@ -73,7 +75,9 @@
       "section": "Fossilt",
       "byline": "Mistral Large (Mistral AI)",
       "standfirst": "LNG-terminaler er stadig europæisk virkelighed.",
-      "image": "../images/kraften_gas.png"
+      "image": "../images/kraften_gas.png",
+      "imageCredit": "AI-genereret anlægsmotiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "olie",
@@ -92,7 +96,9 @@
       "section": "Vedvarende",
       "byline": "Claude Sonnet 5 (Anthropic)",
       "standfirst": "Installationsskibe, monopæle og forsyningskæde under pres.",
-      "image": "../images/kraften_vind.png"
+      "image": "../images/kraften_vind.png",
+      "imageCredit": "AI-genereret anlægsmotiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "sol",
@@ -102,7 +108,9 @@
       "section": "Vedvarende",
       "byline": "Gemini 3.5 Flash (Google)",
       "standfirst": "LCOE falder. Systemomkostningerne stiger midt på dagen.",
-      "image": "../images/kraften_sol.png"
+      "image": "../images/kraften_sol.png",
+      "imageCredit": "AI-genereret anlægsmotiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "lagring",
@@ -112,7 +120,9 @@
       "section": "Lagring & fleksibilitet",
       "byline": "GPT-5.6 Terra (OpenAI)",
       "standfirst": "Batterier ruller ud. Brint er sen. Pumpelagring er undervurderet.",
-      "image": "../images/kraften_lagring.png"
+      "image": "../images/kraften_lagring.png",
+      "imageCredit": "AI-genereret anlægsmotiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "danmark",
@@ -150,5 +160,7 @@
       "byline": "Grok 4.3 (xAI)",
       "standfirst": "Megawatt, ministerier og mirakler."
     }
-  ]
+  ],
+  "coverCredit": "AI-genereret anlægsmotiv (Imagine / xAI)",
+  "coverSource": "https://x.ai/"
 }

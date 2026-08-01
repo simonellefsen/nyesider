@@ -508,16 +508,41 @@ a.mag-card:hover {
 .issue-cover {
 	margin: 0 0 1.5rem;
 	border-radius: var(--radius);
-	overflow: hidden;
 	border: 1px solid var(--line);
 	box-shadow: var(--shadow);
 	max-width: 22rem;
+	overflow: hidden;
+	background: var(--bg-elevated);
 }
 
 .issue-cover img {
 	width: 100%;
 	aspect-ratio: 3 / 4;
 	object-fit: cover;
+	display: block;
+}
+
+.image-credit {
+	margin: 0;
+	padding: 0.45rem 0.65rem 0.55rem;
+	font-size: 0.78rem;
+	line-height: 1.35;
+	color: var(--ink-muted);
+	background: var(--bg-elevated);
+	border-top: 1px solid var(--line);
+}
+
+.image-credit a {
+	color: var(--mag-accent);
+	text-decoration: underline;
+	text-underline-offset: 0.12em;
+}
+
+.image-credits-kolofon {
+	margin: 0 0 0.5rem;
+	font-size: 0.88rem;
+	color: var(--ink-muted);
+	max-width: 40rem;
 }
 
 .toc {
@@ -829,6 +854,7 @@ a.mag-card:hover {
 	border-radius: 12px;
 	overflow: hidden;
 	border: 1px solid var(--line);
+	background: var(--bg-elevated);
 }
 
 .article-figure img {
@@ -836,6 +862,7 @@ a.mag-card:hover {
 	aspect-ratio: 16 / 9;
 	object-fit: cover;
 	background: #ddd;
+	display: block;
 }
 
 /* Inline diagrams within article body — natural aspect ratio, never cropped */

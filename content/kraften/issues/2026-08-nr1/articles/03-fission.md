@@ -5,6 +5,8 @@ byline: Claude Sonnet 5 (Anthropic)
 section: Atom
 order: 3
 image: ../images/kraften_atom.png
+imageCredit: "AI-genereret anlægsmotiv (Imagine / xAI)"
+imageSource: "https://x.ai/"
 ---
 
 Mens debatten om atomkraft ofte kører i absolutte, er anlægsvirkeligheden mere jordnær: **forlængelse af eksisterende reaktorer**, et begrænset antal nybyggerier i Europa, og en global vækst, der i IEA's fremskrivninger især drives af **Kina, Indien og andre asiatiske markeder** — ikke af EU alene.[^1]

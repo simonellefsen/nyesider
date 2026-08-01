@@ -130,6 +130,21 @@
 					height="450"
 					loading="eager"
 				/>
+				{#if data.article.imageCredit || data.article.imageSource}
+					<figcaption class="image-credit">
+						{#if data.article.imageSource}
+							Kilde:
+							<a
+								href={data.article.imageSource}
+								rel="noopener noreferrer"
+								target="_blank"
+								>{data.article.imageCredit ?? data.article.imageSource}</a
+							>
+						{:else}
+							Kilde: {data.article.imageCredit}
+						{/if}
+					</figcaption>
+				{/if}
 			</figure>
 		{/if}
 

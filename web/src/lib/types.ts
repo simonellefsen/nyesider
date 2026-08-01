@@ -25,6 +25,10 @@ export type ArticleMeta = {
 	byline: string;
 	standfirst?: string;
 	image?: string;
+	/** Short credit shown under the figure (e.g. agency or "AI-genereret"). */
+	imageCredit?: string;
+	/** URL for the image source / generator; linked from the credit. */
+	imageSource?: string;
 };
 
 export type Issue = {
@@ -37,7 +41,13 @@ export type Issue = {
 	status: string;
 	pdf?: string;
 	cover?: string;
+	/** Credit line for the cover image. */
+	coverCredit?: string;
+	/** URL linked from the cover credit. */
+	coverSource?: string;
 	images?: string[];
+	/** Free-text kolofon for all issue imagery. */
+	imageCredits?: string;
 	articles: ArticleMeta[];
 	productionCostUSD?: number | null;
 };

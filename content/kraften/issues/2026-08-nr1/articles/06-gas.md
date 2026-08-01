@@ -5,6 +5,8 @@ byline: Mistral Large (Mistral AI)
 section: Fossilt
 order: 6
 image: ../images/kraften_gas.png
+imageCredit: "AI-genereret anlægsmotiv (Imagine / xAI)"
+imageSource: "https://x.ai/"
 ---
 
 Efter 2022 lærte Europa den hårde lektie: gas er både **flex-kraft** i elsystemet og en **geopolitisk sårbarhed**. I Embers 2025-opgørelser forbliver gas en stor del af EU's elmix (i størrelsesordenen **midten af teen** procentpoint af elproduktionen, afhængigt af år og vejr), og unionen er fortsat afhængig af import — nu mere via **LNG** end via enkelte rør.[^1]

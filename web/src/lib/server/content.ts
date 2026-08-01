@@ -147,6 +147,10 @@ export async function getArticle(
 		byline: (data.byline as string) ?? meta.byline,
 		standfirst: (data.standfirst as string | undefined) ?? meta.standfirst,
 		image: (data.image as string | undefined) ?? meta.image,
+		imageCredit:
+			(data.imageCredit as string | undefined) ?? meta.imageCredit,
+		imageSource:
+			(data.imageSource as string | undefined) ?? meta.imageSource,
 		html,
 		bodyMarkdown: content
 	};

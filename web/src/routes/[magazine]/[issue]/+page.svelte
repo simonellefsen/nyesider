@@ -80,6 +80,21 @@
 					width="360"
 					height="480"
 				/>
+				{#if data.issue.coverCredit || data.issue.coverSource}
+					<figcaption class="image-credit">
+						{#if data.issue.coverSource}
+							Kilde:
+							<a
+								href={data.issue.coverSource}
+								rel="noopener noreferrer"
+								target="_blank"
+								>{data.issue.coverCredit ?? data.issue.coverSource}</a
+							>
+						{:else}
+							Kilde: {data.issue.coverCredit}
+						{/if}
+					</figcaption>
+				{/if}
 			</figure>
 		{/if}
 
@@ -106,5 +121,13 @@
 		</section>
 	</main>
 
+	{#if data.issue.imageCredits}
+		<div class="page" style="padding-top:0;padding-bottom:0">
+			<p class="image-credits-kolofon">
+				<strong>Billedkilder:</strong>
+				{data.issue.imageCredits}
+			</p>
+		</div>
+	{/if}
 	<SiteFooter magazines={data.navMagazines} />
 </div>

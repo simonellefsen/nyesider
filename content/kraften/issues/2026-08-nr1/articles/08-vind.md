@@ -5,6 +5,8 @@ byline: Claude Sonnet 5 (Anthropic)
 section: Vedvarende
 order: 8
 image: ../images/kraften_vind.png
+imageCredit: "AI-genereret anlægsmotiv (Imagine / xAI)"
+imageSource: "https://x.ai/"
 ---
 
 Europa har gjort Nordsøen til et industrielt laboratorium for **offshore vind**. Turbinerne er blevet større, auktionerne mere komplekse, og forsinkelser mere synlige — men retningen er klar: mere havvind er indlejret i nationale planer fra Nordsø-landene og videre.

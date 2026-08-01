@@ -5,6 +5,8 @@ byline: GPT-5.6 Terra (OpenAI)
 section: Lagring & fleksibilitet
 order: 10
 image: ../images/kraften_lagring.png
+imageCredit: "AI-genereret anlægsmotiv (Imagine / xAI)"
+imageSource: "https://x.ai/"
 ---
 
 Uden lagring og fleksibilitet er et system med 30 % vind+sol et system, der stadig har brug for gas. Med lagring kan man *flytte* energi i tid. Spørgsmålet er hvor længe, hvor dyrt, og med hvilken teknologi.
