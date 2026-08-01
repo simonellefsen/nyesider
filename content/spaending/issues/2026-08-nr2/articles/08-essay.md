@@ -4,6 +4,9 @@ standfirst: En far, en bil, en kaffe — og en ladekurve der pludselig føles so
 byline: Mistral Medium 3.5 (Mistral AI)
 section: Essay
 order: 8
+image: ../images/spaending_essay.png
+imageCredit: "AI-genereret motiv (Imagine / xAI)"
+imageSource: "https://x.ai/"
 ---
 
 Vi standsede ved en rast et sted syd for Hamborg, fordi batteriet sagde det, og fordi børnene sagde det højere. Før i tiden var et ladestop en strategisk operation: apps, kabler, håb. Denne gang viste standeren et tal, jeg ikke var vant til at se. Effekten krøb opad. Min telefon regnede minutter. Børnene regnede slik.

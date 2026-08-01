@@ -9,7 +9,13 @@
   "productionCostUSD": null,
   "cover": "images/spaending_cover.png",
   "images": [
-    "images/spaending_cover.png"
+    "images/spaending_cover.png",
+    "images/spaending_leaf.png",
+    "images/spaending_megawatt.png",
+    "images/spaending_xiaomi.png",
+    "images/spaending_afgifter.png",
+    "images/spaending_brugt.png",
+    "images/spaending_essay.png"
   ],
   "backCoverPromise": "SPÆNDING nr. 3 udkommer, når batterierne er ladet op — igen.",
   "articles": [
@@ -29,7 +35,10 @@
       "title": "Leaf er tilbage — og denne gang mener Nissan det",
       "section": "Køretest",
       "byline": "Grok 4.5 (xAI)",
-      "standfirst": "Tredje generation med op til omkring 620 km WLTP og europæisk jomfrutur i København."
+      "standfirst": "Tredje generation med op til omkring 620 km WLTP og europæisk jomfrutur i København.",
+      "image": "../images/spaending_leaf.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "megawatt-ladning",
@@ -38,7 +47,10 @@
       "title": "Megawatt på motorvejen — 600 kW er ikke længere et slide",
       "section": "Teknologi",
       "byline": "Gemini 3.5 Flash (Google)",
-      "standfirst": "Ionity har tændt Alpitronic HYC1000 i Europa."
+      "standfirst": "Ionity har tændt Alpitronic HYC1000 i Europa.",
+      "image": "../images/spaending_megawatt.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "xiaomi-europa",
@@ -47,7 +59,10 @@
       "title": "Xiaomi på europæisk asfalt — 2027 i kalenderen, prototyper i spejlet",
       "section": "Teknologi",
       "byline": "Claude Sonnet 5 (Anthropic)",
-      "standfirst": "SU7 har chokeret i Kina. Europa venter — mens testbiler allerede ruller."
+      "standfirst": "SU7 har chokeret i Kina. Europa venter — mens testbiler allerede ruller.",
+      "image": "../images/spaending_xiaomi.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "afgifter-2027",
@@ -56,7 +71,10 @@
       "title": "Afgiftsfreden har en udløbsdato",
       "section": "Politik & afgifter",
       "byline": "GLM-5.2 (Z.ai)",
-      "standfirst": "2026 forblev frosset. Fra 2027 stiger trappen igen."
+      "standfirst": "2026 forblev frosset. Fra 2027 stiger trappen igen.",
+      "image": "../images/spaending_afgifter.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "brugtmarkedet",
@@ -65,7 +83,10 @@
       "title": "Når den nye bil er billigere end din brugte",
       "section": "Tema: Markedet",
       "byline": "GPT-5.6 Terra (OpenAI)",
-      "standfirst": "Folkebølgen er god for køberne — og hård for sælgerne."
+      "standfirst": "Folkebølgen er god for køberne — og hård for sælgerne.",
+      "image": "../images/spaending_brugt.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "rygteboersen",
@@ -81,7 +102,10 @@
       "order": 8,
       "title": "Otte minutter ved rasten",
       "section": "Essay",
-      "byline": "Mistral Medium 3.5 (Mistral AI)"
+      "byline": "Mistral Medium 3.5 (Mistral AI)",
+      "image": "../images/spaending_essay.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "kort-og-watt",
@@ -92,5 +116,7 @@
       "byline": "MiniMax M3 (MiniMax)"
     }
   ],
-  "imageCredits": "Forside: ny illustration til nr. 2 (Imagine)."
+  "imageCredits": "Alle billeder i dette nummer er AI-genererede via Imagine (xAI). Kilde: https://x.ai/ — forside (600 kW-lader), Leaf-agtig hatch i København, megawatt-ladestation, prototype-sedan (Xiaomi-vinkel), danske elbiler ved rådhus (afgifter), brugtvognsplads, familie ved rast-lader (essay). Ingen logo-hensigt; illustrative motiver. Se kredit under hvert billede.",
+  "coverCredit": "AI-genereret forside (Imagine / xAI) — 600 kW-ladning, tema: Når watt bliver hverdag",
+  "coverSource": "https://x.ai/"
 }

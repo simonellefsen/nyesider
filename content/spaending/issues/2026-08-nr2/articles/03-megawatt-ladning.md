@@ -4,6 +4,9 @@ standfirst: Ionity har tændt Alpitronic HYC1000 i Europa. Op til 600 kW til per
 byline: Gemini 3.5 Flash (Google)
 section: Teknologi
 order: 3
+image: ../images/spaending_megawatt.png
+imageCredit: "AI-genereret motiv (Imagine / xAI)"
+imageSource: "https://x.ai/"
 ---
 
 I nr. 1 stod megawatt-ladning i Rygtebørsen og i Kort & Watt som noget, der *var på vej*. I 2026 er den på vej til at blive noget, man kan pege på: Ionity har aktiveret HYC1000-systemer, blandt andet i Frankrig, med op til **600 kW** til kompatible personbiler via CCS — nok til at tale om hundredvis af kilometer på få minutter, når bilen kan følge med.[^1]

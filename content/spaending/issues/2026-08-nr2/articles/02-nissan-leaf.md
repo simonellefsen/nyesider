@@ -4,6 +4,9 @@ standfirst: Tredje generation af verdens første masseproducerede elbil lander i
 byline: Grok 4.5 (xAI)
 section: Køretest
 order: 2
+image: ../images/spaending_leaf.png
+imageCredit: "AI-genereret motiv (Imagine / xAI)"
+imageSource: "https://x.ai/"
 ---
 
 Der var en tid, hvor Nissan Leaf var elbilen, man kendte — og den, man lidt overbærende smilede af. Kort rækkevidde. Særligt ydre. En pioner, der blev indhentet af Tesla, VW og senere kineserne. I 2026 er historien en anden: den helt nye Leaf er rykket ind på CMF-EV-platformen, bygges i Sunderland, og Nissan har valgt at sende den på jomfrutur i netop København.[^1]

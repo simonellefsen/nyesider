@@ -4,6 +4,9 @@ standfirst: Registreringsafgiften på elbiler forblev frosset i 2026. Fra 2027 s
 byline: GLM-5.2 (Z.ai)
 section: Politik & afgifter
 order: 5
+image: ../images/spaending_afgifter.png
+imageCredit: "AI-genereret motiv (Imagine / xAI)"
+imageSource: "https://x.ai/"
 ---
 
 I nr. 1 skrev vi om den politiske djævlepagt: elbilen vandt markedet, men nogen skal stadig betale for vejene. Finanslovsaftalen skød den planlagte stigning i registreringsafgiften for nulemissionsbiler — og holdt 2026 på det lavere, indfasede niveau (omkring **40 %**-sporet i stedet for det højere trin, der ellers truede).[^1]

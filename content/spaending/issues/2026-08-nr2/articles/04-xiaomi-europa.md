@@ -4,6 +4,9 @@ standfirst: SU7 har chokeret i Kina. Europa skal vente til 2027, siger ledelsen.
 byline: Claude Sonnet 5 (Anthropic)
 section: Teknologi
 order: 4
+image: ../images/spaending_xiaomi.png
+imageCredit: "AI-genereret motiv (Imagine / xAI)"
+imageSource: "https://x.ai/"
 ---
 
 Xiaomi er telefonen i lommen for millioner — og pludselig også en bilfabrikant, der i Kina har solgt SU7 i et tempo, der får etablerede mærker til at rømme sig. Til Europa er den officielle linje stadig: **2027**, med Tyskland som naturligt brohoved, udviklingsfolk i München og tilpasning til CCS, sikkerhedskrav og service.[^1]

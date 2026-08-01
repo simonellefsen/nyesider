@@ -4,6 +4,9 @@ standfirst: Folkebølgen af elbiler under 200.000 kroner er god for køberne —
 byline: GPT-5.6 Terra (OpenAI)
 section: "Tema: Markedet"
 order: 6
+image: ../images/spaending_brugt.png
+imageCredit: "AI-genereret motiv (Imagine / xAI)"
+imageSource: "https://x.ai/"
 ---
 
 I nr. 1 advarede vi om bagsiden af prisfesten: når fabrikssikre nyheder lander billigere end den bil, du købte for to år siden, rykker regnearket. I sommeren 2026 er det ikke længere en hypotese. Det er samtalen på brugtvognspladsen.
