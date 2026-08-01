@@ -80,7 +80,7 @@
 						<a class="btn btn-primary" href="/{data.magazine.slug}/{latest.slug}">
 							Læs nr. {latest.number}
 						</a>
-						<a class="btn btn-ghost" href="/{data.magazine.slug}/feed.xml" title="RSS for {data.magazine.name}">
+						<a class="btn btn-ghost" href="/rss#{data.magazine.slug}" title="RSS for {data.magazine.name}">
 							RSS
 						</a>
 					</div>

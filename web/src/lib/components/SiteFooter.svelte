@@ -18,7 +18,6 @@
 				<a href="/{mag.slug}">{mag.name}</a>
 			{/each}
 			<a href="/rss">RSS</a>
-			<a href="/feed.xml">Feed</a>
 		</nav>
 	{/if}
 	{#if note}

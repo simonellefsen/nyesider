@@ -87,7 +87,7 @@
 				</div>
 			</li>
 			{#each data.magazines as mag (mag.slug)}
-				<li class="rss-feed-item">
+				<li class="rss-feed-item" id={mag.slug}>
 					<div>
 						<strong>{mag.name}</strong>
 						<p>{mag.tagline}</p>

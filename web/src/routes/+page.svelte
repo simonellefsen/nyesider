@@ -112,7 +112,6 @@
 			</div>
 			<div class="rss-home-actions">
 				<a class="btn btn-primary" href="/rss">Sådan virker RSS</a>
-				<a class="btn btn-ghost" href="/feed.xml">Feed (XML)</a>
 			</div>
 		</div>
 	</section>
