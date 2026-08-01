@@ -1,59 +1,73 @@
 # KRAFTEN – Redaktionsnotesbog
 
-Opdateret efter nr. 1 (august 2026, *"Hvad holder lyset tændt"*). Modelerfaringer: [modelkartotek](../modelkartotek.md).
+Opdateret august 2026 — **fokus skærpet:** global elektrificering + rumkraft. Modelerfaringer: [modelkartotek](../modelkartotek.md).
 
 ## Identitet
 
-**KRAFTEN** dækker hele energisystemet: atom (fission, thorium, fusion), fossilt, vedvarende, lagring, landeudbygning, planer og anlæg. Nøgtern, kildetung. Ikke SPÆNDING (elbiler).
+**KRAFTEN** er magasinet om **elektrificering** — hvordan strøm erstatter fossil energi i transport, varme, industri og hverdag, **på tværs af lande**, og hvordan den samme logik rækker **ud i rummet**.
 
-## Visuel linje (bindende fra nr. 1)
+### Kerne
 
-**Kun xAI Imagine** til fotos/illustrationer (ingen scrapede presse-/stockfotos) — se [redaktion/README.md](../README.md) copyright-politik.
+| Søjle | Indhold |
+|---|---|
+| **Elektrificering globalt** | El-andelen af endeligt energiforbrug; EV- og varmepumpe-udrulning; industri-el; byer og havne; hvem går hurtigst (Kina, EU, US, Indien, Afrika, Golf …) med **tal** |
+| **Systemet bag stikket** | Net, baseload, vedvarende, atom, lagring, gas som flex — altid set som *input til elektrificering*, ikke som isoleret energifetish |
+| **Rumkraft / Space** | Solpaneler på satellitter og stationer; kernekraft til dybe missioner (RTG, fission surface power); orbital solkraft-koncepter; strøm til måne-/Mars-baser; data centre / downlink-energi-vinkler hvor det er reelt |
 
-Prioritér **anlæg, maskiner og byggeri** — ikke stock "grønt blad på panel":
+### Afgrænsning
 
-- Kraner, jack-up-skibe, monopæle  
-- Reaktor-/containment-byggeri, armering  
-- Solfarm under montering  
-- BESS-containere, transformere  
-- LNG-tanke, rør, lastearme  
-- Net/master hvor det er relevant  
+- **Ikke SPÆNDING:** bilmodeller, køretest og danske afgifter på personbiler hører primært i SPÆNDING. KRAFTEN kan nævne EV-salg som *elektrificeringsindikator*, men dykker i net, TWh og lande — ikke i Twin go vs. Leaf.
+- **Fossilt** dækkes, når det forklarer tempo, flaskehalse eller backup — ikke som olie-/gas-magasin i sig selv.
+- Tone: nøgtern, kildetung, global. Ingen hype uden hardware.
 
-Stil: dokumentarisk/editorial (Imagine), **ingen logoer, ingen læsbar skiltetekst**. 4–6 artikelbilleder pr. nummer.
+## Visuel linje
+
+**Kun xAI Imagine** (`.env.local` → `XAI_API_KEY`). Se [redaktion/README.md](../README.md).
+
+Prioritér:
+
+- Anlæg og maskiner (kraner, turbiner, BESS, master)  
+- **Globale scener:** bynet, havne-el, toglinjer, fabrikker under el-omstilling  
+- **Rum:** satellitter med paneler, landere, habitat-koncepter, jordstationer — dokumentarisk/editorial, ikke ren sci-fi-plakat uden kontekst  
 
 ### Forside (skifter hvert nummer)
 
-Hvert nummer har **egen cool forside** — ikke et fast logo-cover:
+Egen `images/kraften_cover.png` pr. issue, styret af `issueTheme`. Brand: mørk grøn-sort, amber `#E3A008`, teal. Ingen masthead-tekst i billedet. `coverCredit` + `coverSource` påkrævet.
 
-1. Sæt `issueTheme` (fx «Hvad holder lyset tændt»).  
-2. Generér **ny** `images/kraften_cover.png` (3:4, Imagine) der *fortolker temaet* — system/net, anlæg, brændsel, havvind, lagring …  
-3. Peg `issue.json` → `"cover": "images/kraften_cover.png"` + `coverCredit` / `coverSource`.  
-4. Brandfarver i billedet: mørk grøn-sort, amber `#E3A008`, teal-highlight.  
-5. Ingen masthead-tekst i billedet (web/PDF lægger titel ovenpå / ved siden af).
+Nr. 1-forside: net/lys/køletårn/vind — «systemet der holder lyset tændt».
 
-Nr. 1-forside: dramatisk nattescene med master, lysbue, køletårn og vind — «systemet der holder lyset tændt».
+## Nr. 1 — udgivet (fundament)
 
-**Billedkilde er obligatorisk:** `imageCredit` + `imageSource` under hvert artikelbillede (Imagine / xAI → `https://x.ai/`); cover: `coverCredit` + `coverSource`. Samlet liste i `images/SOURCES.md` og `imageCredits` i issue-kolofonen.
+*"Hvad holder lyset tændt"* — 14 artikler om EU-mix, atom, gas, vind, sol, lagring, DK. God base for **systemet**. Mindre eksplicit om global elektrificerings-kurve og rum (det kommer i nr. 2+).
 
-## Nr. 1 — udgivet
+## Nr. 2 — i støbeskeen (*arbejdstitel: "Strøm overalt"*)
 
-14 artikler, cover + 5 feature-billeder (atom, vind, sol, lagring, gas). Kilder primært Ember EER 2026, IEA Electricity 2026, ENS/IEA DK.
+Mål 12–16 artikler. Forslag:
 
-## Løfter / nr. 2
-
-- Bagside: netflaskehalse, uranmarked, anlæg der får tilladelse.  
-- Dybde i ét land (fx DE net nord–syd eller FR EPR-status).  
-- Geotermi / varme.  
-- Kul i Asien som global balance.  
+1. **Leder** — Elektrificering som århundredets infrastrukturprojekt (jord + rum)  
+2. **Tallet** — el-andel af global endelig energi / stigningstakt (IEA)  
+3. **Kina** — verdens største elektrificeringsmaskine (EV, HSR, industri, sol/vind-GW)  
+4. **Indien & det globale syd** — netadgang, peak demand, spring over fossil?  
+5. **EU** — Fit for 55 i praksis: varmepumper, industri, netkøer  
+6. **USA** — IRA-efterspil, data centre vs. husholdninger  
+7. **Netflaskehalse** — hvor elektrificering møder tilladelse og stål  
+8. **Lagring til et elektrisk samfund** — timer vs. sæson  
+9. **Rum: satellittens solpanel** — hvordan missioner får watt i dag  
+10. **Rum: kernekraft til dybe missioner** — RTG vs. fission surface power (NASA/ESA-spor)  
+11. **Orbital solkraft** — hype vs. demonstrationsplaner  
+12. **Lande-snapshot-tabel** — 6 lande, samme elektrificerings-indikatorer  
+13. **Ordbogen** — electrification rate, final energy, RTG, ISP, curtailment …  
+14. **Rygtebørsen**  
 
 ## Research-regler
 
-Tal med kilde + årstal. Skeln nameplate MW / TWh / planlagt / under byggeri / i drift. Ingen opdigtede projektnavne.
+- Tal med **kilde + årstal** (IEA, Ember, IRENA, nationale agenturer, NASA/ESA pressemeddelelser for rum).  
+- Skeln nameplate MW / TWh / planlagt / under byggeri / i drift.  
+- Rum: skeln **operationel hardware** fra PowerPoint-koncepter.  
+- OpenRouter: **kun** `.env.kraften`. Imagine: `.env.local`.
 
 ## Praktisk
 
-- OpenRouter: **kun** `.env.kraften` (aldrig andre titlers nøgler).  
-- Imagine: `XAI_API_KEY` i `.env.local`.  
-- `python production/load_env.py kraften` før scriptet kørsel.  
-- Features 500–750 ord; bagsnit `flow: true`.  
-- PDF: `build_magazine.py kraften 2026-08-nr1` når layout ønskes.
+- `python production/load_env.py kraften`  
+- Features 500–750 ord; bagsnit `flow: true`  
+- PDF: `build_magazine.py kraften <issue-slug>`  
