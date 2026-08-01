@@ -26,9 +26,13 @@ Fælles erfaringer med OpenRouter-modeller på tværs af alle titler. Opdateres 
 
 **Standard fra august 2026: xAI Imagine** (Grok Build `image_gen` / Imagine) til covers og artikelbilleder — primært for at **undgå copyright** på stock/pressefotos. Krediter altid med `imageCredit` + `imageSource` (fx «AI-genereret … (Imagine / xAI)» → `https://x.ai/`).
 
-- **Imagine (xAI)** — forsider + feature-billeder (KRAFTEN nr. 1: anlæg/maskiner; HORISONTEN/SPÆNDING nr. 2-covers). Foretrukket default.
-- **Gemini 3 Pro Image** (via OpenRouter) — ældre forsider (nr. 1-titler); stadig brugbar fallback.
-- **Gemini 3.1 Flash Image** — ældre artikelbilleder via OpenRouter.
+**Nøgler:**
+- Imagine: `XAI_API_KEY` i **`.env.local`** (fælles).
+- OpenRouter-tekst (og evt. Gemini-billed-fallback): **kun** `.env.<slug>` for den titel der produceres — se [README](README.md) og `production/load_env.py`.
+
+- **Imagine (xAI)** — forsider + feature-billeder. Foretrukket default; load `.env.local`.
+- **Gemini 3 Pro Image** (via OpenRouter) — ældre forsider; fallback på **titlens** OpenRouter-nøgle.
+- **Gemini 3.1 Flash Image** — ældre artikelbilleder via OpenRouter (samme: titlens nøgle).
 - Tip: skriv altid "no text" / "no logos" / "no readable signage" i prompten.
 - **Ikke:** scrapte fotos fra web uden licens.
 

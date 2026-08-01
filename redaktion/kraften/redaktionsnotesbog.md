@@ -52,6 +52,8 @@ Tal med kilde + årstal. Skeln nameplate MW / TWh / planlagt / under byggeri / i
 
 ## Praktisk
 
-- `.env.kraften` ved OpenRouter-produktion.  
+- OpenRouter: **kun** `.env.kraften` (aldrig andre titlers nøgler).  
+- Imagine: `XAI_API_KEY` i `.env.local`.  
+- `python production/load_env.py kraften` før scriptet kørsel.  
 - Features 500–750 ord; bagsnit `flow: true`.  
 - PDF: `build_magazine.py kraften 2026-08-nr1` når layout ønskes.

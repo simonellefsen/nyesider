@@ -65,4 +65,14 @@ Genererer print-PDF'en (`production/build_magazine.py`, ReportLab, A4) ud fra ma
 
 ## Hemmeligheder & omkostninger
 
-Hver titel har sin egen OpenRouter-nøgle i `.env.<slug>` (fx `.env.pulsen`, `.env.spaending` — alle gitignoret), så produktionsomkostningerne kan aflæses pr. magasin. Skabelon: [.env.example](.env.example). Forbruget pr. nummer noteres i `issue.json` (`productionCostUSD`). Webappen bruger ingen nøgler.
+To lag (alle gitignored — se [.env.example](.env.example)):
+
+| Formål | Fil | Variabel |
+|---|---|---|
+| **OpenRouter** (tekst pr. magasin — cost tracking) | `.env.gnisten`, `.env.pulsen`, `.env.spaending`, `.env.horisonten`, `.env.kraften` | `OPENROUTER_API_KEY` |
+| **xAI Imagine** (billeder, forlagsfælles) | `.env.local` | `XAI_API_KEY` |
+
+- Under produktion af en titel: load **kun** den titels `.env.<slug>` til OpenRouter — aldrig en andens nøgle.
+- Imagine: `.env.local` / `XAI_API_KEY`.
+- Hjælper: `python production/load_env.py <slug>` (bekræfter filer uden at printe hemmeligheder).
+- Forbrug pr. nummer noteres i `issue.json` (`productionCostUSD`). Webappen bruger ingen nøgler.
