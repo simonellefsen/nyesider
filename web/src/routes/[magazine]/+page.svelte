@@ -1,16 +1,18 @@
 <script lang="ts">
-	import Breadcrumb from '$lib/components/Breadcrumb.svelte';
 	import Seo from '$lib/components/Seo.svelte';
+	import SiteFooter from '$lib/components/SiteFooter.svelte';
+	import SiteHeader from '$lib/components/SiteHeader.svelte';
 	import { absoluteUrl, pageTitle, periodicalJsonLd } from '$lib/seo';
 
 	let { data } = $props();
 	const colors = $derived(data.magazine.colors);
 	const path = $derived(`/${data.magazine.slug}`);
-	const cover = $derived(data.issues[0]?.cover ?? null);
+	const cover = $derived(data.issues.find((i) => i.cover)?.cover ?? null);
 	const description = $derived(
 		data.magazine.tagline +
 			(data.magazine.audience ? ` ${data.magazine.audience}.` : '')
 	);
+	const latest = $derived(data.issues[0] ?? null);
 </script>
 
 <Seo
@@ -30,20 +32,20 @@
 	style:--mag-accent={colors.accent ?? '#2a6f97'}
 	style:--mag-highlight={colors.highlight ?? '#c9842f'}
 >
-	<header class="site-header">
-		<Breadcrumb
-			crumbs={[{ label: 'Nye Sider', href: '/' }, { label: data.magazine.name }]}
-		/>
-	</header>
+	<SiteHeader
+		magazines={data.navMagazines}
+		currentSlug={data.magazine.slug}
+		crumbs={[{ label: 'Nye Sider', href: '/' }, { label: data.magazine.name }]}
+	/>
 
 	<main class="page">
 		<section class="mag-hero">
-			{#if data.issues[0]?.cover}
+			{#if cover}
 				<div class="cover">
-					<a href="/{data.magazine.slug}/{data.issues[0].slug}">
+					<a href={latest ? `/${data.magazine.slug}/${latest.slug}` : path}>
 						<img
-							src={data.issues[0].cover}
-							alt="Seneste forside: {data.issues[0].title}"
+							src={cover}
+							alt="Seneste forside: {latest?.title ?? data.magazine.name}"
 							width="360"
 							height="480"
 						/>
@@ -59,21 +61,32 @@
 					{data.magazine.tagline}
 				</p>
 				{#if data.magazine.audience}
-					<p style="margin:0;font-size:0.9rem;color:var(--ink-muted);max-width:36rem">
+					<p style="margin:0 0 1rem;font-size:0.9rem;color:var(--ink-muted);max-width:36rem">
 						{data.magazine.audience}
 					</p>
+				{/if}
+				{#if latest}
+					<div class="mag-card-actions" style="margin-top:0.25rem">
+						<a class="btn btn-primary" href="/{data.magazine.slug}/{latest.slug}">
+							Læs nr. {latest.number}
+						</a>
+					</div>
 				{/if}
 			</div>
 		</section>
 
 		<section aria-labelledby="arkiv-heading">
-			<h2 id="arkiv-heading" style="font-size:1.1rem;margin:0 0 0.75rem">Numre</h2>
+			<h2 id="arkiv-heading" class="section-heading">Numre</h2>
 			<ul class="issue-list">
 				{#each data.issues as issue (issue.slug)}
 					<li>
 						<a href="/{data.magazine.slug}/{issue.slug}">
 							{#if issue.cover}
 								<img src={issue.cover} alt="" width="56" height="75" loading="lazy" />
+							{:else}
+								<div class="issue-thumb-placeholder" aria-hidden="true">
+									<span>Nr.&nbsp;{issue.number}</span>
+								</div>
 							{/if}
 							<div>
 								<strong>{issue.title}</strong>
@@ -92,7 +105,8 @@
 		</section>
 	</main>
 
-	<footer class="site-footer">
-		<p><a href="/">← Alle titler</a></p>
-	</footer>
+	<SiteFooter
+		magazines={data.navMagazines}
+		note={`Alle numre af ${data.magazine.name} · Nye Sider`}
+	/>
 </div>

@@ -1,6 +1,7 @@
 <script lang="ts">
-	import Breadcrumb from '$lib/components/Breadcrumb.svelte';
 	import Seo from '$lib/components/Seo.svelte';
+	import SiteFooter from '$lib/components/SiteFooter.svelte';
+	import SiteHeader from '$lib/components/SiteHeader.svelte';
 	import { absoluteUrl, pageTitle, publicationIssueJsonLd } from '$lib/seo';
 
 	let { data } = $props();
@@ -11,6 +12,7 @@
 			? `${data.issue.title} — ${data.issue.issueTheme}. Læs indholdsfortegnelsen og hent PDF-udgaven.`
 			: `${data.issue.title}. Læs indholdsfortegnelsen og hent PDF-udgaven hos Nye Sider.`
 	);
+	const firstArticle = $derived(data.articles[0] ?? null);
 </script>
 
 <Seo
@@ -35,15 +37,15 @@
 	style:--mag-accent={colors.accent ?? '#2a6f97'}
 	style:--mag-highlight={colors.highlight ?? '#c9842f'}
 >
-	<header class="site-header">
-		<Breadcrumb
-			crumbs={[
-				{ label: 'Nye Sider', href: '/' },
-				{ label: data.magazine.name, href: `/${data.magazine.slug}` },
-				{ label: `Nr. ${data.issue.number}` }
-			]}
-		/>
-	</header>
+	<SiteHeader
+		magazines={data.navMagazines}
+		currentSlug={data.magazine.slug}
+		crumbs={[
+			{ label: 'Nye Sider', href: '/' },
+			{ label: data.magazine.name, href: `/${data.magazine.slug}` },
+			{ label: `Nr. ${data.issue.number}` }
+		]}
+	/>
 
 	<main class="page">
 		<p class="eyebrow">
@@ -60,9 +62,15 @@
 			</p>
 		{/if}
 
-		{#if data.issue.pdf}
-			<a class="pdf-link" href={data.issue.pdf} download> ↓ Hent PDF-udgaven </a>
-		{/if}
+		<div class="mag-card-actions" style="margin-top:1rem">
+			{#if firstArticle}
+				<a class="btn btn-primary" href={firstArticle.href}>Start læsning</a>
+			{/if}
+			{#if data.issue.pdf}
+				<a class="btn btn-ghost" href={data.issue.pdf} download>↓ Hent PDF</a>
+			{/if}
+			<a class="btn btn-ghost" href="/{data.magazine.slug}">Alle numre</a>
+		</div>
 
 		{#if data.issue.cover}
 			<figure class="issue-cover" style="margin-top:1.25rem">
@@ -76,7 +84,7 @@
 		{/if}
 
 		<section aria-labelledby="indhold-heading">
-			<h2 id="indhold-heading" style="font-size:1.15rem;margin:1.75rem 0 0.25rem">Indhold</h2>
+			<h2 id="indhold-heading" class="section-heading" style="margin-top:1.75rem">Indhold</h2>
 			<ol class="toc">
 				{#each data.articles as article, i (article.slug)}
 					<li>
@@ -98,7 +106,5 @@
 		</section>
 	</main>
 
-	<footer class="site-footer">
-		<p><a href="/{data.magazine.slug}">← Alle numre af {data.magazine.name}</a></p>
-	</footer>
+	<SiteFooter magazines={data.navMagazines} />
 </div>

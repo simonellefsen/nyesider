@@ -1,10 +1,8 @@
 <script lang="ts">
 	import Seo from '$lib/components/Seo.svelte';
-	import {
-		SITE_DESCRIPTION,
-		organizationJsonLd,
-		websiteJsonLd
-	} from '$lib/seo';
+	import SiteFooter from '$lib/components/SiteFooter.svelte';
+	import SiteHeader from '$lib/components/SiteHeader.svelte';
+	import { SITE_DESCRIPTION, organizationJsonLd, websiteJsonLd } from '$lib/seo';
 
 	let { data } = $props();
 
@@ -21,14 +19,7 @@
 	jsonLd={[organizationJsonLd(), websiteJsonLd()]}
 />
 
-<header class="site-header">
-	<a class="brand" href="/">Nye <span>Sider</span></a>
-	<nav class="site-nav" aria-label="Primær">
-		{#each data.magazines as mag (mag.slug)}
-			<a href="/{mag.slug}">{mag.name}</a>
-		{/each}
-	</nav>
-</header>
+<SiteHeader magazines={data.navMagazines} />
 
 <main class="page">
 	<section class="kiosk-hero">
@@ -41,48 +32,71 @@
 	</section>
 
 	<section id="titler" aria-labelledby="titler-heading">
-		<h2 id="titler-heading" class="sr-only">Titler</h2>
+		<h2 id="titler-heading" class="section-heading">Titler</h2>
 		<div class="mag-grid">
 			{#each data.magazines as mag (mag.slug)}
-				<a
-					class="mag-card"
-					href={mag.latest ? `/${mag.slug}/${mag.latest.slug}` : `/${mag.slug}`}
+				<article
+					class="mag-card mag-card--panel"
 					style:--mag-primary={mag.colors.primary ?? '#0b1220'}
 					style:--mag-accent={mag.colors.accent ?? '#2a6f97'}
 					style:--mag-highlight={mag.colors.highlight ?? '#c9842f'}
 				>
-					{#if mag.latest?.cover}
-						<img
-							src={mag.latest.cover}
-							alt="Forside: {mag.latest.title}"
-							width="120"
-							height="160"
-							loading="lazy"
-						/>
-					{:else}
-						<div style="width:7.5rem;aspect-ratio:3/4;background:#ddd;border-radius:8px"></div>
-					{/if}
-					<div>
-						<h2>{mag.name}</h2>
+					<a
+						class="mag-card-cover"
+						href={mag.latest?.href ?? mag.archiveHref}
+						aria-label={mag.latest
+							? `Læs ${mag.name} nr. ${mag.latest.number}`
+							: `Gå til ${mag.name}`}
+					>
+						{#if mag.latest?.cover}
+							<img
+								src={mag.latest.cover}
+								alt="Forside: {mag.latest.title}"
+								width="120"
+								height="160"
+								loading="lazy"
+							/>
+						{:else}
+							<div class="mag-card-placeholder" aria-hidden="true">
+								<span>{mag.name.slice(0, 1)}</span>
+							</div>
+						{/if}
+					</a>
+
+					<div class="mag-card-body">
+						<h2>
+							<a href={mag.archiveHref}>{mag.name}</a>
+						</h2>
 						<p class="tagline">{mag.tagline}</p>
+
 						{#if mag.latest}
 							<p class="meta">
-								Nr. {mag.latest.number} · {mag.latest.publishedLabel}
+								Seneste: Nr. {mag.latest.number} · {mag.latest.publishedLabel}
 								{#if mag.latest.issueTheme}
 									<br /><em>{mag.latest.issueTheme}</em>
 								{/if}
 							</p>
+							<div class="mag-card-actions">
+								<a class="btn btn-primary" href={mag.latest.href}>
+									Læs nr. {mag.latest.number}
+								</a>
+								<a class="btn btn-ghost" href={mag.archiveHref}>
+									Alle numre{#if mag.issueCount > 1}
+										<span class="count">({mag.issueCount})</span>
+									{/if}
+								</a>
+							</div>
 						{:else}
 							<p class="meta">Ingen numre endnu</p>
+							<div class="mag-card-actions">
+								<a class="btn btn-ghost" href={mag.archiveHref}>Gå til magasin</a>
+							</div>
 						{/if}
 					</div>
-				</a>
+				</article>
 			{/each}
 		</div>
 	</section>
 </main>
 
-<footer class="site-footer">
-	<p><strong>Nye Sider</strong> — AI-redigeret magasinforlag.</p>
-	<p>Hver artikel er skrevet af en navngiven model og redigeret af chefredaktionen.</p>
-</footer>
+<SiteFooter magazines={data.navMagazines} />

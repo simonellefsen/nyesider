@@ -93,17 +93,20 @@ button,
 
 /* Shell */
 .site-header {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	gap: 1rem;
-	padding: 0.85rem var(--page-pad);
+	padding: 0.7rem var(--page-pad);
 	border-bottom: 1px solid var(--line);
 	background: color-mix(in srgb, var(--bg-elevated) 92%, transparent);
 	backdrop-filter: blur(10px);
 	position: sticky;
 	top: 0;
 	z-index: 40;
+}
+
+.site-header-row {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 1rem;
 }
 
 .site-header a {
@@ -116,6 +119,7 @@ button,
 	letter-spacing: 0.04em;
 	text-transform: uppercase;
 	font-size: 0.85rem;
+	flex-shrink: 0;
 }
 
 .brand span {
@@ -124,9 +128,103 @@ button,
 
 .site-nav {
 	display: flex;
-	gap: 0.85rem;
-	font-size: 0.9rem;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	gap: 0.35rem 0.75rem;
+	font-size: 0.82rem;
 	color: var(--ink-muted);
+	min-width: 0;
+}
+
+.site-nav a {
+	padding: 0.2rem 0;
+	border-bottom: 2px solid transparent;
+}
+
+.site-nav a:hover {
+	color: var(--mag-primary);
+}
+
+.site-nav a.is-current {
+	color: var(--mag-primary);
+	font-weight: 700;
+	border-bottom-color: var(--mag-accent);
+}
+
+.site-header--with-crumbs .site-header-crumbs {
+	margin-top: 0.45rem;
+	padding-top: 0.4rem;
+	border-top: 1px solid var(--line);
+}
+
+.section-heading {
+	font-size: 1.1rem;
+	margin: 0 0 0.75rem;
+}
+
+.footer-nav {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.5rem 1rem;
+	margin: 0 0 1rem;
+	font-size: 0.9rem;
+}
+
+.footer-nav a {
+	color: var(--ink-muted);
+	text-decoration: none;
+}
+
+.footer-nav a:hover {
+	color: var(--mag-accent);
+}
+
+.btn {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	gap: 0.35rem;
+	padding: 0.55rem 0.95rem;
+	border-radius: 999px;
+	font-size: 0.9rem;
+	font-weight: 600;
+	line-height: 1.2;
+	text-decoration: none;
+	border: 1px solid transparent;
+	cursor: pointer;
+}
+
+.btn-primary {
+	background: var(--mag-primary);
+	color: #fff;
+}
+
+.btn-primary:hover {
+	background: color-mix(in srgb, var(--mag-primary) 88%, #000);
+	color: #fff;
+}
+
+.btn-ghost {
+	background: transparent;
+	color: var(--mag-primary);
+	border-color: color-mix(in srgb, var(--mag-primary) 25%, var(--line));
+}
+
+.btn-ghost:hover {
+	border-color: var(--mag-accent);
+	color: var(--mag-accent);
+}
+
+.mag-card-actions {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.5rem;
+	margin-top: 0.85rem;
+}
+
+.mag-card-actions .count {
+	font-weight: 500;
+	opacity: 0.75;
 }
 
 /* Breadcrumb (magazine / issue headers) */
@@ -245,13 +343,35 @@ button,
 	transition: transform 0.15s ease, border-color 0.15s ease;
 }
 
-.mag-card:hover {
+.mag-card--panel {
+	align-items: start;
+}
+
+.mag-card--panel:hover {
+	transform: translateY(-2px);
+	border-color: color-mix(in srgb, var(--mag-accent) 40%, var(--line));
+}
+
+a.mag-card:hover {
 	transform: translateY(-2px);
 	border-color: color-mix(in srgb, var(--mag-accent) 40%, var(--line));
 	color: inherit;
 }
 
-.mag-card img {
+.mag-card-cover {
+	display: block;
+	text-decoration: none;
+	color: inherit;
+	border-radius: 8px;
+	overflow: hidden;
+}
+
+.mag-card-cover:hover {
+	color: inherit;
+}
+
+.mag-card img,
+.mag-card-placeholder {
 	width: 7.5rem;
 	aspect-ratio: 3 / 4;
 	object-fit: cover;
@@ -259,10 +379,33 @@ button,
 	background: #ddd;
 }
 
+.mag-card-placeholder {
+	display: grid;
+	place-items: center;
+	background: linear-gradient(
+		145deg,
+		color-mix(in srgb, var(--mag-primary) 88%, #000),
+		color-mix(in srgb, var(--mag-accent) 70%, var(--mag-primary))
+	);
+	color: #fff;
+	font-weight: 700;
+	font-size: 1.75rem;
+	letter-spacing: 0.06em;
+}
+
 .mag-card h2 {
 	margin: 0 0 0.35rem;
 	font-size: 1.35rem;
 	letter-spacing: 0.06em;
+}
+
+.mag-card h2 a {
+	color: inherit;
+	text-decoration: none;
+}
+
+.mag-card h2 a:hover {
+	color: var(--mag-accent);
 }
 
 .mag-card .tagline {
@@ -275,6 +418,21 @@ button,
 	font-size: 0.85rem;
 	color: var(--mag-primary);
 	font-weight: 600;
+}
+
+.issue-thumb-placeholder {
+	width: 3.5rem;
+	aspect-ratio: 3 / 4;
+	border-radius: 6px;
+	display: grid;
+	place-items: center;
+	background: color-mix(in srgb, var(--mag-primary) 12%, var(--bg));
+	color: var(--mag-primary);
+	font-size: 0.65rem;
+	font-weight: 700;
+	text-align: center;
+	line-height: 1.2;
+	flex-shrink: 0;
 }
 
 /* Magazine front */

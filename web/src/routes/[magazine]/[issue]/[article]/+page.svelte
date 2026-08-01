@@ -72,6 +72,8 @@
 				<a href="/">Nye Sider</a>
 				<span class="sep" aria-hidden="true">/</span>
 				<a href="/{data.magazine.slug}">{data.magazine.name}</a>
+				<span class="sep" aria-hidden="true">/</span>
+				<a href="/{data.magazine.slug}/{data.issue.slug}">Nr. {data.issue.number}</a>
 			</div>
 			<span class="section-label">{data.article.section}</span>
 			<div class="reading-bar-actions">
