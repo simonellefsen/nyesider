@@ -32,7 +32,14 @@ Vinkel: Sydtyrol/Dolomitter efter højsæson — Tre Cime, Sellaronda, Bolzano/C
 
 ## Søstertitel: KULTURBOXEN
 
-[KULTURBOXEN](../kulturboxen/redaktionsnotesbog.md) = livet i kulturen. HORISONTEN = rejsen til stedet. Krydslink ved overlap.
+[KULTURBOXEN](../kulturboxen/redaktionsnotesbog.md) = livet i kulturen. HORISONTEN = rejsen til stedet.
+
+### Synk-regel (planlægning)
+
+**Prøv at synke numre**, når det giver mening: samme land/region i samme sæson (fx Georgien nr. 2 her + KULTURBOXEN nr. 1).  
+- Før I låser destination: tjek KULTURBOXENs notesbog — er der en kultur i støbeskeen, der matcher?  
+- Ikke altid muligt (rene storby-weekender, rene “oversete folk” uden rejsevinkel). Så notér *bevidst asynk*.  
+- Ved synk: krydslinks begge veje + “Søster: …” i notesbogen.
 
 ## Praktisk
 

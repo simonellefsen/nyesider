@@ -69,3 +69,9 @@ Opret `redaktion/<slug>/redaktionsnotesbog.md` og `content/<slug>/magazine.json`
 4. **Krydsreferencer:** Når et emne overlapper et andet magasin eller et tidligere nummer (fx SPÆNDING↔KRAFTEN, ORBIT↔KRAFTEN, HORISONTEN↔KULTURBOXEN, «i nr. 1 skrev vi…»), sæt en **relativ intern link** i brødteksten: `/<slug>/<issue-slug>/<article-slug>` (fx `[KRAFTEN](/kraften/2026-08-nr1/leder)`). Ikke linkfarm — kun hvor læseren reelt har glæde af at hoppe.
 
 5. **Fact-check før accept:** Se arbejdsgang trin 4. Chefredaktøren er ansvarlig for, at teamets artikler er faktatjekket — publicering uden den gennemgang er en procesfejl, ikke en stilpræference.
+
+6. **HORISONTEN ↔ KULTURBOXEN — synk når det giver mening:**  
+   De to titler er søskende (rejse vs. hverdag/kultur). Ved planlægning af nye numre: **prøv at matche land/region/tema**, så læseren kan hoppe mellem “hvordan kommer jeg derhen” og “hvordan lever folk dér” (som Georgien-parret i august 2026).  
+   - **Ikke et krav hver gang** — nogle destinationer er rene ruter; nogle kulturer har ikke et naturligt rejseformat i samme kvartal.  
+   - Når I synker: samme `published`-vindue hvis muligt, gensidige krydslinks, og en linje i begge notesbøger (*“Søster: …”*).  
+   - Når I *ikke* synker: notér kort hvorfor i notesbogen, så det er et bevidst valg.
