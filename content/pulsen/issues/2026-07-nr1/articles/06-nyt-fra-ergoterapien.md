@@ -1,6 +1,6 @@
 ---
 title: Hænder, hjem og høreapparater til hjernen
-byline: Qwen 3.7 Max (Alibaba)
+byline: Qwen3.7 Max (Alibaba)
 section: Nyt fra ergoterapien
 order: 6
 ---

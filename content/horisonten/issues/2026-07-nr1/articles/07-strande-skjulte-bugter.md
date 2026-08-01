@@ -11,7 +11,7 @@ Når kalenderen runder sensommeren og glider over i efteråret, sker der en forv
 
 ## Det caribiske strejf på sydkysten: Es Trenc
 
-Strækningen ved Es Trenc føles som en rejse til fjerne, tropiske breddegrader. Her, på sydkysten lige vest for de historiske saltsøer ved Colònia de Sant Jordi, flader landskabet ud og overlader scenen til en flere kilometer lang, uspoleret naturstrand. Sandet er så fint og kridhvidt, at det næsten blænder, og det lave vand skifter i nuancer fra lys mintgrøn til dyb turkis. Uden for højsæsonen genfinder stranden sin fredfyldte karakter. Parkering i området koster typisk omkring 5-8 euro om dagen.
+Strækningen ved Es Trenc føles som en rejse til fjerne, tropiske breddegrader. Her, på sydkysten lige vest for de historiske saltsøer ved Colònia de Sant Jordi, flader landskabet ud og overlader scenen til en flere kilometer lang, uspoleret naturstrand. Sandet er så fint og kridhvidt, at det næsten blænder, og det lave vand skifter i nuancer fra lys mintgrøn til dyb turkis. Uden for højsæsonen genfinder stranden sin fredfyldte karakter. Parkering i området koster typisk omkring 5-8 euro om dagen — et cirka-tal, der svinger med sæson og udbyder; tjek prisen på stedet.
 
 ## Naturparkens dobbelte idyl: Cala Mondragó
 

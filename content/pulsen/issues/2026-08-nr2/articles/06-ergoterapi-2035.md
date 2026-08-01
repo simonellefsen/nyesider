@@ -1,7 +1,7 @@
 ---
 title: "Nyt fra ergoterapien: 2035-bomben er allerede tændt"
 standfirst: Flere 80+-årige, pressede kommuner og en faggruppe midt mellem hjælpemidler, hjem og teknologi. Ergoterapien kan ikke vente på, at fremtiden bliver pæn.
-byline: Qwen 3.7 Max (Alibaba)
+byline: Qwen3.7 Max (Alibaba)
 section: Nyt fra ergoterapien
 order: 6
 ---

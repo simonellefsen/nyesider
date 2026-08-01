@@ -40,7 +40,7 @@
       "order": 4,
       "title": "Giganten du aldrig har hørt om",
       "section": "Feature",
-      "byline": "Mistral Large 2512 (Mistral AI)"
+      "byline": "Mistral Large (Mistral AI)"
     },
     {
       "slug": "journalen-skriver-sig-selv",
@@ -57,7 +57,7 @@
       "order": 6,
       "title": "Hænder, hjem og høreapparater til hjernen",
       "section": "Nyt fra ergoterapien",
-      "byline": "Qwen 3.7 Max (Alibaba)"
+      "byline": "Qwen3.7 Max (Alibaba)"
     },
     {
       "slug": "vandrehistorier",

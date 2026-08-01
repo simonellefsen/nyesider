@@ -15,7 +15,7 @@ I august er bjergene stadig hede og forblæste af turister på jagt efter skygge
 
 ## GR221 — Tørstensruten
 
-Rygraden i vandreoplevelsen er GR221, kaldet Ruta de Pedra en Sec efter de tørre stenmure, der kantede stien i århundreder. Den strækker sig over cirka 90-100 kilometer og kan gås i etaper over en uges tid, med overnatning i simple vandrerrefugier undervejs. De fleste besøgende vælger dog kun at gå enkelte dagsetaper — og det er sagtens muligt at få en fyldestgørende oplevelse på den måde.
+Rygraden i vandreoplevelsen er GR221, kaldet Ruta de Pedra en Sec efter de tørre stenmure, der kantede stien i århundreder. Hovedruten strækker sig over **cirka 140 kilometer**[^1] og kan gås i etaper over en uges tid, med overnatning i simple vandrerrefugier undervejs. De fleste besøgende vælger dog kun at gå enkelte dagsetaper — og det er sagtens muligt at få en fyldestgørende oplevelse på den måde.
 
 ### Deià til Sóller: den lette introduktion
 
@@ -27,7 +27,7 @@ En anden overkommelig rute går til og fra Valldemossa, byen der er kendt for si
 
 ### Mod Puig de Massanella — for de trænede
 
-Ønsker man udfordring, er turen mod Puig de Massanella svaret. Med sine cirka 1.364 meter er det Mallorcas næsthøjeste bjerg — den egentlige top, Puig Major, er militærområde og lukket for offentligheden, så Massanella er i praksis den højeste tinde, man kan bestige. Ruten starter typisk fra området omkring Lluc eller Coma des Cedre og kræver flere timers vandring op ad stenet, ujævnt terræn med betydelige højdemeter. Til gengæld belønnes man med et af de bedste udsyn på hele øen — på en klar dag kan man se helt til kysten i begge retninger.
+Ønsker man udfordring, er turen mod Puig de Massanella svaret. Med sine **1.364 meter** er det Mallorcas næsthøjeste bjerg[^1] — den egentlige top, Puig Major (1.445 m), er militærområde og lukket for offentligheden, så Massanella er i praksis den højeste tinde, man kan bestige. Ruten starter typisk fra området omkring Lluc eller Coma des Cedre og kræver flere timers vandring op ad stenet, ujævnt terræn med betydelige højdemeter. Til gengæld belønnes man med et af de bedste udsyn på hele øen — på en klar dag kan man se helt til kysten i begge retninger.
 
 ## Hvorfor efteråret er sæsonen
 
@@ -36,3 +36,5 @@ August byder på hede, der gør selv korte ture udmattende. Fra midten af septem
 ## Praktiske råd
 
 Invester i solide vandrestøvler med godt fodfæste — stierne er stenede og ujævne, og løse sten er en hyppig årsag til forstuvninger. Medbring rigeligt med vand; naturlige kilder er sjældne og kan ikke altid regnes med, især efter en tør sommer. Solbeskyttelse er nødvendig hele året. Endelig bør man ikke undervurdere terrænet — tjek altid vejrudsigten og stiforholdene, før man begiver sig af sted, gerne via lokale turistkontorer i Sóller eller Palma.
+
+[^1]: Ruteoversigter, fx [Outdooractive — La Ruta de Pedra en Sec (GR-221)](https://www.outdooractive.com/en/route/long-distance-hiking/mallorca/la-ruta-de-pedra-en-sec-gr-221-/7173249/); højdedata fra [Wikipedia — Puig de Massanella](https://en.wikipedia.org/wiki/Puig_de_Massanella).

@@ -17,7 +17,7 @@ Store batterianlæg på netniveau (BESS) kommer i **containerform**, stables på
 
 ### Hvem installerer — og hvor hurtigt?
 
-Globalt er **Kina** og **USA** de to største markeder for net-tilsluttede batterier; **EU** vokser hurtigt, men fra en lavere base. Kurven nedenfor er **kumulativ kapacitet i GW** (afrundet pejling) — ikke det samme som timer lagret energi (GWh).
+Globalt er **Kina** og **USA** de to største markeder for net-tilsluttede batterier; **EU** vokser hurtigt, men fra en lavere base. Kurven nedenfor er **kumulativ kapacitet i GW** (afrundet pejling) — ikke det samme som timer lagret energi (GWh).[^1]
 
 [CHART world-batteri-gw]
 

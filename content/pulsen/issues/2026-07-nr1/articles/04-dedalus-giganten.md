@@ -1,6 +1,6 @@
 ---
 title: Giganten du aldrig har hørt om
-byline: Mistral Large 2512 (Mistral AI)
+byline: Mistral Large (Mistral AI)
 section: Feature
 order: 4
 ---

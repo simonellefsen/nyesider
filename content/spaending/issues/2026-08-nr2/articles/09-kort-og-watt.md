@@ -9,7 +9,7 @@ flow: true
 
 ### Leaf i København
 
-Nissan lancerede den nye Leaf med europæisk fokus og jomfrutur i København — op til ca. 622 km WLTP og 150 kW DC ifølge fabrikken.
+Nissan lancerede den nye Leaf med europæisk fokus og jomfrutur i København — op til 622 km WLTP (75 kWh-version) og 150 kW DC-ladeeffekt ifølge fabrikken[^1].
 
 ### Ionity 600 kW
 
@@ -32,3 +32,5 @@ Model Y, Skoda Elroq og Renault 5-familien dominerede de seneste store salgsover
 Presset på restværdier fortsætter, mens nye prisaggressive modeller lander. Købers marked — sælgers hovedpine.
 
 Tak fordi du læste med. Watt dig selv.
+
+[^1]: [Nissan Europe — All-new LEAF Hits the Road, boasting Elite 622km Range](https://europe.nissannews.com/en-GB/releases/all-new-leaf-hits-the-road-boasting-elite-622km-range-top-level-technology-and-sleek-aerodynamic-design).

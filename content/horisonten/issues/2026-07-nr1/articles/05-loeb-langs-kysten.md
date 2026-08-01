@@ -1,7 +1,7 @@
 ---
 title: Løberuter langs kysten
 standfirst: Flad havnepromenade, dramatisk kystrute og et vådområde fuld af fugle — efterårets lange, lyse aftener er ideelle til løb.
-byline: DeepSeek V3.2
+byline: DeepSeek V3.2 (DeepSeek)
 section: Løb
 order: 5
 ---
