@@ -8,7 +8,7 @@ Dansk magasinforlag, hvor hvert nummer produceres af en chefredaktør-agent med 
 |---|---|---|
 | **GNISTEN** | AI for begyndere: modeller, priser, opsætning, prompts | Nr. 2 · August 2026 · *"Ud af browseren"* |
 | **PULSEN** | Sundhedssektoren, AI i klinikken, ergoterapi | Nr. 2 · August 2026 · *"Når tasterne bliver stille"* |
-| **DOSIS** | Longevity, ernæring, tilskud, proteser/implantater, forskning | *(ny titel — endnu ikke udgivet)* |
+| **DOSIS** | Longevity, ernæring, tilskud, proteser/implantater, forskning | Nr. 1 · August 2026 · *"Protein-æraen"* |
 | **SPÆNDING** | Elbiler og teknologien bag, europæisk fokus | Nr. 2 · August 2026 · *"Når watt bliver hverdag"* |
 | **HORISONTEN** | Rejser i Europa — vandring, cykling, løb | Nr. 2 · August 2026 · *"Georgien — bjerge, by og bord"* |
 | **KULTURBOXEN** | Kulturer i hverdagen — set fra Danmark (også oversete) | Nr. 1 · August 2026 · *"Supra og tillid"* (Georgien) |

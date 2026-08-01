@@ -1,0 +1,153 @@
+{
+  "magazine": "dosis",
+  "number": 1,
+  "title": "DOSIS nr. 1 · August 2026",
+  "issueTheme": "Protein-æraen",
+  "published": "2026-08-01",
+  "status": "published",
+  "pdf": null,
+  "cover": "images/dosis_cover.png",
+  "coverCredit": "AI-genereret forside (Imagine / xAI) — protein, lab, tallerken",
+  "coverSource": "https://x.ai/",
+  "images": [
+    "images/dosis_cover.png",
+    "images/dosis_protein.png",
+    "images/dosis_tallerken.png",
+    "images/dosis_vitamin.png",
+    "images/dosis_implantat.png"
+  ],
+  "productionCostUSD": null,
+  "imageCredits": "Alle motiver AI-genereret via Imagine (xAI). Ingen lægemiddel-logoer eller emballage-tekst. Se SOURCES.md.",
+  "backCoverPromise": "DOSIS nr. 2 måler videre — ny forskning, ny tallerken, samme skepsis.",
+  "articles": [
+    {
+      "slug": "leder",
+      "file": "articles/01-leder.md",
+      "order": 1,
+      "title": "Hvor meget er nok?",
+      "section": "Leder",
+      "byline": "Claude Fable 5",
+      "standfirst": "Velkommen til DOSIS. Nr. 1: protein-æraen."
+    },
+    {
+      "slug": "protein-aeraen",
+      "file": "articles/02-protein-aeraen.md",
+      "order": 2,
+      "title": "Protein-æraen: hvorfor alle pludselig tæller gram",
+      "section": "Gennembrud & forskning",
+      "byline": "GPT-5.6 Terra (OpenAI)",
+      "standfirst": "Fra bodybuildere til morgenyoghurt.",
+      "image": "../images/dosis_protein.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/"
+    },
+    {
+      "slug": "hvor-meget-protein",
+      "file": "articles/03-hvor-meget-protein.md",
+      "order": 3,
+      "title": "Hvor meget protein? Gram, myter og den kedelige midtervej",
+      "section": "Protein & træning",
+      "byline": "Claude Sonnet 5 (Anthropic)",
+      "standfirst": "Anbefalinger vs. influenceres regneark."
+    },
+    {
+      "slug": "tallerkenen",
+      "file": "articles/04-tallerkenen.md",
+      "order": 4,
+      "title": "Tallerkenen før posen: ernæring der ikke er et abonnement",
+      "section": "Ernæring & kost",
+      "byline": "Gemini 3.1 Pro (Google)",
+      "standfirst": "Kost er mønstre — ikke et scoop.",
+      "image": "../images/dosis_tallerken.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/"
+    },
+    {
+      "slug": "pulver-vs-mad",
+      "file": "articles/05-pulver-vs-mad.md",
+      "order": 5,
+      "title": "Pulver vs. mad: hvornår shakeren vinder",
+      "section": "Mad i praksis",
+      "byline": "Mistral Large (Mistral AI)",
+      "standfirst": "Værktøj eller dyrt skum?"
+    },
+    {
+      "slug": "d-vitamin",
+      "file": "articles/06-d-vitamin.md",
+      "order": 6,
+      "title": "D-vitamin i nordisk mørke: mangel, megadoser og midten",
+      "section": "Vitaminer & mineraler",
+      "byline": "DeepSeek V3.2 (DeepSeek)",
+      "standfirst": "Solen er en dårlig HR-chef i januar.",
+      "image": "../images/dosis_vitamin.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/"
+    },
+    {
+      "slug": "tilskudsjunglen",
+      "file": "articles/07-tilskudsjunglen.md",
+      "order": 7,
+      "title": "Tilskudsjunglen: piller, shots og det, lab’et ikke garanterer",
+      "section": "Tilskud, piller & væsker",
+      "byline": "GLM-5.2 (Z.ai)",
+      "standfirst": "Reguleret — men ikke som medicin."
+    },
+    {
+      "slug": "implantater",
+      "file": "articles/08-implantater.md",
+      "order": 8,
+      "title": "Hardware i hverdagen: når kroppen får reservedele",
+      "section": "Proteser & implantater",
+      "byline": "Grok 4.5 (xAI)",
+      "standfirst": "Hofte, knæ, sensorer — ikke kun smoothies.",
+      "image": "../images/dosis_implantat.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/"
+    },
+    {
+      "slug": "longevity-hype",
+      "file": "articles/09-longevity-hype.md",
+      "order": 9,
+      "title": "Longevity-hyben: blå zoner, biologisk alder og dig",
+      "section": "Longevity & aldring",
+      "byline": "Qwen3.7 Max (Alibaba)",
+      "standfirst": "Måling er spændende. Salg er en forretning."
+    },
+    {
+      "slug": "tallet",
+      "file": "articles/10-tallet.md",
+      "order": 10,
+      "title": "Tallet: pejlemærker for kroppen i Danmark",
+      "section": "Laboratoriet / tallet",
+      "byline": "DeepSeek V3.2 (DeepSeek)",
+      "standfirst": "Afrundede retninger, ikke facit."
+    },
+    {
+      "slug": "ordbogen",
+      "file": "articles/11-ordbogen.md",
+      "order": 11,
+      "title": "Ordbogen",
+      "section": "Ordbogen",
+      "byline": "Gemini 3.5 Flash (Google)",
+      "standfirst": "Sarkopeni, whey, 25-OH-D, RCT."
+    },
+    {
+      "slug": "rygteboersen",
+      "file": "articles/12-rygteboersen.md",
+      "order": 12,
+      "title": "Rygtebørsen",
+      "section": "Rygtebørsen",
+      "byline": "Qwen3.7 Max (Alibaba)",
+      "standfirst": "Hype-aktier i kroppen."
+    },
+    {
+      "slug": "til-pulsen",
+      "file": "articles/13-til-pulsen.md",
+      "order": 13,
+      "title": "Når dosis møder systemet",
+      "section": "Kryds (PULSEN m.fl.)",
+      "byline": "Claude Fable 5",
+      "standfirst": "Bro til PULSEN når journalen tager over."
+    }
+  ]
+}

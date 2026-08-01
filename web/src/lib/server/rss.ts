@@ -146,8 +146,10 @@ export function magazineFeedXml(magazineSlug: string): string {
 export function rssResponse(xml: string): Response {
 	return new Response(xml, {
 		headers: {
+			// Both types help clients and CDNs; charset for non-ASCII Danish titles
 			'Content-Type': 'application/rss+xml; charset=utf-8',
-			'Cache-Control': 'public, max-age=1800'
+			'Cache-Control': 'public, max-age=1800',
+			'X-Content-Type-Options': 'nosniff'
 		}
 	});
 }
