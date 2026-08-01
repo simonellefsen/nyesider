@@ -13,10 +13,11 @@
     "images/kraften_vind.png",
     "images/kraften_sol.png",
     "images/kraften_lagring.png",
-    "images/kraften_gas.png"
+    "images/kraften_gas.png",
+    "images/kraften_cover_alt_nacelle.png"
   ],
   "productionCostUSD": null,
-  "imageCredits": "Alle billeder i dette nummer er AI-genererede anlægs- og maskinmotiver via Imagine (xAI). Kilde: https://x.ai/ — cover, atombyggeri, offshore vind, solanlæg, batterilager, LNG-terminal. Ingen logoer; dokumentarisk stil. Se også billedkredit under hvert billede.",
+  "imageCredits": "Forside nr. 1: AI-genereret via Imagine (xAI) — højspændingsmaster, lysbue, køletårn og vind i natten; tema «Hvad holder lyset tændt». Kilde: https://x.ai/. Artikelbilleder: AI-genererede anlægs- og maskinmotiver (atom, vind, sol, batteri, LNG) via Imagine / xAI. Hvert nummer har sin egen forside (cover i issue.json).",
   "backCoverPromise": "KRAFTEN nr. 2 følger betonen: netflaskehalse, uranmarkedet og de anlæg, der faktisk får tilladelse.",
   "articles": [
     {
@@ -161,6 +162,6 @@
       "standfirst": "Megawatt, ministerier og mirakler."
     }
   ],
-  "coverCredit": "AI-genereret anlægsmotiv (Imagine / xAI)",
+  "coverCredit": "AI-genereret forside (Imagine / xAI) — tema: Hvad holder lyset tændt",
   "coverSource": "https://x.ai/"
 }

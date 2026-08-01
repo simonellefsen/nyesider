@@ -19,7 +19,19 @@ Prioritér **anlæg, maskiner og byggeri** — ikke stock "grønt blad på panel
 - LNG-tanke, rør, lastearme  
 - Net/master hvor det er relevant  
 
-Stil: dokumentarisk/editorial (Imagine), **ingen logoer, ingen læsbar skiltetekst**. Cover + 4–6 artikelbilleder pr. nummer.
+Stil: dokumentarisk/editorial (Imagine), **ingen logoer, ingen læsbar skiltetekst**. 4–6 artikelbilleder pr. nummer.
+
+### Forside (skifter hvert nummer)
+
+Hvert nummer har **egen cool forside** — ikke et fast logo-cover:
+
+1. Sæt `issueTheme` (fx «Hvad holder lyset tændt»).  
+2. Generér **ny** `images/kraften_cover.png` (3:4, Imagine) der *fortolker temaet* — system/net, anlæg, brændsel, havvind, lagring …  
+3. Peg `issue.json` → `"cover": "images/kraften_cover.png"` + `coverCredit` / `coverSource`.  
+4. Brandfarver i billedet: mørk grøn-sort, amber `#E3A008`, teal-highlight.  
+5. Ingen masthead-tekst i billedet (web/PDF lægger titel ovenpå / ved siden af).
+
+Nr. 1-forside: dramatisk nattescene med master, lysbue, køletårn og vind — «systemet der holder lyset tændt».
 
 **Billedkilde er obligatorisk:** `imageCredit` + `imageSource` under hvert artikelbillede (Imagine / xAI → `https://x.ai/`); cover: `coverCredit` + `coverSource`. Samlet liste i `images/SOURCES.md` og `imageCredits` i issue-kolofonen.
 
