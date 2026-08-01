@@ -17,7 +17,7 @@ Europa har gjort Nordsøen til et industrielt laboratorium for **offshore vind**
 
 ### Hvad det Internationale Energiagentur forventer
 
-I rapporten *Electricity 2026* fra det Internationale Energiagentur (IEA) ventes vind at vokse stærkt i EU; agenturet skriver, at vind kan blive den største el-kilde i EU over fremskrivningshorisonten og øge sin andel markant mod 2030 (fx fra omkring midten af teen-procenter i midten af årtiet mod en fjerdedel i 2030-scenariet — se IEA for præcise fremskrivninger).[^1] Vind er allerede i 2025 en kerne i det europæiske mix (sammen med sol i Embers 30 %-crossover).[^2]
+I rapporten *Electricity 2026* fra det Internationale Energiagentur (IEA) ventes vind at vokse stærkt i EU; agenturet skriver, at vind kan blive den største el-kilde i EU over fremskrivningshorisonten og øge sin andel markant mod 2030 (fx fra omkring midten af titallet i procent i midten af årtiet mod en fjerdedel i 2030-scenariet — se IEA for præcise fremskrivninger).[^1] Vind er allerede i 2025 en kerne i det europæiske mix (sammen med sol i Embers 30 %-crossover).[^2]
 
 ### Maskinerne i billedet
 

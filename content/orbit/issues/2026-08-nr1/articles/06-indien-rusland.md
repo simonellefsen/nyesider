@@ -12,7 +12,7 @@ Indiens nationale rumorganisation **ISRO** (*Indian Space Research Organisation*
 
 ### Rusland
 
-Rusland lå i 2025-opgørelser omkring **midten af teen** orbitale opsendelser — langt fra sovjetisk storhedstid og langt fra SpaceX-uger.[^1] Sojuz og nationale programmer fortsætter, men sanktioner, industrielt pres og konkurrence om kommercielle kunder har gjort *tempo* til en politisk sårbarhed. Hver vellykket opsendelse tæller; hver forsinkelse ses.
+Rusland lå i 2025-opgørelser omkring **15–17** orbitale opsendelser — langt fra sovjetisk storhedstid og langt fra SpaceX-uger.[^1] Sojuz og nationale programmer fortsætter, men sanktioner, industrielt pres og konkurrence om kommercielle kunder har gjort *tempo* til en politisk sårbarhed. Hver vellykket opsendelse tæller; hver forsinkelse ses.
 
 ### Læren
 

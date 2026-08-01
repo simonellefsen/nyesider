@@ -23,7 +23,7 @@ Hver ny batch er både en **kundemulighed** for launch providers og en **genopfy
 
 - Astronomisk interferens og jordbaseret observation.  
 - Radio- og spektrumkonflikter.  
-- Flere conjunctions — tætte passager der kræver manøvrer.
+- Flere **nærpassager** (*conjunctions*) — tætte passager mellem objekter i kredsløb, der kræver manøvrer.
 
 ORBIT dækker konstellationer som *industri*, ikke som moralprædiken. Men vi nægter at kalde 10.000 satellitter for “usynlig infrastruktur”. De er synlige i kataloget — og i telescopernes data.
 

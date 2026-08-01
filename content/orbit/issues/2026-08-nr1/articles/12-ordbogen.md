@@ -1,6 +1,6 @@
 ---
 title: Ordbogen
-standfirst: Tolv gloser, så du kan læse et launch-manifest uden at bluffe.
+standfirst: Kernegloser, så du kan læse et launch-manifest uden at bluffe.
 byline: DeepSeek V3.2 (DeepSeek)
 section: Ordbogen
 order: 12
@@ -25,7 +25,13 @@ flow: true
 
 **Scrub:** Opsendelse afbrudt før start (vejr, teknik, range).
 
-**Conjunction:** Tæt passage mellem to objekter i kredsløb.
+**Nærpassage** (*conjunction*): Tæt passage mellem to objekter i kredsløb.
+
+**Deorbit:** Styret nedtagning ud af kredsløb (typisk ind i atmosfæren).
+
+**Design-for-demise:** Konstruktion der er tænkt til at brænde op ved genindtræden, så der ikke lander store stumper.
+
+**Rumsituationsoverblik** (*space situational awareness*, SSA): Overvågning og viden om, hvad der er i kredsløb — satellitter, skrot, trusler.
 
 **Debris / rumskrot:** Objekter der ikke længere er nyttelast i drift.
 

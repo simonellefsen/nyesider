@@ -16,7 +16,7 @@ Test flyver. Manifestet elsker stadig Falcon 9.
 **ESA matcher kinesisk kadence** ★☆☆☆☆  
 Ikke med nuværende opsendelsestal. Anden strategi.
 
-**Alle Starlinks deorbiterer pænt** ★★★☆☆  
+**Alle Starlinks går pænt ud af kredsløb** ★★★☆☆  
 Designmål ja. Statistik over tid er det, vi tæller.
 
 **Rumskrot er overdrevet** ★☆☆☆☆  

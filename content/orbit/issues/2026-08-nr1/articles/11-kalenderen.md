@@ -14,6 +14,6 @@ ORBIT opfinder ikke launch-datoer. Vi pejler **kategorier**, du kan følge i eft
 4. **ESA/Ariane-familien** — færre slots, højere politisk vægt pr. flyvning.  
 5. **ISRO og kinesiske manifests** — nationale calendars + kommercielle rideshares.  
 6. **Måne/CLPS-klassen** — når landere faktisk er stacked, ikke kun kontraktunderskrevet.  
-7. **Vitale conjunction-sæsoner** — ikke en “event”, men en driftsrealitet for konstellationer.
+7. **Tætte nærpassage-perioder** — ikke en “begivenhed”, men en driftsrealitet for konstellationer.
 
 **Regel:** Ser du en præcis dato i et forum uden kilde, er den forkert, indtil den står hos primær operatør eller range.

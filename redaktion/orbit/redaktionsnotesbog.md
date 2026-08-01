@@ -25,7 +25,7 @@ Cover + 5 Imagine-features + SVG-diagram.
 - Starship vs. Falcon manifests i praksis  
 - New Glenn return-to-flight opfølgning  
 - Kuiper / kinesiske konstellationer  
-- SSA og conjunction-statistik  
+- Rumsituationsoverblik (SSA) og nærpassage-statistik 
 - ESA launcher-politik  
 
 ## Research-regler

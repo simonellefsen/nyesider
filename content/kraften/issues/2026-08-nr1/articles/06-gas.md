@@ -9,7 +9,7 @@ imageCredit: "AI-genereret anlægsmotiv (Imagine / xAI)"
 imageSource: "https://x.ai/"
 ---
 
-Efter 2022 lærte Europa den hårde lektie: gas er både **flex-kraft** i elsystemet og en **geopolitisk sårbarhed**. I Embers 2025-opgørelser forbliver gas en stor del af EU's elmix (i størrelsesordenen **midten af teen** procentpoint af elproduktionen, afhængigt af år og vejr), og unionen er fortsat afhængig af import — nu mere via **LNG** (*liquefied natural gas*: naturgas kølet til væske, så den kan sejles) end via enkelte rør.[^1]
+Efter 2022 lærte Europa den hårde lektie: gas er både **flex-kraft** i elsystemet og en **geopolitisk sårbarhed**. I Embers 2025-opgørelser forbliver gas en stor del af EU's elmix (i størrelsesordenen **midten af titallet** procentpoint af elproduktionen, afhængigt af år og vejr), og unionen er fortsat afhængig af import — nu mere via **LNG** (*liquefied natural gas*: naturgas kølet til væske, så den kan sejles) end via enkelte rør.[^1]
 
 [CHART eu-gas-andel]
 

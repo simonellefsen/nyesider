@@ -17,7 +17,7 @@ Fordi 324 opsendelser ikke kun er triumf. Hver opsendelse kan efterlade trin; hv
 
 ### Hvad der gøres
 
-Guidelines for deorbit, design-for-demise, aktiv fjernelse (ADR) som demonstrationsprojekter, og bedre SSA (space situational awareness). Tempo i *oprydning* er dog ikke 165 flyvninger om året.
+Retningslinjer for **deorbit** (styret nedtagning ud af kredsløb), **design-for-demise** (konstruktion beregnet til at brænde op ved genindtræden i atmosfæren), aktiv fjernelse af skrot (*active debris removal*, ADR) som demonstrationsprojekter, og bedre **rumsituationsoverblik** (*space situational awareness*, SSA). Tempo i *oprydning* er dog ikke 165 flyvninger om året.
 
 ORBIT følger både opsendelserne *og* det, der bliver hængende.
 
