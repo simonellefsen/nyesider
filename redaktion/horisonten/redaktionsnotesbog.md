@@ -1,29 +1,40 @@
 # HORISONTEN – Redaktionsnotesbog
 
-Opdateret efter nr. 2 (august 2026, "Dolomitterne i efteråret"). Modelerfaringer: [modelkartotek](../modelkartotek.md).
+Opdateret efter nr. 2 (august 2026) **skiftet til Georgien** (søster til KULTURBOXEN nr. 1).  
+Dolomitterne er **parkeret** til senere — se nedenfor.
 
-## Afviklet i nr. 2
+## Afviklet i nr. 2 (publiceret)
 
-- Destination skiftet fra Mallorca til Dolomitterne (vandring, cykling, løb, byliv, søer/udsigt, kalender, mad & vin, praktisk).
+- **Georgien — bjerge, by og bord:** Tbilisi, Kakheti, Kazbegi/Gergeti-vinkel, cykling, løb, udsigter, mad & vin, praktisk.  
+- Krydslink til [KULTURBOXEN nr. 1](../../content/kulturboxen/issues/2026-08-nr1/) (supra, kultur, penge).
 
-## Historier i støbeskeen til nr. 3
+## Parkeret til senere: Dolomitterne i efteråret
 
-- **Næste destination:** Kreta, Sicilien, eller en storby-weekend (Lissabon? Ljubljana?) for at variere formatet væk fra "bjerg/ø".
-- **Læsersendte ruter** — Mallorca + Dolomitter, hvis nogen skriver ind.
-- **Vinter-OL-efterspil i Cortina** — logistik og hvad der er tilbage til almindelige rejsende.
-- **Postkort-vignet** som fast bagsnit (overvejet siden nr. 1).
+Fuld artikelpakke + billeder + gammel `issue.json` ligger i:
+
+`redaktion/horisonten/parked/dolomitterne-efteraar/`
+
+Vinkel: Sydtyrol/Dolomitter efter højsæson — Tre Cime, Sellaronda, Bolzano/Cortina, Braies/Seiser Alm, speck & knödel.  
+**Genåbn som fx nr. 3 eller 4** uden at starte forfra.
+
+## Historier i støbeskeen til nr. 3+
+
+1. **Dolomitterne i efteråret** (parkeret — klar til at genindsætte).  
+2. Kreta, Sicilien, eller storby-weekend (Lissabon / Ljubljana).  
+3. Læsersendte ruter (Mallorca + senere Georgien/Dolomit).  
+4. Postkort-vignet som fast bagsnit.
 
 ## Faste formater
 
-- Vandring · Cykling · Løb · Byliv · (Strande/søer efter destination) · Kalenderen · Mad & Vin · Praktisk.
-- Aldrig opdigtede præcise datoer for virkelige begivenheder.
-
-## Praktisk
-
-- Nr. 2 mangler PDF og cover/artikelbilleder.
-- Geografisk præcision er stadig kernen.
+- Vandring · Cykling · Løb · Byliv · (Strande/søer/udsigter efter destination) · Kalenderen · Mad & Vin · Praktisk.  
+- Aldrig opdigtede præcise datoer for virkelige begivenheder.  
+- **Fact-check** af stednavne og sæson før accept (chefredaktør — se [redaktion/README](../README.md)).
 
 ## Søstertitel: KULTURBOXEN
 
-[KULTURBOXEN](../kulturboxen/redaktionsnotesbog.md) dækker **livet i kulturen** (mad, arbejde, parforhold, penge, ceremonier …) set fra Danmark — også mindre/oversete kulturer.  
-HORISONTEN dækker **rejsen til stedet** (ruter, sæson, praktisk). Når destination og kultur overlapper: krydslink. Vi stjæler ikke hinandens format.
+[KULTURBOXEN](../kulturboxen/redaktionsnotesbog.md) = livet i kulturen. HORISONTEN = rejsen til stedet. Krydslink ved overlap.
+
+## Praktisk
+
+- PDF mangler for nr. 2.  
+- Geografisk præcision er kernen.

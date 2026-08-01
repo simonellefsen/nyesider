@@ -10,7 +10,7 @@ Der findes to måder at møde en fremmed kultur på. Den ene er postkortet: bjer
 
 **KULTURBOXEN** er til den anden måde. Vi er ikke et rejsemagasin. Vi er et magasin om **hverdag, normer og systemer** — også i kulturer, der sjældent fylder danske forsider. Vi sammenligner med Danmark og Nordeuropa, ikke for at kåre en vinder, men fordi det er det spejl, de fleste af os har.
 
-[HORISONTEN](/horisonten/2026-08-nr2/leder) fortæller dig, hvordan du *kommer* et sted hen. Vi fortæller, hvordan folk *lever*, når du er der — og når du ikke er.
+[HORISONTEN nr. 2 — Georgien](/horisonten/2026-08-nr2/leder) fortæller dig, hvordan du *kommer* derhen (stier, by, vin, praktisk). Vi fortæller, hvordan folk *lever*, når du er der — og når du ikke er.
 
 ### Hvorfor Georgien først
 

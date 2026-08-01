@@ -1,6 +1,6 @@
 ---
-title: Bolzano og Cortina — to pulser i stenlandet
-standfirst: Den ene er en grøn by med palmefølelse i alperne. Den anden er vinter-OL-glamour med sommersti lige uden for døren.
+title: "Tbilisi: byen der ikke kan beslutte sig for århundrede"
+standfirst: Sulfurbade, beton, boutique-hoteller og balkoner, der hænger skævt — i samme gade.
 byline: Mistral Large (Mistral AI)
 section: Byliv
 order: 6
@@ -9,18 +9,19 @@ imageCredit: "AI-genereret rejsemotiv (Imagine / xAI)"
 imageSource: "https://x.ai/"
 ---
 
-## Bolzano / Bozen
+Tbilisi er HORISONTENs byportræt i dette nummer. Gamle bydel med svovlbade og snævre gyder; rustne reb-baner og nye tagterrasser; gademad ved siden af wine bars, der kunne ligge i Lissabon.
 
-Bolzano er Sydtyrols hovedby — en blanding af østrigsk kaffehus og italiensk aftenpasseggiata. Gå i de gamle gader omkring Piazza Walther, besøg **Ötzi-museet** (Sydtyrols arkæologiske museum), og tag den lille svævebane eller stierne op mod **Ritten/Renon**, hvis du vil have udsigt uden en hel dags ekspedition.
+### Kvarterer (groft)
 
-Om efteråret er byen et logisk knudepunkt: togforbindelser, biludlejning, markeder og restauranter, der serverer både knödel og risotto. Det er også her, mange starter vinruten i nærområdet.
+- **Old Town / Abanotubani:** atmosfære, bade, turister.  
+- **Sololaki / Mtatsminda-skråninger:** trapper, udsigt, cafeer.  
+- **Vera, Vake:** mere “bo-by”, parker, hverdag.  
+- **Fabrika-området (og lignende hubs):** kreativ scene, hostels, street art.
 
-## Cortina d'Ampezzo
+### Aften
 
-Cortina er mere poleret — boutiques, hoteller med historie, og en beliggenhed midt i Ampezzo-dalens amfiteater af tinder. Om sommeren og det tidlige efterår er byen base for vandring og cykling snarere end ski. Corso Italia er til folkekiggeri; stierne mod Tofane og Faloria er til benarbejde.
+Nattelivet kan være langt. Læs [KULTURBOXEN om natteliv](/kulturboxen/2026-08-nr1/natteliv), hvis du vil forstå, hvorfor bordet pludselig er otte personer. Taxa-apps er din ven efter midnat.
 
-Cortina forbereder sig som vært for vinter-OL 2026 (sammen med Milano) — forvent perioder med anlægsarbejde, skiltning og begivenhedstrafik. Tjek lokale info, hvis du rejser tæt på sportsperioder.
+### By uden filter
 
-## Den tredje mulighed: de ladinske landsbyer
-
-Ortisei, Santa Cristina, Selva, Corvara, San Cassiano — mindre end byerne ovenfor, tættere på stierne. Her er aftenlivet mere støvle end stilet. Det er ofte det rigtige valg, hvis du er kommet for bjergene, ikke for shopping.
+Tiggere, hunde, huller i fortovet, smukke facader under renovering. Det er ikke “ufærdigt Europa” — det er en by med anden historisk pakke. Behandl den som sådan: nysgerrigt, ikke koloniserende.

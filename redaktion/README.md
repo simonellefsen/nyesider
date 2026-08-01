@@ -14,10 +14,18 @@ Redaktionel hukommelse for forlaget. Chefredaktør-agenten læser og opdaterer d
    - **OpenRouter-tekst:** kun `.env.<slug>` for den titel, der produceres (fx `.env.kraften`). Aldrig en anden titels fil — cost tracking i OpenRouter-dashboardet afhænger af det.
    - **Imagine-billeder:** `XAI_API_KEY` i **`.env.local`** (fælles for forlaget).
    - Hjælper: `python production/load_env.py <slug>` (loader begge; printer kun filstier, aldrig hemmeligheder).
-3. Producér nummeret; læg output i `content/<titel>/issues/<YYYY-MM-nrN>/` (artikler som markdown, billeder, `issue.json`, PDF).
-4. Notér produktionsomkostningen i nummerets `issue.json` (`productionCostUSD`, gerne `text` / `images` breakdown). OpenRouter-forbrug = den titels nøgle; Imagine = xAI-dashboard.
-5. Opdater notesbogen: afvikl brugte leads, tilføj nye, notér løfter givet i det trykte nummer.
-6. Opdater modelkartoteket med nye modelerfaringer.
+3. Cast og indhent artikler fra teamet (modeller / skribenter).
+4. **Fact-check & accept (chefredaktør — obligatorisk før publicering):**  
+   Ingen artikel går i `content/…` som færdige/publiceret, før chefredaktøren har gennemgået den. Minimum:
+   - **Fakta:** tal, årstal, stednavne, institutioner, priser og “første gang”-påstande tjekkes mod troværdige kilder (officiel statistik, primære sitet, seriøs journalistik). Opdigt ikke præcise datoer for virkelige begivenheder.
+   - **Kilder:** fodnoter/`[^n]` skal pege på reelle, gerne klikbare kilder, hvor det er muligt; afrundede pejlemærker skal være ærligt mærket som sådan.
+   - **Sprog & husregler:** dansk, forkortelser første gang, nbsp før `%`, ingen engelsk teen/jargon uden forklaring.
+   - **Vinkel:** passer til titlens identitet (fx HORISONTEN ≠ KULTURBOXEN); krydslink kun hvor det hjælper.
+   - **Ret eller afvis:** ret faktafejl, stram vage påstande, eller send tilbage til skribent. Først derefter: accept → commit til nummeret.
+5. Læg godkendt output i `content/<titel>/issues/<YYYY-MM-nrN>/` (artikler, billeder, `issue.json`, PDF).
+6. Notér produktionsomkostningen i nummerets `issue.json` (`productionCostUSD`, gerne `text` / `images` breakdown).
+7. Opdater notesbogen: afvikl brugte leads, tilføj nye, notér løfter givet i det trykte nummer.
+8. Opdater modelkartoteket med nye modelerfaringer.
 
 ## Hemmeligheder (kort)
 
@@ -59,3 +67,5 @@ Opret `redaktion/<slug>/redaktionsnotesbog.md` og `content/<slug>/magazine.json`
 3. **Diagrammer / tendenskurver:** Vis **gap mellem verdensøkonomier**. Standard er at lægge **EU, USA og Kina** side om side, plus relevante top performers (fx Norge for elbilandel). En dansk eller europæisk kurve alene fortæller for lidt — læseren skal se, hvem der fører, hvem der hænger, og hvor stort springet er. Se [content/CHARTS.md](../content/CHARTS.md).
 
 4. **Krydsreferencer:** Når et emne overlapper et andet magasin eller et tidligere nummer (fx SPÆNDING↔KRAFTEN, ORBIT↔KRAFTEN, HORISONTEN↔KULTURBOXEN, «i nr. 1 skrev vi…»), sæt en **relativ intern link** i brødteksten: `/<slug>/<issue-slug>/<article-slug>` (fx `[KRAFTEN](/kraften/2026-08-nr1/leder)`). Ikke linkfarm — kun hvor læseren reelt har glæde af at hoppe.
+
+5. **Fact-check før accept:** Se arbejdsgang trin 4. Chefredaktøren er ansvarlig for, at teamets artikler er faktatjekket — publicering uden den gennemgang er en procesfejl, ikke en stilpræference.

@@ -1,6 +1,6 @@
 ---
-title: Speck, knödel og glas med udsigt
-standfirst: Sydtyrolsk køkken er alpint og middelhavsk på samme tallerken. Sådan spiser og drikker du dig gennem dalene.
+title: "Mad & vin: khinkali, khachapuri og qvevri"
+standfirst: Du kan spise dig gennem kulturen. Bare husk, at middagen nogle gange er en institution.
 byline: GLM-5.2 (Z.ai)
 section: Mad & Vin
 order: 9
@@ -9,22 +9,16 @@ imageCredit: "AI-genereret rejsemotiv (Imagine / xAI)"
 imageSource: "https://x.ai/"
 ---
 
-I Dolomitterne spiser du dig gennem en grænse, der for længst er blevet en styrke: østrigsk bjergmad møder italiensk lethed.
+### Det du bestiller
 
-## Det, du bør smage
+- **Khinkali** — tæl folderne, hvis du vil leges nørdet; spis med hænder.  
+- **Khachapuri** — især Adjaruli med æg og smør.  
+- **Auberginer med valnød, tkemali, grillet kød, urter i bunker.**
 
-- **Speck Alto Adige** — lufttørret, røget, skåret tyndt. Godt på bræt, i knödel, til øl eller let rødvin.
-- **Schlutzkrapfen** — small ravioli-agtige med spinat og ricotta; smør og salvie.
-- **Canederli / knödel** — brødbolde i bouillon eller med speck.
-- **Polenta** i de mere italienske dale.
-- **Æbler** fra Etsch/Adige-dalen — efteråret er deres tid.
+### Vin
 
-## Vin
+Qvevri-tradition, amber wines, og helt almindelig god rød/hvid på restaurant. Smag i Kakheti hos seriøse producenter — book hvis du kan. Drik vand imellem; højden og gæstfriheden snyder dig.
 
-Sydtyrol er et af Italiens mest spændende hvidevinshjørner: **Gewürztraminer** (især omkring Tramin/Termeno), **Kerner**, **Weissburgunder**, plus røde som **Vernatsch/Schiava** og **Lagrein**. Mange vingårde tager imod besøgende efter aftale; de større strøg omkring Bolzano og Kaltern/Caldaro er lette at kombinere med en bydag.
+### Kultur, ikke kun menu
 
-## Hytternes regler
-
-På rifugi er menuen ofte fast og solid. Kontanter kan stadig være praktiske. Bestil ikke tre retter, hvis du skal ned ad en stejl sti i mørke. Et stykke apfelstrudel har reddet flere moraler end en energigel.
-
-Spis lokalt, drikt med måde i højden, og husk: den bedste restaurant er nogle gange den, der ligger 20 minutters gang fra den største parkeringsplads.
+Når bordet bliver til **supra**, er du ikke længere kun “gæst nr. 4 i booking-appen”. Læs [KULTURBOXEN om bordet](/kulturboxen/2026-08-nr1/supra-og-bordet) og [ordbogen](/kulturboxen/2026-08-nr1/ordbogen) (*gaumarjos*, *tamada*, *madloba*). Det sparer dig for pinlige øjeblikke — og giver dig flere rigtige.

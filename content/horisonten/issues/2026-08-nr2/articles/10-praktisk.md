@@ -1,40 +1,39 @@
 ---
-title: "Praktisk: sådan planlægger du Dolomit-turen"
-standfirst: Fly, bil, budget og pakning — det kedelige, der afgør, om det flotte bliver dejligt.
+title: "Praktisk: sådan planlægger du Georgien-turen"
+standfirst: Fly, lari, sim-kort, bil og det du skal have i tasken — uden at love priser, der er forældede i morgen.
 byline: Gemini 3.1 Pro (Google)
 section: Praktisk
 order: 10
 ---
 
-## Sådan kommer du derhen
+### Rejse derind
 
-- **Fly:** Innsbruck, Verona, Venedig og München er typiske indgange; derfra lejebil eller tog+bus. Bolzano har togforbindelser.
-- **Bil:** Den mest fleksible løsning mellem dale. Vær forberedt på sneglatte forhold sent på sæsonen i højden, og på smalle veje.
-- **Offentlig transport:** Sydtyrols busnet er overraskende godt i sæsonen; Mobilcard og lignende periodeskort kan betale sig — tjek aktuelle ordninger.
+Direkte og med omstigning varierer med sæson og selskab. Tbilisi er hovedhub; Kutaisi bruges af lavprisruter. Tjek visumregler for dit pas — de har været lempelige for mange EU-borgere i perioder, men **verificér altid** officielt før afrejse.
 
-## Overnatning
+### Penge
 
-Book tidligt omkring Val Gardena, Badia og Cortina i september-weekender. Overvej base i to dale i stedet for at flytte hvert, hvis du vil undgå indpakning hver morgen.
+Valuta: **lari (GEL)**. Kort i byen; kontanter i land. Se også [KULTURBOXEN om priser](/kulturboxen/2026-08-nr1/penge) — “billigt” er relativt, og turistzoner har egne niveauer.
 
-## Budget (groft, 2026-priser svinger)
+### Komme rundt
 
-- Mellemklassehotel: ofte dyrere end Mallorcas efterårstilbud i de mest berømte landsbyer.
-- Svævebaner og parkeringsafgifter summerer.
-- Middage på rifugi er fair; finere huse i Cortina er en anden liga.
+- Taxa-apps i Tbilisi.  
+- Marshrutka mellem byer (billigt, folkeligt).  
+- Lejebil til Kakheti/Kazbegi: bekvemt, men kør defensivt.  
+- Organiserede day tours, hvis du vil undgå rattet.
 
-## Pakliste (efterår)
+### Pakning
 
-- Lag-på-lag, vind- og regnjakke, handsker til passene.
-- Vandrestøvler med greb + eventuel trail-sko til løb.
-- Solcreme (højden snyder), solbriller, lille førstehjælp.
-- Offline-kort, powerbank, kontanter.
+Gode sko, lag-på-lag, regnslag, tøj til kirke (dækkede skuldre), lille gave hvis du besøger private hjem, powerbank, offlinekort.
 
-## Sprog og kultur
+### Sikkerhed og omverden
 
-Tysk og italiensk er officielle i Sydtyrol; ladinsk i flere dale. Engelsk rækker langt i turismen. "Grüß Gott" og "buongiorno" er billig charme.
+Følg Udenrigsministeriets rejsevejledning. Respektér grænse- og konfliktzoner (Abkhasien, Sydossetien) — de er ikke “eventyr-sidequests”. Politisk situation kan skifte; læs nyheder ugen før afrejse.
 
-## Forsikring og fornuft
+### Den bløde tjekliste
 
-Bjergredning er ikke en turistattraktion. Vælg ruter efter form, fortæl nogen om planen, og vend om i dårligt vejr. Det er den mest erfarne beslutning, du kan træffe.
+1. [KULTURBOXEN nr. 1](/kulturboxen/2026-08-nr1/leder) — så du forstår gæstfriheden.  
+2. To sætninger georgisk.  
+3. Realistisk dagsprogram (færre stops, mere tid).  
+4. Buffer til, at “ti minutter” er en stemning.
 
-Når det praktiske er på plads, kan du glemme det — og se op. Det er derfor, du kom.
+God tur — og send gerne en observation hjem til redaktionen, hvis bordet overraskede dig.

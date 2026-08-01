@@ -1,7 +1,7 @@
 ---
-title: Løb i dale der trækker vejret
-standfirst: Flade dalbunde, stejle skyrunnerspor og en sø-runde der får pulsen ned mellem tinderne.
-byline: DeepSeek V3.2
+title: "Løb: byens bakker og den tynde luft"
+standfirst: Tbilisi er en trappe-by. Kazbegi er en lunge-test. Begge dele er smukke, hvis du doserer.
+byline: DeepSeek V3.2 (DeepSeek)
 section: Løb
 order: 5
 image: ../images/horisonten_loeb.png
@@ -9,20 +9,14 @@ imageCredit: "AI-genereret rejsemotiv (Imagine / xAI)"
 imageSource: "https://x.ai/"
 ---
 
-Du behøver ikke være skyrunner for at løbe i Dolomitterne. Du skal bare vælge terræn med omhu.
+### Tbilisi
 
-## Blødt: dalbunde og cykelstier
+Løb tidligt. Varmen midt på sommerdagen er ingen ven. Floden Mtkvari (Kura), parker og de mindre trafikerede sidegader giver runder; bakkerne sørger for, at “5 km” føles som mere. Trafiklys og huller: kig ned, ikke kun på uret.
 
-Langs Eisack/Isarco og i Val Pusteria/Pustertal findes asfalterede og grusbelagte cykelstier, hvor du kan lægge rolige kilometer uden at bestige en væg. Brunico og Toblach/Dobbiaco er gode baser til lange, flade ture med bjergudsigt i baggrunden.
+### Højden
 
-## Mellem: stier omkring søer
+I Kazbegi-området er det **trail og stier** mere end flade 10 km-runder. Gå/løb kombination er legitimt. Drik vand. Vend om, hvis vejret lukker ind.
 
-**Lago di Braies/Pragser Wildsee** er berømt — og i højsæson proppet. En tidlig morgentur i september rundt om søen er en anden oplevelse: spejlblankt vand, træer i farveskift, færre selfie-pinde. Lignende logik gælder **Lago di Carezza/Karersee** tættere på Bolzano-siden.
+### Kulturnote
 
-## Hårdt: skyline-spor
-
-Stier op mod rifugi med 800–1.200 højdemeter er legio. Det kræver trail-skosål, vejrforstand og ærlighed om form. Start blødt de første dage i højden; selv 1.200 meter over havet mærkes, hvis hverdagen er Amager.
-
-## Arrangementer
-
-Dolomitterne har en rig kalender af trail- og bjergmaraton — især i sommerhalvåret. Datoer skifter; tjek aktuelle løbssider, hvis du vil stille op. For de fleste rejsende er den bedste "event" den, der starter fra hotellet kl. 7 uden startnummer.
+Løbetøj i byen er finere end for ti år siden, men du er stadig mere synlig end i Københavns Lakes-peloton. Smil, giv plads, undgå at filme folks hjem uden samtykke.

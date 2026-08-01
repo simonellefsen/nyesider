@@ -14,12 +14,14 @@ KULTURBOXEN stopper, hvor packlisten begynder. Hvis Georgien skal være mere end
 - Hvordan familie, kirke og netværk former hverdagen.  
 - At priser og tillid ikke er “mini-Danmark med bjerge”.
 
-### Hvad du skal have fra et rejsemagasin (eller HORISONTEN, når de engang tager Kaukasus)
+### Hvad du skal have fra HORISONTEN (nu: Georgien-nummeret)
 
-- Sæson (vinter i bjergene er alvor; sommer i Tbilisi er varm).  
-- Transport mellem regioner, grænser, forsikring.  
-- Hvor du sover, hvis du vil undgå de værste turistfælder.  
-- Vandreruter og vinregioner med **steder, der findes på kortet**.
+[HORISONTEN nr. 2](/horisonten/2026-08-nr2/leder) er det matchende rejsenummer:
+
+- [Sæson og regioner](/horisonten/2026-08-nr2/georgien-overblik)  
+- [Vandring (Gergeti m.m.)](/horisonten/2026-08-nr2/vandring) · [cykling](/horisonten/2026-08-nr2/cykling) · [løb](/horisonten/2026-08-nr2/loeb)  
+- [Tbilisi byliv](/horisonten/2026-08-nr2/byliv) · [mad & vin på rejsen](/horisonten/2026-08-nr2/mad-og-vin)  
+- [Praktisk planlægning](/horisonten/2026-08-nr2/praktisk)
 
 ### Mini-tjekliste før flyet
 
@@ -27,6 +29,7 @@ KULTURBOXEN stopper, hvor packlisten begynder. Hvis Georgien skal være mere end
 2. Pak noget, der dækker skuldre til kirker.  
 3. Budgetér til **værtgaver**, hvis du besøger private.  
 4. Læs op på den politiske situation — ikke for at blive bange, men for ikke at være uhøfligt uvidende.  
-5. Kom tilbage til [HORISONTEN](/horisonten/2026-08-nr2/leder), når de (eller du) planlægger ruten — og send gerne georgiske hverdagsobservationer ind til KULTURBOXEN nr. 2.
+5. Læs [HORISONTEN-lederen](/horisonten/2026-08-nr2/leder) + [praktisk](/horisonten/2026-08-nr2/praktisk) — og send gerne hverdagsobservationer ind til KULTURBOXEN nr. 2.
 
-Vi ses ved bordet. Eller i næste boks.
+Vi ses ved bordet. Eller på stien.
+

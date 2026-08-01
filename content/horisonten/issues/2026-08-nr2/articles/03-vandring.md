@@ -1,6 +1,6 @@
 ---
-title: Vandring mellem tinder der lyser rødt
-standfirst: Fra blide alper til de ikoniske Tre Cime — tre niveauer af Dolomit-vandring, når efteråret letter trængslen.
+title: "Vandring i Kaukasus: fra bynære stier til Gergeti"
+standfirst: Tre niveauer — så du ikke booker en gletscher med sneakers fra Strøget.
 byline: Claude Sonnet 5 (Anthropic)
 section: Vandring
 order: 3
@@ -9,25 +9,23 @@ imageCredit: "AI-genereret rejsemotiv (Imagine / xAI)"
 imageSource: "https://x.ai/"
 ---
 
-Dolomiternes berømte aftenlys — enrosadira — farver klippen rosa og rød, når solen går ned. Det er smukt på postkort. Det er endnu smukkere, når du selv har gået dig dertil.
+### 1. Bynært og blidt (Tbilisi-området)
 
-## Let: Adolf Munkel-stien (Val di Funes)
+Narikala-borgen, Mtatsminda, ture i udkanten af byen og i nationalparker inden for dagsafstand. God til jetlag-dagen. Tag vand, solhat om sommeren og respekt for stejle brosten.
 
-I Villnöss/Val di Funes ligger en af områdets mest elskede dagsture: stier med udsigt til Odle/Geisler-tinderne, græsgange og den slags bjerghytter, der serverer knödel uden ironi. Ruten kan tilpasses; familier og motionister mødes her. Start tidligt i september-weekender — parkering ved Zannes/Zans fyldes.
+### 2. Klassikeren: Gergeti / Kazbegi
 
-## Mellem: Seceda og ridgeline over Val Gardena
+Den mest fotograferede kombination er landsbyen **Stepantsminda** og kirken **Gergeti Trinity** oppe i skråningen under Kazbek-massivet. Stien er populær; start tidligt, tjek vejret, og forvent at dele udsigten. Det er ikke teknisk alpinisme — det er stadig **højde, sol og knæ**.
 
-Fra Ortisei tager mange svævebanen op til Seceda for den knivskarpe kam og udsigten over Val Gardena. Efteråret tynder ud i køen, men stierne kan være glatte efter regn. Gode sko, vindjakke, og respekt for skyer der bygger sig op hurtigt.
+### 3. Længere og vildere
 
-## Krævende: Tre Cime di Lavaredo / Drei Zinnen
+Svaneti og andre dale kræver mere planlægning: overnatning, guide ved usikkerhed, realistisk dagsform. Sne og tåge kan lukke ruter uden for højsæson. Hvis du er vant til markerede europæiske langdistance-stier, så forbered dig på **tyndere afmærkning** nogle steder.
 
-Rundturen om de tre tinder er ikonisk — og med god grund overrendt i juli. I slutningen af september er lyset ofte skarpere, og morgenerne mere menneskelige. Adgang via Misurina og betalingsvej/parkering op mod Rifugio Auronzo; tjek aktuelle regler og vejr. Dette er ikke en "gåtur i skoven". Det er højde, sten og vejrskift.
+### Praktiske pejlemærker
 
-## Praktisk på stien
+- Lag-på-lag tøj; vinden skifter hurtigt.  
+- Kontanter til marshrutka og små kiosker.  
+- Sig nej til “genveje” fra tilfældige chauffører, du ikke stoler på — brug anbefalede transfers.  
+- Læs [dagligdag og tempo](/kulturboxen/2026-08-nr1/dagligdag) hvis “ti minutter” pludselig er en time.
 
-- Kort (digitalt + offline) og en plan B.
-- Vand og kontanter til hytter.
-- Fortæl nogen, hvor du går.
-- Alta Via 1 og 2 er flerdags-eventyr for erfarne; book hytter i god tid i sæsonen.
-
-Dolomitterne straffer hastværk og belønner dem, der vender om, når det er klogt. Det er også en form for sejr.
+Vandring i Georgien er ikke “Dolomitterne med andet skilt”. Det er Kaukasus: råere kanter, færre gelaterier ved parkeringen, større himmel.

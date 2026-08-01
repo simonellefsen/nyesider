@@ -1,6 +1,6 @@
 ---
-title: Sellaronda og de fire passer
-standfirst: Dolomitterne er et af Europas helligste cykel-templer. Efteråret er højsæson for dem, der vil klatre uden at køre i bilkø.
+title: "Cykling: landeveje, vinbakker og respekt for lastbiler"
+standfirst: Georgien er ikke Sellaronda. Det er åbne veje, hunde, huller — og bjerge der kommer tæt på.
 byline: Grok 4.5 (xAI)
 section: Cykling
 order: 4
@@ -9,24 +9,20 @@ imageCredit: "AI-genereret rejsemotiv (Imagine / xAI)"
 imageSource: "https://x.ai/"
 ---
 
-Der findes landeveje, og så findes der Sella, Pordoi, Gardena og Campolongo. De fire passer omkring Sellamassivet udgør den klassiske **Sellaronda** — en rundtur, der kan køres med eller mod uret, typisk 50–60 km med et sted mellem 1.600 og 2.000 højdemeter afhængigt af start og varianter.
+### Hvad der virker
 
-## Hvorfor efteråret
+- **Kakheti:** rullende vinlandskab, landsbyer, distancer der passer til en dagsudflugt, hvis du har støttebil eller god form.  
+- **Omegnen af Tbilisi:** kortere ture; trafik kræver is i maven.  
+- **Støttede gravel-/adventure-ture** via lokale operatører — ofte det mest fornøjelige for besøgende uden eget stel.
 
-Sommeren er fuld af biler, motorcykler og busser. I september–oktober er asfalten der stadig, men tempoet er et andet. Morgensolen på vej op mod Passo Sella, kaffen i Canazei eller Corvara bagefter — det er den slags belønning, Strava ikke kan måle.
+### Hvad du skal vide
 
-## Andre klassikere
+Trafikkultur er mere improviseret end i Danmark. Spejl, lys, høje handsker og **defensiv kørsel** er ikke overkill. Hunde langs landeveje er en klassiker i regionen — hold tempo, undgå panik-sprint ind i lastbilen.
 
-- **Passo Giau** og vejene omkring Cortina — hårde, smukke, fotograferede ihjel (med rette).
-- **Passo dello Stelvio** ligger længere væk, men trækker pilgrimme; tjek snerydning og lukkedatoer sent på sæsonen.
-- **Gravel og e-mountainbike** på skovveje omkring Alpe di Siusi — populært, men del stien med vandrere.
+### Leje og logistik
 
-## Leje og logistik
+Cykeludlejning findes i Tbilisi og på udvalgte hoteller; book i højsæson. E-bike er en gave i bakkerne, hvis du vil nå vingårde uden at hade dine lår.
 
-Ortisei, Selva, Corvara og Cortina har seriøse cykeludlejere med landevej og MTB. Mange hoteller er vant til cykelturister: vaskerum, værktøj, tidlig morgenmad. Tag lys til tunneller og handsker til nedkørsler, der kan være kolde selv i sol.
+### Efter turen
 
-## Sikkerhed uden pegefinger
-
-Hjelm. Synlighed. Ingen helte-overhalinger i blinde hårnålsving. Dolomit-passene er smalle, og en autocamper fylder mere end din selvfølelse.
-
-Kør den runde, du har trænet til — ikke den, Instagram foreslog i går.
+Et langt bord i Kakheti er belønningen. Huske [supra-koderne](/kulturboxen/2026-08-nr1/supra-og-bordet): du er måske gæst, ikke bare en kunde med hjelmhår.

@@ -20,7 +20,8 @@ Krydslink når destination og kultur overlapper.
 
 **Tema:** Supra og tillid · **Kultur:** Georgien  
 **15 artikler:** leder, fokus, supra, dagligdag, arbejde, familie, natteliv, ceremonier, penge, skat/stat, tøj, tallet, ordbog, myter, til HORISONTEN.  
-Cover + 4 feature-billeder (Imagine). PDF mangler.
+Cover + 4 feature-billeder (Imagine). PDF mangler.  
+**Søsterrejse:** [HORISONTEN nr. 2](../../content/horisonten/issues/2026-08-nr2/) (samme land — stier, by, praktisk).
 
 ## Nr. 2 — kandidater
 
