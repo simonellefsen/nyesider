@@ -4,18 +4,6 @@ standfirst: Høj vindandel i el, biomasse i varmen, olie i transporten — og en
 byline: Qwen3.7 Max (Alibaba)
 section: Lande & udbygning
 order: 11
-charts:
-  - id: dk-vind-andel
-    title: "Danmark: vindandel af elproduktion (ca.)"
-    unit: "%"
-    note: "Vejrår svinger kraftigt. Afrundede værdier; tjek Energistyrelsen for officielle serier."
-    source: "Energistyrelsen / IEA (tendens)"
-    sourceUrl: "https://ens.dk/"
-    years: [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025]
-    series:
-      - name: Vind (DK el)
-        color: "#4EC9B0"
-        values: [42, 38, 43, 41, 47, 48, 44, 55, 54, 56, 58]
 ---
 
 Danmark er casen, mange peger på, når de siger "det kan lade sig gøre". Og det kan — med nuancer.

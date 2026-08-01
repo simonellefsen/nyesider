@@ -11,6 +11,10 @@ imageSource: "https://x.ai/"
 
 Der var en tid, hvor Nissan Leaf var elbilen, man kendte — og den, man lidt overbærende smilede af. Kort rækkevidde. Særligt ydre. En pioner, der blev indhentet af Tesla, VW og senere kineserne. I 2026 er historien en anden: den helt nye Leaf er rykket ind på CMF-EV-platformen, bygges i Sunderland, og Nissan har valgt at sende den på jomfrutur i netop København.[^1]
 
+[CHART dk-elbil-andel]
+
+Danmarks elbilandel af nyregistreringer er steget stejlt — baggrunden for, at en ny Leaf skal ramme et allerede elektrisk marked.
+
 ### Tallene, der betyder noget
 
 Nissan taler om op til **622 km** rækkevidde efter den europæiske WLTP-norm (*Worldwide Harmonised Light Vehicle Test Procedure* — standardiseret laboratorietest) i topkonfigurationen og **150 kW** jævnstrøms-hurtigopladning (DC) — nok til at hente i omegnen af 400+ km på en halv time under gode forhold, ifølge fabrikken.[^1] Det er ikke BMW iX3-niveau fra nr. 1's køretest, men det er et niveau, hvor Leaf igen kan være *første bil* i husstanden, ikke kun bybil nummer to.

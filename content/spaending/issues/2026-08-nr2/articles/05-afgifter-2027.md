@@ -11,6 +11,10 @@ imageSource: "https://x.ai/"
 
 I nr. 1 skrev vi om den politiske djævlepagt: elbilen vandt markedet, men nogen skal stadig betale for vejene. Finanslovsaftalen skød den planlagte stigning i registreringsafgiften for nulemissionsbiler — og holdt 2026 på det lavere, indfasede niveau (omkring **40 %**-sporet i stedet for det højere trin, der ellers truede).[^1]
 
+[CHART dk-elbil-andel]
+
+Når næsten alle private køb er el, er afgiftsprovenuet den politiske bagside af samme kurve.
+
 ### Hvad der er politisk aftalt i grove træk
 
 - **2026:** ro på det planlagte nøk opad; eksisterende lempelige rammer for elbiler fortsætter i det væsentlige.

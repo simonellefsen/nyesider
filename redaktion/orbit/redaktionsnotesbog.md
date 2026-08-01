@@ -32,3 +32,8 @@ Cover + 5 Imagine-features + SVG-diagram.
 
 Ingen opdigtede launch-datoer. Skeln planlagt/scrub/success/failure. Primære kilder.  
 `python production/load_env.py orbit` før produktion.
+
+## Tendensdiagrammer
+
+Kanonisk data i `content/orbit/issues/<issue>/charts/*.json` — se [content/CHARTS.md](../../content/CHARTS.md).  
+Nr. 1: `global-launches`, `active-sats`.

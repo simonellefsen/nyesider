@@ -1,0 +1,14 @@
+{
+  "id": "global-launches",
+  "title": "Orbitale opsendelsesforsøg pr. år (ca.)",
+  "unit": "",
+  "note": "Afrundede totals; 2024–25 ifølge SpaceNews m.fl. (324 i 2025). Ældre år: offentlige launch-trackere.",
+  "source": "SpaceNews / launch trackers",
+  "sourceUrl": "https://spacenews.com/",
+  "years": [2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025],
+  "series": [
+    { "name": "Verden", "color": "#5B8DEF", "values": [114, 102, 114, 146, 186, 221, 259, 324] },
+    { "name": "SpaceX (Falcon m.m.)", "color": "#E8B86D", "values": [21, 13, 26, 31, 61, 98, 134, 165] },
+    { "name": "Kina", "color": "#c45c26", "values": [39, 34, 39, 55, 64, 67, 68, 92] }
+  ]
+}

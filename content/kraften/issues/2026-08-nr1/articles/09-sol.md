@@ -7,18 +7,6 @@ order: 9
 image: ../images/kraften_sol.png
 imageCredit: "AI-genereret anlægsmotiv (Imagine / xAI)"
 imageSource: "https://x.ai/"
-charts:
-  - id: eu-sol-twh
-    title: "EU: solproduktion (ca. TWh pr. år)"
-    unit: "TWh"
-    note: "Afrundet årsproduktion; 2025 = 369 TWh ifølge Ember EER 2026."
-    source: Ember
-    sourceUrl: "https://ember-energy.org/"
-    years: [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025]
-    series:
-      - name: Sol (EU)
-        color: "#E3A008"
-        values: [100, 105, 115, 125, 135, 150, 165, 205, 250, 305, 369]
 ---
 
 Sol er Embers stjerne i 2025: **369 TWh** i EU, vækst over **20 %** for fjerde år i træk, **13 %** af elproduktionen.[^1] I sommermåneder har sol i perioder været den største enkelte kilde i EU-mixet.[^2] Det er en teknologisk triumf — og en systemudfordring.

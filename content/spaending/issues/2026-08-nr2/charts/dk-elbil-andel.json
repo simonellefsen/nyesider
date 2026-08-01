@@ -1,0 +1,12 @@
+{
+  "id": "dk-elbil-andel",
+  "title": "Danmark: elbilandel af nyregistreringer (ca.)",
+  "unit": "%",
+  "note": "Afrundet tendens for personbiler; private andele har været endnu højere i 2025–26. Tjek Mobility Denmark for aktuelle tal.",
+  "source": "Mobility Denmark / Mobilsiden (tendens)",
+  "sourceUrl": "https://mobility.dk/",
+  "years": [2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026],
+  "series": [
+    { "name": "Elbiler af nyregistreringer", "color": "#19B5C8", "values": [4, 7, 13, 21, 36, 51, 65, 80] }
+  ]
+}

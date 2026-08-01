@@ -72,11 +72,11 @@ Mål 12–16 artikler. Forslag:
 
 ## Tendensdiagrammer (online)
 
-Hvor det giver mening (elmix, sol, vind, gas, landeandele): tilføj **multi-år-serie** i frontmatter `charts:` og indsæt `[CHART id]` i brødteksten.
+Se [content/CHARTS.md](../../content/CHARTS.md).
 
-- Web: interaktivt (`TrendChart.svelte` — hover for årstal/værdi).  
-- Data: afrundede offentlige serier med `source` / `sourceUrl` + note om usikkerhed.  
-- Procent: `unit: "%"` og husreglen om ikke-brydende mellemrum i brødtekst.
+- **Kanonisk data:** `content/kraften/issues/<issue>/charts/<id>.json`  
+- **I artiklen:** `[CHART id]`  
+- Web: `TrendChart.svelte` (hover). Frontmatter-`charts` kun som undtagelse/override.
 
 ## Praktisk
 

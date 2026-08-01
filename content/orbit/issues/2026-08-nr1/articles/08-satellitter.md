@@ -11,6 +11,10 @@ imageSource: "https://x.ai/"
 
 Jonathan McDowells offentlige statistik (juli 2026) peger på i størrelsesordenen **16.000+ aktive satellitter** i kredsløb — heraf over **10.000** aktive Starlink-enheder alene.[^1] ESA og andre tracker samtidigt titusindvis af katalogobjekter, når man medregner skrot og trin.[^2]
 
+[CHART active-sats]
+
+Tendensen er klar: LEO-konstellationer har skubbet antallet af aktive satellitter op i tocifrede tusinder.
+
 ### Hvad konstellationer gør ved cadence
 
 Hver ny batch er både en **kundemulighed** for launch providers og en **genopfyldningspligt**. Det er derfor Falcon 9 kan flyve uge efter uge: efterspørgslen er indbygget i forretningsmodellen.

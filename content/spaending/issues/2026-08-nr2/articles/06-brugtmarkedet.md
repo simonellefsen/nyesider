@@ -11,6 +11,10 @@ imageSource: "https://x.ai/"
 
 I nr. 1 advarede vi om bagsiden af prisfesten: når fabrikssikre nyheder lander billigere end den bil, du købte for to år siden, rykker regnearket. I sommeren 2026 er det ikke længere en hypotese. Det er samtalen på brugtvognspladsen.
 
+[CHART eu-bev-salg]
+
+Europæisk BEV-volumen er vokset kraftigt — og presser restværdier, når nye modeller bliver billigere.
+
 ### Hvorfor værdierne presses
 
 - **Flere nye billige modeller** (Twingo-klassen, små VW/Cupra-bud, kinesiske volume-biler).

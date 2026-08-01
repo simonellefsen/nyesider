@@ -1,0 +1,12 @@
+{
+  "id": "eu-sol-twh",
+  "title": "EU: solproduktion (ca. TWh pr. år)",
+  "unit": "TWh",
+  "note": "Afrundet årsproduktion; 2025 = 369 TWh ifølge Ember EER 2026.",
+  "source": "Ember",
+  "sourceUrl": "https://ember-energy.org/",
+  "years": [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025],
+  "series": [
+    { "name": "Sol (EU)", "color": "#E3A008", "values": [100, 105, 115, 125, 135, 150, 165, 205, 250, 305, 369] }
+  ]
+}

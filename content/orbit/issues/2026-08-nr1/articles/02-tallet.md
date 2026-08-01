@@ -8,6 +8,10 @@ order: 2
 
 **324** orbitale launch attempts i **2025** — ifølge SpaceNews' åbne kildeanalyse — omkring **25 %** flere end rekorden året før.[^1] Andre opgørelser lander i samme boldgade (ca. 320–330 afhængigt af, hvordan partielle fejl og “nåede næsten kredsløb” tælles).[^2]
 
+[CHART global-launches]
+
+Hold musen over kurven (online) for årstal. Print gengiver ikke interaktiviteten.
+
 ### Hvem trak tallet op?
 
 - **SpaceX / Falcon 9:** i størrelsesordenen **165** flyvninger i 2025 — mere end resten af verden tilsammen i flere opgørelser.[^1]  

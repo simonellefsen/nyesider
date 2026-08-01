@@ -130,46 +130,92 @@ async function markdownToHtml(md: string): Promise<string> {
 
 const CHART_MARKER_RE = /\[CHART\s+([a-z0-9_-]+)\]/gi;
 
+function normalizeChartObject(
+	item: unknown,
+	fallbackId?: string
+): ChartSpec | null {
+	if (!item || typeof item !== 'object') return null;
+	const c = item as Record<string, unknown>;
+	const id =
+		typeof c.id === 'string' && c.id
+			? c.id
+			: fallbackId && fallbackId.length
+				? fallbackId
+				: null;
+	if (!id || !Array.isArray(c.years) || !Array.isArray(c.series)) return null;
+	const years = (c.years as unknown[]).map(Number).filter((n) => !Number.isNaN(n));
+	const series = (c.series as unknown[])
+		.map((s) => {
+			if (!s || typeof s !== 'object') return null;
+			const row = s as Record<string, unknown>;
+			if (typeof row.name !== 'string' || !Array.isArray(row.values)) return null;
+			return {
+				name: row.name,
+				values: (row.values as unknown[]).map(Number),
+				color: typeof row.color === 'string' ? row.color : undefined
+			};
+		})
+		.filter((s): s is NonNullable<typeof s> => !!s);
+	if (!years.length || !series.length) return null;
+	return {
+		id,
+		title: typeof c.title === 'string' ? c.title : id,
+		unit: typeof c.unit === 'string' ? c.unit : undefined,
+		note: typeof c.note === 'string' ? c.note : undefined,
+		source: typeof c.source === 'string' ? c.source : undefined,
+		sourceUrl: typeof c.sourceUrl === 'string' ? c.sourceUrl : undefined,
+		years,
+		series
+	};
+}
+
 function normalizeCharts(raw: unknown): ChartSpec[] {
 	if (!Array.isArray(raw)) return [];
 	const out: ChartSpec[] = [];
 	for (const item of raw) {
-		if (!item || typeof item !== 'object') continue;
-		const c = item as Record<string, unknown>;
-		if (typeof c.id !== 'string' || !Array.isArray(c.years) || !Array.isArray(c.series)) {
-			continue;
-		}
-		const years = (c.years as unknown[]).map(Number).filter((n) => !Number.isNaN(n));
-		const series = (c.series as unknown[])
-			.map((s) => {
-				if (!s || typeof s !== 'object') return null;
-				const row = s as Record<string, unknown>;
-				if (typeof row.name !== 'string' || !Array.isArray(row.values)) return null;
-				return {
-					name: row.name,
-					values: (row.values as unknown[]).map(Number),
-					color: typeof row.color === 'string' ? row.color : undefined
-				};
-			})
-			.filter((s): s is NonNullable<typeof s> => !!s);
-		if (!years.length || !series.length) continue;
-		out.push({
-			id: c.id,
-			title: typeof c.title === 'string' ? c.title : c.id,
-			unit: typeof c.unit === 'string' ? c.unit : undefined,
-			note: typeof c.note === 'string' ? c.note : undefined,
-			source: typeof c.source === 'string' ? c.source : undefined,
-			sourceUrl: typeof c.sourceUrl === 'string' ? c.sourceUrl : undefined,
-			years,
-			series
-		});
+		const chart = normalizeChartObject(item);
+		if (chart) out.push(chart);
 	}
 	return out;
 }
 
-async function buildBodyParts(md: string, charts: ChartSpec[]): Promise<ArticleBodyPart[]> {
-	const byId = new Map(charts.map((c) => [c.id, c]));
+/**
+ * Load reusable chart specs from content/<mag>/issues/<issue>/charts/*.json
+ * (canonical long-term home for multi-year series).
+ */
+function loadIssueChartLibrary(magazine: string, issueSlug: string): Map<string, ChartSpec> {
+	const dir = path.join(CONTENT_ROOT, magazine, 'issues', issueSlug, 'charts');
+	const map = new Map<string, ChartSpec>();
+	if (!existsSync(dir)) return map;
+	for (const name of readdirSync(dir)) {
+		if (!name.endsWith('.json')) continue;
+		const fileId = name.replace(/\.json$/i, '');
+		try {
+			const raw = JSON.parse(readFileSync(path.join(dir, name), 'utf-8')) as unknown;
+			const chart = normalizeChartObject(raw, fileId);
+			if (chart) map.set(chart.id, chart);
+		} catch {
+			// skip invalid chart files
+		}
+	}
+	return map;
+}
+
+function mergeCharts(
+	library: Map<string, ChartSpec>,
+	fromFrontmatter: ChartSpec[]
+): Map<string, ChartSpec> {
+	const map = new Map(library);
+	for (const c of fromFrontmatter) map.set(c.id, c); // article frontmatter overrides
+	return map;
+}
+
+async function buildBodyParts(
+	md: string,
+	byId: Map<string, ChartSpec>
+): Promise<{ parts: ArticleBodyPart[]; used: ChartSpec[] }> {
 	const parts: ArticleBodyPart[] = [];
+	const used: ChartSpec[] = [];
 	let last = 0;
 	const re = new RegExp(CHART_MARKER_RE.source, 'gi');
 	let m: RegExpExecArray | null;
@@ -179,7 +225,7 @@ async function buildBodyParts(md: string, charts: ChartSpec[]): Promise<ArticleB
 	}
 	if (!matches.length) {
 		const html = await markdownToHtml(md);
-		return html.trim() ? [{ type: 'html', html }] : [];
+		return { parts: html.trim() ? [{ type: 'html', html }] : [], used };
 	}
 	for (const match of matches) {
 		const before = md.slice(last, match.index).trim();
@@ -187,14 +233,17 @@ async function buildBodyParts(md: string, charts: ChartSpec[]): Promise<ArticleB
 			parts.push({ type: 'html', html: await markdownToHtml(before) });
 		}
 		const chart = byId.get(match.id);
-		if (chart) parts.push({ type: 'chart', chart });
+		if (chart) {
+			parts.push({ type: 'chart', chart });
+			if (!used.find((c) => c.id === chart.id)) used.push(chart);
+		}
 		last = match.end;
 	}
 	const after = md.slice(last).trim();
 	if (after) {
 		parts.push({ type: 'html', html: await markdownToHtml(after) });
 	}
-	return parts;
+	return { parts, used };
 }
 
 export async function getArticle(
@@ -214,8 +263,10 @@ export async function getArticle(
 		.map((f) => articleImageUrl(magazine, issueSlug, f))
 		.filter((u): u is string => !!u);
 	const withFigures = resolveFigures(content, figureUrls);
-	const charts = normalizeCharts(data.charts);
-	const body = await buildBodyParts(withFigures, charts);
+	const library = loadIssueChartLibrary(magazine, issueSlug);
+	const fromFm = normalizeCharts(data.charts);
+	const byId = mergeCharts(library, fromFm);
+	const { parts: body, used: charts } = await buildBodyParts(withFigures, byId);
 	const html = body
 		.filter((p): p is { type: 'html'; html: string } => p.type === 'html')
 		.map((p) => p.html)

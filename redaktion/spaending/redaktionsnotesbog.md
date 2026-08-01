@@ -20,6 +20,11 @@
 - **Faststof: første prissatte semi-solid i EU**.
 - **Kilometerafgift / ekspertgruppe** — når der kommer ny politisk tekst.
 
+## Tendensdiagrammer (online)
+
+Kanonisk data i `content/spaending/issues/<issue>/charts/*.json` — se [content/CHARTS.md](../../content/CHARTS.md).  
+Nr. 2: `dk-elbil-andel`, `eu-bev-salg` (afrundede tendenser; tjek Mobility Denmark / ACEA for facit).
+
 ## Praktisk
 
 - Fakta-kilder nr. 2: Nissan Europe, Ionity/electrive, Euronews/Xiaomi, EAFO/finanslov om afgifter.

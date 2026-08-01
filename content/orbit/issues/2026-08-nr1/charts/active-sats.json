@@ -1,0 +1,12 @@
+{
+  "id": "active-sats",
+  "title": "Aktive satellitter i kredsløb (ca.)",
+  "unit": "",
+  "note": "Afrundet; 2026-tal i størrelsesorden 16.000+ ifølge J. McDowell. Starlink udgør hovedparten af stigningen.",
+  "source": "J. McDowell / ESA (tendens)",
+  "sourceUrl": "https://planet4589.org/space/stats/active.html",
+  "years": [2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026],
+  "series": [
+    { "name": "Aktive satellitter", "color": "#5B8DEF", "values": [2000, 2300, 3400, 4900, 6900, 8500, 10000, 12000, 16200] }
+  ]
+}
