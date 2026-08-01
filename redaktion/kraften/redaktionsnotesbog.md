@@ -17,6 +17,7 @@ Opdateret august 2026 — **fokus skærpet:** global elektrificering + rumkraft.
 ### Afgrænsning
 
 - **Ikke SPÆNDING:** bilmodeller, køretest og danske afgifter på personbiler hører primært i SPÆNDING. KRAFTEN kan nævne EV-salg som *elektrificeringsindikator*, men dykker i net, TWh og lande — ikke i Twin go vs. Leaf.
+- **Ikke ORBIT (fuld rumfart):** opsendelser, agencer, satellit-konstellationer, debris og launch-kalender hører i **ORBIT**. KRAFTEN tager **rumkraft** (watt på satellitter, RTG, surface power). Overlap er OK — vinkel forskellig; krydshenvis.
 - **Fossilt** dækkes, når det forklarer tempo, flaskehalse eller backup — ikke som olie-/gas-magasin i sig selv.
 - Tone: nøgtern, kildetung, global. Ingen hype uden hardware.
 

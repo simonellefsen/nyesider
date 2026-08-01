@@ -11,6 +11,7 @@ Dansk magasinforlag, hvor hvert nummer produceres af en chefredaktør-agent med 
 | **SPÆNDING** | Elbiler og teknologien bag, europæisk fokus | Nr. 2 · August 2026 · *"Når watt bliver hverdag"* |
 | **HORISONTEN** | Rejser i Europa — vandring, cykling, løb | Nr. 2 · August 2026 · *"Dolomitterne i efteråret"* |
 | **KRAFTEN** | Elektrificering globalt + rumkraft (net, el, space) | Nr. 1 · August 2026 · *"Hvad holder lyset tændt"* |
+| **ORBIT** | Rumfart: opsendelser, satellitter, agencer, skrot, kalender | *(endnu ikke udgivet)* |
 
 ## Struktur
 
@@ -69,7 +70,7 @@ To lag (alle gitignored — se [.env.example](.env.example)):
 
 | Formål | Fil | Variabel |
 |---|---|---|
-| **OpenRouter** (tekst pr. magasin — cost tracking) | `.env.gnisten`, `.env.pulsen`, `.env.spaending`, `.env.horisonten`, `.env.kraften` | `OPENROUTER_API_KEY` |
+| **OpenRouter** (tekst pr. magasin — cost tracking) | `.env.gnisten`, `.env.pulsen`, `.env.spaending`, `.env.horisonten`, `.env.kraften`, `.env.orbit` | `OPENROUTER_API_KEY` |
 | **xAI Imagine** (billeder, forlagsfælles) | `.env.local` | `XAI_API_KEY` |
 
 - Under produktion af en titel: load **kun** den titels `.env.<slug>` til OpenRouter — aldrig en andens nøgle.

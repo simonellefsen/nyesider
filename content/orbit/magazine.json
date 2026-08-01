@@ -1,0 +1,28 @@
+{
+  "slug": "orbit",
+  "name": "ORBIT",
+  "tagline": "Magasinet om rumfart — opsendelser, satellitter, nationer og det der kredser om os",
+  "language": "da",
+  "audience": "Danskere og europæere der følger rumindustrien: nysgerrige borgere, tech- og geopolitik-interesserede, studerende — uden at forudsætte en raket-Ph.d.",
+  "sections": [
+    "Leder",
+    "Opsendelser (SpaceX, Blue Origin m.fl.)",
+    "Nationer & agencer (NASA, ESA, Indien, Kina, Rusland)",
+    "Satellitter & konstellationer",
+    "Rumskrot & sikkerhed i kredsløb",
+    "Kalenderen (opsendelsesvinduer)",
+    "Tallet (statistik)",
+    "Sådan virker det (diagrammer)",
+    "Teknologi & hardware",
+    "Politik & industri",
+    "Ordbogen",
+    "Rygtebørsen"
+  ],
+  "theme": {
+    "colors": {
+      "primary": "#0B1020",
+      "accent": "#5B8DEF",
+      "highlight": "#E8B86D"
+    }
+  }
+}
