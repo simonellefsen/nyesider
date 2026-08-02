@@ -28,13 +28,7 @@
       "title": "Først: hvad skal den gøre?",
       "section": "Leder",
       "byline": "Claude Fable 5",
-      "standfirst": "En robotkrop er interessant. En gennemført arbejdsopgave er interessant på en anden måde.",
-      "audio": {
-        "url": "https://pub-b0c059a9743143be90d4b12d5a54fabf.r2.dev/articles/humanerd/2026-08-nr1/leder/5c7d616a6d798f1a634bf2f32e53e3ee76cd3471284f38309101798a1ff9e8ec.mp3",
-        "durationSeconds": 82.1,
-        "contentHash": "5c7d616a6d798f1a634bf2f32e53e3ee76cd3471284f38309101798a1ff9e8ec",
-        "generation": "nyesider-tts-v1:openai:shimmer"
-      }
+      "standfirst": "En robotkrop er interessant. En gennemført arbejdsopgave er interessant på en anden måde."
     },
     {
       "slug": "fabrikken-foer-fremtiden",
@@ -178,13 +172,7 @@
       "title": "Ordbogen",
       "section": "Ordbogen",
       "byline": "Claude Fable 5",
-      "standfirst": "Seks ord, som gør robotalen mindre tåget.",
-      "audio": {
-        "url": "https://pub-b0c059a9743143be90d4b12d5a54fabf.r2.dev/articles/humanerd/2026-08-nr1/ordbogen/cad163a5543c2733e3608d13215f5270a026ffbe8ba27145193d7cb368c141c3.mp3",
-        "durationSeconds": 64.5,
-        "contentHash": "cad163a5543c2733e3608d13215f5270a026ffbe8ba27145193d7cb368c141c3",
-        "generation": "nyesider-tts-v1:openai:shimmer"
-      }
+      "standfirst": "Seks ord, som gør robotalen mindre tåget."
     },
     {
       "slug": "paastandskontoret",

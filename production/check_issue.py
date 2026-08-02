@@ -40,6 +40,15 @@ HEDGES = [
     "markant", "svinger", "mange danskere", "angiveligt", "i omegnen af",
     "voksende", "tusindvis", "hundredvis", "i stigende grad", "betydelig andel",
 ]
+EXCLUDED_AUDIO_SECTION_PREFIXES = ("leder", "ordbogen", "rygtebørsen")
+
+
+def is_audio_excluded(section: str) -> bool:
+    normalized = section.strip().lower()
+    return any(
+        normalized == prefix or normalized.startswith(prefix + " ") or normalized.startswith(prefix + "/")
+        for prefix in EXCLUDED_AUDIO_SECTION_PREFIXES
+    )
 
 
 class Finding:
@@ -214,6 +223,8 @@ def check_issue(magazine_dir: Path, issue_dir: Path) -> list[Finding]:
         # pre-generated article audio (optional while the back catalogue is migrated)
         audio = art.get("audio")
         if audio is not None:
+            if is_audio_excluded(art.get("section", "")):
+                findings.append(Finding("error", tag, f"{aslug}: {art.get('section')} must not have AI article audio"))
             if not isinstance(audio, dict):
                 findings.append(Finding("error", tag, f"{aslug}: audio must be an object"))
             else:

@@ -36,6 +36,12 @@ npm --prefix web run audio:article -- indeni 2026-08-nr1 det-usynlige-lag --uplo
 npm --prefix web run audio:issue -- indeni 2026-08-nr1 --upload --write --limit 2
 ```
 
+`Leder`, `Ordbogen` og `Rygtebørsen` får aldrig AI-oplæsning. Brug nedenstående kommando, hvis ældre katalogmetadata skal ryddes; de versionsstyrede R2-filer slettes med vilje ikke automatisk.
+
+```sh
+npm --prefix web run audio:prune
+```
+
 Standard er OpenAI `gpt-4o-mini-tts` med stemmen `coral`. Vælg en anden testet
 provider/stemme med `--provider xai --voice carina`. Hver lydfil navngives med
 hashen af den præcise oplæsningstekst, så en artikelændring automatisk får en ny

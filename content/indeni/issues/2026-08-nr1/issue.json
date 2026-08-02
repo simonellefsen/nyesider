@@ -26,13 +26,7 @@
       "title": "Det usynlige arbejde",
       "section": "Leder",
       "byline": "Claude Fable 5",
-      "standfirst": "En drikkedåse er ikke enkel. Den er bare blevet god til at skjule sit arbejde.",
-      "audio": {
-        "url": "https://pub-b0c059a9743143be90d4b12d5a54fabf.r2.dev/articles/indeni/2026-08-nr1/leder/42239b466798103734da8afe1da5f2cd791c6b16629f0a8ace0124cf2c9308c0.mp3",
-        "durationSeconds": 70.3,
-        "contentHash": "42239b466798103734da8afe1da5f2cd791c6b16629f0a8ace0124cf2c9308c0",
-        "generation": "nyesider-tts-v1:openai:shimmer"
-      }
+      "standfirst": "En drikkedåse er ikke enkel. Den er bare blevet god til at skjule sit arbejde."
     },
     {
       "slug": "fra-sten-til-strimmel",
@@ -176,13 +170,7 @@
       "title": "Ordbogen",
       "section": "Ordbogen",
       "byline": "Claude Fable 5",
-      "standfirst": "De ord, der gemmer sig i dåsens maskinrum.",
-      "audio": {
-        "url": "https://pub-b0c059a9743143be90d4b12d5a54fabf.r2.dev/articles/indeni/2026-08-nr1/ordbogen/5ede49a5ecace9d09d65d91a2012ad6b71c52e1f6c7bc8574de7a30172adbc25.mp3",
-        "durationSeconds": 74.3,
-        "contentHash": "5ede49a5ecace9d09d65d91a2012ad6b71c52e1f6c7bc8574de7a30172adbc25",
-        "generation": "nyesider-tts-v1:openai:shimmer"
-      }
+      "standfirst": "De ord, der gemmer sig i dåsens maskinrum."
     },
     {
       "slug": "paastandskontoret",

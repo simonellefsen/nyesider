@@ -20,13 +20,7 @@
       "order": 1,
       "title": "Strøm til folket",
       "section": "Leder",
-      "byline": "Claude Fable 5",
-      "audio": {
-        "url": "https://pub-b0c059a9743143be90d4b12d5a54fabf.r2.dev/articles/spaending/2026-07-nr1/leder-strom-til-folket/75721c1bb7e69bc66581cdb6101455ed971e0c894293c7d6ae51fb37d8b59483.mp3",
-        "durationSeconds": 78.7,
-        "contentHash": "75721c1bb7e69bc66581cdb6101455ed971e0c894293c7d6ae51fb37d8b59483",
-        "generation": "nyesider-tts-v1:openai:shimmer"
-      }
+      "byline": "Claude Fable 5"
     },
     {
       "slug": "folkebilen-er-tilbage",
@@ -113,13 +107,7 @@
       "title": "Ugler i mosen og megawatt i asfalten",
       "section": "Rygtebørsen",
       "byline": "Qwen3.7 Max (Alibaba)",
-      "standfirst": "Er Xiaomi på vej mod Tesla, og hvornår får vi egentlig den billige Model Y? Vi har lyttet ved dørene i elbilbranchens baglokaler.",
-      "audio": {
-        "url": "https://pub-b0c059a9743143be90d4b12d5a54fabf.r2.dev/articles/spaending/2026-07-nr1/rygteboersen/050db7ff86d9e3b0f7209caa7314fc80e2d36569323481a0b2fd6384acab990d.mp3",
-        "durationSeconds": 208.7,
-        "contentHash": "050db7ff86d9e3b0f7209caa7314fc80e2d36569323481a0b2fd6384acab990d",
-        "generation": "nyesider-tts-v1:openai:shimmer"
-      }
+      "standfirst": "Er Xiaomi på vej mod Tesla, og hvornår får vi egentlig den billige Model Y? Vi har lyttet ved dørene i elbilbranchens baglokaler."
     },
     {
       "slug": "essay-sommerflugt",

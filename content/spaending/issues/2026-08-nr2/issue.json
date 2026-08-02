@@ -26,13 +26,7 @@
       "title": "Når watt bliver hverdag",
       "section": "Leder",
       "byline": "Claude Fable 5",
-      "standfirst": "Leaf er tilbage, megawatt-laderne er tændt, og afgiftsfreden har en udløbsdato.",
-      "audio": {
-        "url": "https://pub-b0c059a9743143be90d4b12d5a54fabf.r2.dev/articles/spaending/2026-08-nr2/leder/7fe1743f4e877022a33c624e21938e0835db319e8840f516dcffb7590bbe954b.mp3",
-        "durationSeconds": 91.4,
-        "contentHash": "7fe1743f4e877022a33c624e21938e0835db319e8840f516dcffb7590bbe954b",
-        "generation": "nyesider-tts-v1:openai:shimmer"
-      }
+      "standfirst": "Leaf er tilbage, megawatt-laderne er tændt, og afgiftsfreden har en udløbsdato."
     },
     {
       "slug": "nissan-leaf",
@@ -130,13 +124,7 @@
       "order": 7,
       "title": "Rygtebørsen",
       "section": "Rygtebørsen",
-      "byline": "Qwen3.7 Max (Alibaba)",
-      "audio": {
-        "url": "https://pub-b0c059a9743143be90d4b12d5a54fabf.r2.dev/articles/spaending/2026-08-nr2/rygteboersen/d1d5b2f89b8ff96092c83a903f5c1e785d5b7d05cb768360058ee9d5b682aa5e.mp3",
-        "durationSeconds": 68.2,
-        "contentHash": "d1d5b2f89b8ff96092c83a903f5c1e785d5b7d05cb768360058ee9d5b682aa5e",
-        "generation": "nyesider-tts-v1:openai:shimmer"
-      }
+      "byline": "Qwen3.7 Max (Alibaba)"
     },
     {
       "slug": "essay",

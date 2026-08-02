@@ -19,6 +19,7 @@
 		"audio:samples": "node scripts/audio/generate.mjs samples",
 		"audio:article": "node scripts/audio/generate.mjs article",
 		"audio:issue": "node scripts/audio/generate.mjs issue",
+		"audio:prune": "node scripts/audio/generate.mjs prune",
 		"test:audio": "node --test scripts/audio/*.test.mjs"
 	},
 	"devDependencies": {

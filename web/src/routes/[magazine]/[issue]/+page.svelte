@@ -2,6 +2,7 @@
 	import Seo from '$lib/components/Seo.svelte';
 	import SiteFooter from '$lib/components/SiteFooter.svelte';
 	import SiteHeader from '$lib/components/SiteHeader.svelte';
+	import IssueAudioPlaylist from '$lib/components/IssueAudioPlaylist.svelte';
 	import { absoluteUrl, pageTitle, publicationIssueJsonLd } from '$lib/seo';
 
 	let { data } = $props();
@@ -71,6 +72,10 @@
 			{/if}
 			<a class="btn btn-ghost" href="/{data.magazine.slug}">Alle numre</a>
 		</div>
+
+		{#if data.listeningTracks.length}
+			<IssueAudioPlaylist tracks={data.listeningTracks} magazine={data.magazine.name} />
+		{/if}
 
 		{#if data.issue.cover}
 			<figure class="issue-cover" style="margin-top:1.25rem">

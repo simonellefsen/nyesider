@@ -9,6 +9,7 @@ import {
 	listMagazineSlugs,
 	pdfUrl
 } from '$lib/server/content';
+import { isNarratableArticle } from '$lib/audioPolicy';
 import type { EntryGenerator, PageServerLoad } from './$types';
 
 export const entries: EntryGenerator = () => {
@@ -26,6 +27,15 @@ export const load: PageServerLoad = async ({ params }) => {
 		const magazine = getMagazine(params.magazine);
 		const issue = getIssue(params.magazine, params.issue);
 		const articles = enrichArticles(params.magazine, issue);
+		const listeningTracks = articles
+			.filter((article) => article.audio && isNarratableArticle(article.section))
+			.map((article) => ({
+				slug: article.slug,
+				href: article.href,
+				title: article.title,
+				section: article.section,
+				audio: article.audio!
+			}));
 
 		return {
 			magazine: {
@@ -46,7 +56,8 @@ export const load: PageServerLoad = async ({ params }) => {
 				imageCredits: issue.imageCredits ?? null,
 				pdf: pdfUrl(params.magazine, issue)
 			},
-			articles
+			articles,
+			listeningTracks
 		};
 	} catch {
 		error(404, 'Nummer ikke fundet');

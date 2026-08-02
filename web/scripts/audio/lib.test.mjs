@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { audioObjectParams, contentHash, spokenText, splitForTts } from './lib.mjs';
+import { audioObjectParams, contentHash, shouldGenerateAudio, spokenText, splitForTts } from './lib.mjs';
 import { synthesizeSpeech } from './providers.mjs';
 
 test('spokenText keeps article prose but removes figures, sources, URLs, tables and footnotes', () => {
@@ -24,6 +24,13 @@ test('splitForTts keeps every character and prefers sentence boundaries', () => 
 test('content hashes change when the spoken script changes', () => {
 	assert.equal(contentHash('samme'), contentHash('samme'));
 	assert.notEqual(contentHash('samme'), contentHash('ændret'));
+});
+
+test('editorial formats are never generated as article audio', () => {
+	assert.equal(shouldGenerateAudio('Analyse'), true);
+	assert.equal(shouldGenerateAudio('Leder'), false);
+	assert.equal(shouldGenerateAudio('Ordbogen'), false);
+	assert.equal(shouldGenerateAudio('Rygtebørsen / myter'), false);
 });
 
 test('R2 upload has immutable MP3 headers and provenance', () => {

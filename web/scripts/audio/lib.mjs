@@ -3,6 +3,15 @@ import { createHash } from 'node:crypto';
 const FRONTMATTER = /^---\s*\n[\s\S]*?\n---\s*\n/;
 const FOOTNOTE_DEFINITION = /^\s*\[\^[^\]]+\]:.*(?:\n {2,}.*)*$/gm;
 const TABLE_ROW = /^\s*\|.*\|\s*$/gm;
+const EXCLUDED_SECTION_PREFIXES = ['leder', 'ordbogen', 'rygtebørsen'];
+
+/** Keep personal editorial formats out of the generated-audio catalogue. */
+export function shouldGenerateAudio(section) {
+	const normalized = section?.trim().toLocaleLowerCase('da-DK') ?? '';
+	return !EXCLUDED_SECTION_PREFIXES.some(
+		(prefix) => normalized === prefix || normalized.startsWith(`${prefix} `) || normalized.startsWith(`${prefix}/`)
+	);
+}
 
 /** Produce the editorial script: headings and prose only, never references or visual-only content. */
 export function spokenText({ title, standfirst, markdown }) {

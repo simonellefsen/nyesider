@@ -1,9 +1,9 @@
 #!/usr/bin/env node
-import { readFileSync, writeFileSync, mkdirSync, existsSync } from 'node:fs';
+import { readFileSync, writeFileSync, mkdirSync, existsSync, readdirSync, statSync } from 'node:fs';
 import { dirname, resolve, relative } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { S3Client, PutObjectCommand } from '@aws-sdk/client-s3';
-import { audioObjectParams, calibrationText, contentHash, joinMp3, mp3DurationSeconds, spokenText, splitForTts } from './lib.mjs';
+import { audioObjectParams, calibrationText, contentHash, joinMp3, mp3DurationSeconds, shouldGenerateAudio, spokenText, splitForTts } from './lib.mjs';
 import { synthesizeSpeech } from './providers.mjs';
 
 const scriptDir = dirname(fileURLToPath(import.meta.url));
@@ -105,6 +105,10 @@ async function renderArticle(magazine, issueSlug, articleSlug) {
 	const provider = arg('--provider') || 'openai';
 	const voice = arg('--voice') || (provider === 'xai' ? 'carina' : 'coral');
 	const record = getArticle(magazine, issueSlug, articleSlug);
+	if (!shouldGenerateAudio(record.article.section) && !has('--force')) {
+		console.log(`${magazine}/${issueSlug}/${articleSlug} — springer over (${record.article.section} får ikke AI-oplæsning)`);
+		return false;
+	}
 	const hash = contentHash(record.text);
 	console.log(`${magazine}/${issueSlug}/${articleSlug} — ${record.text.length} tegn, ${hash.slice(0, 12)}`);
 	if (has('--dry-run')) return;
@@ -122,6 +126,7 @@ async function renderArticle(magazine, issueSlug, articleSlug) {
 			console.log('  article metadata updated');
 		}
 	}
+	return true;
 }
 
 async function samples() {
@@ -150,12 +155,40 @@ async function issue() {
 	if (!Number.isInteger(limit) || limit < 1) throw new Error('--limit skal være et positivt heltal');
 	let processed = 0;
 	for (const article of issue.articles) {
+		if (!shouldGenerateAudio(article.section) && !has('--force')) continue;
 		if (article.audio && !has('--force')) continue;
-		await renderArticle(magazine, issueSlug, article.slug);
-		processed += 1;
+		if (await renderArticle(magazine, issueSlug, article.slug)) processed += 1;
 		if (processed >= limit) break;
 	}
 	console.log(`${processed} artikel/artikler behandlet; kør samme kommando igen for resten.`);
+}
+
+function issueFiles() {
+	const contentRoot = resolve(repoRoot, 'content');
+	return readdirSync(contentRoot).flatMap((magazine) => {
+		const issuesDir = resolve(contentRoot, magazine, 'issues');
+		if (!existsSync(issuesDir) || !statSync(issuesDir).isDirectory()) return [];
+		return readdirSync(issuesDir)
+			.map((issueSlug) => resolve(issuesDir, issueSlug, 'issue.json'))
+			.filter((file) => existsSync(file));
+	});
+}
+
+function prune() {
+	let removed = 0;
+	for (const issueFile of issueFiles()) {
+		const issue = JSON.parse(readFileSync(issueFile, 'utf8'));
+		let changed = false;
+		for (const article of issue.articles ?? []) {
+			if (article.audio && !shouldGenerateAudio(article.section)) {
+				delete article.audio;
+				removed += 1;
+				changed = true;
+			}
+		}
+		if (changed) writeFileSync(issueFile, `${JSON.stringify(issue, null, 2)}\n`);
+	}
+	console.log(`${removed} redaktionelle lydmetadata fjernet. Versionerede R2-objekter bliver liggende, indtil de ryddes op eksplicit.`);
 }
 
 async function main() {
@@ -167,7 +200,8 @@ async function main() {
 		return renderArticle(magazine, issueSlug, articleSlug);
 	}
 	if (command === 'issue') return issue();
-	throw new Error('brug: audio:samples | audio:article | audio:issue');
+	if (command === 'prune') return prune();
+	throw new Error('brug: audio:samples | audio:article | audio:issue | audio:prune');
 }
 
 main().catch((error) => fail(error instanceof Error ? error.message : String(error)));
