@@ -211,6 +211,25 @@ def check_issue(magazine_dir: Path, issue_dir: Path) -> list[Finding]:
             if not (meta.get("imageCredit") or art.get("imageCredit")):
                 findings.append(Finding("warning", tag, f"{aslug}: image without imageCredit/imageSource"))
 
+        # pre-generated article audio (optional while the back catalogue is migrated)
+        audio = art.get("audio")
+        if audio is not None:
+            if not isinstance(audio, dict):
+                findings.append(Finding("error", tag, f"{aslug}: audio must be an object"))
+            else:
+                url = audio.get("url")
+                duration = audio.get("durationSeconds")
+                audio_hash = audio.get("contentHash")
+                generation = audio.get("generation")
+                if not isinstance(url, str) or not re.match(r"^https://", url):
+                    findings.append(Finding("error", tag, f"{aslug}: audio.url must be an https URL"))
+                if not isinstance(duration, (int, float)) or duration <= 0:
+                    findings.append(Finding("error", tag, f"{aslug}: audio.durationSeconds must be positive"))
+                if not isinstance(audio_hash, str) or not re.fullmatch(r"[0-9a-f]{64}", audio_hash):
+                    findings.append(Finding("error", tag, f"{aslug}: audio.contentHash must be a SHA-256 hex hash"))
+                if not isinstance(generation, str) or not generation:
+                    findings.append(Finding("error", tag, f"{aslug}: audio.generation is required"))
+
         # roster check
         byline = art.get("byline") or meta.get("byline")
         if roster_bylines is not None and byline and byline not in roster_bylines:

@@ -26,7 +26,13 @@
       "title": "Når watt bliver hverdag",
       "section": "Leder",
       "byline": "Claude Fable 5",
-      "standfirst": "Leaf er tilbage, megawatt-laderne er tændt, og afgiftsfreden har en udløbsdato."
+      "standfirst": "Leaf er tilbage, megawatt-laderne er tændt, og afgiftsfreden har en udløbsdato.",
+      "audio": {
+        "url": "https://pub-b0c059a9743143be90d4b12d5a54fabf.r2.dev/articles/spaending/2026-08-nr2/leder/7fe1743f4e877022a33c624e21938e0835db319e8840f516dcffb7590bbe954b.mp3",
+        "durationSeconds": 91.4,
+        "contentHash": "7fe1743f4e877022a33c624e21938e0835db319e8840f516dcffb7590bbe954b",
+        "generation": "nyesider-tts-v1:openai:shimmer"
+      }
     },
     {
       "slug": "nissan-leaf",
@@ -38,7 +44,13 @@
       "standfirst": "Tredje generation med op til omkring 620 km WLTP og europæisk jomfrutur i København.",
       "image": "../images/spaending_leaf.png",
       "imageCredit": "AI-genereret motiv (Imagine / xAI)",
-      "imageSource": "https://x.ai/"
+      "imageSource": "https://x.ai/",
+      "audio": {
+        "url": "https://pub-b0c059a9743143be90d4b12d5a54fabf.r2.dev/articles/spaending/2026-08-nr2/nissan-leaf/5ab0f9fda4fc61b46f747e52564da83fa6edb4ba8d410967de11a2ca30306a20.mp3",
+        "durationSeconds": 168.5,
+        "contentHash": "5ab0f9fda4fc61b46f747e52564da83fa6edb4ba8d410967de11a2ca30306a20",
+        "generation": "nyesider-tts-v1:openai:shimmer"
+      }
     },
     {
       "slug": "megawatt-ladning",
@@ -50,7 +62,13 @@
       "standfirst": "Ionity har tændt Alpitronic HYC1000 i Europa.",
       "image": "../images/spaending_megawatt.png",
       "imageCredit": "AI-genereret motiv (Imagine / xAI)",
-      "imageSource": "https://x.ai/"
+      "imageSource": "https://x.ai/",
+      "audio": {
+        "url": "https://pub-b0c059a9743143be90d4b12d5a54fabf.r2.dev/articles/spaending/2026-08-nr2/megawatt-ladning/671dad3da3cbac81892063be82386eb41fff99654210bf4808943029d88f228b.mp3",
+        "durationSeconds": 255.9,
+        "contentHash": "671dad3da3cbac81892063be82386eb41fff99654210bf4808943029d88f228b",
+        "generation": "nyesider-tts-v1:openai:shimmer"
+      }
     },
     {
       "slug": "xiaomi-europa",
@@ -62,7 +80,13 @@
       "standfirst": "SU7 har chokeret i Kina. Europa venter — mens testbiler allerede ruller.",
       "image": "../images/spaending_xiaomi.png",
       "imageCredit": "AI-genereret motiv (Imagine / xAI)",
-      "imageSource": "https://x.ai/"
+      "imageSource": "https://x.ai/",
+      "audio": {
+        "url": "https://pub-b0c059a9743143be90d4b12d5a54fabf.r2.dev/articles/spaending/2026-08-nr2/xiaomi-europa/168207a619e958598a5f6d0db0a0dc4c23c7dd3d2dc312d25a187a80d64a0450.mp3",
+        "durationSeconds": 118.2,
+        "contentHash": "168207a619e958598a5f6d0db0a0dc4c23c7dd3d2dc312d25a187a80d64a0450",
+        "generation": "nyesider-tts-v1:openai:shimmer"
+      }
     },
     {
       "slug": "afgifter-2027",
@@ -74,7 +98,13 @@
       "standfirst": "2026 forblev frosset. Fra 2027 stiger trappen igen.",
       "image": "../images/spaending_afgifter.png",
       "imageCredit": "AI-genereret motiv (Imagine / xAI)",
-      "imageSource": "https://x.ai/"
+      "imageSource": "https://x.ai/",
+      "audio": {
+        "url": "https://pub-b0c059a9743143be90d4b12d5a54fabf.r2.dev/articles/spaending/2026-08-nr2/afgifter-2027/30530a717513178e7566e59e58beeeed26707512fb25c99ad61aba5ad491ee22.mp3",
+        "durationSeconds": 125.5,
+        "contentHash": "30530a717513178e7566e59e58beeeed26707512fb25c99ad61aba5ad491ee22",
+        "generation": "nyesider-tts-v1:openai:shimmer"
+      }
     },
     {
       "slug": "brugtmarkedet",
@@ -86,7 +116,13 @@
       "standfirst": "Folkebølgen er god for køberne — og hård for sælgerne.",
       "image": "../images/spaending_brugt.png",
       "imageCredit": "AI-genereret motiv (Imagine / xAI)",
-      "imageSource": "https://x.ai/"
+      "imageSource": "https://x.ai/",
+      "audio": {
+        "url": "https://pub-b0c059a9743143be90d4b12d5a54fabf.r2.dev/articles/spaending/2026-08-nr2/brugtmarkedet/c5452972174e0ba0c3900f0039aba2e592900517dbbdb56a3f82e910687eb0d4.mp3",
+        "durationSeconds": 117.2,
+        "contentHash": "c5452972174e0ba0c3900f0039aba2e592900517dbbdb56a3f82e910687eb0d4",
+        "generation": "nyesider-tts-v1:openai:shimmer"
+      }
     },
     {
       "slug": "rygteboersen",
@@ -94,7 +130,13 @@
       "order": 7,
       "title": "Rygtebørsen",
       "section": "Rygtebørsen",
-      "byline": "Qwen3.7 Max (Alibaba)"
+      "byline": "Qwen3.7 Max (Alibaba)",
+      "audio": {
+        "url": "https://pub-b0c059a9743143be90d4b12d5a54fabf.r2.dev/articles/spaending/2026-08-nr2/rygteboersen/d1d5b2f89b8ff96092c83a903f5c1e785d5b7d05cb768360058ee9d5b682aa5e.mp3",
+        "durationSeconds": 68.2,
+        "contentHash": "d1d5b2f89b8ff96092c83a903f5c1e785d5b7d05cb768360058ee9d5b682aa5e",
+        "generation": "nyesider-tts-v1:openai:shimmer"
+      }
     },
     {
       "slug": "essay",
@@ -105,7 +147,13 @@
       "byline": "Mistral Medium 3.5 (Mistral AI)",
       "image": "../images/spaending_essay.png",
       "imageCredit": "AI-genereret motiv (Imagine / xAI)",
-      "imageSource": "https://x.ai/"
+      "imageSource": "https://x.ai/",
+      "audio": {
+        "url": "https://pub-b0c059a9743143be90d4b12d5a54fabf.r2.dev/articles/spaending/2026-08-nr2/essay/e46fe53b61345ac03b234b190f37af2cee21c007fbd6c1a9f972089a2c0f17c8.mp3",
+        "durationSeconds": 77.2,
+        "contentHash": "e46fe53b61345ac03b234b190f37af2cee21c007fbd6c1a9f972089a2c0f17c8",
+        "generation": "nyesider-tts-v1:openai:shimmer"
+      }
     },
     {
       "slug": "kort-og-watt",
@@ -113,7 +161,13 @@
       "order": 9,
       "title": "Kort & Watt",
       "section": "Kort & Watt",
-      "byline": "MiniMax M3 (MiniMax)"
+      "byline": "MiniMax M3 (MiniMax)",
+      "audio": {
+        "url": "https://pub-b0c059a9743143be90d4b12d5a54fabf.r2.dev/articles/spaending/2026-08-nr2/kort-og-watt/83e421995406c3eb34c0a55f8ae59e92ff93675922553d61b5ea4c72c61456c1.mp3",
+        "durationSeconds": 77.1,
+        "contentHash": "83e421995406c3eb34c0a55f8ae59e92ff93675922553d61b5ea4c72c61456c1",
+        "generation": "nyesider-tts-v1:openai:shimmer"
+      }
     }
   ],
   "imageCredits": "Alle billeder i dette nummer er AI-genererede via Imagine (xAI). Kilde: https://x.ai/ — forside (600 kW-lader), Leaf-agtig hatch i København, megawatt-ladestation, prototype-sedan (Xiaomi-vinkel), danske elbiler ved rådhus (afgifter), brugtvognsplads, familie ved rast-lader (essay). Ingen logo-hensigt; illustrative motiver. Se kredit under hvert billede.",

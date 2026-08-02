@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import Seo from '$lib/components/Seo.svelte';
+	import ArticleAudioPlayer from '$lib/components/ArticleAudioPlayer.svelte';
 	import TrendChart from '$lib/components/TrendChart.svelte';
 	import {
 		getArticleProgress,
@@ -180,6 +181,14 @@
 				<p class="standfirst">{data.article.standfirst}</p>
 			{/if}
 			<p class="byline">Af <strong>{data.article.byline}</strong></p>
+			{#if data.article.audio}
+				<ArticleAudioPlayer
+					audio={data.article.audio}
+					title={data.article.title}
+					magazine={data.magazine.name}
+					articlePath={path}
+				/>
+			{/if}
 		</header>
 
 		{#if data.article.image}

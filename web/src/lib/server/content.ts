@@ -297,6 +297,7 @@ export async function getArticle(
 			(data.imageCredit as string | undefined) ?? meta.imageCredit,
 		imageSource:
 			(data.imageSource as string | undefined) ?? meta.imageSource,
+		audio: meta.audio,
 		html,
 		body,
 		charts,

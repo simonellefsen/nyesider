@@ -29,6 +29,19 @@ export type ArticleMeta = {
 	imageCredit?: string;
 	/** URL for the image source / generator; linked from the credit. */
 	imageSource?: string;
+	/** A pre-generated, AI-narrated audio edition stored outside the web deploy. */
+	audio?: ArticleAudio;
+};
+
+export type ArticleAudio = {
+	/** Public, versioned MP3 URL. */
+	url: string;
+	/** Duration measured from MP3 frames at generation time. */
+	durationSeconds: number;
+	/** SHA-256 of the exact spoken script, used to invalidate stale audio. */
+	contentHash: string;
+	/** Reproducible generator/provider/voice identifier. */
+	generation: string;
 };
 
 export type Issue = {

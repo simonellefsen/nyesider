@@ -27,7 +27,13 @@
       "title": "Hvad holder lyset tændt",
       "section": "Leder",
       "byline": "Claude Fable 5",
-      "standfirst": "Velkommen til KRAFTEN — magasinet om elektrificering som system. Fra net og anlæg på Jorden til strøm i rummet."
+      "standfirst": "Velkommen til KRAFTEN — magasinet om elektrificering som system. Fra net og anlæg på Jorden til strøm i rummet.",
+      "audio": {
+        "url": "https://pub-b0c059a9743143be90d4b12d5a54fabf.r2.dev/articles/kraften/2026-08-nr1/leder/e6854211988e47d1dd5db1b84f119378d17cdc5c23e2ff23faa1e6a2018c14ea.mp3",
+        "durationSeconds": 139.7,
+        "contentHash": "e6854211988e47d1dd5db1b84f119378d17cdc5c23e2ff23faa1e6a2018c14ea",
+        "generation": "nyesider-tts-v1:openai:shimmer"
+      }
     },
     {
       "slug": "europa-mix",
@@ -36,7 +42,13 @@
       "title": "Europas elmix 2025: historisk krydsning",
       "section": "Lande & udbygning",
       "byline": "GPT-5.6 Terra (OpenAI)",
-      "standfirst": "Vind og sol overhalede fossil elproduktion i EU for første gang."
+      "standfirst": "Vind og sol overhalede fossil elproduktion i EU for første gang.",
+      "audio": {
+        "url": "https://pub-b0c059a9743143be90d4b12d5a54fabf.r2.dev/articles/kraften/2026-08-nr1/europa-mix/30bf56c53db3cfcdd7dbdacbd18dd470ccefc664ce4244acff3674a8023108cf.mp3",
+        "durationSeconds": 141.2,
+        "contentHash": "30bf56c53db3cfcdd7dbdacbd18dd470ccefc664ce4244acff3674a8023108cf",
+        "generation": "nyesider-tts-v1:openai:shimmer"
+      }
     },
     {
       "slug": "fission",
@@ -48,7 +60,13 @@
       "standfirst": "Klassisk atomkraft er beton, reaktortanke og årtier.",
       "image": "../images/kraften_atom.png",
       "imageCredit": "AI-genereret anlægsmotiv (Imagine / xAI)",
-      "imageSource": "https://x.ai/"
+      "imageSource": "https://x.ai/",
+      "audio": {
+        "url": "https://pub-b0c059a9743143be90d4b12d5a54fabf.r2.dev/articles/kraften/2026-08-nr1/fission/9dcbb34fc582fc1b4f04b9753f6010f441e218851d099dc338f24506655538e7.mp3",
+        "durationSeconds": 132.9,
+        "contentHash": "9dcbb34fc582fc1b4f04b9753f6010f441e218851d099dc338f24506655538e7",
+        "generation": "nyesider-tts-v1:openai:shimmer"
+      }
     },
     {
       "slug": "thorium",
@@ -57,7 +75,13 @@
       "title": "Thorium: Copenhagen Atomics og det konkrete spor",
       "section": "Atom",
       "byline": "Gemini 3.1 Pro (Google)",
-      "standfirst": "Et dansk firma vil masseproducere smeltet-salt-reaktorer på thorium. Hardware, tidslinje og det der mangler."
+      "standfirst": "Et dansk firma vil masseproducere smeltet-salt-reaktorer på thorium. Hardware, tidslinje og det der mangler.",
+      "audio": {
+        "url": "https://pub-b0c059a9743143be90d4b12d5a54fabf.r2.dev/articles/kraften/2026-08-nr1/thorium/210e67913627ac17e9538dad1194784eb9dabfdbc5bb6e92759424d7adc843ca.mp3",
+        "durationSeconds": 208.7,
+        "contentHash": "210e67913627ac17e9538dad1194784eb9dabfdbc5bb6e92759424d7adc843ca",
+        "generation": "nyesider-tts-v1:openai:shimmer"
+      }
     },
     {
       "slug": "fusion",
@@ -66,7 +90,13 @@
       "title": "Fusion: ITER, private demos og ærlig tid",
       "section": "Atom",
       "byline": "Grok 4.5 (xAI)",
-      "standfirst": "Nettoenergi i et forsøg er ikke strøm i stikkontakten."
+      "standfirst": "Nettoenergi i et forsøg er ikke strøm i stikkontakten.",
+      "audio": {
+        "url": "https://pub-b0c059a9743143be90d4b12d5a54fabf.r2.dev/articles/kraften/2026-08-nr1/fusion/6b77228454b14ee4138cd1ed27e56e43c9cede61354e18daefc4f1d4562c25fa.mp3",
+        "durationSeconds": 81,
+        "contentHash": "6b77228454b14ee4138cd1ed27e56e43c9cede61354e18daefc4f1d4562c25fa",
+        "generation": "nyesider-tts-v1:openai:shimmer"
+      }
     },
     {
       "slug": "gas",
@@ -78,7 +108,13 @@
       "standfirst": "LNG-terminaler er stadig europæisk virkelighed.",
       "image": "../images/kraften_gas.png",
       "imageCredit": "AI-genereret anlægsmotiv (Imagine / xAI)",
-      "imageSource": "https://x.ai/"
+      "imageSource": "https://x.ai/",
+      "audio": {
+        "url": "https://pub-b0c059a9743143be90d4b12d5a54fabf.r2.dev/articles/kraften/2026-08-nr1/gas/a0729050e5777f75a97f62475e849bf06e81992edf1112a08709567348f769b9.mp3",
+        "durationSeconds": 145.7,
+        "contentHash": "a0729050e5777f75a97f62475e849bf06e81992edf1112a08709567348f769b9",
+        "generation": "nyesider-tts-v1:openai:shimmer"
+      }
     },
     {
       "slug": "olie",
@@ -87,7 +123,13 @@
       "title": "Olie: stadig verdens blod — bare ikke i elstikket",
       "section": "Fossilt",
       "byline": "GLM-5.2 (Z.ai)",
-      "standfirst": "Transport, plastik og geopolitik hører til i et energimagasin."
+      "standfirst": "Transport, plastik og geopolitik hører til i et energimagasin.",
+      "audio": {
+        "url": "https://pub-b0c059a9743143be90d4b12d5a54fabf.r2.dev/articles/kraften/2026-08-nr1/olie/64ff30c271369f44bac9f7c72ea0649050c7251f7b69442c41c3e08f01eccef0.mp3",
+        "durationSeconds": 122.6,
+        "contentHash": "64ff30c271369f44bac9f7c72ea0649050c7251f7b69442c41c3e08f01eccef0",
+        "generation": "nyesider-tts-v1:openai:shimmer"
+      }
     },
     {
       "slug": "vind",
@@ -99,7 +141,13 @@
       "standfirst": "Installationsskibe, monopæle og forsyningskæde under pres.",
       "image": "../images/kraften_vind.png",
       "imageCredit": "AI-genereret anlægsmotiv (Imagine / xAI)",
-      "imageSource": "https://x.ai/"
+      "imageSource": "https://x.ai/",
+      "audio": {
+        "url": "https://pub-b0c059a9743143be90d4b12d5a54fabf.r2.dev/articles/kraften/2026-08-nr1/vind/c1caa2c6fc1f7c2d11b7cdcb303e9d2323a24ae3023e76ab40e42260b65b68ae.mp3",
+        "durationSeconds": 131.9,
+        "contentHash": "c1caa2c6fc1f7c2d11b7cdcb303e9d2323a24ae3023e76ab40e42260b65b68ae",
+        "generation": "nyesider-tts-v1:openai:shimmer"
+      }
     },
     {
       "slug": "sol",
@@ -111,7 +159,13 @@
       "standfirst": "LCOE falder. Systemomkostningerne stiger midt på dagen.",
       "image": "../images/kraften_sol.png",
       "imageCredit": "AI-genereret anlægsmotiv (Imagine / xAI)",
-      "imageSource": "https://x.ai/"
+      "imageSource": "https://x.ai/",
+      "audio": {
+        "url": "https://pub-b0c059a9743143be90d4b12d5a54fabf.r2.dev/articles/kraften/2026-08-nr1/sol/cbc45f9ca9944cf1c851452ba17ac216ef7478e81df013f763ec45dc75fa68d5.mp3",
+        "durationSeconds": 116.4,
+        "contentHash": "cbc45f9ca9944cf1c851452ba17ac216ef7478e81df013f763ec45dc75fa68d5",
+        "generation": "nyesider-tts-v1:openai:shimmer"
+      }
     },
     {
       "slug": "lagring",
@@ -123,7 +177,13 @@
       "standfirst": "Batterier ruller ud. Brint er sen. Pumpelagring er undervurderet.",
       "image": "../images/kraften_lagring.png",
       "imageCredit": "AI-genereret anlægsmotiv (Imagine / xAI)",
-      "imageSource": "https://x.ai/"
+      "imageSource": "https://x.ai/",
+      "audio": {
+        "url": "https://pub-b0c059a9743143be90d4b12d5a54fabf.r2.dev/articles/kraften/2026-08-nr1/lagring/32f2d6afdcea7e24b60e9aacc276a2a4a9b3653b8ca67b9fff8006d5df9ae2dd.mp3",
+        "durationSeconds": 131.8,
+        "contentHash": "32f2d6afdcea7e24b60e9aacc276a2a4a9b3653b8ca67b9fff8006d5df9ae2dd",
+        "generation": "nyesider-tts-v1:openai:shimmer"
+      }
     },
     {
       "slug": "danmark",
@@ -132,7 +192,13 @@
       "title": "Danmark: vindland med import og ambitioner",
       "section": "Lande & udbygning",
       "byline": "Qwen3.7 Max (Alibaba)",
-      "standfirst": "Høj vindandel, biomasse i varmen, elafgift under lempelse."
+      "standfirst": "Høj vindandel, biomasse i varmen, elafgift under lempelse.",
+      "audio": {
+        "url": "https://pub-b0c059a9743143be90d4b12d5a54fabf.r2.dev/articles/kraften/2026-08-nr1/danmark/f6a1b44c0384df69616cc42c8a5c2e929caa1eef0c0c85fdd19d3d0b57e5e5d0.mp3",
+        "durationSeconds": 101.7,
+        "contentHash": "f6a1b44c0384df69616cc42c8a5c2e929caa1eef0c0c85fdd19d3d0b57e5e5d0",
+        "generation": "nyesider-tts-v1:openai:shimmer"
+      }
     },
     {
       "slug": "lande",
@@ -141,7 +207,13 @@
       "title": "Tallet & landene: seks snapshots",
       "section": "Tallet",
       "byline": "DeepSeek V3.2 (DeepSeek)",
-      "standfirst": "Samme pejlemærker for EU, DK, FR, DE, US og Kina."
+      "standfirst": "Samme pejlemærker for EU, DK, FR, DE, US og Kina.",
+      "audio": {
+        "url": "https://pub-b0c059a9743143be90d4b12d5a54fabf.r2.dev/articles/kraften/2026-08-nr1/lande/b7b4d93d467ecffc98eb675aec46b9bb2e657b3cf70b121d6c0fd4665a32da20.mp3",
+        "durationSeconds": 34.5,
+        "contentHash": "b7b4d93d467ecffc98eb675aec46b9bb2e657b3cf70b121d6c0fd4665a32da20",
+        "generation": "nyesider-tts-v1:openai:shimmer"
+      }
     },
     {
       "slug": "ordbogen",
@@ -150,7 +222,13 @@
       "title": "Ordbogen",
       "section": "Ordbogen",
       "byline": "Qwen3.7 Max (Alibaba)",
-      "standfirst": "Tolv gloser til energinotatet."
+      "standfirst": "Tolv gloser til energinotatet.",
+      "audio": {
+        "url": "https://pub-b0c059a9743143be90d4b12d5a54fabf.r2.dev/articles/kraften/2026-08-nr1/ordbogen/78b9eedfb5d14ee4e2c19c714489bc7d546ed80e9abf086cefc038cde2eb6b90.mp3",
+        "durationSeconds": 97.5,
+        "contentHash": "78b9eedfb5d14ee4e2c19c714489bc7d546ed80e9abf086cefc038cde2eb6b90",
+        "generation": "nyesider-tts-v1:openai:shimmer"
+      }
     },
     {
       "slug": "rygteboersen",
@@ -159,7 +237,13 @@
       "title": "Rygtebørsen",
       "section": "Rygtebørsen",
       "byline": "Grok 4.3 (xAI)",
-      "standfirst": "Megawatt, ministerier og mirakler."
+      "standfirst": "Megawatt, ministerier og mirakler.",
+      "audio": {
+        "url": "https://pub-b0c059a9743143be90d4b12d5a54fabf.r2.dev/articles/kraften/2026-08-nr1/rygteboersen/0ecfdf819950e6f0f48e13c4dc09952a3672fad3a194f54e7b67f82caa4ba316.mp3",
+        "durationSeconds": 58.1,
+        "contentHash": "0ecfdf819950e6f0f48e13c4dc09952a3672fad3a194f54e7b67f82caa4ba316",
+        "generation": "nyesider-tts-v1:openai:shimmer"
+      }
     }
   ],
   "coverCredit": "AI-genereret forside (Imagine / xAI) — tema: Hvad holder lyset tændt",

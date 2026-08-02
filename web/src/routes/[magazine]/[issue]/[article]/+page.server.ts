@@ -72,6 +72,7 @@ export const load: PageServerLoad = async ({ params }) => {
 				image: articleImageUrl(params.magazine, params.issue, article.image),
 				imageCredit: article.imageCredit ?? null,
 				imageSource: article.imageSource ?? null,
+				audio: article.audio ?? null,
 				order: article.order
 			},
 			articles: enrichArticles(params.magazine, issue),

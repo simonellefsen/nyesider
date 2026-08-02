@@ -15,7 +15,11 @@
 		"preview": "vite preview",
 		"prepare": "svelte-kit sync || echo ''",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
-		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch"
+		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
+		"audio:samples": "node scripts/audio/generate.mjs samples",
+		"audio:article": "node scripts/audio/generate.mjs article",
+		"audio:issue": "node scripts/audio/generate.mjs issue",
+		"test:audio": "node --test scripts/audio/*.test.mjs"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-vercel": "^6.3.4",
@@ -39,6 +43,7 @@
 		"vite": "^8.0.16"
 	},
 	"dependencies": {
+		"@aws-sdk/client-s3": "^3.1101.0",
 		"@vercel/analytics": "^2.0.1"
 	}
 }

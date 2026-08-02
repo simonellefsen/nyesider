@@ -9,6 +9,8 @@ web/.svelte-kit/
 web/build/
 web/.vercel/
 web/static/content/
+artifacts/audio-samples/
+artifacts/audio-preview/
 .vercel/
 .venv/
 
