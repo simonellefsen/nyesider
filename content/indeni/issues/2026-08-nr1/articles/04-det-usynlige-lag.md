@@ -8,7 +8,7 @@ order: 4
 
 En aluminiumsdåse er ikke bare bart metal omkring en drik. Indersiden får normalt en meget tynd, hærdet **organisk polymerbelægning** — ofte kaldet lak eller liner — som adskiller drikken fra metallet. Den skal begrænse korrosion og metallisk bismag, men samtidig tåle dåsens formning, fyldning, transport og holdbarhedstid.
 
-Der findes derfor ikke én dåselak. Historisk har epoxybaserede belægninger været udbredt; den europæiske BPA-forordning beskriver netop BPA som råstof til epoxyresiner i lakker og coatings på metallisk fødevareemballage.[^1] Andre systemer omfatter blandt andet akryl-phenol- og polyesterbaserede belægninger. Et migrationsstudie sammenligner eksempelvis epoxy og akryl-phenol i vand, eddikesyre, ethanol og fedt-lignende testvæsker.[^2] Det er et godt billede på ingeniørens problem: belægningen testes mod den type kontakt, den skal kunne klare — ikke kun mod “en drik” i abstrakt forstand.
+Der findes derfor ikke én dåselak. Historisk har epoxybaserede belægninger været udbredt; den europæiske BPA-forordning beskriver netop **bisphenol A (BPA)** som råstof til epoxyresiner i lakker og coatings på metallisk fødevareemballage.[^1] Andre systemer omfatter blandt andet akryl-phenol- og polyesterbaserede belægninger. Et migrationsstudie sammenligner eksempelvis epoxy og akryl-phenol i vand, eddikesyre, ethanol og fedt-lignende testvæsker.[^2] Det er et godt billede på ingeniørens problem: belægningen testes mod den type kontakt, den skal kunne klare — ikke kun mod “en drik” i abstrakt forstand.
 
 ## Drikken er en del af specifikationen
 
