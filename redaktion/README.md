@@ -41,7 +41,7 @@ Redaktionel hukommelse for forlaget. Chefredaktør-agenten læser og opdaterer d
 
 | Formål | Fil | Variabel |
 |---|---|---|
-| OpenRouter pr. magasin | `.env.gnisten`, `.env.pulsen`, `.env.dosis`, `.env.spaending`, `.env.horisonten`, `.env.kulturboxen`, `.env.kraften`, `.env.orbit` | `OPENROUTER_API_KEY` |
+| OpenRouter pr. magasin | `.env.gnisten`, `.env.pulsen`, `.env.dosis`, `.env.spaending`, `.env.horisonten`, `.env.kulturboxen`, `.env.kraften`, `.env.orbit`, `.env.kronike` | `OPENROUTER_API_KEY` |
 | xAI Imagine (billeder) | `.env.local` | `XAI_API_KEY` |
 
 Skabelon: [`.env.example`](../.env.example). Alle `.env*` er gitignored. Webappen bruger **ingen** af nøglerne.

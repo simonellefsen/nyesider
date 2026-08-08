@@ -1,0 +1,28 @@
+{
+  "slug": "kronike",
+  "name": "KRØNIKE",
+  "tagline": "Danmarkshistorie med dybde — fra vikingetid til det 20. århundrede",
+  "language": "da",
+  "audience": "Nysgerrige danskere og nordisk interesserede, der vil forstå magt, tro, krig, migration, industri og mennesker mellem ca. 700 og 2000 — uden forudsætning om historikergrad",
+  "sections": [
+    "Leder",
+    "Tallet",
+    "Riget & grænser",
+    "Tro & kirke",
+    "Biografi",
+    "Krig & krise",
+    "Handel & industri",
+    "Social forandring",
+    "Migration",
+    "Videnskab & opfindelser",
+    "Internationalt",
+    "Myter & missforståelser"
+  ],
+  "theme": {
+    "colors": {
+      "primary": "#1C1410",
+      "accent": "#A67C52",
+      "highlight": "#8B3A3A"
+    }
+  }
+}
