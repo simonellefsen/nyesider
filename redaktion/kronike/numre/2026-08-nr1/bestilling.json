@@ -242,15 +242,15 @@
         "fallback": null
       },
       "receipt": {
-        "words": 423,
-        "costUSD": null,
-        "draft": null
+        "words": 846,
+        "costUSD": 0.03,
+        "draft": "kladder/07-oresundstold.md"
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-08",
         "citations": 3,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "editorNote": "REELT kommissioneret hos openai/gpt-5.6-terra paa .env.kronike. Velskrevet og staerk paa toldregnskaberne som kilde. To rettelser, den ene vaesentlig: kladden paastod at USA indgik 'en saerskilt aftale' med Danmark i 1857 — det modsatte er sandt. Amerikansk pres tvang den multilaterale traktat frem: USA erklaerede fra 1855 at ville stoppe med at betale og kaldte afgiften «en paatvungen tribut af en uretmaessig og fuldkommen barbarisk art». Den rigtige historie er baade sand og bedre, og staar nu i artiklen. Fodnoten pegede paa en doed state.gov-side (404) — erstattet. Tilfoejet verificerede tal, kladden manglede: ca. 10 % af statens indtaegter omkring 1800, afloesningssummen som tolv aars toldindtaegter, afgiftens udvikling (1 nobel 1429, 1/30 af vinen ca. 1500, 1 % af lasten 1548, laestetold 1567)."
       }
     },
     {
@@ -277,15 +277,15 @@
         "fallback": null
       },
       "receipt": {
-        "words": 346,
-        "costUSD": null,
-        "draft": null
+        "words": 861,
+        "costUSD": 0.03,
+        "draft": "kladder/08-landboreformer.md"
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-08",
         "citations": 2,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "editorNote": "REELT kommissioneret hos anthropic/claude-sonnet-5 paa .env.kronike. Kladden var disciplineret og markerede selv sin faestebonde som 'taenkt, men typisk' — praecis den aerlighed, husreglen kraever, i stedet for at opfinde en navngiven person. Rettelse: stavnsbaandet omfattede i 1788 IKKE 14-36-aarige (det var den oprindelige afgraensning fra 1733) men aldersgruppen 4-40 aar. Det er artiklens staerkeste enkeltfakta og aabner den nu. Tilfoejet det praecise udfasningsmaskineri og forordningens eget citat om, at friheden 'stedse skal vaere uigenkaldelig'. A.P. Bernstorff tilfoejet blandt ophavsmaendene."
       }
     },
     {
