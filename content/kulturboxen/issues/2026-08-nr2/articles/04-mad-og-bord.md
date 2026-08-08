@@ -9,7 +9,7 @@ imageCredit: "AI-genereret motiv (Imagine / xAI)"
 imageSource: "https://x.ai/"
 ---
 
-Sydtyrolsk mad er **ikke “italiensk mad med sne”**. Det er røget **speck**, knödel, schlutzkrapfen, polenta i nogle dale, og så *alligevel* en espresso, der smager af Padan-sletten mere end af Wien.
+Sydtyrolsk mad er **ikke “italiensk mad med sne”**. Det er røget **speck** (lokal skinke-/røget-kød-tradition), **knödel** / *canederli* (boller af brød eller kartoffel), schlutzkrapfen, polenta i nogle dale, og så *alligevel* en espresso, der smager af Padan-sletten mere end af Wien.
 
 ### Bordets regler
 

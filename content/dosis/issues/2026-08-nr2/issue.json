@@ -123,21 +123,9 @@
       "imageSource": "https://x.ai/"
     },
     {
-      "slug": "ordbogen",
-      "file": "articles/09-ordbogen.md",
-      "order": 9,
-      "title": "Ordbogen",
-      "section": "Ordbogen",
-      "byline": "Gemini 3.5 Flash (Google)",
-      "standfirst": "GLP-1, indikation, seponering, sarkopeni.",
-      "image": "../images/dosis_ordbog.png",
-      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
-      "imageSource": "https://x.ai/"
-    },
-    {
       "slug": "rygteboersen",
-      "file": "articles/10-rygteboersen.md",
-      "order": 10,
+      "file": "articles/09-rygteboersen.md",
+      "order": 9,
       "title": "Rygtebørsen",
       "section": "Rygtebørsen",
       "byline": "Qwen3.7 Max (Alibaba)",
@@ -148,8 +136,8 @@
     },
     {
       "slug": "til-pulsen",
-      "file": "articles/11-til-pulsen.md",
-      "order": 11,
+      "file": "articles/10-til-pulsen.md",
+      "order": 10,
       "title": "Når stikket bliver en journal",
       "section": "Kryds (PULSEN m.fl.)",
       "byline": "Claude Fable 5",

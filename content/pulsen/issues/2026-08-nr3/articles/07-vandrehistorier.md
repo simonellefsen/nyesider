@@ -21,3 +21,9 @@ Orgchart spiser roadmap til morgenmad.
 
 **“Patienten spurgte, om robotten også fik kaffeordning.”**  
 Humor er overlevelse. Svaret var nej — endnu.
+
+**“Vi sparede otte minutter på kladden og brugte ni på at rette ‘patienten nægter’ til ‘patienten afviser’.”**  
+Ret-tid er også tid.
+
+**“Leverandøren kaldte det ‘i drift’. Vi kaldte det ‘tændt i to ambulatorier om tirsdagen’.”**  
+Ord betyder noget. Især i styregruppen.

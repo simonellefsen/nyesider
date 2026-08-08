@@ -4,13 +4,13 @@
   "issueTheme": "Tre sprog, ét plateau",
   "retrofitNote": "Bestilling skrevet ved publicering (editor-led produktion). receipt.words talt fra publiceret tekst.",
   "budget": {
-    "articles": 13,
+    "articles": 12,
     "wordsPerArticle": [
       50,
       400
     ],
     "targetPages": 12,
-    "note": "Sydtyrol søster til HORISONTEN Dolomit; 13 artikler."
+    "note": "Sydtyrol søster til HORISONTEN Dolomit; 13 artikler. Ordbogen dropped 2026-08-08 — inline glosses only."
   },
   "opgaver": [
     {
@@ -315,7 +315,7 @@
     },
     {
       "slug": "ordbogen",
-      "order": 11,
+      "order": 99,
       "section": "Ordbogen",
       "brief": {
         "angle": "Südtirol, ladinsk, speck.",
@@ -337,15 +337,15 @@
         "draft": null
       },
       "verdict": {
-        "status": "accepted-after-edit",
+        "status": "rejected",
         "checkedAt": "2026-08-08",
         "citations": 0,
-        "editorNote": "Editor-led batch 2026-08-08; fact-check pejlemærker med forbehold."
+        "editorNote": "Ordbogen dropped house-wide for this issue: explain acronyms/concepts with parentheses and footnotes in features instead."
       }
     },
     {
       "slug": "myter",
-      "order": 12,
+      "order": 11,
       "section": "Myter",
       "brief": {
         "angle": "Det postkortet glemmer.",
@@ -375,7 +375,7 @@
     },
     {
       "slug": "til-horisonten",
-      "order": 13,
+      "order": 12,
       "section": "Kryds (HORISONTEN)",
       "brief": {
         "angle": "Bro til Dolomit-nummeret.",

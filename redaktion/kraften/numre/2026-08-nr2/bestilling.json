@@ -4,13 +4,13 @@
   "issueTheme": "Strøm overalt",
   "retrofitNote": "Bestilling skrevet ved publicering (editor-led produktion). receipt.words talt fra publiceret tekst.",
   "budget": {
-    "articles": 14,
+    "articles": 13,
     "wordsPerArticle": [
-      50,
-      400
+      80,
+      750
     ],
     "targetPages": 12,
-    "note": "Global elektrificering + rumkraft; 14 artikler fra notesplan."
+    "note": "Depth pass 2026-08-08: features expanded after thin first cut; Indien prose rewrite; Sverige NBP+fleet. Ordbogen dropped 2026-08-08 — inline glosses only."
   },
   "opgaver": [
     {
@@ -21,7 +21,7 @@
         "angle": "Elektrificering jorden rundt — og watt i rummet.",
         "words": [
           80,
-          200
+          220
         ],
         "mustCite": 0,
         "format": "leder"
@@ -32,15 +32,15 @@
         "fallback": null
       },
       "receipt": {
-        "words": 102,
+        "words": 161,
         "costUSD": null,
         "draft": null
       },
       "verdict": {
-        "status": "accepted",
+        "status": "accepted-after-edit",
         "checkedAt": "2026-08-08",
         "citations": 0,
-        "editorNote": "Editor-led batch 2026-08-08; fact-check pejlemærker med forbehold."
+        "editorNote": "Expanded with issue map and Sverige/NBP pointer."
       }
     },
     {
@@ -50,8 +50,8 @@
       "brief": {
         "angle": "Elens andel af endelig energi.",
         "words": [
-          150,
-          400
+          200,
+          450
         ],
         "mustCite": 3,
         "format": "tallet"
@@ -62,7 +62,7 @@
         "fallback": "deepseek/deepseek-v3.2"
       },
       "receipt": {
-        "words": 164,
+        "words": 349,
         "costUSD": null,
         "draft": null
       },
@@ -70,7 +70,7 @@
         "status": "accepted-after-edit",
         "checkedAt": "2026-08-08",
         "citations": 3,
-        "editorNote": "Editor-led batch 2026-08-08; fact-check pejlemærker med forbehold."
+        "editorNote": "Expanded three-number rule and gap table."
       }
     },
     {
@@ -78,10 +78,10 @@
       "order": 3,
       "section": "Lande & udbygning",
       "brief": {
-        "angle": "EV, industri og GW-tempo.",
+        "angle": "Kina som elektrificeringsmaskine: EV, industri, GW — kul i parallel.",
         "words": [
-          80,
-          350
+          250,
+          500
         ],
         "mustCite": 0,
         "format": "feature"
@@ -92,15 +92,15 @@
         "fallback": "deepseek/deepseek-v3.2"
       },
       "receipt": {
-        "words": 139,
+        "words": 364,
         "costUSD": null,
         "draft": null
       },
       "verdict": {
-        "status": "accepted-after-edit",
+        "status": "rewritten-by-editor",
         "checkedAt": "2026-08-08",
         "citations": 0,
-        "editorNote": "Editor-led batch 2026-08-08; fact-check pejlemærker med forbehold."
+        "editorNote": "Depth pass: parallel capacity, three read-rules, cross-links."
       }
     },
     {
@@ -108,12 +108,12 @@
       "order": 4,
       "section": "Lande & udbygning",
       "brief": {
-        "angle": "Første stik og aften-top.",
+        "angle": "Indien/globalt syd: adgang, peak demand, delvist leapfrog — prosa, ikke redaktionsnoter.",
         "words": [
-          80,
-          350
+          350,
+          650
         ],
-        "mustCite": 0,
+        "mustCite": 3,
         "format": "feature"
       },
       "writer": {
@@ -122,15 +122,15 @@
         "fallback": "deepseek/deepseek-v3.2"
       },
       "receipt": {
-        "words": 115,
+        "words": 652,
         "costUSD": null,
         "draft": null
       },
       "verdict": {
-        "status": "accepted-after-edit",
+        "status": "rewritten-by-editor",
         "checkedAt": "2026-08-08",
-        "citations": 0,
-        "editorNote": "Editor-led batch 2026-08-08; fact-check pejlemærker med forbehold."
+        "citations": 5,
+        "editorNote": "Removed Læseregler meta-box; full prose feature with access/peak/leapfrog + IEA/Ember pejlemærker."
       }
     },
     {
@@ -140,8 +140,8 @@
       "brief": {
         "angle": "EU vs USA electrification; explain Fit for 55 and IRA for non-specialist readers.",
         "words": [
-          80,
-          350
+          250,
+          500
         ],
         "mustCite": 2,
         "format": "feature"
@@ -152,7 +152,7 @@
         "fallback": "deepseek/deepseek-v3.2"
       },
       "receipt": {
-        "words": 119,
+        "words": 380,
         "costUSD": null,
         "draft": null
       },
@@ -160,7 +160,7 @@
         "status": "accepted-after-edit",
         "checkedAt": "2026-08-08",
         "citations": 2,
-        "editorNote": "Editor pushback: Fit for 55 and IRA expanded on first mention with footnotes."
+        "editorNote": "Slight expansion; Fit for 55/IRA already glossed; cross-links to net and Sverige."
       }
     },
     {
@@ -170,8 +170,8 @@
       "brief": {
         "angle": "Kabler tager år.",
         "words": [
-          80,
-          350
+          250,
+          500
         ],
         "mustCite": 1,
         "format": "feature"
@@ -182,7 +182,7 @@
         "fallback": "deepseek/deepseek-v3.2"
       },
       "receipt": {
-        "words": 144,
+        "words": 377,
         "costUSD": null,
         "draft": null
       },
@@ -190,7 +190,7 @@
         "status": "accepted-after-edit",
         "checkedAt": "2026-08-08",
         "citations": 1,
-        "editorNote": "Explained PJM-agtige køer as US interconnection queues, not jargon drop."
+        "editorNote": "Expanded with DK context and clearer structure."
       }
     },
     {
@@ -200,8 +200,8 @@
       "brief": {
         "angle": "Timer vs. sæson.",
         "words": [
-          80,
-          350
+          250,
+          500
         ],
         "mustCite": 0,
         "format": "feature"
@@ -212,15 +212,15 @@
         "fallback": "deepseek/deepseek-v3.2"
       },
       "receipt": {
-        "words": 137,
+        "words": 377,
         "costUSD": null,
         "draft": null
       },
       "verdict": {
-        "status": "accepted-after-edit",
+        "status": "rewritten-by-editor",
         "checkedAt": "2026-08-08",
         "citations": 0,
-        "editorNote": "Editor-led batch 2026-08-08; fact-check pejlemærker med forbehold."
+        "editorNote": "Depth pass: BESS gloss, MW/MWh/systemydelser, sæson vs timer."
       }
     },
     {
@@ -230,8 +230,8 @@
       "brief": {
         "angle": "Watt i kredsløb.",
         "words": [
-          80,
-          350
+          250,
+          450
         ],
         "mustCite": 0,
         "format": "feature"
@@ -242,15 +242,15 @@
         "fallback": "deepseek/deepseek-v3.2"
       },
       "receipt": {
-        "words": 147,
+        "words": 305,
         "costUSD": null,
         "draft": null
       },
       "verdict": {
-        "status": "accepted-after-edit",
+        "status": "rewritten-by-editor",
         "checkedAt": "2026-08-08",
         "citations": 0,
-        "editorNote": "Editor-led batch 2026-08-08; fact-check pejlemærker med forbehold."
+        "editorNote": "Depth pass: eclipse, thermal, effect classes, SBSP distinction."
       }
     },
     {
@@ -260,8 +260,8 @@
       "brief": {
         "angle": "RTG og fission surface power.",
         "words": [
-          80,
-          350
+          250,
+          450
         ],
         "mustCite": 0,
         "format": "feature"
@@ -272,15 +272,15 @@
         "fallback": "google/gemini-3.5-flash"
       },
       "receipt": {
-        "words": 126,
+        "words": 328,
         "costUSD": null,
         "draft": null
       },
       "verdict": {
-        "status": "accepted-after-edit",
+        "status": "rewritten-by-editor",
         "checkedAt": "2026-08-08",
         "citations": 0,
-        "editorNote": "Editor-led batch 2026-08-08; fact-check pejlemærker med forbehold."
+        "editorNote": "Depth pass: RTG full gloss, fission surface power status rule."
       }
     },
     {
@@ -290,8 +290,8 @@
       "brief": {
         "angle": "Demonstratorer tæller.",
         "words": [
-          80,
-          350
+          250,
+          450
         ],
         "mustCite": 0,
         "format": "feature"
@@ -302,15 +302,15 @@
         "fallback": "deepseek/deepseek-v3.2"
       },
       "receipt": {
-        "words": 137,
+        "words": 281,
         "costUSD": null,
         "draft": null
       },
       "verdict": {
-        "status": "accepted-after-edit",
+        "status": "rewritten-by-editor",
         "checkedAt": "2026-08-08",
         "citations": 0,
-        "editorNote": "Editor-led batch 2026-08-08; fact-check pejlemærker med forbehold."
+        "editorNote": "Depth pass: LCOE, accept/reject criteria, same MW discipline as atom."
       }
     },
     {
@@ -320,8 +320,8 @@
       "brief": {
         "angle": "Samme indikatorer, forskellige virkeligheder.",
         "words": [
-          80,
-          350
+          200,
+          450
         ],
         "mustCite": 0,
         "format": "feature"
@@ -332,15 +332,15 @@
         "fallback": "minimax/minimax-m3"
       },
       "receipt": {
-        "words": 148,
+        "words": 298,
         "costUSD": null,
         "draft": null
       },
       "verdict": {
-        "status": "accepted-after-edit",
+        "status": "rewritten-by-editor",
         "checkedAt": "2026-08-08",
         "citations": 0,
-        "editorNote": "Editor-led batch 2026-08-08; fact-check pejlemærker med forbehold."
+        "editorNote": "Expanded how-to-use table and what it does not claim."
       }
     },
     {
@@ -348,12 +348,12 @@
       "order": 12,
       "section": "Atom",
       "brief": {
-        "angle": "Sverige atom: skeln politik/ansøgning/investering/byggeri/drift — ikke pressemeddelelses-MW.",
+        "angle": "Sverige atom: nuværende flåde (6 reaktorer, andel) + Nordic Baseload Power/Barsebäck ansøgning + lag politik→MW.",
         "words": [
-          80,
-          350
+          400,
+          750
         ],
-        "mustCite": 0,
+        "mustCite": 3,
         "format": "feature"
       },
       "writer": {
@@ -362,20 +362,20 @@
         "fallback": "deepseek/deepseek-v3.2"
       },
       "receipt": {
-        "words": 154,
+        "words": 775,
         "costUSD": null,
         "draft": null
       },
       "verdict": {
         "status": "rewritten-by-editor",
         "checkedAt": "2026-08-08",
-        "citations": 0,
-        "editorNote": "Rewritten from draft-like notes into finished feature; moved before bagsnit (was after rygtebørs)."
+        "citations": 3,
+        "editorNote": "Fleet: 6 reactors ~7011 MWe, ~29% el 2024; Nordic Baseload Power 2x~2500 MWe Barsebäck state-aid June 2026; lag table retained."
       }
     },
     {
       "slug": "ordbogen",
-      "order": 13,
+      "order": 99,
       "section": "Ordbogen",
       "brief": {
         "angle": "Electrification rate, RTG, BESS.",
@@ -397,15 +397,15 @@
         "draft": null
       },
       "verdict": {
-        "status": "accepted-after-edit",
+        "status": "rejected",
         "checkedAt": "2026-08-08",
         "citations": 0,
-        "editorNote": "Editor-led batch 2026-08-08; fact-check pejlemærker med forbehold."
+        "editorNote": "Ordbogen dropped house-wide for this issue: explain acronyms/concepts with parentheses and footnotes in features instead."
       }
     },
     {
       "slug": "rygteboersen",
-      "order": 14,
+      "order": 13,
       "section": "Rygtebørsen",
       "brief": {
         "angle": "Spekulativt.",

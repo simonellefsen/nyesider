@@ -4,13 +4,13 @@
   "issueTheme": "Appetitten under kontrol",
   "retrofitNote": "Bestilling udfyldt ved publicering 2026-08-08. Flere features er korte (batch-pres); tallet udvidet med kildetabel. mustCite bevidst 0 på hype/wearables/bagsnit.",
   "budget": {
-    "articles": 11,
+    "articles": 10,
     "wordsPerArticle": [
       100,
       350
     ],
     "targetPages": 12,
-    "note": "Smaller than nr.1 (14); fokus GLP-1-pakke. Depth trade: Tallet + ernæring prioriteret over bagatel-features."
+    "note": "Smaller than nr.1 (14); fokus GLP-1-pakke. Depth trade: Tallet + ernæring prioriteret over bagatel-features. Ordbogen dropped 2026-08-08 — inline glosses only."
   },
   "opgaver": [
     {
@@ -255,7 +255,7 @@
     },
     {
       "slug": "ordbogen",
-      "order": 9,
+      "order": 99,
       "section": "Ordbogen",
       "brief": {
         "angle": "GLP-1-ordbog.",
@@ -277,15 +277,15 @@
         "draft": null
       },
       "verdict": {
-        "status": "accepted-after-edit",
+        "status": "rejected",
         "checkedAt": "2026-08-08",
         "citations": 0,
-        "editorNote": "Editor-produceret under ugentlig batch; fact-check forbehold om indikation/recept."
+        "editorNote": "Ordbogen dropped house-wide for this issue: explain acronyms/concepts with parentheses and footnotes in features instead."
       }
     },
     {
       "slug": "rygteboersen",
-      "order": 10,
+      "order": 9,
       "section": "Rygtebørsen",
       "brief": {
         "angle": "Spekulativ hype-kolonne.",
@@ -315,7 +315,7 @@
     },
     {
       "slug": "til-pulsen",
-      "order": 11,
+      "order": 10,
       "section": "Kryds (PULSEN m.fl.)",
       "brief": {
         "angle": "Bro til PULSEN for system/klinik.",

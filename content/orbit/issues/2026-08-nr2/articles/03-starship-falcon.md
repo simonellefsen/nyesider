@@ -9,7 +9,7 @@ imageCredit: "AI-genereret motiv (Imagine / xAI)"
 imageSource: "https://x.ai/"
 ---
 
-**Falcon 9** er den maskine, der gjorde kadence til en industri: genbrugelige first stages, tætte opsendelsesvinduer, og manifests der i praksis ofte er **Starlink-genopfyldning** plus rideshare. Når pressen skriver “SpaceX opsendte igen”, er det oftest denne rytme — ikke en Mars-demo.
+**Falcon 9** er den maskine, der gjorde kadence til en industri: genbrugelige first stages, tætte opsendelsesvinduer, og **manifests** (listen over payloads på en given opsendelse) der i praksis ofte er **Starlink-genopfyldning** plus rideshare. Når pressen skriver “SpaceX opsendte igen”, er det oftest denne rytme — ikke en Mars-demo.
 
 **Starship** er den anden historie: større masse til bane, tankning i kredsløb som forudsætning for dybe missioner, og en testkampagne hvor **hver flyvning er data**, ikke en færdig produktfolder. Planlagte manifests — blandt andet **NASA**’s (*National Aeronautics and Space Administration*) **HLS** (*Human Landing System*, det bemandede landingsfartøj til Artemis-måneprogrammet) og kommercielle payloads — er reelle kontrakter. Men **planlagt er ikke opsendt**.
 

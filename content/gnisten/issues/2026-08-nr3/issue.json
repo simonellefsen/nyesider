@@ -108,21 +108,9 @@
       "imageSource": "https://x.ai/"
     },
     {
-      "slug": "ordbogen",
-      "file": "articles/08-ordbogen.md",
-      "order": 8,
-      "title": "Ordbogen",
-      "section": "Ordbogen",
-      "byline": "Gemini 3.5 Flash (Google)",
-      "standfirst": "Gemini, Ollama, agent, MCP.",
-      "image": "../images/gnisten_ordbog.png",
-      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
-      "imageSource": "https://x.ai/"
-    },
-    {
       "slug": "sladder",
-      "file": "articles/09-sladder.md",
-      "order": 9,
+      "file": "articles/08-sladder.md",
+      "order": 8,
       "title": "Sladder fra serverrummet",
       "section": "Sladder",
       "byline": "Grok 4.3 (xAI)",

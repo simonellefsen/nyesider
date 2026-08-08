@@ -4,13 +4,13 @@
   "issueTheme": "Når driften taler",
   "retrofitNote": "Written at publish time 2026-08-08.",
   "budget": {
-    "articles": 9,
+    "articles": 8,
     "wordsPerArticle": [
-      60,
-      400
+      100,
+      750
     ],
     "targetPages": 12,
-    "note": "9 arts: ambient drift, region fusion, Corti, farmakogenomik, ergo, bagsnit."
+    "note": "8 arts after Rygtebørsen drop; Corti replaced by europa-ai; depth pass on features."
   },
   "opgaver": [
     {
@@ -18,10 +18,10 @@
       "order": 1,
       "section": "Leder",
       "brief": {
-        "angle": "Ambient i drift, fusioner og det, klinikken mærker.",
+        "angle": "Drift, fusioner, international AI — ingen rygtebørs.",
         "words": [
-          100,
-          250
+          80,
+          200
         ],
         "mustCite": 0,
         "format": "leder"
@@ -32,15 +32,15 @@
         "fallback": null
       },
       "receipt": {
-        "words": 105,
+        "words": 143,
         "costUSD": null,
         "draft": null
       },
       "verdict": {
-        "status": "accepted",
+        "status": "rewritten-by-editor",
         "checkedAt": "2026-08-08",
         "citations": 0,
-        "editorNote": "Editor-led batch; finished prose; jargon first-mention; features before bagsnit."
+        "editorNote": "Depth pass 2026-08-08; Corti replaced; Rygtebørsen removed house-wide for PULSEN."
       }
     },
     {
@@ -48,10 +48,10 @@
       "order": 2,
       "section": "Feature · Ambient AI",
       "brief": {
-        "angle": "Ret-tid vs. sparet tid.",
+        "angle": "Ret-tid vs sparet tid; måletabel; EPJ/MDR.",
         "words": [
-          150,
-          400
+          300,
+          550
         ],
         "mustCite": 0,
         "format": "feature"
@@ -62,15 +62,15 @@
         "fallback": "deepseek/deepseek-v3.2"
       },
       "receipt": {
-        "words": 136,
+        "words": 311,
         "costUSD": null,
         "draft": null
       },
       "verdict": {
-        "status": "accepted-after-edit",
+        "status": "rewritten-by-editor",
         "checkedAt": "2026-08-08",
         "citations": 0,
-        "editorNote": "Editor-led batch; finished prose; jargon first-mention; features before bagsnit."
+        "editorNote": "Depth pass 2026-08-08; Corti replaced; Rygtebørsen removed house-wide for PULSEN."
       }
     },
     {
@@ -78,10 +78,10 @@
       "order": 3,
       "section": "Analyse · Systemer",
       "brief": {
-        "angle": "Kontrakt, prioritet, superbrugere.",
+        "angle": "Kontrakt, prioritet, superbrugere, stopdato under omorganisering.",
         "words": [
-          150,
-          400
+          300,
+          550
         ],
         "mustCite": 0,
         "format": "feature"
@@ -92,28 +92,28 @@
         "fallback": "deepseek/deepseek-v3.2"
       },
       "receipt": {
-        "words": 121,
+        "words": 313,
         "costUSD": null,
         "draft": null
       },
       "verdict": {
-        "status": "accepted-after-edit",
+        "status": "rewritten-by-editor",
         "checkedAt": "2026-08-08",
         "citations": 0,
-        "editorNote": "Editor-led batch; finished prose; jargon first-mention; features before bagsnit."
+        "editorNote": "Depth pass 2026-08-08; Corti replaced; Rygtebørsen removed house-wide for PULSEN."
       }
     },
     {
-      "slug": "corti",
+      "slug": "europa-ai",
       "order": 4,
       "section": "Analyse · Marked",
       "brief": {
-        "angle": "IPO er governance, ikke produkt.",
+        "angle": "AI i sundhed uden for DK: Europa (offentlig/AI Act/EHDS), USA (privat/FDA), Asien (tempo + kildekritik). Ikke Corti-gentagelse.",
         "words": [
-          150,
-          400
+          400,
+          750
         ],
-        "mustCite": 0,
+        "mustCite": 3,
         "format": "feature"
       },
       "writer": {
@@ -122,15 +122,15 @@
         "fallback": "deepseek/deepseek-v3.2"
       },
       "receipt": {
-        "words": 123,
+        "words": 843,
         "costUSD": null,
         "draft": null
       },
       "verdict": {
-        "status": "accepted-after-edit",
+        "status": "rewritten-by-editor",
         "checkedAt": "2026-08-08",
-        "citations": 0,
-        "editorNote": "Editor-led batch; finished prose; jargon first-mention; features before bagsnit."
+        "citations": 6,
+        "editorNote": "Replaced no-story Corti IPO recap with international AI-in-healthcare feature (EU/US/Asia)."
       }
     },
     {
@@ -138,10 +138,10 @@
       "order": 5,
       "section": "Feature · Klinik",
       "brief": {
-        "angle": "Beslutningsstøtte, ikke webshop.",
+        "angle": "Spytprøve er ikke recept; system/rekvisition/journal.",
         "words": [
-          150,
-          400
+          300,
+          550
         ],
         "mustCite": 0,
         "format": "feature"
@@ -152,15 +152,15 @@
         "fallback": "deepseek/deepseek-v3.2"
       },
       "receipt": {
-        "words": 125,
+        "words": 289,
         "costUSD": null,
         "draft": null
       },
       "verdict": {
-        "status": "accepted-after-edit",
+        "status": "rewritten-by-editor",
         "checkedAt": "2026-08-08",
         "citations": 0,
-        "editorNote": "Editor-led batch; finished prose; jargon first-mention; features before bagsnit."
+        "editorNote": "Depth pass 2026-08-08; Corti replaced; Rygtebørsen removed house-wide for PULSEN."
       }
     },
     {
@@ -168,10 +168,10 @@
       "order": 6,
       "section": "Nyt fra ergoterapien",
       "brief": {
-        "angle": "Timer, hjælpemidler, dokumentation.",
+        "angle": "OK vs tid, hjælpemidler, dokumentation.",
         "words": [
-          70,
-          200
+          300,
+          550
         ],
         "mustCite": 0,
         "format": "feature"
@@ -182,15 +182,15 @@
         "fallback": "deepseek/deepseek-v3.2"
       },
       "receipt": {
-        "words": 86,
+        "words": 236,
         "costUSD": null,
         "draft": null
       },
       "verdict": {
-        "status": "accepted-after-edit",
+        "status": "rewritten-by-editor",
         "checkedAt": "2026-08-08",
         "citations": 0,
-        "editorNote": "Editor-led batch; finished prose; jargon first-mention; features before bagsnit."
+        "editorNote": "Depth pass 2026-08-08; Corti replaced; Rygtebørsen removed house-wide for PULSEN."
       }
     },
     {
@@ -198,13 +198,13 @@
       "order": 7,
       "section": "Vandrehistorier fra vagtstuen",
       "brief": {
-        "angle": "Anonymiseret genkendelse.",
+        "angle": "Anonymiserede vagtstue-historier.",
         "words": [
-          60,
-          200
+          100,
+          250
         ],
         "mustCite": 0,
-        "format": "bagsnit"
+        "format": "vandrehistorier"
       },
       "writer": {
         "byline": "Llama 4 Maverick (Meta)",
@@ -212,50 +212,20 @@
         "fallback": "deepseek/deepseek-v3.2"
       },
       "receipt": {
-        "words": 65,
+        "words": 106,
         "costUSD": null,
         "draft": null
       },
       "verdict": {
-        "status": "accepted-after-edit",
+        "status": "rewritten-by-editor",
         "checkedAt": "2026-08-08",
         "citations": 0,
-        "editorNote": "Editor-led batch; finished prose; jargon first-mention; features before bagsnit."
-      }
-    },
-    {
-      "slug": "rygteboersen",
-      "order": 8,
-      "section": "Rygtebørsen",
-      "brief": {
-        "angle": "Spekulativt.",
-        "words": [
-          60,
-          200
-        ],
-        "mustCite": 0,
-        "format": "bagsnit"
-      },
-      "writer": {
-        "byline": "Grok 4.3 (xAI)",
-        "model": "x-ai/grok-4.3",
-        "fallback": "deepseek/deepseek-v3.2"
-      },
-      "receipt": {
-        "words": 72,
-        "costUSD": null,
-        "draft": null
-      },
-      "verdict": {
-        "status": "accepted-after-edit",
-        "checkedAt": "2026-08-08",
-        "citations": 0,
-        "editorNote": "Editor-led batch; finished prose; jargon first-mention; features before bagsnit."
+        "editorNote": "Depth pass 2026-08-08; Corti replaced; Rygtebørsen removed house-wide for PULSEN."
       }
     },
     {
       "slug": "sjov-og-spil",
-      "order": 9,
+      "order": 8,
       "section": "Sjov og spil",
       "brief": {
         "angle": "MDR, EHDS, ambient.",
@@ -280,7 +250,67 @@
         "status": "accepted-after-edit",
         "checkedAt": "2026-08-08",
         "citations": 0,
-        "editorNote": "Editor-led batch; finished prose; jargon first-mention; features before bagsnit."
+        "editorNote": "Renumbered after Rygtebørsen removal."
+      }
+    },
+    {
+      "slug": "corti",
+      "order": 99,
+      "section": "Analyse · Marked",
+      "brief": {
+        "angle": "Corti IPO status — killed as no-story.",
+        "words": [
+          80,
+          200
+        ],
+        "mustCite": 0,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "Mistral Large (Mistral AI)",
+        "model": "mistralai/mistral-large",
+        "fallback": null
+      },
+      "receipt": {
+        "words": 0,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "rejected",
+        "checkedAt": "2026-08-08",
+        "citations": 0,
+        "editorNote": "No-story repeat; replaced by europa-ai international AI healthcare feature."
+      }
+    },
+    {
+      "slug": "rygteboersen",
+      "order": 99,
+      "section": "Rygtebørsen",
+      "brief": {
+        "angle": "Spekulativt.",
+        "words": [
+          50,
+          150
+        ],
+        "mustCite": 0,
+        "format": "rygteboersen"
+      },
+      "writer": {
+        "byline": "Grok 4.3 (xAI)",
+        "model": "x-ai/grok-4.3",
+        "fallback": null
+      },
+      "receipt": {
+        "words": 0,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "rejected",
+        "checkedAt": "2026-08-08",
+        "citations": 0,
+        "editorNote": "Rygtebørsen dropped permanently for PULSEN; use footnotes/forbehold in features."
       }
     }
   ]

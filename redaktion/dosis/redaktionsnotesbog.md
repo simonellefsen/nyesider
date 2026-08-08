@@ -10,14 +10,14 @@ Longevity, ernæring/kost, tilskud, proteser/implantater, **wearables & hjemmete
 
 ## Format
 
-- **Artikeltal:** 14 (nr. 1), 11 (nr. 2 — strammere GLP-1-pakke). Faste: Leder · features · Tallet · Ordbogen · Rygtebørsen · Til PULSEN.
+- **Artikeltal:** 14 (nr. 1), 10 (nr. 2 efter Ordbogen droppet). Faste: Leder · features · Tallet · Rygtebørsen · Til PULSEN. **Ingen Ordbog** — gloser i parentes/fodnote.
 - **Ordmål:** sigt 200–350 for features, 300–500 for Tallet (nr. 2 landede kortere på flere features under batch — notér til næste).
-- **Standard `mustCite`:** 1–2 for enhver artikel med et sundheds-/ernæringstal; 4+ for Tallet (kildetabel); 0 for Ordbogen/Rygtebørsen.
+- **Standard `mustCite`:** 1–2 for enhver artikel med et sundheds-/ernæringstal; 4+ for Tallet (kildetabel); 0 for Rygtebørsen.
 
 ## Nr. 2 — udgivet
 
 **Tema:** Appetitten under kontrol (GLP-1)  
-**11 artikler:** leder, hvad er GLP-1, ernæring under behandling, bivirkninger, hype/adgang, protein+styrke, wearables, tallet, ordbog, rygtebørs, til PULSEN.  
+**10 artikler:** leder, hvad er GLP-1, ernæring under behandling, bivirkninger, hype/adgang, protein+styrke, wearables, tallet, rygtebørs, til PULSEN. (Ordbogen fjernet 2026-08-08.)  
 Cover + features (Imagine). PDF mangler.  
 `bestilling.json`: `redaktion/dosis/numre/2026-08-nr2/bestilling.json`.
 
@@ -49,6 +49,9 @@ python3 production/load_env.py dosis
 Fact-check obligatorisk før accept (se [redaktion/README](../README.md)). Medicin = indikation, forbehold, ingen dosisråd til læseren.
 
 ## Log
+
+- **2026-08-08 (format):** Ordbogen fjernet fra nr. 2 — gloser i parentes/fodnote i features.
+
 
 - **2026-08-08:** Nr. 2 publiceret (GLP-1). Tallet genopbygget med hårdere pejlemærker + fodnoter. Flere features bevidst korte under ugentlig batch — næste nummer: færre artikler eller hårdere words-brief.
 - **2026-08-01:** 4 artikler manglede billede (pulver-vs-mad, tilskudsjunglen, longevity-hype, tallet) — tilføjet, hver i sin egen stilart (flad vektor / maksimalisme / retro / geometrisk) i stedet for endnu et fotorealistisk motiv, jf. ny stilregel i [redaktion/README](../README.md). Samtidig tilføjet hårde tal med kilde i pulver-vs-mad (NNR2023 protein g/kg), tilskudsjunglen (FDA/JAMA 776 forurenede produkter; DTU 60 % bruger tilskud), D-vitamin (SST's 5–10/20 µg), og longevity-hype (Newman/Ig Nobel 2024 blå zone-data), samt genopbygget "Tallet" med en kildetabel (levetid, overvægt, fysisk aktivitet, tilskud, D-vitamin, hofte-/knæalloplastik) i stedet for vage "ballpark"-rækker. Filnavne-præfikser i `articles/` rettet til at matche `issue.json`'s rækkefølge (var 09/09/10/11/12/13, nu 09–14 fortløbende).

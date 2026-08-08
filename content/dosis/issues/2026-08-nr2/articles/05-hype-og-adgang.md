@@ -11,8 +11,8 @@ imageSource: "https://x.ai/"
 
 ### Tre lag
 
-1. **Godkendt medicinsk brug** — diabetes og/eller vægt efter gældende indikation.  
-2. **Off-label og gråzoner** — findes, men er ikke det samme som “gratis for alle”.  
+1. **Godkendt medicinsk brug** — diabetes og/eller vægt efter gældende **indikation** (den godkendte sygdom/brug).  
+2. **Off-label og gråzoner** — *off-label* betyder brug uden for den godkendte indikation; det findes, men er ikke det samme som “gratis for alle”.  
 3. **Kosmetisk hype** — “thinspo med recept” i feedet.
 
 ### Forsyning

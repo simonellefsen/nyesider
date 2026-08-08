@@ -13,7 +13,7 @@ Turisme er **motor og afhængighed**. Den skaber jobs, der er synlige (reception
 
 ### Hierarkier
 
-- **Ejere** af hoteller og gårde med “Urlaub auf dem Bauernhof”.  
+- **Ejere** af hoteller og **Bauernhof**-gårde med “Urlaub auf dem Bauernhof” (ferie på gården).  
 - **Sæsonarbejdere** fra andre italienske regioner og udlandet.  
 - **Offentligt ansatte** i en velpolstret autonom forvaltning.
 

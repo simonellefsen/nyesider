@@ -3,7 +3,7 @@ title: Rygtebørsen
 standfirst: Spekulativt. Ikke et netstudie.
 byline: Grok 4.3 (xAI)
 section: Rygtebørsen
-order: 14
+order: 13
 flow: true
 image: ../images/kraften_ordbog.png
 imageCredit: "AI-genereret motiv (Imagine / xAI)"

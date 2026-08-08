@@ -48,7 +48,7 @@
       "title": "Tallet: el-andelen af verden",
       "section": "Tallet",
       "byline": "GPT-5.6 Terra (OpenAI)",
-      "standfirst": "Elens andel af endelig energi.",
+      "standfirst": "El-andel, TWh og GW er ikke det samme.",
       "image": "../images/kraften_tallet.png",
       "imageCredit": "AI-genereret motiv (Imagine / xAI)",
       "imageSource": "https://x.ai/"
@@ -60,7 +60,7 @@
       "title": "Kina: verdens største elektrificeringsmaskine",
       "section": "Lande & udbygning",
       "byline": "Claude Sonnet 5 (Anthropic)",
-      "standfirst": "EV, industri og GW-tempo.",
+      "standfirst": "EV, industri, GW-tempo — og kul i parallel.",
       "image": "../images/kraften_kina.png",
       "imageCredit": "AI-genereret motiv (Imagine / xAI)",
       "imageSource": "https://x.ai/"
@@ -72,7 +72,7 @@
       "title": "Indien og det globale syd: peak, adgang og spring",
       "section": "Lande & udbygning",
       "byline": "Gemini 3.1 Pro (Google)",
-      "standfirst": "Første stik og aften-top.",
+      "standfirst": "Første stik, aften-top og delvist leapfrog — tre lag.",
       "image": "../images/kraften_indien.png",
       "imageCredit": "AI-genereret motiv (Imagine / xAI)",
       "imageSource": "https://x.ai/"
@@ -108,7 +108,7 @@
       "title": "Lagring til et elektrisk samfund",
       "section": "Systemet bag stikket",
       "byline": "Claude Sonnet 5 (Anthropic)",
-      "standfirst": "Timer vs. sæson.",
+      "standfirst": "Timer er batterier. Sæson er den svære halvdel.",
       "image": "../images/kraften_bess.png",
       "imageCredit": "AI-genereret motiv (Imagine / xAI)",
       "imageSource": "https://x.ai/"
@@ -168,27 +168,15 @@
       "title": "Sverige: atomudbygningens lange vej",
       "section": "Atom",
       "byline": "Claude Sonnet 5 (Anthropic)",
-      "standfirst": "Mål er ikke megawatt — lag for lag.",
+      "standfirst": "Seks reaktorer, ~30 % el — og Nordic Baseload ved Barsebäck.",
       "image": "../images/kraften_sverige.png",
       "imageCredit": "AI-genereret motiv (Imagine / xAI)",
       "imageSource": "https://x.ai/"
     },
     {
-      "slug": "ordbogen",
-      "file": "articles/13-ordbogen.md",
-      "order": 13,
-      "title": "Ordbogen",
-      "section": "Ordbogen",
-      "byline": "GLM-5.2 (Z.ai)",
-      "standfirst": "Fit for 55, PJM, RTG, BESS.",
-      "image": "../images/kraften_ordbog.png",
-      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
-      "imageSource": "https://x.ai/"
-    },
-    {
       "slug": "rygteboersen",
-      "file": "articles/14-rygteboersen.md",
-      "order": 14,
+      "file": "articles/13-rygteboersen.md",
+      "order": 13,
       "title": "Rygtebørsen",
       "section": "Rygtebørsen",
       "byline": "Grok 4.3 (xAI)",

@@ -11,7 +11,7 @@ imageSource: "https://x.ai/"
 
 ### Definition
 
-En **agent** planlægger og udfører flere trin: læs fil → foreslå rettelse → skriv udkast → (måske) kør kommando. Det er kraftfuldt. Det er også der, ting kan gå galt.
+En **agent** er et AI-system, der planlægger og udfører flere trin: læs fil → foreslå rettelse → skriv udkast → (måske) kør kommando. Det er kraftfuldt. Det er også der, ting kan gå galt. Under motorhjelmen ligger ofte **tool use** / *function calling*: modellen må kalde værktøjer (filer, terminal, API’er) i stedet for kun at returnere tekst.
 
 Chat er “spørg og få svar”. Agent er “få lov til at *gøre* noget”. Forskellen er **tilladelser**.
 
@@ -33,7 +33,7 @@ Skriv målet ind i prompten som en checkliste. Agenter elsker at “hjælpe vide
 | 1 — Udkast | Skrive til en *ny* fil | Godkende før brug |
 | 2 — Handling | Køre afgrænsede kommandoer / tools | Overvåge log; smal mappe |
 
-De fleste begyndere skal bo på **niveau 1** i uger. Niveau 2 kræver, at du forstår, hvilke tools der er tændt (se [MCP i nr. 2](/gnisten/2026-08-nr2/vaerkstedet-mcp)).
+De fleste begyndere skal bo på **niveau 1** i uger. Niveau 2 kræver, at du forstår, hvilke tools der er tændt — se [**MCP** (*Model Context Protocol*) i nr. 2](/gnisten/2026-08-nr2/vaerkstedet-mcp): en fælles “stik”-standard, så værktøjer kan kobles til modeller på tværs af produkter.
 
 ### Sikkerhedsregler (print dem ud)
 

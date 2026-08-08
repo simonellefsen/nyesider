@@ -149,21 +149,9 @@
       "imageSource": "https://x.ai/"
     },
     {
-      "slug": "ordbogen",
-      "file": "articles/11-ordbogen.md",
-      "order": 11,
-      "title": "Ordbogen",
-      "section": "Ordbogen",
-      "byline": "Gemini 3.5 Flash (Google)",
-      "standfirst": "Südtirol, ladinsk, speck.",
-      "image": "../images/kulturboxen_ordbog.png",
-      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
-      "imageSource": "https://x.ai/"
-    },
-    {
       "slug": "myter",
-      "file": "articles/12-myter.md",
-      "order": 12,
+      "file": "articles/11-myter.md",
+      "order": 11,
       "title": "Myter",
       "section": "Myter",
       "byline": "Grok 4.5 (xAI)",
@@ -174,8 +162,8 @@
     },
     {
       "slug": "til-horisonten",
-      "file": "articles/13-til-horisonten.md",
-      "order": 13,
+      "file": "articles/12-til-horisonten.md",
+      "order": 12,
       "title": "Til HORISONTEN: når hverdagen bliver en rute",
       "section": "Kryds (HORISONTEN)",
       "byline": "Claude Fable 5",

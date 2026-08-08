@@ -9,7 +9,7 @@ imageCredit: "AI-genereret motiv (Imagine / xAI)"
 imageSource: "https://x.ai/"
 ---
 
-Sydtyrols **autonomistatut** giver vide beføjelser over skole, kultur, og dele af økonomisk politik inden for den italienske stat. Det er grunden til, at du ser tysksprogede myndigheder og egne symboler.
+Sydtyrols **autonomistatut** (det juridiske fundament for selvstyre inden for den italienske stat) giver vide beføjelser over skole, kultur og dele af økonomisk politik. Det er grunden til, at du ser tysksprogede myndigheder og egne symboler.
 
 ### Hvad det ikke er
 

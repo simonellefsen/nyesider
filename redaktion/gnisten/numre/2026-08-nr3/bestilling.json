@@ -4,13 +4,13 @@
   "issueTheme": "Agenten og den lokale hjerne",
   "retrofitNote": "Indfrier bagsideløfte fra nr.2. Features udvidet ved accept; bagsnit bevidst korte.",
   "budget": {
-    "articles": 9,
+    "articles": 8,
     "wordsPerArticle": [
       50,
       500
     ],
     "targetPages": 12,
-    "note": "Tre features bærer dybden (Gemini/lokalt/agent); faste formater korte."
+    "note": "Tre features bærer dybden (Gemini/lokalt/agent); faste formater korte. Ordbogen dropped 2026-08-08 — inline glosses only."
   },
   "opgaver": [
     {
@@ -225,7 +225,7 @@
     },
     {
       "slug": "ordbogen",
-      "order": 8,
+      "order": 99,
       "section": "Ordbogen",
       "brief": {
         "angle": "Agent/lokal/Gemini-ord.",
@@ -247,15 +247,15 @@
         "draft": null
       },
       "verdict": {
-        "status": "accepted",
+        "status": "rejected",
         "checkedAt": "2026-08-08",
         "citations": 0,
-        "editorNote": "Bagsnit/kort format; mustCite=0 (ingen hårde priser låst — pejlemærker i Regningen)."
+        "editorNote": "Ordbogen dropped house-wide for this issue: explain acronyms/concepts with parentheses and footnotes in features instead."
       }
     },
     {
       "slug": "sladder",
-      "order": 9,
+      "order": 8,
       "section": "Sladder",
       "brief": {
         "angle": "Bagside-sladder.",

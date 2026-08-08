@@ -135,21 +135,9 @@
       "imageSource": "https://x.ai/"
     },
     {
-      "slug": "ordbogen",
-      "file": "articles/10-ordbogen.md",
-      "order": 10,
-      "title": "Ordbogen",
-      "section": "Ordbogen",
-      "byline": "Gemini 3.5 Flash (Google)",
-      "standfirst": "SSA, conjunction, ephemeris.",
-      "image": "../images/orbit_ordbog.png",
-      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
-      "imageSource": "https://x.ai/"
-    },
-    {
       "slug": "rygteboersen",
-      "file": "articles/11-rygteboersen.md",
-      "order": 11,
+      "file": "articles/10-rygteboersen.md",
+      "order": 10,
       "title": "Rygtebørsen",
       "section": "Rygtebørsen",
       "byline": "Grok 4.3 (xAI)",

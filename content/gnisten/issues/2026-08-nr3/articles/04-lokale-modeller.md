@@ -9,7 +9,7 @@ imageCredit: "AI-genereret motiv (Imagine / xAI)"
 imageSource: "https://x.ai/"
 ---
 
-En **lokal model** kører på *din* computer. Teksten forlader ikke maskinen, medmindre *du* sender den videre. Det er den primære grund til at prøve det — ikke “gratis uendelig GPT-5 derhjemme”.
+En **lokal model** (*on-device*) kører på *din* computer. Teksten forlader ikke maskinen, medmindre *du* sender den videre. Det er den primære grund til at prøve det — ikke “gratis uendelig GPT-5 derhjemme”.
 
 ### Hvad du får
 
@@ -45,7 +45,8 @@ En **lokal model** kører på *din* computer. Teksten forlader ikke maskinen, me
 ### Tre fejl, alle laver
 
 1. **For stor model først.** Download er gigabytes; inference er langsom.  
-2. **Tror “lokalt = sandt”.** Hallucinationer findes stadig.  
+2. **Tror “lokalt = sandt”.** **Hallucinationer** (overbevist opdigt) findes stadig — privatliv ændrer ikke sandhedskravet.  
+
 3. **Glemmer opdateringer.** Ollama og modeller opdateres — kør `ollama pull …` når du vil have nyere vægte.
 
 ### Bro til resten af nummeret

@@ -17,7 +17,7 @@ OpenRouter: **kun** `.env.kulturboxen`. Imagine: `.env.local` / `XAI_API_KEY`.
 ## Nr. 2 — udgivet
 
 **Tema:** Tre sprog, ét plateau · **Kultur:** Sydtyrol / Alto Adige  
-13 artikler: leder, fokus, sprog/skilt, mad, dagligdag, arbejde/turisme, familie, penge, autonomi, tallet, ordbog, myter, til HORISONTEN.  
+12 artikler: leder, fokus, sprog/skilt, mad, dagligdag, arbejde/turisme, familie, penge, autonomi, tallet, myter, til HORISONTEN. (Ordbogen fjernet 2026-08-08.)  
 **Søsterrejse:** [HORISONTEN nr. 3](../../content/horisonten/issues/2026-08-nr3/) (Dolomitterne).  
 `bestilling.json`: `redaktion/kulturboxen/numre/2026-08-nr2/bestilling.json`.
 
@@ -35,9 +35,12 @@ OpenRouter: **kun** `.env.kulturboxen`. Imagine: `.env.local` / `XAI_API_KEY`.
 ## Format
 
 - **Artikeltal:** typisk **12–16**.  
-- **Standard `mustCite`:** 2+ for Tallet; 1–2 for Penge/Stat; 0 for Myter/Ordbog.
+- **Standard `mustCite`:** 2+ for Tallet; 1–2 for Penge/Stat; 0 for Myter. **Ingen Ordbog** — gloser i parentes/fodnote.
 
 ## Log
+
+- **2026-08-08 (format):** Ordbogen fjernet fra nr. 2 — gloser i parentes/fodnote i features.
+
 
 - **2026-08-08:** Nr. 2 publiceret — Sydtyrol, synket med HORISONTEN Dolomit.
 - **2026-08-01:** Notesbog udvidet med `## Format`.

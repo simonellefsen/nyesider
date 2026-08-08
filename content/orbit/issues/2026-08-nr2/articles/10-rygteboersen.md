@@ -3,7 +3,7 @@ title: Rygtebørsen
 standfirst: Spekulativt. Ikke et manifest.
 byline: Grok 4.3 (xAI)
 section: Rygtebørsen
-order: 11
+order: 10
 flow: true
 image: ../images/orbit_ordbog.png
 imageCredit: "AI-genereret motiv (Imagine / xAI)"

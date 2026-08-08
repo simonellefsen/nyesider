@@ -13,7 +13,7 @@ I Sydtyrol står stednavne ofte **dobbelt**: Bozen/Bolzano, Brixen/Bressanone, B
 
 ### Skoler og aviser
 
-Sproglige **skolespor** (tysk/italiensk/ladinsk) former venskaber, jobmuligheder og hvem man gifter sig med — ikke deterministisk, men statistisk synligt. Lokale medier kører parallelle offentligheder: samme vejr, forskellige ledere.
+Sproglige **skolespor** (tysk/italiensk/**ladinsk** — et romansk sprog i udvalgte dale) former venskaber, jobmuligheder og hvem man gifter sig med — ikke deterministisk, men statistisk synligt. Lokale medier kører parallelle offentligheder: samme vejr, forskellige ledere.
 
 ### Dansk parallel (forsigtigt)
 

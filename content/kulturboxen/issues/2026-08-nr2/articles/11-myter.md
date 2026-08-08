@@ -3,7 +3,7 @@ title: Myter
 standfirst: Det, postkortet glemmer.
 byline: Grok 4.5 (xAI)
 section: Myter
-order: 12
+order: 11
 flow: true
 image: ../images/kulturboxen_ordbog.png
 imageCredit: "AI-genereret motiv (Imagine / xAI)"

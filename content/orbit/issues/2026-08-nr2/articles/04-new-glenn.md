@@ -9,7 +9,7 @@ imageCredit: "AI-genereret motiv (Imagine / xAI)"
 imageSource: "https://x.ai/"
 ---
 
-Blue Origins **New Glenn** har forladt “kun suborbital tourism”-fortællingen. Når en tung løfteraketten har nået orbital klasse, skifter journalistikken til det kedelige og afgørende: **return-to-flight**, genbrug af first stage, og om kunder tør booke den næste plads.
+Blue Origins **New Glenn** har forladt “kun suborbital tourism”-fortællingen. Når en tung løfteraketten har nået orbital klasse, skifter journalistikken til det kedelige og afgørende: **return-to-flight** (første opsendelse efter en fejl eller planlagt pause), genbrug af first stage, og om kunder tør booke den næste plads.
 
 ### Hvad der betyder noget i 2026
 

@@ -11,7 +11,7 @@ imageSource: "https://x.ai/"
 
 ### Hyppige og kendte
 
-Mange GLP-1-agonister giver **gastrointestinale** gener: kvalme, opkast, diarré, forstoppelse — især i optrapningsfasen.[^1] Det er en del af, hvorfor dosis trappes op.
+Mange GLP-1-agonister giver **gastrointestinale (GI) bivirkninger** — mave-tarm-gener som kvalme, opkast, diarré og forstoppelse — især i **optrapningsfasen** (gradvis dosisøgning for at begrænse bivirkninger).[^1] Det er en del af, hvorfor dosis trappes op.
 
 ### Det, du skal tage alvorligt
 

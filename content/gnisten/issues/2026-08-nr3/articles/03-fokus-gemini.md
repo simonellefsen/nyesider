@@ -15,7 +15,7 @@ I [nr. 2](/gnisten/2026-08-nr2/fokus-chatgpt) brugte vi ChatGPT som den “rene 
 
 ### Hvad den er god til
 
-- **Hurtige svar med frisk web-kontekst**, når grounding/søgning er tændt — praktisk til “hvad er status lige nu”, ikke til juridiske facit.  
+- **Hurtige svar med frisk web-kontekst**, når **grounding** (binding af svar til kilder/web) eller søgning er tændt — praktisk til “hvad er status lige nu”, ikke til juridiske facit.  
 - **Multimodal:** billede ind, tekst ud (sedler, skærmbilleder, simple diagrammer).  
 - **“Jeg bor allerede i Google”-arbejdsgange:** kladde i Docs, opsummering af en tråd, omformulering af en mail, uden at kopiere ind og ud af en separat fane ti gange.
 

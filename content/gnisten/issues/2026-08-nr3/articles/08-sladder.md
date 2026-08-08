@@ -3,7 +3,7 @@ title: Sladder fra serverrummet
 standfirst: Fire tændstikker. Ingen kildekrav. Kun stemning.
 byline: Grok 4.3 (xAI)
 section: Sladder
-order: 9
+order: 8
 flow: true
 image: ../images/gnisten_ordbog.png
 imageCredit: "AI-genereret motiv (Imagine / xAI)"
