@@ -1,32 +1,54 @@
 ---
 title: "Det usynlige lag"
-standfirst: "Mellem drikken og metallet ligger en hærdet polymerfilm. Hvad den er lavet til at kunne tåle, afhænger af indholdet."
+standfirst: Mellem drikkevaren og metallet sidder et lag polymer på få mikrometer. Det afgør, om dåsen overhovedet kan bruges — og det har netop skiftet kemi ved lov.
 section: "Brugen"
 order: 4
 ---
 
-En aluminiumsdåse er ikke bare bart metal omkring en drik. Indersiden får normalt en meget tynd, hærdet **organisk polymerbelægning** — ofte kaldet lak eller liner — som adskiller drikken fra metallet. Den skal begrænse korrosion og metallisk bismag, men samtidig tåle dåsens formning, fyldning, transport og holdbarhedstid.
+Uden den indvendige lak ville en sodavand angribe aluminiummet. Metalsmag først, tæring bagefter.
 
-Der findes derfor ikke én dåselak. Historisk har epoxybaserede belægninger været udbredt; den europæiske BPA-forordning beskriver netop **bisphenol A (BPA)** som råstof til epoxyresiner i lakker og coatings på metallisk fødevareemballage.[^1] Andre systemer omfatter blandt andet akryl-phenol- og polyesterbaserede belægninger. Et migrationsstudie sammenligner eksempelvis epoxy og akryl-phenol i vand, eddikesyre, ethanol og fedt-lignende testvæsker.[^2] Det er et godt billede på ingeniørens problem: belægningen testes mod den type kontakt, den skal kunne klare — ikke kun mod “en drik” i abstrakt forstand.
+Men tror man, at der findes én stor industriel tank med «dåselak», som alle dåser sprøjtes med, tager man fejl. Der findes ikke én universel opskrift.
 
-## Drikken er en del af specifikationen
+### Lakken vælges efter indholdet
 
-Ja, indersiden kan afhænge af drikken. Syre, alkohol, kulsyre, salte, aromaer, pasteurisering og ønsket holdbarhed ændrer, hvad barrieren skal modstå. Den konkrete opskrift er ofte leverandørens fortrolige formulering, så man kan normalt ikke udlede polymeren af dåsens yderside. Men EU-Kommissionen understreger, at der findes **flere hundrede** mulige BPA-baserede epoxyformuleringer til metalemballage, netop fordi den endelige emballage har forskellige krav.[^1]
+Kravene varierer enormt. Almindeligt mineralvand med brus er forholdsvis ukritisk. **Energidrikke** hører til de mest aggressive væsker, fordi de kombinerer syrer, salte, farvestoffer og vitaminer, som kan nedbryde den forkerte polymer.
 
-Det betyder også, at "BPA-fri" ikke er en komplet materialebeskrivelse. Det fortæller noget om ét stof eller en råvarevej, men ikke alene hvilken polymer, hvilke andre bestanddele eller hvilken migrationsprøvning det konkrete produkt bruger. Det rette kontrolspørgsmål er ikke "er der lak?" — det er, om den færdige fødevarekontakt-emballage er vurderet til sit tilsigtede indhold og brug.
+Derfor valideres hvert enkelt system mod den **præcise** drikkevare. Før en ny sodavand kommer på markedet, gennemgår kombinationen af væske og lak en *pack test*: fyldte dåser opbevares ved forhøjet temperatur i månedsvis for at simulere den maksimale hyldetid. Først når lakken hverken afgiver uønskede stoffer til væsken eller lader syren bryde igennem til metallet, er systemet godkendt.[^1]
 
-## Hvad med sundheden?
+Påføringen sker i høj fart. Før låget sættes på, føres den åbne cylinder forbi en dyse, der sprøjter den flydende coating ind i dåsen. Derefter kører dåserne gennem en ovn, hvor polymererne hærdes og binder sig til metallet.
 
-Her skal to ting holdes adskilt. **Fare** er, om et stof kan have skadelige egenskaber. **Eksponering** er, hvor meget der faktisk overføres fra emballage til mad eller drik under de tilsigtede forhold. EFSA — Den Europæiske Fødevaresikkerhedsautoritet — konkluderede i sin 2023-revurdering, at BPA i fødevarer udgør en sundhedsrisiko for forbrugere på tværs af aldersgrupper.[^3] Det er baggrunden for Kommissionens forordning (EU) 2024/3190, som forbyder BPA i fødevarekontaktmaterialer med afgrænsede undtagelser og overgangsperioder.[^1]
+Hærdningen er kritisk — og af en grund, der ikke er kemisk, men mekanisk. Lakken skal ikke blot være modstandsdygtig. Den skal være **fleksibel**. Når låget senere falses fast på kroppen, bøjes og presses metallet kraftigt. Slår lakken revner dér ved kanten, har syren en vej ind.
 
-Overgangen gør det upræcist at sige, at alle dåser på et givent tidspunkt har samme kemi. Forordningen giver blandt andet ekstra tid til visse lakerede emballager, hvor alternative belægninger skal dokumenteres for både sikkerhed, funktion og holdbarhed. En dåse med indvendig coating er altså ikke i sig selv et bevis på et helbredsproblem; men det er heller ikke rimeligt at afvise spørgsmålet med, at laget er tyndt. Regulering og test handler netop om mulig migration fra lag til indhold.
+### Og så kemien, der lige har ændret sig ved lov
 
-På fyldelinjen ankommer kroppen åben. Den skylles eller luftbehandles efter linjens specifikation, fyldes, får sin ende på og lukkes i dobbeltsøm. Metal Packaging Europes procesbeskrivelse bekræfter rækkefølgen: den separate ende seames med kroppen **efter** fyldning.[^4]
+Historisk gjorde balancen mellem kemisk resistens og fysisk fleksibilitet **epoxy** til industriens standard. Epoxy beskytter metal fremragende. Problemet er, at det fremstilles ved hjælp af **bisphenol A** (BPA), og at spormængder kan vandre fra lakken ud i drikkevaren.
 
-Belægninger bliver stadig udviklet. Novelis markedsfører eksempelvis lamineret endemateriale og oplyser, at deres sammenligning gælder overfladebehandlingssteppet — ikke hele dåsens klimaaftryk.[^5] Samme læseregel gælder her: se på den konkrete anvendelse, den konkrete test og den konkrete afgrænsning.
+BPA er hormonforstyrrende. I april 2023 offentliggjorde Den Europæiske Fødevaresikkerhedsautoritet, **EFSA**, en revurdering, som sænkede den tolerable daglige indtagelse drastisk i forhold til tidligere vurderinger.[^2]
 
-[^1]: [Europa-Kommissionens forordning (EU) 2024/3190](https://eur-lex.europa.eu/eli/reg/2024/3190/oj/eng) — BPA i epoxybelægninger, mange formuleringer og overgangsregler for fødevarekontaktmaterialer.
-[^2]: [Journal of Agricultural and Food Chemistry: migration fra epoxy- og akryl-phenol-coatings](https://pubs.acs.org/doi/abs/10.1021/acs.jafc.7b00081) — forsøgsdesign med fire fødevaresimulatorer.
-[^3]: [EFSA: BPA in food poses a health risk](https://www.efsa.europa.eu/en/news/bisphenol-food-health-risk) — EFSA's 2023-revurdering af BPA i fødevarer.
-[^4]: [Metal Packaging Europe: *LCA of aluminium beverage cans in Europe*](https://www.metalpackagingeurope.org/sites/default/files/2020-01/20190723_Metal%20Packaging%20Europe_Alu%20Bev%20Cans%20LCA_Methodological%20report.pdf) — procesbeskrivelse af fyldning og lukning.
-[^5]: [Novelis: laminated can ends](https://novelis.com/aluminum-solutions/products/laminated-can-ends/) — virksomhedsoplysninger om lamination; den oplyste 33 %-forskel vedrører overfladebehandlingssteppet.
+Og her er det afgørende, som ofte mangler i omtalen: **det blev til lovgivning.**
+
+I december 2024 vedtog Europa-Kommissionen et forbud mod BPA i materialer i kontakt med fødevarer — **forordning (EU) 2024/3190** — som trådte i kraft **20. januar 2025**. Forbuddet omfatter udtrykkeligt **dåselakker**, og det gælder ikke kun BPA, men også en række beslægtede bisphenoler, blandt andre BPS og BPAF.[^3]
+
+Der blev givet overgangsfrister. For **engangsemballage** — altså drikkedåsen — måtte varer produceret med BPA blive på markedet indtil **20. juli 2026**.
+
+Den frist udløb for tre uger siden.
+
+### Hvad der kom i stedet
+
+Branchen havde bevæget sig længe før forbuddet, mod såkaldte **BPA-NI**-systemer (*Bisphenol A Non-Intent*), hvor stoffet ikke indgår i produktionen. Alternativerne er typisk baseret på akryl- eller polyesterpolymerer.[^1]
+
+Skiftet er ikke trivielt. De nye systemer skal matche epoxyens evne til at tåle aggressive væsker **og** hårde mekaniske påvirkninger på pakkelinjen — uden at antallet af utætte dåser stiger.
+
+Det er værd at bemærke, hvad det betyder for en artikel som denne: enhver påstand om «hvad dåselak er lavet af» har en holdbarhedsdato. Kemien er under aktiv udskiftning netop nu.
+
+### Så lidt, og så afgørende
+
+Hele dette system fylder næsten intet. Den indvendige lak påføres typisk i en tykkelse mellem **1 og 10 mikrometer**. Et menneskehår er omkring 70.
+
+Lakken vejer nogle få milligram. Og når dåsen til sidst [smeltes om](/indeni/2026-08-nr1/daarligt-eller-lukket-kredslob), brænder det tynde polymerlag væk og bidrager med varme i processen.
+
+Det er dåsens mindste og mest usynlige komponent. Et lag, man ikke kan se — som afgør hele forskellen mellem et lukket kredsløb og en ubrugelig emballage.
+
+[^1]: [Can coatings](https://www.foodpackagingforum.org/food-packaging-health/can-coatings), Food Packaging Forum — om coatingsystemernes kemi og funktion, om validering mod den enkelte drikkevare, og om BPA-NI-alternativer baseret på akryl og polyester.
+[^2]: [Bisphenol A in food is a health risk](https://www.efsa.europa.eu/en/news/bisphenol-food-health-risk), Den Europæiske Fødevaresikkerhedsautoritet (EFSA), april 2023 — revurderingen, der sænkede den tolerable daglige indtagelse markant.
+[^3]: [Commission adopts ban of Bisphenol A in food contact materials](https://food.ec.europa.eu/food-safety-news/commission-adopts-ban-bisphenol-food-contact-materials-2024-12-19_en), Europa-Kommissionen, december 2024, og [European Commission bans Bisphenol A in food contact materials](https://foodpackagingforum.org/news/european-commission-bans-bisphenol-a-in-food-contact-materials), Food Packaging Forum: forordning (EU) 2024/3190 i kraft 20. januar 2025, omfattende dåselakker og øvrige bisphenoler, med frist for engangsemballage på markedet indtil 20. juli 2026.

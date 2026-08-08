@@ -136,15 +136,17 @@
         "fallback": "deepseek/deepseek-v3.2"
       },
       "receipt": {
-        "words": null,
-        "costUSD": null,
-        "draft": null
+        "words": 557,
+        "costUSD": 0.05964,
+        "draft": "kladder/04-det-usynlige-lag.md",
+        "costRouting": "byok",
+        "generationId": "gen-1786229862-1e1qLAzbpgjPjttVODwB"
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
-        "citations": null,
-        "editorNote": null
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-09",
+        "citations": 3,
+        "editorNote": "REELT kommissioneret hos google/gemini-3.1-pro-preview paa .env.indeni (BYOK, generationId registreret); kladde i kladder/04-det-usynlige-lag.md. Kladden gjorde praecis det, notesbogens egen laering fra 2026-08-01 kraever: den skrev ALDRIG 'daaselak' som én universel kemisk opskrift, men forklarede at systemet vaelges efter indholdet og valideres mod den enkelte drikkevare — og fandt selv det bedste eksempel, at energidrikke er blandt de mest aggressive vaesker paa grund af kombinationen af syre, salt, farve og vitaminer. Den forklarede ogsaa pack test og den mekaniske grund til at lakken skal vaere FLEKSIBEL og ikke bare modstandsdygtig: falsningen af laaget boejer metallet, og en revne i kanten giver syren en vej ind. VIGTIG OPDATERING: kladden byggede paa EFSA's revurdering fra april 2023 og skrev, at den 'ikke betyder at alle daaser natten over blev ulovlige', men har 'accelereret en igangvaerende omstilling'. Det er overhalet af virkeligheden. Europa-Kommissionen vedtog i december 2024 forordning (EU) 2024/3190, som forbyder BPA i materialer i kontakt med foedevarer — udtrykkeligt inklusive DAASELAKKER — med ikrafttraeden 20. januar 2025 og en overgangsfrist for engangsemballage, der udloeb 20. JULI 2026, altsaa tre uger foer dette nummer. Forbuddet omfatter ogsaa BPS, BPAF og andre bisphenoler. Det staar nu som artiklens omdrejningspunkt med kilde til baade Kommissionen og Food Packaging Forum. Tilfoejet redaktionel bemaerkning om, at enhver paastand om daaselakkens kemi har en holdbarhedsdato lige nu. Sprogfejl rettet: 'Det Europaeiske Foedevaresikkerhedsautoritet' til 'Den'. Foedevarestyrelsens fodnote fjernet, da den ikke daekkede paastanden om omsmeltning."
       }
     },
     {
@@ -236,15 +238,17 @@
         "fallback": "deepseek/deepseek-v3.2"
       },
       "receipt": {
-        "words": null,
-        "costUSD": null,
-        "draft": null
+        "words": 556,
+        "costUSD": 0.075534,
+        "draft": "kladder/07-europas-dasevaerksteder.md",
+        "costRouting": "byok",
+        "generationId": "gen-1786230029-AdGomB9swoRl4f4mClIK"
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
-        "citations": null,
-        "editorNote": null
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-09",
+        "citations": 5,
+        "editorNote": "REELT kommissioneret hos anthropic/claude-sonnet-5 paa .env.indeni (BYOK, generationId registreret); kladde i kladder/07-europas-dasevaerksteder.md. Den artikel med hoejest fabrikationsrisiko i nummeret — den skal navngive faktiske anlaeg — og kladden bestod proeven. ALLE navngivne anlaeg er kontrolleret og findes: Ball og Crown som stoerste europaeiske daaseproducenter, Novelis i Nachterstedt i Sachsen-Anhalt, Norsk Hydros primaervaerker paa Karmoey og i Sunndal, og Rio Tintos ISAL ved Straumsvik paa Island. Ingen opdigtede byer, selskaber eller kapaciteter. Endnu bedre: kladden overholdt af sig selv formatkravet om at skelne annonceret fra eksisterende og formulerede det skarpere end briefen gjorde — 'en pressemeddelelse om et planlagt anlaeg er ikke det samme som et anlaeg, der koerer'. Dens baerende idé er ogsaa dens egen: det samme metal deler Europas industrikort i TRE bevaegelser, fordi daasefabrikken foelger forbrugerne, omsmeltningen foelger skrottet, og elektrolysen foelger stroemprisen. Redaktionelt tilfoejet efter kildekontrol: Nachterstedt er verdens stoerste aluminiumsgenanvendelsesanlaeg, bygget for ca. 200 mio. euro, i drift siden 2014, med kapacitet paa op til 400.000 ton skrot om aaret og 18 skrottyper. Det tal er dokumenteret drift og ikke en annoncering — hvilket artiklen nu siger udtrykkeligt. Fodnoterne var bare domaenehenvisninger og er erstattet af fem kontrollerede sider; opsummerende tabel tilfoejet."
       }
     },
     {
@@ -266,15 +270,17 @@
         "fallback": "deepseek/deepseek-v3.2"
       },
       "receipt": {
-        "words": null,
-        "costUSD": null,
-        "draft": null
+        "words": 533,
+        "costUSD": 0.060158,
+        "draft": "kladder/08-hvorfor-33-cl.md",
+        "costRouting": "byok",
+        "generationId": "gen-1786230235-EUp4r5gd1PaeWjl0snrL"
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
-        "citations": null,
-        "editorNote": null
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-09",
+        "citations": 2,
+        "editorNote": "REELT kommissioneret hos google/gemini-3.1-pro-preview paa .env.indeni (BYOK, generationId registreret); kladde i kladder/08-hvorfor-33-cl.md. Kladden gjorde det, briefen bad om og som er svaerest ved denne slags emne: den afviste at udpege én sikker oprindelse til 33 cl og flyttede i stedet artiklen over paa det, der KAN dokumenteres — hvorfor stoerrelsen bliver haengende. Svaret er vaerktoejsstaal: at aendre diameter kraever udskiftning af massive vaerktoejer i cupper og bodymaker, saa en 50 cl-daase er ikke bredere end en 33 cl, kun hoejere. Den fandt selv to ting mere: at fysikken peger samme vej (stoerre diameter betyder stoerre kraft paa vaeggen og dermed tykkere metal), og at de smalle sleek cans til energidrik er undtagelsen der beviser reglen — de kraevede nye dedikerede linjer, hvilket kun kunne betale sig ved energidrikkens hoejere literpris. KILDEKONTROL: kladden angav en akademisk reference med fuld bibliografi — Hosford og Duncan, 'The Aluminum Beverage Can', Scientific American bd. 271 nr. 3, september 1994, s. 48-53. Kontrolleret: baand, nummer, maaned og sidetal er KORREKTE. Efter denne genopbygnings mange opdigtede og gaettede kilder er det vaerd at notere, at denne model leverede en praecis, efterproevbar reference uden at vaere bedt om det. Ogsaa korrekt: direktiv 2007/45/EF ophaevede de fleste bindende standardstoerrelser, og europallen maaler 80 gange 120 cm. Redaktionelt daempet: paastanden om at hoejere materialepris 'ville fjerne naesten 100 % af profitten' er uefterproevbar og erstattet af, at materialet er den dominerende omkostning."
       }
     },
     {
