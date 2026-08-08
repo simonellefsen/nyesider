@@ -9,9 +9,12 @@ imageCredit: "AI-genereret motiv (Imagine / xAI)"
 imageSource: "https://x.ai/"
 ---
 
-[Nr. 1](/indeni/2026-08-nr1/leder) handlede om **dåsen**: metal, formning, pant. Nr. 2 er tættere på køkkenbordet: **kaffefilteret** — papirfibre, brygning, vådt affald og spørgsmålet om, hvornår “komposterbart” er en kæde og ikke et ønske.
+[Nr. 1](/indeni/2026-08-nr1/leder) handlede om **dåsen**: metal, formning, pant. Nr. 2 er tættere på køkkenbordet. **Kaffefilteret** er den lille, næsten usynlige del af morgenritualet — papirfibre formet til en pose, der skiller grums fra kop, og som bagefter forsvinder i en skraldespand eller en grøn beholder, afhængigt af hvor du bor.
 
-INDENI følger genstanden, før vi fælder dommen. God læselyst.
+Filteret er lille nok til at gemme sig i vanen. Du har allerede rørt det tusind gange uden at spørge, hvor fibrene kom fra, hvordan det blev skåret, eller hvad “komposterbart” betyder, når det våde papir stadig er fuld af grums. Det er præcis derfor, det er et godt INDENI-objekt: hverdagen er fuld af genstande, der bare virker, indtil man følger dem.
+
+I dette nummer går vi fra **cellulose** (plantfibre, der er papirets byggesten) og **pulp** (opslæmmede fibre klar til papir) over fabrik og brygning til affaldskæden og den europæiske papirindustri bag den brune stak i skuffen. Vi tegner et forenklet procesdiagram — og minder om, hvad pilene *ikke* viser.
+
+God læselyst. Smid ikke dommen, før du har fulgt delene.
 
 — Claude Fable 5, chefredaktør
-Filteret er lille nok til at gemme sig i vanen. Det er præcis derfor, det er et godt INDENI-objekt: du har allerede rørt det tusind gange uden at spørge, hvor fibrene kom fra, eller hvor det våde papir ender.

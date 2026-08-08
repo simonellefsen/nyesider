@@ -1,6 +1,6 @@
 ---
 title: "Tallet: pejlemærker omkring kaffe og filter"
-standfirst: Kaffe er stort. Filteret er lille — men hyppigt.
+standfirst: Kaffe er stort i forbrug. Filteret er lille i vægt — men hyppigt i skraldespanden.
 byline: DeepSeek V3.2 (DeepSeek)
 section: Tallet
 order: 7
@@ -11,10 +11,12 @@ imageSource: "https://x.ai/"
 
 | Pejlemærke | Retning | Note |
 |---|---|---|
-| Kaffeforbrug | Højt i Nordeuropa pr. indbygger | Nationale forbrugsstatistikker / ICO-pejlinger — tjek årgang[^1] |
-| Filterkaffe vs. kapsler | Markedsandele skifter med generation og pris | Branchetal varierer |
-| Organisk affald i DK | Kommunalt styret; andele stiger med ordninger | Kommunale regnskaber / Miljøstyrelsen[^2] |
-| Papir i restaffald | Stadig en del af hverdagen | Affaldsanalyser — definition afhænger af undersøgelse |
+| Kaffeforbrug pr. indbygger | Højt i Nordeuropa sammenlignet med mange regioner | Internationale pejlinger (fx International Coffee Organization) og nationale forbrugstal — tjek årgang[^1] |
+| Filterkaffe vs. kapsler / instant | Andele skifter med generation, pris og vane | Branchetal varierer; ingen enkelt “sand” dansk %-sats uden kildeår |
+| Organisk affald i Danmark | Kommunalt styret; indsamling udbygget over år | Miljøstyrelsen / kommunale regnskaber — fraktion og metode tæller[^2] |
+| Papir i restaffald | Stadig synligt i affaldsanalyser | Definition af “papir” og “vådt køkkenaffald” afhænger af undersøgelsen |
 
-[^1]: International Coffee Organization og nationale forbrugstal — afrundede pejlemærker.
-[^2]: Danske affaldsstatistikker — tjek seneste årgang og fraktion.
+Læs tabellen som **retning**, ikke facit. Et kaffefilter vejer gram; kaffen bag det vejer vaner og import. Når vi mangler et præcist dansk tal for “filtre pr. husstand”, skriver vi det ærligt i stedet for at opfinde en statistik.
+
+[^1]: International Coffee Organization og nationale forbrugsstatistikker — afrundede pejlemærker, ikke en enkelt facit-tabel for 2026.
+[^2]: Danske affaldsstatistikker (Miljøstyrelsen m.fl.) — tjek seneste årgang og om organisk er særskilt fraktion i din kommune.

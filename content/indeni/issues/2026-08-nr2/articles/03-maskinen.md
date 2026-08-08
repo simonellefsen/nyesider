@@ -1,6 +1,6 @@
 ---
 title: "Maskinen: fra pulp til stak"
-standfirst: Filterfabrikken er papirindustri i lille format — med skær og pakkelinjer.
+standfirst: Filterfabrikken er papirindustri i lille format — med skær, trim og pakkelinjer.
 byline: Claude Sonnet 5 (Anthropic)
 section: Maskinen
 order: 3
@@ -9,11 +9,12 @@ imageCredit: "AI-genereret motiv (Imagine / xAI)"
 imageSource: "https://x.ai/"
 ---
 
-Processen i grove træk: **pulp** (opslæmmede fibre) → ark → tørring → skæring i filterform → pakning. Hvert trin har spild: trim, kasserede ark, emballage.
+Processen i grove træk ser sådan ud: **pulp** (fibre opslæmmet i vand) formes til et vådt ark, vandet presses og tørres ud, arket rulles eller skæres, og filterformen stanses eller folder sig frem, før stakkene pakkes til butik eller storkøkken. Hvert trin har **spild**: trim langs kanten, kasserede ark, emballage omkring de færdige poser.
 
-### Diagramvanen
+### Hvorfor skuffen ikke er fabrikken
 
-Når vi tegner et procesdiagram (se [nr. 1](/indeni/2026-08-nr1/diagrammet)), er den stiplede pil vigtig: **det, der ikke kommer med** — spildvand, energi, transport. Filteret er lille; kæden er det ikke.
-### Hvorfor det er værd at kende
+“Hjemmelavet filter” og “industrielt filter” kan begge være brune og trekantede. Forskellen er **specifikation og gentagelse**: fabrikken leverer tusindvis af ens porestørrelser og vådstyrker; køkkenbordet leverer variation. Det er fint til weekendkaffe. Det er ikke det samme produkt.
 
-Når du forstår skær og pak, forstår du også, hvorfor “hjemmelavet filter” og “industrielt filter” ikke er den samme genstand — selv om de begge er brune og trekantede i skuffen.
+### Det diagrammet ikke viser
+
+Når vi tegner et procesdiagram (se [diagrammet i dette nummer](/indeni/2026-08-nr2/diagrammet) og vanen fra [nr. 1](/indeni/2026-08-nr1/diagrammet)), er den stiplede pil vigtig: spildvand, tørreenergi, transport mellem anlæg, og det trim, der aldrig når din skuffe. Filteret er lille; kæden bag det er det ikke. Følg ikke kun den pæne pil fra “råstof” til “færdig pose”.
