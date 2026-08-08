@@ -4,7 +4,7 @@
   "title": "KRAFTEN nr. 1 · August 2026",
   "issueTheme": "Hvad holder lyset tændt",
   "published": "2026-08-01",
-  "status": "draft",
+  "status": "published",
   "pdf": null,
   "cover": "images/kraften_cover.png",
   "images": [
@@ -16,7 +16,7 @@
     "images/kraften_gas.png",
     "images/kraften_cover_alt_nacelle.png"
   ],
-  "productionCostUSD": null,
+  "productionCostUSD": 0.54,
   "imageCredits": "Forside nr. 1: AI-genereret via Imagine (xAI) — højspændingsmaster, lysbue, køletårn og vind i natten; tema «Hvad holder lyset tændt». Kilde: https://x.ai/. Artikelbilleder: AI-genererede anlægs- og maskinmotiver (atom, vind, sol, batteri, LNG) via Imagine / xAI. Hvert nummer har sin egen forside (cover i issue.json).",
   "backCoverPromise": "KRAFTEN nr. 2 rykker ud: elektrificering jorden rundt — og strøm i rummet.",
   "articles": [
@@ -26,7 +26,7 @@
       "order": 1,
       "title": "Hvad holder lyset tændt",
       "section": "Leder",
-      "standfirst": "Velkommen til KRAFTEN — magasinet om elektrificering som system, ikke som slagord. Fra net og anlæg på Jorden til strøm i rummet."
+      "standfirst": "Velkommen til KRAFTEN. Temaet for nr. 1 er det spørgsmål, alle andre energispørgsmål hænger på — og et løfte om, hvordan vi behandler tal og forfatterskab."
     },
     {
       "slug": "europa-mix",
@@ -59,17 +59,17 @@
       "slug": "fusion",
       "file": "articles/05-fusion.md",
       "order": 5,
-      "title": "Fusion: ITER, private demos og ærlig tid",
+      "title": "Fusion: to slags energigevinst",
       "section": "Atom",
-      "standfirst": "Nettoenergi i et forsøg er ikke det samme som strøm i stikkontakten. Sådan læser du fusionsnyheder i 2026."
+      "standfirst": "Overskrifterne om fusion forveksler næsten altid to ting. Forskellen mellem dem er hele afstanden fra laboratorium til stikkontakt."
     },
     {
       "slug": "gas",
       "file": "articles/06-gas.md",
       "order": 6,
-      "title": "Gas: bro, buffer — og afhængighed",
+      "title": "Gas: det fossile bagstop, ingen kan undvære",
       "section": "Fossilt",
-      "standfirst": "LNG-terminaler og rør er stadig europæisk virkelighed. Gas er ikke fremtiden for alle. Den er nutiden for mange.",
+      "standfirst": "Gas er ikke svær at skære væk, fordi den leverer mest. Den er svær, fordi den løser præcis det problem, sol og vind selv skaber.",
       "image": "../images/kraften_gas.png",
       "imageCredit": "AI-genereret anlægsmotiv (Imagine / xAI)",
       "imageSource": "https://x.ai/"
@@ -78,9 +78,9 @@
       "slug": "olie",
       "file": "articles/07-olie.md",
       "order": 7,
-      "title": "Olie: stadig verdens blod — bare ikke i elstikket",
+      "title": "Olie: den fortrænges ikke i kraftværket",
       "section": "Fossilt",
-      "standfirst": "Eldebatten handler om megawatt. Olie handler om transport, plastik og geopolitik. Begge dele hører til i et energimagasin."
+      "standfirst": "Olie fylder næsten intet i europæisk elproduktion, men er stadig den største post i energiforbruget. En elbil rammer oliens kerneforretning. Et solcelleanlæg gør det sjældent."
     },
     {
       "slug": "vind",
@@ -127,29 +127,21 @@
       "slug": "lande",
       "file": "articles/12-lande.md",
       "order": 12,
-      "title": "Tallet & landene: seks snapshots",
+      "title": "Tallet: 30 mod 29",
       "section": "Tallet",
-      "standfirst": "Samme pejlemærker for EU, Danmark, Frankrig, Tyskland, USA og Kina — hvad driver elmixet, og hvad bygges der?"
-    },
-    {
-      "slug": "ordbogen",
-      "file": "articles/13-ordbogen.md",
-      "order": 13,
-      "title": "Ordbogen",
-      "section": "Ordbogen",
-      "standfirst": "Tolv gloser, så du kan læse et energinotat uden at bluffe."
+      "standfirst": "Vind og sol slog fossil i EU. Men et tal er kun så stærkt som sin definition — og dette er en årsandel, ikke en garanti."
     },
     {
       "slug": "rygteboersen",
-      "file": "articles/14-rygteboersen.md",
-      "order": 14,
+      "file": "articles/13-rygteboersen.md",
+      "order": 13,
       "title": "Rygtebørsen",
       "section": "Rygtebørsen",
-      "standfirst": "Megawatt, ministerier og mirakler. Vurderet i reaktorkerner — ikke i likes."
+      "standfirst": "Tre påstande, der cirkulerer i energidebatten denne sommer — og en ærlig temperaturmåling på hver."
     }
   ],
   "coverCredit": "AI-genereret forside (Imagine / xAI) — tema: Hvad holder lyset tændt",
   "coverSource": "https://x.ai/",
-  "unpublishedReason": "Afpubliceret 2026-08-08. Nummeret blev udgivet med byline-kreditering til navngivne modeller, men bestilling.json indeholder hverken costUSD, kladde-reference eller kladdefil for nogen artikel, og OpenRouter-forbruget på titlens egen nøgle viser, at kaldene aldrig blev foretaget. Verdikterne ('accepted', 'rejected') beskriver derfor en bedømmelse af kladder, der aldrig er modtaget. Nummeret skal produceres forfra — uden byline, indtil en reel forfatter kan dokumenteres. Se redaktion/README.md.",
-  "unpublishedAt": "2026-08-08"
+  "republishedAt": "2026-08-09",
+  "provenanceNote": "Afpubliceret 2026-08-08 og genopbygget fra bunden. Nr. 1 blev oprindeligt udgivet uden bestilling.json overhovedet — ingen brief, intet verdikt, ingen kvittering — samtidig med at det bar byline til navngivne modeller. Tolv af tretten artikler er nu reelt kommissioneret hos navngivne modeller via titlens egen nøgle (.env.kraften), hver med kladde, pris og generationId registreret i redaktion/kraften/numre/2026-08-nr1/bestilling.json. Lederen er skrevet af chefredaktionen og bærer INGEN byline. Ordbogen er fjernet, jf. notesbogens formatregel om at gloser hører til i brødtekst eller fodnote. Samlet forbrug er aflæst på OpenRouters nøgle-endpoint og stemmer med summen af de enkelte kvitteringer."
 }

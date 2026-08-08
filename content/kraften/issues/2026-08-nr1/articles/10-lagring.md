@@ -30,7 +30,7 @@ Lagringsopgaven falder i tidsvinduer, og ingen enkelt teknologi dækker dem alle
 
 Brint nævnes oftest som kandidaten: overskudsstrøm bruges til at spalte vand ved elektrolyse, og brinten lagres i tanke eller underjordiske hulrum. Problemet er **rundtursvirkningsgraden** — hvor meget der er tilbage, når strøm er lavet om til brint og tilbage til strøm igen. Svaret er: ikke nok. Sæsonlagring i stor skala er fortsat teknisk og økonomisk uafklaret, og ingen løsning konkurrerer i dag med fossile reserver på pris og skala.[^2]
 
-Det er den ærlige akilleshæl under enhver fortælling om et system, der kører på 100 % vedvarende hele året.
+Det er den ærlige akilleshæl under enhver fortælling om et system, der kører på 100 % vedvarende hele året.
 
 ### Fleksibilitet, der ikke kræver et batteri
 
@@ -39,7 +39,7 @@ Det billigste svar på svingningerne er ofte ikke at flytte produktionen, men **
 - **Fleksibelt forbrug:** industrianlæg, datacentre og køleanlæg flytter forbrug til billige timer mod lavere tarif.
 - **Elbilernes batterier:** biler, der lades, når strømmen er billig — og i visse tilfælde leverer tilbage til nettet (*vehicle-to-grid*).
 - **Varmepumper med bufferbeholder:** en isoleret vandtank varmes op, når strømmen er billig, og afgiver bagefter varme uden at trække strøm. Termisk lagring, som mange danske husstande allerede bruger uden at kalde det et batteri.
-- **Udlandsforbindelser:** kabler mellem lande, så et område med underskud kan trække på et andet lands overskud i samme øjeblik. For [Danmark](/kraften/2026-08-nr1/danmark) er det selve forudsætningen for en meget høj vindandel.
+- **Udlandsforbindelser:** kabler mellem lande, så et område med underskud kan trække på et andet lands overskud i samme øjeblik. For [Danmark](/kraften/2026-08-nr1/danmark) er det selve forudsætningen for en meget høj vindandel.[^3]
 
 ### Forretningen: arbitrage
 
@@ -53,3 +53,4 @@ Derfor vokser batterikapaciteten hurtigst dér, hvor solen allerede fylder mest.
 
 [^1]: [Batteries and Secure Energy Transitions](https://www.iea.org/reports/batteries-and-secure-energy-transitions), Det Internationale Energiagentur (IEA) — om væksten i installeret batterikapacitet og prisfaldet på litium-ion. Se også [Grid-scale storage](https://www.iea.org/energy-system/electricity/grid-scale-storage), IEA, om lagringens rolle i elsystemet.
 [^2]: [Hydrogen](https://www.irena.org/Energy-Transition/Technology/Hydrogen), Det Internationale Agentur for Vedvarende Energi (IRENA) — om brintens rolle, herunder tabene ved omdannelse frem og tilbage og de uafklarede forudsætninger for sæsonlagring i stor skala.
+[^3]: [ENTSO-E Transparency Platform](https://transparency.entsoe.eu/) — data om grænseoverskridende eludveksling i Europa, herunder de danske forbindelser til Norge, Sverige, Tyskland, Nederlandene og Storbritannien.

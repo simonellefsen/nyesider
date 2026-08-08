@@ -10,9 +10,9 @@ imageSource: "https://x.ai/"
 
 2025 gjorde det klart, hvilken teknologi der bærer elektrificeringen.
 
-I EU nåede solproduktionen rekordhøje **369 TWh** — en stigning på **20 % på ét år**. Sol dækker nu mere end en femtedel af det samlede elforbrug i Ungarn, Cypern, Grækenland, Spanien og Nederlandene.[^1]
+I EU nåede solproduktionen rekordhøje **369 TWh** — en stigning på **20 % på ét år**. Sol dækker nu mere end en femtedel af det samlede elforbrug i Ungarn, Cypern, Grækenland, Spanien og Nederlandene.[^1]
 
-Udviklingen er ikke europæisk. Det Internationale Energiagentur (IEA) venter, at **sol alene står for over 60 %** af hele verdens vækst i vedvarende elproduktion frem mod 2030. Sol og vind tilsammen går fra **17 %** af verdens elproduktion i 2025 til **27 %** i 2030.[^2]
+Udviklingen er ikke europæisk. Det Internationale Energiagentur (IEA) venter, at **sol alene står for over 60 %** af hele verdens vækst i vedvarende elproduktion frem mod 2030. Sol og vind tilsammen går fra **17 %** af verdens elproduktion i 2025 til **27 %** i 2030.[^2]
 
 Men succesen bærer sit eget problem, og det er ikke til at bygge sig ud af.
 
@@ -48,6 +48,6 @@ Solens styrke er, at den kan bygges hurtigere end noget andet. Den bar [hele EU'
 
 Den første egenskab løser klimaregnskabet. Den anden flytter regningen over på alt det andet i systemet.
 
-[^1]: [European Electricity Review 2026](https://ember-energy.org/latest-insights/european-electricity-review-2026/), Ember — EU's solproduktion nåede rekord 369 TWh i 2025, en stigning på 20 %, og sol leverede over en femtedel af elforbruget i Ungarn, Cypern, Grækenland, Spanien og Nederlandene.
-[^2]: [Electricity 2026 — Supply](https://www.iea.org/reports/electricity-2026/supply), Det Internationale Energiagentur (IEA): sol står for over 60 % af væksten i vedvarende elproduktion frem mod 2030, og sol og vind går fra 17 % af den globale elproduktion i 2025 til 27 % i 2030.
+[^1]: [European Electricity Review 2026](https://ember-energy.org/latest-insights/european-electricity-review-2026/), Ember — EU's solproduktion nåede rekord 369 TWh i 2025, en stigning på 20 %, og sol leverede over en femtedel af elforbruget i Ungarn, Cypern, Grækenland, Spanien og Nederlandene.
+[^2]: [Electricity 2026 — Supply](https://www.iea.org/reports/electricity-2026/supply), Det Internationale Energiagentur (IEA): sol står for over 60 % af væksten i vedvarende elproduktion frem mod 2030, og sol og vind går fra 17 % af den globale elproduktion i 2025 til 27 % i 2030.
 [^3]: [Managing the evolving grid](https://www.caiso.com/about/our-business/managing-the-evolving-grid), California Independent System Operator (CAISO) — om nettobehovskurven, som gav andekurven navn, og om den stejle opregulering i aftentimerne.

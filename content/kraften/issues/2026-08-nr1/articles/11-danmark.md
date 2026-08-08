@@ -5,11 +5,11 @@ section: Lande & udbygning
 order: 11
 ---
 
-Danmark fortælles som en historie om vindmøller. I 2024 kom **59 %** af den danske elproduktion fra vind, og landet ligger i toppen af EU målt på vind- og solandel.[^1]
+Danmark fortælles som en historie om vindmøller. I 2024 kom **59 %** af den danske elproduktion fra vind, og landet ligger i toppen af EU målt på vind- og solandel.[^1]
 
 Men den mest betydningsfulde danske eltal i 2025 handler ikke om, hvor meget der blev produceret. Det handler om, hvor meget der blev **brugt**.
 
-Det samlede danske elforbrug nåede godt **39.500 gigawatt-timer** (GWh) i 2025 — omkring **5 % højere** end året før.[^2] En gigawatt-time er en milliard watt-timer og bruges til at måle, hvor meget elektricitet et samfund faktisk har anvendt over tid.
+Det samlede danske elforbrug nåede godt **39.500 gigawatt-timer** (GWh) i 2025 — omkring **5 % højere** end året før.[^2] En gigawatt-time er en milliard watt-timer og bruges til at måle, hvor meget elektricitet et samfund faktisk har anvendt over tid.
 
 Det er et skifte. I mange år kunne Danmark både bygge mere vedvarende produktion **og** have et fladt eller faldende elforbrug, blandt andet på grund af energieffektivisering. Nu stiger efterspørgslen igen.
 
@@ -29,7 +29,7 @@ Det flytter elregningen ind i fordelingspolitikken. Når en familie skifter fra 
 
 ### Produktion er ikke det samme som forbrug
 
-De 59 % siger noget om **produktionen**: mere end halvdelen af den strøm, der blev fremstillet i Danmark, kom fra vind. Det betyder ikke, at Danmark var selvforsynende med vindstrøm i hver eneste time.
+De 59 % siger noget om **produktionen**: mere end halvdelen af den strøm, der blev fremstillet i Danmark, kom fra vind. Det betyder ikke, at Danmark var selvforsynende med vindstrøm i hver eneste time.
 
 På en blæsende nat producerer danske møller langt mere, end landet bruger. På en vindstille vinterdag, hvor varmepumper og erhverv trækker hårdt, er produktionen lavere end forbruget. Danmark eksporterer i nogle timer og importerer i andre.
 
@@ -50,5 +50,5 @@ Og det gør elregningen til et fordelingsspørgsmål: hvem betaler for nye kable
 Danmark har vist, at en meget høj vindandel kan fungere i et sammenkoblet system. Rekordforbruget i 2025 viser næste fase: den grønne strøm skal ikke bare produceres. Den skal bruges — klogt, billigt, og på de timer, hvor systemet kan bære det.
 
 [^1]: [European Electricity Review 2026](https://ember-energy.org/latest-insights/european-electricity-review-2026/), Ember — Danmarks placering i toppen af EU på vind- og solandel. Vindens andel af dansk elproduktion i 2024 kan efterprøves i [Energi Data Service](https://www.energidataservice.dk/), Energinet.
-[^2]: [Elforbruget slog rekord i 2025](https://via.ritzau.dk/pressemeddelelse/14737704/god-nyhed-elforbruget-slar-rekord-i-2025), Energinet — godt 39.500 GWh i 2025, ca. 5 % over 2024, drevet især af elforbrug til fjernvarmeproduktion og af stigende privatforbrug.
+[^2]: [Elforbruget slog rekord i 2025](https://via.ritzau.dk/pressemeddelelse/14737704/god-nyhed-elforbruget-slar-rekord-i-2025), Energinet — godt 39.500 GWh i 2025, ca. 5 % over 2024, drevet især af elforbrug til fjernvarmeproduktion og af stigende privatforbrug.
 [^3]: [ENTSO-E Transparency Platform](https://transparency.entsoe.eu/) — data om europæisk elproduktion, forbrug og grænseoverskridende udveksling, herunder de danske forbindelser.

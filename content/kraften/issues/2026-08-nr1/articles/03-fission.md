@@ -10,7 +10,7 @@ imageSource: "https://x.ai/"
 
 Atomkraft er langsom. Det er ikke en kritik, men en fysisk og økonomisk kendsgerning. En reaktor er kubikmeter armeret beton, ståltanke, årtiers licensering og et budget, der sjældent holder.
 
-Derfor er den mest interessante atomnyhed i 2026 ikke en pressemeddelelse om fremtidig teknologi. Det er et kedeligt tal: global atomproduktion ventes at vokse **2,8 %** om året i fremskrivningsperioden — mere end **dobbelt så hurtigt** som de **1,3 %**, der prægede 2021–2025.[^1]
+Derfor er den mest interessante atomnyhed i 2026 ikke en pressemeddelelse om fremtidig teknologi. Det er et kedeligt tal: global atomproduktion ventes at vokse **2,8 %** om året i fremskrivningsperioden — mere end **dobbelt så hurtigt** som de **1,3 %**, der prægede 2021–2025.[^1]
 
 Tallet kommer fra **IEA**, Det Internationale Energiagentur, energianalyseorganet i Paris, hvis årlige *Electricity*-rapport er en af de mest citerede prognoser for verdens elforbrug og -produktion. Accelerationen skyldes ifølge IEA tre ting: nye enheder i drift, genstart af japanske reaktorer, og en stabiliseret fransk produktion efter flere år med korrosionsproblemer og lav kapacitetsudnyttelse.[^1]
 
@@ -42,10 +42,10 @@ Det danske spor følger vi i [thorium](/kraften/2026-08-nr1/thorium), og den fje
 
 ### Hvad tallene faktisk siger
 
-Atomkraften vokser hurtigere end før. Men accelerationen fra 1,3 til 2,8 % er i høj grad drevet af de to **billige** veje — forlængelse og genstart — plus kinesisk nybyggeri.
+Atomkraften vokser hurtigere end før. Men accelerationen fra 1,3 til 2,8 % er i høj grad drevet af de to **billige** veje — forlængelse og genstart — plus kinesisk nybyggeri.
 
 Den er ikke et vidnesbyrd om, at Vesten har fundet en genvej. De vestlige tal fortæller den modsatte historie: stabil, men ikke voksende produktion, og en teknologi, hvis fremtid stadig i vid udstrækning ligger i beton, der ikke er støbt endnu.
 
-[^1]: [Electricity 2026 — Supply](https://www.iea.org/reports/electricity-2026/supply), Det Internationale Energiagentur (IEA): global atomproduktion ventes at vokse 2,8 % årligt i fremskrivningsperioden mod 1,3 % i 2021–2025, drevet af nye enheder, japansk genstart og stabiliseret fransk produktion, samt forskydningen af andele mod Kina. Se også [Executive summary](https://www.iea.org/reports/electricity-2026/executive-summary).
+[^1]: [Electricity 2026 — Supply](https://www.iea.org/reports/electricity-2026/supply), Det Internationale Energiagentur (IEA): global atomproduktion ventes at vokse 2,8 % årligt i fremskrivningsperioden mod 1,3 % i 2021–2025, drevet af nye enheder, japansk genstart og stabiliseret fransk produktion, samt forskydningen af andele mod Kina. Se også [Executive summary](https://www.iea.org/reports/electricity-2026/executive-summary).
 [^2]: [Nuclear power](https://www.iea.org/energy-system/electricity/nuclear-power), IEA — om levetidsforlængelse, genstart og status for små modulære reaktorer. Se også [Nuclear Power and Secure Energy Transitions](https://www.iea.org/reports/nuclear-power-and-secure-energy-transitions), IEA.
 [^3]: [Nuclear Power in the World Today](https://world-nuclear.org/information-library/current-and-future-generation/nuclear-power-in-the-world-today), World Nuclear Association — status for reaktorflåden globalt, herunder forløbet for Olkiluoto 3 og Flamanville 3.

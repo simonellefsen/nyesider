@@ -21,7 +21,7 @@ Konceptet er ikke nyt. Idéen og de tidlige forsøg går tilbage til det amerika
 
 ### Hvorfor thorium?
 
-**Uran-235**, det almindelige reaktorbrændsel, er sjældent: det udgør under 1 % af naturligt uran. **Thorium** er mere udbredt i jordskorpen end uran og kræver ikke samme grad af berigelse.
+**Uran-235**, det almindelige reaktorbrændsel, er sjældent: det udgør under 1 % af naturligt uran. **Thorium** er mere udbredt i jordskorpen end uran og kræver ikke samme grad af berigelse.
 
 Men thorium er ikke i sig selv **spalteligt** — det kan ikke holde en kædereaktion i gang. Det skal først optage neutroner og omdannes til **uran-233** inde i reaktoren. Det er en teknisk detalje med store konsekvenser: en thoriumreaktor skal «tændes» med en anden neutronkilde eller lidt uran, før thoriumkredsløbet kan overtage.
 

@@ -174,15 +174,17 @@
         "fallback": "deepseek/deepseek-v3.2"
       },
       "receipt": {
-        "words": null,
-        "costUSD": null,
-        "draft": null
+        "words": 661,
+        "costUSD": 0.07576,
+        "draft": "kladder/05-fusion.md",
+        "costRouting": "byok",
+        "generationId": "gen-1786228288-CnFpT66qNpeW7As64mDr"
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
-        "citations": null,
-        "editorNote": null
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-09",
+        "citations": 4,
+        "editorNote": "REELT kommissioneret hos google/gemini-3.1-pro-preview paa .env.kraften (BYOK, generationId registreret); kladde i kladder/05-fusion.md. Kladden loeste briefens hovedopgave rigtigt: den skelnede skarpt mellem videnskabelig energigevinst (NIF december 2022 — maalt mod laserpulsen ind i braendselskapslen, ikke mod anlaeggets samlede stroemforbrug) og teknisk gevinst (et vaerk der driver sine egne magneter og lasere og stadig leverer til nettet). Den fangede ogsaa den mest oversete kendsgerning om ITER: projektet kobles slet IKKE til elnettet — der er ingen turbiner — hvilket alene forklarer, hvorfor 'ITER producerer mere energi end den bruger' aldrig kommer til at betyde stroem i en stikkontakt. De tre uloeste problemer (neutronnedbrydning af vaegmaterialer, tritium-avl fra lithium, kontinuerlig drift mod enkeltskud) er korrekt beskrevet. FEJL RETTET: kladden opgjorde de private fusionsinvesteringer til 'over 6 milliarder dollars' med henvisning til Fusion Industry Associations rapport fra JULI 2023. Tallet er nu 14,24 mia. dollar i alt (13,26 mia. private), og alene i de tolv maaneder frem til juli 2026 rejste 56 selskaber 4,48 mia. — det hoejeste aarlige beloeb siden 2021 og 69 % over aaret foer; branchen beskaeftiger over 16.000. Opdateret med kilde, og tilfoejet den redaktionelle praecisering, at et investeringstal maaler FORVENTNING og ikke teknisk fremdrift. IAEA-fodnoten svarer 403 (bot-blokering, ikke doedt link)."
       }
     },
     {
@@ -204,15 +206,17 @@
         "fallback": "deepseek/deepseek-v3.2"
       },
       "receipt": {
-        "words": null,
-        "costUSD": null,
-        "draft": null
+        "words": 589,
+        "costUSD": 0.037142,
+        "draft": "kladder/06-gas.md",
+        "costRouting": "byok",
+        "generationId": "gen-1786227965-RZRKsQXjjVGbYw9iwUNf"
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
-        "citations": null,
-        "editorNote": null
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-09",
+        "citations": 3,
+        "editorNote": "REELT kommissioneret hos anthropic/claude-sonnet-5 paa .env.kraften (BYOK, generationId registreret); kladde i kladder/06-gas.md. Kladden ramte briefens kerne praecist: gas er svaer at skaere vaek, ikke fordi den leverer mest, men fordi den loeser netop det problem, sol og vind skaber — og den forklarede kapacitetsmarkedet korrekt som betaling for at STAA KLAR frem for for at producere. Den fandt selv den skarpeste formulering af MW/TWh-skellet for gas: installeret kapacitet er langt stoerre end produktionsandelen antyder, fordi kapaciteten bruges kort og sjaeldent. TO RETTELSER. (1) Gassens andel paa 17 % blev dateret til 2023. Nummerets egen chart-serie (Ember) viser 15 % i 2023 og 17 % i 2025 — rigtigt tal, forkert aar. Rettet til 2025. (2) Kladden skrev, at EU 'historisk har importeret op imod 90 %' af sit naturgasforbrug. Eurostat har praecise tal: importafhaengigheden var 85,6 % i 2024 og 87,6 % i 2025. Erstattet af de faktiske tal med kilde. TILFOEJET som krydstjek: Eurostat opgoer fossile braendsler til 29,6 % af EU's elproduktion i 2025 mod 47,2 % vedvarende — taet paa Embers 29 og 48 %, hvilket er vaerd at vise, fordi to uafhaengige opgoerelser stemmer overens. Fodnoterne var bare domaenehenvisninger (iea.org, ember-energy.org, ec.europa.eu) og IEA's electricity-market-report-adresse gav 404; alle erstattet af kontrollerede sider. Chart-markoerer eu-gas-andel og eu-gas-import sat ind."
       }
     },
     {
@@ -234,15 +238,17 @@
         "fallback": "deepseek/deepseek-v3.2"
       },
       "receipt": {
-        "words": null,
-        "costUSD": null,
-        "draft": null
+        "words": 591,
+        "costUSD": 0.016687,
+        "draft": "kladder/07-olie.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1786228146-1f1HwFNssR87TanrNkTS"
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
-        "citations": null,
-        "editorNote": null
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-09",
+        "citations": 3,
+        "editorNote": "REELT kommissioneret hos openai/gpt-5.6-terra paa .env.kraften (generationId registreret); kladde i kladder/07-olie.md. Den mest praecist taenkende kladde i nummeret. Den ramte briefens hovedpointe — at en elbil rammer oliens kerneforretning, mens et solcelleanlaeg sjaeldent goer det, fordi olie naesten ikke bruges til el i Europa — og tilfoejede selv det forbehold, der goer pointen holdbar: en varmepumpe fortraenger kun olie, hvis alternativet var et oliefyr; er alternativet et gasfyr, flyttes efterspoerglen vaek fra gas. Den forklarede ogsaa primaer energi over for endeligt energiforbrug korrekt og drog den rigtige konsekvens: elektrificering kan reducere BAADE olieforbrug og samlet primaerenergibehov, fordi forbraending taber energi undervejs. Gennemgangen af de svaere sektorer skelner desuden korrekt mellem olie som BRAENDSEL og olie som RAAVARE til plast og kemi — det sidste kan ikke erstattes af en ledning uanset hvor groen stroemmen er. Rettelser: Eurostat-fodnoten var en gaettet URL (Energy_consumption_in_the_EU) og gav 404 — erstattet af Energy statistics: an overview. Ember-fodnoten pegede paa 2024-udgaven og var desuden irrelevant for artiklens paastande — udskiftet med IEA's varmepumperapport. IEA-fodnoten pegede paa Global EV Outlook 2024 — opdateret til 2026-udgaven og haegtet paa det afsnit, den faktisk daekker. Overskrift i broedtekst fjernet, strammet."
       }
     },
     {
@@ -410,15 +416,17 @@
         "fallback": "deepseek/deepseek-v3.2"
       },
       "receipt": {
-        "words": null,
-        "costUSD": null,
-        "draft": null
+        "words": 533,
+        "costUSD": 0.05504,
+        "draft": "kladder/12-lande.md",
+        "costRouting": "byok",
+        "generationId": "gen-1786228435-Rq3bdOQQVRDxtKhpCp1O"
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
-        "citations": null,
-        "editorNote": null
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-09",
+        "citations": 4,
+        "editorNote": "REELT kommissioneret hos anthropic/claude-opus-4.8 paa .env.kraften (BYOK, generationId registreret); kladde i kladder/12-lande.md. DEN MEST INTEGRE KLADDE I HELE GENOPBYGNINGEN. Briefen bad om et landeskema med afrundede pejlemaerker for EU, Danmark, Frankrig, Tyskland, USA og Kina. Kladden udfyldte EU og noejedes med kvalitative beskrivelser for de oevrige — og skrev UDTRYKKELIGT i artiklen hvorfor: den kunne ikke knytte tallene til én verificerbar kilde med sikker ordlyd og aarstal, og 'en falsk-praecis procent er vaerre end en aaben beskrivelse'. Det er praecis den adfaerd, hele denne genopbygning findes for. Redaktionen har derfor IKKE presset tal ind, men gjort det arbejde, kladden ikke kunne: Embers Global Electricity Review 2026 giver Kina 22 % og OECD-gennemsnittet 20 %, som nu staar i skemaet med kilde, mens Danmark, Frankrig, Tyskland og USA fortsat staar uden procenttal og med begrundelsen bevaret. TILFOEJET fra samme kilde, fordi det er stoerre end EU's krydsning: verdens sol- og vindandel var 17,6 % i de tre foerste kvartaler af 2025 mod 15,2 % aaret foer, lav-CO2 naaede 43 %, solproduktionen voksede 636 TWh (+30 %) og overhalede for foerste gang vind, og vind og sol daekkede tilsammen 99 % af HELE vaeksten i det globale elforbrug. Atomkraft steg 1,3 % til rekord 2.812 TWh — hvilket ogsaa forklarer forholdet til IEA's fremskrevne 2,8 %: det ene er realiseret vaekst, det andet forventet. RETTELSER: fodnote 2 tilskrev tallene 'Electricity 2025' (skal vaere 2026); alle tre fodnoter var bare domaenehenvisninger; kladdens foerste person ('jeg angiver bevidst ikke') lagt om til redaktionens stemme. Chefredaktionen fangede desuden sin EGEN fejl i redigeringen: en forkert magasintitel var smuttet ind i broedteksten og er rettet foer publicering."
       }
     },
     {
@@ -440,15 +448,17 @@
         "fallback": "deepseek/deepseek-v3.2"
       },
       "receipt": {
-        "words": null,
-        "costUSD": null,
-        "draft": null
+        "words": 525,
+        "costUSD": 0.059078,
+        "draft": "kladder/13-rygteboersen.md",
+        "costRouting": "byok",
+        "generationId": "gen-1786228601-0h5rmc6FrRq0W8w58t8l"
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
-        "citations": null,
-        "editorNote": null
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-09",
+        "citations": 4,
+        "editorNote": "REELT kommissioneret hos google/gemini-3.1-pro-preview paa .env.kraften (BYOK, generationId registreret); kladde i kladder/13-rygteboersen.md. Kladden holdt formatets kernekrav: tre paastande, hver med navngiven offentlig kilde og en aerlig temperaturmaaling, og den turde afvise to af dem. Bedst er argumentet mod 'negative elpriser beviser overudbygning': en negativ pris maaler manglende FLEKSIBILITET i en bestemt time, ikke for meget aarlig produktion. Og mod 'megabatterier goer master overfloedige': et batteri i Koebenhavn flytter ingen energi fra Vestjylland — batterier og net er hinandens forudsaetninger, ikke alternativer. TAL OPDATERET: kladden byggede datacenter-punktet paa IEA's Electricity 2024-fremskrivning (460 TWh i 2022 mod over 1.000 TWh i 2026) og satte datacentrenes andel til 2-3 % af det globale elforbrug. IEA's aktuelle opgoerelse er lavere OG mere praecis: ca. 415 TWh svarende til ca. 1,5 % i 2024, paa vej fra 485 TWh i 2025 til ca. 950 TWh i 2030, hvor andelen foerst naar ca. 3 %. Vaeksten er ca. 15 % om aaret, over fire gange hurtigere end oevrige sektorer. Rettelsen STYRKER kladdens egen pointe: overdrivelsen er stoerre, end kladden selv troede. Tilfoejet den redaktionelle skaerpelse, at paastanden forveksler et NET-problem med et FORSYNINGS-problem — datacentre er et voldsomt lokalt prespunkt, ikke en global knaphed. ACER-henvisningen manglede URL; alle fire fodnoter er nu kontrollerede. Ordbogen fjernet fra nummeret, jf. notesbogens formatregel, og rygteboersen renummereret 14 til 13."
       }
     }
   ]
