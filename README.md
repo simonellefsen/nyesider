@@ -57,6 +57,7 @@ npm run preflight    # content-errors + svelte-check + tests + fuld web-build
 | `npm run test` | Node unit tests (`web` audio m.fl.) |
 | `npm run build` | Production build som Vercel |
 | `npm run check:content:errors` | Kun katalog-fejl (hurtig) |
+| `python3 production/udgivelseskalender.py` | Genopbyg [udgivelseskalender.md](redaktion/udgivelseskalender.md); fejl ved to numre samme dag pr. magasin |
 
 **Git pre-push:** efter `npm install` i roden kører `git push` automatisk `scripts/preflight.sh`. Bypass kun bevidst: `SKIP_PREFLIGHT=1 git push`.
 

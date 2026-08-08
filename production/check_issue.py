@@ -184,6 +184,76 @@ def parse_frontmatter(text: str) -> tuple[dict, str]:
     return data, body
 
 
+def check_one_issue_per_day(
+    magazine_dir: Path,
+    issue_dir: Path,
+    issue: dict,
+    tag: str,
+) -> list[Finding]:
+    """At most one *published* issue of a given magazine per calendar day.
+
+    Batch production under time pressure can stamp several issue.json files with
+    the same `published` date (DOSIS nr.2 and nr.3 both used 2026-08-08). The
+    site and RSS then show two “today” editions for one title. This is an ERROR
+    for published issues; drafts may share dates.
+    """
+    findings: list[Finding] = []
+    status = issue.get("status")
+    published = issue.get("published")
+
+    if status == "published" and not published:
+        findings.append(
+            Finding("error", tag, "status=published but issue.json has no published date (YYYY-MM-DD)")
+        )
+        return findings
+
+    if status != "published" or not published:
+        return findings
+
+    if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", str(published)):
+        findings.append(
+            Finding(
+                "error", tag,
+                f"published={published!r} must be a calendar day YYYY-MM-DD "
+                f"(one issue per magazine per day)",
+            )
+        )
+        return findings
+
+    issues_root = magazine_dir / "issues"
+    if not issues_root.is_dir():
+        return findings
+
+    collisions: list[str] = []
+    for other in sorted(issues_root.iterdir()):
+        if not other.is_dir() or other.resolve() == issue_dir.resolve():
+            continue
+        other_json = other / "issue.json"
+        if not other_json.exists():
+            continue
+        try:
+            other_issue = load_json(other_json)
+        except (json.JSONDecodeError, OSError):
+            continue
+        if other_issue.get("status") != "published":
+            continue
+        if other_issue.get("published") == published:
+            collisions.append(other.name)
+
+    if collisions:
+        others = ", ".join(collisions)
+        findings.append(
+            Finding(
+                "error", tag,
+                f"published date {published} already used by published issue(s) "
+                f"{others} under {magazine_dir.name}/ — max one issue per magazine "
+                f"per calendar day. Move this issue's published date (or keep it "
+                f"as draft) before marking published.",
+            )
+        )
+    return findings
+
+
 def check_issue(magazine_dir: Path, issue_dir: Path) -> list[Finding]:
     slug = magazine_dir.name
     issue_slug = issue_dir.name
@@ -209,6 +279,9 @@ def check_issue(magazine_dir: Path, issue_dir: Path) -> list[Finding]:
     # --- issue-level checks ---
     if issue.get("status") == "published" and issue.get("productionCostUSD") is None:
         findings.append(Finding("warning", tag, "status=published but productionCostUSD is null"))
+
+    # One published issue per magazine per calendar day (no double DOSIS on Aug 8).
+    findings.extend(check_one_issue_per_day(magazine_dir, issue_dir, issue, tag))
 
     declared_images = set(issue.get("images", []))
     seen_images: set[str] = set()

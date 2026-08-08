@@ -56,3 +56,6 @@ Fact-check obligatorisk før accept (se [redaktion/README](../README.md)). Medic
 - **2026-08-01 rettelse:** `03-hvor-meget-protein.md` gav ingen konkret g/kg-tal, kun "tjek Fødevarestyrelsen" — tilføjede NNR2023's faktiske tal (0,66/0,83 g/kg voksne; 1,2-1,5 g/kg 70+) med kilde. Del af tværgående oprydning i 24 artikler med utilskrevne taltpåstande (se Workstream C, session 2026-08-01) — DOSIS' `13-rygteboersen.md` (spekulativ sladderkolonne) blev bevidst **ikke** rettet, samme begrundelse som PULSEN/DOSIS' øvrige rygtebørs-formater: `mustCite: 0` er et bevidst formatvalg der.
 
 - **2026-08-08:** Nr. 3 publiceret — søvn-pakke (hygiejne, melatonin, tracker, GLP-1-kobling).
+
+- **2026-08-08 (rettelse):** Nr. 3 fik `published: 2026-08-15` (ikke samme dag som nr. 2's 2026-08-08). Regel: højst ét publiceret nummer pr. magasin pr. kalenderdag — se `redaktion/udgivelseskalender.md` og `check_issue.py`.
+

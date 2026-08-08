@@ -14,16 +14,21 @@ if [[ "${SKIP_PREFLIGHT:-}" == "1" ]]; then
   exit 0
 fi
 
-echo "==> [1/4] content catalogue errors (same as Vercel build gate)"
+echo "==> [1/5] publish calendar (one issue per magazine per day)"
+python3 production/udgivelseskalender.py --check
+# Keep the human ledger in sync when preflight is run from a dirty tree.
+python3 production/udgivelseskalender.py >/dev/null
+
+echo "==> [2/5] content catalogue errors (same as Vercel build gate)"
 python3 production/check_issue.py --all --errors-only
 
-echo "==> [2/4] web typecheck (svelte-check)"
+echo "==> [3/5] web typecheck (svelte-check)"
 npm --prefix web run check
 
-echo "==> [3/4] web unit tests"
+echo "==> [4/5] web unit tests"
 npm --prefix web run test:audio
 
-echo "==> [4/4] web production build (sync-assets + content errors + vite)"
+echo "==> [5/5] web production build (sync-assets + content errors + vite)"
 npm --prefix web run build
 
 echo ""
