@@ -1,0 +1,442 @@
+{
+  "magazine": "orbit",
+  "issue": "2026-08-nr1",
+  "issueTheme": "Kadence",
+  "integrityNote": "Denne fil er skrevet fra bunden 2026-08-08. Nr. 1 blev oprindeligt udgivet 2026-08-01 HELT UDEN bestilling.json — der fandtes ingen brief, intet verdikt og ingen kvittering for nogen af de 13 artikler, samtidig med at nummeret bar byline til navngivne modeller. Hele nummeret produceres forfra på titlens egen nøgle (.env.orbit). En byline sættes kun, hvor receipt.costUSD og receipt.draft er udfyldt.",
+  "budget": {
+    "articles": 12,
+    "wordsPerArticle": [
+      600,
+      900
+    ],
+    "targetPages": 16,
+    "note": "Den afpublicerede udgave var 13 artikler på i alt 2.420 ord — gennemsnit 186 ord. Det er præcis det sammenfald af mange artikler og tynde briefs, som CLAUDE.md advarer om. Vi skærer én artikel væk (Ordbogen, jf. notesbogens formatregel om at gloser hører til i brødtekst eller fodnote) og hæver ordbudgettet med en faktor tre. Rummet er et emne, hvor et tal uden kontekst er værdiløst; det koster plads at give konteksten. Mål: ca. 8.000 ord mod 2.420."
+  },
+  "researchNote": "Alle centrale tal er kontrolleret af chefredaktionen 2026-08-08 mod primære kilder FØR bestilling, så en hallucineret opsendelsesdato kan fanges i kladden i stedet for i bladet. Grundlaget: 2025 havde 324 orbitale forsøg (SpaceNews' optælling, som EKSKLUDERER fem suborbitale Starship-test og tre Electron HASTE — McDowell tæller derfor 329 forsøg / 321 i kredsløb). 2024: 259. 2023: 221. USA 193, Kina 92 (kinesiske statsmedier siger 93), USA+Kina = 88 %. SpaceX: 165 Falcon 9. Satellitter udsat 2025: 4.517 (+58 %), 87 % kommercielle. ESA Space Environment Report 2025: ca. 40.000 sporede objekter, ca. 11.000 aktive nyttelaster, ca. 54.000 > 10 cm, ca. 1,2 mio. 1–10 cm, ca. 130 mio. 1 mm–1 cm. Starlink aug. 2026: ca. 10.893 aktive = ca. 67 % af alle aktive satellitter. New Glenn: NG-2 13. nov. 2025 (ESCAPADE, første boosterlanding på Jacklyn); NG-3 19. april 2026 (første genbrug af booster «Never Tell Me the Odds», landing OK, men én af to BE-3U på andettrinnet nåede ikke fuld thrust — AST SpaceMobile BlueBird 7 i for lav bane; FAA-årsag: kryogenisk læk frøs en hydraulikledning; ni korrigerende tiltag; return-to-flight godkendt ca. 22. maj); 28. maj 2026 kl. 21 EDT eksploderede NG-4 under static fire på LC-36 — årsagen var STADIG ukendt, Blue Origin pegede 30. juni kun på 'agterenden af førstetrinnet'. De to årsager må ALDRIG blandes sammen. Artemis II fløj 1.–10. april 2026 (måneforbiflyvning 6. april, Wiseman/Glover/Koch/Hansen, rekord 252.756 miles). Ariane 6: 4 opsendelser i 2025, 8 planlagt i 2026. ISRO: LVM3-M6 24. dec. 2025 var ISRO's 100. orbitale opsendelse.",
+  "opgaver": [
+    {
+      "slug": "leder",
+      "order": 1,
+      "section": "Leder",
+      "brief": {
+        "angle": "Hvorfor et dansk rumfartsmagasin, og hvorfor er 'kadence' temaet for nr. 1: tempoet er blevet den variabel, alt andet hænger på — pris, skrot, geopolitik, forsikring. Skal også sige rent ud, hvad bladet lover læseren om kilder og byline.",
+        "words": [
+          350,
+          500
+        ],
+        "mustCite": 0,
+        "format": "leder"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": null,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": null,
+        "checkedAt": null,
+        "citations": 0,
+        "editorNote": "Lederen skrives af chefredaktionen og får derfor INGEN byline."
+      }
+    },
+    {
+      "slug": "tallet",
+      "order": 2,
+      "section": "Tallet",
+      "brief": {
+        "angle": "324 orbitale opsendelsesforsøg i 2025. Men tallet er en beslutning, ikke en observation: SpaceNews' 324 ekskluderer fem Starship-testflyvninger, der ikke nåede kredsløb by design, og tre Electron HASTE — derfor tæller McDowell 329 forsøg og 321, der nåede kredsløb. Vis hele optællingsvalget frem, og sæt kurven 221 (2023) → 259 (2024) → 324 (2025) op mod fordelingen USA 193 / Kina 92 / resten. Formatet er: for hvert tal, hvad måler det, hvor kommer det fra, og hvad er usikkerheden.",
+        "words": [
+          450,
+          650
+        ],
+        "mustCite": 3,
+        "mustNumber": [
+          "324",
+          "329 / 321",
+          "259 (2024)",
+          "221 (2023)",
+          "193 USA",
+          "92 Kina",
+          "88 %"
+        ],
+        "format": "tallet"
+      },
+      "writer": {
+        "byline": null,
+        "model": "openai/gpt-5.6-terra",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 463,
+        "costUSD": 0.018931,
+        "draft": "kladder/02-tallet.md",
+        "costRouting": "openrouter"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-08",
+        "citations": 2,
+        "editorNote": "REELT kommissioneret hos openai/gpt-5.6-terra paa .env.orbit. Kladden ramte formatet: tallet som optaellingsregel, ikke observation. To rettelser. (1) Kladden sluttede at forskellen mellem McDowells 329 og SpaceNews' 324 'i praksis er Starship-spoergsmaalet'. Det gaar ikke op: SpaceNews udelader FEM Starship-flyvninger OG TRE HASTE-flyvninger, altsaa otte, ikke fem. Den slutning er fjernet og erstattet af en aeblig konstatering af, at optaellingerne ogsaa afviger paa andre punkter. Praecis den type velklingende udledning, formatet skal fange. (2) Fodnote til FAA's Starship-side var en GAETTET URL og gav 404 ved kontrol — hele sætningen er omskrevet, saa den ikke behoever kilden. Desuden: '321 naaede kredsloeb' praeciseret til 'kredsloeb eller naer-kredsloeb', og fodnote 1 haegtet paa den konkrete SpaceNews-artikel i stedet for forsiden."
+      }
+    },
+    {
+      "slug": "spacex",
+      "order": 3,
+      "section": "Opsendelser",
+      "brief": {
+        "angle": "165 Falcon 9-missioner i 2025 — mere end resten af verden tilsammen, og ca. 85 % af alle amerikanske opsendelser. Spørgsmålet er ikke om det er imponerende, men HVAD der gør kadencen mulig: genbrug af booster, droneskibslandinger, standardisering af nyttelast (Starlink flyver med sig selv), og en fabrik der leverer. Skriv også om, hvad kadencen koster: at én aktør sætter tempoet for hele kredsløbsmiljøet. Forklar 'kadence' og 'droneskib' på dansk ved første nævnelse.",
+        "words": [
+          700,
+          950
+        ],
+        "mustCite": 3,
+        "mustNumber": [
+          "165 Falcon 9 i 2025",
+          "ca. 85 % af amerikanske opsendelser"
+        ],
+        "format": "feature"
+      },
+      "writer": {
+        "byline": null,
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 695,
+        "costUSD": null,
+        "draft": "kladder/03-spacex.md",
+        "costRouting": "byok",
+        "costNote": "BYOK-rutet kald. OpenRouter rapporterede cost=0, fordi opsendelsen blev afregnet direkte paa vores egen upstream-noegle; kaldet er sket, og kladden findes. Denne artikel og spacex/blue-origin blev kommissioneret FOER rettelsen i commission.py, saa den enkelte pris blev ikke gemt. OpenRouters noegle-endpoint viser de to kald til sammen 0.110387 USD (byok_usage maalt umiddelbart efter). Splittet mellem dem kan ikke rekonstrueres — /api/v1/activity kraever en provisioning-noegle — og gaettes derfor ikke. Se issue-niveauets costReconciliation."
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-08",
+        "citations": 4,
+        "editorNote": "REELT kommissioneret hos anthropic/claude-sonnet-5 paa .env.orbit; kladden ligger i kladder/03-spacex.md. BEMAERK: OpenRouter rapporterede costUSD=0 for netop dette kald — kaldet er utvivlsomt sket (kladden findes), men nul-prisen boer verificeres paa dashboardet, da tilsvarende sonnet-5-kald paa KROENIKE kostede ca. 0,03. Redaktionelt: kladden var velbygget om genbrug/droneskib/Starlink, men (1) den var skrevet som om vi stod ved udgangen af 2025 ('Da 2025 rinder ud') — nummeret udkommer i august 2026, saa perspektivet er lagt om til tilbageblik; (2) 'enkelte boostere over tyve gange' var korrekt men kraftigt underdrevet og uden navn — erstattet af B1067, som en laeser kan slaa op: foerste flyvning CRS-22 sommeren 2021, rekord ved 30. flyvning 27. aug. 2025, 33. flyvning 21. feb. 2026 fra SLC-40 med 28 Starlink, maal om certificering til 40; (3) en paastand om fabrikken i Californien stod med 'efter sigende' og haegtede paa en fodnote (McDowell), der slet ikke daekkede den — fjernet; (4) alle tre fodnoter var bare institutionsnavne uden URL, nu konkrete verificerede links."
+      }
+    },
+    {
+      "slug": "blue-origin",
+      "order": 4,
+      "section": "Opsendelser",
+      "brief": {
+        "angle": "New Glenn på ni måneder: 13. nov. 2025 lander boosteren for første gang (NG-2, ESCAPADE mod L2); 19. april 2026 genbruges samme booster «Never Tell Me the Odds» og lander igen — men én af to BE-3U-motorer på ANDETTRINNET når ikke fuld thrust, og AST SpaceMobile BlueBird 7 ender i for lav bane. FAA's årsag: kryogenisk læk frøs en hydraulikledning. Ni korrigerende tiltag, return-to-flight godkendt ca. 22. maj. Seks dage senere, 28. maj kl. 21 EDT, eksploderer NG-4 under static fire og lægger LC-36 — Blue Origins ENESTE New Glenn-rampe — ned. Mønsteret er artiklens pointe: den svære del (booster, genbrug, landing) virker; andettrinnet bliver ved med at bide. ADVARSEL: årsagen til pad-eksplosionen var STADIG ukendt; Blue Origin pegede 30. juni kun på 'agterenden af førstetrinnet'. Skriv ALDRIG at årsagen er kendt, og bland den ALDRIG sammen med NG-3's kryogeniske læk.",
+        "words": [
+          750,
+          1000
+        ],
+        "mustCite": 4,
+        "mustNumber": [
+          "13. november 2025",
+          "19. april 2026",
+          "28. maj 2026",
+          "LC-36",
+          "BlueBird 7"
+        ],
+        "format": "feature"
+      },
+      "writer": {
+        "byline": null,
+        "model": "anthropic/claude-opus-4.8",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 744,
+        "costUSD": null,
+        "draft": "kladder/04-blue-origin.md",
+        "costRouting": "byok",
+        "costNote": "BYOK-rutet kald. OpenRouter rapporterede cost=0, fordi opsendelsen blev afregnet direkte paa vores egen upstream-noegle; kaldet er sket, og kladden findes. Denne artikel og spacex/blue-origin blev kommissioneret FOER rettelsen i commission.py, saa den enkelte pris blev ikke gemt. OpenRouters noegle-endpoint viser de to kald til sammen 0.110387 USD (byok_usage maalt umiddelbart efter). Splittet mellem dem kan ikke rekonstrueres — /api/v1/activity kraever en provisioning-noegle — og gaettes derfor ikke. Se issue-niveauets costReconciliation."
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-08",
+        "citations": 6,
+        "editorNote": "REELT kommissioneret hos anthropic/claude-opus-4.8 paa .env.orbit; kladde i kladder/04-blue-origin.md. OpenRouter rapporterede igen costUSD=0 — se noten paa spacex. Kladden holdt de to havarier korrekt adskilt, som briefen kraevede, OG afslorede samtidig en fejl i BRIEFEN SELV: chefredaktionen havde bestilt tesen 'boosteren virker, andettrinnet bider'. Kladden foulgte den — og modsagde sig selv i samme afsnit, fordi den (korrekt) skrev, at undersoegelsen af pad-eksplosionen pegede mod FOERSTETRINNETS agterende. Tesen hviler altsaa paa ét dokumenteret havari (NG-3's kryogeniske laek) og laaner vaegt fra ét, hvis aarsag ingen kender. Artiklen er omskrevet, saa den fremsaetter den naerliggende laesning OG viser hvorfor den ikke holder — en bedre artikel end den, der blev bestilt. Desuden faktatjek: bekraeftet at Blue Origin er anden aktoer nogensinde efter SpaceX til at lande en orbital-klasse booster propulsivt; skadesomfanget paa LC-36 nuanceret (mindre slemt end frygtet, starttaarn kan repareres); Kuiper-tallet '24 missioner' fra sekundaere medier erstattet af Blue Origins eget: 12 faste + option paa op til 15. Alle seks fodnoter var bare institutionsnavne uden URL — nu konkrete, kontrollerede links."
+      }
+    },
+    {
+      "slug": "nasa-esa",
+      "order": 5,
+      "section": "Nationer & agenturer",
+      "brief": {
+        "angle": "Agenturet som kunde frem for bygherre. NASA fløj Artemis II 1.–10. april 2026 — første bemandede månemission siden 1972, forbiflyvning 6. april, besætning Wiseman, Glover, Koch og Hansen (CSA), rekorden 252.756 miles fra Jorden — men købte samtidig fragt og lift hos private. ESA står med Ariane 6 (4 opsendelser i 2025, 8 planlagt i 2026) og spørgsmålet om europæisk uafhængig adgang til rummet. Hvad betyder det for Danmark og for en europæisk læser? Forklar ESA, NASA og 'georeturn' (ESA's princip om at et medlemsland får industriordrer svarende til sit bidrag) ved første nævnelse.",
+        "words": [
+          700,
+          950
+        ],
+        "mustCite": 3,
+        "mustNumber": [
+          "Artemis II 1.–10. april 2026",
+          "Ariane 6: 4 i 2025, 8 planlagt i 2026"
+        ],
+        "format": "feature"
+      },
+      "writer": {
+        "byline": null,
+        "model": "google/gemini-3.1-pro-preview",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 692,
+        "costUSD": 0.04729,
+        "draft": "kladder/05-nasa-esa.md",
+        "costRouting": "byok"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-08",
+        "citations": 4,
+        "editorNote": "REELT kommissioneret hos google/gemini-3.1-pro-preview paa .env.orbit; kladde i kladder/05-nasa-esa.md. Foerste kald efter BYOK-rettelsen i commission.py, saa prisen staar nu korrekt (0,047 USD upstream) i stedet for 0. Kladden var staerk paa 'agenturet som kunde' og forklarede georeturn godt. Tre rettelser. (1) FEJL: 'alle 22 medlemslande' — ESA har 23 siden Slovenien tiltraadte 1. januar 2025. Rettet og kildebelagt. (2) Fodnoten til ESA's georeturn-side var en GAETTET URL og gav 404; den rigtige ligger under Business_with_ESA/How_to_do/. Samtidig er den upraecise formulering 'taet paa 100 % af midlerne floder tilbage' erstattet af ESA's egen definition: returkoefficienten som forhold mellem kontraktandel og bidragsandel, med 1 som ideal. (3) Kladdens fodnoter var dateret '(2024)' for en mission, der fandt sted i 2026 — datostemplerne fjernet. Desuden strammet, saa forskellen paa de to agenturer staar skarpt: NASA koeber en ydelse, ESA koeber en ydelse OG en industripolitik i samme kontrakt."
+      }
+    },
+    {
+      "slug": "indien-rusland",
+      "order": 6,
+      "section": "Nationer & agenturer",
+      "brief": {
+        "angle": "To rumnationer på modsat kurs. Indien: ISRO nåede sin 100. orbitale opsendelse med LVM3-M6 den 24. december 2025 — en langsom, billig, stædig opbygning, plus et voksende privat segment. Rusland: Roscosmos er gået fra at være den ene af to supermagter i rummet til at kæmpe med kapacitet, sanktioner, tabte kommercielle kunder og et aldrende ISS-engagement. Undgå triumfalisme i begge retninger; sammenlign hvad de to programmer faktisk leverer. Hvis du ikke kan dokumentere et russisk opsendelsestal for 2025, så skriv at du ikke kan, i stedet for at gætte.",
+        "words": [
+          650,
+          900
+        ],
+        "mustCite": 3,
+        "mustNumber": [
+          "ISRO's 100. orbitale opsendelse, LVM3-M6, 24. december 2025"
+        ],
+        "format": "feature"
+      },
+      "writer": {
+        "byline": null,
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": null,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": null,
+        "checkedAt": null,
+        "citations": null,
+        "editorNote": null
+      }
+    },
+    {
+      "slug": "kina",
+      "order": 7,
+      "section": "Nationer & agenturer",
+      "brief": {
+        "angle": "Kina lavede 92 orbitale opsendelser i 2025 (kinesiske statsmedier siger 93 — nævn uenigheden). CASC stod for 73 missioner, heraf 69 Long March og 4 Smart Dragon 3; dertil ca. 50 kommercielle opsendelser. Pointen er strukturen: Kina kører nu to spor parallelt — et statsligt og et hastigt voksende kommercielt med private opsendelsesfirmaer — spredt over cirka to dusin raketfamilier. Det er en anden vej til kadence end SpaceX' ene, gentagne raket. Forklar CASC og CNSA ved første nævnelse.",
+        "words": [
+          700,
+          950
+        ],
+        "mustCite": 3,
+        "mustNumber": [
+          "92 (eller 93)",
+          "CASC 73",
+          "69 Long March",
+          "ca. 50 kommercielle"
+        ],
+        "format": "feature"
+      },
+      "writer": {
+        "byline": null,
+        "model": "openai/gpt-5.6-terra",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 694,
+        "costUSD": 0.022652,
+        "draft": "kladder/07-kina.md",
+        "costRouting": "openrouter"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-08",
+        "citations": 3,
+        "editorNote": "REELT kommissioneret hos openai/gpt-5.6-terra paa .env.orbit; kladde i kladder/07-kina.md. Kladden var den bedst strukturerede i nummeret indtil videre og fandt selv den vigtigste pointe: Kina bygger IKKE en SpaceX-kopi, men koeber robusthed via ca. to dusin raketfamilier frem for lavest pris pr. opsendelse. Den skelnede ogsaa korrekt mellem CNSA (myndighed) og CASC (industrikoncern), som ofte blandes sammen, og advarede praecist mod at laese 'privat' paa dansk vis. Rettelser: (1) fodnote 4 til CSIS ChinaPower var en GAETTET URL (404) OG en haengende fodnote, der aldrig blev refereret i teksten — fjernet. (2) Kladden tilskrev tallet 92 til McDowells GCAT; den kilde, redaktionen faktisk har kontrolleret for 92, er SpaceNews, mens 93 og CASC-fordelingen staar i Global Times — fodnoterne er lagt om, saa hvert tal peger paa den kilde, det faktisk stammer fra. (3) Overskrift i brodteksten fjernet (titel hoerer i frontmatter)."
+      }
+    },
+    {
+      "slug": "satellitter",
+      "order": 8,
+      "section": "Satellitter & konstellationer",
+      "brief": {
+        "angle": "LEO er holdt op med at være et sted og blevet en industripark. I 2025 blev der udsat 4.517 satellitter — 58 % flere end året før, og 87 % af dem kommercielle. I august 2026 er ca. 10.893 Starlink-satellitter aktive, omkring 67 % af ALLE aktive satellitter. Beskriv hvad det betyder rent praktisk: en enkelt privat aktør ejer to ud af tre aktive satellitter i kredsløb om Jorden. Tag også konkurrenterne med (Kuiper, kinesiske konstellationer, OneWeb/Eutelsat) og spørgsmålet om, hvad der sker med astronomi og med bane-koordination. Forklar LEO ved første nævnelse.",
+        "words": [
+          700,
+          950
+        ],
+        "mustCite": 3,
+        "mustNumber": [
+          "4.517 satellitter i 2025",
+          "+58 %",
+          "87 % kommercielle",
+          "ca. 10.893 Starlink",
+          "ca. 67 %"
+        ],
+        "format": "feature"
+      },
+      "writer": {
+        "byline": null,
+        "model": "google/gemini-3.1-pro-preview",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": null,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": null,
+        "checkedAt": null,
+        "citations": null,
+        "editorNote": null
+      }
+    },
+    {
+      "slug": "rumskrot",
+      "order": 9,
+      "section": "Rumskrot & sikkerhed i kredsløb",
+      "brief": {
+        "angle": "Regningen for kadence. ESA's Space Environment Report 2025: ca. 40.000 objekter spores, heraf ca. 11.000 aktive nyttelaster; ca. 54.000 objekter over 10 cm; anslået 1,2 mio. stumper på 1–10 cm og ca. 130 mio. på 1 mm–1 cm. Forklar hvorfor de SMÅ stumper er det egentlige problem (de kan ikke spores, men rammer med orbital hastighed), hvad Kessler-syndromet er, og hvad der faktisk gøres: manøvrer efter konjunktionsvarsler, 25-års- og nu 5-års-regler for deorbitering, aktive oprydningsmissioner. Vær konkret om, hvem der har pligt til hvad — Liability Convention fra 1972 gør opsendelsesstaten ansvarlig, også for en privat operatørs skrot.",
+        "words": [
+          700,
+          950
+        ],
+        "mustCite": 4,
+        "mustNumber": [
+          "ca. 40.000 sporede",
+          "ca. 11.000 aktive",
+          "ca. 54.000 > 10 cm",
+          "1,2 mio. 1–10 cm",
+          "ca. 130 mio. 1 mm–1 cm"
+        ],
+        "format": "feature"
+      },
+      "writer": {
+        "byline": null,
+        "model": "anthropic/claude-opus-4.8",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": null,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": null,
+        "checkedAt": null,
+        "citations": null,
+        "editorNote": null
+      }
+    },
+    {
+      "slug": "saadan-virker-baner",
+      "order": 10,
+      "section": "Sådan virker det",
+      "brief": {
+        "angle": "LEO, MEO og GEO forklaret for en læser uden fysikbaggrund: tre højder, tre jobbeskrivelser, tre sæt kompromiser. Hvorfor ligger GPS i MEO og ikke i LEO? Hvorfor står en GEO-satellit stille over samme punkt, og hvad koster det i signalforsinkelse? Hvorfor kræver Starlink tusindvis af satellitter, når tre GEO-satellitter kan dække kloden? Brug konkrete tal for højde og omløbstid, og forklar hvorfor lavere bane betyder hurtigere omløb. Ingen ligninger — men heller ingen løs snak: hvert tal skal kunne slås op. Nævn også, at atmosfærisk træk i LEO er grunden til, at lavt skrot falder ned af sig selv, mens GEO-skrot bliver liggende praktisk talt for altid.",
+        "words": [
+          650,
+          900
+        ],
+        "mustCite": 2,
+        "mustNumber": [
+          "LEO-højde og omløbstid",
+          "MEO / GPS ca. 20.200 km",
+          "GEO 35.786 km, 24 timer"
+        ],
+        "format": "feature"
+      },
+      "writer": {
+        "byline": null,
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": null,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": null,
+        "checkedAt": null,
+        "citations": null,
+        "editorNote": null
+      }
+    },
+    {
+      "slug": "kalenderen",
+      "order": 11,
+      "section": "Kalenderen",
+      "brief": {
+        "angle": "Hvad der venter i efteråret 2026 — og en ærlig brugsanvisning til, hvorfor en rumkalender ikke er en køreplan. Forklar NET ('no earlier than'), scrub, hold, og hvorfor vinduer flytter sig. ABSOLUT KRAV: nævn KUN opsendelser og milepæle, du kan navngive med en kilde, og markér hver enkelt som planlagt/NET frem for som en kendsgerning. Det er bedre at nævne fire ting med forbehold end tolv med opdigtede datoer. Opfind ALDRIG en dato. Er du usikker, så beskriv hvad der er i manifestet uden at give det en dag.",
+        "words": [
+          500,
+          750
+        ],
+        "mustCite": 3,
+        "format": "kalender"
+      },
+      "writer": {
+        "byline": null,
+        "model": "google/gemini-3.1-pro-preview",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": null,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": null,
+        "checkedAt": null,
+        "citations": null,
+        "editorNote": null
+      }
+    },
+    {
+      "slug": "rygteboersen",
+      "order": 12,
+      "section": "Rygtebørsen",
+      "brief": {
+        "angle": "Klummen hvor branchesnak behandles som netop dét. Tag tre-fire ting, der cirkulerer i rumbranchen i sommeren 2026 — fx hvor hurtigt Blue Origin realistisk kan flyve igen efter LC-36, hvad der sker med Amazons Kuiper-manifest på 24 New Glenn-missioner, Starship-kadence og V3 — og giv hver især en ærlig temperaturmåling: hvad er bekræftet, hvad er kvalificeret gæt, hvad er ren ønsketænkning. ABSOLUT KRAV: hvert rygte skal kunne henføres til en NAVNGIVEN offentlig kilde (et firmaudsagn, en myndighedsrapport, en navngiven journalist). Opfind ALDRIG et rygte, en anonym kilde eller et citat. Formatet lever af at være ærligt om usikkerhed — ikke af at vide mest.",
+        "words": [
+          450,
+          700
+        ],
+        "mustCite": 2,
+        "format": "rygteboersen"
+      },
+      "writer": {
+        "byline": null,
+        "model": "anthropic/claude-opus-4.8",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": null,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": null,
+        "checkedAt": null,
+        "citations": null,
+        "editorNote": null
+      }
+    }
+  ],
+  "costReconciliation": {
+    "note": "Sandheden om forbruget aflaeses paa OpenRouters noegle-endpoint for .env.orbit, ikke ved at laegge receipts sammen: BYOK-rutede kald rapporteres som cost=0 i selve svaret. productionCostUSD for nummeret saettes derfor ud fra usage + byok_usage paa noeglen.",
+    "spacexPlusBlueOriginCombinedUSD": 0.110387,
+    "measuredAt": "2026-08-08"
+  }
+}

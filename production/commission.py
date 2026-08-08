@@ -209,7 +209,20 @@ def cmd_commission(slug: str, issue_slug: str, article_slug: str, dry_run: bool,
     result = call_openrouter(model, prompt)
     draft = result["choices"][0]["message"]["content"]
     usage = result.get("usage", {})
-    cost = usage.get("cost")
+    routed_cost = usage.get("cost")
+    # Two billing paths, and they must not be added together:
+    #   - normal routing: OpenRouter charges credits, `cost` > 0. Then
+    #     `upstream_inference_cost` is only what OpenRouter itself paid the
+    #     provider — informational, NOT a second charge to us.
+    #   - BYOK (bring-your-own-key): OpenRouter reports `cost` == 0 while the
+    #     upstream provider bills our own key directly. Recording that 0 would
+    #     produce the exact thing this repo unpublished 17 issues over — a draft
+    #     whose audit trail says nothing was ever paid for it.
+    # Verify against GET /api/v1/key: `usage` must equal the sum of the routed
+    # costs, and `byok_usage` the sum of the BYOK ones.
+    upstream_cost = (usage.get("cost_details") or {}).get("upstream_inference_cost")
+    is_byok = not routed_cost and bool(upstream_cost)
+    cost = upstream_cost if is_byok else routed_cost
     finish_reason = result["choices"][0].get("finish_reason")
     word_count = len(re.findall(r"\S+", draft))
 
@@ -223,10 +236,16 @@ def cmd_commission(slug: str, issue_slug: str, article_slug: str, dry_run: bool,
         "costUSD": cost,
         "draft": f"kladder/{kladde_path.name}",
     }
+    opgave["receipt"]["costRouting"] = "byok" if is_byok else "openrouter"
+    if result.get("id"):
+        # Per-call audit handle: GET /api/v1/generation?id=… re-derives the cost
+        # long after the fact, which is what makes a receipt checkable at all.
+        opgave["receipt"]["generationId"] = result["id"]
     opgave.setdefault("writer", {})["model"] = model
     save_json(lp, ledger)
 
-    print(f"--- DRAFT ({model}, {word_count} words, cost=${cost}, finish={finish_reason}) ---\n")
+    routing = " (BYOK — billed to our own upstream key)" if is_byok else ""
+    print(f"--- DRAFT ({model}, {word_count} words, cost=${cost}{routing}, finish={finish_reason}) ---\n")
     print(draft)
     print(f"\n--- saved: {kladde_path.relative_to(REPO_ROOT)} ---")
     if finish_reason == "length":
