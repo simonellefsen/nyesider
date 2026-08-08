@@ -1,18 +1,60 @@
 ---
 title: "Fra sten til strimmel"
-standfirst: "Før dåsen kan trækkes i form, skal aluminium blive til en meget præcis rulle."
-section: "Materialet"
+standfirst: Aluminium er dyrt at fremstille og billigt at genbruge — af én og samme grund. Den grund er en kemisk binding.
+section: Materialet
 order: 2
 ---
 
-En dåsefabrik køber ikke rå bauxit. Den køber en rulle **can stock**: aluminium, der er valset til den ønskede bredde, tykkelse, overflade og legering. Den rulle er resultatet af en lang kæde, som begynder enten med nyt metal eller med skrot.
+En dåse begynder som rødlig sten.
 
-Ved primær produktion raffineres bauxit til aluminiumoxid, også kaldet alumina. Elektrolyse gør oxidet til metal. Det kræver meget strøm, og derfor afhænger klimaaftrykket stærkt af elmix og anlæg. Det er netop her, genanvendelse kan flytte mest: European Aluminium angiver, at omsmeltning kan bruge **op til 95 % mindre energi** end fremstilling af primært aluminium. Det er en sammenligning af metalfremstillingen — ikke et facit for en hel dåse med indsamling, transport og fyldning.[^1]
+**Bauxit** er en malm, hvor aluminium sidder bundet til ilt som aluminiumoxid. Den graves i store, åbne miner, og første trin er at få oxiden ud af stenen. Det sker i **Bayer-processen**: malmen knuses og koges under tryk med natriumhydroxid, så aluminiumoxiden opløses og kan udkrystalliseres som et hvidt pulver — **alumina**.
 
-Uanset oprindelse støbes metallet til store emner. De opvarmes og passerer valser, som gentagne gange gør metallet længere og tyndere. Til sidst oprulles det igen. Materialet til krop, top og fane kan have forskellige krav: Det skal både kunne formes uden at revne og holde sin facon bagefter. Novelis’ egen rapport peger netop på, at dåsekrop og ender i dag ofte bruger forskellige legeringer, hvilket gør en helt enkel materialestrøm sværere.[^2]
+Tilbage bliver **rødslam**, et jernholdigt restprodukt, som ligger i bassiner ved raffinaderiet. Det er den del af historien, der sjældent kommer med på dåsen.
 
-Europa har flere specialiserede led. Hydro beskriver eksempelvis en linje i Neuss, Tyskland, hvor brugte dåser omsmeltes, støbes, valses og færdiggøres til dåsemateriale i nærliggende anlæg.[^3] Det betyder ikke, at en dansk dåse nødvendigvis tager netop den rute. Det viser, hvad et lukket kredsløb kræver: tilstrækkeligt ensartet skrot, et anlæg der kan justere metallet og et valseværk, som kan levere den rigtige kvalitet igen.
+### Hvorfor aluminium koster strøm
 
-[^1]: [European Aluminium: Circular economy](https://european-aluminium.eu/policy_areas/circular-economy/) — brancheorganisationens forklaring af 95 %-tallet og afgrænsningen.
-[^2]: [Novelis Sustainability Report 2024](https://novelis.com/wp-content/uploads/2026/02/Novelis-Sustainability-Report_V40-compressed_Small.pdf) — virksomhedens beskrivelse af forskellige legeringer i dåsekrop og ende.
-[^3]: [Hydro: used beverage cans in Neuss](https://www.hydro.com/en/global/media/news/2020/hydro-enters-strategic-partnership-with-drinks-producer-hell/) — virksomhedens procesbeskrivelse.
+Her ligger hele forklaringen på, hvorfor aluminium er dyrt.
+
+Bindingen mellem aluminium og ilt er usædvanlig stærk. Man kan ikke bare varme oxiden op og hælde metallet fra. Atomerne skal rives fra hinanden med elektricitet.
+
+Metoden hedder **Hall-Héroult-processen**, opfundet uafhængigt af to mænd i 1886. Aluminaen opløses i et bad af smeltet kryolit ved omkring 950 °C, og der sendes kraftig jævnstrøm igennem. Strømmen bryder bindingen: rent, flydende aluminium samler sig i bunden af cellen, mens ilten frigøres ved kulstofelektroderne.[^1]
+
+Det er en gigantisk strømsluger. Derfor fremstilles en stor del af verdens primæraluminium ikke, hvor bauxitten graves op, men hvor strømmen er billig — typisk ved vandkraft i Norge, på Island og i Canada.
+
+Smelteværket flytter, kunne man sige, efter stikkontakten. Ikke efter minen.
+
+### Og hvorfor genbrug er så billigt
+
+Her kommer pointen, som resten af nummeret hviler på.
+
+Al den energi går til at bryde iltbindingen **første gang**. Når metallet først er rent, er ilten væk. Skal aluminiummet bruges igen, skal det bare smeltes om — ingen elektrolyse, ingen Bayer-proces, intet rødslam. Man varmer det til godt 660 °C og støber det på ny.
+
+Derfor siger man, at genanvendt aluminium bruger **op til 95 % mindre energi** end primær fremstilling.[^2]
+
+Men vær præcis om, hvad tallet dækker. **Det gælder selve metalfremstillingen** — energien til at lave brugbart metal af skrot, holdt op mod energien til at lave det af bauxit. Det er *ikke* et regnestykke for en hel dåses livscyklus, hvor indsamling, transport, sortering, valsning og trykning også koster.
+
+De 95 % er metallurgi. Ikke et samlet miljøregnskab. Forskellen er reel og stor — men den er en påstand om metallet, ikke om dåsen.
+
+### Sidste trin: ned til et kvart millimeter
+
+Det rene aluminium blandes nu med små mængder andre metaller til en legering med de rigtige egenskaber. Til dåsekroppe bruges typisk **AA3004**, som ud over aluminium indeholder omkring 1 % mangan og 1 % magnesium.[^3]
+
+Manganet giver styrke. Magnesiummet gør metallet lidt hårdere uden at ødelægge formbarheden — og formbarhed er hele forudsætningen for [det, der sker i næste led](/indeni/2026-08-nr1/to-stykker-og-en-fane).
+
+Legeringen støbes til svære barrer og valses derefter — igen og igen — mellem tunge ruller, der trykker godset tyndere for hver passage. Som en dej gennem en pastamaskine.
+
+Til sidst ligger materialet som et bånd på cirka **250 mikrometer**. Det er 0,25 millimeter, eller omtrent tre menneskehår oven på hinanden.
+
+Det er pladen, der bliver til dåser.
+
+### Modsætningen samlet
+
+Aluminium er dyrt at fremstille og billigt at genbruge — af én og samme grund: iltbindingens styrke. Den koster dyrt at bryde første gang, og næsten intet at undgå at bryde igen.
+
+Et stykke sølvblankt metal i hånden bærer derfor to historier samtidig: en rødlig mine langt væk med et slambassin ved siden af — og et smelteværk ved en fjord, hvor det samme metal kan vende tilbage igen og igen, hver gang for en brøkdel af den oprindelige strømregning.
+
+Hvorvidt det faktisk sker, afhænger af noget helt andet end kemi. Det handler om [logistik](/indeni/2026-08-nr1/pantens-lange-bane).
+
+[^1]: [Alumina production](https://international-aluminium.org/resource/alumina-production/), International Aluminium Institute — om Bayer-processen, rødslam og den efterfølgende elektrolyse i Hall-Héroult-celler.
+[^2]: [Circular economy](https://european-aluminium.eu/policy_areas/circular-economy/), European Aluminium — om energiforskellen mellem primær og genanvendt aluminium. Bemærk, at tallet vedrører metalfremstillingen.
+[^3]: [The Aluminum Association](https://www.aluminum.org/) — om legeringssystemet og sammensætningen af 3xxx-legeringer, herunder AA3004 til dåsekroppe.

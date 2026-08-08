@@ -1,27 +1,28 @@
 {
-  "$schema": "../../../bestilling.schema.md",
   "magazine": "indeni",
   "issue": "2026-08-nr1",
   "issueTheme": "Dåsen",
+  "integrityNote": "Skrevet fra bunden 2026-08-09. Nr. 1 blev oprindeligt udgivet 2026-08-01 UDEN bestilling.json — ingen brief, intet verdikt, ingen kvittering for nogen af de 12 artikler — samtidig med at nummeret bar byline til navngivne modeller. Hele nummeret produceres forfra på titlens egen nøgle (.env.indeni). Byline sættes kun, hvor receipt.costUSD og receipt.draft er udfyldt.",
   "budget": {
-    "articles": 12,
+    "articles": 11,
     "wordsPerArticle": [
-      120,
-      520
+      600,
+      900
     ],
     "targetPages": 16,
-    "note": "Første nummer går i dybden med én genstand. Fire centrale, kildekrævende forklaringer bestilles som udkast; redaktionen faktatjekker og færdigskriver alle artikler."
+    "note": "Den afpublicerede udgave var 12 artikler på 3.427 ord — gennemsnit 286. Ordbogen fjernes, jf. notesbogens egen formatregel (gloser i brødtekst eller fodnote; formatet er droppet fra nr. 2). INDENI lever af at vise processen FØR dommen, og en proces kan ikke vises på 286 ord."
   },
+  "researchNote": "ADVARSEL: dette felt naar IKKE modellens prompt — kun brief.angle. Alle tal er derfor skrevet ind i de enkelte briefs. Kontrolleret 2026-08-09. FREMSTILLING: dåseplade starter ca. 250 mikrometer tyk; efter dybtrækning og strækning (drawing and wall ironing, DWI) er vaeggen 0,094-0,100 mm paa det tyndeste. Legering AA3004 (ca. 1 % mangan + 1 % magnesium). Processen: en cupper udstanser en flad skive og traekker den til en kop; en bodymaker genudtraekker og straekker vaeggen i TRE trin, som goer vaeggen tyndere og daasen hoejere. To-delt daase: krop + laag. GENANVENDELSE: 76,3 % for aluminiumsdrikkedaaser i EU + Storbritannien + Schweiz + Norge + Island i 2023 (rekord; tidligere aar 74,6 % i 2022) ifoelge Metal Packaging Europe og European Aluminium; maengder paa markedet +4 %, genanvendt tonnage +7 %; svarer til 5,7 mio. ton CO2eq sparet. Tyskland ligger hoejest med ca. 99 %. Pantsystemers effekt er dokumenteret: Malta fra 50 til 80 %, Slovakiet fra 58 til 91 %, Letland fra 60 til 74 % efter indfoerelse. Maal om 100 % cirkularitet i 2050. Globalt naaede aluminiumsdaaser 75 % ifoelge International Aluminium Institute. DANMARK: 2,2 mia. flasker og daaser retur i 2025, svarende til en returprocent paa ca. 92-93; 99,7 % af det returnerede genanvendes i lukket kredsloeb; 57 af Danmarks 98 kommuner anviser borgerne at sortere aluminiumsdaaser i metalbeholderen uanset pant. ENERGI: genanvendt aluminium bruger op til 95 % mindre energi end primaer fremstilling — men tallet daekker METALFREMSTILLINGEN, ikke en komplet daaselivscyklus, og skal skrives med det forbehold.",
   "opgaver": [
     {
       "slug": "leder",
       "order": 1,
       "section": "Leder",
       "brief": {
-        "angle": "Velkommen til INDENI og første nummer: hvorfor den anonyme dåse er et godt sted at lære at se hverdagen som en række af processer.",
+        "angle": "Hvorfor INDENI, og hvorfor en dåse. Den er hverdagens mest oversete stykke ingeniørkunst: en beholder med vægge tyndere end to menneskehår, som tåler tryk, stabling og et halvt års lagring — og som kan være tilbage på hylden som en ny dåse inden for uger. Skal også sige rent ud, hvad bladet lover om tal, kilder og byline.",
         "words": [
-          170,
-          240
+          350,
+          500
         ],
         "mustCite": 0,
         "format": "leder"
@@ -40,7 +41,7 @@
         "status": null,
         "checkedAt": null,
         "citations": 0,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "editorNote": "Lederen skrives af chefredaktionen og får derfor INGEN byline."
       }
     },
     {
@@ -48,33 +49,36 @@
       "order": 2,
       "section": "Materialet",
       "brief": {
-        "angle": "Forklar den praktiske vej fra aluminiumoxid og primær metalproduktion til den tynde valsede strimmel, som dåsefabrikken køber. Skeln mellem primært og genanvendt aluminium.",
+        "angle": "Turen fra bauxit til båndstål-tynd aluminiumsplade. Følg kæden: bauxitmalm → alumina (aluminiumoxid) via Bayer-processen → rent aluminium via Hall-Héroult-elektrolysen, som er ekstremt strømkrævende og derfor placerer smelteværker dér hvor strømmen er billig → valsning til plade. Forklar hvorfor aluminium er dyrt i energi men billigt i genbrug: bindingen mellem aluminium og ilt er så stærk, at det kræver elektrolyse at bryde den første gang — men når metallet først er rent, koster omsmeltning kun en brøkdel. Genanvendt aluminium bruger op til 95 % mindre energi end primær fremstilling; skriv UDTRYKKELIGT at det tal gælder metalfremstillingen og ikke en komplet dåselivscyklus. Slut ved pladen: ca. 250 mikrometer tyk, legering AA3004 med ca. 1 % mangan og 1 % magnesium.",
         "words": [
-          380,
-          520
+          700,
+          950
         ],
         "mustCite": 3,
         "mustNumber": [
-          "energiforskel mellem primær produktion og genanvendelse",
-          "eksempel på europæisk valsning/genanvendelse"
+          "ca. 250 mikrometer plade",
+          "AA3004",
+          "op til 95 % energibesparelse med forbehold"
         ],
         "format": "feature"
       },
       "writer": {
         "byline": null,
-        "model": "editor-led",
+        "model": "anthropic/claude-opus-4.8",
         "fallback": "deepseek/deepseek-v3.2"
       },
       "receipt": {
-        "words": 409,
-        "costUSD": null,
-        "draft": null
+        "words": 587,
+        "costUSD": 0.066825,
+        "draft": "kladder/02-fra-sten-til-strimmel.md",
+        "costRouting": "byok",
+        "generationId": "gen-1786229131-FitLKpm40eMNFeCoBzOX"
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-09",
         "citations": 3,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "editorNote": "REELT kommissioneret hos anthropic/claude-opus-4.8 paa .env.indeni (BYOK, 0,067 USD, generationId registreret); kladde i kladder/02-fra-sten-til-strimmel.md. Kladden loeste den svaere del praecis som briefen bad om: den skrev UDTRYKKELIGT, at de 95 % energibesparelse gaelder metalfremstillingen og ikke en komplet daaselivscyklus — 'de 95 % er metallurgi, ikke et komplet miljoeregnskab'. Det er netop den slags forbehold, der plejer at falde ud af den slags artikler. Den fandt ogsaa selv nummerets bedste billede paa lokaliseringslogikken: 'smeltevaerket flytter efter stikkontakten, ikke efter minen' — og tog roedslammet med, som ellers sjaeldent naevnes. Fagligt korrekt hele vejen: Bayer-processen, Hall-Heroult opfundet uafhaengigt af to maend i 1886, kryolitbad ved ca. 950 grader, aluminiums smeltepunkt ved godt 660 grader, AA3004 med ca. 1 % mangan og 1 % magnesium, og pladen paa ca. 250 mikrometer. Redaktionelt: fodnoterne var igen bare domaenehenvisninger ('Se europeanaluminium.eu') og er erstattet af kontrollerede sider hos International Aluminium Institute, European Aluminium og The Aluminum Association; krydslinks til formnings- og pantartiklen tilfoejet; strammet fra 788 ord."
       }
     },
     {
@@ -82,33 +86,35 @@
       "order": 3,
       "section": "Maskinen",
       "brief": {
-        "angle": "Forklar step-for-step hvordan en moderne todelt drikkedåse trækkes, stryges, trimmes og får bund, top og fane. Skriv til et SVG-diagram.",
+        "angle": "Selve formningen, trin for trin — dette er nummerets Maskinen-artikel og har et egenproduceret SVG-diagram. En cupper udstanser en flad skive af pladen og trækker den til en lav kop. Koppen føres til en bodymaker, som først genudtrækker den og derefter STRÆKKER væggen gennem en række ringe i TRE trin: hvert trin gør væggen tyndere og dåsen højere. Pladen går fra ca. 250 mikrometer til en vægtykkelse på 0,094-0,100 mm på det tyndeste — tyndere end to menneskehår. Forklar hvorfor det hedder en to-delt dåse (krop formet i ét stykke med bund, plus et separat låg), og hvorfor låget er af en anden, stærkere legering end kroppen: låget skal holde til trykket og bære oplukkerfanen. Nævn at dåsen er formet, ikke støbt eller svejset. Vær konkret om, hvad der går galt hvis noget slipper: en revne på det tyndeste sted.",
         "words": [
-          400,
-          520
+          700,
+          950
         ],
-        "mustCite": 2,
+        "mustCite": 3,
         "mustNumber": [
-          "todelt dåse",
-          "separat låg/fane"
+          "250 mikrometer til 0,094-0,100 mm",
+          "tre strækketrin"
         ],
         "format": "feature"
       },
       "writer": {
         "byline": null,
-        "model": "editor-led",
+        "model": "anthropic/claude-sonnet-5",
         "fallback": "deepseek/deepseek-v3.2"
       },
       "receipt": {
-        "words": 459,
-        "costUSD": null,
-        "draft": null
+        "words": 620,
+        "costUSD": 0.062076,
+        "draft": "kladder/03-to-stykker-og-en-fane.md",
+        "costRouting": "byok",
+        "generationId": "gen-1786229270-g5MephAHasD168XjU6IP"
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-09",
         "citations": 2,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "editorNote": "REELT kommissioneret hos anthropic/claude-sonnet-5 paa .env.indeni (BYOK, generationId registreret); kladde i kladder/03-to-stykker-og-en-fane.md. Kladden var teknisk praecis hele vejen: cupper og bodymaker som to maskiner i raekke, genudtraekning fulgt af TRE straekketrin, vaeggen fra ca. 250 mikrometer til 0,094-0,100 mm, og domen i bunden som det, der lader daasen staa fladt og samtidig optage indre tryk. Den fandt selv to ting, briefen ikke naevnte: at kroppen er 3xxx-legering med mangan mens LAAGET er 5xxx med magnesium — altsaa to forskellige materialer af to modsatrettede grunde (formbarhed uden revner mod styrke til tryk og fane) — og at hele forloebet fra skive til faerdig krop tager under ét sekund. Bemaerk desuden: modellen leverede et FULDT SVG-procesdiagram ud over prosaen, uden at vaere bedt om det. Det er gemt i kladden som en del af den raa levering, men nummeret bruger fortsat sit eget figur-daseformning.svg, som artiklen refererer via [FIGUR 1]. Redaktionelt: fodnoterne var bare domaenehenvisninger (cancentral.com, aluminum.org, european-aluminium.eu) og er erstattet af konkrete adresser; CMI's side svarer 403 ved automatiseret kald, altsaa bot-blokering og ikke doedt link. En tredje fodnote til European Aluminium om kvalitetskontrol er fjernet, fordi kilden ikke daekkede paastanden om ultralydsmaaling — den konkrete maalemetode er derfor skrevet ud af teksten og erstattet af, at vaegtykkelsen maales loebende."
       }
     },
     {
@@ -116,35 +122,29 @@
       "order": 4,
       "section": "Brugen",
       "brief": {
-        "angle": "Forklar hvorfor drikkevareemballage har indvendig coating, hvad fyldelinjen gør, og hvorfor dåsen først lukkes efter fyldning. Undgå sundhedspåstande uden dokumentation.",
+        "angle": "Den indvendige lak. Uden den ville sur sodavand eller øl angribe aluminiummet og give metalsmag — og i værste fald tære hul. Forklar hvad laget faktisk er, og VÆR PRÆCIS: der findes ikke én universel «dåselak». Det er forskellige polymersystemer, valgt efter hvad dåsen skal indeholde, og hvert enkelt skal valideres mod netop den drikkevare. Tag BPA-sporet med som det er: bisphenol A har været brugt i epoxybaserede coatings, europæiske myndigheder har skærpet vurderingen af stoffet, og branchen har bevæget sig mod BPA-fri alternativer — men beskriv reguleringens status uden at overdrive eller bagatellisere, og opfind ikke datoer for konkrete forbud. Slut med den ærlige pointe: laget er tyndt nok til at være usynligt og vigtigt nok til at afgøre, om dåsen overhovedet kan bruges.",
         "words": [
-          500,
-          650
+          650,
+          900
         ],
-        "mustCite": 5,
-        "mustNumber": [
-          "barriere mellem drik og metal",
-          "hvordan coatingen afhænger af drik og proces",
-          "EU's BPA-regler og EFSA's 2023-vurdering",
-          "låg påsættes efter fyldning"
-        ],
+        "mustCite": 3,
         "format": "feature"
       },
       "writer": {
         "byline": null,
-        "model": "editor-led",
+        "model": "google/gemini-3.1-pro-preview",
         "fallback": "deepseek/deepseek-v3.2"
       },
       "receipt": {
-        "words": 274,
+        "words": null,
         "costUSD": null,
         "draft": null
       },
       "verdict": {
         "status": null,
         "checkedAt": null,
-        "citations": 5,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "citations": null,
+        "editorNote": null
       }
     },
     {
@@ -152,33 +152,35 @@
       "order": 5,
       "section": "Kredsløbet",
       "brief": {
-        "angle": "Følg en dansk dåse gennem pantautomat, sortering, balning og videre salg til genanvendelse. Sæt Dansk Retursystems seneste antal returemballager i kontekst uden at foregive, at alle var dåser.",
+        "angle": "Det danske pantsystem som logistisk kæde, ikke som moral. Følg dåsen fra automaten i supermarkedet til omsmeltning. I 2025 blev 2,2 mia. flasker og dåser afleveret — en returprocent omkring 92-93 — og 99,7 % af det returnerede genanvendes i et lukket kredsløb, altså til nye drikkevareemballager frem for til lavere formål. Forklar hvad «lukket kredsløb» konkret betyder, og hvorfor det kræver at materialet holdes rent nok til fødevarekvalitet. Tag også den konkrete danske forvirring med: 57 af landets 98 kommuner anviser borgerne at lægge aluminiumsdåser i metalbeholderen — uanset om der er pant på. Vær ærlig om, at pant er et system med driftsomkostninger og ikke gratis dyd.",
         "words": [
-          380,
-          500
+          650,
+          900
         ],
         "mustCite": 3,
         "mustNumber": [
-          "danske returemballager i 2025",
-          "år for den nye fabrik i Fredericia"
+          "2,2 mia. i 2025",
+          "ca. 92-93 % returprocent",
+          "99,7 % i lukket kredsløb",
+          "57 af 98 kommuner"
         ],
         "format": "feature"
       },
       "writer": {
         "byline": null,
-        "model": "editor-led",
+        "model": "openai/gpt-5.6-terra",
         "fallback": "deepseek/deepseek-v3.2"
       },
       "receipt": {
-        "words": 356,
+        "words": null,
         "costUSD": null,
         "draft": null
       },
       "verdict": {
         "status": null,
         "checkedAt": null,
-        "citations": 3,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "citations": null,
+        "editorNote": null
       }
     },
     {
@@ -186,34 +188,29 @@
       "order": 6,
       "section": "Kredsløbet",
       "brief": {
-        "angle": "Forklar hvad der sker, når brugte dåser omsmeltes og valses igen, og hvorfor høj indsamling ikke i sig selv beviser, at alt bliver til nye dåser. Brug europæisk statistik og skeln mellem branchemål og målt resultat.",
+        "angle": "Hvad der afgør, om et kredsløb er lukket eller lækker. Aluminium kan i princippet genanvendes uendeligt uden kvalitetstab — men kun hvis legeringerne holdes adskilt. Forklar downcycling konkret: blandes dåselegering (AA3004 og lågets legering) med andre aluminiumtyper fra fx byggeri eller biler, bliver resultatet en blandingslegering, der ikke længere kan valses til dåseplade og i stedet ender i støbegods. Dåsen er et af de bedste eksempler på et reelt lukket kredsløb, netop fordi pantsystemer holder strømmen ren. Vis så hvor det knækker: i lande uden pant, ved forbrænding af restaffald, og ved eksport af skrot ud af regionen. Brancheorganisationerne har netop derfor argumenteret for begrænsninger på skrot-eksport. Vær nøgtern om interessen bag det argument.",
         "words": [
-          400,
-          520
+          650,
+          900
         ],
         "mustCite": 3,
-        "mustNumber": [
-          "europæisk genanvendelsesgrad 2022",
-          "tonnes genanvendt aluminium fra dåser 2022",
-          "energiforskel"
-        ],
         "format": "feature"
       },
       "writer": {
         "byline": null,
-        "model": "editor-led",
-        "fallback": "google/gemini-3.5-flash"
+        "model": "anthropic/claude-opus-4.8",
+        "fallback": "deepseek/deepseek-v3.2"
       },
       "receipt": {
-        "words": 405,
+        "words": null,
         "costUSD": null,
         "draft": null
       },
       "verdict": {
         "status": null,
         "checkedAt": null,
-        "citations": 3,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "citations": null,
+        "editorNote": null
       }
     },
     {
@@ -221,33 +218,29 @@
       "order": 7,
       "section": "Europa",
       "brief": {
-        "angle": "Brug Neuss i Tyskland, Latchford i Storbritannien og Quality Pack i Ungarn som konkrete eksempler på henholdsvis dåsescrap/genanvendelse, europæisk UBC-kapacitet og dåsefremstilling. Vær tydelig om, hvad kilderne selv påstår.",
+        "angle": "Europas dåse- og omsmeltningsindustri. FORMATKRAV fra notesbogen: kortlæg mindst to FAKTISKE europæiske anlæg eller industriled med kilde, og skeln TYDELIGT mellem annonceret og eksisterende kapacitet — en pressemeddelelse om planlagt kapacitet er ikke produceret metal. Nævn de store dåseproducenter i Europa og mindst ét konkret omsmeltningsanlæg for brugte drikkedåser. Forklar hvorfor omsmeltning ligger tæt på hvor skrottet er, mens primær elektrolyse ligger hvor strømmen er billig — to helt forskellige lokaliseringslogikker i samme materiale. Opfind ALDRIG et anlæg, en by eller en kapacitet. Kan du ikke dokumentere et tal, så beskriv anlægget uden tallet.",
         "words": [
-          350,
-          480
+          650,
+          900
         ],
-        "mustCite": 3,
-        "mustNumber": [
-          "Latchford kapacitetsudvidelse",
-          "mindst 75 procent genanvendt indhold i et konkret eksempel"
-        ],
+        "mustCite": 4,
         "format": "feature"
       },
       "writer": {
         "byline": null,
-        "model": "editor-led",
+        "model": "anthropic/claude-sonnet-5",
         "fallback": "deepseek/deepseek-v3.2"
       },
       "receipt": {
-        "words": 569,
+        "words": null,
         "costUSD": null,
         "draft": null
       },
       "verdict": {
         "status": null,
         "checkedAt": null,
-        "citations": 3,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "citations": null,
+        "editorNote": null
       }
     },
     {
@@ -255,18 +248,18 @@
       "order": 8,
       "section": "Brugen",
       "brief": {
-        "angle": "Vis hvordan volumen, topdiameter, vægt, lysbeskyttelse, stabling og fyldelinje gør emballagedesign til en række kompromiser. Ingen opdigtede gram- eller hastighedstal.",
+        "angle": "Hvorfor rummer en standarddåse netop 33 cl — og hvorfor er 50 cl og 25 cl også almindelige? Undersøg hvad der faktisk styrer størrelsen: en portion til én person, palle- og hyldelogistik, maskiners standardværktøj (at skifte dåsestørrelse betyder nyt værktøj i cupper og bodymaker, ikke bare en indstilling), og markedstradition. Vær ærlig om, hvad der er dokumenterbar historie og hvad der er efterrationalisering — der findes flere forklaringer på 33 cl, og en artikel, der påstår én sikker oprindelse, lyver sandsynligvis. Tag også fysikken med: dåsens diameter er begrænset af, hvad væggen kan holde til, så en større dåse bliver højere frem for bredere.",
         "words": [
-          280,
-          390
+          600,
+          850
         ],
-        "mustCite": 1,
-        "format": "essay"
+        "mustCite": 2,
+        "format": "feature"
       },
       "writer": {
         "byline": null,
-        "model": "editor-led",
-        "fallback": null
+        "model": "google/gemini-3.1-pro-preview",
+        "fallback": "deepseek/deepseek-v3.2"
       },
       "receipt": {
         "words": null,
@@ -276,8 +269,8 @@
       "verdict": {
         "status": null,
         "checkedAt": null,
-        "citations": 1,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "citations": null,
+        "editorNote": null
       }
     },
     {
@@ -285,25 +278,26 @@
       "order": 9,
       "section": "Tallet",
       "brief": {
-        "angle": "Lav en kompakt tabel med konkrete, afgrænsede nøgletal om den europæiske og danske dåsekæde. Hver række skal have år og kilde.",
+        "angle": "Tallet-formatet i INDENI er en lille, kildebelagt tabel, hvor HVERT tal får år, geografisk afgrænsning og en oplysning om, hvad det faktisk måler. Brug disse: (1) 76,3 % genanvendelsesgrad for aluminiumsdrikkedåser i 2023 for EU + Storbritannien + Schweiz + Norge + Island — rekord, op fra 74,6 % i 2022; (2) 5,7 mio. ton CO2eq sparet ved den genanvendte tonnage samme år; (3) 2,2 mia. flasker og dåser i det danske pantsystem i 2025 — ALLE returemballager, ikke kun aluminium; (4) 99,7 % af det returnerede genanvendt i lukket kredsløb i Danmark; (5) 0,094-0,100 mm vægtykkelse på det tyndeste sted. Skriv derefter et kort afsnit om de klassiske faldgruber: 76,3 % er ikke en dansk pantprocent, 2,2 mia. er ikke et aluminiumstal, og en annonceret kapacitet er ikke produceret metal.",
         "words": [
-          300,
-          420
+          450,
+          700
         ],
-        "mustCite": 5,
+        "mustCite": 4,
         "mustNumber": [
-          "75 procent",
-          "580.000 ton",
-          "2,2 mia. returemballager",
-          "95 procent energibesparelse",
-          "85 kiloton kapacitetsudvidelse"
+          "76,3 % (2023)",
+          "74,6 % (2022)",
+          "5,7 mio. ton CO2eq",
+          "2,2 mia. (DK 2025)",
+          "99,7 %",
+          "0,094-0,100 mm"
         ],
         "format": "tallet"
       },
       "writer": {
         "byline": null,
-        "model": "editor-led",
-        "fallback": null
+        "model": "openai/gpt-5.6-terra",
+        "fallback": "deepseek/deepseek-v3.2"
       },
       "receipt": {
         "words": null,
@@ -313,8 +307,8 @@
       "verdict": {
         "status": null,
         "checkedAt": null,
-        "citations": 5,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "citations": null,
+        "editorNote": null
       }
     },
     {
@@ -322,18 +316,18 @@
       "order": 10,
       "section": "Maskinen",
       "brief": {
-        "angle": "Lær læseren at læse INDENIs tre procesdiagrammer og at skelne mellem materiel strøm, information og et punkt hvor materialet kan gå tabt.",
+        "angle": "Læsevejledning til nummerets tre egenproducerede diagrammer: formningen af dåsen, pantstrømmen og det lukkede kredsløb. Skriv en tekst, der guider læseren gennem hvad man skal se efter i hvert diagram, og hvad diagrammet med vilje UDELADER. Et diagram er en forenkling, og INDENI's løfte er at sige hvilken. Fx: formningsdiagrammet viser ikke de mange mellemstationer for smøring og vask; pantstrømmen viser ikke pengestrømmen ved siden af materialestrømmen. Det er en artikel om at læse tegninger kritisk, ikke om at beundre dem.",
         "words": [
-          180,
-          280
+          450,
+          700
         ],
         "mustCite": 0,
-        "format": "diagramguide"
+        "format": "feature"
       },
       "writer": {
         "byline": null,
-        "model": "editor-led",
-        "fallback": null
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "deepseek/deepseek-v3.2"
       },
       "receipt": {
         "words": null,
@@ -343,57 +337,27 @@
       "verdict": {
         "status": null,
         "checkedAt": null,
-        "citations": 0,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
-      }
-    },
-    {
-      "slug": "ordbogen",
-      "order": 11,
-      "section": "Ordbogen",
-      "brief": {
-        "angle": "Definér bauxit, alumina, legering, can stock, draw-and-wall-ironing, seaming, UBC og closed loop i almindeligt dansk.",
-        "words": [
-          170,
-          260
-        ],
-        "mustCite": 0,
-        "format": "ordbog"
-      },
-      "writer": {
-        "byline": null,
-        "model": "editor-led",
-        "fallback": null
-      },
-      "receipt": {
-        "words": null,
-        "costUSD": null,
-        "draft": null
-      },
-      "verdict": {
-        "status": null,
-        "checkedAt": null,
-        "citations": 0,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "citations": null,
+        "editorNote": null
       }
     },
     {
       "slug": "paastandskontoret",
-      "order": 12,
+      "order": 11,
       "section": "Påstandskontoret",
       "brief": {
-        "angle": "Vurdér tre præcise hverdagsudsagn: at alle pantede dåser bliver nye dåser, at aluminium kan genanvendes uden tab af egenskaber, og at dåsen altid er den bedste emballage. Forklar nuancerne uden falsk facit.",
+        "angle": "Afmontér tre-fire hverdagspåstande om dåser og emballage — fx at glas altid er mest miljøvenligt, at dåser giver metalsmag, at pant er en skjult skat, eller at aluminium er værre end plast. FORMATKRAV fra notesbogen: gør det UDEN at lade som om alle emballagevalg har ét facit. Et livscyklusregnskab afhænger af transportafstand, genanvendelsesgrad, fyldningsgrad og hvor strømmen kommer fra — og det ærlige svar er ofte «det kommer an på, og her er hvad det kommer an på». Hvert punkt skal kunne føres tilbage til en navngiven kilde eller til en fysisk mekanisme, læseren selv kan efterprøve. Opfind ALDRIG en undersøgelse.",
         "words": [
-          220,
-          330
+          550,
+          800
         ],
         "mustCite": 3,
-        "format": "faktatjek"
+        "format": "feature"
       },
       "writer": {
         "byline": null,
-        "model": "editor-led",
-        "fallback": null
+        "model": "anthropic/claude-opus-4.8",
+        "fallback": "deepseek/deepseek-v3.2"
       },
       "receipt": {
         "words": null,
@@ -403,10 +367,9 @@
       "verdict": {
         "status": null,
         "checkedAt": null,
-        "citations": 3,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "citations": null,
+        "editorNote": null
       }
     }
-  ],
-  "integrityNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+  ]
 }

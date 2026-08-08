@@ -1,25 +1,65 @@
 ---
 title: "To stykker og en fane"
-standfirst: "Kroppen er ét stykke metal. Toppen kommer senere."
+standfirst: Kroppen er ét stykke metal, formet — ikke støbt, ikke svejst. Undervejs går væggen fra 250 mikrometer til under en tiendedel millimeter.
 section: "Maskinen"
 order: 3
 figures:
   - ../images/figur-daseformning.svg
 ---
 
-En moderne drikkedåse er normalt en **todelt** konstruktion: en krop formet af ét stykke metal og en separat ende — toppen med åbning og fane. Metal Packaging Europe beskriver netop den todelte dåse sådan: kroppen dybtrækkes fra ét metalark, og enden samles med kroppen efter fyldning.[^1]
+En tom drikkedåse vejer omkring 13 gram og består af to dele: en **krop med bund i ét stykke**, og et separat **låg** med oplukkerfanen.
+
+Derfor hedder den en *todelt* dåse — i modsætning til ældre typer, hvor krop, bund og låg var tre stykker, der skulle samles med en søm ned langs siden.
+
+Nutidens dåsekrop er hverken støbt eller svejst. Den er **formet**: presset og trukket ud af en flad plade, indtil metallet sidder præcis hvor det skal, uden en eneste søm på siden.
 
 [FIGUR 1]
 
-Første værktøj stanser en rund skive ud af aluminiumstrimlen. Et stempel presser skiven ned til en kort kop. Derefter presses koppen gennem ringe, der gør væggen højere og tyndere. Det er den proces, der på engelsk kaldes *draw and wall ironing* (DWI): træk og udstrygning af væggen. Bunden formes som del af kroppen; der er ingen lang sidesøm at svejse.
+Rejsen fra plade til dåse foregår i to maskiner, der står lige efter hinanden på samme linje.
 
-Efter formning vaskes og tørres kroppen. Toppen snævres typisk ind — *necking* — så dåsen kan bruge en mindre ende. Det er et materiale- og designvalg, ikke kun et æstetisk greb. Enden stanses separat af andet plademateriale; den fordybes, får en nitte og en fane. Novelis fremhæver selv, at body, ender og faner kan have forskellige krav til legering og overflade.[^2]
+### Fra plade til kop
 
-Hvert trin har sin egen kontrol: værktøjet må ikke lave revner, den trimmede kant skal passe til enden, og den færdige søm skal være tæt. Derfor er dåsen interessant som hverdagsobjekt: Den består af meget lidt materiale, men tåler kun meget små afvigelser, før en fabrik må sortere den fra.
+Aluminiumspladen ankommer på ruller og er omkring **250 mikrometer** tyk — en mikrometer er en tusindedel af en millimeter, så pladen svarer nogenlunde til to-tre ark printerpapir oven på hinanden. Den kommer fra [valseværket](/indeni/2026-08-nr1/fra-sten-til-strimmel).
 
-Formningen giver samtidig dåsen dens rolle som beholder. En tynd væg er ikke et tegn på, at den er sjusket lavet; den er resultatet af, at materialet er flyttet til de steder, hvor formen og bunden behøver styrke. Ingeniørarbejdet ligger i fordelingen, ikke i at gøre alle dele lige tykke.
+Den første maskine, **cupperen**, er i bund og grund en udstansepresse. Et stempel skærer en rund, flad skive ud af pladen og trykker den samtidig ned i en formhulning, så skiven bliver til en lav, bred kop — omtrent som en dyb underkop.
 
-Den afgørende samling sker ikke i den tomme dåsefabrik, men efter drikken er fyldt: Enden rulles fast omkring dåsens kant i en dobbeltsøm. Derfor er formuleringen “dåsen svejses lukket” misvisende. Det er en mekanisk forsegling, som skal være tæt nok til både kulsyre, transport og lager.
+På dette stadie er koppens vægge stadig næsten lige så tykke som den oprindelige plade.
 
-[^1]: [Metal Packaging Europe: *LCA of aluminium beverage cans in Europe*](https://www.metalpackagingeurope.org/sites/default/files/2020-01/20190723_Metal%20Packaging%20Europe_Alu%20Bev%20Cans%20LCA_Methodological%20report.pdf), metodeafsnittet om todelte dåser og samling efter fyldning.
-[^2]: [Novelis: laminated can ends](https://novelis.com/aluminum-solutions/products/laminated-can-ends/) — virksomhedens beskrivelse af endemateriale og overfladebehandling.
+### Bodymakeren: tre træk gennem ringe
+
+Koppen sendes videre til **bodymakeren**, som skaber den endelige form. Her sker to ting.
+
+Først **genudtrækkes** koppen: den bliver smallere og lidt højere, så diameteren passer til den færdige dåse.
+
+Derefter presses den gennem en serie stramme metalringe i **tre trin**. Hver passage strækker sidevæggen længere og gør den tyndere. Processen hedder på engelsk *ironing*, fordi metallet i praksis stryges tyndt — men drevet af mekanisk kraft, ikke af varme.
+
+Efter de tre trin er sidevæggen nede på cirka **0,094–0,100 millimeter** på det tyndeste sted. Tyndere end to menneskehår ved siden af hinanden.[^1]
+
+Bunden forbliver derimod tykkere. Den skal holde til at blive presset op i den hvælvede form — *domen* — som gør, at dåsen kan stå fladt og samtidig tage imod trykket indefra.
+
+Hele forløbet, fra skive til færdig krop, tager under et sekund per dåse.
+
+### Hvorfor låget er en anden legering
+
+Låget laves ikke i bodymakeren. Det stanses separat ud af en **anden og hårdere legering** end kroppen: typisk en legering fra 5xxx-serien med højere magnesiumindhold, mens kroppen er 3xxx-serien med mere mangan.[^2]
+
+Grunden er belastningen. Låget skal holde til det indre tryk fra kulsyren, danne den fold, der senere krympes fast på kroppen, og bære fanen, brugeren trækker i.
+
+Kroppens legering er derimod valgt, fordi den kan strækkes ekstremt tyndt **uden at revne** undervejs i bodymakeren — en egenskab, der ikke nødvendigvis følges ad med den styrke, låget kræver.
+
+Derfor er det to forskellige materialer, selv om begge dele ser ens ud og begge er aluminium. Efter formning vaskes kroppen, og halsen snævres ind — *necking* — så dåsen kan lukkes med et mindre og dermed billigere låg.
+
+### Hvor det knækker
+
+Det tyndeste punkt i hele dåsen er sidevæggen dér, hvor det tredje strækketrin slutter.
+
+Er legeringens sammensætning, pladens tykkelse eller ringenes justering en anelse forkert, bliver udtyndingen ikke jævn. Der opstår lokale svage punkter — og resultatet er en revne, ofte usynlig ved produktionen, som først viser sig som en utæt eller bulet dåse efter fyldning, når kulsyren presser indefra.
+
+Derfor måles vægtykkelsen løbende under produktionen. En fejl her kan ikke rettes bagefter. Dåsen er allerede formet.
+
+Og det er egentlig pointen med dåsen som hverdagsgenstand: den består af meget lidt materiale og tåler til gengæld meget små afvigelser. Den tynde væg er ikke et tegn på sjusk. Den er resultatet af, at metallet er flyttet hen, hvor formen har brug for det.
+
+Ingeniørarbejdet ligger i fordelingen — ikke i at gøre alle dele lige tykke.
+
+[^1]: [How a Can Is Made](https://www.cancentral.com/can-stats/how-cans-are-made), Can Manufacturers Institute — om cupper, bodymaker, udstrækning i flere trin og den færdige vægtykkelse.
+[^2]: [The Aluminum Association](https://www.aluminum.org/) — om legeringsserierne: 3xxx med mangan til dåsekroppe, 5xxx med magnesium til låg, og hvorfor formbarhed og styrke er forskellige krav.
