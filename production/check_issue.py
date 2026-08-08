@@ -2,8 +2,9 @@
 
 Neither `web/src/lib/server/content.ts` (the site's markdown pipeline) nor
 `build_magazine.py` (the PDF builder) checks any of the following — a typo
-just renders as a 404 image, a vanished chart, or a dropped figure marker,
-with no error anywhere. This script is the check that has never existed.
+just renders as a 404 image, a vanished chart, a dropped figure marker, or
+an unfinished editor checklist published as a feature, with no error
+anywhere. This script is the check that has never existed.
 
 Usage:
 
@@ -41,6 +42,45 @@ HEDGES = [
     "voksende", "tusindvis", "hundredvis", "i stigende grad", "betydelig andel",
 ]
 EXCLUDED_AUDIO_SECTION_PREFIXES = ("leder", "ordbogen", "rygtebørsen")
+
+# Unfinished / draft voice that must not ship in content/ (KRAFTEN nr.2
+# Sverige-atom slipped through as editor notes). Errors, not warnings:
+# these are acceptance failures, not style preferences.
+#
+# Keep patterns *high-precision*: house style often uses "Skriv X" / "Brug den"
+# as reader-facing rules (GNISTEN prompts, ORBIT reporting rules). Those must
+# not trip the detector. We flag production leftovers only.
+DRAFT_MARKERS_RE = re.compile(
+    r"(?i)("
+    r"\bTODO\b|\bFIXME\b|\bTBD\b|\bWIP\b|"
+    r"\bplaceholder\b|lorem ipsum|"
+    r"\[insert[^\]]*\]|\[todo[^\]]*\]|\[fixme[^\]]*\]|"
+    r"not for publication|do not publish|"
+    r"udkast til skribent|notes to (?:self|editor)|"
+    r"workstream\s*[a-z]?\b|"
+    r"\bi kladder/\b|\bparked/\b"
+    r")"
+)
+# Production meta aimed at the writer/editor, not the subscriber.
+DRAFT_META_RE = re.compile(
+    r"(?i)("
+    r"som primærkilder|"
+    r"brug [^.\n]{0,80}som primærkilde|"
+    r"cit[eé]r\s+\*?\*?dato og status|"
+    r"rekonstruer(?:et|e)? brief|"
+    r"editor[- ]led batch|"
+    r"sendes tilbage til skribenten|"
+    r"bestilling\.json|"
+    r"\bmustCite\b|"
+    r"i bestillingen|"
+    r"opgave i bestilling|"
+    r"verdict\.status|"
+    r"brief\.angle|"
+    r"chefredaktørens tjekliste|"
+    r"intern note:|"
+    r"redaktionsnote:"
+    r")"
+)
 
 
 def is_audio_excluded(section: str) -> bool:
@@ -293,6 +333,31 @@ def check_issue(magazine_dir: Path, issue_dir: Path) -> list[Finding]:
                         f"'Tallet'-format article — numbers column reads as vague",
                     )
                 )
+
+        # unfinished / draft voice — must not land in content/
+        draft_hits: list[str] = []
+        for m in DRAFT_MARKERS_RE.finditer(body):
+            draft_hits.append(m.group(0).strip()[:48])
+        for m in DRAFT_META_RE.finditer(body):
+            draft_hits.append(m.group(0).strip()[:48])
+        seen_hit: set[str] = set()
+        uniq: list[str] = []
+        for h in draft_hits:
+            key = h.lower()
+            if key not in seen_hit:
+                seen_hit.add(key)
+                uniq.append(h)
+        if uniq:
+            sample = "; ".join(uniq[:4])
+            more = f" (+{len(uniq) - 4} more)" if len(uniq) > 4 else ""
+            findings.append(
+                Finding(
+                    "error", tag,
+                    f"{aslug}: unfinished/draft voice in published body "
+                    f"(editor notes, TODOs, or production meta) — "
+                    f"rewrite before accept. hits: {sample}{more}",
+                )
+            )
 
         # against the commission ledger, if one exists
         opgave = ledger_by_slug.get(aslug)

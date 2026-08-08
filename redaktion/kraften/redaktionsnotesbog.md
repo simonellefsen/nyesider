@@ -48,4 +48,5 @@ OpenRouter: **kun** `.env.kraften`. Imagine: `.env.local`.
 - **2026-08-01:** Notesbog udvidet med `## Format`.
 
 - **2026-08-08 (edit):** KRAFTEN nr. 2 — forklaret *Fit for 55* og *IRA* i EU/USA-artiklen; udfoldet *PJM-agtige køer* i netflaskehalse; Sverige-atom omskrevet fra notes-kladde til færdig feature og flyttet **før** Ordbog/Rygtebørs (lå tidligere som sidste side efter bagsnit).
+- **2026-08-08 (process):** Efter Sverige-kladde-uheldet: `production/check_issue.py` flagger nu **draft/production-meta** i publiceret brødtekst som ERROR; chefredaktør-tjekliste i [redaktion/README](../README.md) kræver eksplicit “færdig læsertekst” + jargon første gang + features før bagsnit.
 
