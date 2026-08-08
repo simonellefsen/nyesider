@@ -267,15 +267,17 @@
         "fallback": "deepseek/deepseek-v3.2"
       },
       "receipt": {
-        "words": null,
-        "costUSD": null,
-        "draft": null
+        "words": 660,
+        "costUSD": 0.06901,
+        "draft": "kladder/08-vind.md",
+        "costRouting": "byok",
+        "generationId": "gen-1786227389-x4iHYb3IA4AloiSzxZlF"
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
-        "citations": null,
-        "editorNote": null
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-09",
+        "citations": 3,
+        "editorNote": "REELT kommissioneret hos anthropic/claude-opus-4.8 paa .env.kraften (BYOK, generationId registreret); kladde i kladder/08-vind.md. Kladden gjorde noget, briefen ikke havde bedt om, og som loeftede artiklen: den fandt et KONKRET, efterproevbart bevis paa rentekloemmen i stedet for at generalisere. Den britiske Contracts for Difference-auktion, runde 5 i september 2023, fik NUL bud paa havvind, selv om der var op til 5 GW i udbud — fordi maksimalprisen paa 44 pund/MWh ikke kunne bygges for efter staal- og turbineprisstigninger. Runden endte med 3,7 GW paa 95 projekter, alle uden havvind. Kontrolleret og bekraeftet; det baerer nu artiklens midte. Kladdens forklaring paa hvorfor havvind er saerligt rentefoelsom er ogsaa praecis: hele omkostningen ligger i byggefasen, indtaegten over 25-30 aar, og stigende rente rammer derfor dobbelt — dyrere byggekapital OG lavere nutidsvaerdi af fremtidige indtaegter. Redaktionelt: fodnoterne var igen bare domaener (ember-energy.org, iea.org, gov.uk) uden konkrete sider — erstattet af fire kontrollerede adresser. Tastefejl 'grofsagt' rettet, overskrift i broedtekst fjernet, krydslinks til gas og sol tilfoejet, og kapacitetsfaktor-intervallerne markeret som stoerrelsesordener frem for normtal."
       }
     },
     {
@@ -302,15 +304,17 @@
         "fallback": "deepseek/deepseek-v3.2"
       },
       "receipt": {
-        "words": null,
-        "costUSD": null,
-        "draft": null
+        "words": 506,
+        "costUSD": 0.07852,
+        "draft": "kladder/09-sol.md",
+        "costRouting": "byok",
+        "generationId": "gen-1786227555-M4Pmlm8cJPtw1DIte7nR"
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
-        "citations": null,
-        "editorNote": null
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-09",
+        "citations": 3,
+        "editorNote": "REELT kommissioneret hos google/gemini-3.1-pro-preview paa .env.kraften (BYOK, 0,079 USD, generationId registreret); kladde i kladder/09-sol.md. Kladdens forklaring af andekurven er den bedste i nummeret: nettobehov som begreb, 'andens mave' midt paa dagen, og den stejle 'hals' om aftenen naar solen forsvinder samtidig med at forbruget topper — korrekt tilskrevet CAISO i Californien, hvor begrebet stammer fra. Ogsaa praecist forklaret hvorfor negative elpriser opstaar: det er billigere at betale for at komme af med stroemmen end at koble et stort anlaeg fra og til igen. TO KILDEFEJL RETTET. (1) De globale tal (sol over 60 % af vaeksten i vedvarende, sol+vind fra 17 % til 27 %) blev tilskrevet IEA's 'Renewables 2024'. De stammer fra Electricity 2026 — rigtige tal, forkert rapport. Omhaengt. (2) Fodnoten til det amerikanske energiministeriums duck curve-side var en gaettet URL og gav 404; erstattet af CAISO's egen side om nettobehovskurven, altsaa den oprindelige kilde til begrebet. Desuden: Ember-linket pegede paa det gamle domaene ember-climate.org (svarer stadig, men er ikke den aktuelle adresse) — rettet til ember-energy.org. Et laengere sidespor om rumbaseret solkraft er trimmet vaek; det hoerer til i KRAFTEN nr. 2's rumpakke og i ORBIT."
       }
     },
     {
@@ -332,15 +336,17 @@
         "fallback": "deepseek/deepseek-v3.2"
       },
       "receipt": {
-        "words": null,
-        "costUSD": null,
-        "draft": null
+        "words": 599,
+        "costUSD": 0.028032,
+        "draft": "kladder/10-lagring.md",
+        "costRouting": "byok",
+        "generationId": "gen-1786227687-b7ROBywL5zTKLGZGm5Dp"
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
-        "citations": null,
-        "editorNote": null
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-09",
+        "citations": 2,
+        "editorNote": "REELT kommissioneret hos anthropic/claude-sonnet-5 paa .env.kraften (BYOK, 0,028 USD, generationId registreret); kladde i kladder/10-lagring.md. Kladdens vigtigste bidrag er den praecise MW/MWh-skelnen med et regneeksempel, en laeser kan bruge: 100 MW/200 MWh holder i to timer, 100 MW/400 MWh i fire, og 'timer ved fuld effekt' er derfor det tal, der beskriver et batteris karakter. Den fandt ogsaa selv den rigtige oekonomiske forklaring paa batteriboomet — arbitrage mellem solens middagsoverskud og aftenens spidsbelastning — og dermed hvorfor batterier vokser hurtigst netop dér, hvor solen fylder mest. Rettelser: (1) En saetning var afbrudt midt i ('...som hele fortaellingen om 100 % groen stroem support.') og er skrevet faerdig. (2) Fodnote 3 til CAISO var defineret, men aldrig refereret i teksten — en haengende fodnote, som check_issue.py fanger som fejl; andekurven forklares i sol-artiklen, saa den er erstattet af et krydslink dertil i stedet for en gentaget forklaring. (3) Begge tilbagevaerende URL'er kontrolleret og suppleret med IEA's grid-scale storage-side. Chart-markoeren world-batteri-gw sat ind, og krydslink til danmark tilfoejet ved udlandsforbindelser."
       }
     },
     {
@@ -366,15 +372,17 @@
         "fallback": "deepseek/deepseek-v3.2"
       },
       "receipt": {
-        "words": null,
-        "costUSD": null,
-        "draft": null
+        "words": 662,
+        "costUSD": 0.01710525,
+        "draft": "kladder/11-danmark.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1786227818-MO4FtPVrwyG5ZYhzLJkv"
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
-        "citations": null,
-        "editorNote": null
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-09",
+        "citations": 3,
+        "editorNote": "REELT kommissioneret hos openai/gpt-5.6-terra paa .env.kraften (generationId registreret); kladde i kladder/11-danmark.md. Kladden ramte begge briefede tal (39.500 GWh, +5 %, vind 59 % i 2024) og gjorde noget metodisk rigtigt af sig selv: den skrev udtrykkeligt, at tallene ALENE ikke kan fordele forbrugsstigningen paa de enkelte teknologier, i stedet for at gaette en fordeling mellem elbiler, varmepumper og oevrigt. Den fandt ogsaa den staerkeste pointe uden at vaere bedt om den: et elnet dimensioneres efter EFFEKT — hvor meget der traekkes paa én gang — og ikke efter aarets samlede GWh, og derfor kan lokale kabler blive flaskehals, selv om landet set over et aar har rigelig groen stroem. Det goer forbrugsrekorden til en netdebat frem for en moelledebat. Rettelse: fodnote 1 pegede paa Embers European Electricity Review 2025, men de anvendte tal er 2025-data, som staar i 2026-udgaven — omhaengt, og de danske tal lagt paa Energinets egne kilder (Energi Data Service og pressemeddelelsen om rekordforbruget) i stedet for paa Ember. Alle fire URL'er kontrolleret. Strammet, overskrift i broedtekst fjernet, chart-markoer dk-vind-andel sat ind, krydslink til lagring tilfoejet."
       }
     },
     {

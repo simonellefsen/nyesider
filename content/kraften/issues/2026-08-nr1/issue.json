@@ -86,9 +86,9 @@
       "slug": "vind",
       "file": "articles/08-vind.md",
       "order": 8,
-      "title": "Vind: Nordsøens fabrik på havet",
+      "title": "Vind: året hvor to ting blev svære på én gang",
       "section": "Vedvarende",
-      "standfirst": "Offshore er ikke bare turbiner. Det er installationsskibe, monopæle, kabler og en forsyningskæde under pres.",
+      "standfirst": "EU's vindproduktion faldt 2 % i 2025. Samtidig gjorde renterne havvind til den dyreste form for kapital i energisektoren. Det er ikke to historier — det er én.",
       "image": "../images/kraften_vind.png",
       "imageCredit": "AI-genereret anlægsmotiv (Imagine / xAI)",
       "imageSource": "https://x.ai/"
@@ -97,9 +97,9 @@
       "slug": "sol",
       "file": "articles/09-sol.md",
       "order": 9,
-      "title": "Sol: billige paneler, dyrt system",
+      "title": "Sol: triumfen og andekurven",
       "section": "Vedvarende",
-      "standfirst": "LCOE på sol falder. Systemomkostningerne stiger, når alle paneler topper samtidig. Byggefasen er den nemme del.",
+      "standfirst": "Solen bar hele EU's grønne krydsning i 2025. Prisen er, at den producerer samtidig alle steder — og at aftenen begynder, præcis når den holder op.",
       "image": "../images/kraften_sol.png",
       "imageCredit": "AI-genereret anlægsmotiv (Imagine / xAI)",
       "imageSource": "https://x.ai/"
@@ -108,9 +108,9 @@
       "slug": "lagring",
       "file": "articles/10-lagring.md",
       "order": 10,
-      "title": "Lagring: containere, pumper og det der mangler",
+      "title": "Lagring: to tal, ikke ét",
       "section": "Lagring & fleksibilitet",
-      "standfirst": "Batterier ruller ud i containere. Pumpelagring er gammel og undervurderet. Brint er lovende — og sen.",
+      "standfirst": "«Et batteri på 100 MW» er en ufuldstændig sætning. Uden det andet tal ved du ikke, om det kan holde i to timer eller fire — og dermed ikke, hvilken opgave det overhovedet løser.",
       "image": "../images/kraften_lagring.png",
       "imageCredit": "AI-genereret anlægsmotiv (Imagine / xAI)",
       "imageSource": "https://x.ai/"
@@ -119,9 +119,9 @@
       "slug": "danmark",
       "file": "articles/11-danmark.md",
       "order": 11,
-      "title": "Danmark: vindland med import og ambitioner",
+      "title": "Danmark: forbruget er begyndt at stige igen",
       "section": "Lande & udbygning",
-      "standfirst": "Høj vindandel i el, biomasse i varmen, olie i transporten — og en elafgift der i 2026–27 lempes markant for husholdningerne."
+      "standfirst": "Historien om Danmark har været vindmøller. Den vigtigste danske eltal i 2025 handler ikke om produktion, men om forbrug — og det ændrer den politiske regning."
     },
     {
       "slug": "lande",
