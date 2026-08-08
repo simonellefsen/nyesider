@@ -7,7 +7,7 @@ import {
 	getArticle,
 	getIssue,
 	getMagazine,
-	listIssueSlugs,
+	listIssues,
 	listMagazines,
 	listMagazineSlugs,
 	pdfUrl
@@ -17,10 +17,10 @@ import type { EntryGenerator, PageServerLoad } from './$types';
 export const entries: EntryGenerator = () => {
 	const out: { magazine: string; issue: string; article: string }[] = [];
 	for (const magazine of listMagazineSlugs()) {
-		for (const issueSlug of listIssueSlugs(magazine)) {
-			const issue = getIssue(magazine, issueSlug);
+		// Only published issues are prerendered / public.
+		for (const issue of listIssues(magazine)) {
 			for (const art of issue.articles) {
-				out.push({ magazine, issue: issueSlug, article: art.slug });
+				out.push({ magazine, issue: issue.slug, article: art.slug });
 			}
 		}
 	}
@@ -31,6 +31,7 @@ export const load: PageServerLoad = async ({ params }) => {
 	try {
 		const magazine = getMagazine(params.magazine);
 		const issue = getIssue(params.magazine, params.issue);
+		if (issue.status !== 'published') error(404, 'Artikel ikke fundet');
 		const article = await getArticle(params.magazine, params.issue, params.article);
 		const { prev, next } = adjacentArticles(issue, params.article);
 

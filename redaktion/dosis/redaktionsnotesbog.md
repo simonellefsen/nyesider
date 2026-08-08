@@ -59,3 +59,5 @@ Fact-check obligatorisk før accept (se [redaktion/README](../README.md)). Medic
 
 - **2026-08-08 (rettelse):** Nr. 3 fik `published: 2026-08-15` (ikke samme dag som nr. 2's 2026-08-08). Regel: højst ét publiceret nummer pr. magasin pr. kalenderdag — se `redaktion/udgivelseskalender.md` og `check_issue.py`.
 
+- **2026-08-08 (holdt tilbage):** Nr. 3 *Søvnen, der ikke kan stikkes* ligger i `content/dosis/issues/2026-08-nr3/` med `status: scheduled` og `published: 2026-08-15`. Ikke på websitet før status sættes til `published` (mål: næste uge). Indhold og billeder er bevaret.
+
