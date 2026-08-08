@@ -57,7 +57,7 @@
       "order": 5,
       "title": "Pantens lange bane",
       "section": "Kredsløbet",
-      "standfirst": "Automaten er begyndelsen på en logistisk kæde — ikke slutningen på historien."
+      "standfirst": "Automaten er begyndelsen på en logistisk kæde, ikke slutningen på historien. Og kredsløbet knækker sjældent i grøftekanten — det knækker stille."
     },
     {
       "slug": "daarligt-eller-lukket-kredslob",
@@ -65,7 +65,7 @@
       "order": 6,
       "title": "Dårligt — eller lukket — kredsløb?",
       "section": "Kredsløbet",
-      "standfirst": "At smelte aluminium om er én ting. At holde det i en dåsekæde er en anden."
+      "standfirst": "At smelte aluminium om er én ting. At holde det i en dåsekæde er en anden. Forskellen hedder legering."
     },
     {
       "slug": "europas-dasevaerksteder",
@@ -87,9 +87,9 @@
       "slug": "tallet",
       "file": "articles/09-tallet.md",
       "order": 9,
-      "title": "Tallet: dåsen i fem mål",
+      "title": "Tallet: dåsen i seks mål",
       "section": "Tallet",
-      "standfirst": "Tal uden år og sted er pynt. Her er begge dele."
+      "standfirst": "Tal uden år og sted er pynt. Her er begge dele — og en advarsel om, hvad hvert tal ikke siger."
     },
     {
       "slug": "diagrammet",

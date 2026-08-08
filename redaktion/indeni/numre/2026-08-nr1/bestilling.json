@@ -172,15 +172,17 @@
         "fallback": "deepseek/deepseek-v3.2"
       },
       "receipt": {
-        "words": null,
-        "costUSD": null,
-        "draft": null
+        "words": 533,
+        "costUSD": 0.01675275,
+        "draft": "kladder/05-pantens-lange-bane.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1786229471-sxluKiodrhRsTiihgnTy"
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
-        "citations": null,
-        "editorNote": null
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-09",
+        "citations": 4,
+        "editorNote": "REELT kommissioneret hos openai/gpt-5.6-terra paa .env.indeni (generationId registreret); kladde i kladder/05-pantens-lange-bane.md. Kladden ramte briefens vigtigste krav — 'pant er ikke gratis dyd' — og fandt selv den formulering, der baerer artiklen: kredsloebet knaekker ikke foerst og fremmest i groeftekanten, men STILLE, naar en ren materialestroem bliver til en blandet. Den behandlede ogsaa 2,2 mia.-tallet praecis rigtigt ved at insistere paa at laese hele navneordet: tallet daekker ALLE returemballager og kan derfor ikke bruges som en dansk daase-genanvendelsesprocent, selv om det ofte bliver det. Redaktionelt tilfoejet: returprocenten paa ca. 92-93 %, og en udfoldning af hvad 'lukket kredsloeb' konkret betyder — at materialet bliver til en ny DRIKKEVAREEMBALLAGE og ikke til stoebegods, hvilket kraever foedevarekvalitet hele vejen og er praecis dét, pantsystemet koeber. Fodnoterne var tre bare domaenehenvisninger (danskretursystem.dk to gange, mst.dk) og er erstattet af fire konkrete, kontrollerede sider: pressemeddelelsen om 2,2 mia., pressemeddelelsen om 99,7 %, aarsrapporten og Miljoestyrelsens side om producentansvar."
       }
     },
     {
@@ -202,15 +204,17 @@
         "fallback": "deepseek/deepseek-v3.2"
       },
       "receipt": {
-        "words": null,
-        "costUSD": null,
-        "draft": null
+        "words": 485,
+        "costUSD": 0.065275,
+        "draft": "kladder/06-daarligt-eller-lukket-kredslob.md",
+        "costRouting": "byok",
+        "generationId": "gen-1786229592-DWHN7is7Ok84cL0PnBQT"
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
-        "citations": null,
-        "editorNote": null
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-09",
+        "citations": 2,
+        "editorNote": "REELT kommissioneret hos anthropic/claude-opus-4.8 paa .env.indeni (BYOK, generationId registreret); kladde i kladder/06-daarligt-eller-lukket-kredslob.md. Nummerets redaktionelt modneste kladde. Briefen bad om at vaere noegtern om interessen bag branchens krav om eksportbegraensninger paa aluminiumskrot, og kladden loeste det praecis rigtigt: den anerkendte miljoelogikken (en ren skrotstroem inden for et system med sporbarhed giver bedre chance for aegte lukket genanvendelse) OG den kommercielle side (eksportbegraensninger holder skrottet hjemme og presser prisen ned til fordel for netop de omsmeltere, organisationen repraesenterer) — og sluttede med den rigtige instruktion til laeseren: 'begge ting kan vaere sande paa én gang, og en laeser boer holde dem adskilt.' Den forklarede ogsaa downcycling konkret og korrekt: metallet gaar ikke tabt, men falder et trin ned ad kvalitetsstigen og kan ikke komme op igen, fordi en ukontrolleret blandingslegering ikke kan valses til daaseplade. Slutlinjen — 'det uendelige kredsloeb bliver til en enkeltbillet ned ad kvalitetsstigen' — er kladdens egen. Redaktionelt: de foraeldede 2022-tal (74,6 % og 580.000 ton) er taget ud af denne artikel, fordi de nu staar opdaterede i Tallet (76,3 % for 2023); artiklen handler om mekanismen, ikke om aarets tal. Fodnoterne var tre bare domaenehenvisninger og er erstattet af kontrollerede sider hos The Aluminum Association, European Aluminium, Metal Packaging Europe og Packaging Insights."
       }
     },
     {
@@ -300,15 +304,17 @@
         "fallback": "deepseek/deepseek-v3.2"
       },
       "receipt": {
-        "words": null,
-        "costUSD": null,
-        "draft": null
+        "words": 418,
+        "costUSD": 0.0198035,
+        "draft": "kladder/09-tallet.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1786229731-xp5QMbYPE65GGTOIzLCG"
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
-        "citations": null,
-        "editorNote": null
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-09",
+        "citations": 4,
+        "editorNote": "REELT kommissioneret hos openai/gpt-5.6-terra paa .env.indeni (generationId registreret); kladde i kladder/09-tallet.md. Kladden ramte INDENI's Tallet-format praecist: en tabel hvor HVERT tal faar aar, geografi og en forklaring paa hvad det faktisk maaler — og derefter faldgruberne. Den regnede korrekt (76,3 minus 74,6 = 1,7 procentpoint), forklarede CO2eq for en laeser der ikke kender begrebet, og markerede klimatallet som BEREGNET frem for maalt. Vigtigst: den holdt de tre klassiske forvekslinger adskilt — 76,3 % er ikke en dansk pantprocent, 2,2 mia. er ikke et aluminiumstal, og 99,7 % handler om det ALLEREDE afleverede og ikke om hvor stor en del af alt solgt der kommer retur. Den tilfoejede selv den fjerde faldgrube, briefen kun antydede: kapacitet er plads i maskinen, genanvendt metal er faktisk output. Redaktionelt: alle fire fodnoter var bare forsidelinks til organisationerne og er erstattet af de konkrete kilder, herunder European Aluminium og Metal Packaging Europes egen pressemeddelelse med 2023-resultaterne. Tabellens tal er ajourfoert fra den afpublicerede udgave, som stadig baerede 2022-tallet 74,6 % som hovedtal."
       }
     },
     {

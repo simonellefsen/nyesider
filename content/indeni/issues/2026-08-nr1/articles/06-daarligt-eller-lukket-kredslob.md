@@ -1,26 +1,59 @@
 ---
 title: "Dårligt — eller lukket — kredsløb?"
-standfirst: "At smelte aluminium om er én ting. At holde det i en dåsekæde er en anden."
+standfirst: At smelte aluminium om er én ting. At holde det i en dåsekæde er en anden. Forskellen hedder legering.
 section: "Kredsløbet"
 order: 6
 figures:
   - ../images/figur-lukket-kredslob.svg
 ---
 
-Aluminium kan omsmeltes uden at metallet i sig selv bliver “brugt op”. Men en god genanvendelseshistorie har flere led: dåsen skal indsamles, sorteres fra andre metaller, behandles, have justeret sin legering og finde ind i en produktion, der kan bruge den igen.
+Aluminium kan omsmeltes, uden at metallet i sig selv bliver brugt op. Det er den sætning, der bærer hele fortællingen om aluminium som cirkulært materiale.
+
+Den er også sand. Men den er ikke tilstrækkelig.
 
 [FIGUR 1]
 
-European Aluminium og Metal Packaging Europe opgjorde genanvendelsesgraden for aluminiumsdrikkedåser i EU, Storbritannien, Schweiz, Norge og Island til **74,6 % i 2022**. Samme opgørelse angiver **580.000 ton** genanvendt aluminium fra dåser.[^1] Det er resultat-tal for et bestemt år og område — ikke et løfte om, at alle indsamlede dåser blev til nye dåser.
+### Legeringen er det, der afgør det
 
-I et can-to-can-forløb omsmeltes brugte dåser, støbes til nye emner, valses til can stock og formes igen. Ball beskriver den overordnede industrielle vej som omsmeltning, støbning til ingots og varm- og koldvalsning til tynd plade.[^2] Undervejs opstår tab: noget aluminium oxiderer eller bliver restmateriale, og materialer med andre legeringer kan være svære at føre tilbage til samme produkt.
+En dåse er ikke lavet af «aluminium». Den er lavet af **to** aluminiumlegeringer: kroppen af 3xxx-serien med mangan, låget af 5xxx-serien med magnesium.[^1] Det er den kombination, valseværket regner med, når det skal lave ny dåseplade.
 
-Det betyder ikke, at materialet derefter er værdiløst. Aluminium kan ofte bruges i en anden legering eller et andet produkt. Men for en redaktionel forklaring er det afgørende at holde to sætninger adskilt: “materialet blev genanvendt” og “materialet blev til samme type emballage”. Den første kan være sand, uden at den anden er det.
+Blandes den strøm derimod med aluminium fra byggeri, motorblokke eller vinduesrammer, opstår en blandingslegering, hvis sammensætning ingen kontrollerer. Den kan stadig bruges — men ikke til at valse dåseplade. Den ender som **støbegods**.
 
-Derfor er “lukket kredsløb” en beskrivelse af en kvalitet i strømmen — ikke bare af, at en skraldespand findes. Branchen arbejder også med problemet: Novelis beskriver, at dåsekrop og ende ofte bruger to legeringer, og at en mere ensartet legering kan gøre sortering og genbrug lettere.[^3]
+Det er dét, der menes med *downcycling*. Ikke at metallet går tabt, men at det falder et trin ned ad kvalitetsstigen og ikke kan komme op igen.
 
-Genanvendelse er stadig væsentlig, fordi den undgår en del af den energitunge primærproduktion. Men det rigtige spørgsmål er ikke kun “kan materialet genanvendes?”, men også “er det indsamlet og sorteret godt nok til den brug, vi påstår?”
+Derfor er dåsen et af de bedste eksempler på et reelt lukket kredsløb, vi har — ikke fordi aluminium er et magisk metal, men fordi [pantsystemet](/indeni/2026-08-nr1/pantens-lange-bane) tvinger dåserne til at rejse sammen, adskilt fra alt andet aluminium, hele vejen til omsmeltningen.
 
-[^1]: [European Aluminium: 2022 recycling results](https://european-aluminium.eu/news_events/press-release-record-number-of-used-aluminium-beverage-cans-recycled-as-industry-drives-toward-100-circularity-by-2050/).
-[^2]: [Ball: aluminium can supply chain](https://www.ball.com/packaging/asi) — virksomhedens procesoversigt.
-[^3]: [Novelis Sustainability Report 2024](https://novelis.com/wp-content/uploads/2026/02/Novelis-Sustainability-Report_V40-compressed_Small.pdf).
+### Hvor det lækker
+
+Kredsløbet lækker mindst tre steder.
+
+**Uden pant** ryger dåsen typisk i restaffaldet.
+
+**Ved forbrænding** af restaffald smelter aluminiummet og ender delvist oxideret i slagge og bundaske. Noget kan efterfølgende sorteres fra med hvirvelstrømsanlæg, men en del er tabt som oxid — og det, der genvindes, er blandet. Altså støbegodskvalitet, ikke dåseplade.
+
+**Ved eksport** forlader skrottet den region, hvor det kunne være holdt rent. Sælges skrot videre i store, blandede partier, er der ingen garanti for, at dåselegeringen holdes adskilt fra bygningsaluminium i den anden ende. Den rene strøm, pantsystemet skabte, kan blive blandet op igen, når den først er solgt ud af huset.
+
+### Interessen bag argumentet
+
+Netop derfor har den europæiske aluminiumsbranche argumenteret for at begrænse eksporten af aluminiumskrot ud af EU.[^2]
+
+Argumentet er, at Europa risikerer at eksportere en værdifuld råvare, som europæiske omsmeltere selv har brug for — og at skrottet uden for EU ikke nødvendigvis genanvendes til samme kvalitet.
+
+Her er det værd at være nøgtern.
+
+Argumentet har en reel miljølogik: en ren skrotstrøm inden for et system med sortering og sporbarhed giver bedre chance for ægte lukket genanvendelse.
+
+Det har også en åbenlys kommerciel side. Eksportbegrænsninger holder skrottet hjemme og presser prisen ned — til fordel for netop de europæiske omsmeltere, som organisationerne repræsenterer. Billigere råvare til egne medlemmer er en interesse, uanset hvor godt klimaargumentet i øvrigt holder.
+
+Begge dele kan være sande på én gang. En læser bør holde dem adskilt.
+
+### Det korte af det
+
+Aluminiumsdåsen er ikke et lukket kredsløb, fordi aluminium er et magisk metal.
+
+Den er det, fordi et pantsystem tvinger dåserne til at rejse sammen — adskilt fra alt andet aluminium — hele vejen til omsmeltningen.
+
+Fjern den adskillelse, gennem manglende pant, forbrænding eller eksport af blandet skrot, og det uendelige kredsløb bliver til en enkeltbillet ned ad kvalitetsstigen.
+
+[^1]: [The Aluminum Association](https://www.aluminum.org/) — om legeringsserierne og hvorfor dåsekrop (3xxx, mangan) og låg (5xxx, magnesium) er forskellige materialer. Om betydningen for genanvendelse: [Circular economy](https://european-aluminium.eu/policy_areas/circular-economy/), European Aluminium.
+[^2]: [Aluminium beverage can recycling reaches a new record](https://www.metalpackagingeurope.org/news/aluminium-beverage-can-recycling-reaches-a-new-record/), Metal Packaging Europe, og [Europe hits record aluminum can recycling rate, industry urges scrap export ban](https://www.packaginginsights.com/news/europe-record-can-recycling-export-curbs.html), Packaging Insights — om branchens opgørelse og om dens samtidige krav om begrænsninger på skrot-eksport.
