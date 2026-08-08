@@ -290,15 +290,17 @@
         "fallback": "deepseek/deepseek-v3.2"
       },
       "receipt": {
-        "words": null,
-        "costUSD": null,
-        "draft": null
+        "words": 743,
+        "costUSD": 0.09182,
+        "draft": "kladder/08-satellitter.md",
+        "costRouting": "byok",
+        "generationId": "gen-1786214549-fB4KQLtd87BEoN8Dm80G"
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
-        "citations": null,
-        "editorNote": null
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-08",
+        "citations": 4,
+        "editorNote": "REELT kommissioneret hos google/gemini-3.1-pro-preview paa .env.orbit (BYOK, 0,092 USD); kladde i kladder/08-satellitter.md. Den bedste kladde i nummeret: den fandt selv baade ITU-frekvenskaploebet, Guowang/Qianfan og skumringsproblemet for asteroideobservationer, som ingen i briefen havde bedt om. Redaktionelle indgreb: (1) FAKTATJEKKET AFSLOEREDE EN UENIGHED, som nu baerer et helt afsnit — briefens tal (4.517 udsatte satellitter, +58 %) staar over for brancheorganisationen SIA's 29. State of the Satellite Industry Report (13. maj 2026), der naar 4.434 og +65 %. Begge staar nu i teksten, fordi uenigheden er selve pointen om, hvad et tal maaler. Med kom ogsaa rumoekonomiens 429 mia. dollar. (2) To upaaviselige paastande daempet: at operatoerernes gamle e-mail-baserede koordinering er 'broedt sammen', og at der 'kraeves AI-systemer' — erstattet af det, der kan dokumenteres, nemlig at SpaceX driver et automatisk undvigesystem, og at dets praksis bliver de facto-norm, fordi to tredjedele af trafikken foelger den. (3) Alle fire fodnoter var bare institutionsnavne uden URL; nu konkrete, kontrollerede links (CelesTrak, McDowell, ITU, IAU CPS). (4) Chart-markoeren active-sats sat ind."
       }
     },
     {
@@ -327,15 +329,17 @@
         "fallback": "deepseek/deepseek-v3.2"
       },
       "receipt": {
-        "words": null,
-        "costUSD": null,
-        "draft": null
+        "words": 688,
+        "costUSD": 0.06403,
+        "draft": "kladder/09-rumskrot.md",
+        "costRouting": "byok",
+        "generationId": "gen-1786214749-4fdlBsY6nghZiM7pvbri"
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
-        "citations": null,
-        "editorNote": null
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-08",
+        "citations": 5,
+        "editorNote": "REELT kommissioneret hos anthropic/claude-opus-4.8 paa .env.orbit (BYOK, 0,064 USD); kladde i kladder/09-rumskrot.md. Solid kladde med korrekt Kessler-forklaring og korrekt skelnen mellem 25-aars- og 5-aars-reglen. Rettelser: (1) Haandgranat-sammenligningen var korrekt, men uden fodnote til den konkrete ESA-formulering — nu paa ESA's egen hypervelocity-side. (2) STØRSTE FUND: kladden naevnte ClearSpace-1 uden at vide, at missionens oprindelige maal (VESPA-adapteren) selv blev ramt af usporbart skrot i 2023, hvorfor ESA i april 2024 skiftede maal til Proba-1. Det er en langt staerkere illustration af artiklens pointe end noget kladden selv fandt paa, og afsnittet er omskrevet omkring den. (3) Ansvarskonventionen praeciseret: ansvaret er UBETINGET for skade paa Jorden/fly, men SKYLDSBASERET for skade i det ydre rum — kladden skrev det som ét ubetinget ansvar. (4) ESA Zero Debris-fodnoten var en gaettet URL og gav 404; erstattet af rapportens egen side. (5) Chart-markoer ikke relevant her (ingen chart-fil for rumskrot i denne udgave)."
       }
     },
     {

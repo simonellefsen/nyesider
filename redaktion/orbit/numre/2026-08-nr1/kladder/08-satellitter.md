@@ -1,0 +1,32 @@
+# LEO er ikke længere et sted – det er en industripark
+
+For blot et årti siden var rummet over vores hoveder en eksklusiv klub for statslige aktører og en håndfuld store telekommunikationsvirksomheder. I dag er Lavt Jordkredsløb (LEO) – området der strækker sig fra cirka 160 til 2.000 kilometer over Jordens overflade – holdt op med at være et øde, videnskabeligt domæne. Det er blevet omdannet til en global, travl industripark.
+
+LEO har en helt særlig fordel: nærheden til Jorden. Modsat de traditionelle, enorme kommunikationssatellitter i Geostationært Kredsløb (GEO) små 36.000 kilometer ude, giver LEO-satellitter minimal forsinkelse på datasignaler. Det gør dem ideelle til lynhurtigt bredbånd. Men nærheden har en pris: En LEO-satellit dækker kun et lille, afgrænset område af Jorden ad gangen. Skal man levere globalt internet, kræver det ikke én, men tusindvis af satellitter, der konstant overlapper hinanden i et enormt, koreograferet netværk – en såkaldt konstellation. 
+
+Denne tekniske nødvendighed har skabt et sandt opsendelsesboom. I 2025 blev der udsat 4.517 satellitter i rummet. Det er en stigning på 58 % i forhold til året før. Endnu mere illustrativt for rumfartens nye æra er det, at hele 87 % af disse var rent kommercielle[^1]. Førhen blev satellitter bygget som unikke, håndlavede schweizerure, der tog årtier at udvikle. I dag ruller de af samlebånd som biler, sendes op i bundter af dusinvis ad gangen og forventes kun at leve i omkring fem år, før de skrottes, brænder op i atmosfæren og erstattes af en ny model.
+
+Spydspidsen i denne kommercialisering hedder Starlink, drevet af den amerikanske rumfartsvirksomhed SpaceX. I august 2026 er ca. 10.893 Starlink-satellitter aktive i kredsløb. Det betyder rent praktisk, at en enkelt virksomhed nu kontrollerer omkring 67 % af ALLE aktive satellitter om Jorden[^2].
+
+At én enkelt privat aktør ejer to ud af tre maskiner i rummet, repræsenterer en hidtil uset magtkoncentration i rumfartens historie. Rent praktisk betyder det, at SpaceX ikke blot er en udbyder af internet; de sætter de facto standarden for, hvordan man opererer i kredsløb. Når der opstår risiko for kollisioner, er det i overvejende grad de andre operatører, der må tilpasse sig Starlinks automatiserede undvigemanøvrer. Virksomheden kontrollerer rummets største infrastruktur, og deres evne til at masseproducere og opsende dem med deres egne Falcon 9- og Starship-raketter har skabt en næsten uindtagelig position. Det svarer til, at ét enkelt taxaselskab pludselig ejede to tredjedele af alle køretøjer på de globale motorveje – i praksis ville det være dem, der bestemte færdselsreglerne.
+
+Konkurrenterne ser dog ikke passivt til. Den geopolitiske og kommercielle virkelighed dikterer, at hverken stormagter eller globale tech-giganter vil acceptere at være afhængige af Elon Musks infrastruktur. 
+
+I Europa har det fusionerede Eutelsat OneWeb etableret sin egen konstellation, primært rettet mod erhvervskunder og regeringer, for at sikre en uafhængig europæisk tilstedeværelse i LEO. I USA pumper Amazon milliarder ind i Project Kuiper, der forsøger at bide skeer med Starlink på forbrugermarkedet. Amazon har reserveret snesevis af fremtidige raketopsendelser for blot at få deres hardware i kredsløb, inden deres internationale licenser udløber.
+
+Mere markant er dog Kinas massive rumsatsning. Af frygt for at blive låst ude af det strategisk vigtige LEO-domæne, har Kina accelereret udrulningen af deres egne statsstøttede mega-konstellationer, herunder Guowang (et nationalt netværk) og Qianfan (også kendt som G60). Disse projekter handler om digital suverænitet og om hurtigst muligt at optage radiofrekvenser og de bedste baner, før SpaceX tager dem alle. Tildelingen af disse baner styres globalt af International Telecommunication Union (ITU), og papirkapløbet om at indgive ansøgninger er i dag lige så intenst som selve raketopsendelserne[^3].
+
+Den hastige forvandling af LEO til en industripark har skabt to akutte udfordringer: banekoordination og tabet af nattehimlen.
+
+Med et stadigt voksende antal objekter i rummet er Space Situational Awareness (SSA) – overvågning af rummets miljø – gået fra at være en niche for militære radarteknikere til at være en afgørende disciplin. Det gamle system, hvor operatører sendte e-mails til hinanden for at aftale undvigemanøvrer, er brudt sammen under mængden af trafik. I dag kræves der automatiserede AI-systemer for at undgå det frygtede Kessler-syndrom – en kaskade af kollisioner, der kan skabe så meget vragods, at hele LEO bliver ubrugeligt.
+
+For astronomien har konstellationerne været et tilsvarende hårdt slag. Optiske teleskoper verden over oplever nu jævnligt, at deres eksponeringer af fjerne galakser bliver ødelagt af lyse streger fra forbipasserende satellitter. Endnu mere kritisk er det for de jordbaserede observationer af nærgående asteroider, som oftest tages i skumringen – præcis det tidspunkt, hvor solens lys rammer LEO-satellitternes paneler og kaster flest forstyrrende reflekser ned mod Jorden. Samtidig bliver radioteleskoper, som forsøger at lytte til universets svageste signaler, bogstaveligt talt overdøvet af den konstante datastrøm fra konstellationerne. 
+
+Den Internationale Astronomiske Union (IAU) har på baggrund af udviklingen oprettet et dedikeret center, der skal forsøge at beskytte den mørke og stille himmel[^4]. Men astronomerne kæmper en svær kamp for at bevare et videnskabeligt vindue til universet, mens en massiv industri har travlt med at bygge morgendagens rygrad for global kommunikation. 
+
+Lavt jordkredsløb vil aldrig igen blive den stille stjernehimmel, vi engang kendte. Det er blevet et spejlbillede af vores moderne klode: tæt pakket, domineret af stærke kommercielle aktører, præget af geopolitisk rivalisering og i desperat mangel på globale færdselsregler.
+
+[^1]: FN's Kontor for Anliggender vedrørende det Ydre Rum (UNOOSA), *Online Index of Objects Launched into Outer Space*.
+[^2]: CelesTrak, *Active Satellite Catalog*.
+[^3]: International Telecommunication Union (ITU), *Space Network List (SNL)*.
+[^4]: International Astronomical Union (IAU), *Centre for the Protection of the Dark and Quiet Sky from Satellite Constellation Interference (CPS)*.
