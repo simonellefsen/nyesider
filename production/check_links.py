@@ -70,16 +70,23 @@ def check(url: str) -> tuple[str, int, str]:
     last = ""
     # Transient resets are common when several requests hit one host at once;
     # a genuine 404 never becomes a 200 on retry, so this only filters noise.
-    for attempt in range(3):
+    for attempt in range(4):
         try:
             with urllib.request.urlopen(req, timeout=30) as r:
                 return url, r.status, ""
         except urllib.error.HTTPError as e:
+            # 5xx and 429 are the server having a moment, not a missing page.
+            # Retry those; 404/410 never become 200, so return immediately.
+            if e.code >= 500 or e.code == 429:
+                last = f"{e.code} {e.reason or ''}".strip()
+                time.sleep(1.5 * (attempt + 1))
+                continue
             return url, e.code, e.reason or ""
         except Exception as e:  # noqa: BLE001 - network errors are the point
             last = str(e)[:120]
             time.sleep(1.5 * (attempt + 1))
-    return url, 0, last
+    m = re.match(r"^(\d{3})", last)
+    return (url, int(m.group(1)), last) if m else (url, 0, last)
 
 
 def load_cache() -> dict:

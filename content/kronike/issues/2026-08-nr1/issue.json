@@ -52,9 +52,9 @@
       "slug": "tallet",
       "file": "articles/02-tallet.md",
       "order": 2,
-      "title": "Tallet: pejlemærker gennem århundrederne",
+      "title": "Tallet: fire mål på et rige i bevægelse",
       "section": "Tallet",
-      "standfirst": "Historie er ikke kun fortælling. Det er også størrelsesordener — med forbehold for, at middelalderlige tællinger er skøn.",
+      "standfirst": "Historie er også størrelsesordener. Her er fire — og en ærlig besked om, hvor sikre de er.",
       "image": "../images/kronike_tallet.png",
       "imageCredit": "AI-genereret motiv (Imagine / xAI) — geometrisk stil",
       "imageSource": "https://x.ai/"
@@ -76,7 +76,7 @@
       "order": 4,
       "title": "Kristningen: da troen blev statsprojekt",
       "section": "Tro & kirke",
-      "standfirst": "Ansgar kom med mission og fik lov til kirker — blandt andet i Ribe. Harald Blåtand kom med magt og Jelling-sten. Mellem dem ligger generationer.",
+      "standfirst": "Harald Blåtand skrev på en sten, at han gjorde danerne kristne. Det passer — men grunden lå syd for grænsen, ikke i himlen.",
       "image": "../images/kronike_kristning.png",
       "imageCredit": "AI-genereret motiv (Imagine / xAI) — retrostil",
       "imageSource": "https://x.ai/"
@@ -142,7 +142,7 @@
       "order": 10,
       "title": "Udvandringen: da danskere blev migranter",
       "section": "Migration",
-      "standfirst": "Hundredtusinder forlod Danmark. De fleste til USA — og en slående andel fulgte mormonmissionærer til Utah, før Midtvestens store bølger.",
+      "standfirst": "Omkring 300.000 forlod landet. Vi kender deres navne, fordi politiet skrev dem ned — og fordi en af dem blev berømt for at fotografere fattigdom.",
       "image": "../images/kronike_udvandring.png",
       "imageCredit": "AI-genereret motiv (Imagine / xAI) — retro plakatstil",
       "imageSource": "https://x.ai/"
@@ -153,7 +153,7 @@
       "order": 11,
       "title": "H.C. Ørsted: da strøm og magnetisme mødtes",
       "section": "Videnskab & opfindelser",
-      "standfirst": "1820-opdagelsen er kun toppen. Under den ligger et liv: professorat, korrespondance med Faraday og andre, familie — og et ansigt, vi faktisk har på et daguerreotypi.",
+      "standfirst": "Nålen skulle ikke have drejet den vej. At den gjorde, åbnede elektromagnetismen — men manden bag var lige så meget sprogmand og skolebygger som fysiker.",
       "image": "../images/kronike_oersted.png",
       "imageCredit": "AI-genereret motiv (Imagine / xAI) — geometrisk/lab",
       "imageSource": "https://x.ai/"

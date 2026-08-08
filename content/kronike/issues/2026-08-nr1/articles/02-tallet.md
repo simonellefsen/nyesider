@@ -1,36 +1,61 @@
 ---
-title: "Tallet: pejlemærker gennem århundrederne"
-standfirst: Historie er ikke kun fortælling. Det er også størrelsesordener — med forbehold for, at middelalderlige tællinger er skøn.
+title: "Tallet: fire mål på et rige i bevægelse"
+standfirst: Historie er også størrelsesordener. Her er fire — og en ærlig besked om, hvor sikre de er.
 section: Tallet
 order: 2
-image: ../images/kronike_tallet.png
-imageCredit: "AI-genereret motiv (Imagine / xAI) — geometrisk stil"
-imageSource: "https://x.ai/"
 ---
 
-KRØNIKE bruger tal, når de bærer. Når de er usikre, mærker vi dem som **skøn** eller **ordenstørrelse**. Nedenfor er pejlemærker til det første nummer — ikke et facit for hele danmarkshistorien.
+Historie er ikke kun fortælling. Det er også størrelsesordener. Men et tal uden en oplysning om, **hvad det måler** og **hvor det kommer fra**, er lige så meget stemning som et adjektiv. Her er fire tal fra dette nummer — med forbeholdene ved siden af.
 
-| Pejlemærke | Retning / tal | Note |
-|---|---|---|
-| Vikingetid (ca.) | **800–1050** e.Kr. | Konventionel periodeafgrænsning; overgange er bløde[^1] |
-| Dannevirke | Anlæg fra **jernalder**, udbygget gennem vikingetid og middelalder | Forsvarslinje ved Slesvig; arkæologi + skriftlige kilder[^2] |
-| Kristning “officiel” | **960’erne** (Harald Blåtand) | Processen er længere end én indskrift[^3] |
-| Reformation i DK | **1536** | Statskirke, krongods, ny magtfordeling[^4] |
-| Øresundstold | **1429–1857** | Strategisk indtægt i århundreder[^5] |
-| Stavnsbånd ophævet | **20. juni 1788** | Del af landboreformerne — ikke “al frihed på én dag”[^6] |
-| 1864 | Tab af **Slesvig, Holsten og Lauenborg** | Nationalt traume og grænseflytning[^7] |
-| Udvandring til USA | Ca. **300.000** danskere 1800-tallet–tidligt 1900-tal (ordenstørrelse) | Top i slutningen af 1800-tallet; opgørelser varierer[^8] |
-| Befolkning ca. 1801 | Omkring **0,9 million** i kongeriget (afgrænsning afhænger af opgørelse) | Folketællinger begynder at blive systematiske[^9] |
-| Befolkning ca. 1901 | Omkring **2,4 million** | Industrialisering, urbanisering[^9] |
+### 2/3 → 10 %
 
-**Læseregler:** Et tal uden **år, afgrænsning og kilde** er dekoration. “Danmark” i 900 er ikke “Danmark” i 1900 — grænser, sprog og statsbegreb skifter. Se features for dybde.
+**Øresundstoldens andel af kronens indtægter.**
 
-[^1]: Standardperiodisering i dansk historieformidling (fx danmarkshistorien.dk / lærebogstradition) — pejlemærke.
-[^2]: Nationalmuseet / arkæologiske oversigter om Dannevirke.
-[^3]: Jelling-monumenterne og samtidige krøniker; se [kristnings-artiklen](/kronike/2026-08-nr1/kristning).
-[^4]: Danske Lov / reformationens politiske forløb 1536; se [reformation](/kronike/2026-08-nr1/reformation).
-[^5]: Historiske oversigter over Øresundstolden (1429 indført under Erik af Pommern; afskaffet 1857).
-[^6]: Landboreformerne; stavnsbåndets ophævelse 1788 — se [landboreformer](/kronike/2026-08-nr1/landboreformer).
-[^7]: 2. slesvigske krig 1864; Wienerfreden m.m. — se [1864](/kronike/2026-08-nr1/seksten-fireogtreds).
-[^8]: Udvandringsstatistik og museumsoversigter (fx The Danish Immigrant Museum / danske arkiver) — afrundet pejlemærke.
-[^9]: Danske folketællinger (Danmarks Statistik / Rigsarkivet) — årstal og rigsafgrænsning er load-bearing; tjek seneste publicerede serier.
+I slutningen af 1500-tallet stod tolden for omkring **to tredjedele** af kronens indtægter. Ved udgangen af 1600-tallet var andelen nede omkring 4,5 %, i 1730'erne ca. 6,5 %, i 1780'erne ca. 8 % og omkring år 1800 ca. 10 %.[^1]
+
+Faldet betyder ikke, at tolden skrumpede — indtægten voksede. Det betyder, at **staten voksede hurtigere**: enevælden efter 1660 byggede et skatteapparat, tolden ikke kunne følge med. Tallet måler altså en *andel*, ikke en formue, og det er derfor det kan halveres, mens kassen fyldes.
+
+Læs mere i [Øresundstolden](/kronike/2026-08-nr1/oresundstold).
+
+### 4 til 40
+
+**Aldersgruppen, stavnsbåndet omfattede i 1788.**
+
+Da stavnsbåndet blev indført i 1733, gjaldt det mænd mellem **14 og 36 år**. Ved ophævelsen i 1788 var det udvidet til aldersgruppen **4 til 40**.[^2]
+
+Dette er ikke et statistisk skøn, men en juridisk afgrænsning — den slags tal, der er præcise, fordi nogen skrev dem i en forordning. Det gør det ikke mindre bemærkelsesværdigt: en fireårig var bundet til et gods.
+
+Læs mere i [Landboreformerne](/kronike/2026-08-nr1/landboreformer).
+
+### 1/3 og 2/5
+
+**Hvad Danmark mistede i 1864.**
+
+Omkring **en tredjedel af helstatens areal** og **to femtedele af dens befolkning** forsvandt med Slesvig, Holsten og Lauenborg. Tilbage stod en småstat med ca. 1,7 mio. indbyggere.[^3]
+
+Bemærk hvad tallene måler: **helstaten** — det samlede monarki inklusive hertugdømmerne — ikke det kongerige, vi kender i dag. Tabet var altså mindre dramatisk for «Danmark» i nutidig forstand end procenterne antyder, og samtidig mere dramatisk, fordi det, der forsvandt, var en tredjedel af selve statens idé.
+
+Læs mere i [1864](/kronike/2026-08-nr1/seksten-fireogtreds).
+
+### 250.000–300.000
+
+**Danskere, der udvandrede 1868–1914.**
+
+Størrelsesordenen er sikker; det præcise tal er det ikke. Opgørelserne varierer med periodeafgrænsning, og protokollerne registrerer **udrejser**, ikke livsforløb: nogle rejste videre, nogle vendte hjem, nogle blev talt to gange.[^4]
+
+Sammenlign selv: Danmark havde i perioden mellem halvanden og knap tre millioner indbyggere.
+
+Læs mere i [Udvandringen](/kronike/2026-08-nr1/udvandring).
+
+### Og så det tal, vi ikke har
+
+Danmarks befolkning omkring år **1500** anslås ofte til i størrelsesordenen en halv til en hel million. Det er et **skøn**, ikke en optælling — bygget på skattelister, jordebøger og gætværk om husstandsstørrelser, og med pest, krig og skiftende grænser som støj.
+
+Først med folketællingen i **1801** får vi noget, der ligner en rigtig optælling.
+
+Forskellen mellem de to slags tal er ikke akademisk. Den er hele forskellen mellem at vide og at anslå — og et magasin, der skriver historie, skylder læseren at sige hvilket af de to, det har med at gøre.
+
+[^1]: [Øresundstolden](https://da.wikipedia.org/wiki/%C3%98resundstolden) og [Øresundstolden, ca. 1429-1857](https://danmarkshistorien.lex.dk/%C3%98resundstolden,_ca._1429-1857), danmarkshistorien.dk.
+[^2]: [Forordning om stavnsbåndets ophævelse, 20. juni 1788](https://danmarkshistorien.lex.dk/Forordning_om_stavnsb%C3%A5ndets_oph%C3%A6velse,_20._juni_1788) og [Stavnsbånd 1733-1800](https://danmarkshistorien.lex.dk/Stavnsb%C3%A5nd_1733-1800), danmarkshistorien.dk.
+[^3]: [Krigen 1864](https://natmus.dk/historisk-viden/danmark/nationalstaten-1849-1915/det-nye-folkestyre/krigen-1864/), Nationalmuseet, og [Krigen 1864 — efterspil](https://mojnmoin.graenseforeningen.dk/krigen-1864-efterspil), Grænseforeningen.
+[^4]: [Dansk udvandring til USA, 1820-1930](https://danmarkshistorien.lex.dk/Dansk_udvandring_til_USA,_1820-1930), danmarkshistorien.dk, med Kristian Hvidts *Flugten til Amerika* (1971) som grundlag.

@@ -67,15 +67,15 @@
         "fallback": null
       },
       "receipt": {
-        "words": 324,
-        "costUSD": null,
-        "draft": null
+        "words": 561,
+        "costUSD": 0.02,
+        "draft": "kladder/02-tallet.md"
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
-        "citations": 9,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-08",
+        "citations": 4,
+        "editorNote": "REELT kommissioneret hos openai/gpt-5.6-terra paa .env.kronike. Kladden ramte formatet praecist: hvert tal med hvad det maaler, hvor det kommer fra og hvor usikkert det er. Den viste sig desuden at vaere nummerets bedste krydstjek. To fund: (1) kladdens paastand om at Oeresundstolden kunne udgoere TO TREDJEDELE af statens indtaegter i 1500-tallet lod til at modsige de ca. 10 % omkring 1800, som allerede stod i Oeresundstold-artiklen — begge dele er rigtige, og hele kurven (2/3 i sen 1500-tal, 4,5 % ca. 1700, 6,5 % i 1730'erne, 8 % i 1780'erne, 10 % ca. 1800) er nu skrevet ind BEGGE steder, fordi faldet i sig selv er pointen: staten voksede om tolden. (2) Kladdens 1864-tal (1/3 areal, 2/5 befolkning) var korrekte — og afsloerede, at CHEFREDAKTIONENS EGEN 1864-artikel skrev 'to femtedele af arealet'. Rettet i 09-seksten-fireogtreds.md. Doede fodnoter til udvandrerarkivet.dk og bare domaener erstattet."
       }
     },
     {
@@ -137,15 +137,15 @@
         "fallback": null
       },
       "receipt": {
-        "words": 452,
-        "costUSD": null,
-        "draft": null
+        "words": 858,
+        "costUSD": 0.03,
+        "draft": "kladder/04-kristning.md"
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-08",
         "citations": 3,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "editorNote": "REELT kommissioneret hos google/gemini-3.1-pro-preview paa .env.kronike. Den bedste kladde i nummeret indtil videre: den gjorde af sig selv praecis dét, briefet bad om — skelnede myte/tradition/belagt kilde og var kildekritisk over for Widukind af Corvey som saksisk-kirkelig propagandist. Rettelser: FJERNET Jellingstenens vaegt ('i omegnen af 10 tons'), som ikke kunne verificeres. Ingelheim 948 var korrekt, men kladden skrev blot 'tre biskopper' — de har navne (Hored/Slesvig, Liafdag/Ribe, Reginbrand/Aarhus, indviet af aerkebiskop Adaldag af Hamburg-Bremen), og de er nu med. Fodnoter uden URL erstattet af verificerede."
       }
     },
     {
@@ -347,15 +347,15 @@
         "fallback": null
       },
       "receipt": {
-        "words": 378,
-        "costUSD": null,
-        "draft": null
+        "words": 892,
+        "costUSD": 0.03,
+        "draft": "kladder/10-udvandring.md"
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
-        "citations": 3,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-08",
+        "citations": 4,
+        "editorNote": "REELT kommissioneret hos google/gemini-3.1-pro-preview paa .env.kronike. Kladden fandt selv en rigtig, opslaaelig hovedperson — Jacob Riis — i stedet for at opfinde en. Faktatjek praeciserede ham: han sejlede foerst Koebenhavn-Glasgow og gik om bord paa dampskibet Iowa 18. maj 1870; de 40 dollars var indsamlet af venner (billetten paa 50 betalte han selv); og han sov i politiets herberger — de samme slags logihuse, han senere blev beroemt for at afsloere i How the Other Half Lives. Den ironi manglede i kladden og baerer nu afsnittet. Befolkningsandelen ('10 %') haegtet ned til en ordenstoerrelse. Fodnoter til udvandrerarkivet.dk fjernet: domaenet svarede overhovedet ikke ved kontrol — erstattet af Rigsarkivet og Aalborg Stadsarkiv."
       }
     },
     {
@@ -382,15 +382,15 @@
         "fallback": null
       },
       "receipt": {
-        "words": 377,
-        "costUSD": null,
-        "draft": null
+        "words": 861,
+        "costUSD": 0.03,
+        "draft": "kladder/11-oersted.md"
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
-        "citations": 2,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-08",
+        "citations": 5,
+        "editorNote": "REELT kommissioneret hos anthropic/claude-opus-4.8 paa .env.kronike. Kladden leverede det bedste greb: at naalen stillede sig PAA TVAERS, altsaa at kraften virker cirkulaert og ikke i en ret linje som Newtons tyngdekraft — dét er grunden til, at opdagelsen var chokerende, og det manglede i den tidligere udgave. Sammenskrevet med det verificerede materiale, redaktionen allerede havde (daguerreotypi, 100-kronesedlen, Runeberg-scanninger). Faktatjek tilfoejede noget begge udgaver havde overset: Oersted fremstillede som den FOERSTE metallisk aluminium i 1825. Doed lex.dk-URL (Hans_Christian_Oersted) rettet til H.C._Oersted."
       }
     },
     {
