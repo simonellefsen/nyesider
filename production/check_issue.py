@@ -52,8 +52,11 @@ EXCLUDED_AUDIO_SECTION_PREFIXES = ("leder", "ordbogen", "rygtebørsen")
 # not trip the detector. We flag production leftovers only.
 DRAFT_MARKERS_RE = re.compile(
     r"(?i)("
-    r"\bTODO\b|\bFIXME\b|\bTBD\b|\bWIP\b|"
-    r"\bplaceholder\b|lorem ipsum|"
+    # Standalone production leftovers only — not compounds like
+    # "placeholder-teksten" in a published anecdote.
+    r"(?<![\w-])(?:TODO|FIXME|TBD|WIP)(?![\w-])|"
+    r"(?<![\w-])placeholder(?![\w-])|"
+    r"lorem ipsum|"
     r"\[insert[^\]]*\]|\[todo[^\]]*\]|\[fixme[^\]]*\]|"
     r"not for publication|do not publish|"
     r"udkast til skribent|notes to (?:self|editor)|"
@@ -83,6 +86,8 @@ ACRONYM_GLOSS_REQUIREMENTS: list[tuple[str, tuple[str, ...]]] = [
 ]
 
 # Production meta aimed at the writer/editor, not the subscriber.
+# Avoid Danish everyday words like "bestillingen" (a prompt order) — require
+# file/field names or explicit editorial checklist phrasing.
 DRAFT_META_RE = re.compile(
     r"(?i)("
     r"som primærkilder|"
@@ -93,8 +98,7 @@ DRAFT_META_RE = re.compile(
     r"sendes tilbage til skribenten|"
     r"bestilling\.json|"
     r"\bmustCite\b|"
-    r"i bestillingen|"
-    r"opgave i bestilling|"
+    r"opgave i bestilling\.json|"
     r"verdict\.status|"
     r"brief\.angle|"
     r"chefredaktørens tjekliste|"
@@ -102,6 +106,16 @@ DRAFT_META_RE = re.compile(
     r"redaktionsnote:"
     r")"
 )
+
+
+def strip_quoted_spans(text: str) -> str:
+    """Remove quoted spans so anecdotes can mention TODO/placeholder safely."""
+    # Straight, curly, and guillemet quotes (common in Danish magazine copy).
+    return re.sub(
+        r'"[^"\n]*"|\'[^\'\n]*\'|“[^”\n]*”|‘[^’\n]*’|«[^»\n]*»|"[^"\n]*"',
+        ' ',
+        text,
+    )
 
 
 def is_audio_excluded(section: str) -> bool:
@@ -356,10 +370,13 @@ def check_issue(magazine_dir: Path, issue_dir: Path) -> list[Finding]:
                 )
 
         # unfinished / draft voice — must not land in content/
+        # Scan outside quotes: gossip/anecdotes may *mention* "TODO" without
+        # being unfinished production (GNISTEN sladder false positive).
+        draft_scan = strip_quoted_spans(body)
         draft_hits: list[str] = []
-        for m in DRAFT_MARKERS_RE.finditer(body):
+        for m in DRAFT_MARKERS_RE.finditer(draft_scan):
             draft_hits.append(m.group(0).strip()[:48])
-        for m in DRAFT_META_RE.finditer(body):
+        for m in DRAFT_META_RE.finditer(draft_scan):
             draft_hits.append(m.group(0).strip()[:48])
         seen_hit: set[str] = set()
         uniq: list[str] = []
