@@ -10,7 +10,7 @@
       400
     ],
     "targetPages": 12,
-    "note": "SSA + konstellationer + manifests; 11 artikler. Ordbogen dropped 2026-08-08 — inline glosses only."
+    "note": "SSA + konstellationer + manifests; 11 artikler. Ordbogen dropped 2026-08-08 — inline glosses only. Depth 2026-08-08: nærpassage+flight13+SSA."
   },
   "opgaver": [
     {
@@ -32,15 +32,15 @@
         "fallback": null
       },
       "receipt": {
-        "words": 138,
+        "words": 153,
         "costUSD": null,
         "draft": null
       },
       "verdict": {
-        "status": "accepted",
+        "status": "rewritten-by-editor",
         "checkedAt": "2026-08-08",
         "citations": 0,
-        "editorNote": "Editor-led batch 2026-08-08; fact-check pejlemærker med forbehold."
+        "editorNote": "Points to flight 13 and liability angle."
       }
     },
     {
@@ -50,10 +50,10 @@
       "brief": {
         "angle": "Den stille regning for LEO-tæthed.",
         "words": [
-          150,
-          400
+          250,
+          500
         ],
-        "mustCite": 2,
+        "mustCite": 3,
         "format": "tallet"
       },
       "writer": {
@@ -62,15 +62,15 @@
         "fallback": "deepseek/deepseek-v3.2"
       },
       "receipt": {
-        "words": 128,
+        "words": 354,
         "costUSD": null,
         "draft": null
       },
       "verdict": {
-        "status": "accepted-after-edit",
+        "status": "rewritten-by-editor",
         "checkedAt": "2026-08-08",
-        "citations": 2,
-        "editorNote": "Editor-led batch 2026-08-08; fact-check pejlemærker med forbehold."
+        "citations": 4,
+        "editorNote": "Tallet udvidet: CDM vs kollision; Iridium-benchmark; pejlemærker til nærpassage-feature."
       }
     },
     {
@@ -78,12 +78,12 @@
       "order": 3,
       "section": "Opsendelser",
       "brief": {
-        "angle": "To tempoer i samme firma.",
+        "angle": "Falcon vs Starship; flight 13 V3 + Starlink V3 deploy + Indian Ocean splashdown.",
         "words": [
-          80,
-          350
+          400,
+          900
         ],
-        "mustCite": 0,
+        "mustCite": 3,
         "format": "feature"
       },
       "writer": {
@@ -92,15 +92,15 @@
         "fallback": "deepseek/deepseek-v3.2"
       },
       "receipt": {
-        "words": 140,
+        "words": 541,
         "costUSD": null,
         "draft": null
       },
       "verdict": {
-        "status": "accepted-after-edit",
+        "status": "rewritten-by-editor",
         "checkedAt": "2026-08-08",
-        "citations": 0,
-        "editorNote": "Editor-led batch 2026-08-08; fact-check pejlemærker med forbehold."
+        "citations": 3,
+        "editorNote": "Flight 13 (24 jul 2026): V3, 20 Starlink V3 test-deploy, soft splashdown Indiske Ocean, hedeskjold-data. SpaceX primær."
       }
     },
     {
@@ -122,15 +122,15 @@
         "fallback": "deepseek/deepseek-v3.2"
       },
       "receipt": {
-        "words": 136,
+        "words": 210,
         "costUSD": null,
         "draft": null
       },
       "verdict": {
-        "status": "accepted-after-edit",
+        "status": "rewritten-by-editor",
         "checkedAt": "2026-08-08",
         "citations": 0,
-        "editorNote": "Editor-led batch 2026-08-08; fact-check pejlemærker med forbehold."
+        "editorNote": "Depth pass; parallel to Starship discipline."
       }
     },
     {
@@ -152,15 +152,15 @@
         "fallback": "deepseek/deepseek-v3.2"
       },
       "receipt": {
-        "words": 160,
+        "words": 312,
         "costUSD": null,
         "draft": null
       },
       "verdict": {
-        "status": "accepted-after-edit",
+        "status": "rewritten-by-editor",
         "checkedAt": "2026-08-08",
         "citations": 1,
-        "editorNote": "Editor-led batch 2026-08-08; fact-check pejlemærker med forbehold."
+        "editorNote": "Linked to CDM/nærpassage; commercial vs public catalogs."
       }
     },
     {
@@ -182,15 +182,15 @@
         "fallback": "deepseek/deepseek-v3.2"
       },
       "receipt": {
-        "words": 148,
+        "words": 219,
         "costUSD": null,
         "draft": null
       },
       "verdict": {
-        "status": "accepted-after-edit",
+        "status": "rewritten-by-editor",
         "checkedAt": "2026-08-08",
         "citations": 0,
-        "editorNote": "Editor-led batch 2026-08-08; fact-check pejlemærker med forbehold."
+        "editorNote": "Link flight 13 V3 + nærpassage load."
       }
     },
     {
@@ -212,7 +212,7 @@
         "fallback": "deepseek/deepseek-v3.2"
       },
       "receipt": {
-        "words": 131,
+        "words": 168,
         "costUSD": null,
         "draft": null
       },
@@ -228,12 +228,12 @@
       "order": 8,
       "section": "Rumskrot & sikkerhed i kredsløb",
       "brief": {
-        "angle": "Conjunction er et regneark.",
+        "angle": "Conjunction vs collision; history; CDM reporting; Liability Convention compensation.",
         "words": [
-          80,
-          350
+          400,
+          900
         ],
-        "mustCite": 0,
+        "mustCite": 2,
         "format": "feature"
       },
       "writer": {
@@ -242,15 +242,15 @@
         "fallback": "google/gemini-3.5-flash"
       },
       "receipt": {
-        "words": 115,
+        "words": 776,
         "costUSD": null,
         "draft": null
       },
       "verdict": {
-        "status": "accepted-after-edit",
+        "status": "rewritten-by-editor",
         "checkedAt": "2026-08-08",
-        "citations": 0,
-        "editorNote": "Editor-led batch 2026-08-08; fact-check pejlemærker med forbehold."
+        "citations": 2,
+        "editorNote": "Depth: collisions history, CDM reporting, Liability Convention absolute vs fault, Cosmos 954, Iridium settlement outside formal process."
       }
     },
     {
@@ -272,15 +272,15 @@
         "fallback": "deepseek/deepseek-v3.2"
       },
       "receipt": {
-        "words": 100,
+        "words": 160,
         "costUSD": null,
         "draft": null
       },
       "verdict": {
-        "status": "accepted-after-edit",
+        "status": "rewritten-by-editor",
         "checkedAt": "2026-08-08",
         "citations": 0,
-        "editorNote": "Editor-led batch 2026-08-08; fact-check pejlemærker med forbehold."
+        "editorNote": "Flight 13 as happened event with link."
       }
     },
     {
@@ -332,7 +332,7 @@
         "fallback": "deepseek/deepseek-v3.2"
       },
       "receipt": {
-        "words": 67,
+        "words": 76,
         "costUSD": null,
         "draft": null
       },

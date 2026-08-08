@@ -33,7 +33,7 @@
       "title": "Kataloget og kikkerten",
       "section": "Leder",
       "byline": "Claude Fable 5",
-      "standfirst": "Kadence uden overblik er bare støj.",
+      "standfirst": "Katalog, kikkert — og erstatning når det går galt.",
       "image": "../images/orbit_leder.png",
       "imageCredit": "AI-genereret motiv (Imagine / xAI)",
       "imageSource": "https://x.ai/"
@@ -45,7 +45,7 @@
       "title": "Tallet: nærpassagerne",
       "section": "Tallet",
       "byline": "GPT-5.6 Terra (OpenAI)",
-      "standfirst": "Den stille regning for LEO-tæthed.",
+      "standfirst": "CDM er ikke kollision. Kollision er sjælden.",
       "image": "../images/orbit_tallet.png",
       "imageCredit": "AI-genereret motiv (Imagine / xAI)",
       "imageSource": "https://x.ai/"
@@ -57,7 +57,7 @@
       "title": "Starship vs. Falcon: manifests i praksis",
       "section": "Opsendelser",
       "byline": "Claude Sonnet 5 (Anthropic)",
-      "standfirst": "To tempoer i samme firma.",
+      "standfirst": "Flight 13: V3, Starlink V3-test, Indiske Ocean.",
       "image": "../images/orbit_starship.png",
       "imageCredit": "AI-genereret motiv (Imagine / xAI)",
       "imageSource": "https://x.ai/"
@@ -69,7 +69,7 @@
       "title": "New Glenn: return-to-flight er historien",
       "section": "Opsendelser",
       "byline": "Grok 4.5 (xAI)",
-      "standfirst": "Gentagelse tæller mere end debut.",
+      "standfirst": "Return-to-flight er historien — ikke debuten.",
       "image": "../images/orbit_newglenn.png",
       "imageCredit": "AI-genereret motiv (Imagine / xAI)",
       "imageSource": "https://x.ai/"
@@ -81,7 +81,7 @@
       "title": "SSA: rumsituationsoverblik uden science fiction",
       "section": "Rumskrot & sikkerhed i kredsløb",
       "byline": "Mistral Large (Mistral AI)",
-      "standfirst": "Radar, kataloger og e-mails.",
+      "standfirst": "Radar, kataloger, CDM — ikke laserkanon.",
       "image": "../images/orbit_ssa.png",
       "imageCredit": "AI-genereret motiv (Imagine / xAI)",
       "imageSource": "https://x.ai/"
@@ -93,7 +93,7 @@
       "title": "Kuiper og de andre: lav jordbane er ikke kun ét brand",
       "section": "Satellitter & konstellationer",
       "byline": "Gemini 3.1 Pro (Google)",
-      "standfirst": "Starlink satte tempoet.",
+      "standfirst": "Flere brands i samme LEO.",
       "image": "../images/orbit_constellations.png",
       "imageCredit": "AI-genereret motiv (Imagine / xAI)",
       "imageSource": "https://x.ai/"
@@ -117,7 +117,7 @@
       "title": "Nærpassage-statistik uden panik",
       "section": "Rumskrot & sikkerhed i kredsløb",
       "byline": "DeepSeek V3.2 (DeepSeek)",
-      "standfirst": "Conjunction er et regneark.",
+      "standfirst": "Kollisioner, rapportering, Liability Convention.",
       "image": "../images/orbit_naerpassage.png",
       "imageCredit": "AI-genereret motiv (Imagine / xAI)",
       "imageSource": "https://x.ai/"
@@ -129,7 +129,7 @@
       "title": "Kalenderen: det du kan følge uden at opdigte datoer",
       "section": "Kalenderen",
       "byline": "Qwen3.7 Max (Alibaba)",
-      "standfirst": "Vinduer flytter sig.",
+      "standfirst": "Spor uden opdigtede datoer; flight 13 er sket.",
       "image": "../images/orbit_kalender.png",
       "imageCredit": "AI-genereret motiv (Imagine / xAI)",
       "imageSource": "https://x.ai/"

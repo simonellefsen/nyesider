@@ -30,10 +30,14 @@ Cover + 5 Imagine-features + SVG-diagram.
 
 ## Nr. 3 — kandidater
 
-- **(2026-08) Starship flight-by-flight når data lander**  
+- **(2026-08) Starship flight-by-flight / post-13** — genbrug, næste V3, om V3 går i Falcon-manifest  
+- **(2026-08) Starbase** — site, pads, FAA, Texas-politik (ikke kun livestream)  
+- **(2026-08) Launch pads & raketter verden rundt** — sammenlign klasse, alder, kadence, genbrug (Falcon, Long March, Ariane, Soyuz, Electron, New Glenn, …)  
+- **(2026-08) Starmind** — research lead (afklar hvad læser/redaktion mener; produkt/projekt/firma)  
 - **(2026-08) Kommerciel SSA-marked**  
 - **(2026-08) Kinesiske LEO-konstellationer — opsendte vs. plan**  
-- **(2026-08) Ariane 6 flight rate**
+- **(2026-08) Ariane 6 flight rate**  
+- **(2026-08) Liability i praksis** — forsikring, forlig, nationale love oven på 1972-konventionen  
 
 ## Format
 
@@ -46,6 +50,9 @@ Ingen opdigtede launch-datoer. Skeln planlagt/scrub/success/failure. Primære ki
 `python production/load_env.py orbit` før produktion.
 
 ## Log
+
+- **2026-08-08 (depth):** Nr. 2 — nærpassage/Tallet udvidet (kollisioner, CDM, Liability Convention); Starship flight 13 (V3, Starlink V3-test, Indiske Ocean); SSA/leder/kalender synket.
+
 
 - **2026-08-08 (format):** Ordbogen fjernet fra nr. 2 — LEO/SSA/HLS/FAA/FCC/Georeturn m.fl. i brødtekst/fodnote.
 
