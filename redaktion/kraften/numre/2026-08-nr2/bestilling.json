@@ -138,12 +138,12 @@
       "order": 5,
       "section": "Lande & udbygning",
       "brief": {
-        "angle": "Fit for 55 og IRA-efterspil.",
+        "angle": "EU vs USA electrification; explain Fit for 55 and IRA for non-specialist readers.",
         "words": [
           80,
           350
         ],
-        "mustCite": 0,
+        "mustCite": 2,
         "format": "feature"
       },
       "writer": {
@@ -159,8 +159,8 @@
       "verdict": {
         "status": "accepted-after-edit",
         "checkedAt": "2026-08-08",
-        "citations": 0,
-        "editorNote": "Editor-led batch 2026-08-08; fact-check pejlemærker med forbehold."
+        "citations": 2,
+        "editorNote": "Editor pushback: Fit for 55 and IRA expanded on first mention with footnotes."
       }
     },
     {
@@ -173,7 +173,7 @@
           80,
           350
         ],
-        "mustCite": 0,
+        "mustCite": 1,
         "format": "feature"
       },
       "writer": {
@@ -189,8 +189,8 @@
       "verdict": {
         "status": "accepted-after-edit",
         "checkedAt": "2026-08-08",
-        "citations": 0,
-        "editorNote": "Editor-led batch 2026-08-08; fact-check pejlemærker med forbehold."
+        "citations": 1,
+        "editorNote": "Explained PJM-agtige køer as US interconnection queues, not jargon drop."
       }
     },
     {
@@ -344,8 +344,38 @@
       }
     },
     {
-      "slug": "ordbogen",
+      "slug": "sverige-atom",
       "order": 12,
+      "section": "Atom",
+      "brief": {
+        "angle": "Sverige atom: skeln politik/ansøgning/investering/byggeri/drift — ikke pressemeddelelses-MW.",
+        "words": [
+          80,
+          350
+        ],
+        "mustCite": 0,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 154,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "rewritten-by-editor",
+        "checkedAt": "2026-08-08",
+        "citations": 0,
+        "editorNote": "Rewritten from draft-like notes into finished feature; moved before bagsnit (was after rygtebørs)."
+      }
+    },
+    {
+      "slug": "ordbogen",
+      "order": 13,
       "section": "Ordbogen",
       "brief": {
         "angle": "Electrification rate, RTG, BESS.",
@@ -375,7 +405,7 @@
     },
     {
       "slug": "rygteboersen",
-      "order": 13,
+      "order": 14,
       "section": "Rygtebørsen",
       "brief": {
         "angle": "Spekulativt.",
@@ -393,36 +423,6 @@
       },
       "receipt": {
         "words": 65,
-        "costUSD": null,
-        "draft": null
-      },
-      "verdict": {
-        "status": "accepted-after-edit",
-        "checkedAt": "2026-08-08",
-        "citations": 0,
-        "editorNote": "Editor-led batch 2026-08-08; fact-check pejlemærker med forbehold."
-      }
-    },
-    {
-      "slug": "sverige-atom",
-      "order": 14,
-      "section": "Atom",
-      "brief": {
-        "angle": "Mål er ikke megawatt.",
-        "words": [
-          80,
-          350
-        ],
-        "mustCite": 0,
-        "format": "feature"
-      },
-      "writer": {
-        "byline": "Claude Sonnet 5 (Anthropic)",
-        "model": "anthropic/claude-sonnet-5",
-        "fallback": "deepseek/deepseek-v3.2"
-      },
-      "receipt": {
-        "words": 154,
         "costUSD": null,
         "draft": null
       },

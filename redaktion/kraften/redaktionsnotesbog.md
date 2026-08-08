@@ -46,3 +46,6 @@ OpenRouter: **kun** `.env.kraften`. Imagine: `.env.local`.
 
 - **2026-08-08:** Nr. 2 publiceret — global elektrificering + rumkraft-pakke.
 - **2026-08-01:** Notesbog udvidet med `## Format`.
+
+- **2026-08-08 (edit):** KRAFTEN nr. 2 — forklaret *Fit for 55* og *IRA* i EU/USA-artiklen; udfoldet *PJM-agtige køer* i netflaskehalse; Sverige-atom omskrevet fra notes-kladde til færdig feature og flyttet **før** Ordbog/Rygtebørs (lå tidligere som sidste side efter bagsnit).
+
