@@ -14,14 +14,18 @@
 		"build": "npm run sync-assets && npm run check:content:errors && vite build",
 		"preview": "vite preview",
 		"prepare": "svelte-kit sync || echo ''",
+		"lint": "npm run check",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
+		"test": "npm run test:audio",
+		"test:audio": "node --test scripts/audio/*.test.mjs",
+		"preflight": "bash ../scripts/preflight.sh",
+		"ci": "npm run preflight",
 		"audio:samples": "node scripts/audio/generate.mjs samples",
 		"audio:article": "node scripts/audio/generate.mjs article",
 		"audio:issue": "node scripts/audio/generate.mjs issue",
 		"audio:prune": "node scripts/audio/generate.mjs prune",
-		"audio:purge": "node scripts/audio/generate.mjs purge",
-		"test:audio": "node --test scripts/audio/*.test.mjs"
+		"audio:purge": "node scripts/audio/generate.mjs purge"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-vercel": "^6.3.4",

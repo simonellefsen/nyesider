@@ -1,0 +1,16 @@
+{
+  "name": "nyesider",
+  "private": true,
+  "description": "Nye Sider monorepo helpers (hooks + preflight). Web app lives in web/.",
+  "scripts": {
+    "prepare": "bash scripts/install-git-hooks.sh",
+    "preflight": "bash scripts/preflight.sh",
+    "check:content:errors": "python3 production/check_issue.py --all --errors-only",
+    "lint": "npm --prefix web run check",
+    "test": "npm --prefix web run test:audio",
+    "build": "npm --prefix web run build"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

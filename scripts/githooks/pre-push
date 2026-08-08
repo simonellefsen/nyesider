@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+# Block git push unless local preflight passes (content errors, lint/typecheck,
+# tests, full web build). Bypass only when intentional:
+#   SKIP_PREFLIGHT=1 git push
+set -euo pipefail
+
+if [[ "${SKIP_PREFLIGHT:-}" == "1" ]]; then
+  echo "pre-push: SKIP_PREFLIGHT=1 — not running preflight."
+  exit 0
+fi
+
+ROOT="$(git rev-parse --show-toplevel)"
+exec bash "$ROOT/scripts/preflight.sh"

@@ -38,11 +38,33 @@ npm run build
 npm run preview
 ```
 
+## Preflight før push (undgå Vercel-røde builds)
+
+Vercel kører `npm --prefix web run build`, som blandt andet kører `production/check_issue.py --all --errors-only`. Fejl der skal fanges **lokalt**, før koden forlader maskinen.
+
+```bash
+# Fra repo-roden (anbefalet)
+npm install          # installerer git pre-push-hook (core.hooksPath → scripts/githooks)
+npm run preflight    # content-errors + svelte-check + tests + fuld web-build
+```
+
+| Kommando | Hvad den gør |
+|---|---|
+| `npm run preflight` | Samme porte som Vercel **plus** typecheck og unit tests |
+| `npm run lint` | `svelte-check` i `web/` |
+| `npm run test` | Node unit tests (`web` audio m.fl.) |
+| `npm run build` | Production build som Vercel |
+| `npm run check:content:errors` | Kun katalog-fejl (hurtig) |
+
+**Git pre-push:** efter `npm install` i roden kører `git push` automatisk `scripts/preflight.sh`. Bypass kun bevidst: `SKIP_PREFLIGHT=1 git push`.
+
+**GitHub Actions:** [`.github/workflows/preflight.yml`](.github/workflows/preflight.yml) kører den samme suite på `push`/`pull_request` til `main`.
+
 ## Deploy på Vercel
 
 1. Importér repoet i Vercel.
-2. Sæt **Root Directory** til `web/`.
-3. Build command: `npm run build` (default).
+2. Root Directory: repo-roden (se [`vercel.json`](vercel.json) — `installCommand` / `buildCommand` bruger `web/`).
+3. Build command kommer fra `vercel.json` (inkl. `npm --prefix web run build`).
 4. Ingen runtime-miljøvariabler — sitet er fuldt statisk.
 
 Produktion kan pege på `nyesider.vercel.app` (eller custom domain senere).
