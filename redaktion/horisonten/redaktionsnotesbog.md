@@ -22,7 +22,7 @@ Opdateret efter nr. 3 (august 2026) **Dolomitterne i efteråret** — genoplivet
 1. **(2026-08) Kreta, Sicilien, eller storby-weekend** (Lissabon / Ljubljana).  
 2. **(2026-08) Læsersendte ruter** (Mallorca + senere Georgien/Dolomit).  
 3. **(2026-08) Postkort-vignet** som fast bagsnit.  
-4. **(2026-08) Bevidst asynk med KULTURBOXEN** på Dolomit — ingen søsterkultur-nummer i samme vindue (ren rute/sæson).
+4. ~~Bevidst asynk~~ → **synket 2026-08-08:** [KULTURBOXEN nr. 2](../../content/kulturboxen/issues/2026-08-nr2/) (Sydtyrol / tre sprog).
 
 ## Format
 
@@ -50,6 +50,7 @@ Opdateret efter nr. 3 (august 2026) **Dolomitterne i efteråret** — genoplivet
 
 ## Log
 
-- **2026-08-08:** Nr. 3 publiceret — Dolomitterne genoplivet fra parked; byline DeepSeek rettet til roster-form; `bestilling.json` oprettet. Bevidst asynk med KULTURBOXEN (ingen italiensk kultur-søster i samme uge).
+- **2026-08-08:** Nr. 3 publiceret — Dolomitterne genoplivet fra parked; byline DeepSeek rettet; `bestilling.json` oprettet.
+- **2026-08-08 (senere):** Søster synket — KULTURBOXEN nr. 2 *Tre sprog, ét plateau* (Sydtyrol).
 - **2026-08-01:** Notesbog udvidet med `## Identitet` og `## Format`; leads datostemplet (se [redaktion/README](../README.md)).
 - **2026-08-01 rettelse:** `03-vandring-tramuntana.md` — GR221 var angivet til "90-100 km"; nuværende kilder angiver hovedruten til ca. 140 km (op til ~170 km med varianter). Rettet + kilde tilføjet. Puig de Massanellas højde (1.364 m, næsthøjeste) var korrekt — tilføjede kun kilde. `07-strande-skjulte-bugter.md` — tilføjede "cirka-tal, tjek på stedet"-forbehold til parkeringsprisen, samme mønster som `10-praktisk-planlaeg-turen.md`. **Ikke rettet i denne omgang:** priserne i `10-praktisk-planlaeg-turen.md` (hotel/middag/lejebil) har allerede et tilsvarende forbehold i teksten og er ikke ændret; HORISONTEN nr. 1 og nr. 2 har fortsat 0 % fodnote-dækning generelt, hvilket er en separat, større opgave end denne sessions afgrænsede rettelse af konkrete faktafejl.

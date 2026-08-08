@@ -1,0 +1,135 @@
+{
+  "magazine": "orbit",
+  "number": 2,
+  "title": "ORBIT nr. 2 · August 2026",
+  "issueTheme": "Kataloget og kikkerten",
+  "published": "2026-08-08",
+  "status": "published",
+  "pdf": null,
+  "cover": "images/orbit_cover.png",
+  "coverCredit": "AI-genereret forside (Imagine / xAI) — SSA/katalog/LEO-tema",
+  "coverSource": "https://x.ai/",
+  "images": [
+    "images/orbit_cover.png",
+    "images/orbit_starship.png",
+    "images/orbit_newglenn.png",
+    "images/orbit_ssa.png",
+    "images/orbit_constellations.png"
+  ],
+  "productionCostUSD": null,
+  "imageCredits": "Imagine / xAI. Se SOURCES.md.",
+  "backCoverPromise": "ORBIT nr. 3 tæller videre — manifests, manøvrer og det, der faktisk letter.",
+  "articles": [
+    {
+      "slug": "leder",
+      "file": "articles/01-leder.md",
+      "order": 1,
+      "title": "Kataloget og kikkerten",
+      "section": "Leder",
+      "byline": "Claude Fable 5",
+      "standfirst": "Kadence uden overblik er bare støj."
+    },
+    {
+      "slug": "tallet",
+      "file": "articles/02-tallet.md",
+      "order": 2,
+      "title": "Tallet: nærpassagerne",
+      "section": "Tallet",
+      "byline": "GPT-5.6 Terra (OpenAI)",
+      "standfirst": "Den stille regning for LEO-tæthed."
+    },
+    {
+      "slug": "starship-falcon",
+      "file": "articles/03-starship-falcon.md",
+      "order": 3,
+      "title": "Starship vs. Falcon: manifests i praksis",
+      "section": "Opsendelser",
+      "byline": "Claude Sonnet 5 (Anthropic)",
+      "standfirst": "To tempoer i samme firma.",
+      "image": "../images/orbit_starship.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/"
+    },
+    {
+      "slug": "new-glenn",
+      "file": "articles/04-new-glenn.md",
+      "order": 4,
+      "title": "New Glenn: return-to-flight er historien",
+      "section": "Opsendelser",
+      "byline": "Grok 4.5 (xAI)",
+      "standfirst": "Gentagelse tæller mere end debut.",
+      "image": "../images/orbit_newglenn.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/"
+    },
+    {
+      "slug": "ssa",
+      "file": "articles/05-ssa.md",
+      "order": 5,
+      "title": "SSA: rumsituationsoverblik uden science fiction",
+      "section": "Rumskrot & sikkerhed i kredsløb",
+      "byline": "Mistral Large (Mistral AI)",
+      "standfirst": "Radar, kataloger og e-mails.",
+      "image": "../images/orbit_ssa.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/"
+    },
+    {
+      "slug": "kuiper-konstellationer",
+      "file": "articles/06-kuiper-konstellationer.md",
+      "order": 6,
+      "title": "Kuiper og de andre: LEO er ikke kun ét brand",
+      "section": "Satellitter & konstellationer",
+      "byline": "Gemini 3.1 Pro (Google)",
+      "standfirst": "Starlink satte tempoet.",
+      "image": "../images/orbit_constellations.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/"
+    },
+    {
+      "slug": "esa-launcher",
+      "file": "articles/07-esa-launcher.md",
+      "order": 7,
+      "title": "ESA og Europa: launcher-politik efter Ariane-hullet",
+      "section": "Nationer & agenturer",
+      "byline": "Claude Sonnet 5 (Anthropic)",
+      "standfirst": "Suveræn adgang er cement under aftalen."
+    },
+    {
+      "slug": "naerpassage",
+      "file": "articles/08-naerpassage.md",
+      "order": 8,
+      "title": "Nærpassage-statistik uden panik",
+      "section": "Rumskrot & sikkerhed i kredsløb",
+      "byline": "DeepSeek V3.2 (DeepSeek)",
+      "standfirst": "Conjunction er et regneark."
+    },
+    {
+      "slug": "kalenderen",
+      "file": "articles/09-kalenderen.md",
+      "order": 9,
+      "title": "Kalenderen: det du kan følge uden at opdigte datoer",
+      "section": "Kalenderen",
+      "byline": "Qwen3.7 Max (Alibaba)",
+      "standfirst": "Vinduer flytter sig."
+    },
+    {
+      "slug": "ordbogen",
+      "file": "articles/10-ordbogen.md",
+      "order": 10,
+      "title": "Ordbogen",
+      "section": "Ordbogen",
+      "byline": "Gemini 3.5 Flash (Google)",
+      "standfirst": "SSA, conjunction, ephemeris."
+    },
+    {
+      "slug": "rygteboersen",
+      "file": "articles/11-rygteboersen.md",
+      "order": 11,
+      "title": "Rygtebørsen",
+      "section": "Rygtebørsen",
+      "byline": "Grok 4.3 (xAI)",
+      "standfirst": "Spekulativt. Ikke et manifest."
+    }
+  ]
+}

@@ -1,0 +1,347 @@
+{
+  "magazine": "orbit",
+  "issue": "2026-08-nr2",
+  "issueTheme": "Kataloget og kikkerten",
+  "retrofitNote": "Bestilling skrevet ved publicering (editor-led produktion). receipt.words talt fra publiceret tekst.",
+  "budget": {
+    "articles": 11,
+    "wordsPerArticle": [
+      50,
+      400
+    ],
+    "targetPages": 12,
+    "note": "SSA + konstellationer + manifests; 11 artikler."
+  },
+  "opgaver": [
+    {
+      "slug": "leder",
+      "order": 1,
+      "section": "Leder",
+      "brief": {
+        "angle": "Kadence uden overblik er bare støj.",
+        "words": [
+          80,
+          200
+        ],
+        "mustCite": 0,
+        "format": "leder"
+      },
+      "writer": {
+        "byline": "Claude Fable 5",
+        "model": "chefredaktør",
+        "fallback": null
+      },
+      "receipt": {
+        "words": 138,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-08-08",
+        "citations": 0,
+        "editorNote": "Editor-led batch 2026-08-08; fact-check pejlemærker med forbehold."
+      }
+    },
+    {
+      "slug": "tallet",
+      "order": 2,
+      "section": "Tallet",
+      "brief": {
+        "angle": "Den stille regning for LEO-tæthed.",
+        "words": [
+          150,
+          400
+        ],
+        "mustCite": 2,
+        "format": "tallet"
+      },
+      "writer": {
+        "byline": "GPT-5.6 Terra (OpenAI)",
+        "model": "openai/gpt-5.6-terra",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 128,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-08",
+        "citations": 2,
+        "editorNote": "Editor-led batch 2026-08-08; fact-check pejlemærker med forbehold."
+      }
+    },
+    {
+      "slug": "starship-falcon",
+      "order": 3,
+      "section": "Opsendelser",
+      "brief": {
+        "angle": "To tempoer i samme firma.",
+        "words": [
+          80,
+          350
+        ],
+        "mustCite": 0,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 140,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-08",
+        "citations": 0,
+        "editorNote": "Editor-led batch 2026-08-08; fact-check pejlemærker med forbehold."
+      }
+    },
+    {
+      "slug": "new-glenn",
+      "order": 4,
+      "section": "Opsendelser",
+      "brief": {
+        "angle": "Gentagelse tæller mere end debut.",
+        "words": [
+          80,
+          350
+        ],
+        "mustCite": 0,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "Grok 4.5 (xAI)",
+        "model": "x-ai/grok-4.5",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 136,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-08",
+        "citations": 0,
+        "editorNote": "Editor-led batch 2026-08-08; fact-check pejlemærker med forbehold."
+      }
+    },
+    {
+      "slug": "ssa",
+      "order": 5,
+      "section": "Rumskrot & sikkerhed i kredsløb",
+      "brief": {
+        "angle": "Radar, kataloger og e-mails.",
+        "words": [
+          80,
+          350
+        ],
+        "mustCite": 1,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "Mistral Large (Mistral AI)",
+        "model": "mistralai/mistral-large",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 160,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-08",
+        "citations": 1,
+        "editorNote": "Editor-led batch 2026-08-08; fact-check pejlemærker med forbehold."
+      }
+    },
+    {
+      "slug": "kuiper-konstellationer",
+      "order": 6,
+      "section": "Satellitter & konstellationer",
+      "brief": {
+        "angle": "Starlink satte tempoet.",
+        "words": [
+          80,
+          350
+        ],
+        "mustCite": 0,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "Gemini 3.1 Pro (Google)",
+        "model": "google/gemini-3.1-pro",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 148,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-08",
+        "citations": 0,
+        "editorNote": "Editor-led batch 2026-08-08; fact-check pejlemærker med forbehold."
+      }
+    },
+    {
+      "slug": "esa-launcher",
+      "order": 7,
+      "section": "Nationer & agenturer",
+      "brief": {
+        "angle": "Suveræn adgang er cement under aftalen.",
+        "words": [
+          80,
+          350
+        ],
+        "mustCite": 0,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 131,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-08",
+        "citations": 0,
+        "editorNote": "Editor-led batch 2026-08-08; fact-check pejlemærker med forbehold."
+      }
+    },
+    {
+      "slug": "naerpassage",
+      "order": 8,
+      "section": "Rumskrot & sikkerhed i kredsløb",
+      "brief": {
+        "angle": "Conjunction er et regneark.",
+        "words": [
+          80,
+          350
+        ],
+        "mustCite": 0,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "DeepSeek V3.2 (DeepSeek)",
+        "model": "deepseek/deepseek-v3.2",
+        "fallback": "google/gemini-3.5-flash"
+      },
+      "receipt": {
+        "words": 115,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-08",
+        "citations": 0,
+        "editorNote": "Editor-led batch 2026-08-08; fact-check pejlemærker med forbehold."
+      }
+    },
+    {
+      "slug": "kalenderen",
+      "order": 9,
+      "section": "Kalenderen",
+      "brief": {
+        "angle": "Vinduer flytter sig.",
+        "words": [
+          80,
+          200
+        ],
+        "mustCite": 0,
+        "format": "kalenderen"
+      },
+      "writer": {
+        "byline": "Qwen3.7 Max (Alibaba)",
+        "model": "qwen/qwen3.7-max",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 100,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-08",
+        "citations": 0,
+        "editorNote": "Editor-led batch 2026-08-08; fact-check pejlemærker med forbehold."
+      }
+    },
+    {
+      "slug": "ordbogen",
+      "order": 10,
+      "section": "Ordbogen",
+      "brief": {
+        "angle": "SSA, conjunction, ephemeris.",
+        "words": [
+          50,
+          150
+        ],
+        "mustCite": 0,
+        "format": "ordbog"
+      },
+      "writer": {
+        "byline": "Gemini 3.5 Flash (Google)",
+        "model": "google/gemini-3.5-flash",
+        "fallback": "minimax/minimax-m3"
+      },
+      "receipt": {
+        "words": 73,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-08",
+        "citations": 0,
+        "editorNote": "Editor-led batch 2026-08-08; fact-check pejlemærker med forbehold."
+      }
+    },
+    {
+      "slug": "rygteboersen",
+      "order": 11,
+      "section": "Rygtebørsen",
+      "brief": {
+        "angle": "Spekulativt. Ikke et manifest.",
+        "words": [
+          50,
+          150
+        ],
+        "mustCite": 0,
+        "format": "rygteboersen"
+      },
+      "writer": {
+        "byline": "Grok 4.3 (xAI)",
+        "model": "x-ai/grok-4.3",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 67,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-08",
+        "citations": 0,
+        "editorNote": "Editor-led batch 2026-08-08; fact-check pejlemærker med forbehold."
+      }
+    }
+  ]
+}

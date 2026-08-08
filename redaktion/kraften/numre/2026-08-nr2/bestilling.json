@@ -1,0 +1,437 @@
+{
+  "magazine": "kraften",
+  "issue": "2026-08-nr2",
+  "issueTheme": "Strøm overalt",
+  "retrofitNote": "Bestilling skrevet ved publicering (editor-led produktion). receipt.words talt fra publiceret tekst.",
+  "budget": {
+    "articles": 14,
+    "wordsPerArticle": [
+      50,
+      400
+    ],
+    "targetPages": 12,
+    "note": "Global elektrificering + rumkraft; 14 artikler fra notesplan."
+  },
+  "opgaver": [
+    {
+      "slug": "leder",
+      "order": 1,
+      "section": "Leder",
+      "brief": {
+        "angle": "Elektrificering jorden rundt — og watt i rummet.",
+        "words": [
+          80,
+          200
+        ],
+        "mustCite": 0,
+        "format": "leder"
+      },
+      "writer": {
+        "byline": "Claude Fable 5",
+        "model": "chefredaktør",
+        "fallback": null
+      },
+      "receipt": {
+        "words": 102,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-08-08",
+        "citations": 0,
+        "editorNote": "Editor-led batch 2026-08-08; fact-check pejlemærker med forbehold."
+      }
+    },
+    {
+      "slug": "tallet",
+      "order": 2,
+      "section": "Tallet",
+      "brief": {
+        "angle": "Elens andel af endelig energi.",
+        "words": [
+          150,
+          400
+        ],
+        "mustCite": 3,
+        "format": "tallet"
+      },
+      "writer": {
+        "byline": "GPT-5.6 Terra (OpenAI)",
+        "model": "openai/gpt-5.6-terra",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 164,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-08",
+        "citations": 3,
+        "editorNote": "Editor-led batch 2026-08-08; fact-check pejlemærker med forbehold."
+      }
+    },
+    {
+      "slug": "kina",
+      "order": 3,
+      "section": "Lande & udbygning",
+      "brief": {
+        "angle": "EV, industri og GW-tempo.",
+        "words": [
+          80,
+          350
+        ],
+        "mustCite": 0,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 139,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-08",
+        "citations": 0,
+        "editorNote": "Editor-led batch 2026-08-08; fact-check pejlemærker med forbehold."
+      }
+    },
+    {
+      "slug": "indien-syd",
+      "order": 4,
+      "section": "Lande & udbygning",
+      "brief": {
+        "angle": "Første stik og aften-top.",
+        "words": [
+          80,
+          350
+        ],
+        "mustCite": 0,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "Gemini 3.1 Pro (Google)",
+        "model": "google/gemini-3.1-pro",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 115,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-08",
+        "citations": 0,
+        "editorNote": "Editor-led batch 2026-08-08; fact-check pejlemærker med forbehold."
+      }
+    },
+    {
+      "slug": "eu-usa",
+      "order": 5,
+      "section": "Lande & udbygning",
+      "brief": {
+        "angle": "Fit for 55 og IRA-efterspil.",
+        "words": [
+          80,
+          350
+        ],
+        "mustCite": 0,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "Mistral Large (Mistral AI)",
+        "model": "mistralai/mistral-large",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 119,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-08",
+        "citations": 0,
+        "editorNote": "Editor-led batch 2026-08-08; fact-check pejlemærker med forbehold."
+      }
+    },
+    {
+      "slug": "netflaskehalse",
+      "order": 6,
+      "section": "Systemet bag stikket",
+      "brief": {
+        "angle": "Kabler tager år.",
+        "words": [
+          80,
+          350
+        ],
+        "mustCite": 0,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "Grok 4.5 (xAI)",
+        "model": "x-ai/grok-4.5",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 144,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-08",
+        "citations": 0,
+        "editorNote": "Editor-led batch 2026-08-08; fact-check pejlemærker med forbehold."
+      }
+    },
+    {
+      "slug": "lagring",
+      "order": 7,
+      "section": "Systemet bag stikket",
+      "brief": {
+        "angle": "Timer vs. sæson.",
+        "words": [
+          80,
+          350
+        ],
+        "mustCite": 0,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 137,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-08",
+        "citations": 0,
+        "editorNote": "Editor-led batch 2026-08-08; fact-check pejlemærker med forbehold."
+      }
+    },
+    {
+      "slug": "rum-solpanel",
+      "order": 8,
+      "section": "Rumkraft",
+      "brief": {
+        "angle": "Watt i kredsløb.",
+        "words": [
+          80,
+          350
+        ],
+        "mustCite": 0,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "GLM-5.2 (Z.ai)",
+        "model": "z-ai/glm-5.2",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 147,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-08",
+        "citations": 0,
+        "editorNote": "Editor-led batch 2026-08-08; fact-check pejlemærker med forbehold."
+      }
+    },
+    {
+      "slug": "rum-kernekraft",
+      "order": 9,
+      "section": "Rumkraft",
+      "brief": {
+        "angle": "RTG og fission surface power.",
+        "words": [
+          80,
+          350
+        ],
+        "mustCite": 0,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "DeepSeek V3.2 (DeepSeek)",
+        "model": "deepseek/deepseek-v3.2",
+        "fallback": "google/gemini-3.5-flash"
+      },
+      "receipt": {
+        "words": 126,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-08",
+        "citations": 0,
+        "editorNote": "Editor-led batch 2026-08-08; fact-check pejlemærker med forbehold."
+      }
+    },
+    {
+      "slug": "orbital-solkraft",
+      "order": 10,
+      "section": "Rumkraft",
+      "brief": {
+        "angle": "Demonstratorer tæller.",
+        "words": [
+          80,
+          350
+        ],
+        "mustCite": 0,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "Qwen3.7 Max (Alibaba)",
+        "model": "qwen/qwen3.7-max",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 137,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-08",
+        "citations": 0,
+        "editorNote": "Editor-led batch 2026-08-08; fact-check pejlemærker med forbehold."
+      }
+    },
+    {
+      "slug": "lande-snapshot",
+      "order": 11,
+      "section": "Lande & udbygning",
+      "brief": {
+        "angle": "Samme indikatorer, forskellige virkeligheder.",
+        "words": [
+          80,
+          350
+        ],
+        "mustCite": 0,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "Gemini 3.5 Flash (Google)",
+        "model": "google/gemini-3.5-flash",
+        "fallback": "minimax/minimax-m3"
+      },
+      "receipt": {
+        "words": 148,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-08",
+        "citations": 0,
+        "editorNote": "Editor-led batch 2026-08-08; fact-check pejlemærker med forbehold."
+      }
+    },
+    {
+      "slug": "ordbogen",
+      "order": 12,
+      "section": "Ordbogen",
+      "brief": {
+        "angle": "Electrification rate, RTG, BESS.",
+        "words": [
+          50,
+          150
+        ],
+        "mustCite": 0,
+        "format": "ordbog"
+      },
+      "writer": {
+        "byline": "GLM-5.2 (Z.ai)",
+        "model": "z-ai/glm-5.2",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 66,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-08",
+        "citations": 0,
+        "editorNote": "Editor-led batch 2026-08-08; fact-check pejlemærker med forbehold."
+      }
+    },
+    {
+      "slug": "rygteboersen",
+      "order": 13,
+      "section": "Rygtebørsen",
+      "brief": {
+        "angle": "Spekulativt.",
+        "words": [
+          50,
+          150
+        ],
+        "mustCite": 0,
+        "format": "rygteboersen"
+      },
+      "writer": {
+        "byline": "Grok 4.3 (xAI)",
+        "model": "x-ai/grok-4.3",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 65,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-08",
+        "citations": 0,
+        "editorNote": "Editor-led batch 2026-08-08; fact-check pejlemærker med forbehold."
+      }
+    },
+    {
+      "slug": "sverige-atom",
+      "order": 14,
+      "section": "Atom",
+      "brief": {
+        "angle": "Mål er ikke megawatt.",
+        "words": [
+          80,
+          350
+        ],
+        "mustCite": 0,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 154,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-08",
+        "citations": 0,
+        "editorNote": "Editor-led batch 2026-08-08; fact-check pejlemærker med forbehold."
+      }
+    }
+  ]
+}

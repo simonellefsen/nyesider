@@ -1,0 +1,162 @@
+{
+  "magazine": "kraften",
+  "number": 2,
+  "title": "KRAFTEN nr. 2 · August 2026",
+  "issueTheme": "Strøm overalt",
+  "published": "2026-08-08",
+  "status": "published",
+  "pdf": null,
+  "cover": "images/kraften_cover.png",
+  "coverCredit": "AI-genereret forside (Imagine / xAI) — global elektrificering",
+  "coverSource": "https://x.ai/",
+  "images": [
+    "images/kraften_cover.png",
+    "images/kraften_kina.png",
+    "images/kraften_net.png",
+    "images/kraften_bess.png",
+    "images/kraften_rumsol.png"
+  ],
+  "productionCostUSD": null,
+  "imageCredits": "Imagine / xAI. Se SOURCES.md.",
+  "backCoverPromise": "KRAFTEN nr. 3 følger kablerne videre — flere lande, flere watt, samme nøgternhed.",
+  "articles": [
+    {
+      "slug": "leder",
+      "file": "articles/01-leder.md",
+      "order": 1,
+      "title": "Strøm overalt",
+      "section": "Leder",
+      "byline": "Claude Fable 5",
+      "standfirst": "Elektrificering jorden rundt — og watt i rummet."
+    },
+    {
+      "slug": "tallet",
+      "file": "articles/02-tallet.md",
+      "order": 2,
+      "title": "Tallet: el-andelen af verden",
+      "section": "Tallet",
+      "byline": "GPT-5.6 Terra (OpenAI)",
+      "standfirst": "Elens andel af endelig energi."
+    },
+    {
+      "slug": "kina",
+      "file": "articles/03-kina.md",
+      "order": 3,
+      "title": "Kina: verdens største elektrificeringsmaskine",
+      "section": "Lande & udbygning",
+      "byline": "Claude Sonnet 5 (Anthropic)",
+      "standfirst": "EV, industri og GW-tempo.",
+      "image": "../images/kraften_kina.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/"
+    },
+    {
+      "slug": "indien-syd",
+      "file": "articles/04-indien-syd.md",
+      "order": 4,
+      "title": "Indien og det globale syd: peak, adgang og spring",
+      "section": "Lande & udbygning",
+      "byline": "Gemini 3.1 Pro (Google)",
+      "standfirst": "Første stik og aften-top."
+    },
+    {
+      "slug": "eu-usa",
+      "file": "articles/05-eu-usa.md",
+      "order": 5,
+      "title": "EU og USA: to elektrificeringer, to net",
+      "section": "Lande & udbygning",
+      "byline": "Mistral Large (Mistral AI)",
+      "standfirst": "Fit for 55 og IRA-efterspil.",
+      "image": "../images/kraften_net.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/"
+    },
+    {
+      "slug": "netflaskehalse",
+      "file": "articles/06-netflaskehalse.md",
+      "order": 6,
+      "title": "Netflaskehalse: hvor elektrificering møder stål",
+      "section": "Systemet bag stikket",
+      "byline": "Grok 4.5 (xAI)",
+      "standfirst": "Kabler tager år."
+    },
+    {
+      "slug": "lagring",
+      "file": "articles/07-lagring.md",
+      "order": 7,
+      "title": "Lagring til et elektrisk samfund",
+      "section": "Systemet bag stikket",
+      "byline": "Claude Sonnet 5 (Anthropic)",
+      "standfirst": "Timer vs. sæson.",
+      "image": "../images/kraften_bess.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/"
+    },
+    {
+      "slug": "rum-solpanel",
+      "file": "articles/08-rum-solpanel.md",
+      "order": 8,
+      "title": "Rum: satellittens solpanel",
+      "section": "Rumkraft",
+      "byline": "GLM-5.2 (Z.ai)",
+      "standfirst": "Watt i kredsløb.",
+      "image": "../images/kraften_rumsol.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/"
+    },
+    {
+      "slug": "rum-kernekraft",
+      "file": "articles/09-rum-kernekraft.md",
+      "order": 9,
+      "title": "Rum: kernekraft til dybe missioner",
+      "section": "Rumkraft",
+      "byline": "DeepSeek V3.2 (DeepSeek)",
+      "standfirst": "RTG og fission surface power."
+    },
+    {
+      "slug": "orbital-solkraft",
+      "file": "articles/10-orbital-solkraft.md",
+      "order": 10,
+      "title": "Orbital solkraft: hype vs. demonstration",
+      "section": "Rumkraft",
+      "byline": "Qwen3.7 Max (Alibaba)",
+      "standfirst": "Demonstratorer tæller."
+    },
+    {
+      "slug": "lande-snapshot",
+      "file": "articles/11-lande-snapshot.md",
+      "order": 11,
+      "title": "Lande-snapshot: seks pejlinger",
+      "section": "Lande & udbygning",
+      "byline": "Gemini 3.5 Flash (Google)",
+      "standfirst": "Samme indikatorer, forskellige virkeligheder."
+    },
+    {
+      "slug": "ordbogen",
+      "file": "articles/12-ordbogen.md",
+      "order": 12,
+      "title": "Ordbogen",
+      "section": "Ordbogen",
+      "byline": "GLM-5.2 (Z.ai)",
+      "standfirst": "Electrification rate, RTG, BESS."
+    },
+    {
+      "slug": "rygteboersen",
+      "file": "articles/13-rygteboersen.md",
+      "order": 13,
+      "title": "Rygtebørsen",
+      "section": "Rygtebørsen",
+      "byline": "Grok 4.3 (xAI)",
+      "standfirst": "Spekulativt."
+    },
+    {
+      "slug": "sverige-atom",
+      "file": "articles/14-sverige-atom.md",
+      "order": 14,
+      "title": "Sverige: atomudbygningens lange vej",
+      "section": "Atom",
+      "byline": "Claude Sonnet 5 (Anthropic)",
+      "standfirst": "Mål er ikke megawatt."
+    }
+  ]
+}

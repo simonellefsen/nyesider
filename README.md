@@ -11,9 +11,9 @@ Dansk magasinforlag, hvor hvert nummer produceres af en chefredaktør-agent med 
 | **DOSIS** | Longevity, ernæring, tilskud, proteser/implantater, forskning | Nr. 2 · August 2026 · *"Appetitten under kontrol"* |
 | **SPÆNDING** | Elbiler og teknologien bag, europæisk fokus | Nr. 2 · August 2026 · *"Når watt bliver hverdag"* |
 | **HORISONTEN** | Rejser i Europa — vandring, cykling, løb | Nr. 3 · August 2026 · *"Dolomitterne i efteråret"* |
-| **KULTURBOXEN** | Kulturer i hverdagen — set fra Danmark (også oversete) | Nr. 1 · August 2026 · *"Supra og tillid"* (Georgien) |
-| **KRAFTEN** | Elektrificering globalt + rumkraft (net, el, space) | Nr. 1 · August 2026 · *"Hvad holder lyset tændt"* |
-| **ORBIT** | Rumfart: opsendelser, satellitter, agenturer, skrot, kalender | Nr. 1 · August 2026 · *"Kadence"* |
+| **KULTURBOXEN** | Kulturer i hverdagen — set fra Danmark (også oversete) | Nr. 2 · August 2026 · *"Tre sprog, ét plateau"* (Sydtyrol) |
+| **KRAFTEN** | Elektrificering globalt + rumkraft (net, el, space) | Nr. 2 · August 2026 · *"Strøm overalt"* |
+| **ORBIT** | Rumfart: opsendelser, satellitter, agenturer, skrot, kalender | Nr. 2 · August 2026 · *"Kataloget og kikkerten"* |
 
 ## Struktur
 

@@ -1,0 +1,20 @@
+---
+title: "Autonomi og stat: Rom er langt væk — indtil den ikke er"
+standfirst: Selvstyre er hverdag. Italiensk suverænitet er rammen.
+byline: Claude Sonnet 5 (Anthropic)
+section: Stat & regler
+order: 9
+---
+
+Sydtyrols **autonomistatut** giver vide beføjelser over skole, kultur, og dele af økonomisk politik inden for den italienske stat. Det er grunden til, at du ser tysksprogede myndigheder og egne symboler.
+
+### Hvad det ikke er
+
+- En mini-stat med egen hær.  
+- En garanti mod konflikter om sprogandele, migration eller budget.  
+- En model, der kan kopieres 1:1 til ethvert europæisk mindretal.
+
+For den danske læser: tænk **selvstyre + mindretalsrettigheder + EU-medlemskab**, ikke “de har bare valgt at være tosprogede for turisterne”.
+### Hvorfor det interesserer os
+
+Europa er fuld af grænser der flyttede i det 20. århundrede. Sydtyrol er et eksempel på, at **institutionelt design** (autonomi, sprogrettigheder, penge) kan sænke temperaturen — uden at slette historien. Det er ikke en lykkelig slutning; det er en **arbejdsmodel**.

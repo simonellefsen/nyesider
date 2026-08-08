@@ -1,6 +1,6 @@
 # ORBIT – Redaktionsnotesbog
 
-Opdateret efter nr. 1 (august 2026, *"Kadence"*).  
+Opdateret efter nr. 2 (august 2026, *"Kataloget og kikkerten"*).  
 OpenRouter: **kun** `.env.orbit`. Imagine: `.env.local` / `XAI_API_KEY`.
 
 ## Identitet
@@ -10,40 +10,42 @@ vs **KRAFTEN:** de tager rum-*kraft* (watt); vi tager mission/ops/katalog. Overl
 
 ## Forside (skifter hvert nummer)
 
-1. Sæt `issueTheme` (nr. 1: **Kadence**).  
+1. Sæt `issueTheme` (nr. 2: **Kataloget og kikkerten**).  
 2. Generér ny `images/orbit_cover.png` (3:4, Imagine) der fanger temaet.  
 3. `issue.json`: `cover`, `coverCredit`, `coverSource`.  
 4. Brand: navy `#0B1020`, blå `#5B8DEF`, guld `#E8B86D`. Ingen masthead-tekst i billedet.
+
+## Nr. 2 — udgivet
+
+**Tema:** Kataloget og kikkerten  
+11 artikler: leder, tallet (nærpassager), Starship vs Falcon, New Glenn RTF, SSA, Kuiper/konstellationer, ESA launcher, nærpassage uden panik, kalender, ordbog, rygtebørs.  
+Cover + 4 feature-billeder (Imagine).  
+`bestilling.json`: `redaktion/orbit/numre/2026-08-nr2/bestilling.json`.  
+Kryds: [KRAFTEN nr. 2](../../content/kraften/issues/2026-08-nr2/) (watt i rummet).
 
 ## Nr. 1 — udgivet
 
 13 artikler: leder, tallet (324), SpaceX, Blue Origin, NASA/ESA, Indien/Rusland, Kina, satellitter, skrot, LEO/MEO/GEO-diagram, kalender, ordbog, rygtebørs.  
 Cover + 5 Imagine-features + SVG-diagram.
 
-## Nr. 2 — kandidater
+## Nr. 3 — kandidater
 
-- **(2026-08) Starship vs. Falcon manifests i praksis**  
-- **(2026-08) New Glenn return-to-flight opfølgning**  
-- **(2026-08) Kuiper / kinesiske konstellationer**  
-- **(2026-08) Rumsituationsoverblik (SSA) og nærpassage-statistik**
-- **(2026-08) ESA launcher-politik**
+- **(2026-08) Starship flight-by-flight når data lander**  
+- **(2026-08) Kommerciel SSA-marked**  
+- **(2026-08) Kinesiske LEO-konstellationer — opsendte vs. plan**  
+- **(2026-08) Ariane 6 flight rate**
 
 ## Format
 
-- **Artikeltal:** typisk 12–14. Faste: Leder · Tallet · agentur-features (SpaceX/Blue Origin/NASA-ESA/Indien-Rusland/Kina) · satellitter · skrot · LEO/MEO/GEO-diagram · kalender · ordbog · rygtebørs.
-- **Standard `mustCite`:** 2+ for Tallet og agentur-features med launch-tal/masse/dato; 0 for rygtebørs.
+- **Artikeltal:** typisk 11–14. Faste: Leder · Tallet · opsendelser · agenturer · konstellationer · SSA/skrot · kalender · ordbog · rygtebørs.
+- **Standard `mustCite`:** 2+ for Tallet og agentur-features med launch-tal; 0 for rygtebørs.
 
 ## Research-regler
 
 Ingen opdigtede launch-datoer. Skeln planlagt/scrub/success/failure. Primære kilder.  
 `python production/load_env.py orbit` før produktion.
 
-## Tendensdiagrammer
-
-Kanonisk data i `content/orbit/issues/<issue>/charts/*.json` — se [content/CHARTS.md](../../content/CHARTS.md).  
-Nr. 1: `global-launches`, `active-sats`.
-
 ## Log
 
-- **2026-08-01:** Notesbog udvidet med `## Format`; leads datostemplet (se [redaktion/README](../README.md)).
-- **2026-08-01 rettelse:** `10-saadan-virker-baner.md` (chefredaktør-skrevet) angav LEO 160-2.000 km og GEO 35.786 km korrekt, men uden kilde — tilføjede ESA/NASA-kilder. Ingen faktafejl fundet, kun manglende kildehenvisning.
+- **2026-08-08:** Nr. 2 publiceret — SSA, konstellationer, Starship/Falcon, New Glenn, ESA launcher.
+- **2026-08-01:** Notesbog udvidet med `## Format`; leads datostemplet.
