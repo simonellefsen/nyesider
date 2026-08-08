@@ -1,46 +1,36 @@
 # PULSEN – Redaktionsnotesbog
 
-Redaktionel backlog — opdateret efter nr. 2 (august 2026, "Når tasterne bliver stille"). Modelerfaringer: [modelkartotek](../modelkartotek.md).
+Opdateret efter nr. 3 (august 2026, "Når driften taler"). Modelerfaringer: [modelkartotek](../modelkartotek.md).
 
 ## Identitet
 
-**PULSEN** dækker sundhedssektoren som system: klinik, teknologi, journalen, regulering, AI i drift. Menneskene i systemet, ikke kroppen selv. Se [nabotitel-note](#nabotitel-dosis) nedenfor for grænsen mod DOSIS.
+**PULSEN** dækker sundhedssektoren som system: klinik, teknologi, journalen, regulering, AI i drift. **vs DOSIS:** de = krop/ernæring; vi = system/klinik.
 
 ## Format
 
-- **Faste formater:** vandrehistorier, rygtebørs, quiz.
-- **Standard `mustCite`:** 2–3 for features med kliniske/regulatoriske påstande (MDR, EHDS, kliniske resultater); 0 for vandrehistorier og rygtebørs.
-- Behold kilde-fodnoter på features — den ene regel, der allerede er skrevet ned, og som stadig er rigtig.
+- **Faste formater:** vandrehistorier, rygtebørs, quiz (deler bagsnit-billede).
+- **Standard `mustCite`:** 0–2; jargon (MDR, EHDS, EPJ, IPO, ambient) udfoldes pr. artikel.
+- Features **før** bagsnit.
 
-## Afviklet i nr. 2
+## Nr. 3 — udgivet
 
-- Ambient scribes fra pilot til drift (EU/DK).
-- MDR-muren for startups.
-- EHDS / sundhedsdata.
-- Nordisk modularitet.
-- Ergoterapi: 2035-bomben.
-- Faste formater: vandrehistorier, rygtebørs, quiz.
+**Tema:** Når driften taler  
+9 artikler: leder, ambient i drift, region-fusion/AI, Corti/børs, farmakogenomik, ergoterapi efter OK, vandrehistorier, rygtebørs, quiz.  
+`bestilling.json`: `redaktion/pulsen/numre/2026-08-nr3/bestilling.json`.  
+Kryds: [DOSIS nr. 2](../../content/dosis/issues/2026-08-nr2/).
 
-## Opfølgninger til nr. 3+
+## Nr. 2 — udgivet
 
-- **(2026-08) Corti mod børsen** — stadig "ikke 2026"; følg signaler ind i 2027.
-- **(2026-08) Storskalaprojekterne i regionerne** — status når drift har kørt et halvt år: hvad siger klinikerne?
-- **(2026-08) Region Østdanmark-fusionen** — AI-projekter under omorganisering.
-- **(2026-08) Aiforia/Dedalus i praksis** — kliniske resultater fra AI-patologi.
-- **(2026-08) Bupa Prevention Pathways: første tal** — 200.000-mål ind i 2027.
-- **(2026-08) Farmakogenomik** — spytprøve/medicin-match i det offentlige?
-- **(2026-08) OK26 efter implementering** — ergoterapeut-løn/læserpanel.
-- **(2026-08) Valdebebas-reportage** — Bupas digitale hospital (rejseformat).
+Ambient pilot→drift, MDR, EHDS, nordisk stak, ergoterapi 2035, bagsnit.
 
-## Praktisk
+## Nr. 4 — kandidater
 
-- Nr. 2 mangler PDF og cover-billeder.
+- **(2026-08) Offentlige ambient-evalueringer med tal**  
+- **(2026-08) Corti — filing/signaler ind i 2027**  
+- **(2026-08) Aiforia/Dedalus kliniske resultater**  
+- **(2026-08) Bupa Prevention Pathways tal**
 
 ## Log
 
-- **2026-08-01:** Notesbog udvidet med `## Identitet` og `## Format` (fælles skabelon, se [redaktion/README](../README.md)); leads datostemplet.
-
-## Nabotitel: DOSIS
-
-[DOSIS](../dosis/redaktionsnotesbog.md) dækker **longevity, ernæring/kost, tilskud, proteser/implantater og research** for den nysgerrige krop — ikke sygehusdrift.  
-PULSEN = sektor, klinik, AI i journalen, ergoterapi. Krydslink når et emne skifter fra “patient i systemet” til “dosis i hverdagen” (eller omvendt).
+- **2026-08-08:** Nr. 3 publiceret — drift, fusion, Corti-disciplin, farmakogenomik, ergo.
+- **2026-08-01:** Format + leads.

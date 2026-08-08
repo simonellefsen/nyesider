@@ -1,0 +1,317 @@
+{
+  "magazine": "spaending",
+  "issue": "2026-08-nr3",
+  "issueTheme": "Køen, kulden og den næste watt",
+  "retrofitNote": "Written at publish time 2026-08-08.",
+  "budget": {
+    "articles": 10,
+    "wordsPerArticle": [
+      60,
+      400
+    ],
+    "targetPages": 12,
+    "note": "10 arts: 600kW race, robotaxi, Xiaomi, solid-state, km-afgift, vinter, bagsnit."
+  },
+  "opgaver": [
+    {
+      "slug": "leder",
+      "order": 1,
+      "section": "Leder",
+      "brief": {
+        "angle": "Efter watt-hverdagen: kø, kulde og politik.",
+        "words": [
+          100,
+          250
+        ],
+        "mustCite": 0,
+        "format": "leder"
+      },
+      "writer": {
+        "byline": "Claude Fable 5",
+        "model": "chefredaktør",
+        "fallback": null
+      },
+      "receipt": {
+        "words": 118,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-08-08",
+        "citations": 0,
+        "editorNote": "Editor-led batch; finished prose; jargon first-mention; features before bagsnit."
+      }
+    },
+    {
+      "slug": "600kw-danmark",
+      "order": 2,
+      "section": "Teknologi",
+      "brief": {
+        "angle": "Status uden opdigtet adresse.",
+        "words": [
+          150,
+          400
+        ],
+        "mustCite": 0,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "Grok 4.5 (xAI)",
+        "model": "x-ai/grok-4.5",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 200,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-08",
+        "citations": 0,
+        "editorNote": "Editor-led batch; finished prose; jargon first-mention; features before bagsnit."
+      }
+    },
+    {
+      "slug": "robotaxi",
+      "order": 3,
+      "section": "Teknologi",
+      "brief": {
+        "angle": "Regulering og tillid, ikke kun software.",
+        "words": [
+          150,
+          400
+        ],
+        "mustCite": 0,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 178,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-08",
+        "citations": 0,
+        "editorNote": "Editor-led batch; finished prose; jargon first-mention; features before bagsnit."
+      }
+    },
+    {
+      "slug": "xiaomi-status",
+      "order": 4,
+      "section": "Teknologi",
+      "brief": {
+        "angle": "Typegodkendelse før anmeldelse.",
+        "words": [
+          150,
+          400
+        ],
+        "mustCite": 0,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "Gemini 3.1 Pro (Google)",
+        "model": "google/gemini-3.1-pro",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 127,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-08",
+        "citations": 0,
+        "editorNote": "Editor-led batch; finished prose; jargon first-mention; features before bagsnit."
+      }
+    },
+    {
+      "slug": "faststof",
+      "order": 5,
+      "section": "Teknologi",
+      "brief": {
+        "angle": "Semi-solid ≠ solid-state-hype.",
+        "words": [
+          150,
+          400
+        ],
+        "mustCite": 0,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "Mistral Large (Mistral AI)",
+        "model": "mistralai/mistral-large",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 132,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-08",
+        "citations": 0,
+        "editorNote": "Editor-led batch; finished prose; jargon first-mention; features before bagsnit."
+      }
+    },
+    {
+      "slug": "kilometerafgift",
+      "order": 6,
+      "section": "Politik & afgifter",
+      "brief": {
+        "angle": "Mekanisme før kr./km.",
+        "words": [
+          150,
+          400
+        ],
+        "mustCite": 0,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "GLM-5.2 (Z.ai)",
+        "model": "z-ai/glm-5.2",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 135,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-08",
+        "citations": 0,
+        "editorNote": "Editor-led batch; finished prose; jargon first-mention; features before bagsnit."
+      }
+    },
+    {
+      "slug": "vinter-elbil",
+      "order": 7,
+      "section": "Køretest",
+      "brief": {
+        "angle": "WLTP er ikke januar.",
+        "words": [
+          150,
+          400
+        ],
+        "mustCite": 1,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "DeepSeek V3.2 (DeepSeek)",
+        "model": "deepseek/deepseek-v3.2",
+        "fallback": "google/gemini-3.5-flash"
+      },
+      "receipt": {
+        "words": 180,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-08",
+        "citations": 1,
+        "editorNote": "Editor-led batch; finished prose; jargon first-mention; features before bagsnit."
+      }
+    },
+    {
+      "slug": "kort-og-watt",
+      "order": 8,
+      "section": "Kort & Watt",
+      "brief": {
+        "angle": "Andel, effekt, kø.",
+        "words": [
+          120,
+          300
+        ],
+        "mustCite": 2,
+        "format": "kort"
+      },
+      "writer": {
+        "byline": "Qwen3.7 Max (Alibaba)",
+        "model": "qwen/qwen3.7-max",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 119,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-08",
+        "citations": 2,
+        "editorNote": "Editor-led batch; finished prose; jargon first-mention; features before bagsnit."
+      }
+    },
+    {
+      "slug": "essay",
+      "order": 9,
+      "section": "Essay",
+      "brief": {
+        "angle": "Når dieselduften er væk.",
+        "words": [
+          100,
+          250
+        ],
+        "mustCite": 0,
+        "format": "essay"
+      },
+      "writer": {
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 100,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-08",
+        "citations": 0,
+        "editorNote": "Editor-led batch; finished prose; jargon first-mention; features before bagsnit."
+      }
+    },
+    {
+      "slug": "rygteboersen",
+      "order": 10,
+      "section": "Rygtebørsen",
+      "brief": {
+        "angle": "Spekulativt.",
+        "words": [
+          60,
+          200
+        ],
+        "mustCite": 0,
+        "format": "bagsnit"
+      },
+      "writer": {
+        "byline": "Grok 4.3 (xAI)",
+        "model": "x-ai/grok-4.3",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 80,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-08",
+        "citations": 0,
+        "editorNote": "Editor-led batch; finished prose; jargon first-mention; features before bagsnit."
+      }
+    }
+  ]
+}
