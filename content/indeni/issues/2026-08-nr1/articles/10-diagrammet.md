@@ -1,18 +1,56 @@
 ---
 title: "Sådan læser du et procesdiagram"
-standfirst: "Pile fortæller ikke hele sandheden. Se efter, hvad der ikke kommer med."
+standfirst: Et diagram er ikke et fotografi. Det er et valg om, hvad der skal væk, for at resten kan ses. Her er hvad nummerets tre tegninger med vilje udelader.
 section: "Maskinen"
 order: 10
 ---
 
-Et procesdiagram er en aftale om at forenkle. Det viser rækkefølgen, men ikke alle rør, sensorer, leverandører og beslutninger. Det er netop derfor, det er nyttigt.
+Et diagram er ikke et fotografi.
 
-I **formningsdiagrammet** læses pilene fra aluminiumstrimmel til skive, kop og høj krop. Det vigtige er, at kroppen kommer fra ét stykke metal, mens toppen er et separat led.
+Det er en beslutning om, hvad der skal væk, for at resten kan ses tydeligt. De tre tegninger i dette nummer — formningen, pantstrømmen og det lukkede kredsløb — er alle forenklinger. De er bare forenklet på hver sin måde.
 
-I **pantdiagrammet** er automaten ikke en magisk genanvendelsesmaskine. Den er et grænsepunkt: emballagen identificeres, hvorefter sortering, balning og transport stadig skal lykkes.
+INDENI's løfte er ikke, at vores diagrammer er komplette. Det er, at vi siger hvilken forenkling vi har valgt.
 
-I **kredsløbsdiagrammet** er den orange stiplede pil den vigtigste. Den peger på et tabspunkt. Materialet kan være teknisk genanvendeligt og alligevel forlade den kæde, vi håbede på, hvis det ikke indsamles eller holder den rigtige kvalitet.
+### Formningsdiagrammet: fra plade til dåse
 
-Se også efter ordet “kan”. Et diagram viser muligheder og typiske rækkefølger, ikke en garanti om hver eneste dåses rejse. Når vi har et målt tal, står kilde og afgrænsning ved siden af; når vi ikke har det, lader vi pilen være en forklaring frem for en påstand.
+**Det viser:** en rund skive, der trækkes ned i en hulform, presses videre gennem ringe så siderne bliver tyndere og højere, og til sidst trimmes i kanten. Pilene følger materialets vej fra flad plade til færdig krop.
 
-Det er den vane INDENI vil træne: Følg ikke kun den grønne pil. Kig efter den manglende.
+**Det udelader:** næsten alt, der sker *mellem* trinene.
+
+Hver dåse bliver vasket og smurt flere gange undervejs — først så metallet kan glide i formene uden at rive, derefter for at få smøremidlet af igen. Der er et selvstændigt trin, hvor bunden formes indad til den hvælving, du kan mærke med tommelfingeren, så dåsen kan tage trykket fra kulsyren uden at bugne.
+
+Og diagrammet siger intet om **varme**. Aluminium bliver varmt af at blive bearbejdet så hurtigt og skal køles undervejs.
+
+Tegningen viser formen. Ikke fabrikkens rytme af vask, smøring og køling, som i praksis fylder mindst lige så meget som selve trækningen.
+
+### Pantstrømmen: dåsen på vej hjem
+
+**Det viser:** dåsen den anden vej — fra køleskab til automat til sortering til oparbejder. Pilene er en fysisk bevægelse af metal.
+
+**Det udelader:** pengene.
+
+Pantsystemet er nemlig **to** strømme på én gang: dåser, der bevæger sig én vej, og pantkroner, der bevæger sig den anden, mellem forbruger, butik og system. De to følges ikke ad i tid. Du får din pant med det samme — længe før den dåse er smeltet om.
+
+Vi har tegnet materialet alene, fordi begge strømme oven i hinanden ville blive uoverskuelige. Men det betyder også, at diagrammet ikke fortæller noget om, hvem der betaler for transporten, sorteringen eller driften af automaterne. Kun at dåsen fysisk bevæger sig fra hånd til fabrik.
+
+Økonomien står i [pantens lange bane](/indeni/2026-08-nr1/pantens-lange-bane).
+
+### Kredsløbet: den lukkede cirkel
+
+**Det viser:** brugt dåse → omsmeltning → ny plade → ny dåse. Pointen er, at aluminium i princippet kan gå rundt igen og igen uden at miste sine egenskaber.
+
+**Det udelader:** at cirklen på papiret er renere end cirklen i virkeligheden.
+
+Ved hvert omløb skal der tilsættes nyt metal. Dels fordi ikke alle dåser bliver indsamlet, dels fordi noget går tabt som slagge og oxid under omsmeltningen. En ring, der lukker helt, findes ikke.
+
+Og «lukket» betyder ikke «lokalt». Den plade, din næste dåse er lavet af, kan sagtens have været en tur forbi en oparbejder i et andet europæisk land, før den nåede en dansk aftapning — se [Europas dåseværksteder](/indeni/2026-08-nr1/europas-dasevaerksteder).
+
+Cirklen er reel. Den er bare hverken hundrede procent eller stedfast. Den er en tendens, tegnet som en ring for overskuelighedens skyld.
+
+### Reglen
+
+De tre diagrammer viser **strøm**, ikke sandhed i fuld opløsning.
+
+Brug dem til at forstå retningen. Brug brødteksten til at forstå, hvor meget der foregår i de mellemrum, pilene springer over.
+
+Og tag vanen med videre til andre diagrammer end vores. Spørgsmålet «hvad er skåret væk her?» er næsten altid mere oplysende end selve pilene.

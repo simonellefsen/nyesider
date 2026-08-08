@@ -342,15 +342,17 @@
         "fallback": "deepseek/deepseek-v3.2"
       },
       "receipt": {
-        "words": null,
-        "costUSD": null,
-        "draft": null
+        "words": 535,
+        "costUSD": 0.021266,
+        "draft": "kladder/10-diagrammet.md",
+        "costRouting": "byok",
+        "generationId": "gen-1786230534-9bGjSTaHmTftqJMp7v6k"
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
-        "citations": null,
-        "editorNote": null
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-09",
+        "citations": 0,
+        "editorNote": "REELT kommissioneret hos anthropic/claude-sonnet-5 paa .env.indeni (BYOK, generationId registreret); kladde i kladder/10-diagrammet.md. Briefen bad om en artikel om at LAESE tegninger kritisk frem for at beundre dem, og kladden leverede praecis det med en klar struktur pr. diagram: hvad det viser, og hvad det med vilje udelader. Tre selvstaendige fund: (1) formningsdiagrammet skjuler vask, smoering og koeling, som i praksis fylder mindst lige saa meget som selve traekningen; (2) pantstroemsdiagrammet viser materialet, men ikke PENGENE — pantsystemet er to modsatrettede stroemme, der ikke foelges ad i tid, for man faar sin pant laenge foer daasen er smeltet om; (3) kredsloebsdiagrammet er renere paa papiret end i virkeligheden, fordi der ved hvert omloeb skal tilsaettes nyt metal, og fordi 'lukket' ikke betyder 'lokalt'. Sidstnaevnte formulering er kladdens egen og er den skarpeste i artiklen. Redaktionelt: overskrift i broedtekst fjernet, krydslinks til pantens-lange-bane og europas-dasevaerksteder tilfoejet, og en afsluttende generalisering skrevet til, saa laeseren tager vanen med videre: spoergsmaalet om hvad der er skaaret vaek er oftest mere oplysende end pilene. mustCite=0 som briefet — artiklen bygger paa nummerets egne tegninger og kraever ingen eksterne kilder."
       }
     },
     {
@@ -372,16 +374,25 @@
         "fallback": "deepseek/deepseek-v3.2"
       },
       "receipt": {
-        "words": null,
-        "costUSD": null,
-        "draft": null
+        "words": 586,
+        "costUSD": 0.05519,
+        "draft": "kladder/11-paastandskontoret.md",
+        "costRouting": "byok",
+        "generationId": "gen-1786230416-ZmM5ELonzeNFghRPDyDz"
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
-        "citations": null,
-        "editorNote": null
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-09",
+        "citations": 3,
+        "editorNote": "REELT kommissioneret hos anthropic/claude-opus-4.8 paa .env.indeni (BYOK, generationId registreret); kladde i kladder/11-paastandskontoret.md. Kladden ramte formatkravet praecist: den afmonterede fire hverdagspaastande UDEN at lade som om emballagevalg har ét facit, og gav i stedet laeseren listen over, hvad regnskabet faktisk afhaenger af — transportafstand, faktisk genanvendelsesgrad, fyldningsgrad og stroemmens oprindelse. Bedste enkeltbidrag er dens eget: en efterproevelig hjemmetest af metalsmag-paastanden. Haeld samme drik fra daase over i et glas og smag igen; skifter oplevelsen, sad smagen ikke i vaesken, men i kanten man drikker hen over. Det er praecis INDENI's loefte om at vise mekanismen frem for at faelde dommen. Den skelnede ogsaa korrekt mellem genbrugsflasker, der betaler deres vaegt hjem over mange ture ved KORT transportafstand, og engangsglas, der taber den fordel. Redaktionelt: fodnoterne var tre bare domaenehenvisninger (eea.europa.eu, danskretursystem.dk, international-aluminium.org) og er erstattet af kontrollerede sider, med Miljoestyrelsen tilfoejet for pantsystemets konstruktion. Forbeholdet om at energibesparelsen gaelder metalfremstillingen og ikke hele emballagens livscyklus er skrevet ind i fodnoten, saa den stemmer med materialeartiklen. Krydslinks til det-usynlige-lag og pantens-lange-bane tilfoejet."
       }
     }
-  ]
+  ],
+  "costReconciliation": {
+    "note": "VIGTIG METODE — brug DAGS-taellerne, ikke levetids-taellerne. Ved afstemning af DENNE produktion mod OpenRouters noegle-endpoint gaelder: usage_daily og byok_usage_daily matcher ledgeren praecist (0,03655625 + 0,465964 = 0,50252). De samlede levetidstal for noeglen er hoejere — 0,04676842 + 0,555866 = 0,602634 — fordi .env.indeni har ca. 0,10 USD forbrug FRA TIDLIGERE I AUGUST 2026, som ligger foer denne genopbygning og ikke er dokumenteret i nogen bestilling.json i arkivet. Havde vi brugt levetidstallet som productionCostUSD, ville nummeret vaere blevet paalagt 0,10 USD, det ikke har brugt. Bemaerk til sammenligning, at ORBIT og KRAFTEN gav samme resultat paa begge maader, fordi deres noegler var ubrugte foer genopbygningen — det er altsaa et tilfaelde, ikke en regel.",
+    "todayLedgerUSD": 0.50252,
+    "keyLifetimeUSD": 0.602634,
+    "unexplainedPriorUSD": 0.100114,
+    "measuredAt": "2026-08-09"
+  }
 }

@@ -15,11 +15,11 @@ Den bliver registreret, accepteret eller afvist, og sendt videre i en materiales
 
 ### Tallene, og hvad de dækker
 
-Dansk Retursystem oplyser, at **2,2 milliarder flasker og dåser** blev afleveret i pant- og retursystemet i 2025 — en returprocent omkring **92–93 %**.[^1]
+Dansk Retursystem oplyser, at **2,2 milliarder flasker og dåser** blev afleveret i pant- og retursystemet i 2025 — en returprocent omkring **92–93 %**.[^1]
 
 Læs hele navneordet: tallet dækker **alle** returemballager, ikke kun aluminiumsdåser. Det kan derfor ikke bruges som en dansk dåse-genanvendelsesprocent, selv om det ofte bliver det.
 
-Det andet tal er mere interessant: **99,7 %** af det, der kommer retur gennem systemet, genanvendes i et **lukket kredsløb**.[^2]
+Det andet tal er mere interessant: **99,7 %** af det, der kommer retur gennem systemet, genanvendes i et **lukket kredsløb**.[^2]
 
 Det udtryk fortjener en forklaring. «Lukket kredsløb» betyder ikke bare, at materialet genanvendes. Det betyder, at det bliver til **en ny drikkevareemballage** frem for til noget ringere — en motorblok, en havemøbelprofil, et støbegods. For at det kan lade sig gøre, skal materialet holdes rent nok til fødevarekvalitet hele vejen.
 

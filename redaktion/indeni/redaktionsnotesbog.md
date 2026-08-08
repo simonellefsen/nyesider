@@ -21,12 +21,35 @@ Målgruppen er den almindeligt nysgerrige danske læser. Forklar fagord første 
 
 - **(2026-08) Nr. 2 — “Filteret”**: kaffefilter fra fibre til affald; egen SVG-proces. Uden ordbog. `bestilling.json` under `numre/2026-08-nr2/`.
 - **(2026-08) Nr. 1 — “Dåsen”**: aluminiumsdrikkedås fra materiale og formning til dansk pant og europæisk omsmeltning. Originale SVG-diagrammer viser formning, pantstrøm og lukket kredsløb.
+  **Genopbygget 2026-08-09:** 11 artikler / 6.936 ord (var 12 / 3.427). Ordbogen fjernet. Ti artikler
+  reelt kommissioneret på `.env.indeni`; lederen er chefredaktionens uden byline. Forbrug **0,50 USD**.
 
 ## Redaktionslog
 
 - **2026-08-01:** “Det usynlige lag” udvidet efter læserspørgsmål med polymertyper, drikspecifik coating-validering og EU/EFSA's BPA-spor. Læringen: skriv aldrig “dåselak” som én universel kemisk opskrift.
 - **2026-08-08:** Nr. 2 publiceret — kaffefilteret med procesdiagram.
 - **2026-08-08 (edit):** Nr. 2 udvidet (især bryg + Europa); fjernet Ordbogen; meta-snippets skrevet ind i brødtekst.
+
+### Læring fra genopbygningen af nr. 1 (2026-08-09)
+
+**Skriv tal ind i `brief.angle`, ikke i `researchNote`.** Kun `brief.angle` når frem til modellen.
+
+**Kildefejlen var gennemgående og forudsigelig:** næsten hver kladde afsluttede med *bare
+domænehenvisninger* — «Se aluminum.org», «danskretursystem.dk» — i stedet for konkrete sider. Det er
+ubrugeligt for læseren og skal rettes hver gang. Regn med det.
+
+**Det største fund var et forældet regelspor.** Kladden om den indvendige lak byggede på EFSA's
+revurdering fra 2023 og konkluderede, at branchen frivilligt bevægede sig væk fra BPA. Virkeligheden:
+forordning (EU) 2024/3190 forbyder BPA i fødevarekontaktmaterialer **inklusive dåselakker**, i kraft
+20. januar 2025, med frist for engangsemballage der udløb **20. juli 2026**. Tjek altid, om et
+«branchen er på vej»-spor i mellemtiden er blevet til lov.
+
+**Kvitteringer: brug DAGS-tællerne.** `.env.indeni` havde ca. 0,10 USD forbrug fra tidligere i august,
+som ikke står i nogen `bestilling.json`. `usage_daily` + `byok_usage_daily` matchede ledgeren præcist;
+levetidstallet ville have pålagt nummeret 0,10 USD, det ikke har brugt.
+
+**Modellerne kan levere præcise referencer.** `hvorfor-33-cl` angav uopfordret Hosford & Duncan,
+*Scientific American* 271(3), september 1994, s. 48–53 — bind, nummer, måned og sidetal alle korrekte.
 
 ## Idébank
 

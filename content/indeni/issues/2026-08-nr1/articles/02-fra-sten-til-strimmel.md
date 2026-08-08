@@ -29,15 +29,15 @@ Her kommer pointen, som resten af nummeret hviler på.
 
 Al den energi går til at bryde iltbindingen **første gang**. Når metallet først er rent, er ilten væk. Skal aluminiummet bruges igen, skal det bare smeltes om — ingen elektrolyse, ingen Bayer-proces, intet rødslam. Man varmer det til godt 660 °C og støber det på ny.
 
-Derfor siger man, at genanvendt aluminium bruger **op til 95 % mindre energi** end primær fremstilling.[^2]
+Derfor siger man, at genanvendt aluminium bruger **op til 95 % mindre energi** end primær fremstilling.[^2]
 
 Men vær præcis om, hvad tallet dækker. **Det gælder selve metalfremstillingen** — energien til at lave brugbart metal af skrot, holdt op mod energien til at lave det af bauxit. Det er *ikke* et regnestykke for en hel dåses livscyklus, hvor indsamling, transport, sortering, valsning og trykning også koster.
 
-De 95 % er metallurgi. Ikke et samlet miljøregnskab. Forskellen er reel og stor — men den er en påstand om metallet, ikke om dåsen.
+De 95 % er metallurgi. Ikke et samlet miljøregnskab. Forskellen er reel og stor — men den er en påstand om metallet, ikke om dåsen.
 
 ### Sidste trin: ned til et kvart millimeter
 
-Det rene aluminium blandes nu med små mængder andre metaller til en legering med de rigtige egenskaber. Til dåsekroppe bruges typisk **AA3004**, som ud over aluminium indeholder omkring 1 % mangan og 1 % magnesium.[^3]
+Det rene aluminium blandes nu med små mængder andre metaller til en legering med de rigtige egenskaber. Til dåsekroppe bruges typisk **AA3004**, som ud over aluminium indeholder omkring 1 % mangan og 1 % magnesium.[^3]
 
 Manganet giver styrke. Magnesiummet gør metallet lidt hårdere uden at ødelægge formbarheden — og formbarhed er hele forudsætningen for [det, der sker i næste led](/indeni/2026-08-nr1/to-stykker-og-en-fane).
 
@@ -56,5 +56,5 @@ Et stykke sølvblankt metal i hånden bærer derfor to historier samtidig: en r�
 Hvorvidt det faktisk sker, afhænger af noget helt andet end kemi. Det handler om [logistik](/indeni/2026-08-nr1/pantens-lange-bane).
 
 [^1]: [Alumina production](https://international-aluminium.org/resource/alumina-production/), International Aluminium Institute — om Bayer-processen, rødslam og den efterfølgende elektrolyse i Hall-Héroult-celler.
-[^2]: [Circular economy](https://european-aluminium.eu/policy_areas/circular-economy/), European Aluminium — om energiforskellen mellem primær og genanvendt aluminium. Bemærk, at tallet vedrører metalfremstillingen.
+[^2]: [International Aluminium Institute](https://international-aluminium.org/) og [Circular economy](https://european-aluminium.eu/policy_areas/circular-economy/), European Aluminium — om energiforskellen mellem primær og genanvendt aluminium. Bemærk, at tallet vedrører metalfremstillingen og ikke en komplet livscyklus.
 [^3]: [The Aluminum Association](https://www.aluminum.org/) — om legeringssystemet og sammensætningen af 3xxx-legeringer, herunder AA3004 til dåsekroppe.
