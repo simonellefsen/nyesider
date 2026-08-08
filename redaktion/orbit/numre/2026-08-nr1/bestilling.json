@@ -216,15 +216,17 @@
         "fallback": "deepseek/deepseek-v3.2"
       },
       "receipt": {
-        "words": null,
-        "costUSD": null,
-        "draft": null
+        "words": 577,
+        "costUSD": 0.050766,
+        "draft": "kladder/06-indien-rusland.md",
+        "costRouting": "byok",
+        "generationId": "gen-1786214965-lLlfOgx39AzbdQDJ8iWh"
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
-        "citations": null,
-        "editorNote": null
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-08",
+        "citations": 4,
+        "editorNote": "REELT kommissioneret hos anthropic/claude-sonnet-5 paa .env.orbit (BYOK, 0,051 USD); kladde i kladder/06-indien-rusland.md. Kladden gjorde noget SJAELDENT og rigtigt: den naegtede at opgive et russisk 2025-opsendelsestal, fordi den ikke kunne dokumentere det, og skrev det eksplicit i teksten — praecis den adfaerd briefen bad om. Redaktionen fandt derefter tallet: 17 orbitale opsendelser i 2025, ca. tre fjerdedele med Sojuz, tre Angara 1.2 og én Angara-A5 (Ill-Defined Space). Det staar nu i artiklen med kilde, og selvbeherskelsen i kladden kostede intet. FEJL RETTET: kladden skrev, at OneWebs satellitter i Baikonur 'senere blev hentet hjem uden at blive opsendt'. Det modsatte er sandt — Roscosmos beholdt dem efter at OneWeb afviste de politiske krav, selskabet nedskrev 229 mio. dollar, og opgav siden helt at faa dem retur; de ligger stadig i Kasakhstan. TILFOEJET efter kildesoegning: Zvezda/PrK-laekagen vendte tilbage i juni 2026 med ca. et kilo luft i doegnet, NASA satte besaetningen i 'safe haven' i et Dragon-fartoej, og den planlagte strukturelle reparation blev droppet; aarsagen til revnedannelsen er fortsat ikke fastslaaet. Alle fodnoter var bare URL'er uden titler — nu navngivne, kontrollerede kilder."
       }
     },
     {
@@ -366,15 +368,17 @@
         "fallback": "deepseek/deepseek-v3.2"
       },
       "receipt": {
-        "words": null,
-        "costUSD": null,
-        "draft": null
+        "words": 739,
+        "costUSD": 0.02512,
+        "draft": "kladder/10-saadan-virker-baner.md",
+        "costRouting": "byok",
+        "generationId": "gen-1786225908-TepbF65PLyJXtjXpF0Y9"
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
-        "citations": null,
-        "editorNote": null
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-08",
+        "citations": 3,
+        "editorNote": "REELT kommissioneret hos anthropic/claude-sonnet-5 paa .env.orbit (BYOK, 0,025 USD); kladde i kladder/10-saadan-virker-baner.md. Den paedagogisk bedste kladde i nummeret: den forklarede fritfald, relaeloebet i LEO og atmosfaerisk traek uden en eneste ligning, og fandt selv den rigtige begrundelse for MEO. Rettelser: (1) FEJL: 'Danmarks laengste udstraekning nord-syd omkring 450 kilometer' — det er ca. 356-368 km fra Skagen til Gedser. Rettet til ca. 360. (2) PRAECISERING, som gjorde forklaringen bedre: kladden skrev at GEO har en omloebstid paa 'noejagtig 24 timer'. Det er stjernedoegnet paa 23 t 56 min 4 sek — Jordens rotation i forhold til stjernerne — og de knap fire minutters forskel skyldes Jordens bevaegelse om Solen. Det staar nu som en selvstaendig pointe. (3) LEO-hoejden harmoniseret med satellitter-artiklen (160-2.000 km, med bemaerkning om at hovedparten ligger under 1.000) — kladden skrev 300-2.000. (4) Kladdens 'mindst fire synlige satellitter' udbygget med HVORFOR fire og ikke tre: modtagerens egen urfejl er den fjerde ubekendte. (5) GPS.gov's dybe URL'er er flyttet og gav 404 — fodnoten peger nu paa roden plus en verificerbar opslagskilde. Opsummerende tabel tilfoejet."
       }
     },
     {
@@ -396,15 +400,17 @@
         "fallback": "deepseek/deepseek-v3.2"
       },
       "receipt": {
-        "words": null,
-        "costUSD": null,
-        "draft": null
+        "words": 549,
+        "costUSD": 0.051396,
+        "draft": "kladder/11-kalenderen.md",
+        "costRouting": "byok",
+        "generationId": "gen-1786226088-3ru3nVJCQTt2Nny6lAUo"
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
-        "citations": null,
-        "editorNote": null
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-08",
+        "citations": 3,
+        "editorNote": "REELT kommissioneret hos google/gemini-3.1-pro-preview paa .env.orbit (BYOK, 0,051 USD); kladde i kladder/11-kalenderen.md. Kladdens FORMIDLINGSDEL var fremragende og er beholdt naesten intakt: NET som venstremargin frem for aftale, oejeblikkelige opsendelsesvinduer, hold og scrub. Men FREMSKRIVNINGEN var alvorligt foraeldet og ville vaere blevet nummerets vaerste fejl paa tryk: kladden skrev, at Artemis III er sat til 'NET september 2026' og skal saette mennesker paa Maanen for foerste gang siden 1972 — bygget paa en NASA-melding fra januar 2024. Virkeligheden i august 2026: NASA reviderede missionen i FEBRUAR 2026. Artemis III lander IKKE paa Maanen; den er nu en bemandet demonstration i LAV JORDBANE (ca. 230 soemil) med rendezvous og docking, tidligst 2027, og den foerste bemandede maanelanding er flyttet til Artemis IV i begyndelsen af 2028. Baade Starship-varianten og Blue Moon Mark 1.5 manglede i april 2026 certificering til bemandet flyvning og beskrives som pathfindere. Hele afsnittet er skrevet om og faar nu sin egen sektion, netop fordi den forkerte version stadig cirkulerer. Ogsaa rettet: kladdens '9-12 aarlige Ariane 6-opsendelser i 2026' mod de otte, der faktisk er planlagt. Efteraarets punkter er erstattet af navngivne, kildebelagte missioner med eksplicit usikkerhedsangivelse, og ESA's launch-windows-fodnote var en gaettet URL (404) og er fjernet."
       }
     },
     {
