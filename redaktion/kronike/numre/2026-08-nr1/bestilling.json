@@ -50,8 +50,8 @@
       "brief": {
         "angle": "Tre-fire haarde tal, der rammer 'Riget formes' ned: fx Danmarks befolkning ca. 1500 vs 1800, Oeresundstoldens andel af kronens indtaegter, antal udvandrere til Nordamerika 1868-1914, arealtab i 1864. For HVERT tal: hvad det maales i, hvor det kommer fra, og hvor usikkert det er. Middelalderlige tal er skoen — sig det. Ingen tal uden kilde.",
         "words": [
-          250,
-          450
+          450,
+          650
         ],
         "mustCite": 3,
         "format": "tallet",
@@ -74,8 +74,8 @@
       "verdict": {
         "status": "accepted-after-edit",
         "checkedAt": "2026-08-08",
-        "citations": 4,
-        "editorNote": "REELT kommissioneret hos openai/gpt-5.6-terra paa .env.kronike. Kladden ramte formatet praecist: hvert tal med hvad det maaler, hvor det kommer fra og hvor usikkert det er. Den viste sig desuden at vaere nummerets bedste krydstjek. To fund: (1) kladdens paastand om at Oeresundstolden kunne udgoere TO TREDJEDELE af statens indtaegter i 1500-tallet lod til at modsige de ca. 10 % omkring 1800, som allerede stod i Oeresundstold-artiklen — begge dele er rigtige, og hele kurven (2/3 i sen 1500-tal, 4,5 % ca. 1700, 6,5 % i 1730'erne, 8 % i 1780'erne, 10 % ca. 1800) er nu skrevet ind BEGGE steder, fordi faldet i sig selv er pointen: staten voksede om tolden. (2) Kladdens 1864-tal (1/3 areal, 2/5 befolkning) var korrekte — og afsloerede, at CHEFREDAKTIONENS EGEN 1864-artikel skrev 'to femtedele af arealet'. Rettet i 09-seksten-fireogtreds.md. Doede fodnoter til udvandrerarkivet.dk og bare domaener erstattet."
+        "citations": 5,
+        "editorNote": "REELT kommissioneret hos openai/gpt-5.6-terra paa .env.kronike. Kladden ramte formatet praecist: hvert tal med hvad det maaler, hvor det kommer fra og hvor usikkert det er. Den viste sig desuden at vaere nummerets bedste krydstjek. To fund: (1) kladdens paastand om at Oeresundstolden kunne udgoere TO TREDJEDELE af statens indtaegter i 1500-tallet lod til at modsige de ca. 10 % omkring 1800, som allerede stod i Oeresundstold-artiklen — begge dele er rigtige, og hele kurven (2/3 i sen 1500-tal, 4,5 % ca. 1700, 6,5 % i 1730'erne, 8 % i 1780'erne, 10 % ca. 1800) er nu skrevet ind BEGGE steder, fordi faldet i sig selv er pointen: staten voksede om tolden. (2) Kladdens 1864-tal (1/3 areal, 2/5 befolkning) var korrekte — og afsloerede, at CHEFREDAKTIONENS EGEN 1864-artikel skrev 'to femtedele af arealet'. Rettet i 09-seksten-fireogtreds.md. Doede fodnoter til udvandrerarkivet.dk og bare domaener erstattet. REBRIEFET 8. aug. 2026 (ord 250-450 -> 450-650): artiklen baerer nu FEM tal, ikke fire. Det femte kom af en kildekontrol: Udvandrerarkivets soegbare protokolbase viser, at Koebenhavns Politis protokoller for 1868-1912 rummer 232.452 danske udvandrere OG 151.109 udlaendinge (81.092 svenske). Det er praecis formatets pointe — et tal skal ledsages af spoergsmaalet om, hvad det maaler — og hoerer derfor hjemme her. Udvidelsen er en bevidst redaktionel beslutning, ikke drift."
       }
     },
     {
@@ -260,8 +260,8 @@
       "brief": {
         "angle": "Landboreformerne ca. 1780-1800: stavnsbaandets ophaevelse (1788), udskiftningen af landsbyerne, og overgangen fra faeste til selveje. Hvem drev det (Reventlow, Colbjoernsen, Christian 7.s regering reelt kronprins Frederik), og hvad det betoed for en konkret bonde: hvor han boede foer og efter, hvem han skyldte hvad. Frihedsstoetten som samtidens eget monument over sagen.",
         "words": [
-          700,
-          900
+          900,
+          1200
         ],
         "mustCite": 3,
         "format": "feature",
@@ -284,8 +284,8 @@
       "verdict": {
         "status": "accepted-after-edit",
         "checkedAt": "2026-08-08",
-        "citations": 2,
-        "editorNote": "REELT kommissioneret hos anthropic/claude-sonnet-5 paa .env.kronike. Kladden var disciplineret og markerede selv sin faestebonde som 'taenkt, men typisk' — praecis den aerlighed, husreglen kraever, i stedet for at opfinde en navngiven person. Rettelse: stavnsbaandet omfattede i 1788 IKKE 14-36-aarige (det var den oprindelige afgraensning fra 1733) men aldersgruppen 4-40 aar. Det er artiklens staerkeste enkeltfakta og aabner den nu. Tilfoejet det praecise udfasningsmaskineri og forordningens eget citat om, at friheden 'stedse skal vaere uigenkaldelig'. A.P. Bernstorff tilfoejet blandt ophavsmaendene."
+        "citations": 3,
+        "editorNote": "REELT kommissioneret hos anthropic/claude-sonnet-5 paa .env.kronike. Kladden var disciplineret og markerede selv sin faestebonde som 'taenkt, men typisk' — praecis den aerlighed, husreglen kraever, i stedet for at opfinde en navngiven person. Rettelse: stavnsbaandet omfattede i 1788 IKKE 14-36-aarige (det var den oprindelige afgraensning fra 1733) men aldersgruppen 4-40 aar. Det er artiklens staerkeste enkeltfakta og aabner den nu. Tilfoejet det praecise udfasningsmaskineri og forordningens eget citat om, at friheden 'stedse skal vaere uigenkaldelig'. A.P. Bernstorff tilfoejet blandt ophavsmaendene. KILDEUDVIDELSE 8. aug. 2026: artiklen hvilede paa EN fodnote brugt fem gange mod briefens mustCite=3. Ved kildearbejdet dukkede to FEJL i chefredaktionens egen tekst op. (1) Hoveriforordningen af 1799 blev beskrevet som at 'saette graenser for, hvad en godsejer kunne kraeve'. Den sidste hoveriforordning er dateret 6. december 1799 og bestemte, at AENDRINGER i hoveriaftaler krsevede godkendelse i Rentekammeret — aftalerne blev frosset under statsligt tilsyn, ikke beskaaret. Rettet. (2) Frihedsstoetten blev kaldt 'rejst af den samme oplyste elite, der gennemfoerte reformerne'. Det er omvendt: godsejerstanden protesterede i 1790'erne, regeringen trak sig fra videre reformer, og stoetten var BORGERSKABETS demonstrative forsoeg paa at holde kronprinsen fast paa kursen. Det goer monumentet til et pressionsmiddel, ikke et takkemonument — en klart bedre pointe end den, der stod foer. Tilfoejet: forordningen af 23. april 1781 som udskiftningens gennembrud, koblingen mellem udskiftning og ret til bortsalg til selveje, og finansieringen via Kreditkassen (1786) og Enkekassens pensionsmidler."
       }
     },
     {
@@ -330,8 +330,8 @@
       "brief": {
         "angle": "Udvandringen til Nordamerika ca. 1868-1914: hvor mange, hvorfra, hvorfor. Push (arvedeling, husmandsvilkaar, 1864-nederlaget) og pull (jord, agenter, praeriereklamer). Mormonmissionen som saerlig dansk kanal. Udvandrerarkivet i Aalborg og politiets udvandringsprotokoller er de konkrete kilder — brug dem.",
         "words": [
-          700,
-          900
+          900,
+          1300
         ],
         "mustCite": 3,
         "format": "feature",
@@ -354,8 +354,8 @@
       "verdict": {
         "status": "accepted-after-edit",
         "checkedAt": "2026-08-08",
-        "citations": 4,
-        "editorNote": "REELT kommissioneret hos google/gemini-3.1-pro-preview paa .env.kronike. Kladden fandt selv en rigtig, opslaaelig hovedperson — Jacob Riis — i stedet for at opfinde en. Faktatjek praeciserede ham: han sejlede foerst Koebenhavn-Glasgow og gik om bord paa dampskibet Iowa 18. maj 1870; de 40 dollars var indsamlet af venner (billetten paa 50 betalte han selv); og han sov i politiets herberger — de samme slags logihuse, han senere blev beroemt for at afsloere i How the Other Half Lives. Den ironi manglede i kladden og baerer nu afsnittet. Befolkningsandelen ('10 %') haegtet ned til en ordenstoerrelse. Fodnoter til udvandrerarkivet.dk fjernet: domaenet svarede overhovedet ikke ved kontrol — erstattet af Rigsarkivet og Aalborg Stadsarkiv."
+        "citations": 6,
+        "editorNote": "REELT kommissioneret hos google/gemini-3.1-pro-preview paa .env.kronike. Kladden fandt selv en rigtig, opslaaelig hovedperson — Jacob Riis — i stedet for at opfinde en. Faktatjek praeciserede ham: han sejlede foerst Koebenhavn-Glasgow og gik om bord paa dampskibet Iowa 18. maj 1870; de 40 dollars var indsamlet af venner (billetten paa 50 betalte han selv); og han sov i politiets herberger — de samme slags logihuse, han senere blev beroemt for at afsloere i How the Other Half Lives. Den ironi manglede i kladden og baerer nu afsnittet. Befolkningsandelen ('10 %') haegtet ned til en ordenstoerrelse. Fodnoter til udvandrerarkivet.dk fjernet: domaenet svarede overhovedet ikke ved kontrol — erstattet af Rigsarkivet og Aalborg Stadsarkiv. REBRIEFET 8. aug. 2026 (ord 700-900 -> 900-1300): ejeren oplyste, at UdvandrerArkivet ligger under Aalborg Stadsarkiv paa www.aalborgstadsarkiv.dk/UA.asp?UA=UAProtokol — adressen virker, og den doede udvandrerarkivet.dk afviser stadig forbindelser. Opslaget aabnede et selvstaendigt afsnit: protokollerne er tastet ind og frit soegbare, og Henning Bender (tidl. leder af arkivet) opgoer 1868-1912 til 232.452 danske og 151.109 udlaendinge, heraf 81.092 svenskere, der aldrig blev registreret som udvandrere derhjemme. Dermed er den danske kontrollov fra 1868 den eneste udvandrerregistrering, der findes for de 151.109 — en pointe, der baerer sit eget afsnit. Samtidig rettet: protokolraekken loeber 1868-1934 (ikke 1940), og de '90 protokoller' er fjernet, da tallet ikke kunne dokumenteres. Mormontallet 17.000 har nu fodnote til DR."
       }
     },
     {

@@ -12,7 +12,7 @@ Danmarkshistorie fortælles som regel indefra. Udvandringen vender kameraet om.
 
 Fra **1. maj 1868** skulle enhver udvandringsagent i Danmark have politidirektørens godkendelse af de billetter og kontrakter, han solgte. Loven skulle ikke forhindre folk i at rejse — den skulle beskytte dem mod svindlere, for før 1868 var alt for mange strandet i fremmede havne med værdiløse billetter i hånden.
 
-Bivirkningen er, at vi i dag har navnene. I **Københavns Politis udvandringsprotokoller** blev hver eneste emigrant ført ind med navn, alder, stilling, sidste opholdssted og destination — 90 tykke protokoller, der dækker 1868 til 1940.[^1]
+Bivirkningen er, at vi i dag har navnene. I **Københavns Politis udvandringsprotokoller** blev hver eneste rejsende ført ind med navn, alder, stilling, sidste opholdssted og destination — en protokolrække, der løber fra **1868 til 1934**.[^1]
 
 Mellem 1868 og 1914 forlod i størrelsesordenen **250.000–300.000** danskere landet, langt overvejende mod USA.[^2] I et land, der i perioden havde mellem halvanden og knap tre millioner indbyggere, er det en åreladning, man kan se i statistikken.
 
@@ -36,7 +36,9 @@ Udvandringen blev hurtigt en industri. Dampskibsselskaberne hyrede generalagente
 
 En særlig og tidlig kanal gik gennem **Jesu Kristi Kirke af Sidste Dages Hellige**. Mormonske missionærer ankom til Danmark i 1850 — kort efter at Grundloven havde sikret religionsfrihed — og fandt især grobund blandt landbefolkning og håndværkere.
 
-Her var motivet ikke først og fremmest jord, men teologi: de kaldte til at bygge Zion i Utah. Gennem *Perpetual Emigrating Fund* kunne selv fattige konvertitter låne til rejsen mod at afdrage med arbejde efter ankomsten. Anslået **op mod 17.000** danskere rejste ad den vej — i samlede, disciplinerede flokke, til forskel fra den øvrige, langt mere spredte udvandring.
+Her var motivet ikke først og fremmest jord, men teologi: de kaldte til at bygge Zion i Utah. Gennem *Perpetual Emigrating Fund* kunne selv fattige konvertitter låne til rejsen mod at afdrage med arbejde efter ankomsten. Anslået **op mod 17.000** danskere rejste ad den vej fra 1850 til begyndelsen af 1900-tallet — i samlede, disciplinerede flokke, til forskel fra den øvrige, langt mere spredte udvandring.[^6]
+
+Politiet førte da også mormonafrejserne for sig. De bevarede skibsekspeditioner for mormonernes indirekte afgange omfatter omkring **20.000 mennesker**, heraf 7.780 danske og 6.672 svenske.[^5]
 
 ### Tømreren fra Ribe
 
@@ -52,13 +54,21 @@ Hans historie er værd at holde op mod brochurerne: for de fleste var Amerika ik
 
 ### Arkivet, der husker
 
-At vi kan tegne billedet så præcist, skyldes ikke kun politiet. I **1932** grundlagde den dansk-amerikanske biokemiker **Max Henius** Det Danske Udvandrerarkiv, i dag i Aalborg, med det formål at samle breve, dagbøger, fotografier og foreningsfaner ind, før de forsvandt på prærien.[^4]
+At vi kan tegne billedet så præcist, skyldes ikke kun politiet. I **1932** grundlagde den dansk-amerikanske biokemiker **Max Henius** Det Danske Udvandrerarkiv, i dag en del af **Aalborg Stadsarkiv**, med det formål at samle breve, dagbøger, fotografier og foreningsfaner ind, før de forsvandt på prærien.[^4]
+
+Protokollerne er siden tastet ind og lagt på nettet. Enhver kan i dag slå en oldefar op på navn, stilling, fødested og afrejseår — og se den kontraktdato, hvor et helt liv skiftede retning.[^5]
+
+Og dér venter en overraskelse. For perioden **1868–1912** rummer protokollerne **232.452 danske udvandrere** — men også **151.109 udlændinge**, heraf **81.092 svenskere**. De havde købt billetten hos en agent i København og blev derfor aldrig registreret som udvandrere i deres eget hjemland.[^5]
+
+Det gør Københavns Politis bogholderi til en svensk kilde så vel som en dansk: for de 151.109 er den danske protokol den eneste udvandrerregistrering, der overhovedet findes. En kontrollov, skrevet i 1868 for at stoppe svindel med skibsbilletter, endte som nabolandets arkiv.
 
 Brevene hjem handler om hjemve, græshoppesværme, barske vintre — og om den langsomme amerikanisering. Danskerne spredte sig hurtigere over kontinentet end nordmænd og svenskere, som oftere slog sig ned i tættere enklaver, og de assimilerede sig tilsvarende hurtigere.
 
 Da verdenskrigen lukkede Atlanten i 1914, gik maskineriet i stå, og USA's kvotelove i 1920'erne gjorde standsningen permanent. Tilbage lå et land, der havde sendt en mærkbar del af en generation af sted — og et Amerika, hvor efterkommerne fik den jord, deres forældre ikke kunne få herhjemme.
 
-[^1]: Udvandringsprotokollerne, ført af Københavns Politi fra maj 1868 til 1940 med navn, alder, stilling, sidste opholdssted og destination. Om kilden og hvordan man søger i den: [Udvandring til andre verdensdele — kom godt i gang](https://www.rigsarkivet.dk/vejledning/udvandring-til-andre-verdensdele-kom-godt-i-gang/), Rigsarkivet. (Det Danske Udvandrerarkivs eget websted, udvandrerarkivet.dk, svarede ikke ved redaktionens kontrol 8. august 2026 og er derfor ikke linket.)
+[^1]: Udvandringsprotokollerne, ført af Københavns Politis 3. politiinspektorat fra maj 1868 med navn, alder, stilling, sidste opholdssted og destination; protokolrækken løber til 1934. Om kilden, om skellet mellem *direkte* og *indirekte* udvandring og om hvordan man søger: [Udvandring til andre verdensdele — kom godt i gang](https://www.rigsarkivet.dk/vejledning/udvandring-til-andre-verdensdele-kom-godt-i-gang/), Rigsarkivet.
 [^2]: [Dansk udvandring til USA, 1820-1930](https://danmarkshistorien.lex.dk/Dansk_udvandring_til_USA,_1820-1930), danmarkshistorien.dk (Aarhus Universitet). Grundlaget for tallene er Kristian Hvidt, *Flugten til Amerika eller Drivkræfter i masseudvandringen fra Danmark 1868-1914* (1971). KRØNIKE gengiver samlede tal som **ordenstørrelser**; opgørelserne varierer med periodeafgrænsning.
 [^3]: [Jacob Riis](https://en.wikipedia.org/wiki/Jacob_Riis): født i Ribe 1849, svendebrev som tømrer, om bord på dampskibet *Iowa* i Glasgow 18. maj 1870 med 40 dollars indsamlet af venner, herefter år på kanten af fattigdom, herunder ophold i politiets herberger. *How the Other Half Lives* udkom 1890. Se også [Jacob Riis Biography](https://home.nps.gov/gate/learn/historyculture/jacob-riis-biography.htm), U.S. National Park Service.
-[^4]: Det Danske Udvandrerarkiv i Aalborg, grundlagt 1932 af den dansk-amerikanske biokemiker Max Henius; arkivet hører i dag under [Aalborg Stadsarkiv](https://www.aalborgstadsarkiv.dk/). Se også DR’s formidling af udvandringen, [Da danskerne udvandrede](https://www.dr.dk/nyheder/webfeature/udvandrerne).
+[^4]: [Det Danske Udvandrerarkiv](https://www.aalborgstadsarkiv.dk/UA.asp?UA=UAEnglish), grundlagt 3. juli 1932 af den dansk-amerikanske biokemiker Max Henius og i dag en del af Aalborg Stadsarkiv. Arkivet hed i sine første år *The Dan-America Archives*; samlingen strækker sig fra 1880'erne til i dag.
+[^5]: Protokollerne kan søges frit på navn, stilling, fødested, sidste opholdssted, bestemmelsessted og årstal i [Udvandrerprotokollen](https://www.aalborgstadsarkiv.dk/UA.asp?UA=UAProtokol), Det Danske Udvandrerarkiv / Aalborg Stadsarkiv (basen returnerede 412.034 personer ved redaktionens opslag 8. august 2026). Opgørelsen 232.452 danske udvandrere og 151.109 udlændinge, heraf 81.092 svenske, for 1868–1912 — samt tallene for mormonafgangene — stammer fra Henning Bender, tidligere leder af Udvandrerarkivet: *Digitalisering af Københavns Politis Udvandrerprotokoller og skibsekspeditioner 1868-1934* (9. marts 2017), [henningbender.dk](https://henningbender.dk/uf/80000_89999/85186/147fbc3edef93502db405037cb3aa17d.pdf). Bemærk, at protokoltallet for danskere er lavere end artiklens 250.000–300.000: billetter solgt af agenter i bl.a. Vejle og Ribe med rute over Hamborg blev ført af de lokale byfogeder, ikke af Københavns Politi. Udvandrerarkivets eget domæne, udvandrerarkivet.dk, afviste forbindelser ved redaktionens kontrol 8. august 2026; adressen ovenfor er arkivets nuværende.
+[^6]: 17.000 danske mormoner fra 1850 til begyndelsen af 1900-tallet: DR, [Da danskerne udvandrede](https://www.dr.dk/nyheder/webfeature/udvandrerne). Tallet varierer i litteraturen efter periodeafgrænsning og efter, om man tæller konvertitter eller faktisk udrejste.
