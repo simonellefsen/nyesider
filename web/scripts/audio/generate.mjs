@@ -2,7 +2,7 @@
 import { readFileSync, writeFileSync, mkdirSync, existsSync, readdirSync, statSync } from 'node:fs';
 import { dirname, resolve, relative } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { S3Client, PutObjectCommand } from '@aws-sdk/client-s3';
+import { DeleteObjectsCommand, ListObjectsV2Command, PutObjectCommand, S3Client } from '@aws-sdk/client-s3';
 import { audioObjectParams, calibrationText, contentHash, joinMp3, mp3DurationSeconds, shouldGenerateAudio, spokenText, splitForTts } from './lib.mjs';
 import { synthesizeSpeech } from './providers.mjs';
 
@@ -191,6 +191,54 @@ function prune() {
 	console.log(`${removed} redaktionelle lydmetadata fjernet. Versionerede R2-objekter bliver liggende, indtil de ryddes op eksplicit.`);
 }
 
+function removeAllAudioMetadata() {
+	let removed = 0;
+	for (const issueFile of issueFiles()) {
+		const issue = JSON.parse(readFileSync(issueFile, 'utf8'));
+		let changed = false;
+		for (const article of issue.articles ?? []) {
+			if (article.audio) {
+				delete article.audio;
+				removed += 1;
+				changed = true;
+			}
+		}
+		if (changed) writeFileSync(issueFile, `${JSON.stringify(issue, null, 2)}\n`);
+	}
+	return removed;
+}
+
+async function cloudAudioObjects() {
+	const { client, bucket } = r2Client();
+	const objects = [];
+	let continuationToken;
+	do {
+		const page = await client.send(new ListObjectsV2Command({ Bucket: bucket, ContinuationToken: continuationToken }));
+		objects.push(...(page.Contents ?? []));
+		continuationToken = page.NextContinuationToken;
+	} while (continuationToken);
+	if (objects.some((object) => !object.Key?.startsWith('articles/'))) {
+		throw new Error('bucketen indeholder objekter uden for articles/; stop for at beskytte andet indhold');
+	}
+	return { client, bucket, objects };
+}
+
+async function purge() {
+	const { client, bucket, objects } = await cloudAudioObjects();
+	const bytes = objects.reduce((total, object) => total + (object.Size ?? 0), 0);
+	console.log(`${objects.length} lydobjekter (${bytes} byte) fundet i ${bucket}.`);
+	if (!has('--confirm')) {
+		console.log('Tørkørsel: tilføj --confirm for at fjerne metadata og R2-objekter.');
+		return;
+	}
+	const removedMetadata = removeAllAudioMetadata();
+	for (let start = 0; start < objects.length; start += 1000) {
+		const batch = objects.slice(start, start + 1000).map((object) => ({ Key: object.Key }));
+		if (batch.length) await client.send(new DeleteObjectsCommand({ Bucket: bucket, Delete: { Objects: batch, Quiet: true } }));
+	}
+	console.log(`${removedMetadata} lydmetadata og ${objects.length} R2-objekter fjernet.`);
+}
+
 async function main() {
 	const command = process.argv[2];
 	if (command === 'samples') return samples();
@@ -201,7 +249,8 @@ async function main() {
 	}
 	if (command === 'issue') return issue();
 	if (command === 'prune') return prune();
-	throw new Error('brug: audio:samples | audio:article | audio:issue | audio:prune');
+	if (command === 'purge') return purge();
+	throw new Error('brug: audio:samples | audio:article | audio:issue | audio:prune | audio:purge');
 }
 
 main().catch((error) => fail(error instanceof Error ? error.message : String(error)));

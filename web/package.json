@@ -20,6 +20,7 @@
 		"audio:article": "node scripts/audio/generate.mjs article",
 		"audio:issue": "node scripts/audio/generate.mjs issue",
 		"audio:prune": "node scripts/audio/generate.mjs prune",
+		"audio:purge": "node scripts/audio/generate.mjs purge",
 		"test:audio": "node --test scripts/audio/*.test.mjs"
 	},
 	"devDependencies": {

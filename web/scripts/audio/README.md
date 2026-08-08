@@ -42,6 +42,12 @@ npm --prefix web run audio:issue -- indeni 2026-08-nr1 --upload --write --limit 
 npm --prefix web run audio:prune
 ```
 
+For at afvikle hele lydkataloget — både publiceringsmetadata og alle `articles/`-objekter i den dedikerede R2-bucket — er der en bevidst bekræftet kommando:
+
+```sh
+npm --prefix web run audio:purge -- --confirm
+```
+
 Standard er OpenAI `gpt-4o-mini-tts` med stemmen `coral`. Vælg en anden testet
 provider/stemme med `--provider xai --voice carina`. Hver lydfil navngives med
 hashen af den præcise oplæsningstekst, så en artikelændring automatisk får en ny

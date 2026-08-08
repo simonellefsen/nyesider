@@ -37,13 +37,7 @@
       "title": "Fabrikken før fremtiden",
       "section": "Fabrikken",
       "byline": "GPT-5.6 Terra (OpenAI)",
-      "standfirst": "Humanoider skal måles mod den robotvirkelighed, der allerede står ved samlebåndet.",
-      "audio": {
-        "url": "https://pub-b0c059a9743143be90d4b12d5a54fabf.r2.dev/articles/humanerd/2026-08-nr1/fabrikken-foer-fremtiden/17eb11881649a339d3916bec7f16af4fbdc9398aeff98d40057a69af99023884.mp3",
-        "durationSeconds": 151.2,
-        "contentHash": "17eb11881649a339d3916bec7f16af4fbdc9398aeff98d40057a69af99023884",
-        "generation": "nyesider-tts-v1:openai:shimmer"
-      }
+      "standfirst": "Humanoider skal måles mod den robotvirkelighed, der allerede står ved samlebåndet."
     },
     {
       "slug": "naar-robotten-faar-ben",
@@ -52,13 +46,7 @@
       "title": "Når robotten får ben",
       "section": "Humanoiden",
       "byline": "DeepSeek V3.2 (DeepSeek)",
-      "standfirst": "En annonce, en validering og et skift i drift er tre meget forskellige ting.",
-      "audio": {
-        "url": "https://pub-b0c059a9743143be90d4b12d5a54fabf.r2.dev/articles/humanerd/2026-08-nr1/naar-robotten-faar-ben/589d3ae704cf70ec299de4e7f637d495c76792974024dfbce41acf24d8633c20.mp3",
-        "durationSeconds": 116.1,
-        "contentHash": "589d3ae704cf70ec299de4e7f637d495c76792974024dfbce41acf24d8633c20",
-        "generation": "nyesider-tts-v1:openai:shimmer"
-      }
+      "standfirst": "En annonce, en validering og et skift i drift er tre meget forskellige ting."
     },
     {
       "slug": "kinas-testbane",
@@ -67,13 +55,7 @@
       "title": "Kinas testbane",
       "section": "Verdenskortet",
       "byline": "Claude Fable 5",
-      "standfirst": "Kina er både det største fabriksrobotmarked og en intens scene for nye humanoider.",
-      "audio": {
-        "url": "https://pub-b0c059a9743143be90d4b12d5a54fabf.r2.dev/articles/humanerd/2026-08-nr1/kinas-testbane/9c7ba047260e6d04b10ed218883b9aebb333cb1d84dad22a01969e625ff64668.mp3",
-        "durationSeconds": 115.8,
-        "contentHash": "9c7ba047260e6d04b10ed218883b9aebb333cb1d84dad22a01969e625ff64668",
-        "generation": "nyesider-tts-v1:openai:shimmer"
-      }
+      "standfirst": "Kina er både det største fabriksrobotmarked og en intens scene for nye humanoider."
     },
     {
       "slug": "japan-og-sydkorea",
@@ -82,13 +64,7 @@
       "title": "Japan og Sydkorea: den dybe bund",
       "section": "Verdenskortet",
       "byline": "Claude Fable 5",
-      "standfirst": "Her er produktionen allerede fuld af robotter. Det er den baggrund, nye ben skal stå på.",
-      "audio": {
-        "url": "https://pub-b0c059a9743143be90d4b12d5a54fabf.r2.dev/articles/humanerd/2026-08-nr1/japan-og-sydkorea/4d53fdfde573b47f6fde46c0217a87d2f4ac8694d7474c19574d4fbb8f76ac8a.mp3",
-        "durationSeconds": 113.1,
-        "contentHash": "4d53fdfde573b47f6fde46c0217a87d2f4ac8694d7474c19574d4fbb8f76ac8a",
-        "generation": "nyesider-tts-v1:openai:shimmer"
-      }
+      "standfirst": "Her er produktionen allerede fuld af robotter. Det er den baggrund, nye ben skal stå på."
     },
     {
       "slug": "usa-fra-demo-til-skiftplan",
@@ -97,13 +73,7 @@
       "title": "USA: fra demo til skiftplan",
       "section": "Verdenskortet",
       "byline": "Claude Fable 5",
-      "standfirst": "Amerikanske humanoider møder et marked med færre robotter end Kina — men store logistik- og bilkunder.",
-      "audio": {
-        "url": "https://pub-b0c059a9743143be90d4b12d5a54fabf.r2.dev/articles/humanerd/2026-08-nr1/usa-fra-demo-til-skiftplan/3a6ab449fc737893490db258301f07acf40466d301c9a4d297052d34dde7c050.mp3",
-        "durationSeconds": 113.1,
-        "contentHash": "3a6ab449fc737893490db258301f07acf40466d301c9a4d297052d34dde7c050",
-        "generation": "nyesider-tts-v1:openai:shimmer"
-      }
+      "standfirst": "Amerikanske humanoider møder et marked med færre robotter end Kina — men store logistik- og bilkunder."
     },
     {
       "slug": "europa-koblinger-greb-og-sikkerhed",
@@ -112,13 +82,7 @@
       "title": "Europa: koblinger, greb og sikkerhed",
       "section": "Verdenskortet",
       "byline": "Claude Fable 5",
-      "standfirst": "Europas robotstyrke ligger allerede i controlleren, cellen og den virtuelle prøve før idriftsættelse.",
-      "audio": {
-        "url": "https://pub-b0c059a9743143be90d4b12d5a54fabf.r2.dev/articles/humanerd/2026-08-nr1/europa-koblinger-greb-og-sikkerhed/ab812a6c53814afb9c78dba9e246111a413f5fe81c6fd96c3c73e89f98cabfce.mp3",
-        "durationSeconds": 103.4,
-        "contentHash": "ab812a6c53814afb9c78dba9e246111a413f5fe81c6fd96c3c73e89f98cabfce",
-        "generation": "nyesider-tts-v1:openai:shimmer"
-      }
+      "standfirst": "Europas robotstyrke ligger allerede i controlleren, cellen og den virtuelle prøve før idriftsættelse."
     },
     {
       "slug": "hjernens-fem-lag",
@@ -127,13 +91,7 @@
       "title": "Hjernens fem lag",
       "section": "Hjernen",
       "byline": "Claude Fable 5",
-      "standfirst": "Robot-AI er ikke én hjerne. Det er et forløb fra blik til bremse.",
-      "audio": {
-        "url": "https://pub-b0c059a9743143be90d4b12d5a54fabf.r2.dev/articles/humanerd/2026-08-nr1/hjernens-fem-lag/6f01d2ada27a7efb04615224f53e2bef204dcdd83c57b41e3ddb28351adae5db.mp3",
-        "durationSeconds": 115,
-        "contentHash": "6f01d2ada27a7efb04615224f53e2bef204dcdd83c57b41e3ddb28351adae5db",
-        "generation": "nyesider-tts-v1:openai:shimmer"
-      }
+      "standfirst": "Robot-AI er ikke én hjerne. Det er et forløb fra blik til bremse."
     },
     {
       "slug": "hjemmet-er-ikke-en-fabrik",
@@ -142,13 +100,7 @@
       "title": "Hjemmet er ikke en fabrik",
       "section": "Hjemmet",
       "byline": "Claude Fable 5",
-      "standfirst": "Husholdningsrobotten lever i rod, tæpper, børn, kæledyr og private kort over hjemmet.",
-      "audio": {
-        "url": "https://pub-b0c059a9743143be90d4b12d5a54fabf.r2.dev/articles/humanerd/2026-08-nr1/hjemmet-er-ikke-en-fabrik/6d950009d3e27ae43148481ae9e9f177c56f65a17f31cc392476f24d8d328250.mp3",
-        "durationSeconds": 97.9,
-        "contentHash": "6d950009d3e27ae43148481ae9e9f177c56f65a17f31cc392476f24d8d328250",
-        "generation": "nyesider-tts-v1:openai:shimmer"
-      }
+      "standfirst": "Husholdningsrobotten lever i rod, tæpper, børn, kæledyr og private kort over hjemmet."
     },
     {
       "slug": "tallet",
@@ -157,13 +109,7 @@
       "title": "Tallet: robotter i fem mål",
       "section": "Tallet",
       "byline": "Claude Fable 5",
-      "standfirst": "Hårde tal bliver nyttige, når måleenheden kommer med.",
-      "audio": {
-        "url": "https://pub-b0c059a9743143be90d4b12d5a54fabf.r2.dev/articles/humanerd/2026-08-nr1/tallet/e8cd52aa9535d17c6be1f5a2a8c9ddd2875318b805fac74e1863dc17fcfce08d.mp3",
-        "durationSeconds": 53.2,
-        "contentHash": "e8cd52aa9535d17c6be1f5a2a8c9ddd2875318b805fac74e1863dc17fcfce08d",
-        "generation": "nyesider-tts-v1:openai:shimmer"
-      }
+      "standfirst": "Hårde tal bliver nyttige, når måleenheden kommer med."
     },
     {
       "slug": "ordbogen",
@@ -181,13 +127,7 @@
       "title": "Påstandskontoret",
       "section": "Påstandskontoret",
       "byline": "Claude Fable 5",
-      "standfirst": "Tre sætninger, der er for enkle til at være rigtige.",
-      "audio": {
-        "url": "https://pub-b0c059a9743143be90d4b12d5a54fabf.r2.dev/articles/humanerd/2026-08-nr1/paastandskontoret/bb39f7beac86a79ffa835c791058bd3b7899bccd3aed1cf0160bd5faa82bb8ab.mp3",
-        "durationSeconds": 77.8,
-        "contentHash": "bb39f7beac86a79ffa835c791058bd3b7899bccd3aed1cf0160bd5faa82bb8ab",
-        "generation": "nyesider-tts-v1:openai:shimmer"
-      }
+      "standfirst": "Tre sætninger, der er for enkle til at være rigtige."
     }
   ]
 }

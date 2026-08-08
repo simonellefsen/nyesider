@@ -30,13 +30,7 @@
       "section": "Tema: Gennembruddet",
       "byline": "GPT-5.6 Terra (OpenAI)",
       "standfirst": "Billige elbiler vælter ind på det europæiske marked i 2026, og for første gang i mange år ligner skiftet til el noget, der også kan ske på en almindelig families budget. Men den nye prisfest har en bagside.",
-      "image": "../images/spaending_folkebil.png",
-      "audio": {
-        "url": "https://pub-b0c059a9743143be90d4b12d5a54fabf.r2.dev/articles/spaending/2026-07-nr1/folkebilen-er-tilbage/e4bbb6b7701c99f901ba36a0f7419c536c8e2a4851143e3b4bbe258f7b352d12.mp3",
-        "durationSeconds": 304.8,
-        "contentHash": "e4bbb6b7701c99f901ba36a0f7419c536c8e2a4851143e3b4bbe258f7b352d12",
-        "generation": "nyesider-tts-v1:openai:shimmer"
-      }
+      "image": "../images/spaending_folkebil.png"
     },
     {
       "slug": "koere-test-bmw-ix3",
@@ -45,13 +39,7 @@
       "title": "BMW iX3 er landet – og den griner ad rækkeviddeangst",
       "section": "Køretest",
       "byline": "Grok 4.5 (xAI)",
-      "standfirst": "Første tur i Neue Klasse-SUV'en med over 800 km WLTP, 400 kW-lynladning og en skærm, der spænder over hele forruden. Velkommen til 2026.",
-      "audio": {
-        "url": "https://pub-b0c059a9743143be90d4b12d5a54fabf.r2.dev/articles/spaending/2026-07-nr1/koere-test-bmw-ix3/e085f2a208d2cdef8daf6e0eb4872722aa37e232fe4b3f48bc0b1e60b9d47b82.mp3",
-        "durationSeconds": 296.4,
-        "contentHash": "e085f2a208d2cdef8daf6e0eb4872722aa37e232fe4b3f48bc0b1e60b9d47b82",
-        "generation": "nyesider-tts-v1:openai:shimmer"
-      }
+      "standfirst": "Første tur i Neue Klasse-SUV'en med over 800 km WLTP, 400 kW-lynladning og en skærm, der spænder over hele forruden. Velkommen til 2026."
     },
     {
       "slug": "faststofbatteriet",
@@ -61,13 +49,7 @@
       "section": "Teknologi",
       "byline": "Gemini 3.5 Flash (Google)",
       "standfirst": "En opsigtsvækkende testtur fra Stuttgart til Malmø har bevist, at teknologien virker i den virkelige verden. Spørgsmålet er, hvornår du kan købe den – og hvad du skal overhøre i bilmærkernes glittede salgskataloger.",
-      "image": "../images/spaending_faststof.png",
-      "audio": {
-        "url": "https://pub-b0c059a9743143be90d4b12d5a54fabf.r2.dev/articles/spaending/2026-07-nr1/faststofbatteriet/1ca460b26150614ef27a2eb76901b08ba3daefcf6c598b23f8d3b66574a9e5c6.mp3",
-        "durationSeconds": 358.5,
-        "contentHash": "1ca460b26150614ef27a2eb76901b08ba3daefcf6c598b23f8d3b66574a9e5c6",
-        "generation": "nyesider-tts-v1:openai:shimmer"
-      }
+      "image": "../images/spaending_faststof.png"
     },
     {
       "slug": "foereloes-i-zagreb",
@@ -77,13 +59,7 @@
       "section": "Teknologi",
       "byline": "Claude Sonnet 5 (Anthropic)",
       "standfirst": "Mens europæiske politikere diskuterer selvkørende biler i konjunktiv, ruller de allerede gennem gaderne i den kroatiske hovedstad. 2026 kan blive året, hvor autonom kørsel går fra teknologidemo til hverdag i Europa – hvis lovgivningen kan følge med.",
-      "image": "../images/spaending_robotaxi.png",
-      "audio": {
-        "url": "https://pub-b0c059a9743143be90d4b12d5a54fabf.r2.dev/articles/spaending/2026-07-nr1/foereloes-i-zagreb/0a509b16d0255b97e84193c214f472ddf80fbc9a2aa699c03f965dd8ba707c32.mp3",
-        "durationSeconds": 347,
-        "contentHash": "0a509b16d0255b97e84193c214f472ddf80fbc9a2aa699c03f965dd8ba707c32",
-        "generation": "nyesider-tts-v1:openai:shimmer"
-      }
+      "image": "../images/spaending_robotaxi.png"
     },
     {
       "slug": "afgiftspokeren",
@@ -92,13 +68,7 @@
       "title": "Den politiske djævlepagt: Når elbilens triumf bliver vejenes ruin",
       "section": "Politik & afgifter",
       "byline": "GLM-5.2 (Z.ai)",
-      "standfirst": "Med finanslovsaftalen er afgiftsstigningerne til 2026 skrinlagt, og de dyre elbiler får en skjult skatterabat. Men når 96 procent af private bilkøbere vælger strøm, mangler nogen at betale for asfalten.",
-      "audio": {
-        "url": "https://pub-b0c059a9743143be90d4b12d5a54fabf.r2.dev/articles/spaending/2026-07-nr1/afgiftspokeren/2e52873aabf16c538cb16d98914382dde6b284cc168ef8568af2d5404e65db2e.mp3",
-        "durationSeconds": 268.5,
-        "contentHash": "2e52873aabf16c538cb16d98914382dde6b284cc168ef8568af2d5404e65db2e",
-        "generation": "nyesider-tts-v1:openai:shimmer"
-      }
+      "standfirst": "Med finanslovsaftalen er afgiftsstigningerne til 2026 skrinlagt, og de dyre elbiler får en skjult skatterabat. Men når 96 procent af private bilkøbere vælger strøm, mangler nogen at betale for asfalten."
     },
     {
       "slug": "rygteboersen",
@@ -116,13 +86,7 @@
       "title": "Elbilen, børnene og den store sommerflugt",
       "section": "Essay",
       "byline": "Mistral Medium 3.5 (Mistral AI)",
-      "standfirst": "En familie, en bil, 1.400 kilometer – og en far, der pludselig ved alt om kilowatt-timer",
-      "audio": {
-        "url": "https://pub-b0c059a9743143be90d4b12d5a54fabf.r2.dev/articles/spaending/2026-07-nr1/essay-sommerflugt/5b8bc4ae9f90055054c66a3fbcaa7564aa2bf529b845ddfa280b6b83c3728ab1.mp3",
-        "durationSeconds": 198.3,
-        "contentHash": "5b8bc4ae9f90055054c66a3fbcaa7564aa2bf529b845ddfa280b6b83c3728ab1",
-        "generation": "nyesider-tts-v1:openai:shimmer"
-      }
+      "standfirst": "En familie, en bil, 1.400 kilometer – og en far, der pludselig ved alt om kilowatt-timer"
     },
     {
       "slug": "kort-og-watt",
@@ -131,13 +95,7 @@
       "title": "Kort & Watt",
       "section": "Kort & Watt",
       "byline": "MiniMax M3 (MiniMax)",
-      "standfirst": "Seks hurtige strøm-nyheder fra elbilverdenen – på 30 sekunder",
-      "audio": {
-        "url": "https://pub-b0c059a9743143be90d4b12d5a54fabf.r2.dev/articles/spaending/2026-07-nr1/kort-og-watt/8971e3d68e3a4e9c7cb7e614f06285cddf1ca714673e533b5b2a43a40de80983.mp3",
-        "durationSeconds": 165.9,
-        "contentHash": "8971e3d68e3a4e9c7cb7e614f06285cddf1ca714673e533b5b2a43a40de80983",
-        "generation": "nyesider-tts-v1:openai:shimmer"
-      }
+      "standfirst": "Seks hurtige strøm-nyheder fra elbilverdenen – på 30 sekunder"
     }
   ]
 }
