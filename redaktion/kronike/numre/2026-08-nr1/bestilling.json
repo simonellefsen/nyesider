@@ -2,7 +2,7 @@
   "magazine": "kronike",
   "issue": "2026-08-nr1",
   "issueTheme": "Riget formes",
-  "retrofitNote": "Første nummer; editor-led produktion 2026-08-08.",
+  "retrofitNote": "Foerste nummer; editor-led produktion 2026-08-08. BEMAERK: opgaver med writer.model == 'editor-led' er skrevet af chefredaktionen, mens bylinen krediterer en model - se notesbogens log 2026-08-08 om byline-integritet. reformation og seksten-fireogtreds er siden reelt kommissioneret hos de modeller, deres byline angiver.",
   "budget": {
     "articles": 12,
     "wordsPerArticle": [
@@ -168,29 +168,34 @@
       "order": 6,
       "section": "Tro & kirke",
       "brief": {
-        "angle": "Det handlede om tro. Det handlede også om klosterjord, bispemagt og en konge, der ville styre ordet.",
+        "angle": "1536 som magtskifte, ikke trosskifte: Grevens Fejde ender med Københavns kapitulation 29. juli 1536, bisperne fængsles, og kirkens jord skifter hænder. Fortæl det gennem mennesker og datoer, ikke som punktopstilling af konsekvenser. Mindst én navngiven aktør ud over Christian 3., én konkret scene, og hvad godsoverdragelsen konkret betød for en fæstebonde.",
         "words": [
-          400,
-          800
+          700,
+          900
         ],
-        "mustCite": 2,
-        "format": "feature"
+        "mustCite": 3,
+        "format": "feature",
+        "depthRequirements": [
+          "mindst ét navngivet menneske ud over den oplagte hovedperson",
+          "mindst én konkret scene eller ét refereret dokument",
+          "mindst ét hårdt tal med kilde"
+        ]
       },
       "writer": {
         "byline": "Claude Opus 4.8 (Anthropic)",
-        "model": "editor-led",
+        "model": "anthropic/claude-opus-4.8",
         "fallback": null
       },
       "receipt": {
-        "words": 404,
-        "costUSD": null,
-        "draft": null
+        "words": 849,
+        "costUSD": 0,
+        "draft": "kladder/06-reformation.md"
       },
       "verdict": {
-        "status": "rewritten-by-editor",
+        "status": "accepted-after-edit",
         "checkedAt": "2026-08-08",
-        "citations": 2,
-        "editorNote": "KRØNIKE nr.1 inaugural; editor-written deep features with footnotes."
+        "citations": 7,
+        "editorNote": "Kommissioneret hos anthropic/claude-opus-4.8 (foerste rigtige model-bestilling i dette nummer; tidligere var alle 12 editor-led). Staerk kladde: navngiven aktoer (Joachim Roennow), konkret scene, faestebonde-perspektiv. Chefredaktoerens rettelser: Roennow var biskop i ROSKILDE (ikke 'Sjaelland'), doede 1. maj 1542 paa Koebenhavns Slot (kladden skrev 1544, hvilket ogsaa gjorde 'otte aar bag mure' forkert - det var knap seks); 30. okt. 1536 er RECESSEN, ikke haandfaestningen; 'syv superintendenter' kunne ikke verificeres og er fjernet; et citat tilskrevet 'historikeren' uden navn er skrevet om til almindelig broedtekst (ingen uattribuerede citater). Kirkegodsandelen maerket som pejlemaerke. Alle fodnoter erstattet med verificerede lex.dk / danmarkshistorien.dk-links."
       }
     },
     {
@@ -258,29 +263,34 @@
       "order": 9,
       "section": "Krig & krise",
       "brief": {
-        "angle": "To hertugdømmer, én krig, og et Danmark der blev mindre — og mere optaget af, hvem “vi” er.",
+        "angle": "1864 fra rømningen af Dannevirke 5.-6. februar til stormen på Dybbøl 18. april: hvad der faktisk skete på bakken, med tal på tabene og en navngiven person. Møllen er symbol — men fortæl først slaget. Skeln mellem danske og preussiske tabstal og mellem samtidens og eftertidens opgørelser.",
         "words": [
-          450,
+          700,
           900
         ],
-        "mustCite": 2,
-        "format": "feature"
+        "mustCite": 3,
+        "format": "feature",
+        "depthRequirements": [
+          "mindst ét navngivet menneske ud over den oplagte hovedperson",
+          "mindst én konkret scene eller ét refereret dokument",
+          "mindst ét hårdt tal med kilde"
+        ]
       },
       "writer": {
         "byline": "Claude Sonnet 5 (Anthropic)",
-        "model": "editor-led",
+        "model": "anthropic/claude-sonnet-5",
         "fallback": null
       },
       "receipt": {
-        "words": 383,
-        "costUSD": null,
-        "draft": null
+        "words": 743,
+        "costUSD": 0,
+        "draft": "kladder/09-seksten-fireogtreds.md"
       },
       "verdict": {
         "status": "rewritten-by-editor",
         "checkedAt": "2026-08-08",
-        "citations": 2,
-        "editorNote": "Depth pass: maps/fact boxes/PD images/research (Slien, Ribe, 1658, Mormon, Ørsted correspondence, etc.)."
+        "citations": 4,
+        "editorNote": "Kommissioneret hos anthropic/claude-sonnet-5. Kladden blev IKKE accepteret: den opfandt en navngiven kilde - 'menig Rasmus Jensen fra 8. Regiment, hvis navn er bevaret i regimentets tabsliste' - praesenteret som dokumenteret person. Det er husreglen om ikke at opdigte, brudt i den mest trovaerdige form: en konkret, verificerbart klingende detalje. Yderligere fejl: Als faldt 29. JUNI 1864, ikke 29. april; slaget varede til kl. 14, ikke 'tyve minutter'; Raasloeff som brigadefoerer og '8.000 granater mod skanse 2 og 3' kunne ikke verificeres; fodnoter pegede paa forsider (natmus.dk/1864 m.fl.). Omskrevet af chefredaktionen med verificerede tal og Monrad som den reelle navngivne aktoer - det var politik, ikke militaer noedvendighed, der holdt haeren paa banken."
       }
     },
     {

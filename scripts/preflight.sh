@@ -28,8 +28,15 @@ npm --prefix web run check
 echo "==> [4/5] web unit tests"
 npm --prefix web run test:audio
 
-echo "==> [5/5] web production build (sync-assets + content errors + vite)"
+echo "==> [5/6] web production build (sync-assets + content errors + vite)"
 npm --prefix web run build
+
+# Non-blocking on purpose. A dead link is a real content bug, but it lives on
+# someone else's server: making it block every push would mean a third party's
+# downtime (or a rate limiter) stops unrelated work. Results are cached 7 days,
+# so this is usually instant. Fix what it reports — don't let it become wallpaper.
+echo "==> [6/6] external links (advisory — does not block the push)"
+python3 production/check_links.py || true
 
 echo ""
 echo "Preflight OK — safe to push."

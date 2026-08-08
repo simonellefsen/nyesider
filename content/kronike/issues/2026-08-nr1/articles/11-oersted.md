@@ -55,7 +55,7 @@ Bemærk, at sproget er 1800-tallets dansk med gammel retskrivning (*Aanden*, ikk
 
 ### Eftermæle
 
-Navnet lever i priser, gader og energiselskaber — og i årtier lå det i danskernes tegnebøger. Ørsted var portrætteret på **100-kronesedlen** i Nationalbankens “portræt og landskab”-serie, med et kompas og en strømførende leder ved siden af hovedet og **Kronborg** på bagsiden.[^5] Det er en usædvanlig præcis pengeseddel: motivet forklarer faktisk, hvad manden opdagede.
+Navnet lever i priser, gader og energiselskaber — og i årtier lå det i danskernes tegnebøger. Fra **1962** var Ørsted portrætteret på **100-kronesedlen** i Nationalbankens “portræt og landskab”-serie: ikke bare et hoved, men manden *sammen med sit forsøg* — kompasset og den strømførende ledning. På bagsiden **Kronborg**, tegnet af illustratoren **Ib Andersen**.[^5] Det er en usædvanlig præcis pengeseddel: motivet forklarer faktisk, hvad manden opdagede.
 
 KRØNIKE’s pejling: husk **1820**, **netværket** og **mennesket** — ikke kun busten.
 
@@ -63,4 +63,4 @@ KRØNIKE’s pejling: husk **1820**, **netværket** og **mennesket** — ikke ku
 [^2]: M. C. Harding (red.), *Correspondance de H. C. Örsted avec divers savants* (1920) — bl.a. Berzelius, Hansteen, Ritter, Faraday, Gauss; tilgængelig via arkiver/digitalisering.
 [^3]: H.C. Ørsted, *Experimenta circa effectum conflictus electrici in acum magneticam* (København, 1820). Faksimile: [archive.org](https://archive.org/details/Experimentacirc00Orst); [Smithsonian Libraries](https://library.si.edu/digital-library/book/experimentacirc00orst) (public domain).
 [^4]: [Projekt Runeberg — H.C. Ørsted](https://runeberg.org/authors/orstehan.html); *Aanden i Naturen* (1850) scannet via Google Book Search.
-[^5]: [Danmarks Nationalbank — historiske pengesedler](https://www.nationalbanken.dk/da/vi-goer/sedler-og-moenter/historiske-pengesedler): 100-kronesedlen med “portræt af videnskabsmanden Hans Christian Ørsted og et kompas med elektrisk ledning / Kronborg Slot”. Selve seddelmotivet er ophavsretligt beskyttet af Nationalbanken og gengives derfor ikke her.
+[^5]: [Danmarks Nationalbank — historiske sedler](https://www.nationalbanken.dk/en/what-we-do/notes-and-coins/historical-banknotes): “Portrait of the scientist Hans Christian Ørsted and a compass with an electrical wire / Kronborg Castle”. Årstal 1962 og Ib Andersen som tegner af Kronborg-motivet: [lex.dk — 100-kroneseddel](https://lex.dk/100-kroneseddel). Selve seddelmotivet er ophavsretligt beskyttet af Nationalbanken og gengives derfor ikke her.

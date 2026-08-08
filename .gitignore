@@ -24,3 +24,6 @@ content/**/images/p0*_img*.png
 # Python
 __pycache__/
 *.pyc
+
+# Link-check cache (production/check_links.py)
+.linkcache.json
