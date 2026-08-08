@@ -1,0 +1,223 @@
+{
+  "magazine": "kulturboxen",
+  "issue": "2026-08-nr1",
+  "issueTheme": "Supra og tillid",
+  "kultur": "Georgien",
+  "integrityNote": "Skrevet fra bunden 2026-08-09. Nr. 1 blev oprindeligt udgivet 2026-08-01 UDEN bestilling.json — ingen brief, intet verdikt, ingen kvittering for nogen af de 15 artikler — samtidig med byline til navngivne modeller. Hele nummeret produceres forfra på titlens egen nøgle (.env.kulturboxen).",
+  "budget": {
+    "articles": 14,
+    "wordsPerArticle": [
+      550,
+      850
+    ],
+    "targetPages": 16,
+    "note": "Den afpublicerede udgave var 15 artikler på 4.223 ord — gennemsnit 281. Ordbogen fjernes, jf. notesbogens formatregel. Et kulturmagasin med 281 ord pr. emne kan kun nå at generalisere; nuancen kræver plads."
+  },
+  "redaktionelAdvarsel": "TO RISICI I DETTE NUMMER, som gælder HVER artikel. (1) STEREOTYPI: vi skriver om en levende kultur og et land med 3,7 mio. mennesker, ikke om en turistattraktion. Skriv aldrig «georgiere er…». Skriv hvad der er udbredt, hvor det varierer (by mod land, generation, region, klasse), og hvad en dansk læser let misforstår. Sammenligning med Danmark er et redskab til at se sig selv — ikke en karakterskala. (2) AT UDELADE KRISEN: Georgien har siden efteråret 2024 været i en dyb politisk krise med daglige demonstrationer. Et blad om «hvordan folk lever», der beskriver landet som om intet var hændt, ville vildlede læseren. Krisen skal med, hvor den hører til — ikke som pynt på hver side.",
+  "researchNote": "ADVARSEL: dette felt naar IKKE modellens prompt — kun brief.angle. Alle tal er derfor skrevet ind i de enkelte briefs. Kontrolleret 2026-08-09. BEFOLKNING OG OEKONOMI: 3,7 mio. indbyggere pr. 1. januar 2025. BNP pr. indbygger 2025: ca. 10.296 USD nominelt og ca. 30.770 USD koebekraftskorrigeret (PPP) — forskellen mellem de to tal er selv en pointe. Arbejdsloeshed 13,9 % ved udgangen af 2024, stabil ved udgangen af 2025, ned fra 20,6 % i 2021. Oekonomien voksede 7,5 % i 2025. BNI pr. indbygger fra 3.036 USD i 2010 til 6.535 USD i 2024. POLITIK: EU-kandidatstatus tildelt december 2023. Omstridt parlamentsvalg 26. oktober 2024. Premierminister Irakli Kobakhidze meddelte 28. november 2024, at tiltraedelsesbestraebelserne blev sat i bero indtil 2028. Daglige demonstrationer siden — over 465 dage i 2026. Europa-Kommissionens udvidelsesrapport 4. november 2025 kalder Georgien 'a candidate country in name only'. Loven om udenlandske agenter kraever registrering af organisationer med mindst 20 % udenlandsk finansiering. UNESCO IMMATERIEL KULTURARV: georgisk flerstemmig sang (mesterpraes 2001, repraesentativ liste 2008); qvevri-vinfremstilling (2013); den levende kultur omkring de TRE georgiske skriftsystemer (2016).",
+  "opgaver": [
+    {
+      "slug": "leder",
+      "order": 1,
+      "section": "Leder",
+      "brief": {
+        "angle": "Hvorfor KULTURBOXEN, og hvorfor Georgien først. Temaet er supra og tillid: et land, hvor gæstfrihed er en højt udviklet social teknologi, og hvor tilliden til staten samtidig er under hårdt pres. Skal sige rent ud, hvad bladet lover om generaliseringer, tal, kilder og byline.",
+        "words": [
+          350,
+          500
+        ],
+        "mustCite": 0,
+        "format": "leder"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": null,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": null,
+        "checkedAt": null,
+        "citations": 0,
+        "editorNote": "Lederen skrives af chefredaktionen og får derfor INGEN byline."
+      }
+    },
+    {
+      "slug": "kulturen-i-fokus",
+      "order": 2,
+      "section": "Kulturen i fokus (destination / folk)",
+      "brief": {
+        "angle": "Georgien præsenteret for en dansk læser, der måske kun kender navnet. Land på 3,7 mio. mennesker (2025) i Kaukasus, med eget sprog og eget alfabet — faktisk TRE skriftsystemer, hvis levende kultur står på UNESCO's liste over immateriel kulturarv siden 2016. Ortodoks kirke med stor samfundsmæssig vægt. Beliggende mellem Rusland, Tyrkiet og Sortehavet, med to udbryderregioner. Og siden efteråret 2024 i en dyb politisk krise: EU-kandidatstatus fra december 2023, omstridt valg 26. oktober 2024, regeringens beslutning 28. november 2024 om at sætte EU-tiltrædelsen i bero indtil 2028, og daglige demonstrationer lige siden. Europa-Kommissionen kaldte i november 2025 landet en kandidat 'kun af navn'. SKRIV DETTE SOM BAGGRUND en læser skal have for at forstå resten af nummeret — ikke som en politisk leder. Undgå «georgierne mener»: et land i protest er per definition uenigt med sig selv.",
+        "words": [
+          650,
+          900
+        ],
+        "mustCite": 3,
+        "mustNumber": [
+          "3,7 mio. (2025)",
+          "kandidatstatus dec. 2023",
+          "26. oktober 2024",
+          "bero indtil 2028"
+        ],
+        "format": "feature"
+      },
+      "writer": {
+        "byline": null,
+        "model": "anthropic/claude-opus-4.8",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": null,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": null,
+        "checkedAt": null,
+        "citations": null,
+        "editorNote": null
+      }
+    },
+    {
+      "slug": "supra-og-bordet",
+      "order": 3,
+      "section": "Spise & drikke",
+      "brief": {
+        "angle": "Supraen — det georgiske festmåltid — som social teknologi frem for som turistoplevelse. Forklar tamadaen (skålmesteren) og skåltalernes rækkefølge som en STRUKTUR, ikke som hygge: hvem der taler hvornår, hvad man skåler for, og hvorfor det binder værter, gæster, fraværende og døde sammen. Tag qvevri-vinfremstillingen med — lerkarrene begravet i jorden, på UNESCO's liste siden 2013 — men undgå «vinens vugge»-turistsproget og skriv i stedet hvad vinen GØR socialt. Vær ærlig om, at gæstfrihed her også er en statusmarkør og kan koste værten dyrt, og at supraen kan opleves som pres af en dansk gæst, der er vant til at markere grænser tidligt. Begge dele kan være sande. Skriv ALDRIG at alle georgiere holder supra hele tiden.",
+        "words": [
+          650,
+          900
+        ],
+        "mustCite": 2,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": null,
+        "model": "google/gemini-3.1-pro-preview",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": null,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": null,
+        "checkedAt": null,
+        "citations": null,
+        "editorNote": null
+      }
+    },
+    {
+      "slug": "skat-og-stat",
+      "order": 10,
+      "section": "Skat, stat & tillid",
+      "brief": {
+        "angle": "Nummerets tungeste artikel: tilliden mellem borger og stat. Georgien gennemførte i 2000'erne omfattende reformer, der gjorde landet kendt for lav korruption i hverdagen — politi, registre, offentlig service — og det er en reel og målt forandring. Men tillid til INSTITUTIONER er noget andet end fravær af smårøverier, og dér er billedet i 2026 dystert. Efter det omstridte valg 26. oktober 2024 satte regeringen 28. november EU-tiltrædelsen i bero indtil 2028; der har været daglige demonstrationer siden, i over 465 dage; og loven om udenlandske agenter kræver registrering af organisationer med mindst 20 % udenlandsk finansiering — en konstruktion, kritikere sammenligner med russisk lovgivning. Europa-Kommissionen kaldte i sin udvidelsesrapport 4. november 2025 Georgien en kandidat 'kun af navn'. Skriv dette som et spørgsmål om HVERDAG: hvad betyder det for en borger, en NGO-ansat, en journalist? Vær faktuel, ikke agiterende, og undgå at tale på georgieres vegne.",
+        "words": [
+          700,
+          950
+        ],
+        "mustCite": 4,
+        "mustNumber": [
+          "26. oktober 2024",
+          "28. november 2024",
+          "bero indtil 2028",
+          "20 % udenlandsk finansiering",
+          "4. november 2025"
+        ],
+        "format": "feature"
+      },
+      "writer": {
+        "byline": null,
+        "model": "anthropic/claude-opus-4.8",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 705,
+        "costUSD": 0.06769,
+        "draft": "kladder/10-skat-og-stat.md",
+        "costRouting": "byok",
+        "generationId": "gen-1786231128-A6itbclMstVfqVAq51Nn"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-09",
+        "citations": 4,
+        "editorNote": "REELT kommissioneret hos anthropic/claude-opus-4.8 paa .env.kulturboxen (BYOK, generationId registreret); kladde i kladder/10-skat-og-stat.md. Nummerets vanskeligste artikel, og kladden loeste den med usaedvanlig omtanke. Den fandt selv den distinktion, hele artiklen hviler paa: fravaer af hverdagskorruption og tillid til INSTITUTIONER er to forskellige ting, og man kan have det foerste i verdensklasse samtidig med at det andet vakler. Formuleringen 'effektivitet og tillid er ikke det samme' er kladdens egen. Den overholdt ogsaa begge redaktionelle advarsler uopfordret: den skrev udtrykkeligt, at redaktionen ikke taler paa georgieres vegne, at regeringspartiet har reel opbakning, og at et land i protest per definition er uenigt med sig selv — og den holdt fast i, at skranken for den almindelige borger er stort set uaendret, saa laeseren ikke forestiller sig et land i oploesning. KILDEKONTROL: kladden angav Venedigkommissionens dokumentnummer CDL-AD(2024)020. Kontrolleret og KORREKT — hasteudtalelsen af 21. maj 2024, tiltraadt paa 139. plenarforsamling i juni, med anbefaling om at ophaeve loven i dens nuvaerende form. Endnu en praecis reference leveret uopfordret. Redaktionelt: fodnoterne var dels bare domaener, dels et Reuters-link bag betalingsmur (401) og et Venedigkommission-PDF, der gav 502 — alle erstattet af stabile, kontrollerede sider hos Raadet, Kommissionen, Transparency International og Venedigkommissionens dokumentsamling. Venedigkommissionens ROLLE og selve anbefalingens indhold er skrevet ind i broedteksten, hvor kladden kun naevnte den i forbifarten."
+      }
+    },
+    {
+      "slug": "tallet",
+      "order": 12,
+      "section": "Tallet / pejlemærker",
+      "brief": {
+        "angle": "Pejlemærker med årstal, side om side med Danmark — til sammenligning, ikke som karakterbog. Brug: befolkning 3,7 mio. (1. januar 2025) mod Danmarks ca. 6 mio.; BNP pr. indbygger 2025 ca. 10.296 USD NOMINELT mod ca. 30.770 USD KØBEKRAFTSKORRIGERET (PPP) — og forklar hvorfor de to tal for samme land og år er så forskellige, for det er artiklens vigtigste lektion; arbejdsløshed 13,9 % ved udgangen af 2024, stabil gennem 2025, ned fra 20,6 % i 2021; økonomisk vækst 7,5 % i 2025; BNI pr. indbygger fra 3.036 USD i 2010 til 6.535 USD i 2024. Skriv et afsnit om, hvad tallene IKKE fanger: uformel økonomi, pengeoverførsler fra udvandrede familiemedlemmer, og at et gennemsnit i et land med store regionale forskelle skjuler mere end i Danmark. ANGIV ALDRIG et dansk tal, du ikke kan kildebelægge — skriv hellere at det mangler.",
+        "words": [
+          500,
+          750
+        ],
+        "mustCite": 3,
+        "mustNumber": [
+          "3,7 mio.",
+          "10.296 USD nominelt",
+          "30.770 USD PPP",
+          "13,9 %",
+          "20,6 % i 2021",
+          "7,5 % vækst"
+        ],
+        "format": "tallet"
+      },
+      "writer": {
+        "byline": null,
+        "model": "openai/gpt-5.6-terra",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": null,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": null,
+        "checkedAt": null,
+        "citations": null,
+        "editorNote": null
+      }
+    },
+    {
+      "slug": "myter",
+      "order": 13,
+      "section": "Rygtebørsen / myter",
+      "brief": {
+        "angle": "Afmontér tre-fire myter om Georgien, som en dansk læser sandsynligvis bærer rundt på — fx at det er «Rusland light», at alle drikker enormt, at gæstfriheden er uforbeholden, eller at landet er farligt. Vis i hvert tilfælde hvad myten bygger på, hvad der faktisk gælder, og hvor der er reel variation. Formatet må gerne være kærligt, men ikke forsvarstale: hvis en myte har en kerne af noget rigtigt, så sig det. ABSOLUT KRAV: opfind aldrig en undersøgelse eller et citat. Kan en påstand ikke afgøres, så skriv at den ikke kan afgøres.",
+        "words": [
+          500,
+          750
+        ],
+        "mustCite": 0,
+        "format": "myter"
+      },
+      "writer": {
+        "byline": null,
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": null,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": null,
+        "checkedAt": null,
+        "citations": null,
+        "editorNote": null
+      }
+    }
+  ]
+}
