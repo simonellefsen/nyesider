@@ -1,0 +1,35 @@
+name: Preflight
+
+# Same gates as local scripts/preflight.sh / git pre-push, so broken
+# content or web changes fail in GitHub before (or alongside) Vercel.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+concurrency:
+  group: preflight-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  preflight:
+    name: lint · test · build
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+          cache-dependency-path: web/package-lock.json
+
+      - name: Install web dependencies
+        run: npm --prefix web ci
+
+      - name: Preflight (content errors, svelte-check, tests, production build)
+        run: bash scripts/preflight.sh
