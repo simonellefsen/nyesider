@@ -1,54 +1,58 @@
 ---
-title: "Thorium: Copenhagen Atomics og det konkrete spor"
-standfirst: Et dansk firma vil masseproducere smeltet-salt-reaktorer på thorium. Her er hardware, tidslinje og det, der stadig mangler — uden PowerPoint-filter.
+title: "Thorium: saltet, der har kørt i to år"
+standfirst: I et industrilokale i København cirkulerer en pumpe smeltet salt. Den har gjort det i omkring to år — og det er faktisk nyheden.
 section: Atom
 order: 4
 ---
 
-Thorium er ikke længere kun et internet-yndlingsemne. I København sidder **Copenhagen Atomics** og bygger prototyper af en **smeltet-salt-reaktor** (MSR — *molten salt reactor*), der skal bruge thorium, modereres med utryksat tungtvand og sigte mod containermoduler, der kan samles på samlebånd.[^1] KRAFTENs opgave er den samme som altid: skille **hvad der er bygget** fra **hvad der er lovet**.
+I et industrilokale i København står en pumpe og cirkulerer smeltet salt. Den har kørt, med afbrydelser til vedligehold, i omkring **to år**.
 
-### Hvad de siger, de bygger
+Det lyder ikke som en forsidenyhed. For det danske selskab **Copenhagen Atomics** er de to år ikke desto mindre et af de vigtigste beviser, virksomheden har: at konceptet kan holde sammen på sig selv i praksis og ikke kun på papiret.[^1]
 
-Ifølge selskabet og branchemeldier er målet en modulær reaktor på omkring **100 MWt** (megawatt termisk — varmeeffekt, ikke det samme som elektrisk nettoproduktion), lille nok til at kunne masseproduceres, med ambition om meget lav LCOE (*levelized cost of energy*: gennemsnitlig produktionsomkostning pr. energienhed over levetiden) i størrelsesordenen **20 euro pr. MWh** — et tal, der er **selskabets mål**, ikke en uafhængig garanti.[^2] Designet beskrives som i stand til at bruge thorium og til at "spise" visse typer affald/transuraner fra konventionelt brugt brændsel som start, når neutronøkonomien skal i gang.[^1][^2]
+### Hvad er en saltsmeltereaktor?
 
-En thorium-cyklus er stadig ikke "bare skift brændselsstave i en almindelig letvandsreaktor". Den kræver typisk en **starter** (ofte uran eller plutonium) og en brændselskæde, der i stor skala endnu ikke findes i Europa.
+Næsten alle atomkraftværker i drift i dag bruger **fast brændsel** — typisk uran formet som keramiske piller, pakket i metalstave og kølet af vand under højt tryk. Det stiller store krav til trykbeholdere og sikkerhedssystemer, fordi vandet skal holdes flydende ved ekstreme temperaturer.
 
-### Tidslinje (som den ser ud i 2026)
+En **saltsmeltereaktor** (*molten salt reactor*, MSR) gør noget grundlæggende andet: brændslet opløses i et smeltet saltbad, som cirkulerer gennem reaktoren og et kølekredsløb — nogenlunde som varmt vand i et fjernvarmerør. Saltet er både brændsel og kølemiddel.
 
-Copenhagen Atomics' egen milepælsfortælling — og dækning i *World Nuclear News*, *Nuclear Engineering International* m.fl. — tegner omtrent dette billede:[^1][^2][^3]
+Fordi saltet allerede er flydende ved normalt tryk ved de relevante temperaturer, undgår man i princippet de tunge trykbeholdere. Går noget galt, kan saltet i visse designs løbe ned i en opsamlingstank og størkne — en indbygget sikkerhedsmekanisme, som tilhængere fremhæver.
 
-| Periode | Status (selskab / dækning) |
-|---|---|
-| **2023** | Vand-prototype — opnået |
-| **2024** | Højtemperatur smeltet-salt-prototype (bl.a. FLiNaK) — opnået |
-| **2026** | Produktion af fertile salte (FLiTh / FLiU); "fertile prototype" som kommende milepæl; forberedelse til mere avancerede tests |
-| **2026–27** | LEU-subkritisk prototype (*low enriched uranium*: lavt beriget uran) planlagt i selskabets roadmap |
-| **~2028** | Første **kædereaktion** / demo — selskabet pejler det schweiziske Paul Scherrer Institut (PSI); ca. **1 MWt** demo-reaktor nævnes som mål |
-| **Tidligt 2030'erne** | Kommerciel thorium-reaktor / installeret kapacitet og masseproduktion ifølge selskabets ambitioner |
+Konceptet er ikke nyt. Idéen og de tidlige forsøg går tilbage til det amerikanske **Oak Ridge National Laboratory** i 1960'erne. Det blev lagt på hylden, blandt andet fordi datidens atomprogrammer prioriterede reaktortyper, der **også** kunne producere materiale til våben. Saltsmeltereaktorer — særligt thoriumbaserede — er dårligere egnede til netop det. I dag fremhæves det som en fordel. Dengang var det et finansieringsproblem.
 
-To vigtige forbehold:
+### Hvorfor thorium?
 
-1. **Datoer rykker.** Tidligere kommunikation har peget på kritiske tests tidligere; i 2026 lyder den offentlige linje oftere **ikke før ~2028** for den første kædereaktion på PSI.[^1][^3]  
-2. **Demo ≠ flåde.** En 1 MWt-test er milepæl for fysik og materialer. **100 MWt**-moduler på samlebånd kræver licens, fabrik, forsyningskæde og en myndighed, der siger ja — i et eller flere lande.
+**Uran-235**, det almindelige reaktorbrændsel, er sjældent: det udgør under 1 % af naturligt uran. **Thorium** er mere udbredt i jordskorpen end uran og kræver ikke samme grad af berigelse.
 
-I februar 2026 rapporterede *World Nuclear News*, at selskabet havde gennemført **to års kontinuerlig** pumpetest — en jordnær, men vigtig industri-milepæl for smeltet salt under drift.[^2]
+Men thorium er ikke i sig selv **spalteligt** — det kan ikke holde en kædereaktion i gang. Det skal først optage neutroner og omdannes til **uran-233** inde i reaktoren. Det er en teknisk detalje med store konsekvenser: en thoriumreaktor skal «tændes» med en anden neutronkilde eller lidt uran, før thoriumkredsløbet kan overtage.
 
-### Hype-testen (stadig gyldig)
+Fortalere peger på mindre langlivet affald og et brændsel, der er sværere at omdirigere til våben. Kritikere peger på, at teknologien er langt mindre moden end konventionel uranteknologi — og at «mindre affald» og «sikrere» er påstande, der først kan efterprøves, når reaktorer faktisk har kørt i årevis under realistiske forhold.
 
-Når thorium sælges, spørg:
+### Hvor langt er Copenhagen Atomics?
 
-1. **Er det en kædereaktion i dag — eller en salt-loop uden fission?**  
-2. **Hvor mange MWt er licenseret og i net?** (Svaret for Copenhagen Atomics i 2026: **nul kommercielle enheder i drift.**)  
-3. **Hvem godkender den første rigtige reaktor — og hvornår har de sagt ja sort på hvidt?**
+Selskabet er ikke et kraftværk. Det er en prototypevirksomhed med en plan.
 
-Copenhagen Atomics er blandt de mest **hardware-orienterede** thorium-spor i Europa lige nu: prototyper, pumper, salt, aftale om tests i Schweiz. Det er mere end slides. Det er stadig **ikke** billig baseload i stikkontakten i 2026.
+Pr. 2026 har Copenhagen Atomics færdiggjort **to prototypereaktorer**, og en tredje ventes i løbet af 2026. Det tekniske resultat, virksomheden selv fremhæver, er de to års kontinuerlige drift af saltsmeltepumpe og testkreds — en udholdenhedsprøve, der skal vise, at det korrosive, ekstremt varme salt ikke æder pumper og rør op over tid.[^1]
 
-### Bundlinje for KRAFTEN
+Korrosion har historisk været en af de sværeste forhindringer for saltsmelteteknologi. At en pumpe kører i to år er derfor ikke en detalje; det er selve det problem, konceptet er faldet på før.
 
-Thorium-historien er ikke død, og den er ikke færdig. Følg **PSI-demoen**, salt- og materialegodkendelser, og den første myndighed der tør give en rigtig licens. Indtil da: respekter prototypen — og lad være med at booke 20 euro/MWh ind i energisystemet, før reaktoren har et serienummer.
+Næste skridt foregår ikke i Danmark. Copenhagen Atomics har indgået samarbejde med det schweiziske forskningsinstitut **Paul Scherrer Institut** (PSI) om at gennemføre et **kritisk** thorium-saltsmelteforsøg, planlagt til **2026–27**.[^2]
 
-[^1]: [Copenhagen Atomics](https://www.copenhagenatomics.com/) — MSR/thorium, masseproduktion, kædereaktion på [Paul Scherrer Institut (PSI)](https://www.psi.ch/) pejlet til **2028**; kommerciel horisont tidligt **2030'erne**.
+### Hvorfor «kritisk» er ordet, alt måles på
 
-[^2]: [*World Nuclear News*, 10. feb. 2026](https://www.world-nuclear-news.org/articles/copenhagen-atomics-reaches-pump-testing-milestone) — pumpetest-milepæl; 100 MWt containeriseret design; tungtvandsmodereret; mål om lav LCOE (selskabets tal).
+I atomfysik betyder «kritisk» noget helt bestemt: punktet, hvor en kædereaktion netop kan opretholde sig selv — hverken dø ud eller løbe løbsk — fordi antallet af neutroner, der udløser nye spaltninger, er i balance.
 
-[^3]: [Copenhagen Atomics](https://www.copenhagenatomics.com/) invest/roadmap og branchenyheder 2026 (bl.a. *Nuclear Engineering International*) — fertile salt 2026, LEU-subkritisk, 1 MWt-demo; tidligere mere optimistiske årstal er skubbet.
+Et kritisk forsøg er derfor den milepæl, hvor et koncept flytter sig fra beregninger og simuleringer til en fysisk, målbar kædereaktion, om end i lille og kontrolleret skala.
+
+Det er præcis derfor, forsøget hos PSI vejer så tungt. Alt, hvad Copenhagen Atomics hidtil har vist — pumper, testkredse, materialeforsøg — er nødvendige forudsætninger. Ingen af delene beviser, at thoriumkredsløbet kan holde en kædereaktion kørende. Det gør et kritisk forsøg.
+
+Efter den offentliggjorte tidsplan skal den første egentlige kædereaktion i samarbejdet finde sted hos PSI i **2028**.[^3] Det er en planlagt milepæl. Ikke en indfriet.
+
+### Nøgternt gjort op
+
+Copenhagen Atomics er, hvad det ser ud til at være: et selskab med prototyper, en pumpe der har kørt længe, og en plan lagt sammen med et anerkendt europæisk forskningsinstitut.
+
+Det er ikke et kraftværk, og det leverer ikke strøm til noget net. Om thorium-saltsmelteteknologi kan gå fra laboratorium til kommerciel drift, giver de kommende års forsøg det første solide svar på — og [fission](/kraften/2026-08-nr1/fission) minder om, hvor lang vejen fra forsøg til beton plejer at være.
+
+[^1]: [Copenhagen Atomics reaches pump testing milestone](https://www.world-nuclear-news.org/articles/copenhagen-atomics-reaches-pump-testing-milestone), World Nuclear News — den kontinuerlige drift af saltsmeltepumpe og testkreds. Om teknologien: [Thorium Molten Salt Reactor Technology](https://www.copenhagenatomics.com/technology/), Copenhagen Atomics.
+[^2]: [Cooperation in reactor research](https://www.psi.ch/en/news/media-releases/cooperation-in-reactor-research), Paul Scherrer Institut — samarbejdet med Copenhagen Atomics om et kritisk thorium-saltsmelteforsøg. Selskabets egen omtale: [Cooperation in reactor research](https://www.copenhagenatomics.com/news/cooperation-in-reactor-research/).
+[^3]: [Copenhagen Atomics enlists PSI to validate reactor technology](https://www.world-nuclear-news.org/articles/copenhagen-atomics-enlists-psi-to-validate-reactor), World Nuclear News — tidsplanen for det kritiske forsøg og den planlagte kædereaktion hos PSI.

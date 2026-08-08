@@ -1,0 +1,447 @@
+{
+  "magazine": "kraften",
+  "issue": "2026-08-nr1",
+  "issueTheme": "Hvad holder lyset tændt",
+  "integrityNote": "Skrevet fra bunden 2026-08-09. Nr. 1 blev oprindeligt udgivet 2026-08-01 UDEN bestilling.json — ingen brief, intet verdikt, ingen kvittering for nogen af de 14 artikler — samtidig med at nummeret bar byline til navngivne modeller. Hele nummeret produceres forfra på titlens egen nøgle (.env.kraften). Byline sættes kun, hvor receipt.costUSD og receipt.draft er udfyldt.",
+  "budget": {
+    "articles": 13,
+    "wordsPerArticle": [
+      600,
+      900
+    ],
+    "targetPages": 16,
+    "note": "Den afpublicerede udgave var 14 artikler på 4.165 ord — gennemsnit 297. Notesbogen erkendte selv problemet («Features 200–400 i batch, sigt 500–750 når der er tid»). Vi fjerner Ordbogen (notesbogens egen formatregel: gloser i parentes/fodnote) og sætter ordbudgettet til 600–900. Energistof lever af at skelne mellem nameplate MW, TWh, planlagt, under bygning og i drift — den skelnen kan ikke rummes i 300 ord."
+  },
+  "researchNote": "ADVARSEL TIL FREMTIDIGE REDAKTØRER: dette felt kommer IKKE med i modellens prompt — kun brief.angle gør. Derfor er alle kontrollerede tal nedenfor ogsaa skrevet ind i de enkelte briefs. Kontrolleret 2026-08-09. Ember, European Electricity Review 2026 (EU 2025): vind+sol 30 % af EU-el mod fossil 29 % — første gang nogensinde, og op fra 20 % fem år før; vind+sol over al fossil i 14 af 27 lande; sol rekord 369 TWh, +20 % på et år; sol over en femtedel af elforbruget i Ungarn, Cypern, Grækenland, Spanien og Nederlandene; vedvarende i alt 48 %. VIGTIGT: vandkraft FALDT 12 % og vind FALDT 2 % i 2025 — krydsningen skete altså trods vindnedgang, drevet af sol. IEA, Electricity 2026: global elefterspørgsel +3,6 % om året 2026–2030, ca. 50 % hurtigere end det foregående årti; vedvarende +ca. 1.000 TWh om året, 8 % årligt, hvoraf sol alene står for over 60 % af væksten; sol+vind fra 17 % af global produktion i 2025 til 27 % i 2030; atomkraft +2,8 % årligt mod 1,3 % i 2021–2025; vedvarende + atom tilsammen 50 % af global el i 2030 mod 42 % i dag. Danmark: elforbruget satte rekord i 2025 med godt 39.500 GWh, +5 % mod 2024, drevet af fjernvarmeproduktion og privatforbrug (Energinet); vind dækkede 59 % af dansk elproduktion i 2024; Danmark har EU's højeste andel af sol og vind. Copenhagen Atomics: to prototypereaktorer færdige, en tredje ventet i 2026; samarbejde med Paul Scherrer Institut (PSI) i Schweiz om et kritisk thorium-saltsmelteforsøg i 2026–27; første egentlige kædereaktion hos PSI planlagt til 2028; to års kontinuerlig drift af saltsmeltepumpe og testkreds i København.",
+  "opgaver": [
+    {
+      "slug": "leder",
+      "order": 1,
+      "section": "Leder",
+      "brief": {
+        "angle": "Hvorfor KRAFTEN, og hvorfor temaet «Hvad holder lyset tændt»: 2025 blev året, hvor vind og sol for første gang leverede mere EU-el end fossil — men krydsningen skete, mens vindproduktionen faldt. Skal også sige rent ud, hvad bladet lover om tal, kilder og byline.",
+        "words": [
+          350,
+          500
+        ],
+        "mustCite": 0,
+        "format": "leder"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": null,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": null,
+        "checkedAt": null,
+        "citations": 0,
+        "editorNote": "Lederen skrives af chefredaktionen og får derfor INGEN byline."
+      }
+    },
+    {
+      "slug": "europa-mix",
+      "order": 2,
+      "section": "Lande & udbygning",
+      "brief": {
+        "angle": "EU's elmix i 2025 krydsede en historisk grænse: vind og sol leverede 30 % af elektriciteten mod fossil 29 % — første gang nogensinde, og op fra 20 % fem år tidligere (Ember, European Electricity Review 2026). Vind+sol slog al fossil i 14 af 27 lande. Men HER ER POINTEN, de fleste overser: krydsningen skete IKKE fordi vinden tog fart. Vindproduktionen FALDT 2 % i 2025 og vandkraft FALDT 12 % på grund af vejret. Det var SOL alene, der bar krydsningen — rekord 369 TWh, en stigning på 20 % på ét år, og over en femtedel af elforbruget i Ungarn, Cypern, Grækenland, Spanien og Nederlandene. Vedvarende i alt nåede 48 %. Skriv artiklen om dét: en milepæl båret af én teknologi, mens to andre gik tilbage — og hvad det betyder for, hvor robust krydsningen er. Forklar TWh ved første nævnelse.",
+        "words": [
+          700,
+          950
+        ],
+        "mustCite": 3,
+        "mustNumber": [
+          "30 % vind+sol mod 29 % fossil",
+          "14 af 27 lande",
+          "369 TWh sol, +20 %",
+          "vind -2 %, vandkraft -12 %",
+          "48 % vedvarende"
+        ],
+        "format": "feature"
+      },
+      "writer": {
+        "byline": null,
+        "model": "openai/gpt-5.6-terra",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 670,
+        "costUSD": 0.013922,
+        "draft": "kladder/02-europa-mix.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1786226940-Fu4iBI80QawPCHQNAgjX"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-09",
+        "citations": 3,
+        "editorNote": "REELT kommissioneret hos openai/gpt-5.6-terra paa .env.kraften (0,0139 USD, generationId registreret); kladde i kladder/02-europa-mix.md. Foerste artikel i nummeret, hvor laeringen fra ORBIT blev anvendt: alle kontrollerede tal blev skrevet ind i brief.angle i stedet for kun i researchNote, som ikke naar prompten. Resultatet var maerkbart — kladden ramte samtlige tal korrekt i foerste forsoeg (30/29 %, 369 TWh, +20 %, 14 af 27, 48 %, vind -2 %, vandkraft -12 %) og fandt selv den rigtige forklaring paa hvorfor sol kunne baere krydsningen alene: solens vaekst kommer fra UDBYGNINGSHASTIGHED og kan derfor overdoeve et gennemsnitligt vejraar, mens vind og vandkraft svinger med vejret. Redaktionelt: strammet fra 888 til ca. 700 ord, overskrift i broedtekst fjernet, tastefejl 'industriproceser' rettet, krydslinks til lagring/gas/lande tilfoejet, chart-markoer eu-elmix sat ind, og Embers separate opsummeringsside tilfoejet som tredje kilde. Begge kladdens URL'er var aegte og svarede 200 — foerste kladde i hele genopbygningen uden en eneste gaettet adresse."
+      }
+    },
+    {
+      "slug": "fission",
+      "order": 3,
+      "section": "Atom",
+      "brief": {
+        "angle": "Klassisk atomkraft er beton, reaktortanke og årtier — ikke en powerpoint. IEA's Electricity 2026 venter, at global atomproduktion vokser 2,8 % om året i fremskrivningsperioden, mere end DOBBELT så hurtigt som de 1,3 % i 2021–2025, drevet af nye enheder, genstart i Japan og stabil fransk produktion. Men væksten ligger i Asien: Kinas andel stiger, mens EU's og USA's andele falder procentvis, selv om deres produktion er nogenlunde stabil. Skriv om forskellen mellem de tre veje til «ny» kapacitet: levetidsforlængelse (hurtigst og billigst), genstart (Japan), og nybyggeri (dyrest og langsomst). Vær skarp på SMR — små modulære reaktorer er i Vesten i 2026 stadig overvejende licens-, design- og demonstrationsfase, og der er årtier mellem en pressemeddelelse og kommerciel drift. Forklar SMR, baseload og IEA ved første nævnelse.",
+        "words": [
+          700,
+          950
+        ],
+        "mustCite": 3,
+        "mustNumber": [
+          "+2,8 % årligt mod 1,3 % i 2021-2025"
+        ],
+        "format": "feature"
+      },
+      "writer": {
+        "byline": null,
+        "model": "anthropic/claude-opus-4.8",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 634,
+        "costUSD": 0.065235,
+        "draft": "kladder/03-fission.md",
+        "costRouting": "byok",
+        "generationId": "gen-1786227065-dfu0yS3kW5q5iy2me0O6"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-09",
+        "citations": 3,
+        "editorNote": "REELT kommissioneret hos anthropic/claude-opus-4.8 paa .env.kraften (BYOK, 0,065 USD, generationId registreret); kladde i kladder/03-fission.md. Kladden var fagligt staerk og ramte alle tal: 2,8 % mod 1,3 %, forskydningen mod Kina, og de tre veje til kapacitet (levetidsforlaengelse, genstart, nybyggeri). Den fandt selv de rigtige vestlige eksempler paa nybyggeriets problemer — Olkiluoto 3 og Flamanville 3 — og formulerede den bedste saetning i artiklen: spoerg efter stoebedato, ikke lanceringsvideo. Redaktionelt: kladdens tre fodnoter henviste alle blot til 'Se iea.org' uden konkrete adresser, hvilket er en bar domaenehenvisning og ikke en kilde; erstattet af verificerede sider (Electricity 2026 Supply og Executive summary, IEA's nuclear-power-side, Nuclear Power and Secure Energy Transitions samt World Nuclear Association for Olkiluoto/Flamanville). Desuden strammet fra 766 ord, overskrift i broedtekst fjernet, tastefejl 'netttilslutning' rettet, og krydslinks til thorium og fusion tilfoejet."
+      }
+    },
+    {
+      "slug": "thorium",
+      "order": 4,
+      "section": "Atom",
+      "brief": {
+        "angle": "Copenhagen Atomics — den danske virksomhed, der bygger saltsmeltereaktorer drevet af thorium. Status pr. 2026: to prototypereaktorer er færdige og en tredje ventes i 2026; virksomheden har kørt en saltsmeltepumpe og testkreds kontinuerligt i to år i København; og den har indgået samarbejde med Paul Scherrer Institut (PSI) i Schweiz om at gennemføre et kritisk thorium-saltsmelteforsøg i 2026–27, med den første egentlige kædereaktion planlagt hos PSI i 2028. Forklar for en læser uden fysikbaggrund: hvad en saltsmeltereaktor er, hvorfor thorium er interessant (og hvad forskellen er til uran), og hvorfor et 'kritisk forsøg' er den milepæl, alt andet måles på. Vær nøgtern: dette er et selskab med en prototype og en plan, ikke et kraftværk. Skriv årstal som planlagte, ikke som kendsgerninger.",
+        "words": [
+          650,
+          900
+        ],
+        "mustCite": 3,
+        "mustNumber": [
+          "kritisk forsøg 2026-27 hos PSI",
+          "kædereaktion planlagt 2028",
+          "to års kontinuerlig pumpedrift"
+        ],
+        "format": "feature"
+      },
+      "writer": {
+        "byline": null,
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 736,
+        "costUSD": 0.028306,
+        "draft": "kladder/04-thorium.md",
+        "costRouting": "byok",
+        "generationId": "gen-1786227202-uYhWEd6k9qIwmzkcoepo"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-09",
+        "citations": 3,
+        "editorNote": "REELT kommissioneret hos anthropic/claude-sonnet-5 paa .env.kraften (BYOK, 0,028 USD, generationId registreret); kladde i kladder/04-thorium.md. En af de bedste kladder i hele genopbygningen. Den holdt praecis den noegternhed, briefen bad om ('et selskab med en prototype og en plan, ikke et kraftvaerk'), skrev alle aarstal som PLANLAGTE og ikke som kendsgerninger, og forklarede 'kritisk' bedre end briefen havde bedt om: punktet hvor neutronbalancen goer kaedereaktionen selvopretholdende, og dermed graensen mellem simulering og fysik. Den tilfoejede desuden selv to korrekte forhold, ingen havde bedt om: at saltsmeltekonceptet stammer fra Oak Ridge i 1960'erne og blev lagt paa hylden, fordi datidens programmer foretrak reaktorer, der ogsaa kunne lave vaabenmateriale — hvilket goer thoriums daarlige vaabenegnethed til dengang en ulempe og i dag en fordel; og at korrosion historisk er dét, saltsmelteteknologi er faldet paa, hvilket foerst goer de to aars pumpedrift til en egentlig nyhed. Redaktionelt: fodnoterne var bare domaenenavne (psi.ch, copenhagenatomics.com, world-nuclear-news.org) uden artikler — erstattet af fire konkrete, kontrollerede sider. Overskrift i broedtekst fjernet, strammet fra 824 ord, krydslink til fission tilfoejet."
+      }
+    },
+    {
+      "slug": "fusion",
+      "order": 5,
+      "section": "Atom",
+      "brief": {
+        "angle": "Fusion: hvor langt er man egentlig, og hvad betyder de milepæle, der bliver annonceret? Forklar forskellen på videnskabelig energigevinst (mere energi ud af selve fusionsreaktionen end lasere/varme leverede ind) og et anlæg, der leverer strøm til nettet — de to ting forveksles konstant i omtalen. Gennemgå de reelle spor: ITER som internationalt storprojekt, private selskaber med kompakte design, og de tekniske forhindringer der ikke er løst (materialer der kan holde til neutronbestråling, tritium-forsyning, kontinuerlig drift frem for enkeltskud). Vær ærlig om tidshorisonten uden at være afvisende. VIGTIGT: opfind ikke datoer eller resultater for konkrete anlæg — er du usikker på status for et projekt, så beskriv hvad det forsøger frem for at hævde hvad det har opnået.",
+        "words": [
+          650,
+          900
+        ],
+        "mustCite": 3,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": null,
+        "model": "google/gemini-3.1-pro-preview",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": null,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": null,
+        "checkedAt": null,
+        "citations": null,
+        "editorNote": null
+      }
+    },
+    {
+      "slug": "gas",
+      "order": 6,
+      "section": "Fossilt",
+      "brief": {
+        "angle": "Gassens rolle i et elsystem, der er ved at blive vedvarende: ikke som grundlast, men som FLEKSIBILITET — det, der tændes, når vinden løjer og solen går ned. Forklar hvorfor et gaskraftværk kan tjene penge på få timers drift om året, og hvorfor det gør gaskapacitet svær at finansiere og alligevel svær at undvære. Tag EU's importafhængighed med: gas er den fossile rest, der er sværest at skære væk, netop fordi den løser et problem, sol og vind skaber. Forklar begreberne grundlast, spidslast og kapacitetsmarked ved første nævnelse. Brug tal med kilde og årstal — skeln mellem installeret kapacitet (MW) og faktisk produceret energi (TWh).",
+        "words": [
+          650,
+          900
+        ],
+        "mustCite": 3,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": null,
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": null,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": null,
+        "checkedAt": null,
+        "citations": null,
+        "editorNote": null
+      }
+    },
+    {
+      "slug": "olie",
+      "order": 7,
+      "section": "Fossilt",
+      "brief": {
+        "angle": "Olie fylder næsten intet i europæisk ELPRODUKTION — og alligevel er den den største enkeltpost i energiforbruget. Skriv artiklen om netop den skævhed: elektrificering handler i praksis mindre om at fortrænge olie fra kraftværker end om at fortrænge den fra TRANSPORT og industriprocesser, hvor den sidder tungest. Forklar hvorfor en elbil eller en varmepumpe flytter mere olie end et solcelleanlæg gør, fordi den erstatter forbrænding direkte. Tag også med, hvor elektrificering er svær: tung transport, søfart, luftfart, højtemperaturprocesser. Vær præcis med enheder — skeln mellem primær energi og endeligt energiforbrug, og forklar forskellen for læseren.",
+        "words": [
+          650,
+          900
+        ],
+        "mustCite": 3,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": null,
+        "model": "openai/gpt-5.6-terra",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": null,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": null,
+        "checkedAt": null,
+        "citations": null,
+        "editorNote": null
+      }
+    },
+    {
+      "slug": "vind",
+      "order": 8,
+      "section": "Vedvarende",
+      "brief": {
+        "angle": "Vind i 2025 er en industri under pres — og det er den vigtigste vinkel. EU's vindproduktion FALDT 2 % i 2025 på grund af vejret (Ember), samtidig med at branchen kæmper med stigende anlægsomkostninger, annullerede havvindsudbud og renter, der rammer kapitaltunge projekter hårdere end nogen anden teknologi. Forklar hvorfor havvind er så rentefølsom: næsten hele omkostningen ligger i byggefasen, og indtægten kommer over 25 år. Tag forskellen mellem land- og havvind, mellem nameplate-kapacitet (MW) og faktisk produktion (TWh), og begrebet kapacitetsfaktor — hvorfor en havvindmølle på 15 MW ikke producerer 15 MW. Vær konkret om, hvad et dårligt vindår betyder for et system, der planlægger efter gennemsnit.",
+        "words": [
+          700,
+          950
+        ],
+        "mustCite": 3,
+        "mustNumber": [
+          "EU-vindproduktion -2 % i 2025"
+        ],
+        "format": "feature"
+      },
+      "writer": {
+        "byline": null,
+        "model": "anthropic/claude-opus-4.8",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": null,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": null,
+        "checkedAt": null,
+        "citations": null,
+        "editorNote": null
+      }
+    },
+    {
+      "slug": "sol",
+      "order": 9,
+      "section": "Vedvarende",
+      "brief": {
+        "angle": "Sol er teknologien, der bar 2025. EU's solproduktion nåede rekord 369 TWh, en stigning på 20 % på ét år, og passerede en femtedel af elforbruget i Ungarn, Cypern, Grækenland, Spanien og Nederlandene (Ember). Globalt venter IEA, at sol alene står for over 60 % af hele væksten i vedvarende elproduktion frem mod 2030, og at sol+vind går fra 17 % af verdens elproduktion i 2025 til 27 % i 2030. Men skriv også om solens indbyggede problem: den producerer samtidig alle steder. Forklar hvad negative elpriser midt på dagen er, hvorfor de opstår, og hvorfor 'duck curve' — det stejle behov for anden produktion, når solen går ned og forbruget topper om aftenen — er blevet systemoperatørernes centrale udfordring. Det peger direkte videre til lagring.",
+        "words": [
+          700,
+          950
+        ],
+        "mustCite": 3,
+        "mustNumber": [
+          "369 TWh, +20 %",
+          "sol over 60 % af væksten i vedvarende frem mod 2030",
+          "sol+vind 17 % (2025) til 27 % (2030)"
+        ],
+        "format": "feature"
+      },
+      "writer": {
+        "byline": null,
+        "model": "google/gemini-3.1-pro-preview",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": null,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": null,
+        "checkedAt": null,
+        "citations": null,
+        "editorNote": null
+      }
+    },
+    {
+      "slug": "lagring",
+      "order": 10,
+      "section": "Lagring & fleksibilitet",
+      "brief": {
+        "angle": "Lagring er svaret på solens og vindens grundproblem, men 'batteri' dækker over vidt forskellige opgaver. Forklar skellet mellem EFFEKT (MW — hvor meget kan leveres på én gang) og ENERGI (MWh — hvor længe kan det holde), og hvorfor et batteri på 100 MW/200 MWh er noget helt andet end 100 MW/400 MWh. Gennemgå teknologierne efter varighed: litium-ion til timer, pumpekraft til døgn, brint og andre kemiske lagre til sæsoner — og vær ærlig om, at sæsonlagring er det uløste problem. Tag også de billige former for fleksibilitet med, som ikke er batterier: fleksibelt forbrug, elbilers batterier, varmepumper med bufferbeholdere, og udlandsforbindelser. Forklar arbitrage: at et batteri tjener penge på prisforskellen mellem billige og dyre timer, og hvorfor solens middagsoverskud gør den forretning bedre.",
+        "words": [
+          700,
+          950
+        ],
+        "mustCite": 3,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": null,
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": null,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": null,
+        "checkedAt": null,
+        "citations": null,
+        "editorNote": null
+      }
+    },
+    {
+      "slug": "danmark",
+      "order": 11,
+      "section": "Lande & udbygning",
+      "brief": {
+        "angle": "Danmark har EU's højeste andel af sol og vind i elforsyningen, og vind dækkede 59 % af dansk elproduktion i 2024. Men den interessante historie i 2025 er, at FORBRUGET satte rekord: godt 39.500 GWh, en stigning på 5 % mod 2024 — drevet især af elforbrug til fjernvarmeproduktion og af stigende privatforbrug (Energinet). Skriv om hvad det betyder: elektrificering virker, og den gør elregningen til et større og større spørgsmål. Tag udlandsforbindelserne med som det, der gør en meget høj vindandel mulig i praksis — Danmark eksporterer i blæst og importerer i vindstille, og en høj årsandel er derfor ikke det samme som selvforsyning time for time. Forklar GWh og forskellen mellem elproduktion og elforbrug ved første nævnelse.",
+        "words": [
+          650,
+          900
+        ],
+        "mustCite": 3,
+        "mustNumber": [
+          "godt 39.500 GWh i 2025, +5 %",
+          "vind 59 % af dansk elproduktion i 2024"
+        ],
+        "format": "feature"
+      },
+      "writer": {
+        "byline": null,
+        "model": "openai/gpt-5.6-terra",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": null,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": null,
+        "checkedAt": null,
+        "citations": null,
+        "editorNote": null
+      }
+    },
+    {
+      "slug": "lande",
+      "order": 12,
+      "section": "Tallet",
+      "brief": {
+        "angle": "Tallet-klummen: 30 % — vind og sols andel af EU-elproduktionen i 2025, over fossil 29 % for første gang. Men formatet kræver, at tallet tages fra hinanden: hvad måler det, hvor kommer det fra, og hvad er usikkerheden? Vis at det er en ÅRSANDEL af produktion, ikke en garanti kl. 19 en vindstille januaraften, og at krydsningen skete mens vind faldt 2 % og vandkraft 12 %. Sæt det op mod de globale tal fra IEA: sol+vind 17 % af verdens elproduktion i 2025 stigende til 27 % i 2030, atom +2,8 % årligt, og vedvarende + atom tilsammen 50 % af global el i 2030 mod 42 % i dag. Slut med et kort landeskema (EU, Danmark, Frankrig, Tyskland, USA, Kina) med afrundede pejlemærker OG en udtrykkelig advarsel om, at afrundede tal er til sammenligning, ikke til citat.",
+        "words": [
+          500,
+          750
+        ],
+        "mustCite": 3,
+        "mustNumber": [
+          "30 % mod 29 %",
+          "17 % til 27 % globalt",
+          "atom +2,8 %",
+          "42 % til 50 %"
+        ],
+        "format": "tallet"
+      },
+      "writer": {
+        "byline": null,
+        "model": "anthropic/claude-opus-4.8",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": null,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": null,
+        "checkedAt": null,
+        "citations": null,
+        "editorNote": null
+      }
+    },
+    {
+      "slug": "rygteboersen",
+      "order": 13,
+      "section": "Rygtebørsen",
+      "brief": {
+        "angle": "Klummen hvor branchesnak behandles som netop dét. Tag tre-fire påstande, der cirkulerer i energidebatten i sommeren 2026 — fx at atomkraft er ved at få et gennembrud i Europa, at batterier snart gør nettet ligegyldigt, at negative elpriser beviser at vi bygger for meget sol, eller at datacentre alene driver elforbruget — og giv hver en ærlig temperaturmåling: hvad er dokumenteret, hvad er kvalificeret gæt, hvad er ren ønsketænkning. ABSOLUT KRAV: hvert punkt skal kunne føres tilbage til en NAVNGIVEN offentlig kilde — en rapport, en myndighed, et selskabsudsagn. Opfind ALDRIG et rygte, en anonym kilde eller et citat. Det er helt legitimt — og godt — at afvise et punkt med at det ikke kan kildebelægges.",
+        "words": [
+          450,
+          700
+        ],
+        "mustCite": 2,
+        "format": "rygteboersen"
+      },
+      "writer": {
+        "byline": null,
+        "model": "google/gemini-3.1-pro-preview",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": null,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": null,
+        "checkedAt": null,
+        "citations": null,
+        "editorNote": null
+      }
+    }
+  ]
+}
