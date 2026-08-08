@@ -4,7 +4,7 @@
   "title": "KRØNIKE nr. 1 · August 2026",
   "issueTheme": "Riget formes",
   "published": "2026-08-08",
-  "status": "draft",
+  "status": "published",
   "pdf": null,
   "cover": "images/kronike_cover.png",
   "coverCredit": "AI-genereret forside (Imagine / xAI) — retrostil",
@@ -33,7 +33,7 @@
     "images/pd_margrete_gravmaele.jpg",
     "images/pd_oersted_daguerreotype.jpg"
   ],
-  "productionCostUSD": null,
+  "productionCostUSD": 0.34,
   "imageCredits": "Imagine / xAI + atlaskort genereret med google/gemini-3-pro-image via OpenRouter (.env.kronike) + Wikimedia (Frihedsstøtten CC BY 2.0 Jorge Láscar; Ørsted-daguerreotypi public domain; Margretes gravmæle public domain, foto Jacob Truedson Demitz; sølvgros CC BY-SA 4.0, foto Nationalmuseet). Se SOURCES.md.",
   "backCoverPromise": "KRØNIKE nr. 2 graver videre — flere århundreder, flere stemmer, samme krav til kilder.",
   "articles": [
@@ -170,6 +170,6 @@
       "imageSource": "https://x.ai/"
     }
   ],
-  "unpublishedReason": "Afpubliceret 2026-08-08. Nummeret blev udgivet med byline-kreditering til navngivne modeller, men bestilling.json indeholder hverken costUSD, kladde-reference eller kladdefil for nogen artikel, og OpenRouter-forbruget på titlens egen nøgle viser, at kaldene aldrig blev foretaget. Verdikterne ('accepted', 'rejected') beskriver derfor en bedømmelse af kladder, der aldrig er modtaget. Nummeret skal produceres forfra — uden byline, indtil en reel forfatter kan dokumenteres. Se redaktion/README.md.",
-  "unpublishedAt": "2026-08-08"
+  "provenanceNote": "Afpubliceret 2026-08-08 og genudgivet samme dag efter reel produktion. Ti af tolv artikler er kommissioneret hos navngivne modeller via titlens egen nøgle (.env.kronike); hver har kladde og costUSD registreret i redaktion/kronike/numre/2026-08-nr1/bestilling.json. Leder og myte-opgøret er skrevet af chefredaktionen og bærer derfor INGEN byline. Ingen artikel i nummeret bærer en byline, der ikke kan dokumenteres med et faktisk kald.",
+  "republishedAt": "2026-08-08"
 }
