@@ -15,7 +15,7 @@ Blue Origins **New Glenn** har forladt “kun suborbital tourism”-fortællinge
 
 - **Genbrug:** landing/fangst er PR, indtil den samme booster letter igen med nyttelast.  
 - **Pad-kadence:** én vellykket debut er ikke en fabrik.  
-- **Kunder:** Amazon Kuiper, NASA og forsvarspayloads er den rigtige stress-test — ikke livestream-views.
+- **Kunder:** Amazon Kuiper, den amerikanske rumfartsadministration **NASA** (*National Aeronautics and Space Administration*) og forsvarspayloads er den rigtige stress-test — ikke livestream-views.
 
 Se også [nr. 1's Blue Origin-artikel](/orbit/2026-08-nr1/blue-origin). Opfølgningen er simpel: **fløj den igen, med hvad, og hvornår bookes næste?**
 ### Hvad ORBIT ikke gør

@@ -49,3 +49,6 @@ Ingen opdigtede launch-datoer. Skeln planlagt/scrub/success/failure. Primære ki
 
 - **2026-08-08:** Nr. 2 publiceret — SSA, konstellationer, Starship/Falcon, New Glenn, ESA launcher.
 - **2026-08-01:** Notesbog udvidet med `## Format`; leads datostemplet.
+
+- **2026-08-08 (edit):** ORBIT nr. 2 — LEO, NASA HLS, FAA, FCC, ESA, CNSA, SSA udfoldet **pr. artikel** (læser lander ofte på én URL); ordbog udvidet. Husregel: chefredaktør ejer first-mention; fodnote OK hvis layout knækker.
+

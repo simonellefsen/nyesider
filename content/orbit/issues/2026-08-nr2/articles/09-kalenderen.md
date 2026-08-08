@@ -16,8 +16,8 @@ ORBIT opdigter ikke konkrete launch-datoer. Her er **sporene**, du kan følge i 
 | SpaceX Falcon | Manifests, scrub-årsager, booster-genbrugstal |
 | Starship | Testkampagne, regulatoriske godkendelser mellem forsøg |
 | New Glenn | Return-to-flight, Kuiper-relaterede manifests |
-| Ariane 6 / Vega | ESA/Arianespace flight list, institutionelle payloads |
-| Kina | CNSA/kommercielle opsendelser — kildekritik på engelske aggregators |
-| SSA / debris | ESA environment report, større fragmenteringshændelser |
+| Ariane 6 / Vega | **ESA** (*European Space Agency*) / Arianespace flight list, institutionelle payloads |
+| Kina | **CNSA** (*China National Space Administration*) og kommercielle opsendelser — kildekritik på engelske aggregators |
+| SSA / debris | **SSA** = *space situational awareness* (rumsituationsoverblik); ESA environment report, større fragmenteringshændelser |
 
 **Kilder:** operatørens egne sider, space-track/katalog-nyheder, SpaceNews/NASASpaceflight til kontekst — altid skeln **planlagt / scrub / success / failure**.

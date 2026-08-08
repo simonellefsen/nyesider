@@ -14,7 +14,7 @@ imageSource: "https://x.ai/"
 ### Hvem gør det?
 
 - **Militære og civile kataloger** (fx US Space Force / Space-Track-økosystemet) danner ofte basis.  
-- **ESA** og nationale europæiske kapaciteter bidrager med sensorer og analyse.[^1]  
+- Den europæiske rumorganisation **ESA** (*European Space Agency*) og nationale europæiske kapaciteter bidrager med sensorer og analyse.[^1]  
 - **Kommercielle SSA-firmaer** sælger tættere opfølgning til satellitoperatører, der ikke vil leve af offentlige data alene.
 
 ### Hvad det *ikke* er
@@ -23,6 +23,6 @@ imageSource: "https://x.ai/"
 - Automatisk undvigelse uden menneske i loopet (endnu — og det er en politikdebat).  
 - Løsningen på skrot; det er **synlighed**, ikke oprydning.
 
-SSA er den stille infrastruktur bag [konstellations-kapløbet](/orbit/2026-08-nr2/kuiper-konstellationer). Uden den er LEO bare flere objekter med samme tyngdekraft.
+SSA er den stille infrastruktur bag [konstellations-kapløbet](/orbit/2026-08-nr2/kuiper-konstellationer). Uden den er **lav jordbane** (**LEO** — *low Earth orbit*) bare flere objekter med samme tyngdekraft.
 
 [^1]: ESA Space Safety / Space Debris Office — se officielle rapporter og missionssider.

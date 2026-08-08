@@ -1,5 +1,5 @@
 ---
-title: "Kuiper og de andre: LEO er ikke kun ét brand"
+title: "Kuiper og de andre: lav jordbane er ikke kun ét brand"
 standfirst: Starlink satte tempoet. Nu er spørgsmålet, hvem der får plads, frekvens og kunder.
 byline: Gemini 3.1 Pro (Google)
 section: Satellitter & konstellationer
@@ -9,7 +9,7 @@ imageCredit: "AI-genereret motiv (Imagine / xAI)"
 imageSource: "https://x.ai/"
 ---
 
-**Starlink** (SpaceX) er stadig den dominerende LEO-bredbåndskonstellation i offentlig bevidsthed — fordi den er **oppe i stort antal** og synlig i manifests. Men industripolitikken er bredere.
+**Starlink** (SpaceX) er stadig den dominerende bredbåndskonstellation i **lav jordbane** — **LEO** (*low Earth orbit*) — i offentlig bevidsthed, fordi den er **oppe i stort antal** og synlig i manifests. Men industripolitikken er bredere.
 
 ### Amazon Kuiper
 
@@ -25,4 +25,4 @@ Kinesiske LEO-planer (statslige og kommercielle spor) er en **anden kadence-moto
 
 ### ORBIT-regel
 
-Skriv **operatør, banehøjde-klasse, og status** (godkendt / under opsendelse / i drift). Bland ikke FCC-filing med flyvende hardware.
+Hold styr på **operatør, banehøjde-klasse og status** (godkendt / under opsendelse / i drift). Bland ikke en **FCC**-ansøgning (*Federal Communications Commission* — den amerikanske telemyndighed, der bl.a. tildeler frekvenser og satellitlicenser) med flyvende hardware.

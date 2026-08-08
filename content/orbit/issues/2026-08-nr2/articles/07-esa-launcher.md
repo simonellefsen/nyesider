@@ -9,7 +9,7 @@ imageCredit: "AI-genereret motiv (Imagine / xAI)"
 imageSource: "https://x.ai/"
 ---
 
-Europa vil have **uafhængig adgang til bane** — ikke kun rideshare på Falcon. Efter forsinkelser og huller i Ariane-familien er 2025–2026 historien om **Ariane 6 i drift**, Vega-familien, og hvordan ESA/medlemslande fordeler industri og risiko.
+Europa vil have **uafhængig adgang til bane** — ikke kun rideshare på Falcon. Efter forsinkelser og huller i Ariane-familien er 2025–2026 historien om **Ariane 6 i drift**, Vega-familien, og hvordan den europæiske rumorganisation **ESA** (*European Space Agency*) og medlemslandene fordeler industri og risiko.
 
 ### Hvad der er politik
 
@@ -22,4 +22,4 @@ Europa vil have **uafhængig adgang til bane** — ikke kun rideshare på Falcon
 - Flyvehistorik, pad-tilgængelighed, og om manifests **faktisk fyldes**.  
 - Samspil med kommercielle europæiske mikro-launchers — spændende, men endnu ikke erstatning for tung klasse.
 
-Læs [nr. 1 om NASA & ESA](/orbit/2026-08-nr1/nasa-esa) for agenturernes rolle som **kunder og standardisættere**. Her er opfølgningen: **kan Europa levere gentagne, forudsigelige opsendelser?**
+Læs [nr. 1 om NASA & ESA](/orbit/2026-08-nr1/nasa-esa) for agenturernes rolle som **kunder og standardisættere** (NASA = *National Aeronautics and Space Administration*). Her er opfølgningen: **kan Europa levere gentagne, forudsigelige opsendelser?**

@@ -21,7 +21,7 @@ Redaktionel hukommelse for forlaget. Chefredaktør-agenten læser og opdaterer d
 4. **Fact-check & accept (chefredaktør — obligatorisk før publicering):**  
    Ingen artikel går i `content/…` som færdige/publiceret, før chefredaktøren har gennemgået den. Minimum:
    - **Færdig læsertekst — ikke kladde, brief eller redaktionsnote.** Læs artiklen som en abonnent uden forudgående brief. Hvis den lyder som instruks til skribenten (“Brug X som primærkilde”, “Citér dato og status”, “Skeln konsekvent mellem…”), en punktopstilling af *hvad der mangler*, et TODO/FIXME/TBD, eller en notesbog der endnu ikke er skrevet om til magasinprosa, er den **ikke accepteret**. Omskriv eller afvis — parkér i `kladder/` eller `redaktion/<slug>/parked/`, aldrig i `content/` under `status: published`. Negativt eksempel: KRAFTEN nr. 2’s første Sverige-atom-version (intern tjekliste efter Rygtebørsen). Positivt: den omskrevne feature *før* bagsnittene.
-   - **Jargon & pakkenavne første gang:** antag ikke, at læseren kender EU-/US-pakker, netoperatører eller branchesprog. Første gang: fuldt navn + kort forklaring på dansk (fx *Fit for 55*, *IRA*, *PJM* / tilslutningskø). Se husregel om forkortelser nedenfor — den gælder også “kendte” policy-labels.
+   - **Jargon & forkortelser første gang — pr. artikel, ikke pr. nummer:** antag ikke, at læseren husker nr. 1, har læst lederen, eller arbejder i branchen. Hver artikel kan åbnes alene via URL/RSS. Første gang i *denne* artikel: fuldt navn + kort dansk forklaring (fx LEO = lav jordbane / *low Earth orbit*; NASA HLS = *Human Landing System*; FCC, FAA, Fit for 55, IRA, PJM). Hvis udfoldelsen tynger brødteksten, brug en **fodnote** — hellere en lille note end en uforklaret forkortelse. Gælder også “kendte” labels.
    - **Fakta:** tal, årstal, stednavne, institutioner, priser og “første gang”-påstande tjekkes mod troværdige kilder (officiel statistik, primære sitet, seriøs journalistik). Opdigt ikke præcise datoer for virkelige begivenheder.
    - **Hårde tal er et krav, ikke en bonus:** hvor en artikel *kan* underbygges med et konkret tal (absolut antal, procent, kr., år, g/kg osv.), skal den. Vage formuleringer som “en betydelig andel”, “mange danskere” eller “stiger markant” sendes tilbage til skribenten, medmindre chefredaktøren selv kan finde og indsætte det præcise tal med kilde. Afrundede pejlemærker er kun acceptable, når et præcist tal reelt ikke findes (mærk dem da eksplicit som ballpark) — ikke fordi ingen gad slå det op. Se DOSIS' `11-tallet.md` (august 2026) som skabelon: tabel med tal + år + fodnote pr. celle.
    - **Kilder:** fodnoter/`[^n]` skal pege på reelle, gerne klikbare kilder, hvor det er muligt; afrundede pejlemærker skal være ærligt mærket som sådan.
@@ -65,13 +65,14 @@ Opret `redaktion/<slug>/redaktionsnotesbog.md` og `content/<slug>/magazine.json`
    Skriv: `30\u00a0%` → vises som «30 %».  
    Undgå almindeligt mellemrum: `30 %` (kan give `30` på én linje og `%` på næste).
 
-2. **Forkortelser:** Antag ikke, at læseren kender dem. **Første gang** i en artikel: fuldt navn + forkortelse i parentes, derefter forkortelsen frit.  
+2. **Forkortelser:** Antag ikke, at læseren kender dem — heller ikke at de husker dem fra et andet nummer eller en anden artikel. **Første gang i hver artikel:** fuldt navn + forkortelse (og gerne dansk gloss), derefter forkortelsen frit i *samme* artikel. Layout-flugt: forklar i **fodnote**.  
    Eksempler:  
-   - det Internationale Energiagentur (IEA)  
-   - den europæiske rumorganisation ESA (*European Space Agency*)  
-   - WLTP (*Worldwide Harmonised Light Vehicle Test Procedure*)  
-   - LCOE (*levelized cost of energy*)  
-   Meget kendte navne (NASA, EU, USA) kan stå alene, men det skader ikke at udfolde dem første gang i en leder eller intro.
+   - lav jordbane / **LEO** (*low Earth orbit*)  
+   - den europæiske rumorganisation **ESA** (*European Space Agency*)  
+   - **NASA** (*National Aeronautics and Space Administration*); **HLS** (*Human Landing System*)  
+   - **FAA** (*Federal Aviation Administration*); **FCC** (*Federal Communications Commission*)  
+   - det Internationale Energiagentur (IEA); WLTP; LCOE  
+   Meget kendte geografiske navne (EU, USA) kan stå alene. Agenturer og baneklasser (NASA, ESA, LEO, MEO, GEO) skal udfoldes mindst én gang pr. artikel, medmindre artiklen er Ordbogen. Chefredaktøren er ansvarlig — se trin 4.
 
 3. **Diagrammer / tendenskurver:** Vis **gap mellem verdensøkonomier**. Standard er at lægge **EU, USA og Kina** side om side, plus relevante top performers (fx Norge for elbilandel). En dansk eller europæisk kurve alene fortæller for lidt — læseren skal se, hvem der fører, hvem der hænger, og hvor stort springet er. Se [content/CHARTS.md](../content/CHARTS.md).
 

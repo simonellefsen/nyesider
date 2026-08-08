@@ -61,6 +61,27 @@ DRAFT_MARKERS_RE = re.compile(
     r"\bi kladder/\b|\bparked/\b"
     r")"
 )
+# Domain acronyms that often ship bare. If the token appears, the article body
+# (or a footnote) should also contain at least one gloss fragment. Checked as
+# warnings so ordbog/rygte formats and deliberate repeats stay flexible; the
+# editor still owns first-mention quality (see redaktion/README.md).
+ACRONYM_GLOSS_REQUIREMENTS: list[tuple[str, tuple[str, ...]]] = [
+    # (token as word, any-of gloss fragments, case-insensitive)
+    ("LEO", ("low earth orbit", "lav jordbane")),
+    ("MEO", ("medium earth orbit", "mellemstor jordbane", "medium earth")),
+    ("GEO", ("geostationary", "geostationær", "geo-synkron", "geosynkron")),
+    ("HLS", ("human landing system", "landingsfartøj", "artemis")),
+    ("FCC", ("federal communications commission", "telemyndighed")),
+    ("FAA", ("federal aviation administration", "luftfartsmyndighed")),
+    ("SSA", ("space situational awareness", "rumsituationsoverblik")),
+    ("ESA", ("european space agency", "europæiske rumorganisation", "europæisk rumorganisation")),
+    ("CNSA", ("china national space administration", "kinesiske rum")),
+    ("RTG", ("radioisotope", "radioisotop")),
+    ("BESS", ("battery energy storage", "batterilagring", "battery energy")),
+    ("IRA", ("inflation reduction act",)),
+    ("PJM", ("interconnection", "pjm interconnection", "systemoperatør")),
+]
+
 # Production meta aimed at the writer/editor, not the subscriber.
 DRAFT_META_RE = re.compile(
     r"(?i)("
@@ -358,6 +379,27 @@ def check_issue(magazine_dir: Path, issue_dir: Path) -> list[Finding]:
                     f"rewrite before accept. hits: {sample}{more}",
                 )
             )
+
+        # bare domain acronyms without a gloss in the same article
+        # Skip pure ordbog pages (the glossary *is* the gloss).
+        section_l = (art.get("section") or "").lower()
+        if "ordbog" not in section_l and "ordbog" not in aslug.lower():
+            body_l = body.lower()
+            bare: list[str] = []
+            for token, glosses in ACRONYM_GLOSS_REQUIREMENTS:
+                if not re.search(rf"\b{re.escape(token)}\b", body):
+                    continue
+                if any(g in body_l for g in glosses):
+                    continue
+                bare.append(token)
+            if bare:
+                findings.append(
+                    Finding(
+                        "warning", tag,
+                        f"{aslug}: acronym(s) used without in-article gloss "
+                        f"(expand on first mention or footnote): {', '.join(bare)}",
+                    )
+                )
 
         # against the commission ledger, if one exists
         opgave = ledger_by_slug.get(aslug)

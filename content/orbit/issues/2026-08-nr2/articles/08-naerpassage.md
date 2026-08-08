@@ -13,14 +13,14 @@ En **conjunction** er en forudsagt nærpassage mellem to katalogiserede objekter
 
 ### Hvorfor tallene stiger
 
-1. **Flere objekter** i LEO.  
+1. **Flere objekter** i **lav jordbane** (**LEO** — *low Earth orbit*).  
 2. **Bedre sensorer** — flere detektioner er ikke kun flere farer.  
 3. **Lavere tærskler** for at rapportere og manøvrere hos professionelle operatører.
 
 ### Sådan læser du en overskrift
 
-- “1.000 nærpassager i dag” uden **Pc** (probability of collision) og afstand er meningsløst.  
+- “1.000 nærpassager i dag” uden **Pc** (*probability of collision*, kollisionssandsynlighed) og afstand er meningsløst.  
 - Starlink-manøvrer i stort tal kan betyde **disciplin**, ikke kaos.  
 - Skrot-på-skrot-hændelser er den dyre klasse — se [rumskrot i nr. 1](/orbit/2026-08-nr1/rumskrot).
 
-ORBIT's holdning: mere **katalogkvalitet** og mere **delte ephemerides** slår panik. SSA uden samarbejde er bare dyre siloer.
+ORBIT’s holdning: mere **katalogkvalitet** og mere **delte ephemerides** (banedata over tid) slår panik. **SSA** (*space situational awareness* — rumsituationsoverblik) uden samarbejde er bare dyre siloer.
