@@ -25,13 +25,13 @@ Usikkerheden ligger altså ikke i, om raketterne lettede. Det gjorde de. Den lig
 
 ### Retningen er der ingen tvivl om
 
-SpaceNews' egen serie går fra **221** forsøg i 2023 over **259** i 2024 til **324** i 2025.[^1] Det er en stigning på knap **47 %** på to år.
+SpaceNews' egen serie går fra **221** forsøg i 2023 over **259** i 2024 til **324** i 2025.[^1] Det er en stigning på knap **47 %** på to år.
 
 Selv med McDowells bredere optælling er historien den samme. Verdens opsendelsesinfrastruktur arbejder nu med en frekvens, der for få år siden ville have krævet en ekstraordinær kampagne — og som her holdes år efter år.
 
 ### Og hvem der står for den
 
-USA stod for **193** af de 324 forsøg. Kina for **92**. Tilsammen 285 opsendelser, eller omtrent **88 %** af årets samlede aktivitet.[^1] Resten af verden delte de sidste **39** mellem sig.
+USA stod for **193** af de 324 forsøg. Kina for **92**. Tilsammen 285 opsendelser, eller omtrent **88 %** af årets samlede aktivitet.[^1] Resten af verden delte de sidste **39** mellem sig.[^3]
 
 Det er ikke kun national prestige. Opsendelser er adgang — til satellitnet, jordobservation, militær kommunikation, månemissioner og kommercielle konstellationer. Når to lande udfører næsten ni ud af ti orbitale forsøg, er det også dem, der sætter tempoet for, hvor hurtigt kredsløbene fyldes op. Den regning kommer i [rumskrot](/orbit/2026-08-nr1/rumskrot).
 
@@ -39,5 +39,6 @@ Læs tallet med etiketten på. Det er et solidt mål for et rekordår. Det er ik
 
 Pak tallet ud i [SpaceX' fabriksrytme](/orbit/2026-08-nr1/spacex) og [Kinas to spor](/orbit/2026-08-nr1/kina).
 
-[^1]: [SpaceX, China drive new record for orbital launches in 2025](https://spacenews.com/spacex-china-drive-new-record-for-orbital-launches-in-2025/), SpaceNews, januar 2026: 324 forsøg i 2025 mod 259 i 2024 og 221 i 2023; USA 193 og Kina 92, tilsammen 88 %; og den udtrykkelige oplysning om, at optællingen udelader fem suborbitale Starship-testflyvninger og tre HASTE-flyvninger.
-[^2]: Jonathan McDowell, [*General Catalog of Artificial Space Objects*](https://planet4589.org/space/gcat/) (GCAT) — løbende opsendelseslog og statistik, som ligger til grund for de bredere tal 329/321.
+[^1]: [SpaceX, China drive new record for orbital launches in 2025](https://spacenews.com/spacex-china-drive-new-record-for-orbital-launches-in-2025/), SpaceNews, januar 2026: 324 forsøg i 2025 mod 259 i 2024 og 221 i 2023; USA 193 og Kina 92, tilsammen 88 %; og den udtrykkelige oplysning om, at optællingen udelader fem suborbitale Starship-testflyvninger og tre HASTE-flyvninger.
+[^2]: Jonathan McDowell, [*General Catalog of Artificial Space Objects*](https://planet4589.org/space/gcat/) (GCAT) — løbende opsendelseslog og statistik, som ligger til grund for de bredere tal 329/321. Selve loggen: [GCAT Launch Log](https://planet4589.org/space/gcat/data/derived/launchlog.html).
+[^3]: Fordelingen på lande kan efterprøves i [2025 Orbital Launch Attempts by Country](https://payloadspace.com/2025-orbital-launch-attempts-by-country/), Payload — en uafhængig optælling ved siden af SpaceNews'.

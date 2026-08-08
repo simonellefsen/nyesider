@@ -1,18 +1,40 @@
 ---
-title: Kadence
-standfirst: Velkommen til ORBIT — magasinet om opsendelser, satellitter, nationer og det der kredser om os. Temæt for nr. 1 er tempoet selv.
+title: "Kadence"
+standfirst: Velkommen til ORBIT. Temaet for nr. 1 er tempoet selv — og et løfte om, hvordan vi behandler tal og forfatterskab.
 section: Leder
 order: 1
 ---
 
-I 2025 forsøgte verden i størrelsesordenen **320+ orbitale opsendelser** — et rekordår, drevet især af USA/SpaceX og Kina.[^1] Det er ikke bare flere raketter. Det er en ny industri-rytme: *kadence* (opsendelsestempo). Genbrugelige first stages, konstellationer der skal genopfyldes, og baner i lav jordbane (LEO — *low Earth orbit*) der fyldes hurtigere end oprydningspolitikken.
+I 2023 blev der gjort 221 forsøg på at sende noget i kredsløb om Jorden. I 2024 var tallet 259. I 2025 blev det 324.
 
-**ORBIT** er Nye Siders magasin om den virkelighed. Vi dækker SpaceX og Blue Origin; den amerikanske rumfartsadministration **NASA** (*National Aeronautics and Space Administration*); den europæiske rumorganisation **ESA** (*European Space Agency*); Indien, Kina og Rusland; satellitter og skrot; kalender og statistik; og *sådan virker det* med diagrammer. Vi er nøgterne: planlagt er ikke opsendt, PowerPoint er ikke payload.
+Det er ikke en jævn stigning. Det er en kurve, der knækker opad — og den er grunden til, at dette blad findes.
 
-[KRAFTEN](/kraften/2026-08-nr1/leder) tager watt og elektrificering — også i rummet. Her tager vi **missionen, raketten og kataloget**. Overlap er uundgåeligt; vinklen er forskellig.
+For **kadence** er blevet den variabel, alt andet hænger på. Prisen per kilo i kredsløb falder, fordi den samme raket flyver igen. Rumskrot vokser, fordi der kommer mere op, end der falder ned. Geopolitik forskyder sig, fordi adgang til rummet ikke længere fordeles af to supermagter, men af en håndfuld aktører med hver deres model. Selv forsikringsbranchen har måttet regne om.
 
-God læselyst. Hold øje med himlen — og med tallene.
+Man kan ikke forstå nogen af de historier uden at forstå tempoet. Derfor er «Kadence» temaet for nr. 1.
 
-— Claude Fable 5, chefredaktør
+### Hvad ORBIT lover
 
-[^1]: [SpaceNews](https://spacenews.com/spacex-china-drive-new-record-for-orbital-launches-in-2025/): ca. 324 orbitale forsøg i 2025 (+~25 % vs. 2024); SpaceX Falcon 9 alene i omegnen af 165 flyvninger; Kina omkring 90+. Opgørelser varierer en smule mellem kilder.
+Rumfart er et af de områder, hvor et tal uden kontekst er værre end ingenting. «324 opsendelser» lyder som en måling. Det er det ikke — det er en optællingsregel, og en anden regel giver 329. Det er ikke en teknikalitet. Det er forskellen mellem at vide noget og at gentage noget.
+
+Så her er, hvad vi lover:
+
+**Vi skriver, hvor tallet kommer fra.** Hvert nummer har en [Tallet](/orbit/2026-08-nr1/tallet)-klumme, hvor tallene bliver taget fra hinanden i stedet for citeret. Er to seriøse kilder uenige, skriver vi det — som når 2025's satellitudsendelser opgøres til både 4.517 og 4.434 af folk, der begge har gjort deres arbejde ordentligt.
+
+**Vi opfinder ikke datoer.** En rumkalender er ikke en køreplan, og en opsendelse, der er markeret NET — *no earlier than* — er ikke en aftale. Er vi usikre på, hvornår noget flyver, skriver vi det hellere end at give det en dag.
+
+**Og vi sætter ikke et navn på en tekst, det navn ikke har skrevet.**
+
+Det sidste kræver en forklaring, for det er ikke en selvfølgelighed i et blad som dette.
+
+### Om bylines
+
+ORBIT bliver til med hjælp fra sprogmodeller. Artiklerne i dette nummer er bestilt hos navngivne modeller efter en skriftlig brief, og hver bestilling er noteret med, hvad den kostede, og hvilken kladde der kom retur. Chefredaktionen faktatjekker hver eneste kladde, retter fejlene og skriver det ind i en redaktionel journal, der ligger i det samme arkiv som artiklerne.
+
+Det er ikke pyntearbejde. Da vi gik det efter, viste det sig, at flere af de mest velklingende sætninger i kladderne var forkerte — en opsendelse dateret efter en to år gammel plan, en oprydningsmission beskrevet uden at nævne, at dens eget mål var blevet ramt af skrot, en historie om Månen, der ikke længere står i NASA's egen.
+
+Derfor: en byline i dette blad er en faktuel påstand om, hvem der har skrevet teksten. Kan vi ikke dokumentere den, sætter vi den ikke. Denne leder er skrevet af chefredaktionen og bærer derfor intet navn.
+
+Det er en lav standard. Vi synes ikke desto mindre, den er værd at skrive ned.
+
+God læselyst.

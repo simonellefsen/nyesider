@@ -432,15 +432,17 @@
         "fallback": "deepseek/deepseek-v3.2"
       },
       "receipt": {
-        "words": null,
-        "costUSD": null,
-        "draft": null
+        "words": 548,
+        "costUSD": 0.049875,
+        "draft": "kladder/12-rygteboersen.md",
+        "costRouting": "byok",
+        "generationId": "gen-1786226266-ULPCVJdfavV0E4N1k28U"
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
-        "citations": null,
-        "editorNote": null
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-09",
+        "citations": 2,
+        "editorNote": "REELT kommissioneret hos anthropic/claude-opus-4.8 paa .env.orbit; kladde i kladder/12-rygteboersen.md. Kladdens FORMAT var forbilledligt og er bevaret: temperaturmaaling paa hvert punkt, og — bedst af alt — et punkt 4, hvor den UDTRYKKELIGT naegter at trykke et rygte, den ikke kunne foere tilbage til en navngiven kilde ('stoej med selvtillid'). Det afsnit staar naesten uaendret; det er selve formatets eksistensberettigelse. MEN indholdet var foraeldet, fordi CHEFREDAKTIONENS BRIEF ikke gav modellen tidslinjen (researchNote ligger paa issue-niveau og indgaar ikke i prompten — laert til naeste nummer). Kladden troede, at seneste New Glenn-flyvning var NG-1 i januar 2025 med mislykket boosterlanding; i virkeligheden er NG-2 landet, NG-3 genbrugt og landet, og NG-4 sprunget paa rampen. Alle fire punkter er derfor skrevet om paa kontrolleret grundlag: (1) Limps udmelding om flyvning inden nytaar mod en rampe, hvis havariaarsag stadig er ukendt; (2) Amazon Leo — Project Kuiper er OMDOEBT — naaede ikke FCC-kravet om 1.616 satellitter 30. juli 2026 (de havde 331 i juni), men fik i juni udsaettelse mod midlertidigt tab af frekvensprioritet, slutfrist uaendret 30. juli 2029; rygtet var altsaa rigtigt, konklusionen forkert; (3) Starship V3 floej faktisk foerste gang 22. maj 2026 (Flight 12) og udsatte 20 Starlink V3-satellitter 24. juli (Flight 13), men tre flyvninger paa fire maaneder afloeser ikke 165 Falcon 9-missioner. Kladdens fodnoter var bare firmanavne uden URL; nu konkrete, kontrollerede kilder inkl. FCC's egen afgoerelse DA-26-553."
       }
     }
   ],

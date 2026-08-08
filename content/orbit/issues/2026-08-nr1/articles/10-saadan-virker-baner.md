@@ -65,6 +65,6 @@ Men der er ingen atmosfære til at bremse noget som helst. Skrot i GEO bliver li
 
 Kadencen i 2025 var først og fremmest en LEO-historie. Det er også dér, regningen samler sig.
 
-[^1]: [Types of orbits](https://www.esa.int/Enabling_Support/Space_Transportation/Types_of_orbits), ESA — LEO, MEO og GEO med højder og omløbstider, herunder den geostationære bane i 35.786 km over Ækvator. Se også [Orbits](https://www.earthdata.nasa.gov/learn/earth-observation-data-basics/orbits), NASA Earthdata.
+[^1]: [Types of orbits](https://www.esa.int/Enabling_Support/Space_Transportation/Types_of_orbits), Den Europæiske Rumorganisation (ESA) — LEO, MEO og GEO med højder og omløbstider, herunder den geostationære bane i 35.786 km over Ækvator. Se også [Orbits](https://www.earthdata.nasa.gov/learn/earth-observation-data-basics/orbits), NASA Earthdata.
 [^2]: GPS-satellitternes banehøjde på ca. 20.200 km og omløbstid på ca. 12 timer: [GPS.gov](https://www.gps.gov/), det amerikanske nationale koordinationskontor for satellitnavigation, og [Global Positioning System](https://en.wikipedia.org/wiki/Global_Positioning_System). Kravet om mindst fire synlige satellitter følger af, at modtagerens egen urfejl er den fjerde ubekendte ved siden af de tre rumkoordinater.
 [^3]: [Sidereal time](https://en.wikipedia.org/wiki/Sidereal_time) — stjernedøgnet på 23 t 56 min 4 sek er Jordens rotationstid i forhold til stjernerne; det er den, en geostationær satellit skal matche.

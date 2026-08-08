@@ -21,6 +21,7 @@ Håndhæves som **ERROR** i `production/check_issue.py` (og dermed i `npm run pr
 |---|---|
 | 2026-07-19 | gnisten/2026-07-nr1 (nr. 1); pulsen/2026-07-nr1 (nr. 1); spaending/2026-07-nr1 (nr. 1) |
 | 2026-07-20 | horisonten/2026-07-nr1 (nr. 1) |
+| 2026-08-01 | orbit/2026-08-nr1 (nr. 1) |
 | 2026-08-08 | kronike/2026-08-nr1 (nr. 1) |
 
 ## Efter magasin
@@ -87,7 +88,7 @@ Håndhæves som **ERROR** i `production/check_issue.py` (og dermed i `npm run pr
 
 | Nummer | issue-slug | published | status | tema |
 |---|---|---|---|---|
-| 1 | `2026-08-nr1` | 2026-08-01 | draft | Kadence |
+| 1 | `2026-08-nr1` | 2026-08-01 | published | Kadence |
 | 2 | `2026-08-nr2` | 2026-08-08 | draft | Kataloget og kikkerten |
 
 ### pulsen

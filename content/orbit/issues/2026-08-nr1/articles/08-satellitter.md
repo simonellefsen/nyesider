@@ -26,17 +26,17 @@ Den tekniske nødvendighed har skabt et boom.
 
 Her skal man igen læse etiketten. To seriøse opgørelser af 2025 er ikke enige.
 
-Den ene når **4.517** satellitter udsat i kredsløb, **58 %** flere end året før, og **87 %** af dem kommercielt ejede. Den anden — brancheorganisationen SIA's *State of the Satellite Industry Report*, offentliggjort 13. maj 2026 — når **4.434** og en stigning på **65 %**.[^1]
+Den ene når **4.517** satellitter udsat i kredsløb, **58 %** flere end året før, og **87 %** af dem kommercielt ejede. Den anden — brancheorganisationen SIA's *State of the Satellite Industry Report*, offentliggjort 13. maj 2026 — når **4.434** og en stigning på **65 %**.[^1]
 
 Forskellen er ikke en fejl hos den ene. Den er endnu et eksempel på, at et tal først betyder noget, når man ved, hvad der tælles med: udsatte satellitter eller registrerede objekter, hvornår på året, og hvad der sker med dem, der aldrig kom i drift.
 
-Størrelsesordenen er derimod ikke til diskussion, og den er historisk. Til sammenligning voksede den globale rumøkonomi samme år 3 % til **429 milliarder dollar**, hvoraf den kommercielle satellitindustri stod for 303 milliarder.[^1]
+Størrelsesordenen er derimod ikke til diskussion, og den er historisk. Til sammenligning voksede den globale rumøkonomi samme år 3 % til **429 milliarder dollar**, hvoraf den kommercielle satellitindustri stod for 303 milliarder.[^1]
 
 Førhen blev satellitter bygget som håndlavede ure. I dag ruller de af samlebånd, sendes op i bundter, og forventes at leve omkring fem år, før de brænder op i atmosfæren og bliver erstattet.
 
 ### To ud af tre tilhører ét firma
 
-I august 2026 er cirka **10.893 Starlink-satellitter** aktive. Det er omkring **67 %** af samtlige aktive satellitter i kredsløb om Jorden.[^2]
+I august 2026 er cirka **10.893 Starlink-satellitter** aktive. Det er omkring **67 %** af samtlige aktive satellitter i kredsløb om Jorden.[^2]
 
 Lad det stå et øjeblik: ét privat selskab ejer to ud af tre fungerende maskiner i rummet.
 
@@ -64,7 +64,7 @@ Den Internationale Astronomiske Union har oprettet et center, der alene arbejder
 
 LEO bliver aldrig igen den stille stjernehimmel. Det er blevet et spejl af kloden nedenunder — tætpakket, kommercielt domineret, geopolitisk anspændt og uden rigtige færdselsregler.
 
-[^1]: De to opgørelser: 4.517 satellitter udsat i 2025 (+58 %, 87 % kommercielle) er gengivet i [2025 Orbital Launch Attempts by Country](https://payloadspace.com/2025-orbital-launch-attempts-by-country/), Payload. Brancheorganisationen Satellite Industry Association når 4.434 satellitter og +65 % i [29th Annual State of the Satellite Industry Report](https://sia.org/affordability-productivity-drive-historic-satellite-industry-growth-satellite-industry-association-releases-29th-annual-state-of-the-satellite-industry-report/) (13. maj 2026), som også rummer tallene for rumøkonomien: 429 mia. dollar i alt, heraf 303 mia. i den kommercielle satellitindustri.
+[^1]: De to opgørelser: 4.517 satellitter udsat i 2025 (+58 %, 87 % kommercielle) er gengivet i [2025 Orbital Launch Attempts by Country](https://payloadspace.com/2025-orbital-launch-attempts-by-country/), Payload. Brancheorganisationen Satellite Industry Association når 4.434 satellitter og +65 % i [29th Annual State of the Satellite Industry Report](https://sia.org/affordability-productivity-drive-historic-satellite-industry-growth-satellite-industry-association-releases-29th-annual-state-of-the-satellite-industry-report/) (13. maj 2026), som også rummer tallene for rumøkonomien: 429 mia. dollar i alt, heraf 303 mia. i den kommercielle satellitindustri.
 [^2]: Antal aktive satellitter og Starlinks andel: [CelesTrak SATCAT Boxscore](https://celestrak.org/satcat/boxscore.php) og Jonathan McDowells [statistik over aktive satellitter](https://planet4589.org/space/stats/active.html). Bemærk, at begge tal ændrer sig fra uge til uge; andelen skal læses som en ordenstørrelse, ikke som en konstant.
 [^3]: [ITU Space Services](https://www.itu.int/en/ITU-R/space/Pages/default.aspx), Den Internationale Telekommunikationsunion — international koordinering af frekvenser og satellitbaner.
 [^4]: [IAU Centre for the Protection of the Dark and Quiet Sky from Satellite Constellation Interference](https://cps.iau.org/), Den Internationale Astronomiske Union.

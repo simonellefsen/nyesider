@@ -23,10 +23,38 @@ Cover + 4 feature-billeder (Imagine).
 `bestilling.json`: `redaktion/orbit/numre/2026-08-nr2/bestilling.json`.  
 Kryds: [KRAFTEN nr. 2](../../content/kraften/issues/2026-08-nr2/) (watt i rummet).
 
-## Nr. 1 — udgivet
+## Nr. 1 — genopbygget og genudgivet 2026-08-09
 
-13 artikler: leder, tallet (324), SpaceX, Blue Origin, NASA/ESA, Indien/Rusland, Kina, satellitter, skrot, LEO/MEO/GEO-diagram, kalender, ordbog, rygtebørs.  
-Cover + 5 Imagine-features + SVG-diagram.
+**Tema:** Kadence  
+**12 artikler, 9.561 ord** (var 13 artikler / 2.420 ord — gns. 186). Ordbogen fjernet, jf. formatreglen nedenfor.  
+Elleve artikler reelt kommissioneret på `.env.orbit`; lederen er chefredaktionens og har **ingen byline**.  
+Samlet forbrug **0,53 USD**. `bestilling.json`: `redaktion/orbit/numre/2026-08-nr1/bestilling.json`.
+
+Den oprindelige udgave havde **ingen `bestilling.json` overhovedet** — ingen brief, intet verdikt, ingen
+kvittering — men bar byline til navngivne modeller. Hele nummeret er produceret forfra.
+
+### Hvad faktatjekket fangede (læs dette før nr. 3)
+
+Kladderne var gennemgående velskrevne. Fejlene lå næsten alle i **tidsfølsomme fakta**, hvor modellen
+regnede videre på et forældet udgangspunkt — ikke i sproget:
+
+- **Kalenderen** havde Artemis III som «NET september 2026» med første månelanding siden 1972, bygget på
+  en NASA-melding fra januar 2024. NASA reviderede missionen i februar 2026: Artemis III lander **ikke**,
+  men er en bemandet demonstration i **lav jordbane**, tidligst 2027; første landing er Artemis IV i 2028.
+- **Rygtebørsen** troede, seneste New Glenn-flyvning var NG-1 i januar 2025. Der var sket tre ting siden.
+- **Indien/Rusland** skrev, at OneWebs satellitter blev hentet hjem fra Baikonur. De ligger der stadig.
+- **Blue Origin**-kladden fulgte briefens tese om at «andettrinnet bider» — og modsagde sig selv, fordi
+  undersøgelsen af pad-eksplosionen peger mod *førstetrinnets* agterende. Artiklen argumenterer nu imod
+  sin egen brief.
+
+**Læring til briefs:** `researchNote` på issue-niveau kommer **ikke** med i prompten — kun `brief.angle`.
+Tidslinjer og nøgletal skal skrives ind i den enkelte artikels `angle`, ellers regner modellen på sin
+træningsviden. Det var direkte årsag til rygtebørsens fejl.
+
+**Læring til kvitteringer:** BYOK-rutede kald (Anthropic, Gemini) rapporterer `cost=0` i svaret, fordi de
+afregnes på vores egen upstream-nøgle. `commission.py` er rettet, så den tager `cost_details.
+upstream_inference_cost` — men **aldrig lægger de to sammen**; det dobbelttæller et normalt kald.
+Facit aflæses på `GET /api/v1/key`: `usage` skal matche de rutede kald, `byok_usage` de øvrige.
 
 ## Nr. 3 — kandidater
 

@@ -10,7 +10,7 @@ imageSource: "https://x.ai/"
 
 Ét tal bar 2025: **165 opsendelser** med raketten Falcon 9 fra det amerikanske selskab SpaceX.[^1]
 
-Det er ikke bare flere end noget andet land eller selskab. Det er flere end resten af verden tilsammen — de øvrige 159 af årets 324 orbitale forsøg — og det svarer til omkring **85 %** af samtlige amerikanske opsendelser.[^1]
+Det er ikke bare flere end noget andet land eller selskab. Det er flere end resten af verden tilsammen — de øvrige 159 af årets 324 orbitale forsøg — og det svarer til omkring **85 %** af samtlige amerikanske opsendelser.[^1]
 
 Spørgsmålet er ikke, om det er imponerende. Det er, hvad der gør en sådan **kadence** — det tempo, hvormed den samme raket kan sendes af sted igen og igen — praktisk mulig. Og hvad det koster resten af kredsløbsmiljøet, at én aktør sætter takten.
 
@@ -40,7 +40,7 @@ En kadence på dette niveau har konsekvenser langt ud over SpaceX selv.
 
 **For det andet** sætter tempoet en de facto standard for hele kredsløbsmiljøet. Banekoordinering og rumovervågning — **SSA**, Space Situational Awareness, altså arbejdet med at holde styr på, hvad der er deroppe, og hvad der er på vej mod hinanden — skal håndtere en markant større tilgang af objekter, når én operatør alene sender tusindvis af satellitter op år efter år. Den regning behandles i [rumskrot](/orbit/2026-08-nr1/rumskrot).
 
-**For det tredje** er der en strategisk dimension. Når 85 % af amerikanske opsendelser samles hos ét selskab, bliver spørgsmålet om alternativer ikke kun forretning, men sårbarhed. Europa har med Ariane 6 forsøgt at holde en selvstændig adgang til rummet i live — fire opsendelser i 2025, otte planlagt i 2026 — men målt i rene opsendelsestal er afstanden betydelig.[^4] Mere om det i [NASA & ESA](/orbit/2026-08-nr1/nasa-esa).
+**For det tredje** er der en strategisk dimension. Når 85 % af amerikanske opsendelser samles hos ét selskab, bliver spørgsmålet om alternativer ikke kun forretning, men sårbarhed. Europa har gennem Den Europæiske Rumorganisation, **ESA**, og raketten Ariane 6 forsøgt at holde en selvstændig adgang til rummet i live — fire opsendelser i 2025, otte planlagt i 2026 — men målt i rene opsendelsestal er afstanden betydelig.[^4] Mere om det i [NASA & ESA](/orbit/2026-08-nr1/nasa-esa).
 
 165 missioner er derfor ikke kun en teknisk bedrift i genbrug og logistik. Det er også en måling af, hvor koncentreret adgangen til rummet er blevet.
 
