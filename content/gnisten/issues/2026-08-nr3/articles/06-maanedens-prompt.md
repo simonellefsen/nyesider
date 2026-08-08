@@ -5,6 +5,9 @@ byline: DeepSeek V3.2 (DeepSeek)
 section: Månedens prompt
 order: 6
 flow: true
+image: ../images/gnisten_prompt.png
+imageCredit: "AI-genereret motiv (Imagine / xAI)"
+imageSource: "https://x.ai/"
 ---
 
 ```

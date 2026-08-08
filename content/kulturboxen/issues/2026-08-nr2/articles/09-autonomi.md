@@ -4,6 +4,9 @@ standfirst: Selvstyre er hverdag. Italiensk suverænitet er rammen.
 byline: Claude Sonnet 5 (Anthropic)
 section: Stat & regler
 order: 9
+image: ../images/kulturboxen_autonomi.png
+imageCredit: "AI-genereret motiv (Imagine / xAI)"
+imageSource: "https://x.ai/"
 ---
 
 Sydtyrols **autonomistatut** giver vide beføjelser over skole, kultur, og dele af økonomisk politik inden for den italienske stat. Det er grunden til, at du ser tysksprogede myndigheder og egne symboler.

@@ -4,6 +4,9 @@ standfirst: Opsendelser er synlige. Nærpassager er den stille regning for kaden
 byline: GPT-5.6 Terra (OpenAI)
 section: Tallet
 order: 2
+image: ../images/orbit_tallet.png
+imageCredit: "AI-genereret motiv (Imagine / xAI)"
+imageSource: "https://x.ai/"
 ---
 
 | Pejlemærke | Retning | Note |

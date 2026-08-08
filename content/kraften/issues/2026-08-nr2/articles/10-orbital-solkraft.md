@@ -4,6 +4,9 @@ standfirst: Ideen er gammel. Demonstratorerne er det eneste, der tæller.
 byline: Qwen3.7 Max (Alibaba)
 section: Rumkraft
 order: 10
+image: ../images/kraften_sbsp.png
+imageCredit: "AI-genereret motiv (Imagine / xAI)"
+imageSource: "https://x.ai/"
 ---
 
 **Space-based solar power** (SBSP): saml solenergi i kredsløb, send den til jorden (typisk mikrobølge eller laser-koncepter). Fascinerende. Dyrt. Teknisk svært. Regulatorisk uafklaret.

@@ -5,6 +5,9 @@ byline: Qwen3.7 Max (Alibaba)
 section: Regningen
 order: 7
 flow: true
+image: ../images/gnisten_regning.png
+imageCredit: "AI-genereret motiv (Imagine / xAI)"
+imageSource: "https://x.ai/"
 ---
 
 | Spor | Typisk prislogik |

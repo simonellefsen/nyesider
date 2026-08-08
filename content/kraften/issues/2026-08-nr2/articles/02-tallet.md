@@ -4,6 +4,9 @@ standfirst: Elektrificering er ikke “mere grøn strøm” alene — det er ele
 byline: GPT-5.6 Terra (OpenAI)
 section: Tallet
 order: 2
+image: ../images/kraften_tallet.png
+imageCredit: "AI-genereret motiv (Imagine / xAI)"
+imageSource: "https://x.ai/"
 ---
 
 | Pejlemærke | Retning | Kilde-note |

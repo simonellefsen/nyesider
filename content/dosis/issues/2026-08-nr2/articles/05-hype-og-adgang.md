@@ -4,6 +4,9 @@ standfirst: Efterspørgsel, lagre og sociale medier har skabt et parallelmarked.
 byline: Mistral Large (Mistral AI)
 section: Longevity & aldring
 order: 5
+image: ../images/dosis_hype.png
+imageCredit: "AI-genereret motiv (Imagine / xAI)"
+imageSource: "https://x.ai/"
 ---
 
 ### Tre lag

@@ -4,6 +4,9 @@ standfirst: Vinduer flytter sig. Hold dig til klasser af begivenheder.
 byline: Qwen3.7 Max (Alibaba)
 section: Kalenderen
 order: 9
+image: ../images/orbit_kalender.png
+imageCredit: "AI-genereret motiv (Imagine / xAI)"
+imageSource: "https://x.ai/"
 ---
 
 ORBIT opdigter ikke konkrete launch-datoer. Her er **sporene**, du kan følge i offentlige kilder:

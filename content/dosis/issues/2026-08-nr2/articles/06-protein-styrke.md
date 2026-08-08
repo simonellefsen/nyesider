@@ -4,6 +4,9 @@ standfirst: Kalorierne falder. Musklerne skal ikke falde med — hvis du kan und
 byline: Gemini 3.1 Pro (Google)
 section: Protein & træning
 order: 6
+image: ../images/dosis_styrke.png
+imageCredit: "AI-genereret motiv (Imagine / xAI)"
+imageSource: "https://x.ai/"
 ---
 
 Ved energideficit mister kroppen fedt **og** noget muskel. Styrketræning 2–3 gange om ugen plus **tilstrækkeligt protein** er det, litteraturen oftest peger på for at bremse muskeltab.[^1] Under nedsat appetit bliver det praktisk: små, proteinrige måltider; mejeri, æg, fisk, bælgfrugter, pulver som *værktøj* — se [nr. 1 om pulver vs. mad](/dosis/2026-08-nr1/pulver-vs-mad).

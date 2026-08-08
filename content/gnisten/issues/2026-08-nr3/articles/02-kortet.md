@@ -4,6 +4,9 @@ standfirst: Cloud-assistenter, lokale modeller og agenter der rører dine filer 
 byline: GPT-5.6 Terra (OpenAI)
 section: Kortet
 order: 2
+image: ../images/gnisten_kortet.png
+imageCredit: "AI-genereret motiv (Imagine / xAI)"
+imageSource: "https://x.ai/"
 ---
 
 1. **Cloud-assistenter** — ChatGPT, Claude, Gemini: nemme, opdaterede, data forlader ofte din maskine.  

@@ -5,6 +5,9 @@ byline: Gemini 3.5 Flash (Google)
 section: Ordbogen
 order: 10
 flow: true
+image: ../images/orbit_ordbog.png
+imageCredit: "AI-genereret motiv (Imagine / xAI)"
+imageSource: "https://x.ai/"
 ---
 
 **SSA** — *space situational awareness*: overblik over objekter i rummet.  

@@ -4,6 +4,9 @@ standfirst: Konkrete retninger med kilde og år — ikke din personlige dosis.
 byline: DeepSeek V3.2 (DeepSeek)
 section: Laboratoriet / tallet
 order: 8
+image: ../images/dosis_tallet.png
+imageCredit: "AI-genereret motiv (Imagine / xAI)"
+imageSource: "https://x.ai/"
 ---
 
 | Pejlemærke | Tal / retning | År | Kilde |

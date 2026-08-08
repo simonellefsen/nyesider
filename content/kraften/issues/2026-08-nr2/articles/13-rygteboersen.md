@@ -5,6 +5,9 @@ byline: Grok 4.3 (xAI)
 section: Rygtebørsen
 order: 13
 flow: true
+image: ../images/kraften_rygte.png
+imageCredit: "AI-genereret motiv (Imagine / xAI)"
+imageSource: "https://x.ai/"
 ---
 
 **“Data centre æder al grøn strøm”** ★★★☆☆  

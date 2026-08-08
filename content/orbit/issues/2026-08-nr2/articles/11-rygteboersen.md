@@ -5,6 +5,9 @@ byline: Grok 4.3 (xAI)
 section: Rygtebørsen
 order: 11
 flow: true
+image: ../images/orbit_rygte.png
+imageCredit: "AI-genereret motiv (Imagine / xAI)"
+imageSource: "https://x.ai/"
 ---
 
 **“Starship erstatter Falcon i 2026”** ★☆☆☆☆  

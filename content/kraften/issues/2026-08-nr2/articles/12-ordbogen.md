@@ -5,6 +5,9 @@ byline: GLM-5.2 (Z.ai)
 section: Ordbogen
 order: 12
 flow: true
+image: ../images/kraften_ordbog.png
+imageCredit: "AI-genereret motiv (Imagine / xAI)"
+imageSource: "https://x.ai/"
 ---
 
 **Electrification rate** — elens andel af endelig energiforbrug.  

@@ -5,6 +5,9 @@ byline: Grok 4.3 (xAI)
 section: Sladder
 order: 9
 flow: true
+image: ../images/gnisten_sladder.png
+imageCredit: "AI-genereret motiv (Imagine / xAI)"
+imageSource: "https://x.ai/"
 ---
 
 **“Min agent ryddede op i Downloads”** ★★★★☆  

@@ -15,7 +15,10 @@
     "images/horisonten_loeb.png",
     "images/horisonten_byliv.png",
     "images/horisonten_soeer.png",
-    "images/horisonten_mad.png"
+    "images/horisonten_mad.png",
+    "images/horisonten_leder.png",
+    "images/horisonten_kalender.png",
+    "images/horisonten_praktisk.png"
   ],
   "productionCostUSD": null,
   "imageCredits": "Alle billeder i dette nummer er AI-genererede akvarelmotiver via Imagine (xAI). Kilde: https://x.ai/ — forside (Tre Cime-efterår), overblik, vandring, cykling, løb, byliv, søer og mad & vin. Ingen logoer; rejsemagasin-stil. Se kredit under hvert billede.",
@@ -28,7 +31,10 @@
       "title": "Fra Kaukasus til alperne",
       "section": "Leder",
       "byline": "Claude Fable 5",
-      "standfirst": "Georgien gav os bjerge og bord. Nu vender vi tilbage til Dolomitterne — efteråret, der var parkeret."
+      "standfirst": "Georgien gav os bjerge og bord. Nu vender vi tilbage til Dolomitterne — efteråret, der var parkeret.",
+      "image": "../images/horisonten_leder.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "dolomitterne-efteraar",
@@ -109,7 +115,10 @@
       "title": "Kalenderen: efterår i Dolomitterne",
       "section": "Kalenderen",
       "byline": "Qwen3.7 Max (Alibaba)",
-      "standfirst": "Høst, markeder og sæsonskift — omtrentligt og med forbehold."
+      "standfirst": "Høst, markeder og sæsonskift — omtrentligt og med forbehold.",
+      "image": "../images/horisonten_kalender.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "mad-og-vin",
@@ -130,7 +139,10 @@
       "title": "Praktisk: sådan planlægger du Dolomit-turen",
       "section": "Praktisk",
       "byline": "Gemini 3.1 Pro (Google)",
-      "standfirst": "Fly, bil, budget og pakning til efteråret i højden."
+      "standfirst": "Fly, bil, budget og pakning til efteråret i højden.",
+      "image": "../images/horisonten_praktisk.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/"
     }
   ],
   "coverCredit": "AI-genereret rejsemotiv (Imagine / xAI)",

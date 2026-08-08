@@ -4,6 +4,9 @@ standfirst: Fly, bil, budget og pakning — det kedelige, der afgør, om det flo
 byline: Gemini 3.1 Pro (Google)
 section: Praktisk
 order: 10
+image: ../images/horisonten_praktisk.png
+imageCredit: "AI-genereret motiv (Imagine / xAI)"
+imageSource: "https://x.ai/"
 ---
 
 ## Sådan kommer du derhen

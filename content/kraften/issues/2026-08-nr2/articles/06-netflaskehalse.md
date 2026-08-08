@@ -4,6 +4,9 @@ standfirst: Du kan bestille en varmepumpe på en uge. Et 400 kV-kabel tager år.
 byline: Grok 4.5 (xAI)
 section: Systemet bag stikket
 order: 6
+image: ../images/kraften_netko.png
+imageCredit: "AI-genereret motiv (Imagine / xAI)"
+imageSource: "https://x.ai/"
 ---
 
 Elektrificering fejler sjældent på **mangel på solpaneler i kataloget**. Den fejler på:

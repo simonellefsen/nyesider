@@ -5,6 +5,9 @@ byline: Claude Fable 5
 section: Kryds (HORISONTEN)
 order: 13
 flow: true
+image: ../images/kulturboxen_bro.png
+imageCredit: "AI-genereret motiv (Imagine / xAI)"
+imageSource: "https://x.ai/"
 ---
 
 Hvis denne boks har gjort dig nysgerrig på **sprog, bord og autonomi**, og du nu vil have **stier, Sellaronda og praktisk planlægning**, så er du i [HORISONTEN nr. 3 — Dolomitterne i efteråret](/horisonten/2026-08-nr3/leder).

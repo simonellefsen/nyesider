@@ -4,6 +4,9 @@ standfirst: Mål er ikke megawatt. Skeln politik, ansøgning, investering og dri
 byline: Claude Sonnet 5 (Anthropic)
 section: Atom
 order: 14
+image: ../images/kraften_sverige.png
+imageCredit: "AI-genereret motiv (Imagine / xAI)"
+imageSource: "https://x.ai/"
 ---
 
 Sverige har politiske mål om **ny kernekraft** og forlænget drift af eksisterende reaktorer. KRAFTEN's opgave er at skille lagene ad:

@@ -4,6 +4,9 @@ standfirst: Velkommen til DOSIS nr. 2. GLP-1-medicin har ændret vægtsamtalen. 
 byline: Claude Fable 5
 section: Leder
 order: 1
+image: ../images/dosis_leder.png
+imageCredit: "AI-genereret motiv (Imagine / xAI)"
+imageSource: "https://x.ai/"
 ---
 
 Første nummer handlede om **protein-gram**. Andet nummer handler om det, der har stjålet overskrifterne fra pulverposen: **GLP-1-receptoragonister** — lægemidler, der dæmper appetit og har givet dramatiske vægttal i studier, og som nu fylder både klinikker, apoteker og middagsbordet.

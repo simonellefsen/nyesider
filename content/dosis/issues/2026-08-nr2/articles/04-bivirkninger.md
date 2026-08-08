@@ -4,6 +4,9 @@ standfirst: Kvalme er almindeligt. “Alle tåler det” er marketing.
 byline: DeepSeek V3.2 (DeepSeek)
 section: Sikkerhed & bivirkninger
 order: 4
+image: ../images/dosis_bivirkninger.png
+imageCredit: "AI-genereret motiv (Imagine / xAI)"
+imageSource: "https://x.ai/"
 ---
 
 ### Hyppige og kendte

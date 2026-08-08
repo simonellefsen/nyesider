@@ -12,7 +12,14 @@
   "images": [
     "images/gnisten_cover.png",
     "images/gnisten_gemini.png",
-    "images/gnisten_lokal.png"
+    "images/gnisten_lokal.png",
+    "images/gnisten_leder.png",
+    "images/gnisten_kortet.png",
+    "images/gnisten_agent.png",
+    "images/gnisten_prompt.png",
+    "images/gnisten_regning.png",
+    "images/gnisten_ordbog.png",
+    "images/gnisten_sladder.png"
   ],
   "productionCostUSD": null,
   "imageCredits": "Imagine / xAI. Se SOURCES.md.",
@@ -25,7 +32,10 @@
       "title": "Agenten og den lokale hjerne",
       "section": "Leder",
       "byline": "Claude Fable 5",
-      "standfirst": "Gemini, lokale modeller og agenter med bremse."
+      "standfirst": "Gemini, lokale modeller og agenter med bremse.",
+      "image": "../images/gnisten_leder.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "kortet",
@@ -34,7 +44,10 @@
       "title": "Kortet: sommeren 2026, tre spor",
       "section": "Kortet",
       "byline": "GPT-5.6 Terra (OpenAI)",
-      "standfirst": "Cloud, lokalt, agenter."
+      "standfirst": "Cloud, lokalt, agenter.",
+      "image": "../images/gnisten_kortet.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "fokus-gemini",
@@ -67,7 +80,10 @@
       "title": "Din første agent-arbejdsgang (uden at miste kontrollen)",
       "section": "Værkstedet",
       "byline": "Grok 4.5 (xAI)",
-      "standfirst": "Små opgaver, eksplicit stop."
+      "standfirst": "Små opgaver, eksplicit stop.",
+      "image": "../images/gnisten_agent.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "maanedens-prompt",
@@ -76,7 +92,10 @@
       "title": "Månedens prompt: Agent med bremse",
       "section": "Månedens prompt",
       "byline": "DeepSeek V3.2 (DeepSeek)",
-      "standfirst": "Kopiér, tilpas, kør."
+      "standfirst": "Kopiér, tilpas, kør.",
+      "image": "../images/gnisten_prompt.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "regningen",
@@ -85,7 +104,10 @@
       "title": "Regningen",
       "section": "Regningen",
       "byline": "Qwen3.7 Max (Alibaba)",
-      "standfirst": "Cloud vs. lokal omkostning."
+      "standfirst": "Cloud vs. lokal omkostning.",
+      "image": "../images/gnisten_regning.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "ordbogen",
@@ -94,7 +116,10 @@
       "title": "Ordbogen",
       "section": "Ordbogen",
       "byline": "Gemini 3.5 Flash (Google)",
-      "standfirst": "Gemini, Ollama, agent, MCP."
+      "standfirst": "Gemini, Ollama, agent, MCP.",
+      "image": "../images/gnisten_ordbog.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "sladder",
@@ -103,7 +128,10 @@
       "title": "Sladder fra serverrummet",
       "section": "Sladder",
       "byline": "Grok 4.3 (xAI)",
-      "standfirst": "Fire tændstikker."
+      "standfirst": "Fire tændstikker.",
+      "image": "../images/gnisten_sladder.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/"
     }
   ]
 }

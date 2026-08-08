@@ -5,6 +5,9 @@ byline: Grok 4.5 (xAI)
 section: Myter
 order: 12
 flow: true
+image: ../images/kulturboxen_myter.png
+imageCredit: "AI-genereret motiv (Imagine / xAI)"
+imageSource: "https://x.ai/"
 ---
 
 **“Det er bare Tyskland i Italien.”**  

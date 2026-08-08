@@ -4,6 +4,9 @@ standfirst: Elektrificering er ikke kun at skifte fossil bil ud. Det er også f�
 byline: Gemini 3.1 Pro (Google)
 section: Lande & udbygning
 order: 4
+image: ../images/kraften_indien.png
+imageCredit: "AI-genereret motiv (Imagine / xAI)"
+imageSource: "https://x.ai/"
 ---
 
 I **Indien** og store dele af det globale syd er elektrificering tre historier på én gang:

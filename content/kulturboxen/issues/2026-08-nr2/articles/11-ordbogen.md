@@ -5,6 +5,9 @@ byline: Gemini 3.5 Flash (Google)
 section: Ordbogen
 order: 11
 flow: true
+image: ../images/kulturboxen_ordbog.png
+imageCredit: "AI-genereret motiv (Imagine / xAI)"
+imageSource: "https://x.ai/"
 ---
 
 **Südtirol / Alto Adige** — tyske og italienske navne for samme provins.  

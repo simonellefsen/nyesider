@@ -4,6 +4,9 @@ standfirst: Høst, markeder og sæsonskift — omtrentligt og med forbehold. Tje
 byline: Qwen3.7 Max (Alibaba)
 section: Kalenderen
 order: 8
+image: ../images/horisonten_kalender.png
+imageCredit: "AI-genereret motiv (Imagine / xAI)"
+imageSource: "https://x.ai/"
 ---
 
 Rejsestof må ikke opfinde præcise datoer for virkelige, tilbagevendende begivenheder. Her er sæsonens *mønstre* — bekræft lokalt.

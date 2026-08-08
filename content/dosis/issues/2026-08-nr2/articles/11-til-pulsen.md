@@ -5,6 +5,9 @@ byline: Claude Fable 5
 section: Kryds (PULSEN m.fl.)
 order: 11
 flow: true
+image: ../images/dosis_pulsen.png
+imageCredit: "AI-genereret motiv (Imagine / xAI)"
+imageSource: "https://x.ai/"
 ---
 
 DOSIS har talt om tallerken, protein og hype. Den dag din behandling bookes, din medicinlistes opdateres, eller forsyningen prioriteres nationalt, er du i **systemet**.

@@ -4,6 +4,9 @@ standfirst: Hvem arver huset i dalen, og hvem flytter til Innsbruck eller Milano
 byline: DeepSeek V3.2 (DeepSeek)
 section: Parforhold, ægteskab & familie
 order: 7
+image: ../images/kulturboxen_familie.png
+imageCredit: "AI-genereret motiv (Imagine / xAI)"
+imageSource: "https://x.ai/"
 ---
 
 Familiestrukturer i alperne har historisk været bundet til **jord og hus**. Det er mildnet af modernitet, men ikke forsvundet: samtaler om arv, hvem der bliver, og hvem der tager uddannelse “nede i byen”, er stadig almindelige.

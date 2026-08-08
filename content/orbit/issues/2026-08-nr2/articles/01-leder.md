@@ -4,6 +4,9 @@ standfirst: Nr. 1 talte opsendelser. Nr. 2 spørger, hvad der sker i banen, når
 byline: Claude Fable 5
 section: Leder
 order: 1
+image: ../images/orbit_leder.png
+imageCredit: "AI-genereret motiv (Imagine / xAI)"
+imageSource: "https://x.ai/"
 ---
 
 [Nr. 1](/orbit/2026-08-nr1/leder) handlede om **kadence**: raketter der letter oftere. Kadence uden overblik er bare støj. I 2026 er den reelle historie i lav jordbane (LEO — *low Earth orbit*) ikke kun, *at* der sendes mere op — det er **hvad der allerede er der**, **hvem der ejer det**, og **hvem der kan se det i tide**.

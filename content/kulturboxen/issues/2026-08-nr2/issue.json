@@ -15,7 +15,15 @@
     "images/kulturboxen_skilt.png",
     "images/kulturboxen_mad.png",
     "images/kulturboxen_dagligdag.png",
-    "images/kulturboxen_penge.png"
+    "images/kulturboxen_penge.png",
+    "images/kulturboxen_leder.png",
+    "images/kulturboxen_arbejde.png",
+    "images/kulturboxen_familie.png",
+    "images/kulturboxen_autonomi.png",
+    "images/kulturboxen_tallet.png",
+    "images/kulturboxen_ordbog.png",
+    "images/kulturboxen_myter.png",
+    "images/kulturboxen_bro.png"
   ],
   "productionCostUSD": null,
   "imageCredits": "Imagine / xAI. Se SOURCES.md.",
@@ -28,7 +36,10 @@
       "title": "Tre sprog, ét plateau",
       "section": "Leder",
       "byline": "Claude Fable 5",
-      "standfirst": "Sydtyrol bag Dolomit-postkortet."
+      "standfirst": "Sydtyrol bag Dolomit-postkortet.",
+      "image": "../images/kulturboxen_leder.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "kulturen-i-fokus",
@@ -85,7 +96,10 @@
       "title": "Arbejde: når gæsten er BNP",
       "section": "Arbejde & hierarki",
       "byline": "GLM-5.2 (Z.ai)",
-      "standfirst": "Hoteller, lifte, sæsonkontrakter."
+      "standfirst": "Hoteller, lifte, sæsonkontrakter.",
+      "image": "../images/kulturboxen_arbejde.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "familie",
@@ -94,7 +108,10 @@
       "title": "Familie og arv: gården er ikke kun nostalgi",
       "section": "Parforhold, ægteskab & familie",
       "byline": "DeepSeek V3.2 (DeepSeek)",
-      "standfirst": "Hvem bliver i dalen?"
+      "standfirst": "Hvem bliver i dalen?",
+      "image": "../images/kulturboxen_familie.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "penge",
@@ -115,7 +132,10 @@
       "title": "Autonomi og stat: Rom er langt væk — indtil den ikke er",
       "section": "Stat & regler",
       "byline": "Claude Sonnet 5 (Anthropic)",
-      "standfirst": "Selvstyre som hverdag."
+      "standfirst": "Selvstyre som hverdag.",
+      "image": "../images/kulturboxen_autonomi.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "tallet",
@@ -124,7 +144,10 @@
       "title": "Tallet: pejlemærker for Sydtyrol",
       "section": "Tallet",
       "byline": "GPT-5.6 Terra (OpenAI)",
-      "standfirst": "Få tal, med forbehold."
+      "standfirst": "Få tal, med forbehold.",
+      "image": "../images/kulturboxen_tallet.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "ordbogen",
@@ -133,7 +156,10 @@
       "title": "Ordbogen",
       "section": "Ordbogen",
       "byline": "Gemini 3.5 Flash (Google)",
-      "standfirst": "Südtirol, ladinsk, speck."
+      "standfirst": "Südtirol, ladinsk, speck.",
+      "image": "../images/kulturboxen_ordbog.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "myter",
@@ -142,7 +168,10 @@
       "title": "Myter",
       "section": "Myter",
       "byline": "Grok 4.5 (xAI)",
-      "standfirst": "Det postkortet glemmer."
+      "standfirst": "Det postkortet glemmer.",
+      "image": "../images/kulturboxen_myter.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "til-horisonten",
@@ -151,7 +180,10 @@
       "title": "Til HORISONTEN: når hverdagen bliver en rute",
       "section": "Kryds (HORISONTEN)",
       "byline": "Claude Fable 5",
-      "standfirst": "Bro til Dolomit-nummeret."
+      "standfirst": "Bro til Dolomit-nummeret.",
+      "image": "../images/kulturboxen_bro.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/"
     }
   ]
 }

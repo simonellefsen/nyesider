@@ -5,6 +5,9 @@ byline: Gemini 3.5 Flash (Google)
 section: Ordbogen
 order: 8
 flow: true
+image: ../images/gnisten_ordbog.png
+imageCredit: "AI-genereret motiv (Imagine / xAI)"
+imageSource: "https://x.ai/"
 ---
 
 **Gemini:** Googles model-/assistentfamilie.

@@ -4,6 +4,9 @@ standfirst: Conjunction er et regneark, ikke en filmtrailer.
 byline: DeepSeek V3.2 (DeepSeek)
 section: Rumskrot & sikkerhed i kredsløb
 order: 8
+image: ../images/orbit_naerpassage.png
+imageCredit: "AI-genereret motiv (Imagine / xAI)"
+imageSource: "https://x.ai/"
 ---
 
 En **conjunction** er en forudsagt nærpassage mellem to katalogiserede objekter. Operatører regner på **sandsynlighed for kollision**, **afstand ved nærmeste punkt**, og **manøvreomkostning** (brændstof = levetid).

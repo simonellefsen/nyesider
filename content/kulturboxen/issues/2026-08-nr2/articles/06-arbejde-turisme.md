@@ -4,6 +4,9 @@ standfirst: Hoteller, lifte og sæsonkontrakter — og den stille jalousi mellem
 byline: GLM-5.2 (Z.ai)
 section: Arbejde & hierarki
 order: 6
+image: ../images/kulturboxen_arbejde.png
+imageCredit: "AI-genereret motiv (Imagine / xAI)"
+imageSource: "https://x.ai/"
 ---
 
 Turisme er **motor og afhængighed**. Den skaber jobs, der er synlige (reception, guide, køkken) og usynlige (rengøring, logistik, byggeri af endnu en suite).

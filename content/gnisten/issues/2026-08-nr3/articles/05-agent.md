@@ -4,6 +4,9 @@ standfirst: En agent er bare en assistent med flere skridt og flere tilladelser.
 byline: Grok 4.5 (xAI)
 section: Værkstedet
 order: 5
+image: ../images/gnisten_agent.png
+imageCredit: "AI-genereret motiv (Imagine / xAI)"
+imageSource: "https://x.ai/"
 ---
 
 ### Definition

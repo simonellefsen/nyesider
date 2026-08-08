@@ -14,7 +14,17 @@
     "images/kraften_kina.png",
     "images/kraften_net.png",
     "images/kraften_bess.png",
-    "images/kraften_rumsol.png"
+    "images/kraften_rumsol.png",
+    "images/kraften_leder.png",
+    "images/kraften_tallet.png",
+    "images/kraften_indien.png",
+    "images/kraften_netko.png",
+    "images/kraften_rtg.png",
+    "images/kraften_sbsp.png",
+    "images/kraften_lande.png",
+    "images/kraften_ordbog.png",
+    "images/kraften_rygte.png",
+    "images/kraften_sverige.png"
   ],
   "productionCostUSD": null,
   "imageCredits": "Imagine / xAI. Se SOURCES.md.",
@@ -27,7 +37,10 @@
       "title": "Strøm overalt",
       "section": "Leder",
       "byline": "Claude Fable 5",
-      "standfirst": "Elektrificering jorden rundt — og watt i rummet."
+      "standfirst": "Elektrificering jorden rundt — og watt i rummet.",
+      "image": "../images/kraften_leder.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "tallet",
@@ -36,7 +49,10 @@
       "title": "Tallet: el-andelen af verden",
       "section": "Tallet",
       "byline": "GPT-5.6 Terra (OpenAI)",
-      "standfirst": "Elens andel af endelig energi."
+      "standfirst": "Elens andel af endelig energi.",
+      "image": "../images/kraften_tallet.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "kina",
@@ -57,7 +73,10 @@
       "title": "Indien og det globale syd: peak, adgang og spring",
       "section": "Lande & udbygning",
       "byline": "Gemini 3.1 Pro (Google)",
-      "standfirst": "Første stik og aften-top."
+      "standfirst": "Første stik og aften-top.",
+      "image": "../images/kraften_indien.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "eu-usa",
@@ -78,7 +97,10 @@
       "title": "Netflaskehalse: hvor elektrificering møder stål",
       "section": "Systemet bag stikket",
       "byline": "Grok 4.5 (xAI)",
-      "standfirst": "Kabler tager år."
+      "standfirst": "Kabler tager år.",
+      "image": "../images/kraften_netko.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "lagring",
@@ -111,7 +133,10 @@
       "title": "Rum: kernekraft til dybe missioner",
       "section": "Rumkraft",
       "byline": "DeepSeek V3.2 (DeepSeek)",
-      "standfirst": "RTG og fission surface power."
+      "standfirst": "RTG og fission surface power.",
+      "image": "../images/kraften_rtg.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "orbital-solkraft",
@@ -120,7 +145,10 @@
       "title": "Orbital solkraft: hype vs. demonstration",
       "section": "Rumkraft",
       "byline": "Qwen3.7 Max (Alibaba)",
-      "standfirst": "Demonstratorer tæller."
+      "standfirst": "Demonstratorer tæller.",
+      "image": "../images/kraften_sbsp.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "lande-snapshot",
@@ -129,7 +157,10 @@
       "title": "Lande-snapshot: seks pejlinger",
       "section": "Lande & udbygning",
       "byline": "Gemini 3.5 Flash (Google)",
-      "standfirst": "Samme indikatorer, forskellige virkeligheder."
+      "standfirst": "Samme indikatorer, forskellige virkeligheder.",
+      "image": "../images/kraften_lande.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "ordbogen",
@@ -138,7 +169,10 @@
       "title": "Ordbogen",
       "section": "Ordbogen",
       "byline": "GLM-5.2 (Z.ai)",
-      "standfirst": "Electrification rate, RTG, BESS."
+      "standfirst": "Electrification rate, RTG, BESS.",
+      "image": "../images/kraften_ordbog.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "rygteboersen",
@@ -147,7 +181,10 @@
       "title": "Rygtebørsen",
       "section": "Rygtebørsen",
       "byline": "Grok 4.3 (xAI)",
-      "standfirst": "Spekulativt."
+      "standfirst": "Spekulativt.",
+      "image": "../images/kraften_rygte.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "sverige-atom",
@@ -156,7 +193,10 @@
       "title": "Sverige: atomudbygningens lange vej",
       "section": "Atom",
       "byline": "Claude Sonnet 5 (Anthropic)",
-      "standfirst": "Mål er ikke megawatt."
+      "standfirst": "Mål er ikke megawatt.",
+      "image": "../images/kraften_sverige.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/"
     }
   ]
 }

@@ -1,10 +1,15 @@
-# Billedkilder · DOSIS nr. 2 (*Appetitten under kontrol*)
+Alle motiver AI-genereret via Imagine (xAI), https://x.ai/. Ingen logoer.
 
-| Fil | Motiv | Kilde |
-|-----|--------|-------|
-| `dosis_cover.png` | Portion / appetit-tema | Imagine / xAI |
-| `dosis_glp1.png` | Abstrakt research/appetit | Imagine / xAI |
-| `dosis_glp1_tallerken.png` | Proteinrig tallerken | Imagine / xAI |
-| `dosis_glp1_wearable.png` | Wearable / sensor | Imagine / xAI |
-
-https://x.ai/ — ingen lægemiddel-logoer.
+## Filer
+- `dosis_bivirkninger.png`
+- `dosis_cover.png`
+- `dosis_glp1.png`
+- `dosis_glp1_tallerken.png`
+- `dosis_glp1_wearable.png`
+- `dosis_hype.png`
+- `dosis_leder.png`
+- `dosis_ordbog.png`
+- `dosis_pulsen.png`
+- `dosis_rygte.png`
+- `dosis_styrke.png`
+- `dosis_tallet.png`

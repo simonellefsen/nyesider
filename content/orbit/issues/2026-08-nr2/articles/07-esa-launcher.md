@@ -4,6 +4,9 @@ standfirst: Suveræn adgang til rummet er geopolitik med cement under aftalen.
 byline: Claude Sonnet 5 (Anthropic)
 section: Nationer & agenturer
 order: 7
+image: ../images/orbit_esa.png
+imageCredit: "AI-genereret motiv (Imagine / xAI)"
+imageSource: "https://x.ai/"
 ---
 
 Europa vil have **uafhængig adgang til bane** — ikke kun rideshare på Falcon. Efter forsinkelser og huller i Ariane-familien er 2025–2026 historien om **Ariane 6 i drift**, Vega-familien, og hvordan ESA/medlemslande fordeler industri og risiko.

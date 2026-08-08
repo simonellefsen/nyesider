@@ -13,7 +13,15 @@
     "images/dosis_cover.png",
     "images/dosis_glp1.png",
     "images/dosis_glp1_tallerken.png",
-    "images/dosis_glp1_wearable.png"
+    "images/dosis_glp1_wearable.png",
+    "images/dosis_leder.png",
+    "images/dosis_bivirkninger.png",
+    "images/dosis_hype.png",
+    "images/dosis_styrke.png",
+    "images/dosis_tallet.png",
+    "images/dosis_ordbog.png",
+    "images/dosis_rygte.png",
+    "images/dosis_pulsen.png"
   ],
   "productionCostUSD": null,
   "imageCredits": "Alle motiver AI-genereret via Imagine (xAI). Ingen lægemiddel-logoer. Se SOURCES.md.",
@@ -26,7 +34,10 @@
       "title": "Appetitten under kontrol",
       "section": "Leder",
       "byline": "Claude Fable 5",
-      "standfirst": "GLP-1 har ændret vægtsamtalen. Vi følger tallerkenen og evidensen."
+      "standfirst": "GLP-1 har ændret vægtsamtalen. Vi følger tallerkenen og evidensen.",
+      "image": "../images/dosis_leder.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "hvad-er-glp1",
@@ -59,7 +70,10 @@
       "title": "Bivirkninger og det, der ikke står i annoncen",
       "section": "Sikkerhed & bivirkninger",
       "byline": "DeepSeek V3.2 (DeepSeek)",
-      "standfirst": "Kvalme er almindeligt. 'Alle tåler det' er marketing."
+      "standfirst": "Kvalme er almindeligt. 'Alle tåler det' er marketing.",
+      "image": "../images/dosis_bivirkninger.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "hype-og-adgang",
@@ -68,7 +82,10 @@
       "title": "Hype, pris og adgang: når alle vil have det samme stik",
       "section": "Longevity & aldring",
       "byline": "Mistral Large (Mistral AI)",
-      "standfirst": "Efterspørgsel, lagre og socialt pres."
+      "standfirst": "Efterspørgsel, lagre og socialt pres.",
+      "image": "../images/dosis_hype.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "protein-styrke",
@@ -77,7 +94,10 @@
       "title": "Protein og styrke under vægttab",
       "section": "Protein & træning",
       "byline": "Gemini 3.1 Pro (Google)",
-      "standfirst": "Kalorierne falder. Musklerne skal ikke falde med."
+      "standfirst": "Kalorierne falder. Musklerne skal ikke falde med.",
+      "image": "../images/dosis_styrke.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "wearables-glp1",
@@ -98,7 +118,10 @@
       "title": "Tallet: pejlemærker i GLP-1-æraen",
       "section": "Laboratoriet / tallet",
       "byline": "DeepSeek V3.2 (DeepSeek)",
-      "standfirst": "Retninger med kilde — ikke din dosis."
+      "standfirst": "Retninger med kilde — ikke din dosis.",
+      "image": "../images/dosis_tallet.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "ordbogen",
@@ -107,7 +130,10 @@
       "title": "Ordbogen",
       "section": "Ordbogen",
       "byline": "Gemini 3.5 Flash (Google)",
-      "standfirst": "GLP-1, indikation, seponering, sarkopeni."
+      "standfirst": "GLP-1, indikation, seponering, sarkopeni.",
+      "image": "../images/dosis_ordbog.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "rygteboersen",
@@ -116,7 +142,10 @@
       "title": "Rygtebørsen",
       "section": "Rygtebørsen",
       "byline": "Qwen3.7 Max (Alibaba)",
-      "standfirst": "Hype-aktier i appetit-æraen."
+      "standfirst": "Hype-aktier i appetit-æraen.",
+      "image": "../images/dosis_rygte.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "til-pulsen",
@@ -125,7 +154,10 @@
       "title": "Når stikket bliver en journal",
       "section": "Kryds (PULSEN m.fl.)",
       "byline": "Claude Fable 5",
-      "standfirst": "Bro til PULSEN for recept og system."
+      "standfirst": "Bro til PULSEN for recept og system.",
+      "image": "../images/dosis_pulsen.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/"
     }
   ]
 }

@@ -4,6 +4,9 @@ standfirst: Georgien gav os bjerge og bord. Nu vender HORISONTEN tilbage til det
 byline: Claude Fable 5
 section: Leder
 order: 1
+image: ../images/horisonten_leder.png
+imageCredit: "AI-genereret motiv (Imagine / xAI)"
+imageSource: "https://x.ai/"
 ---
 
 [Nr. 1](/horisonten/2026-07-nr1/mallorca-udenfor-hoejsaesonen) sendte os til Mallorca uden for højsæsonen. [Nr. 2](/horisonten/2026-08-nr2/leder) tog Kaukasus — Tbilisi, vin og Gergeti — som søster til [KULTURBOXEN om Georgien](/kulturboxen/2026-08-nr1/leder).

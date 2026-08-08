@@ -4,6 +4,9 @@ standfirst: RTG er arven. Fission surface power er den næste diskussion.
 byline: DeepSeek V3.2 (DeepSeek)
 section: Rumkraft
 order: 9
+image: ../images/kraften_rtg.png
+imageCredit: "AI-genereret motiv (Imagine / xAI)"
+imageSource: "https://x.ai/"
 ---
 
 Når solen er for svag (ydre solsystem) eller natten for lang (månepolernes kratere er komplicerede), dukker **kernekraft** op.

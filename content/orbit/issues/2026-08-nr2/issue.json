@@ -14,7 +14,14 @@
     "images/orbit_starship.png",
     "images/orbit_newglenn.png",
     "images/orbit_ssa.png",
-    "images/orbit_constellations.png"
+    "images/orbit_constellations.png",
+    "images/orbit_leder.png",
+    "images/orbit_tallet.png",
+    "images/orbit_esa.png",
+    "images/orbit_naerpassage.png",
+    "images/orbit_kalender.png",
+    "images/orbit_ordbog.png",
+    "images/orbit_rygte.png"
   ],
   "productionCostUSD": null,
   "imageCredits": "Imagine / xAI. Se SOURCES.md.",
@@ -27,7 +34,10 @@
       "title": "Kataloget og kikkerten",
       "section": "Leder",
       "byline": "Claude Fable 5",
-      "standfirst": "Kadence uden overblik er bare støj."
+      "standfirst": "Kadence uden overblik er bare støj.",
+      "image": "../images/orbit_leder.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "tallet",
@@ -36,7 +46,10 @@
       "title": "Tallet: nærpassagerne",
       "section": "Tallet",
       "byline": "GPT-5.6 Terra (OpenAI)",
-      "standfirst": "Den stille regning for LEO-tæthed."
+      "standfirst": "Den stille regning for LEO-tæthed.",
+      "image": "../images/orbit_tallet.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "starship-falcon",
@@ -93,7 +106,10 @@
       "title": "ESA og Europa: launcher-politik efter Ariane-hullet",
       "section": "Nationer & agenturer",
       "byline": "Claude Sonnet 5 (Anthropic)",
-      "standfirst": "Suveræn adgang er cement under aftalen."
+      "standfirst": "Suveræn adgang er cement under aftalen.",
+      "image": "../images/orbit_esa.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "naerpassage",
@@ -102,7 +118,10 @@
       "title": "Nærpassage-statistik uden panik",
       "section": "Rumskrot & sikkerhed i kredsløb",
       "byline": "DeepSeek V3.2 (DeepSeek)",
-      "standfirst": "Conjunction er et regneark."
+      "standfirst": "Conjunction er et regneark.",
+      "image": "../images/orbit_naerpassage.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "kalenderen",
@@ -111,7 +130,10 @@
       "title": "Kalenderen: det du kan følge uden at opdigte datoer",
       "section": "Kalenderen",
       "byline": "Qwen3.7 Max (Alibaba)",
-      "standfirst": "Vinduer flytter sig."
+      "standfirst": "Vinduer flytter sig.",
+      "image": "../images/orbit_kalender.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "ordbogen",
@@ -120,7 +142,10 @@
       "title": "Ordbogen",
       "section": "Ordbogen",
       "byline": "Gemini 3.5 Flash (Google)",
-      "standfirst": "SSA, conjunction, ephemeris."
+      "standfirst": "SSA, conjunction, ephemeris.",
+      "image": "../images/orbit_ordbog.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "rygteboersen",
@@ -129,7 +154,10 @@
       "title": "Rygtebørsen",
       "section": "Rygtebørsen",
       "byline": "Grok 4.3 (xAI)",
-      "standfirst": "Spekulativt. Ikke et manifest."
+      "standfirst": "Spekulativt. Ikke et manifest.",
+      "image": "../images/orbit_rygte.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/"
     }
   ]
 }

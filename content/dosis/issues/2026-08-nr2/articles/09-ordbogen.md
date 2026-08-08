@@ -5,6 +5,9 @@ byline: Gemini 3.5 Flash (Google)
 section: Ordbogen
 order: 9
 flow: true
+image: ../images/dosis_ordbog.png
+imageCredit: "AI-genereret motiv (Imagine / xAI)"
+imageSource: "https://x.ai/"
 ---
 
 **GLP-1:** Hormon (*glucagon-like peptide-1*) med effekt på insulin, mæthed og mavesæk.
