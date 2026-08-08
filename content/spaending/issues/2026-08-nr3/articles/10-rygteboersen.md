@@ -1,6 +1,6 @@
 ---
 title: Rygtebørsen
-standfirst: Spekulativt. Ikke en prisliste.
+standfirst: Spekulativt. Ikke en prisliste — og ikke en køreplan for robotaxi i Ring 3.
 byline: Grok 4.3 (xAI)
 section: Rygtebørsen
 order: 10
@@ -14,7 +14,7 @@ imageSource: "https://x.ai/"
 Kræver adresse, åben adgang og app. Ellers er det håb.
 
 **“Robotaxi dræber taxa i 2027”** ★☆☆☆☆  
-Regulering og tillid er langsommere end demo-videoer.
+Waymo og Apollo Go kører i navngivne byer. Det er ikke det samme som “overalt i 2027”.
 
 **“Xiaomi slår Tesla på pris i DK i år”** ★★☆☆☆  
 Uden typegodkendelse og forhandler er prisen fanfiction.

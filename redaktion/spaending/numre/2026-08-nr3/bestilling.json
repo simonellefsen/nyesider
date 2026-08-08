@@ -2,15 +2,13 @@
   "magazine": "spaending",
   "issue": "2026-08-nr3",
   "issueTheme": "Køen, kulden og den næste watt",
-  "retrofitNote": "Written at publish time 2026-08-08.",
   "budget": {
     "articles": 10,
     "wordsPerArticle": [
-      60,
-      400
+      100,
+      650
     ],
-    "targetPages": 12,
-    "note": "10 arts: 600kW race, robotaxi, Xiaomi, solid-state, km-afgift, vinter, bagsnit."
+    "note": "Depth pass Aug 8 edit; robotaxi global projects."
   },
   "opgaver": [
     {
@@ -18,10 +16,10 @@
       "order": 1,
       "section": "Leder",
       "brief": {
-        "angle": "Efter watt-hverdagen: kø, kulde og politik.",
+        "angle": "Watt-hverdagen, køen og det næste lag.",
         "words": [
           100,
-          250
+          300
         ],
         "mustCite": 0,
         "format": "leder"
@@ -32,15 +30,15 @@
         "fallback": null
       },
       "receipt": {
-        "words": 118,
+        "words": 180,
         "costUSD": null,
         "draft": null
       },
       "verdict": {
-        "status": "accepted",
+        "status": "rewritten-by-editor",
         "checkedAt": "2026-08-08",
         "citations": 0,
-        "editorNote": "Editor-led batch; finished prose; jargon first-mention; features before bagsnit."
+        "editorNote": "Full depth pass; robotaxi named global projects."
       }
     },
     {
@@ -48,10 +46,10 @@
       "order": 2,
       "section": "Teknologi",
       "brief": {
-        "angle": "Status uden opdigtet adresse.",
+        "angle": "Status uden opdigtet adresse — tre krav før ‘første’.",
         "words": [
-          150,
-          400
+          200,
+          650
         ],
         "mustCite": 0,
         "format": "feature"
@@ -62,15 +60,15 @@
         "fallback": "deepseek/deepseek-v3.2"
       },
       "receipt": {
-        "words": 200,
+        "words": 303,
         "costUSD": null,
         "draft": null
       },
       "verdict": {
-        "status": "accepted-after-edit",
+        "status": "rewritten-by-editor",
         "checkedAt": "2026-08-08",
         "citations": 0,
-        "editorNote": "Editor-led batch; finished prose; jargon first-mention; features before bagsnit."
+        "editorNote": "Full depth pass; robotaxi named global projects."
       }
     },
     {
@@ -78,12 +76,12 @@
       "order": 3,
       "section": "Teknologi",
       "brief": {
-        "angle": "Regulering og tillid, ikke kun software.",
+        "angle": "Waymo, Apollo Go, Zoox — og den danske vinkel.",
         "words": [
-          150,
-          400
+          200,
+          650
         ],
-        "mustCite": 0,
+        "mustCite": 2,
         "format": "feature"
       },
       "writer": {
@@ -92,15 +90,15 @@
         "fallback": "deepseek/deepseek-v3.2"
       },
       "receipt": {
-        "words": 178,
+        "words": 532,
         "costUSD": null,
         "draft": null
       },
       "verdict": {
-        "status": "accepted-after-edit",
+        "status": "rewritten-by-editor",
         "checkedAt": "2026-08-08",
-        "citations": 0,
-        "editorNote": "Editor-led batch; finished prose; jargon first-mention; features before bagsnit."
+        "citations": 2,
+        "editorNote": "Full depth pass; robotaxi named global projects."
       }
     },
     {
@@ -110,8 +108,8 @@
       "brief": {
         "angle": "Typegodkendelse før anmeldelse.",
         "words": [
-          150,
-          400
+          200,
+          650
         ],
         "mustCite": 0,
         "format": "feature"
@@ -122,15 +120,15 @@
         "fallback": "deepseek/deepseek-v3.2"
       },
       "receipt": {
-        "words": 127,
+        "words": 208,
         "costUSD": null,
         "draft": null
       },
       "verdict": {
-        "status": "accepted-after-edit",
+        "status": "rewritten-by-editor",
         "checkedAt": "2026-08-08",
         "citations": 0,
-        "editorNote": "Editor-led batch; finished prose; jargon first-mention; features before bagsnit."
+        "editorNote": "Full depth pass; robotaxi named global projects."
       }
     },
     {
@@ -140,8 +138,8 @@
       "brief": {
         "angle": "Semi-solid ≠ solid-state-hype.",
         "words": [
-          150,
-          400
+          200,
+          650
         ],
         "mustCite": 0,
         "format": "feature"
@@ -152,15 +150,15 @@
         "fallback": "deepseek/deepseek-v3.2"
       },
       "receipt": {
-        "words": 132,
+        "words": 224,
         "costUSD": null,
         "draft": null
       },
       "verdict": {
-        "status": "accepted-after-edit",
+        "status": "rewritten-by-editor",
         "checkedAt": "2026-08-08",
         "citations": 0,
-        "editorNote": "Editor-led batch; finished prose; jargon first-mention; features before bagsnit."
+        "editorNote": "Full depth pass; robotaxi named global projects."
       }
     },
     {
@@ -170,8 +168,8 @@
       "brief": {
         "angle": "Mekanisme før kr./km.",
         "words": [
-          150,
-          400
+          200,
+          650
         ],
         "mustCite": 0,
         "format": "feature"
@@ -182,15 +180,15 @@
         "fallback": "deepseek/deepseek-v3.2"
       },
       "receipt": {
-        "words": 135,
+        "words": 203,
         "costUSD": null,
         "draft": null
       },
       "verdict": {
-        "status": "accepted-after-edit",
+        "status": "rewritten-by-editor",
         "checkedAt": "2026-08-08",
         "citations": 0,
-        "editorNote": "Editor-led batch; finished prose; jargon first-mention; features before bagsnit."
+        "editorNote": "Full depth pass; robotaxi named global projects."
       }
     },
     {
@@ -200,8 +198,8 @@
       "brief": {
         "angle": "WLTP er ikke januar.",
         "words": [
-          150,
-          400
+          200,
+          650
         ],
         "mustCite": 1,
         "format": "feature"
@@ -212,15 +210,15 @@
         "fallback": "google/gemini-3.5-flash"
       },
       "receipt": {
-        "words": 180,
+        "words": 264,
         "costUSD": null,
         "draft": null
       },
       "verdict": {
-        "status": "accepted-after-edit",
+        "status": "rewritten-by-editor",
         "checkedAt": "2026-08-08",
         "citations": 1,
-        "editorNote": "Editor-led batch; finished prose; jargon first-mention; features before bagsnit."
+        "editorNote": "Full depth pass; robotaxi named global projects."
       }
     },
     {
@@ -230,7 +228,7 @@
       "brief": {
         "angle": "Andel, effekt, kø.",
         "words": [
-          120,
+          100,
           300
         ],
         "mustCite": 2,
@@ -242,15 +240,15 @@
         "fallback": "deepseek/deepseek-v3.2"
       },
       "receipt": {
-        "words": 119,
+        "words": 185,
         "costUSD": null,
         "draft": null
       },
       "verdict": {
-        "status": "accepted-after-edit",
+        "status": "rewritten-by-editor",
         "checkedAt": "2026-08-08",
         "citations": 2,
-        "editorNote": "Editor-led batch; finished prose; jargon first-mention; features before bagsnit."
+        "editorNote": "Full depth pass; robotaxi named global projects."
       }
     },
     {
@@ -261,7 +259,7 @@
         "angle": "Når dieselduften er væk.",
         "words": [
           100,
-          250
+          300
         ],
         "mustCite": 0,
         "format": "essay"
@@ -272,15 +270,15 @@
         "fallback": "deepseek/deepseek-v3.2"
       },
       "receipt": {
-        "words": 100,
+        "words": 156,
         "costUSD": null,
         "draft": null
       },
       "verdict": {
-        "status": "accepted-after-edit",
+        "status": "rewritten-by-editor",
         "checkedAt": "2026-08-08",
         "citations": 0,
-        "editorNote": "Editor-led batch; finished prose; jargon first-mention; features before bagsnit."
+        "editorNote": "Full depth pass; robotaxi named global projects."
       }
     },
     {
@@ -290,11 +288,11 @@
       "brief": {
         "angle": "Spekulativt.",
         "words": [
-          60,
-          200
+          100,
+          300
         ],
         "mustCite": 0,
-        "format": "bagsnit"
+        "format": "rygteboersen"
       },
       "writer": {
         "byline": "Grok 4.3 (xAI)",
@@ -302,15 +300,15 @@
         "fallback": "deepseek/deepseek-v3.2"
       },
       "receipt": {
-        "words": 80,
+        "words": 90,
         "costUSD": null,
         "draft": null
       },
       "verdict": {
-        "status": "accepted-after-edit",
+        "status": "rewritten-by-editor",
         "checkedAt": "2026-08-08",
         "citations": 0,
-        "editorNote": "Editor-led batch; finished prose; jargon first-mention; features before bagsnit."
+        "editorNote": "Full depth pass; robotaxi named global projects."
       }
     }
   ]

@@ -11,4 +11,6 @@ imageSource: "https://x.ai/"
 
 Der er en særlig stilhed ved en moderne rasteplads, når tre biler hænger i jævnstrøm og ingen motor tomgangskører. Du hører HVAC-blæsere, en plastpose, en barnevogn. Du hører ikke “vroom”. Det er fremskridt — og det er også, hvorfor debatten om **kilometerafgift** og **netkø** føles så lidt poetisk og så meget regneark.
 
-SPÆNDING elsker regnearket alligevel. For stilheden er ikke gratis. Den er bygget af transformere, tilladelser og nogen, der sagde ja til at grave et kabel. Næste gang du ser en grøn “klar”-prik i appen, er det ikke magi. Det er **industri**, der endelig nåede hen til din kaffe.
+SPÆNDING elsker regnearket alligevel. For stilheden er ikke gratis. Den er bygget af transformere, tilladelser, et netselskab der sagde ja, og nogen der gravede et kabel, mens resten af os scrollede renders af 600 kW-standere. Næste gang du ser en grøn “klar”-prik i appen, er det ikke magi. Det er **industri**, der endelig nåede hen til din kaffe — med en regning, der enten er fair, skjult eller stadig under forhandling i Folketinget.
+
+Robotaxier i Phoenix og filterkaffe i køen ved rasten hører ikke samme historie. Men de deler pointen: det, der virker, er det, der har overlevet regulering, vejr og den kedelige tirsdag.

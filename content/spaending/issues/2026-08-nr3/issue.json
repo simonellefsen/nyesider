@@ -33,7 +33,7 @@
       "title": "Køen, kulden og den næste watt",
       "section": "Leder",
       "byline": "Claude Fable 5",
-      "standfirst": "Efter watt-hverdagen: kø, kulde og politik.",
+      "standfirst": "Watt-hverdagen, køen og det næste lag.",
       "image": "../images/spaending_leder.png",
       "imageCredit": "AI-genereret motiv (Imagine / xAI)",
       "imageSource": "https://x.ai/"
@@ -45,7 +45,7 @@
       "title": "600 kW i Danmark: jagten på den første personbilstander",
       "section": "Teknologi",
       "byline": "Grok 4.5 (xAI)",
-      "standfirst": "Status uden opdigtet adresse.",
+      "standfirst": "Status uden opdigtet adresse — tre krav før ‘første’.",
       "image": "../images/spaending_600kw.png",
       "imageCredit": "AI-genereret motiv (Imagine / xAI)",
       "imageSource": "https://x.ai/"
@@ -54,10 +54,10 @@
       "slug": "robotaxi",
       "file": "articles/03-robotaxi.md",
       "order": 3,
-      "title": "Robotaxi by nr. 2: London kører — hvad gør vi?",
+      "title": "Robotaxi: hvor det kører — og hvad Danmark kan spejle",
       "section": "Teknologi",
       "byline": "Claude Sonnet 5 (Anthropic)",
-      "standfirst": "Regulering og tillid, ikke kun software.",
+      "standfirst": "Waymo, Apollo Go, Zoox — og den danske vinkel.",
       "image": "../images/spaending_robotaxi.png",
       "imageCredit": "AI-genereret motiv (Imagine / xAI)",
       "imageSource": "https://x.ai/"
