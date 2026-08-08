@@ -26,23 +26,23 @@
       "order": 1,
       "title": "Hvad holder lyset tændt",
       "section": "Leder",
-      "standfirst": "Velkommen til KRAFTEN — magasinet om elektrificering som system. Fra net og anlæg på Jorden til strøm i rummet."
+      "standfirst": "Velkommen til KRAFTEN — magasinet om elektrificering som system, ikke som slagord. Fra net og anlæg på Jorden til strøm i rummet."
     },
     {
       "slug": "europa-mix",
       "file": "articles/02-europa-mix.md",
       "order": 2,
-      "title": "Europas elmix 2025: historisk krydsning",
+      "title": "Europas elmix 2025: solen bar krydsningen",
       "section": "Lande & udbygning",
-      "standfirst": "Vind og sol overhalede fossil elproduktion i EU for første gang."
+      "standfirst": "Vind og sol overhalede fossil elproduktion i EU for første gang. Det bemærkelsesværdige er, at det skete mens vindproduktionen faldt."
     },
     {
       "slug": "fission",
       "file": "articles/03-fission.md",
       "order": 3,
-      "title": "Fission 2026: levetid, nybyggeri og tålmodighed",
+      "title": "Fission: beton, ikke PowerPoint",
       "section": "Atom",
-      "standfirst": "Klassisk atomkraft er beton, reaktortanke og årtier.",
+      "standfirst": "Atomproduktionen vokser dobbelt så hurtigt som før. Men accelerationen kommer fra de to billige veje — forlængelse og genstart — plus kinesisk nybyggeri. Ikke fra en vestlig genvej.",
       "image": "../images/kraften_atom.png",
       "imageCredit": "AI-genereret anlægsmotiv (Imagine / xAI)",
       "imageSource": "https://x.ai/"
@@ -51,9 +51,9 @@
       "slug": "thorium",
       "file": "articles/04-thorium.md",
       "order": 4,
-      "title": "Thorium: Copenhagen Atomics og det konkrete spor",
+      "title": "Thorium: saltet, der har kørt i to år",
       "section": "Atom",
-      "standfirst": "Et dansk firma vil masseproducere smeltet-salt-reaktorer på thorium. Hardware, tidslinje og det der mangler."
+      "standfirst": "I et industrilokale i København cirkulerer en pumpe smeltet salt. Den har gjort det i omkring to år — og det er faktisk nyheden."
     },
     {
       "slug": "fusion",
@@ -61,7 +61,7 @@
       "order": 5,
       "title": "Fusion: ITER, private demos og ærlig tid",
       "section": "Atom",
-      "standfirst": "Nettoenergi i et forsøg er ikke strøm i stikkontakten."
+      "standfirst": "Nettoenergi i et forsøg er ikke det samme som strøm i stikkontakten. Sådan læser du fusionsnyheder i 2026."
     },
     {
       "slug": "gas",
@@ -69,7 +69,7 @@
       "order": 6,
       "title": "Gas: bro, buffer — og afhængighed",
       "section": "Fossilt",
-      "standfirst": "LNG-terminaler er stadig europæisk virkelighed.",
+      "standfirst": "LNG-terminaler og rør er stadig europæisk virkelighed. Gas er ikke fremtiden for alle. Den er nutiden for mange.",
       "image": "../images/kraften_gas.png",
       "imageCredit": "AI-genereret anlægsmotiv (Imagine / xAI)",
       "imageSource": "https://x.ai/"
@@ -80,7 +80,7 @@
       "order": 7,
       "title": "Olie: stadig verdens blod — bare ikke i elstikket",
       "section": "Fossilt",
-      "standfirst": "Transport, plastik og geopolitik hører til i et energimagasin."
+      "standfirst": "Eldebatten handler om megawatt. Olie handler om transport, plastik og geopolitik. Begge dele hører til i et energimagasin."
     },
     {
       "slug": "vind",
@@ -88,7 +88,7 @@
       "order": 8,
       "title": "Vind: Nordsøens fabrik på havet",
       "section": "Vedvarende",
-      "standfirst": "Installationsskibe, monopæle og forsyningskæde under pres.",
+      "standfirst": "Offshore er ikke bare turbiner. Det er installationsskibe, monopæle, kabler og en forsyningskæde under pres.",
       "image": "../images/kraften_vind.png",
       "imageCredit": "AI-genereret anlægsmotiv (Imagine / xAI)",
       "imageSource": "https://x.ai/"
@@ -99,7 +99,7 @@
       "order": 9,
       "title": "Sol: billige paneler, dyrt system",
       "section": "Vedvarende",
-      "standfirst": "LCOE falder. Systemomkostningerne stiger midt på dagen.",
+      "standfirst": "LCOE på sol falder. Systemomkostningerne stiger, når alle paneler topper samtidig. Byggefasen er den nemme del.",
       "image": "../images/kraften_sol.png",
       "imageCredit": "AI-genereret anlægsmotiv (Imagine / xAI)",
       "imageSource": "https://x.ai/"
@@ -110,7 +110,7 @@
       "order": 10,
       "title": "Lagring: containere, pumper og det der mangler",
       "section": "Lagring & fleksibilitet",
-      "standfirst": "Batterier ruller ud. Brint er sen. Pumpelagring er undervurderet.",
+      "standfirst": "Batterier ruller ud i containere. Pumpelagring er gammel og undervurderet. Brint er lovende — og sen.",
       "image": "../images/kraften_lagring.png",
       "imageCredit": "AI-genereret anlægsmotiv (Imagine / xAI)",
       "imageSource": "https://x.ai/"
@@ -121,7 +121,7 @@
       "order": 11,
       "title": "Danmark: vindland med import og ambitioner",
       "section": "Lande & udbygning",
-      "standfirst": "Høj vindandel, biomasse i varmen, elafgift under lempelse."
+      "standfirst": "Høj vindandel i el, biomasse i varmen, olie i transporten — og en elafgift der i 2026–27 lempes markant for husholdningerne."
     },
     {
       "slug": "lande",
@@ -129,7 +129,7 @@
       "order": 12,
       "title": "Tallet & landene: seks snapshots",
       "section": "Tallet",
-      "standfirst": "Samme pejlemærker for EU, DK, FR, DE, US og Kina."
+      "standfirst": "Samme pejlemærker for EU, Danmark, Frankrig, Tyskland, USA og Kina — hvad driver elmixet, og hvad bygges der?"
     },
     {
       "slug": "ordbogen",
@@ -137,7 +137,7 @@
       "order": 13,
       "title": "Ordbogen",
       "section": "Ordbogen",
-      "standfirst": "Tolv gloser til energinotatet."
+      "standfirst": "Tolv gloser, så du kan læse et energinotat uden at bluffe."
     },
     {
       "slug": "rygteboersen",
@@ -145,7 +145,7 @@
       "order": 14,
       "title": "Rygtebørsen",
       "section": "Rygtebørsen",
-      "standfirst": "Megawatt, ministerier og mirakler."
+      "standfirst": "Megawatt, ministerier og mirakler. Vurderet i reaktorkerner — ikke i likes."
     }
   ],
   "coverCredit": "AI-genereret forside (Imagine / xAI) — tema: Hvad holder lyset tændt",
