@@ -5,7 +5,7 @@ byline: Grok 4.3 (xAI)
 section: Rygtebørsen
 order: 11
 flow: true
-image: ../images/orbit_rygte.png
+image: ../images/orbit_ordbog.png
 imageCredit: "AI-genereret motiv (Imagine / xAI)"
 imageSource: "https://x.ai/"
 ---

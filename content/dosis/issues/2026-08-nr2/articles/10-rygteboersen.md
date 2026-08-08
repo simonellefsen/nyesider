@@ -5,7 +5,7 @@ byline: Qwen3.7 Max (Alibaba)
 section: Rygtebørsen
 order: 10
 flow: true
-image: ../images/dosis_rygte.png
+image: ../images/dosis_ordbog.png
 imageCredit: "AI-genereret motiv (Imagine / xAI)"
 imageSource: "https://x.ai/"
 ---

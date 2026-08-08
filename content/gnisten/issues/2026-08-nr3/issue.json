@@ -17,9 +17,7 @@
     "images/gnisten_kortet.png",
     "images/gnisten_agent.png",
     "images/gnisten_prompt.png",
-    "images/gnisten_regning.png",
-    "images/gnisten_ordbog.png",
-    "images/gnisten_sladder.png"
+    "images/gnisten_ordbog.png"
   ],
   "productionCostUSD": null,
   "imageCredits": "Imagine / xAI. Se SOURCES.md.",
@@ -105,7 +103,7 @@
       "section": "Regningen",
       "byline": "Qwen3.7 Max (Alibaba)",
       "standfirst": "Cloud vs. lokal omkostning.",
-      "image": "../images/gnisten_regning.png",
+      "image": "../images/gnisten_prompt.png",
       "imageCredit": "AI-genereret motiv (Imagine / xAI)",
       "imageSource": "https://x.ai/"
     },
@@ -129,7 +127,7 @@
       "section": "Sladder",
       "byline": "Grok 4.3 (xAI)",
       "standfirst": "Fire tændstikker.",
-      "image": "../images/gnisten_sladder.png",
+      "image": "../images/gnisten_ordbog.png",
       "imageCredit": "AI-genereret motiv (Imagine / xAI)",
       "imageSource": "https://x.ai/"
     }

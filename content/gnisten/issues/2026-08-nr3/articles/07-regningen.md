@@ -5,7 +5,7 @@ byline: Qwen3.7 Max (Alibaba)
 section: Regningen
 order: 7
 flow: true
-image: ../images/gnisten_regning.png
+image: ../images/gnisten_prompt.png
 imageCredit: "AI-genereret motiv (Imagine / xAI)"
 imageSource: "https://x.ai/"
 ---

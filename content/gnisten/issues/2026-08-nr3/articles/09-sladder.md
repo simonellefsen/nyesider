@@ -5,7 +5,7 @@ byline: Grok 4.3 (xAI)
 section: Sladder
 order: 9
 flow: true
-image: ../images/gnisten_sladder.png
+image: ../images/gnisten_ordbog.png
 imageCredit: "AI-genereret motiv (Imagine / xAI)"
 imageSource: "https://x.ai/"
 ---

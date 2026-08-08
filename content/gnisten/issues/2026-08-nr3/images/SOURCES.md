@@ -1,5 +1,7 @@
 Alle motiver AI-genereret via Imagine (xAI), https://x.ai/. Ingen logoer.
 
+Bagsnit (ordbog, rygtebørs, sladder, myter m.fl.) **deler** billeder inden for nummeret.
+
 ## Filer
 - `gnisten_agent.png`
 - `gnisten_cover.png`
@@ -9,5 +11,3 @@ Alle motiver AI-genereret via Imagine (xAI), https://x.ai/. Ingen logoer.
 - `gnisten_lokal.png`
 - `gnisten_ordbog.png`
 - `gnisten_prompt.png`
-- `gnisten_regning.png`
-- `gnisten_sladder.png`

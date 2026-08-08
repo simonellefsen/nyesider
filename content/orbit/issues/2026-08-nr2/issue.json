@@ -20,8 +20,7 @@
     "images/orbit_esa.png",
     "images/orbit_naerpassage.png",
     "images/orbit_kalender.png",
-    "images/orbit_ordbog.png",
-    "images/orbit_rygte.png"
+    "images/orbit_ordbog.png"
   ],
   "productionCostUSD": null,
   "imageCredits": "Imagine / xAI. Se SOURCES.md.",
@@ -155,7 +154,7 @@
       "section": "Rygtebørsen",
       "byline": "Grok 4.3 (xAI)",
       "standfirst": "Spekulativt. Ikke et manifest.",
-      "image": "../images/orbit_rygte.png",
+      "image": "../images/orbit_ordbog.png",
       "imageCredit": "AI-genereret motiv (Imagine / xAI)",
       "imageSource": "https://x.ai/"
     }

@@ -1,5 +1,7 @@
 Alle motiver AI-genereret via Imagine (xAI), https://x.ai/. Ingen logoer.
 
+Bagsnit (ordbog, rygtebørs, sladder, myter m.fl.) **deler** billeder inden for nummeret.
+
 ## Filer
 - `kraften_bess.png`
 - `kraften_cover.png`
@@ -12,7 +14,6 @@ Alle motiver AI-genereret via Imagine (xAI), https://x.ai/. Ingen logoer.
 - `kraften_ordbog.png`
 - `kraften_rtg.png`
 - `kraften_rumsol.png`
-- `kraften_rygte.png`
 - `kraften_sbsp.png`
 - `kraften_sverige.png`
 - `kraften_tallet.png`

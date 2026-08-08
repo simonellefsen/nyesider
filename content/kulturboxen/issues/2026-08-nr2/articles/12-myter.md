@@ -5,7 +5,7 @@ byline: Grok 4.5 (xAI)
 section: Myter
 order: 12
 flow: true
-image: ../images/kulturboxen_myter.png
+image: ../images/kulturboxen_ordbog.png
 imageCredit: "AI-genereret motiv (Imagine / xAI)"
 imageSource: "https://x.ai/"
 ---

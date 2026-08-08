@@ -22,7 +22,6 @@
     "images/kulturboxen_autonomi.png",
     "images/kulturboxen_tallet.png",
     "images/kulturboxen_ordbog.png",
-    "images/kulturboxen_myter.png",
     "images/kulturboxen_bro.png"
   ],
   "productionCostUSD": null,
@@ -169,7 +168,7 @@
       "section": "Myter",
       "byline": "Grok 4.5 (xAI)",
       "standfirst": "Det postkortet glemmer.",
-      "image": "../images/kulturboxen_myter.png",
+      "image": "../images/kulturboxen_ordbog.png",
       "imageCredit": "AI-genereret motiv (Imagine / xAI)",
       "imageSource": "https://x.ai/"
     },

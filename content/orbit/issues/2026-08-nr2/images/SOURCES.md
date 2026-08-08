@@ -1,5 +1,7 @@
 Alle motiver AI-genereret via Imagine (xAI), https://x.ai/. Ingen logoer.
 
+Bagsnit (ordbog, rygtebørs, sladder, myter m.fl.) **deler** billeder inden for nummeret.
+
 ## Filer
 - `orbit_constellations.png`
 - `orbit_cover.png`
@@ -9,7 +11,6 @@ Alle motiver AI-genereret via Imagine (xAI), https://x.ai/. Ingen logoer.
 - `orbit_naerpassage.png`
 - `orbit_newglenn.png`
 - `orbit_ordbog.png`
-- `orbit_rygte.png`
 - `orbit_ssa.png`
 - `orbit_starship.png`
 - `orbit_tallet.png`

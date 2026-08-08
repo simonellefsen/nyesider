@@ -20,7 +20,6 @@
     "images/dosis_styrke.png",
     "images/dosis_tallet.png",
     "images/dosis_ordbog.png",
-    "images/dosis_rygte.png",
     "images/dosis_pulsen.png"
   ],
   "productionCostUSD": null,
@@ -143,7 +142,7 @@
       "section": "Rygtebørsen",
       "byline": "Qwen3.7 Max (Alibaba)",
       "standfirst": "Hype-aktier i appetit-æraen.",
-      "image": "../images/dosis_rygte.png",
+      "image": "../images/dosis_ordbog.png",
       "imageCredit": "AI-genereret motiv (Imagine / xAI)",
       "imageSource": "https://x.ai/"
     },

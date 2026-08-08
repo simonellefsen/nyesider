@@ -1,5 +1,7 @@
 Alle motiver AI-genereret via Imagine (xAI), https://x.ai/. Ingen logoer.
 
+Bagsnit (ordbog, rygtebørs, sladder, myter m.fl.) **deler** billeder inden for nummeret.
+
 ## Filer
 - `dosis_bivirkninger.png`
 - `dosis_cover.png`
@@ -10,6 +12,5 @@ Alle motiver AI-genereret via Imagine (xAI), https://x.ai/. Ingen logoer.
 - `dosis_leder.png`
 - `dosis_ordbog.png`
 - `dosis_pulsen.png`
-- `dosis_rygte.png`
 - `dosis_styrke.png`
 - `dosis_tallet.png`
