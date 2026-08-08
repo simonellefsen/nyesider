@@ -43,9 +43,24 @@ Pointen er ikke “han kendte berømtheder”. Pointen er, at opdagelsen i 1820 
 
 Mellem 1820 og det elektrificerede 1900-tal ligger årtier af opfindelser og kapital. For et magasin, der deler læsere med [KRAFTEN](/kraften/2026-08-nr2/leder), er Ørsted broen bagud: **strøm har en dansk opdagelseshistorie**, før den har en grøn omstillingsdebat.
 
+### Læs Ørsted selv
+
+Det usædvanlige ved Ørsted er, at man ikke behøver tro på andenhåndsberetninger. Hans egne tekster ligger frit tilgængelige på nettet — både den tørre videnskab og den brede formidling:
+
+- **Selve opdagelsen.** Den fire sider lange latinske afhandling *Experimenta circa effectum conflictus electrici in acum magneticam* (1820) er dokumentet, der satte det hele i gang. Den kan læses i faksimile hos [Internet Archive](https://archive.org/details/Experimentacirc00Orst) og [Smithsonian Libraries](https://library.si.edu/digital-library/book/experimentacirc00orst).[^3]
+- ***Aanden i Naturen*** (1850) er Ørsteds filosofiske hovedværk og hans forsøg på at forklare naturvidenskabens verdensbillede for et alment dansk publikum — delvis i dialogform. Hele bogen er scannet hos [Projekt Runeberg](https://runeberg.org/aanden/).[^4]
+- **Lærebøgerne.** [*Første Indledning til den almindelige Naturlære*](https://runeberg.org/naturlaere/) og [*Naturlærens mechaniske Deel*](https://runeberg.org/naturmech/) viser underviseren Ørsted — samme mand, andet tonefald.[^4]
+
+Bemærk, at sproget er 1800-tallets dansk med gammel retskrivning (*Aanden*, ikke *Ånden*). Det er en del af oplevelsen.
+
 ### Eftermæle
 
-Navnet lever i priser, gader og energiselskaber. KRØNIKE’s pejling: husk **1820**, **netværket** og **mennesket** — ikke kun busten.
+Navnet lever i priser, gader og energiselskaber — og i årtier lå det i danskernes tegnebøger. Ørsted var portrætteret på **100-kronesedlen** i Nationalbankens “portræt og landskab”-serie, med et kompas og en strømførende leder ved siden af hovedet og **Kronborg** på bagsiden.[^5] Det er en usædvanlig præcis pengeseddel: motivet forklarer faktisk, hvad manden opdagede.
+
+KRØNIKE’s pejling: husk **1820**, **netværket** og **mennesket** — ikke kun busten.
 
 [^1]: H.C. Ørsted — biografi og 1820-opdagelsen (Britannica / DBL / universitetsformidling).
 [^2]: M. C. Harding (red.), *Correspondance de H. C. Örsted avec divers savants* (1920) — bl.a. Berzelius, Hansteen, Ritter, Faraday, Gauss; tilgængelig via arkiver/digitalisering.
+[^3]: H.C. Ørsted, *Experimenta circa effectum conflictus electrici in acum magneticam* (København, 1820). Faksimile: [archive.org](https://archive.org/details/Experimentacirc00Orst); [Smithsonian Libraries](https://library.si.edu/digital-library/book/experimentacirc00orst) (public domain).
+[^4]: [Projekt Runeberg — H.C. Ørsted](https://runeberg.org/authors/orstehan.html); *Aanden i Naturen* (1850) scannet via Google Book Search.
+[^5]: [Danmarks Nationalbank — historiske pengesedler](https://www.nationalbanken.dk/da/vi-goer/sedler-og-moenter/historiske-pengesedler): 100-kronesedlen med “portræt af videnskabsmanden Hans Christian Ørsted og et kompas med elektrisk ledning / Kronborg Slot”. Selve seddelmotivet er ophavsretligt beskyttet af Nationalbanken og gengives derfor ikke her.

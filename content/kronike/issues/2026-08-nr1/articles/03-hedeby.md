@@ -8,7 +8,7 @@ image: ../images/kronike_hedeby.png
 imageCredit: "AI-genereret motiv (Imagine / xAI) — illustreret stil"
 imageSource: "https://x.ai/"
 figures:
-  - ../images/kort-sydjylland-hedeby.svg
+  - ../images/kort-sydjylland-hedeby.jpg
   - ../images/dannevirke-rekonstruktion.png
   - ../images/hedeby-bykort.png
 ---

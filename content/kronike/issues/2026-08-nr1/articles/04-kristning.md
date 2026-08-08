@@ -8,7 +8,7 @@ image: ../images/kronike_kristning.png
 imageCredit: "AI-genereret motiv (Imagine / xAI) — retrostil"
 imageSource: "https://x.ai/"
 figures:
-  - ../images/kort-danmark-jelling-ribe.svg
+  - ../images/kort-danmark-jelling-ribe.jpg
 ---
 
 At “Danmark blev kristent” er en sætning, der dækker over **tre lag**: missionærernes forsøg, kongemagtens valg, og den langsomme forandring i landsby, lov og dødskult. KRØNIKE skiller dem ad.

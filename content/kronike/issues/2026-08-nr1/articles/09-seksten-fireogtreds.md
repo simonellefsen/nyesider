@@ -8,7 +8,7 @@ image: ../images/kronike_1864.png
 imageCredit: "AI-genereret motiv (Imagine / xAI) — dramatisk illustreret"
 imageSource: "https://x.ai/"
 figures:
-  - ../images/kort-dybboel-1864.svg
+  - ../images/kort-dybboel-1864.jpg
 ---
 
 **1864** er den **2. slesvigske krig**, hvor Danmark stod over for **Preussen** og **Østrig** om status for **Slesvig** og **Holsten** — og tabte. Resultatet var, at Danmark afstod hertugdømmerne; riget blev geografisk mindre, og den politiske kultur skiftede spor.[^1]

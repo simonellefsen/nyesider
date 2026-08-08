@@ -12,9 +12,9 @@
   "images": [
     "images/dannevirke-rekonstruktion.png",
     "images/hedeby-bykort.png",
-    "images/kort-danmark-jelling-ribe.svg",
-    "images/kort-dybboel-1864.svg",
-    "images/kort-sydjylland-hedeby.svg",
+    "images/kort-danmark-jelling-ribe.jpg",
+    "images/kort-dybboel-1864.jpg",
+    "images/kort-sydjylland-hedeby.jpg",
     "images/kronike_1864.png",
     "images/kronike_cover.png",
     "images/kronike_hedeby.png",
@@ -28,11 +28,13 @@
     "images/kronike_reformation.png",
     "images/kronike_tallet.png",
     "images/kronike_udvandring.png",
+    "images/cc_moent_erik_af_pommern.jpg",
     "images/pd_frihedsstoetten.jpg",
+    "images/pd_margrete_gravmaele.jpg",
     "images/pd_oersted_daguerreotype.jpg"
   ],
   "productionCostUSD": null,
-  "imageCredits": "Imagine / xAI + redaktionelle SVG-kort + Wikimedia (Frihedsstøtten CC BY 2.0 Jorge Láscar; Ørsted-daguerreotypi public domain). Se SOURCES.md.",
+  "imageCredits": "Imagine / xAI + atlaskort genereret med google/gemini-3-pro-image via OpenRouter (.env.kronike) + Wikimedia (Frihedsstøtten CC BY 2.0 Jorge Láscar; Ørsted-daguerreotypi public domain; Margretes gravmæle public domain, foto Jacob Truedson Demitz; sølvgros CC BY-SA 4.0, foto Nationalmuseet). Se SOURCES.md.",
   "backCoverPromise": "KRØNIKE nr. 2 graver videre — flere århundreder, flere stemmer, samme krav til kilder.",
   "articles": [
     {
