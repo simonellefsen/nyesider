@@ -63,7 +63,7 @@
       "slug": "hedeby",
       "file": "articles/03-hedeby.md",
       "order": 3,
-      "title": "Hedeby og Dannevirke: da Danmark mødte verden ved grænsen",
+      "title": "Hedeby og Dannevirke: riget som toldsted",
       "section": "Riget & grænser",
       "standfirst": "En handelsby ved Slien og en jordvold tværs over Jylland. Vikingetidens magt sad ikke kun i skibene — den sad i told, træ og trafik.",
       "image": "../images/kronike_hedeby.png",
@@ -85,9 +85,9 @@
       "slug": "margrete",
       "file": "articles/05-margrete.md",
       "order": 5,
-      "title": "Margrete 1.: dronningen der samlede Norden",
+      "title": "Margrete 1.: kvinden uden krone",
       "section": "Biografi",
-      "standfirst": "Hun regerede uden at alle rigers kroningsritualer lignede hinanden — og skabte Kalmarunionen. Vi har hendes politik. Vi har ikke et sikkert ansigt.",
+      "standfirst": "Hun regerede tre riger i et kvart århundrede og bar aldrig en kongetitel. Hun efterlod sig heller ikke et ansigt — kun et gravmæle, en anden konges mønter og en union.",
       "image": "../images/kronike_margrete.png",
       "imageCredit": "AI-genereret motiv (Imagine / xAI) — maskulin/historisk portrætstil",
       "imageSource": "https://x.ai/"
@@ -98,7 +98,7 @@
       "order": 6,
       "title": "1536: reformationen som magtskifte",
       "section": "Tro & kirke",
-      "standfirst": "Det handlede om tro. Det handlede også om klosterjord, bispemagt og en konge, der ville styre ordet.",
+      "standfirst": "Det handlede om tro. Det handlede først om klosterjord, bispemagt og en konge, der skyldte sine soldater penge.",
       "image": "../images/kronike_reformation.png",
       "imageCredit": "AI-genereret motiv (Imagine / xAI) — grunge/retro",
       "imageSource": "https://x.ai/"
@@ -131,7 +131,7 @@
       "order": 9,
       "title": "1864: nederlaget der formede nationen",
       "section": "Krig & krise",
-      "standfirst": "Først rømningen af Dannevirke. Så skanserne ved Dybbøl. Og en mølle, der stadig står som symbol — ikke fordi den vandt krigen, men fordi den bar nederlaget.",
+      "standfirst": "Først rømningen af Dannevirke. Så seks timers bombardement og fire timers slag ved Dybbøl. Og en mølle, der blev symbol — ikke fordi den vandt noget, men fordi den stod i vejen.",
       "image": "../images/kronike_1864.png",
       "imageCredit": "AI-genereret motiv (Imagine / xAI) — dramatisk illustreret",
       "imageSource": "https://x.ai/"

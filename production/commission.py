@@ -56,7 +56,29 @@ HOUSE_RULES = """\
 Skriv på dansk. Første gang en forkortelse bruges: fuldt navn + forkortelse i \
 parentes. Brug ikke-brydende mellemrum (\\u00a0) før %. Opdigt aldrig \
 præcise datoer for virkelige begivenheder. Ingen engelsk teen-jargon uden \
-forklaring."""
+forklaring.
+
+OPDIGT ALDRIG EN KILDE. Dette er den vigtigste regel, og den brydes typisk \
+i den mest overbevisende form: en konkret, verificerbart klingende detalje. \
+Et faktisk eksempel fra denne redaktion — en kladde skrev «menig Rasmus \
+Jensen fra 8. Regiment, hvis navn er bevaret i regimentets tabsliste». \
+Personen fandtes ikke. Derfor:
+
+- Nævn kun personer, steder, dokumenter og institutioner, som en læser kan \
+slå op. Er du i tvivl, om noget findes, så lad være med at nævne det.
+- Skriv ALDRIG et citat i anførselstegn, medmindre du er sikker på ordlyden \
+OG kan navngive kilden. Ingen citater tilskrevet «en historiker», «en \
+samtidig iagttager» eller lignende.
+- Opfind ikke arkivreferencer, sagsnumre, tabslister eller sidetal.
+- Er du usikker på et tal, så skriv det som en ordenstørrelse med forbehold \
+(«i størrelsesordenen», «skøn varierer») — det er altid bedre end et \
+falsk-præcist tal.
+- Fodnoter skal pege på et navngivet værk eller en navngiven institution. \
+Er du ikke sikker på en URL, så skriv værkets titel i stedet for at gætte \
+en adresse. En gættet URL er en opdigtet kilde.
+
+Det er bedre at aflevere kortere og rigtigt end længere og opdigtet. \
+Chefredaktionen faktatjekker hver kladde og sender fabrikationer retur."""
 
 
 def load_json(path: Path):

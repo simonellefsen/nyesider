@@ -1,61 +1,62 @@
 ---
-title: "Margrete 1.: dronningen der samlede Norden"
-standfirst: Hun regerede uden at alle rigers kroningsritualer lignede hinanden — og skabte Kalmarunionen. Vi har hendes politik. Vi har ikke et sikkert ansigt.
+title: "Margrete 1.: kvinden uden krone"
+standfirst: Hun regerede tre riger i et kvart århundrede og bar aldrig en kongetitel. Hun efterlod sig heller ikke et ansigt — kun et gravmæle, en anden konges mønter og en union.
 section: Biografi
 order: 5
 image: ../images/kronike_margrete.png
-imageCredit: "AI-genereret motiv (Imagine / xAI) — stiliseret, ikke portrætlighed"
+imageCredit: "AI-genereret motiv (Imagine / xAI) — illustreret"
 imageSource: "https://x.ai/"
 figures:
   - ../images/pd_margrete_gravmaele.jpg
   - ../images/cc_moent_erik_af_pommern.jpg
 ---
 
-**Margrete 1.** (1353–1412) er en af de få skikkelser i nordisk middelalder, hvor **køn, magt og diplomati** ikke kan skilles ad uden at miste historien. Hun var datter af Valdemar Atterdag, gift ind i den norske kongefamilie, mor til Olaf — og da sønnen døde ung, stod hun med en politisk arv, de fleste mænd ville have misundet.
+Da kong Håkon 6. af Norge døde i 1380, sad hans enke tilbage med en usædvanlig position og et endnu mere usædvanligt problem. **Margrete Valdemarsdatter** var datter af den danske kong Valdemar 4. Atterdag, enke efter Norges konge og mor til den dreng, Oluf, der på papiret havde arv til både Danmark og Norge. Men Oluf var et barn — og Margrete var en kvinde i et Europa, hvor kvindelig regeringsmagt var en anomali, ikke en mulighed.
 
-### Har vi et billede af hende?
-
-**Kort svar: nej — ikke et samtidigt portræt, vi kan stole på som “sådan så hun ud”.**
-
-Der findes **ingen** sikkert dokumenteret, livagtig portrætmaleri fra hendes egen levetid, som man kender det fra senere renæssancedronninger. Det, museer og bøger viser, er typisk:
-
-- **Senere kunst** (1800-tallets nationalromantik m.m.), der *forestiller* sig Margrete  
-- **Segl og dokumenter**, der bekræfter magt og titel mere end ansigtstræk  
-- Eventuelle **mønt- og medaljetraditioner** i unionstiden, der sjældent giver realistisk portræt i moderne forstand  
-
-Derfor er KRØNIKE’s titelmotiv **bevidst stiliseret** — kroner og nordisk form, ikke “hendes ansigt”. Når en historie mangler ansigt, er det også en kildeoplysning: middelalderens magt er ofte **skrift og segl**, ikke fotografi. Vi kender hendes **handlinger** bedre end hendes kindben.
-
-Det nærmeste, vi kommer, er **gravmælet i Roskilde Domkirke**: en alabastfigur udført omkring **1423** — altså et årti *efter* hendes død — af Lübeck-billedhuggeren **Johannes Junge**.[^3] Ansigtet nedenfor er derfor ikke et portræt i moderne forstand, men et **idealiseret gravansigt**: ungt, glat, roligt, kronet. Sådan skulle en dronning se ud i evigheden, ikke sådan så hun ud som 59-årig.
-
-[FIGUR 1]
-
-*Margrete 1.s gravmæle i Roskilde Domkirke — alabast, ca. 1423 af Johannes Junge. Foto: Jacob Truedson Demitz / Ristesson (Wikimedia Commons, public domain).*
+Hun løste det ved aldrig at forlange det, hun i praksis tog.
 
 ### Vejen til magten
 
-Efter Valdemar Atterdags død (1375) og gennem ægteskabet med den norske konge **Haakon 6.** blev Margrete en knude i det nordiske arvespil. Sønnen **Olaf** blev konge i Danmark og Norge; da han døde i 1387, sikrede Margrete sig anerkendelse som regent — ikke som midlertidig “enke med nøgler”, men som den, der **faktisk styrede**.[^1]
+Margrete blev født omkring **1353** og blev som barn — omkring ti år gammel — gift med Håkon 6. Magnusson af Norge. Det var et dynastisk parti, arrangeret af faderen Valdemar Atterdag, hvis livsværk var at genopbygge et dansk kongerige, der ved hans tronbestigelse i 1340 lå pantsat og splittet.[^1]
 
-I Sverige åbnede adelens opposition mod **Albrecht af Mecklenburg** en dør. Margrete støttede de svenske stormænd, der ville af med Albrecht; resultatet blev greb om Sverige.
+Valdemar døde i 1375. Den **3. maj 1376** blev Margretes søn Oluf valgt til dansk konge — fem år gammel, med et formynderstyre af forældrene og rigsrådet. Fire år senere arvede han også Norge efter sin far. To riger, én mindreårig konge, én mor, der styrede på hans vegne.
+
+Da Oluf døde brat i 1387, kun sytten år gammel, forsvandt Margretes formelle legitimitet med ham. Alligevel lod det danske rigsråd hende vælge til **«fuldmægtig frue og husbond og hele rigets Danmarks formynder»** — en titel, der er konstrueret præcis for at undgå ordet konge.[^1] Året efter blev hun anerkendt tilsvarende i Norge, og efter et oprør mod den svenske kong Albrecht af Mecklenburg åbnede vejen også dertil: ved slaget ved Åsle i **1389** blev Albrecht taget til fange.
 
 ### Kalmar 1397
 
-I **1397** blev **Kalmarunionen** formaliseret: Danmark, Norge og Sverige under én monark — formelt med **Erik af Pommern** som konge, men med Margrete som den reelle arkitekt i de afgørende år.[^2] Unionen var et **dynastisk og geopolitisk redskab**: fælles forsvar, stormagtsspil, indre spændinger mellem rigsråd og konge.
+I sommeren 1397 samledes stormænd fra de tre riger i Kalmar, hvor Margretes søsterdattersøn **Erik af Pommern** blev kronet til konge over Danmark, Norge og Sverige.
 
-Netop den konstruktion kan aflæses i småpengene. Mønterne fra unionens første årtier er slået i **kongens** navn — Eriks — ikke i regentens. Nedenfor en dansk **gros** i sølv, præget på **Gurre Slot** under Erik af Pommern.[^4]
+To dokumenter er overleveret fra mødet: et kroningsbrev og det såkaldte **unionsbrev**, hvis retslige status historikere stadig diskuterer — det foreligger på papir frem for pergament og i en form, der snarere ligner et udkast end en ratificeret traktat.[^2] For Margrete var formalia underordnet. Unionen samlede den nordiske magt under ét dynasti, og bag den kronede unge konge stod hun selv med den faktiske myndighed indtil sin død.
+
+### Magtmidlerne
+
+Margretes magt hvilede ikke på titler, men på jord, penge og alliancer.
+
+Hun førte en systematisk **godspolitik**, hvor pantsat krongods blev købt tilbage og inddraget — det samme gods, hendes far havde måttet pantsætte. Len blev besat med mænd, der var afhængige af hendes gunst frem for af arvelig ret, hvilket bandt lensmændene til centralmagten frem for til deres egne slægter. Og hun plejede de **kirkelige alliancer** omhyggeligt: bispeudnævnelser var et politisk instrument, og store gaver til kirker og klostre knyttede den gejstlige magt til hende. Fromheden var utvivlsomt ægte. Den var også et redskab.
+
+### Ansigtet, der ikke findes
+
+Her møder man en påfaldende tavshed. Der findes **intet samtidsportræt** af Margrete 1. Vi ved ikke, hvordan hun så ud.
+
+[FIGUR 1]
+
+*Gravmælet i Roskilde Domkirke. Alabastfiguren er bekostet af Erik af Pommern i 1423 — elleve år efter hendes død — og tilskrives billedhuggeren Johannes Junge fra Lübeck. Ansigtet er et idealbillede af den fromme dronning, ikke et forsøg på lighed. Public domain via Wikimedia Commons.*
+
+Endnu mere sigende er mønterne. Retten til at slå mønt er middelalderens mest håndgribelige udtryk for suverænitet — og i unionstiden blev der slået mønt i **Erik af Pommerns** navn, ikke i Margretes.
 
 [FIGUR 2]
 
-*Dansk gros i sølv, slået på Gurre Slot under Erik af Pommern. Foto: Nationalmuseet (Wikimedia Commons, CC BY-SA 4.0).*
+*Sølvgros slået under Erik af Pommern. Margrete holdt rigerne; Erik havde titlen og møntretten. Nationalmuseet, CC BY-SA 4.0.*
 
-Det er ikke en petitesse. Det er hele pointen om Margretes magt: den var **reel, men uformel**. Hun havde rigerne; han havde titlen og møntretten. Når man leder efter hendes ansigt på en mønt, leder man efter en formalitet, hun aldrig fik — og aldrig lod sig standse af.
+Selv hendes grav flyttede sig. Hun blev efter eget ønske først begravet i **Sorø Klosterkirke** ved siden af sønnen Oluf, men allerede året efter blev liget ført til **Roskilde Domkirke** på foranledning af hendes mangeårige fortrolige, biskop Peder Jensen Lodehat.[^3] Hun døde **28. oktober 1412** om bord på sit skib i Flensborg Fjord, efter alt at dømme af pest.
 
-### Køn, eftermæle og Norden
+### Eftermælet
 
-Hun regerede i en verden, hvor formel kongemagt normalt var mandlig. Hendes værktøjer var de samme som mændenes: jord, ægteskaber, fængslinger, forhandling. Senere historieskrivning har skiftevis gjort hende til “landsmoderen” og til en kold taktiker — begge karikaturer er for små.
+Unionen overlevede hende i mere end et århundrede, før den bristede endeligt med Sveriges udtræden under Gustav Vasa i 1520'erne. [Reformationen](/kronike/2026-08-nr1/reformation) kom kort efter og flyttede magten igen — denne gang fra kirken til kronen.
 
-At samle tre riger er ikke det samme som at skabe ét folk. Svenske, norske og danske interesser trak i forskellige retninger. Kalmarunionen er både **hendes mesterstykke** og frøet til senere brud (Sverige 1523). Se også [Øresundstolden](/kronike/2026-08-nr1/oresundstold) — den økonomiske motor, senere konger brugte til at holde flåde og forhandling kørende.
+Margrete 1. efterlod sig ikke et ansigt. Hun efterlod en styreform: beviset på, at man i senmiddelalderens Norden kunne regere tre riger uden at bære deres krone — hvis man forstod, at magt sjældent bor i titlen.
 
-[^1]: *Dansk Biografisk Leksikon* / danmarkshistorien.dk om Margrete 1.
-[^2]: Kalmarunionen 1397 — unionbreve og historiografi; balancér med svenske og norske vinkler.
-[^3]: Gravmælet i Roskilde Domkirke, alabast, ca. 1423, tilskrevet Johannes Junge fra Lübeck. Foto: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Margaret_of_Denmark,_Norway_%26_Sweden_(1389)_effigy_2010_(2).jpg) (public domain).
-[^4]: Dansk gros af sølv, slået på Gurre Slot under Erik af Pommern (dansk konge 1396–1439). [Nationalmuseet via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Dansk_gros-m%C3%B8nt_af_s%C3%B8lv,_sl%C3%A5et_p%C3%A5_Gurre_Slot_under_Erik_af_Pommern.jpg), CC BY-SA 4.0.
+[^1]: [Margrete 1., 1353-1412](https://danmarkshistorien.lex.dk/Margrete_1.,_1353-1412), danmarkshistorien.dk (Aarhus Universitet) — herunder titlen «fuldmægtig frue og husbond og hele rigets Danmarks formynder» og Olufs kongevalg 3. maj 1376.
+[^2]: [Margrete 1.](https://biografiskleksikon.lex.dk/Margrete_1.), Dansk Biografisk Leksikon — om Kalmarmødet 1397 og unionsbrevets omdiskuterede status. Se også Anders Bøgh, *Sejren i kvindens hånd. Kampen om magten i Norden ca. 1365-89* (Aarhus Universitetsforlag, 2003).
+[^3]: [Margrete 1.](https://kvindebiografiskleksikon.lex.dk/Margrete_1.), Dansk Kvindebiografisk Leksikon — dødsfaldet i Flensborg Fjord 28. oktober 1412, den første begravelse i Sorø og overførslen til Roskilde på Peder Jensen Lodehats foranledning. Gravmælet bekostet af Erik af Pommern 1423, tilskrevet Johannes Junge.

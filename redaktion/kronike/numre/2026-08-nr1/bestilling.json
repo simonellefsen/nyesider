@@ -48,17 +48,22 @@
       "order": 2,
       "section": "Tallet",
       "brief": {
-        "angle": "Historie er ikke kun fortælling. Det er også størrelsesordener — med forbehold for, at middelalderlige tællinger er skøn",
+        "angle": "Tre-fire haarde tal, der rammer 'Riget formes' ned: fx Danmarks befolkning ca. 1500 vs 1800, Oeresundstoldens andel af kronens indtaegter, antal udvandrere til Nordamerika 1868-1914, arealtab i 1864. For HVERT tal: hvad det maales i, hvor det kommer fra, og hvor usikkert det er. Middelalderlige tal er skoen — sig det. Ingen tal uden kilde.",
         "words": [
-          400,
-          800
+          250,
+          450
         ],
         "mustCite": 3,
-        "format": "tallet"
+        "format": "tallet",
+        "depthRequirements": [
+          "mindst ét navngivet menneske, som en laeser kan slaa op",
+          "mindst én konkret scene eller ét refereret dokument",
+          "mindst ét haardt tal med kilde"
+        ]
       },
       "writer": {
         "byline": null,
-        "model": "editor-led",
+        "model": "openai/gpt-5.6-terra",
         "fallback": null
       },
       "receipt": {
@@ -78,29 +83,34 @@
       "order": 3,
       "section": "Riget & grænser",
       "brief": {
-        "angle": "En handelsby ved Slien og en jordvold tværs over Jylland. Vikingetidens magt sad ikke kun i skibene — den sad i told, tr",
+        "angle": "Hedeby ved Slien og Dannevirke tvaers over Jylland: vikingetidens magt sad i told, kontrol og infrastruktur, ikke kun i skibe. Brug arkaeologien konkret (hvad udgravningerne faktisk viser: byplan, vaerksteder, importvarer, halvkredsvolden) og Dannevirkes byggefaser. Ansgars mission og Ottar/Wulfstans rejseberetninger maa bruges, hvis du er sikker paa dem.",
         "words": [
-          450,
+          700,
           900
         ],
-        "mustCite": 2,
-        "format": "feature"
+        "mustCite": 3,
+        "format": "feature",
+        "depthRequirements": [
+          "mindst ét navngivet menneske, som en laeser kan slaa op",
+          "mindst én konkret scene eller ét refereret dokument",
+          "mindst ét haardt tal med kilde"
+        ]
       },
       "writer": {
         "byline": null,
-        "model": "editor-led",
+        "model": "anthropic/claude-sonnet-5",
         "fallback": null
       },
       "receipt": {
-        "words": 689,
-        "costUSD": null,
-        "draft": null
+        "words": 792,
+        "costUSD": 0.03,
+        "draft": "kladder/03-hedeby.md"
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
-        "citations": 5,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-08",
+        "citations": 4,
+        "editorNote": "REELT kommissioneret hos anthropic/claude-sonnet-5 paa .env.kronike. Kladden var stedkonkret og kildebevidst. Chefredaktoerens rettelser: FJERNET to tal, der ikke kunne verificeres — halvkredsvolden som 'godt halvanden kilometer' og byarealet '24 hektar'. Erstattet af det, der ER belagt: voldhoejde ca. 9 m og Harald Blaatand som bygherre i anden halvdel af 900-tallet. Ansgar-afsnittet var forenklet til én tilladelse; den virkelige historie er bedre og er nu med — Horik den Aeldre ca. 850, lukning 854, genaabning med klokke ca. 860 under Horik den Yngre. UNESCO-arealet 227,55 ha tilfoejet som verificeret tal."
       }
     },
     {
@@ -108,17 +118,22 @@
       "order": 4,
       "section": "Tro & kirke",
       "brief": {
-        "angle": "Ansgar kom med mission. Harald Blåtand kom med magt. Mellem dem ligger generationer — ikke et trylleslag i Jelling.",
+        "angle": "Kristningen som politik: Harald Blaataands Jellingsten ('gjorde danerne kristne'), Poppo-legenden og hvad der er tradition vs belaeg. Hvorfor en konge vaelger en religion — alliancer, det tysk-romerske pres, kirkens skriftkultur som administrativ teknologi. Skeln myte / tradition / belagt kilde eksplicit.",
         "words": [
-          450,
+          700,
           900
         ],
-        "mustCite": 2,
-        "format": "feature"
+        "mustCite": 3,
+        "format": "feature",
+        "depthRequirements": [
+          "mindst ét navngivet menneske, som en laeser kan slaa op",
+          "mindst én konkret scene eller ét refereret dokument",
+          "mindst ét haardt tal med kilde"
+        ]
       },
       "writer": {
         "byline": null,
-        "model": "editor-led",
+        "model": "google/gemini-3.1-pro-preview",
         "fallback": null
       },
       "receipt": {
@@ -138,29 +153,34 @@
       "order": 5,
       "section": "Biografi",
       "brief": {
-        "angle": "Hun regerede uden at bære kronen i alle rigers sprog på samme måde — og skabte Kalmarunionen. Biografi, magt og internat",
+        "angle": "Margrete 1.: hvordan en kvinde uden formel kongetitel styrede tre riger. Vejen til magten (Valdemar Atterdags datter, gift med Haakon 6., soennen Oluf), Kalmarunionen 1397, og de konkrete magtmidler: godspolitik, len, kirkelige alliancer. Kilde-noeden: der findes intet samtidsportraet — gravmaelet i Roskilde er idealiseret, og moenter blev slaaet i Erik af Pommerns navn, ikke hendes.",
         "words": [
-          450,
+          700,
           900
         ],
-        "mustCite": 2,
-        "format": "feature"
+        "mustCite": 3,
+        "format": "feature",
+        "depthRequirements": [
+          "mindst ét navngivet menneske, som en laeser kan slaa op",
+          "mindst én konkret scene eller ét refereret dokument",
+          "mindst ét haardt tal med kilde"
+        ]
       },
       "writer": {
         "byline": null,
-        "model": "editor-led",
+        "model": "anthropic/claude-opus-4.8",
         "fallback": null
       },
       "receipt": {
-        "words": 438,
-        "costUSD": null,
-        "draft": null
+        "words": 818,
+        "costUSD": 0.03,
+        "draft": "kladder/05-margrete.md"
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
-        "citations": 2,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-08",
+        "citations": 3,
+        "editorNote": "REELT kommissioneret hos anthropic/claude-opus-4.8 paa .env.kronike. Staerk kladde med opslaaelige personer og det baerende greb (magt uden titel). Chefredaktoerens rettelser: Oluf blev valgt 3. maj 1376, ikke ved Valdemars doed 1375; tilfoejet at hun foerst blev begravet i Soroe og aaret efter flyttet til Roskilde paa Peder Jensen Lodehats foranledning — det staerker artiklens egen pointe om, at intet ved hende staar stille. Gravmaelet praeciseret: bekostet af Erik af Pommern 1423, tilskrevet Johannes Junge. Fodnoter med bare domaener (denstoredanske.lex.dk, roskildedomkirke.dk) erstattet af verificerede opslag."
       }
     },
     {
@@ -203,17 +223,22 @@
       "order": 7,
       "section": "Handel & industri",
       "brief": {
-        "angle": "Fra 1429 til 1857 betalte skibe for at passere mellem Nordsø og Østersø. Det var geopolitik i toldform — og en af rigets",
+        "angle": "Oeresundstolden 1429-1857: en bom paa vandet blev statens indtaegtskilde. Hvordan den fungerede rent praktisk (Helsingoer, Kronborg, skibslister), hvad den betoed for kronens oekonomi, og hvordan den endte — afloesningen 1857 og hvem der betalte. Oeresundstoldregnskaberne er en verdenskendt historisk kilde; brug dem.",
         "words": [
-          450,
+          700,
           900
         ],
-        "mustCite": 2,
-        "format": "feature"
+        "mustCite": 3,
+        "format": "feature",
+        "depthRequirements": [
+          "mindst ét navngivet menneske, som en laeser kan slaa op",
+          "mindst én konkret scene eller ét refereret dokument",
+          "mindst ét haardt tal med kilde"
+        ]
       },
       "writer": {
         "byline": null,
-        "model": "editor-led",
+        "model": "openai/gpt-5.6-terra",
         "fallback": null
       },
       "receipt": {
@@ -233,17 +258,22 @@
       "order": 8,
       "section": "Social forandring",
       "brief": {
-        "angle": "Stavnsbånd, hoveri og udskiftning. 1780’ernes reformer er social historie — ikke kun en dato i 1788.",
+        "angle": "Landboreformerne ca. 1780-1800: stavnsbaandets ophaevelse (1788), udskiftningen af landsbyerne, og overgangen fra faeste til selveje. Hvem drev det (Reventlow, Colbjoernsen, Christian 7.s regering reelt kronprins Frederik), og hvad det betoed for en konkret bonde: hvor han boede foer og efter, hvem han skyldte hvad. Frihedsstoetten som samtidens eget monument over sagen.",
         "words": [
-          450,
+          700,
           900
         ],
-        "mustCite": 2,
-        "format": "feature"
+        "mustCite": 3,
+        "format": "feature",
+        "depthRequirements": [
+          "mindst ét navngivet menneske, som en laeser kan slaa op",
+          "mindst én konkret scene eller ét refereret dokument",
+          "mindst ét haardt tal med kilde"
+        ]
       },
       "writer": {
         "byline": null,
-        "model": "editor-led",
+        "model": "anthropic/claude-sonnet-5",
         "fallback": null
       },
       "receipt": {
@@ -298,17 +328,22 @@
       "order": 10,
       "section": "Migration",
       "brief": {
-        "angle": "I 1800-tallet og det tidlige 1900-tal forlod hundredtusinder Danmark. De fleste tog til Amerika. Det er migration — ikke",
+        "angle": "Udvandringen til Nordamerika ca. 1868-1914: hvor mange, hvorfra, hvorfor. Push (arvedeling, husmandsvilkaar, 1864-nederlaget) og pull (jord, agenter, praeriereklamer). Mormonmissionen som saerlig dansk kanal. Udvandrerarkivet i Aalborg og politiets udvandringsprotokoller er de konkrete kilder — brug dem.",
         "words": [
-          450,
+          700,
           900
         ],
-        "mustCite": 2,
-        "format": "feature"
+        "mustCite": 3,
+        "format": "feature",
+        "depthRequirements": [
+          "mindst ét navngivet menneske, som en laeser kan slaa op",
+          "mindst én konkret scene eller ét refereret dokument",
+          "mindst ét haardt tal med kilde"
+        ]
       },
       "writer": {
         "byline": null,
-        "model": "editor-led",
+        "model": "google/gemini-3.1-pro-preview",
         "fallback": null
       },
       "receipt": {
@@ -328,17 +363,22 @@
       "order": 11,
       "section": "Videnskab & opfindelser",
       "brief": {
-        "angle": "I 1820 viste en dansk fysiker, at elektricitet påvirker et kompas. Det var ikke en gadget — det var et vendepunkt for vi",
+        "angle": "H.C. Oersted: 1820-opdagelsen af elektromagnetismen som ét punkt i et helt liv. Selve forsoeget (hvad han faktisk saa, og hvorfor det var uventet), Experimenta-afhandlingen, netvaerket (Faraday, Ampere, Berzelius), og formidleren bag 'Aanden i Naturen'. Han opfandt ogsaa det danske ord 'ilt'. Undgaa helgenkaaring — vis manden.",
         "words": [
-          450,
+          700,
           900
         ],
-        "mustCite": 2,
-        "format": "feature"
+        "mustCite": 3,
+        "format": "feature",
+        "depthRequirements": [
+          "mindst ét navngivet menneske, som en laeser kan slaa op",
+          "mindst én konkret scene eller ét refereret dokument",
+          "mindst ét haardt tal med kilde"
+        ]
       },
       "writer": {
         "byline": null,
-        "model": "editor-led",
+        "model": "anthropic/claude-opus-4.8",
         "fallback": null
       },
       "receipt": {

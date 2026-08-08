@@ -50,7 +50,10 @@ def find_links(path: Path) -> set[str]:
     out: set[str] = set()
     spans: list[tuple[int, int]] = []
     for m in MD_LINK_RE.finditer(text):
-        out.add(m.group(1).rstrip(".,;:"))
+        # No rstrip here: inside ](...) the URL is already delimited, and Danish
+        # lex.dk slugs for regnal names genuinely end in a period
+        # (…/Margrete_1., …/Christian_3.). Stripping it invents a 404.
+        out.add(m.group(1))
         spans.append(m.span())
     for m in BARE_URL_RE.finditer(text):
         if any(s <= m.start() < e for s, e in spans):
@@ -96,6 +99,8 @@ def main() -> int:
     ap.add_argument("issue", nargs="?")
     ap.add_argument("--json", action="store_true")
     ap.add_argument("--no-cache", action="store_true")
+    ap.add_argument("--include-drafts", action="store_true",
+                    help="also check issues with status != published — needed when\nvalidating an issue before (re)publishing it")
     args = ap.parse_args()
 
     import urllib.parse  # noqa: PLC0415 - used inside check()
@@ -116,7 +121,8 @@ def main() -> int:
             meta = issue_dir / "issue.json"
             if not meta.exists():
                 continue
-            if json.loads(meta.read_text()).get("status") != "published":
+            if (not args.include_drafts
+                    and json.loads(meta.read_text()).get("status") != "published"):
                 continue
             for f in sorted(issue_dir.rglob("*.md")):
                 targets.append((f"{mag.name}/{issue_dir.name}", f))
