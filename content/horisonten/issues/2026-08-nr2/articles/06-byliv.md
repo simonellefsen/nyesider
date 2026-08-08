@@ -1,7 +1,6 @@
 ---
 title: "Tbilisi: byen der ikke kan beslutte sig for århundrede"
 standfirst: Sulfurbade, beton, boutique-hoteller og balkoner, der hænger skævt — i samme gade.
-byline: Mistral Large (Mistral AI)
 section: Byliv
 order: 6
 image: ../images/horisonten_byliv.png

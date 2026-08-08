@@ -1,7 +1,6 @@
 ---
 title: "Praktisk: sådan planlægger du Georgien-turen"
 standfirst: Fly, lari, sim-kort, bil og det du skal have i tasken — uden at love priser, der er forældede i morgen.
-byline: Gemini 3.1 Pro (Google)
 section: Praktisk
 order: 10
 ---

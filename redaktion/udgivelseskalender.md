@@ -21,7 +21,6 @@ Håndhæves som **ERROR** i `production/check_issue.py` (og dermed i `npm run pr
 |---|---|
 | 2026-07-19 | gnisten/2026-07-nr1 (nr. 1); pulsen/2026-07-nr1 (nr. 1); spaending/2026-07-nr1 (nr. 1) |
 | 2026-07-20 | horisonten/2026-07-nr1 (nr. 1) |
-| 2026-08-01 | gnisten/2026-08-nr2 (nr. 2); horisonten/2026-08-nr2 (nr. 2); pulsen/2026-08-nr2 (nr. 2); spaending/2026-08-nr2 (nr. 2) |
 
 ## Efter magasin
 
@@ -38,7 +37,7 @@ Håndhæves som **ERROR** i `production/check_issue.py` (og dermed i `npm run pr
 | Nummer | issue-slug | published | status | tema |
 |---|---|---|---|---|
 | 1 | `2026-07-nr1` | 2026-07-19 | published | Sig hej til Claude |
-| 2 | `2026-08-nr2` | 2026-08-01 | published | Ud af browseren |
+| 2 | `2026-08-nr2` | 2026-08-01 | draft | Ud af browseren |
 | 3 | `2026-08-nr3` | 2026-08-08 | draft | Agenten og den lokale hjerne |
 
 ### horisonten
@@ -46,7 +45,7 @@ Håndhæves som **ERROR** i `production/check_issue.py` (og dermed i `npm run pr
 | Nummer | issue-slug | published | status | tema |
 |---|---|---|---|---|
 | 1 | `2026-07-nr1` | 2026-07-20 | published | Mallorca uden for højsæsonen |
-| 2 | `2026-08-nr2` | 2026-08-01 | published | Georgien — bjerge, by og bord |
+| 2 | `2026-08-nr2` | 2026-08-01 | draft | Georgien — bjerge, by og bord |
 | 3 | `2026-08-nr3` | 2026-08-08 | draft | Dolomitterne i efteråret |
 
 ### humanerd
@@ -95,7 +94,7 @@ Håndhæves som **ERROR** i `production/check_issue.py` (og dermed i `npm run pr
 | Nummer | issue-slug | published | status | tema |
 |---|---|---|---|---|
 | 1 | `2026-07-nr1` | 2026-07-19 | published | Når maskinen lytter med |
-| 2 | `2026-08-nr2` | 2026-08-01 | published | Når tasterne bliver stille |
+| 2 | `2026-08-nr2` | 2026-08-01 | draft | Når tasterne bliver stille |
 | 3 | `2026-08-nr3` | 2026-08-08 | draft | Når driften taler |
 
 ### spaending
@@ -103,7 +102,7 @@ Håndhæves som **ERROR** i `production/check_issue.py` (og dermed i `npm run pr
 | Nummer | issue-slug | published | status | tema |
 |---|---|---|---|---|
 | 1 | `2026-07-nr1` | 2026-07-19 | published | SPÆNDING nr. 1 · Juli 2026 |
-| 2 | `2026-08-nr2` | 2026-08-01 | published | Når watt bliver hverdag |
+| 2 | `2026-08-nr2` | 2026-08-01 | draft | Når watt bliver hverdag |
 | 3 | `2026-08-nr3` | 2026-08-08 | draft | Køen, kulden og den næste watt |
 
 ## Kollisioner (skal være tom)

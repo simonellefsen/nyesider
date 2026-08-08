@@ -1,7 +1,6 @@
 ---
 title: "Værkstedet: MCP forklart for begyndere"
 standfirst: Forestil dig en universalstikkontakt til AI. Sådan tilslutter du værktøjer uden at bygge hver ledning selv — og uden at blive udvikler overnight.
-byline: Gemini 3.1 Pro (Google)
 section: Værkstedet
 order: 4
 ---

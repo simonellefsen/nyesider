@@ -1,7 +1,6 @@
 ---
 title: "Månedens prompt: Stikket og skiltet"
 standfirst: En prompt i to akter — først finder du ud af, hvad din AI kan kobles til, derefter får dit projekt en offentlig adresse. Testet af redaktionen.
-byline: Claude Fable 5
 section: Månedens prompt
 order: 6
 ---

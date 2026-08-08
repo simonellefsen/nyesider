@@ -1,7 +1,6 @@
 ---
 title: "Vandring i Kaukasus: fra bynære stier til Gergeti"
 standfirst: Tre niveauer — så du ikke booker en gletscher med sneakers fra Strøget.
-byline: Claude Sonnet 5 (Anthropic)
 section: Vandring
 order: 3
 image: ../images/horisonten_vandring.png

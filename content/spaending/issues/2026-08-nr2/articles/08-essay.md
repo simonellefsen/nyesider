@@ -1,7 +1,6 @@
 ---
 title: Otte minutter ved rasten
 standfirst: En far, en bil, en kaffe — og en ladekurve der pludselig føles som fremtiden.
-byline: Mistral Medium 3.5 (Mistral AI)
 section: Essay
 order: 8
 image: ../images/spaending_essay.png

@@ -1,7 +1,6 @@
 ---
 title: MDR-muren — hvorfor gode idéer dør i venteværelset
 standfirst: EU's regler for medicinsk udstyr koster tid og penge, de fleste startups ikke har. Det er meningen. Men det har også en pris for innovationen.
-byline: Mistral Large (Mistral AI)
 section: Analyse · Regulering
 order: 3
 ---

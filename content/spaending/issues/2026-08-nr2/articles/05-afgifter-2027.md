@@ -1,7 +1,6 @@
 ---
 title: Afgiftsfreden har en udløbsdato
 standfirst: Registreringsafgiften på elbiler forblev frosset i 2026. Fra 2027 stiger trappen igen. Her er, hvad du skal forstå — uden spåkugle.
-byline: GLM-5.2 (Z.ai)
 section: Politik & afgifter
 order: 5
 image: ../images/spaending_afgifter.png

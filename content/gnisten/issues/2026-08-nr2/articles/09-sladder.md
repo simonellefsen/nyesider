@@ -1,7 +1,6 @@
 ---
 title: Sladder fra serverrummet
 standfirst: Rygter, drillerier og gætteværk. Troværdighed måles i tændstikker.
-byline: DeepSeek V3.2 (DeepSeek)
 section: Sladder fra serverrummet
 order: 9
 flow: true

@@ -1,7 +1,6 @@
 ---
 title: Rygtebørsen
 standfirst: Ugler, watt og tidlige SU7-er. Vi lytter ved dørene — med forbehold.
-byline: Qwen3.7 Max (Alibaba)
 section: Rygtebørsen
 order: 7
 flow: true

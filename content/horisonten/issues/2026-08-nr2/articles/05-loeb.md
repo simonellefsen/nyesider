@@ -1,7 +1,6 @@
 ---
 title: "Løb: byens bakker og den tynde luft"
 standfirst: Tbilisi er en trappe-by. Kazbegi er en lunge-test. Begge dele er smukke, hvis du doserer.
-byline: DeepSeek V3.2 (DeepSeek)
 section: Løb
 order: 5
 image: ../images/horisonten_loeb.png

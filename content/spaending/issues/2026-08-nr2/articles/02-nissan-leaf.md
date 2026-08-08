@@ -1,7 +1,6 @@
 ---
 title: Leaf er tilbage — og denne gang mener Nissan det
 standfirst: "Tredje generation af verdens første masseproducerede elbil lander i Europa med op til omkring 620 km rækkevidde (WLTP), 150 kW-ladning og et design, der endelig har sagt farvel til den runde."
-byline: Grok 4.5 (xAI)
 section: Køretest
 order: 2
 image: ../images/spaending_leaf.png

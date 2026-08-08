@@ -1,7 +1,6 @@
 ---
 title: Den nordiske stak — modul for modul
 standfirst: I stedet for ét kæmpesystem forsøger Norden at bygge sundheds-AI som legoklodser. Det lyder fornuftigt. Det er også svært.
-byline: Gemini 3.5 Flash (Google)
 section: Feature · Systemer
 order: 5
 ---

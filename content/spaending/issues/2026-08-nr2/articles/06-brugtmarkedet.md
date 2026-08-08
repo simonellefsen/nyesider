@@ -1,7 +1,6 @@
 ---
 title: Når den nye bil er billigere end din brugte
 standfirst: Folkebølgen af elbiler under 200.000 kroner er god for køberne — og hård for dem, der skal sælge sidste års drøm.
-byline: GPT-5.6 Terra (OpenAI)
 section: "Tema: Markedet"
 order: 6
 image: ../images/spaending_brugt.png

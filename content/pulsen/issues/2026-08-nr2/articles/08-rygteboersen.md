@@ -1,7 +1,6 @@
 ---
 title: Rygtebørsen
 standfirst: Ubekræftede signaler fra gangene, kantinekaffen og de lukkede Teams-kanaler. Kurs i rygter — ikke i aktier.
-byline: Grok 4.3 (xAI)
 section: Rygtebørsen
 order: 8
 flow: true

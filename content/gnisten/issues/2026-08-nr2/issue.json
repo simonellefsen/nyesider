@@ -4,7 +4,7 @@
   "title": "GNISTEN nr. 2 · August 2026",
   "issueTheme": "Ud af browseren",
   "published": "2026-08-01",
-  "status": "published",
+  "status": "draft",
   "pdf": null,
   "cover": "images/gnisten_cover.png",
   "images": [
@@ -20,7 +20,6 @@
       "order": 1,
       "title": "Ud af browseren",
       "section": "Leder",
-      "byline": "Claude Fable 5",
       "standfirst": "I nr. 1 lærte vi at sige hej. I nr. 2 lærer vi at gå udenfor — til ChatGPT, til MCP og til den første rigtige publicering."
     },
     {
@@ -29,7 +28,6 @@
       "order": 2,
       "title": "Kortet — sommeren 2026",
       "section": "Kortet",
-      "byline": "GPT-5.6 Terra (OpenAI)",
       "standfirst": "MCP er blevet fælles sprog, modelnavnene er stadig en jungle, og de store firmaer kæmper om at være den assistent, der må røre ved dine apps."
     },
     {
@@ -38,7 +36,6 @@
       "order": 3,
       "title": "Fokus: ChatGPT — assistenten alle allerede kender",
       "section": "Fokus",
-      "byline": "GPT-5.6 Terra (OpenAI)",
       "standfirst": "OpenAI opfandt ikke bare en chatbot. De opfandt vanen. Her er, hvad ChatGPT egentlig er i 2026 — uden hype og uden at du behøver en Ph.d."
     },
     {
@@ -47,7 +44,6 @@
       "order": 4,
       "title": "Værkstedet: MCP forklart for begyndere",
       "section": "Værkstedet",
-      "byline": "Gemini 3.1 Pro (Google)",
       "standfirst": "Forestil dig en universalstikkontakt til AI. Sådan tilslutter du værktøjer uden at bygge hver ledning selv."
     },
     {
@@ -56,7 +52,6 @@
       "order": 5,
       "title": "Første skridt ud af browseren",
       "section": "Værkstedet",
-      "byline": "Grok 4.5 (xAI)",
       "standfirst": "Du har bygget noget med AI. Nu skal det have en adresse. Den korteste vej fra lokal mappe til offentligt link."
     },
     {
@@ -65,7 +60,6 @@
       "order": 6,
       "title": "Månedens prompt: Stikket og skiltet",
       "section": "Månedens prompt",
-      "byline": "Claude Fable 5",
       "standfirst": "En prompt i to akter — forstå tilkoblinger, publicér projektet. Testet af redaktionen."
     },
     {
@@ -74,7 +68,6 @@
       "order": 7,
       "title": "Regningen",
       "section": "Regningen",
-      "byline": "GLM-5.2 (Z.ai)",
       "standfirst": "Hvad koster ChatGPT, Claude og vennerne i sommeren 2026 — og hvornår er gratis faktisk godt nok?"
     },
     {
@@ -83,7 +76,6 @@
       "order": 8,
       "title": "Ordbogen",
       "section": "Ordbogen",
-      "byline": "Qwen3.7 Max (Alibaba)",
       "standfirst": "Ti gloser til livet uden for chatten: deploy, MCP-server, API-nøgle og mere."
     },
     {
@@ -92,8 +84,9 @@
       "order": 9,
       "title": "Sladder fra serverrummet",
       "section": "Sladder fra serverrummet",
-      "byline": "DeepSeek V3.2 (DeepSeek)",
       "standfirst": "Rygter, drillerier og gætteværk. Troværdighed måles i tændstikker."
     }
-  ]
+  ],
+  "unpublishedReason": "Afpubliceret 2026-08-08. Nummeret blev udgivet med byline-kreditering til navngivne modeller, men der findes slet ingen bestilling.json for nummeret — hverken brief, kladde, forbrug eller verdikt. Det bryder forlagets foerste non-negotiable (ingen artikel udgives uden en bestilling). OpenRouter-forbruget paa titlens egen noegle stammer fra juli-numrene, ikke fra dette. Skal produceres forfra — uden byline, indtil en reel forfatter kan dokumenteres. Se CLAUDE.md og redaktion/README.md.",
+  "unpublishedAt": "2026-08-08"
 }

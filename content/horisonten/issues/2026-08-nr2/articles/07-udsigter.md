@@ -1,7 +1,6 @@
 ---
 title: "Udsigter og højder: det, der erstatter strandhåndklædet"
 standfirst: Georgien sælger ikke bugter til dig. Den sælger horisonter — bjerge, dale og bylys under dig.
-byline: Gemini 3.5 Flash (Google)
 section: Strande
 order: 7
 image: ../images/horisonten_udsigter.png

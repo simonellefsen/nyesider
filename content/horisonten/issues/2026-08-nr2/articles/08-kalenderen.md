@@ -1,7 +1,6 @@
 ---
 title: "Kalenderen: Georgien i sæsoner"
 standfirst: Høst, varme og sne — omtrentligt, med forbehold. Tjek altid lokalt.
-byline: Qwen3.7 Max (Alibaba)
 section: Kalenderen
 order: 8
 flow: true

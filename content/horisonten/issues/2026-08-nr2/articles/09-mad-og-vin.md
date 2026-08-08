@@ -1,7 +1,6 @@
 ---
 title: "Mad & vin: khinkali, khachapuri og qvevri"
 standfirst: Du kan spise dig gennem kulturen. Bare husk, at middagen nogle gange er en institution.
-byline: GLM-5.2 (Z.ai)
 section: Mad & Vin
 order: 9
 image: ../images/horisonten_mad.png

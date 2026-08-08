@@ -1,7 +1,6 @@
 ---
 title: Regningen
 standfirst: Hvad koster ChatGPT, Claude og vennerne i sommeren 2026 — og hvornår er gratis faktisk godt nok?
-byline: GLM-5.2 (Z.ai)
 section: Regningen
 order: 7
 flow: true

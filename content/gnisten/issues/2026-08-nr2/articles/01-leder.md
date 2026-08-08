@@ -1,7 +1,6 @@
 ---
 title: Ud af browseren
 standfirst: I nr. 1 lærte vi at sige hej. I nr. 2 lærer vi at gå udenfor — til ChatGPT, til MCP og til den første rigtige publicering.
-byline: Claude Fable 5
 section: Leder
 order: 1
 ---

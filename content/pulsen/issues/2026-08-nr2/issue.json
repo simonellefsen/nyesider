@@ -4,7 +4,7 @@
   "title": "PULSEN · Nr. 2 · August 2026",
   "issueTheme": "Når tasterne bliver stille",
   "published": "2026-08-01",
-  "status": "published",
+  "status": "draft",
   "pdf": null,
   "productionCostUSD": null,
   "cover": "images/pulsen_cover.png",
@@ -19,7 +19,6 @@
       "order": 1,
       "title": "Når tasterne bliver stille",
       "section": "Leder",
-      "byline": "Claude Fable 5",
       "standfirst": "Ambient AI er på vej fra pilot til hverdag."
     },
     {
@@ -28,7 +27,6 @@
       "order": 2,
       "title": "Fra pilot til stuegang — ambient AI i 2026",
       "section": "Feature · Ambient AI",
-      "byline": "Claude Opus 4.8 (Anthropic)",
       "standfirst": "AI-scribes ruller ud i europæisk klinik. Danmark tester, og dokumentationsbyrden er endelig til forhandling."
     },
     {
@@ -37,7 +35,6 @@
       "order": 3,
       "title": "MDR-muren — hvorfor gode idéer dør i venteværelset",
       "section": "Analyse · Regulering",
-      "byline": "Mistral Large (Mistral AI)",
       "standfirst": "EU's regler for medicinsk udstyr koster tid og penge, de fleste startups ikke har."
     },
     {
@@ -46,7 +43,6 @@
       "order": 4,
       "title": "EHDS — når patientdata skal kunne rejse",
       "section": "Analyse · Data & politik",
-      "byline": "GPT-5.5 (OpenAI)",
       "standfirst": "Det europæiske sundhedsdataområde: deling til behandling og forskning. Tillid er den knappe ressource."
     },
     {
@@ -55,7 +51,6 @@
       "order": 5,
       "title": "Den nordiske stak — modul for modul",
       "section": "Feature · Systemer",
-      "byline": "Gemini 3.5 Flash (Google)",
       "standfirst": "I stedet for ét kæmpesystem forsøger Norden at bygge sundheds-AI som legoklodser."
     },
     {
@@ -64,7 +59,6 @@
       "order": 6,
       "title": "Nyt fra ergoterapien: 2035-bomben er allerede tændt",
       "section": "Nyt fra ergoterapien",
-      "byline": "Qwen3.7 Max (Alibaba)",
       "standfirst": "Flere 80+-årige, pressede kommuner og en faggruppe midt mellem hjælpemidler, hjem og teknologi."
     },
     {
@@ -72,25 +66,24 @@
       "file": "articles/07-vandrehistorier.md",
       "order": 7,
       "title": "Vandrehistorier fra vagtstuen",
-      "section": "Vandrehistorier fra vagtstuen",
-      "byline": "Llama 4 Maverick (Meta)"
+      "section": "Vandrehistorier fra vagtstuen"
     },
     {
       "slug": "rygteboersen",
       "file": "articles/08-rygteboersen.md",
       "order": 8,
       "title": "Rygtebørsen",
-      "section": "Rygtebørsen",
-      "byline": "Grok 4.3 (xAI)"
+      "section": "Rygtebørsen"
     },
     {
       "slug": "sjov-og-spil",
       "file": "articles/09-sjov-og-spil.md",
       "order": 9,
       "title": "Skarpe hjerner, stille taster",
-      "section": "Sjov & Spil",
-      "byline": "DeepSeek V3.2 (DeepSeek)"
+      "section": "Sjov & Spil"
     }
   ],
-  "imageCredits": "Forside: genbrugt nr. 1-illustration."
+  "imageCredits": "Forside: genbrugt nr. 1-illustration.",
+  "unpublishedReason": "Afpubliceret 2026-08-08. Nummeret blev udgivet med byline-kreditering til navngivne modeller, men der findes slet ingen bestilling.json for nummeret — hverken brief, kladde, forbrug eller verdikt. Det bryder forlagets foerste non-negotiable (ingen artikel udgives uden en bestilling). OpenRouter-forbruget paa titlens egen noegle stammer fra juli-numrene, ikke fra dette. Skal produceres forfra — uden byline, indtil en reel forfatter kan dokumenteres. Se CLAUDE.md og redaktion/README.md.",
+  "unpublishedAt": "2026-08-08"
 }

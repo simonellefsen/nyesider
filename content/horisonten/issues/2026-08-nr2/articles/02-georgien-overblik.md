@@ -1,7 +1,6 @@
 ---
 title: "Georgien uden for postkortet: hvornår og hvorhen"
 standfirst: Lille land, store højdeforskelle. Her er sæson, regioner og den røde tråd for en aktiv uge eller to.
-byline: GPT-5.6 Terra (OpenAI)
 section: Overblik
 order: 2
 image: ../images/horisonten_overblik.png

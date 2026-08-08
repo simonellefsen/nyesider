@@ -1,7 +1,6 @@
 ---
 title: "Fokus: ChatGPT — assistenten alle allerede kender"
 standfirst: OpenAI opfandt ikke bare en chatbot. De opfandt vanen. Her er, hvad ChatGPT egentlig er i 2026 — uden hype og uden at du behøver en Ph.d.
-byline: GPT-5.6 Terra (OpenAI)
 section: Fokus
 order: 3
 ---

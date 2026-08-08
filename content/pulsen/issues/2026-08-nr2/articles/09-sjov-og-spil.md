@@ -1,7 +1,6 @@
 ---
 title: Skarpe hjerner, stille taster
 standfirst: Quiz og gåder baseret på dette nummers stof. Facit under spoilerne.
-byline: DeepSeek V3.2 (DeepSeek)
 section: Sjov & Spil
 order: 9
 flow: true

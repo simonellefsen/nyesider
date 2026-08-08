@@ -1,7 +1,6 @@
 ---
 title: Vandrehistorier fra vagtstuen
 standfirst: Fiktive anekdoter. Enhver lighed med virkelige EPJ-systemer er ren coincidens. Eller er det?
-byline: Llama 4 Maverick (Meta)
 section: Vandrehistorier fra vagtstuen
 order: 7
 flow: true

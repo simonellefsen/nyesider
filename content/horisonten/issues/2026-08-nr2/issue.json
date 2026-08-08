@@ -4,7 +4,7 @@
   "title": "HORISONTEN nr. 2 · August 2026",
   "issueTheme": "Georgien — bjerge, by og bord",
   "published": "2026-08-01",
-  "status": "published",
+  "status": "draft",
   "pdf": null,
   "cover": "images/horisonten_cover.png",
   "coverCredit": "AI-genereret rejsemotiv (Imagine / xAI) — Kaukasus / Georgien",
@@ -29,7 +29,6 @@
       "order": 1,
       "title": "Fra Mallorca til Kaukasus",
       "section": "Leder",
-      "byline": "Claude Fable 5",
       "standfirst": "Nr. 2 tager støvlerne til Georgien — med KULTURBOXEN som søster."
     },
     {
@@ -38,7 +37,6 @@
       "order": 2,
       "title": "Georgien uden for postkortet: hvornår og hvorhen",
       "section": "Overblik",
-      "byline": "GPT-5.6 Terra (OpenAI)",
       "standfirst": "Sæson, regioner og en rød tråd for 8–12 dage.",
       "image": "../images/horisonten_overblik.png",
       "imageCredit": "AI-genereret rejsemotiv (Imagine / xAI)",
@@ -50,7 +48,6 @@
       "order": 3,
       "title": "Vandring i Kaukasus: fra bynære stier til Gergeti",
       "section": "Vandring",
-      "byline": "Claude Sonnet 5 (Anthropic)",
       "standfirst": "Tre niveauer — by, klassiker, vildere dale.",
       "image": "../images/horisonten_vandring.png",
       "imageCredit": "AI-genereret rejsemotiv (Imagine / xAI)",
@@ -62,7 +59,6 @@
       "order": 4,
       "title": "Cykling: landeveje, vinbakker og respekt for lastbiler",
       "section": "Cykling",
-      "byline": "Grok 4.5 (xAI)",
       "standfirst": "Kakheti og defensiv kørsel — ikke Sellaronda.",
       "image": "../images/horisonten_cykling.png",
       "imageCredit": "AI-genereret rejsemotiv (Imagine / xAI)",
@@ -74,7 +70,6 @@
       "order": 5,
       "title": "Løb: byens bakker og den tynde luft",
       "section": "Løb",
-      "byline": "DeepSeek V3.2 (DeepSeek)",
       "standfirst": "Tbilisi tidligt; Kazbegi som trail.",
       "image": "../images/horisonten_loeb.png",
       "imageCredit": "AI-genereret rejsemotiv (Imagine / xAI)",
@@ -86,7 +81,6 @@
       "order": 6,
       "title": "Tbilisi: byen der ikke kan beslutte sig for århundrede",
       "section": "Byliv",
-      "byline": "Mistral Large (Mistral AI)",
       "standfirst": "Bade, beton, balkoner og tagterrasser.",
       "image": "../images/horisonten_byliv.png",
       "imageCredit": "AI-genereret rejsemotiv (Imagine / xAI)",
@@ -98,7 +92,6 @@
       "order": 7,
       "title": "Udsigter og højder: det, der erstatter strandhåndklædet",
       "section": "Strande",
-      "byline": "Gemini 3.5 Flash (Google)",
       "standfirst": "Gergeti, bylys og vinbakker i gyldent lys.",
       "image": "../images/horisonten_udsigter.png",
       "imageCredit": "AI-genereret rejsemotiv (Imagine / xAI)",
@@ -110,7 +103,6 @@
       "order": 8,
       "title": "Kalenderen: Georgien i sæsoner",
       "section": "Kalenderen",
-      "byline": "Qwen3.7 Max (Alibaba)",
       "standfirst": "Høst, varme og sne — omtrentligt."
     },
     {
@@ -119,7 +111,6 @@
       "order": 9,
       "title": "Mad & vin: khinkali, khachapuri og qvevri",
       "section": "Mad & Vin",
-      "byline": "GLM-5.2 (Z.ai)",
       "standfirst": "Menuen — og hvornår middagen bliver supra.",
       "image": "../images/horisonten_mad.png",
       "imageCredit": "AI-genereret rejsemotiv (Imagine / xAI)",
@@ -131,8 +122,9 @@
       "order": 10,
       "title": "Praktisk: sådan planlægger du Georgien-turen",
       "section": "Praktisk",
-      "byline": "Gemini 3.1 Pro (Google)",
       "standfirst": "Fly, lari, bil og den bløde tjekliste."
     }
-  ]
+  ],
+  "unpublishedReason": "Afpubliceret 2026-08-08. Nummeret blev udgivet med byline-kreditering til navngivne modeller, men der findes slet ingen bestilling.json for nummeret — hverken brief, kladde, forbrug eller verdikt. Det bryder forlagets foerste non-negotiable (ingen artikel udgives uden en bestilling). OpenRouter-forbruget paa titlens egen noegle stammer fra juli-numrene, ikke fra dette. Skal produceres forfra — uden byline, indtil en reel forfatter kan dokumenteres. Se CLAUDE.md og redaktion/README.md.",
+  "unpublishedAt": "2026-08-08"
 }

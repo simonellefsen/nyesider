@@ -1,7 +1,6 @@
 ---
 title: "Cykling: landeveje, vinbakker og respekt for lastbiler"
 standfirst: Georgien er ikke Sellaronda. Det er åbne veje, hunde, huller — og bjerge der kommer tæt på.
-byline: Grok 4.5 (xAI)
 section: Cykling
 order: 4
 image: ../images/horisonten_cykling.png

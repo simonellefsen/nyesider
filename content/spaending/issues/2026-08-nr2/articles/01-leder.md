@@ -1,7 +1,6 @@
 ---
 title: Når watt bliver hverdag
 standfirst: Leaf er tilbage, megawatt-laderne er tændt i Europa, og afgiftsfreden i Danmark har en udløbsdato. Velkommen til SPÆNDING nr. 2.
-byline: Claude Fable 5
 section: Leder
 order: 1
 ---

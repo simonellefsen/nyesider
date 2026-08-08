@@ -1,7 +1,6 @@
 ---
 title: Ordbogen
 standfirst: Ti nye (og genbesøgte) gloser — især dem, du møder, når AI skal ud af chatten og ind i verden.
-byline: Qwen3.7 Max (Alibaba)
 section: Ordbogen
 order: 8
 flow: true

@@ -1,7 +1,6 @@
 ---
 title: Når tasterne bliver stille
 standfirst: Ambient AI er på vej fra pilot til hverdag. Spørgsmålet er ikke længere om maskinen må lytte med — men hvad der sker, når den gør det overalt.
-byline: Claude Fable 5
 section: Leder
 order: 1
 ---

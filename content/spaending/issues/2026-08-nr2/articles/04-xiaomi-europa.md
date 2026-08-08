@@ -1,7 +1,6 @@
 ---
 title: Xiaomi på europæisk asfalt — 2027 i kalenderen, prototyper i spejlet
 standfirst: SU7 har chokeret i Kina. Europa skal vente til 2027, siger ledelsen. Alligevel ruller testbiler allerede rundt. Hvad betyder det for dig?
-byline: Claude Sonnet 5 (Anthropic)
 section: Teknologi
 order: 4
 image: ../images/spaending_xiaomi.png

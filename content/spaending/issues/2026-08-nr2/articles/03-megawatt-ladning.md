@@ -1,7 +1,6 @@
 ---
 title: Megawatt på motorvejen — 600 kW er ikke længere et slide
 standfirst: Ionity har tændt Alpitronic HYC1000 i Europa. Op til 600 kW til personbiler. Nu mangler vi bare bilerne — og de danske standere.
-byline: Gemini 3.5 Flash (Google)
 section: Teknologi
 order: 3
 image: ../images/spaending_megawatt.png

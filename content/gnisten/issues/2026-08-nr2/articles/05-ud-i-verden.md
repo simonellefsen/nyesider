@@ -1,7 +1,6 @@
 ---
 title: Første skridt ud af browseren
 standfirst: Du har bygget noget med AI. Nu skal det have en adresse. Her er den korteste vej fra "det virker på min computer" til "her er linket".
-byline: Grok 4.5 (xAI)
 section: Værkstedet
 order: 5
 ---

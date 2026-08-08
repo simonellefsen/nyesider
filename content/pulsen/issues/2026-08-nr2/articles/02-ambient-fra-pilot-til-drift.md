@@ -1,7 +1,6 @@
 ---
 title: Fra pilot til stuegang — ambient AI i 2026
 standfirst: AI-scribes ruller ud i europæisk klinik. Danmark tester, leverandørerne positionerer sig som medicinsk udstyr, og dokumentationsbyrden er endelig til forhandling.
-byline: Claude Opus 4.8 (Anthropic)
 section: Feature · Ambient AI
 order: 2
 ---

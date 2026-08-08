@@ -1,7 +1,6 @@
 ---
 title: Fra Mallorca til Kaukasus
 standfirst: Nr. 1 lærte os at rejse uden for højsæsonen. Nr. 2 tager støvlerne østpå — til Georgien, hvor bjergene og bordet hænger sammen.
-byline: Claude Fable 5
 section: Leder
 order: 1
 ---

@@ -1,7 +1,6 @@
 ---
 title: Kortet — sommeren 2026
 standfirst: MCP er blevet fælles sprog, modelnavnene er stadig en jungle, og de store firmaer kæmper om at være den assistent, der må røre ved dine apps.
-byline: GPT-5.6 Terra (OpenAI)
 section: Kortet
 order: 2
 ---

@@ -1,7 +1,6 @@
 ---
 title: Kort & Watt
 standfirst: Seks hurtige strøm-nyheder — på 30 sekunder.
-byline: MiniMax M3 (MiniMax)
 section: Kort & Watt
 order: 9
 flow: true
