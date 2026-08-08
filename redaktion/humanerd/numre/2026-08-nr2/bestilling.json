@@ -2,15 +2,13 @@
   "magazine": "humanerd",
   "issue": "2026-08-nr2",
   "issueTheme": "Lagerets koreografi",
-  "retrofitNote": "At publish 2026-08-08.",
   "budget": {
-    "articles": 10,
+    "articles": 9,
     "wordsPerArticle": [
-      50,
-      400
+      100,
+      600
     ],
-    "targetPages": 12,
-    "note": "10 arts warehouse AMR"
+    "note": "No ordbog; named operators; deeper features."
   },
   "opgaver": [
     {
@@ -18,10 +16,10 @@
       "order": 1,
       "section": "Leder",
       "brief": {
-        "angle": "AMR'er mellem reolerne.",
+        "angle": "AMR'er mellem reolerne — og den menneskelige undtagelse.",
         "words": [
-          40,
-          220
+          100,
+          250
         ],
         "mustCite": 0,
         "format": "leder"
@@ -32,15 +30,15 @@
         "fallback": null
       },
       "receipt": {
-        "words": 77,
+        "words": 143,
         "costUSD": null,
         "draft": null
       },
       "verdict": {
-        "status": "accepted",
+        "status": "rewritten-by-editor",
         "checkedAt": "2026-08-08",
         "citations": 0,
-        "editorNote": "Editor-led batch; finished prose; jargon first-mention; bagsnit share images."
+        "editorNote": "Full rewrite for depth; named AMR operators; dropped Ordbogen."
       }
     },
     {
@@ -48,12 +46,12 @@
       "order": 2,
       "section": "Fabrikken",
       "brief": {
-        "angle": "Mennesker og mobile robotter.",
+        "angle": "Amazon, Ocado, AutoStore og mønsteret bag mobile lagere.",
         "words": [
-          50,
-          350
+          120,
+          650
         ],
-        "mustCite": 0,
+        "mustCite": 1,
         "format": "feature"
       },
       "writer": {
@@ -62,15 +60,15 @@
         "fallback": "deepseek/deepseek-v3.2"
       },
       "receipt": {
-        "words": 93,
+        "words": 553,
         "costUSD": null,
         "draft": null
       },
       "verdict": {
-        "status": "accepted-after-edit",
+        "status": "rewritten-by-editor",
         "checkedAt": "2026-08-08",
-        "citations": 0,
-        "editorNote": "Editor-led batch; finished prose; jargon first-mention; bagsnit share images."
+        "citations": 1,
+        "editorNote": "Full rewrite for depth; named AMR operators; dropped Ordbogen."
       }
     },
     {
@@ -78,10 +76,10 @@
       "order": 3,
       "section": "Humanoiden",
       "brief": {
-        "angle": "Drift slår demo.",
+        "angle": "Drift slår demo — tre beviser der tæller.",
         "words": [
-          50,
-          350
+          120,
+          650
         ],
         "mustCite": 0,
         "format": "feature"
@@ -92,15 +90,15 @@
         "fallback": "deepseek/deepseek-v3.2"
       },
       "receipt": {
-        "words": 128,
+        "words": 216,
         "costUSD": null,
         "draft": null
       },
       "verdict": {
-        "status": "accepted-after-edit",
+        "status": "rewritten-by-editor",
         "checkedAt": "2026-08-08",
         "citations": 0,
-        "editorNote": "Editor-led batch; finished prose; jargon first-mention; bagsnit share images."
+        "editorNote": "Full rewrite for depth; named AMR operators; dropped Ordbogen."
       }
     },
     {
@@ -108,10 +106,10 @@
       "order": 4,
       "section": "Fabrikken",
       "brief": {
-        "angle": "Variation dræber gripperen.",
+        "angle": "Piece-picking, goods-to-person og sortimentets kaos.",
         "words": [
-          50,
-          350
+          120,
+          650
         ],
         "mustCite": 0,
         "format": "feature"
@@ -122,15 +120,15 @@
         "fallback": "deepseek/deepseek-v3.2"
       },
       "receipt": {
-        "words": 74,
+        "words": 193,
         "costUSD": null,
         "draft": null
       },
       "verdict": {
-        "status": "accepted-after-edit",
+        "status": "rewritten-by-editor",
         "checkedAt": "2026-08-08",
         "citations": 0,
-        "editorNote": "Editor-led batch; finished prose; jargon first-mention; bagsnit share images."
+        "editorNote": "Full rewrite for depth; named AMR operators; dropped Ordbogen."
       }
     },
     {
@@ -138,10 +136,10 @@
       "order": 5,
       "section": "Hjernen",
       "brief": {
-        "angle": "Standarder er produktet.",
+        "angle": "Standarder og nødstop er produktet.",
         "words": [
-          50,
-          350
+          120,
+          650
         ],
         "mustCite": 0,
         "format": "feature"
@@ -152,15 +150,15 @@
         "fallback": "deepseek/deepseek-v3.2"
       },
       "receipt": {
-        "words": 95,
+        "words": 145,
         "costUSD": null,
         "draft": null
       },
       "verdict": {
-        "status": "accepted-after-edit",
+        "status": "rewritten-by-editor",
         "checkedAt": "2026-08-08",
         "citations": 0,
-        "editorNote": "Editor-led batch; finished prose; jargon first-mention; bagsnit share images."
+        "editorNote": "Full rewrite for depth; named AMR operators; dropped Ordbogen."
       }
     },
     {
@@ -168,10 +166,10 @@
       "order": 6,
       "section": "Hjernen",
       "brief": {
-        "angle": "Software er flaskehalsen.",
+        "angle": "Software og stamdata er flaskehalsen.",
         "words": [
-          50,
-          350
+          120,
+          650
         ],
         "mustCite": 0,
         "format": "feature"
@@ -182,15 +180,15 @@
         "fallback": "deepseek/deepseek-v3.2"
       },
       "receipt": {
-        "words": 95,
+        "words": 182,
         "costUSD": null,
         "draft": null
       },
       "verdict": {
-        "status": "accepted-after-edit",
+        "status": "rewritten-by-editor",
         "checkedAt": "2026-08-08",
         "citations": 0,
-        "editorNote": "Editor-led batch; finished prose; jargon first-mention; bagsnit share images."
+        "editorNote": "Full rewrite for depth; named AMR operators; dropped Ordbogen."
       }
     },
     {
@@ -198,10 +196,10 @@
       "order": 7,
       "section": "Hjemmet",
       "brief": {
-        "angle": "Når ordren er mærkelig.",
+        "angle": "Når ordren er mærkelig, redder en person dagen.",
         "words": [
-          50,
-          350
+          120,
+          650
         ],
         "mustCite": 0,
         "format": "feature"
@@ -212,15 +210,15 @@
         "fallback": "google/gemini-3.5-flash"
       },
       "receipt": {
-        "words": 54,
+        "words": 176,
         "costUSD": null,
         "draft": null
       },
       "verdict": {
-        "status": "accepted-after-edit",
+        "status": "rewritten-by-editor",
         "checkedAt": "2026-08-08",
         "citations": 0,
-        "editorNote": "Editor-led batch; finished prose; jargon first-mention; bagsnit share images."
+        "editorNote": "Full rewrite for depth; named AMR operators; dropped Ordbogen."
       }
     },
     {
@@ -228,12 +226,12 @@
       "order": 8,
       "section": "Tallet",
       "brief": {
-        "angle": "IFR vs. virksomhedstal.",
+        "angle": "IFR vs. Amazons flådetal — skriv enheden.",
         "words": [
-          80,
+          120,
           350
         ],
-        "mustCite": 1,
+        "mustCite": 2,
         "format": "tallet"
       },
       "writer": {
@@ -242,56 +240,26 @@
         "fallback": "deepseek/deepseek-v3.2"
       },
       "receipt": {
-        "words": 88,
+        "words": 158,
         "costUSD": null,
         "draft": null
       },
       "verdict": {
-        "status": "accepted-after-edit",
+        "status": "rewritten-by-editor",
         "checkedAt": "2026-08-08",
-        "citations": 1,
-        "editorNote": "Editor-led batch; finished prose; jargon first-mention; bagsnit share images."
-      }
-    },
-    {
-      "slug": "ordbogen",
-      "order": 9,
-      "section": "Ordbogen",
-      "brief": {
-        "angle": "AMR, WMS, SKU.",
-        "words": [
-          50,
-          180
-        ],
-        "mustCite": 0,
-        "format": "bagsnit"
-      },
-      "writer": {
-        "byline": "Gemini 3.5 Flash (Google)",
-        "model": "google/gemini-3.5-flash",
-        "fallback": "minimax/minimax-m3"
-      },
-      "receipt": {
-        "words": 56,
-        "costUSD": null,
-        "draft": null
-      },
-      "verdict": {
-        "status": "accepted-after-edit",
-        "checkedAt": "2026-08-08",
-        "citations": 0,
-        "editorNote": "Editor-led batch; finished prose; jargon first-mention; bagsnit share images."
+        "citations": 2,
+        "editorNote": "Full rewrite for depth; named AMR operators; dropped Ordbogen."
       }
     },
     {
       "slug": "paastandskontoret",
-      "order": 10,
+      "order": 9,
       "section": "Påstandskontoret",
       "brief": {
-        "angle": "Tre lager-påstande.",
+        "angle": "Tre lager-påstande uden messesprog.",
         "words": [
-          50,
-          180
+          100,
+          300
         ],
         "mustCite": 0,
         "format": "bagsnit"
@@ -302,15 +270,15 @@
         "fallback": "deepseek/deepseek-v3.2"
       },
       "receipt": {
-        "words": 49,
+        "words": 109,
         "costUSD": null,
         "draft": null
       },
       "verdict": {
-        "status": "accepted-after-edit",
+        "status": "rewritten-by-editor",
         "checkedAt": "2026-08-08",
         "citations": 0,
-        "editorNote": "Editor-led batch; finished prose; jargon first-mention; bagsnit share images."
+        "editorNote": "Full rewrite for depth; named AMR operators; dropped Ordbogen."
       }
     }
   ]

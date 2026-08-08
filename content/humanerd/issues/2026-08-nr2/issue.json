@@ -22,7 +22,7 @@
     "images/humanerd_bagsnit.png"
   ],
   "productionCostUSD": null,
-  "imageCredits": "Imagine / xAI. Bagsnit deler motiv.",
+  "imageCredits": "Imagine / xAI. Påstandskontoret deler bagsnit-motiv.",
   "backCoverPromise": "HumaNerd nr. 3 følger grebet og det, robotten stadig ikke ser.",
   "articles": [
     {
@@ -32,7 +32,7 @@
       "title": "Lagerets koreografi",
       "section": "Leder",
       "byline": "Claude Fable 5",
-      "standfirst": "AMR'er mellem reolerne.",
+      "standfirst": "AMR'er mellem reolerne — og den menneskelige undtagelse.",
       "image": "../images/humanerd_leder.png",
       "imageCredit": "AI-genereret motiv (Imagine / xAI)",
       "imageSource": "https://x.ai/"
@@ -44,7 +44,7 @@
       "title": "Lagerets koreografi: hvem fører dansen?",
       "section": "Fabrikken",
       "byline": "GPT-5.6 Terra (OpenAI)",
-      "standfirst": "Mennesker og mobile robotter.",
+      "standfirst": "Amazon, Ocado, AutoStore og mønsteret bag mobile lagere.",
       "image": "../images/humanerd_lager.png",
       "imageCredit": "AI-genereret motiv (Imagine / xAI)",
       "imageSource": "https://x.ai/"
@@ -56,7 +56,7 @@
       "title": "AMR før humanoid: hvorfor hjulene vinder i år",
       "section": "Humanoiden",
       "byline": "Claude Sonnet 5 (Anthropic)",
-      "standfirst": "Drift slår demo.",
+      "standfirst": "Drift slår demo — tre beviser der tæller.",
       "image": "../images/humanerd_amr.png",
       "imageCredit": "AI-genereret motiv (Imagine / xAI)",
       "imageSource": "https://x.ai/"
@@ -68,7 +68,7 @@
       "title": "Pluk: det bløde greb er stadig menneskets job",
       "section": "Fabrikken",
       "byline": "Gemini 3.1 Pro (Google)",
-      "standfirst": "Variation dræber gripperen.",
+      "standfirst": "Piece-picking, goods-to-person og sortimentets kaos.",
       "image": "../images/humanerd_pluk.png",
       "imageCredit": "AI-genereret motiv (Imagine / xAI)",
       "imageSource": "https://x.ai/"
@@ -80,7 +80,7 @@
       "title": "Sikkerhed mellem reoler: hastighed, kraft og stop",
       "section": "Hjernen",
       "byline": "Mistral Large (Mistral AI)",
-      "standfirst": "Standarder er produktet.",
+      "standfirst": "Standarder og nødstop er produktet.",
       "image": "../images/humanerd_sikkerhed.png",
       "imageCredit": "AI-genereret motiv (Imagine / xAI)",
       "imageSource": "https://x.ai/"
@@ -92,7 +92,7 @@
       "title": "WMS og robotten: integration er projektet",
       "section": "Hjernen",
       "byline": "GLM-5.2 (Z.ai)",
-      "standfirst": "Software er flaskehalsen.",
+      "standfirst": "Software og stamdata er flaskehalsen.",
       "image": "../images/humanerd_wms.png",
       "imageCredit": "AI-genereret motiv (Imagine / xAI)",
       "imageSource": "https://x.ai/"
@@ -104,7 +104,7 @@
       "title": "Den menneskelige undtagelse",
       "section": "Hjemmet",
       "byline": "DeepSeek V3.2 (DeepSeek)",
-      "standfirst": "Når ordren er mærkelig.",
+      "standfirst": "Når ordren er mærkelig, redder en person dagen.",
       "image": "../images/humanerd_menneske.png",
       "imageCredit": "AI-genereret motiv (Imagine / xAI)",
       "imageSource": "https://x.ai/"
@@ -116,31 +116,19 @@
       "title": "Tallet: pejlemærker for lagerrobotter",
       "section": "Tallet",
       "byline": "Qwen3.7 Max (Alibaba)",
-      "standfirst": "IFR vs. virksomhedstal.",
+      "standfirst": "IFR vs. Amazons flådetal — skriv enheden.",
       "image": "../images/humanerd_tallet.png",
       "imageCredit": "AI-genereret motiv (Imagine / xAI)",
       "imageSource": "https://x.ai/"
     },
     {
-      "slug": "ordbogen",
-      "file": "articles/09-ordbogen.md",
-      "order": 9,
-      "title": "Ordbogen",
-      "section": "Ordbogen",
-      "byline": "Gemini 3.5 Flash (Google)",
-      "standfirst": "AMR, WMS, SKU.",
-      "image": "../images/humanerd_bagsnit.png",
-      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
-      "imageSource": "https://x.ai/"
-    },
-    {
       "slug": "paastandskontoret",
-      "file": "articles/10-paastandskontoret.md",
-      "order": 10,
+      "file": "articles/09-paastandskontoret.md",
+      "order": 9,
       "title": "Påstandskontoret",
       "section": "Påstandskontoret",
       "byline": "Grok 4.5 (xAI)",
-      "standfirst": "Tre lager-påstande.",
+      "standfirst": "Tre lager-påstande uden messesprog.",
       "image": "../images/humanerd_bagsnit.png",
       "imageCredit": "AI-genereret motiv (Imagine / xAI)",
       "imageSource": "https://x.ai/"
