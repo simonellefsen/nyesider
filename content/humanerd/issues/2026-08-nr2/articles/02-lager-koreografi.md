@@ -1,7 +1,6 @@
 ---
 title: "Lagerets koreografi: hvem fører dansen?"
 standfirst: Mennesker, mobile robotter og reoler i samme gulvplan. Rytmen er software, sikkerhedsregler — og en række navngivne lagre, der allerede har sat hjulene i gang.
-byline: GPT-5.6 Terra (OpenAI)
 section: Fabrikken
 order: 2
 image: ../images/humanerd_lager.png

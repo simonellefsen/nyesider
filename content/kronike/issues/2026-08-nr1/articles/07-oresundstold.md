@@ -1,7 +1,6 @@
 ---
 title: "Øresundstolden: pengekassen i sundet"
 standfirst: Fra 1429 til 1857 betalte skibe for at passere. Vi har skibstal. Vi har indtægtens betydning. Og i 1658 mistede Danmark den ene kyst — det ændrede spillet.
-byline: Grok 4.5 (xAI)
 section: Handel & industri
 order: 7
 image: ../images/kronike_oresund.png

@@ -1,7 +1,6 @@
 ---
 title: "Essay: stilheden ved rasten"
 standfirst: Engang duftede det af diesel. Nu lyder det som blæsere og en app, der siger ‘klar’.
-byline: Claude Sonnet 5 (Anthropic)
 section: Essay
 order: 9
 image: ../images/spaending_essay3.png

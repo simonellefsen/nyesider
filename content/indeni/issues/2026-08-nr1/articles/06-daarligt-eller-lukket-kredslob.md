@@ -1,7 +1,6 @@
 ---
 title: "Dårligt — eller lukket — kredsløb?"
 standfirst: "At smelte aluminium om er én ting. At holde det i en dåsekæde er en anden."
-byline: "DeepSeek V3.2 (DeepSeek)"
 section: "Kredsløbet"
 order: 6
 figures:

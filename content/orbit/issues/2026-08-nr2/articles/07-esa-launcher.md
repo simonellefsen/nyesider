@@ -1,7 +1,6 @@
 ---
 title: "ESA og Europa: launcher-politik efter Ariane-hullet"
 standfirst: Suveræn adgang til rummet er geopolitik med cement under aftalen.
-byline: Claude Sonnet 5 (Anthropic)
 section: Nationer & agenturer
 order: 7
 image: ../images/orbit_esa.png

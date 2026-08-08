@@ -1,7 +1,6 @@
 ---
 title: "Sikkerhed mellem reoler: hastighed, kraft og stop"
 standfirst: Standarder og nødstop er ikke småprint. De er en del af produktet — især når robotten deler gulv med mennesker.
-byline: Mistral Large (Mistral AI)
 section: Hjernen
 order: 5
 image: ../images/humanerd_sikkerhed.png

@@ -1,7 +1,6 @@
 ---
 title: "Den menneskelige undtagelse"
 standfirst: Når ordren er mærkelig, er det stadig en person, der redder dagen — også i et “robotiseret” lager.
-byline: DeepSeek V3.2 (DeepSeek)
 section: Hjemmet
 order: 7
 image: ../images/humanerd_menneske.png

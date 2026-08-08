@@ -1,7 +1,6 @@
 ---
 title: "Sjov & spil: kender du din forkortelse?"
 standfirst: Tre hurtige. Ingen præmie — kun mindre skam på næste møde.
-byline: Gemini 3.5 Flash (Google)
 section: Sjov og spil
 order: 8
 flow: true

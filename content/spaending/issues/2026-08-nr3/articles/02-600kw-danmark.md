@@ -1,7 +1,6 @@
 ---
 title: "600 kW i Danmark: jagten på den første personbilstander"
 standfirst: Europa har tændt megawatt-klassen. Det danske “hvornår og hvor” er stadig en status, ikke en adresse — og det er en historie i sig selv.
-byline: Grok 4.5 (xAI)
 section: Teknologi
 order: 2
 image: ../images/spaending_600kw.png

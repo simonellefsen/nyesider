@@ -1,7 +1,6 @@
 ---
 title: "Tallet: el-andelen af verden"
 standfirst: Elektrificering er ikke “mere grøn strøm” alene — det er elens andel af al energi vi bruger. Tre tal, der ikke må blandes.
-byline: GPT-5.6 Terra (OpenAI)
 section: Tallet
 order: 2
 image: ../images/kraften_tallet.png

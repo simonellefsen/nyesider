@@ -4,7 +4,7 @@
   "title": "KRAFTEN nr. 1 · August 2026",
   "issueTheme": "Hvad holder lyset tændt",
   "published": "2026-08-01",
-  "status": "published",
+  "status": "draft",
   "pdf": null,
   "cover": "images/kraften_cover.png",
   "images": [
@@ -26,7 +26,6 @@
       "order": 1,
       "title": "Hvad holder lyset tændt",
       "section": "Leder",
-      "byline": "Claude Fable 5",
       "standfirst": "Velkommen til KRAFTEN — magasinet om elektrificering som system. Fra net og anlæg på Jorden til strøm i rummet."
     },
     {
@@ -35,7 +34,6 @@
       "order": 2,
       "title": "Europas elmix 2025: historisk krydsning",
       "section": "Lande & udbygning",
-      "byline": "GPT-5.6 Terra (OpenAI)",
       "standfirst": "Vind og sol overhalede fossil elproduktion i EU for første gang."
     },
     {
@@ -44,7 +42,6 @@
       "order": 3,
       "title": "Fission 2026: levetid, nybyggeri og tålmodighed",
       "section": "Atom",
-      "byline": "Claude Sonnet 5 (Anthropic)",
       "standfirst": "Klassisk atomkraft er beton, reaktortanke og årtier.",
       "image": "../images/kraften_atom.png",
       "imageCredit": "AI-genereret anlægsmotiv (Imagine / xAI)",
@@ -56,7 +53,6 @@
       "order": 4,
       "title": "Thorium: Copenhagen Atomics og det konkrete spor",
       "section": "Atom",
-      "byline": "Gemini 3.1 Pro (Google)",
       "standfirst": "Et dansk firma vil masseproducere smeltet-salt-reaktorer på thorium. Hardware, tidslinje og det der mangler."
     },
     {
@@ -65,7 +61,6 @@
       "order": 5,
       "title": "Fusion: ITER, private demos og ærlig tid",
       "section": "Atom",
-      "byline": "Grok 4.5 (xAI)",
       "standfirst": "Nettoenergi i et forsøg er ikke strøm i stikkontakten."
     },
     {
@@ -74,7 +69,6 @@
       "order": 6,
       "title": "Gas: bro, buffer — og afhængighed",
       "section": "Fossilt",
-      "byline": "Mistral Large (Mistral AI)",
       "standfirst": "LNG-terminaler er stadig europæisk virkelighed.",
       "image": "../images/kraften_gas.png",
       "imageCredit": "AI-genereret anlægsmotiv (Imagine / xAI)",
@@ -86,7 +80,6 @@
       "order": 7,
       "title": "Olie: stadig verdens blod — bare ikke i elstikket",
       "section": "Fossilt",
-      "byline": "GLM-5.2 (Z.ai)",
       "standfirst": "Transport, plastik og geopolitik hører til i et energimagasin."
     },
     {
@@ -95,7 +88,6 @@
       "order": 8,
       "title": "Vind: Nordsøens fabrik på havet",
       "section": "Vedvarende",
-      "byline": "Claude Sonnet 5 (Anthropic)",
       "standfirst": "Installationsskibe, monopæle og forsyningskæde under pres.",
       "image": "../images/kraften_vind.png",
       "imageCredit": "AI-genereret anlægsmotiv (Imagine / xAI)",
@@ -107,7 +99,6 @@
       "order": 9,
       "title": "Sol: billige paneler, dyrt system",
       "section": "Vedvarende",
-      "byline": "Gemini 3.5 Flash (Google)",
       "standfirst": "LCOE falder. Systemomkostningerne stiger midt på dagen.",
       "image": "../images/kraften_sol.png",
       "imageCredit": "AI-genereret anlægsmotiv (Imagine / xAI)",
@@ -119,7 +110,6 @@
       "order": 10,
       "title": "Lagring: containere, pumper og det der mangler",
       "section": "Lagring & fleksibilitet",
-      "byline": "GPT-5.6 Terra (OpenAI)",
       "standfirst": "Batterier ruller ud. Brint er sen. Pumpelagring er undervurderet.",
       "image": "../images/kraften_lagring.png",
       "imageCredit": "AI-genereret anlægsmotiv (Imagine / xAI)",
@@ -131,7 +121,6 @@
       "order": 11,
       "title": "Danmark: vindland med import og ambitioner",
       "section": "Lande & udbygning",
-      "byline": "Qwen3.7 Max (Alibaba)",
       "standfirst": "Høj vindandel, biomasse i varmen, elafgift under lempelse."
     },
     {
@@ -140,7 +129,6 @@
       "order": 12,
       "title": "Tallet & landene: seks snapshots",
       "section": "Tallet",
-      "byline": "DeepSeek V3.2 (DeepSeek)",
       "standfirst": "Samme pejlemærker for EU, DK, FR, DE, US og Kina."
     },
     {
@@ -149,7 +137,6 @@
       "order": 13,
       "title": "Ordbogen",
       "section": "Ordbogen",
-      "byline": "Qwen3.7 Max (Alibaba)",
       "standfirst": "Tolv gloser til energinotatet."
     },
     {
@@ -158,10 +145,11 @@
       "order": 14,
       "title": "Rygtebørsen",
       "section": "Rygtebørsen",
-      "byline": "Grok 4.3 (xAI)",
       "standfirst": "Megawatt, ministerier og mirakler."
     }
   ],
   "coverCredit": "AI-genereret forside (Imagine / xAI) — tema: Hvad holder lyset tændt",
-  "coverSource": "https://x.ai/"
+  "coverSource": "https://x.ai/",
+  "unpublishedReason": "Afpubliceret 2026-08-08. Nummeret blev udgivet med byline-kreditering til navngivne modeller, men bestilling.json indeholder hverken costUSD, kladde-reference eller kladdefil for nogen artikel, og OpenRouter-forbruget på titlens egen nøgle viser, at kaldene aldrig blev foretaget. Verdikterne ('accepted', 'rejected') beskriver derfor en bedømmelse af kladder, der aldrig er modtaget. Nummeret skal produceres forfra — uden byline, indtil en reel forfatter kan dokumenteres. Se redaktion/README.md.",
+  "unpublishedAt": "2026-08-08"
 }

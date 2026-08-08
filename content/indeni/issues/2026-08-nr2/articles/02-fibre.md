@@ -1,7 +1,6 @@
 ---
 title: "Fra træfibre til filterpapir"
 standfirst: Filteret er ikke ‘bare papir’. Det er specificeret porestørrelse, vådstyrke og fødevarekontakt.
-byline: GPT-5.6 Terra (OpenAI)
 section: Materialet
 order: 2
 image: ../images/indeni_fibre.png

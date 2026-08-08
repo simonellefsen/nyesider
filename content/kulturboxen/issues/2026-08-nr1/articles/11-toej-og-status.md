@@ -1,7 +1,6 @@
 ---
 title: "Tøj, udseende og det, man signalerer"
 standfirst: Streetwear ved Fabrika, klædedragt til kirken, guld til festen — kroppen er en opslagstavle.
-byline: Qwen3.7 Max (Alibaba)
 section: Tøj, udseende & status
 order: 11
 flow: true

@@ -1,7 +1,6 @@
 ---
 title: "New Glenn: return-to-flight er historien"
 standfirst: Orbital klasse er nået. Gentagelse er det, der tæller i manifests — ikke livestreamen fra debuten.
-byline: Grok 4.5 (xAI)
 section: Opsendelser
 order: 4
 image: ../images/orbit_newglenn.png

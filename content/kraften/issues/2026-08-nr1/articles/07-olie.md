@@ -1,7 +1,6 @@
 ---
 title: "Olie: stadig verdens blod — bare ikke i elstikket"
 standfirst: Eldebatten handler om megawatt. Olie handler om transport, plastik og geopolitik. Begge dele hører til i et energimagasin.
-byline: GLM-5.2 (Z.ai)
 section: Fossilt
 order: 7
 ---

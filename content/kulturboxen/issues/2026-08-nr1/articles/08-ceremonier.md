@@ -1,7 +1,6 @@
 ---
 title: "Ceremonier: kirke, bryllup og de dage, der ikke er hverdag"
 standfirst: Den ortodokse kalender og familiens milepæle strukturerer året mere synligt end den danske helligdagskalender gør for mange.
-byline: DeepSeek V3.2 (DeepSeek)
 section: Ceremonier & ritualer
 order: 8
 image: ../images/kulturboxen_kirke.png

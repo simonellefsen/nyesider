@@ -1,7 +1,6 @@
 ---
 title: "WMS og robotten: integration er projektet"
 standfirst: Gulvrobotten er “billig”, hvis softwarelandskabet er dyrt — og det er det ofte.
-byline: GLM-5.2 (Z.ai)
 section: Hjernen
 order: 6
 image: ../images/humanerd_wms.png

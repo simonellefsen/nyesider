@@ -1,7 +1,6 @@
 ---
 title: "Indien og det globale syd: peak, adgang og spring"
 standfirst: Elektrificering er ikke kun at skifte fossil bil ud. Det er også første gang stikket findes — og aften-toppen, der følger efter.
-byline: Gemini 3.1 Pro (Google)
 section: Lande & udbygning
 order: 4
 image: ../images/kraften_indien.png

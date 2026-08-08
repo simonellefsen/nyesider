@@ -1,7 +1,6 @@
 ---
 title: Sellaronda og de fire passer
 standfirst: Dolomitterne er et af Europas helligste cykel-templer. Efteråret er højsæson for dem, der vil klatre uden at køre i bilkø.
-byline: Grok 4.5 (xAI)
 section: Cykling
 order: 4
 image: ../images/horisonten_cykling.png

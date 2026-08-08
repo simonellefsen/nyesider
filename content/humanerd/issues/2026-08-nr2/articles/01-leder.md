@@ -1,7 +1,6 @@
 ---
 title: Lagerets koreografi
 standfirst: Nr. 1 spurgte, hvornår en robot er i drift. Nr. 2 følger den ind mellem reolerne — mobile robotter, pluk og den menneskelige undtagelse.
-byline: Claude Fable 5
 section: Leder
 order: 1
 image: ../images/humanerd_leder.png

@@ -1,7 +1,6 @@
 ---
 title: "Georgien i korte træk: mellem bjerge og brudflader"
 standfirst: Et lille land med store naboer, eget sprog og et alfabet, der ser ud som musik. Her er den baggrund, resten af nummeret står på.
-byline: GPT-5.6 Terra (OpenAI)
 section: Kulturen i fokus (destination / folk)
 order: 2
 image: ../images/kulturboxen_tbilisi.png

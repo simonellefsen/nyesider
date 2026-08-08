@@ -1,7 +1,6 @@
 ---
 title: "Maskinen: fra pulp til stak"
 standfirst: Filterfabrikken er papirindustri i lille format — med skær, trim og pakkelinjer.
-byline: Claude Sonnet 5 (Anthropic)
 section: Maskinen
 order: 3
 image: ../images/indeni_maskine.png

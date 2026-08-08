@@ -1,7 +1,6 @@
 ---
 title: "Rum: satellittens solpanel"
 standfirst: Watt i kredsløb er ikke magi — det er areal, stråling og termisk design. Missionens egne watt er ikke planetens elnet.
-byline: GLM-5.2 (Z.ai)
 section: Rumkraft
 order: 8
 image: ../images/kraften_rumsol.png

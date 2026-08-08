@@ -1,7 +1,6 @@
 ---
 title: "Tallet: pejlemærker gennem århundrederne"
 standfirst: Historie er ikke kun fortælling. Det er også størrelsesordener — med forbehold for, at middelalderlige tællinger er skøn.
-byline: GPT-5.6 Terra (OpenAI)
 section: Tallet
 order: 2
 image: ../images/kronike_tallet.png

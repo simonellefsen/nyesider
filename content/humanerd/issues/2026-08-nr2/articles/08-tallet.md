@@ -1,7 +1,6 @@
 ---
 title: "Tallet: pejlemærker for lagerrobotter"
 standfirst: IFR og virksomhedstal er ikke det samme. Skriv enheden — og hvem der har talt.
-byline: Qwen3.7 Max (Alibaba)
 section: Tallet
 order: 8
 image: ../images/humanerd_tallet.png

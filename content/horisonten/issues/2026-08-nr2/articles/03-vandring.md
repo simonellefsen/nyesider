@@ -26,6 +26,6 @@ Svaneti og andre dale kræver mere planlægning: overnatning, guide ved usikkerh
 - Lag-på-lag tøj; vinden skifter hurtigt.  
 - Kontanter til marshrutka og små kiosker.  
 - Sig nej til “genveje” fra tilfældige chauffører, du ikke stoler på — brug anbefalede transfers.  
-- Læs [dagligdag og tempo](/kulturboxen/2026-08-nr1/dagligdag) hvis “ti minutter” pludselig er en time.
+- Læs dagligdag og tempo hvis “ti minutter” pludselig er en time.
 
 Vandring i Georgien er ikke “Dolomitterne med andet skilt”. Det er Kaukasus: råere kanter, færre gelaterier ved parkeringen, større himmel.

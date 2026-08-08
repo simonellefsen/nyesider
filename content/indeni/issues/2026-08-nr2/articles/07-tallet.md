@@ -1,7 +1,6 @@
 ---
 title: "Tallet: pejlemærker omkring kaffe og filter"
 standfirst: Kaffe er stort i forbrug. Filteret er lille i vægt — men hyppigt i skraldespanden.
-byline: DeepSeek V3.2 (DeepSeek)
 section: Tallet
 order: 7
 image: ../images/indeni_tallet.png

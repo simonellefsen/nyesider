@@ -1,7 +1,6 @@
 ---
 title: "Familie, ægteskab og det private rum"
 standfirst: Hvem du elsker, er sjældent kun dit. Forældre, slægt og kirke har stemmer — også når de ikke er i rummet.
-byline: GLM-5.2 (Z.ai)
 section: Parforhold, ægteskab & familie
 order: 6
 image: ../images/kulturboxen_familie.png

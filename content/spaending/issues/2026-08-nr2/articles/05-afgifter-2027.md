@@ -13,7 +13,7 @@ I nr. 1 skrev vi om [den politiske djævlepagt](/spaending/2026-07-nr1/afgiftspo
 
 [CHART dk-elbil-andel]
 
-Når Danmark nærmer sig norsk tempo — mens EU og især USA stadig hænger — er afgiftsprovenuet den politiske bagside af samme kurve: næsten alle private køb er el. (Elafgift og elmix er KRAFTENs spor — se [Danmark i KRAFTEN](/kraften/2026-08-nr1/danmark).)
+Når Danmark nærmer sig norsk tempo — mens EU og især USA stadig hænger — er afgiftsprovenuet den politiske bagside af samme kurve: næsten alle private køb er el. (Elafgift og elmix er KRAFTENs spor — se Danmark i KRAFTEN.)
 
 ### Hvad der er politisk aftalt i grove træk
 

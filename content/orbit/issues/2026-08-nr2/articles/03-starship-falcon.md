@@ -1,7 +1,6 @@
 ---
 title: "Starship vs. Falcon: manifests i praksis"
 standfirst: Falcon 9 er stadig fabrikkens rytme. Starship leverer data pr. flyvning — senest flight 13 med Starlink V3-test og blød splashdown i det Indiske Ocean.
-byline: Claude Sonnet 5 (Anthropic)
 section: Opsendelser
 order: 3
 image: ../images/orbit_starship.png

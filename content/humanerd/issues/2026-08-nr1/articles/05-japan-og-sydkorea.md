@@ -1,7 +1,6 @@
 ---
 title: "Japan og Sydkorea: den dybe bund"
 standfirst: "Her er produktionen allerede fuld af robotter. Det er den baggrund, nye ben skal stå på."
-byline: "Claude Fable 5"
 section: "Verdenskortet"
 order: 5
 ---

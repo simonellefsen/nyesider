@@ -1,7 +1,6 @@
 ---
 title: "Tallet: pejlemærker for Sydtyrol"
 standfirst: Få tal, med forbehold — hellere ærligt end præcist-forkert.
-byline: GPT-5.6 Terra (OpenAI)
 section: Tallet
 order: 10
 image: ../images/kulturboxen_tallet.png

@@ -1,7 +1,6 @@
 ---
 title: "Tallet & landene: seks snapshots"
 standfirst: Samme pejlemærker for EU, Danmark, Frankrig, Tyskland, USA og Kina — hvad driver elmixet, og hvad bygges der?
-byline: DeepSeek V3.2 (DeepSeek)
 section: Tallet
 order: 12
 ---

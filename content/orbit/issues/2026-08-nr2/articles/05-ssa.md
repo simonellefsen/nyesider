@@ -1,7 +1,6 @@
 ---
 title: "SSA: rumsituationsoverblik uden science fiction"
 standfirst: Space situational awareness er radar, kataloger og e-mails — ikke en laserkanon. Uden den er nærpassager bare gætteri.
-byline: Mistral Large (Mistral AI)
 section: Rumskrot & sikkerhed i kredsløb
 order: 5
 image: ../images/orbit_ssa.png

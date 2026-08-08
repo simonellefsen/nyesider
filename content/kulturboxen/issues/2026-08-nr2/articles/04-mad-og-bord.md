@@ -1,7 +1,6 @@
 ---
 title: "Speck, knödel og espresso: bordet som grænseovergang"
 standfirst: Køkkenet er østrigsk-alpint og italiensk på samme tallerken — bogstaveligt.
-byline: Gemini 3.1 Pro (Google)
 section: Spise & drikke
 order: 4
 image: ../images/kulturboxen_mad.png

@@ -1,7 +1,6 @@
 ---
 title: "Skat, stat og tillid: hvorfor systemet føles anderledes"
 standfirst: Danmark er høje skatter og høj tillid i samme pakke. Georgien har reformeret bureaukrati — men historien sidder i kroppen.
-byline: Claude Sonnet 5 (Anthropic)
 section: Skat, stat & tillid
 order: 10
 image: ../images/kulturboxen_skat.png

@@ -1,7 +1,6 @@
 ---
 title: "Tallerkenen under GLP-1: når sulten forsvinder"
 standfirst: Mindre appetit er pointen. Mindre protein, væske og fibre kan blive problemet.
-byline: Claude Sonnet 5 (Anthropic)
 section: Ernæring & kost
 order: 3
 image: ../images/dosis_glp1_tallerken.png

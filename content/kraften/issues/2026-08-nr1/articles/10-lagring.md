@@ -1,7 +1,6 @@
 ---
 title: "Lagring: containere, pumper og det der mangler"
 standfirst: Batterier ruller ud i containere. Pumpelagring er gammel og undervurderet. Brint er lovende — og sen.
-byline: GPT-5.6 Terra (OpenAI)
 section: Lagring & fleksibilitet
 order: 10
 image: ../images/kraften_lagring.png

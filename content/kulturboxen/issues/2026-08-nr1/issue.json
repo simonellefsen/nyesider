@@ -4,7 +4,7 @@
   "title": "KULTURBOXEN nr. 1 · August 2026",
   "issueTheme": "Supra og tillid",
   "published": "2026-08-01",
-  "status": "published",
+  "status": "draft",
   "pdf": null,
   "cover": "images/kulturboxen_cover.png",
   "coverCredit": "AI-genereret forside (Imagine / xAI) — Georgien, supra, Kaukasus-lys",
@@ -32,7 +32,6 @@
       "order": 1,
       "title": "Supra og tillid",
       "section": "Leder",
-      "byline": "Claude Fable 5",
       "standfirst": "Velkommen til KULTURBOXEN. Nr. 1 åbner boksen med Georgien."
     },
     {
@@ -41,7 +40,6 @@
       "order": 2,
       "title": "Georgien i korte træk: mellem bjerge og brudflader",
       "section": "Kulturen i fokus (destination / folk)",
-      "byline": "GPT-5.6 Terra (OpenAI)",
       "standfirst": "Lille land, eget alfabet, store naboer.",
       "image": "../images/kulturboxen_tbilisi.png",
       "imageCredit": "AI-genereret motiv (Imagine / xAI)",
@@ -53,7 +51,6 @@
       "order": 3,
       "title": "Supra: når middagen er en institution",
       "section": "Spise & drikke",
-      "byline": "Claude Sonnet 5 (Anthropic)",
       "standfirst": "Gæstfrihed som prestige — ikke bare høflighed.",
       "image": "../images/kulturboxen_supra.png",
       "imageCredit": "AI-genereret motiv (Imagine / xAI)",
@@ -65,7 +62,6 @@
       "order": 4,
       "title": "Dagligdag: Tbilisis tempo og landsbyens ur",
       "section": "Dagligdag & tempo",
-      "byline": "Gemini 3.1 Pro (Google)",
       "standfirst": "Hverdagen er minibusser og relationer — ikke kun solnedgange.",
       "image": "../images/kulturboxen_dagligdag.png",
       "imageCredit": "AI-genereret flat-illustration (Imagine / xAI)",
@@ -77,7 +73,6 @@
       "order": 5,
       "title": "Arbejde: netværk, hierarki og den nye laptop-klasse",
       "section": "Arbejde & hierarki",
-      "byline": "Mistral Large (Mistral AI)",
       "standfirst": "Fra slægt til Slack.",
       "image": "../images/kulturboxen_marked.png",
       "imageCredit": "AI-genereret motiv (Imagine / xAI)",
@@ -89,7 +84,6 @@
       "order": 6,
       "title": "Familie, ægteskab og det private rum",
       "section": "Parforhold, ægteskab & familie",
-      "byline": "GLM-5.2 (Z.ai)",
       "standfirst": "Hvem du elsker, er sjældent kun dit.",
       "image": "../images/kulturboxen_familie.png",
       "imageCredit": "AI-genereret organisk illustration (Imagine / xAI)",
@@ -101,7 +95,6 @@
       "order": 7,
       "title": "Når solen går ned: natteliv og det sociale efter kl. 18",
       "section": "Natteliv & socialt liv",
-      "byline": "Grok 4.5 (xAI)",
       "standfirst": "Åbne cirkler, lange aftener, andre grænser.",
       "image": "../images/kulturboxen_natteliv.png",
       "imageCredit": "AI-genereret maximalistisk illustration (Imagine / xAI)",
@@ -113,7 +106,6 @@
       "order": 8,
       "title": "Ceremonier: kirke, bryllup og de dage, der ikke er hverdag",
       "section": "Ceremonier & ritualer",
-      "byline": "DeepSeek V3.2 (DeepSeek)",
       "standfirst": "Ortodoks kalender og familiens milepæle.",
       "image": "../images/kulturboxen_kirke.png",
       "imageCredit": "AI-genereret motiv (Imagine / xAI)",
@@ -125,7 +117,6 @@
       "order": 9,
       "title": "Penge: priser, tip og dobbelte menukort",
       "section": "Penge, priser & forbrug",
-      "byline": "GPT-5.6 Terra (OpenAI)",
       "standfirst": "Billigere end København — indtil det ikke er.",
       "image": "../images/kulturboxen_penge.png",
       "imageCredit": "AI-genereret geometrisk illustration (Imagine / xAI)",
@@ -137,7 +128,6 @@
       "order": 10,
       "title": "Skat, stat og tillid: hvorfor systemet føles anderledes",
       "section": "Skat, stat & tillid",
-      "byline": "Claude Sonnet 5 (Anthropic)",
       "standfirst": "Reformeret bureaukrati, anden velfærdspakke.",
       "image": "../images/kulturboxen_skat.png",
       "imageCredit": "AI-genereret corporate illustration (Imagine / xAI)",
@@ -149,7 +139,6 @@
       "order": 11,
       "title": "Tøj, udseende og det, man signalerer",
       "section": "Tøj, udseende & status",
-      "byline": "Qwen3.7 Max (Alibaba)",
       "standfirst": "Streetwear, kirketøj, festguld.",
       "image": "../images/kulturboxen_toej.png",
       "imageCredit": "AI-genereret retro-illustration (Imagine / xAI)",
@@ -161,7 +150,6 @@
       "order": 12,
       "title": "Tallet: Georgien og Danmark side om side",
       "section": "Tallet / pejlemærker",
-      "byline": "DeepSeek V3.2 (DeepSeek)",
       "standfirst": "BNP, arbejdsløshed og religion med konkrete tal."
     },
     {
@@ -170,7 +158,6 @@
       "order": 13,
       "title": "Ordbogen",
       "section": "Ordbogen",
-      "byline": "Gemini 3.5 Flash (Google)",
       "standfirst": "Supra, tamada, gaumarjos, madloba."
     },
     {
@@ -179,7 +166,6 @@
       "order": 14,
       "title": "Myter: det, danskere tror om Georgien",
       "section": "Rygtebørsen / myter",
-      "byline": "Qwen3.7 Max (Alibaba)",
       "standfirst": "Fem påstande, vurderet ærligt."
     },
     {
@@ -188,8 +174,9 @@
       "order": 15,
       "title": "Til HORISONTEN: hvis du faktisk tager afsted",
       "section": "Til HORISONTEN (kryds)",
-      "byline": "Claude Fable 5",
       "standfirst": "Kultur her — rute og sæson hos rejsemagasinet."
     }
-  ]
+  ],
+  "unpublishedReason": "Afpubliceret 2026-08-08. Nummeret blev udgivet med byline-kreditering til navngivne modeller, men bestilling.json indeholder hverken costUSD, kladde-reference eller kladdefil for nogen artikel, og OpenRouter-forbruget på titlens egen nøgle viser, at kaldene aldrig blev foretaget. Verdikterne ('accepted', 'rejected') beskriver derfor en bedømmelse af kladder, der aldrig er modtaget. Nummeret skal produceres forfra — uden byline, indtil en reel forfatter kan dokumenteres. Se redaktion/README.md.",
+  "unpublishedAt": "2026-08-08"
 }

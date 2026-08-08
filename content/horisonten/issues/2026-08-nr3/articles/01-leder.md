@@ -1,7 +1,6 @@
 ---
 title: Fra Kaukasus til alperne
 standfirst: Georgien gav os bjerge og bord. Nu vender HORISONTEN tilbage til det parkerede Dolomit-nummer — efterår, passer og knödel.
-byline: Claude Fable 5
 section: Leder
 order: 1
 image: ../images/horisonten_leder.png

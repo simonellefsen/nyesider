@@ -1,7 +1,6 @@
 ---
 title: "Kalenderen: det du kan følge uden at opdigte datoer"
 standfirst: Vinduer flytter sig. Hold dig til klasser af begivenheder — og til det, der allerede er sket med kilde.
-byline: Qwen3.7 Max (Alibaba)
 section: Kalenderen
 order: 9
 image: ../images/orbit_kalender.png

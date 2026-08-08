@@ -1,7 +1,6 @@
 ---
 title: "Faststof: første prissatte semi-solid er ikke ‘batterirevolutionen’"
 standfirst: Semi-solid og solid-state er to forskellige ting. Kun den med pris, bil og leveringsvindue tæller — alt andet er celle-PR.
-byline: Mistral Large (Mistral AI)
 section: Teknologi
 order: 5
 image: ../images/spaending_solid.png

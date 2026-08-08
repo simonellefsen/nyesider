@@ -21,8 +21,7 @@ Håndhæves som **ERROR** i `production/check_issue.py` (og dermed i `npm run pr
 |---|---|
 | 2026-07-19 | gnisten/2026-07-nr1 (nr. 1); pulsen/2026-07-nr1 (nr. 1); spaending/2026-07-nr1 (nr. 1) |
 | 2026-07-20 | horisonten/2026-07-nr1 (nr. 1) |
-| 2026-08-01 | dosis/2026-08-nr1 (nr. 1); gnisten/2026-08-nr2 (nr. 2); horisonten/2026-08-nr2 (nr. 2); humanerd/2026-08-nr1 (nr. 1); indeni/2026-08-nr1 (nr. 1); kraften/2026-08-nr1 (nr. 1); kulturboxen/2026-08-nr1 (nr. 1); orbit/2026-08-nr1 (nr. 1); pulsen/2026-08-nr2 (nr. 2); spaending/2026-08-nr2 (nr. 2) |
-| 2026-08-08 | dosis/2026-08-nr2 (nr. 2); gnisten/2026-08-nr3 (nr. 3); horisonten/2026-08-nr3 (nr. 3); humanerd/2026-08-nr2 (nr. 2); indeni/2026-08-nr2 (nr. 2); kraften/2026-08-nr2 (nr. 2); kronike/2026-08-nr1 (nr. 1); kulturboxen/2026-08-nr2 (nr. 2); orbit/2026-08-nr2 (nr. 2); pulsen/2026-08-nr3 (nr. 3); spaending/2026-08-nr3 (nr. 3) |
+| 2026-08-01 | gnisten/2026-08-nr2 (nr. 2); horisonten/2026-08-nr2 (nr. 2); pulsen/2026-08-nr2 (nr. 2); spaending/2026-08-nr2 (nr. 2) |
 
 ## Efter magasin
 
@@ -30,8 +29,8 @@ Håndhæves som **ERROR** i `production/check_issue.py` (og dermed i `npm run pr
 
 | Nummer | issue-slug | published | status | tema |
 |---|---|---|---|---|
-| 1 | `2026-08-nr1` | 2026-08-01 | published | Protein-æraen |
-| 2 | `2026-08-nr2` | 2026-08-08 | published | Appetitten under kontrol |
+| 1 | `2026-08-nr1` | 2026-08-01 | draft | Protein-æraen |
+| 2 | `2026-08-nr2` | 2026-08-08 | draft | Appetitten under kontrol |
 | 3 | `2026-08-nr3` | 2026-08-15 | scheduled | Søvnen, der ikke kan stikkes |
 
 ### gnisten
@@ -40,7 +39,7 @@ Håndhæves som **ERROR** i `production/check_issue.py` (og dermed i `npm run pr
 |---|---|---|---|---|
 | 1 | `2026-07-nr1` | 2026-07-19 | published | Sig hej til Claude |
 | 2 | `2026-08-nr2` | 2026-08-01 | published | Ud af browseren |
-| 3 | `2026-08-nr3` | 2026-08-08 | published | Agenten og den lokale hjerne |
+| 3 | `2026-08-nr3` | 2026-08-08 | draft | Agenten og den lokale hjerne |
 
 ### horisonten
 
@@ -48,48 +47,48 @@ Håndhæves som **ERROR** i `production/check_issue.py` (og dermed i `npm run pr
 |---|---|---|---|---|
 | 1 | `2026-07-nr1` | 2026-07-20 | published | Mallorca uden for højsæsonen |
 | 2 | `2026-08-nr2` | 2026-08-01 | published | Georgien — bjerge, by og bord |
-| 3 | `2026-08-nr3` | 2026-08-08 | published | Dolomitterne i efteråret |
+| 3 | `2026-08-nr3` | 2026-08-08 | draft | Dolomitterne i efteråret |
 
 ### humanerd
 
 | Nummer | issue-slug | published | status | tema |
 |---|---|---|---|---|
-| 1 | `2026-08-nr1` | 2026-08-01 | published | Robotter på arbejde |
-| 2 | `2026-08-nr2` | 2026-08-08 | published | Lagerets koreografi |
+| 1 | `2026-08-nr1` | 2026-08-01 | draft | Robotter på arbejde |
+| 2 | `2026-08-nr2` | 2026-08-08 | draft | Lagerets koreografi |
 
 ### indeni
 
 | Nummer | issue-slug | published | status | tema |
 |---|---|---|---|---|
-| 1 | `2026-08-nr1` | 2026-08-01 | published | Dåsen |
-| 2 | `2026-08-nr2` | 2026-08-08 | published | Filteret |
+| 1 | `2026-08-nr1` | 2026-08-01 | draft | Dåsen |
+| 2 | `2026-08-nr2` | 2026-08-08 | draft | Filteret |
 
 ### kraften
 
 | Nummer | issue-slug | published | status | tema |
 |---|---|---|---|---|
-| 1 | `2026-08-nr1` | 2026-08-01 | published | Hvad holder lyset tændt |
-| 2 | `2026-08-nr2` | 2026-08-08 | published | Strøm overalt |
+| 1 | `2026-08-nr1` | 2026-08-01 | draft | Hvad holder lyset tændt |
+| 2 | `2026-08-nr2` | 2026-08-08 | draft | Strøm overalt |
 
 ### kronike
 
 | Nummer | issue-slug | published | status | tema |
 |---|---|---|---|---|
-| 1 | `2026-08-nr1` | 2026-08-08 | published | Riget formes |
+| 1 | `2026-08-nr1` | 2026-08-08 | draft | Riget formes |
 
 ### kulturboxen
 
 | Nummer | issue-slug | published | status | tema |
 |---|---|---|---|---|
-| 1 | `2026-08-nr1` | 2026-08-01 | published | Supra og tillid |
-| 2 | `2026-08-nr2` | 2026-08-08 | published | Tre sprog, ét plateau |
+| 1 | `2026-08-nr1` | 2026-08-01 | draft | Supra og tillid |
+| 2 | `2026-08-nr2` | 2026-08-08 | draft | Tre sprog, ét plateau |
 
 ### orbit
 
 | Nummer | issue-slug | published | status | tema |
 |---|---|---|---|---|
-| 1 | `2026-08-nr1` | 2026-08-01 | published | Kadence |
-| 2 | `2026-08-nr2` | 2026-08-08 | published | Kataloget og kikkerten |
+| 1 | `2026-08-nr1` | 2026-08-01 | draft | Kadence |
+| 2 | `2026-08-nr2` | 2026-08-08 | draft | Kataloget og kikkerten |
 
 ### pulsen
 
@@ -97,7 +96,7 @@ Håndhæves som **ERROR** i `production/check_issue.py` (og dermed i `npm run pr
 |---|---|---|---|---|
 | 1 | `2026-07-nr1` | 2026-07-19 | published | Når maskinen lytter med |
 | 2 | `2026-08-nr2` | 2026-08-01 | published | Når tasterne bliver stille |
-| 3 | `2026-08-nr3` | 2026-08-08 | published | Når driften taler |
+| 3 | `2026-08-nr3` | 2026-08-08 | draft | Når driften taler |
 
 ### spaending
 
@@ -105,7 +104,7 @@ Håndhæves som **ERROR** i `production/check_issue.py` (og dermed i `npm run pr
 |---|---|---|---|---|
 | 1 | `2026-07-nr1` | 2026-07-19 | published | SPÆNDING nr. 1 · Juli 2026 |
 | 2 | `2026-08-nr2` | 2026-08-01 | published | Når watt bliver hverdag |
-| 3 | `2026-08-nr3` | 2026-08-08 | published | Køen, kulden og den næste watt |
+| 3 | `2026-08-nr3` | 2026-08-08 | draft | Køen, kulden og den næste watt |
 
 ## Kollisioner (skal være tom)
 

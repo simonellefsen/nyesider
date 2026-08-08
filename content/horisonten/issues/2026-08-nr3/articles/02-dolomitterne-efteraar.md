@@ -1,7 +1,6 @@
 ---
 title: Dolomitterne uden for den værste trængsel
 standfirst: Fra midten af september skifter Sydtyrol og Belluno-provinsen gear — mindre hede i dalene, skarpere luft på passene, og stier der føles som dine igen.
-byline: GPT-5.6 Terra (OpenAI)
 section: Overblik
 order: 2
 image: ../images/horisonten_overblik.png

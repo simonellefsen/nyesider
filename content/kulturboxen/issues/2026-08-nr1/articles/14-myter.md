@@ -1,7 +1,6 @@
 ---
 title: "Myter: det, danskere tror om Georgien"
 standfirst: Fem påstande, vurderet i stearinlys — ikke i likes.
-byline: Qwen3.7 Max (Alibaba)
 section: Rygtebørsen / myter
 order: 14
 flow: true

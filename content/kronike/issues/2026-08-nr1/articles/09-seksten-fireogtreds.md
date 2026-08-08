@@ -1,7 +1,6 @@
 ---
 title: "1864: nederlaget der formede nationen"
 standfirst: Først rømningen af Dannevirke. Så seks timers bombardement og fire timers slag ved Dybbøl. Og en mølle, der blev symbol — ikke fordi den vandt noget, men fordi den stod i vejen.
-byline: Claude Sonnet 5 (Anthropic)
 section: Krig & krise
 order: 9
 image: ../images/kronike_1864.png

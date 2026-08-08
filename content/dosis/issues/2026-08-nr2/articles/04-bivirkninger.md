@@ -1,7 +1,6 @@
 ---
 title: "Bivirkninger og det, der ikke står i annoncen"
 standfirst: Kvalme er almindeligt. “Alle tåler det” er marketing.
-byline: DeepSeek V3.2 (DeepSeek)
 section: Sikkerhed & bivirkninger
 order: 4
 image: ../images/dosis_bivirkninger.png

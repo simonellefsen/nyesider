@@ -1,7 +1,6 @@
 ---
 title: "AI i sundhed uden for Danmark: Europa først — så USA og Asien"
 standfirst: Offentlige systemer prøver ambient, billeddiagnostik og beslutningsstøtte under AI Act og EHDS. Privat drift i USA skaleres hurtigere. Asien tæller hospitaler i hundreder — med kildekritik.
-byline: Mistral Large (Mistral AI)
 section: Analyse · Internationalt
 order: 4
 image: ../images/pulsen_europa-ai.png

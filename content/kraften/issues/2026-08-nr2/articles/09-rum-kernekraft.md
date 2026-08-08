@@ -1,7 +1,6 @@
 ---
 title: "Rum: kernekraft til dybe missioner"
 standfirst: RTG er arven — lav effekt, høj pålidelighed. Fission surface power er den næste diskussion. PowerPoint er ikke MW i regolith.
-byline: DeepSeek V3.2 (DeepSeek)
 section: Rumkraft
 order: 9
 image: ../images/kraften_rtg.png

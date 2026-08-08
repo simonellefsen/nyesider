@@ -1,7 +1,6 @@
 ---
 title: "Margrete 1.: dronningen der samlede Norden"
 standfirst: Hun regerede uden at alle rigers kroningsritualer lignede hinanden — og skabte Kalmarunionen. Vi har hendes politik. Vi har ikke et sikkert ansigt.
-byline: Mistral Large (Mistral AI)
 section: Biografi
 order: 5
 image: ../images/kronike_margrete.png

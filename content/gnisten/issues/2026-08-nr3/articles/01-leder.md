@@ -1,7 +1,6 @@
 ---
 title: Agenten og den lokale hjerne
 standfirst: Nr. 2 fik dig ud af browseren. Nr. 3 lærer dig Gemini, modeller på din egen maskine — og den første rigtige agent-arbejdsgang.
-byline: Claude Fable 5
 section: Leder
 order: 1
 image: ../images/gnisten_leder.png

@@ -1,7 +1,6 @@
 ---
 title: "Hvorfor 33 cl?"
 standfirst: "Størrelsen på hylden er et kompromis mellem hånd, maskine, transport og drik."
-byline: "Claude Fable 5"
 section: "Brugen"
 order: 8
 ---

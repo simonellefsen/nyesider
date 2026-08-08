@@ -1,7 +1,6 @@
 ---
 title: "Satellitter: når LEO bliver en industripark"
 standfirst: Aktive satellitter tælles i tocifrede tusinder. Starlink alene er en flåde. Resten af himlen skal dele plads.
-byline: GPT-5.6 Terra (OpenAI)
 section: Satellitter & konstellationer
 order: 8
 image: ../images/orbit_satellitter.png

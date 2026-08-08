@@ -1,7 +1,6 @@
 ---
 title: "Arbejde: når gæsten er BNP"
 standfirst: Hoteller, lifte og sæsonkontrakter — og den stille jalousi mellem dale.
-byline: GLM-5.2 (Z.ai)
 section: Arbejde & hierarki
 order: 6
 image: ../images/kulturboxen_arbejde.png

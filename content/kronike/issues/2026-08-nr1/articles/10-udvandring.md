@@ -1,7 +1,6 @@
 ---
 title: "Udvandringen: da danskere blev migranter"
 standfirst: Hundredtusinder forlod Danmark. De fleste til USA — og en slående andel fulgte mormonmissionærer til Utah, før Midtvestens store bølger.
-byline: Qwen3.7 Max (Alibaba)
 section: Migration
 order: 10
 image: ../images/kronike_udvandring.png

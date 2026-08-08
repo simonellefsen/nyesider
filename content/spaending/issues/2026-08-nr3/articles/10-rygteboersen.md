@@ -1,7 +1,6 @@
 ---
 title: Rygtebørsen
 standfirst: Spekulativt. Ikke en prisliste — og ikke en køreplan for robotaxi i Ring 3.
-byline: Grok 4.3 (xAI)
 section: Rygtebørsen
 order: 10
 flow: true

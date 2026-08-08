@@ -1,7 +1,6 @@
 ---
 title: "Lagring til et elektrisk samfund"
 standfirst: Timer er batterier. Sæson er den svære halvdel. Elektrificering uden lagringstænkning flytter bare flaskehalsen til aften-toppen.
-byline: Claude Sonnet 5 (Anthropic)
 section: Systemet bag stikket
 order: 7
 image: ../images/kraften_bess.png

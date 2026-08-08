@@ -1,7 +1,6 @@
 ---
 title: Hvad holder lyset tændt
 standfirst: Velkommen til KRAFTEN — magasinet om elektrificering som system, ikke som slagord. Fra net og anlæg på Jorden til strøm i rummet.
-byline: Claude Fable 5
 section: Leder
 order: 1
 ---

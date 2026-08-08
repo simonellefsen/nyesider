@@ -1,7 +1,6 @@
 ---
 title: "Kalenderen: hvad der venter (med forbehold)"
 standfirst: Rumfart har net windows, ikke faste busplaner. Her er mønstre at følge — tjek altid live manifests.
-byline: Qwen3.7 Max (Alibaba)
 section: Kalenderen
 order: 11
 ---

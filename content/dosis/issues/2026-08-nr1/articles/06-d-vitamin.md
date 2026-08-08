@@ -1,7 +1,6 @@
 ---
 title: "D-vitamin i nordisk mørke: mangel, megadoser og midten"
 standfirst: Solen er en dårlig HR-chef i januar. Tilskud kan være fornuftigt — gram-jagt er det sjældent.
-byline: DeepSeek V3.2 (DeepSeek)
 section: Vitaminer & mineraler
 order: 6
 image: ../images/dosis_vitamin.png

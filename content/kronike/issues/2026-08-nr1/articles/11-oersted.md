@@ -1,7 +1,6 @@
 ---
 title: "H.C. Ørsted: da strøm og magnetisme mødtes"
 standfirst: "1820-opdagelsen er kun toppen. Under den ligger et liv: professorat, korrespondance med Faraday og andre, familie — og et ansigt, vi faktisk har på et daguerreotypi."
-byline: GPT-5.5 (OpenAI)
 section: Videnskab & opfindelser
 order: 11
 image: ../images/kronike_oersted.png

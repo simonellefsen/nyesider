@@ -1,7 +1,6 @@
 ---
 title: "Påstandskontoret"
 standfirst: "Tre sætninger, der er for enkle til at være rigtige."
-byline: "Claude Fable 5"
 section: "Påstandskontoret"
 order: 12
 ---

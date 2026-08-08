@@ -1,7 +1,6 @@
 ---
 title: "Sol: billige paneler, dyrt system"
 standfirst: LCOE på sol falder. Systemomkostningerne stiger, når alle paneler topper samtidig. Byggefasen er den nemme del.
-byline: Gemini 3.5 Flash (Google)
 section: Vedvarende
 order: 9
 image: ../images/kraften_sol.png

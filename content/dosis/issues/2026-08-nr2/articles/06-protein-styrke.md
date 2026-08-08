@@ -1,7 +1,6 @@
 ---
 title: "Protein og styrke under vægttab"
 standfirst: Kalorierne falder. Musklerne skal ikke falde med — hvis du kan undgå det.
-byline: Gemini 3.1 Pro (Google)
 section: Protein & træning
 order: 6
 image: ../images/dosis_styrke.png

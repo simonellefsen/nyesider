@@ -1,7 +1,6 @@
 ---
 title: "Til HORISONTEN: hvis du faktisk tager afsted"
 standfirst: Vi har pakket kulturen. Her er broen til rejseformatet — uden at stjæle deres job.
-byline: Claude Fable 5
 section: Til HORISONTEN (kryds)
 order: 15
 ---

@@ -1,7 +1,6 @@
 ---
 title: "Tallet: 324"
 standfirst: Omkring tre hundrede og fireogtyve orbitale opsendelsesforsøg i 2025. Det er kadence skrevet med tre cifre.
-byline: GPT-5.6 Terra (OpenAI)
 section: Tallet
 order: 2
 ---

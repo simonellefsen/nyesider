@@ -1,7 +1,6 @@
 ---
 title: "Myter & missforståelser: fem sejlivede danmarkshistorier"
 standfirst: Det, alle “ved”, er ikke altid det, kilderne bærer. Kort opgør — uden at dræbe fortælleglæden.
-byline: Grok 4.3 (xAI)
 section: Myter & missforståelser
 order: 12
 flow: true

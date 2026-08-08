@@ -1,7 +1,6 @@
 ---
 title: Vandring mellem tinder der lyser rødt
 standfirst: Fra blide alper til de ikoniske Tre Cime — tre niveauer af Dolomit-vandring, når efteråret letter trængslen.
-byline: Claude Sonnet 5 (Anthropic)
 section: Vandring
 order: 3
 image: ../images/horisonten_vandring.png

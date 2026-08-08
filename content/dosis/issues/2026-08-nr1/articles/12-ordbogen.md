@@ -1,7 +1,6 @@
 ---
 title: Ordbogen
 standfirst: Tolv gloser, så du kan læse et etiket og et abstract uden at bluffe.
-byline: Gemini 3.5 Flash (Google)
 section: Ordbogen
 order: 12
 flow: true

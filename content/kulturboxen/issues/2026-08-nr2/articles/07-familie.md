@@ -1,7 +1,6 @@
 ---
 title: "Familie og arv: gården er ikke kun nostalgi"
 standfirst: Hvem arver huset i dalen, og hvem flytter til Innsbruck eller Milano?
-byline: DeepSeek V3.2 (DeepSeek)
 section: Parforhold, ægteskab & familie
 order: 7
 image: ../images/kulturboxen_familie.png

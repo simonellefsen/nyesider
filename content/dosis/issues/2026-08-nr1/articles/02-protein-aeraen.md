@@ -1,7 +1,6 @@
 ---
 title: "Protein-æraen: hvorfor alle pludselig tæller gram"
 standfirst: Fra bodybuildere til morgenyoghurt — protein er blevet det nye “spis sundt”. Her er, hvad der drev bølgen.
-byline: GPT-5.6 Terra (OpenAI)
 section: Gennembrud & forskning
 order: 2
 image: ../images/dosis_protein.png

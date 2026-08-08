@@ -1,7 +1,6 @@
 ---
 title: "1536: reformationen som magtskifte"
 standfirst: Det handlede om tro. Det handlede først om klosterjord, bispemagt og en konge, der skyldte sine soldater penge.
-byline: Claude Opus 4.8 (Anthropic)
 section: Tro & kirke
 order: 6
 image: ../images/kronike_reformation.png

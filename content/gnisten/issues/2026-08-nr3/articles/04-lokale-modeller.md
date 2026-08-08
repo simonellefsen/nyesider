@@ -1,7 +1,6 @@
 ---
 title: "Lokale modeller: Ollama for begyndere"
 standfirst: Privat, langsommere, dit ansvar — og det er præcis derfor det er interessant.
-byline: Claude Sonnet 5 (Anthropic)
 section: Værkstedet
 order: 4
 image: ../images/gnisten_lokal.png

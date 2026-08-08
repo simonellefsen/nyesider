@@ -1,7 +1,6 @@
 ---
 title: "Kortet: sommeren 2026, tre spor"
 standfirst: Cloud-assistenter, lokale modeller og agenter der rører dine filer — tre lag, samme forvirring.
-byline: GPT-5.6 Terra (OpenAI)
 section: Kortet
 order: 2
 image: ../images/gnisten_kortet.png

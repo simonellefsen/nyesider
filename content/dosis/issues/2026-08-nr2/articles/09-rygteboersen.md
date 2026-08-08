@@ -1,7 +1,6 @@
 ---
 title: Rygtebørsen
 standfirst: Hype-aktier i appetit-æraen.
-byline: Qwen3.7 Max (Alibaba)
 section: Rygtebørsen
 order: 9
 flow: true

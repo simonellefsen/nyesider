@@ -31,7 +31,7 @@ Vi opdigter ikke præcise “festival tirsdag d. 12.”-datoer. Høst og kirkeli
 
 ### Den kulturelle baggrund (ét afsnit)
 
-Du spiser dig ind i landet hurtigere end du forstår det. Læs [KULTURBOXENs Georgien-fokus](/kulturboxen/2026-08-nr1/kulturen-i-fokus) og især [supraen](/kulturboxen/2026-08-nr1/supra-og-bordet), før du siger nej til den tredje skåltaler.
+Du spiser dig ind i landet hurtigere end du forstår det. Læs KULTURBOXENs Georgien-fokus og især supraen, før du siger nej til den tredje skåltaler.
 
 ### Rød tråd for 8–12 dage
 

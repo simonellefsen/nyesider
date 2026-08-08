@@ -1,7 +1,6 @@
 ---
 title: Ordbogen
 standfirst: Fjorten gloser, så du ikke kun bestiller khinkali — men forstår bordet.
-byline: Gemini 3.5 Flash (Google)
 section: Ordbogen
 order: 13
 flow: true

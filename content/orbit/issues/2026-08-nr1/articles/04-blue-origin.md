@@ -1,7 +1,6 @@
 ---
 title: "Blue Origin: New Glenn mellem gennembrud og knald"
 standfirst: Orbital klasse er nået. Pad-skader og return-to-flight er 2026-historien — mere end pressemeddelelser om Månen.
-byline: Grok 4.5 (xAI)
 section: Opsendelser
 order: 4
 image: ../images/orbit_blueorigin.png

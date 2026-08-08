@@ -1,7 +1,6 @@
 ---
 title: "Sådan læser du filter-diagrammet"
 standfirst: Fire bokse, én orange prik. Den prik er dig — og affaldsvejen er bevidst uafsluttet.
-byline: Claude Fable 5
 section: Maskinen
 order: 8
 image: ../images/figur-filter-proces.svg

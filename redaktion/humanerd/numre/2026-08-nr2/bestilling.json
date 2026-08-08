@@ -25,8 +25,8 @@
         "format": "leder"
       },
       "writer": {
-        "byline": "Claude Fable 5",
-        "model": "chefredaktør",
+        "byline": null,
+        "model": "editor-led",
         "fallback": null
       },
       "receipt": {
@@ -35,10 +35,10 @@
         "draft": null
       },
       "verdict": {
-        "status": "rewritten-by-editor",
-        "checkedAt": "2026-08-08",
+        "status": null,
+        "checkedAt": null,
         "citations": 0,
-        "editorNote": "Full rewrite for depth; named AMR operators; dropped Ordbogen."
+        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
       }
     },
     {
@@ -55,8 +55,8 @@
         "format": "feature"
       },
       "writer": {
-        "byline": "GPT-5.6 Terra (OpenAI)",
-        "model": "openai/gpt-5.6-terra",
+        "byline": null,
+        "model": "editor-led",
         "fallback": "deepseek/deepseek-v3.2"
       },
       "receipt": {
@@ -65,10 +65,10 @@
         "draft": null
       },
       "verdict": {
-        "status": "rewritten-by-editor",
-        "checkedAt": "2026-08-08",
+        "status": null,
+        "checkedAt": null,
         "citations": 1,
-        "editorNote": "Full rewrite for depth; named AMR operators; dropped Ordbogen."
+        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
       }
     },
     {
@@ -85,8 +85,8 @@
         "format": "feature"
       },
       "writer": {
-        "byline": "Claude Sonnet 5 (Anthropic)",
-        "model": "anthropic/claude-sonnet-5",
+        "byline": null,
+        "model": "editor-led",
         "fallback": "deepseek/deepseek-v3.2"
       },
       "receipt": {
@@ -95,10 +95,10 @@
         "draft": null
       },
       "verdict": {
-        "status": "rewritten-by-editor",
-        "checkedAt": "2026-08-08",
+        "status": null,
+        "checkedAt": null,
         "citations": 0,
-        "editorNote": "Full rewrite for depth; named AMR operators; dropped Ordbogen."
+        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
       }
     },
     {
@@ -115,8 +115,8 @@
         "format": "feature"
       },
       "writer": {
-        "byline": "Gemini 3.1 Pro (Google)",
-        "model": "google/gemini-3.1-pro",
+        "byline": null,
+        "model": "editor-led",
         "fallback": "deepseek/deepseek-v3.2"
       },
       "receipt": {
@@ -125,10 +125,10 @@
         "draft": null
       },
       "verdict": {
-        "status": "rewritten-by-editor",
-        "checkedAt": "2026-08-08",
+        "status": null,
+        "checkedAt": null,
         "citations": 0,
-        "editorNote": "Full rewrite for depth; named AMR operators; dropped Ordbogen."
+        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
       }
     },
     {
@@ -145,8 +145,8 @@
         "format": "feature"
       },
       "writer": {
-        "byline": "Mistral Large (Mistral AI)",
-        "model": "mistralai/mistral-large",
+        "byline": null,
+        "model": "editor-led",
         "fallback": "deepseek/deepseek-v3.2"
       },
       "receipt": {
@@ -155,10 +155,10 @@
         "draft": null
       },
       "verdict": {
-        "status": "rewritten-by-editor",
-        "checkedAt": "2026-08-08",
+        "status": null,
+        "checkedAt": null,
         "citations": 0,
-        "editorNote": "Full rewrite for depth; named AMR operators; dropped Ordbogen."
+        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
       }
     },
     {
@@ -175,8 +175,8 @@
         "format": "feature"
       },
       "writer": {
-        "byline": "GLM-5.2 (Z.ai)",
-        "model": "z-ai/glm-5.2",
+        "byline": null,
+        "model": "editor-led",
         "fallback": "deepseek/deepseek-v3.2"
       },
       "receipt": {
@@ -185,10 +185,10 @@
         "draft": null
       },
       "verdict": {
-        "status": "rewritten-by-editor",
-        "checkedAt": "2026-08-08",
+        "status": null,
+        "checkedAt": null,
         "citations": 0,
-        "editorNote": "Full rewrite for depth; named AMR operators; dropped Ordbogen."
+        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
       }
     },
     {
@@ -205,8 +205,8 @@
         "format": "feature"
       },
       "writer": {
-        "byline": "DeepSeek V3.2 (DeepSeek)",
-        "model": "deepseek/deepseek-v3.2",
+        "byline": null,
+        "model": "editor-led",
         "fallback": "google/gemini-3.5-flash"
       },
       "receipt": {
@@ -215,10 +215,10 @@
         "draft": null
       },
       "verdict": {
-        "status": "rewritten-by-editor",
-        "checkedAt": "2026-08-08",
+        "status": null,
+        "checkedAt": null,
         "citations": 0,
-        "editorNote": "Full rewrite for depth; named AMR operators; dropped Ordbogen."
+        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
       }
     },
     {
@@ -235,8 +235,8 @@
         "format": "tallet"
       },
       "writer": {
-        "byline": "Qwen3.7 Max (Alibaba)",
-        "model": "qwen/qwen3.7-max",
+        "byline": null,
+        "model": "editor-led",
         "fallback": "deepseek/deepseek-v3.2"
       },
       "receipt": {
@@ -245,10 +245,10 @@
         "draft": null
       },
       "verdict": {
-        "status": "rewritten-by-editor",
-        "checkedAt": "2026-08-08",
+        "status": null,
+        "checkedAt": null,
         "citations": 2,
-        "editorNote": "Full rewrite for depth; named AMR operators; dropped Ordbogen."
+        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
       }
     },
     {
@@ -265,8 +265,8 @@
         "format": "bagsnit"
       },
       "writer": {
-        "byline": "Grok 4.5 (xAI)",
-        "model": "x-ai/grok-4.5",
+        "byline": null,
+        "model": "editor-led",
         "fallback": "deepseek/deepseek-v3.2"
       },
       "receipt": {
@@ -275,11 +275,12 @@
         "draft": null
       },
       "verdict": {
-        "status": "rewritten-by-editor",
-        "checkedAt": "2026-08-08",
+        "status": null,
+        "checkedAt": null,
         "citations": 0,
-        "editorNote": "Full rewrite for depth; named AMR operators; dropped Ordbogen."
+        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
       }
     }
-  ]
+  ],
+  "integrityNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
 }

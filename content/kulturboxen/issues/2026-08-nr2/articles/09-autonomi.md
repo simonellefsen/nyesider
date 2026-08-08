@@ -1,7 +1,6 @@
 ---
 title: "Autonomi og stat: Rom er langt væk — indtil den ikke er"
 standfirst: Selvstyre er hverdag. Italiensk suverænitet er rammen.
-byline: Claude Sonnet 5 (Anthropic)
 section: Stat & regler
 order: 9
 image: ../images/kulturboxen_autonomi.png

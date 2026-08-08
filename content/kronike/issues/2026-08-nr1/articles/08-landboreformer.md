@@ -1,7 +1,6 @@
 ---
 title: "Landboreformerne: da bonden fik en anden himmel"
 standfirst: Stavnsbånd, hoveri og udskiftning. 1788 er en dato. Frihedsstøtten i København er stenen, der skulle nagle den fast.
-byline: DeepSeek V3.2 (DeepSeek)
 section: Social forandring
 order: 8
 image: ../images/kronike_landbo.png

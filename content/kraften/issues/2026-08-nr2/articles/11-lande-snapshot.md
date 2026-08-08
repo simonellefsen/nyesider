@@ -1,7 +1,6 @@
 ---
 title: "Lande-snapshot: seks pejlinger"
 standfirst: Samme indikatorer, forskellige virkeligheder — afrundet og kildepligtig. Et kort, ikke et facit.
-byline: Gemini 3.5 Flash (Google)
 section: Lande & udbygning
 order: 11
 image: ../images/kraften_lande.png

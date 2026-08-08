@@ -1,7 +1,6 @@
 ---
 title: "Fokus: Gemini — Googles assistent i økosystemet"
 standfirst: Ikke bare “endnu en chat”. Android, Docs og søgning er en del af historien.
-byline: Gemini 3.1 Pro (Google)
 section: Fokus
 order: 3
 image: ../images/gnisten_gemini.png

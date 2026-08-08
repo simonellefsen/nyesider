@@ -1,7 +1,6 @@
 ---
 title: "Tallet: dåsen i fem mål"
 standfirst: "Tal uden år og sted er pynt. Her er begge dele."
-byline: "Claude Fable 5"
 section: "Tallet"
 order: 9
 ---

@@ -1,7 +1,6 @@
 ---
 title: "Europa: koblinger, greb og sikkerhed"
 standfirst: "Europas robotstyrke ligger allerede i controlleren, cellen og den virtuelle prøve før idriftsættelse."
-byline: "Claude Fable 5"
 section: "Verdenskortet"
 order: 7
 ---

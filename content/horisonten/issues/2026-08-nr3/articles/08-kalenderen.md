@@ -1,7 +1,6 @@
 ---
 title: "Kalenderen: efterår i Dolomitterne"
 standfirst: Høst, markeder og sæsonskift — omtrentligt og med forbehold. Tjek altid det aktuelle program, før du lægger ruten.
-byline: Qwen3.7 Max (Alibaba)
 section: Kalenderen
 order: 8
 image: ../images/horisonten_kalender.png

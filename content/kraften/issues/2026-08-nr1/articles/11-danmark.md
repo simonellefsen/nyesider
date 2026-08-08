@@ -1,7 +1,6 @@
 ---
 title: "Danmark: vindland med import og ambitioner"
 standfirst: Høj vindandel i el, biomasse i varmen, olie i transporten — og en elafgift der i 2026–27 lempes markant for husholdningerne.
-byline: Qwen3.7 Max (Alibaba)
 section: Lande & udbygning
 order: 11
 ---

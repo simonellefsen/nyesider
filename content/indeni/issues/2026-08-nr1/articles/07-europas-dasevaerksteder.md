@@ -1,7 +1,6 @@
 ---
 title: "Europas dåseværksteder"
 standfirst: "Tre anlæg viser, at en europæisk dåse ikke har én adresse."
-byline: "Mistral Large (Mistral AI)"
 section: "Europa"
 order: 7
 ---

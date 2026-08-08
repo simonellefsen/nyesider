@@ -1,7 +1,6 @@
 ---
 title: "Longevity-hyben: blå zoner, biologisk alder og dig"
 standfirst: At måle aldring er spændende. At sælge dig en alder på en app er en forretning.
-byline: Qwen3.7 Max (Alibaba)
 section: Longevity & aldring
 order: 10
 image: ../images/dosis_longevity.png

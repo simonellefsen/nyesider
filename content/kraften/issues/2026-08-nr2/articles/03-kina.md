@@ -1,7 +1,6 @@
 ---
 title: "Kina: verdens største elektrificeringsmaskine"
 standfirst: EV, højhastighedstog, industri-el og sol/vind i GW-skala — tempoet er systemet. Kul er stadig i billedet.
-byline: Claude Sonnet 5 (Anthropic)
 section: Lande & udbygning
 order: 3
 image: ../images/kraften_kina.png

@@ -1,7 +1,6 @@
 ---
 title: "Fusion: ITER, private demos og ærlig tid"
 standfirst: Nettoenergi i et forsøg er ikke det samme som strøm i stikkontakten. Sådan læser du fusionsnyheder i 2026.
-byline: Grok 4.5 (xAI)
 section: Atom
 order: 5
 ---

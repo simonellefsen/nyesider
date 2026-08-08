@@ -1,7 +1,6 @@
 ---
 title: "Hvor meget protein? Gram, myter og den kedelige midtervej"
 standfirst: Anbefalinger findes. Influenceres regneark findes også. Her er, hvordan du læser begge dele.
-byline: Claude Sonnet 5 (Anthropic)
 section: Protein & træning
 order: 3
 ---

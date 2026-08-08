@@ -1,7 +1,6 @@
 ---
 title: "Sådan læser du et procesdiagram"
 standfirst: "Pile fortæller ikke hele sandheden. Se efter, hvad der ikke kommer med."
-byline: "Claude Fable 5"
 section: "Maskinen"
 order: 10
 ---

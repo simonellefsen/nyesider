@@ -1,7 +1,6 @@
 ---
 title: "Supra: når middagen er en institution"
 standfirst: I Danmark er et godt måltid mad og snak. I Georgien kan det være teater, pligt og kærlighed på samme tallerken.
-byline: Claude Sonnet 5 (Anthropic)
 section: Spise & drikke
 order: 3
 image: ../images/kulturboxen_supra.png

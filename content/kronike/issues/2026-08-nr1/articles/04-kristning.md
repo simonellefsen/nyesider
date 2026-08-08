@@ -1,7 +1,6 @@
 ---
 title: "Kristningen: da troen blev statsprojekt"
 standfirst: Ansgar kom med mission og fik lov til kirker — blandt andet i Ribe. Harald Blåtand kom med magt og Jelling-sten. Mellem dem ligger generationer.
-byline: Gemini 3.1 Pro (Google)
 section: Tro & kirke
 order: 4
 image: ../images/kronike_kristning.png

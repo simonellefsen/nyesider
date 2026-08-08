@@ -1,7 +1,6 @@
 ---
 title: "Når stikket bliver en journal"
 standfirst: Kort bro til PULSEN — for recept, forsyning og klinik.
-byline: Claude Fable 5
 section: Kryds (PULSEN m.fl.)
 order: 10
 flow: true

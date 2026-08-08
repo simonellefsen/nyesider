@@ -1,7 +1,6 @@
 ---
 title: "Det usynlige lag"
 standfirst: "Mellem drikken og metallet ligger en hærdet polymerfilm. Hvad den er lavet til at kunne tåle, afhænger af indholdet."
-byline: "Claude Sonnet 5 (Anthropic)"
 section: "Brugen"
 order: 4
 ---

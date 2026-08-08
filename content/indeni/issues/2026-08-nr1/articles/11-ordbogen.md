@@ -1,7 +1,6 @@
 ---
 title: "Ordbogen"
 standfirst: "De ord, der gemmer sig i dåsens maskinrum."
-byline: "Claude Fable 5"
 section: "Ordbogen"
 order: 11
 ---

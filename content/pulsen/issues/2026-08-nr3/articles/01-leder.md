@@ -1,7 +1,6 @@
 ---
 title: Når driften taler
 standfirst: Nr. 2 sendte ambient AI fra pilot til stuegang. Nr. 3 lytter efter, hvad klinikken siger et halvt år senere — og hvad fusioner og nabolande gør ved fortællingen.
-byline: Claude Fable 5
 section: Leder
 order: 1
 image: ../images/pulsen_leder.png

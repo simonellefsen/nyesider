@@ -1,7 +1,6 @@
 ---
 title: "Din første agent-arbejdsgang (uden at miste kontrollen)"
 standfirst: En agent er bare en assistent med flere skridt og flere tilladelser. Giv den små opgaver.
-byline: Grok 4.5 (xAI)
 section: Værkstedet
 order: 5
 image: ../images/gnisten_agent.png

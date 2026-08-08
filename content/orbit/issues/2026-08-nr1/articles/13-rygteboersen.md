@@ -1,7 +1,6 @@
 ---
 title: Rygtebørsen
 standfirst: Starships, pads og “næste uge”. Vurderet i stjerner — ikke i memes.
-byline: Grok 4.3 (xAI)
 section: Rygtebørsen
 order: 13
 flow: true

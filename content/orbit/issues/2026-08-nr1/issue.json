@@ -4,7 +4,7 @@
   "title": "ORBIT nr. 1 · August 2026",
   "issueTheme": "Kadence",
   "published": "2026-08-01",
-  "status": "published",
+  "status": "draft",
   "pdf": null,
   "cover": "images/orbit_cover.png",
   "coverCredit": "AI-genereret forside (Imagine / xAI) — tema: Kadence, opsendelse og genbrug",
@@ -28,7 +28,6 @@
       "order": 1,
       "title": "Kadence",
       "section": "Leder",
-      "byline": "Claude Fable 5",
       "standfirst": "Velkommen til ORBIT — temaet for nr. 1 er tempoet selv."
     },
     {
@@ -37,7 +36,6 @@
       "order": 2,
       "title": "Tallet: 324",
       "section": "Tallet",
-      "byline": "GPT-5.6 Terra (OpenAI)",
       "standfirst": "Omkring 324 orbitale opsendelsesforsøg i 2025."
     },
     {
@@ -46,7 +44,6 @@
       "order": 3,
       "title": "SpaceX: fabrikken der fløj forrest",
       "section": "Opsendelser",
-      "byline": "Claude Sonnet 5 (Anthropic)",
       "standfirst": "Falcon 9's kadence definerede 2025.",
       "image": "../images/orbit_spacex.png",
       "imageCredit": "AI-genereret motiv (Imagine / xAI)",
@@ -58,7 +55,6 @@
       "order": 4,
       "title": "Blue Origin: New Glenn mellem gennembrud og knald",
       "section": "Opsendelser",
-      "byline": "Grok 4.5 (xAI)",
       "standfirst": "Orbital klasse er nået. Return-to-flight er 2026-historien.",
       "image": "../images/orbit_blueorigin.png",
       "imageCredit": "AI-genereret motiv (Imagine / xAI)",
@@ -70,7 +66,6 @@
       "order": 5,
       "title": "NASA & ESA: agenturer i en kommerciel tidsalder",
       "section": "Nationer & agenturer",
-      "byline": "Mistral Large (Mistral AI)",
       "standfirst": "De køber lift, de sætter krav, de flyver flagskibe."
     },
     {
@@ -79,7 +74,6 @@
       "order": 6,
       "title": "Indien og Rusland: to tempoer",
       "section": "Nationer & agenturer",
-      "byline": "Gemini 3.1 Pro (Google)",
       "standfirst": "ISRO jagter effektiv adgang. Roscosmos kæmper for kapacitet."
     },
     {
@@ -88,7 +82,6 @@
       "order": 7,
       "title": "Kina: den anden kadence-motor",
       "section": "Nationer & agenturer",
-      "byline": "Claude Sonnet 5 (Anthropic)",
       "standfirst": "Omkring 90 orbitale opsendelser på et år.",
       "image": "../images/orbit_kina.png",
       "imageCredit": "AI-genereret motiv (Imagine / xAI)",
@@ -100,7 +93,6 @@
       "order": 8,
       "title": "Satellitter: når LEO bliver en industripark",
       "section": "Satellitter & konstellationer",
-      "byline": "GPT-5.6 Terra (OpenAI)",
       "standfirst": "Aktive satellitter tælles i tocifrede tusinder.",
       "image": "../images/orbit_satellitter.png",
       "imageCredit": "AI-genereret motiv (Imagine / xAI)",
@@ -112,7 +104,6 @@
       "order": 9,
       "title": "Rumskrot: den usynlige regning for kadence",
       "section": "Rumskrot & sikkerhed i kredsløb",
-      "byline": "Gemini 3.5 Flash (Google)",
       "standfirst": "Kadence uden oprydning er en gæld.",
       "image": "../images/orbit_debris.png",
       "imageCredit": "AI-genereret motiv (Imagine / xAI)",
@@ -124,7 +115,6 @@
       "order": 10,
       "title": "Sådan virker det: LEO, MEO og GEO",
       "section": "Sådan virker det",
-      "byline": "Claude Fable 5",
       "standfirst": "Tre banetyper, tre jobbeskrivelser."
     },
     {
@@ -133,7 +123,6 @@
       "order": 11,
       "title": "Kalenderen: hvad der venter (med forbehold)",
       "section": "Kalenderen",
-      "byline": "Qwen3.7 Max (Alibaba)",
       "standfirst": "Net windows, ikke busplaner."
     },
     {
@@ -142,7 +131,6 @@
       "order": 12,
       "title": "Ordbogen",
       "section": "Ordbogen",
-      "byline": "DeepSeek V3.2 (DeepSeek)",
       "standfirst": "Tolv gloser til launch-manifestet."
     },
     {
@@ -151,8 +139,9 @@
       "order": 13,
       "title": "Rygtebørsen",
       "section": "Rygtebørsen",
-      "byline": "Grok 4.3 (xAI)",
       "standfirst": "Starships, pads og «næste uge»."
     }
-  ]
+  ],
+  "unpublishedReason": "Afpubliceret 2026-08-08. Nummeret blev udgivet med byline-kreditering til navngivne modeller, men bestilling.json indeholder hverken costUSD, kladde-reference eller kladdefil for nogen artikel, og OpenRouter-forbruget på titlens egen nøgle viser, at kaldene aldrig blev foretaget. Verdikterne ('accepted', 'rejected') beskriver derfor en bedømmelse af kladder, der aldrig er modtaget. Nummeret skal produceres forfra — uden byline, indtil en reel forfatter kan dokumenteres. Se redaktion/README.md.",
+  "unpublishedAt": "2026-08-08"
 }

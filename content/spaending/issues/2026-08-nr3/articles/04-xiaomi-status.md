@@ -1,7 +1,6 @@
 ---
 title: "Xiaomi i Europa: stadig kalender, ikke prisliste"
 standfirst: SU7 chokerede i Kina. Typegodkendelse, forhandler og dansk regnestykke er det, der mangler — ikke flere renders.
-byline: Gemini 3.1 Pro (Google)
 section: Teknologi
 order: 4
 image: ../images/spaending_xiaomi3.png

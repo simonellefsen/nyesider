@@ -1,7 +1,6 @@
 ---
 title: Appetitten under kontrol
 standfirst: Velkommen til DOSIS nr. 2. GLP-1-medicin har ændret vægtsamtalen. Vi spørger, hvad der sker med tallerkenen — og med evidensen.
-byline: Claude Fable 5
 section: Leder
 order: 1
 image: ../images/dosis_leder.png

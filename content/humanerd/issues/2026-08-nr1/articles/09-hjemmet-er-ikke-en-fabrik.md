@@ -1,7 +1,6 @@
 ---
 title: "Hjemmet er ikke en fabrik"
 standfirst: "Husholdningsrobotten lever i rod, tæpper, børn, kæledyr og private kort over hjemmet."
-byline: "Claude Fable 5"
 section: "Hjemmet"
 order: 9
 image: "images/home-robot-vacuum.png"

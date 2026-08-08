@@ -1,7 +1,6 @@
 ---
 title: Bolzano og Cortina — to pulser i stenlandet
 standfirst: Den ene er en grøn by med palmefølelse i alperne. Den anden er vinter-OL-glamour med sommersti lige uden for døren.
-byline: Mistral Large (Mistral AI)
 section: Byliv
 order: 6
 image: ../images/horisonten_byliv.png

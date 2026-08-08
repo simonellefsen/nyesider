@@ -1,7 +1,6 @@
 ---
 title: Påstandskontoret
 standfirst: Tre filter-påstande uden facit-moral — men med plads til mere end ét ord.
-byline: Grok 4.5 (xAI)
 section: Påstandskontoret
 order: 9
 flow: true

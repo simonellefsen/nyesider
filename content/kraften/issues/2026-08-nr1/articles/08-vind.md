@@ -1,7 +1,6 @@
 ---
 title: "Vind: Nordsøens fabrik på havet"
 standfirst: Offshore er ikke bare turbiner. Det er installationsskibe, monopæle, kabler og en forsyningskæde under pres.
-byline: Claude Sonnet 5 (Anthropic)
 section: Vedvarende
 order: 8
 image: ../images/kraften_vind.png

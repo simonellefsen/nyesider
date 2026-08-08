@@ -1,7 +1,6 @@
 ---
 title: "Pulver vs. mad: hvornår shakeren vinder"
 standfirst: Whey, kasein, ært, ris — praktisk værktøj eller dyrt vand med skum?
-byline: Mistral Large (Mistral AI)
 section: Mad i praksis
 order: 5
 image: ../images/dosis_pulver.png

@@ -1,7 +1,6 @@
 ---
 title: "GLP-1: hvad det er — uden slides"
 standfirst: Et tarmhormon-spor, der blev til receptpligtig medicin. Her er mekanismen i almindeligt dansk.
-byline: GPT-5.6 Terra (OpenAI)
 section: Gennembrud & forskning
 order: 2
 image: ../images/dosis_glp1.png

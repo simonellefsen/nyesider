@@ -1,7 +1,6 @@
 ---
 title: Rygtebørsen
 standfirst: Hype-aktier i kroppen. Vurderet i kapsler — ikke i likes.
-byline: Qwen3.7 Max (Alibaba)
 section: Rygtebørsen
 order: 13
 flow: true

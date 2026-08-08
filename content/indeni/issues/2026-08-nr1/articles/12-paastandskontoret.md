@@ -1,7 +1,6 @@
 ---
 title: "Påstandskontoret"
 standfirst: "Tre hurtige svar på de sætninger, som lyder enklere, end de er."
-byline: "Claude Fable 5"
 section: "Påstandskontoret"
 order: 12
 ---

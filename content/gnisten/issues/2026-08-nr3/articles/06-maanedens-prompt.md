@@ -1,7 +1,6 @@
 ---
 title: "Månedens prompt: Agent med bremse"
 standfirst: Kopiér, tilpas, kør — med et indbygget stop.
-byline: DeepSeek V3.2 (DeepSeek)
 section: Månedens prompt
 order: 6
 flow: true

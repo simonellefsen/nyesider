@@ -1,7 +1,6 @@
 ---
 title: "Sprog på skiltet: når vejnavne er politik"
 standfirst: Tosprogede skilte er ikke pynt. De er en aftale om, hvem der hører til.
-byline: Claude Sonnet 5 (Anthropic)
 section: Sprog & symboler
 order: 3
 image: ../images/kulturboxen_skilt.png

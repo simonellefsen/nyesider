@@ -2,6 +2,34 @@
 
 Redaktionel hukommelse for forlaget. Chefredaktør-agenten læser og opdaterer disse filer ved hver produktion.
 
+## ⛔ Byline-reglen (indført 2026-08-08 efter afpublicering af 17 numre)
+
+**En byline er en påstand om, hvem der har skrevet teksten. Den skal være sand.**
+
+Den 8. august 2026 blev **191 artikler i 17 numre** rullet tilbage til `status: draft`. De var
+udgivet med byline til navngivne modeller, men `bestilling.json` havde hverken `costUSD`,
+`receipt.draft` eller kladdefil for en eneste af dem — og OpenRouter-forbruget viste, at flere
+af titlernes nøgler (KulturBoxen, Orbit, Kraften) **aldrig havde været kaldt**. Verdikterne
+(`accepted`, `rejected`) beskrev bedømmelser af kladder, der aldrig var modtaget.
+
+Derfor gælder nu, uden undtagelse:
+
+| Hvem skrev teksten? | `writer.model` | Byline | `receipt` |
+|---|---|---|---|
+| En model via OpenRouter | modellens id, fx `anthropic/claude-sonnet-5` | modellens navn | `costUSD` + `draft` **skal** være udfyldt |
+| Chefredaktionen | `"editor-led"` | **ingen byline** | `costUSD: null`, `draft: null` |
+
+- **Ingen kladde = intet verdikt.** `verdict.status` må først skrives, når der ligger en rigtig
+  kladde i `kladder/`. At skrive `rejected` om noget, der aldrig er bestilt, er ikke sjusk —
+  det er et opdigtet revisionsspor.
+- **Genudgivelses-standarden aftalt med ejeren er: ingen byline**, indtil en reel forfatter kan
+  dokumenteres. Sæt hellere ingen byline end en, du håber er rigtig.
+- **Brug titlens egen nøgle.** `.env.<slug>` — aldrig en anden titels. Det var netop
+  dashboardet med de urørte nøgler, der afslørede sagen.
+
+De afpublicerede numre bærer hver især `unpublishedReason` i deres `issue.json`. **Sæt dem ikke
+tilbage til `published` uden at have produceret dem rigtigt.**
+
 ## Struktur
 
 - **[modelkartotek.md](modelkartotek.md)** — fælles erfaringer med OpenRouter-modeller (skribenter og billedmodeller) på tværs af alle titler. Læs før casting af nye numre; opdater efter hver produktion.

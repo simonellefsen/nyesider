@@ -1,7 +1,6 @@
 ---
 title: "Hardware i hverdagen: når kroppen får reservedele"
 standfirst: Hofte, knæ, pacemaker, sensorer — longevity er også smedearbejde, ikke kun smoothies.
-byline: Grok 4.5 (xAI)
 section: Proteser & implantater
 order: 8
 image: ../images/dosis_implantat.png

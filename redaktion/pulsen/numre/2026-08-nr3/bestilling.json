@@ -27,8 +27,8 @@
         "format": "leder"
       },
       "writer": {
-        "byline": "Claude Fable 5",
-        "model": "chefredaktør",
+        "byline": null,
+        "model": "editor-led",
         "fallback": null
       },
       "receipt": {
@@ -37,10 +37,10 @@
         "draft": null
       },
       "verdict": {
-        "status": "rewritten-by-editor",
-        "checkedAt": "2026-08-08",
+        "status": null,
+        "checkedAt": null,
         "citations": 0,
-        "editorNote": "Depth pass 2026-08-08; Corti replaced; Rygtebørsen removed house-wide for PULSEN."
+        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
       }
     },
     {
@@ -57,8 +57,8 @@
         "format": "feature"
       },
       "writer": {
-        "byline": "Claude Opus 4.8 (Anthropic)",
-        "model": "anthropic/claude-opus-4.8",
+        "byline": null,
+        "model": "editor-led",
         "fallback": "deepseek/deepseek-v3.2"
       },
       "receipt": {
@@ -67,10 +67,10 @@
         "draft": null
       },
       "verdict": {
-        "status": "rewritten-by-editor",
-        "checkedAt": "2026-08-08",
+        "status": null,
+        "checkedAt": null,
         "citations": 0,
-        "editorNote": "Depth pass 2026-08-08; Corti replaced; Rygtebørsen removed house-wide for PULSEN."
+        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
       }
     },
     {
@@ -87,8 +87,8 @@
         "format": "feature"
       },
       "writer": {
-        "byline": "GPT-5.5 (OpenAI)",
-        "model": "openai/gpt-5.5",
+        "byline": null,
+        "model": "editor-led",
         "fallback": "deepseek/deepseek-v3.2"
       },
       "receipt": {
@@ -97,10 +97,10 @@
         "draft": null
       },
       "verdict": {
-        "status": "rewritten-by-editor",
-        "checkedAt": "2026-08-08",
+        "status": null,
+        "checkedAt": null,
         "citations": 0,
-        "editorNote": "Depth pass 2026-08-08; Corti replaced; Rygtebørsen removed house-wide for PULSEN."
+        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
       }
     },
     {
@@ -117,8 +117,8 @@
         "format": "feature"
       },
       "writer": {
-        "byline": "Mistral Large (Mistral AI)",
-        "model": "mistralai/mistral-large",
+        "byline": null,
+        "model": "editor-led",
         "fallback": "deepseek/deepseek-v3.2"
       },
       "receipt": {
@@ -127,10 +127,10 @@
         "draft": null
       },
       "verdict": {
-        "status": "rewritten-by-editor",
-        "checkedAt": "2026-08-08",
+        "status": null,
+        "checkedAt": null,
         "citations": 6,
-        "editorNote": "Replaced no-story Corti IPO recap with international AI-in-healthcare feature (EU/US/Asia)."
+        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
       }
     },
     {
@@ -147,8 +147,8 @@
         "format": "feature"
       },
       "writer": {
-        "byline": "Gemini 3.1 Pro (Google)",
-        "model": "google/gemini-3.1-pro",
+        "byline": null,
+        "model": "editor-led",
         "fallback": "deepseek/deepseek-v3.2"
       },
       "receipt": {
@@ -157,10 +157,10 @@
         "draft": null
       },
       "verdict": {
-        "status": "rewritten-by-editor",
-        "checkedAt": "2026-08-08",
+        "status": null,
+        "checkedAt": null,
         "citations": 0,
-        "editorNote": "Depth pass 2026-08-08; Corti replaced; Rygtebørsen removed house-wide for PULSEN."
+        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
       }
     },
     {
@@ -177,8 +177,8 @@
         "format": "feature"
       },
       "writer": {
-        "byline": "Qwen3.7 Max (Alibaba)",
-        "model": "qwen/qwen3.7-max",
+        "byline": null,
+        "model": "editor-led",
         "fallback": "deepseek/deepseek-v3.2"
       },
       "receipt": {
@@ -187,10 +187,10 @@
         "draft": null
       },
       "verdict": {
-        "status": "rewritten-by-editor",
-        "checkedAt": "2026-08-08",
+        "status": null,
+        "checkedAt": null,
         "citations": 0,
-        "editorNote": "Depth pass 2026-08-08; Corti replaced; Rygtebørsen removed house-wide for PULSEN."
+        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
       }
     },
     {
@@ -207,8 +207,8 @@
         "format": "vandrehistorier"
       },
       "writer": {
-        "byline": "Llama 4 Maverick (Meta)",
-        "model": "meta-llama/llama-4-maverick",
+        "byline": null,
+        "model": "editor-led",
         "fallback": "deepseek/deepseek-v3.2"
       },
       "receipt": {
@@ -217,10 +217,10 @@
         "draft": null
       },
       "verdict": {
-        "status": "rewritten-by-editor",
-        "checkedAt": "2026-08-08",
+        "status": null,
+        "checkedAt": null,
         "citations": 0,
-        "editorNote": "Depth pass 2026-08-08; Corti replaced; Rygtebørsen removed house-wide for PULSEN."
+        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
       }
     },
     {
@@ -237,8 +237,8 @@
         "format": "bagsnit"
       },
       "writer": {
-        "byline": "Gemini 3.5 Flash (Google)",
-        "model": "google/gemini-3.5-flash",
+        "byline": null,
+        "model": "editor-led",
         "fallback": "minimax/minimax-m3"
       },
       "receipt": {
@@ -247,10 +247,10 @@
         "draft": null
       },
       "verdict": {
-        "status": "accepted-after-edit",
-        "checkedAt": "2026-08-08",
+        "status": null,
+        "checkedAt": null,
         "citations": 0,
-        "editorNote": "Renumbered after Rygtebørsen removal."
+        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
       }
     },
     {
@@ -267,8 +267,8 @@
         "format": "feature"
       },
       "writer": {
-        "byline": "Mistral Large (Mistral AI)",
-        "model": "mistralai/mistral-large",
+        "byline": null,
+        "model": "editor-led",
         "fallback": null
       },
       "receipt": {
@@ -277,10 +277,10 @@
         "draft": null
       },
       "verdict": {
-        "status": "rejected",
-        "checkedAt": "2026-08-08",
+        "status": null,
+        "checkedAt": null,
         "citations": 0,
-        "editorNote": "No-story repeat; replaced by europa-ai international AI healthcare feature."
+        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
       }
     },
     {
@@ -297,8 +297,8 @@
         "format": "rygteboersen"
       },
       "writer": {
-        "byline": "Grok 4.3 (xAI)",
-        "model": "x-ai/grok-4.3",
+        "byline": null,
+        "model": "editor-led",
         "fallback": null
       },
       "receipt": {
@@ -307,11 +307,12 @@
         "draft": null
       },
       "verdict": {
-        "status": "rejected",
-        "checkedAt": "2026-08-08",
+        "status": null,
+        "checkedAt": null,
         "citations": 0,
-        "editorNote": "Rygtebørsen dropped permanently for PULSEN; use footnotes/forbehold in features."
+        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
       }
     }
-  ]
+  ],
+  "integrityNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
 }

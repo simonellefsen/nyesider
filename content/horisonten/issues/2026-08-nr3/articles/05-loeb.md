@@ -1,7 +1,6 @@
 ---
 title: Løb i dale der trækker vejret
 standfirst: Flade dalbunde, stejle skyrunnerspor og en sø-runde der får pulsen ned mellem tinderne.
-byline: DeepSeek V3.2 (DeepSeek)
 section: Løb
 order: 5
 image: ../images/horisonten_loeb.png

@@ -1,7 +1,6 @@
 ---
 title: "Rumskrot: den usynlige regning for kadence"
 standfirst: Kataloget tæller titusinder af objekter. De fleste er ikke arbejdende satellitter. Kadence uden oprydning er en gæld.
-byline: Gemini 3.5 Flash (Google)
 section: Rumskrot & sikkerhed i kredsløb
 order: 9
 image: ../images/orbit_debris.png

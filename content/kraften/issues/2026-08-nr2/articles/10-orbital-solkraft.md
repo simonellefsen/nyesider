@@ -1,7 +1,6 @@
 ---
 title: "Orbital solkraft: hype vs. demonstration"
 standfirst: Ideen er gammel. Demonstratorerne er det eneste, der tæller. Indtil da er SBSP en R&D-spalte — ikke en erstatning for net på jorden.
-byline: Qwen3.7 Max (Alibaba)
 section: Rumkraft
 order: 10
 image: ../images/kraften_sbsp.png

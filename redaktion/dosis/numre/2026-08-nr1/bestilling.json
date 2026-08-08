@@ -6,108 +6,443 @@
   "retrofitNote": "Denne fil blev skrevet EFTER udgivelse (2026-08-01), som skabelon-eksempel for redaktion/README.md's nye trin 3-4 — DOSIS nr. 1 blev produceret før bestilling.json fandtes, så det oprindelige brief-ordlyd er ikke bevaret. brief.* felter er rekonstrueret fra den færdige artikel og notesbogen; receipt.words og verdict.citations er talt direkte i det publicerede indhold og er præcise. writer.model (OpenRouter-id) er bedste gæt ud fra byline — verificér mod redaktion/modeller.json før du stoler på dem til noget automatiseret.",
   "budget": {
     "articles": 14,
-    "wordsPerArticle": [150, 450],
+    "wordsPerArticle": [
+      150,
+      450
+    ],
     "targetPages": 16,
     "note": "Intet ordmål blev skrevet ned før produktion. Faktisk output landede 87-431 ord/artikel (median ~200) — lavere end HORISONTEN nr. 1's 450-650-mål. Dette interval er observeret, ikke bestilt."
   },
   "opgaver": [
     {
-      "slug": "leder", "order": 1, "section": "Leder",
-      "brief": { "angle": "Velkommen til DOSIS nr. 1 — hvorfor protein-æraen og hvad magasinet dækker.", "words": [150, 250], "mustCite": 0, "format": "leder" },
-      "writer": { "byline": "Claude Fable 5", "model": "chefredaktør", "fallback": null },
-      "receipt": { "words": 202, "costUSD": null, "draft": null },
-      "verdict": { "status": "accepted", "checkedAt": "2026-08-01", "citations": 0, "editorNote": "Skrevet af redaktionen selv, ikke bestilt til en model." }
+      "slug": "leder",
+      "order": 1,
+      "section": "Leder",
+      "brief": {
+        "angle": "Velkommen til DOSIS nr. 1 — hvorfor protein-æraen og hvad magasinet dækker.",
+        "words": [
+          150,
+          250
+        ],
+        "mustCite": 0,
+        "format": "leder"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": 202,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": null,
+        "checkedAt": null,
+        "citations": 0,
+        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+      }
     },
     {
-      "slug": "protein-aeraen", "order": 2, "section": "Gennembrud & forskning",
-      "brief": { "angle": "Hvorfor protein pludselig er overalt — fra bodybuilding til morgenyoghurt.", "words": [180, 280], "mustCite": 2, "format": "feature" },
-      "writer": { "byline": "GPT-5.6 Terra (OpenAI)", "model": "openai/gpt-5.6-terra", "fallback": "deepseek/deepseek-v3.2" },
-      "receipt": { "words": 215, "costUSD": null, "draft": null },
-      "verdict": { "status": "accepted", "checkedAt": "2026-08-01", "citations": 0, "editorNote": "Publiceret uden kilder — under mustCite=2. Ikke fanget før den nye regel; ingen kendte fejlagtige tal, så ikke rettet med tilbagevirkende kraft (se Workstream C-triage: kun rettet hvor der er konkrete forkerte/uunderbyggede tal)." }
+      "slug": "protein-aeraen",
+      "order": 2,
+      "section": "Gennembrud & forskning",
+      "brief": {
+        "angle": "Hvorfor protein pludselig er overalt — fra bodybuilding til morgenyoghurt.",
+        "words": [
+          180,
+          280
+        ],
+        "mustCite": 2,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 215,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": null,
+        "checkedAt": null,
+        "citations": 0,
+        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+      }
     },
     {
-      "slug": "hvor-meget-protein", "order": 3, "section": "Protein & træning",
-      "brief": { "angle": "Hvor mange gram protein har en almindelig voksen faktisk brug for — anbefaling vs. influencer-regneark.", "words": [180, 280], "mustCite": 2, "mustNumber": ["g/kg kropsvægt"], "format": "feature" },
-      "writer": { "byline": "Claude Sonnet 5 (Anthropic)", "model": "anthropic/claude-sonnet-5", "fallback": "deepseek/deepseek-v3.2" },
-      "receipt": { "words": 218, "costUSD": null, "draft": null },
-      "verdict": { "status": "accepted", "checkedAt": "2026-08-01", "citations": 0, "editorNote": "Ernæringsråd uden kilde — flagget i Workstream C som en af de 24 uunderbyggede talpåstande; rettes i egen omgang." }
+      "slug": "hvor-meget-protein",
+      "order": 3,
+      "section": "Protein & træning",
+      "brief": {
+        "angle": "Hvor mange gram protein har en almindelig voksen faktisk brug for — anbefaling vs. influencer-regneark.",
+        "words": [
+          180,
+          280
+        ],
+        "mustCite": 2,
+        "mustNumber": [
+          "g/kg kropsvægt"
+        ],
+        "format": "feature"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 218,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": null,
+        "checkedAt": null,
+        "citations": 0,
+        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+      }
     },
     {
-      "slug": "tallerkenen", "order": 4, "section": "Ernæring & kost",
-      "brief": { "angle": "Kost som mønster, ikke som abonnement — tallerkenen frem for posen.", "words": [150, 250], "mustCite": 0, "format": "essay" },
-      "writer": { "byline": "Gemini 3.1 Pro (Google)", "model": "google/gemini-3.1-pro", "fallback": "deepseek/deepseek-v3.2" },
-      "receipt": { "words": 190, "costUSD": null, "draft": null },
-      "verdict": { "status": "accepted", "checkedAt": "2026-08-01", "citations": 0, "editorNote": "Stemningsstof, ingen talpåstande — mustCite=0 var korrekt." }
+      "slug": "tallerkenen",
+      "order": 4,
+      "section": "Ernæring & kost",
+      "brief": {
+        "angle": "Kost som mønster, ikke som abonnement — tallerkenen frem for posen.",
+        "words": [
+          150,
+          250
+        ],
+        "mustCite": 0,
+        "format": "essay"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 190,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": null,
+        "checkedAt": null,
+        "citations": 0,
+        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+      }
     },
     {
-      "slug": "pulver-vs-mad", "order": 5, "section": "Mad i praksis",
-      "brief": { "angle": "Hvornår shakeren slår almindelig mad — og hvornår omvendt.", "words": [180, 300], "mustCite": 1, "mustNumber": ["g protein/kg (NNR2023)"], "format": "feature" },
-      "writer": { "byline": "Mistral Large (Mistral AI)", "model": "mistralai/mistral-large", "fallback": "deepseek/deepseek-v3.2" },
-      "receipt": { "words": 276, "costUSD": null, "draft": null },
-      "verdict": { "status": "accepted-after-edit", "checkedAt": "2026-08-01", "citations": 1, "editorNote": "Manglede billede og kilde ved første accept; rettet 2026-08-01 med NNR2023 protein-mål + flad-vektor-billede." }
+      "slug": "pulver-vs-mad",
+      "order": 5,
+      "section": "Mad i praksis",
+      "brief": {
+        "angle": "Hvornår shakeren slår almindelig mad — og hvornår omvendt.",
+        "words": [
+          180,
+          300
+        ],
+        "mustCite": 1,
+        "mustNumber": [
+          "g protein/kg (NNR2023)"
+        ],
+        "format": "feature"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 276,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": null,
+        "checkedAt": null,
+        "citations": 1,
+        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+      }
     },
     {
-      "slug": "d-vitamin", "order": 6, "section": "Vitaminer & mineraler",
-      "brief": { "angle": "D-vitamin i nordisk mørke — mangel, megadoser og midten.", "words": [150, 250], "mustCite": 1, "mustNumber": ["µg/dag (SST)"], "format": "feature" },
-      "writer": { "byline": "DeepSeek V3.2 (DeepSeek)", "model": "deepseek/deepseek-v3.2", "fallback": "google/gemini-3.5-flash" },
-      "receipt": { "words": 186, "costUSD": null, "draft": null },
-      "verdict": { "status": "accepted-after-edit", "checkedAt": "2026-08-01", "citations": 1, "editorNote": "Oprindelig tekst havde billede men ingen konkret dosis — tilføjede SST's 5-10/20 µg-tal med kilde 2026-08-01." }
+      "slug": "d-vitamin",
+      "order": 6,
+      "section": "Vitaminer & mineraler",
+      "brief": {
+        "angle": "D-vitamin i nordisk mørke — mangel, megadoser og midten.",
+        "words": [
+          150,
+          250
+        ],
+        "mustCite": 1,
+        "mustNumber": [
+          "µg/dag (SST)"
+        ],
+        "format": "feature"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": "google/gemini-3.5-flash"
+      },
+      "receipt": {
+        "words": 186,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": null,
+        "checkedAt": null,
+        "citations": 1,
+        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+      }
     },
     {
-      "slug": "tilskudsjunglen", "order": 7, "section": "Tilskud, piller & væsker",
-      "brief": { "angle": "Kosttilskud er reguleret — men ikke som medicin. Hvad betyder det for tilliden?", "words": [180, 300], "mustCite": 2, "format": "feature" },
-      "writer": { "byline": "GLM-5.2 (Z.ai)", "model": "z-ai/glm-5.2", "fallback": "deepseek/deepseek-v3.2" },
-      "receipt": { "words": 285, "costUSD": null, "draft": null },
-      "verdict": { "status": "accepted-after-edit", "checkedAt": "2026-08-01", "citations": 2, "editorNote": "Manglede billede og kilder; tilføjede JAMA 2018-studiet + DTU's 60%-tal og maksimalistisk billede 2026-08-01." }
+      "slug": "tilskudsjunglen",
+      "order": 7,
+      "section": "Tilskud, piller & væsker",
+      "brief": {
+        "angle": "Kosttilskud er reguleret — men ikke som medicin. Hvad betyder det for tilliden?",
+        "words": [
+          180,
+          300
+        ],
+        "mustCite": 2,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 285,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": null,
+        "checkedAt": null,
+        "citations": 2,
+        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+      }
     },
     {
-      "slug": "implantater", "order": 8, "section": "Proteser & implantater",
-      "brief": { "angle": "Hardware i hverdagen — hofte, knæ og sensorer, ikke kun smoothies.", "words": [120, 220], "mustCite": 1, "format": "feature" },
-      "writer": { "byline": "Grok 4.5 (xAI)", "model": "x-ai/grok-4.5", "fallback": "deepseek/deepseek-v3.2" },
-      "receipt": { "words": 132, "costUSD": null, "draft": null },
-      "verdict": { "status": "accepted", "checkedAt": "2026-08-01", "citations": 0, "editorNote": "Under mustCite=1 — ingen konkret fejlagtig tal identificeret, så ikke prioriteret i Workstream C-triagen." }
+      "slug": "implantater",
+      "order": 8,
+      "section": "Proteser & implantater",
+      "brief": {
+        "angle": "Hardware i hverdagen — hofte, knæ og sensorer, ikke kun smoothies.",
+        "words": [
+          120,
+          220
+        ],
+        "mustCite": 1,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 132,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": null,
+        "checkedAt": null,
+        "citations": 0,
+        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+      }
     },
     {
-      "slug": "wearables-og-hjemmetests", "order": 9, "section": "Hardware til kroppen",
-      "brief": { "angle": "Ur, CGM, blod- og urintest hjemme — data vs. diagnose.", "words": [250, 450], "mustCite": 2, "format": "feature" },
-      "writer": { "byline": "GPT-5.6 Terra (OpenAI)", "model": "openai/gpt-5.6-terra", "fallback": "deepseek/deepseek-v3.2" },
-      "receipt": { "words": 427, "costUSD": null, "draft": null },
-      "verdict": { "status": "accepted", "checkedAt": "2026-08-01", "citations": 0, "editorNote": "Længste artikel i nummeret uden en eneste kilde — reelt hul, men ingen konkret fejlagtig tal fundet ved gennemgang; kandidat til efterfølgende kildetilføjelse uden for Workstream C's snævre triage." }
+      "slug": "wearables-og-hjemmetests",
+      "order": 9,
+      "section": "Hardware til kroppen",
+      "brief": {
+        "angle": "Ur, CGM, blod- og urintest hjemme — data vs. diagnose.",
+        "words": [
+          250,
+          450
+        ],
+        "mustCite": 2,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 427,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": null,
+        "checkedAt": null,
+        "citations": 0,
+        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+      }
     },
     {
-      "slug": "longevity-hype", "order": 10, "section": "Longevity & aldring",
-      "brief": { "angle": "Blå zoner og biologisk alder — måling er spændende, salg er en forretning.", "words": [150, 250], "mustCite": 1, "format": "feature" },
-      "writer": { "byline": "Qwen3.7 Max (Alibaba)", "model": "qwen/qwen3.7-max", "fallback": "deepseek/deepseek-v3.2" },
-      "receipt": { "words": 192, "costUSD": null, "draft": null },
-      "verdict": { "status": "accepted-after-edit", "checkedAt": "2026-08-01", "citations": 1, "editorNote": "Tilføjede Newman/Ig Nobel 2024-kilden om fejlbehæftede blå zone-data 2026-08-01." }
+      "slug": "longevity-hype",
+      "order": 10,
+      "section": "Longevity & aldring",
+      "brief": {
+        "angle": "Blå zoner og biologisk alder — måling er spændende, salg er en forretning.",
+        "words": [
+          150,
+          250
+        ],
+        "mustCite": 1,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 192,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": null,
+        "checkedAt": null,
+        "citations": 1,
+        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+      }
     },
     {
-      "slug": "tallet", "order": 11, "section": "Laboratoriet / tallet",
-      "brief": { "angle": "Konkrete pejlemærker for kroppen i Danmark, med kilde og år pr. celle — ikke facit.", "words": [350, 500], "mustCite": 6, "format": "tallet" },
-      "writer": { "byline": "DeepSeek V3.2 (DeepSeek)", "model": "deepseek/deepseek-v3.2", "fallback": "google/gemini-3.5-flash" },
-      "receipt": { "words": 431, "costUSD": null, "draft": null },
-      "verdict": { "status": "rewritten-by-editor", "checkedAt": "2026-08-01", "citations": 7, "editorNote": "Oprindelig version brugte vage 'ballpark'-rækker uden kilder — helt genopbygget som kildetabel (levetid, overvægt, fysisk aktivitet, tilskud, D-vitamin, hofte-/knæalloplastik) 2026-08-01. Skabelon for husreglen i redaktion/README.md om hårde tal." }
+      "slug": "tallet",
+      "order": 11,
+      "section": "Laboratoriet / tallet",
+      "brief": {
+        "angle": "Konkrete pejlemærker for kroppen i Danmark, med kilde og år pr. celle — ikke facit.",
+        "words": [
+          350,
+          500
+        ],
+        "mustCite": 6,
+        "format": "tallet"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": "google/gemini-3.5-flash"
+      },
+      "receipt": {
+        "words": 431,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": null,
+        "checkedAt": null,
+        "citations": 7,
+        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+      }
     },
     {
-      "slug": "ordbogen", "order": 12, "section": "Ordbogen",
-      "brief": { "angle": "Sarkopeni, whey, CGM, hjemmetest — korte definitioner.", "words": [100, 200], "mustCite": 0, "format": "ordbog" },
-      "writer": { "byline": "Gemini 3.5 Flash (Google)", "model": "google/gemini-3.5-flash", "fallback": "minimax/minimax-m3" },
-      "receipt": { "words": 146, "costUSD": null, "draft": null },
-      "verdict": { "status": "accepted", "checkedAt": "2026-08-01", "citations": 0, "editorNote": "Glossar — mustCite=0 korrekt." }
+      "slug": "ordbogen",
+      "order": 12,
+      "section": "Ordbogen",
+      "brief": {
+        "angle": "Sarkopeni, whey, CGM, hjemmetest — korte definitioner.",
+        "words": [
+          100,
+          200
+        ],
+        "mustCite": 0,
+        "format": "ordbog"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": "minimax/minimax-m3"
+      },
+      "receipt": {
+        "words": 146,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": null,
+        "checkedAt": null,
+        "citations": 0,
+        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+      }
     },
     {
-      "slug": "rygteboersen", "order": 13, "section": "Rygtebørsen",
-      "brief": { "angle": "Hype-aktier i kroppen — spekulativ sladderkolonne.", "words": [80, 180], "mustCite": 0, "format": "rygteboersen" },
-      "writer": { "byline": "Qwen3.7 Max (Alibaba)", "model": "qwen/qwen3.7-max", "fallback": "deepseek/deepseek-v3.2" },
-      "receipt": { "words": 115, "costUSD": null, "draft": null },
-      "verdict": { "status": "accepted", "checkedAt": "2026-08-01", "citations": 0, "editorNote": "Format er eksplicit spekulativt — mustCite=0 er en bevidst redaktionel beslutning, ikke et hul." }
+      "slug": "rygteboersen",
+      "order": 13,
+      "section": "Rygtebørsen",
+      "brief": {
+        "angle": "Hype-aktier i kroppen — spekulativ sladderkolonne.",
+        "words": [
+          80,
+          180
+        ],
+        "mustCite": 0,
+        "format": "rygteboersen"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 115,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": null,
+        "checkedAt": null,
+        "citations": 0,
+        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+      }
     },
     {
-      "slug": "til-pulsen", "order": 14, "section": "Kryds (PULSEN m.fl.)",
-      "brief": { "angle": "Bro til PULSEN, når journalen tager over fra kosten.", "words": [70, 150], "mustCite": 0, "format": "krydslink" },
-      "writer": { "byline": "Claude Fable 5", "model": "chefredaktør", "fallback": null },
-      "receipt": { "words": 87, "costUSD": null, "draft": null },
-      "verdict": { "status": "accepted", "checkedAt": "2026-08-01", "citations": 0, "editorNote": "Skrevet af redaktionen selv." }
+      "slug": "til-pulsen",
+      "order": 14,
+      "section": "Kryds (PULSEN m.fl.)",
+      "brief": {
+        "angle": "Bro til PULSEN, når journalen tager over fra kosten.",
+        "words": [
+          70,
+          150
+        ],
+        "mustCite": 0,
+        "format": "krydslink"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": 87,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": null,
+        "checkedAt": null,
+        "citations": 0,
+        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+      }
     }
-  ]
+  ],
+  "integrityNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
 }

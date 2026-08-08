@@ -1,7 +1,6 @@
 ---
 title: "Fission 2026: levetid, nybyggeri og tålmodighed"
 standfirst: Klassisk atomkraft er ikke en powerpoint. Det er beton, reaktortanke og årtier. Hvor står Europa og verden?
-byline: Claude Sonnet 5 (Anthropic)
 section: Atom
 order: 3
 image: ../images/kraften_atom.png

@@ -1,7 +1,6 @@
 ---
 title: "Måle appetitten væk? Wearables under GLP-1"
 standfirst: CGM og vægtkurver kan hjælpe — eller skabe ny angst.
-byline: Grok 4.5 (xAI)
 section: Wearables & hjemmetests
 order: 7
 image: ../images/dosis_glp1_wearable.png

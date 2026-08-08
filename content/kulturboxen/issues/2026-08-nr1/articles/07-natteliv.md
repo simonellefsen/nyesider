@@ -1,7 +1,6 @@
 ---
 title: "Når solen går ned: natteliv og det sociale efter kl. 18"
 standfirst: Tbilisi kan være højlydt indtil det lyse. Landsbyen kan være stille — og stadig fuld af folk.
-byline: Grok 4.5 (xAI)
 section: Natteliv & socialt liv
 order: 7
 image: ../images/kulturboxen_natteliv.png

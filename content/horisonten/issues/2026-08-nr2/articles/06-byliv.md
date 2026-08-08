@@ -20,7 +20,7 @@ Tbilisi er HORISONTENs byportræt i dette nummer. Gamle bydel med svovlbade og s
 
 ### Aften
 
-Nattelivet kan være langt. Læs [KULTURBOXEN om natteliv](/kulturboxen/2026-08-nr1/natteliv), hvis du vil forstå, hvorfor bordet pludselig er otte personer. Taxa-apps er din ven efter midnat.
+Nattelivet kan være langt. Læs KULTURBOXEN om natteliv, hvis du vil forstå, hvorfor bordet pludselig er otte personer. Taxa-apps er din ven efter midnat.
 
 ### By uden filter
 

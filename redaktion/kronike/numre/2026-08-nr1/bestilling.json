@@ -27,7 +27,7 @@
         "format": "leder"
       },
       "writer": {
-        "byline": "Claude Fable 5",
+        "byline": null,
         "model": "editor-led",
         "fallback": null
       },
@@ -37,10 +37,10 @@
         "draft": null
       },
       "verdict": {
-        "status": "rewritten-by-editor",
-        "checkedAt": "2026-08-08",
+        "status": null,
+        "checkedAt": null,
         "citations": 0,
-        "editorNote": "KRØNIKE nr.1 inaugural; editor-written deep features with footnotes."
+        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
       }
     },
     {
@@ -57,7 +57,7 @@
         "format": "tallet"
       },
       "writer": {
-        "byline": "GPT-5.6 Terra (OpenAI)",
+        "byline": null,
         "model": "editor-led",
         "fallback": null
       },
@@ -67,10 +67,10 @@
         "draft": null
       },
       "verdict": {
-        "status": "rewritten-by-editor",
-        "checkedAt": "2026-08-08",
+        "status": null,
+        "checkedAt": null,
         "citations": 9,
-        "editorNote": "KRØNIKE nr.1 inaugural; editor-written deep features with footnotes."
+        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
       }
     },
     {
@@ -87,7 +87,7 @@
         "format": "feature"
       },
       "writer": {
-        "byline": "Claude Sonnet 5 (Anthropic)",
+        "byline": null,
         "model": "editor-led",
         "fallback": null
       },
@@ -97,10 +97,10 @@
         "draft": null
       },
       "verdict": {
-        "status": "rewritten-by-editor",
-        "checkedAt": "2026-08-08",
+        "status": null,
+        "checkedAt": null,
         "citations": 5,
-        "editorNote": "Depth pass: maps/fact boxes/PD images/research (Slien, Ribe, 1658, Mormon, Ørsted correspondence, etc.)."
+        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
       }
     },
     {
@@ -117,7 +117,7 @@
         "format": "feature"
       },
       "writer": {
-        "byline": "Gemini 3.1 Pro (Google)",
+        "byline": null,
         "model": "editor-led",
         "fallback": null
       },
@@ -127,10 +127,10 @@
         "draft": null
       },
       "verdict": {
-        "status": "rewritten-by-editor",
-        "checkedAt": "2026-08-08",
+        "status": null,
+        "checkedAt": null,
         "citations": 3,
-        "editorNote": "Depth pass: maps/fact boxes/PD images/research (Slien, Ribe, 1658, Mormon, Ørsted correspondence, etc.)."
+        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
       }
     },
     {
@@ -147,7 +147,7 @@
         "format": "feature"
       },
       "writer": {
-        "byline": "Mistral Large (Mistral AI)",
+        "byline": null,
         "model": "editor-led",
         "fallback": null
       },
@@ -157,10 +157,10 @@
         "draft": null
       },
       "verdict": {
-        "status": "rewritten-by-editor",
-        "checkedAt": "2026-08-08",
+        "status": null,
+        "checkedAt": null,
         "citations": 2,
-        "editorNote": "Depth pass: maps/fact boxes/PD images/research (Slien, Ribe, 1658, Mormon, Ørsted correspondence, etc.)."
+        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
       }
     },
     {
@@ -182,20 +182,20 @@
         ]
       },
       "writer": {
-        "byline": "Claude Opus 4.8 (Anthropic)",
+        "byline": null,
         "model": "anthropic/claude-opus-4.8",
         "fallback": null
       },
       "receipt": {
         "words": 849,
-        "costUSD": 0,
+        "costUSD": 0.055,
         "draft": "kladder/06-reformation.md"
       },
       "verdict": {
         "status": "accepted-after-edit",
         "checkedAt": "2026-08-08",
         "citations": 7,
-        "editorNote": "Kommissioneret hos anthropic/claude-opus-4.8 (foerste rigtige model-bestilling i dette nummer; tidligere var alle 12 editor-led). Staerk kladde: navngiven aktoer (Joachim Roennow), konkret scene, faestebonde-perspektiv. Chefredaktoerens rettelser: Roennow var biskop i ROSKILDE (ikke 'Sjaelland'), doede 1. maj 1542 paa Koebenhavns Slot (kladden skrev 1544, hvilket ogsaa gjorde 'otte aar bag mure' forkert - det var knap seks); 30. okt. 1536 er RECESSEN, ikke haandfaestningen; 'syv superintendenter' kunne ikke verificeres og er fjernet; et citat tilskrevet 'historikeren' uden navn er skrevet om til almindelig broedtekst (ingen uattribuerede citater). Kirkegodsandelen maerket som pejlemaerke. Alle fodnoter erstattet med verificerede lex.dk / danmarkshistorien.dk-links."
+        "editorNote": "REELT kommissioneret 2026-08-08 hos anthropic/claude-opus-4.8 paa .env.kronike — kladde findes i kladder/. Rettet af chefredaktionen: Roennow doede 1542 (ikke 1544), biskop i Roskilde (ikke 'Sjaelland'), 30. okt. 1536 er recessen, 'syv superintendenter' ikke verificerbart, uattribueret citat fjernet. Byline midlertidigt fjernet efter ejerbeslutning 2026-08-08 (hele nummeret genproduceres uden byline)."
       }
     },
     {
@@ -212,7 +212,7 @@
         "format": "feature"
       },
       "writer": {
-        "byline": "Grok 4.5 (xAI)",
+        "byline": null,
         "model": "editor-led",
         "fallback": null
       },
@@ -222,10 +222,10 @@
         "draft": null
       },
       "verdict": {
-        "status": "rewritten-by-editor",
-        "checkedAt": "2026-08-08",
+        "status": null,
+        "checkedAt": null,
         "citations": 3,
-        "editorNote": "Depth pass: maps/fact boxes/PD images/research (Slien, Ribe, 1658, Mormon, Ørsted correspondence, etc.)."
+        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
       }
     },
     {
@@ -242,7 +242,7 @@
         "format": "feature"
       },
       "writer": {
-        "byline": "DeepSeek V3.2 (DeepSeek)",
+        "byline": null,
         "model": "editor-led",
         "fallback": null
       },
@@ -252,10 +252,10 @@
         "draft": null
       },
       "verdict": {
-        "status": "rewritten-by-editor",
-        "checkedAt": "2026-08-08",
+        "status": null,
+        "checkedAt": null,
         "citations": 2,
-        "editorNote": "Depth pass: maps/fact boxes/PD images/research (Slien, Ribe, 1658, Mormon, Ørsted correspondence, etc.)."
+        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
       }
     },
     {
@@ -277,20 +277,20 @@
         ]
       },
       "writer": {
-        "byline": "Claude Sonnet 5 (Anthropic)",
+        "byline": null,
         "model": "anthropic/claude-sonnet-5",
         "fallback": null
       },
       "receipt": {
         "words": 743,
-        "costUSD": 0,
+        "costUSD": 0.055,
         "draft": "kladder/09-seksten-fireogtreds.md"
       },
       "verdict": {
         "status": "rewritten-by-editor",
         "checkedAt": "2026-08-08",
         "citations": 4,
-        "editorNote": "Kommissioneret hos anthropic/claude-sonnet-5. Kladden blev IKKE accepteret: den opfandt en navngiven kilde - 'menig Rasmus Jensen fra 8. Regiment, hvis navn er bevaret i regimentets tabsliste' - praesenteret som dokumenteret person. Det er husreglen om ikke at opdigte, brudt i den mest trovaerdige form: en konkret, verificerbart klingende detalje. Yderligere fejl: Als faldt 29. JUNI 1864, ikke 29. april; slaget varede til kl. 14, ikke 'tyve minutter'; Raasloeff som brigadefoerer og '8.000 granater mod skanse 2 og 3' kunne ikke verificeres; fodnoter pegede paa forsider (natmus.dk/1864 m.fl.). Omskrevet af chefredaktionen med verificerede tal og Monrad som den reelle navngivne aktoer - det var politik, ikke militaer noedvendighed, der holdt haeren paa banken."
+        "editorNote": "REELT kommissioneret 2026-08-08 hos anthropic/claude-sonnet-5 paa .env.kronike — kladde findes i kladder/. Kladden blev IKKE accepteret: den opfandt en navngiven kilde ('menig Rasmus Jensen fra 8. Regiment') og daterede Als' fald til april i stedet for 29. juni. Omskrevet af chefredaktionen. Byline midlertidigt fjernet efter ejerbeslutning 2026-08-08."
       }
     },
     {
@@ -307,7 +307,7 @@
         "format": "feature"
       },
       "writer": {
-        "byline": "Qwen3.7 Max (Alibaba)",
+        "byline": null,
         "model": "editor-led",
         "fallback": null
       },
@@ -317,10 +317,10 @@
         "draft": null
       },
       "verdict": {
-        "status": "rewritten-by-editor",
-        "checkedAt": "2026-08-08",
+        "status": null,
+        "checkedAt": null,
         "citations": 3,
-        "editorNote": "Depth pass: maps/fact boxes/PD images/research (Slien, Ribe, 1658, Mormon, Ørsted correspondence, etc.)."
+        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
       }
     },
     {
@@ -337,7 +337,7 @@
         "format": "feature"
       },
       "writer": {
-        "byline": "GPT-5.5 (OpenAI)",
+        "byline": null,
         "model": "editor-led",
         "fallback": null
       },
@@ -347,10 +347,10 @@
         "draft": null
       },
       "verdict": {
-        "status": "rewritten-by-editor",
-        "checkedAt": "2026-08-08",
+        "status": null,
+        "checkedAt": null,
         "citations": 2,
-        "editorNote": "Depth pass: maps/fact boxes/PD images/research (Slien, Ribe, 1658, Mormon, Ørsted correspondence, etc.)."
+        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
       }
     },
     {
@@ -367,7 +367,7 @@
         "format": "myter"
       },
       "writer": {
-        "byline": "Grok 4.3 (xAI)",
+        "byline": null,
         "model": "editor-led",
         "fallback": null
       },
@@ -377,11 +377,12 @@
         "draft": null
       },
       "verdict": {
-        "status": "rewritten-by-editor",
-        "checkedAt": "2026-08-08",
+        "status": null,
+        "checkedAt": null,
         "citations": 0,
-        "editorNote": "KRØNIKE nr.1 inaugural; editor-written deep features with footnotes."
+        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
       }
     }
-  ]
+  ],
+  "integrityNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
 }

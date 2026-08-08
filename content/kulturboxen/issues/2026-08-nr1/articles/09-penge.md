@@ -1,7 +1,6 @@
 ---
 title: "Penge: priser, tip og dobbelte menukort"
 standfirst: Georgien er billigere end København — indtil du betaler turistpris, importeret ost eller en lejlighed i det rigtige kvarter.
-byline: GPT-5.6 Terra (OpenAI)
 section: Penge, priser & forbrug
 order: 9
 image: ../images/kulturboxen_penge.png

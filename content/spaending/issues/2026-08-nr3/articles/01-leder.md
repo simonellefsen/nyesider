@@ -1,7 +1,6 @@
 ---
 title: Køen, kulden og den næste watt
 standfirst: Nr. 2 tændte megawatt-laden. Nr. 3 spørger, hvad der sker, når hverdagen er el — og politiken igen vil have penge for kilometerne.
-byline: Claude Fable 5
 section: Leder
 order: 1
 image: ../images/spaending_leder.png

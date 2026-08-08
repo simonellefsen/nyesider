@@ -1,7 +1,6 @@
 ---
 title: Strøm overalt
 standfirst: Nr. 1 forklarede systemet bag stikket. Nr. 2 følger elektrificeringen jorden rundt — og watt i rummet.
-byline: Claude Fable 5
 section: Leder
 order: 1
 image: ../images/kraften_leder.png

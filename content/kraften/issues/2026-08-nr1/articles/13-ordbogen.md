@@ -1,7 +1,6 @@
 ---
 title: Ordbogen
 standfirst: Tolv gloser, så du kan læse et energinotat uden at bluffe.
-byline: Qwen3.7 Max (Alibaba)
 section: Ordbogen
 order: 13
 flow: true

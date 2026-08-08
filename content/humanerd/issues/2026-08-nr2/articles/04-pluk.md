@@ -1,7 +1,6 @@
 ---
 title: "Pluk: det bløde greb er stadig menneskets job"
 standfirst: Pose, pose, pose. Variation dræber den simple gripper — også når vision-systemet ser skarpt ud på slides.
-byline: Gemini 3.1 Pro (Google)
 section: Fabrikken
 order: 4
 image: ../images/humanerd_pluk.png

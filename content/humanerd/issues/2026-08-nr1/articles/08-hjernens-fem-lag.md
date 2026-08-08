@@ -1,7 +1,6 @@
 ---
 title: "Hjernens fem lag"
 standfirst: "Robot-AI er ikke én hjerne. Det er et forløb fra blik til bremse."
-byline: "Claude Fable 5"
 section: "Hjernen"
 order: 8
 figures:

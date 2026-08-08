@@ -1,7 +1,6 @@
 ---
 title: Rygtebørsen
 standfirst: Megawatt, ministerier og mirakler. Vurderet i reaktorkerner — ikke i likes.
-byline: Grok 4.3 (xAI)
 section: Rygtebørsen
 order: 14
 flow: true

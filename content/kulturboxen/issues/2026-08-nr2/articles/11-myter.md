@@ -1,7 +1,6 @@
 ---
 title: Myter
 standfirst: Det, postkortet glemmer.
-byline: Grok 4.5 (xAI)
 section: Myter
 order: 11
 flow: true

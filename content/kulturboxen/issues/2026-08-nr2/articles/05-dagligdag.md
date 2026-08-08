@@ -1,7 +1,6 @@
 ---
 title: "Dagligdag: liftkort, landbrug og vinterens ur"
 standfirst: Turisme sætter tempoet — men æbleplantager og pendlere sætter også.
-byline: Mistral Large (Mistral AI)
 section: Dagligdag & tempo
 order: 5
 image: ../images/kulturboxen_dagligdag.png

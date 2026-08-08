@@ -1,7 +1,6 @@
 ---
 title: "Til HORISONTEN: når hverdagen bliver en rute"
 standfirst: Kort bro til søsteren med støvlerne.
-byline: Claude Fable 5
 section: Kryds (HORISONTEN)
 order: 12
 flow: true

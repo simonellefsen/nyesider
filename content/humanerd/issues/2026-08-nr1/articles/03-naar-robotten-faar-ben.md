@@ -1,7 +1,6 @@
 ---
 title: "Når robotten får ben"
 standfirst: "En annonce, en validering og et skift i drift er tre meget forskellige ting."
-byline: "DeepSeek V3.2 (DeepSeek)"
 section: "Humanoiden"
 order: 3
 figures:

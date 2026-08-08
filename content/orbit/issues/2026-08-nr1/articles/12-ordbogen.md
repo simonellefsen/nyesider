@@ -1,7 +1,6 @@
 ---
 title: Ordbogen
 standfirst: Kernegloser, så du kan læse et launch-manifest uden at bluffe.
-byline: DeepSeek V3.2 (DeepSeek)
 section: Ordbogen
 order: 12
 flow: true

@@ -25,4 +25,4 @@ Cykeludlejning findes i Tbilisi og på udvalgte hoteller; book i højsæson. E-b
 
 ### Efter turen
 
-Et langt bord i Kakheti er belønningen. Huske [supra-koderne](/kulturboxen/2026-08-nr1/supra-og-bordet): du er måske gæst, ikke bare en kunde med hjelmhår.
+Et langt bord i Kakheti er belønningen. Huske supra-koderne: du er måske gæst, ikke bare en kunde med hjelmhår.

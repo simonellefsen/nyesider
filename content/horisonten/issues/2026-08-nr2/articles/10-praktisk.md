@@ -12,7 +12,7 @@ Direkte og med omstigning varierer med sæson og selskab. Tbilisi er hovedhub; K
 
 ### Penge
 
-Valuta: **lari (GEL)**. Kort i byen; kontanter i land. Se også [KULTURBOXEN om priser](/kulturboxen/2026-08-nr1/penge) — “billigt” er relativt, og turistzoner har egne niveauer.
+Valuta: **lari (GEL)**. Kort i byen; kontanter i land. Se også KULTURBOXEN om priser — “billigt” er relativt, og turistzoner har egne niveauer.
 
 ### Komme rundt
 
@@ -31,7 +31,7 @@ Følg Udenrigsministeriets rejsevejledning. Respektér grænse- og konfliktzoner
 
 ### Den bløde tjekliste
 
-1. [KULTURBOXEN nr. 1](/kulturboxen/2026-08-nr1/leder) — så du forstår gæstfriheden.  
+1. KULTURBOXEN nr. 1 — så du forstår gæstfriheden.  
 2. To sætninger georgisk.  
 3. Realistisk dagsprogram (færre stops, mere tid).  
 4. Buffer til, at “ti minutter” er en stemning.

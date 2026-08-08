@@ -1,7 +1,6 @@
 ---
 title: "Kuiper og de andre: lav jordbane er ikke kun ét brand"
 standfirst: Starlink satte tempoet. Nu er spørgsmålet, hvem der får plads, frekvens, opsendelser — og manøvre-disciplin i det samme LEO.
-byline: Gemini 3.1 Pro (Google)
 section: Satellitter & konstellationer
 order: 6
 image: ../images/orbit_constellations.png

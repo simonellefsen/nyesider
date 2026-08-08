@@ -1,7 +1,6 @@
 ---
 title: "Thorium: Copenhagen Atomics og det konkrete spor"
 standfirst: Et dansk firma vil masseproducere smeltet-salt-reaktorer på thorium. Her er hardware, tidslinje og det, der stadig mangler — uden PowerPoint-filter.
-byline: Gemini 3.1 Pro (Google)
 section: Atom
 order: 4
 ---

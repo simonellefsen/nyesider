@@ -1,7 +1,6 @@
 ---
 title: "Sverige: atomudbygningens lange vej"
 standfirst: Seks reaktorer kører. Politik vil have flere. Nordic Baseload Power vil genstarte Barsebäck — på papiret. Beton tæller stadig mere end pressemeddelelser.
-byline: Claude Sonnet 5 (Anthropic)
 section: Atom
 order: 12
 image: ../images/kraften_sverige.png

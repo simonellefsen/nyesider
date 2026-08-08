@@ -1,7 +1,6 @@
 ---
 title: "Tallerkenen før posen: ernæring der ikke er et abonnement"
 standfirst: Kost er mønstre over uger — ikke et scoop kl. 07:02.
-byline: Gemini 3.1 Pro (Google)
 section: Ernæring & kost
 order: 4
 image: ../images/dosis_tallerken.png

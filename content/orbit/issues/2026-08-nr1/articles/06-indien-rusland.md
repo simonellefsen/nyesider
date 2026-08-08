@@ -1,7 +1,6 @@
 ---
 title: "Indien og Rusland: to tempoer"
 standfirst: ISRO jagter pålidelig, billig adgang. Roscosmos kæmper for at holde kapacitet under pres.
-byline: Gemini 3.1 Pro (Google)
 section: Nationer & agenturer
 order: 6
 ---

@@ -1,7 +1,6 @@
 ---
 title: "Brugen: brygning er kemi i køkkenet"
 standfirst: Vandtemperatur, maling og tid — filteret er grænsen mellem grums og kop, ikke hele opskriften.
-byline: Gemini 3.1 Pro (Google)
 section: Brugen
 order: 4
 image: ../images/indeni_bryg.png

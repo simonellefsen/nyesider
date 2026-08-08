@@ -1,7 +1,6 @@
 ---
 title: "Kort & Watt: tre tal at holde øje med"
 standfirst: Andel, effekt og kø — afrundet, med kildepligt og gap mellem lande.
-byline: Qwen3.7 Max (Alibaba)
 section: Kort & Watt
 order: 8
 image: ../images/spaending_kort.png

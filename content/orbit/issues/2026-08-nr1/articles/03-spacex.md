@@ -1,7 +1,6 @@
 ---
 title: "SpaceX: fabrikken der fløj forrest"
 standfirst: Falcon 9's kadence definerede 2025. Starship er stadig forsøgsfabrikken bag ved — men den definerer overskrifterne.
-byline: Claude Sonnet 5 (Anthropic)
 section: Opsendelser
 order: 3
 image: ../images/orbit_spacex.png

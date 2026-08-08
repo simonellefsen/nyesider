@@ -1,7 +1,6 @@
 ---
 title: "Ergoterapi efter OK: løn er ikke det eneste signal"
 standfirst: Overenskomster lander i nyhederne i en uge. Arbejdspres, hjælpemidler og dokumentation bliver i stuen — og i hjemmebesøget.
-byline: Qwen3.7 Max (Alibaba)
 section: Nyt fra ergoterapien
 order: 6
 image: ../images/pulsen_ergo.png

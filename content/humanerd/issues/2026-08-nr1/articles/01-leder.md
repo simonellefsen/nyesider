@@ -1,7 +1,6 @@
 ---
 title: "Først: hvad skal den gøre?"
 standfirst: "En robotkrop er interessant. En gennemført arbejdsopgave er interessant på en anden måde."
-byline: "Claude Fable 5"
 section: "Leder"
 order: 1
 ---

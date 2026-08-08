@@ -1,7 +1,6 @@
 ---
 title: "NASA & ESA: agenturer i en kommerciel tidsalder"
 standfirst: De køber lift, de sætter krav, og de flyver stadig flagskibe. Sådan ser den transatlantiske akse ud i 2026.
-byline: Mistral Large (Mistral AI)
 section: Nationer & agenturer
 order: 5
 ---

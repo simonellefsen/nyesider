@@ -1,7 +1,6 @@
 ---
 title: "Netflaskehalse: hvor elektrificering møder stål"
 standfirst: Du kan bestille en varmepumpe på en uge. Et 400 kV-kabel tager år. MW i drift slår MW i pressemeddelelse.
-byline: Grok 4.5 (xAI)
 section: Systemet bag stikket
 order: 6
 image: ../images/kraften_netko.png

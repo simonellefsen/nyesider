@@ -1,7 +1,6 @@
 ---
 title: Kataloget og kikkerten
 standfirst: Nr. 1 talte opsendelser. Nr. 2 spørger, hvad der sker i banen, når kataloget fyldes — og hvem der ser det, undviger og i sjældne tilfælde betaler.
-byline: Claude Fable 5
 section: Leder
 order: 1
 image: ../images/orbit_leder.png

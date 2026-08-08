@@ -1,7 +1,6 @@
 ---
 title: "AMR før humanoid: hvorfor hjulene vinder i år"
 standfirst: Stabil drift elsker forudsigelige gulve. To ben er stadig den dyre undtagelse — også når videoen ser overbevisende ud.
-byline: Claude Sonnet 5 (Anthropic)
 section: Humanoiden
 order: 3
 image: ../images/humanerd_amr.png

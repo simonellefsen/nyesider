@@ -1,7 +1,6 @@
 ---
 title: "Arbejde: netværk, hierarki og den nye laptop-klasse"
 standfirst: Fra stat og slægt til startups i Tbilisi — arbejdslivet bærer både sovjetiske ekkoer og global freelance-logik.
-byline: Mistral Large (Mistral AI)
 section: Arbejde & hierarki
 order: 5
 image: ../images/kulturboxen_marked.png

@@ -1,7 +1,6 @@
 ---
 title: "Når regionen skifter navn: AI-projekter under omorganisering"
 standfirst: Fusioner og nye styrespor dræber ikke innovation alene — men de sætter den i venteværelset, mens kontrakter og superbrugere skifter hænder.
-byline: GPT-5.5 (OpenAI)
 section: Analyse · Systemer
 order: 3
 image: ../images/pulsen_region.png

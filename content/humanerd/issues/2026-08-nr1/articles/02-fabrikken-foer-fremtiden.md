@@ -1,7 +1,6 @@
 ---
 title: "Fabrikken før fremtiden"
 standfirst: "Humanoider skal måles mod den robotvirkelighed, der allerede står ved samlebåndet."
-byline: "GPT-5.6 Terra (OpenAI)"
 section: "Fabrikken"
 order: 2
 ---

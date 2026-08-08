@@ -1,7 +1,6 @@
 ---
 title: "Kilometerafgift: ekspertgruppen er ikke en takst"
 standfirst: Når politisk tekst lander, tæller modelvalg og data — ikke kun ordet ‘afgift’ i en overskrift.
-byline: GLM-5.2 (Z.ai)
 section: Politik & afgifter
 order: 6
 image: ../images/spaending_km.png

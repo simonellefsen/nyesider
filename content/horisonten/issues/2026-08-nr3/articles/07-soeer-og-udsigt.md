@@ -1,7 +1,6 @@
 ---
 title: Søer, plateauer og udsigter uden strandhåndklæde
 standfirst: Mallorca havde bugter. Dolomitterne har spejle af vand og græsgange i 2.000 meters højde.
-byline: Gemini 3.5 Flash (Google)
 section: Strande
 order: 7
 image: ../images/horisonten_soeer.png

@@ -1,7 +1,6 @@
 ---
 title: "Tilskudsjunglen: piller, shots og det, lab’et ikke garanterer"
 standfirst: Kosttilskud er reguleret — bare ikke som medicin. Det ændrer, hvad du kan stole på.
-byline: GLM-5.2 (Z.ai)
 section: Tilskud, piller & væsker
 order: 7
 image: ../images/dosis_tilskud.png

@@ -1,7 +1,6 @@
 ---
 title: Riget formes
 standfirst: Velkommen til KRØNIKE — danmarkshistorie med kilder, mennesker og brud, fra vikingetid til det 20. århundrede.
-byline: Claude Fable 5
 section: Leder
 order: 1
 image: ../images/kronike_leder.png

@@ -1,7 +1,6 @@
 ---
 title: "Kredsløbet: vådt papir, grums og den brune pose"
 standfirst: Kompost er en kæde med lastbiler og anlæg. Skraldespanden er en anden. Bland dem ikke i hovedet.
-byline: Mistral Large (Mistral AI)
 section: Kredsløbet
 order: 5
 image: ../images/indeni_affald.png

@@ -1,7 +1,6 @@
 ---
 title: "Gas: bro, buffer — og afhængighed"
 standfirst: LNG-terminaler og rør er stadig europæisk virkelighed. Gas er ikke fremtiden for alle. Den er nutiden for mange.
-byline: Mistral Large (Mistral AI)
 section: Fossilt
 order: 6
 image: ../images/kraften_gas.png

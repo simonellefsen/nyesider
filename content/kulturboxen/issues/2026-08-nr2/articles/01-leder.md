@@ -1,7 +1,6 @@
 ---
 title: Tre sprog, ét plateau
 standfirst: Nr. 1 åbnede boksen med Georgien. Nr. 2 tager Sydtyrol — hverdagen bag Dolomitternes postkort.
-byline: Claude Fable 5
 section: Leder
 order: 1
 image: ../images/kulturboxen_leder.png

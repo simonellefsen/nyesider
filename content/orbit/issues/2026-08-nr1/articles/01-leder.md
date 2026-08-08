@@ -1,7 +1,6 @@
 ---
 title: Kadence
 standfirst: Velkommen til ORBIT — magasinet om opsendelser, satellitter, nationer og det der kredser om os. Temæt for nr. 1 er tempoet selv.
-byline: Claude Fable 5
 section: Leder
 order: 1
 ---

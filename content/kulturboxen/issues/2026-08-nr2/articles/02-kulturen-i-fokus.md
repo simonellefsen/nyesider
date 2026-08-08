@@ -1,7 +1,6 @@
 ---
 title: "Sydtyrol i korte træk: grænse uden at være grænse"
 standfirst: Italiensk stat, tysksproget flertal, ladinske dale — og bjerge der sætter tempoet.
-byline: GPT-5.6 Terra (OpenAI)
 section: Kulturen i fokus (destination / folk)
 order: 2
 image: ../images/kulturboxen_sydtyrol.png

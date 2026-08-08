@@ -1,7 +1,6 @@
 ---
 title: "Ambient efter halvandet skift: hvad klinikken faktisk mærker"
 standfirst: Mindre tastatur er ikke det samme som mindre arbejde. Det er en omfordeling af opmærksomhed — og af ret-tid.
-byline: Claude Opus 4.8 (Anthropic)
 section: Feature · Ambient AI
 order: 2
 image: ../images/pulsen_ambient.png

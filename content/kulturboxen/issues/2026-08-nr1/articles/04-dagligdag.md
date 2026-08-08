@@ -1,7 +1,6 @@
 ---
 title: "Dagligdag: Tbilisis tempo og landsbyens ur"
 standfirst: Hverdagen er ikke supra hver aften. Den er minibusser, markeder, app-levering — og en anden fornemmelse af tid.
-byline: Gemini 3.1 Pro (Google)
 section: Dagligdag & tempo
 order: 4
 image: ../images/kulturboxen_dagligdag.png

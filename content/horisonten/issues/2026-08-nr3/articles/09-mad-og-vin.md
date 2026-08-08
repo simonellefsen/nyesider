@@ -1,7 +1,6 @@
 ---
 title: Speck, knödel og glas med udsigt
 standfirst: Sydtyrolsk køkken er alpint og middelhavsk på samme tallerken. Sådan spiser og drikker du dig gennem dalene.
-byline: GLM-5.2 (Z.ai)
 section: Mad & Vin
 order: 9
 image: ../images/horisonten_mad.png

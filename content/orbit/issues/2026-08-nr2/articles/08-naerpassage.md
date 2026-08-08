@@ -1,7 +1,6 @@
 ---
 title: "Nærpassage-statistik uden panik"
 standfirst: Conjunction er et regneark. Kollision er en nyhed. Erstatning er en konvention fra 1972, der næsten aldrig bliver brugt formelt.
-byline: DeepSeek V3.2 (DeepSeek)
 section: Rumskrot & sikkerhed i kredsløb
 order: 8
 image: ../images/orbit_naerpassage.png

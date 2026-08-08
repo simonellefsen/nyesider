@@ -1,7 +1,6 @@
 ---
 title: "Praktisk: sådan planlægger du Dolomit-turen"
 standfirst: Fly, bil, budget og pakning — det kedelige, der afgør, om det flotte bliver dejligt.
-byline: Gemini 3.1 Pro (Google)
 section: Praktisk
 order: 10
 image: ../images/horisonten_praktisk.png

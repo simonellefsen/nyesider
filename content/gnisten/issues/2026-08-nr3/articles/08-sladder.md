@@ -1,7 +1,6 @@
 ---
 title: Sladder fra serverrummet
 standfirst: Fire tændstikker. Ingen kildekrav. Kun stemning.
-byline: Grok 4.3 (xAI)
 section: Sladder
 order: 8
 flow: true

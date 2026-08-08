@@ -21,4 +21,4 @@ Qvevri-tradition, amber wines, og helt almindelig god rød/hvid på restaurant. 
 
 ### Kultur, ikke kun menu
 
-Når bordet bliver til **supra**, er du ikke længere kun “gæst nr. 4 i booking-appen”. Læs [KULTURBOXEN om bordet](/kulturboxen/2026-08-nr1/supra-og-bordet) og [ordbogen](/kulturboxen/2026-08-nr1/ordbogen) (*gaumarjos*, *tamada*, *madloba*). Det sparer dig for pinlige øjeblikke — og giver dig flere rigtige.
+Når bordet bliver til **supra**, er du ikke længere kun “gæst nr. 4 i booking-appen”. Læs KULTURBOXEN om bordet og ordbogen (*gaumarjos*, *tamada*, *madloba*). Det sparer dig for pinlige øjeblikke — og giver dig flere rigtige.

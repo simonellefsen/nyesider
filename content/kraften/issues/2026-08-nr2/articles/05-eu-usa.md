@@ -1,7 +1,6 @@
 ---
 title: "EU og USA: to elektrificeringer, to net"
 standfirst: Samme retning — mere el i varme, biler og industri — men forskellige love og flaskehalse.
-byline: Mistral Large (Mistral AI)
 section: Lande & udbygning
 order: 5
 image: ../images/kraften_net.png

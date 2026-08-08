@@ -1,7 +1,6 @@
 ---
 title: "Penge: velstand i højden"
 standfirst: Sydtyrol er blandt Italiens rigere områder — og det mærkes i priser og forventninger.
-byline: Qwen3.7 Max (Alibaba)
 section: Penge & forbrug
 order: 8
 image: ../images/kulturboxen_penge.png

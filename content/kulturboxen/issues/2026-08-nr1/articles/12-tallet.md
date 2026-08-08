@@ -1,7 +1,6 @@
 ---
 title: "Tallet: Georgien og Danmark side om side"
 standfirst: Konkrete pejlemærker med årstal — til sammenligning, ikke som facit. Kilder nederst.
-byline: DeepSeek V3.2 (DeepSeek)
 section: Tallet / pejlemærker
 order: 12
 ---

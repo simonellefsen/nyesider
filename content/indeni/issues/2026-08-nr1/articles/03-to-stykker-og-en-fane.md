@@ -1,7 +1,6 @@
 ---
 title: "To stykker og en fane"
 standfirst: "Kroppen er ét stykke metal. Toppen kommer senere."
-byline: "Gemini 3.1 Pro (Google)"
 section: "Maskinen"
 order: 3
 figures:

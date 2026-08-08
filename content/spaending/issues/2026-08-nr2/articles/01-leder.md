@@ -10,7 +10,7 @@ order: 1
 
 Nissan har genoplivet Leaf som en seriøs europæisk elbil med hundredvis af kilometer på papiret og produktion i Sunderland. Ionity har tændt HYC1000-systemer, der kan sende op til 600 kW ind i en kompatibel personbil — tal, der for få år siden lød som science fiction ved motorvejsrasten. Xiaomi lover Europa i 2027, mens prototyper allerede ses på kontinentets veje. Og i Danmark står registreringsafgiften stille i 2026, før stigningerne igen kigger ind fra 2027.
 
-Det er et godt tidspunkt at være elbilinteresseret. Det er også et godt tidspunkt at holde hovedet koldt: rækkevidde er ikke det samme som ladehastighed, listepris er ikke det samme som ejeromkostning, og et rygte fra München er ikke det samme som en typegodkendt bil hos din forhandler. Strømmen bag stikket — net, elmix og elafgift — følger vi i [KRAFTEN](/kraften/2026-08-nr1/leder).
+Det er et godt tidspunkt at være elbilinteresseret. Det er også et godt tidspunkt at holde hovedet koldt: rækkevidde er ikke det samme som ladehastighed, listepris er ikke det samme som ejeromkostning, og et rygte fra München er ikke det samme som en typegodkendt bil hos din forhandler. Strømmen bag stikket — net, elmix og elafgift — følger vi i KRAFTEN.
 
 God tur — og god opladning.
 

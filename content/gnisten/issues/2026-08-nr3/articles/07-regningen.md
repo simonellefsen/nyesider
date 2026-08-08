@@ -1,7 +1,6 @@
 ---
 title: Regningen
 standfirst: Cloud koster abonnement eller tokens. Lokalt koster strøm og disk.
-byline: Qwen3.7 Max (Alibaba)
 section: Regningen
 order: 7
 flow: true

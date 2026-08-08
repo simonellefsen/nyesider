@@ -1,7 +1,6 @@
 ---
 title: "Europa: papir, pulp og filterfabrikker"
 standfirst: Filterpapir er en niche i en stor skov- og papirindustri — med tyske mærker, nordisk fiber og europæiske forsyningskæder.
-byline: GLM-5.2 (Z.ai)
 section: Europa
 order: 6
 image: ../images/indeni_europa.png

@@ -4,7 +4,7 @@
   "title": "HumaNerd nr. 1 · August 2026",
   "issueTheme": "Robotter på arbejde",
   "published": "2026-08-01",
-  "status": "published",
+  "status": "draft",
   "pdf": "HUMANERD_nr1_august2026.pdf",
   "cover": "images/humanerd_cover.png",
   "coverCredit": "AI-genereret forside (OpenAI ImageGen) — redaktionel illustration af humanoid, robotarm og fabriksarbejde",
@@ -27,7 +27,6 @@
       "order": 1,
       "title": "Først: hvad skal den gøre?",
       "section": "Leder",
-      "byline": "Claude Fable 5",
       "standfirst": "En robotkrop er interessant. En gennemført arbejdsopgave er interessant på en anden måde."
     },
     {
@@ -36,7 +35,6 @@
       "order": 2,
       "title": "Fabrikken før fremtiden",
       "section": "Fabrikken",
-      "byline": "GPT-5.6 Terra (OpenAI)",
       "standfirst": "Humanoider skal måles mod den robotvirkelighed, der allerede står ved samlebåndet."
     },
     {
@@ -45,7 +43,6 @@
       "order": 3,
       "title": "Når robotten får ben",
       "section": "Humanoiden",
-      "byline": "DeepSeek V3.2 (DeepSeek)",
       "standfirst": "En annonce, en validering og et skift i drift er tre meget forskellige ting."
     },
     {
@@ -54,7 +51,6 @@
       "order": 4,
       "title": "Kinas testbane",
       "section": "Verdenskortet",
-      "byline": "Claude Fable 5",
       "standfirst": "Kina er både det største fabriksrobotmarked og en intens scene for nye humanoider."
     },
     {
@@ -63,7 +59,6 @@
       "order": 5,
       "title": "Japan og Sydkorea: den dybe bund",
       "section": "Verdenskortet",
-      "byline": "Claude Fable 5",
       "standfirst": "Her er produktionen allerede fuld af robotter. Det er den baggrund, nye ben skal stå på."
     },
     {
@@ -72,7 +67,6 @@
       "order": 6,
       "title": "USA: fra demo til skiftplan",
       "section": "Verdenskortet",
-      "byline": "Claude Fable 5",
       "standfirst": "Amerikanske humanoider møder et marked med færre robotter end Kina — men store logistik- og bilkunder."
     },
     {
@@ -81,7 +75,6 @@
       "order": 7,
       "title": "Europa: koblinger, greb og sikkerhed",
       "section": "Verdenskortet",
-      "byline": "Claude Fable 5",
       "standfirst": "Europas robotstyrke ligger allerede i controlleren, cellen og den virtuelle prøve før idriftsættelse."
     },
     {
@@ -90,7 +83,6 @@
       "order": 8,
       "title": "Hjernens fem lag",
       "section": "Hjernen",
-      "byline": "Claude Fable 5",
       "standfirst": "Robot-AI er ikke én hjerne. Det er et forløb fra blik til bremse."
     },
     {
@@ -99,7 +91,6 @@
       "order": 9,
       "title": "Hjemmet er ikke en fabrik",
       "section": "Hjemmet",
-      "byline": "Claude Fable 5",
       "standfirst": "Husholdningsrobotten lever i rod, tæpper, børn, kæledyr og private kort over hjemmet."
     },
     {
@@ -108,7 +99,6 @@
       "order": 10,
       "title": "Tallet: robotter i fem mål",
       "section": "Tallet",
-      "byline": "Claude Fable 5",
       "standfirst": "Hårde tal bliver nyttige, når måleenheden kommer med."
     },
     {
@@ -117,7 +107,6 @@
       "order": 11,
       "title": "Ordbogen",
       "section": "Ordbogen",
-      "byline": "Claude Fable 5",
       "standfirst": "Seks ord, som gør robotalen mindre tåget."
     },
     {
@@ -126,8 +115,9 @@
       "order": 12,
       "title": "Påstandskontoret",
       "section": "Påstandskontoret",
-      "byline": "Claude Fable 5",
       "standfirst": "Tre sætninger, der er for enkle til at være rigtige."
     }
-  ]
+  ],
+  "unpublishedReason": "Afpubliceret 2026-08-08. Nummeret blev udgivet med byline-kreditering til navngivne modeller, men bestilling.json indeholder hverken costUSD, kladde-reference eller kladdefil for nogen artikel, og OpenRouter-forbruget på titlens egen nøgle viser, at kaldene aldrig blev foretaget. Verdikterne ('accepted', 'rejected') beskriver derfor en bedømmelse af kladder, der aldrig er modtaget. Nummeret skal produceres forfra — uden byline, indtil en reel forfatter kan dokumenteres. Se redaktion/README.md.",
+  "unpublishedAt": "2026-08-08"
 }

@@ -1,7 +1,6 @@
 ---
 title: "Kinas testbane"
 standfirst: "Kina er både det største fabriksrobotmarked og en intens scene for nye humanoider."
-byline: "Claude Fable 5"
 section: "Verdenskortet"
 order: 4
 image: "images/china-robot-ecosystem.png"

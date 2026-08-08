@@ -1,7 +1,6 @@
 ---
 title: "Tallet: nærpassagerne"
 standfirst: Opsendelser er synlige. Nærpassager er den stille regning for kadence — og de er ikke det samme som kollisioner.
-byline: GPT-5.6 Terra (OpenAI)
 section: Tallet
 order: 2
 image: ../images/orbit_tallet.png

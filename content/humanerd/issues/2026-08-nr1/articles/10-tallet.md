@@ -1,7 +1,6 @@
 ---
 title: "Tallet: robotter i fem mål"
 standfirst: "Hårde tal bliver nyttige, når måleenheden kommer med."
-byline: "Claude Fable 5"
 section: "Tallet"
 order: 10
 ---

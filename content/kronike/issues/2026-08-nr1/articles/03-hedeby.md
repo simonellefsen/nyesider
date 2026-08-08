@@ -1,7 +1,6 @@
 ---
 title: "Hedeby og Dannevirke: da Danmark mødte verden ved grænsen"
 standfirst: En handelsby ved Slien og en jordvold tværs over Jylland. Vikingetidens magt sad ikke kun i skibene — den sad i told, træ og trafik.
-byline: Claude Sonnet 5 (Anthropic)
 section: Riget & grænser
 order: 3
 image: ../images/kronike_hedeby.png

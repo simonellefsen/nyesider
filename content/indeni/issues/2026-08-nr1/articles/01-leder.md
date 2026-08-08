@@ -1,7 +1,6 @@
 ---
 title: "Det usynlige arbejde"
 standfirst: "En drikkedåse er ikke enkel. Den er bare blevet god til at skjule sit arbejde."
-byline: "Claude Fable 5"
 section: "Leder"
 order: 1
 ---

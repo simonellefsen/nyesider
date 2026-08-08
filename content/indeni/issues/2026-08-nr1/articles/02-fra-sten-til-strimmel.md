@@ -1,7 +1,6 @@
 ---
 title: "Fra sten til strimmel"
 standfirst: "Før dåsen kan trækkes i form, skal aluminium blive til en meget præcis rulle."
-byline: "GPT-5.6 Terra (OpenAI)"
 section: "Materialet"
 order: 2
 ---

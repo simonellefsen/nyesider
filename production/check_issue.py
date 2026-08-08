@@ -396,6 +396,39 @@ def check_issue(magazine_dir: Path, issue_dir: Path) -> list[Finding]:
                 Finding("error", tag, f"{aslug}: byline {byline!r} not in redaktion/modeller.json roster")
             )
 
+        # Byline must match who actually wrote the text (rule added 2026-08-08, after
+        # 17 issues were unpublished for crediting models that were never called).
+        # A model byline is only legitimate when the ledger shows a real commission:
+        # writer.model set to a model id AND a receipt with cost and a draft file.
+        #
+        # Severity depends on status: for a *published* issue an unsupported byline is
+        # an error (it is a false claim in front of readers, and must block the build).
+        # For a draft it is a warning — during production the byline is written before
+        # the commission lands, and a gate that fires mid-work just gets bypassed.
+        byline_level = "error" if issue.get("status") == "published" else "warning"
+        if byline and ledger_by_slug:
+            op = ledger_by_slug.get(aslug)
+            if op is not None:
+                wmodel = (op.get("writer") or {}).get("model")
+                receipt = op.get("receipt") or {}
+                if wmodel == "editor-led":
+                    findings.append(Finding(
+                        byline_level, tag,
+                        f"{aslug}: byline {byline!r} credits a writer, but bestilling.json "
+                        f"says writer.model='editor-led' (written by the editor). "
+                        f"Editor-written articles carry no byline — see redaktion/README.md."))
+                elif wmodel and not receipt.get("draft"):
+                    findings.append(Finding(
+                        byline_level, tag,
+                        f"{aslug}: byline {byline!r} claims model {wmodel!r}, but the ledger "
+                        f"has no receipt.draft — no commissioned draft exists. "
+                        f"A byline without a draft is an unsupported authorship claim."))
+                elif wmodel and receipt.get("costUSD") in (None, ""):
+                    findings.append(Finding(
+                        "warning", tag,
+                        f"{aslug}: byline {byline!r} claims model {wmodel!r} but "
+                        f"receipt.costUSD is unset — record what the call cost."))
+
         # figures vs [FIGUR] markers
         figure_markers = FIGURE_MARKER_RE.findall(body)
         figures_declared = meta.get("figures") or []

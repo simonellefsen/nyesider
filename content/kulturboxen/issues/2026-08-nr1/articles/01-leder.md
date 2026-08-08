@@ -1,7 +1,6 @@
 ---
 title: Supra og tillid
 standfirst: Velkommen til KULTURBOXEN — magasinet om, hvordan andre kulturer lever, set fra Danmark. Nr. 1 åbner boksen med Georgien.
-byline: Claude Fable 5
 section: Leder
 order: 1
 ---

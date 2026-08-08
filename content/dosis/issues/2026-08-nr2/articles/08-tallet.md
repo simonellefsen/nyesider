@@ -1,7 +1,6 @@
 ---
 title: "Tallet: pejlemærker i GLP-1-æraen"
 standfirst: Konkrete retninger med kilde og år — ikke din personlige dosis.
-byline: DeepSeek V3.2 (DeepSeek)
 section: Laboratoriet / tallet
 order: 8
 image: ../images/dosis_tallet.png

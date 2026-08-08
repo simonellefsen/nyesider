@@ -1,7 +1,6 @@
 ---
 title: Filteret
 standfirst: Nr. 1 fulgte dåsen. Nr. 2 tager den brune pose, du smider ud hver morgen — kaffefilteret.
-byline: Claude Fable 5
 section: Leder
 order: 1
 image: ../images/indeni_leder.png

@@ -1,7 +1,6 @@
 ---
 title: "Robotaxi: hvor det kører — og hvad Danmark kan spejle"
 standfirst: Det er ikke længere kun et lab-rygte. Navngivne byer kører passagerer. Danmark har stadig regulering, tillid og taxa-politik — ikke bare software.
-byline: Claude Sonnet 5 (Anthropic)
 section: Teknologi
 order: 3
 image: ../images/spaending_robotaxi.png

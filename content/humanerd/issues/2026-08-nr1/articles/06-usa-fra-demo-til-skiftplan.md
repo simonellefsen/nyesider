@@ -1,7 +1,6 @@
 ---
 title: "USA: fra demo til skiftplan"
 standfirst: "Amerikanske humanoider møder et marked med færre robotter end Kina — men store logistik- og bilkunder."
-byline: "Claude Fable 5"
 section: "Verdenskortet"
 order: 6
 image: "images/warehouse-human-robot.png"

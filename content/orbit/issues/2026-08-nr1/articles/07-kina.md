@@ -1,7 +1,6 @@
 ---
 title: "Kina: den anden kadence-motor"
 standfirst: Omkring 90 orbitale opsendelser på et år. Statslige Long March-familier, private startups — og LEO-bredbånd under opbygning.
-byline: Claude Sonnet 5 (Anthropic)
 section: Nationer & agenturer
 order: 7
 image: ../images/orbit_kina.png

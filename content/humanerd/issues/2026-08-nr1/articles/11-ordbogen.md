@@ -1,7 +1,6 @@
 ---
 title: "Ordbogen"
 standfirst: "Seks ord, som gør robotalen mindre tåget."
-byline: "Claude Fable 5"
 section: "Ordbogen"
 order: 11
 ---

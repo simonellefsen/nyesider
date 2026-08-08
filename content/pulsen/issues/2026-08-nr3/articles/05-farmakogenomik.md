@@ -1,7 +1,6 @@
 ---
 title: "Farmakogenomik: spytprøve er ikke en recept"
 standfirst: Gener kan påvirke, hvordan du omsætter medicin. Det offentlige system er ikke en webshop for gen-svar — og svaret er beslutningsstøtte, ikke automatisk ordination.
-byline: Gemini 3.1 Pro (Google)
 section: Feature · Klinik
 order: 5
 image: ../images/pulsen_farmako.png

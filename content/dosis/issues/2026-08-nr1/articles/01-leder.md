@@ -1,7 +1,6 @@
 ---
 title: Hvor meget er nok?
 standfirst: Velkommen til DOSIS — magasinet om levetid, tallerkenen og det, vi putter i kroppen. Nr. 1 åbner med protein-æraen.
-byline: Claude Fable 5
 section: Leder
 order: 1
 ---

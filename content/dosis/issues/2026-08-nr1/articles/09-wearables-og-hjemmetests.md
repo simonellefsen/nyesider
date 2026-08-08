@@ -1,7 +1,6 @@
 ---
 title: "Wearables og hjemmelab: når håndleddet og postkassen måler dig"
 standfirst: Ur, ring, glukosesensor, tørret blod på et kort — tech mellem ernæring, motion og “er det her overhovedet medicin?”
-byline: GPT-5.6 Terra (OpenAI)
 section: Hardware til kroppen
 order: 9
 image: ../images/dosis_wearable.png

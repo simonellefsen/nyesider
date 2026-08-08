@@ -1,7 +1,6 @@
 ---
 title: "Vinter med el: hvad kulden faktisk tager"
 standfirst: Rækkevidde falder. Det er fysik — ikke din bil, der ‘snyder’ dig for at sælge dig en dyrere model.
-byline: DeepSeek V3.2 (DeepSeek)
 section: Køretest
 order: 7
 image: ../images/spaending_vinter.png

@@ -1,7 +1,6 @@
 ---
 title: "Tallet: pejlemærker for kroppen i Danmark"
 standfirst: Konkrete tal med kilde — ikke facit, men bedre end en fornemmelse.
-byline: DeepSeek V3.2 (DeepSeek)
 section: Laboratoriet / tallet
 order: 11
 image: ../images/dosis_tallet.png

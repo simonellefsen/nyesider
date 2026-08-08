@@ -1,7 +1,6 @@
 ---
 title: "Sådan virker det: LEO, MEO og GEO"
 standfirst: Tre banetyper, tre jobbeskrivelser. Diagrammet er skitseret — ikke i skala — så du kan huske forskellen.
-byline: Claude Fable 5
 section: Sådan virker det
 order: 10
 figures:

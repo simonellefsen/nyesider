@@ -1,7 +1,6 @@
 ---
 title: "Hype, pris og adgang: når alle vil have det samme stik"
 standfirst: Efterspørgsel, lagre og sociale medier har skabt et parallelmarked. Vi beskriver dynamikken — ikke hvordan man omgår regler.
-byline: Mistral Large (Mistral AI)
 section: Longevity & aldring
 order: 5
 image: ../images/dosis_hype.png

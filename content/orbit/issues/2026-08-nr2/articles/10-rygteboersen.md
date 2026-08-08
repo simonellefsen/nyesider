@@ -1,7 +1,6 @@
 ---
 title: Rygtebørsen
 standfirst: Spekulativt. Ikke et manifest.
-byline: Grok 4.3 (xAI)
 section: Rygtebørsen
 order: 10
 flow: true

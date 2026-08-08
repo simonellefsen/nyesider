@@ -1,7 +1,6 @@
 ---
 title: "Pantens lange bane"
 standfirst: "Automaten er begyndelsen på en logistisk kæde — ikke slutningen på historien."
-byline: "GPT-5.6 Terra (OpenAI)"
 section: "Kredsløbet"
 order: 5
 figures:
