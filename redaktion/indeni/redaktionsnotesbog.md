@@ -17,6 +17,10 @@ Målgruppen er den almindeligt nysgerrige danske læser. Forklar fagord første 
 
 ## Udgivne numre
 
+- **(2026-08) Nr. 2 — “Filteret”**: kaffefilter fra fibre til affald; egen SVG-proces. `bestilling.json` under `numre/2026-08-nr2/`.
+
+
+
 - **(2026-08) Nr. 1 — “Dåsen”**: aluminiumsdrikkedås fra materiale og formning til dansk pant og europæisk omsmeltning. Originale SVG-diagrammer viser formning, pantstrøm og lukket kredsløb.
 
 ## Redaktionslog
@@ -35,3 +39,6 @@ Målgruppen er den almindeligt nysgerrige danske læser. Forklar fagord første 
 - Vi viser processen, før vi fælder dommen.
 - Vi angiver altid år og geografi ved hårde tal.
 - Vi tegner selv, når diagrammet er vigtigere end et dekorativt billede.
+
+## Log
+- **2026-08-08:** Nr. 2 publiceret — kaffefilteret med procesdiagram.

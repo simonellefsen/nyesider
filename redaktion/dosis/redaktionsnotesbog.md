@@ -27,7 +27,13 @@ Cover + features (Imagine). PDF mangler.
 **14 artikler:** leder, protein-æra, gram-behov, tallerken, pulver vs mad, D-vitamin, tilskudsjungle, implantater, **wearables/hjemmetests**, longevity-hype, tallet, ordbog, rygtebørs, til PULSEN.  
 Cover + features (Imagine). PDF mangler.
 
-## Nr. 3 — kandidater
+## Nr. 3 — udgivet
+
+**Tema:** Søvnen, der ikke kan stikkes  
+11 artikler: leder, søvn-som-tilskud, timer, melatonin, hygiejne, tracker, søvn+GLP-1, tallet, ordbog, rygtebørs, til PULSEN.  
+`bestilling.json`: `redaktion/dosis/numre/2026-08-nr3/bestilling.json`.
+
+## Nr. 4 — kandidater
 
 - **(2026-08) Søvn som "tilskud" der virker** (lovet i bagside-tone på nr. 2)  
 - **(2026-08) Microbiom-hype**  
@@ -48,3 +54,5 @@ Fact-check obligatorisk før accept (se [redaktion/README](../README.md)). Medic
 - **2026-08-01:** 4 artikler manglede billede (pulver-vs-mad, tilskudsjunglen, longevity-hype, tallet) — tilføjet, hver i sin egen stilart (flad vektor / maksimalisme / retro / geometrisk) i stedet for endnu et fotorealistisk motiv, jf. ny stilregel i [redaktion/README](../README.md). Samtidig tilføjet hårde tal med kilde i pulver-vs-mad (NNR2023 protein g/kg), tilskudsjunglen (FDA/JAMA 776 forurenede produkter; DTU 60 % bruger tilskud), D-vitamin (SST's 5–10/20 µg), og longevity-hype (Newman/Ig Nobel 2024 blå zone-data), samt genopbygget "Tallet" med en kildetabel (levetid, overvægt, fysisk aktivitet, tilskud, D-vitamin, hofte-/knæalloplastik) i stedet for vage "ballpark"-rækker. Filnavne-præfikser i `articles/` rettet til at matche `issue.json`'s rækkefølge (var 09/09/10/11/12/13, nu 09–14 fortløbende).
 - **2026-08-01:** Notesbog udvidet med `## Format`; nr. 1 retro-udfyldt som `bestilling.json`-skabelon (se `redaktion/dosis/numre/2026-08-nr1/bestilling.json` og [redaktion/bestilling.schema.md](../bestilling.schema.md)).
 - **2026-08-01 rettelse:** `03-hvor-meget-protein.md` gav ingen konkret g/kg-tal, kun "tjek Fødevarestyrelsen" — tilføjede NNR2023's faktiske tal (0,66/0,83 g/kg voksne; 1,2-1,5 g/kg 70+) med kilde. Del af tværgående oprydning i 24 artikler med utilskrevne taltpåstande (se Workstream C, session 2026-08-01) — DOSIS' `13-rygteboersen.md` (spekulativ sladderkolonne) blev bevidst **ikke** rettet, samme begrundelse som PULSEN/DOSIS' øvrige rygtebørs-formater: `mustCite: 0` er et bevidst formatvalg der.
+
+- **2026-08-08:** Nr. 3 publiceret — søvn-pakke (hygiejne, melatonin, tracker, GLP-1-kobling).

@@ -17,6 +17,10 @@ Vi bruger "fysisk AI" som en forklaring, ikke som en magisk etiket: en robot ska
 
 ## Udgivne numre
 
+- **(2026-08) Nr. 2 — “Lagerets koreografi”**: AMR'er, pluk, WMS, sikkerhed, den menneskelige undtagelse. `bestilling.json` under `numre/2026-08-nr2/`.
+
+
+
 - **(2026-08) Nr. 1 — “Robotter på arbejde”**: humanoider og andre robotter i fabrik, lager og hjem. Nummeret kortlægger markedet, AI-stakken og forskellen mellem feltforsøg og drift.
 
 ## Idébank
@@ -35,3 +39,6 @@ Vi bruger "fysisk AI" som en forklaring, ikke som en magisk etiket: en robot ska
 - Vi skriver "pilot", når det er en pilot.
 - Vi gør regneenheden tydeligere end tallet.
 - Vi viser sikkerhed, data og menneskeligt arbejde som en del af systemet.
+
+## Log
+- **2026-08-08:** Nr. 2 publiceret — lager/AMR før humanoid-hype.

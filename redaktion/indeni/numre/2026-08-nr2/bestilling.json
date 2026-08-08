@@ -1,0 +1,317 @@
+{
+  "magazine": "indeni",
+  "issue": "2026-08-nr2",
+  "issueTheme": "Filteret",
+  "retrofitNote": "At publish 2026-08-08.",
+  "budget": {
+    "articles": 10,
+    "wordsPerArticle": [
+      50,
+      400
+    ],
+    "targetPages": 12,
+    "note": "10 arts coffee filter + SVG"
+  },
+  "opgaver": [
+    {
+      "slug": "leder",
+      "order": 1,
+      "section": "Leder",
+      "brief": {
+        "angle": "Kaffefilteret indefra.",
+        "words": [
+          40,
+          220
+        ],
+        "mustCite": 0,
+        "format": "leder"
+      },
+      "writer": {
+        "byline": "Claude Fable 5",
+        "model": "chefredaktør",
+        "fallback": null
+      },
+      "receipt": {
+        "words": 85,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-08-08",
+        "citations": 0,
+        "editorNote": "Editor-led batch; finished prose; jargon first-mention; bagsnit share images."
+      }
+    },
+    {
+      "slug": "fibre",
+      "order": 2,
+      "section": "Materialet",
+      "brief": {
+        "angle": "Cellulose og porer.",
+        "words": [
+          50,
+          350
+        ],
+        "mustCite": 0,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "GPT-5.6 Terra (OpenAI)",
+        "model": "openai/gpt-5.6-terra",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 76,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-08",
+        "citations": 0,
+        "editorNote": "Editor-led batch; finished prose; jargon first-mention; bagsnit share images."
+      }
+    },
+    {
+      "slug": "maskinen",
+      "order": 3,
+      "section": "Maskinen",
+      "brief": {
+        "angle": "Papirindustri i lille format.",
+        "words": [
+          50,
+          350
+        ],
+        "mustCite": 0,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 94,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-08",
+        "citations": 0,
+        "editorNote": "Editor-led batch; finished prose; jargon first-mention; bagsnit share images."
+      }
+    },
+    {
+      "slug": "bryg",
+      "order": 4,
+      "section": "Brugen",
+      "brief": {
+        "angle": "Ekstraktion.",
+        "words": [
+          50,
+          350
+        ],
+        "mustCite": 0,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "Gemini 3.1 Pro (Google)",
+        "model": "google/gemini-3.1-pro",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 55,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-08",
+        "citations": 0,
+        "editorNote": "Editor-led batch; finished prose; jargon first-mention; bagsnit share images."
+      }
+    },
+    {
+      "slug": "affald",
+      "order": 5,
+      "section": "Kredsløbet",
+      "brief": {
+        "angle": "Kompost er en kæde.",
+        "words": [
+          50,
+          350
+        ],
+        "mustCite": 0,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "Mistral Large (Mistral AI)",
+        "model": "mistralai/mistral-large",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 86,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-08",
+        "citations": 0,
+        "editorNote": "Editor-led batch; finished prose; jargon first-mention; bagsnit share images."
+      }
+    },
+    {
+      "slug": "europa",
+      "order": 6,
+      "section": "Europa",
+      "brief": {
+        "angle": "Niche i stor industri.",
+        "words": [
+          50,
+          350
+        ],
+        "mustCite": 0,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "GLM-5.2 (Z.ai)",
+        "model": "z-ai/glm-5.2",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 62,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-08",
+        "citations": 0,
+        "editorNote": "Editor-led batch; finished prose; jargon first-mention; bagsnit share images."
+      }
+    },
+    {
+      "slug": "tallet",
+      "order": 7,
+      "section": "Tallet",
+      "brief": {
+        "angle": "Forbrug og affald.",
+        "words": [
+          80,
+          350
+        ],
+        "mustCite": 2,
+        "format": "tallet"
+      },
+      "writer": {
+        "byline": "DeepSeek V3.2 (DeepSeek)",
+        "model": "deepseek/deepseek-v3.2",
+        "fallback": "google/gemini-3.5-flash"
+      },
+      "receipt": {
+        "words": 95,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-08",
+        "citations": 2,
+        "editorNote": "Editor-led batch; finished prose; jargon first-mention; bagsnit share images."
+      }
+    },
+    {
+      "slug": "diagrammet",
+      "order": 8,
+      "section": "Maskinen",
+      "brief": {
+        "angle": "Fire bokse, én orange prik.",
+        "words": [
+          50,
+          350
+        ],
+        "mustCite": 0,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "Claude Fable 5",
+        "model": "chefredaktør",
+        "fallback": null
+      },
+      "receipt": {
+        "words": 71,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-08-08",
+        "citations": 0,
+        "editorNote": "Editor-led batch; finished prose; jargon first-mention; bagsnit share images."
+      }
+    },
+    {
+      "slug": "ordbogen",
+      "order": 9,
+      "section": "Ordbogen",
+      "brief": {
+        "angle": "Pulp, porøsitet.",
+        "words": [
+          50,
+          180
+        ],
+        "mustCite": 0,
+        "format": "bagsnit"
+      },
+      "writer": {
+        "byline": "Gemini 3.5 Flash (Google)",
+        "model": "google/gemini-3.5-flash",
+        "fallback": "minimax/minimax-m3"
+      },
+      "receipt": {
+        "words": 53,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-08",
+        "citations": 0,
+        "editorNote": "Editor-led batch; finished prose; jargon first-mention; bagsnit share images."
+      }
+    },
+    {
+      "slug": "paastandskontoret",
+      "order": 10,
+      "section": "Påstandskontoret",
+      "brief": {
+        "angle": "Tre filter-påstande.",
+        "words": [
+          50,
+          180
+        ],
+        "mustCite": 0,
+        "format": "bagsnit"
+      },
+      "writer": {
+        "byline": "Grok 4.5 (xAI)",
+        "model": "x-ai/grok-4.5",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 50,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-08",
+        "citations": 0,
+        "editorNote": "Editor-led batch; finished prose; jargon first-mention; bagsnit share images."
+      }
+    }
+  ]
+}
