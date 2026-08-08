@@ -1,6 +1,6 @@
 ---
 title: "Udvandringen: da danskere blev migranter"
-standfirst: I 1800-tallet og det tidlige 1900-tal forlod hundredtusinder Danmark. De fleste tog til Amerika. Det er migration — ikke bare “eventyrlyst”.
+standfirst: Hundredtusinder forlod Danmark. De fleste til USA — og en slående andel fulgte mormonmissionærer til Utah, før Midtvestens store bølger.
 byline: Qwen3.7 Max (Alibaba)
 section: Migration
 order: 10
@@ -9,38 +9,36 @@ imageCredit: "AI-genereret motiv (Imagine / xAI) — retro plakatstil"
 imageSource: "https://x.ai/"
 ---
 
-Danmarkshistorie fortælles ofte indefra: konger, love, krige på dansk jord. **Udvandringen** vender kameraet om. Fra midten af 1800-tallet til begyndelsen af 1900-tallet forlod i størrelsesordenen **ca. 300.000** danskere landet — især til **USA**, men også til andre oversøiske mål.[^1] Tallet er et pejlemærke; opgørelser afhænger af definition (emigrant vs. midlertidig, grænser, kilder).
+Danmarkshistorie fortælles ofte indefra. **Udvandringen** vender kameraet om. Fra midten af 1800-tallet til begyndelsen af 1900-tallet forlod i størrelsesordenen **ca. 300.000–350.000** danskere landet — især til **USA**.[^1]
 
-### Hvorfor tage af sted?
-
-Push og pull i samme pakke:
+### Push og pull
 
 | Push (væk fra DK) | Pull (mod Amerika) |
 |---|---|
-| Jordmangel og arv der ikke rækker | Billig/tilgængelig jord (prairie-myten og realiteten) |
-| Økonomiske kriser, arbejdsløshed | Løn og “mulighed” i breve hjem |
-| Social kontrol, begrænset mobilitet | Netværk: familie der allerede er der |
-| Efter [1864](/kronike/2026-08-nr1/seksten-fireogtreds): mindre rig, mere trængsel om ressourcer | Reklamer, agenter, dampskibsruter |
+| Jordmangel og lille arv | Jord og “mulighed” i breve hjem |
+| Økonomiske kriser | Netværk af familie allerede der |
+| Social kontrol | Dampskibsruter og agenter |
+| Efter [1864](/kronike/2026-08-nr1/seksten-fireogtreds) | Reklame, religion, rygter |
 
-Mange kom fra **landdistrikter** — især Jylland — men byer bidrog også. Udvandringen er knyttet til [landboreformernes](/kronike/2026-08-nr1/landboreformer) lange efterdønninger: mere individuel jord, mere konkurrence, flere uden stor arv.
+Mange kom fra **landdistrikter** — især Jylland — i kølvandet på [landboreformerne](/kronike/2026-08-nr1/landboreformer).
 
-### Hvad de byggede
+### Mormonerne: den tidlige, organiserede bølge
 
-I USA opstod **danske kirker, højskoler, aviser og byer** (fx områder i Midwest). Nogle vendte hjem med penge og idéer; de fleste blev del af en ny nation. Migration er ikke en envejs-fortælling om “tab for Danmark” — det er også **transatlantisk historie**.
+Før den store “almindelige” udvandring til Midtvesten og prærien for alvor tog fart, spillede **Jesu Kristi Kirke af Sidste Dages Hellige** (mormonerne / LDS) en bemærkelsesværdig rolle.
 
-### KRØNIKE’s pejling
+- Missionærer kom til Skandinavien fra midten af **1800-tallet**.  
+- Konvertitter blev opfordret til **“gathering”** — at samles i Zion, især **Utah**.  
+- Mellem ca. **1849/1850 og 1904** rejste i størrelsesordenen **ca. 17.000** danske mormoner (inkl. børn i nogle opgørelser) til kirkens bosættelser i Utah — danskere var blandt de største udenlandske grupper efter briterne.[^2]  
+- I **1850’erne–60’erne** kunne mormonudvandrere udgøre en **meget stor andel** af *alle* danske emigranter i enkelte år (klassiske fremstillinger pejler “op mod halvdelen” i perioder — tallet er omdiskuteret år-for-år, men retningen er klar: religion drev en tidlig, organiseret strøm).[^3]
 
-Når nutiden taler om indvandring, er det nyttigt at huske: danskere har været **dem på skibet**. Udvandringen er spejlet, ikke en parentes. Kilderne er passagerlister, breve, kirkebøger og museer — ikke nostalgi alene.[^2]
+De bosatte sig bl.a. i **Sanpete** og **Sevier** counties og andre “Little Denmark”-samfund i Utah — landbrug, håndværk, kirke. Det er **ikke** den eneste danske Amerika-historie (Minnesota, Iowa, Wisconsin, Nebraska m.fl. fylder den større, senere bølge). Men det er den, der ofte glemmes i skoleskitsen “alle tog til prærien for jord”.
 
-[^1]: Danske udvandringsstatistikker og formidling (Rigsarkivet; Danish Immigrant Museum / Museum of Danish America; danmarkshistorien.dk) — afrundet pejlemærke ca. 300.000.
+**KRØNIKE’s pejling:** mormonudvandringen er **tro + organisation + skib**. Den almindelige udvandring er **jord + løn + brev**. Begge er migration; motiverne er ikke de samme.
 
+### Dem der blev — og spejlet
 
-### Skibet og brevet
+Udvandring ændrer også dem, der bliver. Når nutiden taler om indvandring, er det nyttigt at huske: danskere har været **dem på skibet**.
 
-Dampskibsruter fra København og Hamburg gjorde rejsen billigere og mere forudsigelig end sejlskibenes lotteri. **Breve hjem** var både sandhed og reklame: succeshistorier trækker flere afsted; fiaskoer forbliver ofte usagte. Agenter og rederier havde interesse i volumen.
-
-### Dem der blev
-
-Udvandring ændrer også dem, der bliver: mindre konkurrence om jord i nogle egne, tab af arbejdskraft i andre, og en kulturel bevidsthed om, at “verden er større end sognet”. For KRØNIKE er det spejlet til nutidens migrationsdebatter — uden at ligne dem 1:1.
-
-[^2]: Passagerlister og emigrationsagenter — Rigsarkivet; danske kolonier/communities i det amerikanske Midtvesten.
+[^1]: Danske udvandringsstatistikker; Museum of Danish America / Rigsarkivet — pejlemærke 300.000+.
+[^2]: Danish Americans / Utah-historie: ca. 17.000 danske mormoner til Utah 1849–1904; næststørste udenlandske gruppe efter briter i kirkens rekruttering.
+[^3]: LDS global histories / Danish museum-udstillinger (*In Search of Zion*); andel af total emigration i 1850’erne–60’erne som pejlemærke.

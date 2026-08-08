@@ -46,4 +46,7 @@ Oprettet 2026-08-08. Modelerfaringer: [modelkartotek](../modelkartotek.md).
 
 ## Log
 
+- **2026-08-08 (depth):** Nr. 1 — kort/SVG, Dannevirke-rekonstruktion, faktabokse (Hedeby, Øresundstold), Ansgar/Ribe, Margrete uden samtidsportræt, 1658/Skåne, Frihedsstøtten (CC BY), Dybbøl Mølle, mormonudvandring, Ørsted-daguerreotypi + korrespondance.
+
+
 - **2026-08-08:** Titel oprettet; nr. 1 *"Riget formes"* produceret.

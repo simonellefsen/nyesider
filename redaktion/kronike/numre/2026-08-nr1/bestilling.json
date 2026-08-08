@@ -80,8 +80,8 @@
       "brief": {
         "angle": "En handelsby ved Slien og en jordvold tværs over Jylland. Vikingetidens magt sad ikke kun i skibene — den sad i told, tr",
         "words": [
-          400,
-          800
+          450,
+          900
         ],
         "mustCite": 2,
         "format": "feature"
@@ -92,15 +92,15 @@
         "fallback": null
       },
       "receipt": {
-        "words": 484,
+        "words": 689,
         "costUSD": null,
         "draft": null
       },
       "verdict": {
         "status": "rewritten-by-editor",
         "checkedAt": "2026-08-08",
-        "citations": 2,
-        "editorNote": "KRØNIKE nr.1 inaugural; editor-written deep features with footnotes."
+        "citations": 5,
+        "editorNote": "Depth pass: maps/fact boxes/PD images/research (Slien, Ribe, 1658, Mormon, Ørsted correspondence, etc.)."
       }
     },
     {
@@ -110,8 +110,8 @@
       "brief": {
         "angle": "Ansgar kom med mission. Harald Blåtand kom med magt. Mellem dem ligger generationer — ikke et trylleslag i Jelling.",
         "words": [
-          400,
-          800
+          450,
+          900
         ],
         "mustCite": 2,
         "format": "feature"
@@ -122,7 +122,7 @@
         "fallback": null
       },
       "receipt": {
-        "words": 412,
+        "words": 452,
         "costUSD": null,
         "draft": null
       },
@@ -130,7 +130,7 @@
         "status": "rewritten-by-editor",
         "checkedAt": "2026-08-08",
         "citations": 3,
-        "editorNote": "KRØNIKE nr.1 inaugural; editor-written deep features with footnotes."
+        "editorNote": "Depth pass: maps/fact boxes/PD images/research (Slien, Ribe, 1658, Mormon, Ørsted correspondence, etc.)."
       }
     },
     {
@@ -140,8 +140,8 @@
       "brief": {
         "angle": "Hun regerede uden at bære kronen i alle rigers sprog på samme måde — og skabte Kalmarunionen. Biografi, magt og internat",
         "words": [
-          400,
-          800
+          450,
+          900
         ],
         "mustCite": 2,
         "format": "feature"
@@ -152,7 +152,7 @@
         "fallback": null
       },
       "receipt": {
-        "words": 496,
+        "words": 438,
         "costUSD": null,
         "draft": null
       },
@@ -160,7 +160,7 @@
         "status": "rewritten-by-editor",
         "checkedAt": "2026-08-08",
         "citations": 2,
-        "editorNote": "KRØNIKE nr.1 inaugural; editor-written deep features with footnotes."
+        "editorNote": "Depth pass: maps/fact boxes/PD images/research (Slien, Ribe, 1658, Mormon, Ørsted correspondence, etc.)."
       }
     },
     {
@@ -200,8 +200,8 @@
       "brief": {
         "angle": "Fra 1429 til 1857 betalte skibe for at passere mellem Nordsø og Østersø. Det var geopolitik i toldform — og en af rigets",
         "words": [
-          400,
-          800
+          450,
+          900
         ],
         "mustCite": 2,
         "format": "feature"
@@ -212,15 +212,15 @@
         "fallback": null
       },
       "receipt": {
-        "words": 385,
+        "words": 423,
         "costUSD": null,
         "draft": null
       },
       "verdict": {
         "status": "rewritten-by-editor",
         "checkedAt": "2026-08-08",
-        "citations": 2,
-        "editorNote": "KRØNIKE nr.1 inaugural; editor-written deep features with footnotes."
+        "citations": 3,
+        "editorNote": "Depth pass: maps/fact boxes/PD images/research (Slien, Ribe, 1658, Mormon, Ørsted correspondence, etc.)."
       }
     },
     {
@@ -230,8 +230,8 @@
       "brief": {
         "angle": "Stavnsbånd, hoveri og udskiftning. 1780’ernes reformer er social historie — ikke kun en dato i 1788.",
         "words": [
-          400,
-          800
+          450,
+          900
         ],
         "mustCite": 2,
         "format": "feature"
@@ -242,7 +242,7 @@
         "fallback": null
       },
       "receipt": {
-        "words": 403,
+        "words": 346,
         "costUSD": null,
         "draft": null
       },
@@ -250,7 +250,7 @@
         "status": "rewritten-by-editor",
         "checkedAt": "2026-08-08",
         "citations": 2,
-        "editorNote": "KRØNIKE nr.1 inaugural; editor-written deep features with footnotes."
+        "editorNote": "Depth pass: maps/fact boxes/PD images/research (Slien, Ribe, 1658, Mormon, Ørsted correspondence, etc.)."
       }
     },
     {
@@ -260,8 +260,8 @@
       "brief": {
         "angle": "To hertugdømmer, én krig, og et Danmark der blev mindre — og mere optaget af, hvem “vi” er.",
         "words": [
-          400,
-          800
+          450,
+          900
         ],
         "mustCite": 2,
         "format": "feature"
@@ -272,7 +272,7 @@
         "fallback": null
       },
       "receipt": {
-        "words": 396,
+        "words": 383,
         "costUSD": null,
         "draft": null
       },
@@ -280,7 +280,7 @@
         "status": "rewritten-by-editor",
         "checkedAt": "2026-08-08",
         "citations": 2,
-        "editorNote": "KRØNIKE nr.1 inaugural; editor-written deep features with footnotes."
+        "editorNote": "Depth pass: maps/fact boxes/PD images/research (Slien, Ribe, 1658, Mormon, Ørsted correspondence, etc.)."
       }
     },
     {
@@ -290,8 +290,8 @@
       "brief": {
         "angle": "I 1800-tallet og det tidlige 1900-tal forlod hundredtusinder Danmark. De fleste tog til Amerika. Det er migration — ikke",
         "words": [
-          400,
-          800
+          450,
+          900
         ],
         "mustCite": 2,
         "format": "feature"
@@ -302,15 +302,15 @@
         "fallback": null
       },
       "receipt": {
-        "words": 357,
+        "words": 378,
         "costUSD": null,
         "draft": null
       },
       "verdict": {
         "status": "rewritten-by-editor",
         "checkedAt": "2026-08-08",
-        "citations": 2,
-        "editorNote": "KRØNIKE nr.1 inaugural; editor-written deep features with footnotes."
+        "citations": 3,
+        "editorNote": "Depth pass: maps/fact boxes/PD images/research (Slien, Ribe, 1658, Mormon, Ørsted correspondence, etc.)."
       }
     },
     {
@@ -320,8 +320,8 @@
       "brief": {
         "angle": "I 1820 viste en dansk fysiker, at elektricitet påvirker et kompas. Det var ikke en gadget — det var et vendepunkt for vi",
         "words": [
-          400,
-          800
+          450,
+          900
         ],
         "mustCite": 2,
         "format": "feature"
@@ -332,7 +332,7 @@
         "fallback": null
       },
       "receipt": {
-        "words": 364,
+        "words": 377,
         "costUSD": null,
         "draft": null
       },
@@ -340,7 +340,7 @@
         "status": "rewritten-by-editor",
         "checkedAt": "2026-08-08",
         "citations": 2,
-        "editorNote": "KRØNIKE nr.1 inaugural; editor-written deep features with footnotes."
+        "editorNote": "Depth pass: maps/fact boxes/PD images/research (Slien, Ribe, 1658, Mormon, Ørsted correspondence, etc.)."
       }
     },
     {

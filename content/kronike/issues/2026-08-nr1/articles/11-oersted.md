@@ -1,41 +1,51 @@
 ---
 title: "H.C. Ørsted: da strøm og magnetisme mødtes"
-standfirst: I 1820 viste en dansk fysiker, at elektricitet påvirker et kompas. Det var ikke en gadget — det var et vendepunkt for videnskab og senere industri.
+standfirst: 1820-opdagelsen er kun toppen. Under den ligger et liv: professorat, korrespondance med Faraday og andre, familie — og et ansigt, vi faktisk har på et daguerreotypi.
 byline: GPT-5.5 (OpenAI)
 section: Videnskab & opfindelser
 order: 11
 image: ../images/kronike_oersted.png
 imageCredit: "AI-genereret motiv (Imagine / xAI) — geometrisk/lab"
 imageSource: "https://x.ai/"
+figures:
+  - ../images/pd_oersted_daguerreotype.jpg
 ---
 
-**Hans Christian Ørsted** (1777–1851) er et af de klareste eksempler på, at danmarkshistorie også er **videnskabshistorie**. I **1820** påviste han, at en elektrisk strøm påvirker en magnetnål — forbindelsen mellem **elektricitet og magnetisme**, som senere blev til elektromagnetisme, generatorer, motorer og det elektriske samfund.[^1]
+**Hans Christian Ørsted** (1777–1851) er et af de klareste eksempler på, at danmarkshistorie også er **videnskabshistorie**. I **1820** påviste han, at en elektrisk strøm påvirker en magnetnål — forbindelsen mellem **elektricitet og magnetisme**.[^1]
 
-### Hvem var han?
+### Et ansigt fra tiden
 
-Ørsted var professor, kemiker/fysiker i den naturfilosofiske tradition, og en del af det københavnske videnskabelige miljø i en tid, hvor Danmark stadig var et helstatligt rige med ambitioner, selv efter napoleonskrigenes chok. Han skrev ikke kun for specialister; han var også **formidler** — et træk, der binder ham til den danske oplysningstradition.
+I modsætning til [Margrete 1.](/kronike/2026-08-nr1/margrete) har vi **samtidige billeder** af Ørsted. Nedenfor: et **daguerreotypi** (tidlig fotografering) fra før hans død i 1851 — public domain via Wikimedia Commons. Der findes også malede portrætter (bl.a. C.A. Jensen). KRØNIKE beholder det stiliserede lab-motiv som artikelheader; daguerreotypiet er **kilden til ansigtet**.
 
-### Eksperimentet
+[FIGUR 1]
 
-Det berømte forsøg er enkelt i genfortællingen: en strømførende ledning, et kompas, en udslag. Pointen er ikke “han opfandt el”. Pointen er, at to fænomener, man havde behandlet som adskilte, viste sig at være **forbundet**. Det åbnede en forskningslinje, som **Faraday**, **Maxwell** og en hel ingeniørtradition byggede videre på.
+*H.C. Ørsted — daguerreotypi (før 1851). Wikimedia Commons / public domain.*
 
-### Hvorfor det hører til KRØNIKE
+### Liv, stillinger, familie
 
-Vi har i dette nummer [Øresundstold](/kronike/2026-08-nr1/oresundstold) som **handelens** flaskehals og [1864](/kronike/2026-08-nr1/seksten-fireogtreds) som **militær** flaskehals. Ørsted er **videns**-flaskehalsen, der springer: uden elektromagnetisme ingen moderne telegraf, elmotor, kraftværk. For et magasin, der også deler læsere med [KRAFTEN](/kraften/2026-08-nr2/leder) (elektrificering i nutiden), er Ørsted broen bagud: **strøm har en dansk opdagelseshistorie**, før den har en grøn omstillingsdebat.
+Ørsted blev født i **Rudkøbing** på Langeland som søn af en apoteker. Han studerede bl.a. farmaci/kemi, blev **professor** ved Københavns Universitet (fra **1806** i fysik/eksperimentel naturfilosofi) og var en central figur i det københavnske videnskabelige miljø efter napoleonskrigene.[^1]
 
-### Eftermæle
+Han giftede sig med **Inger Birgitte Ballum**; parret fik **otte børn**. Det er ikke en fodnote: det er et borgerligt 1800-tals liv midt i et internationalt forskningsliv — rejser, breve, forelæsninger, administration.
 
-Ørsted-navnet lever i priser, institutter og gadenavne. KRØNIKE’s pejling: husk **datoen 1820** og **resultatet** (elektromagnetisk sammenhæng), ikke kun busten. Videnskab er også magt — bare en anden slags end Kronborgs kanoner.[^2]
+### Korrespondance: Ørsted i netværket
 
-[^1]: H.C. Ørsteds opdagelse 1820; standard videnskabshistoriske fremstillinger (Dansk Biografisk Leksikon; museum/universitetsformidling).
+Ørsted skrev og modtog breve til/fra europæiske “savants”. Den udgivne korrespondance (*Correspondance de H. C. Örsted avec divers savants*, red. M. C. Harding, 1920) rummer bl.a. breve knyttet til:[^2]
 
+- **Jöns Jacob Berzelius** (kemi, Sverige)  
+- **Christopher Hansteen** (norsk fysiker/astronom)  
+- **Johann Wilhelm Ritter**  
+- **Michael Faraday** (England) — central i den videre elektromagnetiske forskning  
+- **Carl Friedrich Gauss** m.fl.  
+
+Pointen er ikke “han kendte berømtheder”. Pointen er, at opdagelsen i 1820 **ikke levede i et vakuum**: den blev læst, gentaget, matematiseret (bl.a. **Ampère**) og omsat til eksperimenter af andre. Faraday og Ampère byggede videre; Maxwell samlede senere feltet teoretisk. Ørsted **åbnede døren**.
 
 ### Fra opdagelse til samfund
 
-Mellem 1820 og det elektrificerede 1900-tal ligger årtier af opfindelser, patenter og kapital. Ørsted “opfandt ikke” elværket. Han **åbnede et felt**. Det er en vigtig distinktion i videnskabshistorie: den første demonstration er sjældent produktet; den er kortet, andre tegner veje på.
+Mellem 1820 og det elektrificerede 1900-tal ligger årtier af opfindelser og kapital. For et magasin, der deler læsere med [KRAFTEN](/kraften/2026-08-nr2/leder), er Ørsted broen bagud: **strøm har en dansk opdagelseshistorie**, før den har en grøn omstillingsdebat.
 
-### Danmark som lille videnskabsnation
+### Eftermæle
 
-At en forsker fra et lille land kan flytte den europæiske fysik, er en del af den danske selvfortælling om “klogskab over størrelse”. KRØNIKE holder den i skak med fakta: Ørsted arbejdede i et **internationalt netværk** af tidsskrifter og kolleger. Geniet er lokalt; videnskaben er det sjældent.
+Navnet lever i priser, gader og energiselskaber. KRØNIKE’s pejling: husk **1820**, **netværket** og **mennesket** — ikke kun busten.
 
-[^2]: Videnskabshistoriske fremstillinger af elektromagnetismen efter 1820 (Faraday m.fl.); Ørsteds formidlingsvirksomhed.
+[^1]: H.C. Ørsted — biografi og 1820-opdagelsen (Britannica / DBL / universitetsformidling).
+[^2]: M. C. Harding (red.), *Correspondance de H. C. Örsted avec divers savants* (1920) — bl.a. Berzelius, Hansteen, Ritter, Faraday, Gauss; tilgængelig via arkiver/digitalisering.

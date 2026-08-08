@@ -10,22 +10,29 @@
   "coverCredit": "AI-genereret forside (Imagine / xAI) — retrostil",
   "coverSource": "https://x.ai/",
   "images": [
+    "images/dannevirke-rekonstruktion.png",
+    "images/hedeby-bykort.png",
+    "images/kort-danmark-jelling-ribe.svg",
+    "images/kort-dybboel-1864.svg",
+    "images/kort-sydjylland-hedeby.svg",
+    "images/kronike_1864.png",
     "images/kronike_cover.png",
-    "images/kronike_leder.png",
-    "images/kronike_tallet.png",
     "images/kronike_hedeby.png",
     "images/kronike_kristning.png",
-    "images/kronike_margrete.png",
-    "images/kronike_reformation.png",
-    "images/kronike_oresund.png",
     "images/kronike_landbo.png",
-    "images/kronike_1864.png",
-    "images/kronike_udvandring.png",
+    "images/kronike_leder.png",
+    "images/kronike_margrete.png",
+    "images/kronike_myter.png",
     "images/kronike_oersted.png",
-    "images/kronike_myter.png"
+    "images/kronike_oresund.png",
+    "images/kronike_reformation.png",
+    "images/kronike_tallet.png",
+    "images/kronike_udvandring.png",
+    "images/pd_frihedsstoetten.jpg",
+    "images/pd_oersted_daguerreotype.jpg"
   ],
   "productionCostUSD": null,
-  "imageCredits": "Imagine / xAI. Varierede stilarter (retro, geometrisk, illustreret, grunge, flat, organisk, playful). Se SOURCES.md.",
+  "imageCredits": "Imagine / xAI + redaktionelle SVG-kort + Wikimedia (Frihedsstøtten CC BY 2.0 Jorge Láscar; Ørsted-daguerreotypi public domain). Se SOURCES.md.",
   "backCoverPromise": "KRØNIKE nr. 2 graver videre — flere århundreder, flere stemmer, samme krav til kilder.",
   "articles": [
     {
@@ -71,7 +78,7 @@
       "title": "Kristningen: da troen blev statsprojekt",
       "section": "Tro & kirke",
       "byline": "Gemini 3.1 Pro (Google)",
-      "standfirst": "Ansgar kom med mission. Harald Blåtand kom med magt. Mellem dem ligger generationer — ikke et trylleslag i Jelling.",
+      "standfirst": "Ansgar kom med mission og fik lov til kirker — blandt andet i Ribe. Harald Blåtand kom med magt og Jelling-sten. Mellem dem ligger generationer.",
       "image": "../images/kronike_kristning.png",
       "imageCredit": "AI-genereret motiv (Imagine / xAI) — retrostil",
       "imageSource": "https://x.ai/"
@@ -83,7 +90,7 @@
       "title": "Margrete 1.: dronningen der samlede Norden",
       "section": "Biografi",
       "byline": "Mistral Large (Mistral AI)",
-      "standfirst": "Hun regerede uden at bære kronen i alle rigers sprog på samme måde — og skabte Kalmarunionen. Biografi, magt og international politik i ét liv.",
+      "standfirst": "Hun regerede uden at alle rigers kroningsritualer lignede hinanden — og skabte Kalmarunionen. Vi har hendes politik. Vi har ikke et sikkert ansigt.",
       "image": "../images/kronike_margrete.png",
       "imageCredit": "AI-genereret motiv (Imagine / xAI) — maskulin/historisk portrætstil",
       "imageSource": "https://x.ai/"
@@ -107,7 +114,7 @@
       "title": "Øresundstolden: pengekassen i sundet",
       "section": "Handel & industri",
       "byline": "Grok 4.5 (xAI)",
-      "standfirst": "Fra 1429 til 1857 betalte skibe for at passere mellem Nordsø og Østersø. Det var geopolitik i toldform — og en af rigets vigtigste indtægter.",
+      "standfirst": "Fra 1429 til 1857 betalte skibe for at passere. Vi har skibstal. Vi har indtægtens betydning. Og i 1658 mistede Danmark den ene kyst — det ændrede spillet.",
       "image": "../images/kronike_oresund.png",
       "imageCredit": "AI-genereret motiv (Imagine / xAI) — flad vektor",
       "imageSource": "https://x.ai/"
@@ -119,7 +126,7 @@
       "title": "Landboreformerne: da bonden fik en anden himmel",
       "section": "Social forandring",
       "byline": "DeepSeek V3.2 (DeepSeek)",
-      "standfirst": "Stavnsbånd, hoveri og udskiftning. 1780’ernes reformer er social historie — ikke kun en dato i 1788.",
+      "standfirst": "Stavnsbånd, hoveri og udskiftning. 1788 er en dato. Frihedsstøtten i København er stenen, der skulle nagle den fast.",
       "image": "../images/kronike_landbo.png",
       "imageCredit": "AI-genereret motiv (Imagine / xAI) — organisk stil",
       "imageSource": "https://x.ai/"
@@ -131,7 +138,7 @@
       "title": "1864: nederlaget der formede nationen",
       "section": "Krig & krise",
       "byline": "Claude Sonnet 5 (Anthropic)",
-      "standfirst": "To hertugdømmer, én krig, og et Danmark der blev mindre — og mere optaget af, hvem “vi” er.",
+      "standfirst": "Først rømningen af Dannevirke. Så skanserne ved Dybbøl. Og en mølle, der stadig står som symbol — ikke fordi den vandt krigen, men fordi den bar nederlaget.",
       "image": "../images/kronike_1864.png",
       "imageCredit": "AI-genereret motiv (Imagine / xAI) — dramatisk illustreret",
       "imageSource": "https://x.ai/"
@@ -143,7 +150,7 @@
       "title": "Udvandringen: da danskere blev migranter",
       "section": "Migration",
       "byline": "Qwen3.7 Max (Alibaba)",
-      "standfirst": "I 1800-tallet og det tidlige 1900-tal forlod hundredtusinder Danmark. De fleste tog til Amerika. Det er migration — ikke bare “eventyrlyst”.",
+      "standfirst": "Hundredtusinder forlod Danmark. De fleste til USA — og en slående andel fulgte mormonmissionærer til Utah, før Midtvestens store bølger.",
       "image": "../images/kronike_udvandring.png",
       "imageCredit": "AI-genereret motiv (Imagine / xAI) — retro plakatstil",
       "imageSource": "https://x.ai/"
@@ -155,7 +162,7 @@
       "title": "H.C. Ørsted: da strøm og magnetisme mødtes",
       "section": "Videnskab & opfindelser",
       "byline": "GPT-5.5 (OpenAI)",
-      "standfirst": "I 1820 viste en dansk fysiker, at elektricitet påvirker et kompas. Det var ikke en gadget — det var et vendepunkt for videnskab og senere industri.",
+      "standfirst": "1820-opdagelsen er kun toppen. Under den ligger et liv: professorat, korrespondance med Faraday og andre, familie — og et ansigt, vi faktisk har på et daguerreotypi.",
       "image": "../images/kronike_oersted.png",
       "imageCredit": "AI-genereret motiv (Imagine / xAI) — geometrisk/lab",
       "imageSource": "https://x.ai/"
