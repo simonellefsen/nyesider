@@ -1,6 +1,6 @@
 # GNISTEN – Redaktionsnotesbog
 
-Redaktionel backlog og noter — opdateret efter nr. 2 (august 2026, "Ud af browseren"). Modelerfaringer ligger i det fælles [modelkartotek](../modelkartotek.md).
+Redaktionel backlog og noter — opdateret efter nr. 3 (august 2026, "Agenten og den lokale hjerne"). Modelerfaringer ligger i det fælles [modelkartotek](../modelkartotek.md).
 
 ## Identitet
 
@@ -9,8 +9,14 @@ Redaktionel backlog og noter — opdateret efter nr. 2 (august 2026, "Ud af brow
 ## Format
 
 - **Faste formater:** Kortet · Fokus · Værkstedet · Månedens prompt · Regningen · Ordbogen · Sladder (`flow: true` på bagsnit).
-- **Ordmål:** 450–750 ord på features (bekræftet af erfaring: strammere briefs fra start slår at skrive langt og klippe bagefter — se [modelkartotek.md](../modelkartotek.md)).
-- **Standard `mustCite`:** 1–2 for Fokus/Værkstedet-features med konkrete påstande (priser, modelnavne, versionstal); 0 for Månedens prompt, Ordbogen, Sladder.
+- **Ordmål:** 350–500 ord på features (nr. 3: tre kerne-features ~360–380 efter editor-udvidelse; bagsnit korte).
+- **Standard `mustCite`:** 1–2 for Fokus/Værkstedet-features med konkrete priser/versionstal når de låses; 0 for Månedens prompt, Ordbogen, Sladder — og for pejlemærke-features der bevidst undgår forældelige prisskilte.
+
+## Afviklet i nr. 3
+
+- **Løfte indfriet** fra nr. 2-bagside: Fokus Gemini · lokale modeller (Ollama) · første agent-arbejdsgang med bremse.  
+- Kortet, Månedens prompt, Regningen, Ordbog, sladder.  
+- `bestilling.json`: `redaktion/gnisten/numre/2026-08-nr3/bestilling.json`.
 
 ## Afviklet i nr. 2
 
@@ -19,23 +25,24 @@ Redaktionel backlog og noter — opdateret efter nr. 2 (august 2026, "Ud af brow
 - Første skridt ud af browseren / publicering (Vercel, Cloudflare Pages, GitHub Pages).
 - Opdateret Kortet, Regningen, Ordbog, Sladder.
 
-## Løfter givet i nr. 2
+## Løfter givet i nr. 3
 
-- **Bagsiden lovede:** Gemini, lokale modeller og den første rigtige agent-arbejdsgang til nr. 3 (`backCoverPromise` i issue.json).
+- **Bagsiden:** flere agenter, mere ansvar (`backCoverPromise`).
 
-## Historier i støbeskeen til nr. 3
+## Historier i støbeskeen til nr. 4+
 
-- **(2026-08) Fokus: Gemini** — Google-økosystemet, Android/Workspace-vinklen.
-- **(2026-08) Lokale modeller** — Ollama m.fl.: hvornår giver det mening for en begynder?
-- **(2026-08) Agent-arbejdsgange** — fra chat til multi-step uden at miste kontrollen.
-- **(2026-08) Sikkerhed for MCP** — dybere end nr. 2's advarsel; tillid og tilladelser.
-- **(2026-08) Læserindsendte prompts** — saml, hvis der kommer svar på "Stikket og skiltet".
+- **(2026-08) Sikkerhed for MCP** — dybere end nr. 2's advarsel; tillid og tilladelser.  
+- **(2026-08) Læserindsendte prompts** — saml, hvis der kommer svar.  
+- **(2026-08) Agent niveau 2** — smal mappe + én tool, stadig med menneske-stop.  
+- **(2026-08) Sammenligningstabel** cloud-planer uden at love faste priser (link til leverandør).
 
 ## Praktisk
 
-- Nr. 2 er markdown-first; PDF og cover-illustrationer mangler stadig (generér via `build_magazine.py` + billedmodeller).
+- Nr. 2–3 er markdown-first; PDF mangler.  
+- OpenRouter: **kun** `.env.gnisten`. Imagine: `.env.local`.
 
 ## Log
 
+- **2026-08-08:** Nr. 3 publiceret — indfrier bagsideløfte (Gemini / lokalt / agent). Kerne-features udvidet ved accept for at undgå length-collapse; `bestilling.json` oprettet.
 - **2026-08-01:** Notesbog udvidet med `## Identitet` og `## Format` (fælles skabelon på tværs af titler, se [redaktion/README](../README.md)).
 - **2026-08-01 rettelse:** `08-regningen.md` påstod nr. 1 var produceret for "under 10 dollars" — det faktiske tal i `issue.json` er **0,11 dollars**, en faktor 90 forkert. Rettet til det reelle tal. Ellers udgivet uden kilder (2 titler — GNISTEN og HORISONTEN — har 0 % kildedækning på tværs af alle numre); resten af GNISTENs artikler er ikke gennemgået i denne omgang (kapacitet brugt på det konkrete faktafejl, ikke en fuld retrofit — se Workstream C-princippet i [redaktion/README](../README.md)).

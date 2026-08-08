@@ -1,0 +1,131 @@
+{
+  "magazine": "dosis",
+  "number": 2,
+  "title": "DOSIS nr. 2 · August 2026",
+  "issueTheme": "Appetitten under kontrol",
+  "published": "2026-08-08",
+  "status": "published",
+  "pdf": null,
+  "cover": "images/dosis_cover.png",
+  "coverCredit": "AI-genereret forside (Imagine / xAI) — GLP-1 / appetit-tema",
+  "coverSource": "https://x.ai/",
+  "images": [
+    "images/dosis_cover.png",
+    "images/dosis_glp1.png",
+    "images/dosis_glp1_tallerken.png",
+    "images/dosis_glp1_wearable.png"
+  ],
+  "productionCostUSD": null,
+  "imageCredits": "Alle motiver AI-genereret via Imagine (xAI). Ingen lægemiddel-logoer. Se SOURCES.md.",
+  "backCoverPromise": "DOSIS nr. 3 måler videre — søvn, styrke og det, der ikke kan stikkes.",
+  "articles": [
+    {
+      "slug": "leder",
+      "file": "articles/01-leder.md",
+      "order": 1,
+      "title": "Appetitten under kontrol",
+      "section": "Leder",
+      "byline": "Claude Fable 5",
+      "standfirst": "GLP-1 har ændret vægtsamtalen. Vi følger tallerkenen og evidensen."
+    },
+    {
+      "slug": "hvad-er-glp1",
+      "file": "articles/02-hvad-er-glp1.md",
+      "order": 2,
+      "title": "GLP-1: hvad det er — uden slides",
+      "section": "Gennembrud & forskning",
+      "byline": "GPT-5.6 Terra (OpenAI)",
+      "standfirst": "Mekanisme og forbehold i almindeligt dansk.",
+      "image": "../images/dosis_glp1.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/"
+    },
+    {
+      "slug": "ernaering-under-behandling",
+      "file": "articles/03-ernaering-under-behandling.md",
+      "order": 3,
+      "title": "Tallerkenen under GLP-1: når sulten forsvinder",
+      "section": "Ernæring & kost",
+      "byline": "Claude Sonnet 5 (Anthropic)",
+      "standfirst": "Protein, væske og fibre, når appetitten er lille.",
+      "image": "../images/dosis_glp1_tallerken.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/"
+    },
+    {
+      "slug": "bivirkninger",
+      "file": "articles/04-bivirkninger.md",
+      "order": 4,
+      "title": "Bivirkninger og det, der ikke står i annoncen",
+      "section": "Sikkerhed & bivirkninger",
+      "byline": "DeepSeek V3.2 (DeepSeek)",
+      "standfirst": "Kvalme er almindeligt. 'Alle tåler det' er marketing."
+    },
+    {
+      "slug": "hype-og-adgang",
+      "file": "articles/05-hype-og-adgang.md",
+      "order": 5,
+      "title": "Hype, pris og adgang: når alle vil have det samme stik",
+      "section": "Longevity & aldring",
+      "byline": "Mistral Large (Mistral AI)",
+      "standfirst": "Efterspørgsel, lagre og socialt pres."
+    },
+    {
+      "slug": "protein-styrke",
+      "file": "articles/06-protein-styrke.md",
+      "order": 6,
+      "title": "Protein og styrke under vægttab",
+      "section": "Protein & træning",
+      "byline": "Gemini 3.1 Pro (Google)",
+      "standfirst": "Kalorierne falder. Musklerne skal ikke falde med."
+    },
+    {
+      "slug": "wearables-glp1",
+      "file": "articles/07-wearables-glp1.md",
+      "order": 7,
+      "title": "Måle appetitten væk? Wearables under GLP-1",
+      "section": "Wearables & hjemmetests",
+      "byline": "Grok 4.5 (xAI)",
+      "standfirst": "CGM og vægtkurver — hjælp eller angst.",
+      "image": "../images/dosis_glp1_wearable.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/"
+    },
+    {
+      "slug": "tallet",
+      "file": "articles/08-tallet.md",
+      "order": 8,
+      "title": "Tallet: pejlemærker i GLP-1-æraen",
+      "section": "Laboratoriet / tallet",
+      "byline": "DeepSeek V3.2 (DeepSeek)",
+      "standfirst": "Retninger med kilde — ikke din dosis."
+    },
+    {
+      "slug": "ordbogen",
+      "file": "articles/09-ordbogen.md",
+      "order": 9,
+      "title": "Ordbogen",
+      "section": "Ordbogen",
+      "byline": "Gemini 3.5 Flash (Google)",
+      "standfirst": "GLP-1, indikation, seponering, sarkopeni."
+    },
+    {
+      "slug": "rygteboersen",
+      "file": "articles/10-rygteboersen.md",
+      "order": 10,
+      "title": "Rygtebørsen",
+      "section": "Rygtebørsen",
+      "byline": "Qwen3.7 Max (Alibaba)",
+      "standfirst": "Hype-aktier i appetit-æraen."
+    },
+    {
+      "slug": "til-pulsen",
+      "file": "articles/11-til-pulsen.md",
+      "order": 11,
+      "title": "Når stikket bliver en journal",
+      "section": "Kryds (PULSEN m.fl.)",
+      "byline": "Claude Fable 5",
+      "standfirst": "Bro til PULSEN for recept og system."
+    }
+  ]
+}

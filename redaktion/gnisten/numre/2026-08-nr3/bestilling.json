@@ -1,0 +1,287 @@
+{
+  "magazine": "gnisten",
+  "issue": "2026-08-nr3",
+  "issueTheme": "Agenten og den lokale hjerne",
+  "retrofitNote": "Indfrier bagsideløfte fra nr.2. Features udvidet ved accept; bagsnit bevidst korte.",
+  "budget": {
+    "articles": 9,
+    "wordsPerArticle": [
+      50,
+      500
+    ],
+    "targetPages": 12,
+    "note": "Tre features bærer dybden (Gemini/lokalt/agent); faste formater korte."
+  },
+  "opgaver": [
+    {
+      "slug": "leder",
+      "order": 1,
+      "section": "Leder",
+      "brief": {
+        "angle": "Løfter fra nr.2: Gemini, lokalt, agent.",
+        "words": [
+          50,
+          150
+        ],
+        "mustCite": 0,
+        "format": "leder"
+      },
+      "writer": {
+        "byline": "Claude Fable 5",
+        "model": "chefredaktør",
+        "fallback": null
+      },
+      "receipt": {
+        "words": 47,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-08-08",
+        "citations": 0,
+        "editorNote": "Editor-skrevet leder."
+      }
+    },
+    {
+      "slug": "kortet",
+      "order": 2,
+      "section": "Kortet",
+      "brief": {
+        "angle": "Tre spor: cloud, lokalt, agenter.",
+        "words": [
+          50,
+          150
+        ],
+        "mustCite": 0,
+        "format": "kortet"
+      },
+      "writer": {
+        "byline": "GPT-5.6 Terra (OpenAI)",
+        "model": "openai/gpt-5.6-terra",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 54,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-08-08",
+        "citations": 0,
+        "editorNote": "Bagsnit/kort format; mustCite=0 (ingen hårde priser låst — pejlemærker i Regningen)."
+      }
+    },
+    {
+      "slug": "fokus-gemini",
+      "order": 3,
+      "section": "Fokus",
+      "brief": {
+        "angle": "Gemini i Google-økosystemet — integration, ikke bare chat.",
+        "words": [
+          300,
+          500
+        ],
+        "mustCite": 0,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "Gemini 3.1 Pro (Google)",
+        "model": "google/gemini-3.1-pro",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 381,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "rewritten-by-editor",
+        "checkedAt": "2026-08-08",
+        "citations": 0,
+        "editorNote": "Udvidet 2026-08-08 for at undgå length-collapse (features ~360-380 ord)."
+      }
+    },
+    {
+      "slug": "lokale-modeller",
+      "order": 4,
+      "section": "Værkstedet",
+      "brief": {
+        "angle": "Ollama for begyndere: privat, langsommere.",
+        "words": [
+          300,
+          500
+        ],
+        "mustCite": 0,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 360,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "rewritten-by-editor",
+        "checkedAt": "2026-08-08",
+        "citations": 0,
+        "editorNote": "Udvidet 2026-08-08 for at undgå length-collapse (features ~360-380 ord)."
+      }
+    },
+    {
+      "slug": "agent",
+      "order": 5,
+      "section": "Værkstedet",
+      "brief": {
+        "angle": "Første agent-workflow med bremse og tillidsniveauer.",
+        "words": [
+          300,
+          500
+        ],
+        "mustCite": 0,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "Grok 4.5 (xAI)",
+        "model": "x-ai/grok-4.5",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 368,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "rewritten-by-editor",
+        "checkedAt": "2026-08-08",
+        "citations": 0,
+        "editorNote": "Udvidet 2026-08-08 for at undgå length-collapse (features ~360-380 ord)."
+      }
+    },
+    {
+      "slug": "maanedens-prompt",
+      "order": 6,
+      "section": "Månedens prompt",
+      "brief": {
+        "angle": "Månedens prompt.",
+        "words": [
+          50,
+          150
+        ],
+        "mustCite": 0,
+        "format": "prompt"
+      },
+      "writer": {
+        "byline": "DeepSeek V3.2 (DeepSeek)",
+        "model": "deepseek/deepseek-v3.2",
+        "fallback": "google/gemini-3.5-flash"
+      },
+      "receipt": {
+        "words": 68,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-08-08",
+        "citations": 0,
+        "editorNote": "Bagsnit/kort format; mustCite=0 (ingen hårde priser låst — pejlemærker i Regningen)."
+      }
+    },
+    {
+      "slug": "regningen",
+      "order": 7,
+      "section": "Regningen",
+      "brief": {
+        "angle": "Cloud vs lokalt prislogik.",
+        "words": [
+          50,
+          150
+        ],
+        "mustCite": 0,
+        "format": "regningen"
+      },
+      "writer": {
+        "byline": "Qwen3.7 Max (Alibaba)",
+        "model": "qwen/qwen3.7-max",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 70,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-08-08",
+        "citations": 0,
+        "editorNote": "Bagsnit/kort format; mustCite=0 (ingen hårde priser låst — pejlemærker i Regningen)."
+      }
+    },
+    {
+      "slug": "ordbogen",
+      "order": 8,
+      "section": "Ordbogen",
+      "brief": {
+        "angle": "Agent/lokal/Gemini-ord.",
+        "words": [
+          50,
+          150
+        ],
+        "mustCite": 0,
+        "format": "ordbog"
+      },
+      "writer": {
+        "byline": "Gemini 3.5 Flash (Google)",
+        "model": "google/gemini-3.5-flash",
+        "fallback": "minimax/minimax-m3"
+      },
+      "receipt": {
+        "words": 71,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-08-08",
+        "citations": 0,
+        "editorNote": "Bagsnit/kort format; mustCite=0 (ingen hårde priser låst — pejlemærker i Regningen)."
+      }
+    },
+    {
+      "slug": "sladder",
+      "order": 9,
+      "section": "Sladder",
+      "brief": {
+        "angle": "Bagside-sladder.",
+        "words": [
+          50,
+          150
+        ],
+        "mustCite": 0,
+        "format": "sladder"
+      },
+      "writer": {
+        "byline": "Grok 4.3 (xAI)",
+        "model": "x-ai/grok-4.3",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 62,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-08-08",
+        "citations": 0,
+        "editorNote": "Bagsnit/kort format; mustCite=0 (ingen hårde priser låst — pejlemærker i Regningen)."
+      }
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "magazine": "gnisten",
+  "number": 3,
+  "title": "GNISTEN nr. 3 · August 2026",
+  "issueTheme": "Agenten og den lokale hjerne",
+  "published": "2026-08-08",
+  "status": "published",
+  "pdf": null,
+  "cover": "images/gnisten_cover.png",
+  "coverCredit": "AI-genereret forside (Imagine / xAI)",
+  "coverSource": "https://x.ai/",
+  "images": [
+    "images/gnisten_cover.png",
+    "images/gnisten_gemini.png",
+    "images/gnisten_lokal.png"
+  ],
+  "productionCostUSD": null,
+  "imageCredits": "Imagine / xAI. Se SOURCES.md.",
+  "backCoverPromise": "GNISTEN nr. 4 tænder videre — flere agenter, mere ansvar, samme nysgerrighed.",
+  "articles": [
+    {
+      "slug": "leder",
+      "file": "articles/01-leder.md",
+      "order": 1,
+      "title": "Agenten og den lokale hjerne",
+      "section": "Leder",
+      "byline": "Claude Fable 5",
+      "standfirst": "Gemini, lokale modeller og agenter med bremse."
+    },
+    {
+      "slug": "kortet",
+      "file": "articles/02-kortet.md",
+      "order": 2,
+      "title": "Kortet: sommeren 2026, tre spor",
+      "section": "Kortet",
+      "byline": "GPT-5.6 Terra (OpenAI)",
+      "standfirst": "Cloud, lokalt, agenter."
+    },
+    {
+      "slug": "fokus-gemini",
+      "file": "articles/03-fokus-gemini.md",
+      "order": 3,
+      "title": "Fokus: Gemini — Googles assistent i økosystemet",
+      "section": "Fokus",
+      "byline": "Gemini 3.1 Pro (Google)",
+      "standfirst": "Integration er pointen.",
+      "image": "../images/gnisten_gemini.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/"
+    },
+    {
+      "slug": "lokale-modeller",
+      "file": "articles/04-lokale-modeller.md",
+      "order": 4,
+      "title": "Lokale modeller: Ollama for begyndere",
+      "section": "Værkstedet",
+      "byline": "Claude Sonnet 5 (Anthropic)",
+      "standfirst": "Privat, langsommere, dit ansvar.",
+      "image": "../images/gnisten_lokal.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/"
+    },
+    {
+      "slug": "agent",
+      "file": "articles/05-agent.md",
+      "order": 5,
+      "title": "Din første agent-arbejdsgang (uden at miste kontrollen)",
+      "section": "Værkstedet",
+      "byline": "Grok 4.5 (xAI)",
+      "standfirst": "Små opgaver, eksplicit stop."
+    },
+    {
+      "slug": "maanedens-prompt",
+      "file": "articles/06-maanedens-prompt.md",
+      "order": 6,
+      "title": "Månedens prompt: Agent med bremse",
+      "section": "Månedens prompt",
+      "byline": "DeepSeek V3.2 (DeepSeek)",
+      "standfirst": "Kopiér, tilpas, kør."
+    },
+    {
+      "slug": "regningen",
+      "file": "articles/07-regningen.md",
+      "order": 7,
+      "title": "Regningen",
+      "section": "Regningen",
+      "byline": "Qwen3.7 Max (Alibaba)",
+      "standfirst": "Cloud vs. lokal omkostning."
+    },
+    {
+      "slug": "ordbogen",
+      "file": "articles/08-ordbogen.md",
+      "order": 8,
+      "title": "Ordbogen",
+      "section": "Ordbogen",
+      "byline": "Gemini 3.5 Flash (Google)",
+      "standfirst": "Gemini, Ollama, agent, MCP."
+    },
+    {
+      "slug": "sladder",
+      "file": "articles/09-sladder.md",
+      "order": 9,
+      "title": "Sladder fra serverrummet",
+      "section": "Sladder",
+      "byline": "Grok 4.3 (xAI)",
+      "standfirst": "Fire tændstikker."
+    }
+  ]
+}

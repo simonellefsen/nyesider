@@ -1,0 +1,138 @@
+{
+  "magazine": "horisonten",
+  "number": 3,
+  "title": "HORISONTEN nr. 3 · August 2026",
+  "issueTheme": "Dolomitterne i efteråret",
+  "published": "2026-08-08",
+  "status": "published",
+  "pdf": null,
+  "cover": "images/horisonten_cover.png",
+  "images": [
+    "images/horisonten_cover.png",
+    "images/horisonten_overblik.png",
+    "images/horisonten_vandring.png",
+    "images/horisonten_cykling.png",
+    "images/horisonten_loeb.png",
+    "images/horisonten_byliv.png",
+    "images/horisonten_soeer.png",
+    "images/horisonten_mad.png"
+  ],
+  "productionCostUSD": null,
+  "imageCredits": "Alle billeder i dette nummer er AI-genererede akvarelmotiver via Imagine (xAI). Kilde: https://x.ai/ — forside (Tre Cime-efterår), overblik, vandring, cykling, løb, byliv, søer og mad & vin. Ingen logoer; rejsemagasin-stil. Se kredit under hvert billede.",
+  "backCoverPromise": "HORISONTEN nr. 4 pakker kufferten videre — næste horisont venter i Europa.",
+  "articles": [
+    {
+      "slug": "leder",
+      "file": "articles/01-leder.md",
+      "order": 1,
+      "title": "Fra Kaukasus til alperne",
+      "section": "Leder",
+      "byline": "Claude Fable 5",
+      "standfirst": "Georgien gav os bjerge og bord. Nu vender vi tilbage til Dolomitterne — efteråret, der var parkeret."
+    },
+    {
+      "slug": "dolomitterne-efteraar",
+      "file": "articles/02-dolomitterne-efteraar.md",
+      "order": 2,
+      "title": "Dolomitterne uden for den værste trængsel",
+      "section": "Overblik",
+      "byline": "GPT-5.6 Terra (OpenAI)",
+      "standfirst": "Fra midten af september skifter Sydtyrol gear — skarpere luft på passene, og stier der føles som dine igen.",
+      "image": "../images/horisonten_overblik.png",
+      "imageCredit": "AI-genereret rejsemotiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/"
+    },
+    {
+      "slug": "vandring",
+      "file": "articles/03-vandring.md",
+      "order": 3,
+      "title": "Vandring mellem tinder der lyser rødt",
+      "section": "Vandring",
+      "byline": "Claude Sonnet 5 (Anthropic)",
+      "standfirst": "Fra blide alper til Tre Cime — tre niveauer af Dolomit-vandring.",
+      "image": "../images/horisonten_vandring.png",
+      "imageCredit": "AI-genereret rejsemotiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/"
+    },
+    {
+      "slug": "cykling",
+      "file": "articles/04-cykling.md",
+      "order": 4,
+      "title": "Sellaronda og de fire passer",
+      "section": "Cykling",
+      "byline": "Grok 4.5 (xAI)",
+      "standfirst": "Efteråret er højsæson for dem, der vil klatre uden bilkø.",
+      "image": "../images/horisonten_cykling.png",
+      "imageCredit": "AI-genereret rejsemotiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/"
+    },
+    {
+      "slug": "loeb",
+      "file": "articles/05-loeb.md",
+      "order": 5,
+      "title": "Løb i dale der trækker vejret",
+      "section": "Løb",
+      "byline": "DeepSeek V3.2 (DeepSeek)",
+      "standfirst": "Flade dalbunde, skyrunnerspor og sø-runder mellem tinderne.",
+      "image": "../images/horisonten_loeb.png",
+      "imageCredit": "AI-genereret rejsemotiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/"
+    },
+    {
+      "slug": "byliv",
+      "file": "articles/06-byliv.md",
+      "order": 6,
+      "title": "Bolzano og Cortina — to pulser i stenlandet",
+      "section": "Byliv",
+      "byline": "Mistral Large (Mistral AI)",
+      "standfirst": "Grøn alpeby og OL-glamour — plus de ladinske landsbyer tæt på stierne.",
+      "image": "../images/horisonten_byliv.png",
+      "imageCredit": "AI-genereret rejsemotiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/"
+    },
+    {
+      "slug": "soeer-og-udsigt",
+      "file": "articles/07-soeer-og-udsigt.md",
+      "order": 7,
+      "title": "Søer, plateauer og udsigter uden strandhåndklæde",
+      "section": "Strande",
+      "byline": "Gemini 3.5 Flash (Google)",
+      "standfirst": "Braies, Seiser Alm og panoramerne, der erstatter bugterne.",
+      "image": "../images/horisonten_soeer.png",
+      "imageCredit": "AI-genereret rejsemotiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/"
+    },
+    {
+      "slug": "kalenderen",
+      "file": "articles/08-kalenderen.md",
+      "order": 8,
+      "title": "Kalenderen: efterår i Dolomitterne",
+      "section": "Kalenderen",
+      "byline": "Qwen3.7 Max (Alibaba)",
+      "standfirst": "Høst, markeder og sæsonskift — omtrentligt og med forbehold."
+    },
+    {
+      "slug": "mad-og-vin",
+      "file": "articles/09-mad-og-vin.md",
+      "order": 9,
+      "title": "Speck, knödel og glas med udsigt",
+      "section": "Mad & Vin",
+      "byline": "GLM-5.2 (Z.ai)",
+      "standfirst": "Sydtyrolsk køkken og vine fra Gewürztraminer til Lagrein.",
+      "image": "../images/horisonten_mad.png",
+      "imageCredit": "AI-genereret rejsemotiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/"
+    },
+    {
+      "slug": "praktisk",
+      "file": "articles/10-praktisk.md",
+      "order": 10,
+      "title": "Praktisk: sådan planlægger du Dolomit-turen",
+      "section": "Praktisk",
+      "byline": "Gemini 3.1 Pro (Google)",
+      "standfirst": "Fly, bil, budget og pakning til efteråret i højden."
+    }
+  ],
+  "coverCredit": "AI-genereret rejsemotiv (Imagine / xAI)",
+  "coverSource": "https://x.ai/"
+}
