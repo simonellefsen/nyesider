@@ -347,6 +347,31 @@ def check_issue(magazine_dir: Path, issue_dir: Path) -> list[Finding]:
         text = md_path.read_text(encoding="utf-8")
         meta, body = parse_frontmatter(text)
 
+        # Real YAML is stricter than parse_frontmatter's permissive subset. An
+        # unquoted scalar containing ": " reads as a nested mapping to js-yaml,
+        # so gray-matter throws and the article's route 404s — which surfaces
+        # only as a prerender failure at the very end of `npm run build`.
+        # (KULTURBOXEN nr. 1, 2026-08-09: a standfirst reading "... viser
+        # hvorfor: en befolkning ...".) Catch it here instead.
+        fm_match = FRONTMATTER_RE.match(text)
+        if fm_match:
+            for raw_line in fm_match.group(1).split("\n"):
+                km = re.match(r"^([A-Za-z_][A-Za-z0-9_]*):\s+(.*)$", raw_line)
+                if not km:
+                    continue
+                val = km.group(2).strip()
+                if val[:1] in ('"', "'", "[", "|", ">") or not val:
+                    continue
+                if re.search(r":(\s|$)", val):
+                    findings.append(
+                        Finding(
+                            "error", tag,
+                            f"{aslug}: frontmatter {km.group(1)!r} is an unquoted scalar "
+                            f"containing ':' — invalid YAML, the page will 404. Wrap it in "
+                            f'double quotes.',
+                        )
+                    )
+
         # frontmatter <-> issue.json divergence
         for field in ("title", "byline", "section", "order"):
             if field in meta and field in art and meta[field] != art[field]:

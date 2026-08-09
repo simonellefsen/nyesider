@@ -4,7 +4,7 @@
   "title": "KULTURBOXEN nr. 1 · August 2026",
   "issueTheme": "Supra og tillid",
   "published": "2026-08-01",
-  "status": "draft",
+  "status": "published",
   "pdf": null,
   "cover": "images/kulturboxen_cover.png",
   "coverCredit": "AI-genereret forside (Imagine / xAI) — Georgien, supra, Kaukasus-lys",
@@ -22,161 +22,121 @@
     "images/kulturboxen_skat.png",
     "images/kulturboxen_toej.png"
   ],
-  "productionCostUSD": null,
+  "productionCostUSD": 0.6058,
   "imageCredits": "Alle motiver AI-genereret via Imagine (xAI) i varierede stilarter (flat, organisk, maximalistisk, geometrisk, corporate, retro). Illustrative scener uden logoer. Se SOURCES.md.",
   "backCoverPromise": "KULTURBOXEN nr. 2 åbner en ny boks — anden kultur, samme nysgerrighed.",
   "articles": [
     {
       "slug": "leder",
-      "file": "articles/01-leder.md",
       "order": 1,
       "title": "Supra og tillid",
+      "standfirst": "Velkommen til KULTURBOXEN — magasinet om, hvordan andre kulturer lever, set fra Danmark. Nr. 1 åbner boksen med Georgien.",
       "section": "Leder",
-      "standfirst": "Velkommen til KULTURBOXEN — magasinet om, hvordan andre kulturer lever, set fra Danmark. Nr. 1 åbner boksen med Georgien."
+      "file": "articles/01-leder.md"
     },
     {
       "slug": "kulturen-i-fokus",
-      "file": "articles/02-kulturen-i-fokus.md",
       "order": 2,
-      "title": "Georgien i korte træk: mellem bjerge og brudflader",
+      "title": "Georgien: landet der siger både ja og nej til Europa",
+      "standfirst": "Eget sprog, egne bogstaver, egen kirke — og en befolkning, der er dybt uenig med sig selv om retningen. Baggrunden, resten af nummeret hviler på.",
       "section": "Kulturen i fokus (destination / folk)",
-      "standfirst": "Et lille land med store naboer, eget sprog og et alfabet, der ser ud som musik. Her er den baggrund, resten af nummeret står på.",
-      "image": "../images/kulturboxen_tbilisi.png",
-      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
-      "imageSource": "https://x.ai/"
+      "file": "articles/02-kulturen-i-fokus.md"
     },
     {
       "slug": "supra-og-bordet",
-      "file": "articles/03-supra-og-bordet.md",
       "order": 3,
       "title": "Supra: når middagen er en institution",
+      "standfirst": "Det georgiske festmåltid er ikke hygge med struktur. Det er struktur, der ligner hygge — og for en dansk gæst er forskellen afgørende.",
       "section": "Spise & drikke",
-      "standfirst": "I Danmark er et godt måltid mad og snak. I Georgien kan det være teater, pligt og kærlighed på samme tallerken.",
-      "image": "../images/kulturboxen_supra.png",
-      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
-      "imageSource": "https://x.ai/"
+      "file": "articles/03-supra-og-bordet.md"
     },
     {
       "slug": "dagligdag",
-      "file": "articles/04-dagligdag.md",
       "order": 4,
-      "title": "Dagligdag: Tbilisis tempo og landsbyens ur",
+      "title": "To hverdage, der findes samtidig",
+      "standfirst": "Tbilisi vokser, landet tømmes langsomt — men den ene hverdag er ikke moderne og den anden traditionel. De løser forskellige problemer.",
       "section": "Dagligdag & tempo",
-      "standfirst": "Hverdagen er ikke supra hver aften. Den er minibusser, markeder, app-levering — og en anden fornemmelse af tid.",
-      "image": "../images/kulturboxen_dagligdag.png",
-      "imageCredit": "AI-genereret flat-illustration (Imagine / xAI)",
-      "imageSource": "https://x.ai/"
+      "file": "articles/04-dagligdag.md"
     },
     {
       "slug": "arbejde",
-      "file": "articles/05-arbejde.md",
       "order": 5,
-      "title": "Arbejde: netværk, hierarki og den nye laptop-klasse",
+      "title": "Løn, netværk og to lønniveauer i samme by",
+      "standfirst": "Lønnen stiger, arbejdsløsheden falder — og en tilflytterklasse med udenlandske lønsedler har sat sig i Tbilisis huslejer.",
       "section": "Arbejde & hierarki",
-      "standfirst": "Fra stat og slægt til startups i Tbilisi — arbejdslivet bærer både sovjetiske ekkoer og global freelance-logik.",
-      "image": "../images/kulturboxen_marked.png",
-      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
-      "imageSource": "https://x.ai/"
+      "file": "articles/05-arbejde.md"
     },
     {
       "slug": "familie-og-forhold",
-      "file": "articles/06-familie-og-forhold.md",
       "order": 6,
-      "title": "Familie, ægteskab og det private rum",
+      "title": "Familien som institution — mellem tryghed og bundethed",
+      "standfirst": "Man gifter sig som voksen, bor ofte flere generationer sammen, og siden 2024 bestemmer en lov, hvilke familier staten anerkender.",
       "section": "Parforhold, ægteskab & familie",
-      "standfirst": "Hvem du elsker, er sjældent kun dit. Forældre, slægt og kirke har stemmer — også når de ikke er i rummet.",
-      "image": "../images/kulturboxen_familie.png",
-      "imageCredit": "AI-genereret organisk illustration (Imagine / xAI)",
-      "imageSource": "https://x.ai/"
+      "file": "articles/06-familie-og-forhold.md"
     },
     {
       "slug": "natteliv",
-      "file": "articles/07-natteliv.md",
       "order": 7,
-      "title": "Når solen går ned: natteliv og det sociale efter kl. 18",
+      "title": "Technoprotester og endeløse middage",
+      "standfirst": "Tbilisi blev kendt i Europa for noget, de færreste georgiere gør. Det almindelige sociale liv foregår et andet sted — og har sine egne regler.",
       "section": "Natteliv & socialt liv",
-      "standfirst": "Tbilisi kan være højlydt indtil det lyse. Landsbyen kan være stille — og stadig fuld af folk.",
-      "image": "../images/kulturboxen_natteliv.png",
-      "imageCredit": "AI-genereret maximalistisk illustration (Imagine / xAI)",
-      "imageSource": "https://x.ai/"
+      "file": "articles/07-natteliv.md"
     },
     {
       "slug": "ceremonier",
-      "file": "articles/08-ceremonier.md",
       "order": 8,
-      "title": "Ceremonier: kirke, bryllup og de dage, der ikke er hverdag",
+      "title": "Et år med to kalendere",
+      "standfirst": "Julen falder 7. januar, påsken sjældent sammen med den danske, og 14. oktober er en fridag uden dansk modstykke.",
       "section": "Ceremonier & ritualer",
-      "standfirst": "Den ortodokse kalender og familiens milepæle strukturerer året mere synligt end den danske helligdagskalender gør for mange.",
-      "image": "../images/kulturboxen_kirke.png",
-      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
-      "imageSource": "https://x.ai/"
+      "file": "articles/08-ceremonier.md"
     },
     {
       "slug": "penge",
-      "file": "articles/09-penge.md",
       "order": 9,
-      "title": "Penge: priser, tip og dobbelte menukort",
+      "title": "Hvorfor «billigt» er det forkerte ord",
+      "standfirst": "En dansk turist og en georgisk lønmodtager står i den samme butik og ser to helt forskellige prisskilte. Og en tiendedel af landets indkomst kommer fra nogen, der er rejst.",
       "section": "Penge, priser & forbrug",
-      "standfirst": "Georgien er billigere end København — indtil du betaler turistpris, importeret ost eller en lejlighed i det rigtige kvarter.",
-      "image": "../images/kulturboxen_penge.png",
-      "imageCredit": "AI-genereret geometrisk illustration (Imagine / xAI)",
-      "imageSource": "https://x.ai/"
+      "file": "articles/09-penge.md"
     },
     {
       "slug": "skat-og-stat",
-      "file": "articles/10-skat-og-stat.md",
       "order": 10,
       "title": "Tilliden, der ikke kan reformeres frem",
-      "section": "Skat, stat & tillid",
       "standfirst": "Georgien afskaffede hverdagens korruption på rekordtid. Tillid til staten selv er noget andet — og den er under pres i 2026.",
-      "image": "../images/kulturboxen_skat.png",
-      "imageCredit": "AI-genereret corporate illustration (Imagine / xAI)",
-      "imageSource": "https://x.ai/"
+      "section": "Skat, stat & tillid",
+      "file": "articles/10-skat-og-stat.md"
     },
     {
       "slug": "toej-og-status",
-      "file": "articles/11-toej-og-status.md",
       "order": 11,
-      "title": "Tøj, udseende og det, man signalerer",
+      "title": "Når tøjet læser rummet",
+      "standfirst": "Samme person, afslappet på caféen og i stiveste puds to dage senere. Det er ikke inkonsekvens — det er en aflæsning af, hvad situationen kræver.",
       "section": "Tøj, udseende & status",
-      "standfirst": "Streetwear ved Fabrika, klædedragt til kirken, guld til festen — kroppen er en opslagstavle.",
-      "image": "../images/kulturboxen_toej.png",
-      "imageCredit": "AI-genereret retro-illustration (Imagine / xAI)",
-      "imageSource": "https://x.ai/"
+      "file": "articles/11-toej-og-status.md"
     },
     {
       "slug": "tallet",
-      "file": "articles/12-tallet.md",
       "order": 12,
-      "title": "Tallet: Georgien og Danmark side om side",
+      "title": "Georgien i tal — og hvad tallene ikke fanger",
+      "standfirst": "Et tal har en metode. To eksempler viser hvorfor: en befolkning, der voksede uden at vokse, og et bruttonationalprodukt med tre gange forskel på sig selv.",
       "section": "Tallet / pejlemærker",
-      "standfirst": "Konkrete pejlemærker med årstal — til sammenligning, ikke som facit. Kilder nederst."
-    },
-    {
-      "slug": "ordbogen",
-      "file": "articles/13-ordbogen.md",
-      "order": 13,
-      "title": "Ordbogen",
-      "section": "Ordbogen",
-      "standfirst": "Fjorten gloser, så du ikke kun bestiller khinkali — men forstår bordet."
+      "file": "articles/12-tallet.md"
     },
     {
       "slug": "myter",
-      "file": "articles/14-myter.md",
-      "order": 14,
-      "title": "Myter: det, danskere tror om Georgien",
+      "order": 13,
+      "title": "Fire myter om Georgien — én ad gangen",
+      "standfirst": "To af dem holder delvist. Én er forkert i billede, men rigtig i tal. Og den sidste kan vi ikke afgøre — så det siger vi.",
       "section": "Rygtebørsen / myter",
-      "standfirst": "Fem påstande, vurderet i stearinlys — ikke i likes."
+      "file": "articles/13-myter.md"
     },
     {
       "slug": "til-horisonten",
-      "file": "articles/15-til-horisonten.md",
-      "order": 15,
-      "title": "Til HORISONTEN: hvis du faktisk tager afsted",
+      "order": 14,
+      "title": "Til HORISONTEN: hvad man skal forstå, før man tager af sted",
+      "standfirst": "Vi har pakket kulturen. Her er det, der er vigtigere end transportmuligheder — og som ingen rejseguide skriver.",
       "section": "Til HORISONTEN (kryds)",
-      "standfirst": "Vi har pakket kulturen. Her er broen til rejseformatet — uden at stjæle deres job."
+      "file": "articles/14-til-horisonten.md"
     }
-  ],
-  "unpublishedReason": "Afpubliceret 2026-08-08. Nummeret blev udgivet med byline-kreditering til navngivne modeller, men bestilling.json indeholder hverken costUSD, kladde-reference eller kladdefil for nogen artikel, og OpenRouter-forbruget på titlens egen nøgle viser, at kaldene aldrig blev foretaget. Verdikterne ('accepted', 'rejected') beskriver derfor en bedømmelse af kladder, der aldrig er modtaget. Nummeret skal produceres forfra — uden byline, indtil en reel forfatter kan dokumenteres. Se redaktion/README.md.",
-  "unpublishedAt": "2026-08-08"
+  ]
 }

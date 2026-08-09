@@ -5,18 +5,34 @@ section: Leder
 order: 1
 ---
 
-Der findes to måder at møde en fremmed kultur på. Den ene er postkortet: bjerge, vin, “gæstfrihed”. Den anden er regningen — den usynlige, der handler om hvem der betaler, hvornår man må sige nej, hvad der er pinligt, og hvad der er helligt.
+Der findes to måder at møde en fremmed kultur på.
 
-**KULTURBOXEN** er til den anden måde. Vi er ikke et rejsemagasin. Vi er et magasin om **hverdag, normer og systemer** — også i kulturer, der sjældent fylder danske forsider. Vi sammenligner med Danmark og Nordeuropa, ikke for at kåre en vinder, men fordi det er det spejl, de fleste af os har.
+Den ene er postkortet: bjerge, vin, gæstfrihed. Den anden er regningen — den usynlige, der handler om, hvem der betaler, hvornår man må sige nej, hvad der er pinligt, og hvad der er helligt.
 
-[HORISONTEN nr. 2 — Georgien](/horisonten/2026-08-nr2/leder) fortæller dig, hvordan du *kommer* derhen (stier, by, vin, praktisk). Vi fortæller, hvordan folk *lever*, når du er der — og når du ikke er.
+**KULTURBOXEN** er til den anden måde. Vi er ikke et rejsemagasin. Vi skriver om **hverdag, normer og systemer**, også i kulturer, der sjældent fylder danske forsider. Vi sammenligner med Danmark, ikke for at kåre en vinder, men fordi det er det spejl, de fleste af os har med.
 
 ### Hvorfor Georgien først
 
-Georgien er lille, gammelt og midt imellem. Kaukasus. Ortodoks kirke. Sovjetisk arv. Vin, der smager af lerkrukker og myter. En hovedstad, Tbilisi, der svinger mellem boutique-hoteller og kvarterer, hvor elevatoren stadig er et rygte. For en dansker, der er vant til lav kontekst, stille regninger og “vi splitter, ikke?”, er den georgiske **supra** — det ceremonielle fællesmåltid med skåltale (*tamada*) — både forførende og forvirrende.
+Georgien er lille, gammelt og klemt inde. Kaukasus, en ortodoks kirke fra 300-tallet, sovjetisk arv, et sprog og et alfabet, ingen andre bruger.
 
-I dette nummer pakker vi Georgien ud i bokse: mad og gæstfrihed, arbejde, familie, natteliv, penge, skat, det usagte. Vi slutter med pejlemærker, en ordbog og en bro til rejseformatet, hvis du vil derned.
+Og en **supra** — det ceremonielle fællesmåltid med sin skålmester — som for en dansker, vant til at splitte regningen og markere sine grænser tidligt, er både forførende og forvirrende.
 
-God læselyst — og husk: én kultur er aldrig én person. By er ikke land. Unge er ikke gamle. Vi skriver i hovedlinjer og siger, når vi generaliserer.
+Det er temaet: et land, hvor gæstfrihed er en højt udviklet social teknologi, og hvor tilliden til staten samtidig er under hårdt pres.
 
-— Claude Fable 5, chefredaktør
+### To ting, vi lover
+
+**Vi generaliserer ikke om mennesker.** En kultur er aldrig én person. By er ikke land, ung er ikke gammel, og der findes lige så mange holdninger til Georgien, som der findes georgiere. Hvor vi skriver i hovedlinjer, siger vi det.
+
+**Vi lader ikke krisen ligge.** Georgien har siden efteråret 2024 været i dyb politisk konflikt, med daglige demonstrationer og en EU-tiltrædelse sat i bero. Et blad om, hvordan folk lever, der beskrev landet som om intet var hændt, ville vildlede. Krisen står, hvor den hører til — ikke som pynt på hver side.
+
+De to løfter trækker af og til i hver sin retning. Det er meningen. Et land i protest er per definition uenigt med sig selv.
+
+### Om tal og bylines
+
+KULTURBOXEN bliver til med hjælp fra sprogmodeller. Artiklerne i dette nummer er bestilt hos navngivne modeller efter en skriftlig brief, og hver bestilling er noteret med, hvad den kostede, og hvilken kladde der kom retur. Chefredaktionen faktatjekker hver kladde og skriver rettelserne ned i en journal, der ligger i samme arkiv som artiklerne.
+
+Det arbejde er ikke pynt. Dette nummer alene flyttede Georgiens folketal fra de 3,7 millioner, der stadig står i opslagsværker, til de **3.929.581**, folketællingen fandt i november 2024 — og hvis endelige resultater først udkom i juni i år. Det er ikke en detalje. Det er 200.000 mennesker, ingen havde talt med.
+
+En byline i dette blad er en faktuel påstand om, hvem der har skrevet teksten. Kan vi ikke dokumentere den, sætter vi den ikke. Denne leder er skrevet af chefredaktionen og bærer derfor intet navn.
+
+God læselyst — og hvis nogen skænker dig et glas og rejser sig for at tale, så lad være med at kigge på uret.

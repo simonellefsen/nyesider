@@ -28,7 +28,7 @@ Den **28. november 2024** meddelte premierminister Irakli Kobakhidze, at regerin
 
 Det var et markant skifte. Georgien fik EU-kandidatstatus i december 2023, og tilslutningen til EU-medlemskab har i årevis ligget højt i meningsmålinger. Beslutningen udløste demonstrationer, der på tidspunktet for dette nummer har stået på i over **465 dage** — overvejende fredeligt, men med perioder af hårde konfrontationer og anholdelser.
 
-Sideløbende trådte loven om «gennemsigtighed af udenlandsk indflydelse» i kraft. Den kræver, at organisationer og medier med mindst **20 %** udenlandsk finansiering registrerer sig.[^3]
+Sideløbende trådte loven om «gennemsigtighed af udenlandsk indflydelse» i kraft. Den kræver, at organisationer og medier med mindst **20 %** udenlandsk finansiering registrerer sig.[^3]
 
 Europarådets **Venedigkommission** — der rådgiver om forfatningsspørgsmål — anbefalede i en hasteudtalelse af 21. maj 2024, tiltrådt på kommissionens plenarforsamling i juni, at loven **ophæves i sin nuværende form**. Begrundelsen var, at dens grundlæggende mangler ville få betydelige negative følger for forenings- og ytringsfriheden, for retten til privatliv og for deltagelsen i det offentlige liv.[^3]
 
@@ -40,7 +40,7 @@ Det er her, KULTURBOXEN har sit ærinde. Politik bliver til kultur, når den æn
 
 **For borgeren** er skranken stort set uændret. Kørekortet fornys stadig hurtigt. Det er værd at sige tydeligt, fordi det ellers er let at forestille sig et land i opløsning. Det er ikke billedet.
 
-**For den NGO-ansatte** er 20 %-tærsklen ikke en teknikalitet. Den afgør, om arbejdspladsen skal føres i et offentligt register med en stemplende betegnelse, om kolleger skal svare på tilsyn, og om udenlandske partnere trækker sig for at undgå besværet. Selv uden en eneste retssag kan en sådan lov virke gennem **forsigtighed**: man søger de kontroversielle midler sjældnere, siger mindre, dokumenterer mindre.
+**For den NGO-ansatte** er 20 %-tærsklen ikke en teknikalitet. Den afgør, om arbejdspladsen skal føres i et offentligt register med en stemplende betegnelse, om kolleger skal svare på tilsyn, og om udenlandske partnere trækker sig for at undgå besværet. Selv uden en eneste retssag kan en sådan lov virke gennem **forsigtighed**: man søger de kontroversielle midler sjældnere, siger mindre, dokumenterer mindre.
 
 **For journalisten** er det todelt. Registreringskravet rammer redaktioner, der lever af udenlandske fondsmidler — en almindelig finansieringsmodel for uafhængige medier i landet. Og den daglige dækning af demonstrationer indebærer en fysisk risiko. Konsekvensen er sjældent censur ovenfra, men et snævrere rum, hvor kritisk journalistik bliver dyrere at lave.
 

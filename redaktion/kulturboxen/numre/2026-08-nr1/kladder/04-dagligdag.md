@@ -1,0 +1,23 @@
+# To hverdage i Georgien
+
+Georgien kan ikke forklares med én rytme. I november 2024 talte folketællingen 1.331.485 indbyggere i Tbilisi — en stigning på 20,1 % siden 2014.[^1] Samtidig bor 62,5 % af landets befolkning i byer og 37,5 % på landet.[^2] Det er ikke en fortælling om et moderne centrum og et traditionelt opland. Det er to, og ofte mange flere, hverdage, der foregår samtidig: forskellige måder at få arbejde, indkøb, familieforpligtelser og transport til at gå op på.
+
+I Tbilisi kan dagen være tæt pakket. Metroen gør det muligt at krydse dele af byen uden at stå i den tætte trafik, og leveringsapps som Wolt og Glovo har gjort det almindeligt at få mad, dagligvarer eller småindkøb bragt til døren. Kontorarbejde, universiteter, caféer, privathospitaler og offentlige institutioner samler mennesker på få geografiske punkter. Det giver en hverdag, som på nogle måder vil være genkendelig for en københavner: telefonen bruges til at koordinere, bestille og betale, og transporttiden er en del af dagens regnestykke.
+
+Men regnestykket er ikke nødvendigvis delt op i de kvarter, mange danskere er vant til at tænke i.
+
+En marshrutka — en delebus på en fast rute, men uden en køreplan, man kan regne minutiøst med — kan være på vej, næsten fremme eller allerede kørt. Man venter, holder øje og tilpasser sig. Det betyder ikke, at tiden er ligegyldig. Tværtimod kan der være meget på spil i at nå arbejde, en lægeaftale eller sidste forbindelse hjem. Forskellen ligger snarere i, at transportens usikkerhed er indbygget i planlægningen. Hvor den danske vane kan være at lægge dagen i blokke på 15 minutter, lægger mange georgiere en større tidsmargin omkring selve bevægelsen gennem byen.
+
+Det gælder ikke kun marshrutkaer. Tbilisis metro, busser, trafikpropper, regn og uforudsete ærinder kan flytte dagen. En plan er ofte et udgangspunkt frem for en kontrakt med omgivelserne. Det er ikke det samme som kaos; det er en praktisk færdighed at kunne omprioritere hurtigt.
+
+Indkøb viser en anden forskel. Supermarkeder findes i stort tal i Tbilisi og andre byer, men markedet har fortsat en tydelig rolle som sted for frugt, grønt, ost, krydderier, kød og sæsonvarer. Her er indkøb ikke kun at hente varer på en hylde. Man sammenligner kvalitet, spørger til oprindelse, køber den mængde, man faktisk skal bruge, og vender måske tilbage til den samme bod. Det kan være billigere, men det er ikke kun et spørgsmål om pris. Markedet er også en del af byens sociale infrastruktur: et sted, hvor handel, information og korte samtaler mødes.
+
+Uden for de store byer organiseres hverdagen ofte omkring andre afhængigheder. I landdistrikter kan dyr, såning, høst, vinterforråd og vejret bestemme dagens rækkefølge langt mere direkte. Arbejdet stopper ikke nødvendigvis, fordi det er weekend, og en families ressourcer kan være fordelt mellem lønarbejde, mindre landbrug, slægtninge i byen og penge sendt hjem fra udlandet. Det gør ikke livet langsommere. Høst kan være presset og tidskritisk; en syg ko, kraftig regn eller en forsinket transport kan ændre hele ugens planer.
+
+Der er også ting, som ikke bør gøres til en national hverdagsfortælling. Strømafbrydelser og vandforsyning varierer regionalt, mellem by og land og fra bolig til bolig. Nogle steder er stabil forsyning så selvfølgelig, at den knap bemærkes; andre steder må husholdninger planlægge med ustabilitet eller lokale problemer. Det er derfor misvisende både at fremstille Georgien som et land med permanent svigtende infrastruktur og at lade Tbilisis mest velfungerende kvarterer repræsentere alle.
+
+Den danske læsers hyppigste misforståelse handler måske om aftaler, der flytter sig. Når et møde udsættes, eller et ærinde kommer før planen, læses det let som manglende respekt for andres tid. Men ofte handler det om en anden prioritering: Den person, der står foran dig nu — et familiemedlem, en gæst, en nabo med et problem eller en kunde — kan have et mere presserende krav på din opmærksomhed end kalenderens næste punkt. Det er ikke ligegyldighed over for aftalen. Det er en anden vægtning af, hvem der er foran én lige nu.
+
+[^1]: [National Statistics Office of Georgia (Geostat), *2024 Population Census*](https://www.geostat.ge/en/modules/categories/768/2024-population-census).
+
+[^2]: [National Statistics Office of Georgia (Geostat), *Population Census 2024: Preliminary Results*](https://www.geostat.ge/en/modules/categories/768/2024-population-census).
