@@ -1,6 +1,7 @@
 ---
 title: "Udvandringen: da danskere blev migranter"
 standfirst: Omkring 300.000 forlod landet. Vi kender deres navne, fordi politiet skrev dem ned — og fordi en af dem blev berømt for at fotografere fattigdom.
+byline: "Gemini 3.1 Pro Preview (Google)"
 section: Migration
 order: 10
 image: ../images/kronike_udvandring.png

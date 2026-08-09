@@ -28,7 +28,8 @@
 	);
 	const description = $derived(
 		data.article.standfirst ||
-			`${data.article.title} — ${data.article.section} i ${data.magazine.name}. Af ${data.article.byline}.`
+			`${data.article.title} — ${data.article.section} i ${data.magazine.name}.` +
+				(data.article.byline ? ` Af ${data.article.byline}.` : '')
 	);
 
 	let progress = $state(0);
@@ -109,14 +110,14 @@
 	image={data.article.image}
 	type="article"
 	publishedTime={data.issue.published}
-	author={data.article.byline}
+	author={data.article.byline ?? `${data.magazine.name}s chefredaktion`}
 	jsonLd={articleJsonLd({
 		headline: data.article.title,
 		url: absoluteUrl(path),
 		description: data.article.standfirst,
 		image: data.article.image,
 		datePublished: data.issue.published,
-		authorName: data.article.byline,
+		authorName: data.article.byline ?? `${data.magazine.name}s chefredaktion`,
 		section: data.article.section,
 		magazineName: data.magazine.name,
 		issueName: data.issue.title
@@ -180,7 +181,13 @@
 			{#if data.article.standfirst}
 				<p class="standfirst">{data.article.standfirst}</p>
 			{/if}
-			<p class="byline">Af <strong>{data.article.byline}</strong></p>
+			{#if data.article.byline}
+				<p class="byline">Af <strong>{data.article.byline}</strong></p>
+			{:else}
+				<!-- Editor-written pieces carry no byline (redaktion/README.md). Render
+				     nothing rather than a dangling "Af" with an empty name. -->
+				<p class="byline">Skrevet af chefredaktionen</p>
+			{/if}
 			{#if data.article.audio}
 				<ArticleAudioPlayer
 					audio={data.article.audio}

@@ -1,6 +1,7 @@
 ---
 title: "Technoprotester og endeløse middage"
 standfirst: Tbilisi blev kendt i Europa for noget, de færreste georgiere gør. Det almindelige sociale liv foregår et andet sted — og har sine egne regler.
+byline: "Gemini 3.1 Pro Preview (Google)"
 section: Natteliv & socialt liv
 order: 7
 image: ../images/kulturboxen_natteliv.png

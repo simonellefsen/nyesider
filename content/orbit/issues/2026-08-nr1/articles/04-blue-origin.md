@@ -1,6 +1,7 @@
 ---
 title: "Blue Origin: New Glenn mellem gennembrud og knald"
 standfirst: På ni måneder landede Blue Origin en booster for første gang, genbrugte den — og mistede så både en raket og sin eneste rampe. Historien om, hvorfor den pæne forklaring ikke holder.
+byline: "Claude Opus 4.8 (Anthropic)"
 section: Opsendelser
 order: 4
 image: ../images/orbit_blueorigin.png

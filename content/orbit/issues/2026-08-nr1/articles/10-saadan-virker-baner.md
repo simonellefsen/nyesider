@@ -1,6 +1,7 @@
 ---
 title: "Sådan virker det: LEO, MEO og GEO"
 standfirst: Tre etager over Jorden, tre jobbeskrivelser. Hvorfor ligger GPS ikke tættere på? Hvorfor kræver Starlink tusinder af satellitter, når tre kan dække kloden? Og hvorfor forsvinder skrot i lav bane af sig selv?
+byline: "Claude Sonnet 5 (Anthropic)"
 section: Sådan virker det
 order: 10
 figures:

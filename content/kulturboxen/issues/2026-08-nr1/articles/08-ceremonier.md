@@ -1,6 +1,7 @@
 ---
 title: "Et år med to kalendere"
 standfirst: Julen falder 7. januar, påsken sjældent sammen med den danske, og 14. oktober er en fridag uden dansk modstykke.
+byline: "GPT-5.6 Terra (OpenAI)"
 section: Ceremonier & ritualer
 order: 8
 image: ../images/kulturboxen_kirke.png

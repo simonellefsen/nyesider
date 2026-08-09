@@ -1,6 +1,7 @@
 ---
 title: "NASA & ESA: agenturer i en kommerciel tidsalder"
 standfirst: Rumagenturet er gået fra at bygge skibene til at købe billetten. NASA fløj til Månen i april — i en raket, staten ejer, mod en landing, den lejer. Og Europa har et princip, der både holder ESA sammen og bremser det.
+byline: "Gemini 3.1 Pro Preview (Google)"
 section: Nationer & agenturer
 order: 5
 ---

@@ -36,7 +36,8 @@
       "order": 2,
       "title": "Tallet: 324",
       "section": "Tallet",
-      "standfirst": "324 orbitale opsendelsesforsøg i 2025. Men tallet er en optællingsregel, ikke en observation — og en anden regel giver 329."
+      "standfirst": "324 orbitale opsendelsesforsøg i 2025. Men tallet er en optællingsregel, ikke en observation — og en anden regel giver 329.",
+      "byline": "GPT-5.6 Terra (OpenAI)"
     },
     {
       "slug": "spacex",
@@ -47,7 +48,8 @@
       "standfirst": "165 Falcon 9-opsendelser i 2025 — flere end resten af verden tilsammen. Det interessante er ikke tallet, men hvad der gjorde det muligt, og hvad det koster at have én aktør som taktholder.",
       "image": "../images/orbit_spacex.png",
       "imageCredit": "AI-genereret motiv (Imagine / xAI)",
-      "imageSource": "https://x.ai/"
+      "imageSource": "https://x.ai/",
+      "byline": "Claude Sonnet 5 (Anthropic)"
     },
     {
       "slug": "blue-origin",
@@ -58,7 +60,8 @@
       "standfirst": "På ni måneder landede Blue Origin en booster for første gang, genbrugte den — og mistede så både en raket og sin eneste rampe. Historien om, hvorfor den pæne forklaring ikke holder.",
       "image": "../images/orbit_blueorigin.png",
       "imageCredit": "AI-genereret motiv (Imagine / xAI)",
-      "imageSource": "https://x.ai/"
+      "imageSource": "https://x.ai/",
+      "byline": "Claude Opus 4.8 (Anthropic)"
     },
     {
       "slug": "nasa-esa",
@@ -66,7 +69,8 @@
       "order": 5,
       "title": "NASA & ESA: agenturer i en kommerciel tidsalder",
       "section": "Nationer & agenturer",
-      "standfirst": "Rumagenturet er gået fra at bygge skibene til at købe billetten. NASA fløj til Månen i april — i en raket, staten ejer, mod en landing, den lejer. Og Europa har et princip, der både holder ESA sammen og bremser det."
+      "standfirst": "Rumagenturet er gået fra at bygge skibene til at købe billetten. NASA fløj til Månen i april — i en raket, staten ejer, mod en landing, den lejer. Og Europa har et princip, der både holder ESA sammen og bremser det.",
+      "byline": "Gemini 3.1 Pro Preview (Google)"
     },
     {
       "slug": "indien-rusland",
@@ -74,7 +78,8 @@
       "order": 6,
       "title": "Indien og Rusland: to tempoer",
       "section": "Nationer & agenturer",
-      "standfirst": "Indien nåede sin 100. opsendelse i julen 2025 efter et halvt århundrede med tålmodighed. Rusland kæmper med sanktioner, tabte kunder og en rumstation, der er begyndt at lække igen."
+      "standfirst": "Indien nåede sin 100. opsendelse i julen 2025 efter et halvt århundrede med tålmodighed. Rusland kæmper med sanktioner, tabte kunder og en rumstation, der er begyndt at lække igen.",
+      "byline": "Claude Sonnet 5 (Anthropic)"
     },
     {
       "slug": "kina",
@@ -85,7 +90,8 @@
       "standfirst": "92 orbitale opsendelser i 2025 — eller 93, afhængigt af hvem der tæller. Men den vigtigste kinesiske rumhistorie er ikke rekorden. Det er, at Kina bygger en helt anden slags opsendelsesmaskine end SpaceX.",
       "image": "../images/orbit_kina.png",
       "imageCredit": "AI-genereret motiv (Imagine / xAI)",
-      "imageSource": "https://x.ai/"
+      "imageSource": "https://x.ai/",
+      "byline": "GPT-5.6 Terra (OpenAI)"
     },
     {
       "slug": "satellitter",
@@ -96,7 +102,8 @@
       "standfirst": "Over 4.400 satellitter blev sat i kredsløb på ét år, og næsten ni ud af ti var kommercielle. To ud af tre aktive satellitter tilhører i dag ét firma.",
       "image": "../images/orbit_satellitter.png",
       "imageCredit": "AI-genereret motiv (Imagine / xAI)",
-      "imageSource": "https://x.ai/"
+      "imageSource": "https://x.ai/",
+      "byline": "Gemini 3.1 Pro Preview (Google)"
     },
     {
       "slug": "rumskrot",
@@ -107,7 +114,8 @@
       "standfirst": "Vi sporer 40.000 objekter. Der er 1,2 millioner, vi ikke kan se, og som ingen skjold kan stoppe. Og ESA's oprydningsmission fik selv sit mål ramt af skrot.",
       "image": "../images/orbit_debris.png",
       "imageCredit": "AI-genereret motiv (Imagine / xAI)",
-      "imageSource": "https://x.ai/"
+      "imageSource": "https://x.ai/",
+      "byline": "Claude Opus 4.8 (Anthropic)"
     },
     {
       "slug": "saadan-virker-baner",
@@ -115,7 +123,8 @@
       "order": 10,
       "title": "Sådan virker det: LEO, MEO og GEO",
       "section": "Sådan virker det",
-      "standfirst": "Tre etager over Jorden, tre jobbeskrivelser. Hvorfor ligger GPS ikke tættere på? Hvorfor kræver Starlink tusinder af satellitter, når tre kan dække kloden? Og hvorfor forsvinder skrot i lav bane af sig selv?"
+      "standfirst": "Tre etager over Jorden, tre jobbeskrivelser. Hvorfor ligger GPS ikke tættere på? Hvorfor kræver Starlink tusinder af satellitter, når tre kan dække kloden? Og hvorfor forsvinder skrot i lav bane af sig selv?",
+      "byline": "Claude Sonnet 5 (Anthropic)"
     },
     {
       "slug": "kalenderen",
@@ -123,7 +132,8 @@
       "order": 11,
       "title": "Kalenderen: hvad der venter (med forbehold)",
       "section": "Kalenderen",
-      "standfirst": "En rumkalender er ikke en køreplan. Her er de tre ord, der forklarer hvorfor — og fem ting i efterårets manifest, med den usikkerhed de faktisk har."
+      "standfirst": "En rumkalender er ikke en køreplan. Her er de tre ord, der forklarer hvorfor — og fem ting i efterårets manifest, med den usikkerhed de faktisk har.",
+      "byline": "Gemini 3.1 Pro Preview (Google)"
     },
     {
       "slug": "rygteboersen",
@@ -131,7 +141,8 @@
       "order": 12,
       "title": "Rygtebørsen",
       "section": "Rygtebørsen",
-      "standfirst": "Fire ting der cirkulerer i rumbranchen denne sommer — og en temperaturmåling på hver. Bekræftet, kvalificeret gæt eller ren ønsketænkning."
+      "standfirst": "Fire ting der cirkulerer i rumbranchen denne sommer — og en temperaturmåling på hver. Bekræftet, kvalificeret gæt eller ren ønsketænkning.",
+      "byline": "Claude Opus 4.8 (Anthropic)"
     }
   ],
   "republishedAt": "2026-08-09",

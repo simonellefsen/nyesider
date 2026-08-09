@@ -1,6 +1,7 @@
 ---
 title: "Landboreformerne: bonden der blev sin egen herre"
 standfirst: I 1788 var en dansk dreng bundet til sit gods fra han var fire år gammel. Tolv år senere var båndet væk — og landskabet så anderledes ud.
+byline: "Claude Sonnet 5 (Anthropic)"
 section: Social forandring
 order: 8
 image: ../images/kronike_landbo.png

@@ -1,6 +1,7 @@
 ---
 title: "Olie: den fortrænges ikke i kraftværket"
 standfirst: Olie fylder næsten intet i europæisk elproduktion, men er stadig den største post i energiforbruget. En elbil rammer oliens kerneforretning. Et solcelleanlæg gør det sjældent.
+byline: "GPT-5.6 Terra (OpenAI)"
 section: Fossilt
 order: 7
 ---

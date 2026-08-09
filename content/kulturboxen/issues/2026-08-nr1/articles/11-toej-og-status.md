@@ -1,6 +1,7 @@
 ---
 title: "Når tøjet læser rummet"
 standfirst: Samme person, afslappet på caféen og i stiveste puds to dage senere. Det er ikke inkonsekvens — det er en aflæsning af, hvad situationen kræver.
+byline: "Gemini 3.1 Pro Preview (Google)"
 section: Tøj, udseende & status
 order: 11
 flow: true

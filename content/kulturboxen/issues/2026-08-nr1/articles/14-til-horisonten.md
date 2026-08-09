@@ -1,6 +1,7 @@
 ---
 title: "Til HORISONTEN: hvad man skal forstå, før man tager af sted"
 standfirst: Vi har pakket kulturen. Her er det, der er vigtigere end transportmuligheder — og som ingen rejseguide skriver.
+byline: "GPT-5.6 Terra (OpenAI)"
 section: Til HORISONTEN (kryds)
 order: 14
 ---

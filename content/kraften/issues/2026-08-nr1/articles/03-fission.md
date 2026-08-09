@@ -1,6 +1,7 @@
 ---
 title: "Fission: beton, ikke PowerPoint"
 standfirst: Atomproduktionen vokser dobbelt så hurtigt som før. Men accelerationen kommer fra de to billige veje — forlængelse og genstart — plus kinesisk nybyggeri. Ikke fra en vestlig genvej.
+byline: "Claude Opus 4.8 (Anthropic)"
 section: Atom
 order: 3
 image: ../images/kraften_atom.png

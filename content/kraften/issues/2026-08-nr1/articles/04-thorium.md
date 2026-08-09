@@ -1,6 +1,7 @@
 ---
 title: "Thorium: saltet, der har kørt i to år"
 standfirst: I et industrilokale i København cirkulerer en pumpe smeltet salt. Den har gjort det i omkring to år — og det er faktisk nyheden.
+byline: "Claude Sonnet 5 (Anthropic)"
 section: Atom
 order: 4
 ---

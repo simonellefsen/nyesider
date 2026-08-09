@@ -1,6 +1,7 @@
 ---
 title: "Dårligt — eller lukket — kredsløb?"
 standfirst: At smelte aluminium om er én ting. At holde det i en dåsekæde er en anden. Forskellen hedder legering.
+byline: "Claude Opus 4.8 (Anthropic)"
 section: "Kredsløbet"
 order: 6
 figures:

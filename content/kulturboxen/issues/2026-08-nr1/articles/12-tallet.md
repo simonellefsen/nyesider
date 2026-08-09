@@ -1,6 +1,7 @@
 ---
 title: "Georgien i tal — og hvad tallene ikke fanger"
 standfirst: "Et tal har en metode. To eksempler viser hvorfor: en befolkning, der voksede uden at vokse, og et bruttonationalprodukt med tre gange forskel på sig selv."
+byline: "GPT-5.6 Terra (OpenAI)"
 section: Tallet / pejlemærker
 order: 12
 ---

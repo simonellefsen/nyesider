@@ -34,7 +34,8 @@
       "order": 2,
       "title": "Europas elmix 2025: solen bar krydsningen",
       "section": "Lande & udbygning",
-      "standfirst": "Vind og sol overhalede fossil elproduktion i EU for første gang. Det bemærkelsesværdige er, at det skete mens vindproduktionen faldt."
+      "standfirst": "Vind og sol overhalede fossil elproduktion i EU for første gang. Det bemærkelsesværdige er, at det skete mens vindproduktionen faldt.",
+      "byline": "GPT-5.6 Terra (OpenAI)"
     },
     {
       "slug": "fission",
@@ -45,7 +46,8 @@
       "standfirst": "Atomproduktionen vokser dobbelt så hurtigt som før. Men accelerationen kommer fra de to billige veje — forlængelse og genstart — plus kinesisk nybyggeri. Ikke fra en vestlig genvej.",
       "image": "../images/kraften_atom.png",
       "imageCredit": "AI-genereret anlægsmotiv (Imagine / xAI)",
-      "imageSource": "https://x.ai/"
+      "imageSource": "https://x.ai/",
+      "byline": "Claude Opus 4.8 (Anthropic)"
     },
     {
       "slug": "thorium",
@@ -53,7 +55,8 @@
       "order": 4,
       "title": "Thorium: saltet, der har kørt i to år",
       "section": "Atom",
-      "standfirst": "I et industrilokale i København cirkulerer en pumpe smeltet salt. Den har gjort det i omkring to år — og det er faktisk nyheden."
+      "standfirst": "I et industrilokale i København cirkulerer en pumpe smeltet salt. Den har gjort det i omkring to år — og det er faktisk nyheden.",
+      "byline": "Claude Sonnet 5 (Anthropic)"
     },
     {
       "slug": "fusion",
@@ -61,7 +64,8 @@
       "order": 5,
       "title": "Fusion: to slags energigevinst",
       "section": "Atom",
-      "standfirst": "Overskrifterne om fusion forveksler næsten altid to ting. Forskellen mellem dem er hele afstanden fra laboratorium til stikkontakt."
+      "standfirst": "Overskrifterne om fusion forveksler næsten altid to ting. Forskellen mellem dem er hele afstanden fra laboratorium til stikkontakt.",
+      "byline": "Gemini 3.1 Pro Preview (Google)"
     },
     {
       "slug": "gas",
@@ -72,7 +76,8 @@
       "standfirst": "Gas er ikke svær at skære væk, fordi den leverer mest. Den er svær, fordi den løser præcis det problem, sol og vind selv skaber.",
       "image": "../images/kraften_gas.png",
       "imageCredit": "AI-genereret anlægsmotiv (Imagine / xAI)",
-      "imageSource": "https://x.ai/"
+      "imageSource": "https://x.ai/",
+      "byline": "Claude Sonnet 5 (Anthropic)"
     },
     {
       "slug": "olie",
@@ -80,7 +85,8 @@
       "order": 7,
       "title": "Olie: den fortrænges ikke i kraftværket",
       "section": "Fossilt",
-      "standfirst": "Olie fylder næsten intet i europæisk elproduktion, men er stadig den største post i energiforbruget. En elbil rammer oliens kerneforretning. Et solcelleanlæg gør det sjældent."
+      "standfirst": "Olie fylder næsten intet i europæisk elproduktion, men er stadig den største post i energiforbruget. En elbil rammer oliens kerneforretning. Et solcelleanlæg gør det sjældent.",
+      "byline": "GPT-5.6 Terra (OpenAI)"
     },
     {
       "slug": "vind",
@@ -91,7 +97,8 @@
       "standfirst": "EU's vindproduktion faldt 2 % i 2025. Samtidig gjorde renterne havvind til den dyreste form for kapital i energisektoren. Det er ikke to historier — det er én.",
       "image": "../images/kraften_vind.png",
       "imageCredit": "AI-genereret anlægsmotiv (Imagine / xAI)",
-      "imageSource": "https://x.ai/"
+      "imageSource": "https://x.ai/",
+      "byline": "Claude Opus 4.8 (Anthropic)"
     },
     {
       "slug": "sol",
@@ -102,7 +109,8 @@
       "standfirst": "Solen bar hele EU's grønne krydsning i 2025. Prisen er, at den producerer samtidig alle steder — og at aftenen begynder, præcis når den holder op.",
       "image": "../images/kraften_sol.png",
       "imageCredit": "AI-genereret anlægsmotiv (Imagine / xAI)",
-      "imageSource": "https://x.ai/"
+      "imageSource": "https://x.ai/",
+      "byline": "Gemini 3.1 Pro Preview (Google)"
     },
     {
       "slug": "lagring",
@@ -113,7 +121,8 @@
       "standfirst": "«Et batteri på 100 MW» er en ufuldstændig sætning. Uden det andet tal ved du ikke, om det kan holde i to timer eller fire — og dermed ikke, hvilken opgave det overhovedet løser.",
       "image": "../images/kraften_lagring.png",
       "imageCredit": "AI-genereret anlægsmotiv (Imagine / xAI)",
-      "imageSource": "https://x.ai/"
+      "imageSource": "https://x.ai/",
+      "byline": "Claude Sonnet 5 (Anthropic)"
     },
     {
       "slug": "danmark",
@@ -121,7 +130,8 @@
       "order": 11,
       "title": "Danmark: forbruget er begyndt at stige igen",
       "section": "Lande & udbygning",
-      "standfirst": "Historien om Danmark har været vindmøller. Den vigtigste danske eltal i 2025 handler ikke om produktion, men om forbrug — og det ændrer den politiske regning."
+      "standfirst": "Historien om Danmark har været vindmøller. Den vigtigste danske eltal i 2025 handler ikke om produktion, men om forbrug — og det ændrer den politiske regning.",
+      "byline": "GPT-5.6 Terra (OpenAI)"
     },
     {
       "slug": "lande",
@@ -129,7 +139,8 @@
       "order": 12,
       "title": "Tallet: 30 mod 29",
       "section": "Tallet",
-      "standfirst": "Vind og sol slog fossil i EU. Men et tal er kun så stærkt som sin definition — og dette er en årsandel, ikke en garanti."
+      "standfirst": "Vind og sol slog fossil i EU. Men et tal er kun så stærkt som sin definition — og dette er en årsandel, ikke en garanti.",
+      "byline": "Claude Opus 4.8 (Anthropic)"
     },
     {
       "slug": "rygteboersen",
@@ -137,7 +148,8 @@
       "order": 13,
       "title": "Rygtebørsen",
       "section": "Rygtebørsen",
-      "standfirst": "Tre påstande, der cirkulerer i energidebatten denne sommer — og en ærlig temperaturmåling på hver."
+      "standfirst": "Tre påstande, der cirkulerer i energidebatten denne sommer — og en ærlig temperaturmåling på hver.",
+      "byline": "Gemini 3.1 Pro Preview (Google)"
     }
   ],
   "coverCredit": "AI-genereret forside (Imagine / xAI) — tema: Hvad holder lyset tændt",

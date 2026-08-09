@@ -1,6 +1,7 @@
 ---
 title: "Løn, netværk og to lønniveauer i samme by"
 standfirst: Lønnen stiger, arbejdsløsheden falder — og en tilflytterklasse med udenlandske lønsedler har sat sig i Tbilisis huslejer.
+byline: "Claude Sonnet 5 (Anthropic)"
 section: Arbejde & hierarki
 order: 5
 image: ../images/kulturboxen_marked.png

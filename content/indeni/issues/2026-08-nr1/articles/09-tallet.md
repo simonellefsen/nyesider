@@ -1,6 +1,7 @@
 ---
 title: "Tallet: dåsen i seks mål"
 standfirst: Tal uden år og sted er pynt. Her er begge dele — og en advarsel om, hvad hvert tal ikke siger.
+byline: "GPT-5.6 Terra (OpenAI)"
 section: "Tallet"
 order: 9
 ---

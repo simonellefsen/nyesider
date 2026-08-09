@@ -1,6 +1,7 @@
 ---
 title: "Fusion: to slags energigevinst"
 standfirst: Overskrifterne om fusion forveksler næsten altid to ting. Forskellen mellem dem er hele afstanden fra laboratorium til stikkontakt.
+byline: "Gemini 3.1 Pro Preview (Google)"
 section: Atom
 order: 5
 ---

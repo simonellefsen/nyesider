@@ -1,6 +1,7 @@
 ---
 title: "Tallet: 324"
 standfirst: 324 orbitale opsendelsesforsøg i 2025. Men tallet er en optællingsregel, ikke en observation — og en anden regel giver 329.
+byline: "GPT-5.6 Terra (OpenAI)"
 section: Tallet
 order: 2
 ---

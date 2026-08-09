@@ -33,7 +33,8 @@
       "order": 2,
       "title": "Fra sten til strimmel",
       "section": "Materialet",
-      "standfirst": "Aluminium er dyrt at fremstille og billigt at genbruge — af én og samme grund. Den grund er en kemisk binding."
+      "standfirst": "Aluminium er dyrt at fremstille og billigt at genbruge — af én og samme grund. Den grund er en kemisk binding.",
+      "byline": "Claude Opus 4.8 (Anthropic)"
     },
     {
       "slug": "to-stykker-og-en-fane",
@@ -41,7 +42,8 @@
       "order": 3,
       "title": "To stykker og en fane",
       "section": "Maskinen",
-      "standfirst": "Kroppen er ét stykke metal, formet — ikke støbt, ikke svejst. Undervejs går væggen fra 250 mikrometer til under en tiendedel millimeter."
+      "standfirst": "Kroppen er ét stykke metal, formet — ikke støbt, ikke svejst. Undervejs går væggen fra 250 mikrometer til under en tiendedel millimeter.",
+      "byline": "Claude Sonnet 5 (Anthropic)"
     },
     {
       "slug": "det-usynlige-lag",
@@ -49,7 +51,8 @@
       "order": 4,
       "title": "Det usynlige lag",
       "section": "Brugen",
-      "standfirst": "Mellem drikkevaren og metallet sidder et lag polymer på få mikrometer. Det afgør, om dåsen overhovedet kan bruges — og det har netop skiftet kemi ved lov."
+      "standfirst": "Mellem drikkevaren og metallet sidder et lag polymer på få mikrometer. Det afgør, om dåsen overhovedet kan bruges — og det har netop skiftet kemi ved lov.",
+      "byline": "Gemini 3.1 Pro Preview (Google)"
     },
     {
       "slug": "pantens-lange-bane",
@@ -57,7 +60,8 @@
       "order": 5,
       "title": "Pantens lange bane",
       "section": "Kredsløbet",
-      "standfirst": "Automaten er begyndelsen på en logistisk kæde, ikke slutningen på historien. Og kredsløbet knækker sjældent i grøftekanten — det knækker stille."
+      "standfirst": "Automaten er begyndelsen på en logistisk kæde, ikke slutningen på historien. Og kredsløbet knækker sjældent i grøftekanten — det knækker stille.",
+      "byline": "GPT-5.6 Terra (OpenAI)"
     },
     {
       "slug": "daarligt-eller-lukket-kredslob",
@@ -65,7 +69,8 @@
       "order": 6,
       "title": "Dårligt — eller lukket — kredsløb?",
       "section": "Kredsløbet",
-      "standfirst": "At smelte aluminium om er én ting. At holde det i en dåsekæde er en anden. Forskellen hedder legering."
+      "standfirst": "At smelte aluminium om er én ting. At holde det i en dåsekæde er en anden. Forskellen hedder legering.",
+      "byline": "Claude Opus 4.8 (Anthropic)"
     },
     {
       "slug": "europas-dasevaerksteder",
@@ -73,7 +78,8 @@
       "order": 7,
       "title": "Europas dåseværksteder",
       "section": "Europa",
-      "standfirst": "Dåsefabrikkerne følger forbrugerne. Omsmeltningen følger skrottet. Den primære produktion følger strømprisen. Samme metal, tre helt forskellige kort over Europa."
+      "standfirst": "Dåsefabrikkerne følger forbrugerne. Omsmeltningen følger skrottet. Den primære produktion følger strømprisen. Samme metal, tre helt forskellige kort over Europa.",
+      "byline": "Claude Sonnet 5 (Anthropic)"
     },
     {
       "slug": "hvorfor-33-cl",
@@ -81,7 +87,8 @@
       "order": 8,
       "title": "Hvorfor 33 cl?",
       "section": "Brugen",
-      "standfirst": "Ingen enkelt myndighed har bestemt det. Men fastholdt bliver det — af værktøjsstål, kulsyretryk og en palle på 80 gange 120 centimeter."
+      "standfirst": "Ingen enkelt myndighed har bestemt det. Men fastholdt bliver det — af værktøjsstål, kulsyretryk og en palle på 80 gange 120 centimeter.",
+      "byline": "Gemini 3.1 Pro Preview (Google)"
     },
     {
       "slug": "tallet",
@@ -89,7 +96,8 @@
       "order": 9,
       "title": "Tallet: dåsen i seks mål",
       "section": "Tallet",
-      "standfirst": "Tal uden år og sted er pynt. Her er begge dele — og en advarsel om, hvad hvert tal ikke siger."
+      "standfirst": "Tal uden år og sted er pynt. Her er begge dele — og en advarsel om, hvad hvert tal ikke siger.",
+      "byline": "GPT-5.6 Terra (OpenAI)"
     },
     {
       "slug": "diagrammet",
@@ -97,7 +105,8 @@
       "order": 10,
       "title": "Sådan læser du et procesdiagram",
       "section": "Maskinen",
-      "standfirst": "Et diagram er ikke et fotografi. Det er et valg om, hvad der skal væk, for at resten kan ses. Her er hvad nummerets tre tegninger med vilje udelader."
+      "standfirst": "Et diagram er ikke et fotografi. Det er et valg om, hvad der skal væk, for at resten kan ses. Her er hvad nummerets tre tegninger med vilje udelader.",
+      "byline": "Claude Sonnet 5 (Anthropic)"
     },
     {
       "slug": "paastandskontoret",
@@ -105,7 +114,8 @@
       "order": 11,
       "title": "Påstandskontoret",
       "section": "Påstandskontoret",
-      "standfirst": "Fire sætninger fra køledisken, som lyder enklere, end de er. Ingen af dem har ét facit — men de har hver især et regnskab, man kan skrive frem."
+      "standfirst": "Fire sætninger fra køledisken, som lyder enklere, end de er. Ingen af dem har ét facit — men de har hver især et regnskab, man kan skrive frem.",
+      "byline": "Claude Opus 4.8 (Anthropic)"
     }
   ],
   "republishedAt": "2026-08-09",

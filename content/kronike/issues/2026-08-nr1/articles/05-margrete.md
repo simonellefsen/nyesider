@@ -1,6 +1,7 @@
 ---
 title: "Margrete 1.: kvinden uden krone"
 standfirst: Hun regerede tre riger i et kvart århundrede og bar aldrig en kongetitel. Hun efterlod sig heller ikke et ansigt — kun et gravmæle, en anden konges mønter og en union.
+byline: "Claude Opus 4.8 (Anthropic)"
 section: Biografi
 order: 5
 image: ../images/kronike_margrete.png

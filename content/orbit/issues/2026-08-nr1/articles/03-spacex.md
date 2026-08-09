@@ -1,6 +1,7 @@
 ---
 title: "SpaceX: fabrikken der fløj forrest"
 standfirst: 165 Falcon 9-opsendelser i 2025 — flere end resten af verden tilsammen. Det interessante er ikke tallet, men hvad der gjorde det muligt, og hvad det koster at have én aktør som taktholder.
+byline: "Claude Sonnet 5 (Anthropic)"
 section: Opsendelser
 order: 3
 image: ../images/orbit_spacex.png

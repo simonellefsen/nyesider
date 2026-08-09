@@ -1,6 +1,7 @@
 ---
 title: "Europas dåseværksteder"
 standfirst: Dåsefabrikkerne følger forbrugerne. Omsmeltningen følger skrottet. Den primære produktion følger strømprisen. Samme metal, tre helt forskellige kort over Europa.
+byline: "Claude Sonnet 5 (Anthropic)"
 section: "Europa"
 order: 7
 ---

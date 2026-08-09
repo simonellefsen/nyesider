@@ -1,6 +1,7 @@
 ---
 title: "Fra sten til strimmel"
 standfirst: Aluminium er dyrt at fremstille og billigt at genbruge — af én og samme grund. Den grund er en kemisk binding.
+byline: "Claude Opus 4.8 (Anthropic)"
 section: Materialet
 order: 2
 ---

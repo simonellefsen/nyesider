@@ -1,6 +1,7 @@
 ---
 title: "Danmark: forbruget er begyndt at stige igen"
 standfirst: Historien om Danmark har været vindmøller. Den vigtigste danske eltal i 2025 handler ikke om produktion, men om forbrug — og det ændrer den politiske regning.
+byline: "GPT-5.6 Terra (OpenAI)"
 section: Lande & udbygning
 order: 11
 ---

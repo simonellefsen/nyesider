@@ -57,7 +57,8 @@
       "standfirst": "Historie er også størrelsesordener. Her er fire — og en ærlig besked om, hvor sikre de er.",
       "image": "../images/kronike_tallet.png",
       "imageCredit": "AI-genereret motiv (Imagine / xAI) — geometrisk stil",
-      "imageSource": "https://x.ai/"
+      "imageSource": "https://x.ai/",
+      "byline": "GPT-5.6 Terra (OpenAI)"
     },
     {
       "slug": "hedeby",
@@ -68,7 +69,8 @@
       "standfirst": "En handelsby ved Slien og en jordvold tværs over Jylland. Vikingetidens magt sad ikke kun i skibene — den sad i told, træ og trafik.",
       "image": "../images/kronike_hedeby.png",
       "imageCredit": "AI-genereret motiv (Imagine / xAI) — illustreret stil",
-      "imageSource": "https://x.ai/"
+      "imageSource": "https://x.ai/",
+      "byline": "Claude Sonnet 5 (Anthropic)"
     },
     {
       "slug": "kristning",
@@ -79,7 +81,8 @@
       "standfirst": "Harald Blåtand skrev på en sten, at han gjorde danerne kristne. Det passer — men grunden lå syd for grænsen, ikke i himlen.",
       "image": "../images/kronike_kristning.png",
       "imageCredit": "AI-genereret motiv (Imagine / xAI) — retrostil",
-      "imageSource": "https://x.ai/"
+      "imageSource": "https://x.ai/",
+      "byline": "Gemini 3.1 Pro Preview (Google)"
     },
     {
       "slug": "margrete",
@@ -90,7 +93,8 @@
       "standfirst": "Hun regerede tre riger i et kvart århundrede og bar aldrig en kongetitel. Hun efterlod sig heller ikke et ansigt — kun et gravmæle, en anden konges mønter og en union.",
       "image": "../images/kronike_margrete.png",
       "imageCredit": "AI-genereret motiv (Imagine / xAI) — maskulin/historisk portrætstil",
-      "imageSource": "https://x.ai/"
+      "imageSource": "https://x.ai/",
+      "byline": "Claude Opus 4.8 (Anthropic)"
     },
     {
       "slug": "reformation",
@@ -101,7 +105,8 @@
       "standfirst": "Det handlede om tro. Det handlede først om klosterjord, bispemagt og en konge, der skyldte sine soldater penge.",
       "image": "../images/kronike_reformation.png",
       "imageCredit": "AI-genereret motiv (Imagine / xAI) — grunge/retro",
-      "imageSource": "https://x.ai/"
+      "imageSource": "https://x.ai/",
+      "byline": "Claude Opus 4.8 (Anthropic)"
     },
     {
       "slug": "oresundstold",
@@ -112,7 +117,8 @@
       "standfirst": "I 428 år standsede den danske krone verdens skibsfart ved Helsingør og bad om betaling. Regnskaberne blev en af Europas vigtigste historiske kilder.",
       "image": "../images/kronike_oresund.png",
       "imageCredit": "AI-genereret motiv (Imagine / xAI) — flad vektor",
-      "imageSource": "https://x.ai/"
+      "imageSource": "https://x.ai/",
+      "byline": "GPT-5.6 Terra (OpenAI)"
     },
     {
       "slug": "landboreformer",
@@ -123,7 +129,8 @@
       "standfirst": "I 1788 var en dansk dreng bundet til sit gods fra han var fire år gammel. Tolv år senere var båndet væk — og landskabet så anderledes ud.",
       "image": "../images/kronike_landbo.png",
       "imageCredit": "AI-genereret motiv (Imagine / xAI) — organisk stil",
-      "imageSource": "https://x.ai/"
+      "imageSource": "https://x.ai/",
+      "byline": "Claude Sonnet 5 (Anthropic)"
     },
     {
       "slug": "seksten-fireogtreds",
@@ -134,7 +141,8 @@
       "standfirst": "Først rømningen af Dannevirke. Så seks timers bombardement og fire timers slag ved Dybbøl. Og en mølle, der blev symbol — ikke fordi den vandt noget, men fordi den stod i vejen.",
       "image": "../images/kronike_1864.png",
       "imageCredit": "AI-genereret motiv (Imagine / xAI) — dramatisk illustreret",
-      "imageSource": "https://x.ai/"
+      "imageSource": "https://x.ai/",
+      "byline": "Claude Sonnet 5 (Anthropic)"
     },
     {
       "slug": "udvandring",
@@ -145,7 +153,8 @@
       "standfirst": "Omkring 300.000 forlod landet. Vi kender deres navne, fordi politiet skrev dem ned — og fordi en af dem blev berømt for at fotografere fattigdom.",
       "image": "../images/kronike_udvandring.png",
       "imageCredit": "AI-genereret motiv (Imagine / xAI) — retro plakatstil",
-      "imageSource": "https://x.ai/"
+      "imageSource": "https://x.ai/",
+      "byline": "Gemini 3.1 Pro Preview (Google)"
     },
     {
       "slug": "oersted",
@@ -156,7 +165,8 @@
       "standfirst": "Nålen skulle ikke have drejet den vej. At den gjorde, åbnede elektromagnetismen — men manden bag var lige så meget sprogmand og skolebygger som fysiker.",
       "image": "../images/kronike_oersted.png",
       "imageCredit": "AI-genereret motiv (Imagine / xAI) — geometrisk/lab",
-      "imageSource": "https://x.ai/"
+      "imageSource": "https://x.ai/",
+      "byline": "Claude Opus 4.8 (Anthropic)"
     },
     {
       "slug": "myter",

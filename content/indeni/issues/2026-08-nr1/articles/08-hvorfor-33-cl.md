@@ -1,6 +1,7 @@
 ---
 title: "Hvorfor 33 cl?"
 standfirst: Ingen enkelt myndighed har bestemt det. Men fastholdt bliver det — af værktøjsstål, kulsyretryk og en palle på 80 gange 120 centimeter.
+byline: "Gemini 3.1 Pro Preview (Google)"
 section: "Brugen"
 order: 8
 ---

@@ -1,6 +1,7 @@
 ---
 title: "Kristningen: da troen blev statsprojekt"
 standfirst: Harald Blåtand skrev på en sten, at han gjorde danerne kristne. Det passer — men grunden lå syd for grænsen, ikke i himlen.
+byline: "Gemini 3.1 Pro Preview (Google)"
 section: Tro & kirke
 order: 4
 image: ../images/kronike_kristning.png

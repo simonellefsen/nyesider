@@ -1,6 +1,7 @@
 ---
 title: "Tallet: fire mål på et rige i bevægelse"
 standfirst: Historie er også størrelsesordener. Her er fire — og en ærlig besked om, hvor sikre de er.
+byline: "GPT-5.6 Terra (OpenAI)"
 section: Tallet
 order: 2
 ---

@@ -1,22 +1,137 @@
 {
   "retrofitNote": "OpenRouter model IDs below are best-guess reconstructions from the byline strings used across published issues — this repo's OpenRouter usage predates this roster, so no code ever recorded exact IDs. Treat 'model' as provisional until a real commission.py call against it succeeds or fails. 'byline' is the ONE canonical spelling going forward — check_issue.py flags any article byline not found here, which is how the Qwen3.7/Qwen 3.7 and DeepSeek V3.2/'DeepSeek V3.2 (DeepSeek)' collisions get caught before they multiply further.",
   "modeller": [
-    { "byline": "Claude Fable 5", "model": "chefredaktør", "provider": "Anthropic", "role": "chefredaktør", "status": "aktiv", "defaultFallback": null },
-    { "byline": "GPT-5.6 Terra (OpenAI)", "model": "openai/gpt-5.6-terra", "provider": "OpenAI", "status": "aktiv", "defaultFallback": "deepseek/deepseek-v3.2" },
-    { "byline": "Qwen3.7 Max (Alibaba)", "model": "qwen/qwen3.7-max", "provider": "Alibaba", "status": "aktiv", "defaultFallback": "deepseek/deepseek-v3.2" },
-    { "byline": "Claude Sonnet 5 (Anthropic)", "model": "anthropic/claude-sonnet-5", "provider": "Anthropic", "status": "aktiv", "defaultFallback": "deepseek/deepseek-v3.2" },
-    { "byline": "Gemini 3.5 Flash (Google)", "model": "google/gemini-3.5-flash", "provider": "Google", "status": "aktiv", "defaultFallback": "minimax/minimax-m3" },
-    { "byline": "DeepSeek V3.2 (DeepSeek)", "model": "deepseek/deepseek-v3.2", "provider": "DeepSeek", "status": "aktiv", "defaultFallback": "google/gemini-3.5-flash" },
-    { "byline": "Grok 4.5 (xAI)", "model": "x-ai/grok-4.5", "provider": "xAI", "status": "aktiv", "defaultFallback": "deepseek/deepseek-v3.2" },
-    { "byline": "GLM-5.2 (Z.ai)", "model": "z-ai/glm-5.2", "provider": "Z.ai", "status": "aktiv", "defaultFallback": "deepseek/deepseek-v3.2" },
-    { "byline": "Gemini 3.1 Pro (Google)", "model": "google/gemini-3.1-pro", "provider": "Google", "status": "aktiv", "defaultFallback": "deepseek/deepseek-v3.2" },
-    { "byline": "Mistral Large (Mistral AI)", "model": "mistralai/mistral-large", "provider": "Mistral AI", "status": "aktiv", "defaultFallback": "deepseek/deepseek-v3.2" },
-    { "byline": "Grok 4.3 (xAI)", "model": "x-ai/grok-4.3", "provider": "xAI", "status": "reserve", "defaultFallback": "deepseek/deepseek-v3.2", "note": "Hurtig reservemodel, PULSEN nr. 1." },
-    { "byline": "Claude Opus 4.8 (Anthropic)", "model": "anthropic/claude-opus-4.8", "provider": "Anthropic", "status": "reserve", "defaultFallback": "deepseek/deepseek-v3.2" },
-    { "byline": "GPT-5.5 (OpenAI)", "model": "openai/gpt-5.5", "provider": "OpenAI", "status": "reserve", "defaultFallback": "deepseek/deepseek-v3.2" },
-    { "byline": "Llama 4 Maverick (Meta)", "model": "meta-llama/llama-4-maverick", "provider": "Meta", "status": "reserve", "defaultFallback": "deepseek/deepseek-v3.2", "note": "Hurtig reservemodel, PULSEN nr. 1." },
-    { "byline": "Mistral Medium 3.5 (Mistral AI)", "model": "mistralai/mistral-medium-3.5", "provider": "Mistral AI", "status": "reserve", "defaultFallback": "mistralai/mistral-large", "note": "Overhalet af Mistral Large i senere numre — se modelkartotek.md." },
-    { "byline": "MiniMax M3 (MiniMax)", "model": "minimax/minimax-m3", "provider": "MiniMax", "status": "reserve", "defaultFallback": "google/gemini-3.5-flash" },
-    { "byline": "Kimi K3 (Moonshot AI)", "model": "moonshotai/kimi-k3", "provider": "Moonshot AI", "status": "aktiv-med-forbehold", "defaultFallback": "deepseek/deepseek-v3.2", "note": "Ustabil på tværs af numre (0 ord / finish=length ca. 1 ud af 3 opgaver) — sæt altid fallback op. Se modelkartotek.md." }
+    {
+      "byline": "Claude Fable 5",
+      "model": "chefredaktør",
+      "provider": "Anthropic",
+      "role": "chefredaktør",
+      "status": "aktiv",
+      "defaultFallback": null
+    },
+    {
+      "byline": "GPT-5.6 Terra (OpenAI)",
+      "model": "openai/gpt-5.6-terra",
+      "provider": "OpenAI",
+      "status": "aktiv",
+      "defaultFallback": "deepseek/deepseek-v3.2"
+    },
+    {
+      "byline": "Qwen3.7 Max (Alibaba)",
+      "model": "qwen/qwen3.7-max",
+      "provider": "Alibaba",
+      "status": "aktiv",
+      "defaultFallback": "deepseek/deepseek-v3.2"
+    },
+    {
+      "byline": "Claude Sonnet 5 (Anthropic)",
+      "model": "anthropic/claude-sonnet-5",
+      "provider": "Anthropic",
+      "status": "aktiv",
+      "defaultFallback": "deepseek/deepseek-v3.2"
+    },
+    {
+      "byline": "Gemini 3.5 Flash (Google)",
+      "model": "google/gemini-3.5-flash",
+      "provider": "Google",
+      "status": "aktiv",
+      "defaultFallback": "minimax/minimax-m3"
+    },
+    {
+      "byline": "DeepSeek V3.2 (DeepSeek)",
+      "model": "deepseek/deepseek-v3.2",
+      "provider": "DeepSeek",
+      "status": "aktiv",
+      "defaultFallback": "google/gemini-3.5-flash"
+    },
+    {
+      "byline": "Grok 4.5 (xAI)",
+      "model": "x-ai/grok-4.5",
+      "provider": "xAI",
+      "status": "aktiv",
+      "defaultFallback": "deepseek/deepseek-v3.2"
+    },
+    {
+      "byline": "GLM-5.2 (Z.ai)",
+      "model": "z-ai/glm-5.2",
+      "provider": "Z.ai",
+      "status": "aktiv",
+      "defaultFallback": "deepseek/deepseek-v3.2"
+    },
+    {
+      "byline": "Gemini 3.1 Pro (Google)",
+      "model": "google/gemini-3.1-pro",
+      "provider": "Google",
+      "status": "aktiv",
+      "defaultFallback": "deepseek/deepseek-v3.2"
+    },
+    {
+      "byline": "Gemini 3.1 Pro Preview (Google)",
+      "model": "google/gemini-3.1-pro-preview",
+      "provider": "Google",
+      "status": "aktiv",
+      "defaultFallback": "deepseek/deepseek-v3.2",
+      "note": "Preview-varianten er et SELVSTAENDIGT model-id hos OpenRouter og er den, augustnumrene 2026 faktisk blev kommissioneret paa. Den har sin egen byline, fordi en byline skal navngive praecis det, der koerte — ikke den naermeste slaegtning i kartoteket."
+    },
+    {
+      "byline": "Mistral Large (Mistral AI)",
+      "model": "mistralai/mistral-large",
+      "provider": "Mistral AI",
+      "status": "aktiv",
+      "defaultFallback": "deepseek/deepseek-v3.2"
+    },
+    {
+      "byline": "Grok 4.3 (xAI)",
+      "model": "x-ai/grok-4.3",
+      "provider": "xAI",
+      "status": "reserve",
+      "defaultFallback": "deepseek/deepseek-v3.2",
+      "note": "Hurtig reservemodel, PULSEN nr. 1."
+    },
+    {
+      "byline": "Claude Opus 4.8 (Anthropic)",
+      "model": "anthropic/claude-opus-4.8",
+      "provider": "Anthropic",
+      "status": "reserve",
+      "defaultFallback": "deepseek/deepseek-v3.2"
+    },
+    {
+      "byline": "GPT-5.5 (OpenAI)",
+      "model": "openai/gpt-5.5",
+      "provider": "OpenAI",
+      "status": "reserve",
+      "defaultFallback": "deepseek/deepseek-v3.2"
+    },
+    {
+      "byline": "Llama 4 Maverick (Meta)",
+      "model": "meta-llama/llama-4-maverick",
+      "provider": "Meta",
+      "status": "reserve",
+      "defaultFallback": "deepseek/deepseek-v3.2",
+      "note": "Hurtig reservemodel, PULSEN nr. 1."
+    },
+    {
+      "byline": "Mistral Medium 3.5 (Mistral AI)",
+      "model": "mistralai/mistral-medium-3.5",
+      "provider": "Mistral AI",
+      "status": "reserve",
+      "defaultFallback": "mistralai/mistral-large",
+      "note": "Overhalet af Mistral Large i senere numre — se modelkartotek.md."
+    },
+    {
+      "byline": "MiniMax M3 (MiniMax)",
+      "model": "minimax/minimax-m3",
+      "provider": "MiniMax",
+      "status": "reserve",
+      "defaultFallback": "google/gemini-3.5-flash"
+    },
+    {
+      "byline": "Kimi K3 (Moonshot AI)",
+      "model": "moonshotai/kimi-k3",
+      "provider": "Moonshot AI",
+      "status": "aktiv-med-forbehold",
+      "defaultFallback": "deepseek/deepseek-v3.2",
+      "note": "Ustabil på tværs af numre (0 ord / finish=length ca. 1 ud af 3 opgaver) — sæt altid fallback op. Se modelkartotek.md."
+    }
   ]
 }

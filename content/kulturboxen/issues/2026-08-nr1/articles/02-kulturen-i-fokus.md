@@ -1,6 +1,7 @@
 ---
 title: "Georgien: landet der siger både ja og nej til Europa"
 standfirst: Eget sprog, egne bogstaver, egen kirke — og en befolkning, der er dybt uenig med sig selv om retningen. Baggrunden, resten af nummeret hviler på.
+byline: "Claude Opus 4.8 (Anthropic)"
 section: Kulturen i fokus (destination / folk)
 order: 2
 image: ../images/kulturboxen_tbilisi.png

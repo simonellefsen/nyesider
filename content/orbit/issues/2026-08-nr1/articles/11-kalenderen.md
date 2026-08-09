@@ -1,6 +1,7 @@
 ---
 title: "Kalenderen: hvad der venter (med forbehold)"
 standfirst: En rumkalender er ikke en køreplan. Her er de tre ord, der forklarer hvorfor — og fem ting i efterårets manifest, med den usikkerhed de faktisk har.
+byline: "Gemini 3.1 Pro Preview (Google)"
 section: Kalenderen
 order: 11
 ---

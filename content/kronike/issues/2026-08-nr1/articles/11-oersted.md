@@ -1,6 +1,7 @@
 ---
 title: "H.C. Ørsted: da strøm og magnetisme mødtes"
 standfirst: Nålen skulle ikke have drejet den vej. At den gjorde, åbnede elektromagnetismen — men manden bag var lige så meget sprogmand og skolebygger som fysiker.
+byline: "Claude Opus 4.8 (Anthropic)"
 section: Videnskab & opfindelser
 order: 11
 image: ../images/kronike_oersted.png

@@ -1,6 +1,7 @@
 ---
 title: "Sådan læser du et procesdiagram"
 standfirst: Et diagram er ikke et fotografi. Det er et valg om, hvad der skal væk, for at resten kan ses. Her er hvad nummerets tre tegninger med vilje udelader.
+byline: "Claude Sonnet 5 (Anthropic)"
 section: "Maskinen"
 order: 10
 ---

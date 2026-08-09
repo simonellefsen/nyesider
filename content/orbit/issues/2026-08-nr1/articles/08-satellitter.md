@@ -1,6 +1,7 @@
 ---
 title: "Satellitter: når LEO bliver en industripark"
 standfirst: Over 4.400 satellitter blev sat i kredsløb på ét år, og næsten ni ud af ti var kommercielle. To ud af tre aktive satellitter tilhører i dag ét firma.
+byline: "Gemini 3.1 Pro Preview (Google)"
 section: Satellitter & konstellationer
 order: 8
 image: ../images/orbit_satellitter.png

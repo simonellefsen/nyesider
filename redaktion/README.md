@@ -22,8 +22,24 @@ Derfor gælder nu, uden undtagelse:
 - **Ingen kladde = intet verdikt.** `verdict.status` må først skrives, når der ligger en rigtig
   kladde i `kladder/`. At skrive `rejected` om noget, der aldrig er bestilt, er ikke sjusk —
   det er et opdigtet revisionsspor.
-- **Genudgivelses-standarden aftalt med ejeren er: ingen byline**, indtil en reel forfatter kan
-  dokumenteres. Sæt hellere ingen byline end en, du håber er rigtig.
+- **Genudgivelses-standarden aftalt med ejeren er: ingen byline, *indtil* en reel forfatter kan
+  dokumenteres.** Sæt hellere ingen byline end en, du håber er rigtig.
+
+  > **Læs «indtil» som det, der står — det er en betingelse, ikke et permanent forbud.**
+  > Reglen er tosidet, og begge sider er lige forpligtende. Da de fem `2026-08-nr1`-numre var
+  > genopbygget med rigtige kald, kvitteringer, `generationId` og kladder, blev de alligevel
+  > udgivet **uden** byline, fordi «ingen byline» var blevet læst som selve standarden.
+  > Ejeren opdagede det på de udgivne sider: fire modeller stod på OpenRouter-dashboardet med
+  > 0,61 USD forbrug på KulturBoxen alene, og ingen artikel krediterede nogen af dem. Rettet
+  > 2026-08-09, hvor 56 artikler fik den byline, kvitteringen hele tiden havde belagt.
+  >
+  > At tilbageholde en dokumenteret byline er sin egen unøjagtighed: den fratager forfatteren
+  > arbejdet og skjuler for læseren, hvad der faktisk producerede teksten. Den ærlige regel er
+  > **byline ⇔ kvittering** — i begge retninger.
+
+- **En byline skal navngive præcis den model, der kørte.** `google/gemini-3.1-pro-preview` er et
+  andet model-id end `google/gemini-3.1-pro` og har derfor sin egen post i `modeller.json`.
+  Vælg aldrig den nærmeste slægtning i kartoteket, fordi den rigtige mangler — opret posten.
 - **Brug titlens egen nøgle.** `.env.<slug>` — aldrig en anden titels. Det var netop
   dashboardet med de urørte nøgler, der afslørede sagen.
 

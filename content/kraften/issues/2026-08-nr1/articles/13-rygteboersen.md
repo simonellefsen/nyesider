@@ -1,6 +1,7 @@
 ---
 title: Rygtebørsen
 standfirst: Tre påstande, der cirkulerer i energidebatten denne sommer — og en ærlig temperaturmåling på hver.
+byline: "Gemini 3.1 Pro Preview (Google)"
 section: Rygtebørsen
 order: 13
 ---

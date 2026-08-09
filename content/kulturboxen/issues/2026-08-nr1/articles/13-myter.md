@@ -1,6 +1,7 @@
 ---
 title: "Fire myter om Georgien — én ad gangen"
 standfirst: To af dem holder delvist. Én er forkert i billede, men rigtig i tal. Og den sidste kan vi ikke afgøre — så det siger vi.
+byline: "Claude Sonnet 5 (Anthropic)"
 section: Rygtebørsen / myter
 order: 13
 ---

@@ -1,6 +1,7 @@
 ---
 title: "Tilliden, der ikke kan reformeres frem"
 standfirst: Georgien afskaffede hverdagens korruption på rekordtid. Tillid til staten selv er noget andet — og den er under pres i 2026.
+byline: "Claude Opus 4.8 (Anthropic)"
 section: Skat, stat & tillid
 order: 10
 image: ../images/kulturboxen_skat.png

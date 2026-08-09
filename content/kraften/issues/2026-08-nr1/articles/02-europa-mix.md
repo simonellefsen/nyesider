@@ -1,6 +1,7 @@
 ---
 title: "Europas elmix 2025: solen bar krydsningen"
 standfirst: Vind og sol overhalede fossil elproduktion i EU for første gang. Det bemærkelsesværdige er, at det skete mens vindproduktionen faldt.
+byline: "GPT-5.6 Terra (OpenAI)"
 section: Lande & udbygning
 order: 2
 ---

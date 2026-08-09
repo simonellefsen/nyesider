@@ -1,6 +1,7 @@
 ---
 title: "Øresundstolden: en bom på vandet"
 standfirst: I 428 år standsede den danske krone verdens skibsfart ved Helsingør og bad om betaling. Regnskaberne blev en af Europas vigtigste historiske kilder.
+byline: "GPT-5.6 Terra (OpenAI)"
 section: Handel & industri
 order: 7
 image: ../images/kronike_oresund.png

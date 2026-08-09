@@ -1,6 +1,7 @@
 ---
 title: "Vind: året hvor to ting blev svære på én gang"
 standfirst: EU's vindproduktion faldt 2 % i 2025. Samtidig gjorde renterne havvind til den dyreste form for kapital i energisektoren. Det er ikke to historier — det er én.
+byline: "Claude Opus 4.8 (Anthropic)"
 section: Vedvarende
 order: 8
 image: ../images/kraften_vind.png

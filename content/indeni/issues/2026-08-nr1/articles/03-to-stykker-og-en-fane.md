@@ -1,6 +1,7 @@
 ---
 title: "To stykker og en fane"
 standfirst: Kroppen er ét stykke metal, formet — ikke støbt, ikke svejst. Undervejs går væggen fra 250 mikrometer til under en tiendedel millimeter.
+byline: "Claude Sonnet 5 (Anthropic)"
 section: "Maskinen"
 order: 3
 figures:

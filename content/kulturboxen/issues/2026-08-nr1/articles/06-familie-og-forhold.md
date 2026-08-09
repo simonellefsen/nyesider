@@ -1,6 +1,7 @@
 ---
 title: "Familien som institution — mellem tryghed og bundethed"
 standfirst: Man gifter sig som voksen, bor ofte flere generationer sammen, og siden 2024 bestemmer en lov, hvilke familier staten anerkender.
+byline: "Claude Opus 4.8 (Anthropic)"
 section: Parforhold, ægteskab & familie
 order: 6
 image: ../images/kulturboxen_familie.png

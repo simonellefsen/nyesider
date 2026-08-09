@@ -1,6 +1,7 @@
 ---
 title: "Indien og Rusland: to tempoer"
 standfirst: Indien nåede sin 100. opsendelse i julen 2025 efter et halvt århundrede med tålmodighed. Rusland kæmper med sanktioner, tabte kunder og en rumstation, der er begyndt at lække igen.
+byline: "Claude Sonnet 5 (Anthropic)"
 section: Nationer & agenturer
 order: 6
 ---

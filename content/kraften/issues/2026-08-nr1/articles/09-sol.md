@@ -1,6 +1,7 @@
 ---
 title: "Sol: triumfen og andekurven"
 standfirst: Solen bar hele EU's grønne krydsning i 2025. Prisen er, at den producerer samtidig alle steder — og at aftenen begynder, præcis når den holder op.
+byline: "Gemini 3.1 Pro Preview (Google)"
 section: Vedvarende
 order: 9
 image: ../images/kraften_sol.png

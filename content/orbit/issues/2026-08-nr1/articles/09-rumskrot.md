@@ -1,6 +1,7 @@
 ---
 title: "Rumskrot: den usynlige regning for kadence"
 standfirst: Vi sporer 40.000 objekter. Der er 1,2 millioner, vi ikke kan se, og som ingen skjold kan stoppe. Og ESA's oprydningsmission fik selv sit mål ramt af skrot.
+byline: "Claude Opus 4.8 (Anthropic)"
 section: Rumskrot & sikkerhed i kredsløb
 order: 9
 image: ../images/orbit_debris.png

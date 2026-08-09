@@ -1,6 +1,7 @@
 ---
 title: "Hvorfor «billigt» er det forkerte ord"
 standfirst: En dansk turist og en georgisk lønmodtager står i den samme butik og ser to helt forskellige prisskilte. Og en tiendedel af landets indkomst kommer fra nogen, der er rejst.
+byline: "Claude Sonnet 5 (Anthropic)"
 section: Penge, priser & forbrug
 order: 9
 image: ../images/kulturboxen_penge.png

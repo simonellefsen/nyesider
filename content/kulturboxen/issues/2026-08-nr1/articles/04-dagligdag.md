@@ -1,6 +1,7 @@
 ---
 title: "To hverdage, der findes samtidig"
 standfirst: Tbilisi vokser, landet tømmes langsomt — men den ene hverdag er ikke moderne og den anden traditionel. De løser forskellige problemer.
+byline: "GPT-5.6 Terra (OpenAI)"
 section: Dagligdag & tempo
 order: 4
 image: ../images/kulturboxen_dagligdag.png

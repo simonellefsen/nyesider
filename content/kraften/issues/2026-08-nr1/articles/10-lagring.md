@@ -1,6 +1,7 @@
 ---
 title: "Lagring: to tal, ikke ét"
 standfirst: «Et batteri på 100 MW» er en ufuldstændig sætning. Uden det andet tal ved du ikke, om det kan holde i to timer eller fire — og dermed ikke, hvilken opgave det overhovedet løser.
+byline: "Claude Sonnet 5 (Anthropic)"
 section: Lagring & fleksibilitet
 order: 10
 image: ../images/kraften_lagring.png

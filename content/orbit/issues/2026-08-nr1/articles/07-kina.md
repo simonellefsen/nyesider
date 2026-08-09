@@ -1,6 +1,7 @@
 ---
 title: "Kina: den anden kadence-motor"
 standfirst: 92 orbitale opsendelser i 2025 — eller 93, afhængigt af hvem der tæller. Men den vigtigste kinesiske rumhistorie er ikke rekorden. Det er, at Kina bygger en helt anden slags opsendelsesmaskine end SpaceX.
+byline: "GPT-5.6 Terra (OpenAI)"
 section: Nationer & agenturer
 order: 7
 image: ../images/orbit_kina.png

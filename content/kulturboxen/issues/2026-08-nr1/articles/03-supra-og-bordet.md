@@ -1,6 +1,7 @@
 ---
 title: "Supra: når middagen er en institution"
 standfirst: Det georgiske festmåltid er ikke hygge med struktur. Det er struktur, der ligner hygge — og for en dansk gæst er forskellen afgørende.
+byline: "Gemini 3.1 Pro Preview (Google)"
 section: Spise & drikke
 order: 3
 image: ../images/kulturboxen_supra.png

@@ -1,6 +1,7 @@
 ---
 title: "Det usynlige lag"
 standfirst: Mellem drikkevaren og metallet sidder et lag polymer på få mikrometer. Det afgør, om dåsen overhovedet kan bruges — og det har netop skiftet kemi ved lov.
+byline: "Gemini 3.1 Pro Preview (Google)"
 section: "Brugen"
 order: 4
 ---

@@ -1,6 +1,7 @@
 ---
 title: "Pantens lange bane"
 standfirst: Automaten er begyndelsen på en logistisk kæde, ikke slutningen på historien. Og kredsløbet knækker sjældent i grøftekanten — det knækker stille.
+byline: "GPT-5.6 Terra (OpenAI)"
 section: "Kredsløbet"
 order: 5
 figures:

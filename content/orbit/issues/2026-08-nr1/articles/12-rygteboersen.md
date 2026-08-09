@@ -1,6 +1,7 @@
 ---
 title: Rygtebørsen
 standfirst: Fire ting der cirkulerer i rumbranchen denne sommer — og en temperaturmåling på hver. Bekræftet, kvalificeret gæt eller ren ønsketænkning.
+byline: "Claude Opus 4.8 (Anthropic)"
 section: Rygtebørsen
 order: 12
 ---

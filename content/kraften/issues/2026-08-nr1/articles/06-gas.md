@@ -1,6 +1,7 @@
 ---
 title: "Gas: det fossile bagstop, ingen kan undvære"
 standfirst: Gas er ikke svær at skære væk, fordi den leverer mest. Den er svær, fordi den løser præcis det problem, sol og vind selv skaber.
+byline: "Claude Sonnet 5 (Anthropic)"
 section: Fossilt
 order: 6
 image: ../images/kraften_gas.png

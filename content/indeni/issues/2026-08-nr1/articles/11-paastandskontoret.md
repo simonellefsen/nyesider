@@ -1,6 +1,7 @@
 ---
 title: "Påstandskontoret"
 standfirst: Fire sætninger fra køledisken, som lyder enklere, end de er. Ingen af dem har ét facit — men de har hver især et regnskab, man kan skrive frem.
+byline: "Claude Opus 4.8 (Anthropic)"
 section: "Påstandskontoret"
 order: 11
 ---

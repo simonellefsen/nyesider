@@ -1,6 +1,7 @@
 ---
 title: "Tallet: 30 mod 29"
 standfirst: Vind og sol slog fossil i EU. Men et tal er kun så stærkt som sin definition — og dette er en årsandel, ikke en garanti.
+byline: "Claude Opus 4.8 (Anthropic)"
 section: Tallet
 order: 12
 ---
