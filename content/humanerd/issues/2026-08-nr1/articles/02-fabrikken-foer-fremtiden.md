@@ -1,20 +1,63 @@
 ---
 title: "Fabrikken før fremtiden"
-standfirst: "Humanoider skal måles mod den robotvirkelighed, der allerede står ved samlebåndet."
-section: "Fabrikken"
+standfirst: Før man vurderer en humanoid i en fabrikshal, bør man vide, hvad den konkurrerer med. Konkurrenten har stået ved samlebåndet i årtier.
+byline: "Claude Opus 4.8 (Anthropic)"
+section: Fabrikken
 order: 2
+image: ../images/warehouse-human-robot.png
+imageCredit: "AI-genereret illustration (OpenAI ImageGen) — redaktionel, ikke dokumentation for et bestemt anlæg"
+imageSource: "https://openai.com/"
 ---
 
-Humanoiden kommer ikke ind i en tom fabrik. Den møder robotarme, transportbånd, kameraer, afskærmning, operatører og en fabrikschef, der allerede kender prisen på et stop. Det er derfor den etablerede industrirobot er en mere nyttig målestok end en flot demo.
+Konkurrenten er ikke ny. Den står skruet fast i gulvet, indhegnet i et bur, og den er blevet målt på de samme spørgsmål så længe, at industrien har glemt, hvor svære de er at besvare.
 
-International Federation of Robotics (IFR) opgør **542.076** nye industrirobotter installeret globalt i 2024 og en driftsbestand på **4.663.773** ved årets udgang.[^1] Installation er årets køb; driftsbestand er det udstyr, der stadig arbejder. Humanoiden skal efterhånden kunne besvare de samme spørgsmål: Hvor tit lykkes opgaven? Hvor længe kan den køre? Hvad koster en omstilling? Hvem tager over ved fejl?
+International Federation of Robotics (IFR) — brancheorganisationen, der fører den mest anvendte statistik på området — opgjorde i *World Robotics 2025*, at der blev installeret **542.000** industrirobotter globalt i 2024. Den samlede driftsbestand nåede **4.664.000** enheder, en stigning på 9 %.[^1]
 
-IFR's robotdensitet viser, hvor forskellige produktionsmiljøerne allerede er. I 2024 lå Sydkorea på **1.220** industrirobotter per 10.000 fabriksansatte, Kina på **567**, Tyskland på **449** og Japan på **446**.[^1] Det er ikke en rangliste over "bedste robot". Det er en måling af, hvor tæt automatisering allerede er flettet ind i fremstillingen.
+De to tal måler ikke det samme, og forskellen er vigtig.
 
-En fast robotarm vinder ofte på præcision og gentagelse. En autonom mobil robot — ofte kaldet AMR — vinder på transport mellem stationer. Humanoiden har en særlig sag, når rummet er bygget til mennesker og opgaven skifter for ofte til en specialmaskine. Men formfaktoren er ikke et argument i sig selv.
+**Installationer** er årets nytilkomne enheder: det tempo, virksomheder investerer i. **Driftsbestanden** er summen af alt, der stadig kører, uanset hvornår det blev sat op.
 
-Det er også værd at se på sektorerne. Elektronik var med **128.899** installationer den største robotkunde globalt i 2024, mens bilindustrien installerede **126.088**.[^1] Det er to miljøer med meget forskellige emner, tempi og sikkerhedsbehov. "Fabrik" er ikke én test.
+Det første er en måling af købelyst i ét år. Det andet er en måling af, hvad virksomheder faktisk har valgt at *beholde*. En robot kan installeres med stor fanfare og alligevel forsvinde ud af bestanden, hvis den ikke tjener sig hjem.
 
-Det første HumaNerd-spørgsmål er derfor ikke, om robotten kan gå. Det er, om den forbedrer en konkret arbejdscelle uden at gøre drift, sikkerhed eller vedligeholdelse sværere.
+Driftsbestanden er derfor den strengere prøve.
 
-[^1]: [International Federation of Robotics: World Robotics 2025](https://ifr.org/worldrobotics/report-2025) — installationer, driftsbestand, sektortal og robotdensitet for 2024.
+Geografisk er billedet skævt. Kina alene stod for **295.000** installationer i 2024 — 54 % af verdensmarkedet.[^1] IFR forventer omkring **575.000** installationer i 2025 og over 700.000 i 2028.[^2]
+
+Men en prognose om vækst siger intet om, hvilken slags robot der vokser. Langt hovedparten af de 542.000 er klassiske industrirobotter: arme i celler, bygget til én opgave.
+
+### Hvad buret kan — og ikke kan
+
+En industrirobot i et bur løser en anden opgave end en humanoid.
+
+Den er hurtigere, mere præcis og billigere pr. cyklus. En svejsecelle eller en pick-and-place-arm gentager den samme bevægelse millioner af gange med en nøjagtighed, ingen humanoid i dag er i nærheden af.
+
+Til gengæld kan den kun det ene. Cellen er bygget om den, gulvet er tilpasset den, og ændrer opgaven sig, skal cellen bygges om.
+
+Humanoiden lover noget andet: fleksibilitet i rum, der allerede er bygget til mennesker. Døre, vogne, hylder, arbejdsstationer i menneskehøjde.
+
+Det er en reel forskel, ikke bare marketing. En fabrik, der skifter produkt hver måned, betaler dyrt for at ombygge celler. En robot, der kan gå hen til en ny station og bruge det værktøj, mennesker allerede bruger, ville i princippet spare den omkostning.
+
+Løftet er ægte. Spørgsmålet er, om det er indfriet.
+
+### De rigtige spørgsmål er de gamle
+
+De spørgsmål, industrirobotter er blevet målt på i årtier, er stadig de rigtige, når man ser på en humanoid:
+
+- **Oppetid.** Hvor mange timer i et arbejdsskift kører den uden at stoppe?
+- **Fejlrater.** Hvor ofte griber den forkert, taber eller kræver indgreb?
+- **Omstillingstid.** Hvor længe tager det at sætte den til en ny opgave?
+- **Sikkerhedsafstand.** Hvor tæt må et menneske være, og under hvilke betingelser?
+- **Menneskelig overvågning.** Hvor mange operatører kræves der bag kulisserne?
+
+Det sidste punkt forsvinder ofte i demonstrationerne. En humanoid, der løfter en kasse på en scene, kan være fjernstyret, delvist teleopereret eller kørt af et hold ingeniører uden for kameraets synsfelt.
+
+Ingen af delene er svindel — det er normalt for en prototype. Men det svarer ikke på nogen af spørgsmålene ovenfor.
+
+En demonstration af en robot, der løfter en kasse, fortæller, at robotten kan løfte en kasse én gang, under kendte forhold, med den opsætning holdet valgte.
+
+Den fortæller ikke, om robotten kan gøre det 2.000 gange i træk, i en varm hal, ved siden af mennesker, uden at en tekniker skal gribe ind.
+
+Derfor kårer denne artikel ingen vinder. Buret og humanoiden løser forskellige opgaver og bør måles hver for sig — men med samme lineal. Og den lineal står allerede ved samlebåndet.
+
+[^1]: [Global robot demand in factories doubles over 10 years](https://ifr.org/ifr-press-releases/news/global-robot-demand-in-factories-doubles-over-10-years), International Federation of Robotics, 25. september 2025 — pressemeddelelsen om *World Robotics 2025*: 542.000 installerede industrirobotter i 2024, driftsbestand 4.664.000 (+9 %), Kina 295.000 svarende til 54 % af verdensmarkedet, og fordelingen Asien 74 %, Europa 16 %, Amerika 9 %.
+[^2]: [IFR: industrial robot deployments have doubled in 10 years](https://www.therobotreport.com/ifr-industrial-robot-deployments-have-doubled-in-10-years/), The Robot Report — uafhængig gennemgang af de samme tal, herunder prognosen på ca. 575.000 installationer i 2025 og over 700.000 i 2028. Rapportens egen oversigt findes hos [IFR](https://ifr.org/worldrobotics/report-2025).

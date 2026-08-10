@@ -1,22 +1,65 @@
 ---
 title: "Kinas testbane"
-standfirst: "Kina er både det største fabriksrobotmarked og en intens scene for nye humanoider."
-section: "Verdenskortet"
+standfirst: Kina køber mere end halvdelen af verdens industrirobotter. Men et marked er ikke det samme som en teknologi — og det mest interessante tal er ikke 295.000.
+byline: "GPT-5.6 Terra (OpenAI)"
+section: Verdenskortet
 order: 4
-image: "images/china-robot-ecosystem.png"
-imageCredit: "AI-genereret redaktionel illustration (OpenAI ImageGen, 3D-industriel stil)"
+image: ../images/china-robot-ecosystem.png
+imageCredit: "AI-genereret illustration (OpenAI ImageGen) — redaktionel, ikke dokumentation for et bestemt anlæg"
 imageSource: "https://openai.com/"
 ---
 
-*Illustrationen viser en mulig fabriksscene — ikke en virkelig kinesisk fabrik eller bestemt producent.*
+Start ved gulvet, ikke ved overskrifterne.
 
-Kinas vigtigste robotfordel er ikke, at alle nye maskiner kommer derfra. Det er volumen. IFR angiver, at Kina stod for **43,5 %** af verdens operative industrirobotter ved udgangen af 2024, og at landet installerede **295.000** nye industrirobotter samme år.[^1] Det giver producenter og fabrikker et stort fælles øvelsesrum for integration, service og leverandørkæder.
+En industrirobot bliver købt, fordi en fabrik skal svejse, palletere, samle, lakere eller flytte emner med en bestemt takt og gentagelsesnøjagtighed. Det er den slags maskiner, International Federation of Robotics (IFR) tæller i sin årlige statistik.
 
-På humanoidscenen er UBTECH, Unitree og flere nyere selskaber synlige. Det er fristende at lave en national duel af hver lancering. Men markedsstatistik og produktstatus er forskellige ting. IFR tæller standardiseret industrirobotik; en producent beskriver sin egen robot, sine egne partnere og sit eget testforløb. Begge slags kilder kan bruges — bare ikke som om de beviser det samme.
+Og på den målestok er Kina ikke bare et stort robotmarked. Det er det afgørende.
 
-UBTECHs Walker S er for eksempel målrettet industri, med virksomhedens egne omtaler af bilproduktion og feltvalidering. Det er mere konkret end en salgsfilm i et studie, men det er stadig ikke en offentlig tabel over timer, fejl eller arbejdsmiljø.[^2] Kinas skala gør de spørgsmål vigtigere, ikke mindre vigtige.
+IFR opgjorde **295.000** nyinstallerede industrirobotter i Kina i 2024 — en stigning på 7 % og landets højeste nogensinde.[^1] Kina stod dermed for **54 %** af alle nye installationer i verden. Mere end resten af kloden tilsammen.
 
-Landets robotdensitet på 567 per 10.000 fabriksansatte fortæller, at mange produktionsmiljøer allerede er automatiserede. Den fortæller ikke, om den næste opgave kræver en humanoid, en arm på hjul eller en bedre griber. Den beslutning begynder ved emnet og processen.
+### Hvad tallet måler — og hvad det ikke gør
 
-[^1]: [International Federation of Robotics: World Robotics 2025](https://ifr.org/worldrobotics/report-2025) — Kina i den globale driftsbestand og installationer i 2024.
-[^2]: [UBTECH: Walker S application scenarios](https://www.ubtrobot.com/en/humanoid/application-scenarios) — virksomhedens egne eksempler på industrielt brug.
+Tallet siger noget om investering og industristruktur. Kina har en enorm fremstillingssektor: elektronik, biler, metalforarbejdning, batterier, forbrugsgoder. Når fabriksvolumen, lønomkostninger, leverandørkæder og automatiseringsinvesteringer samles i ét marked, bliver robotindkøbene tilsvarende store.
+
+Det gør ikke hver kinesisk robot mere præcis, mere driftssikker eller lettere at programmere end en konkurrent fra Japan, Europa, Sydkorea eller USA.
+
+Skelnen er vigtig, fordi installationstal ofte bruges som genvej til påstande om teknologisk overlegenhed. Men en installation er en leverance til en fabrik — ikke en uafhængig prøve af armens mekanik, sikkerhedssystem, software eller oppetid. Den fortæller heller ikke, om anlægget senere bliver udvidet, omprogrammeret eller står stille ved linjeskift.
+
+### Mere end to millioner i drift
+
+Driftsbestanden i Kina passerede **2 millioner** industrirobotter i 2024.[^1]
+
+Det er et andet mål end årets salg. Nyinstallationer viser tempoet lige nu; driftsbestanden viser, hvor meget automatiseret produktionsudstyr der er bygget op over tid.
+
+Globalt er tyngdepunktet tydeligt: Asien modtog **74 %** af verdens nye installationer i 2024, Europa **16 %**, Amerika **9 %**.[^1]
+
+Det betyder ikke, at europæiske og amerikanske fabrikker er uden robotter — modne industrilande har store installerede bestande. Men når det gælder nye køb, foretages langt størstedelen i Asien.
+
+Og Asien er ikke én blok. Japan og Sydkorea er både store markeder og store producenter; Indien og flere sydøstasiatiske økonomier øger automatiseringen. Robotter købes til forskellige industrier, med forskellige lønniveauer, kvalitetskrav og eksportmarkeder.
+
+### Det mere interessante tal er 57
+
+Det vigtigste kinesiske tal er ikke 295.000.
+
+Ifølge IFR tog kinesiske robotproducenter **57 %** af deres eget hjemmemarked i 2024. For omkring et årti siden var andelen cirka 28 %.[^1] For første gang leverede hjemlige producenter altså mere end halvdelen af de industrirobotter, der blev solgt på verdens største nationale robotmarked.
+
+Her skal formuleringen være præcis. Det er en markedsandel på ét marked. Det er ikke et bevis for, at kinesiske producenter fører i alle robotkategorier eller på alle tekniske parametre.
+
+Industrirobotter spænder fra relativt standardiserede håndteringsarme til anlæg for præcisionssvejsning, halvlederproduktion og højhastighedsmontering. En producent kan være stærk i én kategori og svag i en anden. Og en fabriks reelle ydelse afhænger ofte af **integratoren** — virksomheden, der bygger robot, griber, kamera, transportbånd, afskærmning og produktionssoftware sammen til ét anlæg.
+
+Alligevel er skiftet vigtigt. En større hjemlig markedsandel giver flere installationer at lære af, flere kunder at servicere og større serier at producere komponenter til. Det kan skærpe konkurrencen på pris, leveringstid og produktudvikling.
+
+Men det skal undersøges robot for robot og anlæg for anlæg. Ikke udledes af nationalitet.
+
+### Humanoiderne er ikke med i regnestykket
+
+Kinesiske humanoidvirksomheder får stor opmærksomhed med videoer af tobenet gang, kasseflytning og fabriksdemonstrationer.
+
+De indgår ikke i tallene ovenfor. IFR's 295.000 handler om industrirobotter efter organisationens egen statistiske afgrænsning — ikke om en optælling af humanoide prototyper, demonstrationsmaskiner eller pilotprojekter.[^2]
+
+Når et humanoidselskab oplyser, at det har produceret, reserveret eller planlægger et bestemt antal enheder, er det **selskabets eget tal**. Det kan være relevant. Det kan bare ikke uden videre lægges ved siden af IFR's installationsstatistik.
+
+Den afgørende statusrapport er stadig den mindre dramatiske: hvilken opgave udfører robotten, hos hvilken operatør, hvor længe — og med hvilken oppetid, sikkerhed og menneskelig overvågning?
+
+[^1]: [Global robot demand in factories doubles over 10 years](https://ifr.org/ifr-press-releases/news/global-robot-demand-in-factories-doubles-over-10-years), International Federation of Robotics, 25. september 2025 — pressemeddelelsen om *World Robotics 2025*. Herfra Kinas 295.000 installationer (+7 %), andelen på 54 % af verdensmarkedet, driftsbestanden på over 2 millioner, de kinesiske producenters hjemmemarkedsandel på 57 % mod ca. 28 % for et årti siden, samt fordelingen Asien 74 %, Europa 16 %, Amerika 9 %.
+[^2]: [World Robotics](https://ifr.org/worldrobotics/), International Federation of Robotics — rapportserien og dens statistiske afgrænsning af, hvad der tælles som en industrirobot.

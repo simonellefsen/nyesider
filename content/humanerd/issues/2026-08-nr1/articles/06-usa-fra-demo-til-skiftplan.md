@@ -1,23 +1,57 @@
 ---
 title: "USA: fra demo til skiftplan"
-standfirst: "Amerikanske humanoider møder et marked med færre robotter end Kina — men store logistik- og bilkunder."
-section: "Verdenskortet"
+standfirst: To robothistorier fortælles samtidig i det samme land. Begge er sande. De er bare ikke lige langt fremme.
+byline: "Claude Sonnet 5 (Anthropic)"
+section: Verdenskortet
 order: 6
-image: "images/warehouse-human-robot.png"
-imageCredit: "AI-genereret redaktionel illustration (OpenAI ImageGen, tekstureret editorial-stil)"
-imageSource: "https://openai.com/"
 ---
 
-*Illustrationen viser en generisk lageropgave — ikke en bestemt Digit-, Figure- eller kundedeployment.*
+Den ene historie handler om fabrikshaller, hvor industrirobotter svejser, samler og flytter paller år efter år, dokumenteret i statistik.
 
-USA er en god påmindelse om, at en stærk robotfortælling og en stor robotbestand ikke er samme ting. IFR opgjorde **393.700** operative industrirobotter i amerikanske fabrikker ved udgangen af 2024 og **34.200** nye installationer det år. Det var fem gange færre operative robotter end Kina, ifølge samme IFR-notat.[^1]
+Den anden handler om humanoider, der optræder i demonstrationsvideoer og pressemeddelelser, længe før de er i noget, man kan kalde drift.
 
-Alligevel er USA centralt for humanoider, fordi der findes store, synlige kunder i logistik og bilproduktion. Agility Robotics skriver, at Digit har akkumuleret over **65.000** driftstimer på tværs af ni kundelokationer. Det er en interessant virksomhedsmåling: den siger noget om tidsrum og antal steder, men er ikke en uafhængig sammenligning af kvalitet eller økonomi.[^2]
+Begge historier er sande. Pointen er, at de ikke er lige langt fremme.
 
-I Canada har Agility annonceret en kommerciel aftale med Toyota Motor Manufacturing Canada. I USA har Figure offentliggjort sit BMW-forløb. Begge peger på den rigtige overgang: ikke "kan den gå?", men "kan den indgå i en afgrænset materialestrøm?".[^3]
+### Industrirobotterne: modent, men ikke ekstremt
 
-Den amerikanske fabriksrobot er desuden ikke kun et amerikansk produkt. IFR bemærker, at meget af den amerikanske robothardware importeres fra Japan og Europa.[^1] Robotøkosystemet er globalt: sensorer, gear, software, integratorer og fabrikker krydser grænser længe før robotten kører sit første skift.
+International Federation of Robotics (IFR), branchens mest citerede statistikkilde, opgjorde **34.200** nyinstallerede industrirobotter i USA i 2024.[^1] Det gør USA til verdens tredjestørste marked for nye installationer efter Kina og Japan. Hele Amerika — nord og syd — nåede **50.100** enheder.
 
-[^1]: [International Federation of Robotics: U.S. lags China in factory robot deployment](https://ifr.org/downloads/press_docs/2025-09-25-IFR_press_release_Americas_in_English.pdf) — amerikansk driftsbestand, installationer og sammenligning med Kina.
-[^2]: [Agility Robotics: deployment commitments](https://www.agilityrobotics.com/content/agility-robotics-to-go-public-through-merger-with-churchill-capital-corp-xi) — selskabets egne driftstimer og kundelokationer.
-[^3]: [Agility Robotics: Toyota Motor Manufacturing Canada](https://www.agilityrobotics.com/content/agility-robotics-announces-commercial-agreement-with-toyota-motor-manufacturing-canada) — annonceret kommerciel aftale.
+Robottætheden, altså antallet af robotter i drift målt pr. 10.000 ansatte, lå på **307** i USA mod et globalt gennemsnit på **132**.[^2]
+
+Det er solidt over middel. Men sammenlignet med Sydkoreas 1.220 er USA langt fra spidsen.
+
+Det amerikanske industrimarked er altså modent, veletableret og voksende. Det er bare ikke det sted i verden, hvor automatiseringen er presset tættest ind i produktionslinjerne.
+
+### Humanoiderne: kapitalens tæthed
+
+Stort set alle de humanoidprogrammer, verden taler om, har adresse i USA. Figure AI, Agility Robotics, Apptronik, Boston Dynamics og Tesla er alle amerikanske selskaber, og de har tilsammen rejst milliardbeløb i venturekapital og strategiske investeringer.
+
+Det er beløb, selskaberne selv har oplyst — ikke tal fra en uafhængig statistikkilde.
+
+Skelnen er vigtig. En velfinansieret prototype får ofte mere opmærksomhed end en industrirobot, der stilfærdigt er blevet installeret på en fabrik i Ohio. Finansiering er i sig selv en faktor i, hvad verden lægger mærke til. Den er ikke et bevis på, at teknologien er klar til bredt arbejde blandt mennesker.
+
+Der findes pilotforsøg, hvor humanoider prøver opgaver i logistikcentre og bilfabrikker — se [Humanoiden](/humanerd/2026-08-nr1/naar-robotten-faar-ben). Men ingen af selskaberne har offentliggjort tal, der ligner IFR's installationsstatistik: volumen, geografi og driftstimer over tid.
+
+### Amazon: robotter i faktisk drift — men ikke humanoider
+
+Vil man se robotter i stor skala og reel drift i USA, er det bedste eksempel ikke en humanoid.
+
+Amazon meddelte i juli 2025, at koncernen havde sat sin **millionte** robot i drift, tretten år efter opkøbet af Kiva Systems i 2012.[^3]
+
+Det er mobile robotter, der flytter reoler og varer hen til mennesker, robotarme og sorteringsanlæg. Ikke humanoider med arme og ben.
+
+Og her skal man passe på med et regnestykke, der ligger lige for. Amazons million robotter kan ikke sættes op mod IFR's globale driftsbestand på 4.664.000 industrirobotter, som var det en femtedel af verdens robotter. De to tal tæller **forskellige kategorier**: IFR's statistik dækker industrirobotter efter organisationens egen afgrænsning, mens hovedparten af Amazons flåde er mobile lagerrobotter. Man kan ikke dividere det ene med det andet.
+
+Amazons tal er desuden selskabets eget — ikke en uafhængig måling af, hvor meget af arbejdet i et lager der faktisk udføres af maskiner frem for af mennesker i samspil med dem.
+
+### Spændingen er pointen
+
+USA er altså modent, men ikke tættest automatiseret, på industrirobotsiden. Og har den tætteste koncentration af kapital og opmærksomhed på humanoidsiden — uden at det endnu er omsat til den slags installationstal, IFR kan sætte i en tabel.
+
+De to historier lever side om side i det samme land.
+
+Forveksler man dem, ender man med at tro, at en imponerende demonstration er det samme som et skift på et fabriksgulv.
+
+[^1]: [Global robot demand in factories doubles over 10 years](https://ifr.org/ifr-press-releases/news/global-robot-demand-in-factories-doubles-over-10-years), International Federation of Robotics, 25. september 2025 — USA 34.200 installationer i 2024, Amerika i alt 50.100, global driftsbestand 4.664.000.
+[^2]: [Robot Density Surges in Europe, Asia, and Americas](https://ifr.org/ifr-press-releases/news/robot-density-surges-in-europe-asia-and-americas), International Federation of Robotics, 8. april 2026 — robottæthed for dataåret 2024: USA 307 pr. 10.000 ansatte, globalt gennemsnit 132, Sydkorea 1.220, Nordamerika 204.
+[^3]: [Amazon deploys its one millionth robot, releases generative AI model](https://techcrunch.com/2025/07/01/amazon-deploys-its-one-millionth-robot-releases-generative-ai-model), TechCrunch, 1. juli 2025. Amazons egen præsentation af flåden findes hos [About Amazon](https://www.aboutamazon.com/news/operations/amazon-robotics-robots-fulfillment-center).

@@ -1,23 +1,33 @@
-## Fabrikken: Den rigtige målestok står allerede ved samlebåndet
+# Fabrikken: Den målestok, der allerede står ved samlebåndet
 
-Opgaven kommer før kroppen: Kan en maskine hente en komponent, placere den korrekt, håndtere variationer, undgå kollisioner og gøre det igen gennem et helt skift? Det er derfor, den etablerede industrirobot er den mest relevante målestok, når en humanoid vises frem i en fabrikshal.
+Før man vurderer en humanoid robot i en fabrikshal, bør man vide, hvad den skal konkurrere med. Og konkurrenten er ikke ny. Den har stået ved samlebåndet i årtier, skruet fast i gulvet, indhegnet i et bur, og den er blevet målt på de samme spørgsmål så længe, at industrien har glemt, hvor svære de er at besvare.
 
-Humanoider lover fleksibilitet i miljøer, der oprindeligt er bygget til mennesker: døre, vogne, hylder, trapper og arbejdsstationer i menneskehøjde. Men en overbevisende demonstration af en robot, der løfter en kasse, siger endnu ikke meget om oppetid, fejlrater, sikkerhedshegn, omstillingstid eller behovet for menneskelig overvågning. De spørgsmål har industrirobotter været målt på i årtier.
+International Federation of Robotics (IFR) opgjorde i *World Robotics 2025*, at der blev installeret 542.000 industrirobotter globalt i 2024.[^1] Samtidig nåede den samlede driftsbestand — de robotter, der stadig kører — op på 4.664.000 enheder, en stigning på 9 %.[^1]
 
-International Federation of Robotics (IFR) opgør, at der globalt blev installeret 542.000 industrirobotter i 2024. Det er det næsthøjeste niveau nogensinde, selv om markedet faldt 3 % fra rekordåret 2023. Ved udgangen af 2024 var den globale driftsbestand 4,664 millioner industrirobotter.[^1] Installationer er årets nytilkomne robotter; driftsbestanden er de robotter, der fortsat er i brug. Begge tal er vigtige: Det ene viser investeringstempoet, det andet viser, hvor meget udstyr virksomheder faktisk har valgt at holde kørende.
+De to tal måler ikke det samme, og forskellen er vigtig. **Installationer** er årets nytilkomne enheder: det tempo, virksomheder investerer i. **Driftsbestanden** er summen af alt, der stadig er i drift, uanset hvornår det blev sat op. Det første tal er en måling af købelyst i et enkelt år. Det andet er en måling af, hvad virksomheder faktisk har valgt at beholde — hvad der har vist sig at være pengene værd på lang sigt. En robot kan blive installeret med stor fanfare og alligevel forsvinde ud af bestanden, hvis den ikke tjener sig hjem. Driftsbestanden er derfor den strengere prøve.
 
-Tæthed gør sammenligningen mere konkret. IFR måler robotdensitet som antal installerede industrirobotter pr. 10.000 ansatte i fremstillingsindustrien. I 2024 lå Sydkorea på 1.220 robotter pr. 10.000 ansatte, Kina på 567, Tyskland på 449 og Japan på 397.[^2] Tallene forklarer ikke, hvem der har den bedste robotteknologi. De viser derimod, hvor dybt automatisering allerede er integreret i produktionen, og hvor stort markedet for installation, service, sikkerhed og programmering er.
+Geografisk er billedet skævt. Kina alene stod for 295.000 installationer i 2024 — 54 % af verdensmarkedet.[^1] IFR forventer omkring 575.000 installationer i 2025 og over 700.000 i 2028.[^1] Men prognoser om vækst siger intet om, hvilken type robot der vokser. Langt hovedparten af de 542.000 er klassiske industrirobotter: robotarme i celler, bygget til én opgave.
 
-Det er i den virkelighed, humanoiden skal vurderes. En traditionel robotarm kan være boltet fast, afskærmet og optimeret til én bevægelse. Den er ikke menneskelignende, men den kan flytte, svejse, skrue eller palletere med høj gentagelsesnøjagtighed. En mobil robot kan transportere varer mellem stationer uden at få ben. Og specialbyggede gribere løser ofte en opgave bedre end en hånd med fem fingre.
+## Hvad buret kan — og ikke kan
 
-Det gør ikke humanoiden overflødig. Den kan blive relevant, hvor fabrikken er svær eller dyr at bygge om, og hvor opgaverne skifter for ofte til klassisk automatisering. Men den skal dokumentere mere end gang, balance og greb. Den skal vise, hvilken opgave den løser, på hvilken fabrik, med hvilken hastighed, over hvor lang tid – og hvad der sker, når emnet ligger skævt, lyset ændrer sig, eller noget går galt.
+Her begynder det, artiklen egentlig handler om. En industrirobot i et bur løser en anden opgave end en humanoid. Den er hurtigere, mere præcis og billigere pr. cyklus. En svejsecelle eller en pick-and-place-arm kan gentage den samme bevægelse millioner af gange med en nøjagtighed, ingen humanoid i dag er i nærheden af. Til gengæld kan den kun det ene. Cellen er bygget om den, gulvet er tilpasset den, og hvis opgaven ændrer sig, skal cellen ombygges.
 
-Begrebet fysisk kunstig intelligens handler netop om denne kæde: Robotten skal sanse verden, fortolke den, planlægge en handling, bevæge sig præcist og stoppe sikkert. En sprogmodel kan beskrive en arbejdsopgave. En robot i drift skal gennemføre den tusindvis af gange.
+Humanoiden lover noget andet: fleksibilitet i rum, der allerede er bygget til mennesker. Døre, vogne, hylder, arbejdsstationer i menneskehøjde. Det er en reel forskel, ikke bare marketing. En fabrik, der skifter produkt hver måned, betaler dyrt for at ombygge celler; en robot, der kan gå hen til en ny station og bruge det værktøj, mennesker allerede bruger, ville i princippet spare den omkostning. Løftet er ægte. Spørgsmålet er, om det er indfriet.
 
-Industrirobotten er derfor ikke humanoidens modsætning. Den er dens prøvebane – og den nøgterne standard, som store løfter skal måles imod.[^3]
+## De rigtige spørgsmål er de gamle
 
-[^1]: International Federation of Robotics, “[Global robot demand in factories doubles over 10 years](https://ifr.org/ifr-press-releases/news/global-robot-demand-in-factories-doubles-over-10-years)”.
+Og her er pointen: de spørgsmål, industrirobotter er blevet målt på i årtier, er stadig de rigtige, når man ser på en humanoid.
 
-[^2]: International Federation of Robotics, “[World Robotics](https://ifr.org/worldrobotics/)”, statistik om robotdensitet i fremstillingsindustrien.
+- **Oppetid.** Hvor mange timer i et arbejdsskift kører den uden at stoppe?
+- **Fejlrater.** Hvor ofte griber den forkert, taber, eller kræver indgreb?
+- **Omstillingstid.** Hvor længe tager det at sætte den til en ny opgave?
+- **Sikkerhedsafstand.** Hvor tæt må et menneske være, og under hvilke betingelser?
+- **Menneskelig overvågning.** Hvor mange operatører kræves der bag kulisserne?
 
-[^3]: International Federation of Robotics, “[Robot density nearly doubles globally](https://ifr.org/ifr-press-releases/news/robot-density-nearly-doubles-globally)”, om målemetoden robotter pr. 10.000 ansatte.
+Det sidste punkt er værd at fremhæve, fordi det ofte forsvinder i demoerne. En humanoid, der løfter en kasse på en scene, kan være fjernstyret, delvist teleopereret eller kørt af et hold ingeniører uden for kameraets synsfelt. Ingen af disse ting er svindel — det er normalt for en prototype — men de svarer ikke på nogen af spørgsmålene ovenfor.
+
+En demonstration af en robot, der løfter en kasse, fortæller os, at robotten kan løfte en kasse én gang, under kendte forhold, med den opsætning, holdet valgte. Den fortæller os ikke, om robotten kan gøre det 2.000 gange i træk, i en varm hal, ved siden af mennesker, uden at en tekniker skal gribe ind.
+
+Det er derfor, denne artikel ikke kårer en vinder. Buret og humanoiden løser forskellige opgaver, og de bør måles hver for sig. Men de skal måles med samme lineal — og den lineal står allerede ved samlebåndet.
+
+[^1]: International Federation of Robotics (IFR), *World Robotics 2025* (industrirobotter). Tal for installationer 2024, global driftsbestand, Kinas andel samt prognoser. Se IFR's pressemateriale og rapportoversigt på ifr.org.

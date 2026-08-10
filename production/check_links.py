@@ -158,9 +158,15 @@ def main() -> int:
     broken, blocked = {}, {}
     for u, r in results.items():
         st, note = r["status"], r.get("note", "")
-        if st == 200 or "skipped" in note:
+        # Any 2xx is a success, not just 200. IEEE Xplore answers 202 as part of
+        # its bot mitigation, and reporting a live page as dead is exactly the
+        # kind of false alarm that trains people to stop reading the output.
+        if (st is not None and 200 <= st < 300) or "skipped" in note:
             continue
-        (blocked if st in SOFT else broken)[u] = r
+        # A 5xx is the origin having a bad minute, not a missing page — the
+        # fetch helper above already says so and retries. Calling it DEAD sends
+        # the editor to re-source a URL that is fine an hour later.
+        (blocked if (st in SOFT or (st is not None and st >= 500)) else broken)[u] = r
 
     if args.json:
         print(json.dumps({
@@ -176,14 +182,14 @@ def main() -> int:
             if r["note"]:
                 print(f"         {r['note']}")
         if blocked:
-            print(f"\n{len(blocked)} link(s) refused an automated request "
-                  f"(403/406/429) — usually fine in a browser, verify by hand "
-                  f"if you doubt one:")
+            print(f"\n{len(blocked)} link(s) did not answer an automated request "
+                  f"(403/406/429 bot-blocking, or a 5xx server hiccup) — usually "
+                  f"fine in a browser, verify by hand if you doubt one:")
             for u in sorted(blocked):
                 print(f"  [{blocked[u]['status']}] {u}")
         cached = len(links) - len(todo)
         print(f"\n{len(links)} link(s) checked ({cached} from cache), "
-              f"{len(broken)} dead, {len(blocked)} bot-blocked.")
+              f"{len(broken)} dead, {len(blocked)} unverifiable.")
 
     return 1 if broken else 0
 

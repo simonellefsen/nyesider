@@ -4,8 +4,8 @@
   "title": "HumaNerd nr. 1 · August 2026",
   "issueTheme": "Robotter på arbejde",
   "published": "2026-08-01",
-  "status": "draft",
-  "pdf": "HUMANERD_nr1_august2026.pdf",
+  "status": "published",
+  "pdf": null,
   "cover": "images/humanerd_cover.png",
   "coverCredit": "AI-genereret forside (OpenAI ImageGen) — redaktionel illustration af humanoid, robotarm og fabriksarbejde",
   "coverSource": "https://openai.com/",
@@ -17,7 +17,7 @@
     "images/warehouse-human-robot.png",
     "images/home-robot-vacuum.png"
   ],
-  "productionCostUSD": 0.0006,
+  "productionCostUSD": 0.4248,
   "imageCredits": "Forside og tre artikelillustrationer er genereret med OpenAI ImageGen; de er redaktionelle illustrationer, ikke dokumentation for bestemte produkter eller anlæg. To forklarende SVG-diagrammer er egenproduktion. Ingen logoer, mærker eller tredjepartsfotos — se images/SOURCES.md.",
   "backCoverPromise": "Næste gang: Robotten der kan se — kameraer, kraftsensorer og den ubehagelige virkelighed bag et godt greb.",
   "articles": [
@@ -27,7 +27,7 @@
       "order": 1,
       "title": "Først: hvad skal den gøre?",
       "section": "Leder",
-      "standfirst": "En robotkrop er interessant. En gennemført arbejdsopgave er interessant på en anden måde."
+      "standfirst": "Velkommen til HumaNerd — magasinet om robotter, der skal arbejde blandt mennesker. Vi begynder med opgaven, ikke med kroppen."
     },
     {
       "slug": "fabrikken-foer-fremtiden",
@@ -35,15 +35,18 @@
       "order": 2,
       "title": "Fabrikken før fremtiden",
       "section": "Fabrikken",
-      "standfirst": "Humanoider skal måles mod den robotvirkelighed, der allerede står ved samlebåndet."
+      "byline": "Claude Opus 4.8 (Anthropic)",
+      "standfirst": "Før man vurderer en humanoid i en fabrikshal, bør man vide, hvad den konkurrerer med. Konkurrenten har stået ved samlebåndet i årtier.",
+      "image": "../images/warehouse-human-robot.png"
     },
     {
       "slug": "naar-robotten-faar-ben",
       "file": "articles/03-naar-robotten-faar-ben.md",
       "order": 3,
-      "title": "Når robotten får ben",
+      "title": "Sådan læser du en humanoid-annoncering",
       "section": "Humanoiden",
-      "standfirst": "En annonce, en validering og et skift i drift er tre meget forskellige ting."
+      "byline": "Claude Sonnet 5 (Anthropic)",
+      "standfirst": "Det rigtige spørgsmål er ikke om robotten virker. Det er hvor længe, hvor meget — og hvem der betaler."
     },
     {
       "slug": "kinas-testbane",
@@ -51,7 +54,9 @@
       "order": 4,
       "title": "Kinas testbane",
       "section": "Verdenskortet",
-      "standfirst": "Kina er både det største fabriksrobotmarked og en intens scene for nye humanoider."
+      "byline": "GPT-5.6 Terra (OpenAI)",
+      "standfirst": "Kina køber mere end halvdelen af verdens industrirobotter. Men et marked er ikke det samme som en teknologi — og det mest interessante tal er ikke 295.000.",
+      "image": "../images/china-robot-ecosystem.png"
     },
     {
       "slug": "japan-og-sydkorea",
@@ -59,7 +64,8 @@
       "order": 5,
       "title": "Japan og Sydkorea: den dybe bund",
       "section": "Verdenskortet",
-      "standfirst": "Her er produktionen allerede fuld af robotter. Det er den baggrund, nye ben skal stå på."
+      "byline": "Gemini 3.1 Pro Preview (Google)",
+      "standfirst": "To lande har automatiseret ekstremt dybt — og måler deres succes på hver sin vægt. Forskellen mellem antal og tæthed er hele pointen."
     },
     {
       "slug": "usa-fra-demo-til-skiftplan",
@@ -67,7 +73,8 @@
       "order": 6,
       "title": "USA: fra demo til skiftplan",
       "section": "Verdenskortet",
-      "standfirst": "Amerikanske humanoider møder et marked med færre robotter end Kina — men store logistik- og bilkunder."
+      "byline": "Claude Sonnet 5 (Anthropic)",
+      "standfirst": "To robothistorier fortælles samtidig i det samme land. Begge er sande. De er bare ikke lige langt fremme."
     },
     {
       "slug": "europa-koblinger-greb-og-sikkerhed",
@@ -75,7 +82,8 @@
       "order": 7,
       "title": "Europa: koblinger, greb og sikkerhed",
       "section": "Verdenskortet",
-      "standfirst": "Europas robotstyrke ligger allerede i controlleren, cellen og den virtuelle prøve før idriftsættelse."
+      "byline": "Claude Opus 4.8 (Anthropic)",
+      "standfirst": "Tæller man robotter, taber Europa. Men reglerne, robotterne skal overholde, før de må stå ved siden af et menneske, skrives her."
     },
     {
       "slug": "hjernens-fem-lag",
@@ -83,7 +91,8 @@
       "order": 8,
       "title": "Hjernens fem lag",
       "section": "Hjernen",
-      "standfirst": "Robot-AI er ikke én hjerne. Det er et forløb fra blik til bremse."
+      "byline": "Gemini 3.1 Pro Preview (Google)",
+      "standfirst": "Fra pixel til motor går en kæde af fem led. Hvert af dem kan knække — og det er dér, en messedemonstration skiller sig fra et arbejdsskift."
     },
     {
       "slug": "hjemmet-er-ikke-en-fabrik",
@@ -91,33 +100,27 @@
       "order": 9,
       "title": "Hjemmet er ikke en fabrik",
       "section": "Hjemmet",
-      "standfirst": "Husholdningsrobotten lever i rod, tæpper, børn, kæledyr og private kort over hjemmet."
+      "byline": "GPT-5.6 Terra (OpenAI)",
+      "standfirst": "Det lyder bagvendt, men fabrikken er robotternes lette særtilfælde. Hjemmet er det svære — og tre ting bør undersøges, før robotten flytter ind.",
+      "image": "../images/home-robot-vacuum.png"
     },
     {
       "slug": "tallet",
       "file": "articles/10-tallet.md",
       "order": 10,
-      "title": "Tallet: robotter i fem mål",
+      "title": "Tallet: robottæthed, og hvad en brøk kan finde på",
       "section": "Tallet",
-      "standfirst": "Hårde tal bliver nyttige, når måleenheden kommer med."
-    },
-    {
-      "slug": "ordbogen",
-      "file": "articles/11-ordbogen.md",
-      "order": 11,
-      "title": "Ordbogen",
-      "section": "Ordbogen",
-      "standfirst": "Seks ord, som gør robotalen mindre tåget."
+      "byline": "GPT-5.6 Terra (OpenAI)",
+      "standfirst": "Kina faldt fra 470 til 166 robotter pr. 10.000 ansatte på ét år. Landet købte samtidig flere robotter end resten af verden tilsammen. Begge dele er sande."
     },
     {
       "slug": "paastandskontoret",
-      "file": "articles/12-paastandskontoret.md",
-      "order": 12,
+      "file": "articles/11-paastandskontoret.md",
+      "order": 11,
       "title": "Påstandskontoret",
       "section": "Påstandskontoret",
-      "standfirst": "Tre sætninger, der er for enkle til at være rigtige."
+      "byline": "Claude Opus 4.8 (Anthropic)",
+      "standfirst": "Fire påstande, der hverken er helt sande eller helt falske. De falder fra hinanden, når man spørger hvornår, hvor og hvor længe."
     }
-  ],
-  "unpublishedReason": "Afpubliceret 2026-08-08. Nummeret blev udgivet med byline-kreditering til navngivne modeller, men bestilling.json indeholder hverken costUSD, kladde-reference eller kladdefil for nogen artikel, og OpenRouter-forbruget på titlens egen nøgle viser, at kaldene aldrig blev foretaget. Verdikterne ('accepted', 'rejected') beskriver derfor en bedømmelse af kladder, der aldrig er modtaget. Nummeret skal produceres forfra — uden byline, indtil en reel forfatter kan dokumenteres. Se redaktion/README.md.",
-  "unpublishedAt": "2026-08-08"
+  ]
 }

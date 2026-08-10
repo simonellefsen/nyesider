@@ -4,13 +4,13 @@
   "issue": "2026-08-nr1",
   "issueTheme": "Robotter på arbejde",
   "budget": {
-    "articles": 12,
+    "articles": 11,
     "wordsPerArticle": [
-      120,
-      560
+      500,
+      800
     ],
     "targetPages": 16,
-    "note": "Debutnummeret bruger to modeller til kildekrævende dispositionsudkast. Redaktionen accepterer kun verificerede formuleringer og skriver resten."
+    "note": "Den afpublicerede udgave var 12 artikler paa 2.924 ord — gennemsnit 244. Ordbogen fjernes jf. notesbogens formatregel. Notesbogen angiver 250-500 ord pr. feature; det loft er sat, da artiklerne var tynde, og haeves bevidst her til 500-800 for at matche standarden i de oevrige genopbyggede numre. Et magasin, der skelner mellem pilot, validering og drift, kan ikke goere det paa 244 ord."
   },
   "opgaver": [
     {
@@ -18,10 +18,10 @@
       "order": 1,
       "section": "Leder",
       "brief": {
-        "angle": "Velkommen til HumaNerd: hvorfor man skal begynde med opgaven, ikke med robotkroppen.",
+        "angle": "Hvorfor HumaNerd, og hvorfor opgaven kommer foer kroppen. Bladets maalestok er forskellen mellem annoncering, pilot, feltvalidering, kommerciel installation og stabil drift i et rigtigt arbejdsskift. Skal sige rent ud, hvad vi lover om selskabstal, kilder og byline.",
         "words": [
-          160,
-          220
+          400,
+          550
         ],
         "mustCite": 0,
         "format": "leder"
@@ -32,15 +32,15 @@
         "fallback": null
       },
       "receipt": {
-        "words": null,
+        "words": 492,
         "costUSD": null,
         "draft": null
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
+        "status": "rewritten-by-editor",
+        "checkedAt": "2026-08-09",
         "citations": 0,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "editorNote": "Skrevet af chefredaktionen. INGEN byline og intet API-kald — writer.model er 'editor-led', og receipt.costUSD er derfor med rette tom. Den afpublicerede udgave bar byline til en navngiven model uden nogen bestilling bag sig. Lederen skriver nu maalestokken ud til laeseren — annoncering, pilot, feltvalidering, kommerciel installation, stabil drift — og naevner de to konkrete kategorifejl, nummeret fandt: at BMW's og Figures beskrivelser af samme forloeb ikke er ens, og at Amazons million robotter ikke kan divideres ind i IFR's 4,664 mio. industrirobotter."
       }
     },
     {
@@ -48,33 +48,37 @@
       "order": 2,
       "section": "Fabrikken",
       "brief": {
-        "angle": "Forklar med IFR-tal hvorfor den etablerede industrirobot er den relevante målestok for humanoider.",
+        "angle": "Den maalestok, der allerede staar ved samlebaandet. Inden man vurderer en humanoid i en fabrikshal, skal man vide, hvad den konkurrerer med. IFR opgjorde i World Robotics 2025, at der blev installeret 542.000 industrirobotter globalt i 2024, og at driftsbestanden naaede 4.664.000 enheder — en stigning paa 9 %. Forklar forskellen paa de to tal tydeligt: installationer er aarets nytilkomne, driftsbestanden er dem, der stadig koerer. Det foerste maaler investeringstempo, det andet maaler, hvad virksomheder faktisk har valgt at beholde. IFR forventer ca. 575.000 installationer i 2025 og over 700.000 i 2028. Kina alene stod for 295.000 installationer, 54 % af verdensmarkedet. SKRIV DEREFTER DET, ARTIKLEN HANDLER OM: en industrirobot i et bur loeser en anden opgave end en humanoid. Den er hurtigere, mere praecis og billigere pr. cyklus, men den kan kun det, cellen er bygget til. Humanoiden lover fleksibilitet i rum, der er bygget til mennesker — doere, vogne, hylder, arbejdsstationer i menneskehoejde — og det er en reel forskel, ikke bare marketing. Men de spoergsmaal, industrirobotter er blevet maalt paa i aartier, er stadig de rigtige: oppetid, fejlrater, omstillingstid, sikkerhedsafstand og hvor meget menneskelig overvaagning der kraeves. En demonstration af en robot, der loefter en kasse, svarer ikke paa nogen af dem. Undgaa at goere det til en konkurrence med en vinder.",
         "words": [
-          260,
-          360
+          600,
+          850
         ],
-        "mustCite": 1,
+        "mustCite": 2,
+        "format": "feature",
         "mustNumber": [
-          "globale installationer og driftsbestand 2024",
-          "robotdensitet i Korea, Kina, Tyskland og Japan"
-        ],
-        "format": "feature"
+          "542.000 (2024)",
+          "4.664.000 driftsbestand",
+          "295.000 Kina",
+          "575.000 prognose 2025"
+        ]
       },
       "writer": {
         "byline": null,
-        "model": "editor-led",
+        "model": "anthropic/claude-opus-4.8",
         "fallback": "deepseek/deepseek-v3.2"
       },
       "receipt": {
-        "words": 485,
-        "costUSD": null,
-        "draft": null
+        "words": 584,
+        "costUSD": 0.058685,
+        "draft": "kladder/02-fabrikken-foer-fremtiden.md",
+        "costRouting": "byok",
+        "generationId": "gen-1786335895-zWUoM2aJHv9iOsSmt1TL"
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
-        "citations": 1,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-09",
+        "citations": 2,
+        "editorNote": "REELT kommissioneret hos anthropic/claude-opus-4.8 paa .env.humanerd (BYOK); kladde i kladder/02-fabrikken-foer-fremtiden.md. Kladden ramte alle fire paakraevede tal og leverede selv den skelnen, artiklen hviler paa: installationer maaler koebelyst i ét aar, driftsbestanden maaler hvad virksomheder har valgt at BEHOLDE — 'Driftsbestanden er derfor den strengere proeve' er kladdens egen formulering. Den adloed ogsaa forbuddet mod at kaare en vinder og skrev uopfordret, at teleoperation og et hold ingenioerer uden for kameraet 'ikke er svindel — det er normalt for en prototype', hvilket er praecis den tone, notesbogen beder om: nysgerrig, men ikke godtroende. Punktlisten med de fem maalestokke er kladdens egen. KILDER: den ene fodnote sluttede med 'Se IFR's pressemateriale og rapportoversigt paa ifr.org' — bare et domaene, samme moenster som i alle fire foregaaende genopbygninger. Erstattet af IFR's konkrete pressemeddelelse af 25. september 2025. Briefen kraevede 2 kilder; kladden havde reelt kun én, saa The Robot Reports uafhaengige gennemgang er tilfoejet, hvilket ogsaa daekker prognosetallene. Tilfoejet gloser for IFR ved foerste naevnelse jf. husreglen."
       }
     },
     {
@@ -82,33 +86,38 @@
       "order": 3,
       "section": "Humanoiden",
       "brief": {
-        "angle": "Forklar forskellen mellem annonce, feltvalidering og drift via Figure hos BMW og UBTECHs Walker S-oplysninger.",
+        "angle": "NUMMERETS VIGTIGSTE ARTIKEL: hvordan man laeser en humanoid-annoncering. Byg den om to konkrete forloeb og lad tallene goere arbejdet. (1) FIGURE HOS BMW. BMW oplyste til fagmediet The Robot Report, at man startede med ÉN robot til teknisk evaluering paa fabrikken i Spartanburg. I august 2024 koerte et forsoeg over nogle uger, hvor Figure 02 satte pladedele i fikstur til svejsning. Robotten koerte i alt ca. 11 maaneder i karrosserifabrikken. Figures egen opgoerelse: ca. 1.250 driftstimer, over 90.000 haandterede komponenter og bidrag til produktionen af over 30.000 BMW X3. REGN SELV EFTER I ARTIKLEN: 1.250 timer fordelt over 11 maaneder er omtrent fire timer pr. arbejdsdag — det er et forsoeg i produktionstid, ikke en robot paa et skift. Det regnestykke er artiklens omdrejningspunkt. Naevn ogsaa, at Figures direktoer offentligt omtalte en 'flaade' i 'end-to-end-drift', at BMW's egen beskrivelse var betydeligt smallere, og at direktoeren bestred fagmediets daekning og truede med retssag. Skriv det neutralt og uden at tage parti — pointen er, at kunden og leverandoeren beskrev det samme forloeb forskelligt, og at kundens beskrivelse er den, en laeser skal vaegte. BMW har sidenhen annonceret Figure 03 til en sekvenseringsopgave i logistik. (2) AGILITY ROBOTICS HOS GXO. Digit arbejder paa GXO's Flowery Branch-anlaeg i Georgia under den foerste Robots-as-a-Service-aftale for humanoider — en flerarig kontrakt, hvor kunden betaler for robottens arbejde frem for at koebe robotten. Digit flytter kasser fra cobots til transportbaand. Agility oplyser over 100.000 flyttede kasser. Toyota Motor Manufacturing Canada indsaetter ogsaa Digit. Forklar hvorfor en RaaS-kontrakt er et STAERKERE bevis end en demonstration: nogen betaler loebende for output. MAERK HVERT SELSKABSTAL som selskabets egen oplysning. Slut med den skala, laeseren skal have: alle humanoider i verden tilsammen er et rundingsfejl ved siden af de 542.000 industrirobotter, der blev installeret i 2024.",
         "words": [
-          240,
-          330
+          650,
+          900
         ],
         "mustCite": 3,
+        "format": "feature",
         "mustNumber": [
-          "Figure/BMWs angivne biler",
-          "UBTECHs angivne patenttal"
-        ],
-        "format": "feature"
+          "én robot",
+          "ca. 1.250 driftstimer",
+          "11 måneder",
+          "over 30.000 BMW X3",
+          "over 100.000 kasser"
+        ]
       },
       "writer": {
         "byline": null,
-        "model": "editor-led",
-        "fallback": "openai/gpt-5.6-terra"
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "deepseek/deepseek-v3.2"
       },
       "receipt": {
-        "words": 439,
-        "costUSD": null,
-        "draft": null
+        "words": 735,
+        "costUSD": 0.039328,
+        "draft": "kladder/03-naar-robotten-faar-ben.md",
+        "costRouting": "byok",
+        "generationId": "gen-1786336014-nGzBOXUTlNxkXTQ9o1b2"
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
-        "citations": 3,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-09",
+        "citations": 6,
+        "editorNote": "REELT kommissioneret hos anthropic/claude-sonnet-5 paa .env.humanerd (BYOK); kladde i kladder/03-naar-robotten-faar-ben.md. Kladden loeste briefens kerne: den regnede selv efter paa driftstimerne, holdt sig fra at tage parti i striden om ordvalget, og formulerede selv hvorfor en RaaS-aftale er staerkere bevis end en demonstration — 'pengestroemmen fortsaetter, hvis og kun hvis arbejdet reelt udfoeres'. Ogsaa god paa skalaen til sidst. FEJL I MIN EGEN BRIEF, som kildekontrollen fangede: briefen paastod ca. fire driftstimer pr. arbejdsdag. Regnestykket var forkert — 1.250 timer over ca. 240 arbejdsdage er ca. FEM timer. Rettet. Briefen sagde ogsaa 'én robot' om hele forloebet; den ene robot gaelder den indledende tekniske evaluering, mens 2025-forloebet efter fagpressens beskrivelse omfattede flere. Praeciseret. STOERSTE FUND, tilfoejet af redaktionen: BMW's EGEN pressemeddelelse af 6. august 2024 oplyser i samme tekst som den 'vellykkede test', at der aktuelt ikke er nogen Figure AI-robotter paa fabrikken i Spartanburg, og at der ikke er fastlagt nogen tidsplan. Det er kunden selv, i eget nyhedsrum, paa samme dag som succeshistorien. Det er nummerets staerkeste enkeltkilde og var ikke i briefen. Tilfoejet er ogsaa fordelingen af hvem der taeller: alle detaljerede tal (11 maaneder, 1.250 timer, 90.000 dele, 30.000 X3) kommer fra Figure, mens BMW's vicedirektoer bekraefter at pilotforsoeget gik godt UDEN at angive et eneste tal. Kladdens fodnoter brugte haevet skrift (1234) i stedet for husets fodnoteformat og var alle fire bare domaener (therobotreport.com, gxo.com, ifr.org). Erstattet af seks verificerede sider hos BMW, The Robot Report, ASSEMBLY, GXO, Agility og IFR."
       }
     },
     {
@@ -116,33 +125,37 @@
       "order": 4,
       "section": "Verdenskortet",
       "brief": {
-        "angle": "Beskriv Kinas robotmarked og lokale producenter uden at gøre virksomhedsmarkedsføring til markedsstatistik.",
+        "angle": "Kina som verdens robotmarked — beskrevet med IFR's tal, ikke med producenternes pressemeddelelser. IFR opgjorde 295.000 installerede industrirobotter i Kina i 2024, en stigning paa 7 % og landets hoejeste nogensinde. Det er 54 % af alle installationer i verden — mere end resten af kloden tilsammen. Driftsbestanden passerede 2 millioner enheder. Og for foerste gang solgte kinesiske producenter mere end de udenlandske paa deres eget hjemmemarked: 57 % i 2024, mod omkring 28 % for et aarti siden. Det sidste tal er artiklens vigtigste, for det handler ikke om, hvor mange robotter der staar, men om hvem der bygger dem. Skriv ogsaa Asiens andel af nyinstallationer paa 74 % mod Europas 16 % og Amerikas 9 %. VIGTIGT: gaa ikke fra markedstal til paastande om teknologisk overlegenhed — hoej installationstakt maaler investering og industristruktur, ikke kvalitet. Og goer ikke nationalitet til forklaringen paa teknologien. Naevn at tallene daekker INDUSTRIROBOTTER; kinesiske humanoidproducenter faar meget opmaerksomhed, men indgaar ikke i disse tal, og selskabernes egne stykantal skal mærkes som selskabernes egne.",
         "words": [
-          210,
-          300
+          550,
+          800
         ],
         "mustCite": 2,
+        "format": "feature",
         "mustNumber": [
-          "Kinas andel af global driftsbestand",
-          "Kinas installationer 2024"
-        ],
-        "format": "feature"
+          "295.000 (2024)",
+          "54 %",
+          "over 2 mio. driftsbestand",
+          "57 % hjemmemarked"
+        ]
       },
       "writer": {
         "byline": null,
-        "model": "editor-led",
-        "fallback": null
+        "model": "openai/gpt-5.6-terra",
+        "fallback": "deepseek/deepseek-v3.2"
       },
       "receipt": {
-        "words": null,
-        "costUSD": null,
-        "draft": null
+        "words": 628,
+        "costUSD": 0.01347325,
+        "draft": "kladder/04-kinas-testbane.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1786336254-9MEFTq2F3vV2BcDhNZzV"
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-09",
         "citations": 2,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "editorNote": "REELT kommissioneret hos openai/gpt-5.6-terra paa .env.humanerd (via OpenRouter-kredit); kladde i kladder/04-kinas-testbane.md. Nummerets mest disciplinerede kladde. Den ramte alle fire tal og overholdt uopfordret hver eneste af briefens advarsler: den gik ikke fra markedstal til teknologisk overlegenhed ('en installation er en leverance til en fabrik, ikke en uafhaengig proeve af armens mekanik'), den goer ikke nationalitet til forklaringen ('det skal undersoeges robot for robot og anlaeg for anlaeg'), og den holdt humanoiderne ude af IFR-tallene med praecis begrundelse. Den tilfoejede selv to ting, briefen ikke bad om, og som begge er rigtige: at Asien ikke er én blok, og at en fabriks reelle ydelse ofte afhaenger af INTEGRATOREN snarere end af robotmaerket. Sidstnaevnte er en indsigt, notesbogen burde have haft i forvejen. FOERSTE KLADDE I DENNE GENOPBYGNING UDEN EN ENESTE BAR DOMAENEHENVISNING — begge fodnoter havde rigtige, fungerende adresser hos IFR. Redaktionelt kun let stramning: mellemrubrikker, kortere afsnit og samling af de fire IFR-tal i én fodnote frem for to."
       }
     },
     {
@@ -150,33 +163,37 @@
       "order": 5,
       "section": "Verdenskortet",
       "brief": {
-        "angle": "Sammenlign etableret robotindustri og humanoidambitioner i Japan og Sydkorea med IFR som målestok.",
+        "angle": "To lande, der er automatiseret dybt, men paa hver sin maade. JAPAN installerede 44.500 industrirobotter i 2024 og har en driftsbestand paa 450.500 — og er samtidig verdens stoerste PRODUCENT af industrirobotter. Skriv den dobbeltrolle frem: Japan er baade hjemmemarked og leverandoer til alle andre, hvilket er en anden position end at vaere en stor koeber. SYDKOREA installerede 30.600, men har verdens hoejeste robottaethed med 1.220 robotter pr. 10.000 ansatte i 2024 — naesten ti gange det globale gennemsnit paa 132. Forklar hvorfor: en meget stor elektronik- og bilindustri i et forholdsvis lille arbejdsmarked. Taethed og antal maaler ikke det samme, og Sydkorea er det tydeligste eksempel paa det. Tag ogsaa demografien med som drivkraft — begge lande har aldrende befolkninger og faldende arbejdsstyrke — men skriv det som en forklaring paa efterspoergsel, ikke som en spaadom. Undgaa at goere kultur til forklaringen paa robottal.",
         "words": [
-          210,
-          300
+          500,
+          750
         ],
         "mustCite": 2,
+        "format": "feature",
         "mustNumber": [
-          "Koreas installationer i 2024",
-          "Koreas robotdensitet"
-        ],
-        "format": "feature"
+          "Japan 44.500",
+          "Japan 450.500 driftsbestand",
+          "Sydkorea 30.600",
+          "Sydkorea 1.220"
+        ]
       },
       "writer": {
         "byline": null,
-        "model": "editor-led",
-        "fallback": null
+        "model": "google/gemini-3.1-pro-preview",
+        "fallback": "deepseek/deepseek-v3.2"
       },
       "receipt": {
-        "words": null,
-        "costUSD": null,
-        "draft": null
+        "words": 469,
+        "costUSD": 0.060834,
+        "draft": "kladder/05-japan-og-sydkorea.md",
+        "costRouting": "byok",
+        "generationId": "gen-1786336358-vI2emVsM0aYAFPpjePUE"
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-09",
         "citations": 2,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "editorNote": "REELT kommissioneret hos google/gemini-3.1-pro-preview paa .env.humanerd (BYOK); kladde i kladder/05-japan-og-sydkorea.md. Kladden ramte alle fire tal og aabnede med at afvise netop den forklaring, briefen advarede mod — den kulturelle. Bedste greb: at Japans hjemmemarked fungerer som producenternes eget valideringsmiljoe, saa en ny generation koerer i drift lokalt foer den naar Europa. Den holdt ogsaa demografien som forklaring paa EFTERSPOERGSEL og ikke som spaadom, praecis som bestilt. TREDJE BEKRAEFTEDE TILFAELDE AF DEN FARLIGE LINKTYPE — og foerste uden for Geostat. Begge kladdens fodnoter var gaettede IFR-adresser. Begge svarer 200. ifr.org/ifr-press-releases/news/robot-density-by-country-2024 er ikke en robottaethedsside; den serverer en pressemeddelelse af 7. august 2026 om FCC-restriktioner paa robotudstyr. Det er altsaa ikke et Geostat-saerpraeg: CMS-drevne sites kan svare 200 paa en ukendt slug og servere noget helt andet. check_links.py fanger det ikke. Kladdens datoangivelser var ogsaa forkerte: den tilskrev 2024-tallene 'World Robotics Report 2024, september 2024' (de er fra World Robotics 2025) og taethedstallene 'november 2024' (de er fra pressemeddelelsen 8. april 2026). Begge rettet mod verificerede sider. Praeciseret: 'pr. 10.000 ansatte' foelger nu IFR's egen ordlyd frem for kladdens 'i fremstillingsindustrien', da netop den naevner er omstridt — se Tallet. Krydslink til Tallet tilfoejet, og en omstridt havnavnsformulering fjernet."
       }
     },
     {
@@ -184,33 +201,36 @@
       "order": 6,
       "section": "Verdenskortet",
       "brief": {
-        "angle": "Se på amerikanske humanoidinstallationer med Agility og Figure; fasthold forskellen mellem virksomhedstal og IFR-statistik.",
+        "angle": "USA som stedet, hvor humanoiderne annonceres, og industrirobotterne installeres. IFR opgjorde 34.200 installerede industrirobotter i USA i 2024 — tredjestoerste marked efter Kina og Japan — mens hele Amerika naaede 50.100. Robottaetheden var 307 pr. 10.000 ansatte, over det globale gennemsnit paa 132, men langt under Sydkoreas 1.220. Sæt det op mod, at stort set alle de humanoidprogrammer, verden taler om, har adresse i USA: Figure, Agility Robotics, Apptronik, Boston Dynamics, Tesla. Artiklens pointe er spaendingen mellem de to: et modent, men ikke ekstremt automatiseret industrimarked, og samtidig verdens taetteste koncentration af kapital i en robotform, der endnu ikke er i bred drift. Skriv om finansieringen som en faktor i sig selv — en velfinansieret prototype faar mere opmaerksomhed end en installeret maskine — uden at goere det til en anklage. Tag ogsaa Amazons lagerrobotter med som det stoerste amerikanske eksempel paa robotter i faktisk drift, og vaer praecis om, at det er mobile robotter og sorteringssystemer, ikke humanoider.",
         "words": [
-          210,
-          300
+          550,
+          800
         ],
-        "mustCite": 3,
+        "mustCite": 2,
+        "format": "feature",
         "mustNumber": [
-          "USA's operative industribestand",
-          "USA's installationer i 2024"
-        ],
-        "format": "feature"
+          "34.200 (2024)",
+          "307 pr. 10.000",
+          "Nordamerika 50.100"
+        ]
       },
       "writer": {
         "byline": null,
-        "model": "editor-led",
-        "fallback": null
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "deepseek/deepseek-v3.2"
       },
       "receipt": {
-        "words": null,
-        "costUSD": null,
-        "draft": null
+        "words": 543,
+        "costUSD": 0.030968,
+        "draft": "kladder/06-usa-fra-demo-til-skiftplan.md",
+        "costRouting": "byok",
+        "generationId": "gen-1786336490-JobreqcXMAZ6NSOnMZgR"
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-09",
         "citations": 3,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "editorNote": "REELT kommissioneret hos anthropic/claude-sonnet-5 paa .env.humanerd (BYOK); kladde i kladder/06-usa-fra-demo-til-skiftplan.md. Kladden ramte alle tre tal og fandt selv artiklens ramme: to sande robothistorier i samme land, der ikke er lige langt fremme. Den maerkede uopfordret venturekapitalen som selskabernes egne oplysninger og skrev, at finansiering er en faktor i, hvad verden LAEGGER MAERKE TIL, ikke et bevis paa modenhed. Den valgte ogsaa selv Amazon som det rigtige eksempel paa robotter i faktisk drift og var praecis om, at det er mobile lagerrobotter og ikke humanoider. FEJL RETTET: kladden skrev, at IFR's 50.100 daekker 'Nordamerika, altsaa USA, Canada og Mexico'. Tallet er IFR's for AMERIKA samlet, nord og syd; Nordamerika alene har en anden opgoerelse. Rettet. Kladden angav ogsaa Amazons flaade som 'adskillige hundrede tusinde' uden kilde; erstattet af den dokumenterede milepael — den millionte robot i juli 2025, tretten aar efter Kiva-opkoebet. TILFOEJET af redaktionen: advarslen mod at dividere Amazons million op i IFR's driftsbestand paa 4.664.000. De to tal taeller forskellige kategorier, og netop den sammenligning cirkulerer som 'Amazon staar for en femtedel af verdens industrirobotter'. Det er praecis den slags kategorifejl, notesbogens regel om at skelne IFR-tal fra selskabstal findes for. Begge kladdens fodnoter var bare domaener (ifr.org, aboutamazon.com); erstattet af tre verificerede sider."
       }
     },
     {
@@ -218,33 +238,39 @@
       "order": 7,
       "section": "Verdenskortet",
       "brief": {
-        "angle": "Forklar Europas styrke i eksisterende industrirobotter, digital tvilling og sikker integration frem for at påstå humanoiddominans.",
+        "angle": "Europas rolle er ikke stykantal — det er reglerne og komponenterne. IFR opgjorde 85.000 installerede industrirobotter i Europa i 2024, heraf 67.800 i EU. Tyskland alene stod for 26.982 og er Europas stoerste marked med en robottaethed paa 449 pr. 10.000 ansatte. Vesteuropa laa paa 267 mod Nordamerikas 204. ARTIKLENS KERNE ER SIKKERHEDSSTANDARDEN, og den er aktuel: ISO 10218 del 1 og 2 udkom i reviderede udgaver i 2025 efter omkring otte aars arbejde. Tre aendringer skal forklares for en almindelig laeser. (a) Begrebet 'kollaborativ robot' er UDGAAET — standarden skelner ikke laengere mellem industrirobot og cobot, fordi det er ANVENDELSEN og ikke maskinen, der afgoer risikoen. (b) Indholdet fra den tidligere tekniske specifikation ISO/TS 15066 om samarbejde mellem menneske og robot er indarbejdet direkte i standarden. (c) Der er indfoert to klasser: klasse 1 for meget svage robotter, der efter en rimelig vurdering ikke udgoer en vaesentlig fare, med lempede krav, og klasse 2 for alle andre. Der er ogsaa tilfoejet krav om cybersikkerhed. SLUT MED DET HUL, DER ER ARTIKLENS POINTE: ISO 25785-1, som skal daekke DYNAMISK STABILE robotter — dem, der kraever aktiv balancestyring for at blive staaende, altsaa gaaende humanoider — er stadig under udarbejdelse. Humanoider bliver med andre ord sat i arbejde, mens den standard, der specifikt daekker dem, endnu skrives. Skriv det som en konstatering, ikke som en skandale: standarder foelger normalt efter teknologien, og det er praecis derfor, det er vaerd at vide, hvor grænsen gaar lige nu.",
         "words": [
-          210,
-          300
+          600,
+          850
         ],
-        "mustCite": 2,
+        "mustCite": 3,
+        "format": "feature",
         "mustNumber": [
-          "Tysklands robotdensitet",
-          "Tysklands andel af global driftsbestand"
-        ],
-        "format": "feature"
+          "Europa 85.000",
+          "EU 67.800",
+          "Tyskland 26.982",
+          "Tyskland 449",
+          "ISO 10218:2025",
+          "ISO 25785-1"
+        ]
       },
       "writer": {
         "byline": null,
-        "model": "editor-led",
-        "fallback": null
+        "model": "anthropic/claude-opus-4.8",
+        "fallback": "deepseek/deepseek-v3.2"
       },
       "receipt": {
-        "words": null,
-        "costUSD": null,
-        "draft": null
+        "words": 605,
+        "costUSD": 0.062585,
+        "draft": "kladder/07-europa-koblinger-greb-og-sikkerhed.md",
+        "costRouting": "byok",
+        "generationId": "gen-1786336643-FOH8SOxfxc97xd2G30Mi"
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
-        "citations": 2,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-09",
+        "citations": 4,
+        "editorNote": "REELT kommissioneret hos anthropic/claude-opus-4.8 paa .env.humanerd (BYOK); kladde i kladder/07-europa-koblinger-greb-og-sikkerhed.md. Nummerets bedste forklaring. Kladden ramte alle seks paakraevede punkter og forklarede standardaendringen bedre end bestilt: 'Risikoen sidder i opgaven, ikke i maerkaten' er kladdens egen sammenfatning af, hvorfor begrebet kollaborativ robot er udgaaet, og eksemplet med den samarbejdsvenlige robot med skarpt vaerktoej over for den tunge robot bag et forsvarligt setup er ogsaa dens eget. Forklaringen paa dynamisk stabilitet — at en fastboltet robot ikke falder naar stroemmen ryger, mens en gaaende humanoid vaelter — er praecis og tilgaengelig. Den holdt ogsaa den bestilte tone om, at hullet ikke er en skandale, men noget man skal kende. KILDER: alle tre fodnoter var bare domaener (ifr.org, iso.org). Kladden daterede desuden installationstallene til World Robotics 2024; de er fra World Robotics 2025. Og den blandede installationstal og taethedstal i én kilde, selv om de kommer fra to forskellige IFR-udgivelser med ti maaneders mellemrum. Begge dele rettet, nu fire verificerede fodnoter. TILFOEJET af redaktionen: ISO 25785-1's faktiske titel og status (committee draft i ISO/TC 299, ikke udgivet) og det forhold, at projektledelsen blandt andet kommer fra Agility Robotics og Boston Dynamics — selskaber med egne robotter i felten. Det er normalt i standardiseringsarbejde og skal ikke skrives som mistanke, men laeseren skal vide det."
       }
     },
     {
@@ -252,33 +278,31 @@
       "order": 8,
       "section": "Hjernen",
       "brief": {
-        "angle": "Forklar perception, verdensmodel/simulation, opgaveplan, bevægelsespolitik og sikkerhed som robotstak, med NVIDIA Isaac som konkret eksempel uden at reklamere.",
+        "angle": "Hvad der faktisk sker mellem kamera og motor. Forklar robotstakken som fem lag, hvert med en konkret fejlmulighed, saa laeseren kan hoere, hvor en demonstration typisk braekker. (1) SANSNING: kameraer, dybdesensorer, kraft- og momentmaaling i leddene. Fejl: daarligt lys, refleksioner, en genstand der ligner en anden. (2) OPFATTELSE: at omsaette pixels til 'her er en kasse, den staar saadan'. Fejl: objektet genkendes, men dets orientering gaettes forkert. (3) PLANLAEGNING: at vaelge en raekkefoelge af bevaegelser, der loeser opgaven uden at ramme noget. Fejl: en plan, der er gyldig, men for langsom. (4) STYRING: at holde balance og foelge banen, mens verden skubber tilbage. Det er her gaaende robotter adskiller sig grundlaeggende fra en robotarm — en arm, der stopper, staar stille; en humanoid, der stopper forkert, falder. (5) SIKKERHED: den del, der skal virke, ogsaa naar de fire andre ikke goer, og som derfor typisk er implementeret adskilt fra det laerte. FORKLAR HVORFOR det sidste punkt er afgoerende for at forstaa 'fysisk AI': en sprogmodel, der tager fejl, giver et forkert svar; en robot, der tager fejl, flytter noget tungt til det forkerte sted. Skriv ogsaa kort om, at meget af det, der ligner autonomi i en video, kan vaere teleoperation, forudprogrammeret bevaegelse eller mange klip — og hvad man som seer kan kigge efter. Brug 'fysisk AI' som en forklaring paa denne kaede, aldrig som en magisk etiket.",
         "words": [
-          240,
-          330
+          600,
+          850
         ],
-        "mustCite": 2,
-        "mustNumber": [
-          "GR00T N1s status som åben model",
-          "24.000 motionsforløb i det nævnte datasæt"
-        ],
+        "mustCite": 1,
         "format": "feature"
       },
       "writer": {
         "byline": null,
-        "model": "editor-led",
-        "fallback": null
+        "model": "google/gemini-3.1-pro-preview",
+        "fallback": "deepseek/deepseek-v3.2"
       },
       "receipt": {
-        "words": null,
-        "costUSD": null,
-        "draft": null
+        "words": 629,
+        "costUSD": 0.07315,
+        "draft": "kladder/08-hjernens-fem-lag.md",
+        "costRouting": "byok",
+        "generationId": "gen-1786336797-wgqCgnp09uqAJFHNcrqX"
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
-        "citations": 2,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-09",
+        "citations": 1,
+        "editorNote": "REELT kommissioneret hos google/gemini-3.1-pro-preview paa .env.humanerd (BYOK); kladde i kladder/08-hjernens-fem-lag.md. Nummerets bedste forklarende artikel. Kladden gav hvert af de fem lag en konkret fejlmulighed, som briefen bad om, og fandt selv den formulering, der goer forskellen paa en arm og en humanoid haandgribelig: 'Tyngdekraften holder ikke pause, mens computeren genstarter.' Den tilfoejede uopfordret tre praktiske tegn, en seer kan kigge efter i en robotvideo — teleoperation, klipning i selve grebet, og opspillet hastighed aflaest paa baggrundens mennesker — og det er den mest brugbare passage i hele nummeret. VIGTIGSTE KILDEFUND: kladden angav 'Evan Ackerman, How to Watch a Robot Video, IEEE Spectrum, 2023'. Referencen er DELVIST opdigtet, og det er den farligste slags, fordi de fleste elementer er rigtige. Forfatteren findes og er robotredaktoer paa IEEE Spectrum, aaret er rigtigt, og emnet er rigtigt — men titlen og publikationen er forkerte. Den virkelige artikel hedder 'How to Make a Good Robot Video [Media]' og stod i IEEE Robotics & Automation Magazine, bind 30, nr. 2, 2023, s. 127. Rettet med bind, nummer og side. Til sammenligning har fire modeller i denne genopbygning leveret HELT korrekte referencer uopfordret (Hosford & Duncan, Goldstein, og to Venedigkommission-numre); dette er foerste gang en litteraturhenvisning skal korrigeres frem for blot at faa en adresse paa. RETTET OGSAA: HTML-entiteten &nbsp; var lakket ud i broedteksten som raa tekst, og sikkerhedsafsnittet forklarede et relae, der udloeser 'hvis en motor traekker et millivolt for meget' — volt er ikke stroem. Omskrevet til noedstopkreds og momentgraense. Trimmet fra 921 til budgettets leje."
       }
     },
     {
@@ -286,30 +310,31 @@
       "order": 9,
       "section": "Hjemmet",
       "brief": {
-        "angle": "Forklar hvorfor robotstøvsugere og andre tilsluttede husholdningsrobotter skal vurderes på rum, data, vedligehold og fejl — ikke humanoidform.",
+        "angle": "Hvorfor hjemmet er et svaerere miljoe end fabrikken — stik imod intuitionen. En fabrikshal er struktureret: gulvet er plant, lyset er ens, tingene staar samme sted, og de mennesker, der er der, er instrueret i at vaere der. Et hjem har loese gulvtaepper, boern, kaeledyr, ledninger, trapper, skiftende lys og ingen to ens grundplaner. Skriv derefter tre ting, en koeber skal vide, og som saelgere sjaeldent naevner. (1) PRIVATLIV: en robot, der skal navigere, laver et kort over din bolig, og en robot, der skal genkende ting, bruger kameraer. Spoerg altid, hvor data behandles, hvad der forlader hjemmet, og hvad der sker med kortet, hvis producenten lukker. (2) VEDLIGEHOLD: en maskine med bevaegelige dele slides. Reservedele, softwareopdateringer og levetid er en del af produktet, ikke en eftertanke — og en robot, hvis sky lukkes, kan blive til inventar. (3) DET MENNESKELIGE ARBEJDE I 'SAMARBEJDET': stoevsugerrobotten fjernede ikke arbejdet, den flyttede det. Nogen rydder stadig op, foer den koerer, toemmer beholderen og river haar ud af boersten. Det er ikke en indvending mod robotter — det er den rigtige maade at regne paa. Vaer konkret om, at den robottype, der faktisk er i millioner af hjem, er stoevsugerrobotten og graesslaamaskinen, ikke en humanoid, og at afstanden mellem de to er stoerre end en videodemonstration antyder. ANGIV IKKE salgstal eller markedsstoerrelser, du ikke kan kildebelaegge.",
         "words": [
-          190,
-          280
+          550,
+          800
         ],
-        "mustCite": 1,
-        "mustNumber": [],
+        "mustCite": 2,
         "format": "feature"
       },
       "writer": {
         "byline": null,
-        "model": "editor-led",
-        "fallback": null
+        "model": "openai/gpt-5.6-terra",
+        "fallback": "deepseek/deepseek-v3.2"
       },
       "receipt": {
-        "words": null,
-        "costUSD": null,
-        "draft": null
+        "words": 666,
+        "costUSD": 0.01348225,
+        "draft": "kladder/09-hjemmet-er-ikke-en-fabrik.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1786336965-G1eWyfJRKswevPIePuyC"
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
-        "citations": 1,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-09",
+        "citations": 2,
+        "editorNote": "REELT kommissioneret hos openai/gpt-5.6-terra paa .env.humanerd (via OpenRouter-kredit); kladde i kladder/09-hjemmet-er-ikke-en-fabrik.md. Kladden loeste alle tre bestilte punkter og fandt selv den rigtige ramme: fabrikken er robotternes fordelagtige SAERTILFAELDE, ikke det svaere. Bedste egne formuleringer: at robotten automatiserer en delopgave, mens mennesket staar for forberedelse, undtagelser og vedligehold — og spoergsmaalet 'hvad virker stadig, hvis producenten aendrer sine vilkaar?'. Den ADLOED ogsaa forbuddet mod ukildebelagte markedstal og skrev ingen salgstal overhovedet. KILDEKONTROL: irobot.com/legal/privacy gav 404 — gaettet adresse. Den rigtige er /legal/privacy-policy, og den viste sig at vaere langt mere konkret end kladdens generelle formulering om 'oplysninger fra robotter og tilknyttede tjenester'. Politikken opregner planloesninger, forbudszoner og rengoeringszoner, genstandstyper registreret med kamera, tilstedevaerelsen af kaeledyr og mennesker, samt WI-FI-VARMEKORT over boligen. Det er skrevet ind, sammen med at billedindsamling kraever aktivt tilvalg, saa afsnittet hverken bagatelliserer eller dramatiserer. Fodnote 2 om GDPR var defineret uden nogensinde at blive refereret i broedteksten — det ville have udloest fodnotefejl i check_issue; nu bundet til omtalen i teksten."
       }
     },
     {
@@ -317,97 +342,78 @@
       "order": 10,
       "section": "Tallet",
       "brief": {
-        "angle": "Lav en kort tabel med global robotbestand, installationer og robotdensitet for udvalgte lande fra IFR 2025.",
+        "angle": "Robottaethed med aarstal, geografi og maaleenhed — og en advarsel om, hvad en broek kan finde paa. Taethed er robotter pr. 10.000 ansatte, altsaa driftsbestand delt med arbejdsstyrke. TALLENE FOR 2024 (IFR, offentliggjort 8. april 2026): globalt gennemsnit 132; Sydkorea 1.220; Singapore 818; Tyskland 449; Japan 446; USA 307; Kina 166. Regionalt: Vesteuropa 267, EU-27 231, Nordamerika 204, Asien 131. ARTIKLENS BAERENDE POINTE ER KINA. I IFR's foregaaende opgoerelse for 2023 stod Kina til 470 robotter pr. 10.000 ansatte. I 2024-opgoerelsen staar landet til 166. Det er ikke et fald i automatisering. Kinas nationale statistikbureau reviderede sine arbejdsmarkedsdata, saa NAEVNEREN i broeken blev meget stoerre — der er kommet flere registrerede ansatte at dele robotterne ud paa. I praecis det samme aar installerede Kina 295.000 industrirobotter, mere end resten af verden tilsammen, og driftsbestanden passerede 2 millioner. Et land kan altsaa se ud til at falde dramatisk paa en rangliste, mens det koeber mere end nogen anden. SKRIV DET UD: naar et forholdstal aendrer sig kraftigt, saa se paa taelleren og naevneren hver for sig, foer du konkluderer noget om virkeligheden. Sammenlign ogsaa 2023-tallene, saa laeseren kan se, at de andre lande bevaegede sig normalt i samme periode: globalt fra 162, Sydkorea fra 1.012, Tyskland fra 429, Japan fra 419, USA fra 295. ANGIV ALTID aar og maaleenhed ved hvert tal, og skeln udtrykkeligt IFR-tal fra selskabstal. ANGIV IKKE et dansk tal, du ikke kan kildebelaegge.",
         "words": [
-          210,
-          300
+          550,
+          800
         ],
-        "mustCite": 1,
+        "mustCite": 3,
+        "format": "tallet",
         "mustNumber": [
-          "4.663.773 operative robotter",
-          "542.076 globale installationer",
-          "Korea 1.220 pr. 10.000 ansatte"
-        ],
-        "format": "table"
+          "132 globalt (2024)",
+          "Sydkorea 1.220",
+          "Kina 166",
+          "Kina 470 (2023)",
+          "Kina 295.000 installationer"
+        ]
       },
       "writer": {
         "byline": null,
-        "model": "editor-led",
-        "fallback": null
+        "model": "openai/gpt-5.6-terra",
+        "fallback": "deepseek/deepseek-v3.2"
       },
       "receipt": {
-        "words": null,
-        "costUSD": null,
-        "draft": null
+        "words": 520,
+        "costUSD": 0.01305,
+        "draft": "kladder/10-tallet.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1786337102-Ko3xunl72aS07fU5XZFM"
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
-        "citations": 2,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
-      }
-    },
-    {
-      "slug": "ordbogen",
-      "order": 11,
-      "section": "Ordbogen",
-      "brief": {
-        "angle": "Definér humanoid, robotarm, AMR, digital tvilling, VLA og virtuel idriftsættelse kort og nøgternt.",
-        "words": [
-          120,
-          200
-        ],
-        "mustCite": 0,
-        "format": "glossary"
-      },
-      "writer": {
-        "byline": null,
-        "model": "editor-led",
-        "fallback": null
-      },
-      "receipt": {
-        "words": null,
-        "costUSD": null,
-        "draft": null
-      },
-      "verdict": {
-        "status": null,
-        "checkedAt": null,
-        "citations": 0,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-09",
+        "citations": 3,
+        "editorNote": "REELT kommissioneret hos openai/gpt-5.6-terra paa .env.humanerd (via OpenRouter-kredit); kladde i kladder/10-tallet.md. Nummerets bedste artikel og praecis det, briefen bad om. Kladden byggede selv sammenligningstabellen 2023 mod 2024, forklarede naevnerrevisionen korrekt og fandt den staerkeste maade at fremstille pointen paa: tre udsagn om Kina, der alle er sande samtidig og maaler forskellige ting. Den skrev ogsaa af sig selv, at 2023- og 2024-tallene for Kina derfor er UEGNEDE som udviklingskurve, og at en hoej taethed lige saa godt kan betyde en mindre industriel arbejdsstyrke som mange robotter. TILFOEJET af redaktionen: at ogsaa VERDENSGENNEMSNITTET falder fra 162 til 132, fordi Kina fylder saa meget i den globale opgoerelse, at en revision af kinesiske arbejdsmarkedsdata traekker hele verdenstallet med sig. Kladden havde tabellen med tallet, men drog ikke slutningen. RETTELSER: kladden satte broekformlen i LaTeX-display (\\[ ... \\div ... \\]), som ikke renderes i markdown og ville staa som raa kode paa siden; omskrevet til prosa. Bloede bindestreger (U+00AD) var lakket ind i ordet robottaethed hele vejen igennem. Fodnote 3 var defineret uden nogensinde at blive refereret — det ville have udloest fodnotefejl i check_issue. Og fodnote 1 og 2 pegede begge paa den generiske IFR-rapportside; erstattet af de tre konkrete pressemeddelelser af 20. november 2024, 8. april 2026 og 25. september 2025, saa hvert tal kan foeres tilbage til sin egen udgivelse med dato."
       }
     },
     {
       "slug": "paastandskontoret",
-      "order": 12,
+      "order": 11,
       "section": "Påstandskontoret",
       "brief": {
-        "angle": "Afmonter tre påstande: humanoiden erstatter straks armen; Kina vinder fordi landet har flest robotter; AI alene løser sikkerhed.",
+        "angle": "Afmontér tre-fire paastande om robotter paa arbejde — uden messesprog og uden at blive afvisende, for flere af dem har en kerne af noget rigtigt. FORSLAG: (1) 'Humanoider er lige om hjoernet.' Hold den op mod, at verden installerede 542.000 INDUSTRIrobotter i 2024, mens de mest fremskredne humanoidforloeb taeller i enkeltrobotter og faa tusinde driftstimer — Figure 02 hos BMW naaede ca. 1.250 timer over 11 maaneder, altsaa omtrent fire timer pr. arbejdsdag. (2) 'En robot i en video kan det, videoen viser.' Forklar teleoperation, forudprogrammeret bevaegelse, klipning og udvalgte forsoeg — og hvad man kan kigge efter. (3) 'Robotter tager arbejdet.' Her skal du vaere aerlig i begge retninger: automatisering flytter og omfordeler arbejde og aendrer hvilke jobs der findes hvor, men den simple ligning robot-ind-menneske-ud holder ikke, og en artikel som denne kan ikke afgoere beskaeftigelsesspoergsmaalet. Sig det, i stedet for at lade som om. (4) 'Der findes regler for det hele.' ISO 10218 blev revideret i 2025, men ISO 25785-1 om dynamisk stabile robotter er stadig under udarbejdelse. ABSOLUT KRAV: opfind aldrig en undersoegelse, et citat eller et beskaeftigelsestal. Kan en paastand ikke afgoeres, saa skriv at den ikke kan afgoeres.",
         "words": [
-          160,
-          240
+          550,
+          800
         ],
         "mustCite": 2,
-        "mustNumber": [],
-        "format": "factcheck"
+        "format": "myter",
+        "mustNumber": [
+          "542.000",
+          "ca. 1.250 driftstimer",
+          "ISO 25785-1"
+        ]
       },
       "writer": {
         "byline": null,
-        "model": "editor-led",
-        "fallback": null
+        "model": "anthropic/claude-opus-4.8",
+        "fallback": "deepseek/deepseek-v3.2"
       },
       "receipt": {
-        "words": null,
-        "costUSD": null,
-        "draft": null
+        "words": 569,
+        "costUSD": 0.05929,
+        "draft": "kladder/11-paastandskontoret.md",
+        "costRouting": "byok",
+        "generationId": "gen-1786337211-c412SjJ7qmIdXOh9P3WG"
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
-        "citations": 2,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-09",
+        "citations": 4,
+        "editorNote": "REELT kommissioneret hos anthropic/claude-opus-4.8 paa .env.humanerd (BYOK); kladde i kladder/11-paastandskontoret.md. Kladden ramte alle tre paakraevede punkter og skrev nummerets mest principfaste passage helt af sig selv: paa beskaeftigelsesspoergsmaalet erklaerede den udtrykkeligt i artiklen, at det ikke kan afgoeres paa det foreliggende grundlag, at forskningen ikke er entydig, og at 'at paastaa et konkret jobtab eller en konkret jobgevinst her ville vaere at opfinde et tal. Det goer vi ikke.' Sjette gang i denne genopbygning at en model afstaar fra et tal frem for at gaette — og anden gang afstaaelsen skrives ind i den faerdige tekst som en pointe til laeseren. Ogsaa staerk paa listen over hvad der kan staa mellem klippet og virkeligheden, og paa raadet om at en tryg producent gerne viser det kedelige uden snit. FEJL RETTET, ARVET FRA MIN EGEN BRIEF: kladden regnede 1.250 driftstimer om til 'omkring fire timer pr. arbejdsdag'. Briefen paastod det samme, og det er forkert — over godt 240 arbejdsdage er det ca. fem timer. Rettet, saa tallet nu stemmer med Humanoiden. Alle tre fodnoter var bare domaener (ifr.org, figure.ai, iso.org); erstattet af fire verificerede sider. Tilfoejet krydslinks til Humanoiden, Hjernen og Europa, saa bagsniddet binder nummeret sammen frem for at gentage det."
       }
     }
   ],
-  "integrityNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+  "integrityNote": "Genopbygget 2026-08-09. Nr. 1 blev oprindeligt udgivet 2026-08-01 med byline til navngivne modeller, uden costUSD, uden kladdereference og uden kladdefil for nogen artikel; OpenRouter-noeglen for titlen viste, at kaldene aldrig var foretaget. Ledgeren blev nulstillet til editor-led 2026-08-08. To kladder laa i kladder/ (02, 03) uden kvittering og med et registreret forbrug paa 0,0006 USD, som er for lille til at have produceret dem — de er udokumenterede og bliver overskrevet af rigtige bestillinger, ikke genbrugt.",
+  "researchNote": "ADVARSEL: naar IKKE modellens prompt — kun brief.angle. Kontrolleret 2026-08-09. IFR WORLD ROBOTICS 2025 (pressemeddelelse 25. september 2025, dataaar 2024): 542.000 industrirobotter installeret globalt i 2024; driftsbestand 4.664.000 (+9 %). Asien 74 % af nyinstallationer, Europa 16 %, Amerika 9 %. Top 5: Kina 295.000 (54 % af verdensmarkedet), Japan 44.500, USA 34.200, Sydkorea 30.600, Tyskland 26.982. Kinas driftsbestand over 2 mio.; Japans 450.500. Europa i alt 85.000 (EU 67.800), Amerika 50.100. Kinesiske producenter naaede 57 % af deres hjemmemarked i 2024. Prognose ca. 575.000 i 2025 og over 700.000 i 2028. ROBOTTAETHED (IFR-pressemeddelelse 8. april 2026, dataaar 2024): globalt gennemsnit 132 pr. 10.000 ansatte; Sydkorea 1.220, Singapore 818, Tyskland 449, Japan 446, USA 307, Kina 166. Vesteuropa 267, EU-27 231, Nordamerika 204, Asien 131. TIL SAMMENLIGNING dataaar 2023 (World Robotics 2024, 20. november 2024): globalt 162, Sydkorea 1.012, Singapore 770, Kina 470, Tyskland 429, Japan 419, USA 295. KINAS FALD FRA 470 TIL 166 ER EN NAEVNERAENDRING: Kinas nationale statistikbureau reviderede arbejdsmarkedsdataene, saa naevneren voksede. Kina automatiserede ikke mindre — landet installerede samtidig 295.000 robotter. SIKKERHED: ISO 10218-1:2025 og -2:2025 udkom i 2025 efter ca. otte aars arbejde. Begrebet 'kollaborativ robot' er udgaaet — standarden skelner ikke laengere mellem industrirobot og cobot; indholdet fra ISO/TS 15066 er indarbejdet; to klasser (klasse 1 for meget svage robotter med lempede krav, klasse 2 for alle andre); cybersikkerhedskrav tilfoejet. ISO 25785-1 om DYNAMISK STABILE robotter — dem, der kraever aktiv balancestyring for at blive staaende, altsaa gaaende humanoider — er STADIG UNDER UDARBEJDELSE. HUMANOIDER: BMW oplyste til The Robot Report, at man startede med ÉN robot til teknisk evaluering i Spartanburg. August 2024: forsoeg over nogle uger, hvor Figure 02 satte pladedele i fikstur til svejsning. Figure 02 koerte ca. 11 maaneder i karrosserifabrikken; selskabets egen opgoerelse: ca. 1.250 driftstimer, over 90.000 komponenter, bidrag til over 30.000 BMW X3. 1.250 timer over 11 maaneder er ca. fire timer pr. arbejdsdag — ikke et skift. Figures direktoer omtalte en 'flaade' i 'end-to-end-drift'; BMW's egen beskrivelse var smallere, og han bestred daekningen og truede med retssag. BMW har sidenhen annonceret Figure 03 til en sekvenseringsopgave i logistik. AGILITY ROBOTICS: Digit hos GXO paa Flowery Branch-anlaegget (Spanx' varer) er den foerste kommercielle humanoidudsaettelse og den foerste Robots-as-a-Service-aftale for humanoider, flerarig. Digit flytter kasser fra cobots til transportbaand, styret af Agility Arc. Agility oplyser over 100.000 flyttede kasser. Toyota Motor Manufacturing Canada indsaetter ogsaa Digit. Apptroniks Apollo pilot hos Mercedes-Benz. ALLE SELSKABSTAL SKAL MAERKES SOM SELSKABETS EGNE."
 }
