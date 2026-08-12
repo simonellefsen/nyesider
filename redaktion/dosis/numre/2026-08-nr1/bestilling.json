@@ -5,13 +5,13 @@
   "issueTheme": "Protein-æraen",
   "retrofitNote": "Denne fil blev skrevet EFTER udgivelse (2026-08-01), som skabelon-eksempel for redaktion/README.md's nye trin 3-4 — DOSIS nr. 1 blev produceret før bestilling.json fandtes, så det oprindelige brief-ordlyd er ikke bevaret. brief.* felter er rekonstrueret fra den færdige artikel og notesbogen; receipt.words og verdict.citations er talt direkte i det publicerede indhold og er præcise. writer.model (OpenRouter-id) er bedste gæt ud fra byline — verificér mod redaktion/modeller.json før du stoler på dem til noget automatiseret.",
   "budget": {
-    "articles": 14,
+    "articles": 13,
     "wordsPerArticle": [
-      150,
-      450
+      500,
+      800
     ],
     "targetPages": 16,
-    "note": "Intet ordmål blev skrevet ned før produktion. Faktisk output landede 87-431 ord/artikel (median ~200) — lavere end HORISONTEN nr. 1's 450-650-mål. Dette interval er observeret, ikke bestilt."
+    "note": "Den afpublicerede udgave var 14 artikler paa 3.680 ord — gennemsnit 263, og flere features under 250. Ordbogen fjernes jf. notesbogens formatregel. Notesbogen angav 200-350 ord pr. feature; det loft haeves bevidst til 500-800, som i de oevrige genopbyggede numre. Et sundhedsmagasin, der skal naa baade anbefaling, maalgruppe, forbehold og evidensniveau, kan ikke goere det paa 263 ord — og netop derfor blev flere af de gamle artikler til raad uden forbehold."
   },
   "opgaver": [
     {
@@ -19,10 +19,10 @@
       "order": 1,
       "section": "Leder",
       "brief": {
-        "angle": "Velkommen til DOSIS nr. 1 — hvorfor protein-æraen og hvad magasinet dækker.",
+        "angle": "Hvorfor DOSIS, og hvorfor protein foerst. Bladet er sassy skepsis, ikke wellness-guru: vi gengiver anbefalinger med kilde og maalgruppe og giver aldrig dosisraad. Skal sige rent ud, hvad vi lover om tal, evidensniveau og byline.",
         "words": [
-          150,
-          250
+          400,
+          550
         ],
         "mustCite": 0,
         "format": "leder"
@@ -33,15 +33,15 @@
         "fallback": null
       },
       "receipt": {
-        "words": 202,
+        "words": 399,
         "costUSD": null,
         "draft": null
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
+        "status": "rewritten-by-editor",
+        "checkedAt": "2026-08-09",
         "citations": 0,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "editorNote": "Skrevet af chefredaktionen. INGEN byline og intet API-kald — writer.model er 'editor-led'. Lederen skriver husets tre sundhedsregler ud til laeseren: ingen dosisraad, altid maalgruppe, altid evidensniveau. Den naevner ogsaa de to konkrete fund, faktatjekket gav: den foraeldede D-vitaminanbefaling og DOI'en, der foerte til en artikel om kystklitter."
       }
     },
     {
@@ -49,29 +49,36 @@
       "order": 2,
       "section": "Gennembrud & forskning",
       "brief": {
-        "angle": "Hvorfor protein pludselig er overalt — fra bodybuilding til morgenyoghurt.",
+        "angle": "Hvorfor protein blev aartiets naeringsstof — og hvad videnskaben faktisk siger. De nordiske naeringsstofanbefalinger fra 2023 (Nordic Nutrition Recommendations, NNR2023) saetter voksnes anbefalede indtag til 0,83 g protein pr. kg kropsvaegt om dagen, med et gennemsnitligt behov paa 0,66 g/kg. Som andel af energien anbefales 10-20 energiprocent, med 15 % til planlaegning. For AELDRE er anbefalingen hoejere: 1,2-1,5 g/kg, ca. 15-20 energiprocent, fordi indtag over det almindelige ser ud til at modvirke tab af fysisk funktion. SKRIV DEREFTER ARTIKLENS EGENTLIGE AERINDE: de fleste voksne danskere faar allerede rigeligt protein gennem kosten, og proteinmaerkningen paa yoghurt, brod og chokoladebarer loeser derfor sjaeldent et problem, koeberen har. Forklar hvorfor markedet alligevel vokser — maethed, traening, og at 'protein' er blevet et sundhedssignal snarere end et naeringsstof. Vaer praecis om, hvem der reelt kan have et forhoejet behov (aeldre, folk i restitution efter sygdom, nogle idraetsudoevere) og skriv, at det er en samtale med en fagperson, ikke en hyldevare. INGEN DOSISRAAD til laeseren.",
         "words": [
-          180,
-          280
+          600,
+          850
         ],
         "mustCite": 2,
-        "format": "feature"
+        "format": "feature",
+        "mustNumber": [
+          "0,83 g/kg",
+          "10-20 E%",
+          "1,2-1,5 g/kg (ældre)"
+        ]
       },
       "writer": {
         "byline": null,
-        "model": "editor-led",
+        "model": "anthropic/claude-opus-4.8",
         "fallback": "deepseek/deepseek-v3.2"
       },
       "receipt": {
-        "words": 215,
-        "costUSD": null,
-        "draft": null
+        "words": 588,
+        "costUSD": 0.06385,
+        "draft": "kladder/02-protein-aeraen.md",
+        "costRouting": "byok",
+        "generationId": "gen-1786477113-ds42FpIjWT676VYmIlxC"
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
-        "citations": 0,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-09",
+        "citations": 3,
+        "editorNote": "REELT kommissioneret hos anthropic/claude-opus-4.8 paa .env.dosis (BYOK); kladde i kladder/02-protein-aeraen.md. Kladden ramte alle tre paakraevede tal og overholdt husets vigtigste regel uden at blive mindet om den undervejs: ingen dosisraad, og en udtrykkelig henvisning til laege eller klinisk diaetist for dem med reelt forhoejet behov. Bedste egne greb: at forskellen mellem gennemsnitligt behov og anbefalet indtag ER en sikkerhedsmargin og ikke et maal, man skal jagte opad, og at proteinmaerkningen loeser et FOELT problem frem for et faktisk. Ogsaa praecis paa de tre grupper med reelt forhoejet behov. KILDEFUND, tilfoejet af redaktionen: den videnskabelige scoping review bag NNR2023-kapitlet (Geirsdottir og Pajari, Food & Nutrition Research 2023) pegede paa 1,0-1,2 g/kg for personer over 65, mens den ENDELIGE anbefaling landede paa 1,2-1,5. Afstanden mellem evidensgennemgang og anbefaling er skrevet ind som en pointe, fordi den viser laeseren, hvordan en anbefaling faktisk bliver til — og fordi netop 1,2-1,5 ofte citeres som var det en naturkonstant. Det er ogsaa husets regel om at skelne evidensniveau, anvendt paa vores egen kilde. Fodnoterne var dels et bart domaene (food.dtu.dk), dels et norden.org-link; erstattet af den direkte PDF af NNR2023's proteinkapitel, som er laesbar, samt PMC-udgaven af gennemgangen."
       }
     },
     {
@@ -79,32 +86,37 @@
       "order": 3,
       "section": "Protein & træning",
       "brief": {
-        "angle": "Hvor mange gram protein har en almindelig voksen faktisk brug for — anbefaling vs. influencer-regneark.",
+        "angle": "Gram, myter og den kedelige midtervej. Forklar foerst FORSKELLEN paa de to tal, som altid blandes sammen: gennemsnitligt behov (AR) paa 0,66 g/kg kropsvaegt om dagen er det, halvdelen af befolkningen har brug for; anbefalet indtag (RI) paa 0,83 g/kg er sat hoejere, saa det daekker stort set alle. Et anbefalet indtag er altsaa allerede en sikkerhedsmargin — ikke et minimum, man skal overgaa. Regn ét eksempel igennem for laeseren, saa tallet bliver konkret, og skriv tydeligt at det er kropsvaegt, ikke en fast portion. AELDRE: 1,2-1,5 g/kg, med begrundelsen at det modvirker tab af muskelmasse og fysisk funktion — her er der altsaa en reel grund til at taenke over det. Afmontér derefter to udbredte forestillinger, uden at goere det til en foredragsholder-liste: at kroppen kun kan optage en bestemt maengde protein pr. maaltid (fordelingen betyder noget for muskelopbygning, men det er ikke det samme som at resten er spildt), og at meget hoejt proteinindtag i sig selv er nyrefarligt for raske voksne. Skriv om det sidste, at det er noget andet for mennesker med nyresygdom, og at det er en sag for laegen. INGEN DOSISRAAD.",
         "words": [
-          180,
-          280
+          550,
+          800
         ],
         "mustCite": 2,
+        "format": "feature",
         "mustNumber": [
-          "g/kg kropsvægt"
-        ],
-        "format": "feature"
+          "0,66 g/kg (AR)",
+          "0,83 g/kg (RI)",
+          "1,2-1,5 g/kg (65+)",
+          "15 E%"
+        ]
       },
       "writer": {
         "byline": null,
-        "model": "editor-led",
+        "model": "openai/gpt-5.6-terra",
         "fallback": "deepseek/deepseek-v3.2"
       },
       "receipt": {
-        "words": 218,
-        "costUSD": null,
-        "draft": null
+        "words": 496,
+        "costUSD": 0.015971,
+        "draft": "kladder/03-hvor-meget-protein.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1786477938-soQMr5evC5TOqfssJcuf"
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
-        "citations": 0,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-09",
+        "citations": 3,
+        "editorNote": "REELT kommissioneret hos openai/gpt-5.6-terra paa .env.dosis (via OpenRouter-kredit); kladde i kladder/03-hvor-meget-protein.md. Kladden ramte alle fire tal, regnede eksemplet igennem som bestilt (70 kg giver 46 g mod 58 g) og forklarede korrekt, at anbefalet indtag ALLEREDE er en sikkerhedsmargin og ikke et minimum. Den holdt sig ogsaa fra dosisraad og henviste nyrespoergsmaalet til laege eller klinisk diaetist. GENOPBYGNINGENS ALVORLIGSTE KILDEFUND. Kladden angav fire referencer med DOI. ALLE FIRE DOI'ER OPLOESES — en linktjekker godkender dem alle. To af dem peger paa noget helt andet end det, de er anfoert som: (a) 10.29219/fnr.v67.10299 er ikke NNR2023 generelt, men NIACIN-kapitlets scoping review i samme tidsskrift. (b) 10.1002/esp.4780, anfoert som ESPEN's kliniske ernaeringsretningslinje for geriatri i Clinical Nutrition, oploeses til 'Terrestrial LiDAR monitoring of coastal foredune evolution in managed and unmanaged systems' i Earth Surface Processes and Landforms — kystmorfologi. Praefikset 10.1002/esp tilhoerer et geovidenskabeligt tidsskrift, ikke ESPEN. De to oevrige var korrekte: EFSA's referencevaerdier for protein og ISSN's position stand om protein og traening. LAERINGEN GENERALISERER FUNDET FRA DE OEVRIGE NUMRE: ligesom en adresse kan svare 200 med forkert indhold, kan en DOI oploese korrekt og identificere det forkerte arbejde. Metoden, der fangede det, er billig og skal bruges hver gang: hent DOI'ens metadata med Accept: application/vnd.citationstyles.csl+json og LAES titel og tidsskrift. Den rigtige ESPEN-reference er Volkert m.fl., Clinical Nutrition 2022, bind 41 nr. 4, s. 958-989, DOI 10.1016/j.clnu.2022.01.024; den er indsat, og NNR-henvisningen er skiftet til proteinkapitlets egen PDF."
       }
     },
     {
@@ -112,29 +124,31 @@
       "order": 4,
       "section": "Ernæring & kost",
       "brief": {
-        "angle": "Kost som mønster, ikke som abonnement — tallerkenen frem for posen.",
+        "angle": "Ernaering, der ikke er et abonnement. Artiklen skal vaere det rolige modstykke til resten af nummeret: hvad man kan spise, frem for hvad man kan koebe. Tag udgangspunkt i, at de officielle danske kostraad er formuleret som maden paa tallerkenen — belgfrugter, fuldkorn, groentsager, fisk, mindre koed — og at protein i praksis foelger med, naar man spiser saadan. Vis konkret, hvor proteinet er i en almindelig dansk hverdagskost: mejeriprodukter, aeg, belgfrugter, brod, fisk, koed. Skriv ogsaa den vigtige pointe, at sammensaetningen betyder noget ud over gram — belgfrugter leverer fibre, fisk leverer fedtsyrer, og et pulver leverer kun det, der staar paa daasen. UNDGAA at goere det til en moralsk skala over gode og daarlige spisere, og undgaa ordet 'ren' om mad. Tag ét afsnit om pris og tid, for det er den faktiske grund til, at mange vaelger genveje. ANGIV IKKE tal for kostens sammensaetning, du ikke kan kildebelaegge; henvis hellere til de officielle kostraad end at opfinde procenter.",
         "words": [
-          150,
-          250
+          550,
+          800
         ],
-        "mustCite": 0,
-        "format": "essay"
+        "mustCite": 2,
+        "format": "feature"
       },
       "writer": {
         "byline": null,
-        "model": "editor-led",
+        "model": "google/gemini-3.1-pro-preview",
         "fallback": "deepseek/deepseek-v3.2"
       },
       "receipt": {
-        "words": 190,
-        "costUSD": null,
-        "draft": null
+        "words": 435,
+        "costUSD": 0.068278,
+        "draft": "kladder/04-tallerkenen.md",
+        "costRouting": "byok",
+        "generationId": "gen-1786478396-DuTWdUhWzcd6XzlS9eaB"
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
-        "citations": 0,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-09",
+        "citations": 2,
+        "editorNote": "REELT kommissioneret hos google/gemini-3.1-pro-preview paa .env.dosis (BYOK); kladde i kladder/04-tallerkenen.md. Kladden ramte briefens kerne — foedevarematricen — og forklarede den bedre end bestilt: at et pulver leverer praecis det, der staar paa daasen, mens resten af madens sammensaetning er skraellet vaek. Den overholdt ogsaa udtrykkeligt forbuddet mod en moralsk skala og skrev, at valget af faerdigloesninger er rationelt i en presset uge, og at et scoop valleprotein ikke goer nogen til en daarligere spiser. Begge fodnoter havde rigtige, fungerende adresser hos Foedevarestyrelsen — anden kladde i genopbygningen uden en eneste bar domaenehenvisning. REDAKTIONELT: sproget var for opskruet til husets tone (skinnende boetter, i den grad maerkes paa dankortet, utrolig meget) og er strammet ca. 15 % ned med mellemrubrikker. Tilfoejet en enkelt saetning, kladden manglede: at pointen om matricen ikke er, at pulver er skadeligt, men at samme gram protein ikke er det samme maaltid — ellers kunne afsnittet laeses som en dom, hvilket briefen frabad sig."
       }
     },
     {
@@ -142,32 +156,35 @@
       "order": 5,
       "section": "Mad i praksis",
       "brief": {
-        "angle": "Hvornår shakeren slår almindelig mad — og hvornår omvendt.",
+        "angle": "Hvornaar shakeren faktisk vinder. Ikke en dom over pulver, men en liste over de situationer, hvor et proteintilskud loeser et reelt problem: naar appetitten er lille under eller efter sygdom, naar en aeldre skal naa 1,2-1,5 g/kg og ikke kan spise sig til det, naar der er kort tid mellem traening og naeste maaltid, eller naar man rejser. Og saa den anden side: for en rask voksen med almindelig kost, der allerede naar de 0,83 g/kg, tilfoejer et pulver hovedsageligt pris. Skriv om, hvad man betaler for — gram protein pr. krone er en brugbar sammenligning, og maelkeprodukter er ofte billigere pr. gram end pulver. Tag ogsaa de praktiske forskelle: pulver er hurtigt og maaleligt, mad maetter laengere og bringer andet med sig. Naevn at proteinbarer og proteinberiget yoghurt er samme kategori som pulver, ikke som mad. OG VIGTIGT: tilskud er ikke reguleret som laegemidler — se artiklen om tilskudsjunglen. INGEN DOSISRAAD; skriv i stedet hvilke spoergsmaal man kan stille.",
         "words": [
-          180,
-          300
+          550,
+          800
         ],
-        "mustCite": 1,
+        "mustCite": 2,
+        "format": "feature",
         "mustNumber": [
-          "g protein/kg (NNR2023)"
-        ],
-        "format": "feature"
+          "0,83 g/kg",
+          "1,2-1,5 g/kg (ældre)"
+        ]
       },
       "writer": {
         "byline": null,
-        "model": "editor-led",
+        "model": "anthropic/claude-sonnet-5",
         "fallback": "deepseek/deepseek-v3.2"
       },
       "receipt": {
-        "words": 276,
-        "costUSD": null,
-        "draft": null
+        "words": 531,
+        "costUSD": 0.038308,
+        "draft": "kladder/05-pulver-vs-mad.md",
+        "costRouting": "byok",
+        "generationId": "gen-1786478258-4lfjOWKrwHbaYtRuqcto"
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
-        "citations": 1,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-09",
+        "citations": 2,
+        "editorNote": "REELT kommissioneret hos anthropic/claude-sonnet-5 paa .env.dosis (BYOK); kladde i kladder/05-pulver-vs-mad.md. Kladden loeste briefen praecist og uden at faelde dom: fire konkrete situationer hvor tilskud loeser et reelt problem, og det modsatte tilfaelde hvor det mest tilfoejer en udgift. Bedste egne greb: gram protein pr. krone som den brugbare sammenligning, 'sammenlign det samme, ikke pose med boef', og at proteinbarer og proteinberiget yoghurt hoerer til samme kategori som pulveret og ikke som mad. Den sluttede desuden med spoergsmaal frem for raad, som bestilt. KILDEKONTROL: kladden angav uopfordret Bauer, Biolo, Cederholm m.fl., PROT-AGE, Journal of the American Medical Directors Association 2013, med DOI. KONTROLLERET VIA DOI-METADATA OG KORREKT — bind 14, s. 542-559, forfatterraekken stemmer. Ottende verificerede uopfordrede reference i genopbygningen, og foerste gang DOI-metoden bekraefter frem for at afsloere. PRAECISERET: kladden tillagde PROT-AGE intervallet 1,2-1,5 g/kg. PROT-AGE anbefaler mindst 1,0-1,2 g/kg for raske aeldre og mere ved sygdom; 1,2-1,5 er NNR2023's tal. Begge staar nu med hver sin kilde, saa laeseren kan se, at to organer naaede forskellige intervaller. Sproglige fejl rettet: det engelske 'especially' midt i broedteksten, koen i 'det saakaldte anabolske modstand', og escape-sekvenser. Krydshenvisningen til Tilskudsjunglen er gjort til et rigtigt link."
       }
     },
     {
@@ -175,32 +192,37 @@
       "order": 6,
       "section": "Vitaminer & mineraler",
       "brief": {
-        "angle": "D-vitamin i nordisk mørke — mangel, megadoser og midten.",
+        "angle": "Nordisk moerke, anbefalinger og den graense, folk husker forkert. GENGIV SUNDHEDSSTYRELSENS AKTUELLE ANBEFALINGER PRAECIST og med maalgruppe, for det er artiklens egentlige nytte. Boern over 4 aar og voksne uden for risikogrupper: 10 mikrogram dagligt fra oktober til april, fordi huden paa vores breddegrader ikke danner D-vitamin i vinterhalvaaret. Aaret rundt 10 mikrogram for boern 0-4 aar, gravide, ammende, personer med moerk hud, personer der daekker sig til, og personer der faar lidt sol. Voksne over 70, plejehjemsbeboere og personer med oeget risiko for knogleskoerhed: 20 mikrogram dagligt sammen med 800-1000 mg calcium. Den oevre sikre graense er 100 mikrogram dagligt for boern fra 11 aar og voksne, inklusive gravide og ammende. SKRIV UDTRYKKELIGT, AT ANBEFALINGERNE ER OPDATERET — siden er senest opdateret 4. november 2025 — og at aeldre formuleringer som «5-10 mikrogram» og en oevre graense paa 50 mikrogram stadig cirkulerer i artikler og paa pakninger. Det er praecis den slags forældet raad, et sundhedsmagasin skal fange. Skriv derefter nuanceret om evidensen: D-vitamin og knoglesundhed staar staerkt, mens de mange observationsstudier, der forbinder hoej D-vitaminstatus med lavere risiko for alt muligt andet, ikke er blevet bekraeftet af randomiserede forsoeg. Forklar forskellen paa de to studietyper for en almindelig laeser. INGEN DOSISRAAD ud over at gengive myndighedens anbefaling med maalgruppe; skriv at maaling af D-vitaminstatus er en laegefaglig beslutning, ikke en hyldevare.",
         "words": [
-          150,
-          250
+          600,
+          850
         ],
-        "mustCite": 1,
+        "mustCite": 3,
+        "format": "feature",
         "mustNumber": [
-          "µg/dag (SST)"
-        ],
-        "format": "feature"
+          "10 mikrogram (okt.-apr.)",
+          "20 mikrogram (70+)",
+          "800-1000 mg calcium",
+          "100 mikrogram (øvre grænse)"
+        ]
       },
       "writer": {
         "byline": null,
-        "model": "editor-led",
-        "fallback": "google/gemini-3.5-flash"
+        "model": "anthropic/claude-opus-4.8",
+        "fallback": "deepseek/deepseek-v3.2"
       },
       "receipt": {
-        "words": 186,
-        "costUSD": null,
-        "draft": null
+        "words": 620,
+        "costUSD": 0.06341,
+        "draft": "kladder/06-d-vitamin.md",
+        "costRouting": "byok",
+        "generationId": "gen-1786477325-ylpSyDl5vJBMQsqNn6pa"
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
-        "citations": 1,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-09",
+        "citations": 3,
+        "editorNote": "REELT kommissioneret hos anthropic/claude-opus-4.8 paa .env.dosis (BYOK); kladde i kladder/06-d-vitamin.md. Kladden gengav alle fire paakraevede tal korrekt og med maalgruppe, som husreglen kraever, og den fangede selv begge de foraeldede tal — 5-10 mikrogram og den gamle oevre graense paa 50 — med den rigtige begrundelse for, hvorfor de betyder noget: den ene faar folk til at tage det halve, den anden faar dem til at tro, loftet er halvt saa hoejt. Forklaringen paa observationsstudier mod randomiserede forsoeg er praecis og laesbar, og den holdt sig fra dosisraad hele vejen. KILDEKONTROL: kladden angav uopfordret Manson JE m.fl., VITAL-forsoeget, New England Journal of Medicine 2019. KONTROLLERET OG KORREKT — bind 380, s. 33-44, offentliggjort 3. januar 2019. Syvende gang i denne genopbygning at en model leverer en verificerbar videnskabelig reference af sig selv. FUND VED KILDEKONTROLLEN, tilfoejet af redaktionen: VITAL har ogsaa en knoglebrudsdel (LeBoff MS m.fl., NEJM 2022, bind 387 nr. 4, s. 299-309), som blandt 25.871 generelt raske voksne IKKE fandt faerre brud. Kladden skrev, at 'knoglerne holder', hvilket er for firkantet. Den praecise sandhed er, at VITAL testede raske uden kendt mangel, mens Sundhedsstyrelsens anbefaling gaelder mennesker med oeget risiko og lyder paa D-vitamin SAMMEN med calcium. Det er to forskellige spoergsmaal med to forskellige svar, og den skelnen er nu artiklens kerne — den bedste illustration i nummeret af husreglen om at skelne evidensniveau. Fodnote 1 og 2 var bare domaener eller uden adresse; alle tre er nu verificerede. Anglicismen 'you name it' fjernet."
       }
     },
     {
@@ -208,29 +230,37 @@
       "order": 7,
       "section": "Tilskud, piller & væsker",
       "brief": {
-        "angle": "Kosttilskud er reguleret — men ikke som medicin. Hvad betyder det for tilliden?",
+        "angle": "Hvad etiketten ikke garanterer. Start ved forbruget: seks ud af ti danskere tager et eller flere kosttilskud ifoelge DTU Foedevareinstituttet, og blandt kvinder over 18 bruger 71 % multivitamin mod 57 % af maendene — men skriv ogsaa, at de tal stammer fra en undersoegelse gennemfoert 2011-2013 blandt 3.980 deltagere og altsaa ikke er friske. En laeser skal kunne se, hvor gammelt et tal er. KERNEN I ARTIKLEN er reguleringsforskellen: kosttilskud godkendes ikke som laegemidler foer salg. Producenten er ansvarlig for sikkerhed og maerkning, og kontrollen er stikproever bagefter. Det betyder ikke, at tilskud er farlige — det betyder, at «det staar paa pakken» ikke er den samme garanti som ved medicin. Illustrér med den amerikanske opgoerelse: JAMA Network Open gennemgik i 2018 FDA's advarsler fra 2007 til 2016 og fandt 776 kosttilskud med ikke-godkendte laegemiddelstoffer fra 146 firmaer. Omkring 45 % var markedsfoert til seksuel ydeevne, 41 % til vaegttab og 12 % til muskelopbygning; de hyppigste stoffer var sildenafil, sibutramin og syntetiske steroider, og i langt de fleste tilfaelde stod de ikke paa etiketten. SKRIV TYDELIGT FORBEHOLDET: det er amerikanske data fra 2007-2016 under et andet regelsaet end det danske og europaeiske, og tallet kan ikke overfoeres til en dansk hylde. Det viser en saarbarhed i produktkategorien, ikke en dansk statistik. Slut med, hvad en koeber faktisk kan goere: koeb fra kendte forhandlere, vaer skeptisk over for produkter, der lover hurtig effekt paa vaegt, potens eller muskler, og tal med laege eller apotek ved fast medicin, fordi tilskud kan paavirke den. INGEN DOSISRAAD.",
         "words": [
-          180,
-          300
+          600,
+          850
         ],
-        "mustCite": 2,
-        "format": "feature"
+        "mustCite": 3,
+        "format": "feature",
+        "mustNumber": [
+          "6 ud af 10 danskere",
+          "776 produkter",
+          "146 firmaer",
+          "45 % / 41 % / 12 %"
+        ]
       },
       "writer": {
         "byline": null,
-        "model": "editor-led",
+        "model": "anthropic/claude-sonnet-5",
         "fallback": "deepseek/deepseek-v3.2"
       },
       "receipt": {
-        "words": 285,
-        "costUSD": null,
-        "draft": null
+        "words": 520,
+        "costUSD": 0.038486,
+        "draft": "kladder/07-tilskudsjunglen.md",
+        "costRouting": "byok",
+        "generationId": "gen-1786477492-Qyes1NuM1oZOXAWE7F6X"
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
-        "citations": 2,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-09",
+        "citations": 4,
+        "editorNote": "REELT kommissioneret hos anthropic/claude-sonnet-5 paa .env.dosis (BYOK); kladde i kladder/07-tilskudsjunglen.md. Kladden ramte alle fire tal og gjorde uopfordret det, briefen bad om i baade retninger: den skrev udtrykkeligt, at de danske forbrugstal er over ti aar gamle og skal laeses som et oejebliksbillede, OG at de amerikanske FDA-tal ikke kan regnes om til en dansk hyldeandel. Formuleringen 'en advarsel om systemet, ikke en dansk statistik' er kladdens egen og er praecis den skelnen, artiklen skal levere. Den angav ogsaa Tucker m.fl., JAMA Network Open 2018, med korrekt DOI. FAKTUEL RETTELSE — VIGTIG: kladden skrev, at der ikke er nogen portvagt, og at kontrollen alene er stikproever bagefter. Det undervurderer dansk regulering. Kosttilskud, der markedsfoeres i Danmark, SKAL anmeldes til Foedevarestyrelsen, og nye stoffer kraever ansoegning om tilladelse forud for markedsfoering. Den praecise pointe er derfor ikke 'ingen kontrol', men at REGISTRERING IKKE ER GODKENDELSE: myndigheden registrerer, at produktet findes, og tester ikke, om det virker. Det er skrevet om og har faaet sin egen mellemrubrik, og artiklen er baade mere korrekt og skarpere for det. Fodnoterne: DTU var et bart domaene og Foedevarestyrelsens adresse gav 404 — begge erstattet af verificerede sider, og DOI-linket skiftet til den frit tilgaengelige PMC-udgave, da doi.org svarede 403. Escape-sekvenser (\\u00a0) lakket ud i broedteksten igen."
       }
     },
     {
@@ -238,29 +268,31 @@
       "order": 8,
       "section": "Proteser & implantater",
       "brief": {
-        "angle": "Hardware i hverdagen — hofte, knæ og sensorer, ikke kun smoothies.",
+        "angle": "Naar kroppen faar reservedele. Hofte- og knaealloplastik er blandt de mest udbredte planlagte operationer i Danmark — stoerrelsesordenen er omkring 11.000-13.000 primaere hofteoperationer og omkring 11.000 knaeoperationer om aaret, opgjort i Dansk Hoftealloplastik Register og Dansk Knaealloplastik Register. ANGIV STOERRELSESORDEN OG REGISTERNAVN, ikke et praecist aarstal du ikke kan kildebelaegge. Skriv derefter det, der goer emnet interessant for DOSIS: Danmark har landsdaekkende kvalitetsregistre, hvor hver operation registreres, saa man kan foelge, hvor laenge et implantat holder, og hvornaar det maa udskiftes. Det er en form for offentlig kvalitetskontrol, som ikke findes for kosttilskud — og den kontrast er artiklens pointe. Beskriv konkret hvad et implantat er lavet af og hvorfor materialevalget betyder noget (slidflader, fiksering med eller uden cement), og hvad revision betyder. Vaer nuanceret om levetid: implantater holder typisk mange aar, men tallet afhaenger af alder, aktivitetsniveau og implantattype, og en yngre patient har stoerre sandsynlighed for at skulle have en revision i loebet af livet. INGEN OPERATIONSRAAD; skriv at indikationen stilles i samraad med en ortopaedkirurg.",
         "words": [
-          120,
-          220
+          550,
+          800
         ],
-        "mustCite": 1,
+        "mustCite": 2,
         "format": "feature"
       },
       "writer": {
         "byline": null,
-        "model": "editor-led",
+        "model": "google/gemini-3.1-pro-preview",
         "fallback": "deepseek/deepseek-v3.2"
       },
       "receipt": {
-        "words": 132,
-        "costUSD": null,
-        "draft": null
+        "words": 512,
+        "costUSD": 0.080966,
+        "draft": "kladder/08-implantater.md",
+        "costRouting": "byok",
+        "generationId": "gen-1786478520-hNMTAxqlDpFdEhMq2K5d"
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
-        "citations": 0,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-09",
+        "citations": 2,
+        "editorNote": "REELT kommissioneret hos google/gemini-3.1-pro-preview paa .env.dosis (BYOK); kladde i kladder/08-implantater.md. Kladden ramte briefens kontrast praecist — at Danmark har landsdaekkende kvalitetsregistre, hvor hver operation foelges, og at den slags offentlig kontrol ikke findes for kosttilskud — og den gav den bedste tekniske forklaring i nummeret: slidflader, krydsbundet polyaetylen, cementeret mod ucementeret fiksering, og hvorfor en yngre aktiv patient har stoerre sandsynlighed for revision. Den skrev ogsaa uopfordret forbeholdet om, at indikationen stilles i samraad med en ortopaedkirurg. TAL FJERNET EFTER KILDEKONTROL: kladden angav, at over 90 % af implantater holder mere end ti aar, med henvisning til Patienthaandbogen paa sundhed.dk. Adressen svarer 200, men sitet omdirigerer aktuelt til en vedligeholdelsesside, saa paastanden kunne ikke efterproeves. Efter husreglen om aldrig at angive et tal, der ikke kan kildebelaegges, er procenten taget ud og erstattet af en henvisning til registrenes aarsrapporter med overlevelseskurver — hvilket passer bedre til artiklens eget argument om, at netop de tal ER offentligt tilgaengelige. Artiklen siger nu udtrykkeligt, at vi ikke gengiver et tal, vi ikke kan pege paa siden i. Begge fodnoter er verificerede RKKP-sider. Redaktionelt strammet ca. 20 % (utrolig gerne, stenhaard data, raat titanium), engelsk fagterm oversat, og en navngiven produktreference fjernet jf. reglen om ikke at bruge maerker som reklame."
       }
     },
     {
@@ -268,29 +300,31 @@
       "order": 9,
       "section": "Hardware til kroppen",
       "brief": {
-        "angle": "Ur, CGM, blod- og urintest hjemme — data vs. diagnose.",
+        "angle": "Naar haandleddet og postkassen maaler dig. To ting skal skilles ad hele vejen: hvad apparatet MAALER, og hvad det KONKLUDERER. Et ur maaler ikke soevn; det maaler bevaegelse og puls og gaetter derefter paa soevnstadier. En kontinuerlig glukosemaaler (CGM) maaler ikke blodsukker direkte, men glukose i vaevsvaesken, med en tidsforskydning. En hjemmetest maaler en markoer i en proeve, du selv har taget. Forklar hvert af de tre trin og hvor usikkerheden ligger. Skriv derefter om det, der er nummerets vigtigste pointe her: en maaling uden en klinisk sammenhaeng kan skabe bekymring uden at give svar. En markoer let uden for referenceintervallet betyder noget helt andet hos en person med symptomer end hos en rask, der har testet sig selv af nysgerrighed — og et referenceinterval er defineret saadan, at en del af raske mennesker falder uden for det. Det er statistik, ikke sygdom. Skriv ogsaa om data: hvor ligger maalingerne, hvem kan se dem, og hvad sker der med dem ved salg af enheden eller lukning af en tjeneste. Vaer fair over for det, teknologien faktisk kan: trends over tid, motivation, og opdagelse af moenstre som uregelmaessig puls, der kan foere til en rigtig undersoegelse. INGEN DIAGNOSTIK OG INGEN DOSISRAAD; skriv at et unormalt resultat hoerer til hos en laege, ikke i et kommentarspor.",
         "words": [
-          250,
-          450
+          600,
+          850
         ],
         "mustCite": 2,
         "format": "feature"
       },
       "writer": {
         "byline": null,
-        "model": "editor-led",
+        "model": "openai/gpt-5.6-terra",
         "fallback": "deepseek/deepseek-v3.2"
       },
       "receipt": {
-        "words": 427,
-        "costUSD": null,
-        "draft": null
+        "words": 612,
+        "costUSD": 0.013568,
+        "draft": "kladder/09-wearables-og-hjemmetests.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1786478100-hKYx7aBYKT310u9O1dmU"
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
-        "citations": 0,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-09",
+        "citations": 4,
+        "editorNote": "REELT kommissioneret hos openai/gpt-5.6-terra paa .env.dosis (via OpenRouter-kredit); kladde i kladder/09-wearables-og-hjemmetests.md. Kladden loeste briefens kerne praecist: den holdt MAALER og KONKLUDERER adskilt gennem alle tre teknologier og skrev det bedste enkeltafsnit i nummeret om referenceintervaller — at intervallet daekker ca. 95 % af en rask referencegruppe, at nogle raske derfor per definition falder udenfor, og at sandsynligheden for mindst ét afvigende tal stiger med antallet af markoerer. 'Statistikken har ingen holdning til, om du foeler dig fin' er kladdens egen. Den var ogsaa god paa dataafsnittet, inkl. at en fabriksnulstilling ikke rydder historikken i skyen. ANDET DOI-FUND MED SAMME METODE: kladden angav DOI 10.5664/jcsm.8356 som American Academy of Sleep Medicines positionsudtalelse om forbrugersoevnteknologi. DOI'en oploeses — og journalen er endda den rigtige — men artiklen er en anden: 'Effect of wearables on sleep in healthy individuals: a randomized crossover trial and validation study', JCSM 2020. Rettet til den faktiske artikel, som passer bedre til pointen, fordi den baade validerer en forbrugermaaler mod klinisk maaling og undersoeger, hvad det goer ved soevnen at BAERE maaleren. To af de fire adresser var desuden gaettede og gav 404 (FDA's CGM-side og Datatilsynets engelske sundhedsdataside); begge erstattet af verificerede sider, og Datatilsynet nu paa dansk med den praecise definition af helbredsoplysninger som foelsomme personoplysninger. Rettet en cirkulaer formulering ('paa dansk ofte kaldet en kontinuerlig glukosemaaler')."
       }
     },
     {
@@ -298,29 +332,36 @@
       "order": 10,
       "section": "Longevity & aldring",
       "brief": {
-        "angle": "Blå zoner og biologisk alder — måling er spændende, salg er en forretning.",
+        "angle": "Blaa zoner, biologisk alder og dig. ARTIKLENS RYGRAD ER NEWMAN-FUNDET, og det skal skrives praecist. Demografen Saul Justin Newman ved University College London modtog Ig Nobelprisen i demografi den 12. september 2024 for arbejde, der viser, at regioner med paafaldende mange meget gamle mennesker foerst og fremmest er kendetegnet ved daarlig registerfoering. Kun omkring 18 % af verdens registrerede supercentenarier — mennesker paa 110 aar og derover — har en faktisk foedselsattest, og deres angivne foedselsdatoer klumper sig unaturligt om den foerste i maaneden og om datoer delelige med fem. Hoej forekomst af ekstrem alderdom forudsiges af fattigdom og af fravaer af foedselsattester, altsaa af noget, der ligner pensionssvindel og fejlregistrering snarere end af kost. Tag ogsaa Okinawa-eksemplet med: regionen fremhaeves for groentsager og soede kartofler, men ifoelge japanske myndighedstal har praefekturet landets laveste indtag af netop dem og det hoejeste BMI. SKRIV DET UDEN AT OVERDRIVE: pointen er ikke, at kost og livsstil er ligegyldige, eller at ingen bliver meget gamle. Pointen er, at datagrundlaget under den mest solgte longevity-fortaelling ikke baerer de konklusioner, der er bygget paa det. Skriv derefter kort og noegternt om «biologisk alder»-tests: de maaler en markoer og omregner den til et aarstal med en model, og forskellige tests giver forskellige svar paa den samme person. ANGIV IKKE et tal for, hvor meget livsstil betyder for levetid — det kan ikke afgoeres her.",
         "words": [
-          150,
-          250
+          600,
+          850
         ],
-        "mustCite": 1,
-        "format": "feature"
+        "mustCite": 3,
+        "format": "feature",
+        "mustNumber": [
+          "Ig Nobel 12. september 2024",
+          "ca. 18 % med fødselsattest",
+          "datoer delelige med 5"
+        ]
       },
       "writer": {
         "byline": null,
-        "model": "editor-led",
+        "model": "anthropic/claude-opus-4.8",
         "fallback": "deepseek/deepseek-v3.2"
       },
       "receipt": {
-        "words": 192,
-        "costUSD": null,
-        "draft": null
+        "words": 585,
+        "costUSD": 0.064005,
+        "draft": "kladder/10-longevity-hype.md",
+        "costRouting": "byok",
+        "generationId": "gen-1786477657-BR5udPsrmWokytatcS4v"
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
-        "citations": 1,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-09",
+        "citations": 2,
+        "editorNote": "REELT kommissioneret hos anthropic/claude-opus-4.8 paa .env.dosis (BYOK); kladde i kladder/10-longevity-hype.md. Nummerets bedste skrivning. Kladden ramte alle tre paakraevede punkter og skrev uopfordret et helt afsnit med overskriften 'Hvad pointen IKKE er' — praecis den daempning, briefen bad om, og bedre placeret end redaktionen ville have gjort det. Slutlinjen om at spise groentsager, fordi de er gode, og ikke fordi en 112-aarig uden foedselsattest sagde god for dem, er kladdens egen. Forklaringen paa biologisk alder som en MODEL frem for en aflaesning er ogsaa praecis. KILDEKONTROL: kladden angav Newmans preprint med korrekt titel, men daterede den til 2024. Den er fra 2019 (bioRxiv 10.1101/704080, senere version v3); 2024 er aaret for Ig Nobelprisen, ikke for arbejdet. Rettet, og det er nu ogsaa skrevet ind, at der er tale om en PREPRINT uden fagfaellebedoemmelse — vaesentligt i et sundhedsmagasin, der ellers bruger spalteplads paa at skelne evidensniveau. FUND VED KILDEKONTROLLEN, tilfoejet af redaktionen: da de amerikanske delstater indfoerte foedselsattester, faldt antallet af registrerede supercentenarier med 69-82 % i den paagaeldende delstat, og andelen med foedselsattest er NUL i USA. Det er den mest konkrete enkeltstatistik i hele argumentet og gjorde det muligt at aabne artiklen paa et tal frem for paa en pris. Ogsaa tilfoejet: at bemaerkelsesvaerdig levealder i Italien, England og Frankrig haenger sammen med fattigdom og FAERRE 90-aarige — den omvendte verden, som kun giver mening, hvis forklaringen er fejlregistrering. Fodnote 3 var en vag henvisning uden adresse; alle kilder er nu verificerede. Escape-sekvenser og en tastefejl ('langt rodede end') rettet."
       }
     },
     {
@@ -328,121 +369,106 @@
       "order": 11,
       "section": "Laboratoriet / tallet",
       "brief": {
-        "angle": "Konkrete pejlemærker for kroppen i Danmark, med kilde og år pr. celle — ikke facit.",
+        "angle": "Pejlemaerker for kroppen i Danmark — med aar, kilde og maalgruppe paa hvert tal, opstillet i en tabel. MIDDELLEVETID (Danmarks Statistik, offentliggjort 12. februar 2026): maend 80,3 aar, kvinder 83,9 aar. Det er foerste gang, maends middellevetid runder 80. Over tyve aar er maends steget 4,7 aar fra 75,6, kvinders 3,7 aar fra 80,2, saa koensforskellen er faldet fra 4,6 til 3,6 aar. DEN NATIONALE SUNDHEDSPROFIL 2025 (Statens Institut for Folkesundhed): svaer overvaegt 18,5 % i 2025, stabilt siden 2021; usundt kostmoenster steget fra 13,3 % i 2010 til 18,4 % i 2025; dagligrygere faldet fra omkring 22 % i 2010 til 10,5 % i 2025; andelen med kronisk sygdom eller laengerevarende helbredsproblem steget fra 33,4 % i 2010 til 38,3 % i 2025; 16,1 % har hoejt mentalt velbefindende; halvdelen bevaeger sig mindre end WHO anbefaler, og andelen er faldet siden 2021. ANGIV UNDERSOEGELSENS GRUNDLAG, for det er en pointe i sig selv: 314.500 inviterede paa 16 aar og derover, 135.293 besvarelser, svarprocent 43,0. Et spoergeskemabaseret tal er selvrapporteret — hoejde, vaegt og motion maales ikke, de oplyses — og svarprocenten betyder, at de, der ikke svarede, kan afvige fra dem, der gjorde. SKRIV ET AFSNIT OM DET. Slut med den vigtigste sammenstilling i nummeret: vi lever laengere, og flere lever med kronisk sygdom samtidig. De to ting modsiger ikke hinanden — de er delvis den samme historie. ANGIV IKKE tal, du ikke kan kildebelaegge.",
         "words": [
-          350,
-          500
+          550,
+          800
         ],
-        "mustCite": 6,
-        "format": "tallet"
+        "mustCite": 4,
+        "format": "tallet",
+        "mustNumber": [
+          "80,3 år / 83,9 år",
+          "18,5 % svær overvægt",
+          "38,3 % kronisk sygdom",
+          "10,5 % dagligrygere",
+          "135.293 svar"
+        ]
       },
       "writer": {
         "byline": null,
-        "model": "editor-led",
-        "fallback": "google/gemini-3.5-flash"
+        "model": "openai/gpt-5.6-terra",
+        "fallback": "deepseek/deepseek-v3.2"
       },
       "receipt": {
-        "words": 431,
-        "costUSD": null,
-        "draft": null
+        "words": 594,
+        "costUSD": 0.013946,
+        "draft": "kladder/11-tallet.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1786477826-vOysxQhSFkIojKNw4vT1"
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
-        "citations": 7,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
-      }
-    },
-    {
-      "slug": "ordbogen",
-      "order": 12,
-      "section": "Ordbogen",
-      "brief": {
-        "angle": "Sarkopeni, whey, CGM, hjemmetest — korte definitioner.",
-        "words": [
-          100,
-          200
-        ],
-        "mustCite": 0,
-        "format": "ordbog"
-      },
-      "writer": {
-        "byline": null,
-        "model": "editor-led",
-        "fallback": "minimax/minimax-m3"
-      },
-      "receipt": {
-        "words": 146,
-        "costUSD": null,
-        "draft": null
-      },
-      "verdict": {
-        "status": null,
-        "checkedAt": null,
-        "citations": 0,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-09",
+        "citations": 2,
+        "editorNote": "REELT kommissioneret hos openai/gpt-5.6-terra paa .env.dosis (via OpenRouter-kredit); kladde i kladder/11-tallet.md. Nummerets bedste Tallet-artikel og en af de bedste i hele genopbygningen. Kladden ramte alle fem paakraevede tal og byggede selv tabellen med en kolonne, redaktionen ikke havde bedt om og burde have bedt om: 'Hvem taelles med?'. Den skrev hele afsnittet om, at Sundhedsprofilen er selvrapporteret — at deltagerne ikke vejes eller maales, men oplyser det selv — og at de 57 %, der ikke svarede, kan adskille sig systematisk fra dem, der gjorde. Det er praecis husreglen om maalgruppe og forbehold, anvendt paa vores egen kildetabel. Slutningen er ogsaa dens egen: at laengere liv og mere kronisk sygdom ikke modsiger hinanden, men delvis er den samme historie, fordi flere overlever og derfor lever laenge med diagnoser. Og den fandt selv den rigtige tone om rygning: 'Ikke et biohack. Ikke en dyr hjemmetest. Bare faerre cigaretter.' KILDER: alle fire fodnoter pegede paa generiske forsider hos SDU og Danmarks Statistik. Erstattet af rapportens egen side og den daterede statistikmeddelelse af 12. februar 2026, saa hvert tal kan foeres tilbage til sin udgivelse. Redaktionelt kun let stramning og mellemrubrikker."
       }
     },
     {
       "slug": "rygteboersen",
-      "order": 13,
+      "order": 12,
       "section": "Rygtebørsen",
       "brief": {
-        "angle": "Hype-aktier i kroppen — spekulativ sladderkolonne.",
+        "angle": "Afmontér fire sundhedspaastande, som en dansk laeser moeder paa sociale medier og i reklamer. FORSLAG: (1) «Man kan kun optage 30 g protein pr. maaltid.» Fordelingen over dagen betyder noget for muskelopbygning, men kroppen kasserer ikke resten — og tallet 30 er en forsimpling af forsoeg med bestemte betingelser. (2) «Alle danskere mangler D-vitamin.» Sundhedsstyrelsen anbefaler tilskud i vinterhalvaaret netop fordi huden ikke danner det da; det er en generel forebyggelse, ikke en konstatering af udbredt mangel, og maaling er en laegefaglig beslutning. (3) «Naturligt betyder ufarligt.» Kosttilskud godkendes ikke som laegemidler foer salg, og planteekstrakter kan paavirke medicin. (4) «Blaa zoner viser vejen til 100 aar.» Se longevity-artiklen: datagrundlaget foelger manglende foedselsattester og fattigdom. ABSOLUT KRAV: opfind aldrig et studie, et tal eller et citat, og giv ikke dosisraad. Kan en paastand ikke afgoeres, saa skriv at den ikke kan afgoeres. Tonen maa gerne vaere spids, men den maa aldrig goere grin med mennesker, der har foelgt et daarligt raad.",
         "words": [
-          80,
-          180
+          500,
+          750
         ],
-        "mustCite": 0,
-        "format": "rygteboersen"
+        "mustCite": 2,
+        "format": "myter"
       },
       "writer": {
         "byline": null,
-        "model": "editor-led",
+        "model": "anthropic/claude-sonnet-5",
         "fallback": "deepseek/deepseek-v3.2"
       },
       "receipt": {
-        "words": 115,
-        "costUSD": null,
-        "draft": null
+        "words": 514,
+        "costUSD": 0.022012,
+        "draft": "kladder/12-rygteboersen.md",
+        "costRouting": "byok",
+        "generationId": "gen-1786478690-Wfx4GdCvQlswTWSaRclR"
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
-        "citations": 0,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-09",
+        "citations": 2,
+        "editorNote": "REELT kommissioneret hos anthropic/claude-sonnet-5 paa .env.dosis (BYOK); kladde i kladder/12-rygteboersen.md. Kladden ramte tonen praecist — spids uden at goere grin med dem, der har troet paa raadene — og var staerk paa to af de fire punkter. 30 g-myten blev korrekt sporet tilbage til forsoeg med unge traenede maend efter styrketraening, og raadet om at spoerge 'hvilket studie, med hvilke deltagere, under hvilke betingelser' er kladdens eget. Perikon og digitalis er velvalgte eksempler paa, at naturligt ikke betyder ufarligt. FAKTUEL FEJL RETTET — DEN ALVORLIGSTE I DOSIS: kladden skrev, at Sundhedsstyrelsen anbefaler D-vitamin i vinterhalvaaret 'til bestemte grupper' og 'rettet mod grupper med saerlig risiko'. Det er vendt paa hovedet. Anbefalingen om 10 mikrogram fra oktober til april gaelder BOERN OVER 4 AAR OG VOKSNE generelt; risikogrupperne anbefales tilskud AARET RUNDT. Fejlen er ikke akademisk: en laeser, der tror vinteranbefalingen kun gaelder saerlige grupper, kan undlade at foelge den. Rettet og skrevet ud med begge niveauer. Ogsaa rettet: samme upraecished om regulering som i tilskudsjunglen — kosttilskud SKAL anmeldes, de godkendes bare ikke som laegemidler. En haengende saetningsstump ('Det er alle danskere, i oevrigt') fjernet. Begge fodnoter var bare domaener; erstattet af verificerede sider. Tilfoejet krydslinks til de tre artikler, punkterne bygger paa."
       }
     },
     {
       "slug": "til-pulsen",
-      "order": 14,
+      "order": 13,
       "section": "Kryds (PULSEN m.fl.)",
       "brief": {
-        "angle": "Bro til PULSEN, når journalen tager over fra kosten.",
+        "angle": "Broen til soestermagasinet PULSEN. DOSIS handler om kroppen, tallerkenen, dosen og hardwaren; PULSEN handler om sektoren, klinikken og systemet. Skriv, hvor de to moedes: et kosttilskud er et forbrugsvalg, men en vekselvirkning med fast medicin er et sundhedsvaesensproblem; en hjemmetest er et koeb, men et unormalt svar ender hos den praktiserende laege; en hoftealloplastik er en operation i det offentlige system, men beslutningen om at faa den traeffes af et menneske med smerter. Pointen er, at den enkeltes valg og systemets kapacitet haenger sammen, og at DOSIS bevidst stopper, hvor behandlingsansvaret begynder. Brug den stigende andel med kronisk sygdom — fra 33,4 % i 2010 til 38,3 % i 2025 ifoelge Den Nationale Sundhedsprofil — som det konkrete sted, hvor de to blade moedes. VIGTIGT: link kun til PULSEN nr. 1 paa adressen /pulsen/2026-07-nr1/, som er udgivet. Naevn ikke og link ikke til senere PULSEN-numre.",
         "words": [
-          70,
-          150
+          450,
+          700
         ],
-        "mustCite": 0,
-        "format": "krydslink"
+        "mustCite": 1,
+        "format": "feature"
       },
       "writer": {
         "byline": null,
-        "model": "editor-led",
-        "fallback": null
+        "model": "google/gemini-3.1-pro-preview",
+        "fallback": "deepseek/deepseek-v3.2"
       },
       "receipt": {
-        "words": 87,
-        "costUSD": null,
-        "draft": null
+        "words": 441,
+        "costUSD": 0.045538,
+        "draft": "kladder/13-til-pulsen.md",
+        "costRouting": "byok",
+        "generationId": "gen-1786478797-lbHsjue3CzwZVpMcvi5E"
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
-        "citations": 0,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-09",
+        "citations": 1,
+        "editorNote": "REELT kommissioneret hos google/gemini-3.1-pro-preview paa .env.dosis (BYOK); kladde i kladder/13-til-pulsen.md. Kladden loeste broen praecist og linkede KORREKT til PULSEN nr. 1 paa /pulsen/2026-07-nr1/, som briefen paalagde — nr. 2 er afpubliceret, og et link dertil ville have braekket prerenderingen. Den bidrog desuden med nummerets skarpeste originale iagttagelse, som ikke stod i briefen: 'de bekymrede raske'. En rask person, der faar maalt biomarkoerer privat og booker en laegetid for at loese noget, der laegefagligt ikke er et problem — og at hvert kvarter i almen praksis brugt paa en overfortolket uralarm mangler et andet sted. Det er praecis den kobling mellem individ og system, artiklen skulle finde. FEJL RETTET: kladden skrev, at 'fremskrivninger peger paa, at vi rammer 38,3 % i 2025'. Det er ikke en fremskrivning — det er Sundhedsprofilens MAALTE tal for 2025. Rettet, og artiklen siger nu udtrykkeligt 'Det er ikke en fremskrivning. Det er maalt', fordi forskellen er nummerets gennemgaaende tema. Fodnotens adresse var gaettet og gav 404; erstattet af rapportens egen side. Anglicismer oversat (Continuous Glucose Monitor, clasher) og escape-sekvenser fjernet. Strammet ca. 20 %."
       }
     }
   ],
-  "integrityNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+  "integrityNote": "Genopbygget 2026-08-09. Nr. 1 blev oprindeligt udgivet 2026-08-01 med byline til navngivne modeller, uden costUSD, uden kladdereference og uden kladdefil for nogen af de 14 artikler; OpenRouter-noeglen for titlen viste, at kaldene aldrig var foretaget. Ledgeren blev nulstillet til editor-led 2026-08-08. Hele nummeret produceres forfra paa .env.dosis.",
+  "redaktionelAdvarsel": "SUNDHEDSSTOF. Tre regler gaelder HVER artikel. (1) INGEN DOSISRAAD. Vi gengiver myndigheders anbefalinger med kilde og maalgruppe; vi fortaeller ikke laeseren, hvad hun skal tage. (2) ANGIV ALTID MAALGRUPPE OG FORBEHOLD. Et tal, der gaelder kvinder over 70, maa ikke staa som et tal, der gaelder alle. (3) SKELN EVIDENSNIVEAU. Observationsstudier, randomiserede forsoeg og myndighedsanbefalinger er ikke det samme, og hvor evidensen er svag eller modstridende, skal det staa. Opfind aldrig et studie, et tal eller en anbefaling.",
+  "researchNote": "ADVARSEL: naar IKKE modellens prompt — kun brief.angle. Kontrolleret 2026-08-09. PROTEIN (Nordic Nutrition Recommendations 2023): gennemsnitligt behov (AR) 0,66 g/kg kropsvaegt/dag, anbefalet indtag (RI) 0,83 g/kg for voksne. Anbefalet interval 10-20 E% (energiprocent), 15 E% til planlaegning. AELDRE: 1,2-1,5 g/kg, ca. 15-20 E%, 18 E% til planlaegning — hoejere, fordi indtag over RI ser ud til at modvirke tab af fysisk funktion. D-VITAMIN (Sundhedsstyrelsen, siden sidst opdateret 4. NOVEMBER 2025 — det er en NYERE anbefaling end den, der stod i notesbogens log): boern over 4 aar og voksne uden for risikogrupper 10 mikrogram dagligt fra oktober til april. Aaret rundt 10 mikrogram for boern 0-4 aar, gravide, ammende, personer med moerk hud, personer med tildaekkende paaklaedning og personer med lidt sol. Voksne over 70, plejehjemsbeboere og personer med oeget risiko for knogleskoerhed: 20 mikrogram dagligt kombineret med 800-1000 mg calcium. OEVRE SIKRE GRAENSE 100 mikrogram for boern fra 11 aar og voksne, inkl. gravide og ammende. BEMAERK: den gamle graense paa 50 mikrogram og formuleringen '5-10 mikrogram' cirkulerer stadig og er forældet. KOSTTILSKUD: seks ud af ti danskere tager et eller flere kosttilskud (DTU Foedevareinstituttet; tallene stammer fra undersoegelsen 2011-2013 med 3.980 deltagere i alderen 4-75 aar og er altsaa ikke friske). Kvinder over 18 bruger multivitamin oftere end maend (71 % mod 57 %). FORURENEDE TILSKUD: JAMA Network Open 2018 gennemgik FDA's advarsler 2007-2016 og fandt 776 kosttilskud med ikke-godkendte laegemiddelstoffer fra 146 firmaer; over 20 % indeholdt mere end ét saadant stof; ca. 45 % blev markedsfoert til seksuel ydeevne, 41 % til vaegttab og 12 % til muskelopbygning; hyppigste stoffer sildenafil, sibutramin og syntetiske steroider; i langt de fleste tilfaelde stod stofferne ikke paa etiketten. VIGTIGT FORBEHOLD: amerikanske data, 2007-2016, andet regelsaet end det danske og europaeiske. BLAA ZONER: Saul Justin Newman, demograf ved UCL, modtog Ig Nobelprisen i demografi 12. september 2024 for arbejde, der viser, at moenstre for ekstremt hoej alder i vid udstraekning foelger manglende foedselsattester, fattigdom og pensionssvindel. Kun ca. 18 % af verdens registrerede supercentenarier (110 aar og derover) har en faktisk foedselsattest; foedselsdatoer klumper sig om den foerste i maaneden og datoer delelige med 5. Okinawa, der fremhaeves for groentsager og soede kartofler, har ifoelge japanske myndighedstal landets laveste indtag af netop groentsager og soede kartofler og det hoejeste BMI. MIDDELLEVETID (Danmarks Statistik, offentliggjort 12. februar 2026): maend 80,3 aar, kvinder 83,9 aar. Foerste gang maends middellevetid runder 80. Over 20 aar er maends steget 4,7 aar fra 75,6, kvinders 3,7 aar fra 80,2; koensforskellen er faldet fra 4,6 til 3,6 aar. DEN NATIONALE SUNDHEDSPROFIL 2025 (Statens Institut for Folkesundhed, SDU, udgivet 2026): 314.500 inviterede paa 16 aar og derover, 135.293 svar, svarprocent 43,0. Svaer overvaegt 18,5 % i 2025, stabilt siden 2021. Usundt kostmoenster 13,3 % i 2010 mod 18,4 % i 2025. Dagligrygere ca. 22 % i 2010 mod 10,5 % i 2025. Andel med kronisk sygdom eller helbredsproblem 33,4 % i 2010 mod 38,3 % i 2025. Hoejt mentalt velbefindende 16,1 % i 2025. Halvdelen af danskerne bevaeger sig mindre end WHO anbefaler, og andelen er faldet siden 2021. ALLOPLASTIK: Dansk Hoftealloplastik Register og Dansk Knaealloplastik Register offentliggoer aarsrapporter; stoerrelsesordenen er ca. 11.000-13.000 primaere hofteoperationer og ca. 11.000 knaeoperationer om aaret i Danmark. Brug kun stoerrelsesorden, ikke et praecist aarstal, medmindre en aarsrapport kan citeres direkte. KRYDSLINK: PULSEN nr. 2 er AFPUBLICERET (status draft). Link kun til PULSEN nr. 1, /pulsen/2026-07-nr1/, som er udgivet — et doedt internt link braekker prerenderingen."
 }

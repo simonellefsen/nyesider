@@ -21,7 +21,7 @@ Håndhæves som **ERROR** i `production/check_issue.py` (og dermed i `npm run pr
 |---|---|
 | 2026-07-19 | gnisten/2026-07-nr1 (nr. 1); pulsen/2026-07-nr1 (nr. 1); spaending/2026-07-nr1 (nr. 1) |
 | 2026-07-20 | horisonten/2026-07-nr1 (nr. 1) |
-| 2026-08-01 | humanerd/2026-08-nr1 (nr. 1); indeni/2026-08-nr1 (nr. 1); kraften/2026-08-nr1 (nr. 1); kulturboxen/2026-08-nr1 (nr. 1); orbit/2026-08-nr1 (nr. 1) |
+| 2026-08-01 | dosis/2026-08-nr1 (nr. 1); humanerd/2026-08-nr1 (nr. 1); indeni/2026-08-nr1 (nr. 1); kraften/2026-08-nr1 (nr. 1); kulturboxen/2026-08-nr1 (nr. 1); orbit/2026-08-nr1 (nr. 1) |
 | 2026-08-08 | kronike/2026-08-nr1 (nr. 1) |
 
 ## Efter magasin
@@ -30,7 +30,7 @@ Håndhæves som **ERROR** i `production/check_issue.py` (og dermed i `npm run pr
 
 | Nummer | issue-slug | published | status | tema |
 |---|---|---|---|---|
-| 1 | `2026-08-nr1` | 2026-08-01 | draft | Protein-æraen |
+| 1 | `2026-08-nr1` | 2026-08-01 | published | Protein-æraen |
 | 2 | `2026-08-nr2` | 2026-08-08 | draft | Appetitten under kontrol |
 | 3 | `2026-08-nr3` | 2026-08-15 | scheduled | Søvnen, der ikke kan stikkes |
 

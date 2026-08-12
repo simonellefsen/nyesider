@@ -1,6 +1,7 @@
 ---
 title: "Tallet: pejlemærker for kroppen i Danmark"
-standfirst: Konkrete tal med kilde — ikke facit, men bedre end en fornemmelse.
+standfirst: "Vi lever længere, og flere lever med kronisk sygdom. De to ting modsiger ikke hinanden — de er delvis den samme historie."
+byline: "GPT-5.6 Terra (OpenAI)"
 section: Laboratoriet / tallet
 order: 11
 image: ../images/dosis_tallet.png
@@ -8,36 +9,64 @@ imageCredit: "AI-genereret motiv (Imagine / xAI)"
 imageSource: "https://x.ai/"
 ---
 
-| Pejlemærke | Tal | År |
-|---|---|---|
-| Middellevetid, mænd | **80,3 år** | 2025[^1] |
-| Middellevetid, kvinder | **83,9 år** | 2025[^1] |
-| Voksne med overvægt (BMI ≥ 25) | **52,9 %** (mænd 58,5 %, kvinder 47,6 %) | 2023[^2] |
-| Voksne med svær overvægt (BMI ≥ 30) | **18,7 %** — op fra 13,6 % i 2010 | 2023[^2] |
-| Lever op til WHO's minimumsanbefaling for fysisk aktivitet | **42 %** (58 % gør ikke) | 2021[^3] |
-| Tager kosttilskud regelmæssigt | **6 ud af 10** (ca. 60 %), flest kvinder | DTU Fødevareinstituttet[^4] |
-| D-vitamintilskud, anbefalet dosis (voksne, okt.–apr.) | **5–10 µg/dag** — 20 µg for 70+, mørk hud eller tildækkende beklædning | Sundhedsstyrelsen[^5] |
-| Primære hofte-alloplastikker | **13 105** (rekordår) | 2022[^6] |
-| Primære knæ-alloplastikker | **14 878** | 2023/24[^7] |
+Danmark har fået flere leveår. Ikke nødvendigvis flere år uden sygdom, smerter, medicin eller målinger på telefonen.
 
-### Læsning
+Tallene herunder er pejlemærker, ikke personlige domme. De siger noget om befolkningen — ikke om din næste blodprøve eller din chance for at blive 90.
 
-**Levetid** stiger fortsat, men langsommere end i 00'erne, og kønsgabet snævres ind (fra 4,6 til 3,6 års forskel over 20 år)[^1]. **Vægt** er den store folkesundhedstrend: over halvdelen af voksne har nu overvægt, og andelen med svær overvægt er steget markant siden 2010 — uden tegn på at flade ud[^2]. **Bevægelse** halter: næsten 6 ud af 10 lever ikke op til WHO's minimumsanbefaling, selvom styrketræning nu er en officiel del af den danske anbefaling[^3]. **Tilskud** er udbredt langt ud over det, ernæringsfaglige data siger er nødvendigt for de fleste[^4] — mens **hardware** (hofte/knæ) rammer et rekordniveau år efter år, drevet af en ældre og federe befolkning, ikke kun af alder alene[^6][^7].
+| Pejlemærke | Seneste tal | År | Kilde | Hvem tælles med? |
+|---|---:|---:|---|---|
+| Middellevetid, mænd | 80,3 år | 2026 | Danmarks Statistik[^1] [^2] | Beregnet ud fra aktuelle dødelighedsforhold |
+| Middellevetid, kvinder | 83,9 år | 2026 | Danmarks Statistik[^1] [^2] | Beregnet ud fra aktuelle dødelighedsforhold |
+| Svær overvægt | 18,5 % | 2025 | Sundhedsprofilen[^3] | Personer på 16 år og derover |
+| Usundt kostmønster | 18,4 % | 2025 | Sundhedsprofilen[^3] | Personer på 16 år og derover |
+| Dagligrygere | 10,5 % | 2025 | Sundhedsprofilen[^3] | Personer på 16 år og derover |
+| Kronisk sygdom eller længerevarende helbredsproblem | 38,3 % | 2025 | Sundhedsprofilen[^3] | Personer på 16 år og derover |
+| Højt mentalt velbefindende | 16,1 % | 2025 | Sundhedsprofilen[^3] | Personer på 16 år og derover |
+| Bevæger sig mindre end WHO anbefaler | Omkring halvdelen | 2025 | Sundhedsprofilen[^3] | Personer på 16 år og derover |
 
-### Hvad tallet *ikke* fanger
+### Længere liv
 
-En procent siger ikke, om du selv er i midten eller i halen af fordelingen. Brug pejlemærkerne til at stille bedre spørgsmål til din egen læge eller diætist — ikke til at diagnosticere dig selv i et magasin.
+Mændenes middellevetid er for første gang rundet 80 år: **80,3**. Kvindernes er **83,9**.
 
-[^1]: [Danmarks Statistik — Mænds middellevetid runder for første gang 80 år](https://www.dst.dk/da/Statistik/udgivelser/NytHtml?cid=52702) (2025-opgørelse, offentliggjort feb. 2026).
+Over to årtier er mændenes steget 4,7 år fra 75,6, mens kvindernes er steget 3,7 år fra 80,2. Kønsforskellen er dermed faldet fra 4,6 til 3,6 år.[^2]
 
-[^2]: Den Nationale Sundhedsprofil / Statens Institut for Folkesundhed (SDU) — [Andelen af danskere med overvægt](https://www.sdu.dk/da/sif/rapporter/2024/notat_andelen_af_danskere_med_overvaegt_fremskrevet_til_2040), 2023-tal for BMI ≥ 25 og BMI ≥ 30 fordelt på køn.
+Middellevetid er ikke et løfte til det enkelte menneske. Det er et beregnet gennemsnit ud fra de dødelighedsforhold, der gælder nu. Men retningen er svær at misforstå: færre dør tidligt.
 
-[^3]: Den Nationale Sundhedsprofil 2021, gengivet i Altinget — [Over halvdelen af danskerne efterlever ikke minimumsanbefaling for fysisk aktivitet](https://www.altinget.dk/idraet/artikel/over-halvdelen-af-danskerne-efterlever-ikke-minimumsanbefaling-for-fysisk-aktivitet); se også [Sundhedsstyrelsens anbefalinger](https://www.sst.dk/da/Fagperson/Forebyggelse-og-tvaergaaende-indsatser/Fysisk-aktivitet/Anbefalinger-om-fysisk-aktivitet), som nu inkluderer styrketræning mindst to gange om ugen.
+### Tungere regnskab
 
-[^4]: [DTU Fødevareinstituttet — Mange danskere tager kosttilskud, selvom få har brug for dem](https://www.food.dtu.dk/nyheder/nyhed?id=d45f3442-2613-4295-810d-581626b51f63).
+Samtidig står flere af risikofaktorerne stædigt i tabellen.
 
-[^5]: [Sundhedsstyrelsen — Anbefalinger om tilskud med D-vitamin og calcium](https://www.sst.dk/vidensbase/forebyggelse/ernaering-mad-og-maaltider/tilskud-af-d-vitamin-og-calcium).
+Andelen med svær overvægt er 18,5 % og har været stabil siden 2021. Andelen med et usundt kostmønster er steget fra 13,3 % i 2010 til 18,4 % i 2025.[^2]
 
-[^6]: Dansk Hoftealloplastik Register-årsrapport, gengivet i [Ugeskriftet.dk](https://ugeskriftet.dk/videnskab/dansk-hoftealloplastik-register-variation-i-kvaliteten-af-alloplastikoperationer) — 13 105 primære hofteoperationer i 2022, det hidtil højeste.
+Det er ikke et argument for at gøre enkelte fødevarer til skurke. Et kostmønster er netop et forsøg på at se helheden frem for at føre retssag mod én bolle.
 
-[^7]: Dansk Knæalloplastik Register-årsrapport 2023/24, gengivet i [Ugeskriftet.dk](https://ugeskriftet.dk/videnskab/dansk-knaealloplastikregister-hojeste-antal-knaealloplastikker-udfort-nogensinde) — 14 878 primære knæoperationer, rekordniveau.
+På én front er udviklingen entydig: andelen af dagligrygere er faldet fra omkring 22 % i 2010 til **10,5 %** i 2025.[^2]
+
+Det er en af de store, konkrete sundhedshistorier. Ikke et biohack. Ikke en dyr hjemmetest. Bare færre cigaretter.
+
+### Spørgeskemaet måler ikke din krop
+
+Den Nationale Sundhedsprofil er stor, men den er ikke en laboratoriemåling. Den udarbejdes af Statens Institut for Folkesundhed for Sundhedsstyrelsen, regionerne og kommunerne.[^4]
+
+Undersøgelsen inviterede **314.500** personer på 16 år og derover, og **135.293** svarede. Det giver en svarprocent på **43,0**.[^3]
+
+Den størrelse er en styrke: materialet kan vise brede mønstre og forskelle mellem grupper. Men metoden sætter også en streg i regnearket.
+
+Højde, vægt, bevægelse, rygning, kost og helbred er i vidt omfang **selvrapporteret**. Deltagerne bliver ikke vejet, målt eller udstyret med en bevægelsessensor. De oplyser det selv.
+
+Det gør ikke tallene værdiløse. Det betyder, at de skal læses som befolkningens *rapporterede* helbred og vaner. Folk kan huske forkert, svare socialt pænt eller være i tvivl om, hvad der tæller som motion. Og de 57 %, der ikke svarede, kan adskille sig systematisk fra dem, der gjorde.
+
+Store undersøgelser kan være robuste uden at være fejlfri.
+
+### Den vigtigste sammenstilling
+
+Vi lever længere, og flere lever med kronisk sygdom samtidig.
+
+De to udviklinger modsiger ikke hinanden. De er delvis den samme historie. Når flere overlever sygdomme og når højere aldre, lever flere også længe med diagnoser, behandlinger, implantater og medicin.
+
+Længere liv er ikke kun flere år. Det er også spørgsmålet om, hvad der fylder i dem.
+
+[^1]: [Middellevetid](https://www.dst.dk/da/Statistik/emner/borgere/befolkning/middellevetid), Danmarks Statistik — statistikkens emneside med metode og opgørelser.
+[^2]: [Mænds middellevetid runder for første gang 80 år](https://www.dst.dk/da/Statistik/udgivelser/NytHtml?cid=52702), Danmarks Statistik, 12. februar 2026 — 80,3 år for mænd og 83,9 år for kvinder, og udviklingen over tyve år: mændenes op 4,7 år fra 75,6, kvindernes op 3,7 år fra 80,2.
+[^3]: [Danskernes Sundhed — Den Nationale Sundhedsprofil 2025](https://www.sdu.dk/da/sif/rapporter/2026/den_nationale_sundhedsprofil_2025), Statens Institut for Folkesundhed, Syddansk Universitet — 314.500 inviterede på 16 år og derover, 135.293 besvarelser, svarprocent 43,0. Herfra svær overvægt 18,5 % (stabil siden 2021), usundt kostmønster 13,3 % i 2010 mod 18,4 % i 2025, dagligrygere omkring 22 % i 2010 mod 10,5 % i 2025, kronisk sygdom eller længerevarende helbredsproblem 33,4 % i 2010 mod 38,3 % i 2025, og højt mentalt velbefindende 16,1 %.
+[^4]: [Sundhedsprofilen](https://www.sst.dk/sundhedsprofilen), Sundhedsstyrelsen — myndighedens indgang til Den Nationale Sundhedsprofil.

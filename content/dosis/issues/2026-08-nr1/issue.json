@@ -4,7 +4,7 @@
   "title": "DOSIS nr. 1 · August 2026",
   "issueTheme": "Protein-æraen",
   "published": "2026-08-01",
-  "status": "draft",
+  "status": "published",
   "pdf": null,
   "cover": "images/dosis_cover.png",
   "coverCredit": "AI-genereret forside (Imagine / xAI) — protein, lab, tallerken",
@@ -21,7 +21,7 @@
     "images/dosis_longevity.png",
     "images/dosis_tallet.png"
   ],
-  "productionCostUSD": null,
+  "productionCostUSD": 0.5283,
   "imageCredits": "Alle motiver AI-genereret via Imagine (xAI), i varierede grafiske stilarter (flad vektor, maksimalisme, retro, geometrisk m.fl. — se The Noun Project's stilkatalog). Ingen lægemiddel-logoer eller emballage-tekst. Se SOURCES.md.",
   "backCoverPromise": "DOSIS nr. 2 måler videre — ny forskning, ny tallerken, samme skepsis.",
   "articles": [
@@ -31,7 +31,7 @@
       "order": 1,
       "title": "Hvor meget er nok?",
       "section": "Leder",
-      "standfirst": "Velkommen til DOSIS. Nr. 1: protein-æraen."
+      "standfirst": "Velkommen til DOSIS — magasinet om kroppen, tallerkenen, dosen og hardwaren. Vi gengiver anbefalinger med kilde og målgruppe. Vi giver ikke råd om, hvad du skal tage."
     },
     {
       "slug": "protein-aeraen",
@@ -39,10 +39,9 @@
       "order": 2,
       "title": "Protein-æraen: hvorfor alle pludselig tæller gram",
       "section": "Gennembrud & forskning",
-      "standfirst": "Fra bodybuildere til morgenyoghurt.",
-      "image": "../images/dosis_protein.png",
-      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
-      "imageSource": "https://x.ai/"
+      "byline": "Claude Opus 4.8 (Anthropic)",
+      "standfirst": "Et næringsstof blev til et brand. Videnskaben er til gengæld ret rolig ved det hele — og for de fleste voksne er regnestykket allerede gået op.",
+      "image": "../images/dosis_protein.png"
     },
     {
       "slug": "hvor-meget-protein",
@@ -50,7 +49,8 @@
       "order": 3,
       "title": "Hvor meget protein? Gram, myter og den kedelige midtervej",
       "section": "Protein & træning",
-      "standfirst": "Anbefalinger vs. influenceres regneark."
+      "byline": "GPT-5.6 Terra (OpenAI)",
+      "standfirst": "To tal bliver rutinemæssigt forvekslet, og forvekslingen får regnestykket til at se mere dramatisk ud, end det er."
     },
     {
       "slug": "tallerkenen",
@@ -58,10 +58,9 @@
       "order": 4,
       "title": "Tallerkenen før posen: ernæring der ikke er et abonnement",
       "section": "Ernæring & kost",
-      "standfirst": "Kost er mønstre — ikke et scoop.",
-      "image": "../images/dosis_tallerken.png",
-      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
-      "imageSource": "https://x.ai/"
+      "byline": "Gemini 3.1 Pro Preview (Google)",
+      "standfirst": "De officielle kostråd er hverken revolutionerende eller mystiske. De er bare formuleret som mad — og proteinet følger med af sig selv.",
+      "image": "../images/dosis_tallerken.png"
     },
     {
       "slug": "pulver-vs-mad",
@@ -69,10 +68,9 @@
       "order": 5,
       "title": "Pulver vs. mad: hvornår shakeren vinder",
       "section": "Mad i praksis",
-      "standfirst": "Værktøj eller dyrt skum?",
-      "image": "../images/dosis_pulver.png",
-      "imageCredit": "AI-genereret motiv (Imagine / xAI) — flad vektorstil",
-      "imageSource": "https://x.ai/"
+      "byline": "Claude Sonnet 5 (Anthropic)",
+      "standfirst": "Ikke en dom over pulver, men en liste over de situationer, hvor det løser et reelt problem — og dem, hvor det mest løser et prisskilt.",
+      "image": "../images/dosis_pulver.png"
     },
     {
       "slug": "d-vitamin",
@@ -80,21 +78,19 @@
       "order": 6,
       "title": "D-vitamin i nordisk mørke: mangel, megadoser og midten",
       "section": "Vitaminer & mineraler",
-      "standfirst": "Solen er en dårlig HR-chef i januar.",
-      "image": "../images/dosis_vitamin.png",
-      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
-      "imageSource": "https://x.ai/"
+      "byline": "Claude Opus 4.8 (Anthropic)",
+      "standfirst": "Anbefalingerne blev opdateret i november 2025. To forældede tal cirkulerer stadig — og begge får folk til at regne forkert.",
+      "image": "../images/dosis_vitamin.png"
     },
     {
       "slug": "tilskudsjunglen",
       "file": "articles/07-tilskudsjunglen.md",
       "order": 7,
-      "title": "Tilskudsjunglen: piller, shots og det, lab’et ikke garanterer",
+      "title": "Tilskudsjunglen: piller, shots og det, laboratoriet ikke garanterer",
       "section": "Tilskud, piller & væsker",
-      "standfirst": "Reguleret — men ikke som medicin.",
-      "image": "../images/dosis_tilskud.png",
-      "imageCredit": "AI-genereret motiv (Imagine / xAI) — maksimalistisk stil",
-      "imageSource": "https://x.ai/"
+      "byline": "Claude Sonnet 5 (Anthropic)",
+      "standfirst": "Seks ud af ti danskere tager kosttilskud. Forskellen på «registreret» og «godkendt» er den, de færreste kender — og den er hele forskellen.",
+      "image": "../images/dosis_tilskud.png"
     },
     {
       "slug": "implantater",
@@ -102,10 +98,9 @@
       "order": 8,
       "title": "Hardware i hverdagen: når kroppen får reservedele",
       "section": "Proteser & implantater",
-      "standfirst": "Hofte, knæ, sensorer — ikke kun smoothies.",
-      "image": "../images/dosis_implantat.png",
-      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
-      "imageSource": "https://x.ai/"
+      "byline": "Gemini 3.1 Pro Preview (Google)",
+      "standfirst": "Den bedst dokumenterede form for levetidsforlængelse er ikke et pulver. Det er titanium, kobolt-krom og et landsdækkende register, der følger hver eneste operation.",
+      "image": "../images/dosis_implantat.png"
     },
     {
       "slug": "wearables-og-hjemmetests",
@@ -113,21 +108,19 @@
       "order": 9,
       "title": "Wearables og hjemmelab: når håndleddet og postkassen måler dig",
       "section": "Hardware til kroppen",
-      "standfirst": "Ur, CGM, blod- og urintest hjemme — data vs. diagnose.",
-      "image": "../images/dosis_wearable.png",
-      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
-      "imageSource": "https://x.ai/"
+      "byline": "GPT-5.6 Terra (OpenAI)",
+      "standfirst": "To ting skal holdes adskilt hele vejen — hvad apparatet måler, og hvad det konkluderer. Det er forskellen på et interessant signal og en selvdiagnose klokken 23.47.",
+      "image": "../images/dosis_wearable.png"
     },
     {
       "slug": "longevity-hype",
       "file": "articles/10-longevity-hype.md",
       "order": 10,
-      "title": "Longevity-hyben: blå zoner, biologisk alder og dig",
+      "title": "Longevity-hypen: blå zoner, biologisk alder og dig",
       "section": "Longevity & aldring",
-      "standfirst": "Måling er spændende. Salg er en forretning.",
-      "image": "../images/dosis_longevity.png",
-      "imageCredit": "AI-genereret motiv (Imagine / xAI) — retrostil",
-      "imageSource": "https://x.ai/"
+      "byline": "Claude Opus 4.8 (Anthropic)",
+      "standfirst": "Da et land indførte fødselsattester, faldt antallet af 110-årige med op mod 82 %. Det er den mest oplysende statistik i hele longevity-litteraturen.",
+      "image": "../images/dosis_longevity.png"
     },
     {
       "slug": "tallet",
@@ -135,36 +128,27 @@
       "order": 11,
       "title": "Tallet: pejlemærker for kroppen i Danmark",
       "section": "Laboratoriet / tallet",
-      "standfirst": "Konkrete tal med kilde — ikke facit.",
-      "image": "../images/dosis_tallet.png",
-      "imageCredit": "AI-genereret motiv (Imagine / xAI) — geometrisk stil",
-      "imageSource": "https://x.ai/"
-    },
-    {
-      "slug": "ordbogen",
-      "file": "articles/12-ordbogen.md",
-      "order": 12,
-      "title": "Ordbogen",
-      "section": "Ordbogen",
-      "standfirst": "Sarkopeni, whey, CGM, hjemmetest."
+      "byline": "GPT-5.6 Terra (OpenAI)",
+      "standfirst": "Vi lever længere, og flere lever med kronisk sygdom. De to ting modsiger ikke hinanden — de er delvis den samme historie.",
+      "image": "../images/dosis_tallet.png"
     },
     {
       "slug": "rygteboersen",
-      "file": "articles/13-rygteboersen.md",
-      "order": 13,
-      "title": "Rygtebørsen",
+      "file": "articles/12-rygteboersen.md",
+      "order": 12,
+      "title": "Rygtebørsen: fire påstande, der er blevet strammet undervejs",
       "section": "Rygtebørsen",
-      "standfirst": "Hype-aktier i kroppen."
+      "byline": "Claude Sonnet 5 (Anthropic)",
+      "standfirst": "Alle fire har en kerne af noget rigtigt. Den er bare blevet forenklet, til den lød mere dramatisk end belægget."
     },
     {
       "slug": "til-pulsen",
-      "file": "articles/14-til-pulsen.md",
-      "order": 14,
+      "file": "articles/13-til-pulsen.md",
+      "order": 13,
       "title": "Når dosis møder systemet",
       "section": "Kryds (PULSEN m.fl.)",
-      "standfirst": "Bro til PULSEN når journalen tager over."
+      "byline": "Gemini 3.1 Pro Preview (Google)",
+      "standfirst": "DOSIS stopper bevidst dér, hvor behandlingsansvaret begynder. Her er grænsen — og hvorfor den flytter sig i disse år."
     }
-  ],
-  "unpublishedReason": "Afpubliceret 2026-08-08. Nummeret blev udgivet med byline-kreditering til navngivne modeller, men bestilling.json indeholder hverken costUSD, kladde-reference eller kladdefil for nogen artikel, og OpenRouter-forbruget på titlens egen nøgle viser, at kaldene aldrig blev foretaget. Verdikterne ('accepted', 'rejected') beskriver derfor en bedømmelse af kladder, der aldrig er modtaget. Nummeret skal produceres forfra — uden byline, indtil en reel forfatter kan dokumenteres. Se redaktion/README.md.",
-  "unpublishedAt": "2026-08-08"
+  ]
 }

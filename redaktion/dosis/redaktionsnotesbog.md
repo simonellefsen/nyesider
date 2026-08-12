@@ -11,7 +11,8 @@ Longevity, ernæring/kost, tilskud, proteser/implantater, **wearables & hjemmete
 ## Format
 
 - **Artikeltal:** 14 (nr. 1), 10 (nr. 2 efter Ordbogen droppet). Faste: Leder · features · Tallet · Rygtebørsen · Til PULSEN. **Ingen Ordbog** — gloser i parentes/fodnote.
-- **Ordmål:** sigt 200–350 for features, 300–500 for Tallet (nr. 2 landede kortere på flere features under batch — notér til næste).
+- **Ordmål:** sigt **500–800 for features** (hævet fra 200–350 den 2026-08-09; det gamle loft er
+  grunden til, at flere artikler blev til råd uden forbehold). Tallet 500–800.
 - **Standard `mustCite`:** 1–2 for enhver artikel med et sundheds-/ernæringstal; 4+ for Tallet (kildetabel); 0 for Rygtebørsen.
 
 ## Nr. 2 — udgivet
@@ -24,8 +25,50 @@ Cover + features (Imagine). PDF mangler.
 ## Nr. 1 — udgivet
 
 **Tema:** Protein-æraen  
-**14 artikler:** leder, protein-æra, gram-behov, tallerken, pulver vs mad, D-vitamin, tilskudsjungle, implantater, **wearables/hjemmetests**, longevity-hype, tallet, ordbog, rygtebørs, til PULSEN.  
+**Genopbygget 2026-08-09:** 13 artikler / 6.647 ord (var 14 / 3.680). Ordbogen fjernet. Tolv artikler
+reelt kommissioneret på `.env.dosis`; lederen er chefredaktionens uden byline. Forbrug **0,53 USD**.
 Cover + features (Imagine). PDF mangler.
+
+### Læring fra genopbygningen af nr. 1 (2026-08-09)
+
+**En DOI kan opløse korrekt og pege på det forkerte arbejde.** Fire DOI'er i én kladde: alle fire
+opløste, og **to var forkerte**. Én anført som ESPEN's kliniske ernæringsretningslinje opløste til
+*«Terrestrial LiDAR monitoring of coastal foredune evolution»* i **Earth Surface Processes and
+Landforms** — kystmorfologi. En anden, anført som NNR2023, opløste til niacin-kapitlets scoping
+review. I `wearables` var en tredje anført som AASM's positionsudtalelse, men opløste til et
+randomiseret forsøg i samme tidsskrift. `check_links.py` godkender dem alle, fordi de svarer 200.
+
+> **Metoden, der fanger det, og som skal bruges hver gang:**
+> ```
+> curl -sL -H "Accept: application/vnd.citationstyles.csl+json" https://doi.org/<DOI>
+> ```
+> Læs `title` og `container-title`, og hold dem op mod det, fodnoten påstår. Det tager ti sekunder.
+> Det er samme lærdom som «200 er ikke bevis for den rigtige side», flyttet over på litteratur.
+
+**Sundhedsstyrelsens D-vitaminanbefaling er opdateret 4. november 2025** — og notesbogens egen log
+citerede den forældede. Det gælder nu **10 µg** dagligt fra oktober til april til børn over 4 år og
+voksne (ikke «5–10 µg»), 10 µg året rundt til risikogrupperne, 20 µg med 800–1000 mg calcium til
+voksne over 70, og en **øvre sikker grænse på 100 µg** (ikke 50). Begge forældede tal cirkulerer
+stadig, og begge får folk til at regne forkert.
+
+**Den farligste fejl i sundhedsstof er en ombyttet målgruppe.** En kladde skrev, at
+vinteranbefalingen om D-vitamin kun gjaldt «grupper med særlig risiko». Den gælder børn over 4 år
+og voksne generelt; risikogrupperne får den *året rundt*. En læser, der tror det modsatte, undlader
+at følge anbefalingen. Målgruppe er ikke pynt — det er halvdelen af oplysningen.
+
+**Registreret ≠ godkendt.** To kladder skrev, at kosttilskud er uden forudgående kontrol. Kosttilskud
+skal **anmeldes til Fødevarestyrelsen**, og nye stoffer kræver tilladelse før markedsføring — men
+myndigheden registrerer, at produktet findes, og tester ikke, om det virker. Den præcise formulering
+er skarpere end den upræcise.
+
+**Tal uden kilde skal ud, også de sandsynlige.** En kladde angav, at over 90 % af ledimplantater
+holder mere end ti år. Kilden (sundhed.dk) var nede, så tallet blev fjernet og erstattet af en
+henvisning til alloplastikregistrenes årsrapporter — hvilket passer bedre til artiklens eget
+argument om, at netop de tal er offentlige.
+
+**Modellerne leverede to helt korrekte referencer uopfordret:** VITAL-forsøget (Manson m.fl., NEJM
+2019, 380:33–44) og PROT-AGE (Bauer m.fl., JAMDA 2013, 14:542–559). Begge kontrolleret via
+DOI-metadata. Kildekontrol er ikke mistillid — det er den eneste måde at skelne de gode fra de dårlige.
 
 ## Nr. 3 — udgivet
 
@@ -64,3 +107,6 @@ Fact-check obligatorisk før accept (se [redaktion/README](../README.md)). Medic
 
 - **2026-08-08 (holdt tilbage):** Nr. 3 *Søvnen, der ikke kan stikkes* ligger i `content/dosis/issues/2026-08-nr3/` med `status: scheduled` og `published: 2026-08-15`. Ikke på websitet før status sættes til `published` (mål: næste uge). Indhold og billeder er bevaret.
 
+- **2026-08-09:** Nr. 1 genopbygget og genudgivet efter afpubliceringen 2026-08-08. Se læringen ovenfor.
+- **2026-08-09 (kilder):** Ny fast rutine — enhver DOI i en kladde slås op via CSL-JSON og
+  sammenholdes med det, fodnoten påstår. To ud af fire var forkerte i første forsøg.

@@ -1,20 +1,40 @@
 ---
-title: Hvor meget er nok?
-standfirst: Velkommen til DOSIS — magasinet om levetid, tallerkenen og det, vi putter i kroppen. Nr. 1 åbner med protein-æraen.
+title: "Hvor meget er nok?"
+standfirst: Velkommen til DOSIS — magasinet om kroppen, tallerkenen, dosen og hardwaren. Vi gengiver anbefalinger med kilde og målgruppe. Vi giver ikke råd om, hvad du skal tage.
 section: Leder
 order: 1
 ---
 
-Der er en ny standardreplik i fitnesscentret, i kantinen og i farmorens køkken: *“Har du fået nok protein?”* Pulverposerne er rykket ind ved siden af havregrynene. Annoncerne lover muskler, mæthed, længere liv. Apotekerhylderne og webshops’ene er fulde af kapsler, der lover resten.
+Der findes to måder at skrive om sundhed på.
 
-**DOSIS** er ikke endnu et “tag det her hver morgen”-magasin. Vi er her for at spørge: **virker det, for hvem, i hvilken dosis — og hvad siger evidensen, når hype-maskinen er slukket?** Vi dækker longevity, ernæring, tilskud, proteser og implantater, forskning. Vi er sassy. Vi er skeptiske. Vi er ikke din læge.
+Den ene sælger et svar: tag dette, undgå hint, og kroppen holder længere. Den anden fortæller, hvad der faktisk er undersøgt, hos hvem, og hvor langt konklusionen rækker.
 
-[PULSEN](/pulsen/2026-08-nr2/leder) følger sygehuset og systemet. Vi følger **kroppen som projekt** — tallerkenen, pilleæsken og det, kirurgen skruer fast, når leddet er slidt.
+**DOSIS** er til den anden slags. Sassy skepsis, ikke wellness-guru.
 
-### Nr. 1: Protein-æraen
+### Tre ting, vi holder fast i
 
-I dette nummer pakker vi protein ud: behov vs. marketing, pulver vs. mad, ældre muskler, og det nordiske D-vitamin-mørke, der altid lurer bag tilskudshypen. Vi kigger på implantater i hverdagen (ikke sci-fi), på **wearables og hjemmetests** (blod, urin, glukose på håndleddet), på sikkerhed i tilskudsjunglen, og vi lukker med pejlemærker, ordbog og en rygtebørs for det, alle deler i groupchatten.
+**Vi giver ikke dosisråd.** Vi gengiver myndighedernes anbefalinger med kilde og dato, og vi skriver, hvem de gælder. Hvad du selv skal tage, er en samtale med din læge, ikke med et blad.
 
-God læselyst — og husk: mere er ikke altid bedre. Nogle gange er den rigtige dosis **mindre**.
+**Vi angiver altid målgruppe.** Et tal, der gælder kvinder over 70, må ikke stå, som om det gælder alle. Det lyder banalt. Det er den hyppigste fejl i sundhedsstof.
 
-— Claude Fable 5, chefredaktør
+**Vi skelner evidensniveau.** Et observationsstudie, et randomiseret forsøg og en myndighedsanbefaling er ikke det samme. Hvor evidensen er svag eller modstridende, skriver vi det.
+
+### Hvorfor protein først
+
+Fordi det er det tydeligste eksempel på, hvordan et næringsstof bliver til et brand.
+
+Anbefalingen for voksne er 0,83 gram pr. kilo kropsvægt om dagen. De fleste rammer den uden at tænke over det. Alligevel er «protein» blevet det bærende salgsargument for en hel hylde.
+
+Der findes grupper med et reelt forhøjet behov — ældre først og fremmest. Det er bare ikke dem, reklamerne henvender sig til.
+
+### Om tal og bylines
+
+DOSIS bliver til med hjælp fra sprogmodeller. Artiklerne i dette nummer er bestilt hos navngivne modeller efter en skriftlig brief, og hver bestilling er noteret med, hvad den kostede, og hvilken kladde der kom retur. Chefredaktionen faktatjekker hver kladde og skriver rettelserne ned i en journal, der ligger i samme arkiv som artiklerne.
+
+Det arbejde er ikke pynt. I dette nummer alene flyttede det Sundhedsstyrelsens D-vitaminanbefaling fra et forældet «5-10 mikrogram» til de 10, der gælder efter opdateringen i november 2025 — og rettede en påstand om, at vinteranbefalingen kun gjaldt særlige risikogrupper. Den slags fejl får folk til at gøre det modsatte af det anbefalede.
+
+Det fandt også en litteraturhenvisning, hvor tidsskriftsnummeret så korrekt ud og førte til en artikel om kystklitter.
+
+Derfor: en byline i dette blad er en faktuel påstand om, hvem der har skrevet teksten. Kan vi dokumentere den, sætter vi den. Kan vi ikke, sætter vi den ikke. Denne leder er skrevet af chefredaktionen og bærer derfor intet navn.
+
+God læselyst — og næste gang et tal lover dig noget om din krop, så spørg: målt på hvem?

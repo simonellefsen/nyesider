@@ -43,6 +43,31 @@ Derfor gælder nu, uden undtagelse:
 - **Brug titlens egen nøgle.** `.env.<slug>` — aldrig en anden titels. Det var netop
   dashboardet med de urørte nøgler, der afslørede sagen.
 
+## En kilde, der svarer, er ikke en kilde, der passer
+
+Tilføjet 2026-08-09 efter genopbygningen af de syv nr. 1-numre. **Statuskoden beviser, at noget
+findes på adressen. Den beviser ikke, at det er det, fodnoten påstår.** Tre gange fandt vi det samme:
+
+- **Gættede websider svarer 200 med forkert indhold.** `geostat.ge/…/768/2024-population-census`
+  serverer kriminalstatistik for juli 2022; `…/322/inbound-visitors-statistics` serverer
+  migrationsdata; `ifr.org/…/robot-density-by-country-2024` serverer en pressemeddelelse om
+  FCC-restriktioner. CMS-drevne sites svarer ofte på id'et og ignorerer sluggen. **Åbn siden og læs.**
+- **DOI'er opløses korrekt til det forkerte arbejde.** I ét nummer var to ud af fire DOI'er forkerte
+  — én anført som en klinisk ernæringsretningslinje opløste til en artikel om kystklitter i et
+  geovidenskabeligt tidsskrift. `check_links.py` godkender dem alle.
+
+  ```bash
+  curl -sL -H "Accept: application/vnd.citationstyles.csl+json" https://doi.org/<DOI>
+  ```
+
+  Læs `title` og `container-title` og hold dem op mod fodnoten. Ti sekunder pr. reference.
+- **Delvist rigtige referencer er farligst.** Rigtig forfatter, rigtigt år, rigtigt emne — forkert
+  titel og tidsskrift. Kontrollér bind, nummer og side, ikke kun at forfatteren findes.
+
+Modellerne leverer også *korrekte* referencer uopfordret — Hosford & Duncan, Goldstein, PROT-AGE,
+VITAL og to Venedigkommission-numre var alle rigtige. Kildekontrol er ikke mistillid. Det er den
+eneste måde at skelne dem fra hinanden.
+
 De afpublicerede numre bærer hver især `unpublishedReason` i deres `issue.json`. **Sæt dem ikke
 tilbage til `published` uden at have produceret dem rigtigt.**
 
