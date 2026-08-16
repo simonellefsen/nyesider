@@ -1,6 +1,7 @@
 ---
-title: "Indien og det globale syd: peak, adgang og spring"
-standfirst: Elektrificering er ikke kun at skifte fossil bil ud. Det er også første gang stikket findes — og aften-toppen, der følger efter.
+title: "Indien: fjerdestørst og 73 procent fossil"
+standfirst: Indien blev i 2025 verdens fjerdestørste producent af ren elektricitet. Næsten tre fjerdedele af landets strøm kom stadig fra fossile brændsler. Forskellen mellem de to tal er hele historien.
+byline: "Claude Sonnet 5 (Anthropic)"
 section: Lande & udbygning
 order: 4
 image: ../images/kraften_indien.png
@@ -8,34 +9,39 @@ imageCredit: "AI-genereret motiv (Imagine / xAI)"
 imageSource: "https://x.ai/"
 ---
 
-I **Indien** og store dele af det globale syd er elektrificering tre historier på én gang. De kan fortælles hver for sig — men de hænger sammen i nettet, i regningen og i politikken.
+Der er to måder at fortælle historien om Indiens elsystem i 2025 på, og begge er sande. Den ene: Indien overhalede både Frankrig og Canada og blev verdens fjerdestørste producent af ren elektricitet.[^1] Den anden: 73 % af al elektricitet i Indien kom stadig fra fossile brændsler, langt overvejende kul.
 
-### 1. Adgang: stikket findes nu
+Forskellen mellem de to tal er ikke en modsigelse. Den er selve pointen.
 
-Siden 2000 har i størrelsesordenen **700 millioner** mennesker i Indien fået adgang til el, ifølge Det Internationale Energiagentur (IEA).[^1] Verdensbankens adgangsstatistikker ligger i dag tæt på **fuld dækning** på papiret — i runde tal **over 99 %** af befolkningen.[^2] Det er en historisk bedrift. Det er *ikke* det samme som pålidelig strøm i spidsbelastning: landlige husholdninger oplever stadig afbrydelser, især om aftenen, og distributionsselskaberne er ofte det svage led.
+### Store tal, lav andel
 
-Pointen for KRAFTEN: når man citerer “elektrificering i Indien”, skal man sige, om man mener **adgang** (er der et stik?), **kWh pr. indbygger** (hvor meget bruges der?) eller **andel el af endelig energi** (hvor stor en del af alt energiforbrug er el?). De tre tal fortæller tre forskellige historier — og indisk forbrug pr. indbygger er stadig langt under europæisk og amerikansk niveau.[^2]
+Indien er verdens tredjestørste elforbruger, og i et land med over 1,4 milliarder indbyggere behøver en beskeden andel ren energi ikke være en beskeden mængde. Ifølge Ember udgjorde ren elektricitet 27 % af Indiens elproduktion i 2025. Sol alene dækkede 9,4 % af elefterspørgslen, mens vind og sol tilsammen nåede 14 %. Resten af den rene andel kommer især fra vandkraft og atomkraft.[^1]
 
-### 2. Peak demand: aften-toppen vokser
+Det betyder også, at 73 % — næsten tre fjerdedele — stadig kom fra fossile kilder, hvoraf kul er langt den største. De to tal, 27 og 73, beskriver samme system fra hver sin ende. En kildetung artikel må vise begge dele, ikke vælge den, der klinger bedst.
 
-Når flere får aircondition, industri kører længere, og byerne vokser, stiger ikke bare *årlig* el — **toppen** stiger. Indiens elsystem planlægges i stigende grad efter peak load: den time, hvor efterspørgslen er højest. IEA og indiske myndigheder har i flere år peget på, at peak kan presse sig mod **over 400 GW** inden 2030, hvis væksten fortsætter.[^3] Kul har stadig den tunge rolle i forsyningen: i 2024 dækkede kul i størrelsesordenen **to tredjedele til tre fjerdedele** af elproduktionen afhængigt af opgørelse og vejrår, mens sol og vind tager en voksende, men stadig mindre, del.[^4]
+### Kul faldt — men hvorfor?
 
-“Mere sol” løser ikke automatisk aften-toppen. Solen er stærkest midt på dagen; mange husholdningers AC og belysning topper senere. Det er derfor, batterier, hydro-flex og efterspørgselsstyring er systemspørgsmål — ikke kun klimaspørgsmål. Se også [lagring i dette nummer](/kraften/2026-08-nr2/lagring).
+Der er en tredje detalje, som kræver et forbehold. I 2024 blev 61 % af væksten i Indiens elefterspørgsel dækket af kul. I 2025 vendte billedet: hele tilvæksten i efterspørgslen blev dækket af rene kilder, og selve kulproduktionen faldt 2,9 %.[^1]
 
-### 3. Spring over fossil? Delvist, ikke automatisk
+Det lyder som et gennembrud, og det er det til dels. Men 2025 var også et år med svag vækst i den samlede elefterspørgsel. Når efterspørgslen stiger langsomt, er det lettere for vedvarende energi at dække hele stigningen — uden at det nødvendigvis betyder, at kul er ved at blive udkonkurreret i det eksisterende system. Faldet på 2,9 % er reelt, men det skal læses sammen med det lave vækstår, ikke isoleret som bevis på en varig omstilling.
 
-I **mobilbetalinger** og digtalt bank har Indien vist ægte *leapfrog*: man springer over ældre infrastruktur. I **tung industri**, cement, stål og døgndrift er det langsommere. Sol + batteri + dieselgenerator som backup er en ægte pakke i landsbyer og til mindre last — men nationale kul- og gasplaner forsvinder ikke, fordi solpriserne falder. IEA’s landesektion er eksplicit: kul forbliver en stor del af forsyningen i overskuelig tid, mens fornybar udbygning sætter rekorder.[^1]
+### 258 GW mod målet på 500 GW
 
-I 2024 installerede Indien i størrelsesordenen **30 GW** sol — næsten en tredobling af det foregående års tempo i IEA’s opgørelse — samtidig med at kul stadig bar hovedparten af elproduktionen.[^5] Parallel kapacitet er ikke en indisk særhed; det er den samme logik, KRAFTEN bruger om [Kina](/kraften/2026-08-nr2/kina): udbyg grønt *og* hold lyset tændt.
+Udbygningen af vedvarende kapacitet fortsætter i højt tempo. Ved udgangen af december 2025 havde Indien installeret 258 gigawatt (GW) vedvarende energikapacitet. Regeringens mål for 2030 er 500 GW ikke-fossil kapacitet.[^1] Indien er altså over halvvejs målt på kapacitet, men skal stadig næsten fordoble den installerede mængde på fem år for at nå målet.
 
-### Globale syd er ikke ét land
+Ember vurderer, at vedvarende energi under de nuværende planer når omkring 42 % af Indiens elproduktion i 2030. Det er markant fremgang fra 27 % i 2025 — men stadig et stykke fra, at ren energi dominerer nettet.
 
-Indien er det største og bedst dokumenterede case. I Afrika syd for Sahara er **adgang** stadig den primære historie i mange lande — World Bank ESMAP og IEA’s *Africa Energy Outlook* er pejlemærkerne. I Sydøstasien er det oftere **peak + industri + kul/gas-kontrakter**. Fælles er: internationale tal er pejlemærker; **nationale utility-rapporter og TSO-data** (*transmission system operator* — den systemansvarlige for eltransmission) er tættere på drift. Når IEA, Ember og et ministerium er uenige om ét procentpoint, er det ikke en skandale — det er definitioner og årgange.
+### Lavt forbrug pr. indbygger — det egentlige svar
 
-KRAFTEN’s pointe: elektrificering er **global**, men ikke **ens**. Første stik, aften-top og fossil-spring er tre lag. Bland dem, og du får en smuk, forkert overskrift.
+Her ligger forklaringen på, hvordan Indien både kan være en klimastormagt og et lavudledningsland pr. person. Indiens udledning fra elsektoren pr. indbygger ligger på omkring det halve af verdensgennemsnittet, selv om landet samlet set er verdens tredjestørste elforbruger.[^1]
 
-[^1]: IEA, [India country page](https://www.iea.org/countries/india) — adgang siden 2000 (~700 millioner) og forsyningsmix; årgang er load-bearing.
-[^2]: World Bank, *Access to electricity* (% of population); Stanford Understand Energy / IEA-syntese om lavt forbrug pr. indbygger relativt til Europa/USA.
-[^3]: IEA *Electricity*-rapporter og indiske Ministry of Power / CEA-pejlinger om peak load mod 2030 (ballpark **>400 GW** i flere fremskrivninger).
-[^4]: IEA *Global Energy Review 2025* / Electricity: kul som dominerende andel af indisk el; Ember India — sol/vind-andele og fossil-andel varierer år-til-år.
-[^5]: IEA: Indien ~30 GW sol-PV i 2024; rekordudbygning i tre store markeder (USA, Indien, Brasilien).
+Forklaringen er enkel og ikke særlig dramatisk: forbruget pr. person er stadig lavt. Mange husholdninger har begrænset adgang til aircondition, køleskabe og elektriske apparater sammenlignet med Europa eller USA. Det samlede forbrug er stort, fordi der er mange mennesker — ikke fordi den enkelte inder bruger meget strøm.
+
+Det billede er ved at ændre sig. Det Internationale Energiagentur (IEA) forventer i *Electricity 2026*, at Indien og Sydøstasien fremover står for en markant større andel af væksten i elefterspørgslen blandt verdens vækstøkonomier frem mod 2030.[^2] Drivkraften er dobbelt: økonomisk vækst, der løfter det generelle forbrug, og en hastigt stigende efterspørgsel efter aircondition.
+
+Aircondition er særligt vigtigt, fordi det ikke kun løfter årsforbruget, men også **spidslasten** — den højeste effekt, nettet skal kunne levere på ét og samme tidspunkt, typisk de varmeste eftermiddage. Et net, der aldrig før har skullet håndtere den slags spidsbelastning i stor skala, står over for en anden opgave end blot at bygge mere vedvarende kapacitet: det skal kunne levere strøm præcis når millioner af klimaanlæg tændes samtidig. Det problem hører hjemme i [lagring og fleksibilitet](/kraften/2026-08-nr2/lagring), ikke i produktionsstatistikken.
+
+Indiens elektrificering er derfor ikke én historie, men mindst tre parallelle: en rekord i absolut ren produktion, et fortsat fossiltungt produktionsmiks, og et land, hvor efterspørgslen efter strøm først lige er ved at tage fart.
+
+[^1]: [India](https://ember-energy.org/countries-and-regions/india), Ember, landeprofil opdateret 4. juni 2026 med 2025-data. Herfra: fjerdestørste producent af ren el (overhalede Frankrig og Canada), ren el 27 %, sol 9,4 %, vind+sol 14 %, fossil 73 %, kul dækkede 61 % af efterspørgselsvæksten i 2024 mod et fald på 2,9 % i 2025, 258 GW installeret vedvarende pr. december 2025 mod 2030-målet på 500 GW, fremskrivning til 42 % i 2030, og udledning pr. indbygger på 0,5 gange verdensgennemsnittet.
+[^2]: [Electricity 2026 — Executive summary](https://www.iea.org/reports/electricity-2026/executive-summary), International Energy Agency, om Indiens og Sydøstasiens stigende andel af efterspørgselsvæksten og om airconditions virkning på både årsforbrug og spidslast.

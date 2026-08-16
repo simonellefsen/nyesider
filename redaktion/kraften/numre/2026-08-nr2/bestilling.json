@@ -2,45 +2,45 @@
   "magazine": "kraften",
   "issue": "2026-08-nr2",
   "issueTheme": "Strøm overalt",
-  "retrofitNote": "Bestilling skrevet ved publicering (editor-led produktion). receipt.words talt fra publiceret tekst.",
+  "integrityNote": "Skrevet fra bunden 2026-08-16. Den afpublicerede udgave (2026-08-08) bar byline til navngivne modeller, mens den daværende bestilling.json havde writer.model: editor-led, ingen costUSD, ingen receipt.draft og ingen fil i kladder/ for en eneste af de 13 artikler. Både byline og revisionsspor var opdigtet. Hele nummeret produceres forfra på titlens egen nøgle (.env.kraften). Byline sættes kun, hvor receipt.costUSD og receipt.draft er udfyldt; lederen er chefredaktionens og har ingen byline.",
   "budget": {
     "articles": 13,
     "wordsPerArticle": [
-      80,
-      750
+      600,
+      900
     ],
-    "targetPages": 12,
-    "note": "Depth pass 2026-08-08: features expanded after thin first cut; Indien prose rewrite; Sverige NBP+fleet. Ordbogen dropped 2026-08-08 — inline glosses only."
+    "targetPages": 16,
+    "note": "Den afpublicerede udgave var 13 artikler på 5.237 ord — gennemsnit 403, og notesbogen erkendte selv, at features var «for tynde efter batch-udgivelse». Nr. 1 blev genopbygget på 600–900 ord pr. artikel og landede på 9.701 ord; nr. 2 får samme budget. Energistof lever af at skelne mellem nameplate MW, TWh, planlagt, under bygning og i drift — den skelnen kan ikke rummes i 400 ord. Ingen Ordbog (notesbogens formatregel: gloser i parentes eller fodnote)."
   },
+  "researchNote": "ADVARSEL: dette felt når ALDRIG frem til modellen — kun brief.angle gør. Derfor står hvert kontrolleret tal nedenfor også skrevet ind i den enkelte brief. Kontrolleret 2026-08-16 i browseren.\n\nIEA, World Energy Outlook 2025 (executive summary): «electricity accounts for only 21% of total final consumption globally, but it is the key source of energy for sectors accounting for over 40% of the global economy». Elforbrug vokser ~40 % til 2035 (CPS og STEPS), over 50 % i NZE. Investering i elforsyning og elektrificering udgør halvdelen af al global energiinvestering. Produktionsinvestering +næsten 70 % siden 2015 til 1.000 mia. USD/år; netinvestering steget under det halve tempo til 400 mia. USD. Batteritilvækst over 75 GW i 2024. Kina stod for over halvdelen af global olie- og gasefterspørgselsvækst og 60 % af elefterspørgselsvæksten siden 2010. Ét land er dominerende raffinaderi for 19 ud af 20 energistrategiske mineraler, gennemsnitlig markedsandel ~70 %; pr. november 2025 er over halvdelen underlagt eksportkontrol. Blackouts i 2025 i Chile og på Den Iberiske Halvø.\n\nIEA, Electricity 2026 (executive summary): global elefterspørgsel vokser 3,6 % om året 2026-2030; +3 % i 2025 efter +4,4 % i 2024. Vækstraten de næste fem år er 50 % højere end det seneste tiårs gennemsnit. Vækstøkonomier står for knap 80 % af meromkostningen til 2030; Kina alene tæt på 50 %, og lægger på fem år efterspørgsel til svarende til hele EU's nuværende elforbrug (4,9 % om året). USA +2,1 % i 2025, ~2 % årligt til 2030, halvdelen af stigningen fra datacentre. EU under +1 % i 2025, ventet ~2 % årligt, men først tilbage på 2021-niveau efter 2028. Lavemissionskilder (vedvarende + atom) stiger til 50 % af global elproduktion i 2030 fra 42 % i 2025; kul falder til 27 % fra 34 %. Sol-el voksede 620 TWh i 2025 mod 450 TWh i 2024 og overhaler vind og atom i 2026, vandkraft i 2029.\n\nIEA, Electricity 2026 (Grids): over 2.500 GW vedvarende, storforbrugs- og lagerprojekter står stille i tilslutningskøer på verdensplan. Netinvestering skal op ~50 % fra dagens 400 mia. USD inden 2030. Planlægning, tilladelser og bygning af net tager 5-15 år; sol og vind 1-5 år, datacentre 1-3 år, ladeinfrastruktur 1-2 år. Priser på nøglekomponenter er næsten fordoblet på fem år. Netforstærkende teknologi og regelændringer kan frigøre plads til 1.200-1.600 GW af de fremskredne projekter i køen, heraf 750-900 GW via ikke-fast tilslutning (non-firm). Baltisk synkronisering februar 2025.\n\nIEA, Electricity 2026 (Flexibility): batteriprojektomkostninger faldt ~40 % i 2024 til ~150 USD/kWh. Storskala-batteritilvækst 63 GW i 2024, samlet installeret 124 GW. Californien: installeret batterikapacitet svarende til knap 25 % af spidslast i 2024, ~15 % i South Australia og Storbritannien — alle under 5 % i 2019. Kun ~100 GW efterspørgselsfleksibilitet udnyttes globalt (2024); aluminiumssmeltning udgør ~160 GW af verdens spidslast og boligaircondition ~600 GW.\n\nEmber, landeprofil Kina (opdateret 28. maj 2026, 2025-tal): 42 % ren el (globalt gennemsnit 43 %); vandkraft 13 %; vind+sol 22 % (globalt og asiatisk gennemsnit 17 %); sol 336 TWh, +40 % på et år; fossil 58 % mod ca. 62 % i 2024. Kulproduktionen faldt 71 TWh — første fald siden 2015. Samlet fossil elproduktion faldt 56 TWh (-0,9 %), første år uden stigning siden 2015. Elsektorens udledning pr. indbygger 2,2 gange verdensgennemsnittet.\n\nEmber, landeprofil Indien (opdateret 4. juni 2026, 2025-tal): 27 % ren el; sol 9,4 % af efterspørgslen; vind+sol 14 %; fossil 73 %. Indien overhalede Frankrig og Canada og blev verdens fjerdestørste producent af ren el i 2025. I 2024 dækkede kul 61 % af efterspørgselsvæksten; 2025 var et lavvækstår, hvor hele tilvæksten blev dækket af rene kilder, og kulproduktionen faldt 2,9 %. 258 GW installeret vedvarende pr. december 2025 mod 2030-målet på 500 GW. Elsektorens udledning pr. indbygger 0,5 gange verdensgennemsnittet.\n\nEmber, landeprofil EU (opdateret 4. juni 2026, 2025-tal): 71 % lavemissions-el; vind+sol 30 %, over fossil (29 %) for første gang nogensinde, op fra 20 % fem år før; atomkraft er EU's største enkeltkilde til ren el med 23 %; kul nede på 9,2 % mod 24,6 % ti år før; gas 17 %. Elsektorens udledning halveret på to årtier.\n\nEmber, landeprofil USA (opdateret 3. juni 2026, 2025-tal): 43 % lavemissions-el; atom 17 %; vind+sol 19 % (globalt 17 %, Kina 22 %, EU 30 %); fossil 57 %, heraf gas 40 %. Sol dækkede over 60 % af elefterspørgselsvæksten i 2025. Udledningsintensitet 384 gCO2e/kWh mod globalt 458. Vind og sol overhalede kul første gang i 2024. Texas havde årets største stigning i solproduktion; i Florida oversteg solvæksten efterspørgselsvæksten.\n\nWorld Nuclear Association, landeprofil Sverige (opdateret 12. august 2026): 6 reaktorer i drift, 7.011 MWe; 0 under bygning; 7 lukkede (4.061 MWe). Atomkraft ~30 % af elektriciteten. 2024-mix: vandkraft 64,9 TWh (38 %), atom 50,4 TWh (29 %), vind 40,4 TWh (23 %), bio 11,4 TWh (7 %), sol 4,1 TWh (2 %). Samlet produktion 172 TWh, nettoeksport 33,4 TWh. Juni 2023: målet «100 % vedvarende» i 2040 erstattet af «100 % fossilfri». November 2023: køreplan for to store reaktorer inden 2035 og svarende til 10 nye reaktorer inklusive SMR inden 2045; loftet på ti reaktorer og kravet om eksisterende placeringer ophævet. Maj 2025: statsstøttelov vedtaget, lån begrænset til svarende til fire store reaktorer (~5.000 MWe), i kraft 1. august 2025. Rammer på 220 mia. SEK (23,4 mia. USD) over 12 år. Lov om regeringsgodkendelse af nukleare anlæg i kraft 17. juni 2026; miljøbalkens forbud i udpegede kystområder ophævet 15. juli 2026. Pr. midten af 2026 fire ansøgninger om statsstøtte: Videberg Kraft (december 2025) samt Blykalla, Studsvik og Nordic Baseload Power (juni 2026). Nordic Baseload Power foreslår TO store reaktorer med SAMLET ca. 2.500 MWe på Barsebäck-grunden; Uniper, hvis datterselskab ejer jorden, oplyser at selskabet ikke er involveret og ikke har planer om at stille jord til rådighed for en ekstern part. Vattenfall bekræftede i august 2025 SMR til 1,5 GW ny kapacitet på Värö-halvøen.\n\nNASA Glenn Research Center: «Designing a fission power system capable of generating 40 kilowatts of energy – enough to run 30 houses for 10 years.» Kilde: https://www1.grc.nasa.gov/space/fission-surface-power/ (kontrolleret 2026-08-16 og svarer 200).\n\nADVARSEL OM DØDE KILDER (kontrolleret 2026-08-16):\n- NASA's egen Fission Surface Power-side er i redirect-løkke: /missions/artemis/fission-surface-power/ sender til /space-technology-mission-directorate/tdm/fission-surface-power, som sender tilbage igen. Ingen af dem kan hentes. Brug Glenn-siden ovenfor.\n- ESA's SOLARIS-sider svarer HTTP 200 med ESA's EGEN FEJLSIDE («You've lost your orbit, captain!»). Det gælder både /SOLARIS og /SOLARIS/Space-Based_Solar_Power_overview. De er altså reelt døde, men et link-tjek uden indholdskontrol vil godkende dem. Der må derfor IKKE linkes til SOLARIS, og der må ikke påstås noget om programmets nuværende status.\n- Caltech Space Solar Power Project (https://www.spacesolar.caltech.edu/) svarer og beskriver konceptet og deres letteste integrerede prototype.",
   "opgaver": [
     {
       "slug": "leder",
       "order": 1,
       "section": "Leder",
       "brief": {
-        "angle": "Elektrificering jorden rundt — og watt i rummet.",
+        "angle": "Chefredaktionens leder. Skrives af redaktionen selv — ingen model, ingen byline.",
         "words": [
-          80,
-          220
+          250,
+          400
         ],
         "mustCite": 0,
         "format": "leder"
       },
       "writer": {
         "byline": null,
-        "model": "editor-led",
-        "fallback": null
+        "model": "editor-led"
       },
       "receipt": {
-        "words": 161,
+        "words": 512,
         "costUSD": null,
         "draft": null
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
+        "status": "editor-written",
+        "checkedAt": "2026-08-16",
         "citations": 0,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "editorNote": "Chefredaktionens egen tekst — ingen model, ingen byline, intet forbrug. Lederen loeber 512 ord mod de briefede 250-400, og check_issue advarer korrekt om det. Overskridelsen er bevidst: afsnittet om forfatterskabet skal redegoere for, hvorfor nummeret blev afpubliceret 2026-08-08, hvad der siden er gjort, og hvad faktatjekket fandt. Den redegoerelse kan ikke skaeres til uden at blive en undskyldning i stedet for en forklaring. Ordbudgettet i briefen var sat, foer omfanget af integritetsafsnittet var kendt."
       }
     },
     {
@@ -48,29 +48,36 @@
       "order": 2,
       "section": "Tallet",
       "brief": {
-        "angle": "Elens andel af endelig energi.",
+        "angle": "TALLET er 21 procent. IEA skriver i World Energy Outlook 2025: «electricity accounts for only 21% of total final consumption globally, but it is the key source of energy for sectors accounting for over 40% of the global economy». Det er nummerets nøgletal, og pointen er dobbelt: elektricitet er stadig en mindretalsandel af verdens endelige energiforbrug — men den er hovedkilden for de sektorer, der udgør over 40 % af økonomien, og for de fleste husholdninger. Forklar hvad «endeligt energiforbrug» (final consumption) betyder for en læser uden fagbaggrund: det er den energi, der faktisk bruges i transport, industri, bygninger — ikke den energi, der går ind i kraftværkerne. Derfor tæller benzin i tanken og gas i fyret med, og derfor er 21 % lavere, end folk gætter. Anden halvdel af artiklen skal være KRAFTENs faste øvelse: et tal er en optællingsregel, ikke en observation. Vis det med batterier. IEA's World Energy Outlook 2025 skriver, at den årlige batteritilvækst oversteg 75 GW i 2024. IEA's Electricity 2026 skriver, at storskala-batteritilvækst nåede 63 GW i 2024 og bragte den samlede installerede kapacitet op på 124 GW. Begge tal er fra IEA, begge gælder 2024, og de er ikke i modstrid: det ene tæller kun storskala (utility-scale), det andet tæller bredere. Skriv det frem som en læseregel, ikke som en afsløring: spørg altid hvad der tælles med, før du sammenligner to tal. Tag også med, at IEA i samme åndedrag skriver, at investering i elforsyning og elektrificering allerede udgør halvdelen af al global energiinvestering, mens produktionsinvesteringen er steget næsten 70 % siden 2015 til 1.000 mia. USD om året — og netinvesteringen under det halve tempo, til 400 mia. USD. Alle tal skal have kilde og årstal.",
         "words": [
-          200,
-          450
+          600,
+          850
         ],
         "mustCite": 3,
+        "mustNumber": [
+          "21 % af endeligt energiforbrug (WEO 2025)",
+          "over 40 % af den globale økonomi",
+          "75 GW vs 63 GW batteritilvækst 2024 — to optællingsregler"
+        ],
         "format": "tallet"
       },
       "writer": {
-        "byline": null,
-        "model": "editor-led",
-        "fallback": "deepseek/deepseek-v3.2"
+        "byline": "Claude Opus 4.8 (Anthropic)",
+        "model": "anthropic/claude-opus-4.8",
+        "fallback": "anthropic/claude-sonnet-5"
       },
       "receipt": {
-        "words": 349,
-        "costUSD": null,
-        "draft": null
+        "words": 690,
+        "costUSD": 0.06075,
+        "draft": "kladder/02-tallet.md",
+        "costRouting": "byok",
+        "draftWords": 724
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
-        "citations": 3,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-16",
+        "citations": 2,
+        "editorNote": "REELT kommissioneret hos anthropic/claude-opus-4.8 paa .env.kraften (BYOK, 0,061 USD); kladde i kladder/02-tallet.md. Den bedste kladde i nummeret. Den forstod opgaven om de to batterital praecis som briefen bad om — ikke som en afsloering af en fejl, men som en laeseregel — og formulerede selv den saetning, redaktionen ville have skrevet: at foerste reaktion ikke er 'hvem lyver?' men 'hvad taeller de hver isaer?'. Den tilfoejede desuden en pointe, ingen havde bedt om og som holder: at de 21 % ikke er et loft, men et udgangspunkt, fordi hver varmepumpe og elbil flytter fossilt direkteforbrug over i elstatistikken. Redaktionelt: fodnoterne pegede paa rapporternes forsider ('Se iea.org/reports/...') — erstattet af de konkrete kapitler, hvor hvert tal faktisk staar, med angivelse af hvilke tal der kommer hvorfra. Krydslink til netflaskehalse tilfoejet. MUSTCITE-BEMAERKNING: check_issue advarer om faerre citations end briefet. Advarslen er korrekt, og aarsagen er redaktionens egen: mustCite blev sat til 3, foer researchen viste, at materialet stammer fra én autoritativ side. At splitte den samme side op i tre fodnoter ville give tre links til samme adresse og se ud som tre kilder — det er praecis den falske praecision, bladet advarer imod. Kilderne er splittet dér, hvor de faktisk er forskellige. Laering til nr. 3: saet mustCite EFTER kildesoegningen, ikke foer."
       }
     },
     {
@@ -78,29 +85,37 @@
       "order": 3,
       "section": "Lande & udbygning",
       "brief": {
-        "angle": "Kina som elektrificeringsmaskine: EV, industri, GW — kul i parallel.",
+        "angle": "Kinas 2025 er årets vigtigste enkelthistorie i elverdenen, og den kan skrives i én sætning: kulproduktionen faldt. Ember (landeprofil Kina, opdateret 28. maj 2026) opgør, at Kinas kulbaserede elproduktion faldt 71 TWh i 2025 — det første fald siden 2015 — og at den samlede fossile elproduktion faldt 56 TWh (-0,9 %), også første år uden stigning siden 2015. Fossile brændsler leverede 58 % af Kinas el i 2025 mod ca. 62 % i 2024. Ren el nåede 42 % (verdensgennemsnittet er 43 %), vandkraft er stadig den største enkeltkilde med 13 %, og vind og sol tilsammen nåede 22 % — over både det globale og det asiatiske gennemsnit på 17 %. Solproduktionen alene nåede 336 TWh, en stigning på 40 % på ét år. Skriv det nøgternt: et fald på 71 TWh er stort i absolutte tal, men det er ét år, og det er ét fald i et system, hvor over halvdelen af verdens kulbaserede elproduktion stadig finder sted. IEA (Electricity 2026) forventer, at netop udfladningen af kinesisk kul er den vigtigste enkeltfaktor bag, at global kulproduktion begynder at falde — og samtidig, at Kina alene står for tæt på 50 % af verdens vækst i elefterspørgsel frem til 2030 og på fem år vil lægge efterspørgsel til, der svarer til hele EU's nuværende elforbrug. Begge dele er sande på samme tid, og artiklen skal holde dem samlet i stedet for at vælge en af dem. Nævn også, at Kinas elsektor udleder 2,2 gange verdensgennemsnittet pr. indbygger — et tal, der trækker den anden vej end procenterne. Ingen forudsigelser ud over det, kilderne selv fremskriver, og skriv altid årstallet på tallet.",
         "words": [
-          250,
-          500
+          650,
+          900
         ],
-        "mustCite": 0,
+        "mustCite": 3,
+        "mustNumber": [
+          "kul -71 TWh i 2025, første fald siden 2015",
+          "fossil 58 % mod ca. 62 % i 2024",
+          "sol 336 TWh, +40 %",
+          "vind+sol 22 %"
+        ],
         "format": "feature"
       },
       "writer": {
-        "byline": null,
-        "model": "editor-led",
-        "fallback": "deepseek/deepseek-v3.2"
+        "byline": "Gemini 3.1 Pro Preview (Google)",
+        "model": "google/gemini-3.1-pro-preview",
+        "fallback": "anthropic/claude-sonnet-5"
       },
       "receipt": {
-        "words": 364,
-        "costUSD": null,
-        "draft": null
+        "words": 497,
+        "costUSD": 0.111738,
+        "draft": "kladder/03-kina.md",
+        "costRouting": "byok",
+        "draftWords": 734
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
-        "citations": 0,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-16",
+        "citations": 2,
+        "editorNote": "REELT kommissioneret hos google/gemini-3.1-pro-preview paa .env.kraften (BYOK, 0,112 USD); kladde i kladder/03-kina.md. Alle otte tal fra briefen korrekt gengivet, og den holdt de to sandheder samlet, som briefen bad om. Redaktionelt tungt arbejde: fem fodnoter uden en eneste URL — bare 'Ember, China - Country Profile' gentaget tre gange og 'IEA, Electricity 2026' to gange. Det er praecis den fejl, nr. 1 ogsaa faldt i, og den er ubrugelig for en laeser. Slaaet sammen til to fodnoter med links til de faktiske sider og en opremsning af, hvilke tal der stammer hvorfra. Sproget var desuden pustet op ('himmelflugt', 'galoperende', 'suveraent stoerste', 'svimlende') — strammet gennemgaaende. Overskriften forkortet fra en to-leddet bandwurm til 'Kina: kullet faldt'."
       }
     },
     {
@@ -108,29 +123,37 @@
       "order": 4,
       "section": "Lande & udbygning",
       "brief": {
-        "angle": "Indien/globalt syd: adgang, peak demand, delvist leapfrog — prosa, ikke redaktionsnoter.",
+        "angle": "Indien passerede en milepæl i 2025, som næsten ingen lagde mærke til: landet overhalede Frankrig og Canada og blev verdens fjerdestørste producent af ren elektricitet (Ember, landeprofil Indien, opdateret 4. juni 2026). Samtidig kom 73 % af Indiens el fra fossile brændsler. Begge dele er rigtige, og forskellen mellem dem er hele artiklen: absolutte mængder og andele fortæller to forskellige historier om det samme land. Konkrete tal: ren el 27 % af produktionen i 2025; sol alene dækkede 9,4 % af efterspørgslen; vind og sol tilsammen 14 %. I 2024 blev 61 % af væksten i elefterspørgsel dækket af kul; 2025 var et lavvækstår, hvor hele tilvæksten blev dækket af rene kilder, og kulproduktionen faldt 2,9 %. Vær ærlig om, at det andet tal delvis skyldes svag efterspørgselsvækst og ikke kun udbygning — det er præcis den slags forbehold, der adskiller en kildetung artikel fra en pressemeddelelse. Udbygningen: 258 GW installeret vedvarende kapacitet pr. december 2025 mod regeringens 2030-mål på 500 GW; Ember vurderer, at vedvarende energi under de nuværende planer når 42 % af produktionen i 2030. Forklar for en dansk læser, hvorfor Indiens udledning pr. indbygger i elsektoren er 0,5 gange verdensgennemsnittet, når landet er verdens tredjestørste elforbruger: fordi forbruget pr. person stadig er lavt. Sæt det op mod IEA's forventning (Electricity 2026) om, at Indien og Sydøstasien får en markant større andel af vækstøkonomiernes efterspørgselsvækst frem mod 2030, drevet af økonomisk vækst og hurtigt stigende behov for aircondition — som løfter både årsforbrug og spidslast. Skriv «spidslast» ud første gang: den højeste effekt, nettet skal kunne levere på én gang.",
         "words": [
-          350,
-          650
+          650,
+          900
         ],
         "mustCite": 3,
+        "mustNumber": [
+          "fjerdestørste producent af ren el i 2025",
+          "27 % ren el, 73 % fossil",
+          "258 GW mod målet 500 GW",
+          "kul -2,9 % i 2025"
+        ],
         "format": "feature"
       },
       "writer": {
-        "byline": null,
-        "model": "editor-led",
-        "fallback": "deepseek/deepseek-v3.2"
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "google/gemini-3.1-pro-preview"
       },
       "receipt": {
-        "words": 652,
-        "costUSD": null,
-        "draft": null
+        "words": 666,
+        "costUSD": 0.033818,
+        "draft": "kladder/04-indien-syd.md",
+        "costRouting": "byok",
+        "draftWords": 761
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
-        "citations": 5,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-16",
+        "citations": 2,
+        "editorNote": "REELT kommissioneret hos anthropic/claude-sonnet-5 paa .env.kraften (BYOK, 0,034 USD); kladde i kladder/04-indien-syd.md. Den ramte briefens vigtigste krav uopfordret praecist: den skrev selv forbeholdet om, at 2025 var et lavvaekstaar, og at faldet i kul derfor ikke isoleret er bevis paa varig omstilling. FAKTAFEJL FANGET: kladden skrev, at Indien som fjerdestoerste producent af ren el var 'kun overgaaet af Kina, USA og Brasilien'. Den raekkefoelge stod ikke i briefen og staar ikke i kilden — Ember skriver, at Indien overhalede Frankrig og Canada, ikke hvem de tre foran er. Paastanden er fjernet. SPROGFEJL FANGET: 'den enkelte indianer' i stedet for 'den enkelte inder'. Rettet. Krydslink til lagring tilfoejet, hvor spidslast-pointen hoerer hjemme. MUSTCITE-BEMAERKNING: check_issue advarer om faerre citations end briefet. Advarslen er korrekt, og aarsagen er redaktionens egen: mustCite blev sat til 3, foer researchen viste, at materialet stammer fra én autoritativ side. At splitte den samme side op i tre fodnoter ville give tre links til samme adresse og se ud som tre kilder — det er praecis den falske praecision, bladet advarer imod. Kilderne er splittet dér, hvor de faktisk er forskellige. Laering til nr. 3: saet mustCite EFTER kildesoegningen, ikke foer."
       }
     },
     {
@@ -138,89 +161,113 @@
       "order": 5,
       "section": "Lande & udbygning",
       "brief": {
-        "angle": "EU vs USA electrification; explain Fit for 55 and IRA for non-specialist readers.",
+        "angle": "To rige elsystemer, to helt forskellige veje — og et enkelt tal, der viser afstanden. EU: vind og sol nåede 30 % af elektriciteten i 2025 og var dermed større end fossil (29 %) for første gang nogensinde, op fra 20 % blot fem år før. 71 % af EU's el var lavemission. Den største enkeltkilde til ren el i EU er ikke vind eller sol, men atomkraft med 23 % — skriv det tydeligt, for det overrasker mange. Kul er nede på 9,2 % mod 24,6 % ti år tidligere. Gas fylder stadig 17 %, og EU importerer størstedelen af den. USA: 43 % lavemissions-el i 2025 (nøjagtig verdensgennemsnittet), atomkraft 17 %, vind og sol 19 % — lige over det globale gennemsnit på 17 %, men overhalet af Kina (22 %) og langt efter EU (30 %). Fossil 57 %, hvoraf gas alene er 40 %. Det amerikanske tal, der betyder mest, handler ikke om andele: sol dækkede over 60 % af hele væksten i amerikansk elefterspørgsel i 2025. Vind og sol overhalede kul første gang i 2024. Texas havde årets største stigning i solproduktion, og i Florida oversteg solvæksten efterspørgselsvæksten og bidrog til, at fossil produktion faldt. Alle tal fra Embers landeprofiler for EU (opdateret 4. juni 2026) og USA (opdateret 3. juni 2026), 2025-data. Pointen at trække frem: EU's omstilling er drevet af, hvad der lukkes; USA's er drevet af, hvad der bygges oven på en voksende efterspørgsel. IEA (Electricity 2026) forventer amerikansk efterspørgselsvækst på ~2 % om året til 2030 med omkring halvdelen fra datacentre, mens EU-forbruget først ventes tilbage på 2021-niveau efter 2028. Undgå at gøre det til en konkurrence — det er to forskellige opgaver.",
         "words": [
-          250,
-          500
+          650,
+          900
         ],
-        "mustCite": 2,
+        "mustCite": 3,
+        "mustNumber": [
+          "EU: vind+sol 30 % over fossil 29 %, første gang",
+          "EU-atomkraft 23 %, største rene enkeltkilde",
+          "USA: sol dækkede over 60 % af efterspørgselsvæksten",
+          "USA: gas 40 % af produktionen"
+        ],
         "format": "feature"
       },
       "writer": {
-        "byline": null,
-        "model": "editor-led",
-        "fallback": "deepseek/deepseek-v3.2"
+        "byline": "GPT-5.6 Terra (OpenAI)",
+        "model": "openai/gpt-5.6-terra",
+        "fallback": "anthropic/claude-sonnet-5"
       },
       "receipt": {
-        "words": 380,
-        "costUSD": null,
-        "draft": null
+        "words": 677,
+        "costUSD": 0.013359,
+        "draft": "kladder/05-eu-usa.md",
+        "costRouting": "standard",
+        "draftWords": 815
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
-        "citations": 2,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-16",
+        "citations": 3,
+        "editorNote": "REELT kommissioneret hos openai/gpt-5.6-terra paa .env.kraften (0,013 USD — nummerets billigste artikel og en af de bedste); kladde i kladder/05-eu-usa.md. Den fandt selv den formulering, briefen kredsede om uden at ramme: at EU's omstilling handler om, at 'noget gammelt faktisk forsvinder', mens USA's handler om, at noget nyt kommer til. Alle tal korrekte. DOEDT LINK FANGET: fodnoten til Embers amerikanske landeprofil pegede paa /countries-and-regions/united-states/ i stedet for /united-states-of-america — den foerste svarer ganske vist 200, men det er den slags gaet adresse, der bliver til en 404, naeste gang siden flytter. Rettet til den kontrollerede URL. Fodnoterne praeciseret, saa det fremgaar hvilke tal der kommer hvorfra. Krydslink til netflaskehalse og lagring tilfoejet."
       }
     },
     {
       "slug": "netflaskehalse",
       "order": 6,
-      "section": "Systemet bag stikket",
+      "section": "Nettet",
       "brief": {
-        "angle": "Kabler tager år.",
+        "angle": "Nettet er blevet flaskehalsen, og IEA har sat tal på i Electricity 2026 (kapitlet Grids). Over 2.500 GW vedvarende energi-, storforbrugs- og lagerprojekter står stille i tilslutningskøer verden over. Det centrale er ikke tallet, men tempoforskellen: at planlægge, få tilladelse til og bygge nyt net tager 5-15 år. Et solcelle- eller vindprojekt tager 1-5 år. Et datacenter tager 1-3 år. Ladeinfrastruktur 1-2 år. Alt det, der skal tilsluttes, bygges altså hurtigere end det, de skal tilsluttes til — og det er en strukturel ubalance, ikke et uheld. Priserne på nøglekomponenter (transformere, kabler) er næsten fordoblet på fem år. Netinvesteringen skal op ~50 % fra dagens 400 mia. USD inden 2030 for bare at følge med. Den gode nyhed hører også med, og den er konkret: netforstærkende teknologier og regelændringer kan frigøre tilslutningsplads til 1.200-1.600 GW af de projekter, der allerede står langt fremme i køen — heraf 750-900 GW alene gennem såkaldt ikke-fast tilslutning (non-firm connection). Forklar det for en almindelig læser: en aftale, hvor du får lov at koble dig på nettet hurtigere mod at acceptere, at din produktion eller dit forbrug kan blive begrænset i de timer, hvor nettet er presset. Nettet er bygget til spidslast og har ubrugt plads resten af tiden; ikke-fast tilslutning sælger den plads. Nævn også dynamisk kapacitetsbestemmelse (dynamic line rating) i én sætning: at måle, hvor meget en ledning faktisk kan bære lige nu, i stedet for at regne med et konservativt fast tal hele året. Tag den baltiske synkronisering i februar 2025 med som eksempel på, at store netændringer kan lade sig gøre, når der er politisk vilje. Skriv «MW/GW er kapacitet, TWh er mængde» ind, hvor det er nødvendigt.",
         "words": [
-          250,
-          500
+          650,
+          900
         ],
-        "mustCite": 1,
+        "mustCite": 3,
+        "mustNumber": [
+          "over 2.500 GW i tilslutningskøer",
+          "net 5-15 år vs datacentre 1-3 år",
+          "netinvestering 400 mia. USD, skal op ~50 % inden 2030",
+          "1.200-1.600 GW kan frigøres"
+        ],
         "format": "feature"
       },
       "writer": {
-        "byline": null,
-        "model": "editor-led",
-        "fallback": "deepseek/deepseek-v3.2"
+        "byline": "Claude Opus 4.8 (Anthropic)",
+        "model": "anthropic/claude-opus-4.8",
+        "fallback": "anthropic/claude-sonnet-5"
       },
       "receipt": {
-        "words": 377,
-        "costUSD": null,
-        "draft": null
+        "words": 620,
+        "costUSD": 0.060155,
+        "draft": "kladder/06-netflaskehalse.md",
+        "costRouting": "byok",
+        "draftWords": 721
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-16",
         "citations": 1,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "editorNote": "REELT kommissioneret hos anthropic/claude-opus-4.8 paa .env.kraften (BYOK, 0,060 USD); kladde i kladder/06-netflaskehalse.md. Fremragende paa det, briefen bad om: den forklarede ikke-fast tilslutning bedre end briefen selv gjorde ('nettet er bygget til spidslast og har ubrugt plads resten af tiden; ikke-fast tilslutning saelger den plads') og fik dynamisk kapacitetsbestemmelse ned i én saetning uden at tabe mekanismen. FAKTAFEJL FANGET: kladden skrev, at de 2.500 GW i koe er 'mere end det dobbelte af det, verden i dag har af sol og vind tilsluttet'. Den sammenligning stod ikke i briefen, og den er forkert — verdens installerede sol- og vindkapacitet er langt stoerre end 1.250 GW. Fjernet. TO GAETTEDE KILDER FANGET: kladden tilfoejede fodnoter til ENTSO-E's og Europa-Kommissionens materiale om den baltiske synkronisering — begge uden URL og ingen af dem kontrolleret. Fjernet; den baltiske synkronisering staar i IEA's egen rapport, som er den kilde, vi rent faktisk har laest. MUSTCITE-BEMAERKNING: check_issue advarer om faerre citations end briefet. Advarslen er korrekt, og aarsagen er redaktionens egen: mustCite blev sat til 3, foer researchen viste, at materialet stammer fra én autoritativ side. At splitte den samme side op i tre fodnoter ville give tre links til samme adresse og se ud som tre kilder — det er praecis den falske praecision, bladet advarer imod. Kilderne er splittet dér, hvor de faktisk er forskellige. Laering til nr. 3: saet mustCite EFTER kildesoegningen, ikke foer."
       }
     },
     {
       "slug": "lagring",
       "order": 7,
-      "section": "Systemet bag stikket",
+      "section": "Lagring & fleksibilitet",
       "brief": {
-        "angle": "Timer vs. sæson.",
+        "angle": "Batterier er holdt op med at være et forsøg og er blevet et driftsværktøj. IEA (Electricity 2026, kapitlet Flexibility): projektomkostningerne for storskala-batterier faldt omkring 40 % i 2024 til cirka 150 USD/kWh. Tilvæksten nåede 63 GW i 2024 og bragte den samlede installerede storskala-kapacitet op på 124 GW — altså blev over en tredjedel af alt, der nogensinde var bygget, bygget på ét år. Det tal, der viser, hvad det betyder i praksis: i Californien svarede den installerede batterikapacitet til knap 25 % af spidslasten i 2024; i South Australia og Storbritannien omkring 15 %. Alle tre lå under 5 % i 2019. IEA advarer selv om, at det er nameplate-tal: den effekt, et batteri faktisk kan levere under en spidslast, kan være markant lavere, fordi batteriet kan være delvist afladet, fordi varme nedsætter ydelsen (og spidslast falder netop sammen med ekstrem varme), og fordi en del af kapaciteten er bundet til andre systemydelser. Skriv det forbehold ind — det er hele forskellen mellem en brochure og en driftsplan. Anden halvdel: fleksibilitet er ikke kun batterier. Kun omkring 100 GW efterspørgselsfleksibilitet (demand response) udnyttes globalt pr. 2024, mens aluminiumssmeltning alene bidrager med cirka 160 GW til verdens spidslast og boligaircondition med cirka 600 GW. Forklar demand response på dansk: at flytte eller skrue ned for forbrug, når nettet er presset, mod betaling eller rabat — og hvorfor det er billigere end at bygge kapacitet, der kun bruges få timer om året. Slut på, at batterier ikke løser sæsonudsving; de flytter timer, ikke måneder.",
         "words": [
-          250,
-          500
+          650,
+          900
         ],
-        "mustCite": 0,
+        "mustCite": 3,
+        "mustNumber": [
+          "63 GW tilvækst i 2024, 124 GW i alt",
+          "omkostninger -40 % til ~150 USD/kWh",
+          "Californien knap 25 % af spidslast",
+          "kun ~100 GW demand response udnyttet"
+        ],
         "format": "feature"
       },
       "writer": {
-        "byline": null,
-        "model": "editor-led",
-        "fallback": "deepseek/deepseek-v3.2"
+        "byline": "Gemini 3.1 Pro Preview (Google)",
+        "model": "google/gemini-3.1-pro-preview",
+        "fallback": "anthropic/claude-sonnet-5"
       },
       "receipt": {
-        "words": 377,
-        "costUSD": null,
-        "draft": null
+        "words": 533,
+        "costUSD": 0.118592,
+        "draft": "kladder/07-lagring.md",
+        "costRouting": "byok",
+        "draftWords": 708
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
-        "citations": 0,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-16",
+        "citations": 1,
+        "editorNote": "REELT kommissioneret hos google/gemini-3.1-pro-preview paa .env.kraften (BYOK, 0,119 USD — nummerets dyreste); kladde i kladder/07-lagring.md. Den gengav IEA's nameplate-forbehold korrekt og komplet, inklusive at spidslast falder sammen med ekstrem varme, og at en del kapacitet er bundet til frekvensydelser. TRE MISATTRIBUEREDE KILDER FANGET — den alvorligste fejl i nummeret: samtlige tre fodnoter tilskrev tallene de forkerte rapporter. Prisfaldet og de 63/124 GW blev tilskrevet 'Batteries and Secure Energy Transitions' (2024), Californien-tallet 'Electricity 2024' plus CAISO, og de 100 GW efterspoergselsfleksibilitet en tracker-side. Alle tre tal staar i Electricity 2026, kapitlet Flexibility — den kilde briefen citerede. Alle rapporterne findes, og alle URL'er svarede 200, saa hverken et linktjek eller en hurtig laeser ville have fanget det. Erstattet af én fodnote til den rigtige kilde. Dette er praecis moenstret fra nr. 1: rigtigt tal, forkert rapport. Sproget desuden strammet ('koldt, kalkuleret', 'voldsommere', 'eminente'). MUSTCITE-BEMAERKNING: check_issue advarer om faerre citations end briefet. Advarslen er korrekt, og aarsagen er redaktionens egen: mustCite blev sat til 3, foer researchen viste, at materialet stammer fra én autoritativ side. At splitte den samme side op i tre fodnoter ville give tre links til samme adresse og se ud som tre kilder — det er praecis den falske praecision, bladet advarer imod. Kilderne er splittet dér, hvor de faktisk er forskellige. Laering til nr. 3: saet mustCite EFTER kildesoegningen, ikke foer."
       }
     },
     {
@@ -228,29 +275,31 @@
       "order": 8,
       "section": "Rumkraft",
       "brief": {
-        "angle": "Watt i kredsløb.",
+        "angle": "Sådan virker det: en satellits strømforsyning. Næsten alt i kredsløb om Jorden kører på solpaneler plus batterier, og artiklen skal forklare hvorfor det er sværere, end det lyder. Fire ting bestemmer, hvor mange watt en satellit har: arealet af panelerne, hvor godt de peger mod solen, hvor meget stråling har nedbrudt dem, og hvor varmen kan komme af med sig. Forklar formørkelse (eclipse) — den del af hvert kredsløb, hvor Jorden skygger for solen, og hvor batteriet alene skal bære alt om bord; i lav bane sker det op mod 16 gange i døgnet, hvilket giver et batteri titusinder af opladningscyklusser i løbet af en mission og gør levetid til et designproblem snarere end et indkøbsproblem. Forklar hvorfor køling er den sværeste del i vakuum: der er ingen luft at lede varmen bort med, så alt overskudsvarme skal stråles væk gennem radiatorer, og det sætter en øvre grænse for, hvor meget effekt en given satellit kan bruge. Forklar hvorfor stråling gør panelerne svagere år for år, og at missioner derfor dimensioneres efter effekten ved missionens SLUTNING, ikke ved starten. Den redaktionelle pointe, som artiklen skal lande: missionens egne watt er ikke et elnet. En satellit, der producerer nogle kilowatt til sig selv, har intet at gøre med at levere strøm til Jorden — det er en helt anden opgave, som behandles i artiklen om orbital solkraft. Skriv nøgternt og uden tal, du ikke kan kildebelægge: hellere en korrekt forklaring af mekanismen end en falsk-præcis effektangivelse. Hvis du bruger et konkret tal, skal det have kilde og årstal; ellers skriv mekanismen uden tal.",
         "words": [
-          250,
-          450
+          600,
+          850
         ],
-        "mustCite": 0,
-        "format": "feature"
+        "mustCite": 1,
+        "format": "saadan-virker-det"
       },
       "writer": {
-        "byline": null,
-        "model": "editor-led",
-        "fallback": "deepseek/deepseek-v3.2"
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "openai/gpt-5.6-terra"
       },
       "receipt": {
-        "words": 305,
-        "costUSD": null,
-        "draft": null
+        "words": 681,
+        "costUSD": 0.024344,
+        "draft": "kladder/08-rum-solpanel.md",
+        "costRouting": "byok",
+        "draftWords": 778
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
-        "citations": 0,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-16",
+        "citations": 1,
+        "editorNote": "REELT kommissioneret hos anthropic/claude-sonnet-5 paa .env.kraften (BYOK, 0,024 USD); kladde i kladder/08-rum-solpanel.md. Den loeste briefens svaereste krav — at forklare mekanismen uden at opfinde tal — og fandt selv den rigtige formulering om batterilevetid som 'designproblem frem for indkoebsproblem'. KILDE MED FORKERT INDHOLD FANGET: kladden hentede de op mod 16 formoerkelser i doegnet fra NASA's forside om Den Internationale Rumstation. Siden svarer 200, men den paastand staar der ikke. Erstattet af NASA's faktaside, som rent faktisk skriver, at stationen kredser om Jorden cirka hvert 90. minut, og de 16 kredsloeb er nu praesenteret som det, de er: en foelge af omloebstiden, med forbehold for at antallet afhaenger af bane og haeldning. Dette er den samme faelde som ESA-siderne i orbital-solkraft, blot omvendt: dér en fejlside bag et 200, her en gyldig side uden den paastand, den blev citeret for. SPROGFEJL: 'efter years i rummet' — engelsk ord midt i saetningen. Rettet."
       }
     },
     {
@@ -258,29 +307,35 @@
       "order": 9,
       "section": "Rumkraft",
       "brief": {
-        "angle": "RTG og fission surface power.",
+        "angle": "Kernekraft i rummet dækker over to helt forskellige ting, og de forveksles konstant. Det første er radioisotop-generatoren (RTG): ingen kædereaktion, bare varmen fra henfaldende plutonium-238, som via termoelektriske elementer bliver til nogle få hundrede watt. Det er teknologien bag Voyager og Curiosity — lav effekt, ekstrem pålidelighed, ingen bevægelige dele, og den eneste realistiske løsning, når solen er for svag i det ydre solsystem. Det andet er fission surface power: en rigtig reaktor, der skal stå på Månens eller Mars' overflade og levere kilowatt til en base. NASA Glenn Research Center beskriver målet sådan: «Designing a fission power system capable of generating 40 kilowatts of energy – enough to run 30 houses for 10 years.» Brug netop den sætning som ankeret, og oversæt den for læseren: 40 kilowatt er ikke et kraftværk, det er cirka hvad en boligblok bruger — og pointen er ikke effekten, men at den kommer uafbrudt, også gennem en månenat, der varer omkring 14 jorddøgn. Det er dér solpaneler taber: ikke på effekt, men på udholdenhed. Forklar hvorfor køling igen er den svære del (varme kan kun stråles væk i vakuum), og hvorfor et system, der skal køre ti år uden service, stiller helt andre krav end en jordisk reaktor med et vagthold. Vær nøgtern om status: dette er udviklingsarbejde og designmål, ikke hardware i drift på Månen. Skriv årstal som planlagte, ikke som kendsgerninger, og undlad at angive en opsendelsesdato, medmindre du kan kildebelægge den. VIGTIGT om kilder: NASA's egen Fission Surface Power-side under nasa.gov er i øjeblikket i en redirect-løkke og kan ikke hentes — brug i stedet https://www1.grc.nasa.gov/space/fission-surface-power/, som svarer. Link aldrig til en adresse, du ikke har åbnet.",
         "words": [
-          250,
-          450
+          600,
+          850
         ],
-        "mustCite": 0,
+        "mustCite": 2,
+        "mustNumber": [
+          "40 kilowatt / 30 husstande / 10 år (NASA Glenn)",
+          "månenat ca. 14 jorddøgn"
+        ],
         "format": "feature"
       },
       "writer": {
-        "byline": null,
-        "model": "editor-led",
-        "fallback": "google/gemini-3.5-flash"
+        "byline": "Claude Opus 4.8 (Anthropic)",
+        "model": "anthropic/claude-opus-4.8",
+        "fallback": "anthropic/claude-sonnet-5"
       },
       "receipt": {
-        "words": 328,
-        "costUSD": null,
-        "draft": null
+        "words": 641,
+        "costUSD": 0.05831,
+        "draft": "kladder/09-rum-kernekraft.md",
+        "costRouting": "byok",
+        "draftWords": 687
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
-        "citations": 0,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "status": "accepted",
+        "checkedAt": "2026-08-16",
+        "citations": 2,
+        "editorNote": "REELT kommissioneret hos anthropic/claude-opus-4.8 paa .env.kraften (BYOK, 0,058 USD); kladde i kladder/09-rum-kernekraft.md. Naesten uredigeret. Den ramte briefens pointe uden at overdrive — 'det er ikke effekt, men udholdenhed, der afgoer spoergsmaalet' — og skrev af sig selv det afsnit om ti aar uden serviceteknikere, som er artiklens bedste. Den fulgte ogsaa den udtrykkelige instruktion om ikke at angive en opsendelsesdato. Redaktionelt: NASA-citatet er gengivet paa dansk i stedet for i engelsk originalordlyd, da bladet ellers ikke citerer paa fremmedsprog i broedteksten; ordlyden staar i fodnoten. Fodnoten om RTG'er pegede paa science.nasa.gov/mission/radioisotope-power-systems/, som er en 404 — erstattet af rps.nasa.gov, kontrolleret. Bemaerkningen om NASA's redirect-loekke tilfoejet i fodnoten, saa laeseren ved, hvorfor vi linker til Glenn og ikke til hovedsiden. Krydslink til Sverige-artiklen tilfoejet. KILDETEKNISK FUND: NASA Glenn-serveren sender ikke sit mellemliggende certifikat (openssl: 'unable to get local issuer certificate'). En browser henter det manglende led selv og aabner siden uden varsel; check_links.py melder den doed. Siden er laest og citatet er kontrolleret. Forbeholdet er skrevet ind i fodnoten, saa en laeser der selv tjekker efter ikke tror, vi har opfundet adressen. Sammen med ESA's falske 200-svar i orbital-solkraft giver nummeret dermed to modsatte eksempler paa, hvorfor et automatisk linktjek ikke kan staa alene: en levende side der meldes doed, og en doed side der meldes levende."
       }
     },
     {
@@ -288,29 +343,31 @@
       "order": 10,
       "section": "Rumkraft",
       "brief": {
-        "angle": "Demonstratorer tæller.",
+        "angle": "Orbital solkraft — space-based solar power, SBSP — er ideen om at samle solenergi i kredsløb, sende den til Jorden som mikrobølger og omdanne den til strøm i en modtagerstation. Fordelen er reel og let at forstå: i kredsløb er der hverken nat, skyer eller årstider, så det samme panel høster langt mere end på jorden. Caltechs Space Solar Power Project beskriver konceptet som moduler af ultralette, foldbare, todimensionelle elementer, hvor solceller og radiosender sidder i samme element, så man slipper for et strømfordelingsnet gennem hele konstruktionen — og de har demonstreret en integreret prototype, der høster sollys, omdanner det til radiofrekvent effekt og sender den i en styrbar stråle. Det er den verificerbare del. Resten af artiklen skal handle om, hvorfor det stadig ikke er et energisystem: massen skal opsendes, arealerne er enorme, modtagerstationen på jorden fylder også, virkningsgraden tabes i hvert led (sol til el, el til mikrobølge, stråle gennem atmosfæren, mikrobølge til el igen), og frekvensbånd og strålesikkerhed er regulatorisk uafklaret. Sæt det op mod nummerets øvrige tal: mens SBSP diskuteres, står over 2.500 GW færdigudviklede jordiske projekter stille i tilslutningskøer, fordi der mangler net (IEA, Electricity 2026). Det er ikke et argument mod forskning — det er et argument om rækkefølge. STRENGT KILDEKRAV: ESA's SOLARIS-sider svarer HTTP 200 med agenturets EGEN fejlside og er reelt døde; du må hverken linke til dem eller skrive noget om SOLARIS' aktuelle status. Nævn ikke konkrete demonstrationsmissioner, årstal eller effekttal, du ikke kan åbne en kilde til. Hellere færre påstande end én, der ikke holder.",
         "words": [
-          250,
-          450
+          600,
+          850
         ],
-        "mustCite": 0,
+        "mustCite": 2,
         "format": "feature"
       },
       "writer": {
-        "byline": null,
-        "model": "editor-led",
-        "fallback": "deepseek/deepseek-v3.2"
+        "byline": "GPT-5.6 Terra (OpenAI)",
+        "model": "openai/gpt-5.6-terra",
+        "fallback": "anthropic/claude-sonnet-5"
       },
       "receipt": {
-        "words": 281,
-        "costUSD": null,
-        "draft": null
+        "words": 753,
+        "costUSD": 0.01843025,
+        "draft": "kladder/10-orbital-solkraft.md",
+        "costRouting": "standard",
+        "draftWords": 751
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
-        "citations": 0,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-16",
+        "citations": 3,
+        "editorNote": "REELT kommissioneret hos openai/gpt-5.6-terra paa .env.kraften (0,018 USD); kladde i kladder/10-orbital-solkraft.md. Den respekterede det strenge kildekrav fuldstaendigt: ingen ESA, ingen demonstrationsmissioner, ingen aarstal, den ikke kunne belaegge — og den tilfoejede selv det regulatoriske afsnit om ITU og straalesikkerhed, som briefen kun antydede. Den fandt ogsaa den rigtige afslutning: at raekkefoelgen betyder noget, uden at det bliver et argument mod forskning. TO DOEDE LINKS FANGET: en Caltech-nyhedsartikel om SSPD-demonstratoren (404) og ITU's forside paa /itu-r/en/Pages/ (404, den rigtige er /en/ITU-R/Pages/). Det foerste er fjernet helt, da ingen fungerende erstatning kunne findes; det andet rettet. En tredje fodnote pegede paa iea.org/reports uden nummer — ogsaa en 404 — rettet til Grids-kapitlet. Redaktionen har tilfoejet den afsluttende note om ESA's falske 200-svar, fordi den er en laeserservice: det er den slags, et automatisk linktjek godkender."
       }
     },
     {
@@ -318,29 +375,36 @@
       "order": 11,
       "section": "Lande & udbygning",
       "brief": {
-        "angle": "Samme indikatorer, forskellige virkeligheder.",
+        "angle": "Et snapshot: de samme fire indikatorer for fem elsystemer, så læseren kan se dem ved siden af hinanden. Brug KUN disse tal, alle fra Embers landeprofiler med 2025-data (Kina opdateret 28. maj 2026, USA 3. juni 2026, EU og Indien 4. juni 2026). Andel ren/lavemissions-el: EU 71 %, USA 43 %, Kina 42 %, Indien 27 %; verdensgennemsnittet er 43 %. Andel vind og sol: EU 30 %, Kina 22 %, USA 19 %, Indien 14 %; verdensgennemsnittet 17 %. Andel fossil: Indien 73 %, Kina 58 %, USA 57 %, EU 29 %. Elsektorens udledning pr. indbygger som multiplum af verdensgennemsnittet: USA 2,8; Kina 2,2; Indien 0,5 (EU-profilen angiver ikke tallet — skriv at det mangler i stedet for at gætte). Skriv tabellen, og skriv derefter det, tabellen IKKE viser, for det er artiklens egentlige indhold: andele siger intet om mængder (Indien er verdens tredjestørste elforbruger og blev i 2025 verdens fjerdestørste producent af ren el, selv om andelen er lavest i tabellen); et lavt tal pr. indbygger kan skyldes lavt forbrug snarere end ren produktion; og et enkelt år kan være vejr. Nævn, at USA's udledningsintensitet var 384 gCO2e/kWh i 2025 mod verdensgennemsnittet 458 — et tal, der peger den modsatte vej af USA's høje udledning pr. indbygger, fordi de to måler forskellige ting. Hvis en celle ikke kan kildebelægges, skal den stå tom med en begrundelse. En falsk-præcis procent er værre end en åben beskrivelse.",
         "words": [
-          200,
-          450
+          600,
+          850
         ],
-        "mustCite": 0,
-        "format": "feature"
+        "mustCite": 2,
+        "mustNumber": [
+          "ren el: EU 71, USA 43, Kina 42, Indien 27",
+          "vind+sol: EU 30, Kina 22, USA 19, Indien 14",
+          "USA 384 gCO2e/kWh mod globalt 458"
+        ],
+        "format": "tabel-feature"
       },
       "writer": {
-        "byline": null,
-        "model": "editor-led",
-        "fallback": "minimax/minimax-m3"
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "google/gemini-3.1-pro-preview"
       },
       "receipt": {
-        "words": 298,
-        "costUSD": null,
-        "draft": null
+        "words": 591,
+        "costUSD": 0.032924,
+        "draft": "kladder/11-lande-snapshot.md",
+        "costRouting": "byok",
+        "draftWords": 676
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
-        "citations": 0,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-16",
+        "citations": 1,
+        "editorNote": "REELT kommissioneret hos anthropic/claude-sonnet-5 paa .env.kraften (BYOK, 0,033 USD); kladde i kladder/11-lande-snapshot.md. Den gjorde praecis det, nr. 1's lande-artikel gjorde rigtigt: lod de to celler staa tomme og skrev begrundelsen ind i teksten i stedet for at gaette ('opdigtet praecision, og det er vaerre end et hul'). Den forklarede ogsaa USA's tilsyneladende paradoks — hoej udledning pr. indbygger, lav udledningsintensitet — bedre end briefen bad om. Redaktionelt: overskriften og indledningen lovede FEM elsystemer, mens tabellen har fire lande plus en verdenskolonne; rettet til fire. Fodnoten var en samlet henvisning til 'ember-energy.org/countries' uden links — erstattet af de fire konkrete landeprofiler med datoer. Tabellen hoejrestillet, saa tallene kan sammenlignes kolonnevis."
       }
     },
     {
@@ -348,59 +412,37 @@
       "order": 12,
       "section": "Atom",
       "brief": {
-        "angle": "Sverige atom: nuværende flåde (6 reaktorer, andel) + Nordic Baseload Power/Barsebäck ansøgning + lag politik→MW.",
+        "angle": "Sverige har brugt tre år på at bygge et juridisk og økonomisk stillads for ny atomkraft, og i sommeren 2026 begyndte de første ansøgninger at lande. Fortæl det som en proceshistorie, for det er dér, det interessante ligger. Udgangspunktet: 6 reaktorer i drift med samlet 7.011 MWe, ingen under bygning, 7 lukkede med 4.061 MWe. Atomkraft leverer omkring 30 % af svensk el; i 2024 var mixet vandkraft 64,9 TWh (38 %), atom 50,4 TWh (29 %), vind 40,4 TWh (23 %), bio 11,4 TWh (7 %) og sol 4,1 TWh (2 %) af en samlet produktion på 172 TWh, med en nettoeksport på 33,4 TWh. Stilladset: i juni 2023 blev målet «100 % vedvarende» i 2040 erstattet af «100 % fossilfri», hvilket åbnede for atomkraft. I november 2023 kom en køreplan om to store reaktorer inden 2035 og svarende til 10 nye reaktorer inklusive små modulære inden 2045, og Riksdagen ophævede både loftet på ti reaktorer og kravet om, at de kun må ligge, hvor der allerede er reaktorer. I maj 2025 vedtog Riksdagen statsstøtte — lån begrænset til svarende til fire store reaktorer, cirka 5.000 MWe — med rammer på 220 mia. SEK (23,4 mia. USD) over 12 år. Lov om regeringsgodkendelse af nukleare anlæg trådte i kraft 17. juni 2026, og 15. juli 2026 fjernede Riksdagen miljøbalkens forbud mod nukleare anlæg i udpegede kystområder. Pr. midten af 2026 er der fire ansøgninger om statsstøtte: Videberg Kraft (december 2025) samt Blykalla, Studsvik og Nordic Baseload Power (alle juni 2026). Den mest omtalte er Nordic Baseload Power, som foreslår TO store reaktorer med SAMLET cirka 2.500 MWe på Barsebäck-grunden, hvor to reaktorer er under afvikling — og her ligger historien: Uniper, hvis datterselskab ejer jorden, oplyser, at selskabet ikke er involveret i projektet og ikke har planer om at stille jord til rådighed for en ekstern part. Skriv den konflikt frem uden at tage parti. Vattenfall bekræftede i august 2025 at ville bruge små modulære reaktorer til 1,5 GW ny kapacitet på Värö-halvøen. Alle tal fra World Nuclear Associations landeprofil for Sverige, opdateret 12. august 2026. Skriv gennemgående ansøgninger som ansøgninger og årstal som planlagte — ingen af disse reaktorer er bygget.",
         "words": [
-          400,
-          750
+          700,
+          900
         ],
         "mustCite": 3,
+        "mustNumber": [
+          "6 reaktorer, 7.011 MWe",
+          "fire ansøgninger pr. midten af 2026",
+          "Barsebäck: to reaktorer, samlet ca. 2.500 MWe",
+          "220 mia. SEK over 12 år"
+        ],
         "format": "feature"
       },
       "writer": {
-        "byline": null,
-        "model": "editor-led",
-        "fallback": "deepseek/deepseek-v3.2"
+        "byline": "Claude Opus 4.8 (Anthropic)",
+        "model": "anthropic/claude-opus-4.8",
+        "fallback": "anthropic/claude-sonnet-5"
       },
       "receipt": {
-        "words": 775,
-        "costUSD": null,
-        "draft": null
+        "words": 731,
+        "costUSD": 0.07086,
+        "draft": "kladder/12-sverige-atom.md",
+        "costRouting": "byok",
+        "draftWords": 763
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
-        "citations": 3,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
-      }
-    },
-    {
-      "slug": "ordbogen",
-      "order": 99,
-      "section": "Ordbogen",
-      "brief": {
-        "angle": "Electrification rate, RTG, BESS.",
-        "words": [
-          50,
-          150
-        ],
-        "mustCite": 0,
-        "format": "ordbog"
-      },
-      "writer": {
-        "byline": null,
-        "model": "editor-led",
-        "fallback": "deepseek/deepseek-v3.2"
-      },
-      "receipt": {
-        "words": 66,
-        "costUSD": null,
-        "draft": null
-      },
-      "verdict": {
-        "status": null,
-        "checkedAt": null,
-        "citations": 0,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-16",
+        "citations": 1,
+        "editorNote": "REELT kommissioneret hos anthropic/claude-opus-4.8 paa .env.kraften (BYOK, 0,071 USD); kladde i kladder/12-sverige-atom.md. Den greb briefens vinkel om stilladset og gjorde den til artiklens struktur, og den skrev selv den bedste linje i nummeret: at Sverige har skiftet ét ord i sin energipolitik og foerst derefter er begyndt at modtage papirerne. Den holdt ogsaa disciplinen om, at ansoegninger er ansoegninger. Bemaerk, at kladden her retter en fejl i den AFPUBLICEREDE udgave: den gamle tekst skrev Nordic Baseload Powers Barsebaeck-projekt som '2 x ~2.500 MWe'. Det er forkert — WNA skriver to reaktorer med SAMLET ca. 2.500 MWe. Fejlen var altsaa en faktor to. TO GAETTEDE KILDER FANGET: fodnoter til Unipers og Vattenfalls generelle newsroom-forsider som belaeg for to konkrete udsagn. Uniper-linket svarede slet ikke (000). Begge udsagn staar dokumenteret i WNA-profilen, som er den kilde, vi har laest — fodnoterne slaaet sammen. Detaljer om proessikring (1-3 mia. SEK i 40 aar) og de navngivne kystomraader tilfoejet fra samme kilde. MUSTCITE-BEMAERKNING: check_issue advarer om faerre citations end briefet. Advarslen er korrekt, og aarsagen er redaktionens egen: mustCite blev sat til 3, foer researchen viste, at materialet stammer fra én autoritativ side. At splitte den samme side op i tre fodnoter ville give tre links til samme adresse og se ud som tre kilder — det er praecis den falske praecision, bladet advarer imod. Kilderne er splittet dér, hvor de faktisk er forskellige. Laering til nr. 3: saet mustCite EFTER kildesoegningen, ikke foer."
       }
     },
     {
@@ -408,31 +450,32 @@
       "order": 13,
       "section": "Rygtebørsen",
       "brief": {
-        "angle": "Spekulativt.",
+        "angle": "Rygtebørsen: fire påstande fra energidebatten denne sommer, hver med en ærlig temperaturmåling. Formatet er en overskrift, et kort afsnit og en vurdering på en skala, hvor det står tydeligt, hvad der er dokumenteret, og hvad der er gæt. Påstandene skal være: (1) «Datacentre æder al den grønne strøm» — nuancer med, at IEA forventer, at omkring halvdelen af den amerikanske efterspørgselsvækst frem til 2030 kommer fra datacentre, men at det er vækst i ét land, ikke hele verdens grønne produktion. (2) «Batterier har løst vindstille» — nej: batterier flytter timer, ikke måneder, og sæsonudsving er et andet problem. (3) «Kina er holdt op med at bygge kul» — nej, men kulproduktionen faldt 71 TWh i 2025, første fald siden 2015 (Ember). Skelnen mellem produktion og kapacitet er hele pointen. (4) «Nettet er ved at være klar» — nej: over 2.500 GW står i tilslutningskøer, og net tager 5-15 år at bygge mod 1-3 år for et datacenter (IEA, Electricity 2026). Hold tonen tør og let, ikke fjollet, og lad hver vurdering sige præcis hvad der taler for og imod. Ingen navne på virksomheder i rygter, der ikke kan dokumenteres.",
         "words": [
-          50,
-          150
+          400,
+          600
         ],
         "mustCite": 0,
-        "format": "rygteboersen"
+        "format": "rygteboers"
       },
       "writer": {
-        "byline": null,
-        "model": "editor-led",
-        "fallback": "deepseek/deepseek-v3.2"
+        "byline": "Gemini 3.1 Pro Preview (Google)",
+        "model": "google/gemini-3.1-pro-preview",
+        "fallback": "anthropic/claude-sonnet-5"
       },
       "receipt": {
-        "words": 65,
-        "costUSD": null,
-        "draft": null
+        "words": 350,
+        "costUSD": 0.04237,
+        "draft": "kladder/13-rygteboersen.md",
+        "costRouting": "byok",
+        "draftWords": 513
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-16",
         "citations": 0,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "editorNote": "REELT kommissioneret hos google/gemini-3.1-pro-preview paa .env.kraften (BYOK, 0,042 USD); kladde i kladder/13-rygteboersen.md. Den bedste vurdering i kladden var 'falsk praemis, sand konsekvens' om Kina — den skelner mellem at bygge et kulkraftvaerk og at koere det, og den skelnen er hele pointen. Redaktionelt: kladden gav paastand 4 vurderingen 'helt falsk' og paastand 2 og 3 'falsk', hvilket goer skalaen inkonsistent uden at tilfoere noget; ensrettet. Indledningsafsnittet ('Energidebatten har det med at forsimple komplekse infrastrukturelle overgange') var en opvarmning uden indhold og er fjernet — rygtboersen begynder ved foerste rygte. Krydslinks til de fire artikler, der dokumenterer hver vurdering, tilfoejet, saa laeseren kan gaa videre. Ingen virksomhedsnavne i udokumenterede rygter, som briefen kraevede."
       }
     }
-  ],
-  "integrityNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+  ]
 }

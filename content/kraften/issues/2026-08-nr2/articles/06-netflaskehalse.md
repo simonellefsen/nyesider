@@ -1,6 +1,7 @@
 ---
-title: "Netflaskehalse: hvor elektrificering møder stål"
-standfirst: Du kan bestille en varmepumpe på en uge. Et 400 kV-kabel tager år. MW i drift slår MW i pressemeddelelse.
+title: "Køen, ingen kan se"
+standfirst: Over 2.500 gigawatt står stille i tilslutningskøer verden over. Det tal er ikke pointen — tempoforskellen er. Et net tager 5-15 år at bygge. Et datacenter tager 1-3.
+byline: "Claude Opus 4.8 (Anthropic)"
 section: Systemet bag stikket
 order: 6
 image: ../images/kraften_netko.png
@@ -8,33 +9,41 @@ imageCredit: "AI-genereret motiv (Imagine / xAI)"
 imageSource: "https://x.ai/"
 ---
 
-Elektrificering fejler sjældent på **mangel på solpaneler i kataloget**. Den fejler på stål, tilladelser og tid:
+Der findes en flaskehals i den grønne omstilling, som ikke handler om vindmøller, solceller eller batterier. Den handler om det, der binder dem sammen: elnettet. Og ifølge Det Internationale Energiagentur (International Energy Agency, IEA) er problemet nu så stort, at det kan sættes på tal.
 
-- **Tilslutningskøer** til sol, vind, batterier og store laster — ventelister hos netselskabet, før du må koble dig på.  
-- **Transformer- og kabelmangel** i globale forsyningskæder.  
-- **Tilladelsesprocesser**, der er designet til en langsommere verden.  
-- **Lokal accept** — master er infrastruktur, ikke baggrundsstøj.
+Over **2.500 GW** vedvarende energi-, storforbrugs- og lagerprojekter står stille i tilslutningskøer verden over.[^1]
 
-### Hvad der hjælper
+Bemærk enheden. GW er *kapacitet* — hvor meget der kan leveres på én gang. TWh er *mængde* — hvor meget der leveres over tid. Køen måles i kapacitet, fordi det er kapacitet, en nettilslutning giver plads til.
 
-- Hurtigere, mere forudsigelige godkendelsesspor.  
-- **Fleksibelt forbrug** og [lagring](/kraften/2026-08-nr2/lagring), så nettet ikke skal dimensioneres til worst-case hvert sekund.  
-- Ærlig prioritering: hvis alt er “kritisk”, er intet det. Data centre, boligudbygning og industri konkurrerer om den samme transformer.
+### Tempoforskellen er problemet
 
-KRAFTEN’s mantra: **MW i drift > MW i pressemeddelelse**.
+Selve køtallet er ikke pointen. Pointen er, hvorfor køen opstår, og den er strukturel.
 
-### Europæisk og amerikansk variant
+At planlægge, få tilladelse til og bygge nyt elnet tager typisk **5-15 år**. Til sammenligning tager et solcelle- eller vindprojekt **1-5 år**, et datacenter **1-3 år**, og ladeinfrastruktur **1-2 år**.[^1] Alt det, der skal tilsluttes, bygges altså hurtigere — ofte langt hurtigere — end det, det skal tilsluttes til.
 
-I EU er historien ofte **tilladelse + grænseoverskridende kabler** mellem lande. Fit for 55 (se [EU/USA](/kraften/2026-08-nr2/eu-usa)) skaber efterspørgsel; masterne leverer tempoet. Et 400 kV-projekt kan tage et årti fra plan til spænding — uanset hvor mange solceller der er bestilt.
+Det er ikke et uheld eller en enkelt myndigheds forsømmelse. Det er en indbygget ubalance mellem to byggetempi, der ikke passer sammen. Og den forværres af priserne: nøglekomponenter som transformere og kabler er næsten fordoblet i pris på fem år.[^1]
 
-I USA er det lokal modstand, **data centre der vil have strøm i går** — og meget lange **interconnection queues**: køer af projekter, der venter på at blive tilsluttet det regionale transmissionsnet.
+Regnestykket bliver derefter. De globale netinvesteringer ligger i dag på omkring **400 mia. USD** om året og skal op med cirka **50 %** inden 2030 — altså mod størrelsesordenen 600 mia. USD årligt — bare for at følge med den elektrificering, der allerede er sat i gang.[^1] Skævheden er ikke ny: IEA opgjorde allerede i *World Energy Outlook 2025*, at investeringen i elproduktion er steget næsten 70 % siden 2015 til omkring 1.000 mia. USD om året, mens netinvesteringen er vokset under det halve tempo.[^2]
 
-Når vi skriver “**PJM-agtige køer**”, mener vi køer i stil med dem hos **PJM Interconnection** — en stor regional systemoperatør i det østlige USA (Pennsylvania–New Jersey–Maryland-området og nabolande), hvis offentlige tilslutningskø i årevis har været et internationalt advarselsskilt: titusindvis af MW sol, vind, batteri og last i kø, mens sagsbehandling og netforstærkning ikke kan følge med.[^1] “PJM-agtig” er altså ikke et dansk netselskab — det er en **type problem**: for mange ansøgninger, for lidt net, for lang tid.
+### Den gode nyhed er konkret
 
-### Danmark i billedet
+Her stopper mange fortællinger. Men IEA peger også på en vej, der ikke kræver, at man venter 15 år på nye ledninger.
 
-Danmark er tæt på naboer via kabler og det nordiske marked. Høj vindandel er en sejr *og* en afhængighed: når det ikke blæser, importerer vi; når det blæser meget, skal nogen tage imod. Nabolagsaccept af master er ikke en “blød” biprodukt-sag — det er ofte det, der forsinker det hårde. Se [nr. 1 Danmark](/kraften/2026-08-nr1/danmark).
+Netforstærkende teknologier og regelændringer kan frigøre tilslutningsplads til **1.200-1.600 GW** af de projekter, der allerede står langt fremme i køen.[^1] Det er ikke ny kobber i jorden — det er bedre udnyttelse af det net, der allerede findes.
 
-Samme fysik, forskellige institutioner. Når politikere lover “hurtig elektrificering” uden netplan, er det KRAFTEN’s job at pege på **masterne og transformerne**, ikke kun på solcelle-PR.
+Størstedelen — omkring **750-900 GW** — kan frigøres alene gennem såkaldt **ikke-fast tilslutning** (non-firm connection). Forklaret enkelt: i dag skal et projekt typisk have garanteret plads på nettet, før det får lov at koble sig på, og den garanti er dyr og langsom at levere. En ikke-fast tilslutning er en aftale, hvor du får lov at koble dig på hurtigere mod at acceptere, at din produktion eller dit forbrug kan blive begrænset i de timer, hvor nettet er presset.
 
-[^1]: PJM Interconnection — offentlige interconnection queue-rapporter og reformdebatter i USA; se også FERC-sager om køreform. Pointen er fænomenet, ikke ét årstals præcise GW-tal (de skifter kvartalsvis).
+Logikken er ligetil. Nettet er bygget til at kunne klare spidslast — de få timer om året, hvor alt trækker mest. Resten af tiden står der ubrugt plads. Ikke-fast tilslutning sælger den plads i stedet for at lade den stå tom.
+
+Et beslægtet greb er **dynamisk kapacitetsbestemmelse** (dynamic line rating): i stedet for at regne med et konservativt fast tal for, hvor meget en ledning kan bære hele året rundt, måler man løbende, hvad den faktisk kan bære lige nu — typisk mere i køligt, blæsende vejr, hvor kablerne afkøles.
+
+IEA nævner desuden mere prosaiske greb: auktioner over nettilslutning, strammere krav til at få og *beholde* en plads i køen, og hurtigere sagsbehandling — så knap kapacitet ikke bliver siddende hos projekter, der aldrig bliver til noget.[^1]
+
+### Når der er vilje
+
+At store netændringer ikke er umulige, viser et aktuelt europæisk eksempel. I februar 2025 koblede de tre baltiske lande sig fra det russisk-styrede elsystem og synkroniserede i stedet deres net med det kontinentaleuropæiske. IEA behandler operationen som et selvstændigt afsnit i årets rapport netop på grund af dens tekniske og politiske omfang.[^1]
+
+Det er den samme pointe, der gælder for tilslutningskøerne: teknologien og reglerne, der kan frigøre over tusind GW plads, findes allerede. Det, der mangler, er tempoet i at tage dem i brug — før køen bliver den grønne omstillings egentlige loft.
+
+[^1]: [Electricity 2026 — Grids](https://www.iea.org/reports/electricity-2026/grids), International Energy Agency. Herfra: over 2.500 GW i tilslutningskøer; byggetider på 5-15 år for net mod 1-5 år for sol og vind, 1-3 år for datacentre og 1-2 år for ladeinfrastruktur; næsten fordoblede komponentpriser på fem år; netinvestering på 400 mia. USD, som skal op ca. 50 % inden 2030; 1.200-1.600 GW der kan frigøres, heraf 750-900 GW gennem ikke-fast tilslutning; dynamisk kapacitetsbestemmelse og kapacitetsauktioner; samt afsnittet om den baltiske synkronisering i februar 2025.
+[^2]: [World Energy Outlook 2025 — Executive summary](https://www.iea.org/reports/world-energy-outlook-2025/executive-summary), International Energy Agency, om forholdet mellem produktions- og netinvestering, og om at forsinkede nettilslutninger øger både afkobling af vind og sol og forekomsten af negative priser.

@@ -1,6 +1,7 @@
 ---
-title: "Sverige: atomudbygningens lange vej"
-standfirst: Seks reaktorer kører. Politik vil have flere. Nordic Baseload Power vil genstarte Barsebäck — på papiret. Beton tæller stadig mere end pressemeddelelser.
+title: "Sverige byggede stilladset — så kom ansøgningerne"
+standfirst: Tre års lovarbejde, et ændret ord i energimålet og en lånramme på 220 milliarder. I sommeren 2026 landede de fire første ansøgninger — og den mest omtalte peger på en grund, ejeren siger ikke er til rådighed.
+byline: "Claude Opus 4.8 (Anthropic)"
 section: Atom
 order: 12
 image: ../images/kraften_sverige.png
@@ -8,56 +9,46 @@ imageCredit: "AI-genereret motiv (Imagine / xAI)"
 imageSource: "https://x.ai/"
 ---
 
-Sverige har i flere år peget politisk mod **mere kernekraft**: forlænge levetiden på eksisterende reaktorer og bane vej for ny kapacitet. Det er en rigtig historie — og en, der er let at fortælle for tidligt. Pressemeddelelser taler om mål og “nye reaktorer”. Net og regninger taler om **MW i drift**.
+Det interessante ved svensk atomkraft anno 2026 er ikke betonen. Der er nemlig ingen ny beton endnu.
 
-### Hvad kører i dag
+Det interessante er stilladset. Sverige har brugt tre år på at bygge et juridisk og økonomisk fundament for ny atomkraft, og først i sommeren 2026 begyndte de første ansøgninger at lande.
 
-Sverige har **seks reaktorer i kommerciel drift** på tre anlæg, med en samlet elektrisk kapacitet på omkring **7 000 MWe** (World Nuclear Association: 7 011 MWe operable).[^1]
+### Udgangspunktet
 
-| Anlæg | Aktive reaktorer | Note |
-|---|---|---|
-| **Forsmark** | 3 | Østkysten, Uppsala-län |
-| **Ringhals** | 2 | Västkusten; to ældre enheder er lukket |
-| **Oskarshamn** | 1 | Sydøst; ældre enheder lukket |
+Sverige har seks reaktorer i drift med en samlet kapacitet på 7.011 megawatt elektrisk (MWe), ingen under bygning og syv lukkede reaktorer med tilsammen 4.061 MWe.[^1] Atomkraft dækker omkring 30 % af den svenske elforsyning.
 
-**Barsebäck** ved Øresund — synligt fra den danske side — er **ikke** i drift. De to reaktorer er under nedrivning/dekommissionering. Når nogen siger “ny kernekraft ved Barsebäck”, er det altså genbrug af *stedet*, ikke genstart af de gamle reaktorer.
+I 2024 fordelte en samlet produktion på 172 terawatt-timer (TWh) sig på vandkraft 64,9 TWh (38 %), atomkraft 50,4 TWh (29 %), vind 40,4 TWh (23 %), biomasse og affald 11,4 TWh (7 %) og sol 4,1 TWh (2 %), med en nettoeksport på 33,4 TWh.[^1] Sverige er altså ikke et land, der mangler strøm. Det er et land, der diskuterer, hvad det næste årtis produktion skal bestå af.
 
-I **2024** producerede svensk kernekraft omkring **50,4 TWh** ud af en samlet elproduktion på ca. **172 TWh** — i runde tal **cirka 29 %** af elproduktionen.[^1] Hydro er stadig den største enkeltkilde (~38 %), vind ~23 %. Kernekraft er altså ikke “lidt baseload i baggrunden”; det er en **tredjedel af systemet**, side om side med vandkraft.
+### Fra «vedvarende» til «fossilfri»
 
-Forlængelse af de seks eksisterende reaktorer er ofte den **hurtigste** vej til at bevare atom-MW. Nybyggeri er den **langsomste og dyreste**. Små modulære reaktorer (*small modular reactors*, **SMR**) fylder i debatten, men i Vesten er de i 2026 stadig mest licens-, design- og demonstrationsfase — samme ærlighed som i [nr. 1 om fission](/kraften/2026-08-nr1/fission).
+Det første stik i stilladset var sprogligt. I juni 2023 erstattede Sverige målet om «100 % vedvarende» elektricitet i 2040 med «100 % fossilfri». Forskellen på to ord er hele forskellen på, om atomkraft må tælle med.
 
-### Lagene: politik er ikke megawatt
+I november 2023 fulgte en køreplan: to store reaktorer inden 2035 og en kapacitet svarende til ti nye reaktorer, inklusive små modulære reaktorer (SMR), inden 2045. Samtidig ophævede Riksdagen to gamle spærringer: loftet på ti reaktorer i drift ad gangen og kravet om, at nye reaktorer kun måtte bygges, hvor der allerede lå reaktorer.[^1] Begge var arvegods fra en æra, hvor politikken var indrettet på afvikling.
 
-KRAFTEN skiller fem lag ad, så du ikke forveksler dem:
+### Pengene og paragrafferne
 
-| Lag | Hvad det er | Hvad det *ikke* er |
-|---|---|---|
-| 1. Politisk ramme | Regering, riksdag, støtteordninger | Megawatt i stikkontakten |
-| 2. Ansøgning | Myndighedsproces, statsstøtte, tilladelser | Byggestart |
-| 3. Investering | Ejer siger ja til kapital | Færdigt anlæg |
-| 4. Byggeri | År med beton og leverandører | Stabil elproduktion |
-| 5. Drift | MW på nettet | — |
+Et stillads uden penge bærer ikke. I maj 2025 vedtog Riksdagen en statsstøttemodel bygget om lån, begrænset til en kapacitet svarende til fire store reaktorer — cirka 5.000 MWe. Loven trådte i kraft 1. august 2025. Rammerne, som regeringen foreslog i budgettet for 2026, svarer til en forventet udlånsmasse på 220 milliarder svenske kroner (SEK), omkring 23,4 milliarder amerikanske dollar, fordelt over 12 år — dertil forventede årlige udgifter til prissikring på 1-3 mia. SEK i 40 år efter idriftsættelse.[^1]
 
-Sverige er i 2025–2026 tydeligt i **lag 1–2** for ny kapacitet: rammerne er åbnet, ansøgninger lander. Lag 3–5 er det, der mangler at blive synligt for de fleste projekter.
+Så kom de sidste bjælker på plads i sommeren 2026. Loven om regeringsgodkendelse af nukleare anlæg trådte i kraft 17. juni 2026, og 15. juli 2026 fjernede man miljøbalkens forbud mod nukleare anlæg i udpegede kystområder i Bohuslän, Småland, Östergötland, Ångermanland og på Öland.[^1] Dermed var både proceduren og geografien åbnet.
 
-### Nordic Baseload Power og Barsebäck
+### Ansøgningerne lander
 
-I **juni 2026** indsendte energiselskabet **Nordic Baseload Power** ansøgning om **statslig støtte** til to store reaktorer på Barsebäck-sitet i Kävlinge uden for Malmö — få kilometer fra den dansk-svenske grænse.[^2] Ifølge regeringen og internationale medier er der tale om en kombineret kapacitet på omkring **2 500 MWe** (to full-scale enheder). Det var den **fjerde** ansøgning om atom-støtte, Sverige havde modtaget, siden støtteordningen åbnede (statslån og tosidede kontrakter; samlet loft omkring **5 000 MW** ny installeret kapacitet).[^2][^3]
+Pr. midten af 2026 ligger der fire ansøgninger om statsstøtte. Videberg Kraft indsendte sin i december 2025, mens Blykalla, Studsvik og Nordic Baseload Power alle fulgte i juni 2026.[^1]
 
-Andre ansøgere i samme bølge: **Videberg Kraft** (Vattenfall-sporet ved Ringhals; leverandørvalg **Rolls-Royce SMR** annonceret 2026), **Blykalla** (blykølede SMR i Norrsundet) og **Studsvik** (projekter i Nyköping/Valdemarsvik).[^2] Fælles for alle: de er **ansøgninger**, ikke færdige anlæg. Først når lag 3–5 er synlige — investeringsbeslutning, byggestart, nettilslutning — flytter historien fra politik til **MW**.
+De skal læses som ansøgninger — ikke som byggetilladelser, og slet ikke som reaktorer. Ingen af de foreslåede anlæg er bygget, og de nævnte årstal er planlagte.
 
-For danske læsere er Barsebäck-sporet særligt interessant: det er fysisk tæt på Sjælland, politisk følsomt på begge sider af sundet, og det genåbner en debat, mange troede var lukket, da de gamle reaktorer stoppede. Det er stadig ikke det samme som strøm i det danske stik — Sverige er en del af det nordiske elmarked, men dansk kernekraft-politik er en anden historie (se [thorium og Copenhagen Atomics](/kraften/2026-08-nr1/thorium)).
+Den mest omtalte kommer fra Nordic Baseload Power, som foreslår to store reaktorer med en samlet kapacitet på cirka 2.500 MWe på Barsebäck-grunden — samme sted, hvor to ældre reaktorer er under afvikling.
 
-### Hvad der skal ske, før historien bliver “bygget”
+Og her ligger en konflikt, der ikke er løst. Uniper, hvis datterselskab ejer jorden ved Barsebäck, har oplyst, at selskabet ikke er involveret i projektet og ikke har planer om at stille jord til rådighed for en ekstern part.[^1] En ansøgning om at bygge to reaktorer et bestemt sted er altså indgivet, mens grundejeren tilkendegiver, at grunden ikke er til rådighed. Hvordan de to positioner mødes — eller ikke mødes — er endnu uafklaret.
 
-Følg tre synlige signaler — ikke kun ministercitater:
+Ved siden af ansøgningsbunken står den etablerede aktør. Vattenfall bekræftede i august 2025 at ville bruge små modulære reaktorer til 1,5 gigawatt ny kapacitet på Värö-halvøen ved Ringhals.[^1] Det er en anden vej end de store reaktorer, men samme retning.
 
-1. **Støtte- og auktionsmekanismer**, der gør projektet bankable (lån, tosidede kontrakter, risikodeling).  
-2. **Site og ejerskab** med navngivne aktører og leverandør — ikke kun “et sted i Sverige”.  
-3. **Myndighedstidsplaner** med datoer, der overlever et valg, plus nettilslutning.
+### Hvad historien handler om
 
-Først når lag 3–5 er synlige, er “ny svensk kernekraft” mere end en ansøgningsstak. Mål i en pressemeddelelse er ikke indfaset kapacitet. De seks reaktorer, der kører i dag — og de ~30 % af elproduktionen, de bærer — er det faste pejlemærke, indtil beton og investering siger noget andet.
+Det er værd at holde fast i skalaen. De 220 mia. SEK og de fire ansøgninger står over for en eksisterende flåde på seks reaktorer og 7.011 MWe, som allerede dækker knap en tredjedel af forbruget. Sverige forsøger ikke at genopfinde sin elforsyning fra bunden; landet forsøger at afgøre, om — og hvordan — atomkraft skal vokse fra sit nuværende niveau.
 
-[^1]: [World Nuclear Association, *Nuclear Power in Sweden*](https://world-nuclear.org/information-library/country-profiles/countries-o-s/sweden) — 6 operable reaktorer, ~7 011 MWe; 2024: kernekraft 50,4 TWh af 172 TWh elproduktion (~29 %). Mix: hydro ~38 %, vind ~23 %.
-[^2]: [ANS Nuclear Newswire, 18. juni 2026](https://www.ans.org/news/2026-06-18/article-8133/new-sweden-developments/) — Nordic Baseload Power, Blykalla, Studsvik, Videberg/Rolls-Royce; NBP: to store reaktorer ~2 500 MWe ved Barsebäck. Se også Reuters, 16. juni 2026.
-[^3]: [Regeringen.se — Nuclear financing](https://www.government.se/government-policy/nuclear-financing/) og pressemeddelelse 22. juni 2026: fjerde ansøgning (NBP/Barsebäck); støtte begrænset til ca. 5 000 MW ny kapacitet.
+Det interessante er derfor ikke, hvornår den første nye reaktor tændes. Det ved ingen endnu. Det interessante er, at et land i løbet af tre år har skiftet ét ord i sin energipolitik, fjernet to gamle spærringer, sat et lånloft på fire reaktorers værd og åbnet sine kyster — og først da begyndt at modtage papirerne.
+
+Betonen kommer, hvis den kommer, bagefter.
+
+[^1]: [Nuclear Power in Sweden](https://world-nuclear.org/information-library/country-profiles/countries-o-s/sweden), World Nuclear Association, landeprofil opdateret 12. august 2026. Herfra: 6 reaktorer i drift med 7.011 MWe, 0 under bygning, 7 lukkede med 4.061 MWe; produktionsmikset for 2024 og nettoeksporten; målskiftet i juni 2023; køreplanen fra november 2023 og ophævelsen af reaktorloftet og placeringskravet; statsstøtteloven fra maj 2025 med et loft svarende til ca. 5.000 MWe og rammerne på 220 mia. SEK over 12 år; loven om regeringsgodkendelse fra 17. juni 2026 og miljøbalkændringerne fra 15. juli 2026; de fire ansøgninger pr. midten af 2026; Nordic Baseload Powers forslag om to reaktorer med samlet ca. 2.500 MWe på Barsebäck og Unipers oplysning om, at selskabet ikke er involveret og ikke vil stille jord til rådighed; samt Vattenfalls beslutning fra august 2025 om SMR til 1,5 GW på Värö-halvøen.

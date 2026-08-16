@@ -1,0 +1,23 @@
+# Kinas elektriske vendepunkt: Kulproduktionen faldt i 2025, mens strømforbruget fortsætter sin himmelflugt
+
+Den vigtigste enkelthistorie i den globale elsektor i 2025 kan skrives i én sætning: Kinas kulbaserede elproduktion faldt. For at forstå det fulde billede af verdens vej mod elektrificering er det nødvendigt at se på de rå tal fra verdens suverænt største elmarked. Her mødes to sandheder nemlig på præcis samme tid: Kina udbygger vedvarende energi i et hidtil uset tempo, og samtidig har landet et samlet energibehov, der vokser så hurtigt, at det overgår alt andet på kloden.
+
+Ifølge den uafhængige energitænketank Ember faldt den kinesiske elproduktion baseret på kul med 71 terawatt-timer (TWh) i 2025.[^1] Det er en markant milepæl i landets og verdens energihistorie, idet det markerer det første registrerede fald i den kinesiske kulproduktion siden 2015. Kigger man på den samlede fossile elproduktion i Kina, faldt den med 56 TWh – hvilket svarer til en nedgang på 0,9 % i 2025. Også i denne bredere fossilkategori er der tale om det første år uden en stigning siden 2015. Konsekvensen af disse ændringer er, at fossile brændsler leverede 58 % af Kinas el i 2025, hvilket er et mærkbart fald fra cirka 62 % i 2024.[^2]
+
+Hullet efter den fossile stagnation bliver i stigende grad fyldt af vedvarende kilder. Ren, emissionsfri el nåede op på at udgøre 42 % af den kinesiske produktion i 2025. Selvom denne andel akkurat ligger under verdensgennemsnittet, der lå på 43 %, dækker procenttallet over enorme mængder genereret energi. Vandkraft er fortsat den største enkelte grønne kilde i Kina med 13 % af det samlede eludbud, men det er særligt sol- og vindenergi, der driver den nuværende transformation af nettet.
+
+Vind- og solenergi nåede tilsammen en andel på 22 % i 2025. Det placerer Kina et pænt stykke over både det globale og det asiatiske gennemsnit for disse teknologier, som for begge regioners vedkommende lå på 17 %. Dykker man et spadestik dybere i tallene, står det klart, at særligt solenergien accelererer. Solproduktionen alene nåede 336 TWh i 2025, hvilket udgør en massiv stigning på hele 40 % på blot ét enkelt år.[^3]
+
+Disse procenter og terawatt-timer illustrerer en enorm omstilling i den kinesiske elforsyning. At beskrive udviklingen nøgternt kræver dog, at man forholder sig til proportionerne. Et fald på 71 TWh kulstrøm er stort i absolutte tal, men det er ét års fald i et samlet system, hvor over halvdelen af hele verdens kulbaserede elproduktion stadigvæk finder sted. Det kinesiske elnet er så gigantisk, at de fossile brændsler – til trods for deres faldende procentvise andel – stadig producerer mængder af kraft, der dikterer udviklingen i den globale atmosfære. Dette understreges markant af, at Kinas elsektor i gennemsnit udleder 2,2 gange så meget CO2 pr. indbygger som verdensgennemsnittet. Det er en realitet, der trækker hårdt i den modsatte retning af de positive sol- og vindprocenter og tjener som en påmindelse om udgangspunktets absolutte tyngde.
+
+International Energy Agency (IEA) beskriver i deres rapport *Electricity 2026* netop dynamikken i det kinesiske net som hovednøglen til at forstå globale udslip. IEA forventer, at udfladningen af det kinesiske kulforbrug er den absolut vigtigste enkeltfaktor bag, at den globale kulproduktion i de kommende år vil begynde at falde.[^4] 
+
+Men IEA peger også på den anden side af ligningen: Den voksende efterspørgsel. Kina står ifølge agenturet alene for tæt på 50 % af verdens samlede vækst i elefterspørgsel frem mod 2030. For at sætte denne vækst i et håndgribeligt perspektiv forventer IEA, at Kina på blot fem år vil lægge en ekstra efterspørgsel til sit net, der svarer til hele den Europæiske Unions (EU) nuværende, samlede elforbrug.[^5]
+
+Når hele landets transportsektor, tunge industri og varme i stigende grad skal køre på strøm frem for direkte afbrænding af brændsler, kræver det mere el. Det kinesiske maskinrum står derfor i en situation, hvor nettet skal udvides med historisk hastighed for blot at følge med forbruget, samtidig med at fundamentet af kul skal skiftes ud med vedvarende kilder. Begge dele af den kinesiske fortælling er sande på samme tid, og magtbalancen i fremtidens globale elektrificering afgøres netop i spændingsfeltet mellem de faldende kultal og den galoperende efterspørgsel.
+
+[^1]: Ember, *China - Country Profile* (opdateret 28. maj 2026).
+[^2]: Ember, *China - Country Profile* (opdateret 28. maj 2026). 
+[^3]: Ember, *China - Country Profile* (opdateret 28. maj 2026).
+[^4]: International Energy Agency (IEA), *Electricity 2026*.
+[^5]: International Energy Agency (IEA), *Electricity 2026*.

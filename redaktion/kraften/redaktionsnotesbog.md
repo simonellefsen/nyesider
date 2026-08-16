@@ -1,6 +1,6 @@
 # KRAFTEN – Redaktionsnotesbog
 
-Opdateret efter nr. 2 (august 2026, *"Strøm overalt"*). Modelerfaringer: [modelkartotek](../modelkartotek.md).
+Opdateret efter genopbygningen af nr. 2 (august 2026, *"Strøm overalt"*). Modelerfaringer: [modelkartotek](../modelkartotek.md).
 
 ## Identitet
 
@@ -18,7 +18,57 @@ Opdateret efter nr. 2 (august 2026, *"Strøm overalt"*). Modelerfaringer: [model
 - **Artikeltal:** 12–16. **Ingen Ordbog** — gloser i parentes/fodnote.  
 - **Standard `mustCite`:** 2+ for MW/TWh/andels-tal; 0 for rygtebørs.
 
-## Nr. 2 — udgivet
+## Nr. 2 — genopbygget og genudgivet 2026-08-16
+
+**Tema:** Strøm overalt
+**13 artikler, 7.933 ord** (var 13 artikler / 5.237 ord — gns. 403). Tolv artikler reelt
+kommissioneret på `.env.kraften`; lederen er chefredaktionens og har **ingen byline**.
+Samlet forbrug **0,65 USD**. `bestilling.json`: `redaktion/kraften/numre/2026-08-nr2/bestilling.json`.
+
+Den afpublicerede udgave havde en `bestilling.json`, men den var tom, hvor det gjaldt:
+`writer.model: editor-led`, ingen `costUSD`, ingen `receipt.draft` og ingen fil i `kladder/`
+for en eneste af de 13 artikler — samtidig med at nummeret bar byline til navngivne modeller.
+
+### Hvad faktatjekket fangede denne gang
+
+Samme mønster som nr. 1, men skarpere:
+
+- **Rigtigt tal, forkert rapport — igen, og værre.** `lagring`-kladden tilskrev samtlige tre tal
+  de forkerte IEA-rapporter (*Batteries and Secure Energy Transitions*, *Electricity 2024*, en
+  tracker-side). Alle tallene står i *Electricity 2026*. Alle de forkerte rapporter findes, og
+  alle URL'erne svarede 200 — hverken `check_links.py` eller en hurtig læser ville have fanget det.
+- **To ubriefede påstande.** `indien-syd` skrev, at Indien som fjerdestørste kun var overgået af
+  «Kina, USA og Brasilien»; den rækkefølge står ikke i kilden. `netflaskehalse` skrev, at de
+  2.500 GW i kø er «mere end det dobbelte» af verdens installerede sol og vind; det er forkert.
+- **Fem døde adresser**, heraf to der svarer 200: en Caltech-nyhed (404), ITU's forside på forkert
+  sti (404), `iea.org/reports` uden rapportnummer (404), Unipers newsroom (svarede slet ikke) og
+  Embers amerikanske landeprofil på `/united-states/` i stedet for `/united-states-of-america`.
+- **En kilde med forkert indhold.** `rum-solpanel` hentede «op mod 16 formørkelser i døgnet» fra
+  NASA's ISS-forside. Siden svarer 200; påstanden står der ikke.
+- **En faktor to i den gamle udgave.** Nordic Baseload Powers Barsebäck-projekt stod som
+  «2 × ~2.500 MWe». WNA skriver to reaktorer med **samlet** ca. 2.500 MWe.
+
+### To modsatte lektioner om linktjek
+
+Nummeret endte med begge fejltyper i samme udgivelse, og de er skrevet ind i artiklerne:
+
+- **Død side, der melder sig levende.** ESA's sider om orbital solkraft svarer HTTP 200 og
+  leverer agenturets egen fejlside. Derfor står der intet om ESA i nummeret.
+- **Levende side, der meldes død.** NASA Glenns server sender ikke sit mellemliggende certifikat.
+  Browseren henter det selv; `check_links.py` melder siden død. Siden er læst.
+
+Dertil: NASA's egne sider om Fission Surface Power under `nasa.gov` er i en **redirect-løkke**
+(`/missions/artemis/…` → `/space-technology-mission-directorate/…` → tilbage igen).
+
+### Læring til nr. 3
+
+**Sæt `mustCite` EFTER kildesøgningen, ikke før.** Fem artikler udløser advarsel om for få
+citations. Advarslen er korrekt, men årsagen er redaktionens: `mustCite: 3` blev skrevet, før
+researchen viste, at stoffet stammer fra én autoritativ side. At splitte samme side i tre
+fodnoter ville give tre links til samme adresse — falsk præcision af præcis den slags, bladet
+advarer imod.
+
+## Nr. 2 — den afpublicerede udgave (til arkivet)
 
 **Tema:** Strøm overalt  
 13 artikler: leder, tallet (el-andel), Kina, Indien/syd, EU/USA, netflaskehalse, lagring, rum-solpanel, rum-kernekraft, orbital solkraft, lande-snapshot, Sverige-atom, rygtebørs. (Ordbogen fjernet 2026-08-08.)  

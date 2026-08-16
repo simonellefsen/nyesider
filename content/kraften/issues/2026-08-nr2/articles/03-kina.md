@@ -1,6 +1,7 @@
 ---
-title: "Kina: verdens største elektrificeringsmaskine"
-standfirst: EV, højhastighedstog, industri-el og sol/vind i GW-skala — tempoet er systemet. Kul er stadig i billedet.
+title: "Kina: kullet faldt"
+standfirst: For første gang siden 2015 faldt Kinas kulbaserede elproduktion. Samtidig står landet for tæt på halvdelen af verdens vækst i elforbrug frem mod 2030. Begge dele er sande.
+byline: "Gemini 3.1 Pro Preview (Google)"
 section: Lande & udbygning
 order: 3
 image: ../images/kraften_kina.png
@@ -8,26 +9,32 @@ imageCredit: "AI-genereret motiv (Imagine / xAI)"
 imageSource: "https://x.ai/"
 ---
 
-Hvis elektrificering er et kapløb, er **Kina** ofte den, der sætter tempoet i **hardware**: batterifabrikker, solpaneler, vindmøller, elbusser og et elnet, der skal bære både industri og byvækst. Det er ikke én “grøn historie”. Det er en **maskine**, der producerer kapacitet i multi-GW-skala — og stadig brænder kul i stor stil.
+Den vigtigste enkelthistorie i den globale elsektor i 2025 kan skrives i én sætning: Kinas kulbaserede elproduktion faldt.
 
-### Hvad “elektrificering” betyder her
+Ifølge den uafhængige energitænketank Ember faldt den med 71 terawatt-timer (TWh) i 2025 — det første registrerede fald siden 2015.[^1] Ser man på den samlede fossile elproduktion, faldt den med 56 TWh, svarende til 0,9 %. Også dér er det det første år uden en stigning siden 2015. Konsekvensen er, at fossile brændsler leverede 58 % af Kinas el i 2025, et mærkbart fald fra cirka 62 % i 2024.
 
-**Transport.** Kina står for en dominerende andel af det globale salg af batteridrevne biler (*battery electric vehicles*, **BEV**) og den overvældende del af battericelle-kæden. Elbusser i kinesiske byer er ikke pilotprojekter; de er flåder. Når Vesten taler om “EV-mål”, er Kinas tal ofte det, kurven sammenlignes med — se husregel om [gap mellem EU, USA og Kina](/kraften/2026-08-nr2/tallet).
+### Hvad der fyldte hullet
 
-**Industri.** Procesvarme og store motorer på el, hvor det kan betale sig — ikke magi, men politik + elpris + krav. Tung industri elektrificeres langsommere end personbiler; det er samme mønster som i [Indien](/kraften/2026-08-nr2/indien-syd).
+Ren el nåede 42 % af den kinesiske produktion i 2025 — akkurat under verdensgennemsnittet på 43 %. Vandkraft er stadig den største enkelte grønne kilde med 13 % af eludbuddet, men det er sol og vind, der driver forandringen.
 
-**Produktion af el.** Sol og vind i multi-GW-udbygning årligt; vandkraft i vesten; kernekraft under udbygning. **Kul** er stadig en del af baseload-virkeligheden og skal nævnes ærligt: Kina er både verdens største udbygger af fornybar el *og* verdens største kul-elproducent. De to tal hører sammen.
+Vind og sol nåede tilsammen 22 % i 2025 og placerer dermed Kina over både det globale og det asiatiske gennemsnit på 17 %. Solproduktionen alene nåede 336 TWh — en stigning på 40 % på ét enkelt år.[^1]
 
-### Hvad Vesten ofte glemmer
+### Proportionerne hører med
 
-Kina elektrificerer **samtidig med**, at det stadig brænder kul i stort omfang. Det er ikke en modsætning i deres planlægning — det er en **overgang med parallel kapacitet**: byg det grønne hurtigt, hold industrien kørende, undgå blackout. Når vestlige overskrifter kun tager den ene halvdel (“Kina er grønt nu” eller “Kina er kun kul”), er det KRAFTEN’s job at pege på **begge** kurver: el-andel *og* kul-TWh.
+At beskrive udviklingen nøgternt kræver, at man forholder sig til størrelsesforholdene. Et fald på 71 TWh er stort i absolutte tal. Men det er ét års fald i et system, hvor over halvdelen af hele verdens kulbaserede elproduktion stadig finder sted.[^2]
 
-Net er også en flaskehals i Kina — ultrahøjspændingslinjer fra vest til kyst er en del af historien, ikke en fodnote. Elektrificering uden net er lager af paneler.
+Det kinesiske elnet er så stort, at de fossile brændsler — trods deres faldende andel — stadig producerer mængder, der er afgørende for den globale udledning. Det understreges af, at Kinas elsektor i gennemsnit udleder 2,2 gange så meget pr. indbygger som verdensgennemsnittet.[^1] Det tal trækker den modsatte vej af de positive sol- og vindprocenter og minder om udgangspunktets tyngde.
 
-### Sådan læser du kinesiske tal
+### To sandheder, der skal holdes samlet
 
-1. Skeln **installeret GW** (*nameplate* / mærkeeffekt) fra **TWh produceret** (hvad der faktisk kom ud).  
-2. Skeln **BEV-salg** fra **andel el af endelig energi** i hele økonomien.  
-3. Brug IEA-landesektioner og Ember for årlige opdateringer — og notér **år**. Et citat uden årgang er en rød flag.
+Det Internationale Energiagentur (IEA) beskriver i rapporten *Electricity 2026* netop dynamikken i det kinesiske net som nøglen til at forstå den globale udvikling. IEA forventer, at udfladningen af kinesisk kul er den vigtigste enkeltfaktor bag, at den globale kulbaserede elproduktion i de kommende år begynder at falde.[^2]
 
-KRAFTEN måler begge dele: **el-andel** og **kul-TWh**. Tempoet er imponerende. Mixet er stadig et system under ombygning — ikke en færdig grøn plakat.
+Men agenturet peger også på den anden side af ligningen. Kina står alene for tæt på 50 % af verdens samlede vækst i elefterspørgsel frem mod 2030. Sat i perspektiv: på blot fem år ventes landet at lægge en ekstra efterspørgsel til sit net, der svarer til hele Den Europæiske Unions nuværende, samlede elforbrug — en vækst på 4,9 % om året, tæt på 2025-tempoet, men langsommere end det seneste tiårs 6,5 %.[^3]
+
+Når transportsektoren, den tunge industri og opvarmningen i stigende grad skal køre på strøm frem for direkte afbrænding, kræver det mere el. Det kinesiske maskinrum står derfor i en situation, hvor nettet skal udvides med historisk hastighed for blot at følge med forbruget, samtidig med at fundamentet af kul skal skiftes ud.
+
+Begge dele af den kinesiske fortælling er sande på samme tid. Det er i spændingsfeltet mellem de faldende kultal og den voksende efterspørgsel, at den globale elektrificering afgøres — og en artikel, der kun refererer den ene halvdel, refererer ikke Kina.
+
+[^1]: [China — Energy Trends](https://ember-energy.org/countries-and-regions/china), Ember, landeprofil opdateret 28. maj 2026 med 2025-data. Herfra: kul -71 TWh (første fald siden 2015), fossil -56 TWh (-0,9 %), fossilandel 58 % mod ca. 62 % i 2024, ren el 42 %, vandkraft 13 %, vind+sol 22 %, sol 336 TWh (+40 %), udledning pr. indbygger 2,2 gange verdensgennemsnittet.
+[^2]: [Electricity 2026 — Supply](https://www.iea.org/reports/electricity-2026/supply), International Energy Agency — at over halvdelen af verdens kulbaserede elproduktion finder sted i Kina, og at udfladningen dér er hovedfaktoren bag et forventet globalt fald.
+[^3]: [Electricity 2026 — Executive summary](https://www.iea.org/reports/electricity-2026/executive-summary), International Energy Agency — at Kina står for tæt på 50 % af væksten i global elefterspørgsel frem til 2030, at landet på fem år lægger efterspørgsel til svarende til EU's nuværende forbrug, og væksttallene 4,9 % og 6,5 %.
