@@ -6,11 +6,11 @@
   "budget": {
     "articles": 10,
     "wordsPerArticle": [
-      100,
-      350
+      500,
+      800
     ],
-    "targetPages": 12,
-    "note": "Smaller than nr.1 (14); fokus GLP-1-pakke. Depth trade: Tallet + ernæring prioriteret over bagatel-features. Ordbogen dropped 2026-08-08 — inline glosses only."
+    "targetPages": 16,
+    "note": "Den afpublicerede udgave var 10 artikler paa 1.821 ord — gennemsnit 182, og flere under 150. Det er for lidt til receptpligtig medicin: en artikel om bivirkninger paa 182 ord kan ikke naa baade hyppighed, maalgruppe, forbehold og henvisning til laege. Loftet foelger nu titlens nye standard paa 500-800."
   },
   "opgaver": [
     {
@@ -18,10 +18,10 @@
       "order": 1,
       "section": "Leder",
       "brief": {
-        "angle": "Velkommen nr.2 — GLP-1 og tallerkenen under behandling.",
+        "angle": "Hvorfor et nummer om GLP-1, og hvad bladet ikke goer. Skal sige rent ud: vi giver ingen dosis- eller behandlingsraad, vi angiver altid indikation og maalgruppe, og vi skelner evidensniveau. Og vi skriver ikke om medicinen som en genvej.",
         "words": [
-          100,
-          350
+          400,
+          550
         ],
         "mustCite": 0,
         "format": "leder"
@@ -32,15 +32,15 @@
         "fallback": null
       },
       "receipt": {
-        "words": 104,
+        "words": 433,
         "costUSD": null,
         "draft": null
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
+        "status": "rewritten-by-editor",
+        "checkedAt": "2026-08-09",
         "citations": 0,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "editorNote": "Skrevet af chefredaktionen. INGEN byline og intet API-kald. Lederen skriver nummerets fire skaerpede regler ud til laeseren og bruger de to sande, tilsyneladende modstridende saetninger om NAION — 'fordobler' mod 'meget sjaelden' — som nummerets baerende lektion. Den naevner ogsaa, hvad faktatjekket konkret fjernede, herunder den samme forkerte DOI i to uafhaengige kladder."
       }
     },
     {
@@ -48,29 +48,35 @@
       "order": 2,
       "section": "Gennembrud & forskning",
       "brief": {
-        "angle": "Mekanisme i almindeligt dansk; ikke vitaminpille.",
+        "angle": "Hvad GLP-1 er, forklaret i almindeligt dansk — og hvad det ikke er. GLP-1 er et hormon, kroppen selv danner i tarmen efter et maaltid. Det er med til at oege insulinfrigivelse naar blodsukkeret stiger, braemse maveindholdets passage og signalere maethed til hjernen. Laegemidlerne er saakaldte receptoragonister: molekyler, der ligner hormonet nok til at aktivere de samme receptorer, men er bygget til at holde meget laengere i kroppen end det naturlige hormon, som nedbrydes paa minutter. FORKLAR DE TRE VIRKNINGER hver for sig, saa laeseren forstaar, hvorfor det baade bruges ved type 2-diabetes og ved svaer overvaegt. SKRIV DEREFTER MEGET TYDELIGT, hvad det ikke er: det er ikke et kosttilskud, ikke en vitaminpille og ikke noget, man kan koebe i haandkoeb. Det er receptpligtig medicin med en godkendt indikation — BMI over 30, eller BMI over 27 med vaegtrelaterede foelgesygdomme — og Laegemiddelstyrelsens egen formulering er, at medicin ikke skal vaere foerstevalg. Skriv ogsaa, at behandlingen som udgangspunkt er vedvarende: virkningen afhaenger af, at midlet tages, og det er en vaesentlig oplysning, som ofte mangler i omtalen. INGEN DOSISRAAD, ingen omtale af konkrete doser, og udtrykkelig henvisning til egen laege.",
         "words": [
-          100,
-          350
+          600,
+          800
         ],
-        "mustCite": 1,
-        "format": "feature"
+        "mustCite": 2,
+        "format": "feature",
+        "mustNumber": [
+          "BMI over 30",
+          "BMI over 27 med følgesygdom"
+        ]
       },
       "writer": {
         "byline": null,
-        "model": "editor-led",
+        "model": "anthropic/claude-opus-4.8",
         "fallback": "deepseek/deepseek-v3.2"
       },
       "receipt": {
-        "words": 162,
-        "costUSD": null,
-        "draft": null
+        "words": 572,
+        "costUSD": 0.0563,
+        "draft": "kladder/02-hvad-er-glp1.md",
+        "costRouting": "byok",
+        "generationId": "gen-1786880396-hKW6I4KqgmwEC5YlrMDs"
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
-        "citations": 1,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-09",
+        "citations": 2,
+        "editorNote": "REELT kommissioneret hos anthropic/claude-opus-4.8 paa .env.dosis (BYOK); kladde i kladder/02-hvad-er-glp1.md. Kladden ramte begge paakraevede tal og loeste briefen praecist: de tre virkninger hver for sig, hvorfor ét stof kan have to godkendte anvendelser, og hvad en receptoragonist er. Bedste egne greb: at GLP-1 ikke er noget fremmed, et laboratorium har fundet paa, men en del af en normal fordoejelse — og at problemet set fra et laegemiddelperspektiv blot er, at hormonet nedbrydes paa minutter. Den skrev ogsaa uopfordret den oplysning, briefen kaldte den oftest manglende: at behandlingen som udgangspunkt er vedvarende, og at virkningen afhaenger af, at midlet tages. Og den afsluttede med udtrykkelig henvisning til egen laege uden dosisraad. KILDEFEJL RETTET: kladden tilskrev linjen om, at medicin ikke skal vaere foerstevalg, til Sundhedsstyrelsen. Den staar hos Laegemiddelstyrelsen, paa siden om vaegttabs- og diabetesmedicin, senest opdateret 31. marts 2025 — samme sted som den godkendte indikation. Begge fodnoter var bare domaener (laegemiddelstyrelsen.dk, sst.dk) og er erstattet af verificerede sider, suppleret med EMA's vurderingsrapporter og produktresume.dk."
       }
     },
     {
@@ -78,29 +84,31 @@
       "order": 3,
       "section": "Ernæring & kost",
       "brief": {
-        "angle": "Protein, væske, fibre når appetitten er lille.",
+        "angle": "Naar appetitten bliver lille: hvad ernaeringsmaessigt bliver svaert, og hvorfor det er vaerd at vide paa forhaand. Behandlingen virker blandt andet ved at daempe sult og forsinke maveindholdets passage. Konsekvensen er, at det bliver lettere at spise for lidt — ikke bare faerre kalorier, men faerre naeringsstoffer, mindre protein og mindre vaeske. Skriv de praktiske foelger konkret: at maethed indtraeder tidligt i maaltidet, saa raekkefoelgen paa tallerkenen faar betydning; at vaeske let bliver glemt, naar man ikke er sulten; at fibre og vaeske haenger sammen, hvis fordoejelsen i forvejen er langsommere. VAER PRAECIS OM USIKKERHEDEN: der findes ikke en dansk myndighedsanbefaling om en saerlig kost under GLP-1-behandling, og de skemaer, der cirkulerer i traeningsmedier og hos private klinikker, er ikke myndighedsanbefalinger. Skriv det udtrykkeligt frem for at gengive et tal. Det, der kan siges, er, at ernaering under behandling er noget, man taler med sin laege eller en klinisk diaetist om — og at det ofte er en del af behandlingen frem for en eftertanke. INGEN KOSTPLANER, ingen gramtal praesenteret som anbefaling, ingen dosisraad.",
         "words": [
-          100,
-          350
+          550,
+          800
         ],
-        "mustCite": 1,
+        "mustCite": 2,
         "format": "feature"
       },
       "writer": {
         "byline": null,
-        "model": "editor-led",
+        "model": "anthropic/claude-sonnet-5",
         "fallback": "deepseek/deepseek-v3.2"
       },
       "receipt": {
-        "words": 183,
-        "costUSD": null,
-        "draft": null
+        "words": 536,
+        "costUSD": 0.020142,
+        "draft": "kladder/03-ernaering-under-behandling.md",
+        "costRouting": "byok",
+        "generationId": "gen-1786880914-M7eWyZ7em8wzXPPJOvgL"
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
-        "citations": 1,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-09",
+        "citations": 2,
+        "editorNote": "REELT kommissioneret hos anthropic/claude-sonnet-5 paa .env.dosis (BYOK); kladde i kladder/03-ernaering-under-behandling.md. Kladden fandt nummerets bedste enkeltformulering: at behandlingen goer det nemt at spise 'forkert lidt' — og sluttede med, at naar appetitsystemet daempes, forsvinder ikke bare kalorierne, men ogsaa de ubevidste paamindelser. Den ADLOED ogsaa briefens vigtigste krav og skrev udtrykkeligt, at der IKKE findes en dansk myndighedsanbefaling om saerlig kost under GLP-1-behandling, og at de skemaer, der cirkulerer, er materiale fra kommercielle aktoerer. Raadene om raekkefoelge paa tallerkenen og om fibre og vaeske er konkrete uden at blive en kostplan. KILDEFEJL RETTET: kladdens fodnote 2 paastod, at 'Sundhedsstyrelsen og Dansk Selskab for Klinisk Ernaering har begge peget paa diaetistinddragelse'. Den paastand kunne ikke efterproeves, og adressen dskeweb.dk svarer slet ikke. Det er en blød tilskrivning af den type, der ser harmloes ud og alligevel er opdigtet. Fjernet. Pointen om at inddrage laege eller klinisk diaetist staar nu som REDAKTIONENS EGEN vurdering, udtrykkeligt maerket som saadan frem for laant autoritet — hvilket ogsaa er aerligere over for laeseren. Fodnote 1 var et bart domaene (sst.dk) og er erstattet af de officielle kostraad med den noedvendige praecisering om, at de er generelle og ikke skrevet til personer i medicinsk behandling."
       }
     },
     {
@@ -108,29 +116,36 @@
       "order": 4,
       "section": "Sikkerhed & bivirkninger",
       "brief": {
-        "angle": "GI-bivirkninger og hvornår man ringer.",
+        "angle": "Bivirkninger, hyppighed og den ene nyhed, en dansk laeser skal kende. Start med de almindelige og veldokumenterede: mave-tarm-gener som kvalme, opkastning, diarré og forstoppelse, som typisk er vaerst i begyndelsen og ved oegning. Forklar HVORFOR — midlet forsinker maveindholdets passage — saa bivirkningen giver mening frem for at staa som en liste. DEREFTER DEN VIGTIGE NYHED: Det Europaeiske Laegemiddelagenturs sikkerhedsudvalg PRAC konkluderede i 2025, at NAION — non-arteritisk anterior iskaemisk opticusneuropati, en oejensygdom med pludseligt, som regel smertefrit synstab paa det ene oeje — er en MEGET SJAELDEN bivirkning ved semaglutid. 'Meget sjaelden' er en defineret hyppighedskategori og betyder op til 1 ud af 10.000 behandlede. Produktresumeerne for Ozempic, Rybelsus og Wegovy blev opdateret, og WHO udsendte meddelelse om det 27. juni 2025. Et dansk registerstudie af 424.152 personer med type 2-diabetes indgik i evidensgrundlaget. RAADET, der maa gengives, er myndighedens eget: ved pludseligt synstab eller hurtigt forvaerret syn skal man kontakte laege straks. FORKLAR OGSAA, hvad 'meget sjaelden' betyder i praksis, uden hverken at bagatellisere eller skraemme: en bivirkning kan vaere baade alvorlig og meget sjaelden paa én gang, og det er derfor, den staar i produktresumeet frem for at foere til tilbagekaldelse. INGEN raad om at starte eller stoppe behandling — det er laegens beslutning.",
         "words": [
-          100,
-          350
+          600,
+          850
         ],
-        "mustCite": 1,
-        "format": "feature"
+        "mustCite": 3,
+        "format": "feature",
+        "mustNumber": [
+          "op til 1 ud af 10.000",
+          "27. juni 2025",
+          "424.152"
+        ]
       },
       "writer": {
         "byline": null,
-        "model": "editor-led",
-        "fallback": "google/gemini-3.5-flash"
+        "model": "anthropic/claude-opus-4.8",
+        "fallback": "deepseek/deepseek-v3.2"
       },
       "receipt": {
-        "words": 135,
-        "costUSD": null,
-        "draft": null
+        "words": 738,
+        "costUSD": 0.063845,
+        "draft": "kladder/04-bivirkninger.md",
+        "costRouting": "byok",
+        "generationId": "gen-1786880232-0NJVX8TwjMjKTLLmc6R2"
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
-        "citations": 1,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-09",
+        "citations": 3,
+        "editorNote": "REELT kommissioneret hos anthropic/claude-opus-4.8 paa .env.dosis (BYOK); kladde i kladder/04-bivirkninger.md. Nummerets — og formentlig hele genopbygningens — bedste sundhedsartikel. Kladden ramte alle tre paakraevede tal og loeste flere ting bedre end bestilt. Den forklarede HVORFOR mave-tarm-generne opstaar (forsinket mavesaekstoemning er selve virkningsmekanismen), saa listen bliver forstaaelig frem for skraemmende. Den behandlede hyppighedskategorien praecist og skrev selv den afgoerende saetning: 'En bivirkning kan udmaerket vaere baade alvorlig og meget sjaelden paa én gang.' Og den sluttede med, at en nedskrevet risiko ikke er tegn paa, at noget er gaaet galt, men paa at overvaagningen virker. Vigtigst: den holdt behandlingsraadet ude med usaedvanlig disciplin — 'Der staar ikke, at man skal stoppe. Der staar ikke, at man skal starte' — og tilfoejede uopfordret en instruks til laeseren om at genlaese afsnittet, hvis det blev misforstaaet. TILFOEJET AF REDAKTIONEN, og det er artiklens nye omdrejningspunkt: det danske registerstudie er nu identificeret praecist (Grauslund m.fl., International Journal of Retina and Vitreous, 2024, hazard ratio 2,19 med konfidensinterval 1,54-3,12), og dets titel siger, at semaglutid FORDOBLER femaarsrisikoen. Myndigheden siger samtidig MEGET SJAELDEN. Begge dele er rigtige, fordi det ene er relativ og det andet absolut risiko — fordobler man noget meget lille, faar man stadig noget lille. Den skelnen er skrevet ud som artiklens kerne, fordi den er den mest brugbare, en laeser kan tage med sig, naar overskrifter melder om fordoblet risiko. Kladdens fodnoter var semi-generiske henvisninger uden adresser; alle tre er nu verificerede. Koensfejl rettet ('Ét af de maader') og escape-sekvenser fjernet."
       }
     },
     {
@@ -138,29 +153,35 @@
       "order": 5,
       "section": "Longevity & aldring",
       "brief": {
-        "angle": "Hype vs. indikation/adgang — forsigtig vinkel.",
+        "angle": "Adgang, penge og hype — den danske virkelighed. KERNEN: der er intet offentligt tilskud til vaegttabsmedicin i Danmark. Medicintilskudsnaevnet vurderede prisen urimelig i forhold til den terapeutiske vaerdi, og det gaelder ogsaa efter Laegemiddelstyrelsens seneste opdatering. Ozempic har tilskud ved type 2-diabetes, men ikke ved vaegttab alene. Individuel ansoegning er mulig. Skriv hvad det betyder i praksis: behandlingen betales af patienten selv, og det goer den til et spoergsmaal om oekonomi lige saa meget som om helbred — hvilket er en ulighedspointe, der er vaerd at skrive noegternt frem uden at agitere. Skriv ogsaa om graamarkedet: at midler koebt uden om apotek og recept ikke er kontrollerede, og at det er en reel risiko frem for en formaning. Og om hypen: at et laegemiddel med en afgraenset godkendt indikation er blevet til et kulturelt faenomen, omtalt som livsstil frem for behandling. VAER FAIR: for mennesker inden for indikationen er det en dokumenteret behandling, og artiklen maa ikke laeses som en nedvurdering af dem, der faar den. INGEN RAAD om, hvordan man skaffer medicinen, og ingen omtale af leverandoerer.",
         "words": [
-          50,
-          200
+          600,
+          800
         ],
-        "mustCite": 0,
-        "format": "feature"
+        "mustCite": 2,
+        "format": "feature",
+        "mustNumber": [
+          "intet offentligt tilskud",
+          "BMI over 30 / over 27 med følgesygdom"
+        ]
       },
       "writer": {
         "byline": null,
-        "model": "editor-led",
+        "model": "google/gemini-3.1-pro-preview",
         "fallback": "deepseek/deepseek-v3.2"
       },
       "receipt": {
-        "words": 112,
-        "costUSD": null,
-        "draft": null
+        "words": 515,
+        "costUSD": 0.124846,
+        "draft": "kladder/05-hype-og-adgang.md",
+        "costRouting": "byok",
+        "generationId": "gen-1786880740-5u3n5BDWO1JtRZjEEGMx"
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
-        "citations": 0,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-09",
+        "citations": 3,
+        "editorNote": "REELT kommissioneret hos google/gemini-3.1-pro-preview paa .env.dosis (BYOK); kladde i kladder/05-hype-og-adgang.md. Kladden ramte begge paakraevede punkter og loeste briefens vanskeligste balance: den slog fast, at behandlingen for mennesker inden for indikationen er reel og fortjener omtale uden den loeftede pegefinger, der historisk har klaebet til overvaegt — og konstaterede samtidig ulighedspointen noegternt. FLERE RETTELSER, ALLE I RETNING AF FORSIGTIGHED: (1) Kladden angav et varigt vaegttab i stoerrelsesordenen 15 % af kropsvaegten. Tallet er omtrent forsoegsgennemsnittet i STEP 1 over 68 uger, men 'varigt' er forkert — virkningen afhaenger af fortsat behandling, hvilket nummerets egen artikel om GLP-1 forklarer. Effektpaastanden er taget ud frem for at blive gengivet upraecist. (2) Kladden angav en maanedlig udgift i tusindvis af kroner; briefen forbyder priser, og de aendrer sig. Erstattet af den kvalitative pointe. (3) Kladden paastod, at en forfalsket pen i vaerste fald kan indeholde insulin og udloese fatalt lavt blodsukker. Det er et konkret skadescenarie, der ikke kunne kildebelaegges i myndighedernes materiale; erstattet af det, myndighederne faktisk skriver — at der ingen garanti er for fremstilling, indhold eller virkning. (4) Overskriften 'Den smalle talje paa abonnement' og vendingen 'abonnere paa en slankere fremtid' laa taet paa den vaegttabsretorik, den redaktionelle advarsel forbyder; begge omskrevet. Begge fodnoter var bare domaener; nu tre verificerede sider hos Laegemiddelstyrelsen."
       }
     },
     {
@@ -168,29 +189,37 @@
       "order": 6,
       "section": "Protein & træning",
       "brief": {
-        "angle": "Protein + styrke under vægttab for at skåne muskel.",
+        "angle": "Muskler under vaegttab — og den nuance, der naesten altid mangler. Den udbredte fortaelling er, at GLP-1 'aeder muskler'. Den er for grov, og tallene viser hvorfor. I STEP 1-forsoegets DXA-delstudie med 140 deltagere reducerede semaglutid 2,4 mg den samlede fedtmasse med 19,3 % og den viscerale fedtmasse med 27,4 %. Den fedtfri masse faldt i ABSOLUTTE kilo — men ANDELEN af fedtfri masse i forhold til den samlede kropsvaegt STEG, og reduktionen i fedt var stoerre end i fedtfri masse. FORKLAR FORSKELLEN PAA ABSOLUT OG RELATIVT for en almindelig laeser, for det er hele pointen: man taber muskelmasse i kilo, samtidig med at kropssammensaetningen forbedres. Begge dele er sande. Skriv ogsaa, at tab af fedtfri masse foelger med ethvert stoerre vaegttab, ogsaa uden medicin — det saerlige er, at det samlede vaegttab er stoerre. DEREFTER DET FORSIGTIGE AFSNIT: styrketraening og tilstraekkeligt protein er den almindelige faglige anbefaling ved vaegttab, men der findes IKKE en dansk myndighedsanbefaling om et saerligt proteinindtag under GLP-1-behandling. NNR2023's tal er 0,83 g/kg for voksne og 1,2-1,5 g/kg for aeldre, og de er ikke skrevet med denne behandling for oeje. Gengiv derfor IKKE de gramtal, der cirkulerer i traeningsmedier, som om de var anbefalinger. Skriv i stedet, at det er en samtale med laege eller klinisk diaetist. INGEN TRAENINGSPROGRAMMER og ingen dosisraad.",
         "words": [
-          50,
-          200
+          550,
+          800
         ],
-        "mustCite": 1,
-        "format": "feature"
+        "mustCite": 3,
+        "format": "feature",
+        "mustNumber": [
+          "19,3 % fedtmasse",
+          "27,4 % visceralt fedt",
+          "0,83 g/kg",
+          "1,2-1,5 g/kg (ældre)"
+        ]
       },
       "writer": {
         "byline": null,
-        "model": "editor-led",
+        "model": "openai/gpt-5.6-terra",
         "fallback": "deepseek/deepseek-v3.2"
       },
       "receipt": {
-        "words": 90,
-        "costUSD": null,
-        "draft": null
+        "words": 696,
+        "costUSD": 0.02279175,
+        "draft": "kladder/06-protein-styrke.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1786880505-v9k8OZAhhpeHMYGtChka"
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
-        "citations": 1,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-09",
+        "citations": 4,
+        "editorNote": "REELT kommissioneret hos openai/gpt-5.6-terra paa .env.dosis (via OpenRouter-kredit); kladde i kladder/06-protein-styrke.md. Nummerets bedst raesonnerede artikel. Kladden ramte alle fire tal, byggede selv det gennemregnede eksempel (100 kg med 40 kg fedt bliver til 80 kg med 55 kg fedtfri masse), der goer forskellen paa absolut og relativ maaling konkret, og ADLOED forbuddet mod at gengive traeningsmediernes gramtal som anbefalinger. Slutlinjen om ikke at tale med nogen, der saelger proteinpulver som forsikring mod fysiologi, er dens egen. TILFOEJET AF KLADDEN, IKKE AF BRIEFEN, og fagligt vigtigt: at DXA-maalt FEDTFRI MASSE ikke er det samme som muskelfibre — den rummer ogsaa vaeske og organvaev — saa et fald i fedtfri masse ikke er en praecis maaling af tabt muskelstyrke. Det er en ekspertdistinktion, redaktionen ikke havde bedt om. TREDJE DOI-FUND MED CSL-METODEN: kladden angav fire DOI'er. Tre var korrekte (Chaston m.fl. 2006, Sardeli m.fl. 2018, NNR2023). Den fjerde, 10.1210/jendso/bvab048.031, anfoert som Wildings STEP 1-kropssammensaetningsabstract, oploeses til 'Incidence of Insulin Resistance in Obese Adolescent of Type-2 Diabetes Mellitus Patients' — et NABOABSTRACT i samme supplement af samme tidsskrift. Det er den mest lumske variant hidtil: rigtigt tidsskrift, rigtigt supplement, forkert loebenummer. Erstattet af hovedforsoeget i NEJM (verificeret via DOI-metadata: bind 384, s. 989-1002) plus abstractet selv. TILFOEJET af redaktionen: at kropssammensaetningstallene stammer fra et KONFERENCEABSTRACT og dermed har lavere dokumentationsgrad end en fagfaellebedoemt artikel — husreglen om at skelne evidensniveau, anvendt paa vores egen hovedkilde."
       }
     },
     {
@@ -198,29 +227,31 @@
       "order": 7,
       "section": "Wearables & hjemmetests",
       "brief": {
-        "angle": "Wearables under behandling: data vs. diagnose.",
+        "angle": "Hvad en maaler kan og ikke kan foelge under behandling. Kobling til nr. 1's artikel om wearables: forskellen paa hvad et apparat MAALER og hvad det KONKLUDERER gaelder skaerpet her. En badevaegt maaler vaegt, ikke kropssammensaetning; de vaegte, der paastaar at maale fedtprocent via bioimpedans, sender en svag stroem gennem kroppen og REGNER sig frem med en model — og maalingen paavirkes af vaeskebalance, som netop kan svinge under behandling. Skriv det praecist, for det er en almindelig kilde til unoedig bekymring. En kontinuerlig glukosemaaler maaler glukose i vaevsvaesken med forsinkelse, ikke blodsukker direkte, og er et laegemiddelnaert redskab ved diabetes, ikke et livsstilslegetoej. DXA-scanning er den metode, forskningen bruger til kropssammensaetning, og den findes ikke i hjemmet. Slut med det brugbare: hvad der giver mening at foelge (tendenser over tid, hvordan man har det, konkrete aftaler med behandleren) og hvad der ikke goer (daglige vaegtudsving, en fedtprocent fra en badevaegt, tal uden klinisk sammenhaeng). INGEN diagnostik og ingen raad om at aendre behandling paa baggrund af en maaling.",
         "words": [
-          50,
-          200
+          500,
+          750
         ],
-        "mustCite": 0,
+        "mustCite": 2,
         "format": "feature"
       },
       "writer": {
         "byline": null,
-        "model": "editor-led",
+        "model": "google/gemini-3.1-pro-preview",
         "fallback": "deepseek/deepseek-v3.2"
       },
       "receipt": {
-        "words": 163,
-        "costUSD": null,
-        "draft": null
+        "words": 552,
+        "costUSD": 0.108026,
+        "draft": "kladder/07-wearables-glp1.md",
+        "costRouting": "byok",
+        "generationId": "gen-1786881180-pru9ptHAjaYx7saTa4Yh"
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
-        "citations": 0,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-09",
+        "citations": 2,
+        "editorNote": "REELT kommissioneret hos google/gemini-3.1-pro-preview paa .env.dosis (BYOK); kladde i kladder/07-wearables-glp1.md. Kladden loeste briefens kerne og tilfoejede den bedste fysiologiske forklaring i nummeret, som redaktionen ikke havde bedt om: at kroppen lagrer kulhydrat som glykogen, at hvert gram glykogen binder omkring tre gram vand, og at et fald i kulhydratindtag derfor saenker vandindholdet, hoejner den elektriske modstand og faar en bioimpedansvaegt til at aflaese det som MERE fedt. Det er praecis den mekanisme, der goer daglige maalinger til en kilde til unoedig bekymring — og den forklarer, hvorfor problemet er skaerpet netop under behandling, hvor vaeskebalancen svinger. Kladden var ogsaa praecis om, at DXA er forskningens standard og ikke findes i hjemmet, og den skrev den ufravigelige regel klart: aldrig aendre behandling paa baggrund af et tal fra en app. KILDER: begge fodnoter var institutionelle haandbevaegelser uden adresse — 'Institutionens faglige beskrivelser underbygger...' er ikke en henvisning, men en paastand om, at en henvisning findes. Erstattet af FDA's og NIDDK's sider om kontinuerlige glukosemaalere samt EMA's produktinformation. Kladdens angivelse af 5-15 minutters forsinkelse er fjernet som praecist interval, da kilderne beskriver forsinkelsen kvalitativt; teksten siger nu blot, at der er en forsinkelse. Escape-sekvens (\\u00a0) lakket ud. Krydslinks til nr. 1 og til Muskler tilfoejet."
       }
     },
     {
@@ -228,59 +259,38 @@
       "order": 8,
       "section": "Laboratoriet / tallet",
       "brief": {
-        "angle": "Pejlemærker med kilde/år: overvægt, diabetes, pivotal vægttab.",
+        "angle": "Pejlemaerker med aar, kilde og maaleenhed, opstillet i en tabel med en kolonne for HVEM TALLET GAELDER — det er den vigtigste kolonne i et nummer om receptpligtig medicin. Brug: godkendt indikation BMI over 30 eller over 27 med vaegtrelaterede foelgesygdomme (Laegemiddelstyrelsen); intet offentligt tilskud til vaegttabsindikationen i Danmark; fra STEP 1's DXA-delstudie med 140 deltagere: fedtmasse ned 19,3 % og visceral fedtmasse ned 27,4 %, mens andelen af fedtfri masse steg; NAION klassificeret som meget sjaelden bivirkning, det vil sige op til 1 ud af 10.000 behandlede (EMA's PRAC, 2025); dansk registerstudie med 424.152 personer med type 2-diabetes i evidensgrundlaget. SKRIV ET AFSNIT OM HYPPIGHEDSKATEGORIER, for det er nummerets mest brugbare lektion: 'meget almindelig', 'almindelig', 'ikke almindelig', 'sjaelden' og 'meget sjaelden' er DEFINEREDE intervaller i produktresumeer, ikke stemningsord — og 'meget sjaelden' betyder faerre end 1 ud af 10.000. Naar en overskrift skriver 'ny alvorlig bivirkning', siger den intet om hyppighed. Skriv ogsaa, hvad tallene IKKE fanger: forsoegsdeltagere er udvalgte, opfoelgningstiden er begraenset, og registerstudier viser sammenhaeng frem for aarsag. ANGIV IKKE tal, du ikke kan kildebelaegge, og ANGIV IKKE priser.",
         "words": [
-          100,
-          350
+          550,
+          800
         ],
         "mustCite": 4,
-        "format": "tallet"
+        "format": "tallet",
+        "mustNumber": [
+          "19,3 %",
+          "27,4 %",
+          "op til 1 ud af 10.000",
+          "424.152",
+          "BMI 30 / 27"
+        ]
       },
       "writer": {
         "byline": null,
-        "model": "editor-led",
-        "fallback": "google/gemini-3.5-flash"
+        "model": "openai/gpt-5.6-terra",
+        "fallback": "deepseek/deepseek-v3.2"
       },
       "receipt": {
-        "words": 307,
-        "costUSD": null,
-        "draft": null
+        "words": 597,
+        "costUSD": 0.03456375,
+        "draft": "kladder/08-tallet.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1786881036-8i9d9R1OqpGTmwxcIL0Y"
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
-        "citations": 4,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
-      }
-    },
-    {
-      "slug": "ordbogen",
-      "order": 99,
-      "section": "Ordbogen",
-      "brief": {
-        "angle": "GLP-1-ordbog.",
-        "words": [
-          50,
-          200
-        ],
-        "mustCite": 0,
-        "format": "ordbog"
-      },
-      "writer": {
-        "byline": null,
-        "model": "editor-led",
-        "fallback": "minimax/minimax-m3"
-      },
-      "receipt": {
-        "words": 81,
-        "costUSD": null,
-        "draft": null
-      },
-      "verdict": {
-        "status": null,
-        "checkedAt": null,
-        "citations": 0,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-09",
+        "citations": 6,
+        "editorNote": "REELT kommissioneret hos openai/gpt-5.6-terra paa .env.dosis (via OpenRouter-kredit); kladde i kladder/08-tallet.md. Kladden byggede tabellen med kolonnen HVEM TALLET GAELDER, som briefen kraevede, og leverede nummerets mest brugbare enkeltafsnit: de definerede hyppighedskategorier fra produktresumeerne, opstillet praecist. 'Alvorlighed og sandsynlighed er to forskellige akser' er kladdens egen, og det samme er billedet af badevaegten, der kun kan taelle kilo og ellers passer sit. Den skelnede ogsaa korrekt mellem randomiseret forsoeg og registerstudie og skrev, at det sidste viser sammenhaenge frem for aarsag. FJERDE DOI-FUND — OG DET ER EN GENGANGER: kladden angav igen 10.1210/jendso/bvab048.031 som Wildings kropssammensaetningsabstract. Det er praecis den samme forkerte DOI, som blev fanget i protein-styrke tidligere i dette nummer, hos en anden model. Den oploeses til et naboabstract om insulinresistens hos overvaegtige unge i samme supplement. At to uafhaengige kladder gaetter den SAMME forkerte identifikator er vaerd at notere: fejlen er reproducerbar, ikke tilfaeldig, og en redaktion, der kun tjekker én artikel, vil tro den er en engangsfejl. Erstattet samme sted som i protein-styrke. PRAECISERET: kladden skrev NAION-kategorien som 'op til omkring 1 ud af 10.000'. Den definerede kategori er FAERRE end 1 ud af 10.000, og forskellen betyder noget, naar hele afsnittet handler om, at kategorierne er definerede intervaller. Rettet i baade tabel og broedtekst. Fodnote 2 manglede adresse; alle seks er nu verificerede, inkl. EMA's PRAC-referat fra juni 2025 og STEP 1's protokol paa ClinicalTrials.gov."
       }
     },
     {
@@ -288,29 +298,31 @@
       "order": 9,
       "section": "Rygtebørsen",
       "brief": {
-        "angle": "Spekulativ hype-kolonne.",
+        "angle": "Afmontér fire paastande om GLP-1, som cirkulerer. FORSLAG: (1) 'Det er bare en slankepille.' Nej — receptpligtig medicin med en afgraenset godkendt indikation, og myndighedens egen formulering er, at medicin ikke skal vaere foerstevalg. (2) 'Man taber kun muskler.' Forkert i billede: fedtfri masse falder i kilo, men andelen af fedtfri masse stiger, og fedttabet er stoerre — se artiklen om muskler. (3) 'Der er kommet en farlig bivirkning, saa midlet burde traekkes.' Her skal du vaere praecis og rolig: NAION er tilfoejet som MEGET SJAELDEN bivirkning, hvilket betyder op til 1 ud af 10.000. En bivirkning kan vaere baade alvorlig og meget sjaelden, og netop derfor staar den i produktresumeet frem for at foere til tilbagekaldelse. (4) 'Man kan bare koebe det paa nettet.' Midler koebt uden om apotek og recept er ikke kontrollerede. ABSOLUT KRAV: opfind aldrig et studie, et tal eller et citat, giv ingen dosis- eller behandlingsraad, og skriv aldrig noget, der kan laeses som en opfordring til at skaffe medicinen. Tonen maa gerne vaere spids over for paastandene, aldrig over for mennesker i behandling.",
         "words": [
-          50,
-          200
+          500,
+          750
         ],
-        "mustCite": 0,
-        "format": "rygteboersen"
+        "mustCite": 2,
+        "format": "myter"
       },
       "writer": {
         "byline": null,
-        "model": "editor-led",
+        "model": "anthropic/claude-sonnet-5",
         "fallback": "deepseek/deepseek-v3.2"
       },
       "receipt": {
-        "words": 62,
-        "costUSD": null,
-        "draft": null
+        "words": 466,
+        "costUSD": 0.020566,
+        "draft": "kladder/09-rygteboersen.md",
+        "costRouting": "byok",
+        "generationId": "gen-1786881322-mbMrv2u22s4U7elXU8fP"
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
-        "citations": 0,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-09",
+        "citations": 4,
+        "editorNote": "REELT kommissioneret hos anthropic/claude-sonnet-5 paa .env.dosis (BYOK); kladde i kladder/09-rygteboersen.md. Kladden ramte alle fire bestilte paastande og fandt den bedste analogi i nummeret: at kalde midlet en slankepille er som at kalde blodfortyndende medicin for et sundt kosttilskud — det er kategorien, der er forkert, ikke bare tonen. Slutlinjen 'Skepsis er sund — ogsaa over for skepsissen selv' er ogsaa dens egen og er praecis den tone, spalten skal ramme. Den holdt sig fra at vejlede i, hvordan man skaffer medicinen, som den redaktionelle advarsel kraever. RETTELSER: (1) kladden tilskrev linjen om, at medicin ikke skal vaere foerstevalg, til Sundhedsstyrelsen. Den staar hos Laegemiddelstyrelsen — samme fejl som i hvad-er-glp1, hos en anden model, hvilket tyder paa at de to myndigheder forveksles systematisk. (2) 'Meget sjaelden' blev gengivet som 'op til 1 ud af 10.000'. Den definerede kategori er FAERRE end 1 ud af 10.000, og i en artikel, hvis pointe er, at kategorien er defineret og ikke et stemningsord, skal definitionen vaere praecis. Rettet, saa den stemmer med Tallet. (3) Fodnoterne stod i haevet skrift frem for husets format og pegede paa domaener; alle fire er nu verificerede sider. Krydslinks til Muskler og Bivirkninger tilfoejet."
       }
     },
     {
@@ -318,31 +330,35 @@
       "order": 10,
       "section": "Kryds (PULSEN m.fl.)",
       "brief": {
-        "angle": "Bro til PULSEN for system/klinik.",
+        "angle": "Broen til PULSEN. DOSIS handler om kroppen, tallerkenen og dosen; PULSEN om sektoren og klinikken. GLP-1 er det tydeligste sted, hvor de to moedes: et laegemiddel uden offentligt tilskud goer behandlingen til et spoergsmaal om privatoekonomi, og dermed til et sundhedspolitisk spoergsmaal om ulighed. Samtidig lægger efterspoergslen pres paa almen praksis, og et laegemiddel udviklet til én indikation bruges bredere, end indikationen raekker. Skriv de tre beroeringsflader konkret og noegternt, og lad vaere med at afgoere prioriteringsspoergsmaalet — det kan bladet ikke. VIGTIGT: link kun til PULSEN nr. 1 paa /pulsen/2026-07-nr1/, som er udgivet; nr. 2 og nr. 3 er afpubliceret, og et doedt internt link braekker prerenderingen.",
         "words": [
-          50,
-          200
+          450,
+          700
         ],
-        "mustCite": 0,
-        "format": "krydslink"
+        "mustCite": 1,
+        "format": "feature"
       },
       "writer": {
         "byline": null,
-        "model": "editor-led",
-        "fallback": null
+        "model": "google/gemini-3.1-pro-preview",
+        "fallback": "deepseek/deepseek-v3.2"
       },
       "receipt": {
-        "words": 68,
-        "costUSD": null,
-        "draft": null
+        "words": 355,
+        "costUSD": 0.062022,
+        "draft": "kladder/10-til-pulsen.md",
+        "costRouting": "byok",
+        "generationId": "gen-1786881412-ZrwFACyop7tGpb0EKTXw"
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
-        "citations": 0,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-09",
+        "citations": 1,
+        "editorNote": "REELT kommissioneret hos google/gemini-3.1-pro-preview paa .env.dosis (BYOK); kladde i kladder/10-til-pulsen.md. Kladden linkede KORREKT til PULSEN nr. 1, som briefen paalagde — nr. 2 og nr. 3 er afpubliceret, og et link dertil ville have braekket prerenderingen. Den fandt de tre beroeringsflader selv og formulerede den skarpeste: 'Biokemien virker uafhaengigt af indkomst. Adgangen goer ikke.' Den afholdt sig ogsaa udtrykkeligt fra at afgoere prioriteringsspoergsmaalet, som bestilt. RETTELSER: (1) kladden angav en maanedlig udgift i tusindvis af kroner; briefen forbyder priser. (2) Den skrev, at 'hundredtusindvis af danskere' oensker medicinen — et tal uden kilde, fjernet. (3) Fodnoten angav en konkret afgoerelse fra Laegemiddelstyrelsen med titel og maaned (december 2023), som ikke kunne verificeres i det anfoerte arkiv; erstattet af myndighedens egen samleside, hvor Medicintilskudsnaevnets vurdering fremgaar. (4) Afsnittet om almen praksis er omskrevet fra 'lægerne skal veje patienter og tage blodproever' — konkrete kliniske procedurer, som kladden ikke havde belaeg for — til en beskrivelse af kapacitet, der ikke laegger ord i munden paa nogen faggruppe."
       }
     }
   ],
-  "integrityNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+  "integrityNote": "Genopbygget 2026-08-09. Nr. 2 blev udgivet 2026-08-08 med byline til navngivne modeller, uden costUSD, uden kladdereference og uden kladdefil for nogen af de ti artikler. Ledgeren blev nulstillet til editor-led. Hele nummeret produceres forfra paa .env.dosis.",
+  "redaktionelAdvarsel": "RECEPTPLIGTIG MEDICIN. Dette er nummeret med hoejest risiko i hele titlen, og husreglerne gaelder skaerpet. (1) INGEN DOSISRAAD OG INGEN BEHANDLINGSRAAD. Vi gengiver myndigheders og produktresumeers oplysninger med kilde; vi fortaeller aldrig laeseren, hvad hun skal tage, starte, stoppe eller aendre. Hver artikel, der beroerer behandling, skal udtrykkeligt henvise til egen laege. (2) ANGIV ALTID INDIKATION OG MAALGRUPPE. Et tal fra et forsoeg med svaer overvaegt gaelder ikke alle. (3) SKELN EVIDENSNIVEAU OG KILDETYPE: randomiseret forsoeg, registerstudie, myndighedsvurdering og producentens eget materiale er fire forskellige ting. (4) SKRIV ALDRIG OM VAEGTTAB PAA EN MAADE, DER KAN LAESES SOM OPFORDRING. Ingen foer-og-efter-retorik, ingen maalvaegte, ingen omtale af medicinen som en genvej. Emnet er, hvordan behandlingen virker og hvad den kraever — ikke hvordan man faar fat i den.",
+  "researchNote": "ADVARSEL: naar IKKE modellens prompt — kun brief.angle. Kontrolleret 2026-08-09. DANSK REGULERING (Laegemiddelstyrelsen, siden opdateret 31. marts 2025): der er INTET offentligt tilskud til vaegttabsmedicin i Danmark. Medicintilskudsnaevnet vurderede prisen urimelig i forhold til den terapeutiske vaerdi. Godkendt indikation: BMI over 30, eller BMI over 27 med vaegtrelaterede foelgesygdomme. Myndighedens egen formulering er, at medicin IKKE skal vaere foerstevalg. Ozempic har tilskud ved type 2-diabetes, men ikke ved vaegttab alene. Individuel tilskudsansoegning er mulig. NAION: Det Europaeiske Laegemiddelagenturs sikkerhedsudvalg PRAC konkluderede i 2025, at non-arteritisk anterior iskaemisk opticusneuropati (NAION) — en sjaelden oejensygdom med pludseligt synstab — er en MEGET SJAELDEN bivirkning ved semaglutid, hvilket vil sige at den kan ramme op til 1 ud af 10.000 brugere. Produktresumeerne for Ozempic, Rybelsus og Wegovy blev opdateret. WHO udsendte meddelelse 27. juni 2025. Raadet er: ved pludseligt synstab eller hurtigt forvaerret syn skal man kontakte laege straks, og bekraeftes NAION, skal behandlingen stoppes. Et dansk kohortestudie af 424.152 personer med type 2-diabetes indgik i evidensgrundlaget. KROPSSAMMENSAETNING (STEP 1's DXA-delstudie, 140 deltagere med BMI under 40): semaglutid 2,4 mg reducerede total fedtmasse med 19,3 % og visceral fedtmasse med 27,4 %. Den fedtfri masse faldt i ABSOLUTTE kilo, men ANDELEN af fedtfri masse i forhold til den samlede kropsvaegt STEG. Reduktionen i fedtmasse var stoerre end i fedtfri masse. DET ER DEN VIGTIGSTE NUANCE I NUMMERET: den udbredte fortaelling om at 'GLP-1 aeder muskler' er for grov. Absolut tab af fedtfri masse er reelt, men kropssammensaetningen forbedres. PROTEIN: NNR2023 anbefaler 0,83 g/kg for voksne og 1,2-1,5 g/kg for aeldre. Der findes IKKE en dansk myndighedsanbefaling om et saerligt proteinindtag under GLP-1-behandling; de tal, der cirkulerer i traeningsmedier, er ikke myndighedsanbefalinger og skal ikke gengives som saadan."
 }

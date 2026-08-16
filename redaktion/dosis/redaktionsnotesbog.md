@@ -18,9 +18,44 @@ Longevity, ernæring/kost, tilskud, proteser/implantater, **wearables & hjemmete
 ## Nr. 2 — udgivet
 
 **Tema:** Appetitten under kontrol (GLP-1)  
-**10 artikler:** leder, hvad er GLP-1, ernæring under behandling, bivirkninger, hype/adgang, protein+styrke, wearables, tallet, rygtebørs, til PULSEN. (Ordbogen fjernet 2026-08-08.)  
-Cover + features (Imagine). PDF mangler.  
+**Genopbygget 2026-08-09:** 10 artikler / 5.460 ord (var 10 / 1.821 — gennemsnit 182). Ni artikler
+reelt kommissioneret på `.env.dosis`; lederen er chefredaktionens uden byline. Forbrug **0,51 USD**.
+Cover + features (Imagine). PDF mangler.
 `bestilling.json`: `redaktion/dosis/numre/2026-08-nr2/bestilling.json`.
+
+### Læring fra genopbygningen af nr. 2 (2026-08-09)
+
+**Den samme forkerte DOI dukkede op i to uafhængige kladder.** `10.1210/jendso/bvab048.031`, anført
+som STEP 1's kropssammensætningsabstract, opløses til et **naboabstract om insulinresistens hos unge**
+i samme supplement af samme tidsskrift. To forskellige modeller gættede den samme forkerte
+identifikator. Fejlen er altså **reproducerbar, ikke tilfældig** — og en redaktion, der kun tjekker én
+artikel, vil tro, den er en engangsfejl. Kør DOI-tjekket på **hver** reference, hver gang.
+
+**Relativ og absolut risiko er nummerets vigtigste lektion.** Et dansk registerstudie af 424.152
+personer (Grauslund m.fl., *Int J Retina Vitreous*, 2024) har titlen «semaglutide **doubles** the
+five-year risk» af NAION — hazard ratio 2,19. Myndigheden klassificerer samtidig NAION som **meget
+sjælden**, altså færre end 1 ud af 10.000. Begge dele er rigtige. Fordobler man noget meget lille,
+får man stadig noget lille. Skriv altid *fordoblet fra hvad?*
+
+**Hyppighedskategorier er definerede intervaller, ikke stemningsord.** Meget almindelig ≥ 1/10 ·
+almindelig 1/100–1/10 · ikke almindelig 1/1.000–1/100 · sjælden 1/10.000–1/1.000 · **meget sjælden
+< 1/10.000**. En overskrift om «ny alvorlig bivirkning» siger intet om hyppighed. Bemærk at WHO's
+formulering («up to 1 in 10,000») og SmPC-kategorien (< 1/10.000) ikke er ordret ens — brug
+kategorien i brødtekst og WHO's ordlyd i noten.
+
+**Lægemiddelstyrelsen og Sundhedsstyrelsen forveksles systematisk.** To kladder tilskrev linjen om,
+at «medicin ikke skal være førstevalg», til Sundhedsstyrelsen. Den står hos **Lægemiddelstyrelsen**,
+på siden om vægttabs- og diabetesmedicin (senest opdateret 31. marts 2025) — samme sted som den
+godkendte indikation og tilskudsspørgsmålet.
+
+**Bløde tilskrivninger er også fabrikation.** En kladde skrev, at «Sundhedsstyrelsen og Dansk Selskab
+for Klinisk Ernæring har begge peget på» diætistinddragelse. Påstanden kunne ikke efterprøves, og
+selskabets domæne svarer ikke. Fjernet — pointen står nu som redaktionens egen vurdering, udtrykkeligt
+mærket som sådan. Lånt autoritet er værre end ingen.
+
+**Der findes ingen dansk myndighedsanbefaling om kost eller protein specifikt under GLP-1-behandling.**
+De skemaer, der cirkulerer, er kommercielt materiale. Skriv fraværet frem i stedet for at gengive et
+tal, læseren så tror er officielt.
 
 ## Nr. 1 — udgivet
 
@@ -110,3 +145,5 @@ Fact-check obligatorisk før accept (se [redaktion/README](../README.md)). Medic
 - **2026-08-09:** Nr. 1 genopbygget og genudgivet efter afpubliceringen 2026-08-08. Se læringen ovenfor.
 - **2026-08-09 (kilder):** Ny fast rutine — enhver DOI i en kladde slås op via CSL-JSON og
   sammenholdes med det, fodnoten påstår. To ud af fire var forkerte i første forsøg.
+
+- **2026-08-09:** Nr. 2 genopbygget og genudgivet efter afpubliceringen 2026-08-08. Se læringen ovenfor.
