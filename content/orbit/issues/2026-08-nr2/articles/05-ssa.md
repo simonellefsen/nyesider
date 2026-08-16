@@ -1,6 +1,7 @@
 ---
-title: "SSA: rumsituationsoverblik uden science fiction"
-standfirst: Space situational awareness er radar, kataloger og e-mails — ikke en laserkanon. Uden den er nærpassager bare gætteri.
+title: "Sådan virker det: at holde øje med rummet"
+standfirst: En position i et katalog er aldrig en position. Den er et estimat med en usikkerhed omkring sig — og usikkerheden vokser, fra det øjeblik nogen sidst kiggede.
+byline: "Claude Opus 4.8 (Anthropic)"
 section: Rumskrot & sikkerhed i kredsløb
 order: 5
 image: ../images/orbit_ssa.png
@@ -8,28 +9,42 @@ imageCredit: "AI-genereret motiv (Imagine / xAI)"
 imageSource: "https://x.ai/"
 ---
 
-**SSA** (*space situational awareness*) er evnen til at vide, **hvor objekter er**, **hvor de er på vej hen**, og **hvornår to baner kommer for tæt**. Det er radar, optik, kataloger, orbit-bestemmelse og — for operatører — **conjunction messages** (fx **CDM**, *Conjunction Data Messages*), der ender i en manøvre eller en bevidst “vi gør ingenting”.
+Et satellitkatalog ser bedragerisk præcist ud. Ud for hvert objekt står et nummer, en bane, en position.
 
-Uden SSA er [nærpassage-statistik](/orbit/2026-08-nr2/naerpassage) science fiction. Med SSA er det stadig **ikke** et globalt luftrumskontroltårn.
+Men bag hver af de linjer gemmer sig en sandhed, som er værd at forstå, hvis man vil forstå debatten om rumskrot: en position i et katalog er aldrig en position. Den er et estimat med en usikkerhed omkring sig.
 
-### Hvem gør det?
+### Tre instrumenter, tre afstande
 
-- **Militære og civile kataloger** (fx US Space Force / Space-Track-økosystemet) danner ofte basis for, hvad der overhovedet er “tracket”.  
-- Den europæiske rumorganisation **ESA** (*European Space Agency*) og nationale europæiske kapaciteter bidrager med sensorer, miljørapporter og analyse — se Space Safety / Debris-sporet.[^1]  
-- **Kommercielle SSA-firmaer** sælger tættere opfølgning, hurtigere ephemerides og risikovurdering til satellitoperatører, der ikke vil leve af det offentlige gratis-lag alene.  
-- **Operatøren selv** (Starlink, OneWeb, nationale agencer) kører egne pipelines: flere objekter i egen flåde = flere egne manøvrebeslutninger.
+Arbejdet med at vide, hvad der er i kredsløb, og hvor det er på vej hen, kaldes *space situational awareness* (SSA), på dansk rumsituationsbillede. Det hviler på tre typer sensorer, og valget mellem dem handler først og fremmest om afstand.
 
-### Hvad det *ikke* er
+**Radar** bruges til lav kredsløbsbane, typisk under omkring 2.000 km. En radar sender selv sin energi ud og lytter efter ekkoet. Fordi styrken falder dramatisk med afstanden — energien spredes over en stadig større kugleflade både på vej ud og på vej tilbage — bliver radar hurtigt for svag langt væk. Til gengæld virker den døgnet rundt, uanset om objektet er belyst, fordi den leverer sit eget lys.
 
-- Et globalt “luftrumskontroltårn” med én sandhed og én autoritet, der kan beordre dig væk.  
-- Automatisk undvigelse uden menneske i loopet (endnu — og det er en politikdebat).  
-- Løsningen på skrot; det er **synlighed**, ikke oprydning.  
-- Bevis for kollision; det er input til [Pc og manøvre](/orbit/2026-08-nr2/naerpassage).
+**Optiske teleskoper** bruges til de høje baner, herunder geostationær bane i cirka 36.000 km højde. Her ser teleskopet ikke objektet selv, men det sollys, objektet reflekterer. Det giver en afgørende begrænsning: observationen kan kun foretages i det korte tidsrum, hvor objektet er solbelyst, mens observatøren nede på jorden står i mørke — altså i skumringstimerne. Er observatøren i dagslys, drukner objektet i himmelbaggrunden. Er objektet selv i Jordens skygge, reflekterer det intet.
 
-### Hvorfor det koster penge
+**Laserafstandsmåling** er den mest præcise metode, men den virker kun på objekter, der bærer retroreflektorer — spejle, der sender laserlyset præcist tilbage mod afsenderen. Man måler, hvor længe lyset er om at rejse frem og tilbage, og får afstanden på centimeterniveau. Det er derfor et redskab til udvalgte, samarbejdende satellitter, ikke til tilfældigt skrot.
 
-Hver ekstra satellit i **LEO** (*low Earth orbit*) øger både **sensor-last** (nogen skal se dig) og **operatør-last** (nogen skal regne på dig). CDM-volumen i hundredetusind-klassen pr. dag midt-2020’erne er et pejlemærke på, hvor meget “stille regning” kadence skaber — se [Tallet](/orbit/2026-08-nr2/tallet).
+### Hvorfor kataloget altid er et skøn
 
-SSA er den stille infrastruktur bag [konstellations-kapløbet](/orbit/2026-08-nr2/kuiper-konstellationer). Uden den er lav jordbane bare flere objekter med samme tyngdekraft — og erstatningsjuraen i Liability Convention bliver endnu mere teoretisk, når ingen kan bevise, hvem der “burde have set det”.
+Her er kernen. Et objekt observeres kun få gange i døgnet — når banen fører det hen over en sensor. Mellem observationerne *beregnes* banen frem ved hjælp af fysiske modeller. Og fra det øjeblik den sidste observation er lavet, begynder usikkerheden at vokse.
 
-[^1]: ESA Space Safety / Space Debris Office — officielle rapporter og missionssider; [ESA Space Environment Report](https://www.esa.int/Space_Safety/Space_Debris).
+Den vokser hurtigst i lav bane. Her rager den tynde øvre atmosfære stadig op og bremser objektet — men bremsningen afhænger af, hvor tæt atmosfæren er netop dér, og det svinger med solaktiviteten. Når Solen opvarmer den øvre atmosfære, udvider den sig, og modstanden ændrer sig. Da man ikke kender den fremtidige solaktivitet præcist, kan man ikke forudsige bremsningen præcist.
+
+Resultatet er, at det beregnede punkt bliver til en langstrakt sky af mulige positioner — størst langs banen. Derfor angives risiko for sammenstød aldrig som et ja eller nej, men som en sandsynlighed.
+
+### Hvad tallene siger
+
+Den Europæiske Rumorganisations (European Space Agency, ESA) Space Debris Office opgør billedet sådan (opdateret 31. juli 2026): cirka **46.230 objekter** følges regelmæssigt og står i kataloget. Men modeller anslår omkring **54.000 objekter over 10 cm**, cirka **1,2 millioner mellem 1 cm og 10 cm** og i størrelsesordenen 140 millioner mellem 1 mm og 1 cm.[^1]
+
+Pointen med de tal er ubehagelig, men vigtig: kun den første kategori kan man undvige. Man kan ikke manøvrere uden om noget, ingen kan se.
+
+Og selv en flage på få centimeter rammer i kredsløbshastighed med en energi, der kan ødelægge en satellit. Mod de små, usynlige partikler er svaret derfor ikke undvigelse, men afskærmning — skjolde, der optager anslaget — og redundans, så et enkelt gennemslag ikke slår hele satellitten ud.
+
+### Hvorfor opgaven bliver sværere
+
+Til sidst en matematisk grund til bekymring. Antallet af mulige sammenstød afhænger ikke af antallet af objekter, men af antallet af *par* af objekter. Fordobler man antallet af satellitter i lav bane, firdobler man groft sagt antallet af mulige møder.
+
+Med de mange nye [konstellationer](/orbit/2026-08-nr2/kuiper-konstellationer) i lav bane vokser antallet af par — og dermed arbejdsbyrden for dem, der overvåger — hurtigere end antallet af objekter selv.
+
+Det er derfor SSA ikke bare handler om at bygge flere radarer. Det handler om at leve med usikkerhed, sætte tal på den og træffe beslutninger, før skyerne overlapper.
+
+[^1]: [Space debris by the numbers](https://www.esa.int/Space_Safety/Space_Debris/Space_debris_by_the_numbers), ESA Space Debris Office, oplyst opdateret 31. juli 2026. Modeltallene stammer fra ESA's MASTER-8-model med referencepopulation august 2024.

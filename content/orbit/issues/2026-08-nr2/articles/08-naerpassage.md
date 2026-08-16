@@ -1,6 +1,7 @@
 ---
-title: "Nærpassage-statistik uden panik"
-standfirst: Conjunction er et regneark. Kollision er en nyhed. Erstatning er en konvention fra 1972, der næsten aldrig bliver brugt formelt.
+title: "Sådan læser du en overskrift om en nærpassage"
+standfirst: Afstanden i meter er den mest misvisende oplysning i historien. Og når en advarsel bliver mindre alarmerende i løbet af et døgn, er det som regel fordi nogen har kigget bedre efter.
+byline: "Gemini 3.1 Pro Preview (Google)"
 section: Rumskrot & sikkerhed i kredsløb
 order: 8
 image: ../images/orbit_naerpassage.png
@@ -8,68 +9,52 @@ imageCredit: "AI-genereret motiv (Imagine / xAI)"
 imageSource: "https://x.ai/"
 ---
 
-En **conjunction** er en forudsagt nærpassage mellem to katalogiserede objekter — især i **lav jordbane** (**LEO** — *low Earth orbit*). Operatører regner på **sandsynlighed for kollision** (*probability of collision*, **Pc**), **afstand ved nærmeste punkt**, og **manøvreomkostning** (brændstof = levetid). Det er ikke det samme som en filmtrailer — og det er heller ikke det samme som en **kollision**.
+«To satellitter passerede hinanden med kun 15 meters afstand.» Når medier dækker hændelser i kredsløb, er det ofte med overskrifter, der lyder som et trafikuheld, der lige akkurat blev afværget.
 
-[Tallet i dette nummer](/orbit/2026-08-nr2/tallet) giver pejlemærkerne. Her er kødet: sker det? Hvem får besked? Hvem betaler?
+Reaktionen svinger typisk mellem panik og skuldertræk. Men at vurdere en nærpassage ud fra den opgivne afstand er den mest misvisende måde at forstå den på.
 
-### Sker der kollisioner?
+### Illusionen om den præcise afstand
 
-**Ja — men sjældent i den “to store satellitter mødes”-klasse**, der fylder historiebøgerne. Det, der stiger støt, er *advarsler* og *manøvrer*, ikke daglige knald i kredsløb.
+Når det meldes, at to objekter vil passere hinanden med 30 meters afstand, lyder det som eksakt videnskab. I virkeligheden er en beregnet afstand altid et estimat omgivet af en usikkerhedsellipse. Observationer fra Jorden er fremragende, men ikke perfekte, og når et objekt bevæger sig med omkring otte kilometer i sekundet, vokser selv små målefejl til betydelige usikkerheder, når banen fremskrives.
 
-De hændelser, alle pejler efter, er få og dyre:
+Usikkerheden er ofte langt større end selve afstanden. Beregnes to satellitter til at passere med 30 meter, mens usikkerhedsellipsen er kilometer bred, er de 30 meter reelt et gæt.
 
-| År | Hvad | Hvorfor det tæller |
-|---|---|---|
-| **2009** | **Iridium 33** (USA, aktiv) × **Cosmos 2251** (Rusland, død) | Klassisk benchmark: to katalogiserede objekter, tusindvis af nye skrotstykker |
-| **2007 / 2021** | ASAT-tests (Kina / Rusland m.fl.) | Bevidst fragmentering — ikke “uheld”, men skrot der bagefter tvinger manøvrer |
-| **1996** | Fransk mikrosatellit × Ariane-skrot | Tidlig dokumenteret skade fra skrot på aktiv satellit |
-| **Løbende** | Mikro-skrot på solpaneler, ruder, skjolde | Små partikler spottes ofte først som “anomali”, ikke som overskrift |
+Derfor arbejder operatører ikke med afstand, men med *sandsynlighed for sammenstød*.
 
-Dertil kommer undvigelser: den Internationale Rumstation (**ISS**) og store operatører manøvrerer jævnligt, når skrot eller satellitter truer — det er *forebyggelse*, ikke bevis for, at “rummet er i krig”.
+Det fører til noget kontraintuitivt: en varslet passage på 100 meter kan være mere bekymrende end en på 30. Er usikkerheden i det første tilfælde meget lille — man ved præcis, hvor objekterne er — kan sandsynligheden være høj. Er usikkerheden i det andet tilfælde enorm, smøres sandsynligheden ud over et stort område, og risikoen for, at objekterne er i samme punkt på samme tid, bliver lille.
 
-**Kessler-syndromet** (Donald Kessler, 1978) er den teoretiske kaskade: skrot skaber mere skrot, indtil LEO bliver praktisk uanvendeligt. Det er en **risiko-model**, ikke en statusrapport for 2026. ORBIT’s pejling: tag kaskaden alvorligt i politik og design; brug den ikke som “kollision i morgen”-clickbait.
+### Når faren fordamper af sig selv
 
-### Hvordan rapporteres det?
+Du har måske bemærket, at en alarmerende melding ofte afblæses et døgn senere, tilsyneladende uden at nogen har gjort noget.
 
-Der er **ingen global “ulykkeskommando”**, der ringer til pressen hver gang to baner krydser.
+Det skyldes endnu et kontraintuitivt forhold: bedre data får som regel den beregnede risiko til at *falde*.
 
-1. **Kataloger** (fx US Space Force / Space-Track-økosystemet, europæiske kapaciteter) holder styr på trackede objekter.  
-2. **CDM** (*Conjunction Data Messages*) — automatiserede advarsler om mulige nærpassager — sendes i stor volumen til operatører. Midt-2020’ernes tal i **hundredetusind-klassen pr. dag** for det globale system lyder dramatisk; de fleste er lave-Pc-advarsler, ikke “hold vejret”.[^1]  
-3. **Operatøren** beslutter manøvre eller “vi gør ingenting” — ofte internt, nogle gange med offentlig note (ISS, enkelte selskaber).  
-4. **Kommerciel SSA** (*space situational awareness* — rumsituationsoverblik) sælger tættere opfølgning end det offentlige gratis-lag; se [SSA-artiklen](/orbit/2026-08-nr2/ssa).
+Når et objekt observeres yderligere, skrumper usikkerhedsellipsen. Og fordi rummet er stort, vil en indsnævring næsten altid betyde, at ellipsen snævrer ind om et område, hvor den anden satellit *ikke* er. Risikoen falder.
 
-Offentligheden ser derfor især: (a) store manøvrer, (b) ASAT-skandaler, (c) de få bekræftede kollisioner. Den daglige regning er **regneark og brændstof**.
+En melding, der bliver mindre alarmerende i løbet af et døgn, er altså som regel tegn på, at jordstationerne har foretaget flere observationer — ikke at faren er drevet over af sig selv.
 
-### Lov og orden i kredsløb — hvem betaler?
+### Prisen for et ryk
 
-Rummet er ikke lovløst, men det er **tyndt politi**. To grundpiller:
+Hvorfor så ikke bare flytte sig for en sikkerheds skyld?
 
-**Ydre rum-traktaten (1967)** — stater er ansvarlige for nationale aktiviteter i rummet, også private.
+En undvigemanøvre er en dyr beslutning. Den bruger brændstof, og for de fleste satellitter er brændstofmængden lig med satellittens levetid. Hvert gram brugt på at undvige er tid skåret af missionens ende.
 
-**Liability Convention (1972)** — *Convention on International Liability for Damage Caused by Space Objects* — konkretiserer erstatning:[^2]
+Manøvren flytter desuden satellitten væk fra dens arbejdsbane. For en jordobservationssatellit betyder det tabte data; for en kommunikationssatellit kan det betyde nedetid.
 
-| Skade | Ansvar |
-|---|---|
-| På **Jordens overflade** eller fly | **Absolut ansvar** for *launching State* (den stat der opsender / lader opsende) — ofret behøver ikke bevise skyld |
-| **I rummet** (satellit × satellit / skrot) | **Skyldansvar** (*fault*) — man skal argumentere for, hvem der burde have handlet |
+Derfor manøvrerer operatører ikke ved enhver melding. De fastsætter en tærskel for, hvor stor en beregnet risiko de accepterer, og flytter sig kun over den. Tærsklen er et operationelt og forretningsmæssigt valg, ikke en naturlov.
 
-**Vigtigt i praksis:**
+### Et voksende katalog
 
-- Konventionen er **mellem stater**. Private selskaber står bagved via national lov, forsikring og kontrakter — ikke som sagsøgere i Wien-systemet.  
-- Formelt er Liability Convention **næsten aldrig “kørt i retten” til ende**. Det berømte eksempel på udbetaling er **Cosmos 954** (1978): sovjetisk satellit med radioaktivt materiale faldt over Canada; erstatning blev aftalt (Canada modtog kompensation i forlig).  
-- **Iridium–Cosmos 2009** blev **ikke** en klassisk Liability Convention-dom; parterne håndterede det diplomatisk/uden for den formelle mekanisme.  
-- **Skyld i rummet** er juridisk besværligt: hvem skulle have manøvreret? Hvem havde dårligere ephemeris? Hvem ejer et dødt objekt fra 1980’erne?
+Behovet for at forstå de mekanismer bliver kun større. Den Europæiske Rumorganisations (European Space Agency, ESA) Space Debris Office opgør (opdateret 31. juli 2026), at der er registreret mere end 660 opbrud, eksplosioner, kollisioner eller anomale fragmenteringshændelser siden rumalderens begyndelse, og at der befinder sig mere end 17.000 ton materiale i kredsløb.[^1]
 
-Derfor er det reelle “lov og orden” i 2026 oftere: **forsikring, kontrakter, nationale licenser** — fx den amerikanske **FCC** (*Federal Communications Commission*, telemyndighed) og **FAA** (*Federal Aviation Administration*, luftfartsmyndighed, der også godkender opsendelser) — plus gennemsigtige ephemerides og manøvre-disciplin. Det er ikke en rumdomstol med ugentlige domme.
+Hver gang en fragmentering finder sted, skabes en sværm af nye, ukontrollerede objekter. Hvert af dem har sin egen bane og sin egen usikkerhedsellipse, som verdens aktive satellitter løbende skal vurderes imod.
 
-### Sådan læser du en overskrift
+### Tre spørgsmål
 
-- “1.000 nærpassager i dag” uden **Pc** og afstand er meningsløst.  
-- Starlink-manøvrer i stort tal kan betyde **disciplin og automatisering**, ikke kaos.  
-- Skrot-på-skrot er den dyre klasse — se [rumskrot i nr. 1](/orbit/2026-08-nr1/rumskrot).  
-- “Nogen skal betale” er rigtigt i princippet (Liability Convention); i praksis er det ofte **forlig, forsikring eller tavshed**, indtil skaden er stor og politisk.
+Når du næste gang ser en dramatisk overskrift om en nærpassage, så led efter svar på tre ting frem for afstanden i meter:
 
-ORBIT’s holdning: mere **katalogkvalitet** og mere **delte ephemerides** (banedata over tid) slår panik. SSA uden samarbejde er bare dyre siloer. Kollisioner er sjældne nok til at være nyheder — og dyre nok til, at juraen stadig halter efter tætheden i LEO.
+Hvornår er dataene fra? Hvor stor er usikkerheden? Og valgte operatøren faktisk at manøvrere?
 
-[^1]: Offentlige/juridiske oversigter om CDM-volumen i LEO midt-2020’erne (hundredetusind-klassen pr. dag i 2023-agtige pejlinger) — tærskler og sensorer ændrer tallet; brug som ordenstørrelse.
-[^2]: [UNOOSA — Liability Convention](https://www.unoosa.org/oosa/en/ourwork/spacelaw/treaties/introliability-convention.html) (i kraft 1972); absolute liability for Earth damage, fault for damage in space. Se også Outer Space Treaty art. VII.
+Ingen af de tre står som regel i overskriften. Men det er dem, der fortæller historien.
+
+[^1]: [Space debris by the numbers](https://www.esa.int/Space_Safety/Space_Debris/Space_debris_by_the_numbers), ESA Space Debris Office, oplyst opdateret 31. juli 2026 — herfra de mere end 660 fragmenteringshændelser og de mere end 17.000 ton i kredsløb.

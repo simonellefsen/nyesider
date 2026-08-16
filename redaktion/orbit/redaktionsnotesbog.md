@@ -1,6 +1,6 @@
 # ORBIT – Redaktionsnotesbog
 
-Opdateret efter nr. 2 (august 2026, *"Kataloget og kikkerten"*).  
+Opdateret efter genopbygningen af nr. 2 (august 2026, *"Kataloget og kikkerten"*).  
 OpenRouter: **kun** `.env.orbit`. Imagine: `.env.local` / `XAI_API_KEY`.
 
 ## Identitet
@@ -15,7 +15,40 @@ vs **KRAFTEN:** de tager rum-*kraft* (watt); vi tager mission/ops/katalog. Overl
 3. `issue.json`: `cover`, `coverCredit`, `coverSource`.  
 4. Brand: navy `#0B1020`, blå `#5B8DEF`, guld `#E8B86D`. Ingen masthead-tekst i billedet.
 
-## Nr. 2 — udgivet
+## Nr. 2 — genopbygget og genudgivet 2026-08-16
+
+**Tema:** Kataloget og kikkerten
+**10 artikler, 5.683 ord** (var 10 artikler / 3.437 ord — gns. 344). Ni artikler reelt
+kommissioneret på `.env.orbit`; lederen er chefredaktionens og har **ingen byline**.
+Samlet forbrug **0,39 USD**. `bestilling.json`: `redaktion/orbit/numre/2026-08-nr2/bestilling.json`.
+
+Temaet blev holdt: forskellen mellem det talte og det anslåede bærer Tallet, SSA-artiklen,
+nærpassage-artiklen og rygtebørsen. Alle opsendelsestal er redaktionens egen optælling af
+**unikke** orbitale opsendelser i GCAT's `launchlog.tsv` (opgjort 15. august 2026) — bemærk
+at rå rækkeoptælling i den fil giver nyttelaster, ikke opsendelser, og derfor tal der er
+ti gange for høje. Det er en fælde, næste nummer skal huske.
+
+### Hvad faktatjekket fangede
+
+- **Forkert år på et rigtigt tal.** Kalender-artiklen skrev «Falcon 9 gennemførte 162
+  opsendelser i 2024». De 162 er 2025-tallet. Ironien er noteret: netop artiklen om forkerte
+  årstal satte selv et tal på det forkerte år.
+- **Samme tastefejl fra to forskellige modeller.** «Blue 0rigin» med nul i stedet for O
+  optrådte uafhængigt i både `new-glenn` (Sonnet 5) og `esa-launcher` (Sonnet 5).
+- **Et tal uden belæg.** Nærpassage-kladden angav en konkret manøvretærskel (0,01 %) — ubriefet,
+  ukildebelagt, og i modstrid med artiklens egen pointe om, at tærsklen er et valg.
+- **Et dødt link og et halvdødt.** NASA's `lowearthorbit.html` er en 404. ESA's
+  `sdo.esoc.esa.int/environment_report/` svarer 200, men lander på portalens forside.
+- **Bare domænehenvisninger** igen: `arianespace.com`, `nasa.gov/artemis`, «SpaceX' officielle
+  opsendelsesoversigt» — alle uden den konkrete side, oplysningen står på.
+
+### Læring til nr. 3
+
+Samme som KRAFTEN nr. 2 samme dag: **sæt `mustCite` efter kildesøgningen, ikke før.** Fire
+artikler udløser advarsel om for få citations, fordi briefen krævede 2, mens stoffet stammer
+fra én kilde. To links til samme adresse er ikke to kilder.
+
+## Nr. 2 — den afpublicerede udgave (til arkivet)
 
 **Tema:** Kataloget og kikkerten  
 10 artikler: leder, tallet (nærpassager), Starship vs Falcon, New Glenn RTF, SSA, Kuiper/konstellationer, ESA launcher, nærpassage uden panik, kalender, rygtebørs. (Ordbogen fjernet 2026-08-08.)  

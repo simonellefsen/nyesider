@@ -4,25 +4,25 @@
   "title": "ORBIT nr. 2 · August 2026",
   "issueTheme": "Kataloget og kikkerten",
   "published": "2026-08-08",
-  "status": "draft",
+  "status": "published",
   "pdf": null,
   "cover": "images/orbit_cover.png",
   "coverCredit": "AI-genereret forside (Imagine / xAI) — SSA/katalog/LEO-tema",
   "coverSource": "https://x.ai/",
   "images": [
-    "images/orbit_cover.png",
-    "images/orbit_starship.png",
-    "images/orbit_newglenn.png",
-    "images/orbit_ssa.png",
     "images/orbit_constellations.png",
-    "images/orbit_leder.png",
-    "images/orbit_tallet.png",
+    "images/orbit_cover.png",
     "images/orbit_esa.png",
-    "images/orbit_naerpassage.png",
     "images/orbit_kalender.png",
-    "images/orbit_ordbog.png"
+    "images/orbit_leder.png",
+    "images/orbit_naerpassage.png",
+    "images/orbit_newglenn.png",
+    "images/orbit_ordbog.png",
+    "images/orbit_ssa.png",
+    "images/orbit_starship.png",
+    "images/orbit_tallet.png"
   ],
-  "productionCostUSD": null,
+  "productionCostUSD": 0.3927,
   "imageCredits": "Imagine / xAI. Se SOURCES.md.",
   "backCoverPromise": "ORBIT nr. 3 tæller videre — manifests, manøvrer og det, der faktisk letter.",
   "articles": [
@@ -32,98 +32,115 @@
       "order": 1,
       "title": "Kataloget og kikkerten",
       "section": "Leder",
-      "standfirst": "Katalog, kikkert — og erstatning når det går galt.",
+      "standfirst": "Alt i dette nummer handler om forskellen mellem det, nogen faktisk har talt, og det, vi tror er derude. Og om en fejl, vi selv lavede i nr. 1.",
       "image": "../images/orbit_leder.png",
       "imageCredit": "AI-genereret motiv (Imagine / xAI)",
-      "imageSource": "https://x.ai/"
+      "imageSource": "https://x.ai/",
+      "words": 405
     },
     {
       "slug": "tallet",
       "file": "articles/02-tallet.md",
       "order": 2,
-      "title": "Tallet: nærpassagerne",
+      "title": "Tallet: 46.230 mod 54.000",
       "section": "Tallet",
-      "standfirst": "CDM er ikke kollision. Kollision er sjælden.",
+      "standfirst": "Det ene tal er en optælling. Det andet er et estimat. Forskellen mellem dem er ikke en fejl — den er alt det, ingen endnu har set.",
       "image": "../images/orbit_tallet.png",
       "imageCredit": "AI-genereret motiv (Imagine / xAI)",
-      "imageSource": "https://x.ai/"
+      "imageSource": "https://x.ai/",
+      "byline": "Claude Opus 4.8 (Anthropic)",
+      "words": 635
     },
     {
       "slug": "starship-falcon",
       "file": "articles/03-starship-falcon.md",
       "order": 3,
-      "title": "Starship vs. Falcon: manifests i praksis",
+      "title": "Starship fylder overskrifterne. Falcon 9 fylder kataloget.",
       "section": "Opsendelser",
-      "standfirst": "Flight 13: V3, Starlink V3-test, Indiske Ocean.",
+      "standfirst": "162 mod 5. Tallene ligner et kapløb, men er det ikke — det er et fartøj i rutedrift og et fartøj under udvikling, og de måles på hver sin ting.",
       "image": "../images/orbit_starship.png",
       "imageCredit": "AI-genereret motiv (Imagine / xAI)",
-      "imageSource": "https://x.ai/"
+      "imageSource": "https://x.ai/",
+      "byline": "Gemini 3.1 Pro Preview (Google)",
+      "words": 465
     },
     {
       "slug": "new-glenn",
       "file": "articles/04-new-glenn.md",
       "order": 4,
-      "title": "New Glenn: return-to-flight er historien",
+      "title": "Tre tunge raketter, tre enkeltcifrede kadencer",
       "section": "Opsendelser",
-      "standfirst": "Return-to-flight er historien — ikke debuten.",
+      "standfirst": "New Glenn har fløjet én gang i 2025 og én i 2026. Det samme har Vulcan. Det er let at gøre grin med — og det er den forkerte historie.",
       "image": "../images/orbit_newglenn.png",
       "imageCredit": "AI-genereret motiv (Imagine / xAI)",
-      "imageSource": "https://x.ai/"
+      "imageSource": "https://x.ai/",
+      "byline": "Claude Sonnet 5 (Anthropic)",
+      "words": 615
     },
     {
       "slug": "ssa",
       "file": "articles/05-ssa.md",
       "order": 5,
-      "title": "SSA: rumsituationsoverblik uden science fiction",
+      "title": "Sådan virker det: at holde øje med rummet",
       "section": "Rumskrot & sikkerhed i kredsløb",
-      "standfirst": "Radar, kataloger, CDM — ikke laserkanon.",
+      "standfirst": "En position i et katalog er aldrig en position. Den er et estimat med en usikkerhed omkring sig — og usikkerheden vokser, fra det øjeblik nogen sidst kiggede.",
       "image": "../images/orbit_ssa.png",
       "imageCredit": "AI-genereret motiv (Imagine / xAI)",
-      "imageSource": "https://x.ai/"
+      "imageSource": "https://x.ai/",
+      "byline": "Claude Opus 4.8 (Anthropic)",
+      "words": 665
     },
     {
       "slug": "kuiper-konstellationer",
       "file": "articles/06-kuiper-konstellationer.md",
       "order": 6,
-      "title": "Kuiper og de andre: lav jordbane er ikke kun ét brand",
+      "title": "Kapløbet i lav bane har fået to nye spor",
       "section": "Satellitter & konstellationer",
-      "standfirst": "Flere brands i samme LEO.",
+      "standfirst": "Kuiper gik fra 0 til 216 satellitter på halvandet år. Starlink opsendte 1.966 i samme periode. Retningen er rigtig; hastigheden er ikke.",
       "image": "../images/orbit_constellations.png",
       "imageCredit": "AI-genereret motiv (Imagine / xAI)",
-      "imageSource": "https://x.ai/"
+      "imageSource": "https://x.ai/",
+      "byline": "GPT-5.6 Terra (OpenAI)",
+      "words": 600
     },
     {
       "slug": "esa-launcher",
       "file": "articles/07-esa-launcher.md",
       "order": 7,
-      "title": "ESA og Europa: launcher-politik efter Ariane-hullet",
+      "title": "Europa har en raket. Har Europa en kapacitet?",
       "section": "Nationer & agenturer",
-      "standfirst": "Suveræn adgang er cement under aftalen.",
+      "standfirst": "Frankrig opsendte 7 gange i 2025. USA 177. Forskellen er ikke af grad, men af orden — og den er ikke et særligt europæisk problem.",
       "image": "../images/orbit_esa.png",
       "imageCredit": "AI-genereret motiv (Imagine / xAI)",
-      "imageSource": "https://x.ai/"
+      "imageSource": "https://x.ai/",
+      "byline": "Claude Sonnet 5 (Anthropic)",
+      "words": 611
     },
     {
       "slug": "naerpassage",
       "file": "articles/08-naerpassage.md",
       "order": 8,
-      "title": "Nærpassage-statistik uden panik",
+      "title": "Sådan læser du en overskrift om en nærpassage",
       "section": "Rumskrot & sikkerhed i kredsløb",
-      "standfirst": "Kollisioner, rapportering, Liability Convention.",
+      "standfirst": "Afstanden i meter er den mest misvisende oplysning i historien. Og når en advarsel bliver mindre alarmerende i løbet af et døgn, er det som regel fordi nogen har kigget bedre efter.",
       "image": "../images/orbit_naerpassage.png",
       "imageCredit": "AI-genereret motiv (Imagine / xAI)",
-      "imageSource": "https://x.ai/"
+      "imageSource": "https://x.ai/",
+      "byline": "Gemini 3.1 Pro Preview (Google)",
+      "words": 582
     },
     {
       "slug": "kalenderen",
       "file": "articles/09-kalenderen.md",
       "order": 9,
-      "title": "Kalenderen: det du kan følge uden at opdigte datoer",
+      "title": "Kalenderen, der ikke kan læses ligeud",
       "section": "Kalenderen",
-      "standfirst": "Spor uden opdigtede datoer; flight 13 er sket.",
+      "standfirst": "Vi skrev et forkert årstal i nr. 1. Denne udgave af Kalenderen indeholder derfor ingen datoer — men tre ord, der afslører, hvad en dato er værd.",
       "image": "../images/orbit_kalender.png",
       "imageCredit": "AI-genereret motiv (Imagine / xAI)",
-      "imageSource": "https://x.ai/"
+      "imageSource": "https://x.ai/",
+      "byline": "Claude Opus 4.8 (Anthropic)",
+      "words": 645
     },
     {
       "slug": "rygteboersen",
@@ -131,12 +148,12 @@
       "order": 10,
       "title": "Rygtebørsen",
       "section": "Rygtebørsen",
-      "standfirst": "Spekulativt. Ikke et manifest.",
+      "standfirst": "Fire påstande fra rumbranchen denne sommer — og en ærlig temperaturmåling på hver. Vi siger tydeligt, hvad tallene viser, og hvad der er gæt.",
       "image": "../images/orbit_ordbog.png",
       "imageCredit": "AI-genereret motiv (Imagine / xAI)",
-      "imageSource": "https://x.ai/"
+      "imageSource": "https://x.ai/",
+      "byline": "GPT-5.6 Terra (OpenAI)",
+      "words": 460
     }
-  ],
-  "unpublishedReason": "Afpubliceret 2026-08-08. Nummeret blev udgivet med byline-kreditering til navngivne modeller, men bestilling.json indeholder hverken costUSD, kladde-reference eller kladdefil for nogen artikel, og OpenRouter-forbruget på titlens egen nøgle viser, at kaldene aldrig blev foretaget. Verdikterne ('accepted', 'rejected') beskriver derfor en bedømmelse af kladder, der aldrig er modtaget. Nummeret skal produceres forfra — uden byline, indtil en reel forfatter kan dokumenteres. Se redaktion/README.md.",
-  "unpublishedAt": "2026-08-08"
+  ]
 }

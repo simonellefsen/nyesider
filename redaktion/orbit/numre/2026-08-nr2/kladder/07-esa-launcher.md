@@ -1,0 +1,25 @@
+# Nationer & agenturer: Én raket, få flyvninger
+
+Europa har igen en tung raket. Ariane\u00a06 fløj første gang i 2024, og siden er kadencen fulgt et forudsigeligt, spinkelt spor: én opsendelse i 2024, fire i 2025, tre i 2026 frem til 15.\u00a0august.[^1] Det er ikke en fiasko — det er den kadence, en ny europæisk tung raket rent faktisk har haft. Spørgsmålet, redaktionen stiller i denne udgave, er ikke om raketten flyver, men om Europa har en opsendelses*kapacitet* i ordets fulde betydning: evnen til at levere rutinemæssig adgang til rummet, år efter år, uden at hver flyvning bliver en nyhedsbegivenhed i sig selv.
+
+Tallene taler for sig. Ved siden af Ariane\u00a06 flyver den lettere Vega-familie: to opsendelser i 2024, tre i 2025, én i 2026 frem til samme dato.[^1] Læg de to raketfamilier sammen, og se derefter på Frankrig som opsendende stat — den nation, hvis territorium (Guyana Rumcenter) er udgangspunkt for begge programmer: 7\u00a0opsendelser i 2025 og 4\u00a0frem til 15.\u00a0august 2026.[^1] Sammenlign det med USA, opsendende stat med 177\u00a0og 107\u00a0opsendelser i de samme to perioder, eller med Kina, med 91\u00a0og 56.[^1] Forskellen er ikke af grad, den er af orden — Frankrig befinder sig i den lave enkeltcifrede ende, USA og Kina i de høje to- og trecifrede tal.
+
+## Hvad en lav kadence betyder i praksis
+
+En kadence på under ti opsendelser om året for en hel national rumindfrastruktur har konkrete konsekvenser. For det første bliver hver opsendelse en begivenhed frem for en rutine: der er ikke plads til at absorbere en fejl som en statistisk hændelse i en lang serie, fordi serien er kort. For det andet fordeles de faste omkostninger — startrampe, kontrolcenter, integrationshaller, fastansatte teams — på få flyvninger, hvilket strukturelt gør hver flyvning dyrere end den ville være ved en kadence på tyve eller fyrre om året. For det tredje rykker en forsinkelse hele manifestet: når en nyttelast skubber en anden bagud i køen, forplanter forsinkelsen sig gennem hele årets program på en måde, som en operatør med ugentlige flyvninger aldrig ville mærke på samme vis.
+
+## Institutionel opsendelse: gulvet under raketten
+
+Det, der reelt holder Ariane\u00a06 og Vega i luften i denne fase, er ikke det kommercielle satellitmarked — det er institutionel opsendelse. Begrebet betyder, at europæiske stater og Den Europæiske Rumorganisation (European Space Agency, ESA) forpligter sig til et antal missioner: videnskabelige satellitter, jordobservation, sikkerheds- og forsvarsrelaterede nyttelaster, som skal opsendes uanset markedsprisen andre steder. Det giver raketten et gulv — en garanteret mindste-efterspørgsel, der eksisterer, uanset om et kommercielt selskab kunne købe billigere plads hos en konkurrent.
+
+Denne konstruktion er samtidig en dobbelthed. Den er grunden til, at Europa overhovedet har en tung opsendelseskapacitet i dag — uden det institutionelle gulv ville regnestykket for Ariane\u00a06 og Vega være svært at få til at balancere ved den nuværende kadence. Og den er samtidig en del af forklaringen på, hvorfor det udenlandske prispres ikke slår fuldt igennem: en institutionel kunde vælger typisk sin egen raket, uanset hvad markedsprisen er hos en amerikansk konkurrent, fordi valget handler om strategisk autonomi og ikke kun om pris per kilo til bane.
+
+## Ikke et europæisk særfænomen
+
+Det ville være fristende at læse disse tal som et særligt europæisk problem — en fortælling om et kontinent, der sakker bagud. Tallene giver ikke belæg for den læsning. I USA står to andre tunge raketter i præcis samme situation: New\u00a0Glenn, fra Blue\u00a00rigin, og Vulcan, fra United\u00a0Launch\u00a0Alliance, har hver haft én opsendelse i 2025 og én i 2026 frem til samme dato.[^1] Det er ikke Europa mod verden. Det er alle, der ikke er SpaceX, mod den kadence SpaceX har skabt med Falcon\u00a09 og Falcon\u00a0Heavy. Situationen for Ariane\u00a06 er den samme situation, som de fleste af verdens tunge raketter befinder sig i lige nu: lav kadence, høj enhedspris, et marked domineret af én aktør, der opererer efter en helt anden logik.
+
+Hvad der kommer efter denne fase — hvor mange opsendelser Ariane\u00a06 og Vega når i de kommende år, hvilke kontrakter der eventuelt indgås, eller hvornår fremtidige flyvninger er planlagt — hører til en anden historie, som redaktionen vil vende tilbage til, når tal og datoer kan kildebelægges. Denne historie handler om, hvad tallene fra 2024 til 15.\u00a0august 2026 rent faktisk viser: en europæisk opsendelseskapacitet, der eksisterer, er institutionelt forankret, og deler sit strukturelle problem med stort set alle andre end markedslederen.
+
+---
+
+[^1]: Jonathan McDowell, *General Catalog of Artificial Space Objects* (GCAT), Harvard-Smithsonian Center for Astrophysics, data opdateret 15.\u00a0august 2026. Tilgængelig via planet4589.org/space/gcat.

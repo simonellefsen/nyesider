@@ -2,45 +2,46 @@
   "magazine": "orbit",
   "issue": "2026-08-nr2",
   "issueTheme": "Kataloget og kikkerten",
-  "retrofitNote": "Bestilling skrevet ved publicering (editor-led produktion). receipt.words talt fra publiceret tekst.",
+  "integrityNote": "Skrevet fra bunden 2026-08-16. Den afpublicerede udgave (2026-08-08) bar byline til navngivne modeller, mens ledgeren hverken havde costUSD, receipt.draft eller en fil i kladder/ for nogen af de 10 artikler. Både byline og revisionsspor var opdigtet. Hele nummeret produceres forfra på titlens egen nøgle (.env.orbit). Byline sættes kun, hvor receipt.costUSD og receipt.draft er udfyldt; lederen er chefredaktionens og har ingen byline.",
   "budget": {
     "articles": 10,
     "wordsPerArticle": [
-      50,
-      400
+      600,
+      900
     ],
-    "targetPages": 12,
-    "note": "SSA + konstellationer + manifests; 11 artikler. Ordbogen dropped 2026-08-08 — inline glosses only. Depth 2026-08-08: nærpassage+flight13+SSA."
+    "targetPages": 14,
+    "note": "Den afpublicerede udgave var 10 artikler på 3.437 ord — gennemsnit 344. Nr. 1 blev genopbygget på 600-900 ord og landede på 9.561 ord; nr. 2 får samme budget. Rumstof lever af at skelne mellem katalogiseret og modelleret, mellem opsendelse og nyttelast, og mellem planlagt og fløjet — den skelnen kan ikke rummes i 350 ord. Ingen Ordbog.",
+    "temaNote": "Temaet «Kataloget og kikkerten» er nummerets røde tråd: hvad vi faktisk har talt, mod hvad vi tror der er derude. Mindst fire artikler skal tage den skelnen alvorligt."
   },
+  "researchNote": "ADVARSEL: dette felt når ALDRIG frem til modellen — kun brief.angle gør. Hvert kontrolleret tal nedenfor er derfor også skrevet ind i den enkelte brief. Kontrolleret 2026-08-16.\n\nESA Space Debris Office (sdup.esoc.esa.int/discosweb/statistics/embed/bythenumbers, oplyst opdateret 31. juli 2026): ca. 7.320 raketopsendelser siden 1957 (eksklusive fejlslagne); ca. 27.490 satellitter bragt i kredsløb; ca. 18.840 stadig i rummet; ca. 16.000 stadig funktionsdygtige; ca. 46.230 objekter følges regelmæssigt og står i overvågningsnetværkenes katalog; mere end 660 opbrud, eksplosioner, kollisioner eller anomale fragmenteringshændelser; mere end 17.000 ton samlet masse i kredsløb. Statistisk modelleret (MASTER-8, referencepopulation 08/2024): 54.000 objekter større end 10 cm (heraf ca. 9.300 aktive nyttelaster), 1,2 millioner fra 1 cm til 10 cm, og 140 millioner fra 1 mm til 1 cm. BEMÆRK at ESA's side ikke selv har en pæn permanent URL — den indlejres på esa.int/Space_Safety/Space_Debris/Space_debris_by_the_numbers, som er den side, der skal linkes.\n\nJonathan McDowells GCAT (planet4589.org/space/gcat/web/launch/count.html, opdateret 15. august 2026): 6.923 orbitale opsendelser, 94 ukatalogiserede orbitale, 403 fejlslagne til kredsløb, 30.315 suborbitale. Bemærk uoverensstemmelsen med ESA's ca. 7.320 — to autoritative kataloger, to optællingsregler.\n\nUdregnet af redaktionen 2026-08-16 fra GCAT's launchlog.tsv (planet4589.org/space/gcat/tsv/derived/launchlog.tsv, opdateret 15. august 2026), unikke orbitale opsendelser pr. år: 2019: 101, 2020: 109, 2021: 144, 2022: 182, 2023: 214, 2024: 255, 2025: 324, 2026 til og med 15. august: 192.\n\nPr. raket, unikke orbitale opsendelser (2024 / 2025 / 2026 til 15. august): Falcon 9 131 / 162 / 94. Falcon Heavy 1 / 0 / 1. Starship 3 / 5 / 2. New Glenn 0 / 1 / 1. Ariane 6 1 / 4 / 3. Vega 2 / 3 / 1. Electron 14 / 18 / 10. Chang Zheng (alle varianter) 46 / 68 / 39. Soyuz 15 / 13 / 8. Atlas V 2 / 5 / 4. Vulcan 0 / 1 / 1. H3 3 / 3 / 2. Neutron 0 / 0 / 0.\n\nPr. opsendende stat, unikke orbitale opsendelser: 2025: USA 177, Kina 91, Rusland 17, New Zealand 17, Frankrig 7, Indien 5, Japan 4, Sydkorea 2. 2026 til 15. august: USA 107, Kina 56, New Zealand 10, Rusland 10, Frankrig 4, Japan 3, Indien 2.\n\nNyttelaster opsendt (GCAT, alle rækker med navnet i nyttelastfeltet): Starlink 1.982 (2024) / 3.207 (2025) / 1.966 (2026 til 15. august). Kuiper 0 / 180 / 216. Kinesiske megakonstellationer (Guowang og Qianfan tilsammen) 54 / 54 / 131.\n\nADVARSEL OM KILDER (kontrolleret 2026-08-16): esa.int svarer HTTP 200 med agenturets EGEN fejlside («You've lost your orbit, captain!») på sider, der ikke findes, og omdirigerer stiltiende deep links til forsiden. Et linktjek uden indholdskontrol godkender begge dele. Kontrollér indholdet, ikke statuskoden. planet4589.org's HTML-sider under /web/launch/ svarer kun på de præcise filnavne — count.html findes, lcy.html og lauyear.html gør ikke.\n\nFRA NR. 1's FAKTATJEK, som skal respekteres: NASA reviderede i februar 2026 Artemis III til en bemandet demonstration i lav jordbane tidligst 2027; første månelanding er Artemis IV i 2028. Skriv ALDRIG Artemis III som en landing.",
   "opgaver": [
     {
       "slug": "leder",
       "order": 1,
       "section": "Leder",
       "brief": {
-        "angle": "Kadence uden overblik er bare støj.",
+        "angle": "Chefredaktionens leder. Skrives af redaktionen selv — ingen model, ingen byline.",
         "words": [
-          80,
-          200
+          300,
+          500
         ],
         "mustCite": 0,
         "format": "leder"
       },
       "writer": {
         "byline": null,
-        "model": "editor-led",
-        "fallback": null
+        "model": "editor-led"
       },
       "receipt": {
-        "words": 153,
+        "words": null,
         "costUSD": null,
         "draft": null
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
+        "status": "editor-written",
+        "checkedAt": "2026-08-16",
         "citations": 0,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "editorNote": "Chefredaktionens egen tekst — ingen model, ingen byline, intet forbrug. Lederen redegoer for afpubliceringen 2026-08-08, for nummerets tema og for nr. 1's Artemis-fejl, som Kalenderen behandler."
       }
     },
     {
@@ -48,29 +49,37 @@
       "order": 2,
       "section": "Tallet",
       "brief": {
-        "angle": "Den stille regning for LEO-tæthed.",
+        "angle": "TALLET er 46.230 mod 54.000 — og forskellen er hele nummerets tema. ESA's Space Debris Office opgør (opdateret 31. juli 2026), at cirka 46.230 rumobjekter følges regelmæssigt af overvågningsnetværkene og står i deres katalog. Samme kilde opgør, at statistiske modeller (MASTER-8, referencepopulation august 2024) anslår 54.000 objekter større end 10 cm i kredsløb — heraf cirka 9.300 aktive nyttelaster. Forskellen på de to tal er ikke en fejl. Det ene er en optælling af det, nogen faktisk har set og fulgt; det andet er et estimat af det, der er derude. Kataloget og kikkerten. Byg artiklen op om den skelnen, og gør den konkret: under 10 cm forsvinder tallene helt ud af optællingens rækkevidde. Modellen anslår 1,2 millioner objekter mellem 1 cm og 10 cm, og 140 millioner mellem 1 mm og 1 cm. Ingen af dem er i noget katalog. Et objekt på 1 cm i kredsløb rammer med en energi, der gør skade på en satellit — så den kategori, der er størst i antal og mindst i sporbarhed, er også den, ingen kan undvige. Anden halvdel: vis at problemet ikke er unikt for skrot. To autoritative kilder tæller endda antallet af opsendelser forskelligt. ESA opgør cirka 7.320 raketopsendelser siden 1957 (eksklusive fejlslagne). Jonathan McDowells GCAT-katalog opgør (15. august 2026) 6.923 orbitale opsendelser plus 94 ukatalogiserede orbitale og 403 fejlslagne. Ingen af dem lyver; de tæller forskelligt. Konklusionen skal være en læseregel, ikke en mistænkeliggørelse: spørg altid, om et rumtal er talt eller anslået, før du sammenligner det med et andet. Andre tal fra ESA, der må bruges: cirka 27.490 satellitter bragt i kredsløb i alt, cirka 18.840 stadig i rummet, cirka 16.000 stadig funktionsdygtige, mere end 660 fragmenteringshændelser, mere end 17.000 ton samlet masse.",
         "words": [
-          250,
-          500
+          650,
+          900
         ],
-        "mustCite": 3,
+        "mustCite": 2,
+        "mustNumber": [
+          "46.230 katalogiseret mod 54.000 modelleret over 10 cm",
+          "1,2 mio. mellem 1 og 10 cm",
+          "140 mio. mellem 1 mm og 1 cm",
+          "ESA ca. 7.320 opsendelser mod GCAT 6.923 + 94"
+        ],
         "format": "tallet"
       },
       "writer": {
-        "byline": null,
-        "model": "editor-led",
-        "fallback": "deepseek/deepseek-v3.2"
+        "byline": "Claude Opus 4.8 (Anthropic)",
+        "model": "anthropic/claude-opus-4.8",
+        "fallback": "anthropic/claude-sonnet-5"
       },
       "receipt": {
-        "words": 354,
-        "costUSD": null,
-        "draft": null
+        "words": 721,
+        "costUSD": 0.061565,
+        "draft": "kladder/02-tallet.md",
+        "costRouting": "byok",
+        "generationId": "gen-1786913639-qYUnKyfiTNDKzz1j3fus"
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
-        "citations": 4,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-16",
+        "citations": 2,
+        "editorNote": "REELT kommissioneret hos anthropic/claude-opus-4.8 paa .env.orbit (BYOK, 0,062 USD); kladde i kladder/02-tallet.md. Nummerets bedste kladde. Den formulerede selv den saetning, temaet staar paa: «Kataloget er, hvad vi har set. Modellen er, hvad vi tror, der er derude» — og regnede uopfordret differencen ud (ca. 7.800 objekter over 10 cm, som ingen har fanget). Den fandt ogsaa den rigtige slutning: at fejlen sjaeldent er i tallene, men i antagelsen om at de maaler det samme. Redaktionelt: fodnoterne var beskrivelser uden links («Tilgaengelig via ESA's Space Debris Office: sdup.esoc.esa.int samt esa.int/Space_Safety/Space_Debris») — erstattet af de to praecise, kontrollerede sider. Kladdens spekulation om, hvorvidt GCAT taeller «en fejlslagen opsendelse, der alligevel naaede kredsloeb», er fjernet: den er plausibel, men hverken briefet eller belagt, og et gaet om en kildes metode er stadig et gaet."
       }
     },
     {
@@ -78,29 +87,36 @@
       "order": 3,
       "section": "Opsendelser",
       "brief": {
-        "angle": "Falcon vs Starship; flight 13 V3 + Starlink V3 deploy + Indian Ocean splashdown.",
+        "angle": "Starship fylder overskrifterne. Falcon 9 fylder kataloget. Skriv den forskel ud med tal. Redaktionen har talt unikke orbitale opsendelser i Jonathan McDowells GCAT-katalog (opdateret 15. august 2026), og de ser sådan ud: Falcon 9 fløj 131 gange i 2024, 162 gange i 2025 og 94 gange i 2026 frem til 15. august. Starship fløj 3 gange i 2024, 5 gange i 2025 og 2 gange i 2026 frem til 15. august. Falcon Heavy fløj én gang i 2024, ingen i 2025 og én i 2026. Til sammenligning var der 255 orbitale opsendelser i verden i 2024, 324 i 2025 og 192 frem til 15. august 2026 — Falcon 9 alene stod altså for omkring halvdelen af alle verdens orbitale opsendelser i både 2025 og 2026. Pointen er ikke, at Starship er en skuffelse. Pointen er, at de to raketter løser to forskellige opgaver, og at et fartøj under udvikling og et fartøj i rutedrift ikke kan sammenlignes på kadence. Forklar for en læser uden fagbaggrund, hvorfor genbrug af førstetrinnet er dét, der gør høj kadence mulig, og hvorfor Starship — som skal genbruge begge trin og tanke i kredsløb — er et sværere problem, der først begynder at tælle, når det virker. Vær nøgtern med årstal: skriv planlagte milepæle som planlagte. Undlad at angive datoer for kommende flyvninger, medmindre du kan kildebelægge dem. Nævn også, at nyttelasten er den anden halvdel af historien: Falcon 9 opsendte 3.207 Starlink-satellitter i 2025 og 1.966 frem til 15. august 2026. Kadence uden nyttelast er en tom statistik, og nyttelast uden kadence er en enkeltbegivenhed.",
         "words": [
-          400,
+          650,
           900
         ],
-        "mustCite": 3,
+        "mustCite": 2,
+        "mustNumber": [
+          "Falcon 9: 131 / 162 / 94",
+          "Starship: 3 / 5 / 2",
+          "verdens samlede: 255 / 324 / 192"
+        ],
         "format": "feature"
       },
       "writer": {
-        "byline": null,
-        "model": "editor-led",
-        "fallback": "deepseek/deepseek-v3.2"
+        "byline": "Gemini 3.1 Pro Preview (Google)",
+        "model": "google/gemini-3.1-pro-preview",
+        "fallback": "anthropic/claude-sonnet-5"
       },
       "receipt": {
-        "words": 541,
-        "costUSD": null,
-        "draft": null
+        "words": 800,
+        "costUSD": 0.067758,
+        "draft": "kladder/03-starship-falcon.md",
+        "costRouting": "byok",
+        "generationId": "gen-1786913694-J3PvsB3CdHOUtLvw8eJA"
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
-        "citations": 3,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-16",
+        "citations": 2,
+        "editorNote": "REELT kommissioneret hos google/gemini-3.1-pro-preview paa .env.orbit (BYOK, 0,068 USD); kladde i kladder/03-starship-falcon.md. Alle ti tal korrekt gengivet, og den forklarede genindtraeden praecist dér, hvor forskellen ligger: et Falcon 9-foerstetrin vender om, INDEN det naar kredsloeb, og udsaettes derfor aldrig for genindtraeden fra orbital hastighed. Den pointe stod ikke i briefen og er rigtig. Redaktionelt: sproget var pustet op i den oevre ende («utrolige 162 gange», «gigantiske staalkonstruktion», «lader os fascinere af flammerne») — strammet. Paastanden om at Falcon 9 stod for «praecis 50 %» af 2025-opsendelserne er blodt op til «halvdelen»: 162 af 324 er praecist halvdelen, men praecisionen er tilfaeldig og laeses som et resultat. Overskriften forkortet."
       }
     },
     {
@@ -108,29 +124,36 @@
       "order": 4,
       "section": "Opsendelser",
       "brief": {
-        "angle": "Gentagelse tæller mere end debut.",
+        "angle": "New Glenn er den mest omtalte raket med den laveste kadence i branchen, og det er værd at tage alvorligt frem for at gøre grin med. Redaktionens optælling i Jonathan McDowells GCAT-katalog (opdateret 15. august 2026) viser én New Glenn-opsendelse i 2025 og én i 2026 frem til 15. august — ingen i 2024. Til sammenligning fløj Falcon 9 162 gange i 2025. Skriv artiklen om, hvad der egentlig kræves for at komme fra første flyvning til rutedrift, og hvorfor det tager år og ikke måneder: produktionskadence for motorer, en opsendelsesrampe der skal vendes mellem flyvninger, en kunde- og manifestpipeline, og en myndighedsgodkendelse pr. konfiguration. Forklar begrebet «return to flight» og hvorfor det ikke er et pr-udtryk: efter en anomali skal årsagen findes, rettes og godkendes, før næste flyvning må gå. Sæt det i perspektiv med Vulcan, som også fløj én gang i 2025 og én i 2026 frem til 15. august, og med Ariane 6, som fløj én gang i 2024, fire gange i 2025 og tre gange i 2026 frem til 15. august. Tre nye tunge raketter, alle med enkeltcifret kadence, alle med ordrebøger der forudsætter langt mere. Det er den egentlige historie: markedet har bestilt en kapacitet, som endnu kun ét firma leverer. STRENGT: nævn ikke konkrete kommende opsendelsesdatoer, kundenavne eller flyvenumre, du ikke kan kildebelægge — nr. 1's rygtebørs tog fejl af netop New Glenns flyvehistorik, fordi den regnede videre på et forældet udgangspunkt. Hold dig til det, optællingen viser.",
         "words": [
-          80,
-          350
+          600,
+          850
         ],
-        "mustCite": 0,
+        "mustCite": 2,
+        "mustNumber": [
+          "New Glenn: 0 / 1 / 1",
+          "Vulcan: 0 / 1 / 1",
+          "Ariane 6: 1 / 4 / 3"
+        ],
         "format": "feature"
       },
       "writer": {
-        "byline": null,
-        "model": "editor-led",
-        "fallback": "deepseek/deepseek-v3.2"
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "openai/gpt-5.6-terra"
       },
       "receipt": {
-        "words": 210,
-        "costUSD": null,
-        "draft": null
+        "words": 736,
+        "costUSD": 0.042772,
+        "draft": "kladder/04-new-glenn.md",
+        "costRouting": "byok",
+        "generationId": "gen-1786913732-0rpI3EYDLcDuM1sWWNRN"
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
-        "citations": 0,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-16",
+        "citations": 1,
+        "editorNote": "REELT kommissioneret hos anthropic/claude-sonnet-5 paa .env.orbit (BYOK, 0,043 USD); kladde i kladder/04-new-glenn.md. Den greb briefens vinkel — at det er den forkerte historie at gøre grin med kadencen — og leverede den bedste forklaring i nummeret paa, hvorfor «return to flight» ikke er et pr-udtryk. De fire flaskehalse er dens egen strukturering. TASTEFEJL FANGET: «Blue 0rigin» med nul i stedet for O. Rettet. Redaktionelt: kladden navngav «de amerikanske og europaeiske luftfartsmyndigheder» som tilsynsfoerende — korrekt i substans, men vi har ikke kontrolleret den praecise myndighedsfordeling for hver konfiguration, saa formuleringen er blodt op til «den tilsynsfoerende myndighed». En fodnote til arianespace.com's forside er fjernet: den er en bar domaenehenvisning uden den paagaeldende oplysning, og Ariane 6-tallene kommer fra GCAT som alle andre tal i artiklen. MUSTCITE-BEMAERKNING: check_issue advarer om faerre citations end briefet. Advarslen er korrekt, og aarsagen er redaktionens egen: mustCite blev sat til 2, foer researchen viste, at artiklens tal alle stammer fra én kilde. At dele den samme kilde i to fodnoter ville give to links til samme adresse og se ud som to uafhaengige kilder. Samme fund som i KRAFTEN nr. 2 samme dag — saet mustCite EFTER kildesoegningen."
       }
     },
     {
@@ -138,29 +161,36 @@
       "order": 5,
       "section": "Rumskrot & sikkerhed i kredsløb",
       "brief": {
-        "angle": "Radar, kataloger og e-mails.",
+        "angle": "Sådan virker det: at holde øje med rummet. Space situational awareness (SSA), på dansk rumsituationsbillede, er arbejdet med at vide, hvad der er i kredsløb, og hvor det er på vej hen. Forklar for en læser uden fagbaggrund, hvordan det faktisk gøres: radar til lav kredsløbsbane, optiske teleskoper til de høje baner, og laserafstandsmåling til de objekter, der bærer reflektorer. Forklar hvorfor radar virker bedst tæt på og optik bedst langt væk — og hvorfor optiske observationer kun kan foretages i det korte tidsrum, hvor objektet er solbelyst, mens observatøren står i mørke. Kernen i artiklen skal være, hvorfor en position i et katalog aldrig er en position, men et estimat med en usikkerhed omkring sig. Et objekt observeres få gange i døgnet; mellem observationerne beregnes banen frem. Usikkerheden vokser med tiden siden sidste observation, og den vokser hurtigst i lav bane, hvor den øverste atmosfære bremser objektet forskelligt afhængigt af soltiden — som varierer. Derfor angives risiko for sammenstød som en sandsynlighed og ikke som et ja eller nej. Konkret ramme fra ESA's Space Debris Office (opdateret 31. juli 2026): cirka 46.230 objekter følges regelmæssigt og står i kataloget, mens modeller anslår 54.000 objekter over 10 cm, 1,2 millioner mellem 1 cm og 10 cm og 140 millioner mellem 1 mm og 1 cm. Skriv tydeligt, at kun den første kategori kan undviges: man kan ikke manøvrere uden om noget, ingen kan se. Mod små partikler er svaret afskærmning og redundans, ikke undvigelse. Slut med, hvorfor opgaven bliver sværere: flere aktive satellitter i lav bane betyder flere mulige par, og antallet af mulige møder vokser hurtigere end antallet af objekter.",
         "words": [
-          80,
-          350
+          650,
+          900
         ],
-        "mustCite": 1,
-        "format": "feature"
+        "mustCite": 2,
+        "mustNumber": [
+          "46.230 katalogiseret",
+          "54.000 modelleret over 10 cm",
+          "1,2 mio. mellem 1 og 10 cm"
+        ],
+        "format": "saadan-virker-det"
       },
       "writer": {
-        "byline": null,
-        "model": "editor-led",
-        "fallback": "deepseek/deepseek-v3.2"
+        "byline": "Claude Opus 4.8 (Anthropic)",
+        "model": "anthropic/claude-opus-4.8",
+        "fallback": "anthropic/claude-sonnet-5"
       },
       "receipt": {
-        "words": 312,
-        "costUSD": null,
-        "draft": null
+        "words": 779,
+        "costUSD": 0.06267,
+        "draft": "kladder/05-ssa.md",
+        "costRouting": "byok",
+        "generationId": "gen-1786913796-iyJaDomEiAzGSJaV8kH0"
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-16",
         "citations": 1,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "editorNote": "REELT kommissioneret hos anthropic/claude-opus-4.8 paa .env.orbit (BYOK, 0,063 USD); kladde i kladder/05-ssa.md. Fremragende. Den forklarede af sig selv, hvorfor radar taber paa afstand (energien spredes over en stoerre kugleflade baade paa vej ud OG tilbage) og hvorfor optik kun virker i skumringstimerne — begge dele bedre end briefen bad om. Og den lukkede med den matematiske pointe om par frem for objekter, som er artiklens skarpeste. GAETTET KILDE FANGET: en fodnote til «ESA Annual Space Environment Report» uden URL, som ikke er den kilde, tallene stammer fra. Fjernet. Den anden fodnote manglede link — rettet til den kontrollerede side. Sprogligt: «soltiden» rettet til «solaktiviteten» to steder; det er solaktiviteten, ikke tidspunktet, der udvider den oevre atmosfaere. MUSTCITE-BEMAERKNING: check_issue advarer om faerre citations end briefet. Advarslen er korrekt, og aarsagen er redaktionens egen: mustCite blev sat til 2, foer researchen viste, at artiklens tal alle stammer fra én kilde. At dele den samme kilde i to fodnoter ville give to links til samme adresse og se ud som to uafhaengige kilder. Samme fund som i KRAFTEN nr. 2 samme dag — saet mustCite EFTER kildesoegningen."
       }
     },
     {
@@ -168,29 +198,36 @@
       "order": 6,
       "section": "Satellitter & konstellationer",
       "brief": {
-        "angle": "Starlink satte tempoet.",
+        "angle": "Konstellationskapløbet har fået to nye deltagere, og tallene viser præcis, hvor langt bagud de er. Redaktionens optælling i Jonathan McDowells GCAT-katalog (opdateret 15. august 2026) af opsendte nyttelaster: Starlink 1.982 i 2024, 3.207 i 2025 og 1.966 frem til 15. august 2026. Kuiper 0 i 2024, 180 i 2025 og 216 frem til 15. august 2026. De kinesiske megakonstellationer Guowang og Qianfan tilsammen 54 i 2024, 54 i 2025 og 131 frem til 15. august 2026. Skriv den forskel ud uden at gøre den til en hånlatter: Starlink opsendte i 2025 flere satellitter end alle andre konstellationer tilsammen har opsendt i hele deres levetid, og forspringet er selvforstærkende, fordi SpaceX både bygger satellitterne og ejer raketten. Forklar hvorfor en konstellation ikke virker gradvist: en global tjeneste kræver et minimum af satellitter i de rigtige baneplaner, før den overhovedet kan sælges — man kan ikke levere halvdelen af en dækning. Det gør de første par tusind satellitter til en investering uden indtægt. Forklar også, hvorfor lav bane (LEO, low Earth orbit — nogle hundrede kilometers højde) er valgt frem for geostationær bane: signalet skal frem og tilbage, og i lav bane er turen kort nok til, at forsinkelsen ikke ødelægger et videomøde. Prisen for den korte tur er, at hver satellit kun dækker et lille område og bevæger sig hurtigt hen over himlen, så der skal mange af dem til, og de skal skiftes ud hvert par år. Slut på det, konstellationerne betyder for resten af nummeret: flere aktive satellitter i lav bane er også flere objekter, der skal undvige hinanden, og kun det, kataloget kender, kan undviges.",
         "words": [
-          80,
-          350
+          650,
+          900
         ],
-        "mustCite": 0,
+        "mustCite": 2,
+        "mustNumber": [
+          "Starlink 1.982 / 3.207 / 1.966",
+          "Kuiper 0 / 180 / 216",
+          "kinesiske megakonstellationer 54 / 54 / 131"
+        ],
         "format": "feature"
       },
       "writer": {
-        "byline": null,
-        "model": "editor-led",
-        "fallback": "deepseek/deepseek-v3.2"
+        "byline": "GPT-5.6 Terra (OpenAI)",
+        "model": "openai/gpt-5.6-terra",
+        "fallback": "anthropic/claude-sonnet-5"
       },
       "receipt": {
-        "words": 219,
-        "costUSD": null,
-        "draft": null
+        "words": 792,
+        "costUSD": 0.018008,
+        "draft": "kladder/06-kuiper-konstellationer.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1786913855-LsXJfkgQ6zXLYsL4VPpR"
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
-        "citations": 0,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-16",
+        "citations": 1,
+        "editorNote": "REELT kommissioneret hos openai/gpt-5.6-terra paa .env.orbit (0,018 USD — nummerets billigste); kladde i kladder/06-kuiper-konstellationer.md. Den skrev selv det vigtigste forbehold uopfordret: at optaellingen taeller OPSENDTE nyttelaster, ikke satellitter der stadig fungerer. Og den fandt den rigtige formulering om, at en konstellation ikke kan saelges som en halv loesning. DOEDT LINK FANGET: fodnoten til NASA's «What Is Low Earth Orbit?» paa nasa.gov/mission_pages/station/research/benefits/lowearthorbit.html er en 404. Fjernet; LEO forklares nu i broedteksten, hvor forklaringen alligevel hoerte hjemme. En tredje fodnote til ESA's skrotside er ogsaa fjernet, da artiklen efter redigeringen ikke bruger et tal derfra — krydslinket til SSA-artiklen daekker pointen. MUSTCITE-BEMAERKNING: check_issue advarer om faerre citations end briefet. Advarslen er korrekt, og aarsagen er redaktionens egen: mustCite blev sat til 2, foer researchen viste, at artiklens tal alle stammer fra én kilde. At dele den samme kilde i to fodnoter ville give to links til samme adresse og se ud som to uafhaengige kilder. Samme fund som i KRAFTEN nr. 2 samme dag — saet mustCite EFTER kildesoegningen."
       }
     },
     {
@@ -198,29 +235,36 @@
       "order": 7,
       "section": "Nationer & agenturer",
       "brief": {
-        "angle": "Suveræn adgang er cement under aftalen.",
+        "angle": "Europa har igen en tung raket. Spørgsmålet er, om Europa har en opsendelseskapacitet. Redaktionens optælling i Jonathan McDowells GCAT-katalog (opdateret 15. august 2026) viser Ariane 6 med én opsendelse i 2024, fire i 2025 og tre i 2026 frem til 15. august. Vega med to i 2024, tre i 2025 og én i 2026. Frankrig som opsendende stat: 7 opsendelser i 2025 og 4 frem til 15. august 2026 — mod USA's 177 og 107 og Kinas 91 og 56 i samme perioder. Skriv historien nøgternt og uden europæisk selvmedlidenhed: en kadence i den lave enkeltcifrede ende betyder, at hver opsendelse er en begivenhed frem for en rutine, at faste omkostninger fordeles på få flyvninger, og at en forsinkelse rykker hele manifestet. Forklar hvad institutionel opsendelse betyder — at europæiske stater og ESA garanterer et antal missioner, så raketten har et gulv under sig uanset det kommercielle marked — og hvorfor det både er raketten, der holder Europa i luften, og en grund til, at prispresset udefra ikke slår igennem. Sæt det i sammenhæng med, at både New Glenn og Vulcan står med samme problem i USA: én opsendelse i 2025 og én i 2026 hver. Europas situation er altså ikke enestående; den er den samme situation som alle, der ikke er SpaceX. Vær forsigtig med planer: nævn ikke måltal for fremtidig kadence, kontrakter eller opsendelsesdatoer, du ikke kan kildebelægge. Det er præcis dér, rumjournalistik oftest tager fejl.",
         "words": [
-          80,
-          350
+          600,
+          850
         ],
-        "mustCite": 0,
+        "mustCite": 2,
+        "mustNumber": [
+          "Ariane 6: 1 / 4 / 3",
+          "Vega: 2 / 3 / 1",
+          "Frankrig 7 og 4 mod USA 177 og 107"
+        ],
         "format": "feature"
       },
       "writer": {
-        "byline": null,
-        "model": "editor-led",
-        "fallback": "deepseek/deepseek-v3.2"
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "google/gemini-3.1-pro-preview"
       },
       "receipt": {
-        "words": 168,
-        "costUSD": null,
-        "draft": null
+        "words": 744,
+        "costUSD": 0.025108,
+        "draft": "kladder/07-esa-launcher.md",
+        "costRouting": "byok",
+        "generationId": "gen-1786913894-aT0DZvxg2ZiRoWV1HmoP"
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
-        "citations": 0,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-16",
+        "citations": 1,
+        "editorNote": "REELT kommissioneret hos anthropic/claude-sonnet-5 paa .env.orbit (BYOK, 0,025 USD); kladde i kladder/07-esa-launcher.md. Den ramte briefens svaereste krav — at skrive om europaeisk kadence uden selvmedlidenhed — og landede konklusionen praecist: «Det er ikke Europa mod verden. Det er alle, der ikke er SpaceX.» Forklaringen af institutionel opsendelse som et gulv under raketten er klarere end briefens egen. TASTEFEJL FANGET: «Blue 0rigin» med nul, samme fejl som i new-glenn-kladden fra en anden model. Rettet. Kladden tilfoejede desuden, at Guyana Rumcenter er udgangspunkt for begge programmer — korrekt, men ikke belagt i vores kilde, saa formuleringen er daempet til «territoriet, hvorfra begge programmer flyver». Overskriften og standfirst omskrevet, saa tallet staar foerst. MUSTCITE-BEMAERKNING: check_issue advarer om faerre citations end briefet. Advarslen er korrekt, og aarsagen er redaktionens egen: mustCite blev sat til 2, foer researchen viste, at artiklens tal alle stammer fra én kilde. At dele den samme kilde i to fodnoter ville give to links til samme adresse og se ud som to uafhaengige kilder. Samme fund som i KRAFTEN nr. 2 samme dag — saet mustCite EFTER kildesoegningen."
       }
     },
     {
@@ -228,29 +272,35 @@
       "order": 8,
       "section": "Rumskrot & sikkerhed i kredsløb",
       "brief": {
-        "angle": "Conjunction vs collision; history; CDM reporting; Liability Convention compensation.",
+        "angle": "Sådan læser du en overskrift om en nærpassage — uden at gå i panik og uden at afvise den. Når to objekter i kredsløb passerer tæt forbi hinanden, meldes det ofte med en afstand i meter, og det er den mest misvisende måde at forstå det på. Forklar hvorfor: en beregnet afstand er et estimat med en usikkerhed omkring sig, og usikkerheden er ofte langt større end selve afstanden. Derfor arbejder operatører med sandsynlighed for sammenstød, ikke med afstand — og derfor kan en passage på 100 meter være mere bekymrende end en på 30 meter, hvis usikkerheden er større i det første tilfælde. Forklar det kontraintuitive: bedre sporingsdata får ofte den beregnede risiko til at FALDE, fordi usikkerhedsellipsen skrumper. En melding, der bliver mindre alarmerende i løbet af et døgn, er som regel tegn på, at man har fået flere observationer — ikke at faren er drevet over af sig selv. Forklar også hvorfor en undvigemanøvre koster: den bruger brændstof, som er satellittens levetid, og den flytter satellitten væk fra sin arbejdsbane, hvilket koster driftstid. Derfor manøvrerer man ikke ved enhver melding, men over en tærskel — og tærsklen er et valg, ikke en naturlov. Ramme fra ESA's Space Debris Office (opdateret 31. juli 2026): mere end 660 opbrud, eksplosioner, kollisioner eller anomale fragmenteringshændelser er registreret siden rumalderens begyndelse, og der er mere end 17.000 ton materiale i kredsløb. Hver fragmentering laver nye objekter, som selv skal undviges. Slut på det praktiske råd til læseren: når du ser en overskrift om en nærpassage, så spørg efter tre ting — hvornår data er fra, hvor stor usikkerheden er, og om nogen faktisk manøvrerede. Ingen af de tre står der som regel.",
         "words": [
-          400,
-          900
+          600,
+          850
         ],
-        "mustCite": 2,
-        "format": "feature"
+        "mustCite": 1,
+        "mustNumber": [
+          "over 660 fragmenteringshændelser",
+          "over 17.000 ton i kredsløb"
+        ],
+        "format": "saadan-virker-det"
       },
       "writer": {
-        "byline": null,
-        "model": "editor-led",
-        "fallback": "google/gemini-3.5-flash"
+        "byline": "Gemini 3.1 Pro Preview (Google)",
+        "model": "google/gemini-3.1-pro-preview",
+        "fallback": "anthropic/claude-sonnet-5"
       },
       "receipt": {
-        "words": 776,
-        "costUSD": null,
-        "draft": null
+        "words": 797,
+        "costUSD": 0.04946,
+        "draft": "kladder/08-naerpassage.md",
+        "costRouting": "byok",
+        "generationId": "gen-1786913938-xtTWEJxslUTLVJIxfjhg"
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
-        "citations": 2,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-16",
+        "citations": 1,
+        "editorNote": "REELT kommissioneret hos google/gemini-3.1-pro-preview paa .env.orbit (BYOK, 0,049 USD); kladde i kladder/08-naerpassage.md. Den forklarede det kontraintuitive praecist: at bedre data faar risikoen til at falde, fordi ellipsen snaevrer ind om et omraade, hvor den anden satellit ikke er. Det er den rigtige mekanisme og den rigtige begrundelse. TAL UDEN BELAEG FANGET: kladden angav en konkret taerskel for undvigelse («for eksempel en kollisionsrisiko paa 0,01 %»). Tallet stod ikke i briefen og er ikke kildebelagt — og en taerskel er netop det, artiklen selv kalder et valg og ikke en naturlov. Fjernet. DOEDT-AGTIG KILDE FANGET: fodnoten pegede paa sdo.esoc.esa.int/environment_report/, som svarer 200, men lander paa Space Debris User Portals forside og ikke paa en rapport. Erstattet af den kontrollerede side. Engelske fagudtryk i parentes ryddet, hvor de ikke tilfoejede noget."
       }
     },
     {
@@ -258,59 +308,31 @@
       "order": 9,
       "section": "Kalenderen",
       "brief": {
-        "angle": "Vinduer flytter sig.",
+        "angle": "Kalenderen — men skrevet som en advarsel om, hvad en rumkalender er værd. ORBIT trykte i nr. 1 en kalender, der havde Artemis III som en månelanding i september 2026. Det var forkert, og fejlen er lærerig: kladden regnede videre på en NASA-melding fra januar 2024 uden at kontrollere, om den stadig gjaldt. NASA reviderede missionen i februar 2026, og Artemis III er nu en bemandet demonstration i lav jordbane tidligst i 2027, mens den første månelanding er Artemis IV i 2028. Skriv artiklen som en gennemgang af, hvorfor rumkalendere skrider, og lær læseren at læse dem. Tre begreber skal forklares på dansk: NET (no earlier than — tidligst, altså en nedre grænse og ikke en dato), opsendelsesvindue (det tidsrum, hvor himmelmekanikken tillader netop denne mission at flyve — for en månemission få dage om måneden, for en Mars-mission få uger hvert andet år), og manifest (rækkefølgen af missioner på en given raket, hvor en forsinkelse forrest skubber alt bagved). Vis hvorfor de tre tilsammen betyder, at en dato længere end et år ude reelt er en hensigtserklæring. Brug nummerets egne tal til at vise, hvad der faktisk kan planlægges efter: en raket, der flyver 162 gange om året, har en forudsigelig kadence; en raket, der flyver én gang om året, har ikke. STRENGT KILDEKRAV: skriv INGEN konkrete kommende opsendelsesdatoer, missionsnavne med årstal eller nedtællinger, du ikke kan kildebelægge fra en side, du selv har åbnet. Artiklen skal handle om, hvordan man læser en kalender — ikke være en kalender. Det er en bevidst redaktionel beslutning efter nr. 1's fejl, og den skal skrives ind i teksten, så læseren forstår hvorfor.",
         "words": [
-          80,
-          200
+          600,
+          850
         ],
-        "mustCite": 0,
-        "format": "kalenderen"
+        "mustCite": 1,
+        "format": "feature"
       },
       "writer": {
-        "byline": null,
-        "model": "editor-led",
-        "fallback": "deepseek/deepseek-v3.2"
+        "byline": "Claude Opus 4.8 (Anthropic)",
+        "model": "anthropic/claude-opus-4.8",
+        "fallback": "anthropic/claude-sonnet-5"
       },
       "receipt": {
-        "words": 160,
-        "costUSD": null,
-        "draft": null
+        "words": 725,
+        "costUSD": 0.056545,
+        "draft": "kladder/09-kalenderen.md",
+        "costRouting": "byok",
+        "generationId": "gen-1786913971-lkMqpKYHbgrYRRmWT71w"
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
-        "citations": 0,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
-      }
-    },
-    {
-      "slug": "ordbogen",
-      "order": 99,
-      "section": "Ordbogen",
-      "brief": {
-        "angle": "SSA, conjunction, ephemeris.",
-        "words": [
-          50,
-          150
-        ],
-        "mustCite": 0,
-        "format": "ordbog"
-      },
-      "writer": {
-        "byline": null,
-        "model": "editor-led",
-        "fallback": "minimax/minimax-m3"
-      },
-      "receipt": {
-        "words": 73,
-        "costUSD": null,
-        "draft": null
-      },
-      "verdict": {
-        "status": null,
-        "checkedAt": null,
-        "citations": 0,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-16",
+        "citations": 2,
+        "editorNote": "REELT kommissioneret hos anthropic/claude-opus-4.8 paa .env.orbit (BYOK, 0,062 USD); kladde i kladder/09-kalenderen.md. Den gjorde noget usaedvanligt godt: den skrev bladets egen fejl frem som artiklens praemis uden at goere den til en undskyldning, og forklarede NET, opsendelsesvindue og manifest saa en laeser kan bruge dem. Afslutningen er dens egen og er den bedste linje i nummeret: at himmelmekanikken ikke havde skrevet under paa datoen. FAKTAFEJL FANGET: kladden skrev «Falcon 9 gennemfoerte 162 opsendelser i 2024». De 162 er 2025-tallet; 2024 var 131. Rettet — og bemaerk ironien i, at netop kalender-artiklen om forkerte aarstal selv satte et tal paa det forkerte aar. TO SVAGE KILDER FANGET: en fodnote til «nasa.gov/artemis» uden kontrol og en til «SpaceX' officielle opsendelsesoversigt» plus «Jonathan McDowells Space Report» uden praecis adresse. Den foerste er omskrevet til en redegoerelse uden link, saa laeseren kan se, hvad rettelsen bygger paa; den anden er erstattet af GCAT, som er hvor tallet faktisk kommer fra."
       }
     },
     {
@@ -318,31 +340,32 @@
       "order": 10,
       "section": "Rygtebørsen",
       "brief": {
-        "angle": "Spekulativt. Ikke et manifest.",
+        "angle": "Rygtebørsen: fire påstande fra rumbranchen denne sommer, hver med en ærlig temperaturmåling, hvor det står tydeligt, hvad der er dokumenteret, og hvad der er gæt. Påstandene skal være: (1) «Starship har overhalet Falcon 9» — nej: Falcon 9 fløj 162 gange i 2025 og 94 gange frem til 15. august 2026; Starship fløj henholdsvis 5 og 2 gange. (2) «Europa er ude af opsendelsesmarkedet» — nej, men kadencen er lav: Ariane 6 fløj fire gange i 2025 og tre gange frem til 15. august 2026. (3) «Rummet er ved at være fyldt op» — misvisende som billede, men den rigtige bekymring er en anden: det er ikke pladsen, der mangler, det er sporbarheden. Kun cirka 46.230 objekter er i kataloget, mens modeller anslår 1,2 millioner mellem 1 cm og 10 cm, som ingen kan undvige. (4) «Kuiper indhenter Starlink» — ikke på tallene: 216 Kuiper-nyttelaster frem til 15. august 2026 mod 1.966 Starlink i samme periode, men Kuiper voksede fra 0 i 2024 til 180 i 2025, så retningen er rigtig og hastigheden er ikke. Hold tonen tør og præcis, ikke fjollet. Ingen navngivne virksomheder i påstande, der ikke kan dokumenteres, og ingen konkrete kommende opsendelsesdatoer.",
         "words": [
-          50,
-          150
+          400,
+          600
         ],
         "mustCite": 0,
-        "format": "rygteboersen"
+        "format": "rygteboers"
       },
       "writer": {
-        "byline": null,
-        "model": "editor-led",
-        "fallback": "deepseek/deepseek-v3.2"
+        "byline": "GPT-5.6 Terra (OpenAI)",
+        "model": "openai/gpt-5.6-terra",
+        "fallback": "google/gemini-3.1-pro-preview"
       },
       "receipt": {
-        "words": 76,
-        "costUSD": null,
-        "draft": null
+        "words": 548,
+        "costUSD": 0.00884425,
+        "draft": "kladder/10-rygteboersen.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1786914026-TbQi5LwrIB5rSI9m9t5z"
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-16",
         "citations": 0,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "editorNote": "REELT kommissioneret hos openai/gpt-5.6-terra paa .env.orbit; kladde i kladder/10-rygteboersen.md. Den holdt disciplinen: ingen opsendelsesdatoer, ingen udokumenterede virksomhedspaastande, og hver vurdering med baade det, der taler for, og det, der taler imod. Den bedste er nr. 3, hvor den flytter bekymringen fra plads til sporbarhed. Redaktionelt: kladdens temperaturskala var uensartet («Kølig, men ikke iskold», «Lun, men tallet siger nej», «Misvisende») — beholdt, fordi uensartetheden her er indholdsbaerende og ikke sjusk, men ensrettet i typografi. Indledningsafsnittet er fjernet: rygtboersen begynder ved foerste rygte. Bagsnit tilfoejet."
       }
     }
-  ],
-  "integrityNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+  ]
 }
