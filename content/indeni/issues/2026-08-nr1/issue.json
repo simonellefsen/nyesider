@@ -10,10 +10,21 @@
   "coverCredit": "AI-genereret forside (OpenAI ImageGen) — geometrisk cutaway-illustration af drikkedåsens kredsløb",
   "coverSource": "https://openai.com/",
   "images": [
-    "images/indeni_daasen_cover.png",
     "images/figur-daseformning.svg",
+    "images/figur-lukket-kredslob.svg",
     "images/figur-pantstrom.svg",
-    "images/figur-lukket-kredslob.svg"
+    "images/in1_33cl.png",
+    "images/in1_diagram.png",
+    "images/in1_europa.png",
+    "images/in1_kredslob.png",
+    "images/in1_lag.png",
+    "images/in1_leder.png",
+    "images/in1_maskine.png",
+    "images/in1_paastand.png",
+    "images/in1_pant.png",
+    "images/in1_sten.png",
+    "images/in1_tallet.png",
+    "images/indeni_daasen_cover.png"
   ],
   "productionCostUSD": 0.5,
   "imageCredits": "Forside genereret med OpenAI ImageGen. Tre procesdiagrammer er egenproduktion som SVG. Ingen logoer, mærker eller tredjepartsfotos — se images/SOURCES.md.",
@@ -25,7 +36,10 @@
       "order": 1,
       "title": "Dåsen",
       "section": "Leder",
-      "standfirst": "Velkommen til INDENI. Vi begynder med den mest oversete genstand i køleskabet — og med et løfte om, hvordan vi behandler tal, kilder og forfatterskab."
+      "standfirst": "Velkommen til INDENI. Vi begynder med den mest oversete genstand i køleskabet — og med et løfte om, hvordan vi behandler tal, kilder og forfatterskab.",
+      "image": "../images/in1_leder.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI) — minimalistisk",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "fra-sten-til-strimmel",
@@ -34,7 +48,10 @@
       "title": "Fra sten til strimmel",
       "section": "Materialet",
       "standfirst": "Aluminium er dyrt at fremstille og billigt at genbruge — af én og samme grund. Den grund er en kemisk binding.",
-      "byline": "Claude Opus 4.8 (Anthropic)"
+      "byline": "Claude Opus 4.8 (Anthropic)",
+      "image": "../images/in1_sten.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI) — organisk",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "to-stykker-og-en-fane",
@@ -43,7 +60,10 @@
       "title": "To stykker og en fane",
       "section": "Maskinen",
       "standfirst": "Kroppen er ét stykke metal, formet — ikke støbt, ikke svejst. Undervejs går væggen fra 250 mikrometer til under en tiendedel millimeter.",
-      "byline": "Claude Sonnet 5 (Anthropic)"
+      "byline": "Claude Sonnet 5 (Anthropic)",
+      "image": "../images/in1_maskine.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI) — geometrisk",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "det-usynlige-lag",
@@ -52,7 +72,10 @@
       "title": "Det usynlige lag",
       "section": "Brugen",
       "standfirst": "Mellem drikkevaren og metallet sidder et lag polymer på få mikrometer. Det afgør, om dåsen overhovedet kan bruges — og det har netop skiftet kemi ved lov.",
-      "byline": "Gemini 3.1 Pro Preview (Google)"
+      "byline": "Gemini 3.1 Pro Preview (Google)",
+      "image": "../images/in1_lag.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI) — abstrakt",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "pantens-lange-bane",
@@ -61,7 +84,10 @@
       "title": "Pantens lange bane",
       "section": "Kredsløbet",
       "standfirst": "Automaten er begyndelsen på en logistisk kæde, ikke slutningen på historien. Og kredsløbet knækker sjældent i grøftekanten — det knækker stille.",
-      "byline": "GPT-5.6 Terra (OpenAI)"
+      "byline": "GPT-5.6 Terra (OpenAI)",
+      "image": "../images/in1_pant.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI) — flad vektor",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "daarligt-eller-lukket-kredslob",
@@ -70,7 +96,10 @@
       "title": "Dårligt — eller lukket — kredsløb?",
       "section": "Kredsløbet",
       "standfirst": "At smelte aluminium om er én ting. At holde det i en dåsekæde er en anden. Forskellen hedder legering.",
-      "byline": "Claude Opus 4.8 (Anthropic)"
+      "byline": "Claude Opus 4.8 (Anthropic)",
+      "image": "../images/in1_kredslob.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI) — geometrisk",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "europas-dasevaerksteder",
@@ -79,7 +108,10 @@
       "title": "Europas dåseværksteder",
       "section": "Europa",
       "standfirst": "Dåsefabrikkerne følger forbrugerne. Omsmeltningen følger skrottet. Den primære produktion følger strømprisen. Samme metal, tre helt forskellige kort over Europa.",
-      "byline": "Claude Sonnet 5 (Anthropic)"
+      "byline": "Claude Sonnet 5 (Anthropic)",
+      "image": "../images/in1_europa.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI) — moderne",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "hvorfor-33-cl",
@@ -88,7 +120,10 @@
       "title": "Hvorfor 33 cl?",
       "section": "Brugen",
       "standfirst": "Ingen enkelt myndighed har bestemt det. Men fastholdt bliver det — af værktøjsstål, kulsyretryk og en palle på 80 gange 120 centimeter.",
-      "byline": "Gemini 3.1 Pro Preview (Google)"
+      "byline": "Gemini 3.1 Pro Preview (Google)",
+      "image": "../images/in1_33cl.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI) — geometrisk",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "tallet",
@@ -97,7 +132,10 @@
       "title": "Tallet: dåsen i seks mål",
       "section": "Tallet",
       "standfirst": "Tal uden år og sted er pynt. Her er begge dele — og en advarsel om, hvad hvert tal ikke siger.",
-      "byline": "GPT-5.6 Terra (OpenAI)"
+      "byline": "GPT-5.6 Terra (OpenAI)",
+      "image": "../images/in1_tallet.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI) — geometrisk",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "diagrammet",
@@ -106,7 +144,10 @@
       "title": "Sådan læser du et procesdiagram",
       "section": "Maskinen",
       "standfirst": "Et diagram er ikke et fotografi. Det er et valg om, hvad der skal væk, for at resten kan ses. Her er hvad nummerets tre tegninger med vilje udelader.",
-      "byline": "Claude Sonnet 5 (Anthropic)"
+      "byline": "Claude Sonnet 5 (Anthropic)",
+      "image": "../images/in1_diagram.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI) — flad vektor",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "paastandskontoret",
@@ -115,7 +156,10 @@
       "title": "Påstandskontoret",
       "section": "Påstandskontoret",
       "standfirst": "Fire sætninger fra køledisken, som lyder enklere, end de er. Ingen af dem har ét facit — men de har hver især et regnskab, man kan skrive frem.",
-      "byline": "Claude Opus 4.8 (Anthropic)"
+      "byline": "Claude Opus 4.8 (Anthropic)",
+      "image": "../images/in1_paastand.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI) — grunge",
+      "imageSource": "https://x.ai/"
     }
   ],
   "republishedAt": "2026-08-09",

@@ -10,16 +10,20 @@
   "coverCredit": "AI-genereret forside (Imagine / xAI) — protein, lab, tallerken",
   "coverSource": "https://x.ai/",
   "images": [
+    "images/dosis1_gram.png",
+    "images/dosis1_leder.png",
+    "images/dosis1_pulsen.png",
+    "images/dosis1_rygteboers.png",
     "images/dosis_cover.png",
-    "images/dosis_protein.png",
-    "images/dosis_tallerken.png",
-    "images/dosis_vitamin.png",
     "images/dosis_implantat.png",
-    "images/dosis_wearable.png",
-    "images/dosis_pulver.png",
-    "images/dosis_tilskud.png",
     "images/dosis_longevity.png",
-    "images/dosis_tallet.png"
+    "images/dosis_protein.png",
+    "images/dosis_pulver.png",
+    "images/dosis_tallerken.png",
+    "images/dosis_tallet.png",
+    "images/dosis_tilskud.png",
+    "images/dosis_vitamin.png",
+    "images/dosis_wearable.png"
   ],
   "productionCostUSD": 0.5283,
   "imageCredits": "Alle motiver AI-genereret via Imagine (xAI), i varierede grafiske stilarter (flad vektor, maksimalisme, retro, geometrisk m.fl. — se The Noun Project's stilkatalog). Ingen lægemiddel-logoer eller emballage-tekst. Se SOURCES.md.",
@@ -31,7 +35,10 @@
       "order": 1,
       "title": "Hvor meget er nok?",
       "section": "Leder",
-      "standfirst": "Velkommen til DOSIS — magasinet om kroppen, tallerkenen, dosen og hardwaren. Vi gengiver anbefalinger med kilde og målgruppe. Vi giver ikke råd om, hvad du skal tage."
+      "standfirst": "Velkommen til DOSIS — magasinet om kroppen, tallerkenen, dosen og hardwaren. Vi gengiver anbefalinger med kilde og målgruppe. Vi giver ikke råd om, hvad du skal tage.",
+      "image": "../images/dosis1_leder.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI) — minimalistisk",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "protein-aeraen",
@@ -41,7 +48,9 @@
       "section": "Gennembrud & forskning",
       "byline": "Claude Opus 4.8 (Anthropic)",
       "standfirst": "Et næringsstof blev til et brand. Videnskaben er til gengæld ret rolig ved det hele — og for de fleste voksne er regnestykket allerede gået op.",
-      "image": "../images/dosis_protein.png"
+      "image": "../images/dosis_protein.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "hvor-meget-protein",
@@ -50,7 +59,10 @@
       "title": "Hvor meget protein? Gram, myter og den kedelige midtervej",
       "section": "Protein & træning",
       "byline": "GPT-5.6 Terra (OpenAI)",
-      "standfirst": "To tal bliver rutinemæssigt forvekslet, og forvekslingen får regnestykket til at se mere dramatisk ud, end det er."
+      "standfirst": "To tal bliver rutinemæssigt forvekslet, og forvekslingen får regnestykket til at se mere dramatisk ud, end det er.",
+      "image": "../images/dosis1_gram.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI) — geometrisk",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "tallerkenen",
@@ -60,7 +72,9 @@
       "section": "Ernæring & kost",
       "byline": "Gemini 3.1 Pro Preview (Google)",
       "standfirst": "De officielle kostråd er hverken revolutionerende eller mystiske. De er bare formuleret som mad — og proteinet følger med af sig selv.",
-      "image": "../images/dosis_tallerken.png"
+      "image": "../images/dosis_tallerken.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "pulver-vs-mad",
@@ -70,7 +84,9 @@
       "section": "Mad i praksis",
       "byline": "Claude Sonnet 5 (Anthropic)",
       "standfirst": "Ikke en dom over pulver, men en liste over de situationer, hvor det løser et reelt problem — og dem, hvor det mest løser et prisskilt.",
-      "image": "../images/dosis_pulver.png"
+      "image": "../images/dosis_pulver.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "d-vitamin",
@@ -80,7 +96,9 @@
       "section": "Vitaminer & mineraler",
       "byline": "Claude Opus 4.8 (Anthropic)",
       "standfirst": "Anbefalingerne blev opdateret i november 2025. To forældede tal cirkulerer stadig — og begge får folk til at regne forkert.",
-      "image": "../images/dosis_vitamin.png"
+      "image": "../images/dosis_vitamin.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "tilskudsjunglen",
@@ -90,7 +108,9 @@
       "section": "Tilskud, piller & væsker",
       "byline": "Claude Sonnet 5 (Anthropic)",
       "standfirst": "Seks ud af ti danskere tager kosttilskud. Forskellen på «registreret» og «godkendt» er den, de færreste kender — og den er hele forskellen.",
-      "image": "../images/dosis_tilskud.png"
+      "image": "../images/dosis_tilskud.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "implantater",
@@ -100,7 +120,9 @@
       "section": "Proteser & implantater",
       "byline": "Gemini 3.1 Pro Preview (Google)",
       "standfirst": "Den bedst dokumenterede form for levetidsforlængelse er ikke et pulver. Det er titanium, kobolt-krom og et landsdækkende register, der følger hver eneste operation.",
-      "image": "../images/dosis_implantat.png"
+      "image": "../images/dosis_implantat.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "wearables-og-hjemmetests",
@@ -110,7 +132,9 @@
       "section": "Hardware til kroppen",
       "byline": "GPT-5.6 Terra (OpenAI)",
       "standfirst": "To ting skal holdes adskilt hele vejen — hvad apparatet måler, og hvad det konkluderer. Det er forskellen på et interessant signal og en selvdiagnose klokken 23.47.",
-      "image": "../images/dosis_wearable.png"
+      "image": "../images/dosis_wearable.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "longevity-hype",
@@ -120,7 +144,9 @@
       "section": "Longevity & aldring",
       "byline": "Claude Opus 4.8 (Anthropic)",
       "standfirst": "Da et land indførte fødselsattester, faldt antallet af 110-årige med op mod 82 %. Det er den mest oplysende statistik i hele longevity-litteraturen.",
-      "image": "../images/dosis_longevity.png"
+      "image": "../images/dosis_longevity.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "tallet",
@@ -130,7 +156,9 @@
       "section": "Laboratoriet / tallet",
       "byline": "GPT-5.6 Terra (OpenAI)",
       "standfirst": "Vi lever længere, og flere lever med kronisk sygdom. De to ting modsiger ikke hinanden — de er delvis den samme historie.",
-      "image": "../images/dosis_tallet.png"
+      "image": "../images/dosis_tallet.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "rygteboersen",
@@ -139,7 +167,10 @@
       "title": "Rygtebørsen: fire påstande, der er blevet strammet undervejs",
       "section": "Rygtebørsen",
       "byline": "Claude Sonnet 5 (Anthropic)",
-      "standfirst": "Alle fire har en kerne af noget rigtigt. Den er bare blevet forenklet, til den lød mere dramatisk end belægget."
+      "standfirst": "Alle fire har en kerne af noget rigtigt. Den er bare blevet forenklet, til den lød mere dramatisk end belægget.",
+      "image": "../images/dosis1_rygteboers.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI) — grunge",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "til-pulsen",
@@ -148,7 +179,10 @@
       "title": "Når dosis møder systemet",
       "section": "Kryds (PULSEN m.fl.)",
       "byline": "Gemini 3.1 Pro Preview (Google)",
-      "standfirst": "DOSIS stopper bevidst dér, hvor behandlingsansvaret begynder. Her er grænsen — og hvorfor den flytter sig i disse år."
+      "standfirst": "DOSIS stopper bevidst dér, hvor behandlingsansvaret begynder. Her er grænsen — og hvorfor den flytter sig i disse år.",
+      "image": "../images/dosis1_pulsen.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI) — corporate",
+      "imageSource": "https://x.ai/"
     }
   ]
 }

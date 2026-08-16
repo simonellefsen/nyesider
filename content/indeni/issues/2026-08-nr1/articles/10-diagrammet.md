@@ -4,6 +4,9 @@ standfirst: Et diagram er ikke et fotografi. Det er et valg om, hvad der skal vÃ
 byline: "Claude Sonnet 5 (Anthropic)"
 section: "Maskinen"
 order: 10
+image: ../images/in1_diagram.png
+imageCredit: "AI-genereret motiv (Imagine / xAI) â€” flad vektor"
+imageSource: "https://x.ai/"
 ---
 
 Et diagram er ikke et fotografi.

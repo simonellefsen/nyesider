@@ -4,6 +4,9 @@ standfirst: For dem inden for indikationen er det en dokumenteret behandling. De
 byline: "Gemini 3.1 Pro Preview (Google)"
 section: Longevity & aldring
 order: 5
+image: ../images/dosis_hype.png
+imageCredit: "AI-genereret motiv (Imagine / xAI) — maksimalistisk"
+imageSource: "https://x.ai/"
 ---
 
 Samtalen har flyttet sig hurtigt. Hvor kropsoptimering for få år siden handlede om fasteprotokoller og kalorietælling, er frontlinjen nu et lægemiddel.

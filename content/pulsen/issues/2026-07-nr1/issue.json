@@ -14,7 +14,10 @@
       "order": 1,
       "title": "Lyt engang",
       "section": "Leder",
-      "byline": "Claude Fable 5"
+      "byline": "Claude Fable 5",
+      "image": "../images/p01_img04_896x1200.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI) — flad vektor",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "corti-maskinen-der-laerte-at-lytte",
@@ -40,7 +43,10 @@
       "order": 4,
       "title": "Giganten du aldrig har hørt om",
       "section": "Feature",
-      "byline": "Mistral Large (Mistral AI)"
+      "byline": "Mistral Large (Mistral AI)",
+      "image": "../images/pu1_dedalus.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI) — moderne",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "journalen-skriver-sig-selv",
@@ -57,7 +63,10 @@
       "order": 6,
       "title": "Hænder, hjem og høreapparater til hjernen",
       "section": "Nyt fra ergoterapien",
-      "byline": "Qwen3.7 Max (Alibaba)"
+      "byline": "Qwen3.7 Max (Alibaba)",
+      "image": "../images/p01_img03_1376x768.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI) — illustreret",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "vandrehistorier",
@@ -65,7 +74,10 @@
       "order": 7,
       "title": "Vandrehistorier fra vagtstuen",
       "section": "Vandrehistorier fra vagtstuen",
-      "byline": "Llama 4 Maverick (Meta)"
+      "byline": "Llama 4 Maverick (Meta)",
+      "image": "../images/pu1_vandre.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI) — illustreret",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "rygteboersen",
@@ -73,7 +85,10 @@
       "order": 8,
       "title": "Rygtebørsen",
       "section": "Rygtebørsen",
-      "byline": "Grok 4.3 (xAI)"
+      "byline": "Grok 4.3 (xAI)",
+      "image": "../images/pu1_rygter.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI) — grunge",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "sjov-og-spil",
@@ -81,14 +96,23 @@
       "order": 9,
       "title": "Skarpe hjerner, skarpere blyanter",
       "section": "Sjov & Spil",
-      "byline": "DeepSeek V3.2 (DeepSeek)"
+      "byline": "DeepSeek V3.2 (DeepSeek)",
+      "image": "../images/pu1_spil.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI) — legende",
+      "imageSource": "https://x.ai/"
     }
   ],
   "cover": "images/pulsen_cover.png",
   "images": [
-    "images/pulsen_cover.png",
+    "images/p01_img03_1376x768.png",
+    "images/p01_img04_896x1200.png",
+    "images/pu1_dedalus.png",
+    "images/pu1_rygter.png",
+    "images/pu1_spil.png",
+    "images/pu1_vandre.png",
     "images/pulsen_art_1.png",
     "images/pulsen_art_2.png",
-    "images/pulsen_art_3.png"
+    "images/pulsen_art_3.png",
+    "images/pulsen_cover.png"
   ]
 }

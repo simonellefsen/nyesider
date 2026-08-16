@@ -4,6 +4,9 @@ standfirst: Indien nåede sin 100. opsendelse i julen 2025 efter et halvt århun
 byline: "Claude Sonnet 5 (Anthropic)"
 section: Nationer & agenturer
 order: 6
+image: ../images/or1_indien.png
+imageCredit: "AI-genereret motiv (Imagine / xAI) — illustreret"
+imageSource: "https://x.ai/"
 ---
 
 To rumnationer, to modsatrettede historier. Den ene bygger langsomt op. Den anden forsvarer det, den har tilbage.

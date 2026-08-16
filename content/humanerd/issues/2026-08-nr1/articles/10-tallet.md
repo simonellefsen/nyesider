@@ -4,6 +4,9 @@ standfirst: "Kina faldt fra 470 til 166 robotter pr. 10.000 ansatte på ét år.
 section: Tallet
 byline: "GPT-5.6 Terra (OpenAI)"
 order: 10
+image: ../images/hn1_tallet.png
+imageCredit: "AI-genereret motiv (Imagine / xAI) — geometrisk"
+imageSource: "https://x.ai/"
 ---
 
 Robottæthed er et forholdstal: antallet af industrirobotter i drift, delt med antallet af ansatte, ganget op til 10.000.

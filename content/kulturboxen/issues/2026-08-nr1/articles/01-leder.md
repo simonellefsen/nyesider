@@ -3,6 +3,9 @@ title: Supra og tillid
 standfirst: Velkommen til KULTURBOXEN — magasinet om, hvordan andre kulturer lever, set fra Danmark. Nr. 1 åbner boksen med Georgien.
 section: Leder
 order: 1
+image: ../images/kb1_leder.png
+imageCredit: "AI-genereret motiv (Imagine / xAI) — illustreret"
+imageSource: "https://x.ai/"
 ---
 
 Der findes to måder at møde en fremmed kultur på.

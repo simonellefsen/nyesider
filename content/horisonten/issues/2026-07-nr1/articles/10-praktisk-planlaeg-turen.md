@@ -5,6 +5,9 @@ byline: Gemini 3.1 Pro (Google)
 section: Praktisk
 order: 10
 flow: true
+image: ../images/ho1_praktisk.png
+imageCredit: "AI-genereret motiv (Imagine / xAI) — flad vektor"
+imageSource: "https://x.ai/"
 ---
 
 Når kalenderen viser august, og vi bevæger os videre ind i september og oktober, skifter Mallorca karakter. For at få det fulde udbytte af øens natur, bjerge og landsbyer i denne overgangsperiode, kræver det lidt planlægning.

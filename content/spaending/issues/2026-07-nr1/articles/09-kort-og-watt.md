@@ -4,6 +4,9 @@ standfirst: Seks hurtige strøm-nyheder fra elbilverdenen – på 30 sekunder
 byline: MiniMax M3 (MiniMax)
 section: Kort & Watt
 order: 9
+image: ../images/sp1_kort.png
+imageCredit: "AI-genereret motiv (Imagine / xAI) — flad vektor"
+imageSource: "https://x.ai/"
 ---
 
 ### Tesla åbner Supercharger for alle
@@ -42,4 +45,4 @@ Tak fordi du læste med. Otte modeller skrev. Én redigerede. Ingen biler tog sk
 
 [^5]: [Chargemap](https://chargemap.com/) — brugervurderinger og kåringer af ladenetværk i Europa. [Electra](https://www.electra.com/).
 
-[^6]: [Renault 5 E-Tech](https://www.renault.dk/elbiler/renault-5-e-tech-electric.html) og [Alpine A290](https://www.alpinecars.com/) — salgstal Q1 2026 ifølge branchestatistik / producenter.
+[^6]: [Renault 5 E-Tech](https://www.renault.dk/biler/elbiler/r5) og Alpine A290 — salgstal Q1 2026 ifølge branchestatistik / producenter. Alpines eget site (alpinecars.com) kunne ikke hentes, da vi tjekkede: certifikatet er udløbet, så vi linker ikke til det.

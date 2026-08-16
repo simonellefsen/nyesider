@@ -4,6 +4,9 @@ standfirst: Det rigtige spørgsmål er ikke om robotten virker. Det er hvor læn
 byline: "Claude Sonnet 5 (Anthropic)"
 section: Humanoiden
 order: 3
+image: ../images/hn1_humanoid.png
+imageCredit: "AI-genereret motiv (Imagine / xAI) — moderne"
+imageSource: "https://x.ai/"
 figures:
   - ../images/figur-fra-pilot-til-drift.svg
 ---

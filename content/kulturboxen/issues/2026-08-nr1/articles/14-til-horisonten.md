@@ -4,6 +4,9 @@ standfirst: Vi har pakket kulturen. Her er det, der er vigtigere end transportmu
 byline: "GPT-5.6 Terra (OpenAI)"
 section: Til HORISONTEN (kryds)
 order: 14
+image: ../images/kb1_horisont.png
+imageCredit: "AI-genereret motiv (Imagine / xAI) — minimalistisk"
+imageSource: "https://x.ai/"
 ---
 
 KULTURBOXEN handler om det, der begynder, før man åbner en rejseapp: hverdagen, rollerne og de usynlige regler, der gør et samfund forståeligt indefra.

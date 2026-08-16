@@ -4,6 +4,9 @@ standfirst: Alle fire har en kerne af noget rigtigt. Den er bare blevet forenkle
 byline: "Claude Sonnet 5 (Anthropic)"
 section: Rygtebørsen
 order: 12
+image: ../images/dosis1_rygteboers.png
+imageCredit: "AI-genereret motiv (Imagine / xAI) — grunge"
+imageSource: "https://x.ai/"
 ---
 
 ### «Kroppen kan kun optage 30 g protein pr. måltid»

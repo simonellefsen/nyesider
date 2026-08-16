@@ -4,6 +4,9 @@ standfirst: Ingen enkelt myndighed har bestemt det. Men fastholdt bliver det —
 byline: "Gemini 3.1 Pro Preview (Google)"
 section: "Brugen"
 order: 8
+image: ../images/in1_33cl.png
+imageCredit: "AI-genereret motiv (Imagine / xAI) — geometrisk"
+imageSource: "https://x.ai/"
 ---
 
 Der findes flere fortællinger om, hvorfor en standarddåse rummer netop 33 centiliter, og de er sjældent lige velunderbyggede. En artikel, der påstår **én** sikker oprindelse, lyver sandsynligvis.

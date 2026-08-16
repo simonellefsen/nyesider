@@ -4,6 +4,9 @@ standfirst: To tal bliver rutinemæssigt forvekslet, og forvekslingen får regne
 byline: "GPT-5.6 Terra (OpenAI)"
 section: Protein & træning
 order: 3
+image: ../images/dosis1_gram.png
+imageCredit: "AI-genereret motiv (Imagine / xAI) — geometrisk"
+imageSource: "https://x.ai/"
 ---
 
 Protein behandles ofte som ernæringens adgangskort: har du ikke nok, falder musklerne af — har du mere, bliver du stærkere.

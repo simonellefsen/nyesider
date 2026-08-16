@@ -3,6 +3,9 @@ title: Rygtebørsen
 byline: Grok 4.3 (xAI)
 section: Rygtebørsen
 order: 8
+image: ../images/pu1_rygter.png
+imageCredit: "AI-genereret motiv (Imagine / xAI) — grunge"
+imageSource: "https://x.ai/"
 ---
 
 Taget med mindst ét gran salt: Alt på denne side er åbenlyst opdigtet satire. Ingen af rygterne omhandler virkelige virksomheder, produkter eller personer.[^1]

@@ -10,13 +10,20 @@
   "coverCredit": "AI-genereret forside (Imagine / xAI) — tema: Kadence, opsendelse og genbrug",
   "coverSource": "https://x.ai/",
   "images": [
-    "images/orbit_cover.png",
-    "images/orbit_spacex.png",
+    "images/figur_baner.svg",
+    "images/or1_agentur.png",
+    "images/or1_baner.png",
+    "images/or1_indien.png",
+    "images/or1_kalender.png",
+    "images/or1_leder.png",
+    "images/or1_rygter.png",
+    "images/or1_tallet.png",
     "images/orbit_blueorigin.png",
-    "images/orbit_satellitter.png",
+    "images/orbit_cover.png",
     "images/orbit_debris.png",
     "images/orbit_kina.png",
-    "images/figur_baner.svg"
+    "images/orbit_satellitter.png",
+    "images/orbit_spacex.png"
   ],
   "productionCostUSD": 0.53,
   "imageCredits": "Forside og feature-motiver: Imagine / xAI (https://x.ai/). Diagram LEO/MEO/GEO: egen SVG. Hvert nummer har egen forside styret af issueTheme. Se SOURCES.md.",
@@ -28,7 +35,10 @@
       "order": 1,
       "title": "Kadence",
       "section": "Leder",
-      "standfirst": "Velkommen til ORBIT. Temaet for nr. 1 er tempoet selv — og et løfte om, hvordan vi behandler tal og forfatterskab."
+      "standfirst": "Velkommen til ORBIT. Temaet for nr. 1 er tempoet selv — og et løfte om, hvordan vi behandler tal og forfatterskab.",
+      "image": "../images/or1_leder.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI) — minimalistisk",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "tallet",
@@ -37,7 +47,10 @@
       "title": "Tallet: 324",
       "section": "Tallet",
       "standfirst": "324 orbitale opsendelsesforsøg i 2025. Men tallet er en optællingsregel, ikke en observation — og en anden regel giver 329.",
-      "byline": "GPT-5.6 Terra (OpenAI)"
+      "byline": "GPT-5.6 Terra (OpenAI)",
+      "image": "../images/or1_tallet.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI) — geometrisk",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "spacex",
@@ -70,7 +83,10 @@
       "title": "NASA & ESA: agenturer i en kommerciel tidsalder",
       "section": "Nationer & agenturer",
       "standfirst": "Rumagenturet er gået fra at bygge skibene til at købe billetten. NASA fløj til Månen i april — i en raket, staten ejer, mod en landing, den lejer. Og Europa har et princip, der både holder ESA sammen og bremser det.",
-      "byline": "Gemini 3.1 Pro Preview (Google)"
+      "byline": "Gemini 3.1 Pro Preview (Google)",
+      "image": "../images/or1_agentur.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI) — flad vektor",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "indien-rusland",
@@ -79,7 +95,10 @@
       "title": "Indien og Rusland: to tempoer",
       "section": "Nationer & agenturer",
       "standfirst": "Indien nåede sin 100. opsendelse i julen 2025 efter et halvt århundrede med tålmodighed. Rusland kæmper med sanktioner, tabte kunder og en rumstation, der er begyndt at lække igen.",
-      "byline": "Claude Sonnet 5 (Anthropic)"
+      "byline": "Claude Sonnet 5 (Anthropic)",
+      "image": "../images/or1_indien.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI) — illustreret",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "kina",
@@ -124,7 +143,10 @@
       "title": "Sådan virker det: LEO, MEO og GEO",
       "section": "Sådan virker det",
       "standfirst": "Tre etager over Jorden, tre jobbeskrivelser. Hvorfor ligger GPS ikke tættere på? Hvorfor kræver Starlink tusinder af satellitter, når tre kan dække kloden? Og hvorfor forsvinder skrot i lav bane af sig selv?",
-      "byline": "Claude Sonnet 5 (Anthropic)"
+      "byline": "Claude Sonnet 5 (Anthropic)",
+      "image": "../images/or1_baner.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI) — geometrisk",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "kalenderen",
@@ -133,7 +155,10 @@
       "title": "Kalenderen: hvad der venter (med forbehold)",
       "section": "Kalenderen",
       "standfirst": "En rumkalender er ikke en køreplan. Her er de tre ord, der forklarer hvorfor — og fem ting i efterårets manifest, med den usikkerhed de faktisk har.",
-      "byline": "Gemini 3.1 Pro Preview (Google)"
+      "byline": "Gemini 3.1 Pro Preview (Google)",
+      "image": "../images/or1_kalender.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI) — abstrakt",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "rygteboersen",
@@ -142,7 +167,10 @@
       "title": "Rygtebørsen",
       "section": "Rygtebørsen",
       "standfirst": "Fire ting der cirkulerer i rumbranchen denne sommer — og en temperaturmåling på hver. Bekræftet, kvalificeret gæt eller ren ønsketænkning.",
-      "byline": "Claude Opus 4.8 (Anthropic)"
+      "byline": "Claude Opus 4.8 (Anthropic)",
+      "image": "../images/or1_rygter.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI) — grunge",
+      "imageSource": "https://x.ai/"
     }
   ],
   "republishedAt": "2026-08-09",

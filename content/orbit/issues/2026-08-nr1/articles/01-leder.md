@@ -3,6 +3,9 @@ title: "Kadence"
 standfirst: Velkommen til ORBIT. Temaet for nr. 1 er tempoet selv — og et løfte om, hvordan vi behandler tal og forfatterskab.
 section: Leder
 order: 1
+image: ../images/or1_leder.png
+imageCredit: "AI-genereret motiv (Imagine / xAI) — minimalistisk"
+imageSource: "https://x.ai/"
 ---
 
 I 2023 blev der gjort 221 forsøg på at sende noget i kredsløb om Jorden. I 2024 var tallet 259. I 2025 blev det 324.

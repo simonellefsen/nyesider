@@ -4,6 +4,9 @@ standfirst: Tre ting er værd at opdatere, hvis du sidst kiggede på AI-verdenen
 byline: "GPT-5.6 Terra (OpenAI)"
 section: Kortet
 order: 2
+image: ../images/gn2_kortet.png
+imageCredit: "AI-genereret motiv (Imagine / xAI) — geometrisk"
+imageSource: "https://x.ai/"
 ---
 
 ### 1. Værktøjerne har fået et fælles stik

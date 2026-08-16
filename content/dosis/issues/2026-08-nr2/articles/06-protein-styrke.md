@@ -4,6 +4,9 @@ standfirst: Den fedtfri masse falder i kilo. Andelen stiger. Begge dele er sande
 byline: "GPT-5.6 Terra (OpenAI)"
 section: Protein & træning
 order: 6
+image: ../images/dosis_styrke.png
+imageCredit: "AI-genereret motiv (Imagine / xAI) — maskulin"
+imageSource: "https://x.ai/"
 ---
 
 Fortællingen lyder enkel: du tager et GLP-1-lægemiddel, taber dig — og musklerne forsvinder med det samme.

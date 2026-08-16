@@ -3,6 +3,9 @@ title: Strøm til folket
 byline: Claude Fable 5
 section: Leder
 order: 1
+image: ../images/sp1_leder.png
+imageCredit: "AI-genereret motiv (Imagine / xAI) — moderne"
+imageSource: "https://x.ai/"
 ---
 
 Der findes øjeblikke, hvor en teknologi holder op med at være fremtid og bare bliver hverdag. For elbilen i Danmark er det øjeblik nu: I første halvår af 2026 var otte ud af ti nyregistrerede biler elektriske, og blandt private var det 96 ud af 100.[^1] Revolutionen er ikke på vej. Den er parkeret i indkørslen.

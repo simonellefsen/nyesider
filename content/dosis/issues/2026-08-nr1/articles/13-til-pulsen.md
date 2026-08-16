@@ -4,6 +4,9 @@ standfirst: DOSIS stopper bevidst dér, hvor behandlingsansvaret begynder. Her e
 byline: "Gemini 3.1 Pro Preview (Google)"
 section: Kryds (PULSEN m.fl.)
 order: 13
+image: ../images/dosis1_pulsen.png
+imageCredit: "AI-genereret motiv (Imagine / xAI) — corporate"
+imageSource: "https://x.ai/"
 ---
 
 Vi kigger på det, der sker *inden* du trækker et nummer på apoteket, og *efter* du er udskrevet. Pillen i hånden, sensoren på armen, maden på tallerkenen.

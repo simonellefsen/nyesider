@@ -4,6 +4,9 @@ standfirst: Olie fylder næsten intet i europæisk elproduktion, men er stadig d
 byline: "GPT-5.6 Terra (OpenAI)"
 section: Fossilt
 order: 7
+image: ../images/kr1_olie.png
+imageCredit: "AI-genereret motiv (Imagine / xAI) — flad vektor"
+imageSource: "https://x.ai/"
 ---
 
 Olie fylder næsten intet i europæisk **elproduktion**. Alligevel er den den største enkeltpost i Europas samlede **energiforbrug**.[^1]

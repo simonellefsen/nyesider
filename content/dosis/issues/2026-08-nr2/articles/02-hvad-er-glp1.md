@@ -4,6 +4,9 @@ standfirst: Bag markedsføringsstøjen ligger et ganske almindeligt stykke krops
 byline: "Claude Opus 4.8 (Anthropic)"
 section: Gennembrud & forskning
 order: 2
+image: ../images/dosis2_glp1.png
+imageCredit: "AI-genereret motiv (Imagine / xAI) — geometrisk"
+imageSource: "https://x.ai/"
 ---
 
 Du har hørt navnet. Måske i en overskrift, måske fra en kollega, måske i en podcast, hvor nogen talte om det, som var det en livsstil.

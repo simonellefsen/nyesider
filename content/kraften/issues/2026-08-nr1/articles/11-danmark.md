@@ -4,6 +4,9 @@ standfirst: Historien om Danmark har været vindmøller. Den vigtigste danske el
 byline: "GPT-5.6 Terra (OpenAI)"
 section: Lande & udbygning
 order: 11
+image: ../images/kr1_danmark.png
+imageCredit: "AI-genereret motiv (Imagine / xAI) — organisk"
+imageSource: "https://x.ai/"
 ---
 
 Danmark fortælles som en historie om vindmøller. I 2024 kom **59 %** af den danske elproduktion fra vind, og landet ligger i toppen af EU målt på vind- og solandel.[^1]

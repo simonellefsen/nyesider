@@ -3,6 +3,9 @@ title: "Hvad holder lyset tændt"
 standfirst: Velkommen til KRAFTEN. Temaet for nr. 1 er det spørgsmål, alle andre energispørgsmål hænger på — og et løfte om, hvordan vi behandler tal og forfatterskab.
 section: Leder
 order: 1
+image: ../images/kr1_leder.png
+imageCredit: "AI-genereret motiv (Imagine / xAI) — minimalistisk"
+imageSource: "https://x.ai/"
 ---
 
 I 2025 skete der noget i Europa, som har været undervejs i to årtier: vind og sol leverede mere elektricitet end kul, gas og olie tilsammen. 30 % mod 29 %.

@@ -4,6 +4,9 @@ standfirst: Debatten er fyldt med skarpe overskrifter og lidt for lidt læsning 
 byline: "Claude Sonnet 5 (Anthropic)"
 section: Rygtebørsen
 order: 9
+image: ../images/dosis2_rygteboers.png
+imageCredit: "AI-genereret motiv (Imagine / xAI) — grunge"
+imageSource: "https://x.ai/"
 ---
 
 ### «Det er bare en slankepille»

@@ -4,6 +4,9 @@ standfirst: En femminutters-idé, du kan kopiere direkte ind i din AI-samtale �
 byline: Claude Fable 5
 section: Månedens prompt
 order: 7
+image: ../images/gn1_prompt.png
+imageCredit: "AI-genereret motiv (Imagine / xAI) — typografisk"
+imageSource: "https://x.ai/"
 ---
 
 Hver måned lukker GNISTEN med en færdig bestilling, du kan kopiere direkte ind i Claude, ChatGPT eller en hvilken som helst anden AI-samtale. Du behøver ikke ændre et ord — bare indsæt den, tryk enter, og se hvad der sker.

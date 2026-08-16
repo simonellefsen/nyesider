@@ -4,6 +4,9 @@ standfirst: OpenAI, Anthropic, Google, xAI, Meta, det europæiske Mistral og de 
 byline: GPT-5.6 Terra (OpenAI)
 section: Kortet
 order: 2
+image: ../images/gn1_kortet.png
+imageCredit: "AI-genereret motiv (Imagine / xAI) — geometrisk"
+imageSource: "https://x.ai/"
 ---
 
 Forestil dig AI-landskabet som en stor by med mange caféer. De serverer alle sammen noget, der minder om det samme: en samtalepartner, der kan forklare, skrive, oversætte og hjælpe med idéer. Men køkkenerne bag disken er forskellige. Nogle er store og dyre, nogle er hurtige, nogle er mere åbne end andre, og nogle ligger tættere på Europa end på Silicon Valley.

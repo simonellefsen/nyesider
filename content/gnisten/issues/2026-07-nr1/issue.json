@@ -8,13 +8,20 @@
   "pdf": "GNISTEN_nr1_juli2026.pdf",
   "cover": "images/gnisten_cover.png",
   "images": [
-    "images/gnisten_cover.png",
-    "images/gnisten_fokus.png",
-    "images/gnisten_vaerksted.png",
-    "images/gnisten_projekt.png",
     "images/figur1_tokens.svg",
     "images/figur2_naesteord.svg",
-    "images/figur3_kontekstvindue.svg"
+    "images/figur3_kontekstvindue.svg",
+    "images/gn1_kortet.png",
+    "images/gn1_leder.png",
+    "images/gn1_ordbog.png",
+    "images/gn1_prompt.png",
+    "images/gn1_regningen.png",
+    "images/gn1_sladder.png",
+    "images/gn1_sprogmodel.png",
+    "images/gnisten_cover.png",
+    "images/gnisten_fokus.png",
+    "images/gnisten_projekt.png",
+    "images/gnisten_vaerksted.png"
   ],
   "productionCostUSD": 0.11,
   "imageCredits": "Illustrationer: Gemini 3 Pro Image (forside) og Gemini 3.1 Flash Image (artikler) via OpenRouter. Diagrammer i \"Sådan virker en sprogmodel\": egen produktion (SVG).",
@@ -27,7 +34,10 @@
       "title": "Velkommen til GNISTEN",
       "section": "Leder",
       "byline": "Claude Fable 5",
-      "standfirst": "Et magasin til alle, der har en computer og en nysgerrighed på AI — men ingen lyst til at føle sig dum undervejs."
+      "standfirst": "Et magasin til alle, der har en computer og en nysgerrighed på AI — men ingen lyst til at føle sig dum undervejs.",
+      "image": "../images/gn1_leder.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI) — minimalistisk",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "kortet",
@@ -36,7 +46,10 @@
       "title": "Kortet over AI-landskabet",
       "section": "Kortet",
       "byline": "GPT-5.6 Terra (OpenAI)",
-      "standfirst": "OpenAI, Anthropic, Google, xAI, Meta, det europæiske Mistral og de kinesiske udfordrere — her er de vigtigste navne, du vil møde i 2026."
+      "standfirst": "OpenAI, Anthropic, Google, xAI, Meta, det europæiske Mistral og de kinesiske udfordrere — her er de vigtigste navne, du vil møde i 2026.",
+      "image": "../images/gn1_kortet.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI) — geometrisk",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "fokus-claude",
@@ -55,7 +68,10 @@
       "title": "Sådan virker en sprogmodel",
       "section": "Kortet",
       "byline": "Gemini 3.1 Pro (Google)",
-      "standfirst": "Ingen matematik, ingen forkundskaber. Bare tre billeder og en kat, der sad på måtten."
+      "standfirst": "Ingen matematik, ingen forkundskaber. Bare tre billeder og en kat, der sad på måtten.",
+      "image": "../images/gn1_sprogmodel.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI) — illustreret",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "vaerkstedet",
@@ -84,7 +100,10 @@
       "title": "Månedens prompt: Dagens Gnist",
       "section": "Månedens prompt",
       "byline": "Claude Fable 5",
-      "standfirst": "En femminutters-idé, du kan kopiere direkte ind i din AI-samtale — bygget og afprøvet af redaktionen, før du fik den."
+      "standfirst": "En femminutters-idé, du kan kopiere direkte ind i din AI-samtale — bygget og afprøvet af redaktionen, før du fik den.",
+      "image": "../images/gn1_prompt.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI) — typografisk",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "regningen",
@@ -93,7 +112,10 @@
       "title": "Regningen",
       "section": "Regningen",
       "byline": "GLM-5.2 (Z.ai)",
-      "standfirst": "Hvad koster det egentlig at bruge AI — og hvordan undgår du at betale for tre abonnementer, du aldrig åbner?"
+      "standfirst": "Hvad koster det egentlig at bruge AI — og hvordan undgår du at betale for tre abonnementer, du aldrig åbner?",
+      "image": "../images/gn1_regningen.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI) — abstrakt",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "ordbogen",
@@ -102,7 +124,10 @@
       "title": "Ordbogen",
       "section": "Ordbogen",
       "byline": "Qwen3.7 Max (Alibaba)",
-      "standfirst": "Ti gloser fra AI-verdenen, forklaret så du kan gengive dem ved middagsbordet."
+      "standfirst": "Ti gloser fra AI-verdenen, forklaret så du kan gengive dem ved middagsbordet.",
+      "image": "../images/gn1_ordbog.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI) — flad vektor",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "sladder",
@@ -111,7 +136,10 @@
       "title": "Sladder fra serverrummet",
       "section": "Sladder fra serverrummet",
       "byline": "Kimi K3 (Moonshot AI)",
-      "standfirst": "Rygter, drillerier og ren gætteværk fra AI-verdenen. Troværdigheden måler vi i tændstikker."
+      "standfirst": "Rygter, drillerier og ren gætteværk fra AI-verdenen. Troværdigheden måler vi i tændstikker.",
+      "image": "../images/gn1_sladder.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI) — grunge",
+      "imageSource": "https://x.ai/"
     }
   ]
 }

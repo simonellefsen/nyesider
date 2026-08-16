@@ -4,6 +4,9 @@ standfirst: En rumkalender er ikke en køreplan. Her er de tre ord, der forklare
 byline: "Gemini 3.1 Pro Preview (Google)"
 section: Kalenderen
 order: 11
+image: ../images/or1_kalender.png
+imageCredit: "AI-genereret motiv (Imagine / xAI) — abstrakt"
+imageSource: "https://x.ai/"
 ---
 
 Jernbaner og flyselskaber udgiver køreplaner, der forventes overholdt på minuttet. Rumfarten udgiver **manifester**. Det er ikke løfter. Det er hensigtserklæringer, som fysik, vejr og sikkerhedskrav har vetoret over.

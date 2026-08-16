@@ -4,6 +4,9 @@ standfirst: Vind og sol overhalede fossil elproduktion i EU for første gang. De
 byline: "GPT-5.6 Terra (OpenAI)"
 section: Lande & udbygning
 order: 2
+image: ../images/kr1_europa.png
+imageCredit: "AI-genereret motiv (Imagine / xAI) — geometrisk"
+imageSource: "https://x.ai/"
 ---
 
 EU krydsede i 2025 en grænse, der har været undervejs i to årtier: **vind og sol leverede tilsammen 30 %** af elektriciteten, mens **fossile brændsler leverede 29 %**. Første gang nogensinde.[^1]

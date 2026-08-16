@@ -4,6 +4,9 @@ standfirst: "Næste gang nogen siger «ChatGPT kan ikke huske noget», så spør
 byline: "Claude Opus 4.8 (Anthropic)"
 section: Fokus
 order: 3
+image: ../images/gn2_chatgpt.png
+imageCredit: "AI-genereret motiv (Imagine / xAI) — minimalistisk"
+imageSource: "https://x.ai/"
 ---
 
 Det meste af forvirringen om ChatGPT bunder i, at vi bruger ét navn om tre forskellige ting.

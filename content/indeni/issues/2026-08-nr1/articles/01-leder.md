@@ -3,6 +3,9 @@ title: "Dåsen"
 standfirst: Velkommen til INDENI. Vi begynder med den mest oversete genstand i køleskabet — og med et løfte om, hvordan vi behandler tal, kilder og forfatterskab.
 section: Leder
 order: 1
+image: ../images/in1_leder.png
+imageCredit: "AI-genereret motiv (Imagine / xAI) — minimalistisk"
+imageSource: "https://x.ai/"
 ---
 
 Tag en tom dåse i hånden og tryk let på siden.

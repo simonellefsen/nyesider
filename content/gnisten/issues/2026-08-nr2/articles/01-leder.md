@@ -3,6 +3,9 @@ title: Ud af browseren
 standfirst: I nr. 1 lærte vi at sige hej. I nr. 2 går vi udenfor — til MCP, til ChatGPT og til den første rigtige publicering. Og vi retter en fejl, bladet har båret rundt på siden starten.
 section: Leder
 order: 1
+image: ../images/gn2_leder.png
+imageCredit: "AI-genereret motiv (Imagine / xAI) — moderne"
+imageSource: "https://x.ai/"
 ---
 
 Sidste nummer sluttede med et løfte: ChatGPT, MCP og de første skridt ud af browseren.

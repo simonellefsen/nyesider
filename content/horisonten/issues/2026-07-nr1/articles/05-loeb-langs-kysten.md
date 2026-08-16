@@ -4,6 +4,9 @@ standfirst: Flad havnepromenade, dramatisk kystrute og et vådområde fuld af fu
 byline: DeepSeek V3.2 (DeepSeek)
 section: Løb
 order: 5
+image: ../images/ho1_loeb.png
+imageCredit: "AI-genereret motiv (Imagine / xAI) — organisk"
+imageSource: "https://x.ai/"
 ---
 
 For den løbende rejsende er Mallorca et sandt paradis, især når højsæsonens hede afløses af efterårets mildere temperaturer og roligere atmosfære. Øen byder på alt fra byens puls til bjergrige kyster, og med stadig lange, lyse aftener er august, september og oktober de ideelle måneder at udforske den løbende.

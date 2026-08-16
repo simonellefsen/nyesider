@@ -8,6 +8,12 @@
   "productionCostUSD": null,
   "cover": "images/spaending_cover.png",
   "images": [
+    "images/sp1_afgift.png",
+    "images/sp1_ix3.png",
+    "images/sp1_kort.png",
+    "images/sp1_leder.png",
+    "images/sp1_rygter.png",
+    "images/sp1_sommer.png",
     "images/spaending_cover.png",
     "images/spaending_faststof.png",
     "images/spaending_folkebil.png",
@@ -20,7 +26,10 @@
       "order": 1,
       "title": "Strøm til folket",
       "section": "Leder",
-      "byline": "Claude Fable 5"
+      "byline": "Claude Fable 5",
+      "image": "../images/sp1_leder.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI) — moderne",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "folkebilen-er-tilbage",
@@ -39,7 +48,10 @@
       "title": "BMW iX3 er landet – og den griner ad rækkeviddeangst",
       "section": "Køretest",
       "byline": "Grok 4.5 (xAI)",
-      "standfirst": "Første tur i Neue Klasse-SUV'en med over 800 km WLTP, 400 kW-lynladning og en skærm, der spænder over hele forruden. Velkommen til 2026."
+      "standfirst": "Første tur i Neue Klasse-SUV'en med over 800 km WLTP, 400 kW-lynladning og en skærm, der spænder over hele forruden. Velkommen til 2026.",
+      "image": "../images/sp1_ix3.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI) — fotorealistisk",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "faststofbatteriet",
@@ -68,7 +80,10 @@
       "title": "Den politiske djævlepagt: Når elbilens triumf bliver vejenes ruin",
       "section": "Politik & afgifter",
       "byline": "GLM-5.2 (Z.ai)",
-      "standfirst": "Med finanslovsaftalen er afgiftsstigningerne til 2026 skrinlagt, og de dyre elbiler får en skjult skatterabat. Men når 96 procent af private bilkøbere vælger strøm, mangler nogen at betale for asfalten."
+      "standfirst": "Med finanslovsaftalen er afgiftsstigningerne til 2026 skrinlagt, og de dyre elbiler får en skjult skatterabat. Men når 96 procent af private bilkøbere vælger strøm, mangler nogen at betale for asfalten.",
+      "image": "../images/sp1_afgift.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI) — geometrisk",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "rygteboersen",
@@ -77,7 +92,10 @@
       "title": "Ugler i mosen og megawatt i asfalten",
       "section": "Rygtebørsen",
       "byline": "Qwen3.7 Max (Alibaba)",
-      "standfirst": "Er Xiaomi på vej mod Tesla, og hvornår får vi egentlig den billige Model Y? Vi har lyttet ved dørene i elbilbranchens baglokaler."
+      "standfirst": "Er Xiaomi på vej mod Tesla, og hvornår får vi egentlig den billige Model Y? Vi har lyttet ved dørene i elbilbranchens baglokaler.",
+      "image": "../images/sp1_rygter.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI) — grunge",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "essay-sommerflugt",
@@ -86,7 +104,10 @@
       "title": "Elbilen, børnene og den store sommerflugt",
       "section": "Essay",
       "byline": "Mistral Medium 3.5 (Mistral AI)",
-      "standfirst": "En familie, en bil, 1.400 kilometer – og en far, der pludselig ved alt om kilowatt-timer"
+      "standfirst": "En familie, en bil, 1.400 kilometer – og en far, der pludselig ved alt om kilowatt-timer",
+      "image": "../images/sp1_sommer.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI) — illustreret",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "kort-og-watt",
@@ -95,7 +116,10 @@
       "title": "Kort & Watt",
       "section": "Kort & Watt",
       "byline": "MiniMax M3 (MiniMax)",
-      "standfirst": "Seks hurtige strøm-nyheder fra elbilverdenen – på 30 sekunder"
+      "standfirst": "Seks hurtige strøm-nyheder fra elbilverdenen – på 30 sekunder",
+      "image": "../images/sp1_kort.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI) — flad vektor",
+      "imageSource": "https://x.ai/"
     }
   ]
 }

@@ -4,6 +4,9 @@ standfirst: DOSIS dækker kroppen, PULSEN dækker sektoren. GLP-1 er lige nu det
 byline: "Gemini 3.1 Pro Preview (Google)"
 section: Kryds (PULSEN m.fl.)
 order: 10
+image: ../images/dosis_pulsen.png
+imageCredit: "AI-genereret motiv (Imagine / xAI) — corporate"
+imageSource: "https://x.ai/"
 ---
 
 Vi interesserer os for, hvad der sker inde i kroppen: tallerkenen, målingerne, biokemien. Vores søstermagasin PULSEN kigger på alt det udenom — klinikkerne, politikken, de strukturelle rammer.

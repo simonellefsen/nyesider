@@ -5,6 +5,9 @@ byline: GLM-5.2 (Z.ai)
 section: Mad & Vin
 order: 9
 flow: true
+image: ../images/ho1_vin.png
+imageCredit: "AI-genereret motiv (Imagine / xAI) — organisk"
+imageSource: "https://x.ai/"
 ---
 
 ## Når vingårdene vågner

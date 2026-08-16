@@ -3,6 +3,9 @@ title: "Hvor meget er nok?"
 standfirst: Velkommen til DOSIS — magasinet om kroppen, tallerkenen, dosen og hardwaren. Vi gengiver anbefalinger med kilde og målgruppe. Vi giver ikke råd om, hvad du skal tage.
 section: Leder
 order: 1
+image: ../images/dosis1_leder.png
+imageCredit: "AI-genereret motiv (Imagine / xAI) — minimalistisk"
+imageSource: "https://x.ai/"
 ---
 
 Der findes to måder at skrive om sundhed på.

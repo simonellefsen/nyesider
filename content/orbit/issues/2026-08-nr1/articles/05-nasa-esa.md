@@ -4,6 +4,9 @@ standfirst: Rumagenturet er gået fra at bygge skibene til at købe billetten. N
 byline: "Gemini 3.1 Pro Preview (Google)"
 section: Nationer & agenturer
 order: 5
+image: ../images/or1_agentur.png
+imageCredit: "AI-genereret motiv (Imagine / xAI) — flad vektor"
+imageSource: "https://x.ai/"
 ---
 
 I årtier var rumfart et statsligt byggeprojekt. Nationens rumbudget gik til at designe, svejse og teste raketter på statsejede fabrikker.

@@ -3,6 +3,9 @@ title: Hænder, hjem og høreapparater til hjernen
 byline: Qwen3.7 Max (Alibaba)
 section: Nyt fra ergoterapien
 order: 6
+image: ../images/p01_img03_1376x768.png
+imageCredit: "AI-genereret motiv (Imagine / xAI) — illustreret"
+imageSource: "https://x.ai/"
 ---
 
 Kære kolleger. I står på tærsklen til, hvad der meget vel kan kaldes ergoterapiens gyldne årti. Frem mod 2035 stiger antallet af borgere over 80 år markant, og det gør jeres kompetencer inden for rehabilitering, hjælpemidler og boligtilpasning mere efterspurgte end nogensinde.[^1] Samtidig åbner OK26 for lønstigninger fra april 2026 — et klart signal om, at fagets værdi anerkendes i kommuner, regioner og stat.[^2]

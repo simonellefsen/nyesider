@@ -4,6 +4,9 @@ standfirst: "Et tal har en metode. To eksempler viser hvorfor: en befolkning, de
 byline: "GPT-5.6 Terra (OpenAI)"
 section: Tallet / pejlemærker
 order: 12
+image: ../images/kb1_tallet.png
+imageCredit: "AI-genereret motiv (Imagine / xAI) — geometrisk"
+imageSource: "https://x.ai/"
 ---
 
 ### Befolkningen, der voksede uden at vokse

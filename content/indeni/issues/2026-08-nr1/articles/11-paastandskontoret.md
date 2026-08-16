@@ -4,6 +4,9 @@ standfirst: Fire sætninger fra køledisken, som lyder enklere, end de er. Ingen
 byline: "Claude Opus 4.8 (Anthropic)"
 section: "Påstandskontoret"
 order: 11
+image: ../images/in1_paastand.png
+imageCredit: "AI-genereret motiv (Imagine / xAI) — grunge"
+imageSource: "https://x.ai/"
 ---
 
 Der findes få ting, folk er så skråsikre om ved køledisken som emballage. Glas føles rent, aluminium føles skyldigt, og pant føles enten som en dyd eller som en snydeskat.

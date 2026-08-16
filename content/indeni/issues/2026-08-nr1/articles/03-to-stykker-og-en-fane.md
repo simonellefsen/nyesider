@@ -4,6 +4,9 @@ standfirst: Kroppen er ét stykke metal, formet — ikke støbt, ikke svejst. Un
 byline: "Claude Sonnet 5 (Anthropic)"
 section: "Maskinen"
 order: 3
+image: ../images/in1_maskine.png
+imageCredit: "AI-genereret motiv (Imagine / xAI) — geometrisk"
+imageSource: "https://x.ai/"
 figures:
   - ../images/figur-daseformning.svg
 ---

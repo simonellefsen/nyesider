@@ -4,6 +4,9 @@ standfirst: Med finanslovsaftalen er afgiftsstigningerne til 2026 skrinlagt, og 
 byline: GLM-5.2 (Z.ai)
 section: Politik & afgifter
 order: 6
+image: ../images/sp1_afgift.png
+imageCredit: "AI-genereret motiv (Imagine / xAI) — geometrisk"
+imageSource: "https://x.ai/"
 ---
 
 Det er et klassisk politisk paradoks: Man skaber en ubetinget succes, men tør ikke tage konsekvenserne af den. Sådan går det for tiden med den danske elbilafgift. I den seneste finanslovsaftale mellem regeringen og Det Konservative Folkeparti er det nu slået fast, at de planlagte afgiftsstigninger pr. 1. januar 2026 er aflyst.[^1]

@@ -8,11 +8,16 @@
   "pdf": "HORISONTEN_nr1_juli2026.pdf",
   "cover": "images/horisonten_cover.png",
   "images": [
+    "images/ho1_kalender.png",
+    "images/ho1_leder.png",
+    "images/ho1_loeb.png",
+    "images/ho1_praktisk.png",
+    "images/ho1_vin.png",
     "images/horisonten_cover.png",
-    "images/horisonten_vandring.png",
     "images/horisonten_cykling.png",
     "images/horisonten_palma.png",
-    "images/horisonten_strande.png"
+    "images/horisonten_strande.png",
+    "images/horisonten_vandring.png"
   ],
   "productionCostUSD": 0.12,
   "imageCredits": "Illustrationer: Gemini 3 Pro Image (forside) og Gemini 3.1 Flash Image (artikler) via OpenRouter.",
@@ -25,7 +30,10 @@
       "title": "Velkommen til HORISONTEN",
       "section": "Leder",
       "byline": "Claude Fable 5",
-      "standfirst": "Et rejsemagasin om Europa — startende med øen, de fleste tror, de allerede kender."
+      "standfirst": "Et rejsemagasin om Europa — startende med øen, de fleste tror, de allerede kender.",
+      "image": "../images/ho1_leder.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI) — minimalistisk",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "mallorca-udenfor-hoejsaesonen",
@@ -64,7 +72,10 @@
       "title": "Løberuter langs kysten",
       "section": "Løb",
       "byline": "DeepSeek V3.2 (DeepSeek)",
-      "standfirst": "Flad havnepromenade, dramatisk kystrute og et vådområde fuld af fugle — efterårets lange, lyse aftener er ideelle til løb."
+      "standfirst": "Flad havnepromenade, dramatisk kystrute og et vådområde fuld af fugle — efterårets lange, lyse aftener er ideelle til løb.",
+      "image": "../images/ho1_loeb.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI) — organisk",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "palma-byens-puls",
@@ -93,7 +104,10 @@
       "title": "Kalenderen: efterårets begivenheder",
       "section": "Kalenderen",
       "byline": "Qwen3.7 Max (Alibaba)",
-      "standfirst": "Ildfester, kunstnat, vinhøst og bjergmarkeder — seks tilbagevendende begivenheder værd at lægge ruten efter."
+      "standfirst": "Ildfester, kunstnat, vinhøst og bjergmarkeder — seks tilbagevendende begivenheder værd at lægge ruten efter.",
+      "image": "../images/ho1_kalender.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI) — illustreret",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "vinhoest-og-koekken",
@@ -102,7 +116,10 @@
       "title": "Vinhøst og det gode køkken",
       "section": "Mad & Vin",
       "byline": "GLM-5.2 (Z.ai)",
-      "standfirst": "I Binissalem dufter luften af gærende druer fra september. Sådan finder du det Mallorca, der ikke står på turistmenuen."
+      "standfirst": "I Binissalem dufter luften af gærende druer fra september. Sådan finder du det Mallorca, der ikke står på turistmenuen.",
+      "image": "../images/ho1_vin.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI) — organisk",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "praktisk-planlaeg-turen",
@@ -111,7 +128,10 @@
       "title": "Praktisk: sådan planlægger du turen",
       "section": "Praktisk",
       "byline": "Gemini 3.1 Pro (Google)",
-      "standfirst": "Fly, lejebil, budget og pakkeliste — det kedelige, men nødvendige, før du kan nyde det gode."
+      "standfirst": "Fly, lejebil, budget og pakkeliste — det kedelige, men nødvendige, før du kan nyde det gode.",
+      "image": "../images/ho1_praktisk.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI) — flad vektor",
+      "imageSource": "https://x.ai/"
     }
   ]
 }

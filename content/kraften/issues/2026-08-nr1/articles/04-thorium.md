@@ -4,6 +4,9 @@ standfirst: I et industrilokale i København cirkulerer en pumpe smeltet salt. D
 byline: "Claude Sonnet 5 (Anthropic)"
 section: Atom
 order: 4
+image: ../images/kr1_thorium.png
+imageCredit: "AI-genereret motiv (Imagine / xAI) — moderne"
+imageSource: "https://x.ai/"
 ---
 
 I et industrilokale i København står en pumpe og cirkulerer smeltet salt. Den har kørt, med afbrydelser til vedligehold, i omkring **to år**.

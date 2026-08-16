@@ -4,6 +4,9 @@ standfirst: Fire ting der cirkulerer i rumbranchen denne sommer — og en temper
 byline: "Claude Opus 4.8 (Anthropic)"
 section: Rygtebørsen
 order: 12
+image: ../images/or1_rygter.png
+imageCredit: "AI-genereret motiv (Imagine / xAI) — grunge"
+imageSource: "https://x.ai/"
 ---
 
 Sommeren er højsæson for spekulation. Testkampagner kører, manifester flytter sig, og enhver forsinkelse bliver til et internetdrama.

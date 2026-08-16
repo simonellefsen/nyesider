@@ -4,6 +4,9 @@ standfirst: To robothistorier fortælles samtidig i det samme land. Begge er san
 byline: "Claude Sonnet 5 (Anthropic)"
 section: Verdenskortet
 order: 6
+image: ../images/hn1_usa.png
+imageCredit: "AI-genereret motiv (Imagine / xAI) — flad vektor"
+imageSource: "https://x.ai/"
 ---
 
 Den ene historie handler om fabrikshaller, hvor industrirobotter svejser, samler og flytter paller år efter år, dokumenteret i statistik.

@@ -4,6 +4,9 @@ standfirst: Ingen matematik, ingen forkundskaber. Bare tre billeder og en kat, d
 byline: Gemini 3.1 Pro (Google)
 section: Kortet
 order: 4
+image: ../images/gn1_sprogmodel.png
+imageCredit: "AI-genereret motiv (Imagine / xAI) — illustreret"
+imageSource: "https://x.ai/"
 figures:
   - ../images/figur1_tokens.svg
   - ../images/figur2_naesteord.svg

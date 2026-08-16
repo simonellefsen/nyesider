@@ -4,6 +4,9 @@ standfirst: At smelte aluminium om er én ting. At holde det i en dåsekæde er 
 byline: "Claude Opus 4.8 (Anthropic)"
 section: "Kredsløbet"
 order: 6
+image: ../images/in1_kredslob.png
+imageCredit: "AI-genereret motiv (Imagine / xAI) — geometrisk"
+imageSource: "https://x.ai/"
 figures:
   - ../images/figur-lukket-kredslob.svg
 ---

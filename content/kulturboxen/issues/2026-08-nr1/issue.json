@@ -10,16 +10,20 @@
   "coverCredit": "AI-genereret forside (Imagine / xAI) — Georgien, supra, Kaukasus-lys",
   "coverSource": "https://x.ai/",
   "images": [
+    "images/kb1_horisont.png",
+    "images/kb1_leder.png",
+    "images/kb1_myter.png",
+    "images/kb1_tallet.png",
     "images/kulturboxen_cover.png",
-    "images/kulturboxen_tbilisi.png",
-    "images/kulturboxen_supra.png",
-    "images/kulturboxen_marked.png",
-    "images/kulturboxen_kirke.png",
     "images/kulturboxen_dagligdag.png",
     "images/kulturboxen_familie.png",
+    "images/kulturboxen_kirke.png",
+    "images/kulturboxen_marked.png",
     "images/kulturboxen_natteliv.png",
     "images/kulturboxen_penge.png",
     "images/kulturboxen_skat.png",
+    "images/kulturboxen_supra.png",
+    "images/kulturboxen_tbilisi.png",
     "images/kulturboxen_toej.png"
   ],
   "productionCostUSD": 0.6058,
@@ -32,7 +36,10 @@
       "title": "Supra og tillid",
       "standfirst": "Velkommen til KULTURBOXEN — magasinet om, hvordan andre kulturer lever, set fra Danmark. Nr. 1 åbner boksen med Georgien.",
       "section": "Leder",
-      "file": "articles/01-leder.md"
+      "file": "articles/01-leder.md",
+      "image": "../images/kb1_leder.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI) — illustreret",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "kulturen-i-fokus",
@@ -41,7 +48,10 @@
       "standfirst": "Eget sprog, egne bogstaver, egen kirke — og en befolkning, der er dybt uenig med sig selv om retningen. Baggrunden, resten af nummeret hviler på.",
       "section": "Kulturen i fokus (destination / folk)",
       "file": "articles/02-kulturen-i-fokus.md",
-      "byline": "Claude Opus 4.8 (Anthropic)"
+      "byline": "Claude Opus 4.8 (Anthropic)",
+      "image": "../images/kulturboxen_tbilisi.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "supra-og-bordet",
@@ -50,7 +60,10 @@
       "standfirst": "Det georgiske festmåltid er ikke hygge med struktur. Det er struktur, der ligner hygge — og for en dansk gæst er forskellen afgørende.",
       "section": "Spise & drikke",
       "file": "articles/03-supra-og-bordet.md",
-      "byline": "Gemini 3.1 Pro Preview (Google)"
+      "byline": "Gemini 3.1 Pro Preview (Google)",
+      "image": "../images/kulturboxen_supra.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "dagligdag",
@@ -59,7 +72,10 @@
       "standfirst": "Tbilisi vokser, landet tømmes langsomt — men den ene hverdag er ikke moderne og den anden traditionel. De løser forskellige problemer.",
       "section": "Dagligdag & tempo",
       "file": "articles/04-dagligdag.md",
-      "byline": "GPT-5.6 Terra (OpenAI)"
+      "byline": "GPT-5.6 Terra (OpenAI)",
+      "image": "../images/kulturboxen_dagligdag.png",
+      "imageCredit": "AI-genereret flat-illustration (Imagine / xAI) — marshrutka i Tbilisi-agtig gade",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "arbejde",
@@ -68,7 +84,10 @@
       "standfirst": "Lønnen stiger, arbejdsløsheden falder — og en tilflytterklasse med udenlandske lønsedler har sat sig i Tbilisis huslejer.",
       "section": "Arbejde & hierarki",
       "file": "articles/05-arbejde.md",
-      "byline": "Claude Sonnet 5 (Anthropic)"
+      "byline": "Claude Sonnet 5 (Anthropic)",
+      "image": "../images/kulturboxen_marked.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "familie-og-forhold",
@@ -77,7 +96,10 @@
       "standfirst": "Man gifter sig som voksen, bor ofte flere generationer sammen, og siden 2024 bestemmer en lov, hvilke familier staten anerkender.",
       "section": "Parforhold, ægteskab & familie",
       "file": "articles/06-familie-og-forhold.md",
-      "byline": "Claude Opus 4.8 (Anthropic)"
+      "byline": "Claude Opus 4.8 (Anthropic)",
+      "image": "../images/kulturboxen_familie.png",
+      "imageCredit": "AI-genereret organisk illustration (Imagine / xAI) — generationer om bordet",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "natteliv",
@@ -86,7 +108,10 @@
       "standfirst": "Tbilisi blev kendt i Europa for noget, de færreste georgiere gør. Det almindelige sociale liv foregår et andet sted — og har sine egne regler.",
       "section": "Natteliv & socialt liv",
       "file": "articles/07-natteliv.md",
-      "byline": "Gemini 3.1 Pro Preview (Google)"
+      "byline": "Gemini 3.1 Pro Preview (Google)",
+      "image": "../images/kulturboxen_natteliv.png",
+      "imageCredit": "AI-genereret maximalistisk neon-illustration (Imagine / xAI) — Tbilisi-aften",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "ceremonier",
@@ -95,7 +120,10 @@
       "standfirst": "Julen falder 7. januar, påsken sjældent sammen med den danske, og 14. oktober er en fridag uden dansk modstykke.",
       "section": "Ceremonier & ritualer",
       "file": "articles/08-ceremonier.md",
-      "byline": "GPT-5.6 Terra (OpenAI)"
+      "byline": "GPT-5.6 Terra (OpenAI)",
+      "image": "../images/kulturboxen_kirke.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "penge",
@@ -104,7 +132,10 @@
       "standfirst": "En dansk turist og en georgisk lønmodtager står i den samme butik og ser to helt forskellige prisskilte. Og en tiendedel af landets indkomst kommer fra nogen, der er rejst.",
       "section": "Penge, priser & forbrug",
       "file": "articles/09-penge.md",
-      "byline": "Claude Sonnet 5 (Anthropic)"
+      "byline": "Claude Sonnet 5 (Anthropic)",
+      "image": "../images/kulturboxen_penge.png",
+      "imageCredit": "AI-genereret geometrisk illustration (Imagine / xAI) — lari, marked, bjerge",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "skat-og-stat",
@@ -113,7 +144,10 @@
       "standfirst": "Georgien afskaffede hverdagens korruption på rekordtid. Tillid til staten selv er noget andet — og den er under pres i 2026.",
       "section": "Skat, stat & tillid",
       "file": "articles/10-skat-og-stat.md",
-      "byline": "Claude Opus 4.8 (Anthropic)"
+      "byline": "Claude Opus 4.8 (Anthropic)",
+      "image": "../images/kulturboxen_skat.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "toej-og-status",
@@ -122,7 +156,10 @@
       "standfirst": "Samme person, afslappet på caféen og i stiveste puds to dage senere. Det er ikke inkonsekvens — det er en aflæsning af, hvad situationen kræver.",
       "section": "Tøj, udseende & status",
       "file": "articles/11-toej-og-status.md",
-      "byline": "Gemini 3.1 Pro Preview (Google)"
+      "byline": "Gemini 3.1 Pro Preview (Google)",
+      "image": "../images/kulturboxen_toej.png",
+      "imageCredit": "AI-genereret retro-illustration (Imagine / xAI) — chokha møder streetwear",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "tallet",
@@ -131,7 +168,10 @@
       "standfirst": "Et tal har en metode. To eksempler viser hvorfor: en befolkning, der voksede uden at vokse, og et bruttonationalprodukt med tre gange forskel på sig selv.",
       "section": "Tallet / pejlemærker",
       "file": "articles/12-tallet.md",
-      "byline": "GPT-5.6 Terra (OpenAI)"
+      "byline": "GPT-5.6 Terra (OpenAI)",
+      "image": "../images/kb1_tallet.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI) — geometrisk",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "myter",
@@ -140,7 +180,10 @@
       "standfirst": "To af dem holder delvist. Én er forkert i billede, men rigtig i tal. Og den sidste kan vi ikke afgøre — så det siger vi.",
       "section": "Rygtebørsen / myter",
       "file": "articles/13-myter.md",
-      "byline": "Claude Sonnet 5 (Anthropic)"
+      "byline": "Claude Sonnet 5 (Anthropic)",
+      "image": "../images/kb1_myter.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI) — grunge",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "til-horisonten",
@@ -149,7 +192,10 @@
       "standfirst": "Vi har pakket kulturen. Her er det, der er vigtigere end transportmuligheder — og som ingen rejseguide skriver.",
       "section": "Til HORISONTEN (kryds)",
       "file": "articles/14-til-horisonten.md",
-      "byline": "GPT-5.6 Terra (OpenAI)"
+      "byline": "GPT-5.6 Terra (OpenAI)",
+      "image": "../images/kb1_horisont.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI) — minimalistisk",
+      "imageSource": "https://x.ai/"
     }
   ]
 }

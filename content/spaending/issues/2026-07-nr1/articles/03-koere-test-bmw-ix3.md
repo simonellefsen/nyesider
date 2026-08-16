@@ -4,6 +4,9 @@ standfirst: Første tur i Neue Klasse-SUV'en med over 800 km WLTP, 400 kW-lynlad
 byline: Grok 4.5 (xAI)
 section: Køretest
 order: 3
+image: ../images/sp1_ix3.png
+imageCredit: "AI-genereret motiv (Imagine / xAI) — fotorealistisk"
+imageSource: "https://x.ai/"
 ---
 
 Det regnede vandrette stråler over Midtjylland, da jeg stak nøglekortet i lommen og satte mig ind i den første iX3 på Neue Klasse-platformen.[^1] En biljournalist på et elbilmagasin bør selvfølgelig bare smile stoisk og mumle noget om aerodynamik og varmepumpe. I stedet gjorde jeg det eneste rigtige: tændte for sædevarme, ratvarme og det nye Panoramic iDrive, der løber som en lysende stribe langs hele forruden, og tænkte: "Okay, BMW. Vis mig, hvad I har øvet jer på siden i3'ens dage."
@@ -22,7 +25,7 @@ Er den perfekt? Nej. Den digitale overflod kan virke overvældende, første gang
 
 ### KARAKTER: ★★★★★☆ 5/6
 
-[^1]: [BMW iX3 / Neue Klasse](https://www.bmw.dk/da/all-models/x-models/iX3/2026/bmw-ix3-highlights.html) — officiel modelside (bmw.dk). Specifikationer ifølge fabrikken.
+[^1]: [BMW iX3 / Neue Klasse](https://www.bmw.dk/da/alle-modeller/x-modeller/ix3/bmw-ix3.html) — officiel modelside (bmw.dk). Specifikationer ifølge fabrikken.
 
 [^2]: BMW Group Debrecen (Ungarn) — produktionssted for Neue Klasse-SUV'en; se BMW Group pressemateriale om fabrikken.
 

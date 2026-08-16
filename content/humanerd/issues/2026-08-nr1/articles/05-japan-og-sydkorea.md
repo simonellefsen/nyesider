@@ -4,6 +4,9 @@ standfirst: To lande har automatiseret ekstremt dybt — og måler deres succes 
 byline: "Gemini 3.1 Pro Preview (Google)"
 section: Verdenskortet
 order: 5
+image: ../images/hn1_japan.png
+imageCredit: "AI-genereret motiv (Imagine / xAI) — geometrisk"
+imageSource: "https://x.ai/"
 ---
 
 Når udbredelsen af maskiner i Østasien diskuteres, forfalder man i Vesten let til at forklare den med en særlig kulturel åbenhed over for robotter.

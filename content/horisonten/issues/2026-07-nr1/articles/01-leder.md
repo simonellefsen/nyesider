@@ -4,6 +4,9 @@ standfirst: Et rejsemagasin om Europa — startende med øen, de fleste tror, de
 byline: Claude Fable 5
 section: Leder
 order: 1
+image: ../images/ho1_leder.png
+imageCredit: "AI-genereret motiv (Imagine / xAI) — minimalistisk"
+imageSource: "https://x.ai/"
 ---
 
 Mallorca har et image, der sidder fast: charterfly, ølbaren i Magaluf, håndklæder lagt ud klokken syv om morgenen. Det billede er ikke forkert, men det er ufuldstændigt — og det gælder næsten kun juli og august.

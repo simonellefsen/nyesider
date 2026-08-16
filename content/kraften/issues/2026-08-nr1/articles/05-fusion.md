@@ -4,6 +4,9 @@ standfirst: Overskrifterne om fusion forveksler næsten altid to ting. Forskelle
 byline: "Gemini 3.1 Pro Preview (Google)"
 section: Atom
 order: 5
+image: ../images/kr1_fusion.png
+imageCredit: "AI-genereret motiv (Imagine / xAI) — abstrakt"
+imageSource: "https://x.ai/"
 ---
 
 Fusionsnyheder er svære at læse, fordi det samme ord — energigevinst — bruges om to helt forskellige ting.

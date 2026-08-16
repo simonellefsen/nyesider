@@ -10,12 +10,20 @@
   "coverCredit": "AI-genereret forside (OpenAI ImageGen) — redaktionel illustration af humanoid, robotarm og fabriksarbejde",
   "coverSource": "https://openai.com/",
   "images": [
-    "images/humanerd_cover.png",
-    "images/figur-robotstack.svg",
-    "images/figur-fra-pilot-til-drift.svg",
     "images/china-robot-ecosystem.png",
-    "images/warehouse-human-robot.png",
-    "images/home-robot-vacuum.png"
+    "images/figur-fra-pilot-til-drift.svg",
+    "images/figur-robotstack.svg",
+    "images/hn1_europa.png",
+    "images/hn1_hjerne.png",
+    "images/hn1_humanoid.png",
+    "images/hn1_japan.png",
+    "images/hn1_leder.png",
+    "images/hn1_paastand.png",
+    "images/hn1_tallet.png",
+    "images/hn1_usa.png",
+    "images/home-robot-vacuum.png",
+    "images/humanerd_cover.png",
+    "images/warehouse-human-robot.png"
   ],
   "productionCostUSD": 0.4248,
   "imageCredits": "Forside og tre artikelillustrationer er genereret med OpenAI ImageGen; de er redaktionelle illustrationer, ikke dokumentation for bestemte produkter eller anlæg. To forklarende SVG-diagrammer er egenproduktion. Ingen logoer, mærker eller tredjepartsfotos — se images/SOURCES.md.",
@@ -27,7 +35,10 @@
       "order": 1,
       "title": "Først: hvad skal den gøre?",
       "section": "Leder",
-      "standfirst": "Velkommen til HumaNerd — magasinet om robotter, der skal arbejde blandt mennesker. Vi begynder med opgaven, ikke med kroppen."
+      "standfirst": "Velkommen til HumaNerd — magasinet om robotter, der skal arbejde blandt mennesker. Vi begynder med opgaven, ikke med kroppen.",
+      "image": "../images/hn1_leder.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI) — minimalistisk",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "fabrikken-foer-fremtiden",
@@ -37,7 +48,9 @@
       "section": "Fabrikken",
       "byline": "Claude Opus 4.8 (Anthropic)",
       "standfirst": "Før man vurderer en humanoid i en fabrikshal, bør man vide, hvad den konkurrerer med. Konkurrenten har stået ved samlebåndet i årtier.",
-      "image": "../images/warehouse-human-robot.png"
+      "image": "../images/warehouse-human-robot.png",
+      "imageCredit": "AI-genereret illustration (OpenAI ImageGen) — redaktionel, ikke dokumentation for et bestemt anlæg",
+      "imageSource": "https://openai.com/"
     },
     {
       "slug": "naar-robotten-faar-ben",
@@ -46,7 +59,10 @@
       "title": "Sådan læser du en humanoid-annoncering",
       "section": "Humanoiden",
       "byline": "Claude Sonnet 5 (Anthropic)",
-      "standfirst": "Det rigtige spørgsmål er ikke om robotten virker. Det er hvor længe, hvor meget — og hvem der betaler."
+      "standfirst": "Det rigtige spørgsmål er ikke om robotten virker. Det er hvor længe, hvor meget — og hvem der betaler.",
+      "image": "../images/hn1_humanoid.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI) — moderne",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "kinas-testbane",
@@ -56,7 +72,9 @@
       "section": "Verdenskortet",
       "byline": "GPT-5.6 Terra (OpenAI)",
       "standfirst": "Kina køber mere end halvdelen af verdens industrirobotter. Men et marked er ikke det samme som en teknologi — og det mest interessante tal er ikke 295.000.",
-      "image": "../images/china-robot-ecosystem.png"
+      "image": "../images/china-robot-ecosystem.png",
+      "imageCredit": "AI-genereret illustration (OpenAI ImageGen) — redaktionel, ikke dokumentation for et bestemt anlæg",
+      "imageSource": "https://openai.com/"
     },
     {
       "slug": "japan-og-sydkorea",
@@ -65,7 +83,10 @@
       "title": "Japan og Sydkorea: den dybe bund",
       "section": "Verdenskortet",
       "byline": "Gemini 3.1 Pro Preview (Google)",
-      "standfirst": "To lande har automatiseret ekstremt dybt — og måler deres succes på hver sin vægt. Forskellen mellem antal og tæthed er hele pointen."
+      "standfirst": "To lande har automatiseret ekstremt dybt — og måler deres succes på hver sin vægt. Forskellen mellem antal og tæthed er hele pointen.",
+      "image": "../images/hn1_japan.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI) — geometrisk",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "usa-fra-demo-til-skiftplan",
@@ -74,7 +95,10 @@
       "title": "USA: fra demo til skiftplan",
       "section": "Verdenskortet",
       "byline": "Claude Sonnet 5 (Anthropic)",
-      "standfirst": "To robothistorier fortælles samtidig i det samme land. Begge er sande. De er bare ikke lige langt fremme."
+      "standfirst": "To robothistorier fortælles samtidig i det samme land. Begge er sande. De er bare ikke lige langt fremme.",
+      "image": "../images/hn1_usa.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI) — flad vektor",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "europa-koblinger-greb-og-sikkerhed",
@@ -83,7 +107,10 @@
       "title": "Europa: koblinger, greb og sikkerhed",
       "section": "Verdenskortet",
       "byline": "Claude Opus 4.8 (Anthropic)",
-      "standfirst": "Tæller man robotter, taber Europa. Men reglerne, robotterne skal overholde, før de må stå ved siden af et menneske, skrives her."
+      "standfirst": "Tæller man robotter, taber Europa. Men reglerne, robotterne skal overholde, før de må stå ved siden af et menneske, skrives her.",
+      "image": "../images/hn1_europa.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI) — geometrisk",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "hjernens-fem-lag",
@@ -92,7 +119,10 @@
       "title": "Hjernens fem lag",
       "section": "Hjernen",
       "byline": "Gemini 3.1 Pro Preview (Google)",
-      "standfirst": "Fra pixel til motor går en kæde af fem led. Hvert af dem kan knække — og det er dér, en messedemonstration skiller sig fra et arbejdsskift."
+      "standfirst": "Fra pixel til motor går en kæde af fem led. Hvert af dem kan knække — og det er dér, en messedemonstration skiller sig fra et arbejdsskift.",
+      "image": "../images/hn1_hjerne.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI) — geometrisk",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "hjemmet-er-ikke-en-fabrik",
@@ -102,7 +132,9 @@
       "section": "Hjemmet",
       "byline": "GPT-5.6 Terra (OpenAI)",
       "standfirst": "Det lyder bagvendt, men fabrikken er robotternes lette særtilfælde. Hjemmet er det svære — og tre ting bør undersøges, før robotten flytter ind.",
-      "image": "../images/home-robot-vacuum.png"
+      "image": "../images/home-robot-vacuum.png",
+      "imageCredit": "AI-genereret illustration (OpenAI ImageGen) — redaktionel, ikke dokumentation for et bestemt produkt",
+      "imageSource": "https://openai.com/"
     },
     {
       "slug": "tallet",
@@ -111,7 +143,10 @@
       "title": "Tallet: robottæthed, og hvad en brøk kan finde på",
       "section": "Tallet",
       "byline": "GPT-5.6 Terra (OpenAI)",
-      "standfirst": "Kina faldt fra 470 til 166 robotter pr. 10.000 ansatte på ét år. Landet købte samtidig flere robotter end resten af verden tilsammen. Begge dele er sande."
+      "standfirst": "Kina faldt fra 470 til 166 robotter pr. 10.000 ansatte på ét år. Landet købte samtidig flere robotter end resten af verden tilsammen. Begge dele er sande.",
+      "image": "../images/hn1_tallet.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI) — geometrisk",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "paastandskontoret",
@@ -120,7 +155,10 @@
       "title": "Påstandskontoret",
       "section": "Påstandskontoret",
       "byline": "Claude Opus 4.8 (Anthropic)",
-      "standfirst": "Fire påstande, der hverken er helt sande eller helt falske. De falder fra hinanden, når man spørger hvornår, hvor og hvor længe."
+      "standfirst": "Fire påstande, der hverken er helt sande eller helt falske. De falder fra hinanden, når man spørger hvornår, hvor og hvor længe.",
+      "image": "../images/hn1_paastand.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI) — abstrakt",
+      "imageSource": "https://x.ai/"
     }
   ]
 }

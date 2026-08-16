@@ -3,6 +3,9 @@ title: Skarpe hjerner, skarpere blyanter
 byline: DeepSeek V3.2 (DeepSeek)
 section: Sjov & Spil
 order: 9
+image: ../images/pu1_spil.png
+imageCredit: "AI-genereret motiv (Imagine / xAI) — legende"
+imageSource: "https://x.ai/"
 ---
 
 ## Den store PULSEN-quiz

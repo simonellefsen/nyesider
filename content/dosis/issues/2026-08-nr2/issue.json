@@ -10,17 +10,17 @@
   "coverCredit": "AI-genereret forside (Imagine / xAI) — GLP-1 / appetit-tema",
   "coverSource": "https://x.ai/",
   "images": [
+    "images/dosis2_glp1.png",
+    "images/dosis2_rygteboers.png",
+    "images/dosis_bivirkninger.png",
     "images/dosis_cover.png",
-    "images/dosis_glp1.png",
     "images/dosis_glp1_tallerken.png",
     "images/dosis_glp1_wearable.png",
-    "images/dosis_leder.png",
-    "images/dosis_bivirkninger.png",
     "images/dosis_hype.png",
+    "images/dosis_leder.png",
+    "images/dosis_pulsen.png",
     "images/dosis_styrke.png",
-    "images/dosis_tallet.png",
-    "images/dosis_ordbog.png",
-    "images/dosis_pulsen.png"
+    "images/dosis_tallet.png"
   ],
   "productionCostUSD": 0.5131,
   "imageCredits": "Alle motiver AI-genereret via Imagine (xAI). Ingen lægemiddel-logoer. Se SOURCES.md.",
@@ -32,7 +32,10 @@
       "order": 1,
       "title": "Appetitten under kontrol",
       "section": "Leder",
-      "standfirst": "Et nummer om receptpligtig medicin kræver strammere regler end et nummer om protein. Her er de fire, vi har holdt os til."
+      "standfirst": "Et nummer om receptpligtig medicin kræver strammere regler end et nummer om protein. Her er de fire, vi har holdt os til.",
+      "image": "../images/dosis_leder.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI) — flad vektor",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "hvad-er-glp1",
@@ -41,7 +44,10 @@
       "title": "GLP-1, oversat til dansk: hvad det er — og hvad det ikke er",
       "section": "Gennembrud & forskning",
       "byline": "Claude Opus 4.8 (Anthropic)",
-      "standfirst": "Bag markedsføringsstøjen ligger et ganske almindeligt stykke kropskemi. Tre virkninger, ét hormon — og en receptpligt, der ofte forsvinder i omtalen."
+      "standfirst": "Bag markedsføringsstøjen ligger et ganske almindeligt stykke kropskemi. Tre virkninger, ét hormon — og en receptpligt, der ofte forsvinder i omtalen.",
+      "image": "../images/dosis2_glp1.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI) — geometrisk",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "ernaering-under-behandling",
@@ -50,7 +56,10 @@
       "title": "Når appetitten forsvinder: det, ingen fortæller om tallerkenen",
       "section": "Ernæring & kost",
       "byline": "Claude Sonnet 5 (Anthropic)",
-      "standfirst": "Behandlingen gør det ikke bare nemt at spise mindre. Den gør det nemt at spise forkert lidt — og at lade være med at opdage det."
+      "standfirst": "Behandlingen gør det ikke bare nemt at spise mindre. Den gør det nemt at spise forkert lidt — og at lade være med at opdage det.",
+      "image": "../images/dosis_glp1_tallerken.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI) — organisk",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "bivirkninger",
@@ -59,7 +68,10 @@
       "title": "Kvalme, mave og ét sjældent øjenvarsel",
       "section": "Sikkerhed & bivirkninger",
       "byline": "Claude Opus 4.8 (Anthropic)",
-      "standfirst": "Ét studie siger «fordoblet risiko». Myndigheden siger «meget sjælden». Begge dele er rigtige — og forskellen er det mest brugbare, du kan tage med fra dette nummer."
+      "standfirst": "Ét studie siger «fordoblet risiko». Myndigheden siger «meget sjælden». Begge dele er rigtige — og forskellen er det mest brugbare, du kan tage med fra dette nummer.",
+      "image": "../images/dosis_bivirkninger.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI) — illustreret",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "hype-og-adgang",
@@ -68,7 +80,10 @@
       "title": "Adgang, penge og hype — den danske virkelighed",
       "section": "Longevity & aldring",
       "byline": "Gemini 3.1 Pro Preview (Google)",
-      "standfirst": "For dem inden for indikationen er det en dokumenteret behandling. Den betales bare af patienten selv, og det gør helbred til et spørgsmål om økonomi."
+      "standfirst": "For dem inden for indikationen er det en dokumenteret behandling. Den betales bare af patienten selv, og det gør helbred til et spørgsmål om økonomi.",
+      "image": "../images/dosis_hype.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI) — maksimalistisk",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "protein-styrke",
@@ -77,7 +92,10 @@
       "title": "GLP-1 æder ikke bare muskler — men vægttab er heller ikke gratis",
       "section": "Protein & træning",
       "byline": "GPT-5.6 Terra (OpenAI)",
-      "standfirst": "Den fedtfri masse falder i kilo. Andelen stiger. Begge dele er sande, og forskellen er hele pointen."
+      "standfirst": "Den fedtfri masse falder i kilo. Andelen stiger. Begge dele er sande, og forskellen er hele pointen.",
+      "image": "../images/dosis_styrke.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI) — maskulin",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "wearables-glp1",
@@ -86,7 +104,10 @@
       "title": "Når badevægten leger læge",
       "section": "Wearables & hjemmetests",
       "byline": "Gemini 3.1 Pro Preview (Google)",
-      "standfirst": "Forskellen på hvad et apparat måler og hvad det konkluderer gælder dobbelt her — for netop væskebalancen kan svinge under behandling."
+      "standfirst": "Forskellen på hvad et apparat måler og hvad det konkluderer gælder dobbelt her — for netop væskebalancen kan svinge under behandling.",
+      "image": "../images/dosis_glp1_wearable.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI) — 3D",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "tallet",
@@ -95,7 +116,10 @@
       "title": "Tallet: hvem gælder tallet for?",
       "section": "Laboratoriet / tallet",
       "byline": "GPT-5.6 Terra (OpenAI)",
-      "standfirst": "Et lægemiddeltal er aldrig bare et tal. Det afhænger af, hvem der blev målt, hvor længe — og om det kommer fra et forsøg, et register eller en indlægsseddel."
+      "standfirst": "Et lægemiddeltal er aldrig bare et tal. Det afhænger af, hvem der blev målt, hvor længe — og om det kommer fra et forsøg, et register eller en indlægsseddel.",
+      "image": "../images/dosis_tallet.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI) — geometrisk",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "rygteboersen",
@@ -104,7 +128,10 @@
       "title": "Fire GLP-1-påstande, afmonteret",
       "section": "Rygtebørsen",
       "byline": "Claude Sonnet 5 (Anthropic)",
-      "standfirst": "Debatten er fyldt med skarpe overskrifter og lidt for lidt læsning af de faktiske myndighedstekster. Skepsis er sund — også over for skepsissen selv."
+      "standfirst": "Debatten er fyldt med skarpe overskrifter og lidt for lidt læsning af de faktiske myndighedstekster. Skepsis er sund — også over for skepsissen selv.",
+      "image": "../images/dosis2_rygteboers.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI) — grunge",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "til-pulsen",
@@ -113,7 +140,10 @@
       "title": "Når din dosis bliver systemets problem",
       "section": "Kryds (PULSEN m.fl.)",
       "byline": "Gemini 3.1 Pro Preview (Google)",
-      "standfirst": "DOSIS dækker kroppen, PULSEN dækker sektoren. GLP-1 er lige nu det tydeligste sted, hvor de to støder sammen."
+      "standfirst": "DOSIS dækker kroppen, PULSEN dækker sektoren. GLP-1 er lige nu det tydeligste sted, hvor de to støder sammen.",
+      "image": "../images/dosis_pulsen.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI) — corporate",
+      "imageSource": "https://x.ai/"
     }
   ]
 }

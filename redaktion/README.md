@@ -118,7 +118,17 @@ Skabelon: [`.env.example`](../.env.example). Alle `.env*` er gitignored. Webappe
 
 ## Billeder (copyright-politik)
 
+**Hver artikel skal have et billede.** Aftalt med ejeren 2026-08-16 og gælder alle titler og alle
+numre — ikke en beslutning, der tages nummer for nummer. Bagsnit må dele ét motiv (se nedenfor),
+men ingen artikel udkommer uden.
+
 **Standard: generér selv via xAI Imagine** med `XAI_API_KEY` fra `.env.local` (Grok Build `image_gen` / Imagine API). Undgår stock- og pressefoto-copyright. Brug `production/generate_image.py` (se `--list-styles`) — den holder styr på stilkatalog og husregler i prompten.
+
+- **`issue.json` skal bære `image`, `imageCredit` og `imageSource` med over fra frontmatter.** Et
+  script, der genopbygger artikellisten uden de felter, af-billeder et helt nummer i stilhed — det
+  skete for KULTURBOXEN nr. 1 den 2026-08-09 og blev først opdaget tre numre senere.
+- **Kig i `images/` for ubrugte filer, før du genererer.** Tidligere udgaver af et nummer efterlader
+  ofte motiver, der passer præcis til emnet og bare skal kobles på.
 
 - **Varier stilart bevidst — fotorealisme er ét valg blandt mange, ikke standarden.** Skribenter og chefredaktør skal aktivt overveje [The Noun Project's 17 grafiske designstile](https://blog.thenounproject.com/graphic-design-styles/) (minimalisme, maksimalisme, typografisk, retro, abstrakt, geometrisk, flad vektor, 3D, organisk, moderne, corporate, illustreret, legende, feminin, maskulin, grunge, fotorealisme) og vælge den stil, der passer *emnet* i den enkelte artikel — fx flad vektor til et enkelt sammenligningsmotiv, maksimalisme til en overvældende "jungle" af valgmuligheder, geometrisk til et data-tungt "Tallet". Et helt nummer i samme fotorealistiske stil er en smagsfejl, ikke et neutralt valg.
 - Prompt: motiver uden logoer, uden læsbar skiltetekst; stil tilpasset både titlen og den enkelte artikels emne (se ovenfor).

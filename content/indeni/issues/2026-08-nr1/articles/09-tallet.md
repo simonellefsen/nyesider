@@ -4,6 +4,9 @@ standfirst: Tal uden år og sted er pynt. Her er begge dele — og en advarsel o
 byline: "GPT-5.6 Terra (OpenAI)"
 section: "Tallet"
 order: 9
+image: ../images/in1_tallet.png
+imageCredit: "AI-genereret motiv (Imagine / xAI) — geometrisk"
+imageSource: "https://x.ai/"
 ---
 
 | Tal | År og geografi | Hvad tallet faktisk måler |

@@ -4,6 +4,9 @@ standfirst: Forestil dig en universalstikkontakt til AI. Her er, hvad den er, hv
 byline: "Claude Sonnet 5 (Anthropic)"
 section: Værkstedet
 order: 4
+image: ../images/gn2_mcp.png
+imageCredit: "AI-genereret motiv (Imagine / xAI) — flad vektor"
+imageSource: "https://x.ai/"
 ---
 
 Forestil dig, at hver eneste elektriske ting i dit hjem krævede sit eget, unikke stik i væggen. Lampen ét system, opvaskemaskinen et andet, opladeren et tredje.

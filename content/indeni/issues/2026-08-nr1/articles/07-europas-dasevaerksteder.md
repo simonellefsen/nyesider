@@ -4,6 +4,9 @@ standfirst: Dåsefabrikkerne følger forbrugerne. Omsmeltningen følger skrottet
 byline: "Claude Sonnet 5 (Anthropic)"
 section: "Europa"
 order: 7
+image: ../images/in1_europa.png
+imageCredit: "AI-genereret motiv (Imagine / xAI) — moderne"
+imageSource: "https://x.ai/"
 ---
 
 Åbn en dåse, og du holder med stor sandsynlighed et stykke aluminium, der har været dåse før.

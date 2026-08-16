@@ -3,6 +3,9 @@ title: "Appetitten under kontrol"
 standfirst: Et nummer om receptpligtig medicin kræver strammere regler end et nummer om protein. Her er de fire, vi har holdt os til.
 section: Leder
 order: 1
+image: ../images/dosis_leder.png
+imageCredit: "AI-genereret motiv (Imagine / xAI) — flad vektor"
+imageSource: "https://x.ai/"
 ---
 
 Der findes få emner, hvor afstanden mellem den offentlige samtale og det, der faktisk står i myndighedernes tekster, er så stor som ved GLP-1.

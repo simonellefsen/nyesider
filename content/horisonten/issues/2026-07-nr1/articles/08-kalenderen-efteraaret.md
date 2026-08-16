@@ -4,6 +4,9 @@ standfirst: Ildfester, kunstnat, vinhøst og bjergmarkeder — seks tilbagevende
 byline: Qwen3.7 Max (Alibaba)
 section: Kalenderen
 order: 8
+image: ../images/ho1_kalender.png
+imageCredit: "AI-genereret motiv (Imagine / xAI) — illustreret"
+imageSource: "https://x.ai/"
 ---
 
 ## Sant Bartomeu og sommerens ildfester

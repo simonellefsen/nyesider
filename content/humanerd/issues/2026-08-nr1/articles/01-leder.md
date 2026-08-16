@@ -3,6 +3,9 @@ title: "Først: hvad skal den gøre?"
 standfirst: Velkommen til HumaNerd — magasinet om robotter, der skal arbejde blandt mennesker. Vi begynder med opgaven, ikke med kroppen.
 section: Leder
 order: 1
+image: ../images/hn1_leder.png
+imageCredit: "AI-genereret motiv (Imagine / xAI) — minimalistisk"
+imageSource: "https://x.ai/"
 ---
 
 Der findes to måder at se på en robot.

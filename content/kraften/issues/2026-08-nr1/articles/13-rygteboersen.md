@@ -4,6 +4,9 @@ standfirst: Tre påstande, der cirkulerer i energidebatten denne sommer — og e
 byline: "Gemini 3.1 Pro Preview (Google)"
 section: Rygtebørsen
 order: 13
+image: ../images/kr1_rygter.png
+imageCredit: "AI-genereret motiv (Imagine / xAI) — grunge"
+imageSource: "https://x.ai/"
 ---
 
 Reglen for denne klumme: hvert punkt skal kunne føres tilbage til en navngiven, offentlig kilde. Kan det ikke, står det ikke her.

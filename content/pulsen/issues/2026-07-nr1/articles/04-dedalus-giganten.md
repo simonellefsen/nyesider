@@ -3,6 +3,9 @@ title: Giganten du aldrig har hørt om
 byline: Mistral Large (Mistral AI)
 section: Feature
 order: 4
+image: ../images/pu1_dedalus.png
+imageCredit: "AI-genereret motiv (Imagine / xAI) — moderne"
+imageSource: "https://x.ai/"
 ---
 
 Mens de store amerikanske EPJ-giganter dominerer overskrifterne, arbejder en europæisk kæmpe i det stille på at forme fremtidens elektroniske patientjournaler. Dedalus er måske ikke et velkendt navn i danske hospitalsgange, men har i årevis været en af kontinentets mest indflydelsesrige aktører inden for sundhedsit.[^1]

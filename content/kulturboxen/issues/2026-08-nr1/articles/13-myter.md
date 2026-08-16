@@ -4,6 +4,9 @@ standfirst: To af dem holder delvist. Én er forkert i billede, men rigtig i tal
 byline: "Claude Sonnet 5 (Anthropic)"
 section: Rygtebørsen / myter
 order: 13
+image: ../images/kb1_myter.png
+imageCredit: "AI-genereret motiv (Imagine / xAI) — grunge"
+imageSource: "https://x.ai/"
 ---
 
 En dansk læser møder sjældent Georgien uden et par faste billeder i bagagen: landet hvor alle drikker, «Rusland light» under et andet navn, den grænseløse gæstfrihed — og et land, der er farligere, end det er.

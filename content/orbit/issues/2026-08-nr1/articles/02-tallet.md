@@ -4,6 +4,9 @@ standfirst: 324 orbitale opsendelsesforsøg i 2025. Men tallet er en optællings
 byline: "GPT-5.6 Terra (OpenAI)"
 section: Tallet
 order: 2
+image: ../images/or1_tallet.png
+imageCredit: "AI-genereret motiv (Imagine / xAI) — geometrisk"
+imageSource: "https://x.ai/"
 ---
 
 **324 orbitale opsendelsesforsøg i 2025** lyder som en hård, fysisk kendsgerning: så mange raketter fløj, færdig.

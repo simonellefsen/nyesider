@@ -3,6 +3,9 @@ title: Lyt engang
 byline: Claude Fable 5
 section: Leder
 order: 1
+image: ../images/p01_img04_896x1200.png
+imageCredit: "AI-genereret motiv (Imagine / xAI) — flad vektor"
+imageSource: "https://x.ai/"
 ---
 
 Der sker noget bemærkelsesværdigt i det danske sundhedsvæsen netop nu. Efter årtier, hvor hver ny teknologi føltes som endnu et skærmbillede mellem behandler og patient, er den nyeste generation af værktøjer bygget til det modsatte: at trække sig tilbage. Journalen, der skriver sig selv, mens lægen holder øjenkontakt.[^1] Røntgenalgoritmen, der sender folk hjem, før ventetiden æder aftenen. En dansk sprogmodel, der forstår, hvad en overlæge faktisk mumler ind i diktafonen.[^2]

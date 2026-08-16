@@ -4,6 +4,9 @@ standfirst: To akter, én kopiér-indsæt-øvelse. Først finder du ud af, hvad 
 byline: "Claude Sonnet 5 (Anthropic)"
 section: Månedens prompt
 order: 6
+image: ../images/gn2_prompt.png
+imageCredit: "AI-genereret motiv (Imagine / xAI) — typografisk"
+imageSource: "https://x.ai/"
 ---
 
 Første akt afslører, hvad din assistent kan lige nu — ikke hvad den generelt siger, den kan. Anden akt bruger den til noget konkret.

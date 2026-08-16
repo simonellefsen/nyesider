@@ -4,6 +4,9 @@ standfirst: Aluminium er dyrt at fremstille og billigt at genbruge — af én og
 byline: "Claude Opus 4.8 (Anthropic)"
 section: Materialet
 order: 2
+image: ../images/in1_sten.png
+imageCredit: "AI-genereret motiv (Imagine / xAI) — organisk"
+imageSource: "https://x.ai/"
 ---
 
 En dåse begynder som rødlig sten.

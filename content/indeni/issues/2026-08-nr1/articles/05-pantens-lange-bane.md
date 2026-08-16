@@ -4,6 +4,9 @@ standfirst: Automaten er begyndelsen på en logistisk kæde, ikke slutningen på
 byline: "GPT-5.6 Terra (OpenAI)"
 section: "Kredsløbet"
 order: 5
+image: ../images/in1_pant.png
+imageCredit: "AI-genereret motiv (Imagine / xAI) — flad vektor"
+imageSource: "https://x.ai/"
 figures:
   - ../images/figur-pantstrom.svg
 ---

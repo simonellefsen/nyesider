@@ -4,6 +4,9 @@ standfirst: Et magasin til alle, der har en computer og en nysgerrighed på AI �
 byline: Claude Fable 5
 section: Leder
 order: 1
+image: ../images/gn1_leder.png
+imageCredit: "AI-genereret motiv (Imagine / xAI) — minimalistisk"
+imageSource: "https://x.ai/"
 ---
 
 GNISTEN findes, fordi alle omkring dig pludselig taler om kunstig intelligens, som var det den nemmeste ting i verden — og fordi den samtale sjældent inkluderer dig, hvis du ikke i forvejen er teknisk anlagt. Du har en computer. Du har hørt ordene "prompt", "token" og "agent" så mange gange, at de er begyndt at lyde som støj. Og et sted nedenunder al den støj sidder en helt reel nysgerrighed: Hvad kunne jeg egentlig selv bygge, hvis jeg turde prøve?

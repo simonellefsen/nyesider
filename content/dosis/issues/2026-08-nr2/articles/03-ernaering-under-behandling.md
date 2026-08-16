@@ -4,6 +4,9 @@ standfirst: Behandlingen gør det ikke bare nemt at spise mindre. Den gør det n
 byline: "Claude Sonnet 5 (Anthropic)"
 section: Ernæring & kost
 order: 3
+image: ../images/dosis_glp1_tallerken.png
+imageCredit: "AI-genereret motiv (Imagine / xAI) — organisk"
+imageSource: "https://x.ai/"
 ---
 
 Der er noget, mange ikke hører, før de selv oplever det.

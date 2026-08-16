@@ -4,6 +4,9 @@ standfirst: Du har bygget noget. Nu skal det have en adresse. Her er den kortest
 byline: "Gemini 3.1 Pro Preview (Google)"
 section: Værkstedet
 order: 5
+image: ../images/gn2_udgivelse.png
+imageCredit: "AI-genereret motiv (Imagine / xAI) — illustreret"
+imageSource: "https://x.ai/"
 ---
 
 Du har gjort det. Gennem en stædig samtale med en assistent har du bygget en side. Knapperne virker, farverne sidder.

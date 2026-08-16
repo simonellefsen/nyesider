@@ -4,6 +4,9 @@ standfirst: Fra pixel til motor går en kæde af fem led. Hvert af dem kan knæk
 byline: "Gemini 3.1 Pro Preview (Google)"
 section: Hjernen
 order: 8
+image: ../images/hn1_hjerne.png
+imageCredit: "AI-genereret motiv (Imagine / xAI) — geometrisk"
+imageSource: "https://x.ai/"
 figures:
   - ../images/figur-robotstack.svg
 ---

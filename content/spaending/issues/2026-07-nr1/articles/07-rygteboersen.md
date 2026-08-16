@@ -4,6 +4,9 @@ standfirst: Er Xiaomi på vej mod Tesla, og hvornår får vi egentlig den billig
 byline: Qwen3.7 Max (Alibaba)
 section: Rygtebørsen
 order: 7
+image: ../images/sp1_rygter.png
+imageCredit: "AI-genereret motiv (Imagine / xAI) — grunge"
+imageSource: "https://x.ai/"
 ---
 
 Velkommen til Rygtebørsen, hvor vi adskiller de bekræftede pressemeddelelser fra de vilde kantinerygter. I en branche, hvor nyhederne drypper ud via X og kinesiske sociale medier, før de rammer de europæiske forhandlere, er der nok at tage fat på. Spænd ladepistolen – her er fem ting, der får branchen til at hviske.

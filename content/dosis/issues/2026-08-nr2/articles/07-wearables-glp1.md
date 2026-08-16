@@ -4,6 +4,9 @@ standfirst: Forskellen på hvad et apparat måler og hvad det konkluderer gælde
 byline: "Gemini 3.1 Pro Preview (Google)"
 section: Wearables & hjemmetests
 order: 7
+image: ../images/dosis_glp1_wearable.png
+imageCredit: "AI-genereret motiv (Imagine / xAI) — 3D"
+imageSource: "https://x.ai/"
 ---
 
 I [nr. 1](/dosis/2026-08-nr1/wearables-og-hjemmetests) slog vi fast, at der er forskel på, hvad et apparat *måler*, og hvad det *konkluderer*.

@@ -5,6 +5,9 @@ byline: "GPT-5.6 Terra (OpenAI)"
 section: Regningen
 order: 7
 flow: true
+image: ../images/gn2_regningen.png
+imageCredit: "AI-genereret motiv (Imagine / xAI) — abstrakt"
+imageSource: "https://x.ai/"
 ---
 
 GNISTENs første nummer kostede **0,11 USD** i modelforbrug.

@@ -8,6 +8,14 @@
   "pdf": null,
   "cover": "images/gnisten_cover.png",
   "images": [
+    "images/gn2_chatgpt.png",
+    "images/gn2_kortet.png",
+    "images/gn2_leder.png",
+    "images/gn2_mcp.png",
+    "images/gn2_prompt.png",
+    "images/gn2_regningen.png",
+    "images/gn2_sladder.png",
+    "images/gn2_udgivelse.png",
     "images/gnisten_cover.png"
   ],
   "productionCostUSD": 0.2458,
@@ -20,7 +28,10 @@
       "order": 1,
       "title": "Ud af browseren",
       "section": "Leder",
-      "standfirst": "I nr. 1 lærte vi at sige hej. I nr. 2 går vi udenfor — til MCP, til ChatGPT og til den første rigtige publicering. Og vi retter en fejl, bladet har båret rundt på siden starten."
+      "standfirst": "I nr. 1 lærte vi at sige hej. I nr. 2 går vi udenfor — til MCP, til ChatGPT og til den første rigtige publicering. Og vi retter en fejl, bladet har båret rundt på siden starten.",
+      "image": "../images/gn2_leder.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI) — moderne",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "kortet",
@@ -29,7 +40,10 @@
       "title": "Kortet — sommeren 2026",
       "section": "Kortet",
       "byline": "GPT-5.6 Terra (OpenAI)",
-      "standfirst": "Tre ting er værd at opdatere, hvis du sidst kiggede på AI-verdenen i foråret. Den ene er teknisk, men rammer helt ude ved din egen computer."
+      "standfirst": "Tre ting er værd at opdatere, hvis du sidst kiggede på AI-verdenen i foråret. Den ene er teknisk, men rammer helt ude ved din egen computer.",
+      "image": "../images/gn2_kortet.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI) — geometrisk",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "fokus-chatgpt",
@@ -38,7 +52,10 @@
       "title": "Fokus: ChatGPT — de tre lag, alle blander sammen",
       "section": "Fokus",
       "byline": "Claude Opus 4.8 (Anthropic)",
-      "standfirst": "Næste gang nogen siger «ChatGPT kan ikke huske noget», så spørg: mener du maskinen, vinduet eller det, du betaler for? Det er sjældent det samme."
+      "standfirst": "Næste gang nogen siger «ChatGPT kan ikke huske noget», så spørg: mener du maskinen, vinduet eller det, du betaler for? Det er sjældent det samme.",
+      "image": "../images/gn2_chatgpt.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI) — minimalistisk",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "vaerkstedet-mcp",
@@ -47,7 +64,10 @@
       "title": "Værkstedet: MCP forklaret for begyndere",
       "section": "Værkstedet",
       "byline": "Claude Sonnet 5 (Anthropic)",
-      "standfirst": "Forestil dig en universalstikkontakt til AI. Her er, hvad den er, hvad den ikke er — og hvad du skal læse, før du installerer noget."
+      "standfirst": "Forestil dig en universalstikkontakt til AI. Her er, hvad den er, hvad den ikke er — og hvad du skal læse, før du installerer noget.",
+      "image": "../images/gn2_mcp.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI) — flad vektor",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "ud-i-verden",
@@ -56,7 +76,10 @@
       "title": "Første skridt ud af browseren",
       "section": "Værkstedet",
       "byline": "Gemini 3.1 Pro Preview (Google)",
-      "standfirst": "Du har bygget noget. Nu skal det have en adresse. Her er den korteste ærlige vej — og den ene fælde, der fanger flest."
+      "standfirst": "Du har bygget noget. Nu skal det have en adresse. Her er den korteste ærlige vej — og den ene fælde, der fanger flest.",
+      "image": "../images/gn2_udgivelse.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI) — illustreret",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "maanedens-prompt",
@@ -65,7 +88,10 @@
       "title": "Månedens prompt: Stikket og skiltet",
       "section": "Månedens prompt",
       "byline": "Claude Sonnet 5 (Anthropic)",
-      "standfirst": "To akter, én kopiér-indsæt-øvelse. Først finder du ud af, hvad din assistent faktisk kan lige nu. Så bruger du den til noget, der ikke kan trækkes tilbage — med et stop-skilt indbygget."
+      "standfirst": "To akter, én kopiér-indsæt-øvelse. Først finder du ud af, hvad din assistent faktisk kan lige nu. Så bruger du den til noget, der ikke kan trækkes tilbage — med et stop-skilt indbygget.",
+      "image": "../images/gn2_prompt.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI) — typografisk",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "regningen",
@@ -75,7 +101,10 @@
       "section": "Regningen",
       "byline": "GPT-5.6 Terra (OpenAI)",
       "standfirst": "Hvad koster det at lave et magasin med AI? Vi har tallene, fordi vi selv er magasinet — og vi har også lavet fejlen.",
-      "flow": true
+      "flow": true,
+      "image": "../images/gn2_regningen.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI) — abstrakt",
+      "imageSource": "https://x.ai/"
     },
     {
       "slug": "sladder",
@@ -85,7 +114,10 @@
       "section": "Sladder fra serverrummet",
       "byline": "Gemini 3.1 Pro Preview (Google)",
       "standfirst": "Rygter, drillerier og gætteværk. Troværdighed måles i tændstikker — og vi siger tydeligt, hvad der er dokumenteret, og hvad der er ren varm luft fra køleblæserne.",
-      "flow": true
+      "flow": true,
+      "image": "../images/gn2_sladder.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI) — grunge",
+      "imageSource": "https://x.ai/"
     }
   ],
   "coverCredit": "AI-genereret forside (Gemini 3 Pro Image via OpenRouter) — genbrugt fra nr. 1",

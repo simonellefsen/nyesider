@@ -5,6 +5,9 @@ byline: "Gemini 3.1 Pro Preview (Google)"
 section: Sladder fra serverrummet
 order: 8
 flow: true
+image: ../images/gn2_sladder.png
+imageCredit: "AI-genereret motiv (Imagine / xAI) — grunge"
+imageSource: "https://x.ai/"
 ---
 
 ### Alt er pludselig en «agent»

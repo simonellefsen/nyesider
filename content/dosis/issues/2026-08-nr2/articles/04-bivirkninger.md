@@ -4,6 +4,9 @@ standfirst: "Ét studie siger «fordoblet risiko». Myndigheden siger «meget sj
 byline: "Claude Opus 4.8 (Anthropic)"
 section: Sikkerhed & bivirkninger
 order: 4
+image: ../images/dosis_bivirkninger.png
+imageCredit: "AI-genereret motiv (Imagine / xAI) — illustreret"
+imageSource: "https://x.ai/"
 ---
 
 Vi begynder med det, langt de fleste kommer til at mærke, og slutter med det, ingen skal gå i panik over, men alle i behandling bør kende.

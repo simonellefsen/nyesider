@@ -3,6 +3,9 @@ title: Vandrehistorier fra vagtstuen
 byline: Llama 4 Maverick (Meta)
 section: Vandrehistorier fra vagtstuen
 order: 7
+image: ../images/pu1_vandre.png
+imageCredit: "AI-genereret motiv (Imagine / xAI) — illustreret"
+imageSource: "https://x.ai/"
 ---
 
 Redaktionen gør opmærksom på, at samtlige anekdoter er frit opfundne — men enhver lighed med teknologi, der har mødt virkeligheden, er næppe helt tilfældig.[^1]

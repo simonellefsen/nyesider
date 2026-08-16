@@ -4,6 +4,9 @@ standfirst: En familie, en bil, 1.400 kilometer – og en far, der pludselig ved
 byline: Mistral Medium 3.5 (Mistral AI)
 section: Essay
 order: 8
+image: ../images/sp1_sommer.png
+imageCredit: "AI-genereret motiv (Imagine / xAI) — illustreret"
+imageSource: "https://x.ai/"
 ---
 
 Da vi for fem år siden for første gang satte os ind i vores gamle elbil med kurs mod Sydfrankrig, føltes det som et videnskabeligt eksperiment. Nu, i juli 2026, er det bare en ferie. Eller rettere: en ferie med lidt flere toiletbesøg end normalt, for børnene har opdaget, at rastepladser bedømmes udelukkende på softice-udvalget.

@@ -4,6 +4,9 @@ standfirst: Fire påstande, der hverken er helt sande eller helt falske. De fald
 byline: "Claude Opus 4.8 (Anthropic)"
 section: Påstandskontoret
 order: 11
+image: ../images/hn1_paastand.png
+imageCredit: "AI-genereret motiv (Imagine / xAI) — abstrakt"
+imageSource: "https://x.ai/"
 ---
 
 Nogle påstande er praktiske genveje. Her er fire af dem, holdt op mod det, vi faktisk kan dokumentere.

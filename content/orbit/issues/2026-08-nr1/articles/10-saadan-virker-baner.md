@@ -4,6 +4,9 @@ standfirst: Tre etager over Jorden, tre jobbeskrivelser. Hvorfor ligger GPS ikke
 byline: "Claude Sonnet 5 (Anthropic)"
 section: Sådan virker det
 order: 10
+image: ../images/or1_baner.png
+imageCredit: "AI-genereret motiv (Imagine / xAI) — geometrisk"
+imageSource: "https://x.ai/"
 figures:
   - ../images/figur_baner.svg
 ---

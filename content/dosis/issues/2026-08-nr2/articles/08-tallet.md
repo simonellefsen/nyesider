@@ -4,6 +4,9 @@ standfirst: Et lægemiddeltal er aldrig bare et tal. Det afhænger af, hvem der 
 byline: "GPT-5.6 Terra (OpenAI)"
 section: Laboratoriet / tallet
 order: 8
+image: ../images/dosis_tallet.png
+imageCredit: "AI-genereret motiv (Imagine / xAI) — geometrisk"
+imageSource: "https://x.ai/"
 ---
 
 | Pejlemærke | Tal | År | Hvem tallet gælder | Kilde |

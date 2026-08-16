@@ -4,6 +4,9 @@ standfirst: Mellem drikkevaren og metallet sidder et lag polymer på få mikrome
 byline: "Gemini 3.1 Pro Preview (Google)"
 section: "Brugen"
 order: 4
+image: ../images/in1_lag.png
+imageCredit: "AI-genereret motiv (Imagine / xAI) — abstrakt"
+imageSource: "https://x.ai/"
 ---
 
 Uden den indvendige lak ville en sodavand angribe aluminiummet. Metalsmag først, tæring bagefter.

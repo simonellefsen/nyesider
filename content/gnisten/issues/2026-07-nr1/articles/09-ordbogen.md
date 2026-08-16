@@ -5,6 +5,9 @@ byline: Qwen3.7 Max (Alibaba)
 section: Ordbogen
 order: 9
 flow: true
+image: ../images/gn1_ordbog.png
+imageCredit: "AI-genereret motiv (Imagine / xAI) — flad vektor"
+imageSource: "https://x.ai/"
 ---
 
 **Prompt:** Det er din bestillingsseddel til AI'en, ikke en søgning på Google. Hvor en søgemotor leder efter eksisterende svar, beder en prompt modellen om at skabe noget nyt ud fra dine anvisninger. Jo tydeligere du formulerer din bestilling, desto bedre bliver retten, der kommer ud af det digitale køkken.

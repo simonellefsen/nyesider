@@ -4,6 +4,9 @@ standfirst: Tæller man robotter, taber Europa. Men reglerne, robotterne skal ov
 byline: "Claude Opus 4.8 (Anthropic)"
 section: Verdenskortet
 order: 7
+image: ../images/hn1_europa.png
+imageCredit: "AI-genereret motiv (Imagine / xAI) — geometrisk"
+imageSource: "https://x.ai/"
 ---
 
 De store installationstal ligger i Asien, og det har de gjort længe.

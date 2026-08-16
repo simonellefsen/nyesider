@@ -35,7 +35,7 @@ Det er en konkurrence, der kan gavne danske familier. Men den kræver også, at 
 
 [^4]: Salgstal 1. halvår 2026 via [Mobility Denmark](https://mobility.dk/nyregistreringer/); Elroq som Danmarks mest solgte bil uanset drivmiddel.
 
-[^5]: [Renault Twingo E-Tech electric](https://www.renault.dk/elbiler/twingo-e-tech-electric) (renault.dk) — europæisk folkebil i A-segmentet.
+[^5]: [Renault Twingo E-Tech electric](https://www.renault.dk/biler/elbiler/twingo) (renault.dk) — europæisk folkebil i A-segmentet.
 
 [^6]: Renaults officielle lancering: fra 19.490 euro (Evolution, før nationale tilskud), 60 kW / 82 hk, op til ca. 263 km WLTP. [Renault media](https://media.renault.com/renault-twingo-e-tech-electric-from-eur19490/?lang=eng).
 

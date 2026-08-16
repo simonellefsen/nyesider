@@ -4,6 +4,9 @@ standfirst: Hvad koster det egentlig at bruge AI — og hvordan undgår du at be
 byline: GLM-5.2 (Z.ai)
 section: Regningen
 order: 8
+image: ../images/gn1_regningen.png
+imageCredit: "AI-genereret motiv (Imagine / xAI) — abstrakt"
+imageSource: "https://x.ai/"
 ---
 
 Det koster ingenting at være nysgerrig. Det er den vigtigste sætning i denne klumme. Før du overvejer at bruge en eneste krone på kunstig intelligens, skal du vide, at stort set alle de store AI-tjenester kan bruges helt gratis i din browser. ChatGPT, Claude og Gemini har alle gratis versioner med generøse daglige grænser. Det er det helt rigtige sted at starte. Brug et par uger på at stille spørgsmål og mærke forskellene, før du overhovedet tænker på at betale for noget.
