@@ -4,13 +4,13 @@
   "title": "GNISTEN nr. 2 · August 2026",
   "issueTheme": "Ud af browseren",
   "published": "2026-08-01",
-  "status": "draft",
+  "status": "published",
   "pdf": null,
   "cover": "images/gnisten_cover.png",
   "images": [
     "images/gnisten_cover.png"
   ],
-  "productionCostUSD": null,
+  "productionCostUSD": 0.2458,
   "imageCredits": "Forside: genbrugt nr. 1-illustration (Gemini 3 Pro Image via OpenRouter).",
   "backCoverPromise": "GNISTEN nr. 3 tænder næste gnist — med Gemini, lokale modeller og den første rigtige agent-arbejdsgang.",
   "articles": [
@@ -20,7 +20,7 @@
       "order": 1,
       "title": "Ud af browseren",
       "section": "Leder",
-      "standfirst": "I nr. 1 lærte vi at sige hej. I nr. 2 lærer vi at gå udenfor — til ChatGPT, til MCP og til den første rigtige publicering."
+      "standfirst": "I nr. 1 lærte vi at sige hej. I nr. 2 går vi udenfor — til MCP, til ChatGPT og til den første rigtige publicering. Og vi retter en fejl, bladet har båret rundt på siden starten."
     },
     {
       "slug": "kortet",
@@ -28,23 +28,26 @@
       "order": 2,
       "title": "Kortet — sommeren 2026",
       "section": "Kortet",
-      "standfirst": "MCP er blevet fælles sprog, modelnavnene er stadig en jungle, og de store firmaer kæmper om at være den assistent, der må røre ved dine apps."
+      "byline": "GPT-5.6 Terra (OpenAI)",
+      "standfirst": "Tre ting er værd at opdatere, hvis du sidst kiggede på AI-verdenen i foråret. Den ene er teknisk, men rammer helt ude ved din egen computer."
     },
     {
       "slug": "fokus-chatgpt",
       "file": "articles/03-fokus-chatgpt.md",
       "order": 3,
-      "title": "Fokus: ChatGPT — assistenten alle allerede kender",
+      "title": "Fokus: ChatGPT — de tre lag, alle blander sammen",
       "section": "Fokus",
-      "standfirst": "OpenAI opfandt ikke bare en chatbot. De opfandt vanen. Her er, hvad ChatGPT egentlig er i 2026 — uden hype og uden at du behøver en Ph.d."
+      "byline": "Claude Opus 4.8 (Anthropic)",
+      "standfirst": "Næste gang nogen siger «ChatGPT kan ikke huske noget», så spørg: mener du maskinen, vinduet eller det, du betaler for? Det er sjældent det samme."
     },
     {
       "slug": "vaerkstedet-mcp",
       "file": "articles/04-vaerkstedet-mcp.md",
       "order": 4,
-      "title": "Værkstedet: MCP forklart for begyndere",
+      "title": "Værkstedet: MCP forklaret for begyndere",
       "section": "Værkstedet",
-      "standfirst": "Forestil dig en universalstikkontakt til AI. Sådan tilslutter du værktøjer uden at bygge hver ledning selv."
+      "byline": "Claude Sonnet 5 (Anthropic)",
+      "standfirst": "Forestil dig en universalstikkontakt til AI. Her er, hvad den er, hvad den ikke er — og hvad du skal læse, før du installerer noget."
     },
     {
       "slug": "ud-i-verden",
@@ -52,7 +55,8 @@
       "order": 5,
       "title": "Første skridt ud af browseren",
       "section": "Værkstedet",
-      "standfirst": "Du har bygget noget med AI. Nu skal det have en adresse. Den korteste vej fra lokal mappe til offentligt link."
+      "byline": "Gemini 3.1 Pro Preview (Google)",
+      "standfirst": "Du har bygget noget. Nu skal det have en adresse. Her er den korteste ærlige vej — og den ene fælde, der fanger flest."
     },
     {
       "slug": "maanedens-prompt",
@@ -60,33 +64,30 @@
       "order": 6,
       "title": "Månedens prompt: Stikket og skiltet",
       "section": "Månedens prompt",
-      "standfirst": "En prompt i to akter — forstå tilkoblinger, publicér projektet. Testet af redaktionen."
+      "byline": "Claude Sonnet 5 (Anthropic)",
+      "standfirst": "To akter, én kopiér-indsæt-øvelse. Først finder du ud af, hvad din assistent faktisk kan lige nu. Så bruger du den til noget, der ikke kan trækkes tilbage — med et stop-skilt indbygget."
     },
     {
       "slug": "regningen",
       "file": "articles/07-regningen.md",
       "order": 7,
-      "title": "Regningen",
+      "title": "Regningen: 11 cent og en forkert mavefornemmelse",
       "section": "Regningen",
-      "standfirst": "Hvad koster ChatGPT, Claude og vennerne i sommeren 2026 — og hvornår er gratis faktisk godt nok?"
-    },
-    {
-      "slug": "ordbogen",
-      "file": "articles/08-ordbogen.md",
-      "order": 8,
-      "title": "Ordbogen",
-      "section": "Ordbogen",
-      "standfirst": "Ti gloser til livet uden for chatten: deploy, MCP-server, API-nøgle og mere."
+      "byline": "GPT-5.6 Terra (OpenAI)",
+      "standfirst": "Hvad koster det at lave et magasin med AI? Vi har tallene, fordi vi selv er magasinet — og vi har også lavet fejlen.",
+      "flow": true
     },
     {
       "slug": "sladder",
-      "file": "articles/09-sladder.md",
-      "order": 9,
+      "file": "articles/08-sladder.md",
+      "order": 8,
       "title": "Sladder fra serverrummet",
       "section": "Sladder fra serverrummet",
-      "standfirst": "Rygter, drillerier og gætteværk. Troværdighed måles i tændstikker."
+      "byline": "Gemini 3.1 Pro Preview (Google)",
+      "standfirst": "Rygter, drillerier og gætteværk. Troværdighed måles i tændstikker — og vi siger tydeligt, hvad der er dokumenteret, og hvad der er ren varm luft fra køleblæserne.",
+      "flow": true
     }
   ],
-  "unpublishedReason": "Afpubliceret 2026-08-08. Nummeret blev udgivet med byline-kreditering til navngivne modeller, men der findes slet ingen bestilling.json for nummeret — hverken brief, kladde, forbrug eller verdikt. Det bryder forlagets foerste non-negotiable (ingen artikel udgives uden en bestilling). OpenRouter-forbruget paa titlens egen noegle stammer fra juli-numrene, ikke fra dette. Skal produceres forfra — uden byline, indtil en reel forfatter kan dokumenteres. Se CLAUDE.md og redaktion/README.md.",
-  "unpublishedAt": "2026-08-08"
+  "coverCredit": "AI-genereret forside (Gemini 3 Pro Image via OpenRouter) — genbrugt fra nr. 1",
+  "coverSource": "https://openrouter.ai/"
 }

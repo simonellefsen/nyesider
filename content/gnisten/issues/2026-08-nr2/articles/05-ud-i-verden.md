@@ -1,35 +1,66 @@
 ---
-title: Første skridt ud af browseren
-standfirst: Du har bygget noget med AI. Nu skal det have en adresse. Her er den korteste vej fra "det virker på min computer" til "her er linket".
+title: "Første skridt ud af browseren"
+standfirst: Du har bygget noget. Nu skal det have en adresse. Her er den korteste ærlige vej — og den ene fælde, der fanger flest.
+byline: "Gemini 3.1 Pro Preview (Google)"
 section: Værkstedet
 order: 5
 ---
 
-I nr. 1 fulgte vi en almindelig person, der [byggede et lille projekt](/gnisten/2026-07-nr1/mit-foerste-projekt) med Claude Code. Den følelse, der mangler bagefter, er den her: *men det lever kun hos mig*. Dette er guiden til den første publicering — uden at du behøver en server i kælderen eller et kreditkort, du er bange for.
+Du har gjort det. Gennem en stædig samtale med en assistent har du bygget en side. Knapperne virker, farverne sidder.
 
-## Hvad "at publicere" betyder
+Men lige nu lever den kun i en mappe på din egen harddisk. Skal en ven, en kollega eller en kunde se den, mangler der ét skridt: den skal ud på internettet.
 
-At publicere betyder blot: dine filer ligger et sted på internettet, og nogen kan åbne dem via en URL. Det behøver ikke være fancy. En enkel side med tekst og et billede er en sejr. En lille app, der virker i browseren, er en større sejr. Begge dele tæller.
+At få filer fra din maskine ud på en server kaldes **hosting**. Vi tager den korteste vej uden om fnidderet.
 
-## Tre gratis (eller næsten gratis) veje
+### Den forskel, der afgør alt
 
-**1. Vercel** — populært til webprojekter bygget med moderne værktøjer (fx Next.js, SvelteKit). Du forbinder et GitHub-repo, og Vercel bygger og hoster. Gratis tier er generøs til hobbyprojekter.
+Først skal du forstå én skelnen, for den bestemmer, hvilke gratis muligheder der overhovedet gælder for dit projekt.
 
-**2. Cloudflare Pages** — lignende idé: git push, så er der en side. Hurtigt netværk, gratis start.
+**En statisk side** består kun af færdige filer — tekst i HTML, design i CSS. Tænk på den som en stak trykte flyers. Når en gæst besøger adressen, skal computeren i den anden ende ikke tænke sig om. Den rækker bare en færdigtrykt flyer over disken.
 
-**3. GitHub Pages** — det simpleste til rene statiske sider (HTML/CSS/JS uden tung server). Godt, hvis dit projekt bare er "en pæn side".
+**Noget, der kræver en server**, fungerer anderledes. Skal siden gemme data, lade brugere logge ind eller ændre sig efter, hvem der kigger, er det ikke en flyer længere. Det er en kok, der tilbereder retten fra bunden, hver gang nogen bestiller.
 
-Du behøver ikke forstå alle tre. Vælg **én**. Spørg din AI-assistent: "Mit projekt er [beskrivelse]. Hjælp mig med at publicere det på Vercel trin for trin, og forklar hvert trin på dansk."
+Kokken kræver strøm, regnekraft og vedligehold. Derfor er statiske sider ofte gratis at lægge ud, mens serverkode hurtigt koster penge.
 
-## Den sikre tjekliste før du trykker publicér
+### De tre almindelige veje
 
-- **Hemmeligheder:** API-nøgler, adgangskoder og `.env`-filer må **aldrig** committes til et offentligt repo. Sig det højt til assistenten. Gentag det.
-- **Navn:** vælg et projektnavn, du tør vise din familie.
-- **Test:** åbn linket i et privat vindue. Virker det stadig?
-- **Forventninger:** gratis hosting kan sove, hvis ingen har besøgt siden længe. Det er okay til et første projekt.
+**GitHub Pages** er indbygget i kodeplatformen GitHub, driftssikker og skræddersyet til statiske sider.[^1]
 
-## Den følelsesmæssige del (som ingen tekniske guides nævner)
+**Cloudflare Pages** kører på et globalt netværk, hvor dine filer kopieres ud og kan hentes hurtigt fra hele verden.[^2]
 
-Der er et lille chok, første gang du sender et link til en ven, og de svarer "det virker!". Det er ikke, fordi din side er genial. Det er, fordi du har krydset grænsen fra *lege* til *dele*. Det er præcis den gnist, GNISTEN er til for.
+**Vercel** er kendt for at gøre det nemt at få også lidt mere komplicerede projekter online med få klik.[^3]
 
-Start i dag med det mindste mulige: én side, ét link, én person du viser det til. Resten kan vente til nr. 3.
+### De fire spørgsmål
+
+Mange guider kaster om sig med tal for båndbredde, byggeminutter og gigabytes. Ignorer dem. De ændrer sig, og dette blad har brændt sig på forældede tal før.
+
+Stil i stedet fire spørgsmål til enhver udbyder:
+
+1. **Kan den overhovedet køre det, jeg har bygget?**
+2. **Hvad koster det i virkeligheden**, når fremmede begynder at besøge siden?
+3. **Må jeg bruge tjenesten til lige præcis det, jeg har i sinde?**
+4. **Hvordan får jeg mine filer væk igen?**
+
+### Fælden, der fanger flest
+
+Særligt det tredje spørgsmål. Her lurer en helt konkret fælde.
+
+Vercel tilbyder en gratis **Hobby**-plan. Men i Vercels egen dokumentation står der, at Hobby-planen «restricts users to non-commercial, personal use only» — altså udelukkende personlige, ikke-kommercielle formål.[^4]
+
+Hvad betyder det i praksis? Vil du sælge et produkt, tage imod betaling eller bruge siden som visitkort for en virksomhed, er gratisplanen ikke beregnet til det.
+
+Det er ikke en kritik af Vercel. Det står i deres vilkår. Men det er præcis den slags, man opdager for sent — og Vercel beskriver selv, at konti og deployments kan sættes på pause ved brud på retningslinjerne.[^5]
+
+### Køb et domænenavn
+
+Afslut med at købe et domæne — for eksempel *mit-projekt.dk*.
+
+Domænet er dit permanente skilt. Peger du det hen på udbyderen, har du altid en flugtvej: viser det sig, at du bryder en regel, eller bliver det for dyrt, kan du tage dine filer, finde en ny udbyder og pege domænet det nye sted hen.
+
+Ingen besøgende opdager flytningen. Og du beholder kontrollen.
+
+[^1]: [GitHub Pages](https://pages.github.com) — produktsiden. Dokumentationen findes under [About GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages).
+[^2]: [Cloudflare Pages](https://pages.cloudflare.com) — produktsiden; den tekniske dokumentation ligger hos [Cloudflare Developers](https://developers.cloudflare.com/pages/).
+[^3]: [Vercel](https://vercel.com) — produktsiden.
+[^4]: [Vercel Hobby Plan](https://vercel.com/docs/plans/hobby), Vercel — «As stated in the fair use guidelines, the Hobby plan restricts users to non-commercial, personal use only.» De bagvedliggende retningslinjer: [Fair use guidelines](https://vercel.com/docs/limits/fair-use-guidelines).
+[^5]: [Limits](https://vercel.com/docs/limits), Vercel — om kontogrænser og om, hvornår en konto eller et deployment kan sættes på pause.

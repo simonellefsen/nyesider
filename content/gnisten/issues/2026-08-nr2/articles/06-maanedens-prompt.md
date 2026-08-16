@@ -1,36 +1,43 @@
 ---
 title: "Månedens prompt: Stikket og skiltet"
-standfirst: En prompt i to akter — først finder du ud af, hvad din AI kan kobles til, derefter får dit projekt en offentlig adresse. Testet af redaktionen.
+standfirst: To akter, én kopiér-indsæt-øvelse. Først finder du ud af, hvad din assistent faktisk kan lige nu. Så bruger du den til noget, der ikke kan trækkes tilbage — med et stop-skilt indbygget.
+byline: "Claude Sonnet 5 (Anthropic)"
 section: Månedens prompt
 order: 6
 ---
 
-Kopiér teksten nedenfor ind i ChatGPT, Claude eller den assistent, du bruger. Tilpas de dele i [klammer].
+Første akt afslører, hvad din assistent kan lige nu — ikke hvad den generelt siger, den kan. Anden akt bruger den til noget konkret.
 
----
+### Akt 1: Hvad kan du egentlig?
 
-**Prompt:**
+Kopiér dette ind i en ny samtale:
 
-Du er min tålmodige tekniske coach. Jeg er begynder.
+> Forklar mig helt konkret, hvilke værktøjer og adgange du har i **denne samtale** lige nu: kan du søge på nettet, køre kode, huske noget fra tidligere samtaler, læse eller skrive filer, sende noget uden om mig? List det punkt for punkt. Vær bagefter lige så konkret om, hvad du **ikke** kan — uden at gætte dig til et svar, der lyder hjælpsomt, hvis du reelt er usikker.
 
-**Akt 1 — stikket**
-Forklar mig, som om jeg er smart men ikke teknisk, hvad MCP (Model Context Protocol) er, med én analogi fra hverdagen. Stil mig derefter tre ja/nej-spørgsmål for at finde ud af, om jeg overhovedet har brug for MCP lige nu, eller om jeg skal starte enklere. Vent på mine svar, før du går videre.
+Prompten er bygget til at afsløre en misforståelse, de fleste har: enten tror man, assistenten kan alt — søge live, huske alt, handle på egen hånd — eller også tror man, den kan meget lidt.
 
-**Akt 2 — skiltet**
-Mit projekt er: [beskriv kort, hvad du har bygget eller gerne vil bygge].
-Mit mål er: at andre kan åbne det via et link.
-Jeg foretrækker gratis hosting.
-Giv mig den *korteste* trin-for-trin plan (maks. 7 trin) for at publicere det. For hvert trin: (1) hvad jeg klikker/skriver, (2) hvad der kan gå galt, (3) hvordan jeg ved, at trinnet er lykkedes.
-Afslut med en checkliste på tre punkter om hemmeligheder og API-nøgler.
+Begge dele er sjældent rigtige, og det varierer fra situation til situation.
 
-Skriv på klart dansk. Ingen unødvendig jargon. Hvis du *må* bruge et fagord, så oversæt det i parentes.
+**Læs svaret kritisk.** Skelner assistenten mellem det, den kan i *denne* samtale, og det, den kan i andre sammenhænge? Siger den ærligt «det ved jeg ikke med sikkerhed» frem for at gætte? Nævner den konkrete begrænsninger — at den ikke husker fra sidst, eller at den ikke kan sende noget for dig?
 
----
+Lyder svaret som en generel salgstale uden forbehold, så pres videre: «kan du gøre X lige nu, ja eller nej?»
 
-## Sådan bruger du den
+### Akt 2: Læg noget ud — med et stop-skilt
 
-1. Udfyld klammerne ærligt — "en fødselsdagsside til min mor" er bedre end "en webapp".
-2. Svar på ja/nej-spørgsmålene i akt 1, før du beder om akt 2.
-3. Stop efter trin 1–2 første dag. Publicering er en muskel, ikke et sprint.
+Kopiér dette:
 
-**Variant:** Skift "MCP" ud med "ChatGPT connectors" eller "Claude projects", hvis du slet ikke er i en MCP-klient endnu. Pointen er den samme: forstå stikket, før du bygger et kraftværk.
+> Jeg vil gerne offentliggøre [beskriv projektet, fx «en mappe med kode», «et dokument», «en lille hjemmeside»] på [platform, fx «GitHub», «en blog», «en delt mappe»]. Gennemgå med mig, trin for trin, hvad det kræver. Gør mig **udtrykkeligt** opmærksom på alt, der ikke bør offentliggøres — adgangskoder, personlige data, private nøgler, andres navne eller kontaktoplysninger. Du må ikke offentliggøre, uploade eller sende noget som helst, før jeg selv har skrevet «ja, gør det» til hvert enkelt trin. Er du i tvivl, så stop og spørg i stedet for at gætte.
+
+Prompten bygger et stoppunkt ind, før noget bliver offentligt og svært at trække tilbage. Mange opdager først en glemt adgangskode eller et privat navn i en fil, *efter* den er lagt ud.
+
+**Kig efter, om assistenten respekterer stoppet** — altså om den venter på dit «ja» frem for at foreslå at klare det hele på én gang.
+
+Kig også efter, om den selv peger på ting, du ikke havde tænkt på: gamle filer i samme mappe, kommentarer i koden, metadata i billeder.
+
+### To ting, du aldrig springer over
+
+**Læs forslagene igennem, før du følger dem** — også når de lyder selvsikre og fagligt korrekte.
+
+**Giv aldrig en assistent adgang til noget, du ikke selv kunne rulle tilbage:** en konto, en offentlig side, en mappe med andres data.
+
+Kan du ikke selv fortryde det, skal en assistent heller ikke kunne gøre det uden dig ved roret.

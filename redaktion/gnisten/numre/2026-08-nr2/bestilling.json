@@ -1,0 +1,287 @@
+{
+  "$schema": "../../../bestilling.schema.md",
+  "magazine": "gnisten",
+  "issue": "2026-08-nr2",
+  "issueTheme": "Ud af browseren",
+  "integrityNote": "Skrevet fra bunden 2026-08-09. Nr. 2 blev udgivet 2026-08-01 med byline til navngivne modeller, og der fandtes SLET INGEN bestilling.json for nummeret — hverken brief, kladde, forbrug eller verdikt for nogen af de ni artikler. Det bryder forlagets foerste non-negotiable direkte. Nummeret produceres forfra paa .env.gnisten.",
+  "redaktionelAdvarsel": "TO TITELSPECIFIKKE KRAV, som gaelder HVER artikel. (1) LAESEREN ER IKKE PROGRAMMOER. Kraever en forklaring, at man allerede kan kode, er den ikke GNISTEN. Ingen kodeeksempler uden at hvert trin er forklaret i ord foerst; ingen fagudtryk uden en parentes ved foerste naevnelse. (2) KILDER. GNISTEN og HORISONTEN er de eneste to titler med 0 % kildedaekning paa tvaers af alle numre. Det er den fejl, dette nummer retter. Hvert versionstal, hvert prisforhold og hver paastand om hvad et produkt kan, skal have en adresse — og adressen skal vaere leverandoerens eller standardens egen dokumentation, ikke en blogpost.",
+  "researchNote": "ADVARSEL: naar IKKE modellens prompt — kun brief.angle. Kontrolleret 2026-08-09. MCP (Model Context Protocol): Anthropic donerede protokollen til Agentic AI Foundation under Linux Foundation den 9. DECEMBER 2025. Stiftende bidrag var MCP, Blocks 'goose' og OpenAI's AGENTS.md. Medstiftere: Anthropic, Block, OpenAI. Stoettende medlemmer: Google, Microsoft, AWS, Cloudflare, Bloomberg. Vedligeholderne beholder den tekniske ledelse; Linux Foundation leverer neutral forvaltning — samme konstruktion som Kubernetes, PyTorch og Node.js. TAL fra MCP's egen blog: over 97 MILLIONER SDK-downloads om maaneden og 10.000 aktive servere. Klientstoette i ChatGPT, Claude, Cursor, Gemini, Microsoft Copilot og Visual Studio Code. Seneste specifikationsversion: 2025-11-25. HOSTING: Vercels Hobby-plan er gratis, men i Vercels EGEN dokumentation staar der, at 'the Hobby plan restricts users to non-commercial, personal use only' — det er en faelde, begyndere loeber ind i, og den skal med. Hobby har desuden 200 projekter og 100 deployments pr. dag. TAL FOR CLOUDFLARE PAGES OG GITHUB PAGES ER IKKE VERIFICERET og maa IKKE angives; skriv i stedet hvilke spoergsmaal man skal stille, og link til hver udbyders egen aktuelle side. REGNINGEN: GNISTEN nr. 1 kostede 0,11 USD at producere. Den gamle udgave af artiklen paastod 'under 10 dollars' — en faktor 90 forkert, rettet 2026-08-01. De genopbyggede augustnumre koster: KROENIKE 0,34, ORBIT 0,53, KRAFTEN 0,54, INDENI 0,50, KULTURBOXEN 0,61, HUMANERD 0,42, DOSIS 0,53 USD.",
+  "budget": {
+    "articles": 8,
+    "wordsPerArticle": [
+      400,
+      700
+    ],
+    "targetPages": 12,
+    "note": "Den afpublicerede udgave var 9 artikler paa 3.281 ord. Ordbogen fjernes jf. notesbogens formatregel. Notesbogen angav 350-500 ord; loftet haeves til 500-750 for de tre kernefeatures (Fokus, Vaerkstedet MCP, Ud i verden) og 400-600 for Kortet, Regningen og Sladder. GNISTEN skal blive ved med at vaere let at laese — men en forklaring paa MCP, der skal holde uden forudsaetninger, kan ikke leveres paa 350 ord."
+  },
+  "opgaver": [
+    {
+      "slug": "leder",
+      "order": 1,
+      "section": "Leder",
+      "brief": {
+        "angle": "Hvorfor 'ud af browseren'. Nr. 1 handlede om at komme i gang; nr. 2 handler om at koble assistenten til noget og faa sit projekt en adresse. Skal sige rent ud, hvad bladet lover om forudsaetninger, kilder og byline — og at netop kildeloesheden er den fejl, dette nummer retter.",
+        "words": [
+          300,
+          450
+        ],
+        "mustCite": 0,
+        "format": "leder"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": 381,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "rewritten-by-editor",
+        "checkedAt": "2026-08-09",
+        "citations": 0,
+        "editorNote": "Skrevet af chefredaktionen. INGEN byline og intet API-kald — writer.model er 'editor-led'. Lederen goer to ting, ud over at introducere temaet: den skriver bladets to loefter ud (ingen forudsaetning om programmering, ingen tal der raadner), og den indroemmer aabent, at GNISTEN indtil nu har haft NUL kildedaekning paa tvaers af alle numre. Den indroemmelse hoerer hjemme i lederen frem for i en fodnote, fordi det er den fejl, hele dette nummer er bygget for at rette."
+      }
+    },
+    {
+      "slug": "kortet",
+      "order": 2,
+      "section": "Kortet",
+      "brief": {
+        "angle": "Tre ting, der er vaerd at opdatere, hvis man sidst kiggede paa AI-verdenen i foraaret — skrevet for en laeser uden forudsaetninger. (1) MCP ER BLEVET FAELLES SPROG OG HAR SKIFTET EJER. Anthropic donerede Model Context Protocol til Agentic AI Foundation under Linux Foundation den 9. december 2025, sammen med Blocks 'goose' og OpenAI's AGENTS.md som de andre stiftende bidrag. Medstiftere er Anthropic, Block og OpenAI; Google, Microsoft, AWS, Cloudflare og Bloomberg er med som stoettende medlemmer. Forklar hvorfor det betyder noget for en almindelig bruger: en protokol, der ejes af én leverandoer, kan aendres til den leverandoers fordel; en protokol under en neutral fond kan det svaerere. Samme konstruktion bruges for Kubernetes, PyTorch og Node.js. Vedligeholderne beholder den tekniske ledelse. (2) UDBREDELSEN ER STOR: over 97 millioner SDK-downloads om maaneden og 10.000 aktive servere ifoelge MCP's egen opgoerelse, med klientstoette i ChatGPT, Claude, Cursor, Gemini, Microsoft Copilot og Visual Studio Code. Skriv at det er projektets egne tal. (3) MODELNAVNENE ER STADIG EN JUNGLE — skriv kort og aerligt, at versionsnavne skifter hurtigt, og at bladet derfor hellere forklarer hvad man skal kigge efter end hvilken model der er bedst i denne uge. UNDGAA at rangere modeller og undgaa prisskilte, der raadner.",
+        "words": [
+          450,
+          650
+        ],
+        "mustCite": 2,
+        "format": "feature",
+        "mustNumber": [
+          "9. december 2025",
+          "97 mio. SDK-downloads/md.",
+          "10.000 aktive servere"
+        ]
+      },
+      "writer": {
+        "byline": null,
+        "model": "openai/gpt-5.6-terra",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 522,
+        "costUSD": 0.01050375,
+        "draft": "kladder/02-kortet.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1786879094-bdKlpO4slKA8PoBPeH2N"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-09",
+        "citations": 2,
+        "editorNote": "REELT kommissioneret hos openai/gpt-5.6-terra paa .env.gnisten (via OpenRouter-kredit); kladde i kladder/02-kortet.md. Kladden ramte alle tre paakraevede tal og gjorde uopfordret det, som er husreglen i alle titler, men som GNISTEN aldrig har gjort: den maerkede MCP's udbredelsestal som PROJEKTETS EGNE og skrev udtrykkeligt, at de skal laeses som pejlemaerke frem for facit. Den forklarede ogsaa selv, hvorfor ejerskabet over en standard betyder noget for en almindelig bruger — at ét firma kan aendre en standard i egen retning, mens en neutral fond goer det svaerere — og tilfoejede den rigtige daempning: at det ikke er en garanti, men giver flere parter en plads ved bordet. Den adloed forbuddet mod at rangere modeller og vendte det til noget brugbart: vaelg efter opgaven, og kig efter om vaerktoejet forklarer sine begraensninger og lader dig eksportere. KILDER: alle tre fodnoter pegede paa generiske forsider (linuxfoundation.org, modelcontextprotocol.io) — det er stadig ikke godt nok, ogsaa selv om adressen virker. Erstattet af Linux Foundations pressemeddelelse og MCP's egen meddelelse af 9. december 2025, saa hvert tal kan foeres tilbage til sin kilde. Krydslink til Vaerkstedet tilfoejet."
+      }
+    },
+    {
+      "slug": "fokus-chatgpt",
+      "order": 3,
+      "section": "Fokus",
+      "brief": {
+        "angle": "ChatGPT forklaret for en, der bruger den — eller har undgaaet den — uden at vide, hvad den egentlig er. Ikke en anmeldelse og ikke en funktionsliste, men en forklaring af de tre lag, folk blander sammen: (a) MODELLEN, altsaa maskinen der forudsiger tekst; (b) PRODUKTET ChatGPT, altsaa chatvinduet, hukommelsen, filupload, stemme og de indbyggede vaerktoejer; (c) ABONNEMENTET, som afgoer hvilke modeller og graenser man faar. Naar folk siger 'ChatGPT kan ikke...', mener de tit produktet eller planen, ikke modellen. SKRIV DEREFTER det, nummeret handler om: ChatGPT understoetter MCP, saa assistenten kan kobles til andre vaerktoejer — forklar hvad det konkret aabner for, og hvad det IKKE goer (den faar ikke adgang til noget, du ikke selv kobler til). Vaer aerlig om, at ChatGPT ikke er den eneste assistent, og at bladet ikke anbefaler én. ANGIV IKKE priser eller modelnavne med versionsnumre, der raadner inden naeste nummer; skriv i stedet hvad man skal slaa op, og link til OpenAI's egen dokumentation. Ingen forudsaetninger om programmering.",
+        "words": [
+          550,
+          750
+        ],
+        "mustCite": 2,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": null,
+        "model": "anthropic/claude-opus-4.8",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 496,
+        "costUSD": 0.048365,
+        "draft": "kladder/03-fokus-chatgpt.md",
+        "costRouting": "byok",
+        "generationId": "gen-1786879280-GgwKEM1hcikgUsZDIwnh"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-09",
+        "citations": 2,
+        "editorNote": "REELT kommissioneret hos anthropic/claude-opus-4.8 paa .env.gnisten (BYOK); kladde i kladder/03-fokus-chatgpt.md. Kladden loeste briefens trelagsstruktur praecist og fandt selv den aabning, der goer den brugbar: naeste gang nogen siger 'ChatGPT kan ikke huske noget', saa spoerg, om de mener maskinen, vinduet eller det, de betaler for. Den holdt ogsaa begge forbud uden at blive mindet om dem undervejs — ingen modelnavne med versionsnumre, ingen priser — og skrev BEGRUNDELSEN ud til laeseren: at et blad, der trykker et tal, lyver hurtigt. Afsnittet om hvad MCP IKKE goer er kladdens eget og er det vigtigste i artiklen: assistenten faar praecis det, du kobler til, og et stik virker foerst, naar du saetter det i. KILDER: begge fodnoter var bare adresser uden linkformat, og prissiden hos OpenAI svarer 403 for automatiserede opslag. Modeloversigten og OpenAI's egen MCP-dokumentation er verificeret og indsat i stedet, og henvisningen til planer er gjort generisk frem for at pege paa en side, laeseren maaske ikke kan naa. Tastefejl rettet ('loffet'). Krydslink til Vaerkstedet tilfoejet."
+      }
+    },
+    {
+      "slug": "vaerkstedet-mcp",
+      "order": 4,
+      "section": "Værkstedet",
+      "brief": {
+        "angle": "NUMMERETS VIGTIGSTE ARTIKEL: MCP forklaret uden at laeseren skal kunne kode. Billedet er en universalstikkontakt: foer MCP skulle hver assistent have sin egen ledning til hvert vaerktoej, og alle skulle bygge alle ledninger. MCP er aftalen om, hvordan stikket ser ud. Forklar de tre roller i almindelige ord: VAERTEN (assistenten, fx ChatGPT eller Claude), SERVEREN (det lille program, der giver adgang til fx dine filer, en kalender eller en database) og PROTOKOLLEN (aftalen imellem dem). Sig tydeligt, at en MCP-server ikke er en server i skyen — det er som regel et program, der koerer paa din egen maskine. SIKKERHEDSAFSNITTET ER OBLIGATORISK og skal staa foer 'kom godt i gang': en MCP-server faar praecis den adgang, du giver den, og en assistent, der kan laese dine filer, kan ogsaa komme til at sende indholdet videre. Installer kun servere, du kan se hvem der staar bag, start med laeseadgang frem for skriveadgang, og vaer opmaerksom paa, at tekst i et dokument kan indeholde instruktioner, der forsoeger at styre assistenten. STATUS: protokollen blev doneret til Agentic AI Foundation under Linux Foundation 9. december 2025 og er ikke laengere ét firmas ejendom; seneste specifikationsversion er 2025-11-25. Slut med ét konkret, realistisk foerste skridt, som ikke kraever programmering.",
+        "words": [
+          550,
+          750
+        ],
+        "mustCite": 2,
+        "format": "feature",
+        "mustNumber": [
+          "9. december 2025",
+          "2025-11-25 (specifikation)"
+        ]
+      },
+      "writer": {
+        "byline": null,
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 682,
+        "costUSD": 0.028448,
+        "draft": "kladder/04-vaerkstedet-mcp.md",
+        "costRouting": "byok",
+        "generationId": "gen-1786878945-2irvmRw6bm2Wr414XGPT"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-09",
+        "citations": 3,
+        "editorNote": "REELT kommissioneret hos anthropic/claude-sonnet-5 paa .env.gnisten (BYOK); kladde i kladder/04-vaerkstedet-mcp.md. FOERSTE ARTIKEL I GNISTENS HISTORIE MED KILDER — titlen har haft 0 % kildedaekning paa tvaers af alle numre. Kladden ramte begge paakraevede datoer og loeste briefens vanskeligste krav: den forklarede vaert, server og protokol uden at forudsaette programmering, og den ryddede selv den vigtigste misforstaaelse af vejen — at en MCP-server som regel IKKE koerer i skyen, men er et program paa ens egen maskine. Sikkerhedsafsnittet stod foer 'kom godt i gang', som bestilt, og kladden tilfoejede uopfordret prompt-injektion med en praecis, jordnaer forklaring: at et dokument kan indeholde saetninger, der forsoeger at styre assistenten. KILDER: begge fodnoter var bare domaener (linuxfoundation.org, modelcontextprotocol.io) — praecis titlens gamle vane. Erstattet af tre verificerede sider: specifikationen 2025-11-25, MCP's egen meddelelse af 9. december 2025 og Linux Foundations pressemeddelelse. Tilfoejet fra kilderne: at Blocks goose og OpenAI's AGENTS.md var de andre stiftende bidrag, kredsen af medstiftere og stoettende medlemmer, og at vedligeholderne beholder den tekniske ledelse — vaesentligt, fordi det er svaret paa, om en donation betyder, at Anthropic har mistet kontrollen. Tastefejl rettet ('huster')."
+      }
+    },
+    {
+      "slug": "ud-i-verden",
+      "order": 5,
+      "section": "Værkstedet",
+      "brief": {
+        "angle": "Fra 'det virker paa min computer' til 'her er linket'. Skriv den korteste aerlige vej for en ikke-programmoer. Forklar foerst forskellen paa en STATISK side (filer, der bare skal leveres) og noget, der kraever en server, der koerer kode — fordi det er den forskel, der afgoer hvilke gratis muligheder der overhovedet gaelder. Beskriv derefter de tre almindelige veje — GitHub Pages, Cloudflare Pages og Vercel — MEN ANGIV IKKE TAL FOR BAANDBREDDE, BYGGEMINUTTER ELLER PRISER. De aendrer sig, og bladet har brændt sig paa forældede tal foer. Skriv i stedet, HVILKE FIRE SPOERGSMAAL man skal stille enhver udbyder: kan den overhovedet koere det, jeg har bygget; hvad koster det, naar nogen faktisk besoeger siden; maa jeg bruge det til det, jeg vil; og hvordan flytter jeg vaek igen. DEN ENE KONKRETE FAELDE, SOM SKAL MED, fordi den fanger mange: Vercels gratis Hobby-plan maa ifoelge Vercels egen dokumentation kun bruges til ikke-kommercielle, personlige formaal. Vil du sælge noget, tage imod betaling eller bruge siden i en virksomhed, er gratisplanen ikke lovlig til det. Det er ikke en kritik af Vercel — det staar i deres vilkaar — men det er praecis den slags, man opdager for sent. Slut med et raad om domaenenavn og om at kunne komme vaek igen.",
+        "words": [
+          550,
+          750
+        ],
+        "mustCite": 3,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": null,
+        "model": "google/gemini-3.1-pro-preview",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 589,
+        "costUSD": 0.07482,
+        "draft": "kladder/05-ud-i-verden.md",
+        "costRouting": "byok",
+        "generationId": "gen-1786879166-6rvNsRACxmomQT2BbbCR"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-09",
+        "citations": 5,
+        "editorNote": "REELT kommissioneret hos google/gemini-3.1-pro-preview paa .env.gnisten (BYOK); kladde i kladder/05-ud-i-verden.md. Kladden loeste briefens paedagogiske kerne bedre end bestilt: forskellen paa en statisk side og noget, der kraever en server, forklaret som en stak trykte flyers over for en kok, der tilbereder retten fra bunden hver gang. Det er den bedste forklaring i nummeret og forudsaetter ingenting. Den ADLOED ogsaa forbuddet mod tal og skrev det ud til laeseren: at guider kaster om sig med baandbredde og byggeminutter, og at man skal ignorere dem, fordi de aendrer sig — med bladets egen brændte finger som begrundelse. De fire spoergsmaal staar som bestilt, og faelden om Vercels Hobby-plan er gengivet korrekt efter Vercels EGEN dokumentation. RETTELSER: fodnote 4 pegede paa vercel.com/docs/pricing, hvor formuleringen ikke staar; den staar paa /docs/plans/hobby med henvisning til fair use-retningslinjerne, og begge er nu med — inklusive den ordrette engelske formulering, saa laeseren kan genfinde den. Kladdens paastand om, at man 'risikerer at siden lukkes', er daempet til det, Vercel faktisk skriver: at konti og deployments kan saettes paa pause ved brud paa retningslinjerne. Fodnote 1-3 var forsider; suppleret med dokumentationssider. Escape-sekvens (\\u00a0) lakket ud i broedteksten. Strammet ca. 15 %."
+      }
+    },
+    {
+      "slug": "maanedens-prompt",
+      "order": 6,
+      "section": "Månedens prompt",
+      "brief": {
+        "angle": "En prompt i to akter, som laeseren kan kopiere. Akt 1: faa assistenten til at forklare, hvilke vaerktoejer den faktisk har adgang til lige nu, og hvad den IKKE kan naa — det er en overraskende nyttig oevelse, fordi folk tit tror, assistenten kan mere eller mindre end den kan. Akt 2: faa den til at hjaelpe med at lægge et projekt ud offentligt, trin for trin, med en udtrykkelig instruks om at stoppe og spoerge foer noget offentliggoeres. Skriv prompterne i klar tekst med [klammer] om det, laeseren skal udfylde, og forklar EFTER hver prompt, hvad den er designet til at goere, og hvad man skal kigge efter i svaret. VIGTIGT: skriv udtrykkeligt, at man skal laese assistentens forslag igennem, foer man foelger dem, og at man aldrig skal give en assistent adgang til noget, man ikke selv ville kunne rulle tilbage. Ingen kildekrav, men heller ingen paastande om, hvad bestemte produkter kan.",
+        "words": [
+          400,
+          600
+        ],
+        "mustCite": 0,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": null,
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 473,
+        "costUSD": 0.02847,
+        "draft": "kladder/06-maanedens-prompt.md",
+        "costRouting": "byok",
+        "generationId": "gen-1786879472-8xrJcuJkN4ie2QQTnTLR"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-09",
+        "citations": 0,
+        "editorNote": "REELT kommissioneret hos anthropic/claude-sonnet-5 paa .env.gnisten (BYOK); kladde i kladder/06-maanedens-prompt.md. mustCite 0 er et bevidst formatvalg for Maanedens prompt, jf. notesbogen. Kladden loeste begge akter som bestilt og tilfoejede selv det, der goer spalten brugbar frem for blot underholdende: hvad man skal KIGGE EFTER i svaret. For akt 1 er kriteriet, om assistenten skelner mellem denne samtale og andre sammenhaenge, og om den siger 'det ved jeg ikke med sikkerhed' frem for at gaette. For akt 2 er kriteriet, om den faktisk respekterer stoppet frem for at foreslaa at klare det hele paa én gang — og om den selv peger paa gamle filer, kommentarer i koden og metadata i billeder, som brugeren ikke havde taenkt paa. Den sidste liste er kladdens egen og er den mest konkrete sikkerhedsraadgivning i nummeret. Slutreglen — giv aldrig en assistent adgang til noget, du ikke selv kunne rulle tilbage — er ogsaa dens egen. Redaktionelt kun en kluntet glose rettet ('din kunstige intelligens (AI) -assistent') og let stramning."
+      }
+    },
+    {
+      "slug": "regningen",
+      "order": 7,
+      "section": "Regningen",
+      "brief": {
+        "angle": "Hvad koster det egentlig — svaret med bladets egne tal. Det her er GNISTENs mest usaedvanlige mulighed: magasinet bliver selv lavet med AI, og regnskabet ligger aabent. GNISTEN nr. 1 kostede 0,11 USD at producere i modelforbrug. De genopbyggede augustnumre hos soestertitlerne kostede mellem 0,34 og 0,61 USD stykket — KROENIKE 0,34, HUMANERD 0,42, INDENI 0,50, ORBIT 0,53, DOSIS 0,53, KRAFTEN 0,54 og KULTURBOXEN 0,61. Det er et helt blad, ikke en enkelt artikel. SKRIV DET SOM EN LEKTION I STOERRELSESORDEN: den intuition, de fleste har om, hvad AI koster, er tit forkert med en faktor hundrede i den ene eller den anden retning — og bladet har selv begaaet fejlen: en tidligere udgave af denne artikel paastod, at nr. 1 kostede 'under 10 dollars', hvilket var 90 gange for hoejt. Det staar der, fordi et blad, der beder laeseren tjekke tal, selv skal vise sine. Forklar derefter forskellen paa de tre maader, man betaler paa: abonnement med fast maanedspris, betaling pr. forbrug via en API-noegle, og gratis niveauer med graenser. ANGIV IKKE konkrete abonnementspriser — de aendrer sig, og bladet har en regel om ikke at trykke prisskilte, der raadner. Skriv i stedet, hvornaar gratis faktisk er godt nok.",
+        "words": [
+          400,
+          600
+        ],
+        "mustCite": 1,
+        "format": "feature",
+        "mustNumber": [
+          "0,11 USD (nr. 1)",
+          "0,34-0,61 USD (august-numrene)"
+        ]
+      },
+      "writer": {
+        "byline": null,
+        "model": "openai/gpt-5.6-terra",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 508,
+        "costUSD": 0.0102225,
+        "draft": "kladder/07-regningen.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1786879386-9tgRl0wVegJa4BruYbnP"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-09",
+        "citations": 1,
+        "editorNote": "REELT kommissioneret hos openai/gpt-5.6-terra paa .env.gnisten (via OpenRouter-kredit); kladde i kladder/07-regningen.md. Kladden ramte begge paakraevede tal og loeste briefens vanskeligste bestilling — at bladet skulle eje sin egen fejl — bedre end forventet: 'Det var teknisk set sandt, men i praksis vildledende' om den gamle paastand paa under 10 dollars, og 'et magasin, der opfordrer laeseren til at tjekke tal, skal ogsaa vise sine egne fejl'. Den var ogsaa praecis om, hvad tallene IKKE daekker: menneskearbejde, redigering, layout og maskinen, redaktionen sidder ved. Og den holdt forbuddet mod abonnementspriser. RETTELSER: fodnoten pegede paa to OpenAI-prissider, som begge svarer 403 for automatiserede opslag; erstattet af platform.openai.com/docs/pricing, som er verificeret, med en note om at bladet bevidst ikke trykker tal, der kan naa at blive forkerte. Koensfejl rettet ('et automatiseret arbejdsgang'). Listen over soestertitlernes forbrug er sat i tabel, saa den kan laeses paa tvaers."
+      }
+    },
+    {
+      "slug": "sladder",
+      "order": 8,
+      "section": "Sladder fra serverrummet",
+      "brief": {
+        "angle": "Bagsidens rygtespalte. Fire-fem korte punkter om, hvad der rykker sig i AI-verdenen, skrevet med selvironi og med en tydelig troværdighedsangivelse pr. punkt (bladets taendstik-skala). ABSOLUT KRAV: det skal vaere tydeligt for laeseren, hvad der er dokumenteret, og hvad der er gaetteri. Opfind ALDRIG et konkret rygte om en navngiven person eller et konkret produktlaek, og tillaeg aldrig en virksomhed planer, den ikke har annonceret — spalten skal vaere sjov paa branchens almene tendenser, ikke paa opdigtede nyheder. Gode emner: at alle nu kalder alt for en agent; at modelnavne er blevet uleselige; at MCP-servere popper op til alt inklusive det unoedvendige; at 'det koerer lokalt' betyder fem forskellige ting. Slut med bagsideloeftet om naeste nummer.",
+        "words": [
+          350,
+          550
+        ],
+        "mustCite": 0,
+        "format": "myter"
+      },
+      "writer": {
+        "byline": null,
+        "model": "google/gemini-3.1-pro-preview",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 383,
+        "costUSD": 0.04497,
+        "draft": "kladder/08-sladder.md",
+        "costRouting": "byok",
+        "generationId": "gen-1786879556-JRJMamg7vmC2AmP8AYtN"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-09",
+        "citations": 0,
+        "editorNote": "REELT kommissioneret hos google/gemini-3.1-pro-preview paa .env.gnisten (BYOK); kladde i kladder/08-sladder.md. mustCite 0 er bevidst formatvalg for Sladder. Kladden ramte alle fire bestilte emner og holdt sig fra opdigtede rygter om navngivne personer eller konkrete produktlaek, som briefen kraevede. Taendstikskalaen bruges aerligt — 2 ud af 5 paa MCP-i-tandboersten, hvor den selv skriver, at det er en programmoervittighed. VIGTIGSTE RETTELSE: kladdens bagsideloefte lovede et naeste nummer om at rydde op i mapper og feriebilleder. Det er forkert. Nummerets issue.json lover Gemini, lokale modeller og den foerste agent-arbejdsgang — og GNISTEN nr. 3 leverede praecis det, jf. notesbogens 'Loefte indfriet fra nr. 2-bagside'. Et forkert loefte her ville have gjort bladets egen kontinuitet usand bagud. Rettet til det faktiske loefte. Ogsaa rettet: 'Kilder melder om stigende frustration' — en opdigtet kildehenvisning i en spalte, der netop skal skelne dokumenteret fra gaetteri; erstattet af en aaben formulering. Troværdighedsvurderingerne er praeciseret, saa hver enkelt siger, hvad der er dokumenteret, og hvad der ikke er. Escape-sekvens (\\u00a0) lakket ud. Krydslink til Vaerkstedet tilfoejet."
+      }
+    }
+  ]
+}

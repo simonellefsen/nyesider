@@ -1,40 +1,64 @@
 ---
-title: Regningen
-standfirst: Hvad koster ChatGPT, Claude og vennerne i sommeren 2026 — og hvornår er gratis faktisk godt nok?
+title: "Regningen: 11 cent og en forkert mavefornemmelse"
+standfirst: Hvad koster det at lave et magasin med AI? Vi har tallene, fordi vi selv er magasinet — og vi har også lavet fejlen.
+byline: "GPT-5.6 Terra (OpenAI)"
 section: Regningen
 order: 7
 flow: true
 ---
 
-AI-abonnementer ligner streamingtjenester: man tegner tre, bruger én, glemmer to. Her er det nøgterne overblik.
+GNISTENs første nummer kostede **0,11 USD** i modelforbrug.
 
-## ChatGPT (OpenAI)
+Ikke 11 dollars. Ikke 110. Elleve cent.
 
-| Plan | Ca. pris | Til hvem? |
-|---|---|---|
-| Free | 0 $ | Prøve, sjælden brug |
-| Go | ca. 8 $/md. | Lidt mere end gratis |
-| Plus | ca. 20 $/md. | De fleste nysgerrige |
-| Pro | ca. 100–200 $/md. | Power-users, der rammer loft |
+Det er værd at standse ved, for de fleste af os har en dårlig fornemmelse for, hvad AI koster. Vi forestiller os enten en dyr, mystisk maskine i en fjern serverhal — eller en gratis knap, der bare bliver ved med at virke.
 
-**Tommelfingerregel:** start gratis. Opgradér til Plus, når du *uger i træk* rammer grænsen midt i noget vigtigt. Pro er sjældent det rigtige første skridt.
+Begge billeder kan være forkerte med en faktor hundrede.
 
-## Claude (Anthropic)
+### Vi har selv lavet fejlen
 
-Claude har typisk et gratis lag og et Pro-abonnement i samme prisklasse som ChatGPT Plus (omkring 20 $/md., tjek aktuelt). Claude Code og tungere brug kan kræve højere planer. Sammenlign *hvad du faktisk bruger*: hvis du mest skriver mails, er den billigste plan, der ikke irriterer dig, den rigtige.
+En tidligere udgave af netop denne artikel skrev, at nr. 1 kostede «under 10 dollars».
 
-## Gemini, Grok m.fl.
+Det var teknisk sandt og i praksis vildledende. Det rigtige tal er omkring **90 gange lavere**.
 
-Google Gemini er ofte generøs i gratis/billige lag, især hvis du allerede lever i Google-kontoen. xAI's Grok følger med i X/Twitter-universet afhængigt af abonnement der. Europæiske og open source-modeller kan køre billigt via API — men API er en anden regning (pay-per-token), ikke et fast magasinabonnement.
+Det står her, fordi et blad, der beder læseren tjekke tal, også skal vise sine egne.
 
-## Hosting af dit første projekt
+### Det var ikke et heldigt enkelttilfælde
 
-Vercel, Cloudflare Pages og GitHub Pages har gratis hobby-tiers, der rækker langt til personlige sider. Du betaler først, når du får rigtig trafik, egne domæner med ekstra services, eller server-ting der kører døgnet rundt.
+De genopbyggede augustnumre hos søstertitlerne kostede mellem **0,34 og 0,61 USD pr. helt blad**:
 
-## Den ærlige opskrift
+| Nummer | Modelforbrug |
+|---|---:|
+| KRØNIKE nr. 1 | 0,34 USD |
+| HumaNerd nr. 1 | 0,42 USD |
+| INDENI nr. 1 | 0,50 USD |
+| ORBIT nr. 1 | 0,53 USD |
+| DOSIS nr. 1 | 0,53 USD |
+| KRAFTEN nr. 1 | 0,54 USD |
+| KULTURBOXEN nr. 1 | 0,61 USD |
 
-1. **Ét** betalt AI-abonnement ad gangen.
-2. Skriv ned i en uge, hvad du brugte det til.
-3. Opsig det, der bare lå der "for en sikkerheds skyld".
+Det er ikke prisen på én artikel. Det er tekstproduktionen til et helt nummer.
 
-Cirka-tal ændrer sig. Dobbelttjek altid leverandørens prisside, før du klikker. GNISTEN er ikke din bankrådgiver — bare din ven, der har set for mange unødvendige abonnementer.
+Og tallene dækker ikke menneskearbejde, redigering, idéer, layout eller den computer, redaktionen sidder ved. De fortæller noget mere afgrænset — og stadig overraskende: selve modelregningen kan være meget lille.
+
+### Tre måder at betale på
+
+**Abonnement.** Fast månedlig pris for adgang i browseren eller som app. Enkelt, hvis du vil skrive, spørge og eksperimentere uden at følge hvert forbrug. Til gengæld er der ofte grænser for, hvor meget du kan bruge de stærkeste modeller.
+
+**Betaling efter forbrug.** Sker typisk gennem et API — en programmeringsgrænseflade — hvor du kobler et værktøj til en model og betaler for det, der sendes ind og kommer ud. Det lyder som noget for programmører, men mange værktøjer uden kodning bruger netop den model i baggrunden.[^1]
+
+Her er den lille regning en fordel — og også grunden til at sætte et forbrugsloft, før man lader en automatik køre løs.
+
+**Gratis niveauer.** Ofte rigeligt i starten. Brug dem til at lære at skrive bedre prompts, få hjælp til et udkast eller afprøve, om AI overhovedet passer til din hverdag.
+
+Gratis holder op med at være nok, når du rammer grænser hver uge, skal behandle lange dokumenter, eller har brug for den samme arbejdsgang igen og igen.
+
+### Lektionen
+
+Ikke at AI altid er billigt. Nogle opgaver koster næsten ingenting; andre bliver dyre, især gentaget i stor skala.
+
+Lektionen er, at du bør regne efter, før du gætter.
+
+Og 0,11 USD er et bedre sted at begynde end en løs forestilling om, at alt med AI koster en formue.
+
+[^1]: [Pricing](https://platform.openai.com/docs/pricing), OpenAI — et eksempel på, hvordan betaling efter forbrug opgøres. Vilkår, grænser og priser ændrer sig løbende, og GNISTEN trykker derfor ikke tal, der kan nå at blive forkerte; slå dem op hos den udbyder, du bruger.
