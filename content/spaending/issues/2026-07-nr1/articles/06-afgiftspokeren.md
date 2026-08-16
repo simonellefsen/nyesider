@@ -21,7 +21,7 @@ For at undgå det åbenlyse og ubehagelige opgør har politikerne nu nedsat en e
 
 Enten må de årlige ejerafgifter stige drastisk, hvilket vil æde af den økonomiske fordel, der i øjeblikket driver salget fremad. Eller også må man finde helt nye veje til vejfinansiering – bredere broafgifter, kilometerbaseret betaling eller intelligent trafikstyring. Uanset hvilken model eksperterne lander på, vil det kræve politisk mod at pille ved en maskine, der kører af sig selv. Indtil da kan elbilisterne glæde sig over de fastfrosne afgifter – og sende en venlig tanke til den regning, der stadig venter på et navn.
 
-[^1]: Finanslovsaftale / aftale om bilafgifter — se [fm.dk](https://fm.dk/) (Finansministeriet) og [skm.dk](https://skm.dk/) (Skatteministeriet) for gældende satser og politiske aftaletekster.
+[^1]: Finanslovsaftale / aftale om bilafgifter — se [fm.dk](https://fm.dk/) (Finansministeriet) og [Skatte- og Vækstministeriet](https://svmn.dk/) for gældende satser og politiske aftaletekster. Bemærk: skm.dk viderestiller nu til svmn.dk efter ressortændringen; tjekket 16. august 2026.
 
 [^2]: Registreringsafgift på elbiler: bundfradrag og indfasning; FDM og Skatteministeriet publicerer løbende oversigter — [fdm.dk](https://fdm.dk/) / [skat.dk](https://skat.dk/).
 
