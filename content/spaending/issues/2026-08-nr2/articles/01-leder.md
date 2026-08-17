@@ -1,16 +1,39 @@
 ---
-title: Når watt bliver hverdag
-standfirst: Leaf er tilbage, megawatt-laderne er tændt i Europa, og afgiftsfreden i Danmark har en udløbsdato. Velkommen til SPÆNDING nr. 2.
+title: "Når watt bliver hverdag"
+standfirst: Elbilen er holdt op med at være et projekt. Det betyder ikke, at tallene er blevet nemmere at læse — og et af dem stiger otte procentpoint om året, uden at nogen beslutter noget.
 section: Leder
 order: 1
+image: ../images/spaending_leader.png
+imageCredit: "AI-genereret motiv (Imagine / xAI)"
+imageSource: "https://x.ai/"
 ---
 
-[Nr. 1](/spaending/2026-07-nr1/leder-strom-til-folket) handlede om gennembruddet: folkebilen med stik, rækkeviddeangst på retur, og den politiske regning, der venter, når næsten alle kører el. Nr. 2 handler om det, der sker *bagefter* gennembruddet — når teknologien skal leve i hverdagen.
+Der er et punkt, hvor en ny teknologi holder op med at være interessant og begynder at være nyttig. Elbilen har passeret det.
 
-Nissan har genoplivet Leaf som en seriøs europæisk elbil med hundredvis af kilometer på papiret og produktion i Sunderland. Ionity har tændt HYC1000-systemer, der kan sende op til 600 kW ind i en kompatibel personbil — tal, der for få år siden lød som science fiction ved motorvejsrasten. Xiaomi lover Europa i 2027, mens prototyper allerede ses på kontinentets veje. Og i Danmark står registreringsafgiften stille i 2026, før stigningerne igen kigger ind fra 2027.
+Det er godt. Det er også grunden til, at dette nummer bruger mest plads på det, der stadig er svært at læse: prislisten, ladestanderen og loven.
 
-Det er et godt tidspunkt at være elbilinteresseret. Det er også et godt tidspunkt at holde hovedet koldt: rækkevidde er ikke det samme som ladehastighed, listepris er ikke det samme som ejeromkostning, og et rygte fra München er ikke det samme som en typegodkendt bil hos din forhandler. Strømmen bag stikket — net, elmix og elafgift — følger vi i KRAFTEN.
+Tag [Nissans nye LEAF](/spaending/2026-08-nr2/nissan-leaf). Øverst på den danske modelside står «op til 622 km». Nede i det med småt på samme side står «Rækkevidde fra 445 km». Begge tal er rigtige. De beskriver bare ikke den samme bil.
 
-God tur — og god opladning.
+Det samme mønster går igen i ladebranchen. En [megawatt-lader](/spaending/2026-08-nr2/megawatt-ladning) hedder det, fordi skabet kan levere en megawatt — fordelt på op til otte biler. Din bil får det, dens batteri kan tage imod, og for en helt ny LEAF er det 150 kilowatt. Det er ikke en mangel. Det er en anden måleenhed end den, der står på skiltet.
 
-— Claude Fable 5, chefredaktør
+### Det tal, der stiger af sig selv
+
+Og så er der det tal, ingen skal beslutte noget for at ændre.
+
+Registreringsafgiftsloven har siden 2020 ladet elbiler betale 40 procent af den almindelige registreringsafgift. Fra 2026 stiger den andel med otte procentpoint om året: 48 procent i år, 56 i 2027, 80 i 2030 — og 100 procent i 2035. Samtidig skrumper bundfradraget fra 165.500 kroner i 2025 til 155.400 i år og 150.800 til næste år.
+
+To stramninger, samme retning, allerede vedtaget. [Afgiftsartiklen](/spaending/2026-08-nr2/afgifter-2027) regner trappen ud — og forklarer, hvorfor vi *ikke* regner en konkret bilpris ud.
+
+Imens forandrer markedet sig hurtigere, end afgifterne gør. De første syv måneder af 2026 blev der nyregistreret 115.594 personbiler i Danmark, og [listen over mærker](/spaending/2026-08-nr2/nye-maerker) ser anderledes ud end for et år siden: Zeekr fra 45 biler til 1.542, Leapmotor fra nul til 672 — og Volkswagen fra 17.319 ned til 11.324.
+
+### Om forfatterskabet
+
+Dette nummer blev afpubliceret den 8. august 2026, fordi det krediterede navngivne modeller for artikler, ingen af dem havde skrevet.
+
+Det er nu produceret forfra på SPÆNDINGs egen API-nøgle. Otte artikler har en skriftlig brief, en kladde, et registreret forbrug og et skrevet verdikt i den journal, der ligger i samme arkiv som artiklerne. Denne leder er redaktionens egen og har ingen byline.
+
+Faktatjekket fandt to opfundne webadresser og et firmanavn med et bogstav for meget. Det står i verdikterne.
+
+En sidste ting: artiklen om Xiaomi er udgået. Den hørte hjemme i nr. 3, og de danske registreringstal fortalte en bedre historie.
+
+Godt nummer.

@@ -1,0 +1,20 @@
+# Megawatt er skabets tal — ikke din bils
+
+"Megawatt-lader" er blevet et af de mest brugte ord i elbilbranchen de seneste år, og det lyder som et løfte om, at ladetiden snart er et overstået problem. Men ordet dækker over noget andet, end de fleste tror, og et godt eksempel er Alpitronics' HYC1000 — et af de anlæg, betegnelsen bruges om.
+
+Ifølge producentens egen produktside (kontrolleret 16. august 2026) er HYC1000 bygget op af effektmoduler i form af SiC-stakke (siliciumcarbid), hvor hver stak leverer 125\u00a0kW og 400\u00a0A ved en virkningsgrad på over 98\u00a0%. Otte af disse stakke samlet i ét såkaldt Power Cabinet giver tilsammen 1\u00a0MW.[^1] Og dér ligger hele pointen: megawatten er skabets samlede effekt — ikke det, én bil kan få leveret.
+
+Systemet er bygget med en distribueret arkitektur, hvor effektskabene fysisk er adskilt fra selve ladestanderne. Op til otte ladepunkter kan betjenes samtidig fra ét skab, mens effekten fordeles dynamisk mellem de biler, der lader på samme tid, i spring på 62,5\u00a0kW. Det betyder, at systemet hele tiden flytter kapacitet derhen, hvor den bruges — men den samlede kage er stadig kun én megawatt. Otte biler, der lader samtidig på ét skab, får derfor i gennemsnit 125\u00a0kW hver. Det er omtrent, hvad en almindelig moderne elbil kan tage imod alligevel.
+
+Det er værd at stoppe op her, for en læser, der har set overskriften "megawatt-lader" og troet, at hans bil nu lader fuldt op på et par sekunder, bliver skuffet — men ikke af standeren. En ladestander leverer aldrig mere effekt, end bilens batteri og styring vil modtage, og den effekt falder desuden gradvist gennem ladningen, som batteriet nærmer sig fuldt. Det gælder, uanset om standeren i princippet kan levere 125\u00a0kW eller 1\u00a0MW. Flaskehalsen ligger i bilen, ikke i skabet.
+
+De virkelig store tal i HYC1000-systemet peger da også et andet sted hen end mod personbiler: mod lastbiler. Systemets MCS-dispenser (Megawatt Charging System — den nye ladestandard udviklet specifikt til tunge køretøjer) kan ifølge produktsiden levere op til 1500\u00a0A, mens den valgfrie CCS/NACS-ladning (Combined Charging System henholdsvis North American Charging Standard) topper ved 600\u00a0A.[^1] Det er en markant forskel, og den afspejler, at en lastbil med et batteri på flere hundrede kilowattimer har brug for en helt anden strømstyrke end en personbil for overhovedet at kunne lade i en pause af rimelig længde.
+
+Til sammenligning kan systemets HP-dispenser (High Power) levere over 1000\u00a0A, og op til 800\u00a0A uden derating. Derating betyder, at en ladestander automatisk skruer ned for effekten, når komponenterne bliver for varme — en indbygget sikkerhedsmekanisme, som de fleste hurtigladere har, men som i praksis kan betyde, at den effekt, man ser reklameret med, ikke er den, man rent faktisk får efter ti minutters ladning i sommervarme.
+
+Sæt det op mod en helt almindelig personbil: en ny Nissan LEAF topper ved 150\u00a0kW i ladeeffekt. Selv hvis den stod alene ved et helt HYC1000-skab, ville den aldrig kunne trække mere end det, dens eget batteri tillader — resten af megawatten ville simpelthen stå ubrugt hen, eller blive fordelt til andre biler på nabostanderne.
+
+Den ærlige konklusion er derfor, at ladeeffekten sjældent er den reelle flaskehals for en almindelig bilist i dag. Moderne elbiler kan i forvejen tage imod 100–150\u00a0kW, og det er sjældent bilens batteri, der begrænser en pause på motorvejen. Det, der afgør, om turen bliver en god oplevelse, er noget mere jordnært: hvor mange standere der overhovedet står ved rastepladsen, og om de rent faktisk virker, når man kommer frem. Megawatten i navnet er et ingeniørmæssigt korrekt tal for skabet — men det er ikke det tal, der afgør, hvor lang tid du står og venter.
+
+[^1]: Alpitronics, produktside for HYC1000 (alpitronics.eu), kontrolleret 16. august 2026.
+[^2]: CharIN e.V., information om Megawatt Charging System (MCS)-standarden (charin.global).

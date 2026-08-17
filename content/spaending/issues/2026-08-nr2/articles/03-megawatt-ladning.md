@@ -1,6 +1,7 @@
 ---
-title: Megawatt på motorvejen — 600 kW er ikke længere et slide
-standfirst: Ionity har tændt Alpitronic HYC1000 i Europa. Op til 600 kW til personbiler. Nu mangler vi bare bilerne — og de danske standere.
+title: "Megawatten er skabets tal — ikke din bils"
+standfirst: Otte effektstakke à 125 kW deler én megawatt mellem op til otte biler. Din bil får det, batteriet kan tage imod — og de virkelig store tal peger på lastbiler.
+byline: "Claude Sonnet 5 (Anthropic)"
 section: Teknologi
 order: 3
 image: ../images/spaending_megawatt.png
@@ -8,38 +9,44 @@ imageCredit: "AI-genereret motiv (Imagine / xAI)"
 imageSource: "https://x.ai/"
 ---
 
-I nr. 1 stod megawatt-ladning i [Rygtebørsen](/spaending/2026-07-nr1/rygteboersen) og i [Kort & Watt](/spaending/2026-07-nr1/kort-og-watt) som noget, der *var på vej*. I 2026 er den på vej til at blive noget, man kan pege på: Ionity har aktiveret HYC1000-systemer, blandt andet i Frankrig, med op til **600 kW** til kompatible personbiler via CCS — nok til at tale om hundredvis af kilometer på få minutter, når bilen kan følge med.[^1]
+«Megawatt-lader» er blevet et af de mest brugte ord i elbilbranchen, og det lyder som et løfte om, at ladetiden snart er et overstået problem.
 
-### Hvad "megawatt" egentlig betyder her
+Ordet dækker over noget andet, end de fleste tror. Et godt eksempel er Alpitronic HYC1000 — et af de anlæg, betegnelsen bruges om.
 
-Alpitronics HYC1000 er bygget som et system med central power cabinet og flere dispensere. Navnet lyder lastbil, og der findes særskilte MCS-spor til tung transport. Det, Ionity ruller ud til personbiler, er ultra-hurtig CCS i den absolutte top — typisk kommunikeret som op til 600 kW pr. bil under ideelle forhold.[^2]
+### Otte stakke, ét skab
 
-### Flaskehalsen er ikke kun ladestanderen
+Efter producentens egen produktside er HYC1000 bygget op af effektmoduler i form af SiC-stakke — siliciumcarbid — hvor hver stak leverer 125 kW og 400 A med en virkningsgrad på over 98 procent. Otte af dem samlet i ét såkaldt Power Cabinet giver tilsammen 1 MW.[^1]
 
-1. **Bilen** skal kunne tage strømmen: typisk **800V-arkitektur** (højspændingsbatteri og elektronik), plus batterikøling og en ladekurve der tør holde højt watt-tal mere end få sekunder. 400V-biler (mange volume-modeller, inkl. de fleste Tesla) kan stadig hurtiglade — men de rammer loftet længe før 600 kW.
-2. **Nettet** skal levere uden at naboen mister ovnen.
-3. **Prisen** pr. kWh må ikke gøre "otte minutter" til en dyr fornøjelse.
-4. **Køen** — en stander på 600 kW hjælper dig ikke, hvis der er fire biler foran, der deler effekten.
+Og dér ligger hele pointen: megawatten er skabets samlede effekt — ikke det, én bil kan få leveret.
 
-### Hvem har egentlig 800V?
+Systemet har en distribueret arkitektur, hvor effektskabene fysisk er adskilt fra selve standerne. Op til otte ladepunkter kan betjenes samtidig fra ét skab, mens effekten fordeles dynamisk mellem de biler, der lader på samme tid, i spring på 62,5 kW.
 
-Listen vokser, men den er stadig kortere end elbilkataloget. Blandt modeller, der er solgt eller under udrulning med 800V-klasse-arkitektur (eller tæt på — Lucid kører endnu højere), finder du blandt andet:
+Systemet flytter altså kapacitet derhen, hvor den bruges. Men den samlede kage er stadig én megawatt. Otte biler, der lader samtidig på ét skab, får derfor i gennemsnit 125 kW hver — omtrent hvad en almindelig moderne elbil kan tage imod alligevel.
 
-- **Porsche Taycan** og **Macan Electric** — pionererne i premium-enden.
-- **Audi e-tron GT** (samme tekniske familie som Taycan).
-- **Hyundai Ioniq 5** og **Ioniq 6**, **Kia EV6** og **EV9**, **Genesis GV60** — Hyundai-Kia-gruppens 800V-platform (E-GMP), som har gjort ultra-hurtig DC-ladning til et volumenargument.
-- **Lucid Air** — 900V-klasse; i praksis i samme “meget hurtig DC”-liga.
-- **BMW Neue Klasse** (fx nye **iX3**) og **Mercedes**’ næste generations kompakt-el (fx **CLA**) — premium der rykker op i 800V.
-- **Lotus Eletre** og en række kinesiske volume-/premium-modeller (fx **Zeekr**, udvalgte **BYD**/Seal-varianter, **Xiaomi SU7**), der allerede bruger 800V som standardargument på hjemmemarkedet.
+### Flaskehalsen sidder i bilen
 
-Vigtigt: **800V er en forudsætning, ikke en garanti** for 600 kW. Maksimal ladeeffekt afhænger af bilens software, batteritemperatur, SoC (state of charge — batteriets ladestand) og hvad standeren faktisk leverer i det øjeblik. En Ioniq 5, der topper omkring 230–350 kW under gode forhold, udnytter 800V — men den er ikke en 600 kW-bil. De første personbiler, der *reelt* kan tømme en HYC1000-stander, er stadig en elite; 600 kW er netværkets loft, bilens kurve er flaskehalsen.
+Det er værd at stoppe op her. En læser, der har set overskriften og troet, at hans bil nu lader fuldt på et par minutter, bliver skuffet — men ikke af standeren.
 
-### Danmarksvinklen
+En ladestander leverer aldrig mere effekt, end bilens batteri og styring vil modtage. Og den effekt falder gradvist gennem ladningen, efterhånden som batteriet nærmer sig fuldt. Det gælder, uanset om standeren i princippet kan levere 125 kW eller 1 MW.
 
-Det danske ladenet er tæt i de store korridorer, men "første danske 600 kW-personbilstander" er stadig en overskrift, vi gerne vil skrive med et præcist vejkryds og en dato. Indtil da er den europæiske udrulning den bedste pejling: når tyske, franske og benelux-stationer vænner bilister til kortere stop, stiger presset for, at danske ruter følger med.
+En helt ny [Nissan LEAF](/spaending/2026-08-nr2/nissan-leaf) topper ved 150 kW. Selv hvis den stod alene ved et helt HYC1000-skab, ville den aldrig kunne trække mere end det. Resten af megawatten ville stå ubrugt eller blive fordelt til nabostanderne.
 
-Megawatt er ikke magi. Det er infrastruktur. Og infrastruktur vinder, når den er kedelig, pålidelig og overalt — ikke kun når den er hurtig på et pressemøde.
+### De store tal peger på lastbiler
 
-[^1]: [electrive: Ionity activates first megawatt charger in France](https://www.electrive.com/2026/02/19/ionity-activates-first-megawatt-charger-in-france/) — HYC1000 live; op til 600 kW.
+De virkelig høje strømstyrker i systemet peger da også et andet sted hen end mod personbiler.
 
-[^2]: [Ionity pressemeddelelse: indkøb af Alpitronic HYC1000](https://www.ionity.eu/ionity/press-releases/ionity-first-to-procure-megawatt-charging-system-alpitronic-hyc1000) (2025) og efterfølgende udrulning.
+MCS-dispenseren — *Megawatt Charging System*, den nye ladestandard udviklet til tunge køretøjer — kan ifølge produktsiden levere op til 1500 A, mens den valgfrie CCS/NACS-ladning topper ved 600 A. Systemets HP-dispenser kan over 1000 A, og 800 A uden derating.[^1]
+
+*Derating* betyder, at en stander automatisk skruer ned for effekten, når komponenterne bliver for varme. Det er en indbygget sikkerhedsmekanisme, som de fleste hurtigladere har — og som i praksis kan betyde, at den reklamerede effekt ikke er den, man får efter ti minutter i sommervarme.
+
+Forskellen mellem 1500 A og 600 A afspejler, at en lastbil med et batteri på flere hundrede kilowatt-timer har brug for en helt anden strømstyrke end en personbil for at kunne lade i en pause af rimelig længde.
+
+### Den ærlige konklusion
+
+Ladeeffekten er sjældent den reelle flaskehals for en almindelig bilist. Moderne elbiler kan i forvejen tage imod 100-150 kW, og det er sjældent bilen, der forlænger en pause på motorvejen.
+
+Det, der afgør, om turen bliver en god oplevelse, er mere jordnært: hvor mange standere der står ved rastepladsen, og om de virker, når man kommer frem.
+
+Megawatten i navnet er et ingeniørmæssigt korrekt tal for skabet. Det er bare ikke det tal, der afgør, hvor længe du står og venter.
+
+[^1]: [Hypercharger HYC1000](https://www.alpitronic.it/en/hypercharger/hyc-1000/), Alpitronic, kontrolleret 16. august 2026 — herfra 125 kW og 400 A pr. SiC-stak ved over 98 % virkningsgrad, otte stakke à 1 MW i ét Power Cabinet, op til otte samtidige ladepunkter, dynamisk fordeling i spring på 62,5 kW, MCS op til 1500 A, CCS/NACS op til 600 A og HP-dispenserens over 1000 A / 800 A uden derating.

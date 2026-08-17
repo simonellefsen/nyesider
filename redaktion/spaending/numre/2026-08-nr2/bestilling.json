@@ -1,0 +1,325 @@
+{
+  "magazine": "spaending",
+  "issue": "2026-08-nr2",
+  "issueTheme": "Når watt bliver hverdag",
+  "integrityNote": "Skrevet fra bunden 2026-08-16. Den afpublicerede udgave (2026-08-08) bar byline til navngivne modeller uden kvittering, kladde eller forbrug. Hele nummeret produceres forfra på titlens egen nøgle (.env.spaending). Byline sættes kun, hvor receipt.costUSD og receipt.draft er udfyldt; lederen er chefredaktionens og har ingen byline.",
+  "budget": {
+    "articles": 9,
+    "wordsPerArticle": [
+      550,
+      850
+    ],
+    "targetPages": 12,
+    "note": "Den afpublicerede udgave var 9 artikler på 2.707 ord — gennemsnit 301, under notesbogens eget mål på 250-500 og langt under de øvrige genopbygninger. Budgettet er sat til 550-850. Artiklen om Xiaomi er UDGÅET og erstattet af 'nye-maerker': nr. 3 har allerede en Xiaomi-status, og de danske registreringstal giver en langt bedre og bedre belagt historie om de nye mærker."
+  },
+  "researchNote": "ADVARSEL: dette felt når ALDRIG frem til modellen — kun brief.angle gør. Alle tal nedenfor er derfor også skrevet ind i de enkelte briefs. Kontrolleret 2026-08-16.\n\nREGISTRERINGSAFGIFTSLOVEN, konsolideret (retsinformation.dk/eli/lta/2025/370), § 5 b: For biler, der udleder 0 g CO2 pr. km, beregnes afgiften som 40 pct. af registreringsafgiften efter §§ 4, 5 eller 5 a fra og med 18. december 2020 til og med 31. december 2025, «hvorefter procentdelen årligt stiger med 8 procentpoint til og med 2030, hvor der beregnes 80 pct.». Fra 1. januar 2031 er den 84 pct., hvorefter den stiger 4 procentpoint årligt til og med 2035, hvor der beregnes 100 pct. Indfasningen giver altså: 2026 = 48 pct., 2027 = 56, 2028 = 64, 2029 = 72, 2030 = 80, 2031 = 84, 2032 = 88, 2033 = 92, 2034 = 96, 2035 = 100.\n\n§ 5 b, stk. 2 (fradrag for personbiler): 170.000 kr. (18.12.2020-31.12.2021), 167.500 (2022), 165.000 (2023), 162.500 (1.-31. januar 2024), 165.500 (1. februar-31. december 2024), 165.500 (2025), 155.400 (2026), 150.800 (2027), 146.200 (2028), 141.600 (2029), 137.000 fra og med 2030. Fradraget kan maksimalt udgøre afgiften efter stk. 1.\n\n§ 5 b, stk. 3 (fradrag for varebiler efter § 5): 80.000 kr. (2020-2021), 78.750 (2022), 77.500 (2023), 76.250 (januar 2024), 77.500 (resten af 2024), 77.500 (2025), 73.000 (2026), 71.000 (2027), 69.000 (2028), 67.000 (2029), 65.000 fra 2030.\n\n§ 4, stk. 6 (brugte køretøjer): «Afgiften for brugte køretøjer beregnes på samme måde som for nye køretøjer. Beløb i stk. 1, 2 og 5, § 5 b, stk. 2-4, og § 5 c, stk. 2, nedsættes med samme procentdel, som køretøjets værdi inklusive afgift er ændret, sammenholdt med et tilsvarende køretøj, der er afgiftsberigtiget som nyt.» Stk. 7: et brugt køretøjs alder regnes fra første registrering.\n\nNISSAN LEAF, dansk modelside (leaf.nissan.dk, kontrolleret 2026-08-16): op til 622 km rækkevidde og 13,8 kWh/100 km med 75 kWh-batteriet i Udvidet rækkevidde; op til 150 kW DC-lynladning og 11 kW AC; op til 417 km på 30 minutter; V2L; bagagerum 437 liter; kompakt SUV. Priser: Engage fra 284.900 kr., Engage+ fra 304.900 kr., Advance fra 324.900 kr., Evolve fra 339.900 kr. Privatleasing fra 2.695 kr./md. DET MED SMÅT PÅ SAMME SIDE: «Forbrug 137 Wh/km. Rækkevidde fra 445 km. Halvårlig CO2 afgift 460 kr.» samt «Opladningstid under optimale forhold 10-100 %: 6 timer v. max ladeeffekt 11 kW; Hurtig-/lynopladning, 15 %-80 %: 30 min.» De 622 og de 445 er samme model i to konfigurationer.\n\nALPITRONIC HYC1000 (alpitronic.it/en/hypercharger/hyc-1000/, kontrolleret 2026-08-16): SiC-Stack GEN 2 leverer 125 kW og 400 A pr. stak med over 98 pct. virkningsgrad; otte stakke i ét Power Cabinet giver 1 MW, «making it the most powerful Hypercharger». Distribueret arkitektur, hvor Power Cabinets og Dispensere er adskilt; op til otte ladepunkter betjener biler parallelt; effekten fordeles dynamisk med 62,5 kW granularitet; udgangsspænding 150-1000 V. MCS-dispenser: MCS-ladning op til 1500 A, valgfrit CCS/NACS op til 600 A. EV-dispenser: op til 2 x CCS/NACS ved 600 A samtidig. HP-dispenser: over 1000 A, 800 A uden derating, én væskekølet CCS2-konnektor. Selskabet oplyser over 100 millioner gennemførte ladninger.\n\nMOBILITY DENMARK (mobility.dk/nyregistreringer/, statistik 1. januar - 31. juli 2026, kontrolleret 2026-08-16): 115.594 nyregistrerede personbiler mod 103.328 i samme periode 2025. Hele 2025: 184.599. Varebiler 14.513 (2025: 14.541), lastbiler 3.339 (3.362), busser 436 (321).\n\nPersonbiler pr. mærke, 1. januar - 31. juli 2026 mod samme periode 2025 (antal og andel): Toyota 12.370 / 10,7 pct. mod 6.950 / 6,7. Volkswagen 11.324 / 9,8 mod 17.319 / 16,8. Skoda 11.203 / 9,7 mod 10.071 / 9,8. Mercedes-Benz 7.994 / 6,9 mod 7.009 / 6,8. BMW 7.815 / 6,8 mod 7.059 / 6,8. Tesla 6.723 / 5,8 mod 4.085 / 4,0. Renault 6.555 / 5,7 mod 4.757 / 4,6. Audi 6.292 / 5,4 mod 7.103 / 6,9. Cupra 5.287 / 4,6 mod 6.984 / 6,8. Kia 3.570 / 3,1 mod 4.200 / 4,1. Citroen 3.395 / 2,9 mod 674 / 0,7. Xpeng 3.177 / 2,8 mod 1.543 / 1,5. MG 2.676 / 2,3 mod 1.652 / 1,6. Hyundai 2.416 / 2,1 mod 3.938 / 3,8. Nissan 2.371 / 2,1 mod 2.368 / 2,3. BYD 1.819 / 1,6 mod 1.332 / 1,3. Zeekr 1.542 / 1,3 mod 45 / 0,0. Polestar 1.263 / 1,1 mod 1.227 / 1,2. Leapmotor 672 / 0,6 mod 0. VinFast 560 / 0,5 mod 0. Jaecoo 233 / 0,2 mod 0. Deepal 183 / 0,2 mod 0. Omoda 107 / 0,1 mod 3. Skyworth 75 / 0,1 mod 0. Exlantix 46 mod 0. Nio 25 mod 0. Hongqi 28 mod 175.\n\nADVARSEL OM KILDER (kontrolleret 2026-08-16): skm.dk viderestiller nu til svmn.dk (Skatte- og Vækstministeriet) efter ressortændringen — brug svmn.dk. nissan.dk/biler/nye-biler/leaf.html svarer 200, men leverer forsiden; den rigtige adresse er leaf.nissan.dk. alpitronic.it svarer på /en/hypercharger/<model>/, IKKE på /en/products/<model>/. Mobility Denmark hed tidligere De Danske Bilimportører og ligger nu på mobility.dk; bilimp.dk viderestiller.\n\nDUBLETADVARSEL: nr. 3 (også draft) dækker 600 kW i Danmark, Xiaomi-status, faststof, kilometerafgift og vinter-el. Nr. 2 må ikke gentage dem.",
+  "opgaver": [
+    {
+      "slug": "leder",
+      "order": 1,
+      "section": "Leder",
+      "brief": {
+        "angle": "Chefredaktionens leder. Skrives af redaktionen selv — ingen model, ingen byline.",
+        "words": [
+          300,
+          500
+        ],
+        "mustCite": 0,
+        "format": "leder"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led"
+      },
+      "receipt": {
+        "words": null,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "editor-written",
+        "checkedAt": "2026-08-16",
+        "citations": 0,
+        "editorNote": "Chefredaktionens egen tekst — ingen model, ingen byline, intet forbrug. Lederen redegoer for afpubliceringen 2026-08-08 og for, at Xiaomi-artiklen er udgaaet til fordel for 'nye-maerker', fordi nr. 3 allerede har en Xiaomi-status, og fordi registreringstallene baerer en bedre og bedre belagt historie."
+      }
+    },
+    {
+      "slug": "nissan-leaf",
+      "order": 2,
+      "section": "Køretest",
+      "brief": {
+        "angle": "Nissan LEAF er tilbage som kompakt SUV, og den danske modelside rummer nummerets bedste lille lektion i at læse en prisliste. Øverst på siden står «op til 622 km» rækkevidde, 13,8 kWh/100 km og «op til 150 kW» lynladning — tal for udgaven med 75 kWh-batteri og Udvidet rækkevidde. Nede i det med småt på nøjagtig samme side står: «Forbrug 137 Wh/km. Rækkevidde fra 445 km.» Begge tal er rigtige. De beskriver bare ikke den samme bil: det ene er den bedste konfiguration, det andet er den, der findes fra. Skriv artiklen om netop dét — et rækkeviddetal er en variant og en målemetode, ikke en bil — uden at gøre det til en anklage mod Nissan, for det er præcis sådan hele branchen skriver. Konkrete tal, der må bruges (alle fra leaf.nissan.dk, kontrolleret 16. august 2026): 75 kWh batteri i Udvidet rækkevidde; op til 622 km og 13,8 kWh/100 km; op til 150 kW DC og 11 kW AC; op til 417 km på 30 minutter; opladning 10-100 % på cirka 6 timer ved 11 kW og 15-80 % på 30 minutter ved maksimal ladeeffekt; V2L (vehicle-to-load, altså at bilen kan levere 230 V til andet udstyr) — forklar forkortelsen første gang; bagagerum 437 liter. Priser: Engage fra 284.900 kr., Engage+ fra 304.900 kr., Advance fra 324.900 kr., Evolve fra 339.900 kr.; privatleasing fra 2.695 kr./md.; halvårlig CO2-afgift 460 kr. Sæt til sidst de 150 kW i forhold til resten af nummeret: mens ladebranchen taler om megawatt, topper en helt ny familie-elbil ved 150 kW — og det er ikke en mangel, det er den effekt, batteriet kan tage imod. Skriv WLTP ud, hvis du bruger forkortelsen. Ingen prissammenligning med konkurrenter, du ikke kan kildebelægge.",
+        "words": [
+          600,
+          850
+        ],
+        "mustCite": 1,
+        "mustNumber": [
+          "622 km mod 445 km fra samme side",
+          "op til 150 kW DC",
+          "Engage fra 284.900 kr."
+        ],
+        "format": "koeretest"
+      },
+      "writer": {
+        "byline": "Claude Opus 4.8 (Anthropic)",
+        "model": "anthropic/claude-opus-4.8",
+        "fallback": "anthropic/claude-sonnet-5"
+      },
+      "receipt": {
+        "words": 707,
+        "costUSD": 0.059455,
+        "draft": "kladder/02-nissan-leaf.md",
+        "costRouting": "byok",
+        "generationId": "gen-1786940776-oq9MHTgoXFoeR1GQvxDb"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-16",
+        "citations": 1,
+        "editorNote": "REELT kommissioneret hos anthropic/claude-opus-4.8 paa .env.spaending; kladde i kladder/02-nissan-leaf.md. Den greb briefens vinkel og skrev selv den bedste formulering: at prislisten skal laeses som et menukort og ikke som en varedeklaration for én ret. Den var ogsaa fair mod Nissan uden at blive ukritisk — at have begge tal paa samme side er mere end mange goer. UBELAGT PAASTAND FANGET: kladden skrev, at de 445 km er «den mindre batterivariant, den billigere indgang til modellen». Modelsiden siger ikke hvilken konfiguration tallet daekker; den skriver bare «Raekkevidde fra 445 km» i sine egne noter. Rettet til, at siden ikke selv oplyser det — hvilket ovenikoebet er en skarpere pointe: «fra» er en nedre graense, ikke en beskrivelse. Punktopstillingen er lavet om til tabel, og krydslink til afgiftsartiklen er tilfoejet, saa laeseren ved, at 2026-priser ikke er 2027-priser."
+      }
+    },
+    {
+      "slug": "megawatt-ladning",
+      "order": 3,
+      "section": "Teknologi",
+      "brief": {
+        "angle": "«Megawatt-lader» er blevet et salgsord, og det dækker over noget andet, end de fleste tror. Tag Alpitronics HYC1000, som er et af de anlæg, ordet bruges om. Efter producentens egen produktside (kontrolleret 16. august 2026) er den bygget af effektmoduler — SiC-stakke — der hver leverer 125 kW og 400 A med over 98 procents virkningsgrad. Otte af dem i ét Power Cabinet giver tilsammen 1 MW. Og dér ligger pointen: megawatten er SKABETS samlede effekt, ikke hvad én bil får. Systemet har en distribueret arkitektur, hvor effektskabene står adskilt fra selve standerne, og hvor op til otte ladepunkter kan betjene biler samtidig, mens effekten fordeles dynamisk mellem dem i spring på 62,5 kW. Otte biler på ét megawatt er i gennemsnit 125 kW hver — omtrent hvad en almindelig elbil kan tage imod alligevel. Forklar det for en læser, der har set overskriften og troet, at hans bil nu lader på et sekund: en ladestander leverer aldrig mere, end bilens batteri vil modtage, og den effekt falder desuden gennem ladningen. Forklar også, at de virkelig store tal i systemet peger på lastbiler og ikke på personbiler: MCS-dispenseren (Megawatt Charging System, den nye standard til tunge køretøjer) kan levere op til 1500 A, mens den valgfrie CCS/NACS-ladning topper ved 600 A. HP-dispenseren kan over 1000 A og 800 A uden derating — forklar derating som det, at en stander skruer ned for effekten, når den bliver varm. Slut med den ærlige konklusion: det er ikke ladeeffekten, der er flaskehalsen for en almindelig bilist, men hvor mange standere der er, og om de virker. Sammenlign gerne med, at en helt ny Nissan LEAF topper ved 150 kW.",
+        "words": [
+          600,
+          850
+        ],
+        "mustCite": 1,
+        "mustNumber": [
+          "125 kW pr. stak, otte stakke = 1 MW",
+          "op til otte ladepunkter parallelt",
+          "62,5 kW granularitet",
+          "MCS op til 1500 A mod CCS/NACS 600 A"
+        ],
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "openai/gpt-5.6-terra"
+      },
+      "receipt": {
+        "words": 623,
+        "costUSD": 0.04502,
+        "draft": "kladder/03-megawatt-ladning.md",
+        "costRouting": "byok",
+        "generationId": "gen-1786940825-Ea0rHzhnwmmkQWzxNwn2"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-16",
+        "citations": 1,
+        "editorNote": "REELT kommissioneret hos anthropic/claude-sonnet-5 paa .env.spaending; kladde i kladder/03-megawatt-ladning.md. Den forklarede derating praecist og uopfordret godt: at den reklamerede effekt ikke er den, man faar efter ti minutter i sommervarme. Og den landede briefens pointe uden at overdrive — at flaskehalsen for en almindelig bilist er antallet af standere, ikke effekten. OPFUNDET ADRESSE FANGET: fodnoten henviste til «alpitronics.eu». Det domaene indgaar ikke i vores kilder, og firmaet hedder Alpitronic uden s; produktsiden ligger paa alpitronic.it/en/hypercharger/hyc-1000/. Rettet. EN GAETTET KILDE FANGET: en fodnote til CharIN e.V. paa charin.global om MCS-standarden — hverken briefet eller kontrolleret. Fjernet; MCS er forklaret i broedteksten i stedet. Firmanavnet stod desuden som «Alpitronics» med s i broedteksten; selskabet hedder Alpitronic. Rettet."
+      }
+    },
+    {
+      "slug": "nye-maerker",
+      "order": 4,
+      "section": "Markedet",
+      "brief": {
+        "angle": "Det danske bilmarked har fået en håndfuld mærker, de fleste danskere ikke kunne udpege for to år siden — og registreringstallene viser præcis hvor hurtigt. Brug Mobility Denmarks statistik for 1. januar til 31. juli 2026 mod samme periode 2025 (kontrolleret 16. august 2026). Samlet blev der nyregistreret 115.594 personbiler i 2026 mod 103.328 året før. Zeekr gik fra 45 biler til 1.542. Leapmotor fra 0 til 672. VinFast fra 0 til 560. Jaecoo fra 0 til 233. Deepal fra 0 til 183. Skyworth fra 0 til 75. Exlantix fra 0 til 46. Nio fra 0 til 25. Xpeng mere end fordoblede sig fra 1.543 til 3.177 og er nu større end MG (2.676) og Volvo (2.635). BYD gik fra 1.332 til 1.819. Modsat: Volkswagen faldt fra 17.319 til 11.324 og fra 16,8 til 9,8 procents markedsandel; Audi fra 7.103 til 6.292; Cupra fra 6.984 til 5.287; Hyundai fra 3.938 til 2.416; Kia fra 4.200 til 3.570. Toyota gik derimod frem fra 6.950 til 12.370 og er nu største mærke, og Tesla fra 4.085 til 6.723. Skriv historien nøgternt og uden at gøre den til et kinesisk-invasion-narrativ: de nye mærker fylder tilsammen stadig en lille del af markedet, og et enkelt halvår er ikke en trend. Men vær samtidig præcis om, at et mærke, der går fra nul til flere hundrede biler på et halvt år, har fået en forhandler, en importør og en serviceaftale i Danmark — det er den slags, der ikke kan rulles tilbage på en sæson. Den nyttige vinkel for en køber er den lange: hvem reparerer bilen om syv år, hvad er den værd på brugtmarkedet, og findes reservedelene? De spørgsmål kan ingen statistik besvare, og artiklen skal sige det i stedet for at gætte. Angiv altid, at tallene er for de første syv måneder af året, aldrig som helårstal.",
+        "words": [
+          600,
+          850
+        ],
+        "mustCite": 1,
+        "mustNumber": [
+          "115.594 mod 103.328 personbiler",
+          "Zeekr 45 -> 1.542",
+          "Xpeng 1.543 -> 3.177",
+          "Volkswagen 17.319 -> 11.324"
+        ],
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "Gemini 3.1 Pro Preview (Google)",
+        "model": "google/gemini-3.1-pro-preview",
+        "fallback": "anthropic/claude-sonnet-5"
+      },
+      "receipt": {
+        "words": 786,
+        "costUSD": 0.11205,
+        "draft": "kladder/04-nye-maerker.md",
+        "costRouting": "byok",
+        "generationId": "gen-1786940889-aObOOQw8oDNsVoOv1B9B"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-16",
+        "citations": 1,
+        "editorNote": "REELT kommissioneret hos google/gemini-3.1-pro-preview paa .env.spaending; kladde i kladder/04-nye-maerker.md. Den holdt briefens vigtigste krav — ikke at goere tallene til et invasionsnarrativ — og fandt selv den rigtige konkretisering: at et maerke, der gaar fra nul til flere hundrede biler, betyder fysiske kvadratmeter og ansatte mekanikere. OPFUNDET ADRESSE FANGET: fodnoten henviste til mobilitydenmark.dk, som slet ikke svarer (DNS-opslag fejler). Den rigtige er mobility.dk/nyregistreringer/. Rettet. INSTRUKTIONSLAEK FANGET: saetningen «Vaer praecis omkring praemissen:» stod midt i broedteksten — briefens egen ordlyd, der var sivet ind i artiklen. Fjernet. De ni nye maerker er sat i tabel i stedet for en opremsning, og alle steder er det gjort eksplicit, at tallene daekker syv maaneder og ikke et helt aar."
+      }
+    },
+    {
+      "slug": "afgifter-2027",
+      "order": 5,
+      "section": "Politik & afgifter",
+      "brief": {
+        "angle": "Elbilens danske afgiftsrabat har en indfasningsplan, den står i loven, og den er allerede begyndt. Skriv artiklen ud fra registreringsafgiftslovens § 5 b, som den er konsolideret på retsinformation.dk (kontrolleret 16. august 2026) — ikke ud fra avisreferater. Loven siger: for biler, der udleder 0 g CO2 pr. km, beregnes afgiften som 40 procent af den almindelige registreringsafgift fra 18. december 2020 til og med 31. december 2025, «hvorefter procentdelen årligt stiger med 8 procentpoint til og med 2030, hvor der beregnes 80 pct.». Fra 1. januar 2031 er satsen 84 procent og stiger derefter 4 procentpoint årligt til og med 2035, hvor elbiler betaler 100 procent. Regn trappen ud for læseren: 2026 er 48 procent, 2027 er 56, 2028 er 64, 2029 er 72, 2030 er 80. Den anden halvdel af regnestykket er bundfradraget, som samtidig skrumper. Efter § 5 b, stk. 2 er fradraget for personbiler 165.500 kr. i 2025, 155.400 kr. i 2026, 150.800 kr. i 2027, 146.200 kr. i 2028, 141.600 kr. i 2029 og 137.000 kr. fra og med 2030. Fradraget kan højst udgøre afgiften. For varebiler efter § 5 er de tilsvarende beløb 77.500 kr. i 2025, 73.000 i 2026, 71.000 i 2027, 69.000 i 2028, 67.000 i 2029 og 65.000 fra 2030. Pointen, artiklen skal lande: to ting strammes samtidig — en større andel af afgiften skal betales, og det faste fradrag bliver mindre. Det er derfor, en elbil bliver dyrere hvert år, selv om ingen politiker vedtager noget nyt. Vær udtrykkelig om, hvad artiklen IKKE gør: den regner ikke en konkret bilpris ud, fordi afgiften afhænger af bilens afgiftspligtige værdi og af satserne i §§ 4, 5 og 5 a, og et regneeksempel uden dem ville være falsk præcision. Skriv i stedet, hvad læseren selv skal slå op. Nævn til sidst, at Skatteministeriet nu hedder Skatte- og Vækstministeriet, og at skm.dk viderestiller til svmn.dk — den slags gør gamle henvisninger svære at følge.",
+        "words": [
+          600,
+          850
+        ],
+        "mustCite": 1,
+        "mustNumber": [
+          "48 pct. i 2026, 56 pct. i 2027, 80 pct. i 2030, 100 pct. i 2035",
+          "fradrag 155.400 kr. i 2026 og 150.800 kr. i 2027",
+          "varebiler 73.000 kr. i 2026"
+        ],
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "Claude Opus 4.8 (Anthropic)",
+        "model": "anthropic/claude-opus-4.8",
+        "fallback": "anthropic/claude-sonnet-5"
+      },
+      "receipt": {
+        "words": 648,
+        "costUSD": 0.06076,
+        "draft": "kladder/05-afgifter-2027.md",
+        "costRouting": "byok",
+        "generationId": "gen-1786940969-b5OL9PepxEXyyCvX7BAI"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-16",
+        "citations": 1,
+        "editorNote": "REELT kommissioneret hos anthropic/claude-opus-4.8 paa .env.spaending; kladde i kladder/05-afgifter-2027.md. Nummerets vigtigste artikel og den bedst udfoerte. Den regnede trappen korrekt ud af lovens ordlyd, holdt fast i at fradraget hoejst kan udgoere afgiften, og — vigtigst — den skrev selv afsnittet om, hvad artiklen BEVIDST ikke goer, med den rigtige begrundelse: «Et regneeksempel uden alle disse led ville se overbevisende ud og vaere forkert.» Det er praecis den disciplin, denne titel har manglet. Redaktionelt: fodnoten sagde «soeg 'registreringsafgiftsloven'» i stedet for at linke — erstattet af den konkrete ELI-adresse til den konsoliderede lov. Trappen sat i tabel. Ingen faktafejl fundet."
+      }
+    },
+    {
+      "slug": "brugtmarkedet",
+      "order": 6,
+      "section": "Markedet",
+      "brief": {
+        "angle": "Sådan virker det: afgiften på en brugt elbil. De fleste tror, at registreringsafgiften er noget, der blev betalt én gang, da bilen var ny, og som ikke længere angår dem. For brugte biler er mekanikken en anden, og den står i registreringsafgiftslovens § 4, stk. 6 (retsinformation.dk, konsolideret udgave, kontrolleret 16. august 2026): «Afgiften for brugte køretøjer beregnes på samme måde som for nye køretøjer», men beløbene — herunder elbilfradraget i § 5 b, stk. 2-4 — «nedsættes med samme procentdel, som køretøjets værdi inklusive afgift er ændret, sammenholdt med et tilsvarende køretøj, der er afgiftsberigtiget som nyt.» Oversat: en brugt bil afgiftsberigtiges efter samme skala som en ny, men både satser og fradrag skaleres ned i takt med, at bilen har tabt værdi. Efter stk. 7 regnes bilens alder fra første registrering — også hvis den var registreret i udlandet. Forklar hvorfor det betyder noget i praksis for to grupper: den, der overvejer at importere en brugt elbil fra udlandet, og den, der skal vurdere, hvad hans egen bil er værd. Og forklar den mindre indlysende konsekvens: fordi elbilfradraget skrumper år for år efter § 5 b, stk. 2 (165.500 kr. i 2025, 155.400 i 2026, 150.800 i 2027), er den fradragsværdi, der skaleres ned for en brugt bil, også mindre for hvert årgangsskifte. To ellers ens biler kan derfor stå forskelligt afgiftsmæssigt alene på grund af registreringsåret. STRENGT: regn ikke et konkret beløb ud for en konkret bil. Afgiften afhænger af den afgiftspligtige værdi, af satserne i §§ 4, 5 og 5 a og af den konkrete vurdering, og et regneeksempel uden dem ville være opdigtet præcision — bladet har brændt sig på den slags før. Skriv i stedet, hvilke tre ting en køber skal have styr på, før han byder: første registreringsdato, om afgiften er berigtiget i Danmark, og hvad et tilsvarende nyt eksemplar koster i dag.",
+        "words": [
+          550,
+          800
+        ],
+        "mustCite": 1,
+        "format": "saadan-virker-det"
+      },
+      "writer": {
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "google/gemini-3.1-pro-preview"
+      },
+      "receipt": {
+        "words": 637,
+        "costUSD": 0.035868,
+        "draft": "kladder/06-brugtmarkedet.md",
+        "costRouting": "byok",
+        "generationId": "gen-1786941011-YR2f8lRT7P5Xa3g0t9j9"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-16",
+        "citations": 1,
+        "editorNote": "REELT kommissioneret hos anthropic/claude-sonnet-5 paa .env.spaending; kladde i kladder/06-brugtmarkedet.md. Den fandt af sig selv den konsekvens, briefen kun antydede: at to teknisk identiske biler kan staa forskelligt afgiftsmaessigt alene paa grund af registreringsaaret, fordi det er aarets fradrag der nedskaleres. Og den respekterede forbuddet mod regneeksempler. FORKERT LOVTITEL FANGET: kladden kaldte kilden «bekendtgoerelse af lov om registrering af koeretoejer m.v.» Det er en anden lov; den rigtige er «lov om registreringsafgift af motorkoeretoejer m.v.» Rettet, og fodnoten forsynet med ELI-adresse og de tre konkrete paragraffer i stedet for en opfordring til at soege. Kladdens paastand om, at aeldre elbiler derved bliver «relativt mere attraktive», er fjernet — det er en markedsvurdering, ikke noget lovteksten siger."
+      }
+    },
+    {
+      "slug": "essay",
+      "order": 7,
+      "section": "Essay",
+      "brief": {
+        "angle": "Essay: hverdagen som den egentlige prøve. Skriv et personligt, roligt essay om det øjeblik, hvor en elbil holder op med at være et projekt og bliver et transportmiddel — hvor man ikke længere planlægger ruten efter ladestandere, ikke længere kigger på procenttallet hver morgen, ikke længere fortæller gæster om rækkevidde. Vinklen er nummerets tema: når watt bliver hverdag. Det må gerne rumme det lille tab, der ligger i det: begejstringen for det nye forsvinder, når det nye bliver almindeligt, og det er både et fremskridt og en skuffelse. Ingen tal, ingen kilder, ingen produktnavne der lyder som anbefalinger. Ingen påstande om markedet, priser eller politik — det står i resten af bladet. Skriv i første person ental, dansk, cirka 550-750 ord, uden overskrifter i brødteksten.",
+        "words": [
+          550,
+          750
+        ],
+        "mustCite": 0,
+        "format": "essay"
+      },
+      "writer": {
+        "byline": "GPT-5.6 Terra (OpenAI)",
+        "model": "openai/gpt-5.6-terra",
+        "fallback": "anthropic/claude-sonnet-5"
+      },
+      "receipt": {
+        "words": 681,
+        "costUSD": 0.00781225,
+        "draft": "kladder/07-essay.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1786941065-3XCcIoBDkw9b3qLNcPN4"
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-08-16",
+        "citations": 0,
+        "editorNote": "REELT kommissioneret hos openai/gpt-5.6-terra paa .env.spaending; kladde i kladder/07-essay.md. Uredigeret paa naer overskrift og standfirst. Den ramte nummerets tema indefra — «Det var ikke et tegn paa ligegyldighed. Det var et tegn paa tillid» — og turde beholde vemodet i, at begejstringen forsvinder sammen med overraskelsen. Ingen tal, ingen produktnavne, ingen kilder, praecis som briefen bad om."
+      }
+    },
+    {
+      "slug": "rygteboersen",
+      "order": 8,
+      "section": "Rygtebørsen",
+      "brief": {
+        "angle": "Rygtebørsen: fire påstande fra elbildebatten denne sommer med en ærlig temperaturmåling på hver. Påstandene skal være: (1) «Megawatt-ladere lader din bil på et minut» — nej: megawatten er ladeskabets samlede effekt fordelt på op til otte biler, og bilen tager kun imod det, batteriet kan klare; en ny Nissan LEAF topper ved 150 kW. (2) «Elbiler bliver ved med at være afgiftsfri» — nej: registreringsafgiftslovens § 5 b lader satsen stige 8 procentpoint om året fra 2026 til 80 procent i 2030 og videre til 100 procent i 2035. Det kræver ingen ny politisk beslutning; det står allerede i loven. (3) «De kinesiske mærker har overtaget markedet» — ikke på tallene: de nye mærker tilsammen fylder stadig få procent af de 115.594 personbiler, der blev nyregistreret i Danmark de første syv måneder af 2026 — men flere af dem gik fra nul til hundredvis på et halvt år, og retningen er tydelig. (4) «Rækkevidde er løst» — misvisende: den samme Nissan-modelside opgiver både 622 km og 445 km for samme model. Rækkevidde er en konfiguration og en målemetode, ikke en egenskab ved bilen. Hold tonen tør og præcis. Ingen navngivne virksomheder i påstande, der ikke kan dokumenteres, og ingen priser eller datoer, der ikke står i de øvrige artikler.",
+        "words": [
+          400,
+          600
+        ],
+        "mustCite": 0,
+        "format": "rygteboers"
+      },
+      "writer": {
+        "byline": "Gemini 3.1 Pro Preview (Google)",
+        "model": "google/gemini-3.1-pro-preview",
+        "fallback": "openai/gpt-5.6-terra"
+      },
+      "receipt": {
+        "words": 451,
+        "costUSD": 0.052734,
+        "draft": "kladder/08-rygteboersen.md",
+        "costRouting": "byok",
+        "generationId": "gen-1786941089-F8SKhVLPRk2JV5yyzB1P"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-16",
+        "citations": 0,
+        "editorNote": "REELT kommissioneret hos google/gemini-3.1-pro-preview paa .env.spaending; kladde i kladder/08-rygteboersen.md. Alle fire vurderinger korrekte og godt afvejede; nr. 3 er den bedste, fordi den skelner mellem indtrykket i gadebilledet og den statistiske virkelighed uden at afvise nogen af delene. Redaktionelt: kladden var tung af engelske fagudtryk i parentes (Battery Electric Vehicles, Direct Current, Worldwide Harmonised Light Vehicle Test Procedure) i et format, der skal vaere let — ryddet, saa kun WLTP staar tilbage med en kort dansk forklaring. Indledningsafsnittet er fjernet: rygtboersen begynder ved foerste rygte. Krydslinks til de fire artikler, der dokumenterer hver vurdering, er tilfoejet. ORDTAL: artiklen lander paa 297 ord mod de briefede 400-600, og check_issue advarer korrekt. Nedgangen er redaktionel og bevidst: kladdens indledningsafsnit og dens engelske fagudtryk i parentes blev fjernet, fordi formatet skal vaere let og hurtigt at laese. En rygtboers, der forklarer «Battery Electric Vehicles» og «Direct Current» undervejs, er ikke en rygtboers. Ordbudgettet var sat for hoejt til formatet."
+      }
+    },
+    {
+      "slug": "kort-og-watt",
+      "order": 9,
+      "section": "Kort & Watt",
+      "brief": {
+        "angle": "Bagsnittet: fire korte notitser, hver på tre-fem sætninger, som samler nummerets tal op og peger fremad. Brug KUN tal, der står i de øvrige artikler, og gentag dem korrekt: (1) 115.594 nyregistrerede personbiler i Danmark de første syv måneder af 2026 mod 103.328 året før — og hele 2025 endte på 184.599. (2) Elbilens registreringsafgift går fra 48 procent i 2026 til 56 procent i 2027; bundfradraget falder fra 155.400 kr. til 150.800 kr. (3) Et megawatt-ladeskab er otte effektstakke à 125 kW, der deles mellem op til otte biler. (4) Toyota er største mærke i Danmark de første syv måneder af 2026 med 12.370 biler; Volkswagen faldt fra 17.319 til 11.324 i samme periode. Afslut med en enkelt linje om, hvad næste nummer tager fat på — uden at love konkrete artikler. Ingen nye tal, ingen nye påstande, ingen kilder ud over dem, artiklerne allerede bruger.",
+        "words": [
+          250,
+          400
+        ],
+        "mustCite": 0,
+        "format": "bagsnit"
+      },
+      "writer": {
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "openai/gpt-5.6-terra"
+      },
+      "receipt": {
+        "words": 265,
+        "costUSD": 0.01656,
+        "draft": "kladder/09-kort-og-watt.md",
+        "costRouting": "byok",
+        "generationId": "gen-1786941119-iHqocpmXNWjjUNlD9sPW"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-16",
+        "citations": 0,
+        "editorNote": "REELT kommissioneret hos anthropic/claude-sonnet-5 paa .env.spaending; kladde i kladder/09-kort-og-watt.md. Den gentog alle tal fra de oevrige artikler korrekt — det er ikke en selvfoelge i et bagsnit. Redaktionelt: kladden skrev, at tempoet ligger «paa den kurve, der endte med 184.599 for hele 2025», og drog derefter en slutning om aarets resultat; det er en fremskrivning, ikke et tal, saa formuleringen er daempet til at et halvaar ikke er et aar. Den afsluttende linje lovede konkret, hvad naeste nummer ville behandle — aendret til en aaben formulering, jf. briefen."
+      }
+    }
+  ]
+}

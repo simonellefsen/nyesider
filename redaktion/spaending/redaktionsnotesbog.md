@@ -21,47 +21,60 @@
 10 artikler: leder, 600 kW-DK (uden opdigtet adresse), robotaxi med globale projekter, Xiaomi-status, faststof, kilometerafgift, vinter-el, Kort & Watt, essay, rygtebørs.  
 `bestilling.json`: `redaktion/spaending/numre/2026-08-nr3/bestilling.json`.
 
-## Nr. 2 — genopbygning PÅBEGYNDT 2026-08-16, IKKE færdig
+## Nr. 2 — genopbygget og genudgivet 2026-08-16
 
-Status: research delvist gjort, `bestilling.json` **ikke** skrevet, ingen artikler kommissioneret.
-Nummeret er stadig `status: draft` og skal blive dét, indtil arbejdet er gjort færdigt.
-Den afpublicerede udgave er 9 artikler på 2.707 ord — gennemsnit 301, altså langt under
-notesbogens eget mål på 250-500 ord pr. feature, og under det budget nr. 1 og de øvrige
-genopbygninger fik (600-900).
+**Tema:** Når watt bliver hverdag
+**9 artikler, 4.296 ord** (var 9 artikler / 2.707 ord — gns. 301). Otte artikler reelt
+kommissioneret på `.env.spaending`; lederen er chefredaktionens og har **ingen byline**.
+Samlet forbrug **0,39 USD**. `bestilling.json`: `redaktion/spaending/numre/2026-08-nr2/bestilling.json`.
 
-### Kontrolleret research, klar til at skrive ind i briefs (16. august 2026)
+**Xiaomi-artiklen er udgået** og erstattet af `nye-maerker`. Nr. 3 har allerede en Xiaomi-status,
+og Mobility Denmarks registreringstal bar en bedre og langt bedre belagt historie.
 
-**Nissan LEAF, dansk modelside** ([leaf.nissan.dk](https://leaf.nissan.dk/)): op til 622 km
-rækkevidde og 13,8 kWh/100 km med 75 kWh-batteriet (Udvidet rækkevidde); op til 150 kW DC og
-11 kW AC; op til 417 km på 30 min.; V2L; bagagerum 437 L. Priser: Engage fra 284.900 kr.,
-Engage+ 304.900 kr., Advance 324.900 kr., Evolve 339.900 kr.; privatleasing fra 2.695 kr./md.
-**Vinklen ligger i det med småt på samme side:** «Forbrug 137 Wh/km. Rækkevidde fra 445 km.»
-622 og 445 er samme bil i to konfigurationer. Et rækkeviddetal er en variant, ikke en bil.
+### Det, der endelig løste afgiftsproblemet
 
-**Alpitronic HYC1000** ([alpitronic.it](https://www.alpitronic.it/en/hypercharger/hyc-1000/)):
-SiC-Stack GEN 2 leverer 125 kW og 400 A pr. stak med over 98 % virkningsgrad; otte stakke i ét
-Power Cabinet giver 1 MW. Distribueret arkitektur med Power Cabinets adskilt fra Dispensere;
-op til otte ladepunkter parallelt; dynamisk effektfordeling med 62,5 kW granularitet;
-udgangsspænding 150-1000 V. MCS-dispenser op til 1500 A, valgfrit CCS/NACS op til 600 A;
-EV-dispenser op til 2× CCS/NACS ved 600 A; HP-dispenser over 1000 A, 800 A uden derating.
-**Vinklen:** megawatten er skabets samlede effekt, fordelt dynamisk på op til otte biler —
-ikke hvad én bil får. Og MCS sigter først og fremmest mod lastbiler. Sammenhold med, at
-LEAF på samme tid topper ved 150 kW.
+Titlen har taget fejl af afgifter to gange. Denne gang blev artiklen skrevet **fra selve
+lovteksten** — registreringsafgiftslovens § 5 b i den konsoliderede udgave på retsinformation.dk
+(`eli/lta/2025/370`) — og ikke fra referater. Det gav trappen sort på hvidt: 40 % til og med 2025,
+derefter +8 procentpoint om året til 80 % i 2030, så +4 om året til 100 % i 2035. Bundfradraget
+for personbiler: 165.500 kr. (2025), 155.400 (2026), 150.800 (2027), 146.200 (2028), 141.600 (2029),
+137.000 fra 2030. **Gør det sådan igen.** Primærkilden findes, den er gratis, og den er entydig.
 
-**Ressortændring:** `skm.dk` viderestiller nu til `svmn.dk` (Skatte- og Vækstministeriet).
-Rettet i nr. 1's afgiftsartikel 2026-08-16. Enhver afgiftsartikel skal bruge svmn.dk.
+Lige så vigtigt: artiklen **nægter at regne en konkret bilpris ud**, fordi afgiften også afhænger
+af den afgiftspligtige værdi og satserne i §§ 4, 5 og 5 a. Kladden skrev selv begrundelsen —
+«et regneeksempel uden alle disse led ville se overbevisende ud og være forkert» — og den
+formulering bør stå som titlens standard.
 
-### Advarsel til den, der skriver afgiftsartiklen
+### Hvad faktatjekket fangede
 
-Afgiftsstof er titlens farligste materiale — det er dér, både nr. 1 og nr. 3 har måttet rettes.
-Skriv ikke satser, årstal eller aftaletekst uden at have åbnet den gældende side hos
-Skatte- og Vækstministeriet eller Finansministeriet. En sats fra en avisartikel er ikke en sats.
+- **To opfundne webadresser.** `alpitronics.eu` (megawatt-kladden) og `mobilitydenmark.dk`
+  (nye-mærker-kladden). Den sidste svarer ikke engang på DNS. De rigtige er
+  `alpitronic.it/en/hypercharger/hyc-1000/` og `mobility.dk/nyregistreringer/`.
+- **Et firmanavn med et bogstav for meget:** «Alpitronics». Selskabet hedder Alpitronic.
+- **En forkert lovtitel:** brugtmarkeds-kladden kaldte kilden «lov om registrering af køretøjer».
+  Det er en anden lov end registreringsafgiftsloven.
+- **Instruktionslæk:** «Vær præcis omkring præmissen:» stod midt i brødteksten i nye-mærker —
+  briefens egen ordlyd sivet ind i artiklen. Tjek altid for det.
+- **En ubelagt konfiguration:** Leaf-kladden påstod, at de 445 km er «den mindre batterivariant».
+  Modelsiden siger det ikke. Rettelsen gav en skarpere pointe: «fra» er en nedre grænse.
 
-### Undgå dubletter med nr. 3
+### Kilder, der flyttede sig
 
-Nr. 3 (også `draft`) dækker allerede 600 kW i Danmark, Xiaomi-status, faststof, kilometerafgift
-og vinter-el. Nr. 2's megawatt- og Xiaomi-artikler skal derfor være den bredere, tidligere
-version — eller udskiftes.
+`skm.dk` → `svmn.dk` (Skatte- og Vækstministeriet). `bilimp.dk` → `mobility.dk` (Mobility Denmark,
+tidl. De Danske Bilimportører). `nissan.dk/biler/nye-biler/leaf.html` svarer 200 og leverer
+**forsiden** — den rigtige adresse er `leaf.nissan.dk`. Alpitronic svarer på `/en/hypercharger/<model>/`,
+ikke `/en/products/<model>/`.
+
+### Læring om formatet
+
+Rygtebørsen blev briefet til 400-600 ord og endte på 297 efter redigering, fordi kladdens engelske
+fagudtryk i parentes blev fjernet. En rygtebørs, der forklarer «Battery Electric Vehicles»
+undervejs, er ikke en rygtebørs. **Sæt ordbudgettet for rygtebørsen til 250-450.**
+
+## Nr. 2 — den afpublicerede udgave (til arkivet)
+
+Leaf gen3, megawatt-ladning, Xiaomi, afgifter 2027, brugtmarked, bagsnit. 2.707 ord.
+
 
 ## Nr. 2 — den afpublicerede udgave (til arkivet)
 

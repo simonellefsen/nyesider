@@ -1,0 +1,25 @@
+# Det nye danske bilmarked: Da bilmærkerne gik fra nul til hundrede
+
+Det danske bilmarked har fået en håndfuld mærker, som de færreste danskere kunne udpege for to år siden – og de seneste registreringstal viser præcis, hvor hurtigt ændringerne er sket. For blot få sæsoner siden var bilkøbernes valgmuligheder primært domineret af velkendte europæiske og asiatiske koncerner, hvis logoer man kunne genkende på lang afstand. I dag er landskabet udvidet betragteligt. 
+
+Samlet blev der nyregistreret 115.594 personbiler i de første syv måneder af 2026. Det er en mærkbar stigning sammenlignet med de 103.328 biler, der blev indregistreret i samme periode i 2025.[^1] Bag den generelle vækst gemmer der sig imidlertid drastiske forskydninger, hvor traditionelle markedsledere må afgive plads til nye aktører.
+
+Kigger man på de etablerede giganter, er billedet især præget af Volkswagen, der har oplevet et markant fald. I årets første syv måneder faldt mærket fra 17.319 til 11.324 nyregistreringer sammenlignet med året før. Det modsvarer et dyk i markedsandelen fra 16,8\u00a0% til 9,8\u00a0%. Nedgangen forplanter sig også internt i VAG-koncernen, hvor Audi er gået tilbage fra 7.103 til 6.292 biler, og Cupra er faldet fra 6.984 til 5.287 biler i perioden.
+
+Presset kan også mærkes hos de sydkoreanske producenter. Hyundai er faldet fra 3.938 til 2.416 indregistrerede biler i årets første syv måneder, mens Kia er gået tilbage fra 4.200 til 3.570. Det er dog langt fra alle etablerede mærker, der bløder. Toyota gik derimod massivt frem fra 6.950 til 12.370 biler i perioden og er nu Danmarks største bilmærke. Samtidig fortsætter Tesla, der de senere år har været definerende for udbredelsen af BEV (Battery Electric Vehicle), sin fremgang og voksede fra 4.085 til 6.723 biler.
+
+Det mest iøjnefaldende i statistikken er imidlertid væksten blandt bilmarkedets nyeste navne. Xpeng mere end fordoblede sig selv i årets første syv måneder og gik fra 1.543 til 3.177 indregistrerede biler. Dermed er Xpeng nu større i Danmark end mere velkendte navne som MG (2.676) og Volvo (2.635). Også BYD oplevede solid fremgang og gik fra 1.332 til 1.819 biler.
+
+For at forstå dybden af ændringerne skal man dog kigge på den klub af mærker, der er gået fra at være marginale – eller helt usynlige – til pludselig at sætte et solidt aftryk i registreringstallene. Zeekr sprang fra beskedne 45 biler i de første syv måneder af 2025 til hele 1.542 biler i den tilsvarende periode i 2026. 
+
+Endnu mere udpræget er det for mærker, der slet ikke var til stede året forinden. Leapmotor gik fra 0 til 672 biler på blot et halvt år, og VinFast gik tilsvarende fra 0 til 560 biler. Jaecoo noterede sig for et spring fra 0 til 233, mens Deepal gik fra 0 til 183. Længere nede på listen finder vi Skyworth (fra 0 til 75), Exlantix (fra 0 til 46) og Nio, der gik fra 0 til 25 indregistreringer.
+
+Når man læser disse tal, kan det være let at falde i grøften og opbygge et dramatisk narrativ om en asiatisk invasion. Det er der ingen grund til. Selvom vækstraterne i procenter er enorme, fylder de nye mærker tilsammen stadig kun en relativt lille del af et marked, der i perioden talte over 115.000 biler. Man skal desuden huske, at et enkelt halvår aldrig udgør en reel trend i en branche, der lever af langsigtede produktcyklusser.
+
+Alligevel er tallene et udtryk for noget mere blivende end blot flygtig interesse. Vær præcis omkring præmissen: Når et mærke, som for eksempel Leapmotor, går fra nul til flere hundrede biler på et halvt år, betyder det, at der er etableret en forhandler, fundet en importør og tegnet en serviceaftale i Danmark. Det repræsenterer fysiske kvadratmeter og ansatte mekanikere. Den slags strukturelle fundamentale ændringer kan ikke rulles tilbage over en enkelt sæson.
+
+For den gennemsnitlige bilkøber, der står foran en massiv økonomisk investering, rejser det ændrede marked dog en række bekymringer. Den nyttige vinkel for en køber er den lange: Hvem reparerer bilen om syv år? Hvad er den værd på brugtmarkedet til den tid? Og findes reservedelene overhovedet lokalt, når der opstår en uforudset skade? 
+
+De spørgsmål kan ingen statistik besvare. De etablerede aktører har årtiers historik og et finmasket netværk af autoriserede værksteder i de danske provinsbyer. De nye mærker vil uundgåeligt forsøge at kompensere med lange garantier og OTA (Over-The-Air) softwareopdateringer hjemme i indkørslen, men et smadret sidespejl eller en defekt bærearm kræver et fysisk lager og en velfungerende logistikkæde. Mens nyregistreringerne vidner om købelyst og nysgerrighed, vil de kommende år vise, hvilke af markedets nye navne der også evner at levere et stabilt ejerskab på lang sigt.
+
+[^1]: Mobility Denmark. Registreringsstatistik for personbiler 1. januar til 31. juli 2026 mod samme periode 2025 (kontrolleret 16. august 2026). Tilgængelig via https://mobilitydenmark.dk/

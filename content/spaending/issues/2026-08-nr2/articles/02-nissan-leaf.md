@@ -1,6 +1,7 @@
 ---
-title: Leaf er tilbage — og denne gang mener Nissan det
-standfirst: "Tredje generation af verdens første masseproducerede elbil lander i Europa med op til omkring 620 km rækkevidde (WLTP), 150 kW-ladning og et design, der endelig har sagt farvel til den runde."
+title: "Én bil, to rækkevidder"
+standfirst: 622 km står øverst på Nissans danske LEAF-side. 445 km står i det med småt på samme side. Begge tal er rigtige — og det er dét, der er værd at forstå.
+byline: "Claude Opus 4.8 (Anthropic)"
 section: Køretest
 order: 2
 image: ../images/spaending_leaf.png
@@ -8,28 +9,58 @@ imageCredit: "AI-genereret motiv (Imagine / xAI)"
 imageSource: "https://x.ai/"
 ---
 
-Der var en tid, hvor Nissan Leaf var elbilen, man kendte — og den, man lidt overbærende smilede af. Kort rækkevidde. Særligt ydre. En pioner, der blev indhentet af Tesla, VW og senere kineserne. I 2026 er historien en anden: den helt nye Leaf er rykket ind på CMF-EV-platformen, bygges i Sunderland, og Nissan har valgt at sende den på jomfrutur i netop København.[^1]
+Nissan LEAF er tilbage — ikke som den runde hatchback, men som en kompakt SUV med en dråbeformet profil, der er tegnet efter luftmodstand.
 
-[CHART dk-elbil-andel]
+Men den mest lærerige detalje ved den nye LEAF er ikke karrosseriet. Den står på Nissans egen danske modelside, hvor to forskellige rækkeviddetal deler nøjagtig samme skærm.
 
-Danmarks elbilandel af nyregistreringer er steget stejlt — og ligger nu i samme liga som Norges forspring, langt over EU-gennemsnittet og især USA. Det er baggrunden for, at en ny Leaf skal ramme et allerede elektrisk marked.
+### To tal, samme side
 
-### Tallene, der betyder noget
+Øverst på siden lover Nissan «op til 622 km» rækkevidde, et forbrug på 13,8 kWh/100 km og «op til 150 kW» lynladning. Længere nede, i det med småt, står der noget andet: «Forbrug 137 Wh/km. Rækkevidde fra 445 km.»[^1]
 
-Nissan taler om op til **622 km** rækkevidde efter den europæiske WLTP-norm (*Worldwide Harmonised Light Vehicle Test Procedure* — standardiseret laboratorietest) i topkonfigurationen og **150 kW** jævnstrøms-hurtigopladning (DC) — nok til at hente i omegnen af 400+ km på en halv time under gode forhold, ifølge fabrikken.[^1] Det er ikke [BMW iX3-niveau fra nr. 1's køretest](/spaending/2026-07-nr1/koere-test-bmw-ix3), men det er et niveau, hvor Leaf igen kan være *første bil* i husstanden, ikke kun bybil nummer to.
+Begge tal er rigtige. De beskriver bare ikke den samme bil.
 
-Amerikanske tests taler om mere moderate EPA-tal (amerikansk testnorm) i visse trim — en påmindelse om, at WLTP-tal og virkelighed altid skal holdes adskilt.[^2] For danske købere er det vigtigste: forbrug, ladekurve, varmeapparat om vinteren, og hvad forhandleren faktisk har på lager.
+De 622 km gælder udgaven med 75 kWh-batteri og Udvidet rækkevidde — modellens bedste konfiguration, målt efter WLTP (Worldwide Harmonised Light Vehicles Test Procedure), EU's standardiserede forbrugstest. De 445 km er tallet, bilen fås *fra*. Siden siger ikke selv hvilken konfiguration det dækker, og det er en del af pointen: «fra» er en nedre grænse, ikke en beskrivelse.
 
-### Hvor den rammer markedet
+Det siger noget grundlæggende om, hvordan hele branchen kommunikerer rækkevidde. **Et rækkeviddetal er ikke en egenskab ved «en LEAF». Det er en egenskab ved en bestemt variant, testet efter en bestemt metode.**
 
-Leaf skal kæmpe i det tættest befolkede segment i Europa: den fornuftige familie-hatch/crossover, hvor Skoda Elroq, Renault 5-familien, VW's mindre ID-modeller og en hær af kinesiske bud allerede står i udstillingsvinduet. Nissans fordel er navnet — millioner kender Leaf — og erfaringen. Ulempen er, at nostalgien ikke betaler afdragene. Bilen skal være skarp på pris, software og ladning.
+Og det er ikke en anklage mod Nissan. Tværtimod gør Nissan her det, mange undlader: sætter begge tal på samme side. Det er mere gennemsigtigt end kun at fremhæve «op til». Pointen er, at prislisten skal læses som et menukort — ikke som en varedeklaration for én ret.
 
-### Den spændende del
+### Hvad den store batterivariant kan
 
-At Nissan lancerer fra København er ikke tilfældigt. Danmark er et af Europas mest elektrificerede personbilmarkeder. Hvis Leaf kan sælge her, kan den sælge mange steder. Spørgsmålet er, om den kan skille sig ud, når alle andre også lover "effortless electric".
+Tager vi 75 kWh-udgaven med Udvidet rækkevidde, ser tallene sådan ud:[^1]
 
-Vi vender tilbage med en længere bag-rattet-test, når pressede biler har kørt danske motorveje i sne — ikke kun i pressemeddelelser.
+| | |
+|---|---|
+| Rækkevidde | op til 622 km (WLTP) |
+| Forbrug | 13,8 kWh/100 km |
+| Lynladning (DC, jævnstrøm) | op til 150 kW |
+| Hjemmeladning (AC, vekselstrøm) | op til 11 kW |
+| Ladetid | op til 417 km på 30 minutter; 15-80 % på 30 minutter; 10-100 % på cirka 6 timer ved 11 kW |
+| Bagagerum | 437 liter |
 
-[^1]: [Nissan Europe — "All-new LEAF Hits the Road"](https://europe.nissannews.com/en-GB/releases/all-new-leaf-hits-the-road-boasting-elite-622km-range-top-level-technology-and-sleek-aerodynamic-design), København; op til 622 km, 150 kW, produktion Sunderland, levering fra foråret 2026.
+Dertil V2L — *vehicle-to-load*, altså at bilen kan levere 230 volt til andet udstyr. Det lyder som en gimmick, indtil man står på en byggeplads eller en campingplads uden strøm.
 
-[^2]: Uafhængige tests/omtale af 2026 Leaf (bl.a. [Car and Driver](https://www.caranddriver.com/nissan/leaf) med EPA-rækkevidde i visse udstyrslinjer).
+### Priserne
+
+| Udstyrsniveau | Pris fra |
+|---|---:|
+| Engage | 284.900 kr. |
+| Engage+ | 304.900 kr. |
+| Advance | 324.900 kr. |
+| Evolve | 339.900 kr. |
+
+Privatleasing starter ved 2.695 kr./md., og den halvårlige CO₂-afgift lyder på 460 kr.[^1]
+
+Bemærk mekanikken, som er den samme som med rækkevidden: indgangsprisen på 284.900 kr. og rækkevidden på 622 km peger ikke nødvendigvis på den samme bil. Det billigste tal og det bedste tal står sjældent på samme nøgle.
+
+Og priserne gælder i år. [Elbilens registreringsafgift stiger otte procentpoint om året](/spaending/2026-08-nr2/afgifter-2027) frem mod 2030 — en prisliste fra 2026 er derfor ikke en prisliste for 2027.
+
+### 150 kW i et nummer om megawatt
+
+Til sidst et perspektiv, der binder bilen sammen med resten af nummeret. Mens ladebranchen taler om [megawatt](/spaending/2026-08-nr2/megawatt-ladning), topper en helt ny familie-elbil ved 150 kW.
+
+Det er ikke en mangel. Det er den effekt, batteriet kan tage imod. En stander på 350 kW gør ikke LEAF hurtigere end 150 kW, for flaskehalsen sidder i bilen, ikke i stikket. For langt de fleste, der køber en kompakt SUV til pendling og weekendture, er 15-80 procent på en halv time præcis så hurtigt, som en kop kaffe og et toiletbesøg tager.
+
+Det er den egentlige lektion i den lille tekst nederst på siden. Tallene er alle sammen sande. Kunsten er at vide, hvilken bil de hver især beskriver.
+
+[^1]: [Nissan LEAF](https://leaf.nissan.dk/), Nissan Danmarks officielle modelside, kontrolleret 16. august 2026 — herfra rækkevidde, forbrug, ladeeffekter, ladetider, bagagerum, V2L, udstyrspriser, privatleasingpris og CO₂-afgift, samt formuleringen «Rækkevidde fra 445 km» i sidens egne noter.
