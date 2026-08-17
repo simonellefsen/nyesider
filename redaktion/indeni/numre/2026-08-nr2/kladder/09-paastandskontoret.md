@@ -1,18 +1,8 @@
----
-title: "Påstandskontoret"
-standfirst: Fire udbredte påstande om kaffefiltre. Ingen af dem har ét facit — men de har hver især et regnskab, man kan skrive frem.
-byline: "GPT-5.6 Terra (OpenAI)"
-section: Påstandskontoret
-order: 9
-flow: true
-image: ../images/indeni_bagsnit.png
-imageCredit: "AI-genereret motiv (Imagine / xAI)"
-imageSource: "https://x.ai/"
----
+# Påstandskontoret: Fire påstande om kaffefiltre
 
 Kaffefilteret er en lille hverdagsgenstand, men det samler flere af de valg, der kan få et køkken til at ligne et miljøregnskab: brun eller hvidt papir, skylning eller ej, madaffald eller papircontainer, engangsfilter eller metal. Problemet er ikke, at spørgsmålene er ligegyldige. Problemet er ord som *altid* og *bedst*, der får et valg med flere hensyn til at ligne et facit.
 
-### «Ubleget filter er bedre for miljøet»
+## «Ubleget filter er bedre for miljøet»
 
 Et ubleget, brunt filter har sprunget et trin over: papiret er ikke gjort hvidt. Det er en reel forskel i fremstillingen. Men det betyder ikke nødvendigvis, at forskellen afgør kaffens samlede miljøbelastning. Filterpapir bleges i dag typisk uden frit klor, og forskellen mellem et brunt og et hvidt engangsfilter er lille ved siden af dyrkning, forarbejdning, transport og tilberedning af selve kaffen.
 
@@ -20,7 +10,7 @@ Det betyder ikke, at farven er helt uden betydning. Den brune variant undgår st
 
 **Vurdering:** Ubleget papir kan være et fornuftigt valg, men brun frem for hvid er blandt de mindst betydningsfulde beslutninger, en kaffedrikker træffer.
 
-### «Man skal altid skylle filteret»
+## «Man skal altid skylle filteret»
 
 Når nogen skyller et papirfilter med varmt vand før brygning, kan de gøre to forskellige ting på én gang. Vandet kan fugte papiret og fjerne en mulig papirsmag. Samtidig varmer det tragt, kande eller kop op, så den færdige kaffe ikke møder en helt kold overflade.
 
@@ -30,7 +20,7 @@ Skyllevandet bør desuden ikke bare løbe gennem filteret og videre, hvis formå
 
 **Vurdering:** Skylning kan forbedre brygningen, men hverken papirsmag eller forvarmning gør den til et krav.
 
-### «Filteret kan komme i papirgenanvendelsen»
+## «Filteret kan komme i papirgenanvendelsen»
 
 Et brugt kaffefilter ligner papir, men det opfører sig ikke som rent papir i en genanvendelsesproces. Det er vådt, mørkt og fyldt med kaffegrums. Papirgenanvendelse bygger på fibre, der kan opløses, renses og bruges igen; madrester og vådt indhold gør den proces dårligere og kan forurene andre papirfibre.
 
@@ -38,7 +28,7 @@ Derfor er et brugt filter normalt ikke en opgave for papircontaineren. Mange ste
 
 **Vurdering:** Ikke i papirgenanvendelsen. Følg den lokale sorteringsvejledning for madaffald eller kompost.
 
-### «Genbrugsfilteret i metal er altid det grønneste»
+## «Genbrugsfilteret i metal er altid det grønneste»
 
 Et permanent metalfilter kan erstatte mange papirfiltre. Det taler for det, især hvis det bruges længe og ikke gemmes bagerst i skabet efter få uger. Men et metalfilter er også en genstand, der først skal fremstilles, transporteres og siden vaskes efter hver brygning. Materialet betyder noget, levetiden betyder noget, og varmt vand, opvaskemiddel og vaner ved køkkenvasken betyder også noget.
 

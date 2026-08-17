@@ -1,13 +1,4 @@
----
-title: "Tallet: 77,4 millioner ton"
-standfirst: Hvilket år, hvilken geografi, og hvad måler det? Og hvad tallet ikke kan bruges til — nemlig at regne sig frem til kaffefiltre.
-byline: "Claude Sonnet 5 (Anthropic)"
-section: Tallet
-order: 7
-image: ../images/indeni_tallet.png
-imageCredit: "AI-genereret motiv (Imagine / xAI)"
-imageSource: "https://x.ai/"
----
+# Tallet: 77,4 millioner ton
 
 Den 2.\u00a0juli 2026 offentliggjorde den europæiske papirindustris brancheorganisation Cepi (Confederation of European Paper Industries) sin årsstatistik: europæisk produktion af papir og karton faldt 1,6\u00a0% i 2025 og landede på 77,4\u00a0millioner ton.[^1]
 

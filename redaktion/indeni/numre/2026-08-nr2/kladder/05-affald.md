@@ -1,17 +1,8 @@
----
-title: "Vådt papir, grums og den brune pose"
-standfirst: Et brugt filter er en madrest i papirform. Derfor hører det sjældent til i papirgenanvendelsen — og derfor passer det godt i komposten.
-byline: "Claude Opus 4.8 (Anthropic)"
-section: Kredsløbet
-order: 5
-image: ../images/indeni_affald.png
-imageCredit: "AI-genereret motiv (Imagine / xAI)"
-imageSource: "https://x.ai/"
----
+# Kredsløbet: Hvor ender kaffefilteret?
 
 Et brugt kaffefilter er et af de mest almindelige stykker affald i et dansk køkken, og alligevel et af de mest forvirrende at komme af med. Grunden er, at det på én gang er to ting. Det er papir — en tynd, foldet keglemodel eller en flad pose af cellulosefibre. Og det er madrest — det våde, brune lag af kaffegrums, der sidder tilbage, når vandet er løbet igennem. Læg dertil, at det er drivende vådt. Det er netop denne dobbelthed, der gør det svært at placere: filteret hører hjemme to steder på én gang, og derfor sjældent dér, hvor man umiddelbart ville lægge det.
 
-### Hvorfor det som hovedregel ikke er papiraffald
+## Hvorfor det som hovedregel ikke er papiraffald
 
 Det ligger lige for at tænke: filteret er jo papir, så det må høre til i papirgenanvendelsen. Men det er som hovedregel forkert, og forklaringen ligger i, hvordan papir faktisk genanvendes.
 
@@ -19,19 +10,19 @@ Genanvendelse af papir bygger på at gøre papiret flydende igen. Det indsamlede
 
 Et brugt kaffefilter trækker den forudsætning fra hinanden. Grumset, olierne og fedtstofferne fra kaffen følger med ind i vandbadet og forurener pulpen. Fedt og fine partikler lægger sig på fibrene og gør dem sværere at genbruge, og i værste fald går det ud over kvaliteten af et helt parti. Et vådt, snavset filter er derfor ikke en gave til papirkredsløbet — det er et fremmedlegeme.
 
-### Hvorfor det passer godt i madaffald og kompost
+## Hvorfor det passer godt i madaffald og kompost
 
 Den samme egenskab, der gør filteret uegnet til papir, gør det velegnet et andet sted. Både papiret og grumset er organisk materiale — stof, der stammer fra planter og kan nedbrydes af mikroorganismer. Der er ingen modsætning mellem de to dele, når målet ikke længere er at redde rene fibre, men at lade alt sammen rådne ned.
 
 I en hjemmekompost gør filteret oven i købet gavn i kraft af, at det er tørt papir uden om det våde grums. En kompost skal balancere to slags materiale. Det våde, kvælstofrige — grønt affald, madrester, kaffegrums — leverer næring, men bliver hurtigt til en tæt, iltfattig og ildelugtende masse, hvis det står alene. Det tørre, kulstofrige — papir, pap, tørre blade — løsner op, holder på luft og suger fugt. Kaffefilteret er begge dele i ét: grumset trækker mod den våde side, papiret mod den tørre. Det er en usædvanligt praktisk lille pakke for en kompostbunke.
 
-### Reglen er lokal — slå din egen kommune op
+## Reglen er lokal — slå din egen kommune op
 
 Her stopper det almene svar, og her begynder det, du selv skal gøre. Om et kaffefilter må ryge i den brune spand til madaffald, afgøres ikke nationalt. Det afhænger af den enkelte kommunes sorteringsordning og af, hvad det modtagende anlæg kan håndtere. Nogle anlæg til bioforgasning eller kompostering ønsker mindst muligt papir med ind; andre tager gerne filteret, netop fordi det er organisk.
 
 Derfor kan en artikel som denne ikke give ét dansk facit. Det kan lyde som en undskyldning, men er en anvisning: slå din egen kommunes regler for madaffald op, og læg mærke til, om kaffefilter nævnes særskilt. Det er den eneste kilde, der gælder for netop din skraldespand.
 
-### Kend størrelsesforholdene
+## Kend størrelsesforholdene
 
 Til sidst en pointe, der er mindre indlysende. Når man står med det våde filter og bekymrer sig, er det let at tro, at dét er det sted, hvor en kop kaffe belaster mest. Det er sjældent tilfældet.
 

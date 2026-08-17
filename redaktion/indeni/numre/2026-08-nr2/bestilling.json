@@ -2,43 +2,45 @@
   "magazine": "indeni",
   "issue": "2026-08-nr2",
   "issueTheme": "Filteret",
+  "integrityNote": "Skrevet fra bunden 2026-08-17. Den afpublicerede udgave (2026-08-08) bar byline til navngivne modeller uden kvittering, kladde eller forbrug. Hele nummeret produceres forfra på titlens egen nøgle (.env.indeni). Byline sættes kun, hvor receipt.costUSD og receipt.draft er udfyldt; lederen er chefredaktionens og har ingen byline.",
   "budget": {
     "articles": 9,
     "wordsPerArticle": [
-      80,
-      550
+      500,
+      800
     ],
-    "note": "No ordbog; deeper features after editor pass."
+    "targetPages": 12,
+    "note": "Den afpublicerede udgave var 9 artikler på 2.005 ord — gennemsnit 223, altså præcis det, notesbogen kalder «tre overskrifter med én sætning». Nr. 1 blev genopbygget på 500-800 ord; nr. 2 får samme budget. Ingen Ordbog (formatet droppet fra nr. 2)."
   },
+  "researchNote": "ADVARSEL: dette felt når ALDRIG frem til modellen — kun brief.angle gør. Alle tal og citater nedenfor er derfor også skrevet ind i de enkelte briefs. Kontrolleret 2026-08-17.\n\nMELITTA, selskabets egen historieside (melitta-group.com/en/unternehmen/unsere-geschichte): 1908 opfinder Melitta Bentz kaffefilteret. Den 20. juni 1908 giver det kejserlige patentkontor «utility model protection» — altså gebrauchsmusterbeskyttelse, ikke et fuldt patent. Den 15. december 1908 registrerer Melitta og Hugo deres virksomhed. 1910 begynder filterproduktionen i en femværelseslejlighed. 1911 to medaljer for kaffefilteret. 1929 flytter virksomheden fra Dresden til Minden. 1936 udvikles og beskyttes de mærketypiske filterposer. BEMÆRK at dette er selskabets egen fremstilling af sin historie og skal citeres som sådan.\n\nCEPI (Confederation of European Paper Industries), pressemeddelelse til Key Statistics 2025, dateret 2. juli 2026 (cepi.org): europæisk papir- og kartonproduktion faldt 1,6 pct. i 2025 til 77,4 mio. ton. Markedsmasse (market pulp) voksede 1,0 pct. Første kvartal 2026 var produktionen allerede 2,4 pct. lavere end samme periode i 2025. Emballagekvaliteter var stabile, mens kartonnage faldt 5,4 pct. og grafiske papirer 7,3 pct. Ekskl. grafiske papirer lå produktionen 7,0 pct. under rekordåret 2021. Importandelen nåede rekordhøje 7,7 pct. af EU-forbruget; eksporten udgør over 20 pct. af produktionen. Specifikke CO2-udledninger faldt 10,2 pct. i 2025. Sektoren henter en historisk høj andel på 92 pct. af sit træ og næsten alt sit genbrugsmateriale i Europa. Tallet «6,6 billioner euro i globale bioøkonomimarkeder i 2030» er en FREMSKRIVNING i samme pressemeddelelse og skal mærkes som sådan, ikke som en konstatering.\n\nSPECIALTY COFFEE ASSOCIATION (sca.coffee/research/coffee-standards): SCA udgiver nummererede standarder, herunder SCA-310 «Home Coffee Brewers: Specifications and Test Methods» og SCA-320 «Home Coffee Grinders». BEMÆRK: certificeringsstandarderne er kun tilgængelige for SCA-medlemmer bag login, så de konkrete grænseværdier for temperatur, bryggeforhold og kontakttid har redaktionen IKKE kunnet læse. Skriv derfor ALDRIG et konkret temperaturinterval eller bryggeforhold med henvisning til SCA. Standardernes eksistens og titler kan nævnes.\n\nGENEREL ADVARSEL: dette nummer har meget få kildebelagte tal. Det er ikke et problem for INDENI, som forklarer mekanismer — men det betyder, at briefs uden tal SKAL forbyde tal. En opfundet gramvægt, filtertykkelse eller nedbrydningstid er værre end ingen.\n\nKILDER, DER IKKE KUNNE BRUGES (kontrolleret 2026-08-17): melitta-group.com/en/Company-history-4884.html og melitta.de/en/company/history er begge 404. Cepis egne nøgletal ligger i en PDF bag et downloadlink; tallene ovenfor står i pressemeddelelsen, som er den side, der skal linkes.",
   "opgaver": [
     {
       "slug": "leder",
       "order": 1,
       "section": "Leder",
       "brief": {
-        "angle": "Kaffefilteret indefra — fra fibre til skraldespand.",
+        "angle": "Chefredaktionens leder. Skrives af redaktionen selv — ingen model, ingen byline.",
         "words": [
-          80,
-          280
+          300,
+          500
         ],
         "mustCite": 0,
         "format": "leder"
       },
       "writer": {
         "byline": null,
-        "model": "editor-led",
-        "fallback": null
+        "model": "editor-led"
       },
       "receipt": {
-        "words": 175,
+        "words": null,
         "costUSD": null,
         "draft": null
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
+        "status": "editor-written",
+        "checkedAt": "2026-08-17",
         "citations": 0,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "editorNote": "Chefredaktionens egen tekst — ingen model, ingen byline, intet forbrug. Lederen redegoer for afpubliceringen 2026-08-08 og for, hvorfor nummeret indeholder saa faa tal: der findes kilder til papirindustrien og til filterets opfindelse, men ikke til gramvaegt, bryggetemperatur eller nedbrydningstid, og SCA's graensevaerdier ligger bag medlemslogin."
       }
     },
     {
@@ -46,29 +48,31 @@
       "order": 2,
       "section": "Materialet",
       "brief": {
-        "angle": "Cellulose, porøsitet og vådstyrke.",
+        "angle": "Turen begynder ved fibrene. Et kaffefilter er et stykke papir, der skal løse to modsatrettede opgaver på én gang: lade vand løbe hurtigt igennem og holde selv de mindste partikler tilbage. Forklar for en almindeligt nysgerrig læser, hvordan papir overhovedet holder sammen: træfibre af cellulose, som frigøres fra veddet og derefter binder til hinanden, ikke med lim, men fordi cellulosemolekylernes overflader hæfter sammen, når vandet forsvinder. Forklar forskellen på mekanisk og kemisk fremstillet masse i én sætning hver — den mekaniske river fibrene fri og bevarer mest muligt af træet, den kemiske koger ligninet væk og giver stærkere, renere fibre — og hvorfor et filter, der skal være vådt og varmt uden at gå i stykker, hører til i den anden kategori. Forklar dernæst det, der gør filterpapir til filterpapir og ikke skrivepapir: det skal være porøst, det skal have en våd styrke, der holder, når det er gennemblødt og bærer flere hundrede gram vådt grums, og det må ikke afgive smag til det, der løber igennem. Nævn, at netop derfor er blegning et emne: ubleget og bleget filterpapir adskiller sig i farve, og der findes en udbredt forestilling om, at det ene smager af papir og det andet ikke. Skriv IKKE et facit på den strid — den hører hjemme i Påstandskontoret. Historisk anker, som må bruges: Melitta Bentz opfandt kaffefilteret i 1908, og ifølge selskabets egen historieside gav det kejserlige patentkontor den 20. juni 1908 «utility model protection» — altså gebrauchsmusterbeskyttelse, som er en lettere og hurtigere beskyttelsesform end et fuldt patent. Virksomheden blev registreret 15. december samme år, og produktionen begyndte i 1910 i en femværelseslejlighed. Kildekrav: skriv INGEN tal for gramvægt, porestørrelse, fiberlængde, tykkelse eller trækstyrke. Redaktionen har ingen kilde til dem, og et opfundet tal er værre end ingen.",
         "words": [
-          150,
-          550
+          550,
+          800
         ],
-        "mustCite": 0,
-        "format": "feature"
+        "mustCite": 1,
+        "format": "turen"
       },
       "writer": {
-        "byline": null,
-        "model": "editor-led",
-        "fallback": "deepseek/deepseek-v3.2"
+        "byline": "Claude Opus 4.8 (Anthropic)",
+        "model": "anthropic/claude-opus-4.8",
+        "fallback": "anthropic/claude-sonnet-5"
       },
       "receipt": {
-        "words": 198,
-        "costUSD": null,
-        "draft": null
+        "words": 671,
+        "costUSD": 0.057225,
+        "draft": "kladder/02-fibre.md",
+        "costRouting": "byok",
+        "generationId": "gen-1786944906-SLZB5L3giLGsP5Wuc2iY"
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
-        "citations": 0,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-17",
+        "citations": 1,
+        "editorNote": "REELT kommissioneret hos anthropic/claude-opus-4.8 paa .env.indeni; kladde i kladder/02-fibre.md. Den holdt det svaere krav om ingen tal fuldstaendigt — ikke én gramvaegt, porestoerrelse eller trykstyrke i hele teksten — og forklarede alligevel mekanismen klart. Bedst er den uopfordrede pointe til sidst: at Melittas opfindelse ikke var et nyt materiale, men en ny BRUG af et eksisterende. UBELAGT DETALJE FANGET: kladden skrev, at det foerste filter var traekpapir. Det er en velkendt fortaelling, men den staar ikke paa Melittas egen historieside, som er artiklens kilde. Omskrevet til at gengive den som netop en velkendt fortaelling, med bemaerkning om at kilden ikke bekraefter den. Fodnoten var en bar domaenehenvisning («melitta-group.com») — erstattet af den konkrete side med opremsning af, hvilke oplysninger der stammer derfra."
       }
     },
     {
@@ -76,29 +80,31 @@
       "order": 3,
       "section": "Maskinen",
       "brief": {
-        "angle": "Papirindustri i lille format — med trim og spild.",
+        "angle": "Maskinen zoomer ind på ét trin: hvordan et fladt ark bliver til en kegle, der kan holde til kogende vand. Beskriv rækkefølgen som en proces, læseren kan se for sig. Papirbanen kommer ind på en rulle. Den skæres til emner. To lag lægges sammen, og kanten samles — og her ligger nummerets bedste tekniske detalje: sømmen på et kaffefilter er som regel ikke limet, men prægemønstret eller svejset, fordi lim ville kunne smage og fordi en limfuge er et sted, hvor noget kan gå op, netop når papiret er vådt og varmt. Den riflede kant, alle har set uden at tænke over den, er ikke pynt: den holder papiret væk fra tragtens væg, så vandet kan løbe ned langs siden i stedet for at blive suget fast. Forklar derefter, hvorfor filtre kommer i en stak, og hvorfor stakken er svær: arkene er tynde, statiske og skal kunne skilles ét ad gangen af et menneske med våde fingre klokken syv om morgenen. Det er et emballage- og håndteringsproblem lige så meget som et papirproblem. Slut med kvalitetskontrollen som begreb: hvad går galt, hvis noget går galt? En utæt søm sender grums i koppen; et for tæt papir giver overekstraktion, fordi vandet står for længe; et for åbent papir giver det modsatte. Kildekrav: INGEN tal for procestemperatur, hastighed, produktionsvolumen eller dimensioner. Beskriv mekanismen, ikke maskinparken. Nævn ikke navngivne fabrikker. Artiklen ledsages af nummerets SVG-procesdiagram, så skriv den, så den kan læses ved siden af en tegning uden at gentage den.",
         "words": [
-          150,
-          550
+          500,
+          750
         ],
         "mustCite": 0,
-        "format": "feature"
+        "format": "maskinen"
       },
       "writer": {
-        "byline": null,
-        "model": "editor-led",
-        "fallback": "deepseek/deepseek-v3.2"
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "google/gemini-3.1-pro-preview"
       },
       "receipt": {
-        "words": 156,
-        "costUSD": null,
-        "draft": null
+        "words": 671,
+        "costUSD": 0.025194,
+        "draft": "kladder/03-maskinen.md",
+        "costRouting": "byok",
+        "generationId": "gen-1786944959-HqbyMgt9Jr8o5RTDCpl5"
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
+        "status": "accepted",
+        "checkedAt": "2026-08-17",
         "citations": 0,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "editorNote": "REELT kommissioneret hos anthropic/claude-sonnet-5 paa .env.indeni; kladde i kladder/03-maskinen.md. Uredigeret paa naer overskrift og standfirst. Den greb de to detaljer, briefen haabede paa — at soemmen ikke er limet, fordi lim baade kan smage og gaa op naar papiret er vaadt og varmt, og at den riflede kant holder papiret fri af tragtens vaeg — og den lavede selv haandteringsproblemet med stakken til et selvstaendigt afsnit. Ingen tal, ingen navngivne fabrikker, praecis som briefen kraevede."
       }
     },
     {
@@ -106,29 +112,31 @@
       "order": 4,
       "section": "Brugen",
       "brief": {
-        "angle": "Ekstraktion, papir vs. metal, og det der går galt.",
+        "angle": "Brugen: brygning er kemi i køkkenet, og filteret er en af variablerne. Forklar ekstraktion som det, det er — vand, der opløser stoffer ud af malet kaffe — og at kunsten er at få de rigtige stoffer med og de forkerte fra. De letopløselige syrer og aromastoffer kommer ud først; de tungere, bitre stoffer kommer sidst. Trækker man for kort, smager det surt og tyndt; trækker man for længe, smager det bittert. Det er den samme kaffe; forskellen er, hvor længe vandet fik lov. Gennemgå de fire håndtag, en almindelig køkkenbrygger har: malingsgraden, som afgør hvor stor overflade vandet møder og dermed hvor hurtigt stofferne kommer ud; vandtemperaturen, hvor for koldt vand ikke opløser nok og kogende vand trækker for meget af det bitre; mængdeforholdet mellem kaffe og vand; og kontakttiden, som i en filterbrygger ikke indstilles direkte, men følger af de tre andre. Forklar filterets egen rolle præcist: papiret tilbageholder ikke bare grums, det tilbageholder også en del af kaffens fedtstoffer, og det er derfor filterkaffe smager renere og tyndere end presskande-kaffe, hvor fedtstofferne følger med i koppen. Nævn skylning af filteret som en vane med to formål, der ofte blandes sammen: at fjerne eventuel papirsmag og at varme tragten, så det første vand ikke taber temperatur. STRENGT KILDEKRAV: angiv INGEN konkrete temperaturer, bryggeforhold, tidsangivelser eller ekstraktionsprocenter. Specialty Coffee Association udgiver standarder på området — herunder SCA-310 «Home Coffee Brewers: Specifications and Test Methods» — men de konkrete grænseværdier ligger bag medlemslogin, og redaktionen har ikke læst dem. Du må nævne, at standarderne findes og hvad de hedder. Du må ikke gengive tal fra dem.",
         "words": [
-          150,
-          550
+          550,
+          800
         ],
-        "mustCite": 0,
-        "format": "feature"
+        "mustCite": 1,
+        "format": "brugen"
       },
       "writer": {
-        "byline": null,
-        "model": "editor-led",
-        "fallback": "deepseek/deepseek-v3.2"
+        "byline": "Gemini 3.1 Pro Preview (Google)",
+        "model": "google/gemini-3.1-pro-preview",
+        "fallback": "anthropic/claude-sonnet-5"
       },
       "receipt": {
-        "words": 182,
-        "costUSD": null,
-        "draft": null
+        "words": 786,
+        "costUSD": 0.072504,
+        "draft": "kladder/04-bryg.md",
+        "costRouting": "byok",
+        "generationId": "gen-1786945001-e3mlIzit8IQCQqg6DJJc"
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
-        "citations": 0,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-17",
+        "citations": 1,
+        "editorNote": "REELT kommissioneret hos google/gemini-3.1-pro-preview paa .env.indeni; kladde i kladder/04-bryg.md. Den gjorde noget, ingen anden kladde i genopbygningen har gjort: den skrev sin egen kildebegraensning ind i broedteksten. «Hvad disse konkrete graensevaerdier er, vil vi dog i denne artikel afholde os fuldstaendig fra at skrive» — med begrundelsen, at SCA's standarder ligger bag medlemslogin, og at redaktionen ikke har laest dem. Det er praecis den disciplin, briefen bad om, og den er bedre formuleret, end briefen selv gjorde det. FEJL FANGET: kladden skrev «bag et betalingsmur og et lukket medlemslogin». Vi ved, at standarderne kraever medlemslogin; vi ved ikke, at der er tale om en betalingsmur. «Betalingsmur» fjernet. Fodnoten praeciseret med den konkrete side og kontroldato."
       }
     },
     {
@@ -136,29 +144,31 @@
       "order": 5,
       "section": "Kredsløbet",
       "brief": {
-        "angle": "Kompost er en kæde — ikke et label.",
+        "angle": "Kredsløbet: hvor ender filteret, og hvorfor er svaret sværere end det ser ud? Begynd med det, der gør et brugt kaffefilter til et besværligt stykke affald: det er vådt, det er beskidt, og det består af to ting på én gang — papir og madrest. Forklar hvorfor det derfor som hovedregel IKKE hører til i papirgenanvendelsen: genanvendelse af papir bygger på at opløse rene fibre i vand igen, og et filter fuldt af grums og fedt forurener den proces. Forklar dernæst hvorfor det til gengæld passer godt i madaffald eller kompost: både papiret og grumset er organisk materiale, som kan nedbrydes, og i en kompost fungerer filteret oven i købet som det tørre, kulstofrige materiale, der skal balancere det våde, kvælstofrige. Vær ærlig om, at reglerne er lokale: hvad der må komme i den brune spand, afgøres af den enkelte kommunes sorteringsordning og af, hvad det modtagende anlæg kan håndtere, og det er derfor ikke muligt at give ét dansk svar i en artikel. Skriv det som en anvisning til læseren om at slå sin egen kommunes regler op, ikke som en undskyldning. Tag til sidst den mindre indlysende pointe: den største miljøpost ved en kop kaffe er sjældent filteret. Kaffebønnerne selv, dyrkningen, transporten og — for den, der bruger elkedel eller maskine — energien til at varme vandet vejer normalt tungere end et gram papir. Det er ikke et argument for at være ligeglad med filteret; det er et argument for at kende størrelsesforholdene. KILDEKRAV: ingen tal for CO2, nedbrydningstid, affaldsmængder eller andele. Ingen henvisning til en bestemt kommune. Skriv mekanismen og rækkefølgen.",
         "words": [
-          150,
-          550
+          550,
+          800
         ],
         "mustCite": 0,
-        "format": "feature"
+        "format": "kredsloebet"
       },
       "writer": {
-        "byline": null,
-        "model": "editor-led",
-        "fallback": "deepseek/deepseek-v3.2"
+        "byline": "Claude Opus 4.8 (Anthropic)",
+        "model": "anthropic/claude-opus-4.8",
+        "fallback": "anthropic/claude-sonnet-5"
       },
       "receipt": {
-        "words": 170,
-        "costUSD": null,
-        "draft": null
+        "words": 690,
+        "costUSD": 0.054535,
+        "draft": "kladder/05-affald.md",
+        "costRouting": "byok",
+        "generationId": "gen-1786945050-Tw3nIEwFMsXne3WEcyDw"
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
+        "status": "accepted",
+        "checkedAt": "2026-08-17",
         "citations": 0,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "editorNote": "REELT kommissioneret hos anthropic/claude-opus-4.8 paa .env.indeni; kladde i kladder/05-affald.md. Uredigeret paa naer overskrift og standfirst. Den ramte briefens vanskeligste balance: at sige tydeligt, at reglerne er kommunale og at der derfor ikke findes ét dansk svar — uden at bruge det som en undskyldning for ikke at forklare noget. Og den holdt fast i stoerrelsesforholdet til sidst: at filteret sjaeldent er den stoerste miljoepost ved en kop kaffe, hvilket er et argument for at kende proportionerne, ikke for at vaere ligeglad. Ingen tal for CO2, nedbrydningstid eller affaldsmaengder."
       }
     },
     {
@@ -166,29 +176,37 @@
       "order": 6,
       "section": "Europa",
       "brief": {
-        "angle": "Nordisk fiber, tysk filtertradition, dansk forbrug.",
+        "angle": "Europa: filterpapiret kommer fra en industri, der skrumper. Skriv artiklen ud fra Cepis nøgletal for 2025, som brancheorganisationen offentliggjorde 2. juli 2026. Tallene, der skal bruges korrekt: europæisk produktion af papir og karton faldt 1,6 procent i 2025 til 77,4 millioner ton. Markedsmasse voksede 1,0 procent. I første kvartal af 2026 var produktionen allerede 2,4 procent lavere end i samme kvartal året før. Bag totalen ligger meget forskellige bevægelser: emballagekvaliteter lå stabilt, kartonnage faldt 5,4 procent, og grafiske papirer — avispapir, magasinpapir, kopipapir — faldt 7,3 procent. Ser man bort fra grafiske papirer, lå produktionen stadig 7,0 procent under rekordåret 2021. Importen nåede rekordhøje 7,7 procent af EU-forbruget, mens eksporten fortsat udgør over 20 procent af produktionen. Samtidig faldt sektorens specifikke CO2-udledninger 10,2 procent i 2025, og 92 procent af træet — en historisk høj andel — blev hentet i Europa. Forklar for læseren, hvorfor det hænger sammen med et kaffefilter: filterpapir er en lille specialkvalitet i en meget stor industri, og en specialkvalitet lever af, at der findes fabrikker, masse og kompetencer i nærheden. Når grafiske papirer forsvinder, forsvinder en del af det grundlag, som specialkvaliteterne har delt maskiner, råvarer og medarbejdere med. Det er den strukturelle pointe. Vær omhyggelig med to ting. For det første: Cepi er brancheorganisation for producenterne, og pressemeddelelsen argumenterer for politiske tiltag. Skriv det åbent, så læseren ved, hvem der taler. For det andet: tallet om «6,6 billioner euro i globale bioøkonomimarkeder i 2030» står i samme meddelelse, men det er en fremskrivning af et markedspotentiale, ikke en opgørelse — brug det kun, hvis du mærker det tydeligt som et estimat. Nævn ingen navngivne fabrikker eller anlæg; du har ingen kilde til dem.",
         "words": [
-          150,
-          550
+          550,
+          800
         ],
-        "mustCite": 0,
-        "format": "feature"
+        "mustCite": 1,
+        "mustNumber": [
+          "77,4 mio. ton, -1,6 pct. i 2025",
+          "grafiske papirer -7,3 pct.",
+          "import 7,7 pct. af EU-forbruget",
+          "CO2 pr. enhed -10,2 pct."
+        ],
+        "format": "europa"
       },
       "writer": {
-        "byline": null,
-        "model": "editor-led",
-        "fallback": "deepseek/deepseek-v3.2"
+        "byline": "GPT-5.6 Terra (OpenAI)",
+        "model": "openai/gpt-5.6-terra",
+        "fallback": "anthropic/claude-sonnet-5"
       },
       "receipt": {
-        "words": 388,
-        "costUSD": null,
-        "draft": null
+        "words": 707,
+        "costUSD": 0.0160465,
+        "draft": "kladder/06-europa.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1786945098-7EYnjAWI5KI1h7neYlmX"
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
-        "citations": 0,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-17",
+        "citations": 1,
+        "editorNote": "REELT kommissioneret hos openai/gpt-5.6-terra paa .env.indeni; kladde i kladder/06-europa.md. Den gengav alle Cepi-tallene korrekt og — vigtigst — fulgte instruktionen om at skrive aabent, at Cepi er brancheorganisation og at meddelelsen argumenterer for politiske tiltag. Den fandt ogsaa selv den strukturelle pointe skarpere end briefen: at naar grafiske papirer forsvinder, forsvinder en del af det grundlag, specialkvaliteterne har delt maskiner og raavarer med. Redaktionelt: fodnoten pegede paa cepi.org's forside — erstattet af den konkrete pressemeddelelse, som er hvor tallene faktisk staar, med kildekritisk bemaerkning og kontroldato. Krydslink til Tallet tilfoejet."
       }
     },
     {
@@ -196,29 +214,36 @@
       "order": 7,
       "section": "Tallet",
       "brief": {
-        "angle": "Forbrug, affald — med forbehold.",
+        "angle": "Tallet er 77,4 millioner ton — og artiklen handler om, hvad man må og ikke må gøre med det. Cepi opgjorde 2. juli 2026, at europæisk produktion af papir og karton faldt 1,6 procent i 2025 og landede på 77,4 millioner ton. Byg artiklen op om de tre spørgsmål, INDENI stiller til ethvert tal: HVILKET ÅR? 2025, offentliggjort midt i 2026 — og allerede overhalet af 2026's første kvartal, som lå 2,4 procent lavere endnu. HVILKEN GEOGRAFI? Cepis medlemslande, ikke hele Europa og ikke EU præcist afgrænset; en brancheorganisations tal dækker dens medlemmer. HVAD MÅLER DET? Produktion — altså hvad der er fremstillet, ikke hvad der er forbrugt. Netop derfor kan produktionen falde, samtidig med at importen stiger til rekordhøje 7,7 procent af EU-forbruget: europæerne bruger ikke nødvendigvis mindre papir, de får bare mere af det andre steder fra. Vis derefter, hvorfor totalen skjuler mere end den viser. De 77,4 millioner ton dækker over, at emballage lå stabilt, kartonnage faldt 5,4 procent, og grafiske papirer faldt 7,3 procent. En gennemsnitsbevægelse på 1,6 procent er summen af tre forskellige historier. Slut på det, tallet IKKE kan bruges til: det siger intet om, hvor mange kaffefiltre der blev lavet. Filterpapir er en specialkvalitet, som ikke opgøres for sig i den slags statistik, og en læser, der forsøger at regne sig frem fra totalen til filtrene, regner på noget, tallet ikke måler. Det er hele pointen med rubrikken. Ingen andre tal end dem, der står her.",
         "words": [
-          80,
-          280
+          500,
+          750
         ],
-        "mustCite": 2,
+        "mustCite": 1,
+        "mustNumber": [
+          "77,4 mio. ton i 2025",
+          "-1,6 pct. i 2025, -2,4 pct. i Q1 2026",
+          "import 7,7 pct."
+        ],
         "format": "tallet"
       },
       "writer": {
-        "byline": null,
-        "model": "editor-led",
-        "fallback": "google/gemini-3.5-flash"
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "openai/gpt-5.6-terra"
       },
       "receipt": {
-        "words": 175,
-        "costUSD": null,
-        "draft": null
+        "words": 576,
+        "costUSD": 0.020654,
+        "draft": "kladder/07-tallet.md",
+        "costRouting": "byok",
+        "generationId": "gen-1786945130-I80MOBdt8b4egCySmE3f"
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
-        "citations": 2,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-17",
+        "citations": 1,
+        "editorNote": "REELT kommissioneret hos anthropic/claude-sonnet-5 paa .env.indeni; kladde i kladder/07-tallet.md. Den holdt rubrikkens tre spoergsmaal — aar, geografi, hvad maaler det — og landede den vigtigste: at produktion ikke er forbrug, og at det er derfor produktionen kan falde, mens importen stiger. Og den skrev den afsluttende advarsel om, at tallet IKKE kan bruges til at regne sig frem til antallet af kaffefiltre, hvilket er hele rubrikkens eksistensberettigelse. Redaktionelt: fodnoten manglede link — erstattet af pressemeddelelsen med kildekritisk bemaerkning."
       }
     },
     {
@@ -226,29 +251,31 @@
       "order": 8,
       "section": "Maskinen",
       "brief": {
-        "angle": "Fire bokse, én orange prik — og det der mangler.",
+        "angle": "Sådan læser du nummerets procesdiagram — og hvad det med vilje udelader. INDENI tegner et diagram til hvert nummer, og rubrikken her handler om, at et diagram ikke er et fotografi, men et valg. Gennemgå tre former for udeladelse, som gælder næsten alle procesdiagrammer, og gør dem konkrete for filterets vej fra masse til stak. FOR DET FØRSTE tid: et diagram viser rækkefølge, ikke varighed. To kasser ved siden af hinanden kan dække over et trin, der tager sekunder, og et, der tager timer, og pilen mellem dem siger ikke hvilket. FOR DET ANDET tilbageløb: rigtige processer har afvisning, omsmeltning, genindføring af spild og partier, der går retur. Tegner man alle sløjfer, bliver diagrammet ulæseligt; tegner man ingen, ser processen ud som en lige linje, den aldrig er. FOR DET TREDJE alt det, der ikke er selve materialet: vand, varme, elektricitet, luft, kemikalier og mennesker. De fylder ofte mest i regnskabet og mindst på tegningen. Slut med en læseregel, læseren kan tage med sig til ethvert procesdiagram, ikke bare vores: spørg hvad der er tegnet som én kasse, som i virkeligheden er en hel fabrik. Det er dér, forenklingen gør mest arbejde. Skriv det som læserprosa uden meta-bokse — notesbogens formatregel forbyder «INDENI-regel»-kasser. Ingen tal.",
         "words": [
-          150,
-          550
+          450,
+          700
         ],
         "mustCite": 0,
-        "format": "feature"
+        "format": "maskinen"
       },
       "writer": {
-        "byline": null,
-        "model": "editor-led",
-        "fallback": null
+        "byline": "Claude Opus 4.8 (Anthropic)",
+        "model": "anthropic/claude-opus-4.8",
+        "fallback": "anthropic/claude-sonnet-5"
       },
       "receipt": {
-        "words": 122,
-        "costUSD": null,
-        "draft": null
+        "words": 576,
+        "costUSD": 0.04602,
+        "draft": "kladder/08-diagrammet.md",
+        "costRouting": "byok",
+        "generationId": "gen-1786945161-bIRcbiLjFnjHEPF8EgVt"
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
+        "status": "accepted",
+        "checkedAt": "2026-08-17",
         "citations": 0,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "editorNote": "REELT kommissioneret hos anthropic/claude-opus-4.8 paa .env.indeni; kladde i kladder/08-diagrammet.md. Uredigeret paa naer overskrift og standfirst. Den respekterede notesbogens formatregel om ingen meta-bokse og skrev pointen ind som laeserprosa, og den fandt den bedste afsluttende laeseregel selv: spoerg hvad der er tegnet som én kasse, men i virkeligheden er en hel fabrik. De tre former for udeladelse — tid, tilbageloeb og alt det der ikke er materialet — er praecis den rigtige inddeling."
       }
     },
     {
@@ -256,31 +283,32 @@
       "order": 9,
       "section": "Påstandskontoret",
       "brief": {
-        "angle": "Tre filter-påstande uden facit-moral.",
+        "angle": "Påstandskontoret: fire udbredte påstande om kaffefiltre, afmonteret uden at lade som om der findes ét facit. Påstandene skal være: (1) «Ubleget filter er bedre for miljøet.» Nuancer det: ubleget papir springer et procestrin over, men filterpapir bleges i dag typisk uden frit klor, og forskellen mellem de to varianter er lille sammenlignet med resten af kaffens fodaftryk. Den ærlige konklusion er, at valget mellem brun og hvid er et af de mindst betydningsfulde, en kaffedrikker træffer. (2) «Man skal altid skylle filteret.» To formål blandes sammen: at fjerne papirsmag og at forvarme tragten. Det andet er der god grund til; det første afhænger af papiret og af, hvor følsom man er. Ingen af delene er et krav. (3) «Filteret kan komme i papirgenanvendelsen.» Nej — et vådt filter fuldt af grums er en madrest i papirform og forurener en proces, der bygger på rene fibre. Det hører til i madaffald eller kompost, men hvad der konkret må komme hvor, afgøres af den lokale sorteringsordning. (4) «Genbrugsfilteret i metal er altid det grønneste.» Det afhænger af, hvor mange gange det bruges, af hvad det er lavet af, og af at det skal vaskes med varmt vand hver gang. Et permanent filter kan sagtens være det bedste valg — men «altid» holder ikke, og regnestykket er ikke gjort her. Skriv hver påstand som et lille afsnit med en tydelig, ærlig vurdering til sidst. Ingen tal, ingen mærkenavne, ingen påstande om bestemte producenter. Tonen er rolig og konkret, ikke afslørende.",
         "words": [
-          80,
-          280
+          450,
+          700
         ],
         "mustCite": 0,
-        "format": "bagsnit"
+        "format": "paastandskontoret"
       },
       "writer": {
-        "byline": null,
-        "model": "editor-led",
-        "fallback": "deepseek/deepseek-v3.2"
+        "byline": "GPT-5.6 Terra (OpenAI)",
+        "model": "openai/gpt-5.6-terra",
+        "fallback": "google/gemini-3.1-pro-preview"
       },
       "receipt": {
-        "words": 102,
-        "costUSD": null,
-        "draft": null
+        "words": 643,
+        "costUSD": 0.00970325,
+        "draft": "kladder/09-paastandskontoret.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1786945201-cM5Z8TpxGGmbekaLGEaQ"
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
+        "status": "accepted",
+        "checkedAt": "2026-08-17",
         "citations": 0,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "editorNote": "REELT kommissioneret hos openai/gpt-5.6-terra paa .env.indeni; kladde i kladder/09-paastandskontoret.md. Uredigeret paa naer overskrift og standfirst. Alle fire paastande behandlet med den noegternhed, rubrikken kraever — saerligt nr. 1, hvor konklusionen er, at valget mellem brun og hvid er et af de MINDST betydningsfulde en kaffedrikker traeffer, hvilket er mere nyttigt end at kaare en vinder. Og nr. 4 holdt fast i, at «altid» ikke holder, og at regnestykket ikke er gjort her. Ingen tal, ingen maerkenavne."
       }
     }
-  ],
-  "integrityNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+  ]
 }

@@ -1,13 +1,4 @@
----
-title: "Maskinen: fra pulp til stak"
-standfirst: Sømmen på et kaffefilter er sjældent limet. Den riflede kant er ikke pynt. Og den sværeste del er at få arkene til at slippe hinanden klokken syv om morgenen.
-byline: "Claude Sonnet 5 (Anthropic)"
-section: Maskinen
-order: 3
-image: ../images/indeni_maskine.png
-imageCredit: "AI-genereret motiv (Imagine / xAI)"
-imageSource: "https://x.ai/"
----
+# Maskinen: Fra fladt ark til tæt kegle
 
 Et kaffefilter ser ud, som om det altid har haft den form. Men før det bliver til en kegle, der kan stå og holde til kogende vand uden at gå i opløsning, er det bare en flad papirbane, der ruller af en stor rulle ligesom køkkenrulle i overstørrelse. Papiret er specielt: det er lavet til at være porøst nok til at lade vand trænge igennem, men tæt nok til at holde på malede kaffebønner, og det skal kunne gøre det, mens det er drivvådt og varmt — en kombination, almindeligt papir ikke er lavet til at klare.
 

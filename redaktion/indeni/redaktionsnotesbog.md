@@ -19,7 +19,39 @@ Målgruppen er den almindeligt nysgerrige danske læser. Forklar fagord første 
 
 ## Udgivne numre
 
-- **(2026-08) Nr. 2 — “Filteret”**: kaffefilter fra fibre til affald; egen SVG-proces. Uden ordbog. `bestilling.json` under `numre/2026-08-nr2/`.
+- **(2026-08) Nr. 2 — “Filteret” — GENOPBYGGET OG GENUDGIVET 2026-08-17.**
+  9 artikler, **5.678 ord** (var 2.005 ord — gns. 223, altså præcis det notesbogen kalder
+  “tre overskrifter med én sætning”). Otte artikler reelt kommissioneret på `.env.indeni`;
+  lederen er chefredaktionens og har **ingen byline**. Samlet forbrug **0,30 USD**.
+  `check_issue.py`: **0 fejl, 0 advarsler.** `bestilling.json` under `numre/2026-08-nr2/`.
+
+  ### Det, der virkede: forbyd tal, når der ikke er kilder
+
+  Nummeret har meget få kildebelagte tal — kun Melittas egen historieside og Cepis nøgletal.
+  I stedet for at lade modellerne fylde hullerne **forbød hver enkelt brief eksplicit** de tal,
+  der manglede kilde: gramvægt, porestørrelse, fiberlængde, bryggetemperatur, bryggeforhold,
+  nedbrydningstid, CO₂. Resultatet: ikke ét opfundet tal i otte kladder, og fire af dem gik ind
+  praktisk taget uredigeret. **Gør det sådan igen.** En brief, der tier om tal, inviterer til gæt;
+  en brief, der forbyder dem, får mekanismen forklaret i stedet.
+
+  Bryg-kladden gjorde noget, ingen anden kladde i genopbygningen har gjort: den skrev sin egen
+  kildebegrænsning ind i brødteksten — at SCA's grænseværdier ligger bag medlemslogin, og at
+  redaktionen ikke har læst dem. Bedre formuleret, end briefen selv gjorde det.
+
+  ### Hvad faktatjekket fangede
+
+  - **En velkendt fortælling gengivet som kendsgerning:** at Melittas første filter var trækpapir.
+    Det står ikke på selskabets historieside, som er artiklens kilde. Nu gengivet som det, det er.
+  - **En detalje for meget:** «bag et betalingsmur og et lukket medlemslogin» om SCA. Vi ved, at
+    der kræves medlemslogin. Vi ved ikke, at der er en betalingsmur.
+  - **Bare domænehenvisninger** igen: `melitta-group.com` og `cepi.org` uden side. Cepis tal står
+    i **pressemeddelelsen**, ikke på forsiden, og PDF'en med nøgletallene ligger bag et downloadlink.
+
+  ### Kildekritik, der skal med i artiklen
+
+  Cepi er brancheorganisation for producenterne, og meddelelsen argumenterer for politiske tiltag.
+  Det står nu åbent i både Europa-artiklen og Tallet. Tallet «6,6 billioner euro i 2030» fra samme
+  meddelelse er en **fremskrivning af markedspotentiale** — brug det kun mærket som estimat.
 - **(2026-08) Nr. 1 — “Dåsen”**: aluminiumsdrikkedås fra materiale og formning til dansk pant og europæisk omsmeltning. Originale SVG-diagrammer viser formning, pantstrøm og lukket kredsløb.
   **Genopbygget 2026-08-09:** 11 artikler / 6.936 ord (var 12 / 3.427). Ordbogen fjernet. Ti artikler
   reelt kommissioneret på `.env.indeni`; lederen er chefredaktionens uden byline. Forbrug **0,50 USD**.

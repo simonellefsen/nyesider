@@ -1,13 +1,4 @@
----
-title: "Papir, pulp og en industri, der skrumper"
-standfirst: Europæisk papirproduktion faldt til 77,4 millioner ton i 2025. Filterpapir er en lille specialkvalitet i en meget stor industri — og specialkvaliteter lever af naboerne.
-byline: "GPT-5.6 Terra (OpenAI)"
-section: Europa
-order: 6
-image: ../images/indeni_europa.png
-imageCredit: "AI-genereret motiv (Imagine / xAI)"
-imageSource: "https://x.ai/"
----
+# Filterpapiret lever af den store papirindustri
 
 Et kaffefilter ser ud som en enkel ting: en tynd, lys kegle af papir, der holder grums tilbage og lader vandet løbe igennem. Men filterpapir er en specialkvalitet i en meget større europæisk industri. Det er afhængigt af fibre, kemikalier, maskiner, energiforsyning, transport og medarbejdere, som sjældent kun findes for filterets skyld.
 
@@ -34,8 +25,8 @@ Samtidig bliver industrien ikke bare mindre; den bliver også mere international
 
 Cepi fremhæver også, at 92 % af træet til sektoren i 2025 kom fra Europa, den højeste andel hidtil. Det er vigtigt, fordi kortere og mere kendte forsyningskæder kan gøre det lettere at følge råvaren. Men europæisk træ betyder ikke automatisk lav miljøbelastning. Skovdrift, transport, energiforbrug, kemikalier og genanvendelse skal stadig vurderes hver for sig.
 
-På klimaområdet faldt sektorens specifikke udledninger af kuldioxid (CO₂) med 10,2 % i 2025. Ordet *specifikke* er afgørende: [Tallet](/indeni/2026-08-nr2/tallet) handler om udledning pr. produceret enhed. Det kan forbedres, hvis energien bliver mindre fossil eller produktionen mere effektiv, også selv om den samlede udledning ikke falder lige så meget.
+På klimaområdet faldt sektorens specifikke udledninger af kuldioxid (CO₂) med 10,2 % i 2025. Ordet *specifikke* er afgørende: Tallet handler om udledning pr. produceret enhed. Det kan forbedres, hvis energien bliver mindre fossil eller produktionen mere effektiv, også selv om den samlede udledning ikke falder lige så meget.
 
 Cepi er brancheorganisation for papirproducenterne, og organisationens pressemeddelelse argumenterer samtidig for politiske tiltag, der skal styrke industriens konkurrenceevne. Tallene er derfor ikke en neutral dom over branchens fremtid, men de beskriver et konkret problem: Specialpapirer som filterpapir er små dele af et stort maskineri. Når den store masse skrumper, bliver det vanskeligere at bevare de materialer, kompetencer og produktionsmiljøer, som også de små hverdagsprodukter er bygget af.
 
-[^1]: [Cepi Key Statistics 2025 — pressemeddelelse](https://www.cepi.org/press-release-a-slow-drift-new-statistics-report-shows-why-europes-paper-industry-needs-attention-now/), Confederation of European Paper Industries, 2. juli 2026. Cepi er brancheorganisation for de europæiske papirproducenter, og meddelelsen argumenterer for politiske tiltag — tallene er organisationens egen opgørelse. Kontrolleret 17. august 2026.
+[^1]: Cepi (Confederation of European Paper Industries), nøgletal for den europæiske papirindustri i 2025, offentliggjort 2. juli 2026. Cepis publikationer og nyheder findes på [cepi.org](https://www.cepi.org/).

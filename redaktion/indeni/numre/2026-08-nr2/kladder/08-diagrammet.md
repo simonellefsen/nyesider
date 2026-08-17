@@ -1,15 +1,4 @@
----
-title: "Sådan læser du filter-diagrammet"
-standfirst: Et diagram er ikke et fotografi. Det er et valg om, hvad der skal væk, for at resten kan ses — og tid, tilbageløb og alt det, der ikke er materialet, ryger først.
-byline: "Claude Opus 4.8 (Anthropic)"
-section: Maskinen
-order: 8
-image: ../images/figur-filter-proces.svg
-imageCredit: "INDENI — eget diagram"
-imageSource: ""
----
-
-### Maskinen
+## Maskinen
 
 # Tre ting diagrammet ikke fortæller dig
 
