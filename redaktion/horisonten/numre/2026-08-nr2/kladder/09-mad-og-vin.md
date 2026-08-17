@@ -1,13 +1,4 @@
----
-title: "Khinkali, khachapuri og qvevri"
-standfirst: Man holder dumplingen i toppen, bider hul, drikker saften — og lader toppen ligge. Og ravvinen er ikke en hvidvin med en anden etikette.
-byline: "Gemini 3.1 Pro Preview (Google)"
-section: Mad & Vin
-order: 9
-image: ../images/horisonten_mad.png
-imageCredit: "AI-genereret motiv (Imagine / xAI)"
-imageSource: "https://x.ai/"
----
+# Mad og vin i Georgien: Teknik, tradition og terræn
 
 Georgien tiltrækker europæiske rejsende, der snører vandrestøvlerne i de dramatiske Kaukasusbjerge eller træder i pedalerne på landeveje langt uden for den travleste højsæson. Uanset om dagen har budt på strabadserende højdemeter eller en rolig rute gennem dalene, ender man som rejsende uundgåeligt ved bordet for at lade op. 
 

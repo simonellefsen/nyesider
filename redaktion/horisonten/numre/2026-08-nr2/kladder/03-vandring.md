@@ -1,13 +1,4 @@
----
-title: "Sådan vurderer du en bjergrute, du ikke selv har gået"
-standfirst: Stigningen, ikke afstanden. Højden, ikke kilometerne. Og adgangen til startpunktet, som i Kaukasus ofte er en del af ruten.
-byline: "Claude Sonnet 5 (Anthropic)"
-section: Vandring
-order: 3
-image: ../images/horisonten_vandring.png
-imageCredit: "AI-genereret motiv (Imagine / xAI)"
-imageSource: "https://x.ai/"
----
+# Sådan vurderer du en bjergrute, du ikke selv har gået
 
 Der findes et øjeblik, hvor en rutebeskrivelse ser perfekt ud på skærmen — et navn, en flot bjergryg på et billede, en linje trukket på et kort — og hvor man er tættere på at booke en tur, end man er på at vide, hvad man booker. Det gælder mange steder, men det gælder særligt i Kaukasus, hvor afstanden mellem det, man tror man har forstået, og det man rent faktisk møder, kan være stor. Her er de fem spørgsmål, der er værd at stille, før man stiller andet end det første skridt.
 
@@ -27,4 +18,4 @@ Det du skal gøre, før du går: spørg en lokal udbyder eller vandreguide om ak
 
 ---
 
-[^1]: UNESCO World Heritage Centre, "Upper Svaneti", *UNESCO World Heritage List*: [Upper Svaneti](https://whc.unesco.org/en/list/709)
+[^1]: UNESCO World Heritage Centre, "Upper Svaneti", *UNESCO World Heritage List*: [https://whc.unesco.org/en/list/709](https://whc.unesco.org/en/list/709)

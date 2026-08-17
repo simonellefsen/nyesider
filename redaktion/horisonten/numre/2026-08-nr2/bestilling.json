@@ -1,0 +1,340 @@
+{
+  "magazine": "horisonten",
+  "issue": "2026-08-nr2",
+  "issueTheme": "Georgien — bjerge, by og bord",
+  "integrityNote": "Skrevet fra bunden 2026-08-17. Den afpublicerede udgave (2026-08-08) bar byline til navngivne modeller uden kvittering, kladde eller forbrug. Hele nummeret produceres forfra på titlens egen nøgle (.env.horisonten). Byline sættes kun, hvor receipt.costUSD og receipt.draft er udfyldt; lederen er chefredaktionens og har ingen byline.",
+  "budget": {
+    "articles": 10,
+    "wordsPerArticle": [
+      450,
+      750
+    ],
+    "targetPages": 14,
+    "note": "Den afpublicerede udgave var 10 artikler på 1.720 ord — gennemsnit 172, det tyndeste nummer i hele porteføljen. Budgettet er sat til 450-750."
+  },
+  "researchNote": "ADVARSEL: dette felt når ALDRIG frem til modellen — kun brief.angle gør. Alle tal og navne nedenfor er derfor også skrevet ind i de enkelte briefs. Kontrolleret 2026-08-17.\n\nUNESCO VERDENSARV, landeside for Georgien (whc.unesco.org/en/statesparties/ge): Georgien har FIRE steder på verdensarvslisten. Tre kulturelle: Gelati-klostret (indskrevet 1994, ændret 2017), Historiske monumenter i Mtskheta (1994) og Øvre Svaneti (1996). Ét naturligt: Colchic Rainforests and Wetlands (2021). Georgien tilsluttede sig konventionen 4. november 1992. Der er 14 steder på den vejledende liste (Tentative List), herunder Alaverdi-katedralen, Ananuri, David Gareji-klostrene, Dmanisi (hominid-udgravning), Gremi, Kvetera, Mta-Tusheti og Nikortsminda — alle opført på listen i 2007. Der findes 37 State of Conservation-rapporter for landets steder; både Gelati og Mtskheta har rapporter fra 2025.\n\nUNESCO, Gelati-klostret (whc.unesco.org/en/list/710): grundlagt 1106 i det vestlige Georgien, «a masterpiece of the Golden Age of medieval Georgia, a period of political strength and economic growth between the 11th and 13th centuries». Den daglige forvaltning er overladt til det munkesamfund, der bor på stedet; længerevarende indgreb udføres af National Agency for Cultural Heritage Preservation of Georgia, og den lokale repræsentant er Kutaisi Historical Architectural Museum-Reserve, som også står for besøgsmodtagelsen. Forvaltningsplanen 2017-2021 mangler godkendelse for at være fuldt operationel, og et Management Committee er endnu ikke udpeget.\n\nADVARSEL — KILDER, DER IKKE KUNNE BRUGES: UNESCO's liste over immateriel kulturarv (ich.unesco.org) er beskyttet af en CAPTCHA og kunne ikke læses. Qvevri-vinmetoden er efter alt at dømme optaget på den liste, MEN redaktionen har IKKE kunnet verificere det, og der må derfor ikke stå et årstal eller en listestatus for qvevri i nummeret. Skriv metoden som metode, ikke som UNESCO-status.\n\nSTRENGT: der findes INGEN verificerede kilder i denne bestilling til visumregler, indrejsekrav, valutakurser, priser, flyruter, transporttider, temperaturer, nedbørstal, højdemeter, rutelængder, åbningstider eller sikkerhedsforhold. Enhver brief, der berører dem, SKAL forbyde dem. Erfaringen fra INDENI nr. 2 (2026-08-17) var entydig: en brief, der tier om tal, inviterer til gæt; en brief, der forbyder dem, får mekanismen og rådet forklaret i stedet — og otte kladder kom hjem uden ét opfundet tal.\n\nSØSTERTITEL: KULTURBOXEN nr. 1 (udgivet, 2026-08-01) dækker Georgien kulturelt — supra, tillid, penge og GEL-kurser, dagligdag, familie, marked, natteliv, tøj, kirke, skat. HORISONTEN må IKKE gentage det stof; vi svarer «hvordan kommer jeg derhen og hvornår», de svarer «hvordan lever folk dér». Krydslink til /kulturboxen/2026-08-nr1/ hvor det er naturligt.\n\nDUBLETADVARSEL: nr. 3 (også draft) er Dolomitterne i efteråret med samme rubrikstruktur. Nr. 2 skal blive i Georgien.",
+  "opgaver": [
+    {
+      "slug": "leder",
+      "order": 1,
+      "section": "Leder",
+      "brief": {
+        "angle": "Chefredaktionens leder. Skrives af redaktionen selv — ingen model, ingen byline.",
+        "words": [
+          300,
+          500
+        ],
+        "mustCite": 0,
+        "format": "leder"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led"
+      },
+      "receipt": {
+        "words": null,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "editor-written",
+        "checkedAt": "2026-08-17",
+        "citations": 0,
+        "editorNote": "Chefredaktionens egen tekst — ingen model, ingen byline, intet forbrug. Lederen redegoer for afpubliceringen 2026-08-08 og for de to redaktionelle beslutninger, der praeger nummeret: at Kalenderen ikke indeholder maaneder, og at Praktisk ikke indeholder svar."
+      }
+    },
+    {
+      "slug": "georgien-overblik",
+      "order": 2,
+      "section": "Overblik",
+      "brief": {
+        "angle": "Overblik: hvad Georgien består af for en rejsende, og hvorfor landet er svært at planlægge på afstand. Byg artiklen op om den geografiske grundform, for den forklarer næsten alt praktisk: Kaukasus i nord som en mur af høje bjerge, Sortehavskysten i vest med fugtigt, subtropisk klima, og et tørrere, kontinentalt indland mod øst, hvor vinen dyrkes. Tre klimaer inden for få hundrede kilometer betyder, at «hvornår skal man rejse» ikke har ét svar — det afhænger af, hvilken af de tre man vil til. Brug UNESCO's verdensarvsliste som konkret rygrad, for den er kildebelagt og fordeler sig fint over landet: Georgien har fire steder på listen. Tre er kulturelle — Gelati-klostret, indskrevet 1994 og ændret 2017; de historiske monumenter i Mtskheta, 1994; og Øvre Svaneti, 1996. Ét er naturligt: Colchic Rainforests and Wetlands, 2021. Landet tilsluttede sig konventionen 4. november 1992. Dertil står 14 steder på den vejledende liste, hvor de fleste blev opført i 2007, blandt dem Alaverdi-katedralen, Ananuri, David Gareji-klostrene, Gremi, Kvetera, Nikortsminda, Mta-Tusheti og udgravningen Dmanisi. Forklar hvad en vejledende liste er: en fortegnelse over de steder, et land selv har til hensigt at overveje at indstille — altså en liste over ambitioner, ikke over status. Det er en nyttig ting for en rejsende at kunne læse. Nævn til sidst, at Georgien kulturelt behandles i søstertitlen, og henvis dertil frem for at gentage stoffet. STRENGT: ingen temperaturer, nedbørstal, priser, valutakurser, visumregler, flyruter eller transporttider — redaktionen har ingen kilder til dem. Ingen påstande om sikkerhedsforhold eller områder, man bør undgå.",
+        "words": [
+          550,
+          750
+        ],
+        "mustCite": 1,
+        "mustNumber": [
+          "fire verdensarvssteder",
+          "Gelati 1994/2017, Mtskheta 1994, Øvre Svaneti 1996, Colchic 2021",
+          "14 steder på den vejledende liste"
+        ],
+        "format": "overblik"
+      },
+      "writer": {
+        "byline": "Claude Opus 4.8 (Anthropic)",
+        "model": "anthropic/claude-opus-4.8",
+        "fallback": "anthropic/claude-sonnet-5"
+      },
+      "receipt": {
+        "words": 641,
+        "costUSD": 0.05229,
+        "draft": "kladder/02-georgien-overblik.md",
+        "costRouting": "byok",
+        "generationId": "gen-1786979007-T9aqdIlwsL4sjSLoZ0gI"
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-08-17",
+        "citations": 1,
+        "editorNote": "REELT kommissioneret hos anthropic/claude-opus-4.8 paa .env.horisonten. Alle UNESCO-tal korrekt, og — vigtigst — den forklarede den vejledende liste som «en liste over ambitioner, ikke over status», hvilket er praecis den laesefaerdighed, briefen bad om at give videre. Ingen temperaturer, priser eller visumregler. Krydslink til KULTURBOXEN tilfoejet."
+      }
+    },
+    {
+      "slug": "vandring",
+      "order": 3,
+      "section": "Vandring",
+      "brief": {
+        "angle": "Vandring i Kaukasus — men skrevet som en artikel om, hvordan man vurderer en bjergrute, man ikke selv har gået. Det er den ærlige version, og den er mere nyttig end en rutebeskrivelse fra en, der ikke har været der. Gennemgå de fem ting, der afgør, om en bjergvandring passer til en: stigningen frem for afstanden, fordi 12 kilometer op er en anden dag end 12 kilometer langs en dal; højden, fordi luften bliver tynd og gør en ellers nem rute anstrengende; sæsonen, fordi sne kan ligge på passene længe efter at dalen er grøn, og fordi smeltevand kan gøre et vadested til en forhindring; vejret, som i bjerge skifter hurtigere end en prognose; og adgangen, altså om man kan komme til startpunktet uden egen bil. Forklar, hvorfor det sidste ofte er det, der afgør en tur i Georgien: mange af de kendte startpunkter ligger for enden af en dal, og transporten derhen er en del af ruten. Brug Øvre Svaneti som konkret geografisk holdepunkt — det er på UNESCO's verdensarvsliste, indskrevet i 1996, og ligger i det nordvestlige højland. Nævn Gergeti som et navn, læseren vil møde, uden at påstå noget om rutens længde, stigning eller varighed. STRENGT KILDEKRAV: ingen højdemeter, rutelængder, gåtider, temperaturer, sneforhold, sværhedsgrader, hyttepriser eller åbningsmåneder. Redaktionen har ingen kilder til dem, og en forkert gåtid i et bjerg er ikke en skrivefejl, det er en risiko. Skriv i stedet, hvad læseren selv skal have svar på fra en lokal udbyder eller en opdateret rutedatabase, før hun går.",
+        "words": [
+          500,
+          700
+        ],
+        "mustCite": 1,
+        "format": "aktivitet"
+      },
+      "writer": {
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "google/gemini-3.1-pro-preview"
+      },
+      "receipt": {
+        "words": 626,
+        "costUSD": 0.019594,
+        "draft": "kladder/03-vandring.md",
+        "costRouting": "byok",
+        "generationId": "gen-1786979042-Zp6y3JY1umHqklE0gG5a"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-17",
+        "citations": 1,
+        "editorNote": "REELT kommissioneret hos anthropic/claude-sonnet-5 paa .env.horisonten. Den holdt det svaere krav fuldstaendigt: ikke én hoejdemeter, gaatid eller svaerhedsgrad, og alligevel en brugbar artikel — fordi den forklarede, hvorfor stigning slaar afstand, og hvorfor adgangen til startpunktet ofte er det, der afgoer en tur i Kaukasus. Redaktionelt: fodnoten indeholdt en markdown-fejl, hvor URL'en stod baade som linktekst og som maal. Rettet. UNESCO-ID 709 for Oevre Svaneti er kontrolleret mod UNESCO's egen landeside."
+      }
+    },
+    {
+      "slug": "cykling",
+      "order": 4,
+      "section": "Cykling",
+      "brief": {
+        "angle": "Cykling i Georgien: landevej, vinbakker og den ene ting, ingen rejseguide skriver tydeligt nok — at man deler vejen med tung trafik. Skriv det som en nøgtern vurdering af, hvad cykling i et bjergland med begrænset vejnet betyder i praksis. Fire forhold hører med. For det første topografien: der findes ikke mange flade alternativer, så en rute er som regel enten langs en dal eller op over et pas, og de to ting kræver vidt forskellige gear og dage. For det andet vejnettet: når der kun er én vej gennem en dal, kører alle på den — lastbiler, busser, får og cyklister — og det er ikke et problem, man løser med en refleksvest, men med ruteplanlægning og tidspunkt på dagen. For det tredje underlaget: asfalt af meget varierende kvalitet, og grus dér hvor asfalten holder op, hvilket gør dæk- og cykelvalg til et rigtigt valg og ikke en detalje. For det fjerde forsyningen: afstanden mellem steder, hvor man kan få vand, mad og et hjul lappet, er den egentlige begrænsning på en dags etape. Brug Kakheti i øst som geografisk holdepunkt for vinbakkerne, og nævn Alaverdi-katedralen, som står på UNESCO's vejledende liste fra 2007, som et af de steder, en rute i området kan lægges omkring. STRENGT: ingen rutelængder, stigningsprocenter, højdemeter, vejnumre, trafiktal, ulykkesstatistik, temperaturer eller cykeludlejningspriser. Ingen påstande om, hvor farligt eller sikkert det er — kun om, hvad man skal tage højde for.",
+        "words": [
+          500,
+          700
+        ],
+        "mustCite": 1,
+        "format": "aktivitet"
+      },
+      "writer": {
+        "byline": "Gemini 3.1 Pro Preview (Google)",
+        "model": "google/gemini-3.1-pro-preview",
+        "fallback": "anthropic/claude-sonnet-5"
+      },
+      "receipt": {
+        "words": 622,
+        "costUSD": 0.063682,
+        "draft": "kladder/04-cykling.md",
+        "costRouting": "byok",
+        "generationId": "gen-1786979075-oUNjWGvCOXwkOigsckFk"
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-08-17",
+        "citations": 1,
+        "editorNote": "REELT kommissioneret hos google/gemini-3.1-pro-preview paa .env.horisonten. Den ramte briefens vigtigste pointe uden at dramatisere: at det ikke er et problem, man loeser med en refleksvest, men med ruteplanlaegning og tidspunkt paa dagen. Og den holdt forbuddet mod trafiktal og ulykkesstatistik. Ingen rettelser."
+      }
+    },
+    {
+      "slug": "loeb",
+      "order": 5,
+      "section": "Løb",
+      "brief": {
+        "angle": "Løb i en by med bakker og i luft, der er tyndere end derhjemme. Skriv en kort, brugbar artikel om, hvad der ændrer sig, når man tager sine løbesko med til Georgien. Tre mekanismer skal forklares konkret. FOR DET FØRSTE højden: jo højere man kommer, jo mindre ilt får man pr. åndedrag, og kroppen kompenserer med højere puls ved samme tempo. Det betyder, at et velkendt tempo føles hårdere, og at den fornuftige reaktion er at løbe efter anstrengelse i stedet for efter uret de første dage. FOR DET ANDET terrænet: en by, der ligger i en dal med kvarterer op ad siderne, har ingen flade ruter, og det gør en rundtur til intervaltræning, uanset hvad man havde planlagt. FOR DET TREDJE overfladen og trafikken: fortove, der holder op, brostens- og grusstræk, og gader hvor bilerne har vænnet sig til at have retten. Det er ikke en advarsel mod at løbe; det er en grund til at vælge tidspunkt og rute med omtanke, og til at kigge efter en park, en flodpromenade eller en botanisk have, som mange byer i regionen har. Slut med det ærlige råd: den første løbetur i et nyt land er en rekognoscering, ikke en træning. STRENGT: ingen højdeangivelser i meter for byer eller ruter, ingen pulstal, ingen temperaturer, ingen navne på konkrete løb, stævner eller datoer, ingen rutelængder. Redaktionen har ingen kilder til dem.",
+        "words": [
+          450,
+          650
+        ],
+        "mustCite": 0,
+        "format": "aktivitet"
+      },
+      "writer": {
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "openai/gpt-5.6-terra"
+      },
+      "receipt": {
+        "words": 519,
+        "costUSD": 0.016186,
+        "draft": "kladder/05-loeb.md",
+        "costRouting": "byok",
+        "generationId": "gen-1786979122-Os9GhOmdPhq1ejvfr2Jp"
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-08-17",
+        "citations": 0,
+        "editorNote": "REELT kommissioneret hos anthropic/claude-sonnet-5 paa .env.horisonten. Kort, praecis og helt uden tal — ingen hoejdeangivelser, pulstal eller rutelaengder, som briefen kraevede. Den fandt selv den rigtige afslutning: at den foerste loebetur i et nyt land er en rekognoscering, ikke en traening."
+      }
+    },
+    {
+      "slug": "byliv",
+      "order": 6,
+      "section": "Byliv",
+      "brief": {
+        "angle": "Tbilisi: byen, der ikke kan beslutte sig for hvilket århundrede den er i. Skriv om, hvordan man læser en by, hvor lagene ligger side om side i stedet for oven på hinanden — svovlbade og trækaltaner i den gamle bydel, sovjetisk beton i modernistiske former, glas og stål fra de seneste årtier, alt inden for gåafstand. Pointen, artiklen skal bære: det er ikke rod, det er historie, der ikke er blevet ryddet op, og det er præcis derfor byen er værd at gå i. Forklar den geografiske grundform, som styrer alting: byen ligger i en dal om en flod, med kvarterer der klatrer op ad siderne, og det betyder, at afstande på et kort lyver — to gader kan ligge tæt og alligevel være adskilt af en skråning. Anbefal derfor gåture organiseret efter højde snarere end efter kvarter. Brug Mtskheta som naturligt udflugtsmål og nævn, at de historiske monumenter dér blev indskrevet på UNESCO's verdensarvsliste i 1994. Slut på det, HORISONTEN kan tilføje, som en guidebog ikke gør: at en by med denne struktur belønner at man går den samme rute to gange — én gang om morgenen og én gang om aftenen — frem for at nå to kvarterer. Kulturen og hverdagslivet behandles i søstertitlen; henvis dertil frem for at gentage. STRENGT: ingen åbningstider, priser, adresser, restaurantnavne, hotelnavne, metropriser, indbyggertal eller højdeangivelser. Ingen påstande om kvarterers sikkerhed.",
+        "words": [
+          500,
+          700
+        ],
+        "mustCite": 1,
+        "format": "byliv"
+      },
+      "writer": {
+        "byline": "GPT-5.6 Terra (OpenAI)",
+        "model": "openai/gpt-5.6-terra",
+        "fallback": "anthropic/claude-sonnet-5"
+      },
+      "receipt": {
+        "words": 558,
+        "costUSD": 0.0190015,
+        "draft": "kladder/06-byliv.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1786979150-1EoPtA4aMn3oiaq6hJHB"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-17",
+        "citations": 0,
+        "editorNote": "REELT kommissioneret hos openai/gpt-5.6-terra paa .env.horisonten. Den greb briefens bedste idé — at anbefale gaaruter organiseret efter hoejde frem for efter kvarter, fordi afstande paa et kort lyver i en by bygget op ad dalsider. GAETTET KILDE FANGET: en fodnote til Encyclopaedia Britannicas Tbilisi-opslag, som hverken var briefet eller kontrolleret. Fjernet; artiklen indeholder ingen paastande, der kraever den. Krydslink til KULTURBOXEN tilfoejet."
+      }
+    },
+    {
+      "slug": "udsigter",
+      "order": 7,
+      "section": "Udsigter",
+      "brief": {
+        "angle": "Det, der erstatter strandhåndklædet. HORISONTEN har tidligere skrevet om en ø med strande; Georgien har en kyst, men det er ikke derfor man rejser dertil. Skriv en artikel om udsigten som rejsemål i sig selv — og om hvorfor det er en mere skrøbelig plan end en strand. Fire ting: For det første at en udsigt kræver vejr. En strand kan bruges i overskyet vejr; et bjergpanorama kan ikke, og en tur planlagt om en udsigt bør derfor have en anden dag i reserve. For det andet at højde koster tid: den sidste halve time op er ofte den, der afgør, om man ser noget, og den er også den, hvor luften er tyndest. For det tredje at lyset bestemmer alt. Samme sted er to forskellige steder morgen og eftermiddag, og for de fleste udsigter mod nord i Kaukasus er det tidlige lys det klareste, før dagens varme løfter fugt og støv op i luften. For det fjerde at et kloster på en klippe er både et syn og et sted, hvor mennesker bor og arbejder — og at det har konsekvenser for, hvordan man opfører sig, og hvad der er adgang til. Brug Colchic Rainforests and Wetlands i vest som kontrast: Georgiens eneste naturlige verdensarv, indskrevet i 2021, og et helt andet landskab end bjergene — fugtigt, tempereret regnskovsagtigt, ved Sortehavet. Det gør landet til to naturrejser i én. STRENGT: ingen højdeangivelser, afstande, gåtider, adgangsgebyrer, åbningstider eller vejrtal.",
+        "words": [
+          450,
+          700
+        ],
+        "mustCite": 1,
+        "format": "udsigter"
+      },
+      "writer": {
+        "byline": "Claude Opus 4.8 (Anthropic)",
+        "model": "anthropic/claude-opus-4.8",
+        "fallback": "anthropic/claude-sonnet-5"
+      },
+      "receipt": {
+        "words": 575,
+        "costUSD": 0.046135,
+        "draft": "kladder/07-udsigter.md",
+        "costRouting": "byok",
+        "generationId": "gen-1786979172-B2R16bZLEhCMdbUvU3NE"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-17",
+        "citations": 0,
+        "editorNote": "REELT kommissioneret hos anthropic/claude-opus-4.8 paa .env.horisonten. Den fandt kontrasten, briefen haabede paa: at Colchic-regnskoven i vest goer landet til to naturrejser i én. Og den skrev afsnittet om, at et kloster paa en klippe ogsaa er et sted, hvor mennesker bor og arbejder, med den rigtige tilbageholdenhed. GAETTET KILDE FANGET: en fodnote til den georgiske ortodokse kirkes officielle side (patriarchate.ge), som ikke var briefet, og hvis indhold redaktionen ikke har kunnet laese. Fjernet."
+      }
+    },
+    {
+      "slug": "kalenderen",
+      "order": 8,
+      "section": "Kalenderen",
+      "brief": {
+        "angle": "Kalenderen: Georgien i sæsoner — men uden datoer, og med en forklaring på hvorfor. Landet har tre klimazoner tæt på hinanden: en høj bjergkæde i nord, en fugtig subtropisk kyst i vest og et tørrere kontinentalt indland i øst. Det betyder, at der ikke findes én sæson for landet, men mindst tre, og at de tre ikke topper samtidig. Byg artiklen op om det: forklar for hver af de tre landskabstyper, hvad der ændrer sig hen over året — hvornår passene i bjergene er farbare og hvorfor det varierer fra år til år; hvornår kysten er varm og fugtig; og hvornår vinlandskabet i øst arbejder, fordi høsten er en sæson med sit eget tempo og sine egne muligheder for en besøgende. Forklar dernæst, hvorfor en rejsekalender for et bjergland er en anden slags dokument end for en middelhavsø: sneen bestemmer, ikke datoen, og en pas-åbning er en observation snarere end en aftale. Giv læseren tre spørgsmål at stille i stedet for at slå en måned op: er de veje og pas, min rute kræver, åbne i år på det tidspunkt; er de steder, jeg vil se, tilgængelige uden for højsæsonen; og har jeg en plan B, hvis vejret lukker det ene af tre landskaber. STRENGT KILDEKRAV: skriv INGEN måneder, datoer, temperaturer, nedbørstal, festivalnavne, helligdage eller åbningsperioder. Redaktionen har ingen kilder til dem, og en forkert sæsonangivelse er den fejl, der ødelægger en rejse. Artiklen skal handle om, hvordan man læser en sæson — ikke være en sæsonoversigt. Skriv det udtrykkeligt til læseren, så beslutningen er synlig og ikke ser ud som en mangel.",
+        "words": [
+          450,
+          700
+        ],
+        "mustCite": 0,
+        "format": "kalenderen"
+      },
+      "writer": {
+        "byline": "Claude Opus 4.8 (Anthropic)",
+        "model": "anthropic/claude-opus-4.8",
+        "fallback": "anthropic/claude-sonnet-5"
+      },
+      "receipt": {
+        "words": 612,
+        "costUSD": 0.04651,
+        "draft": "kladder/08-kalenderen.md",
+        "costRouting": "byok",
+        "generationId": "gen-1786979220-DLMzIxpDlpctFSNHP4CF"
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-08-17",
+        "citations": 0,
+        "editorNote": "REELT kommissioneret hos anthropic/claude-opus-4.8 paa .env.horisonten. Nummerets bedste kladde og den, der bedst viser, hvad et forbud i en brief kan udrette: den skulle skrive en sæsonartikel UDEN at naevne en eneste maaned, og den gjorde det — og forklarede undervejs hvorfor, saa beslutningen fremstaar som en redaktionel pointe og ikke som en mangel. «Sneen bestemmer, ikke datoen» er dens egen formulering. Ingen rettelser."
+      }
+    },
+    {
+      "slug": "mad-og-vin",
+      "order": 9,
+      "section": "Mad & Vin",
+      "brief": {
+        "angle": "Mad og vin: khinkali, khachapuri og qvevri. Skriv en artikel, der forklarer tre ting, en rejsende faktisk møder, og hvad man skal vide for at møde dem rigtigt. KHINKALI er dumplings med saft indeni, og pointen er teknikken: man holder dem i den samlede top, bider et lille hul, drikker saften og spiser resten — og lader toppen ligge. Det er ikke finesse, det er den eneste måde at undgå at spilde, og en besøgende, der ved det, bliver mødt anderledes. KHACHAPURI er brød med ost, men det er en familie af retter og ikke én ret, og udgaverne varierer fra region til region — den mest omtalte er en bådformet variant med æg, der hører til ved kysten. Skriv variationen som variation, og undlad at hævde en bestemt regional oprindelse ud over kystvarianten, som er alment kendt. QVEVRI er den store lerkrukke, der graves ned i jorden, og hvori vinen gærer og lagres med skaller og stilke. Forklar hvorfor metoden giver anden vin end et ståltank-hus: længere kontakt med skallerne giver hvidvin farve og tannin, og det er derfor georgisk «amber»- eller ravvin ikke bare er en hvidvin med en anden etikette. VIGTIGT KILDEFORBEHOLD: qvevri-metoden er efter alt at dømme optaget på UNESCO's liste over immateriel kulturarv, men den liste kunne ikke læses ved kontrollen — siden er beskyttet mod automatiseret adgang. Skriv derfor IKKE et årstal eller en listestatus for qvevri. Beskriv metoden, ikke anerkendelsen. Brug i stedet Kakheti i øst som geografisk holdepunkt for vinlandskabet. STRENGT: ingen priser, restaurantnavne, producentnavne, alkoholprocenter, årgange eller antal druesorter. Bordkulturen og supraen hører til i søstertitlen — henvis dertil frem for at gentage.",
+        "words": [
+          500,
+          750
+        ],
+        "mustCite": 0,
+        "format": "mad-og-vin"
+      },
+      "writer": {
+        "byline": "Gemini 3.1 Pro Preview (Google)",
+        "model": "google/gemini-3.1-pro-preview",
+        "fallback": "anthropic/claude-sonnet-5"
+      },
+      "receipt": {
+        "words": 675,
+        "costUSD": 0.05237,
+        "draft": "kladder/09-mad-og-vin.md",
+        "costRouting": "byok",
+        "generationId": "gen-1786979260-vc6QUDWsHo8fAVmBSchj"
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-08-17",
+        "citations": 0,
+        "editorNote": "REELT kommissioneret hos google/gemini-3.1-pro-preview paa .env.horisonten. Den respekterede det vanskeligste kildeforbehold i nummeret: qvevri-metoden staar efter alt at doemme paa UNESCO's liste over immateriel kulturarv, men listen er beskyttet mod automatiseret adgang og kunne ikke laeses — og kladden naevner derfor hverken aarstal eller listestatus. Den forklarede til gengaeld selve mekanismen godt: at laengere kontakt med skallerne giver hvidvin farve og tannin, og at ravvin derfor ikke er en hvidvin med en anden etikette. Krydslink til KULTURBOXEN tilfoejet."
+      }
+    },
+    {
+      "slug": "praktisk",
+      "order": 10,
+      "section": "Praktisk",
+      "brief": {
+        "angle": "Praktisk: sådan planlægger du turen — skrevet som en tjekliste over det, du selv skal slå op, og hvor. Det er en bevidst redaktionel beslutning, og den skal stå tydeligt i artiklen: rejsepraktik er den type oplysning, der ældes hurtigst, og et magasin, der trykker en visumregel eller en pris, som ændrer sig tre uger senere, gør læseren en bjørnetjeneste. Gennemgå derfor kategorierne med det rigtige spørgsmål og den rigtige type kilde til hver, uden at svare på dem: INDREJSE — hvad kræves af pas og eventuel tilladelse for en dansk statsborger, og hvor længe må man blive; slå det op hos den danske udenrigstjeneste og hos landets egne myndigheder, og gør det tæt på afrejsen. FORSIKRING OG SUNDHED — hvad dækker det blå EU-sygesikringskort, og hvad gør det ikke uden for EU; det er et spørgsmål til eget forsikringsselskab. PENGE — hvordan betaler man, hvor bredt tages kort, og hvad koster det at hæve; søstertitlen har skrevet om georgisk pengekultur, og der kan henvises dertil. TRANSPORT — hvordan kommer man mellem landsdele, hvad er forskellen på delte minibusser og tog, og hvad kræver en lejebil af kørekort og forsikring i et bjergland. HØJDE OG HELBRED — hvornår er en rute høj nok til at det bør indgå i planlægningen, og hvad siger egen læge. SPROG OG SKRIFT — det georgiske alfabet er sit eget, og det er værd at kunne genkende enkelte skilte. Slut med den eneste generelle regel, der holder: bekræft alt tidsfølsomt to gange — én gang når du planlægger, og én gang ugen før du rejser. STRENGT: skriv ingen konkrete regler, priser, gebyrer, kurser, transporttider eller myndighedsnavne ud over den danske udenrigstjeneste i generelle vendinger. Ingen links til konkrete sider, som redaktionen ikke har kontrolleret.",
+        "words": [
+          500,
+          750
+        ],
+        "mustCite": 0,
+        "format": "praktisk"
+      },
+      "writer": {
+        "byline": "GPT-5.6 Terra (OpenAI)",
+        "model": "openai/gpt-5.6-terra",
+        "fallback": "anthropic/claude-sonnet-5"
+      },
+      "receipt": {
+        "words": 737,
+        "costUSD": 0.020402,
+        "draft": "kladder/10-praktisk.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1786979290-Ne0q0LNAoJeUTXUmYbdE"
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-08-17",
+        "citations": 0,
+        "editorNote": "REELT kommissioneret hos openai/gpt-5.6-terra paa .env.horisonten. Den gjorde det, briefen bad om, og forklarede hvorfor: rejsepraktik aeldes hurtigere end et magasin udkommer, saa artiklen lister hvad laeseren selv skal slaa op og hvor, i stedet for at trykke svar der er forkerte om tre uger. Ingen konkrete regler, priser, gebyrer eller transporttider — og ingen links til sider, redaktionen ikke har kontrolleret."
+      }
+    }
+  ]
+}

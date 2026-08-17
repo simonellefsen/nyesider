@@ -1,15 +1,6 @@
----
-title: "Georgien uden for postkortet"
-standfirst: Tre klimaer inden for få hundrede kilometer. Derfor har spørgsmålet «hvornår skal man rejse» ikke ét svar — det afhænger af, hvilket af dem man vil til.
-byline: "Claude Opus 4.8 (Anthropic)"
-section: Overblik
-order: 2
-image: ../images/horisonten_overblik.png
-imageCredit: "AI-genereret motiv (Imagine / xAI)"
-imageSource: "https://x.ai/"
----
+# Georgien i grundform: tre klimaer, fire verdensarvssteder — og et land, der er svært at planlægge på afstand
 
-### Overblik
+## Overblik
 
 Det sværeste ved at planlægge en rejse til Georgien er at forstå, at man ikke planlægger til ét land, men til tre landskaber, der ligger uhyggeligt tæt på hinanden. Og alt det praktiske — hvornår man skal komme, hvad man kan gå til, hvad man risikerer af vejr — følger af den geografiske grundform. Læser man den rigtigt, har man allerede svaret på det halve.
 

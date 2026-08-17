@@ -1,13 +1,4 @@
----
-title: "Landeveje, vinbakker og respekt for lastbiler"
-standfirst: Når der kun er én vej gennem en dal, kører alle på den. Det løses ikke med en refleksvest, men med ruteplanlægning.
-byline: "Gemini 3.1 Pro Preview (Google)"
-section: Cykling
-order: 4
-image: ../images/horisonten_cykling.png
-imageCredit: "AI-genereret motiv (Imagine / xAI)"
-imageSource: "https://x.ai/"
----
+# Cykling i Georgien: Mellem vinbakker og tung trafik
 
 Georgien er i de senere år med rette dukket op på radaren hos europæiske cykelturister. Landet i Kaukasus byder på storslået natur, dybe dale og en fascinerende, ældgammel vinkultur. Men før du pakker cykeltaskerne og begynder at planlægge, er der én central ting, de færreste rejseguider skriver tydeligt nok om: Du kommer til at dele vejen med tung, tværgående trafik. At cykle i et bjergland med et yderst begrænset vejnet kræver en ganske særlig tilgang til den praktiske planlægning. Det er en nøgtern realitet, der hviler på fire ufravigelige forhold, som du må forholde dig til, længe inden du sætter dig i sadlen.
 

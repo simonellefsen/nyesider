@@ -1,20 +1,10 @@
----
-title: "Sådan planlægger du turen"
-standfirst: En tjekliste over det, du selv skal slå op — og hvorfor et magasin ikke bør trykke svarene.
-byline: "GPT-5.6 Terra (OpenAI)"
-section: Praktisk
-order: 10
-flow: true
-image: ../images/horisonten_praktisk.png
-imageCredit: "AI-genereret motiv (Imagine / xAI)"
-imageSource: "https://x.ai/"
----
+# Før du rejser til Georgien: den praktiske tjekliste
 
 Rejsepraktik er noget af det, der ældes hurtigst. En indrejseregel kan blive justeret, en transportforbindelse kan ændre sig, og en pris kan være en anden, end da magasinet gik i trykken. Derfor giver vi dig ikke en liste med regler, gebyrer og tider, der risikerer at være forældede, før du pakker rygsækken.
 
 Brug i stedet denne tjekliste som planlægningsværktøj. Den fortæller, hvad du skal undersøge, hvilket spørgsmål du skal stille, og hvor du bør lede efter svaret.
 
-### Indrejse: begynd med passet
+## Indrejse: begynd med passet
 
 Spørg først: Hvad kræves af pas og eventuel tilladelse for en dansk statsborger? Og hvor længe må opholdet vare?
 
@@ -22,7 +12,7 @@ Slå det op hos den danske udenrigstjeneste og hos Georgiens egne myndigheder. G
 
 Rejser du med børn, særligt hvis ikke alle forældre eller værger er med, er det værd at undersøge dokumentkrav særskilt.
 
-### Forsikring og sundhed: kortet er ikke hele svaret
+## Forsikring og sundhed: kortet er ikke hele svaret
 
 Det blå EU-sygesikringskort hører til i planlægningen, men Georgien ligger uden for Den Europæiske Union (EU). Kortet er derfor ikke et svar i sig selv på, hvordan du er dækket under rejsen.
 
@@ -30,15 +20,15 @@ Ring eller skriv til dit eget forsikringsselskab med turens konkrete karakter: S
 
 Har du en kronisk sygdom, fast medicin eller planer om fysisk krævende dage, bør egen læge være en del af forberedelsen.
 
-### Penge: undersøg hverdagsbetalingen
+## Penge: undersøg hverdagsbetalingen
 
 Spørg ikke bare, hvilken valuta landet bruger. Spørg i stedet: Hvordan betaler man i praksis dér, hvor jeg skal hen? Hvor bredt tages kort? Hvad er min banks vilkår for hævninger og betalinger i udlandet? Og hvor afhængig bliver jeg af kontanter uden for de største byer?
 
 Det er også fornuftigt at have mere end ét betalingsmiddel med og at kende bankens procedure, hvis et kort bliver spærret eller forsvinder.
 
-Vil du forstå de sociale vaner og hverdagen omkring georgiske penge, kan du læse [søstertitlen KULTURBOXEN](/kulturboxen/2026-08-nr1/) KULTURBOXEN. Her handler opgaven først og fremmest om at sikre, at din egen betaling fungerer på ruten.
+Vil du forstå de sociale vaner og hverdagen omkring georgiske penge, kan du læse søstertitlen KULTURBOXEN. Her handler opgaven først og fremmest om at sikre, at din egen betaling fungerer på ruten.
 
-### Transport: planlæg strækninger, ikke bare ankomst
+## Transport: planlæg strækninger, ikke bare ankomst
 
 Georgien kan se overskueligt ud på et kort, men veje, vejr og terræn har betydning for, hvordan en rejsedag faktisk føles. Undersøg forbindelserne mellem de landsdele, du vil besøge, og find ud af forskellen på tog, delte minibusser og privat transport.
 
@@ -46,7 +36,7 @@ De vigtige spørgsmål er: Hvor går forbindelserne fra? Hvor ofte kører de typ
 
 Overvejer du lejebil, så undersøg kørekort, forsikringsvilkår, vejforhold og ansvaret ved kørsel i bjergland. En bil giver frihed, men den erstatter ikke en realistisk plan for vejr, parkering, brændstof og veje, der kan være mere krævende end forventet.
 
-### Højde og helbred: se på ruten, ikke kun destinationen
+## Højde og helbred: se på ruten, ikke kun destinationen
 
 Tbilisi og en bjerglandsby er ikke samme rejse, selv om de står i samme landeguide. Se på højderne på hver vandre-, cykel- eller løberute, inklusive overnatningssteder og eventuelle pas undervejs.
 
@@ -54,7 +44,7 @@ Spørg: Hvornår bliver højden så markant, at den bør indgå i min planlægni
 
 Det er især relevant, hvis turen kombinerer aktiv transport med korte ophold i højere terræn.
 
-### Sprog og skrift: lær nok til at orientere dig
+## Sprog og skrift: lær nok til at orientere dig
 
 Det georgiske alfabet er sit eget. Du behøver ikke kunne læse det flydende for at rejse godt, men det hjælper at kunne genkende enkelte ord på skilte, menuer og transportsteder.
 
