@@ -2,75 +2,77 @@
   "magazine": "kulturboxen",
   "issue": "2026-08-nr2",
   "issueTheme": "Tre sprog, ét plateau",
-  "retrofitNote": "Bestilling skrevet ved publicering (editor-led produktion). receipt.words talt fra publiceret tekst.",
+  "integrityNote": "Skrevet fra bunden 2026-08-17. Den afpublicerede udgave (2026-08-08) bar byline til navngivne modeller uden kvittering, kladde eller forbrug. Hele nummeret produceres forfra på titlens egen nøgle (.env.kulturboxen). Byline sættes kun, hvor receipt.costUSD og receipt.draft er udfyldt; lederen er chefredaktionens og har ingen byline.",
   "budget": {
     "articles": 12,
     "wordsPerArticle": [
-      50,
-      400
+      400,
+      650
     ],
-    "targetPages": 12,
-    "note": "Sydtyrol søster til HORISONTEN Dolomit; 13 artikler. Ordbogen dropped 2026-08-08 — inline glosses only."
+    "targetPages": 14,
+    "note": "Den afpublicerede udgave var 12 artikler på 1.877 ord — gennemsnit 156, det tyndeste nummer i porteføljen efter HORISONTEN nr. 2. Budgettet er sat til 400-650. Ingen Ordbog (fjernet 2026-08-08)."
   },
+  "researchNote": "ADVARSEL: dette felt når ALDRIG frem til modellen — kun brief.angle gør.\n\nDET STORE PROBLEM MED DETTE NUMMER: redaktionen har IKKE kunnet skaffe én eneste kildebelagt talstørrelse om Sydtyrol. ASTAT, provinsens eget statistikinstitut (astat.provinz.bz.it), leverer en tom side uden indhold uanset hvilken underside der kaldes — samme 2.536 bytes hver gang. provinz.bz.it svarer 403. Council of Europes minoritetsside er bag Cloudflare. Derfor: INGEN sproggruppeprocenter, INGEN befolkningstal, INGEN BNP- eller turismetal, INGEN indkomsttal, INGEN årstal for folketællinger. Enhver brief skal forbyde dem eksplicit.\n\nDEN ENE VERIFICEREDE KILDE: Eurac Research, Institute for Minority Rights, i Bolzano (eurac.edu/en/institutes-centers/institute-for-minority-rights, kontrolleret 2026-08-17). Instituttet beskriver selv sit udgangspunkt sådan: «Our interdisciplinary and international team recognizes the diversity of South Tyrolean society – its autonomy and system of minority rights - as foundation for research and point of reference to advise on minorities worldwide.» Det kan bruges som belæg for, at Sydtyrols mindretalsordning er genstand for selvstændig forskning og bruges som international reference — ikke som belæg for noget konkret tal eller nogen konkret regel.\n\nMETODEN, DER HAR VIRKET TRE GANGE I DAG (INDENI nr. 2, HORISONTEN nr. 2, PULSEN nr. 2): en brief, der TIER om tal, inviterer til gæt; en brief, der FORBYDER dem, får mekanismen forklaret i stedet. Otte, ni og syv kladder kom hjem uden ét opfundet tal. Gør det igen.\n\nKRYDSLINK-FÆLDE: den afpublicerede udgave linkede fem steder til HORISONTEN nr. 3 (Dolomitterne), som stadig er status draft. Krydslink til en upubliceret udgivelse braekker prerenderingen. Behold ordene, drop linket — eller henvis til HORISONTEN nr. 2 (Georgien, udgivet) eller KULTURBOXEN nr. 1 (Georgien, udgivet), som begge er levende.\n\nSØSTERTITEL-AFGRÆNSNING: HORISONTEN svarer «hvordan kommer jeg derhen»; KULTURBOXEN svarer «hvordan lever folk dér». Ruter, sæsoner, transport og praktik hører ikke til her.",
   "opgaver": [
     {
       "slug": "leder",
       "order": 1,
       "section": "Leder",
       "brief": {
-        "angle": "Sydtyrol bag Dolomit-postkortet.",
+        "angle": "Chefredaktionens leder. Skrives af redaktionen selv — ingen model, ingen byline.",
         "words": [
-          80,
-          200
+          300,
+          500
         ],
         "mustCite": 0,
         "format": "leder"
       },
       "writer": {
         "byline": null,
-        "model": "editor-led",
-        "fallback": null
+        "model": "editor-led"
       },
       "receipt": {
-        "words": 97,
+        "words": null,
         "costUSD": null,
         "draft": null
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
+        "status": "editor-written",
+        "checkedAt": "2026-08-17",
         "citations": 0,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "editorNote": "Chefredaktionens egen tekst — ingen model, ingen byline, intet forbrug. Lederen redegoer for afpubliceringen 2026-08-08 og for, hvorfor nummeret ikke indeholder ét tal: provinsens statistikinstitut leverede en tom side uanset underside, provinsens hovedside svarede 403, og Europaraadets mindretalsside laa bag en robotspaerring."
       }
     },
     {
       "slug": "kulturen-i-fokus",
       "order": 2,
-      "section": "Kulturen i fokus (destination / folk)",
+      "section": "Kulturen i fokus",
       "brief": {
-        "angle": "Autonomi, tre sprog.",
+        "angle": "Sydtyrol i korte træk: en grænse, der ikke er en grænse. Introducér for en dansk læser, hvad stedet er: en provins i Norditalien, hvor størstedelen taler tysk, et mindretal italiensk, og et lille mindretal ladinsk — et romansk sprog, der har overlevet i nogle få alpedale. Området hørte til Østrig-Ungarn indtil efter Første Verdenskrig og blev derefter italiensk. Forklar, hvorfor det gør stedet særligt interessant for et magasin om, hvordan mennesker lever: her er hverdagen indrettet efter, at flere sprogsamfund skal dele det samme sted uden at det bliver til enten assimilation eller adskillelse. Det er ikke et konfliktområde i nutidig forstand — det er et sted, hvor en gammel konflikt er blevet til administration. Skriv om, hvad det betyder helt konkret i mødet med stedet: at næsten alt officielt findes på to sprog og i nogle dale på tre; at et stednavn ofte har to former, som begge er rigtige; og at hvilken form man bruger, sjældent er tilfældigt. Slut med det, dette nummer vil undersøge: ikke landskabet, men indretningen. STRENGT: skriv INGEN befolkningstal, INGEN sproggruppeprocenter, INGEN årstal for folketællinger, INGEN økonomiske tal. Redaktionen har ikke kunnet skaffe dem fra en kilde, der kunne læses, og et gættet mindretalstal er en politisk påstand og ikke en afrunding. Historiske hovedtræk (Østrig-Ungarn før Første Verdenskrig, italiensk derefter) må skrives som de brede træk de er, uden datoer for traktater.",
         "words": [
-          80,
-          350
+          450,
+          650
         ],
         "mustCite": 0,
-        "format": "feature"
+        "format": "fokus"
       },
       "writer": {
-        "byline": null,
-        "model": "editor-led",
-        "fallback": "deepseek/deepseek-v3.2"
+        "byline": "Claude Opus 4.8 (Anthropic)",
+        "model": "anthropic/claude-opus-4.8",
+        "fallback": "anthropic/claude-sonnet-5"
       },
       "receipt": {
-        "words": 141,
-        "costUSD": null,
-        "draft": null
+        "words": 563,
+        "costUSD": 0.04265,
+        "draft": "kladder/02-kulturen-i-fokus.md",
+        "costRouting": "byok",
+        "generationId": "gen-1786981637-4u08tDBHVlCBK2CwgDDD"
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
+        "status": "accepted",
+        "checkedAt": "2026-08-17",
         "citations": 0,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "editorNote": "REELT kommissioneret paa .env.kulturboxen; kladde i kladder/. Den fandt nummerets ramme selv: at stedet ikke er et konfliktomraade, men et sted hvor en gammel konflikt er blevet til administration. Ingen befolkningstal, sproggruppeprocenter eller aarstal — praecis som briefen kraevede."
       }
     },
     {
@@ -78,29 +80,31 @@
       "order": 3,
       "section": "Sprog & symboler",
       "brief": {
-        "angle": "Tosprogede skilte er en aftale.",
+        "angle": "Når vejnavne er politik. Dette er nummerets bedste indgang til, hvordan et sprogdelt samfund fungerer i praksis, og det handler om skilte. Forklar mekanismen: i et område, hvor to eller tre sprog er officielle, står stednavne med flere former, og hvilke former der står, i hvilken rækkefølge og med hvilken skriftstørrelse, er noget nogen har besluttet. For en tilrejsende ser det ud som en serviceoplysning. For dem, der bor der, er det en aftale om, hvem der er hjemme. Gør det konkret uden at påstå gældende regler: forklar, at nogle navne findes i en tysk og en italiensk form, som ikke er oversættelser af hinanden, men to selvstændige navne med hver sin historie — og at der findes navne, hvor den ene form er ældre end den anden, uden at det gør den anden falsk. Forklar dernæst, hvorfor et sprogsamfund kan opleve et skilt som en måling: sproglig synlighed er den mest aflæselige af alle indikatorer, fordi den står langs vejen og kan tælles af enhver. Skriv til sidst, hvad det betyder for en besøgende: at man ikke gør noget forkert ved at bruge den ene eller den anden form, men at man siger noget, uanset hvad man vælger — og at det mest høflige som regel er at bruge den form, samtalepartneren selv brugte. STRENGT: ingen konkrete lovhenvisninger, paragraffer, årstal, procenter for skiltefordeling eller navne på konkrete politiske sager. Ingen påstande om, hvad reglerne aktuelt kræver. Skriv mekanismen og høfligheden, ikke jura.",
         "words": [
-          80,
-          350
+          450,
+          650
         ],
         "mustCite": 0,
         "format": "feature"
       },
       "writer": {
-        "byline": null,
-        "model": "editor-led",
-        "fallback": "deepseek/deepseek-v3.2"
+        "byline": "Claude Opus 4.8 (Anthropic)",
+        "model": "anthropic/claude-opus-4.8",
+        "fallback": "anthropic/claude-sonnet-5"
       },
       "receipt": {
-        "words": 133,
-        "costUSD": null,
-        "draft": null
+        "words": 571,
+        "costUSD": 0.041985,
+        "draft": "kladder/03-sprog-og-skilt.md",
+        "costRouting": "byok",
+        "generationId": "gen-1786981674-MRwFJE32XJKicqySABJO"
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
+        "status": "accepted",
+        "checkedAt": "2026-08-17",
         "citations": 0,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "editorNote": "REELT kommissioneret paa .env.kulturboxen; kladde i kladder/. Nummerets bedste kladde. Den formulerede forskellen skarpere end briefen: at et skilt for en tilrejsende ligner en serviceoplysning og for de fastboende er en aftale om, hvem der er hjemme. Og den fandt selv begrundelsen for, hvorfor sproglig synlighed bliver en maaling — den staar langs vejen og kan taelles af enhver. Ingen paragraffer, aarstal eller procenter."
       }
     },
     {
@@ -108,29 +112,31 @@
       "order": 4,
       "section": "Spise & drikke",
       "brief": {
-        "angle": "Alpint og italiensk på samme tallerken.",
+        "angle": "Bordet som grænseovergang. Sydtyrolsk mad er det klareste eksempel på, at kulturer ikke lægger sig oven på hinanden i lag, men blander sig ujævnt. Skriv om, hvordan et måltid samme sted kan være alpint til frokost og italiensk til aften. Konkret: speck — den røgede, lufttørrede skinke — hører til den germanske madtradition med røg og salt, fordi den skulle holde en vinter i et højland. Knödel, boller af gammelt brød, er samme logik: mad opfundet af mangel og gjort til noget, man er stolt af. Over for det står espresso, pasta og en cafékultur, der kom nordpå med Italien, og som i dag er lige så selvfølgelig. Pointen, artiklen skal bære: det er ikke fusion, og det er ikke to køkkener, der ligger side om side i konkurrence. Det er ét sted, hvor to madkulturer har fordelt tidspunkterne og lejlighederne mellem sig, og hvor de fleste beboere skifter mellem dem uden at tænke over det. Sammenlign kort med en dansk læsers egen hverdag — hvor rugbrød og pizza også deler ugen uden at nogen oplever det som en kulturkamp — for det er præcis den slags sammenligning, KULTURBOXEN er til for. Nævn vin og æbler som landbrugets to store afgrøder i dalene, uden mængder eller andele. STRENGT: ingen produktionstal, ingen priser, ingen restaurantnavne, ingen producentnavne, ingen påstande om beskyttede oprindelsesbetegnelser eller om, hvornår en ret opstod. Ingen årstal.",
         "words": [
-          80,
-          350
+          420,
+          620
         ],
         "mustCite": 0,
         "format": "feature"
       },
       "writer": {
-        "byline": null,
-        "model": "editor-led",
-        "fallback": "deepseek/deepseek-v3.2"
+        "byline": "Gemini 3.1 Pro Preview (Google)",
+        "model": "google/gemini-3.1-pro-preview",
+        "fallback": "anthropic/claude-sonnet-5"
       },
       "receipt": {
-        "words": 146,
-        "costUSD": null,
-        "draft": null
+        "words": 555,
+        "costUSD": 0.053898,
+        "draft": "kladder/04-mad-og-bord.md",
+        "costRouting": "byok",
+        "generationId": "gen-1786981710-rkTqf1clQQyslaMiMRap"
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
+        "status": "accepted",
+        "checkedAt": "2026-08-17",
         "citations": 0,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "editorNote": "REELT kommissioneret paa .env.kulturboxen; kladde i kladder/. Den holdt briefens vanskelige skelnen: at det hverken er fusion eller to koekkener i konkurrence, men ét sted hvor to madkulturer har fordelt tidspunkterne mellem sig. Sammenligningen med rugbroed og pizza i en dansk uge er dens egen og goer praecis det, KULTURBOXEN er til for. Ingen produktionstal, priser eller oprindelsespaastande."
       }
     },
     {
@@ -138,29 +144,31 @@
       "order": 5,
       "section": "Dagligdag & tempo",
       "brief": {
-        "angle": "Sæson sætter tempoet.",
+        "angle": "Dagligdag: liftkort, landbrug og vinterens ur. Skriv om, hvordan et år ser ud et sted, hvor tre erhverv deler den samme kalender: landbrug i dalen, turisme på bjerget og de almindelige job, der findes alle steder. Forklar sæsonlogikken som en social struktur og ikke som en vejrbeskrivelse: når et samfunds indtægt kommer i to skarpt adskilte perioder — en vinter og en sommer — så bliver mellemsæsonen ikke bare stille, den bliver en institution. Det er da, folk holder ferie, renoverer, gifter sig og lukker. Forklar dernæst dobbeltarbejdet, som er den vigtigste mekanisme: mange familier har både en gård og noget i turismen, og det er ikke to karrierer, men én husholdningsøkonomi, hvor det ene finansierer det andet og omvendt. Det forklarer, hvorfor en gård kan overleve på en jord, der ikke i sig selv kan brødføde nogen. Skriv også om tempoet: at en dal er et lille sted, hvor man møder de samme mennesker i alle roller — naboen er også håndværkeren og også formanden i foreningen — og at det gør konflikter dyrere og høflighed billigere. Det er en pointe, KULTURBOXEN har brugt om andre steder, og som gælder her. STRENGT: ingen tal for beskæftigelse, overnatninger, gårdstørrelser, indkomster eller liftkortpriser. Ingen navne på konkrete skisportssteder eller virksomheder. Ingen årstal.",
         "words": [
-          80,
-          350
+          420,
+          620
         ],
         "mustCite": 0,
         "format": "feature"
       },
       "writer": {
-        "byline": null,
-        "model": "editor-led",
-        "fallback": "deepseek/deepseek-v3.2"
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "openai/gpt-5.6-terra"
       },
       "receipt": {
-        "words": 132,
-        "costUSD": null,
-        "draft": null
+        "words": 523,
+        "costUSD": 0.018852,
+        "draft": "kladder/05-dagligdag.md",
+        "costRouting": "byok",
+        "generationId": "gen-1786981740-rDYJVfNb5NNTBZpQhUvS"
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
+        "status": "accepted",
+        "checkedAt": "2026-08-17",
         "citations": 0,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "editorNote": "REELT kommissioneret paa .env.kulturboxen; kladde i kladder/. Den greb den vigtigste mekanisme uopfordret praecist: at dobbeltarbejdet mellem gaard og turisme ikke er to karrierer, men én husholdningsoekonomi, og at det forklarer, hvordan en gaard kan overleve paa jord, der ikke kan broedfoede nogen. Og at mellemsaesonen ikke er stille, men en institution."
       }
     },
     {
@@ -168,29 +176,31 @@
       "order": 6,
       "section": "Arbejde & hierarki",
       "brief": {
-        "angle": "Hoteller, lifte, sæsonkontrakter.",
+        "angle": "Når gæsten er indtægten. Skriv om, hvad det gør ved et samfund, at en stor del af dets økonomi består i at tage imod fremmede i sit eget hjemland. Tre mekanismer. FOR DET FØRSTE: gæstfrihed som fag. Når værtsrollen er en indtægtskilde og ikke bare en dyd, bliver den også et sæt færdigheder, der læres, måles og sælges — og det ændrer forholdet mellem vært og gæst fra venlighed til service, uden at venligheden nødvendigvis forsvinder. FOR DET ANDET: den familiedrevne virksomhed. Meget af den alpine turisme drives af familier, hvor hjem og arbejdsplads er samme bygning, og hvor generationsskiftet i virksomheden og i familien er samme begivenhed. Det giver en anden slags arbejdsliv end en ansættelse — mindre adskillelse mellem fritid og arbejde, og en stærkere binding til stedet. FOR DET TREDJE: sæsonarbejdskraften udefra, som kommer, arbejder og rejser igen, og som ofte ikke deler sprog med hverken gæsterne eller værterne. Det skaber et lag i samfundet, der er synligt i køkkenerne og usynligt i selvforståelsen — og det er værd at nævne uden at gøre det til en anklage. Slut med den ærlige spænding: et sted, der lever af at være attraktivt, har en interesse i at forblive genkendeligt, og det kan både bevare en kultur og fastfryse den. STRENGT: ingen tal for turismens andel af økonomien, antal overnatninger, beskæftigede eller lønninger. Ingen virksomhedsnavne. Ingen påstande om arbejdsvilkår i konkrete brancher eller om bestemte nationaliteter blandt sæsonarbejdere.",
         "words": [
-          80,
-          350
+          450,
+          650
         ],
         "mustCite": 0,
         "format": "feature"
       },
       "writer": {
-        "byline": null,
-        "model": "editor-led",
-        "fallback": "deepseek/deepseek-v3.2"
+        "byline": "GPT-5.6 Terra (OpenAI)",
+        "model": "openai/gpt-5.6-terra",
+        "fallback": "anthropic/claude-sonnet-5"
       },
       "receipt": {
-        "words": 121,
-        "costUSD": null,
-        "draft": null
+        "words": 611,
+        "costUSD": 0.015478,
+        "draft": "kladder/06-arbejde-turisme.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1786981781-d7MOQ4VB5pVIc9mncq4B"
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
+        "status": "accepted",
+        "checkedAt": "2026-08-17",
         "citations": 0,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "editorNote": "REELT kommissioneret paa .env.kulturboxen; kladde i kladder/. Den turde skrive laget af saesonarbejdskraft frem — synligt i koekkenerne, usynligt i selvforstaaelsen — uden at goere det til en anklage, hvilket briefen udtrykkeligt bad om. Og den landede den aerlige spaending til sidst: at et sted, der lever af at vaere attraktivt, baade kan bevare en kultur og fastfryse den."
       }
     },
     {
@@ -198,29 +208,31 @@
       "order": 7,
       "section": "Parforhold, ægteskab & familie",
       "brief": {
-        "angle": "Hvem bliver i dalen?",
+        "angle": "Gården er ikke kun nostalgi. Skriv om, hvorfor arv i et bjerglandbrug er et af de steder, hvor familiestruktur og økonomi ikke kan skilles ad. Kernen: en bjerggård er ikke en formue, der kan deles. Deler man jorden mellem børnene, holder ingen af delene op med at være en levevej, og derfor har alpine landbrugssamfund historisk haft ordninger, hvor gården går udelt videre til én arving, mens de øvrige søskende kompenseres på anden vis eller må finde et andet liv. Forklar konsekvenserne for menneskene, for det er dét, KULTURBOXEN dækker: at én person tidligt får en fremtid tildelt, og at de andre tidligt får at vide, at deres fremtid ligger et andet sted; at ægteskaber i sådan et system også er økonomiske aftaler mellem husholdninger, ikke kun mellem to personer; og at der er et pres på den, der overtager, som ikke handler om penge, men om ikke at være den, der tabte det, otte generationer holdt fast i. Skriv derefter, hvordan det ser ud nu: at ordningen er blevet blødere, at flere døtre overtager, at mange gårde kun overlever fordi nogen i familien har et lønarbejde ved siden af, og at «at blive på gården» i dag ofte er et aktivt valg snarere end en skæbne. Sammenlign kort med dansk generationsskifte i landbruget, hvor gældsætning har erstattet arveretten som den afgørende mekanisme. STRENGT: ingen henvisninger til konkrete arvelove, paragraffer, årstal eller procenter for hvor mange gårde der overdrages hvordan. Skriv mønstret, ikke lovgivningen.",
         "words": [
-          80,
-          350
+          450,
+          650
         ],
         "mustCite": 0,
         "format": "feature"
       },
       "writer": {
-        "byline": null,
-        "model": "editor-led",
-        "fallback": "google/gemini-3.5-flash"
+        "byline": "Claude Opus 4.8 (Anthropic)",
+        "model": "anthropic/claude-opus-4.8",
+        "fallback": "anthropic/claude-sonnet-5"
       },
       "receipt": {
-        "words": 132,
-        "costUSD": null,
-        "draft": null
+        "words": 582,
+        "costUSD": 0.042715,
+        "draft": "kladder/07-familie.md",
+        "costRouting": "byok",
+        "generationId": "gen-1786981802-xNzjocHNssr4i0D0hEEB"
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
+        "status": "accepted",
+        "checkedAt": "2026-08-17",
         "citations": 0,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "editorNote": "REELT kommissioneret paa .env.kulturboxen; kladde i kladder/. Den forklarede arvemoenstret som et menneskeligt vilkaar frem for som en juridisk ordning: at ét barn tidligt faar en fremtid tildelt, og de oevrige tidligt faar at vide, at deres ligger et andet sted. Og presset paa den, der overtager — ikke om penge, men om ikke at vaere den, der tabte det, otte generationer holdt fast i. Ingen arvelove, paragraffer eller procenter."
       }
     },
     {
@@ -228,29 +240,31 @@
       "order": 8,
       "section": "Penge & forbrug",
       "brief": {
-        "angle": "Blandt Italiens rigere områder.",
+        "angle": "Velstand i højden — og hvorfor den er svær at aflæse. Skriv om pengekultur i et velstående alpint område, hvor rigdommen ikke ser ud, som en dansk læser forventer. Tre iagttagelser. FOR DET FØRSTE: formue bundet i fast ejendom og jord snarere end i forbrug. Et sted, hvor familier har ejet den samme gård eller det samme hus i generationer, kan være meget velhavende uden at det er synligt i biler eller tøj — og hvor det at sælge jord opleves som et tab, selv når det er en gevinst. FOR DET ANDET: boligpriser i et område, hvor turismen konkurrerer med beboerne om de samme kvadratmeter. Det er den mest almindelige konflikt i attraktive områder overalt i Europa, og den rammer altid de unge først. FOR DET TREDJE: en tilbageholdenhed omkring at tale om penge, som ikke er det samme som fattigdom, men en norm om ikke at skille sig ud. Sammenlign med den janteagtige tilbageholdenhed, en dansk læser kender, og vær præcis om forskellen: den danske variant handler om ikke at hæve sig over fællesskabet, den alpine ofte om ikke at afsløre, hvad man har. Slut med det praktiske for en besøgende: at prisniveauet i et turistområde ikke fortæller noget om, hvad de fastboende betaler eller tjener. STRENGT: ingen priser, indkomsttal, boligpriser, BNP-tal, valutakurser eller andele. Ingen påstande om skattesystemet eller om offentlige overførsler. Ingen sammenligning med konkrete danske tal.",
         "words": [
-          80,
-          350
+          420,
+          620
         ],
-        "mustCite": 1,
+        "mustCite": 0,
         "format": "feature"
       },
       "writer": {
-        "byline": null,
-        "model": "editor-led",
-        "fallback": "deepseek/deepseek-v3.2"
+        "byline": "Gemini 3.1 Pro Preview (Google)",
+        "model": "google/gemini-3.1-pro-preview",
+        "fallback": "anthropic/claude-sonnet-5"
       },
       "receipt": {
-        "words": 149,
-        "costUSD": null,
-        "draft": null
+        "words": 527,
+        "costUSD": 0.056394,
+        "draft": "kladder/08-penge.md",
+        "costRouting": "byok",
+        "generationId": "gen-1786981840-vAADWgapxLqt1OCIyUXo"
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
-        "citations": 1,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "status": "accepted",
+        "checkedAt": "2026-08-17",
+        "citations": 0,
+        "editorNote": "REELT kommissioneret paa .env.kulturboxen; kladde i kladder/. Den ramte den svaere skelnen, briefen bad om: at dansk jantelov handler om ikke at haeve sig over faellesskabet, mens den alpine tilbageholdenhed oftere handler om ikke at afsloere, hvad man har. Og den sluttede paa det praktiske: at prisniveauet i et turistomraade intet siger om, hvad de fastboende betaler eller tjener."
       }
     },
     {
@@ -258,29 +272,31 @@
       "order": 9,
       "section": "Stat & regler",
       "brief": {
-        "angle": "Selvstyre som hverdag.",
+        "angle": "Rom er langt væk — indtil den ikke er. Skriv om selvstyre som en hverdagserfaring frem for som forfatningsret. Kernen, forklaret for en dansk læser: Sydtyrol har vidtgående selvstyre inden for den italienske stat, og det betyder, at en lang række beslutninger, en dansker ville forvente kom fra hovedstaden, i stedet træffes lokalt. Forklar hvad det gør ved forholdet mellem borger og myndighed: når skoler, sprogpolitik og store dele af den offentlige forvaltning er provinsens ansvar, bliver «staten» to ting på én gang — en fjern instans, man har et anstrengt historisk forhold til, og en nær instans, man selv er med til at bemande. Forklar dernæst den mekanisme, der er sværest for en udefrakommende at forstå, uden at give tal: at en ordning, som skal beskytte flere sprogsamfund samtidig, er nødt til at have en måde at gøre tilhørsforhold opgørligt på. Det betyder, at sprog ikke kun er noget man taler, men også noget der registreres og bruges til at fordele goder og stillinger. Skriv, hvad det koster og hvad det køber: det gør identitet til en administrativ kategori, hvilket er ubehageligt — og det er samtidig grunden til, at et mindretal ikke bare kan blive overstemt. Nævn, at ordningen studeres internationalt: Eurac Research i Bolzano driver et institut for mindretalsrettigheder, som udtrykkeligt tager udgangspunkt i sydtyrolsk autonomi og mindretalsbeskyttelse som forskningsgrundlag og som reference for rådgivning om mindretal i hele verden. STRENGT: ingen paragraffer, statutårstal, traktatnavne med datoer, procenter, kvotetal eller navne på politiske partier og personer. Skriv systemets logik, ikke dets lovtekst.",
         "words": [
-          80,
-          350
+          450,
+          650
         ],
-        "mustCite": 0,
+        "mustCite": 1,
         "format": "feature"
       },
       "writer": {
-        "byline": null,
-        "model": "editor-led",
-        "fallback": "deepseek/deepseek-v3.2"
+        "byline": "Claude Opus 4.8 (Anthropic)",
+        "model": "anthropic/claude-opus-4.8",
+        "fallback": "anthropic/claude-sonnet-5"
       },
       "receipt": {
-        "words": 127,
-        "costUSD": null,
-        "draft": null
+        "words": 560,
+        "costUSD": 0.04561,
+        "draft": "kladder/09-autonomi.md",
+        "costRouting": "byok",
+        "generationId": "gen-1786981870-mrK3lMcgTHKvFEKwEhqC"
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
+        "status": "accepted",
+        "checkedAt": "2026-08-17",
         "citations": 0,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "editorNote": "REELT kommissioneret paa .env.kulturboxen; kladde i kladder/. Den forklarede den svaereste mekanisme i nummeret uden ét tal: at en ordning, der skal beskytte flere sprogsamfund samtidig, er noedt til at goere tilhoersforhold opgoerligt — og at det baade goer identitet til en administrativ kategori og er grunden til, at et mindretal ikke bare kan blive overstemt. Begge halvdele, uden at vaelge side. Eurac Research korrekt gengivet som forskningsinstitut, ikke som belaeg for en regel."
       }
     },
     {
@@ -288,59 +304,31 @@
       "order": 10,
       "section": "Tallet",
       "brief": {
-        "angle": "Få tal, med forbehold.",
+        "angle": "Rubrikken Tallet handler denne gang om en optælling, ikke om et tal — og det er med vilje. I Sydtyrol findes en tælling, hvor indbyggerne selv angiver, hvilken sprogruppe de hører til, og den optælling bruges administrativt. Skriv artiklen om, hvad det gør ved et tal, at det har konsekvenser. Fire pointer. FOR DET FØRSTE: en tælling, der fordeler goder, er ikke en måling af virkeligheden, men en handling i den. Når en angivelse har betydning for adgang til stillinger eller boliger, svarer folk ikke nødvendigvis som de ville i en anonym undersøgelse. FOR DET ANDET: kategorierne er få, og virkeligheden er ikke. Et menneske med forældre fra to sprogsamfund, eller en tilflytter, der taler begge dele, skal alligevel vælge én kasse — og valget siger mere om systemet end om personen. FOR DET TREDJE: et tal fra sådan en optælling kan ikke uden videre sammenlignes med et tal fra en almindelig sprogundersøgelse et andet sted, fordi det ikke måler det samme. FOR DET FJERDE, og det er artiklens egentlige ærinde: derfor trykker KULTURBOXEN ikke procenterne her. Redaktionen har forsøgt at hente dem fra provinsens eget statistikinstitut, og instituttets websted leverede en tom side uanset hvilken underside vi kaldte. Vi kunne have taget tallene fra en sekundær kilde, men et mindretalstal uden ophav er en politisk påstand og ikke en afrunding — og netop i denne rubrik ville det være det modsatte af, hvad vi går ud på. Skriv det åbent til læseren, og fortæl hvor hun selv kan lede: hos provinsens statistikinstitut. STRENGT: ingen procenter, befolkningstal, årstal for tællinger eller navne på kategorier ud over tysk, italiensk og ladinsk.",
         "words": [
-          150,
-          400
+          420,
+          620
         ],
-        "mustCite": 2,
+        "mustCite": 0,
         "format": "tallet"
       },
       "writer": {
-        "byline": null,
-        "model": "editor-led",
-        "fallback": "deepseek/deepseek-v3.2"
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "openai/gpt-5.6-terra"
       },
       "receipt": {
-        "words": 116,
-        "costUSD": null,
-        "draft": null
+        "words": 516,
+        "costUSD": 0.024468,
+        "draft": "kladder/10-tallet.md",
+        "costRouting": "byok",
+        "generationId": "gen-1786981912-4Hkhw4iQDT7sJb2Wk9Mc"
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
-        "citations": 2,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
-      }
-    },
-    {
-      "slug": "ordbogen",
-      "order": 99,
-      "section": "Ordbogen",
-      "brief": {
-        "angle": "Südtirol, ladinsk, speck.",
-        "words": [
-          50,
-          150
-        ],
-        "mustCite": 0,
-        "format": "ordbog"
-      },
-      "writer": {
-        "byline": null,
-        "model": "editor-led",
-        "fallback": "minimax/minimax-m3"
-      },
-      "receipt": {
-        "words": 69,
-        "costUSD": null,
-        "draft": null
-      },
-      "verdict": {
-        "status": null,
-        "checkedAt": null,
+        "status": "accepted",
+        "checkedAt": "2026-08-17",
         "citations": 0,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "editorNote": "REELT kommissioneret paa .env.kulturboxen; kladde i kladder/. Rubrikken fik sin bedste udgave hidtil, fordi den handler om selve optaellingen: at en taelling, der fordeler goder, ikke er en maaling af virkeligheden, men en handling i den. Den skrev ogsaa redaktionens kildeproblem aabent frem — at provinsens statistikinstitut leverede en tom side — og begrundede, hvorfor et mindretalstal uden ophav er en politisk paastand og ikke en afrunding."
       }
     },
     {
@@ -348,29 +336,31 @@
       "order": 11,
       "section": "Myter",
       "brief": {
-        "angle": "Det postkortet glemmer.",
+        "angle": "Fire myter om Sydtyrol, behandlet én ad gangen og uden at lade som om alt har ét facit. Myterne skal være: (1) «Det er egentlig Østrig.» Nuancer: området har østrigsk fortid og tysktalende flertal, men det har været italiensk i over hundrede år, og de fleste beboere håndterer begge dele uden at opleve det som en modsætning. En besøgende, der siger sætningen højt, tror han er venlig og siger noget større, end han ved. (2) «Alle taler tysk.» Nej — flertallet gør, men italiensk er lige så officielt, byerne er mere italiensktalende end dalene, og i nogle dale er ladinsk det første sprog. (3) «Autonomien betyder, at de er uafhængige.» Nej: selvstyre inden for en stat er ikke løsrivelse, og det er netop pointen med ordningen. (4) «Konflikten er forbi.» Både og — den er ikke længere voldelig, og den er blevet til administration, men spørgsmål om sprog, skilte og fordeling er stadig levende politik, og det er ikke det samme som fred på museum. Skriv hver myte som et kort afsnit med en ærlig vurdering. Tonen er venlig og nøgtern, ikke afslørende — læseren skal føle sig klogere, ikke dum. STRENGT: ingen tal, ingen partinavne, ingen personnavne, ingen årstal og ingen henvisninger til konkrete politiske sager eller voldelige episoder med dato eller sted.",
         "words": [
-          50,
-          150
+          420,
+          620
         ],
         "mustCite": 0,
-        "format": "rygteboersen"
+        "format": "myter"
       },
       "writer": {
-        "byline": null,
-        "model": "editor-led",
-        "fallback": "deepseek/deepseek-v3.2"
+        "byline": "GPT-5.6 Terra (OpenAI)",
+        "model": "openai/gpt-5.6-terra",
+        "fallback": "google/gemini-3.1-pro-preview"
       },
       "receipt": {
-        "words": 68,
-        "costUSD": null,
-        "draft": null
+        "words": 553,
+        "costUSD": 0.0175095,
+        "draft": "kladder/11-myter.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1786981948-rkbU02NE1KuySSB8k0uT"
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
+        "status": "accepted",
+        "checkedAt": "2026-08-17",
         "citations": 0,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "editorNote": "REELT kommissioneret paa .env.kulturboxen; kladde i kladder/. Alle fire myter behandlet med den venlighed, briefen bad om: laeseren skal foele sig klogere, ikke dum. Bedst er nr. 1, hvor pointen er, at den, der siger «det er egentlig Oestrig», tror han er venlig og siger noget stoerre, end han ved. Ingen partinavne, personnavne, aarstal eller konkrete politiske sager."
       }
     },
     {
@@ -378,31 +368,32 @@
       "order": 12,
       "section": "Kryds (HORISONTEN)",
       "brief": {
-        "angle": "Bro til Dolomit-nummeret.",
+        "angle": "Bagsnittet: hvad man skal forstå, før man rejser — skrevet som en overlevering fra KULTURBOXEN til søstertitlen. Saml nummerets pointer i den form, der er nyttig for en, der faktisk skal af sted, uden at gentage artiklerne. Fem ting: (1) Stednavne har flere former, og begge er rigtige; brug den form, din samtalepartner brugte, og du gør aldrig noget forkert. (2) Sproget, du bliver mødt på, er ikke en test — men det er heller ikke tilfældigt, og en indledende hilsen på det lokale sprog bliver bemærket. (3) Mellemsæsonen er ikke lavsæson, det er den periode, hvor stedet holder fri; meget er lukket, og det er ikke dårlig service. (4) Den, der serverer for dig, ejer måske huset og bor på førstesalen; forholdet mellem vært og gæst er ikke det samme som på et hotel i en storby. (5) Selvstyret betyder, at mange regler er lokale, så et svar fra én dal ikke nødvendigvis gælder i den næste. Slut med den generelle regel, KULTURBOXEN altid ender på: den mest almindelige måde at være en dårlig gæst på er ikke uhøflighed, men at antage at stedet fungerer som ens eget. VIGTIGT: HORISONTENs Dolomit-nummer er endnu IKKE udgivet, så der må IKKE linkes til det. Nævn gerne søstertitlen ved navn og henvis til dens Georgien-nummer, som er udgivet, hvis der er brug for et konkret link. STRENGT: ingen praktiske rejseoplysninger — ingen transport, priser, sæsonmåneder, indrejseregler eller anbefalede ruter. Det er HORISONTENs stof, ikke vores.",
         "words": [
-          40,
-          120
+          400,
+          600
         ],
         "mustCite": 0,
-        "format": "krydslink"
+        "format": "kryds"
       },
       "writer": {
-        "byline": null,
-        "model": "editor-led",
-        "fallback": null
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "google/gemini-3.1-pro-preview"
       },
       "receipt": {
-        "words": 53,
-        "costUSD": null,
-        "draft": null
+        "words": 527,
+        "costUSD": 0.016826,
+        "draft": "kladder/12-til-horisonten.md",
+        "costRouting": "byok",
+        "generationId": "gen-1786981970-gcyixX6tMOCAHPzzrJ5T"
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
+        "status": "accepted",
+        "checkedAt": "2026-08-17",
         "citations": 0,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "editorNote": "REELT kommissioneret paa .env.kulturboxen; kladde i kladder/. Den samlede nummeret uden at gentage det og respekterede krydslink-forbuddet: HORISONTENs Dolomit-nummer er stadig status draft, og kladden linker ikke til det. Den sluttede paa titlens faste pointe — at den mest almindelige maade at vaere en daarlig gaest paa ikke er uhoeflighed, men at antage at stedet fungerer som ens eget."
       }
     }
-  ],
-  "integrityNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+  ]
 }

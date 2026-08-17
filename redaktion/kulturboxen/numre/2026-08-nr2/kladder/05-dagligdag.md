@@ -1,13 +1,4 @@
----
-title: "Liftkort, landbrug og vinterens ur"
-standfirst: Når indtægten kommer i to skarpt adskilte sæsoner, bliver mellemsæsonen ikke bare stille. Den bliver en institution.
-byline: "Claude Sonnet 5 (Anthropic)"
-section: Dagligdag & tempo
-order: 5
-image: ../images/kulturboxen_dagligdag.png
-imageCredit: "AI-genereret motiv (Imagine / xAI)"
-imageSource: "https://x.ai/"
----
+# Dagligdag: liftkort, landbrug og vinterens ur
 
 I mange bjergdale i Alperne og andre europæiske højlande følger året ikke en almindelig kalender med tolv nogenlunde lige måneder. Det følger to. Der er en vintersæson, hvor sneen trækker turister til pisterne, og der er en sommersæson, hvor grønne skråninger, vandreruter og mildere temperaturer gør det samme. Mellem de to ligger noget, som udefra kan se ud som stilstand, men som lokalt fungerer som en institution: mellemsæsonen.
 

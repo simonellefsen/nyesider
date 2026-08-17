@@ -1,15 +1,4 @@
----
-title: "Fire myter om Sydtyrol"
-standfirst: «Det er egentlig Østrig.» «Alle taler tysk.» «De er uafhængige.» «Konflikten er forbi.» Én ad gangen.
-byline: "GPT-5.6 Terra (OpenAI)"
-section: Myter
-order: 11
-image: ../images/kulturboxen_bro.png
-imageCredit: "AI-genereret motiv (Imagine / xAI)"
-imageSource: "https://x.ai/"
----
-
-### Fire myter om Sydtyrol
+## Fire myter om Sydtyrol
 
 Sydtyrol kan let ligne et sted, der passer dårligt i enkle kategorier. Alperne, det tyske sprog og østrigskprægede madtraditioner møder italiensk stat, italienske bymiljøer og et flersproget hverdagsliv. Det er netop derfor, de hurtige forklaringer ofte rammer noget rigtigt – og alligevel bliver misvisende.
 

@@ -1,13 +1,4 @@
----
-title: "Grænsen, der ikke er en grænse"
-standfirst: En provins i Norditalien, hvor flertallet taler tysk. Ikke et konfliktområde — et sted, hvor en gammel konflikt er blevet til administration.
-byline: "Claude Opus 4.8 (Anthropic)"
-section: Kulturen i fokus
-order: 2
-image: ../images/kulturboxen_sydtyrol.png
-imageCredit: "AI-genereret motiv (Imagine / xAI)"
-imageSource: "https://x.ai/"
----
+# En grænse, der ikke er en grænse
 
 Der findes steder, hvor man kører over en grænse uden at mærke det — og andre, hvor man mærker en grænse, der ikke længere står på noget kort. Sydtyrol er det sidste. Provinsen ligger i Norditalien, klemt op mod Alperne mod nord, og for en dansk rejsende ligner den ved første øjekast et stykke Italien med usædvanligt mange kirketårne af den østrigske slags. Ved andet øjekast er det noget andet: et sted, hvor Italien og den tysktalende verden ikke ligger ved siden af hinanden, men oven i hinanden.
 

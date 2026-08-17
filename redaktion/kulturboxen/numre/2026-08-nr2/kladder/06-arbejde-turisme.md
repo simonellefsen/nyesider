@@ -1,19 +1,10 @@
----
-title: "Når gæsten er indtægten"
-standfirst: Gæstfrihed som fag, familien som virksomhed, og et lag af sæsonarbejdere, der er synligt i køkkenerne og usynligt i selvforståelsen.
-byline: "GPT-5.6 Terra (OpenAI)"
-section: Arbejde & hierarki
-order: 6
-image: ../images/kulturboxen_arbejde.png
-imageCredit: "AI-genereret motiv (Imagine / xAI)"
-imageSource: "https://x.ai/"
----
+# Når gæsten er indtægten
 
 I mange alpine lokalsamfund er turismen ikke noget, der foregår ved siden af hverdagen. Den er hverdagen. Gæsterne kommer for bjergene, sneen, vandrestierne, maden eller forestillingen om det rolige landsbyliv. Men for dem, der bor der, betyder gæsternes ankomst også, at hjem, familie, sprog og lokalkendskab bliver en del af økonomien.
 
 Det skaber ikke nødvendigvis et samfund, der er mindre ægte. Men det skaber et samfund, hvor det nære hele tiden også kan være en vare: udsigten fra vinduet, den lokale opskrift, den venlige velkomst og idéen om, at nogen kender stedet bedre end gæsten gør.
 
-### Gæstfrihed som fag
+## Gæstfrihed som fag
 
 Gæstfrihed bliver ofte beskrevet som en kulturværdi: Man tager imod folk, viser vej og sørger for, at de føler sig velkomne. Når mange lever af besøgende, bliver den samme egenskab også et fag.
 
@@ -23,7 +14,7 @@ Det ændrer forholdet mellem vært og gæst. En venlighed kan være oprigtig og 
 
 For den besøgende kan det være svært at se forskel på tradition og service. Den samme lokale fortælling kan både være en families hukommelse og en del af dagens program. Det gør ikke fortællingen falsk. Men det betyder, at den bliver fortalt under særlige betingelser: Den skal være forståelig, behagelig og helst genkendelig.
 
-### Familien som virksomhed
+## Familien som virksomhed
 
 I den familiedrevne turisme er skellet mellem arbejdsplads og hjem ofte mindre tydeligt end i et almindeligt lønmodtagerliv. Boligen kan ligge over gæsteværelserne, bag restauranten eller i den samme bygning som receptionen. Køkkenet kan være både familiens og virksomhedens. En fridag kan afbrydes af en sen ankomst, et teknisk problem eller en gæst, der mangler hjælp.
 
@@ -31,7 +22,7 @@ Det giver en særlig binding til stedet. Virksomheden er ikke blot en arbejdspla
 
 Den tætte forbindelse kan give kontinuitet. Gæster møder familier, der kender landsbyen, vejret og rytmen gennem mange år. Men den kan også gøre det svært at trække en klar grænse mellem privatliv og drift. Når ens hjem er en del af det, man sælger, bliver det personlige aldrig helt privat.
 
-### Arbejdskraften, der kommer og går
+## Arbejdskraften, der kommer og går
 
 Turistsæsoner skaber også behov for mennesker, som ikke nødvendigvis har deres liv i landsbyen. De kommer for at arbejde i en periode og rejser videre igen. Nogle bor tæt på arbejdsstedet; andre pendler mellem byer og dale. De kan møde gæster på flere sprog og samtidig stå uden for det lokale fællesskab, som gæsterne tror, de besøger.
 

@@ -1,17 +1,8 @@
----
-title: "Når vejnavne er politik"
-standfirst: For en tilrejsende ser et skilt ud som en serviceoplysning. For dem, der bor der, er det en aftale om, hvem der er hjemme.
-byline: "Claude Opus 4.8 (Anthropic)"
-section: Sprog & symboler
-order: 3
-image: ../images/kulturboxen_skilt.png
-imageCredit: "AI-genereret motiv (Imagine / xAI)"
-imageSource: "https://x.ai/"
----
+# Når vejnavne er politik
 
 Du kører ind i en dal, og på skiltet står byens navn to gange. Øverst i én form, nedenunder i en anden. For dig er det en hjælp — samme sted, to sprog, ingen grund til at tænke videre. For dem, der bor der, er det ikke en gentagelse. Det er en aftale om, hvem der er hjemme.
 
-### Skiltet som beslutning
+## Skiltet som beslutning
 
 Et stednavn på et skilt ser ud som en serviceoplysning, men det er en beslutning. I et område, hvor to eller tre sprog er officielle, findes stednavnene i flere former, og så opstår spørgsmålene: Hvilke former står der? I hvilken rækkefølge? Med hvilken skriftstørrelse? Ingen af de spørgsmål besvarer sig selv. Nogen har svaret på dem — og det svar kan aflæses af enhver, der kører forbi.
 
@@ -19,13 +10,13 @@ Det er let at tro, at de forskellige former er oversættelser af hinanden. Ofte 
 
 Og her er en vigtig pointe: at den ene form er ældre, gør ikke den anden falsk. Et navn kan være yngre og alligevel være et rigtigt navn — fordi mennesker har brugt det, boet under det, skrevet breve til det. Ælde giver ikke automatisk retten til at være det eneste rigtige. Det er præcis derfor, striden om skilte sjældent lader sig afgøre med et opslag i en gammel bog.
 
-### Hvorfor et skilt kan opleves som en måling
+## Hvorfor et skilt kan opleves som en måling
 
 For et sprogsamfund er synlighed langs vejen den mest aflæselige af alle indikatorer. Man kan ikke se, hvor mange der taler et sprog derhjemme, eller hvor mange der drømmer på det. Men man kan se, hvad der står på skiltet — og man kan tælle det. Hvilket sprog kommer først? Hvilket står med de største bogstaver? Er begge former overhovedet med?
 
 Derfor bliver skiltet til et termometer. Det måler ikke temperatur, men tilstedeværelse: en fornemmelse af, om ens eget sprog stadig regnes med i det offentlige rum, eller om det så småt er ved at glide ud. For den, der bor der, er det ikke pedanteri. Det er spørgsmålet om, hvorvidt ens sprog stadig hører til udenfor køkkenet.
 
-### Hvad det betyder for dig som besøgende
+## Hvad det betyder for dig som besøgende
 
 Du kan ikke gøre noget forkert ved at bruge den ene eller den anden form. Men du siger noget, uanset hvad du vælger. Nævner du en by ved dens tyske navn, har du — måske uden at vide det — placeret dig i en samtale, der var i gang, længe før du kom.
 

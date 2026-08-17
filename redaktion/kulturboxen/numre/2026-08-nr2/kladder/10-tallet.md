@@ -1,13 +1,4 @@
----
-title: "Tallet: en optælling med konsekvenser"
-standfirst: En tælling, der fordeler goder, er ikke en måling af virkeligheden. Den er en handling i den — og derfor trykker vi ikke procenterne.
-byline: "Claude Sonnet 5 (Anthropic)"
-section: Tallet
-order: 10
-image: ../images/kulturboxen_tallet.png
-imageCredit: "AI-genereret motiv (Imagine / xAI)"
-imageSource: "https://x.ai/"
----
+# Tallet, vi ikke trykker
 
 Denne gang handler rubrikken Tallet ikke om et tal, men om en optælling — og det er med vilje.
 

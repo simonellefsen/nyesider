@@ -14,12 +14,43 @@ OpenRouter: **kun** `.env.kulturboxen`. Imagine: `.env.local` / `XAI_API_KEY`.
 | Fokus | Rejse, ruter, sæson, praktisk | Hverdag, normer, systemer |
 | Spørgsmål | Hvordan kommer jeg derhen? | Hvordan lever folk dér? |
 
-## Nr. 2 — udgivet
+## Nr. 2 — GENOPBYGGET OG GENUDGIVET 2026-08-17
 
-**Tema:** Tre sprog, ét plateau · **Kultur:** Sydtyrol / Alto Adige  
-12 artikler: leder, fokus, sprog/skilt, mad, dagligdag, arbejde/turisme, familie, penge, autonomi, tallet, myter, til HORISONTEN. (Ordbogen fjernet 2026-08-08.)  
-**Søsterrejse:** [HORISONTEN nr. 3](../../content/horisonten/issues/2026-08-nr3/) (Dolomitterne).  
+**Tema:** Tre sprog, ét plateau · **Kultur:** Sydtyrol / Alto Adige
+**12 artikler, 6.472 ord** (var 1.877 ord — gns. 156). Elleve artikler reelt kommissioneret
+på `.env.kulturboxen`; lederen er chefredaktionens og har **ingen byline**.
+Samlet forbrug **0,38 USD**. `check_issue.py`: **0 fejl, 0 advarsler.**
 `bestilling.json`: `redaktion/kulturboxen/numre/2026-08-nr2/bestilling.json`.
+
+### Nummeret indeholder ikke ét tal — og det står i lederen hvorfor
+
+Ingen befolkningstal, ingen sproggruppeprocenter, ingen turisme- eller indkomsttal.
+Det er ikke et stilvalg. **ASTAT**, provinsens eget statistikinstitut, leverer en tom side
+uanset hvilken underside der kaldes — samme 2.536 bytes hver gang, både via browser og curl.
+`provinz.bz.it` svarer 403. Europarådets mindretalsside ligger bag Cloudflare.
+
+Tallene kunne være hentet fra en sekundær kilde. Men **et mindretalstal uden ophav er en
+politisk påstand og ikke en afrunding**, og i et nummer om netop mindretalsordninger ville
+det have været det modsatte af ærindet. Rubrikken **Tallet** handler derfor om selve
+optællingen: at en tælling, der fordeler goder, ikke er en måling af virkeligheden, men en
+handling i den. Det er rubrikkens bedste udgave hidtil.
+
+### Metoden, der nu har virket fire gange på én dag
+
+INDENI nr. 2, HORISONTEN nr. 2, PULSEN nr. 2 og dette nummer: **en brief, der forbyder de tal,
+der ikke kan kildebelægges, får mekanismen forklaret i stedet.** Elleve kladder her — ikke ét
+opfundet tal, ikke én gættet URL, ikke ét årstal. Det er den mest effektive enkeltregel, der er
+kommet ud af hele genopbygningen.
+
+### To fælder, der blev undgået
+
+**Krydslink til en upubliceret udgivelse.** Den afpublicerede udgave linkede fem steder til
+HORISONTEN nr. 3 (Dolomitterne), som stadig er `draft`. Prerenderingen brækker på et dødt
+internt link. Briefen forbød det, og ingen kladde forsøgte.
+
+**YAML-fælden.** `autonomi` fik en standfirst med kolon i — «staten til to ting på én gang: en
+fjern instans …» — som gør frontmatter ugyldig og siden til en 404. `check_issue.py`s
+frontmatter-vagt fangede den før build. Den vagt tjener sig ind.
 
 ## Nr. 1 — udgivet
 

@@ -1,14 +1,4 @@
----
-title: "Til HORISONTEN: før du tager af sted"
-standfirst: Fem ting, der er vigtigere end transportmuligheder — og den mest almindelige måde at være en dårlig gæst på.
-byline: "Claude Sonnet 5 (Anthropic)"
-section: Kryds (HORISONTEN)
-order: 12
-flow: true
-image: ../images/kulturboxen_ordbog.png
-imageCredit: "AI-genereret motiv (Imagine / xAI)"
-imageSource: "https://x.ai/"
----
+# Kryds: Fem ting HORISONTEN bør vide, før læserne pakker kufferten
 
 Kære HORISONTEN.
 

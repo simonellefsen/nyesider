@@ -1,14 +1,3 @@
----
-title: "Velstand i højden"
-standfirst: Formue bundet i jord og huse, ikke i biler og tøj. Et sted kan være meget velhavende, uden at det er til at se.
-byline: "Gemini 3.1 Pro Preview (Google)"
-section: Penge & forbrug
-order: 8
-image: ../images/kulturboxen_penge.png
-imageCredit: "AI-genereret motiv (Imagine / xAI)"
-imageSource: "https://x.ai/"
----
-
 Når en dansk læser tænker på velstand, dukker billeder af store villaer, mærkevaretøj og nyindkøbte biler i indkørslen ofte op på den indre lystavle. Forbruget fungerer i mange moderne samfund som et synligt bevis på økonomisk overskud. Men i de mere velstående dele af Alperne ser rigdommen markant anderledes ud. Her befinder vi os i en pengekultur, hvor velstanden er bundet i højden og i jorden, hvilket gør den utroligt svær at aflæse for det utrænede øje. Denne diskrete omgang med kapital lader sig opsummere i tre iagttagelser.
 
 For det første er formuen i disse bjergområder typisk bundet op i fast ejendom og jord frem for i et flygtigt, materielt forbrug. Det er helt almindeligt at støde på familier, der har ejet, vedligeholdt og drevet den samme gård eller boet i det præcis samme hus i generationer. Disse familier kan råde over meget betragtelige værdier i kraft af deres jordbesiddelser, men det kan sjældent aflæses på deres påklædning eller på de ældre køretøjer, de benytter i hverdagen. I den alpine tankegang betragtes den nedarvede jord ikke primært som en likvid handelsvare, der kan omsættes til kontanter, men som en betroet arv. At sælge et stykke af familiens jord opleves konsekvent som et slægtsmæssigt nederlag og et egentligt tab — også i de tilfælde, hvor et salg til en moderne ejendomsudvikler rent matematisk ville kaste en stor økonomisk gevinst af sig.

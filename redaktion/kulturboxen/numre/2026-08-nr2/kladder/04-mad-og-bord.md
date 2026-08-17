@@ -1,13 +1,4 @@
----
-title: "Speck, knödel og espresso"
-standfirst: Alpint til frokost, italiensk til aften. Ikke fusion, ikke konkurrence — to madkulturer, der har fordelt tidspunkterne mellem sig.
-byline: "Gemini 3.1 Pro Preview (Google)"
-section: Spise & drikke
-order: 4
-image: ../images/kulturboxen_mad.png
-imageCredit: "AI-genereret motiv (Imagine / xAI)"
-imageSource: "https://x.ai/"
----
+# Spise & drikke: Bordet som grænseovergang
 
 I Sydtyrol er middagsbordet det måske klareste eksempel på, hvordan kulturer mødes og eksisterer sammen. Her lægger traditioner sig ikke pænt oven på hinanden i veldefinerede lag, men blander sig i en ujævn, levet virkelighed. For en udenforstående europæer kan det virke bemærkelsesværdigt, hvordan et enkelt måltid på samme sted kan være tungt og alpint ved frokosttid, for derefter at skifte fuldstændig karakter og blive klassisk italiensk, når aftenen falder på. Men for de lokale indbyggere er det blot hverdagens ukomplicerede rytme.
 
