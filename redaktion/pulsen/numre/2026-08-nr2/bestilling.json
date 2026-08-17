@@ -1,0 +1,283 @@
+{
+  "magazine": "pulsen",
+  "issue": "2026-08-nr2",
+  "issueTheme": "Når tasterne bliver stille",
+  "integrityNote": "Skrevet fra bunden 2026-08-16. Den afpublicerede udgave (2026-08-08) bar byline til navngivne modeller uden kvittering, kladde eller forbrug. Hele nummeret produceres forfra på titlens egen nøgle (.env.pulsen). Byline sættes kun, hvor receipt.costUSD og receipt.draft er udfyldt; lederen er chefredaktionens og har ingen byline.",
+  "budget": {
+    "articles": 8,
+    "wordsPerArticle": [
+      500,
+      800
+    ],
+    "targetPages": 12,
+    "note": "Den afpublicerede udgave var 9 artikler på 2.447 ord — gennemsnit 272, altså de «120-ords stubs», notesbogen selv advarer mod. Budgettet er sat til 500-800. RYGTEBØRSEN ER FJERNET, jf. notesbogens formatregel af 2026-08-08 (permanent). Nummeret går derfor fra 9 til 8 artikler."
+  },
+  "researchNote": "ADVARSEL: dette felt når ALDRIG frem til modellen — kun brief.angle gør. Alle tal og citater nedenfor er derfor også skrevet ind i de enkelte briefs. Kontrolleret 2026-08-16 i EUR-Lex.\n\nEHDS — Europa-Parlamentets og Rådets forordning (EU) 2025/327 af 11. februar 2025 om det europæiske sundhedsdataområde, offentliggjort i EU-Tidende L, 2025/327, 5.3.2025, ELI http://data.europa.eu/eli/reg/2025/327/oj. Ændrer direktiv 2011/24/EU og forordning (EU) 2024/2847. Status: i kraft.\n\nArtikel 105 (ikrafttræden og anvendelse), ordret indhold: forordningen træder i kraft på tyvendedagen efter offentliggørelsen; «This Regulation shall apply from 26 March 2027.» Dog gælder artikel 3-15, artikel 23(2)-(6), artikel 25, 26, 27, 47, 48 og 49 således: (a) fra 26. marts 2029 for de prioriterede kategorier af personlige elektroniske sundhedsdata i artikel 14(1), litra a, b og c, samt for EPJ-systemer beregnet til at behandle dem; (b) fra 26. marts 2031 for kategorierne i artikel 14(1), litra d, e og f. Kapitel III gælder for EPJ-systemer taget i brug i Unionen, jf. artikel 26(2), fra 26. marts 2031. Kapitel IV gælder fra 26. marts 2029 — dog gælder artikel 55(6), 70, 73(5), 75(1) og (12), 77(4) og 78(6) fra 26. marts 2027; artikel 51(1), litra b, f, g, m og p, fra 26. marts 2031; og artikel 75(5) fra 26. MARTS 2035.\n\nMDR — forordning (EU) 2017/745 om medicinsk udstyr, konsolideret udgave 02017R0745-20250110 på EUR-Lex, bilag VIII, klassificeringsregler, REGEL 11, ordret: «Software intended to provide information which is used to take decisions with diagnosis or therapeutic purposes is classified as class IIa, except if such decisions have an impact that may cause: — death or an irreversible deterioration of a person's state of health, in which case it is in class III; or — a serious deterioration of a person's state of health or a surgical intervention, in which case it is classified as class IIb. Software intended to monitor physiological processes is classified as class IIa, except if it is intended for monitoring of vital physiological parameters, where the nature of variations of those parameters is such that it could result in immediate danger to the patient, in which case it is classified as class IIb. All other software is classified as class I.»\n\nADVARSEL: Skriv ALDRIG et konkret dansk regionalt indkøb, en kontraktsum, en leverandøraftale eller et patientvolumen, du ikke har åbnet en kilde til. PULSEN har tidligere haft en Corti-gentagelse, der blev fjernet i nr. 3, netop fordi selskabstal blev gengivet som konstateringer.\n\nDUBLETADVARSEL: nr. 3 (også draft) dækker ambient i drift, regionsfusion/AI, AI i sundhed uden for DK, farmakogenomik og ergoterapi efter OK. Nr. 2 må ikke gentage dem — nr. 2's ambient-artikel skal handle om SELVE OVERGANGEN fra pilot til drift som organisatorisk problem, ikke om status.",
+  "opgaver": [
+    {
+      "slug": "leder",
+      "order": 1,
+      "section": "Leder",
+      "brief": {
+        "angle": "Chefredaktionens leder. Skrives af redaktionen selv — ingen model, ingen byline.",
+        "words": [
+          300,
+          500
+        ],
+        "mustCite": 0,
+        "format": "leder"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led"
+      },
+      "receipt": {
+        "words": null,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "editor-written",
+        "checkedAt": "2026-08-17",
+        "citations": 0,
+        "editorNote": "Chefredaktionens egen tekst — ingen model, ingen byline, intet forbrug. Lederen redegoer for afpubliceringen 2026-08-08 og for, at Rygtebørsen er fjernet permanent, jf. notesbogens formatregel, saa nummeret gaar fra ni til otte artikler."
+      }
+    },
+    {
+      "slug": "ambient-fra-pilot-til-drift",
+      "order": 2,
+      "section": "Feature · Ambient AI",
+      "brief": {
+        "angle": "Ambient AI — teknologi, der lytter med under en konsultation og skriver journalnotatet — er den mest omtalte kliniske AI-anvendelse i Europa. Denne artikel handler IKKE om, hvor godt den transskriberer. Den handler om afstanden mellem en pilot og en drift, for det er dér, sundheds-it holder op med at være et teknologispørgsmål og bliver et organisationsspørgsmål. Skriv om, hvad der faktisk skifter, når et forsøg med tyve læger skal blive til et system, hele afdelingen bruger. Fire ting hører med, og de skal forklares konkret for en læser, der arbejder i sektoren, men ikke med it: (1) Ansvaret for notatet. I en pilot læser lægen hvert eneste ord igennem, fordi det er nyt og spændende. I drift læser man ikke alt lige grundigt, og så bliver spørgsmålet, hvem der har ansvaret for en fejl i journalen — det er stadig den sundhedsperson, der signerer. (2) Integrationen. Et notat, der skal klippes og klistres ind i journalsystemet, er en demonstration. Et notat, der skrives direkte i den rigtige rubrik i den rigtige patients journal, er drift — og forskellen er måneders integrationsarbejde med den leverandør, der ejer journalsystemet. (3) Fejlmønstret. En pilot måler gennemsnit; en drift rammes af halerne. Det interessante er ikke, hvor ofte systemet har ret, men hvordan det tager fejl: udelader det, hvad der ikke blev sagt højt? Hører det forkert ved dialekt, accent eller støj? Gætter det på en detalje, der ikke blev nævnt? (4) Klassificeringen. Så snart softwaren går fra at referere, hvad der blev sagt, til at foreslå noget, der bruges i en diagnostisk eller behandlingsmæssig beslutning, flytter den sig i regulatorisk forstand — den historie står i nummerets artikel om MDR. Skriv nøgternt og uden begejstring. Ingen konkrete produktnavne, leverandører, kontrakter, regionale indkøb eller patientvolumener, som du ikke kan kildebelægge — og du har ingen kilder til dem i denne brief, så lad være. Skriv «ambient» ud på dansk første gang.",
+        "words": [
+          550,
+          800
+        ],
+        "mustCite": 0,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "Claude Opus 4.8 (Anthropic)",
+        "model": "anthropic/claude-opus-4.8",
+        "fallback": "anthropic/claude-sonnet-5"
+      },
+      "receipt": {
+        "words": 642,
+        "costUSD": 0.05126,
+        "draft": "kladder/02-ambient-fra-pilot-til-drift.md",
+        "costRouting": "byok",
+        "generationId": "gen-1786942850-j8m9As0tD6IuGtYD4vMj"
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-08-17",
+        "citations": 0,
+        "editorNote": "REELT kommissioneret hos anthropic/claude-opus-4.8 paa .env.pulsen; kladde i kladder/02-ambient-fra-pilot-til-drift.md. Naesten uredigeret. Den fandt selv den formulering, hele artiklen staar paa: at overgangen fra pilot til drift er en overgang fra en tilstand, hvor alle laeser alt, til en tilstand, hvor «ansvaret er formelt uaendret, men den faktiske kontrol er svaekket». Den respekterede ogsaa forbuddet mod produktnavne, leverandoerer og indkoeb fuldstaendigt — ikke ét ukildebelagt faktum i hele teksten. Redaktionelt: overskrift og standfirst tilfoejet, krydslink til MDR-artiklen gjort til et rigtigt link."
+      }
+    },
+    {
+      "slug": "mdr-muren",
+      "order": 3,
+      "section": "Analyse · Regulering",
+      "brief": {
+        "angle": "Der findes en sætning i EU's forordning om medicinsk udstyr, som afgør, hvor dyrt og langsomt det er at sætte klinisk software i drift. Den hedder regel 11 og står i bilag VIII til forordning (EU) 2017/745, MDR (Medical Device Regulation, EU's forordning om medicinsk udstyr). Regel 11 lyder i den konsoliderede udgave: software beregnet til at levere information, der bruges til at træffe beslutninger med diagnostiske eller terapeutiske formål, klassificeres som klasse IIa — medmindre sådanne beslutninger kan medføre død eller uoprettelig forværring af en persons helbred, i hvilket fald den er klasse III, eller alvorlig forværring eller et kirurgisk indgreb, i hvilket fald den er klasse IIb. Software beregnet til at overvåge fysiologiske processer er klasse IIa, medmindre den overvåger vitale fysiologiske parametre, hvor variationernes karakter kan indebære umiddelbar fare for patienten — så er den IIb. «All other software is classified as class I.» Forklar hvorfor den ene sætning er en mur. Klasse I kan producenten som hovedregel selv erklære overensstemmelse for. Fra klasse IIa og opefter skal et bemyndiget organ (notified body) ind over, og det koster tid, dokumentation og penge. Det betyder, at forskellen mellem «systemet skriver ned, hvad der blev sagt» og «systemet foreslår noget, lægen bruger i en beslutning» ikke er en gradsforskel i produktet — det er et spring i regulering. Skriv det som en læseregel for en klinisk leder, der bliver præsenteret for et nyt værktøj: spørg først, hvilken klasse producenten selv mener, produktet er i, og hvad den påstand hviler på. Vær omhyggelig: undlad at påstå noget om sagsbehandlingstider, antal bemyndigede organer, gebyrer eller konkrete afgørelser — du har ingen kilder til det her, og tal om MDR-flaskehalse er notorisk forældede. Hold dig til regelteksten og dens logik.",
+        "words": [
+          550,
+          800
+        ],
+        "mustCite": 1,
+        "mustNumber": [
+          "regel 11: klasse IIa som udgangspunkt",
+          "klasse III ved død eller uoprettelig forværring",
+          "klasse IIb ved alvorlig forværring eller kirurgi",
+          "al anden software er klasse I"
+        ],
+        "format": "analyse"
+      },
+      "writer": {
+        "byline": "Claude Opus 4.8 (Anthropic)",
+        "model": "anthropic/claude-opus-4.8",
+        "fallback": "anthropic/claude-sonnet-5"
+      },
+      "receipt": {
+        "words": 611,
+        "costUSD": 0.053285,
+        "draft": "kladder/03-mdr-muren.md",
+        "costRouting": "byok",
+        "generationId": "gen-1786942016-T2d4wOLL3Oe6ukkgKG7k"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-17",
+        "citations": 1,
+        "editorNote": "REELT kommissioneret hos anthropic/claude-opus-4.8 paa .env.pulsen; kladde i kladder/03-mdr-muren.md. Den gengav regel 11 korrekt i alle fire led og forklarede springet mellem klasse I og IIa praecist. Bedst er den anden halvdel, som den selv byggede: de to spoergsmaal til en producent, og pointen om at «Vi er klasse I» er en paastand med konkret juridisk indhold og ikke en markedsfoeringsfrase. Den fulgte ogsaa den udtrykkelige instruktion om ikke at paastaa noget om sagsbehandlingstider, gebyrer eller antal bemyndigede organer — og skrev endda selv, at den ikke goer det. Redaktionelt: fodnoten praeciseret med hvilken konsolideret udgave (02017R0745-20250110) og kontroldato, og ELI-adressen kontrolleret i browser (svarer med titlen «Medical Device Regulation»; bemaerk at EUR-Lex svarer HTTP 202 paa automatiserede kald, saa statuskoden alene siger intet)."
+      }
+    },
+    {
+      "slug": "ehds-og-data",
+      "order": 4,
+      "section": "Analyse · Data & politik",
+      "brief": {
+        "angle": "Det europæiske sundhedsdataområde er vedtaget, i kraft — og gælder næsten ikke endnu. Det er den vigtigste og mest oversete pointe om EHDS (European Health Data Space, det europæiske sundhedsdataområde), og den står i forordningens egen artikel 105. Faktagrundlag, som skal gengives præcist: Europa-Parlamentets og Rådets forordning (EU) 2025/327 af 11. februar 2025 om det europæiske sundhedsdataområde blev offentliggjort i EU-Tidende den 5. marts 2025 og trådte i kraft på tyvendedagen efter. Men efter artikel 105 gælder forordningen først fra 26. marts 2027. Og selv da er den fasedelt: artikel 3-15 og en række andre bestemmelser gælder fra 26. marts 2029 for de første prioriterede kategorier af personlige elektroniske sundhedsdata og for de journalsystemer, der behandler dem — og først fra 26. marts 2031 for den næste gruppe kategorier. Kapitel III gælder for journalsystemer taget i brug i Unionen fra 26. marts 2031. Kapitel IV gælder fra 26. marts 2029, med enkelte bestemmelser fra 2027, andre fra 2031 — og én bestemmelse, artikel 75(5), først fra 26. marts 2035. Byg artiklen om den kalender og forklar, hvorfor den er udformet sådan: journalsystemer skal ombygges, nationale myndigheder oprettes, formater standardiseres, og det tager år. Forklar de to halvdele af EHDS på dansk uden jargon: den primære brug — at dine egne sundhedsdata kan følge dig og deles med dem, der behandler dig, også på tværs af grænser — og den sekundære brug, hvor data i afidentificeret form kan stilles til rådighed for forskning, innovation og politikudvikling gennem en ansøgningsproces. Den redaktionelle pointe: en lov, der er i kraft, men hvis vigtigste dele først gælder om tre til ni år, er en planlægningsopgave, ikke en nyhed. For en klinisk leder betyder det, at spørgsmålet til enhver leverandør i dag er, hvad systemet skal kunne i 2029 og 2031 — ikke hvad det kan nu. Ingen påstande om national dansk implementering, om hvilke myndigheder der udpeges, eller om hvad EHDS kommer til at koste. Du har ingen kilder til det.",
+        "words": [
+          600,
+          800
+        ],
+        "mustCite": 1,
+        "mustNumber": [
+          "forordning (EU) 2025/327, offentliggjort 5. marts 2025",
+          "gælder fra 26. marts 2027",
+          "26. marts 2029 og 26. marts 2031 for de to grupper kategorier",
+          "artikel 75(5) først fra 26. marts 2035"
+        ],
+        "format": "analyse"
+      },
+      "writer": {
+        "byline": "Gemini 3.1 Pro Preview (Google)",
+        "model": "google/gemini-3.1-pro-preview",
+        "fallback": "anthropic/claude-sonnet-5"
+      },
+      "receipt": {
+        "words": 737,
+        "costUSD": 0.051274,
+        "draft": "kladder/04-ehds-og-data.md",
+        "costRouting": "byok",
+        "generationId": "gen-1786942056-jF3t6pCiposNO3GLMsQ1"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-17",
+        "citations": 1,
+        "editorNote": "REELT kommissioneret hos google/gemini-3.1-pro-preview paa .env.pulsen; kladde i kladder/04-ehds-og-data.md. Alle datoer fra artikel 105 korrekt gengivet, inklusive den lille, som er let at tabe: at én enkelt bestemmelse foerst gaelder fra 26. marts 2035. Den fandt ogsaa den rigtige konsekvens for en klinisk leder — at spoergsmaalet til leverandoeren ikke er, hvad systemet kan nu, men hvad det skal kunne i 2029 og 2031. Redaktionelt: fodnoten pegede paa eur-lex.europa.eu's forside uden dokument — erstattet af ELI-adressen til selve forordningen med henvisning til artikel 105. Sproget dampet et par steder («monumentale natur», «virvar», «absolutte bagtrop»)."
+      }
+    },
+    {
+      "slug": "nordisk-stak",
+      "order": 5,
+      "section": "Feature · Systemer",
+      "brief": {
+        "angle": "Sådan virker det: lagene i en sundheds-it-stak. Når nogen siger «journalsystem», dækker ordet over mindst fire forskellige lag, og forvirringen mellem dem er grunden til, at diskussioner om sundheds-it så ofte kører fast. Forklar lagene for en klinisk læser: (1) Registreringslaget — hvor data skabes: notatet, målingen, ordinationen. (2) Lagringslaget — hvor de ligger, og hvem der ejer databasen. (3) Udvekslingslaget — de aftaler og formater, der gør, at et system kan sende noget til et andet, som det andet forstår. (4) Anvendelseslaget — det, klinikeren faktisk ser og bruger, og som kan komme fra en anden leverandør end de tre andre lag. Pointen, artiklen skal lande: de fleste konflikter om sundheds-it handler i virkeligheden om lag 3. Det er let at skifte anvendelseslag og næsten umuligt at skifte lagringslag, og hvis udvekslingslaget ikke er standardiseret, er man bundet til én leverandør, uanset hvad kontrakten siger. Brug EHDS-artiklen i dette nummer som konkret eksempel: EU-forordningen om det europæiske sundhedsdataområde regulerer netop udvekslingen og stiller krav til journalsystemer, men de krav gælder først fra 2029 og 2031 — så indtil da er lag 3 fortsat et forhandlingsspørgsmål mellem købere og leverandører snarere end et lovkrav. Nævn også, hvorfor «nordisk» ofte optræder i denne sammenhæng: de nordiske lande har sammenlignelige registre og personnumre, og derfor bliver de brugt som eksempel på, at data i princippet kan følge patienten — men skriv det som en generel observation, ikke som en påstand om et konkret nordisk samarbejdsprojekt, du ikke kan kildebelægge. STRENGT: ingen navngivne leverandører, produkter, regioner, kontrakter eller udbud. Ingen påstande om hvad et bestemt land har eller ikke har. Artiklen skal forklare en struktur, ikke rapportere en nyhed.",
+        "words": [
+          550,
+          750
+        ],
+        "mustCite": 0,
+        "format": "saadan-virker-det"
+      },
+      "writer": {
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "openai/gpt-5.6-terra"
+      },
+      "receipt": {
+        "words": 629,
+        "costUSD": 0.02327,
+        "draft": "kladder/05-nordisk-stak.md",
+        "costRouting": "byok",
+        "generationId": "gen-1786942888-eI4kARM69lArXye2bdfz"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-17",
+        "citations": 0,
+        "editorNote": "REELT kommissioneret hos anthropic/claude-sonnet-5 paa .env.pulsen; kladde i kladder/05-nordisk-stak.md. Den aabnede med det bedste billede i nummeret: at klinikeren og it-arkitekten mener to forskellige ting med ordet «journalsystem», og at det ikke er en misforstaaelse, bedre kommunikation kan rydde af vejen. Og den respekterede det svaere krav om «nordisk»: den skrev udtrykkeligt, at det er en strukturel pointe om, hvad der goer udveksling lettere at forestille sig — ikke en paastand om et konkret projekt. Redaktionelt: krydslink til EHDS-artiklen gjort til et rigtigt link; ingen faktafejl fundet."
+      }
+    },
+    {
+      "slug": "ergoterapi-2035",
+      "order": 6,
+      "section": "Nyt fra ergoterapien",
+      "brief": {
+        "angle": "Fast rubrik. Skriv om det ergoterapeutiske blik på de teknologier, resten af nummeret behandler — men fra gulvet og ikke fra systemet. Vinklen: når journalnotatet skriver sig selv, og når data flyder mellem systemer, hvad sker der så med det, ergoterapeuten faktisk arbejder med, nemlig hvad et menneske kan i sin egen hverdag? Tre tråde, artiklen kan bruge: (1) Funktionsevne lader sig dårligt måle af et system, der lytter med i en konsultation, fordi den vigtigste information ofte kommer fra hjemmet og ikke fra samtalen. (2) De data, der bliver lette at dele, er dem, der er lette at strukturere — diagnoser, målinger, ordinationer — mens beskrivelser af hverdagsfunktion er svære at putte i felter, og der er en risiko for, at det, der er svært at strukturere, forsvinder ud af beslutningsgrundlaget. (3) Til gengæld findes der en reel gevinst, hvis det gøres rigtigt: mindre tid på dobbeltdokumentation er mere tid i hjemmet hos borgeren, og det er den eneste begrundelse, der holder. Skriv i et roligt, fagligt tonefald til ergoterapeuter og andre sundhedsprofessionelle. Ingen tal, ingen produkter, ingen påstande om overenskomster, uddannelseskrav eller kommunale forhold, du ikke kan kildebelægge — der er ingen kilder i denne brief, så skriv en fagligt reflekterende tekst uden faktapåstande. Undgå at gentage det, der står i ambient-artiklen; her er blikket ergoterapeutens.",
+        "words": [
+          500,
+          700
+        ],
+        "mustCite": 0,
+        "format": "fagrubrik"
+      },
+      "writer": {
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "google/gemini-3.1-pro-preview"
+      },
+      "receipt": {
+        "words": 564,
+        "costUSD": 0.019658,
+        "draft": "kladder/06-ergoterapi-2035.md",
+        "costRouting": "byok",
+        "generationId": "gen-1786942928-Hdk1wIUm5ig4G2fyJNE2"
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-08-17",
+        "citations": 0,
+        "editorNote": "REELT kommissioneret hos anthropic/claude-sonnet-5 paa .env.pulsen; kladde i kladder/06-ergoterapi-2035.md. Uredigeret paa naer overskrift og standfirst. Den ramte briefens svaereste krav — at skrive fagligt reflekterende uden faktapaastande — og leverede nummerets bedste enkeltbillede: en borger, der kan gaa ud til postkassen, men ikke tilbage igen uden pause. Den formulerede ogsaa risikoen praecist: at det, der er svaert at strukturere, bliver usynligt i de floows, data alligevel bevaeger sig langs, «ikke fordi nogen har besluttet, at det skal vaere saadan». Og den holdt fast i, at den eneste holdbare begrundelse er tid tilbagefoert til borgeren."
+      }
+    },
+    {
+      "slug": "vandrehistorier",
+      "order": 7,
+      "section": "Vandrehistorier fra vagtstuen",
+      "brief": {
+        "angle": "Fast rubrik: tre-fire korte, opdigtede men genkendelige historier fra en vagtstue, i den tørre, kollegiale tone rubrikken har. Temaet er nummerets: hvad der sker, når systemerne begynder at skrive med. Forslag til motiver, som må bearbejdes frit: diktatsystemet, der trofast skriver alt ned — også det, der blev sagt i forbifarten om aftensmaden; kollegaen, der har opdaget, at systemet skriver pænere notater, hvis man taler til det som til en nervøs studerende; det ene felt i journalen, ingen kan forklare oprindelsen af, men som alle udfylder; og opdagelsen af, at det hurtigste ved en ny arbejdsgang stadig er at gå ned ad gangen og spørge. Skriv det som anekdoter med en pointe, ikke som vittigheder med et punchline. Det skal være tydeligt, at historierne er genrestof og ikke reportage — brug ingen navne på afdelinger, sygehuse, regioner, leverandører eller systemer. Ingen faktapåstande overhovedet.",
+        "words": [
+          400,
+          600
+        ],
+        "mustCite": 0,
+        "format": "vandrehistorier"
+      },
+      "writer": {
+        "byline": "GPT-5.6 Terra (OpenAI)",
+        "model": "openai/gpt-5.6-terra",
+        "fallback": "google/gemini-3.1-pro-preview"
+      },
+      "receipt": {
+        "words": 570,
+        "costUSD": 0.007343,
+        "draft": "kladder/07-vandrehistorier.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1786942964-6UeT0xIlcEDTusLX8umB"
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-08-17",
+        "citations": 0,
+        "editorNote": "REELT kommissioneret hos openai/gpt-5.6-terra paa .env.pulsen; kladde i kladder/07-vandrehistorier.md. Uredigeret. Den ramte rubrikkens tone — anekdoter med en pointe, ikke vittigheder med en punchline — og sluttede paa den rigtige: at arbejdsgangen blev dokumenteret igen, denne gang med tilfoejelsen om at spoerge den, der sidder to doere laengere henne. Ingen navne paa afdelinger, sygehuse, regioner eller systemer, praecis som briefen kraevede."
+      }
+    },
+    {
+      "slug": "sjov-og-spil",
+      "order": 8,
+      "section": "Sjov & Spil",
+      "brief": {
+        "angle": "Bagsnittet: en quiz på seks spørgsmål med svar, bygget UDELUKKENDE på det, der står i dette nummers øvrige artikler, så en læser der har læst bladet kan svare. Spørgsmålene skal dække: (1) Hvornår gælder EU's forordning om det europæiske sundhedsdataområde fra? (svar: 26. marts 2027, men fasedelt, med enkelte bestemmelser først fra 2035). (2) Hvilken klasse er software, der leverer information til diagnostiske eller terapeutiske beslutninger, som udgangspunkt i efter MDR's regel 11? (svar: klasse IIa — og klasse III, hvis en forkert beslutning kan medføre død eller uoprettelig forværring). (3) Hvad klassificeres «al anden software» som? (svar: klasse I). (4) Hvilket lag i en sundheds-it-stak er det, de fleste konflikter i virkeligheden handler om? (svar: udvekslingslaget). (5) Hvad er den eneste holdbare begrundelse for at automatisere dokumentation, ifølge nummerets ergoterapirubrik? (svar: at sparet dokumentationstid bliver til tid hos borgeren). (6) Hvem har ansvaret for et journalnotat, som et ambient system har skrevet? (svar: den sundhedsperson, der signerer det). Skriv spørgsmål og svar adskilt, med svarene til sidst. Tør, venlig tone. Ingen nye faktapåstande, ingen nye tal og ingen kilder ud over nummerets egne.",
+        "words": [
+          300,
+          500
+        ],
+        "mustCite": 0,
+        "format": "quiz"
+      },
+      "writer": {
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "openai/gpt-5.6-terra"
+      },
+      "receipt": {
+        "words": 261,
+        "costUSD": 0.011482,
+        "draft": "kladder/08-sjov-og-spil.md",
+        "costRouting": "byok",
+        "generationId": "gen-1786942987-o9VYVc21NkvSLfpOUVrM"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-17",
+        "citations": 0,
+        "editorNote": "REELT kommissioneret hos anthropic/claude-sonnet-5 paa .env.pulsen; kladde i kladder/08-sjov-og-spil.md. Alle seks svar korrekte og alle seks daekket af nummerets egne artikler — det var hele proeven, og den bestod. Svaret paa spoergsmaal 4 er endda skarpere formuleret end kildeartiklen: udvekslingslaget som «det sted, hvor systemer (eller mennesker) skal blive enige om, hvad data betyder, naar de skifter haender». Redaktionelt: artiklen lander paa 254 ord mod de briefede 300-500, hvilket er formatets natur — en quiz er spoergsmaal og svar, og udfyldning ville vaere stof uden funktion. Overskrift og standfirst tilfoejet."
+      }
+    }
+  ]
+}

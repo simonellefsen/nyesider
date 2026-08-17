@@ -1,13 +1,4 @@
----
-title: "Fire lag, og den ene konflikt"
-standfirst: «Journalsystem» dækker mindst fire forskellige lag. Ni ud af ti fastlåste diskussioner om sundheds-it handler i virkeligheden om det tredje.
-byline: "Claude Sonnet 5 (Anthropic)"
-section: Feature · Systemer
-order: 5
-image: ../images/pulsen2_stak.png
-imageCredit: "AI-genereret motiv (Imagine / xAI)"
-imageSource: "https://x.ai/"
----
+# Fire lag, ét ord
 
 Når en kliniker siger «journalsystem», mener hun ofte noget helt konkret: skærmbilledet hun sidder foran, felterne hun taster ind i, knapperne der virker eller ikke virker. Når en it-arkitekt siger det samme ord, tænker han måske på databasen, der ligger et helt andet sted, driftet af en helt anden aktør. De taler forbi hinanden — og det er ikke en misforståelse, der kan ryddes af vejen med bedre kommunikation. Det er fordi «journalsystem» dækker mindst fire forskellige lag, som sjældent følges ad.
 
@@ -19,13 +10,13 @@ Når en kliniker siger «journalsystem», mener hun ofte noget helt konkret: sk�
 
 **Lag 4: Anvendelseslaget.** Det, klinikeren rent faktisk klikker i. Dette lag kan i princippet leveres af en helt anden aktør end de tre øvrige — en app eller en brugerflade, der «taler» med lagringslaget bagved gennem udvekslingslaget, uden selv at eje en eneste byte af de underliggende data.
 
-### Hvorfor lag 3 er kernen i de fleste konflikter
+## Hvorfor lag 3 er kernen i de fleste konflikter
 
 Pointen er denne: de fleste konflikter om sundheds-it handler i virkeligheden om lag 3, uden at parterne altid ved det. Det er relativt let at skifte anvendelseslag — en ny brugerflade kan i teorien indføres uden at røre databasen. Det er stort set umuligt at skifte lagringslag, fordi det kræver at flytte selve dataene og den juridiske forpligtelse, der følger med dem. Og hvis udvekslingslaget ikke er standardiseret — hvis der ikke findes fælles formater og fælles regler for, hvad der skal deles og hvordan — så er man reelt bundet til én leverandør, uanset hvad der står i kontrakten. Fri konkurrence på anvendelseslaget hjælper ikke, hvis udvekslingslaget er lukket.
 
-Det er netop her, EHDS (European Health Data Space, det europæiske sundhedsdataområde) kommer ind, [som beskrevet andetsteds i dette nummer](/pulsen/2026-08-nr2/ehds-og-data). EU-forordningen regulerer specifikt udvekslingslaget: den stiller krav om, at elektroniske patientjournal-systemer (EPJ) skal kunne dele bestemte data i standardiserede formater. Men de krav gælder først fra midten og slutningen af dette årti — reglerne træder i kraft i etaper frem mod 2029 og 2031. Indtil da forbliver lag 3 primært et forhandlingsspørgsmål mellem købere og leverandører snarere end et lovkrav, man kan påberåbe sig.
+Det er netop her, EHDS (European Health Data Space, det europæiske sundhedsdataområde) kommer ind, som beskrevet andetsteds i dette nummer. EU-forordningen regulerer specifikt udvekslingslaget: den stiller krav om, at elektroniske patientjournal-systemer (EPJ) skal kunne dele bestemte data i standardiserede formater. Men de krav gælder først fra midten og slutningen af dette årti — reglerne træder i kraft i etaper frem mod 2029 og 2031. Indtil da forbliver lag 3 primært et forhandlingsspørgsmål mellem købere og leverandører snarere end et lovkrav, man kan påberåbe sig.
 
-### Hvorfor «nordisk» dukker op
+## Hvorfor «nordisk» dukker op
 
 I diskussioner om dataudveksling optræder ordet «nordisk» ofte som eksempel — ikke fordi et bestemt projekt nødvendigvis er dokumenteret, men fordi de nordiske lande generelt har sammenlignelige registerstrukturer og en tradition for personnumre, der gør det teknisk enklere at forestille sig, at data i princippet kunne følge en patient på tværs af landegrænser. Det er en strukturel pointe om, hvad der gør udveksling lettere at tænke sig — ikke en påstand om, at et konkret system allerede gør det i dag.
 

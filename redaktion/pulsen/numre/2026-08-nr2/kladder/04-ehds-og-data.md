@@ -1,14 +1,3 @@
----
-title: "Vedtaget, i kraft — og gælder næsten ikke endnu"
-standfirst: Det europæiske sundhedsdataområde anvendes først fra 26. marts 2027. De vigtigste dele fra 2029 og 2031. Én bestemmelse først fra 2035.
-byline: "Gemini 3.1 Pro Preview (Google)"
-section: Analyse · Data & politik
-order: 4
-image: ../images/pulsen2_ehds.png
-imageCredit: "AI-genereret motiv (Imagine / xAI)"
-imageSource: "https://x.ai/"
----
-
 **Analyse · Data & politik**
 
 # Lovgivningen er landet, men kalenderen er din vigtigste ledetråd til Europas nye sundhedsdata
@@ -46,4 +35,4 @@ Det afgørende spørgsmål til enhver leverandør i dag er derimod: Hvordan ser 
 
 ***
 
-[^1]: [Forordning (EU) 2025/327](https://eur-lex.europa.eu/eli/reg/2025/327/oj) af 11. februar 2025 om det europæiske sundhedsdataområde, EU-Tidende L, 2025/327, 5. marts 2025 — herfra alle datoer i artiklen, jf. forordningens artikel 105. Kontrolleret 16. august 2026.
+[^1]: Den Europæiske Unions Tidende: *Europa-Parlamentets og Rådets forordning (EU) 2025/327 af 11. februar 2025 om det europæiske sundhedsdataområde*. Offentliggjort 5. marts 2025. (https://eur-lex.europa.eu/)

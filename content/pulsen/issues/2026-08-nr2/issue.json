@@ -4,11 +4,19 @@
   "title": "PULSEN · Nr. 2 · August 2026",
   "issueTheme": "Når tasterne bliver stille",
   "published": "2026-08-01",
-  "status": "draft",
+  "status": "published",
   "pdf": null,
-  "productionCostUSD": null,
+  "productionCostUSD": 0.2176,
   "cover": "images/pulsen_cover.png",
   "images": [
+    "images/pulsen2_ambient.png",
+    "images/pulsen2_ehds.png",
+    "images/pulsen2_ergo.png",
+    "images/pulsen2_leder.png",
+    "images/pulsen2_mdr.png",
+    "images/pulsen2_quiz.png",
+    "images/pulsen2_stak.png",
+    "images/pulsen2_vandre.png",
     "images/pulsen_cover.png"
   ],
   "backCoverPromise": "PULSEN nr. 3 følger op, når ambient-driften har talt — og når Corti næste gang rører ved børsen.",
@@ -17,73 +25,109 @@
       "slug": "leder",
       "file": "articles/01-leder.md",
       "order": 1,
-      "title": "Når tasterne bliver stille",
       "section": "Leder",
-      "standfirst": "Ambient AI er på vej fra pilot til hverdag."
+      "title": "Når tasterne bliver stille",
+      "standfirst": "Journalnotatet begynder at skrive sig selv. To EU-forordninger afgør, hvor hurtigt det må gå — og den ene har en frist helt ude i 2035.",
+      "image": "../images/pulsen2_leder.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/",
+      "words": 477
     },
     {
       "slug": "ambient-fra-pilot-til-drift",
       "file": "articles/02-ambient-fra-pilot-til-drift.md",
       "order": 2,
-      "title": "Fra pilot til stuegang — ambient AI i 2026",
       "section": "Feature · Ambient AI",
-      "standfirst": "AI-scribes ruller ud i europæisk klinik. Danmark tester, og dokumentationsbyrden er endelig til forhandling."
+      "title": "Afstanden mellem pilot og drift",
+      "standfirst": "I en pilot læser lægen hvert ord. I drift gør hun ikke — og ansvaret for notatet flytter sig ikke en millimeter.",
+      "image": "../images/pulsen2_ambient.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/",
+      "words": 635,
+      "byline": "Claude Opus 4.8 (Anthropic)"
     },
     {
       "slug": "mdr-muren",
       "file": "articles/03-mdr-muren.md",
       "order": 3,
-      "title": "MDR-muren — hvorfor gode idéer dør i venteværelset",
       "section": "Analyse · Regulering",
-      "standfirst": "EU's regler for medicinsk udstyr koster tid og penge, de fleste startups ikke har."
+      "title": "Sætningen, der er en mur",
+      "standfirst": "«All other software is classified as class I.» Regel 11 i EU's forordning om medicinsk udstyr afgør, om et klinisk værktøj kan erklære sig selv i overensstemmelse — eller skal have et bemyndiget organ ind over.",
+      "image": "../images/pulsen2_mdr.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/",
+      "words": 580,
+      "byline": "Claude Opus 4.8 (Anthropic)"
     },
     {
       "slug": "ehds-og-data",
       "file": "articles/04-ehds-og-data.md",
       "order": 4,
-      "title": "EHDS — når patientdata skal kunne rejse",
       "section": "Analyse · Data & politik",
-      "standfirst": "Det europæiske sundhedsdataområde: deling til behandling og forskning. Tillid er den knappe ressource."
+      "title": "Vedtaget, i kraft — og gælder næsten ikke endnu",
+      "standfirst": "Det europæiske sundhedsdataområde anvendes først fra 26. marts 2027. De vigtigste dele fra 2029 og 2031. Én bestemmelse først fra 2035.",
+      "image": "../images/pulsen2_ehds.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/",
+      "words": 713,
+      "byline": "Gemini 3.1 Pro Preview (Google)"
     },
     {
       "slug": "nordisk-stak",
       "file": "articles/05-nordisk-stak.md",
       "order": 5,
-      "title": "Den nordiske stak — modul for modul",
       "section": "Feature · Systemer",
-      "standfirst": "I stedet for ét kæmpesystem forsøger Norden at bygge sundheds-AI som legoklodser."
+      "title": "Fire lag, og den ene konflikt",
+      "standfirst": "«Journalsystem» dækker mindst fire forskellige lag. Ni ud af ti fastlåste diskussioner om sundheds-it handler i virkeligheden om det tredje.",
+      "image": "../images/pulsen2_stak.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/",
+      "words": 624,
+      "byline": "Claude Sonnet 5 (Anthropic)"
     },
     {
       "slug": "ergoterapi-2035",
       "file": "articles/06-ergoterapi-2035.md",
       "order": 6,
-      "title": "Nyt fra ergoterapien: 2035-bomben er allerede tændt",
       "section": "Nyt fra ergoterapien",
-      "standfirst": "Flere 80+-årige, pressede kommuner og en faggruppe midt mellem hjælpemidler, hjem og teknologi."
+      "title": "Det, der ikke kan struktureres",
+      "standfirst": "De data, der er lette at dele, er dem, der allerede har en fast form. En borger, der kan gå ud til postkassen, men ikke tilbage igen uden pause, passer ikke i noget felt.",
+      "image": "../images/pulsen2_ergo.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/",
+      "words": 555,
+      "byline": "Claude Sonnet 5 (Anthropic)"
     },
     {
       "slug": "vandrehistorier",
       "file": "articles/07-vandrehistorier.md",
       "order": 7,
+      "section": "Vandrehistorier fra vagtstuen",
       "title": "Vandrehistorier fra vagtstuen",
-      "section": "Vandrehistorier fra vagtstuen"
-    },
-    {
-      "slug": "rygteboersen",
-      "file": "articles/08-rygteboersen.md",
-      "order": 8,
-      "title": "Rygtebørsen",
-      "section": "Rygtebørsen"
+      "standfirst": "Systemet skriver med. Det gør kollegaen to døre længere henne også — og hun svarer hurtigere.",
+      "image": "../images/pulsen2_vandre.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/",
+      "words": 570,
+      "byline": "GPT-5.6 Terra (OpenAI)",
+      "flow": true
     },
     {
       "slug": "sjov-og-spil",
-      "file": "articles/09-sjov-og-spil.md",
-      "order": 9,
-      "title": "Skarpe hjerner, stille taster",
-      "section": "Sjov & Spil"
+      "file": "articles/08-sjov-og-spil.md",
+      "order": 8,
+      "section": "Sjov & Spil",
+      "title": "Sjov & Spil: seks spørgsmål",
+      "standfirst": "Har du læst nummeret? Så kan du svare på alle seks.",
+      "image": "../images/pulsen2_quiz.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/",
+      "words": 254,
+      "byline": "Claude Sonnet 5 (Anthropic)",
+      "flow": true
     }
   ],
   "imageCredits": "Forside: genbrugt nr. 1-illustration.",
-  "unpublishedReason": "Afpubliceret 2026-08-08. Nummeret blev udgivet med byline-kreditering til navngivne modeller, men der findes slet ingen bestilling.json for nummeret — hverken brief, kladde, forbrug eller verdikt. Det bryder forlagets foerste non-negotiable (ingen artikel udgives uden en bestilling). OpenRouter-forbruget paa titlens egen noegle stammer fra juli-numrene, ikke fra dette. Skal produceres forfra — uden byline, indtil en reel forfatter kan dokumenteres. Se CLAUDE.md og redaktion/README.md.",
-  "unpublishedAt": "2026-08-08"
+  "coverCredit": "AI-genereret forside (Imagine / xAI) — når tasterne bliver stille",
+  "coverSource": "https://x.ai/"
 }

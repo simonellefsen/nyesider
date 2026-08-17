@@ -1,15 +1,6 @@
----
-title: "Sætningen, der er en mur"
-standfirst: «All other software is classified as class I.» Regel 11 i EU's forordning om medicinsk udstyr afgør, om et klinisk værktøj kan erklære sig selv i overensstemmelse — eller skal have et bemyndiget organ ind over.
-byline: "Claude Opus 4.8 (Anthropic)"
-section: Analyse · Regulering
-order: 3
-image: ../images/pulsen2_mdr.png
-imageCredit: "AI-genereret motiv (Imagine / xAI)"
-imageSource: "https://x.ai/"
----
+# Reglen der afgør prisen på klinisk software
 
-### Analyse · Regulering
+## Analyse · Regulering
 
 Der findes en sætning i EU's forordning om medicinsk udstyr, som afgør, hvor dyrt og hvor langsomt det er at sætte klinisk software i drift. Den hedder regel 11 og står i bilag VIII til forordning (EU) 2017/745 — Medical Device Regulation (MDR), EU's forordning om medicinsk udstyr.[^1]
 
@@ -17,17 +8,17 @@ Reglen er kort, men konsekvenserne er ikke. Software, der er beregnet til at lev
 
 > «All other software is classified as class I.»
 
-### Hvorfor det er et spring, ikke en glidning
+## Hvorfor det er et spring, ikke en glidning
 
 Klasse I kan producenten som hovedregel selv erklære overensstemmelse for. Producenten udarbejder sin tekniske dokumentation, underskriver en overensstemmelseserklæring og sætter CE-mærket på. Det er producentens eget ansvar — men det kræver ikke, at en tredjepart siger god for produktet.
 
 Fra klasse IIa og opefter skal et bemyndiget organ (notified body — en uafhængig instans udpeget til at vurdere overensstemmelse) ind over. Det udløser dokumentation, revision og en ekstern vurdering, før produktet lovligt kan sættes i drift.
 
-Det er her, sætningen bliver en mur. Forskellen mellem *«systemet skriver ned, hvad der blev sagt»* og *«systemet foreslår noget, lægen bruger i en beslutning»* er ikke en gradsforskel i produktet. Det er et spring i regulering. Et [ambient-værktøj](/pulsen/2026-08-nr2/ambient-fra-pilot-til-drift) — software, der i baggrunden lytter til en konsultation og transskriberer — kan i den ene ende af skalaen være en ren dokumentationshjælp — al anden software, klasse I. Tilføjer man et lag, der leverer information til en diagnostisk eller terapeutisk beslutning, er man ovre grænsen: klasse IIa, bemyndiget organ, den fulde procedure.
+Det er her, sætningen bliver en mur. Forskellen mellem *«systemet skriver ned, hvad der blev sagt»* og *«systemet foreslår noget, lægen bruger i en beslutning»* er ikke en gradsforskel i produktet. Det er et spring i regulering. Et ambient-værktøj (software, der i baggrunden lytter til en konsultation og transskriberer) kan i den ene ende af skalaen være en ren dokumentationshjælp — al anden software, klasse I. Tilføjer man et lag, der leverer information til en diagnostisk eller terapeutisk beslutning, er man ovre grænsen: klasse IIa, bemyndiget organ, den fulde procedure.
 
 Produktet kan se ens ud på skærmen. Regulatorisk er det to forskellige verdener.
 
-### En læseregel til den kliniske leder
+## En læseregel til den kliniske leder
 
 Når et nyt værktøj bliver præsenteret, så stil to spørgsmål, før noget andet:
 
@@ -39,4 +30,4 @@ Vær opmærksom på det gråzoneagtige. Grænsen mellem «viser information» og
 
 Bemærk til slut, hvad denne artikel *ikke* siger: intet om sagsbehandlingstider, antal bemyndigede organer, gebyrer eller konkrete afgørelser. De tal er notorisk forældede, og der påstås intet her. Reglen selv er derimod stabil — og den er nok til at forklare, hvorfor to værktøjer, der ligner hinanden, kan koste vidt forskelligt at bringe i drift.
 
-[^1]: Europa-Parlamentets og Rådets forordning (EU) 2017/745 af 5. april 2017 om medicinsk udstyr (MDR), bilag VIII, regel 11. Konsolideret tekst på [EUR-Lex](https://eur-lex.europa.eu/eli/reg/2017/745/oj), udgave 02017R0745-20250110, kontrolleret 16. august 2026.
+[^1]: Europa-Parlamentets og Rådets forordning (EU) 2017/745 af 5. april 2017 om medicinsk udstyr (MDR), bilag VIII, regel 11. Konsolideret tekst tilgængelig via EUR-Lex: https://eur-lex.europa.eu/eli/reg/2017/745/oj

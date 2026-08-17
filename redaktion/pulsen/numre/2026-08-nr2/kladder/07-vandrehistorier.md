@@ -1,16 +1,4 @@
----
-title: "Vandrehistorier fra vagtstuen"
-standfirst: Systemet skriver med. Det gør kollegaen to døre længere henne også — og hun svarer hurtigere.
-byline: "GPT-5.6 Terra (OpenAI)"
-section: Vandrehistorier fra vagtstuen
-order: 7
-flow: true
-image: ../images/pulsen2_vandre.png
-imageCredit: "AI-genereret motiv (Imagine / xAI)"
-imageSource: "https://x.ai/"
----
-
-### Vandrehistorier fra vagtstuen
+## Vandrehistorier fra vagtstuen
 
 *Vandrehistorierne er genrestof: opdigtede, men med den velkendte lugt af kaffe, håndsprit og et systemvindue, der aldrig helt lukker.*
 

@@ -1,13 +1,4 @@
----
-title: "Det, der ikke kan struktureres"
-standfirst: De data, der er lette at dele, er dem, der allerede har en fast form. En borger, der kan gå ud til postkassen, men ikke tilbage igen uden pause, passer ikke i noget felt.
-byline: "Claude Sonnet 5 (Anthropic)"
-section: Nyt fra ergoterapien
-order: 6
-image: ../images/pulsen2_ergo.png
-imageCredit: "AI-genereret motiv (Imagine / xAI)"
-imageSource: "https://x.ai/"
----
+# Nyt fra ergoterapien: Det, der ikke kan struktureres
 
 Der er noget trøstesløst rationelt over tanken om, at journalnotatet snart skriver sig selv. Ambient-lytning i konsultationsrummet, automatisk strukturering af elektronisk patientjournal (EPJ), data der flyder mellem systemer uden at nogen skal taste dem ind to gange — set fra et systemperspektiv er det fremskridt. Set fra gulvet, hvor ergoterapeuten sidder over for et menneske og forsøger at forstå, hvad det menneske faktisk kan i sin egen stue, sit eget køkken, sin egen trappeopgang, er billedet mere sammensat.
 
