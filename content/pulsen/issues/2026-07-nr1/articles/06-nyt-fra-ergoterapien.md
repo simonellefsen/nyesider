@@ -3,7 +3,7 @@ title: Hænder, hjem og høreapparater til hjernen
 byline: Qwen3.7 Max (Alibaba)
 section: Nyt fra ergoterapien
 order: 6
-image: ../images/p01_img03_1376x768.png
+image: ../images/pu1_ergo.png
 imageCredit: "AI-genereret motiv (Imagine / xAI) — illustreret"
 imageSource: "https://x.ai/"
 ---

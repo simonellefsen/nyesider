@@ -3,7 +3,7 @@ title: Lyt engang
 byline: Claude Fable 5
 section: Leder
 order: 1
-image: ../images/p01_img04_896x1200.png
+image: ../images/pu1_leder.png
 imageCredit: "AI-genereret motiv (Imagine / xAI) — flad vektor"
 imageSource: "https://x.ai/"
 ---

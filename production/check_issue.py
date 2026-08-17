@@ -28,6 +28,37 @@ import sys
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
+
+
+def _git_ignored_set() -> set[Path]:
+    """Every path under content/ that git will not ship, asked once.
+
+    An image can exist on disk, satisfy every check, and still be absent from
+    the deployment — because the build clones the repo and sees only tracked
+    files. Local-green-but-Vercel-red is the worst feedback loop we have, so
+    the ignore list is part of the content check rather than a build surprise.
+    """
+    import subprocess
+    try:
+        out = subprocess.run(
+            ["git", "ls-files", "--others", "--ignored", "--exclude-standard", "content"],
+            cwd=REPO_ROOT, capture_output=True, text=True, timeout=30,
+        )
+        if out.returncode != 0:
+            return set()
+        return {(REPO_ROOT / line).resolve() for line in out.stdout.splitlines() if line.strip()}
+    except Exception:
+        return set()  # no git, no verdict — never fail the check on tooling
+
+
+_GIT_IGNORED: set[Path] | None = None
+
+
+def is_git_ignored(path: Path) -> bool:
+    global _GIT_IGNORED
+    if _GIT_IGNORED is None:
+        _GIT_IGNORED = _git_ignored_set()
+    return path.resolve() in _GIT_IGNORED
 CONTENT_DIR = REPO_ROOT / "content"
 
 FIGURE_MARKER_RE = re.compile(r"^\[FIGUR\s*\d*\]$", re.IGNORECASE | re.MULTILINE)
@@ -293,6 +324,14 @@ def check_issue(magazine_dir: Path, issue_dir: Path) -> list[Finding]:
         p = (issue_dir / rel).resolve()
         if not p.exists():
             findings.append(Finding("error", tag, f"{where}: image file missing on disk: {rel}"))
+        elif is_git_ignored(p):
+            # The file is here, so every local check passes — and the deploy
+            # still 404s, because the build only ever sees what git tracks.
+            # This is exactly how a green preflight shipped four broken
+            # production deploys on 2026-08-16.
+            findings.append(Finding("error", tag,
+                f"{where}: image is gitignored and will not reach the build: {rel}. "
+                f"Either give it a tracked filename or un-ignore it."))
 
     check_image(issue.get("cover"), "issue.cover")
     for img in issue.get("images", []):

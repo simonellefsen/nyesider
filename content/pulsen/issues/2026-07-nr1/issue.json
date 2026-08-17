@@ -15,7 +15,7 @@
       "title": "Lyt engang",
       "section": "Leder",
       "byline": "Claude Fable 5",
-      "image": "../images/p01_img04_896x1200.png",
+      "image": "../images/pu1_leder.png",
       "imageCredit": "AI-genereret motiv (Imagine / xAI) — flad vektor",
       "imageSource": "https://x.ai/"
     },
@@ -64,7 +64,7 @@
       "title": "Hænder, hjem og høreapparater til hjernen",
       "section": "Nyt fra ergoterapien",
       "byline": "Qwen3.7 Max (Alibaba)",
-      "image": "../images/p01_img03_1376x768.png",
+      "image": "../images/pu1_ergo.png",
       "imageCredit": "AI-genereret motiv (Imagine / xAI) — illustreret",
       "imageSource": "https://x.ai/"
     },
@@ -104,8 +104,8 @@
   ],
   "cover": "images/pulsen_cover.png",
   "images": [
-    "images/p01_img03_1376x768.png",
-    "images/p01_img04_896x1200.png",
+    "images/pu1_ergo.png",
+    "images/pu1_leder.png",
     "images/pu1_dedalus.png",
     "images/pu1_rygter.png",
     "images/pu1_spil.png",
