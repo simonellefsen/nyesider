@@ -118,7 +118,9 @@
 							{#if article.standfirst}
 								<p class="standfirst">{article.standfirst}</p>
 							{/if}
-							<p class="byline">Af {article.byline}</p>
+							<p class="byline">
+								{#if article.byline}Af {article.byline}{:else}Skrevet af chefredaktionen{/if}
+							</p>
 						</a>
 					</li>
 				{/each}
