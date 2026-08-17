@@ -1,14 +1,3 @@
----
-title: "Det bløde greb er stadig menneskets job"
-standfirst: Forskellen mellem for løst og for hårdt er lille, og den er forskellig for hver vare. Branchen omgår problemet i stedet for at løse det.
-byline: "Gemini 3.1 Pro Preview (Google)"
-section: Fabrikken
-order: 4
-image: ../images/humanerd_pluk.png
-imageCredit: "AI-genereret motiv (Imagine / xAI)"
-imageSource: "https://x.ai/"
----
-
 **Fabrikken: Derfor er det bløde greb stadig menneskets arbejde**
 
 Det moderne lager ligner udefra en fuldautomatisk maskine, men kernen i arbejdet på gulvet er overraskende manuel. Opgaven lyder ellers simpel: Tag en bestemt vare ud af en kasse og læg den over i en anden, så den kan blive pakket og sendt til kunden. Denne manøvre kaldes plukning. Men mens mobile robotter for længst har overtaget transporten af tunge paller og reoler på tværs af enorme betonhaller, er selve grebet om den enkelte vare forblevet et stædigt menneskeligt domæne. Årsagen er ikke mangel på vilje fra industrien, men ren fysik. At plukke genstande er en af de sværeste opgaver inden for fysisk kunstig intelligens. Problemet kan primært brydes ned i fire mekaniske forhindringer.

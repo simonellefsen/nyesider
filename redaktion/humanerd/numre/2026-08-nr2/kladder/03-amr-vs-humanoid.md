@@ -1,13 +1,4 @@
----
-title: "Hvorfor hjulene vinder i år"
-standfirst: Et lager er bygget til hjul. Ben løser et problem, lageret ikke har — og når en AMR fejler, står den stille, mens en tobenet robot falder.
-byline: "Claude Sonnet 5 (Anthropic)"
-section: Humanoiden
-order: 3
-image: ../images/humanerd_amr.png
-imageCredit: "AI-genereret motiv (Imagine / xAI)"
-imageSource: "https://x.ai/"
----
+# Hvorfor hjulene vinder i år
 
 Et lager er ikke et laboratorium. Det er en bygning, der er formet af årtiers logistik: plane betongulve, lige gange, reoler sat op efter paller og trucks. Når man spørger, om fremtidens lagerarbejder skal have hjul eller ben, er svaret derfor mindre et spørgsmål om teknologisk modenhed og mere et spørgsmål om, hvilken krop der passer til det rum, der allerede findes.
 

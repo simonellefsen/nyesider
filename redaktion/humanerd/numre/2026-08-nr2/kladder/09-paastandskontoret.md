@@ -1,15 +1,3 @@
----
-title: "Påstandskontoret"
-standfirst: Fire påstande om lagerrobotter, som hverken er helt sande eller helt falske.
-byline: "Gemini 3.1 Pro Preview (Google)"
-section: Påstandskontoret
-order: 9
-flow: true
-image: ../images/humanerd_bagsnit.png
-imageCredit: "AI-genereret motiv (Imagine / xAI)"
-imageSource: "https://x.ai/"
----
-
 I robotbranchen vokser myterne og hypen ofte langt hurtigere end de faktiske ordrebøger. Særligt når talen falder på fysisk kunstig intelligens og moderne lagerdrift, er det for mange let at forveksle en stramt redigeret demonstrationsvideo med stabil drift på et rigtigt lagergulv. I Påstandskontoret sorterer vi messeromantik fra praktisk anvendelse ved at se nærmere på udvalgte påstande om fremtidens forsyningskæder. Fælles for disse udsagn er, at de hverken er fundamentalt sande eller blankt falske.
 
 **«Lagre er fuldautomatiske i dag»**

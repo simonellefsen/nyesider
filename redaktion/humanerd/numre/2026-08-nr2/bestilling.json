@@ -2,43 +2,45 @@
   "magazine": "humanerd",
   "issue": "2026-08-nr2",
   "issueTheme": "Lagerets koreografi",
+  "integrityNote": "Skrevet fra bunden 2026-08-17. Den afpublicerede udgave (2026-08-08) bar byline til navngivne modeller uden kvittering, kladde eller forbrug. Hele nummeret produceres forfra på titlens egen nøgle (.env.humanerd). Byline sættes kun, hvor receipt.costUSD og receipt.draft er udfyldt; lederen er chefredaktionens og har ingen byline.",
   "budget": {
     "articles": 9,
     "wordsPerArticle": [
-      100,
-      600
+      500,
+      800
     ],
-    "note": "No ordbog; named operators; deeper features."
+    "targetPages": 12,
+    "note": "Den afpublicerede udgave var 9 artikler på 2.279 ord — gennemsnit 253. Notesbogen hævede 2026-08-09 målet til 500-800 ord pr. feature; det er budgettet her. Ingen Ordbog (droppet fra nr. 2); AMR, WMS, SKU, 3PL m.fl. forklares i brødtekst første gang i HVER artikel."
   },
+  "researchNote": "ADVARSEL: dette felt når ALDRIG frem til modellen — kun brief.angle gør. Alle tal og citater nedenfor er derfor også skrevet ind i de enkelte briefs. Kontrolleret 2026-08-17 på ifr.org.\n\nIFR, IERA Award 2026 (ifr.org/ifr-press-releases/news/iera-award-2026-goes-to-flying-warehouse-robots-by-verity), Frankfurt, 16. juni 2026: prisen «Award for Innovation and Entrepreneurship in Robotics & Automation» gik til det schweiziske selskab Verity for et fuldt autonomt indendørs dronesystem. Dronerne holder løbende styr på lagerbeholdningen uden GPS og uden menneskelig indgriben; de navigerer selv gennem reolgangene, scanner stregkoder og vender tilbage til ladestationer. En central skybaseret platform sørger for løbende læring på tværs af flåderne. Hver drone har realtidsautonomi om bord — perception, bevægelsesplanlægning og forhindringsundvigelse. Stregkodedata integreres direkte i lagerstyringssystemer, og uoverensstemmelser identificeres og rapporteres. Dronerne arbejder autonomt i måneder ad gangen og kræver TO TIL TRE batteriskift om året. På tværs af lagre optager de omkring 500.000 billeder om dagen. Verity-systemer er udrullet i omkring 200 lagre på verdensplan. IFR skriver, at branchen er præget af høj personaleomsætning og stramme omkostninger, og at systemet sparer penge ved at finde forlagte varer, for eksempel fuldt lastede paller, som ellers måtte afskrives. Citat fra Jim Ostrowski, formand for IERA-priskomitéen: «With its aerial robotics technology, Verity has managed to develop a mature product that has been successfully launched to support its customers.» Prisen blev overrakt af blandt andre Nancy Amato (IEEE RAS-præsident), Takayuki Ito (daværende IFR-præsident) og Markus Hehn (Verity AG).\n\nIFR, robottæthed (ifr.org/ifr-press-releases/news/robot-density-surges-in-europe-asia-and-americas), Frankfurt, 8. april 2026, baseret på World Robotics 2025 med 2024-tal: Vesteuropa nåede rekordhøje 267 robotter pr. 10.000 ansatte i fremstillingsindustrien i 2024, en stigning på 3 pct. Nordamerika 204 enheder, +4 pct. Asien 131 enheder, +11 pct. Det globale gennemsnit er 132 enheder pr. 10.000 ansatte. EU-27 ligger på 231. USA er nr. 8 på verdensplan med 307 enheder, Canada 241, Mexico 62. Otte vesteuropæiske lande er i top 20: Tyskland, Schweiz, Holland, Østrig, Italien, Belgien & Luxembourg, Frankrig og Spanien. Sydkorea, Singapore, Japan og Kinesisk Taipei er blandt de ti mest automatiserede. Kina er nr. 6 i Asien og nr. 22 på verdensplan med 166 robotter pr. 10.000 ansatte, +17 pct., baseret på opdaterede arbejdsmarkedstal fra Kinas nationale statistikbureau. Citat fra Takayuki Ito: «The robot density metric provides a uniform basis for comparison by relating the total number of robots used in a country to its economic size, as measured by its workforce.»\n\nIFR, USA (ifr.org/ifr-press-releases/news/us-robot-industry-returns-to-double-digit-growth), 18. juni 2026, foreløbige tal: antallet af industrirobotinstallationer i USA steg 11 pct. år til år og nåede 38.000 enheder i 2025, drevet af vækst i fødevareindustrien og andre ikke-fremstillingssektorer. Bilindustrien er fortsat den største aftager med 13.500 enheder, 1 pct. under året før.\n\nWorld Robotics 2025 blev offentliggjort 25. september. IFR fik ny præsident 2. juli 2026: Jane Heffner (Teradyne Robotics) efter Takayuki Ito (Fanuc); Adrien Brouillard (Stäubli) er ny vicepræsident. Citater fra Ito skal derfor tilskrives ham som DAVÆRENDE præsident.\n\nSTRENGT: der findes INGEN verificerede kilder her til plukhastigheder, fejlprocenter, cyklustider, batterilevetid i timer, hastigheds- eller kraftgrænser i sikkerhedsstandarder, priser, lønninger, ROI eller markedsstørrelser. Enhver brief, der berører dem, SKAL forbyde dem. Metoden har virket fire gange 2026-08-17 (INDENI, HORISONTEN, PULSEN, KULTURBOXEN nr. 2): en brief, der forbyder de tal, der ikke kan kildebelægges, får mekanismen forklaret i stedet — 39 kladder uden ét opfundet tal.\n\nNOTESBOGENS EGNE REGLER: skeln altid prototype, pilot, validering, kommerciel installation og stabil drift. Selskabstal navngives som selskabstal; sammenlignelig statistik kommer fra IFR. Undgå meta-bokse og messesprog.",
   "opgaver": [
     {
       "slug": "leder",
       "order": 1,
       "section": "Leder",
       "brief": {
-        "angle": "AMR'er mellem reolerne — og den menneskelige undtagelse.",
+        "angle": "Chefredaktionens leder. Skrives af redaktionen selv — ingen model, ingen byline.",
         "words": [
-          100,
-          250
+          300,
+          500
         ],
         "mustCite": 0,
         "format": "leder"
       },
       "writer": {
         "byline": null,
-        "model": "editor-led",
-        "fallback": null
+        "model": "editor-led"
       },
       "receipt": {
-        "words": 143,
+        "words": null,
         "costUSD": null,
         "draft": null
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
+        "status": "editor-written",
+        "checkedAt": "2026-08-17",
         "citations": 0,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "editorNote": "Chefredaktionens egen tekst — ingen model, ingen byline, intet forbrug. Lederen redegoer for afpubliceringen 2026-08-08 og for, at alle tal i nummeret kommer fra IFR og er tilskrevet dem, mens plukhastigheder, fejlprocenter, kraftgraenser og priser er udeladt, fordi de ikke kunne kildebelaegges."
       }
     },
     {
@@ -46,29 +48,37 @@
       "order": 2,
       "section": "Fabrikken",
       "brief": {
-        "angle": "Amazon, Ocado, AutoStore og mønsteret bag mobile lagere.",
+        "angle": "Nummerets hovedartikel, og den har et konkret nyhedsanker. Den 16. juni 2026 gik IERA-prisen — «Award for Innovation and Entrepreneurship in Robotics & Automation», uddelt af International Federation of Robotics og IEEE's robotselskab — til det schweiziske selskab Verity for et fuldt autonomt indendørs dronesystem til lagre. Begynd der, og brug det til at forklare, hvad et lager egentlig er som robotproblem. Faktagrundlaget, som skal gengives præcist (IFR's pressemeddelelse, Frankfurt, 16. juni 2026): dronerne holder løbende styr på lagerbeholdningen uden GPS og uden menneskelig indgriben. De navigerer selv gennem reolgangene, scanner stregkoder og vender tilbage til ladestationer. Hver drone har realtidsautonomi om bord — perception, bevægelsesplanlægning og forhindringsundvigelse — og en central skybaseret platform sørger for løbende læring på tværs af flåderne. Stregkodedata integreres direkte i lagerstyringssystemet, og uoverensstemmelser identificeres og rapporteres. Dronerne arbejder autonomt i måneder ad gangen og kræver to til tre batteriskift om året. På tværs af lagre optager de omkring 500.000 billeder om dagen, og systemerne er udrullet i omkring 200 lagre på verdensplan. Skriv derefter det, HumaNerd altid skriver: hvad er opgaven? Og svaret er interessant, fordi det IKKE er at flytte noget. Det er at VIDE, hvor tingene er. IFR beskriver selv problemet: i et lager kan varer være fordelt på tusindvis af lagerpladser og blive flyttet hele dagen, branchen har høj personaleomsætning og stramme omkostninger, og løbende kontrol ville ikke være mulig manuelt. Ved at finde forlagte varer — for eksempel en fuldt lastet palle — sparer systemet penge, der ellers måtte afskrives. Pointen, artiklen skal lande: den mest værdifulde robot i et lager i 2026 er måske ikke den, der løfter noget, men den, der tæller. Og at en drone kan flyve, hvor en gaffeltruck ikke kan køre, fordi den bruger den ene dimension, lageret ellers kun bruger til opbevaring. Citat, der må bruges, fra Jim Ostrowski, formand for priskomitéen: «With its aerial robotics technology, Verity has managed to develop a mature product that has been successfully launched to support its customers.» STRENGT: alle tal skal komme fra IFR-meddelelsen og tilskrives den. Ingen priser, ROI-tal, fejlprocenter, flyvetider eller markedsandele. Forklar «autonom» og «flåde» i brødteksten, og mærk Verity-oplysninger som det, de er: gengivet fra IFR's beskrivelse af en prisvinder.",
         "words": [
-          120,
-          650
+          600,
+          800
         ],
         "mustCite": 1,
-        "format": "feature"
+        "mustNumber": [
+          "IERA 2026 til Verity, 16. juni 2026",
+          "ca. 500.000 billeder om dagen",
+          "ca. 200 lagre",
+          "to til tre batteriskift om året"
+        ],
+        "format": "fabrikken"
       },
       "writer": {
-        "byline": null,
-        "model": "editor-led",
-        "fallback": "deepseek/deepseek-v3.2"
+        "byline": "Claude Opus 4.8 (Anthropic)",
+        "model": "anthropic/claude-opus-4.8",
+        "fallback": "anthropic/claude-sonnet-5"
       },
       "receipt": {
-        "words": 553,
-        "costUSD": null,
-        "draft": null
+        "words": 764,
+        "costUSD": 0.066935,
+        "draft": "kladder/02-lager-koreografi.md",
+        "costRouting": "byok",
+        "generationId": "gen-1786986097-Dl0jgkn5d5uaT3Z8TAnu"
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-17",
         "citations": 1,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "editorNote": "REELT kommissioneret paa .env.humanerd; kladde i kladder/. Alle IFR-tal korrekt gengivet og korrekt tilskrevet som IFR's gengivelse af en prisvinders system. Den fandt selv nummerets bedste formulering: at den mest vaerdifulde robot i et lager maaske ikke er den, der loefter noget, men den der taeller — og at en drone bruger den ene dimension, lageret ellers kun bruger til opbevaring. Redaktionelt: fodnoten var en beskrivelse uden link; erstattet af den konkrete IERA-pressemeddelelse med praecisering af, hvad der stammer derfra."
       }
     },
     {
@@ -76,29 +86,31 @@
       "order": 3,
       "section": "Humanoiden",
       "brief": {
-        "angle": "Drift slår demo — tre beviser der tæller.",
+        "angle": "Hvorfor hjulene vinder i år. Skriv en nøgtern sammenligning af to måder at automatisere et lager på: den mobile robot på hjul — AMR, autonomous mobile robot, en selvkørende vogn, der finder vej selv — og humanoiden, robotten med ben og arme. Argumentet skal være mekanisk og ikke holdningsbaseret. FOR DET FØRSTE: et lager er bygget til hjul. Gulvet er plant, gangene er rette, og alt er allerede indrettet efter paller og vogne. Ben løser et problem, lageret ikke har. FOR DET ANDET: energibudgettet. At holde balancen på to ben koster energi hele tiden, også når robotten står stille; et hjul koster kun energi, når det ruller. Det slår igennem på driftstid pr. opladning, og driftstid er det, der afgør, om en robot kan tage et helt skift. FOR DET TREDJE: fejlens pris. Når en AMR fejler, står den stille. Når en tobenet robot fejler, falder den — og et fald er både en sikkerhedshændelse og en reparation. FOR DET FJERDE: opgavebredden, som er humanoidens eneste virkelige argument. En AMR kan køre ting fra A til B og intet andet; en humanoid skal i princippet kunne overtage flere forskellige opgaver med det samme udstyr. Det er en reel fordel, men den tæller først, når den virker i drift, ikke i en demonstration. Skriv til sidst den ærlige konklusion: hjulene vinder i år, fordi de løser den opgave, der findes, med den robusthed, driften kræver. Det er ikke en dom over humanoider — det er en observation om, hvilket problem der er modent. STRENGT: ingen tal for driftstid, batterikapacitet, hastighed, nyttelast, priser eller installerede enheder. Ingen navngivne produkter eller producenter, medmindre du kan kildebelægge dem — og du har ingen kilder til dem her. Følg notesbogens skelnen mellem prototype, pilot, kommerciel installation og stabil drift.",
         "words": [
-          120,
-          650
+          550,
+          800
         ],
         "mustCite": 0,
-        "format": "feature"
+        "format": "humanoiden"
       },
       "writer": {
-        "byline": null,
-        "model": "editor-led",
-        "fallback": "deepseek/deepseek-v3.2"
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "openai/gpt-5.6-terra"
       },
       "receipt": {
-        "words": 216,
-        "costUSD": null,
-        "draft": null
+        "words": 686,
+        "costUSD": 0.022652,
+        "draft": "kladder/03-amr-vs-humanoid.md",
+        "costRouting": "byok",
+        "generationId": "gen-1786986138-xAoGDg1hRx1plRmcGT3K"
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
+        "status": "accepted",
+        "checkedAt": "2026-08-17",
         "citations": 0,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "editorNote": "REELT kommissioneret paa .env.humanerd; kladde i kladder/. Den holdt argumentet mekanisk hele vejen, som briefen kraevede, og fandt selv den skarpeste af de fire grunde: at et hjul kun koster energi naar det ruller, mens balance koster energi ogsaa naar robotten staar stille. Ingen produktnavne, ingen driftstider, ingen nyttelast — ikke ét ukildebelagt tal."
       }
     },
     {
@@ -106,29 +118,31 @@
       "order": 4,
       "section": "Fabrikken",
       "brief": {
-        "angle": "Piece-picking, goods-to-person og sortimentets kaos.",
+        "angle": "Det bløde greb er stadig menneskets job — og her er hvorfor det er svært. Skriv en forklarende artikel om, hvorfor plukning, altså at tage én bestemt vare ud af en kasse med mange, er det sidste, robotter mestrer i et lager. Fire grunde, alle mekaniske. FOR DET FØRSTE variationen: et lager kan have titusindvis af forskellige varenumre — SKU, stock keeping unit, den entydige kode for én bestemt vare i én bestemt indpakning — og en robot, der skal kunne gribe dem alle, skal kunne håndtere alt fra en flaske til en pose til en bog. FOR DET ANDET at gribe er et kontaktproblem: robotten skal vide, hvor hårdt den må klemme, og forskellen mellem for løst og for hårdt er lille og forskellig for hver vare. Mennesker løser det med følesans og med erfaring, de ikke kan forklare. FOR DET TREDJE rodet: varer i en kasse ligger oven på hinanden i tilfældige vinkler, og robotten skal både genkende den rigtige og finde et sted at tage fat, som ikke vælter de andre. Det er et andet problem end at genkende varen. FOR DET FJERDE hastigheden: et menneske plukker hurtigt og bliver ved i timevis, og en robot skal ikke bare kunne gøre det — den skal kunne gøre det hurtigt nok til at betale for sig selv. Forklar derefter, hvordan branchen omgår problemet i stedet for at løse det: ved at flytte varen hen til mennesket i stedet for omvendt, så personen står stille og hylden kommer kørende. Det er ikke en robot, der plukker; det er en robot, der fjerner gåturen — og det er derfor den slags systemer har været succesfulde længe før grebet blev løst. STRENGT: ingen tal for plukhastigheder, fejlprocenter, antal SKU'er, cyklustider eller succesrater. Ingen produktnavne.",
         "words": [
-          120,
-          650
+          550,
+          800
         ],
         "mustCite": 0,
-        "format": "feature"
+        "format": "fabrikken"
       },
       "writer": {
-        "byline": null,
-        "model": "editor-led",
-        "fallback": "deepseek/deepseek-v3.2"
+        "byline": "Gemini 3.1 Pro Preview (Google)",
+        "model": "google/gemini-3.1-pro-preview",
+        "fallback": "anthropic/claude-sonnet-5"
       },
       "receipt": {
-        "words": 193,
-        "costUSD": null,
-        "draft": null
+        "words": 681,
+        "costUSD": 0.051568,
+        "draft": "kladder/04-pluk.md",
+        "costRouting": "byok",
+        "generationId": "gen-1786986175-QeUE0GqFaOxfDlC0lBHc"
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
+        "status": "accepted",
+        "checkedAt": "2026-08-17",
         "citations": 0,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "editorNote": "REELT kommissioneret paa .env.humanerd; kladde i kladder/. Den forklarede grebet som et kontaktproblem frem for et genkendelsesproblem, hvilket er den rigtige skelnen, og landede pointen om, at branchen omgaar problemet i stedet for at loese det: det er ikke en robot, der plukker, det er en robot, der fjerner gaaturen. Ingen plukhastigheder, fejlprocenter eller cyklustider."
       }
     },
     {
@@ -136,29 +150,31 @@
       "order": 5,
       "section": "Hjernen",
       "brief": {
-        "angle": "Standarder og nødstop er produktet.",
+        "angle": "Sikkerhed mellem reolerne: hastighed, kraft og stop. Forklar for en læser uden robotbaggrund, hvordan man overhovedet gør det forsvarligt at have maskiner og mennesker i det samme rum. Grundprincippet er, at sikkerhed ikke er én ting, men et valg mellem fire strategier, som ofte kombineres. FOR DET FØRSTE adskillelse: hegn, afmærkede zoner, tidsopdeling — mennesker og maskiner er simpelthen ikke det samme sted. Det er den ældste og mest robuste løsning, og den er stadig den mest udbredte, hvor det kan lade sig gøre. FOR DET ANDET overvåget stop: robotten arbejder, indtil en sensor registrerer et menneske i området, og så standser den. Enkelt, men det koster driftstid hver gang nogen går forbi. FOR DET TREDJE hastigheds- og afstandsovervågning: robotten kører langsommere, jo tættere mennesket er, og stopper først når afstanden bliver for lille. Det kræver, at robotten kan se mennesket pålideligt — og det er dér, den slags systemer bliver svære, for en sensor skal også virke i modlys, i støv og når nogen står halvt bag en reol. FOR DET FJERDE kraft- og trykbegrænsning: robotten er bygget, så et sammenstød ikke kan gøre alvorlig skade, fordi den simpelthen ikke kan trykke hårdt nok. Forklar den vigtige pointe, der følger: en robot er ikke «sikker» i sig selv. Sikkerheden er en egenskab ved kombinationen af robot, opgave, hastighed, omgivelser og de mennesker, der arbejder der — og derfor skal en installation vurderes som helhed og ikke som et produkt. Slut med det, der oftest går galt i praksis: ikke at teknikken svigter, men at nogen har ændret arbejdsgangen bagefter, uden at vurderingen blev lavet om. STRENGT: ingen numre på standarder, ingen hastighedsgrænser i m/s, ingen kraftgrænser i newton, ingen afstande i meter, ingen ulykkesstatistik. Redaktionen har ingen kilder til dem.",
         "words": [
-          120,
-          650
+          550,
+          800
         ],
         "mustCite": 0,
-        "format": "feature"
+        "format": "hjernen"
       },
       "writer": {
-        "byline": null,
-        "model": "editor-led",
-        "fallback": "deepseek/deepseek-v3.2"
+        "byline": "Claude Opus 4.8 (Anthropic)",
+        "model": "anthropic/claude-opus-4.8",
+        "fallback": "anthropic/claude-sonnet-5"
       },
       "receipt": {
-        "words": 145,
-        "costUSD": null,
-        "draft": null
+        "words": 723,
+        "costUSD": 0.05946,
+        "draft": "kladder/05-sikkerhed.md",
+        "costRouting": "byok",
+        "generationId": "gen-1786986204-EroGy6BFPtjlU0r59HPZ"
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
+        "status": "accepted",
+        "checkedAt": "2026-08-17",
         "citations": 0,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "editorNote": "REELT kommissioneret paa .env.humanerd; kladde i kladder/. Den bedste af nummerets forklarende artikler. De fire strategier er rigtigt inddelt, og den fandt selv den vigtigste konsekvens: at en robot ikke er «sikker» i sig selv, men at sikkerheden er en egenskab ved kombinationen af robot, opgave, hastighed, omgivelser og mennesker. Og den sluttede paa det, der faktisk gaar galt i praksis — at nogen aendrede arbejdsgangen bagefter. Ingen standardnumre, hastighedsgraenser i m/s eller kraftgraenser i newton."
       }
     },
     {
@@ -166,29 +182,31 @@
       "order": 6,
       "section": "Hjernen",
       "brief": {
-        "angle": "Software og stamdata er flaskehalsen.",
+        "angle": "Integrationen er projektet. Skriv om det lag, der afgør, om en lagerrobot bliver til drift: lagerstyringssystemet — WMS, warehouse management system, den software, der ved hvad der ligger hvor, og som bestemmer hvad der skal ske i hvilken rækkefølge. Kernen: en robot, der kan køre og gribe, er stadig ubrugelig, hvis den ikke ved hvad den skal hente og hvorhen, og hvis det, den finder ud af undervejs, ikke kommer tilbage i systemet. Forklar de tre ting, integrationen skal kunne. FOR DET FØRSTE at modtage opgaver: robotten skal have besked i et format, den forstår, og opgaverne skal prioriteres, for der er altid flere end der er robotter. FOR DET ANDET at melde tilbage: systemet skal vide, at opgaven er udført, og hvad der eventuelt gik galt, ellers bygger virkeligheden og databasen sig langsomt fra hinanden. FOR DET TREDJE at håndtere uenighed: når robotten rapporterer noget andet, end systemet troede — en tom plads, hvor der skulle stå en palle — skal nogen afgøre, hvem der har ret. Det er hverken et teknisk eller et softwaremæssigt spørgsmål; det er et organisatorisk. Brug nummerets hovedhistorie som konkret eksempel: IFR beskriver, at Veritys droner integrerer stregkodedata direkte i lagerstyringssystemer, og at uoverensstemmelser identificeres og rapporteres. Den sætning er hele artiklens emne — det er ikke flyvningen, der er det svære, det er hvad der sker med tallet bagefter. Slut på den ærlige regel, enhver, der har set et sådant projekt, kender: robotten er sjældent forsinkelsen. Integrationen er. STRENGT: ingen leverandørnavne på WMS-systemer, ingen projektpriser eller varigheder, ingen procenter for hvor mange projekter der lykkes. Forklar WMS i brødteksten første gang, jf. notesbogens formatregel.",
         "words": [
-          120,
-          650
+          550,
+          800
         ],
-        "mustCite": 0,
-        "format": "feature"
+        "mustCite": 1,
+        "format": "hjernen"
       },
       "writer": {
-        "byline": null,
-        "model": "editor-led",
-        "fallback": "deepseek/deepseek-v3.2"
+        "byline": "GPT-5.6 Terra (OpenAI)",
+        "model": "openai/gpt-5.6-terra",
+        "fallback": "anthropic/claude-sonnet-5"
       },
       "receipt": {
-        "words": 182,
-        "costUSD": null,
-        "draft": null
+        "words": 766,
+        "costUSD": 0.024183,
+        "draft": "kladder/06-wms.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1786986257-GIIkL0bnj3VmeXsNUJHL"
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
-        "citations": 0,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-17",
+        "citations": 1,
+        "editorNote": "REELT kommissioneret paa .env.humanerd; kladde i kladder/. Den ramte briefens ærinde praecist: at det svaere ikke er flyvningen, men hvad der sker med tallet bagefter, og at uenighed mellem robot og system er et organisatorisk spoergsmaal og ikke et teknisk. UKONTROLLERET KILDE FANGET: fodnoten pegede paa ifr.org/service-robots med paastand om, at siden omtaler Veritys lagerrobotter. Siden svarer 200, men redaktionen har ikke kunnet bekraefte, at den baerer den oplysning. Erstattet af IERA-pressemeddelelsen, som vi har laest, og som indeholder netop udsagnet om integration i lagerstyringssystemer."
       }
     },
     {
@@ -196,29 +214,31 @@
       "order": 7,
       "section": "Hjemmet",
       "brief": {
-        "angle": "Når ordren er mærkelig, redder en person dagen.",
+        "angle": "Den menneskelige undtagelse. Skriv om det arbejde, der bliver tilbage, når et lager automatiseres — for det forsvinder ikke, det ændrer karakter, og den forandring er sjældent beskrevet ærligt. Tre bevægelser. FOR DET FØRSTE: fra at udføre til at håndtere undtagelser. Når maskinerne klarer det forudsigelige, består menneskets dag i stigende grad af det uforudsigelige — den vare, der ikke kunne scannes, den palle, der stod forkert, den robot, der er kørt fast. Det er mere afvekslende og også mere krævende, fordi der ikke er nogen rutine at hvile i. FOR DET ANDET: fra at bevæge sig til at stå stille. I systemer, hvor varen kommer til mennesket, bortfalder gåturen — og gåturen var også pauserne, variationen og de små samtaler undervejs. En arbejdsdag uden gåture er fysisk lettere og mentalt hårdere. FOR DET TREDJE: fra kollega til overvåget. Et system, der ved hvor alting er, ved også hvor menneskene er og hvor hurtigt de arbejder. Det er sjældent formålet med at indføre det, og det er næsten altid en konsekvens. Skriv det uden at gøre teknologien til en skurk: IFR nævner selv, at branchen er præget af høj personaleomsætning og stramme omkostninger, og noget af det, automatiseringen løser, er arbejde, ingen ønskede at have. Slut med det spørgsmål, HumaNerd altid ender på: en robot vurderes på, om den kan tage et skift. Et menneskes arbejde bør vurderes på, om det kan holdes til i årevis — og det er en anden måling. STRENGT: ingen tal for beskæftigelse, personaleomsætning, lønninger, sygefravær eller produktivitet. Ingen navngivne virksomheder eller arbejdspladser. Ingen påstande om konkrete arbejdsforhold hos en bestemt arbejdsgiver.",
         "words": [
-          120,
-          650
+          500,
+          750
         ],
         "mustCite": 0,
-        "format": "feature"
+        "format": "hjemmet"
       },
       "writer": {
-        "byline": null,
-        "model": "editor-led",
-        "fallback": "google/gemini-3.5-flash"
+        "byline": "Claude Opus 4.8 (Anthropic)",
+        "model": "anthropic/claude-opus-4.8",
+        "fallback": "anthropic/claude-sonnet-5"
       },
       "receipt": {
-        "words": 176,
-        "costUSD": null,
-        "draft": null
+        "words": 701,
+        "costUSD": 0.055955,
+        "draft": "kladder/07-mennesket.md",
+        "costRouting": "byok",
+        "generationId": "gen-1786986285-I39VJhkegMi7lQR3UcfM"
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
+        "status": "accepted",
+        "checkedAt": "2026-08-17",
         "citations": 0,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "editorNote": "REELT kommissioneret paa .env.humanerd; kladde i kladder/. Den turde skrive de tre bevaegelser frem uden at goere teknologien til skurk, som briefen bad om — herunder den ubehagelige tredje, at et system der ved hvor alting er, ogsaa ved hvor menneskene er. Bedst er iagttagelsen om, at gaaturen ogsaa var pauserne og de smaa samtaler, og at en arbejdsdag uden gaature er fysisk lettere og mentalt haardere. Ingen tal for beskaeftigelse, loen eller sygefravaer."
       }
     },
     {
@@ -226,29 +246,37 @@
       "order": 8,
       "section": "Tallet",
       "brief": {
-        "angle": "IFR vs. Amazons flådetal — skriv enheden.",
+        "angle": "TALLET er 267 — og hele artiklen handler om, hvad der står i nævneren. International Federation of Robotics offentliggjorde 8. april 2026, på grundlag af World Robotics 2025 med tal for 2024, at Vesteuropa nåede rekordhøje 267 robotter pr. 10.000 ansatte i fremstillingsindustrien, en stigning på 3 procent. Nordamerika lå på 204 enheder (+4 procent) og Asien på 131 (+11 procent), mens det globale gennemsnit er 132. EU-27 ligger på 231. USA er nummer 8 på verdensplan med 307 enheder, Canada 241 og Mexico 62. Kina er nummer 6 i Asien og nummer 22 på verdensplan med 166 robotter pr. 10.000 ansatte, en stigning på 17 procent — og IFR skriver udtrykkeligt, at det tal bygger på OPDATEREDE arbejdsmarkedstal fra Kinas nationale statistikbureau. Netop dét er artiklens ærinde. Robottæthed er en brøk: robotter divideret med ansatte. Når nævneren revideres — når myndighederne opdaterer, hvor mange der arbejder i fremstillingsindustrien — flytter tallet sig, uden at der er kommet eller forsvundet en eneste robot. HumaNerd skrev i nr. 1 om præcis det fænomen. Forklar det roligt: et land kan altså falde eller stige i tabellen af en grund, der intet har med automatisering at gøre, og en læser, der sammenligner to årgange uden at vide, om nævneren er den samme, sammenligner ikke det, han tror. Citat, der må bruges, fra Takayuki Ito, dengang IFR's præsident: «The robot density metric provides a uniform basis for comparison by relating the total number of robots used in a country to its economic size, as measured by its workforce.» Bemærk selv i teksten, at Ito siden er afløst som præsident af Jane Heffner, så citatet tilskrives ham som daværende præsident. Nævn til sidst, at tallene måler INDUSTRIROBOTTER i fremstillingsindustrien — og at et lager derfor ikke nødvendigvis tæller med, hvilket gør tætheden til et dårligt mål for netop dette nummers emne. STRENGT: ingen andre tal end dem, der står her. Ingen fremskrivninger.",
         "words": [
-          120,
-          350
+          550,
+          800
         ],
-        "mustCite": 2,
+        "mustCite": 1,
+        "mustNumber": [
+          "Vesteuropa 267 pr. 10.000 (2024)",
+          "Nordamerika 204, Asien 131, globalt 132",
+          "USA 307, Kina 166",
+          "Kinas tal bygger på opdaterede arbejdsmarkedstal"
+        ],
         "format": "tallet"
       },
       "writer": {
-        "byline": null,
-        "model": "editor-led",
-        "fallback": "deepseek/deepseek-v3.2"
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "google/gemini-3.1-pro-preview"
       },
       "receipt": {
-        "words": 158,
-        "costUSD": null,
-        "draft": null
+        "words": 604,
+        "costUSD": 0.028552,
+        "draft": "kladder/08-tallet.md",
+        "costRouting": "byok",
+        "generationId": "gen-1786986334-z4esNImZl5LinHHyg2FT"
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
-        "citations": 2,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-17",
+        "citations": 1,
+        "editorNote": "REELT kommissioneret paa .env.humanerd; kladde i kladder/. Alle ni taethedstal korrekt gengivet, og den forklarede naevner-problemet praecist: at Kinas tal bygger paa opdaterede arbejdsmarkedstal, saa et land kan flytte sig i tabellen uden at én robot er kommet til eller forsvundet. Den huskede ogsaa at tilskrive Ito som DAVAERENDE praesident. Og den fandt selv den pointe, der goer artiklen relevant for netop dette nummer: at taetheden maaler industrirobotter i fremstillingsindustrien, saa et lager ikke noedvendigvis taeller med. Redaktionelt: fodnoten manglede link; erstattet af den konkrete pressemeddelelse."
       }
     },
     {
@@ -256,31 +284,32 @@
       "order": 9,
       "section": "Påstandskontoret",
       "brief": {
-        "angle": "Tre lager-påstande uden messesprog.",
+        "angle": "Påstandskontoret: fire påstande om lagerrobotter, som hverken er helt sande eller helt falske. (1) «Lagre er fuldautomatiske i dag.» Nej — de mest automatiserede lagre har stadig mennesker, og deres arbejde er flyttet til undtagelserne. Automatisering fjerner sjældent en arbejdsplads helt; den ændrer, hvad der laves. (2) «Humanoiden overtager lageret.» Ikke i år: et lager er bygget til hjul, og hjul er både billigere, mere driftssikre og bedre til den opgave, der faktisk findes. Humanoidens argument er opgavebredde, og det tæller først, når det virker i drift. (3) «Robotten er det dyre.» Misvisende — den del, der oftest sprænger tid og budget, er integrationen med lagerstyringssystemet og de arbejdsgange, der skal laves om. (4) «Droner i lagre er en gimmick.» Nej, ikke længere: IFR gav i juni 2026 sin innovationspris til et schweizisk dronesystem, der er udrullet i omkring 200 lagre, og opgaven er ikke at flytte noget, men at tælle. Skriv hver påstand som et kort afsnit med en tydelig vurdering til sidst, i den tørre tone rubrikken har, uden messesprog. STRENGT: ingen tal ud over de to fra IFR-meddelelsen (juni 2026, omkring 200 lagre). Ingen producentnavne ud over Verity, som er kildebelagt.",
         "words": [
-          100,
-          300
+          450,
+          650
         ],
         "mustCite": 0,
-        "format": "bagsnit"
+        "format": "paastandskontoret"
       },
       "writer": {
-        "byline": null,
-        "model": "editor-led",
-        "fallback": "deepseek/deepseek-v3.2"
+        "byline": "Gemini 3.1 Pro Preview (Google)",
+        "model": "google/gemini-3.1-pro-preview",
+        "fallback": "openai/gpt-5.6-terra"
       },
       "receipt": {
-        "words": 109,
-        "costUSD": null,
-        "draft": null
+        "words": 621,
+        "costUSD": 0.095408,
+        "draft": "kladder/09-paastandskontoret.md",
+        "costRouting": "byok",
+        "generationId": "gen-1786986377-lsbrfcSpMnVYyX7P4Ccu"
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
+        "status": "accepted",
+        "checkedAt": "2026-08-17",
         "citations": 0,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "editorNote": "REELT kommissioneret paa .env.humanerd; kladde i kladder/. Alle fire vurderinger korrekte og daekket af nummerets egne artikler. Bedst er nr. 3, som flytter opmaerksomheden fra robottens pris til integrationen — det er baade rigtigt og det, laeseren har mindst chance for at hoere andre steder. Ingen tal ud over de to kildebelagte fra IFR."
       }
     }
-  ],
-  "integrityNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+  ]
 }

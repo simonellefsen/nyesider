@@ -21,6 +21,52 @@ Vi bruger "fysisk AI" som en forklaring, ikke som en magisk etiket: en robot ska
 
 ## Udgivne numre
 
+### Nr. 2 — “Lagerets koreografi” — GENOPBYGGET OG GENUDGIVET 2026-08-17
+
+9 artikler, **5.878 ord** (var 2.279 ord — gns. 253). Otte artikler reelt kommissioneret på
+`.env.humanerd`; lederen er chefredaktionens og har **ingen byline**. Samlet forbrug **0,40 USD**.
+`check_issue.py`: **0 fejl, 0 advarsler.** `bestilling.json` under `numre/2026-08-nr2/`.
+
+**Nummeret fik et rigtigt nyhedsanker undervejs.** Researchen fandt, at IERA-prisen 2026 —
+uddelt af IFR og IEEE's robotselskab — gik til det schweiziske Verity for et autonomt
+indendørs dronesystem (Frankfurt, 16. juni 2026). Det ændrede hovedartiklen fra en generisk
+lagerfeature til en historie med dato, kilde og en pointe: **den mest værdifulde robot i et
+lager er måske ikke den, der løfter noget, men den der tæller.** Verificerede tal derfra:
+dronerne arbejder i måneder ad gangen med to til tre batteriskift om året, optager omkring
+500.000 billeder om dagen på tværs af lagre, og er udrullet i omkring 200 lagre.
+
+Alle tal i nummeret kommer fra IFR og er tilskrevet dem — i tråd med formatreglen om at
+skelne selskabstal fra IFR-statistik. Verity-oplysningerne er desuden mærket som **IFR's
+gengivelse af en prisvinders system**, ikke som uafhængigt bekræftede driftstal.
+
+### Hvad faktatjekket fangede
+
+- **En kilde, der svarer 200 uden at bære påstanden.** WMS-kladden henviste til
+  `ifr.org/service-robots` med påstand om, at siden omtaler Veritys lagerrobotter. Siden findes,
+  men det kunne ikke bekræftes. Erstattet af IERA-pressemeddelelsen, som redaktionen har læst,
+  og som indeholder netop udsagnet om integration i lagerstyringssystemer.
+- **To fodnoter uden link**, som blev erstattet af de konkrete pressemeddelelser.
+
+### Metoden, der nu har virket fem gange
+
+INDENI, HORISONTEN, PULSEN, KULTURBOXEN og HumaNerd nr. 2: **en brief, der forbyder de tal, der
+ikke kan kildebelægges, får mekanismen forklaret i stedet.** Her var forbuddet plukhastigheder,
+fejlprocenter, cyklustider, hastigheds- og kraftgrænser, priser og ROI — og otte kladder kom hjem
+uden ét opfundet tal. Fem af otte gik ind praktisk taget uredigeret.
+
+### Tallet: pas på nævneren
+
+IFR's robottæthed (8. april 2026, World Robotics 2025 med 2024-tal): Vesteuropa 267 pr. 10.000
+ansatte, Nordamerika 204, Asien 131, globalt 132, EU-27 231, USA 307, Kina 166. **Kinas tal bygger
+på opdaterede arbejdsmarkedstal fra landets statistikbureau** — samme nævner-fænomen som nr. 1
+beskrev. Bemærk også, at tætheden måler industrirobotter i fremstillingsindustrien, så et lager
+ikke nødvendigvis tæller med; det gør målet dårligt egnet til netop dette nummers emne, og det
+står i artiklen.
+
+**Personskifte til fremtidige citater:** IFR fik ny præsident 2. juli 2026 — Jane Heffner
+(Teradyne Robotics) efter Takayuki Ito (Fanuc). Ældre Ito-citater skal tilskrives ham som
+*daværende* præsident.
+
 - **(2026-08) Nr. 2 — “Lagerets koreografi”**: AMR’er, Amazon/Ocado/AutoStore som eksempler, pluk, WMS, sikkerhed, den menneskelige undtagelse. Uden ordbog. `bestilling.json` under `numre/2026-08-nr2/`.
 - **(2026-08) Nr. 1 — “Robotter på arbejde”**: humanoider og andre robotter i fabrik, lager og hjem. Nummeret kortlægger markedet, AI-stakken og forskellen mellem feltforsøg og drift.
   **Genopbygget 2026-08-09:** 11 artikler / 6.630 ord (var 12 / 2.924). Ordbogen fjernet. Ti artikler

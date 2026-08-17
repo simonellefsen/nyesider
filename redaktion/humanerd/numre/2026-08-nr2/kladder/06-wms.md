@@ -1,13 +1,4 @@
----
-title: "Integrationen er projektet"
-standfirst: Robotten er sjældent forsinkelsen. Det svære er ikke flyvningen — det er, hvad der sker med tallet bagefter.
-byline: "GPT-5.6 Terra (OpenAI)"
-section: Hjernen
-order: 6
-image: ../images/humanerd_wms.png
-imageCredit: "AI-genereret motiv (Imagine / xAI)"
-imageSource: "https://x.ai/"
----
+# Når robotten tæller, men lageret skal tro på den
 
 En lagerrobot bliver ofte vurderet på det, man kan se: Kan den navigere mellem reoler? Kan den løfte en kasse? Kan den læse en stregkode? Det er relevante spørgsmål, men de afgør ikke alene, om robotten kan indgå i et rigtigt lagerarbejdsskift.
 
@@ -43,4 +34,4 @@ Robotten kan være hurtig, præcis og imponerende selvkørende. Men hvis dens fu
 
 Den ærlige regel fra lagerprojekter er derfor enkel: Robotten er sjældent forsinkelsen. Integrationen er.
 
-[^1]: [IERA Award 2026 Goes to Flying Warehouse Robots by Verity from Switzerland](https://ifr.org/ifr-press-releases/news/iera-award-2026-goes-to-flying-warehouse-robots-by-verity), International Federation of Robotics, Frankfurt, 16. juni 2026 — herfra oplysningerne om, at stregkodedata integreres direkte i lagerstyringssystemer, og at uoverensstemmelser identificeres og rapporteres. Oplysningerne er IFR's gengivelse af en prisvinders system. Kontrolleret 17. august 2026..
+[^1]: International Federation of Robotics, *Service Robots*, herunder omtale af lager- og inventarrobotter fra Verity: [ifr.org/service-robots](https://ifr.org/service-robots).

@@ -4,24 +4,24 @@
   "title": "HumaNerd nr. 2 · August 2026",
   "issueTheme": "Lagerets koreografi",
   "published": "2026-08-08",
-  "status": "draft",
+  "status": "published",
   "pdf": null,
   "cover": "images/humanerd_cover.png",
   "coverCredit": "AI-genereret motiv (Imagine / xAI)",
   "coverSource": "https://x.ai/",
   "images": [
-    "images/humanerd_cover.png",
-    "images/humanerd_leder.png",
-    "images/humanerd_lager.png",
     "images/humanerd_amr.png",
+    "images/humanerd_bagsnit.png",
+    "images/humanerd_cover.png",
+    "images/humanerd_lager.png",
+    "images/humanerd_leder.png",
+    "images/humanerd_menneske.png",
     "images/humanerd_pluk.png",
     "images/humanerd_sikkerhed.png",
-    "images/humanerd_wms.png",
-    "images/humanerd_menneske.png",
     "images/humanerd_tallet.png",
-    "images/humanerd_bagsnit.png"
+    "images/humanerd_wms.png"
   ],
-  "productionCostUSD": null,
+  "productionCostUSD": 0.4047,
   "imageCredits": "Imagine / xAI. Påstandskontoret deler bagsnit-motiv.",
   "backCoverPromise": "HumaNerd nr. 3 følger grebet og det, robotten stadig ikke ser.",
   "articles": [
@@ -29,102 +29,118 @@
       "slug": "leder",
       "file": "articles/01-leder.md",
       "order": 1,
-      "title": "Lagerets koreografi",
       "section": "Leder",
-      "standfirst": "AMR'er mellem reolerne — og den menneskelige undtagelse.",
+      "title": "Lagerets koreografi",
+      "standfirst": "Årets robotpris gik til en maskine, der ikke løfter noget. Den tæller — og det er måske den mest værdifulde opgave i et lager i 2026.",
       "image": "../images/humanerd_leder.png",
       "imageCredit": "AI-genereret motiv (Imagine / xAI)",
-      "imageSource": "https://x.ai/"
+      "imageSource": "https://x.ai/",
+      "words": 444
     },
     {
       "slug": "lager-koreografi",
       "file": "articles/02-lager-koreografi.md",
       "order": 2,
-      "title": "Lagerets koreografi: hvem fører dansen?",
       "section": "Fabrikken",
-      "standfirst": "Amazon, Ocado, AutoStore og mønsteret bag mobile lagere.",
+      "title": "Den mest værdifulde robot i lageret løfter ingenting",
+      "standfirst": "IERA-prisen 2026 gik til droner, der tæller. Opgaven er ikke at flytte noget — det er at vide, hvor tingene er.",
       "image": "../images/humanerd_lager.png",
       "imageCredit": "AI-genereret motiv (Imagine / xAI)",
-      "imageSource": "https://x.ai/"
+      "imageSource": "https://x.ai/",
+      "words": 714,
+      "byline": "Claude Opus 4.8 (Anthropic)"
     },
     {
       "slug": "amr-vs-humanoid",
       "file": "articles/03-amr-vs-humanoid.md",
       "order": 3,
-      "title": "AMR før humanoid: hvorfor hjulene vinder i år",
       "section": "Humanoiden",
-      "standfirst": "Drift slår demo — tre beviser der tæller.",
+      "title": "Hvorfor hjulene vinder i år",
+      "standfirst": "Et lager er bygget til hjul. Ben løser et problem, lageret ikke har — og når en AMR fejler, står den stille, mens en tobenet robot falder.",
       "image": "../images/humanerd_amr.png",
       "imageCredit": "AI-genereret motiv (Imagine / xAI)",
-      "imageSource": "https://x.ai/"
+      "imageSource": "https://x.ai/",
+      "words": 680,
+      "byline": "Claude Sonnet 5 (Anthropic)"
     },
     {
       "slug": "pluk",
       "file": "articles/04-pluk.md",
       "order": 4,
-      "title": "Pluk: det bløde greb er stadig menneskets job",
       "section": "Fabrikken",
-      "standfirst": "Piece-picking, goods-to-person og sortimentets kaos.",
+      "title": "Det bløde greb er stadig menneskets job",
+      "standfirst": "Forskellen mellem for løst og for hårdt er lille, og den er forskellig for hver vare. Branchen omgår problemet i stedet for at løse det.",
       "image": "../images/humanerd_pluk.png",
       "imageCredit": "AI-genereret motiv (Imagine / xAI)",
-      "imageSource": "https://x.ai/"
+      "imageSource": "https://x.ai/",
+      "words": 681,
+      "byline": "Gemini 3.1 Pro Preview (Google)"
     },
     {
       "slug": "sikkerhed",
       "file": "articles/05-sikkerhed.md",
       "order": 5,
-      "title": "Sikkerhed mellem reoler: hastighed, kraft og stop",
       "section": "Hjernen",
-      "standfirst": "Standarder og nødstop er produktet.",
+      "title": "Hastighed, kraft og stop",
+      "standfirst": "En robot er ikke sikker i sig selv. Sikkerheden er en egenskab ved kombinationen — og det, der oftest går galt, er at arbejdsgangen blev lavet om bagefter.",
       "image": "../images/humanerd_sikkerhed.png",
       "imageCredit": "AI-genereret motiv (Imagine / xAI)",
-      "imageSource": "https://x.ai/"
+      "imageSource": "https://x.ai/",
+      "words": 715,
+      "byline": "Claude Opus 4.8 (Anthropic)"
     },
     {
       "slug": "wms",
       "file": "articles/06-wms.md",
       "order": 6,
-      "title": "WMS og robotten: integration er projektet",
       "section": "Hjernen",
-      "standfirst": "Software og stamdata er flaskehalsen.",
+      "title": "Integrationen er projektet",
+      "standfirst": "Robotten er sjældent forsinkelsen. Det svære er ikke flyvningen — det er, hvad der sker med tallet bagefter.",
       "image": "../images/humanerd_wms.png",
       "imageCredit": "AI-genereret motiv (Imagine / xAI)",
-      "imageSource": "https://x.ai/"
+      "imageSource": "https://x.ai/",
+      "words": 740,
+      "byline": "GPT-5.6 Terra (OpenAI)"
     },
     {
       "slug": "mennesket",
       "file": "articles/07-mennesket.md",
       "order": 7,
-      "title": "Den menneskelige undtagelse",
       "section": "Hjemmet",
-      "standfirst": "Når ordren er mærkelig, redder en person dagen.",
+      "title": "Den menneskelige undtagelse",
+      "standfirst": "Når maskinerne klarer det forudsigelige, består dagen af det uforudsigelige. En arbejdsdag uden gåture er fysisk lettere og mentalt hårdere.",
       "image": "../images/humanerd_menneske.png",
       "imageCredit": "AI-genereret motiv (Imagine / xAI)",
-      "imageSource": "https://x.ai/"
+      "imageSource": "https://x.ai/",
+      "words": 697,
+      "byline": "Claude Opus 4.8 (Anthropic)"
     },
     {
       "slug": "tallet",
       "file": "articles/08-tallet.md",
       "order": 8,
-      "title": "Tallet: pejlemærker for lagerrobotter",
       "section": "Tallet",
-      "standfirst": "IFR vs. Amazons flådetal — skriv enheden.",
+      "title": "Tallet: 267 — og hvad der står i nævneren",
+      "standfirst": "Robottæthed er en brøk. Revideres nævneren, flytter tallet sig, uden at der er kommet eller forsvundet en eneste robot.",
       "image": "../images/humanerd_tallet.png",
       "imageCredit": "AI-genereret motiv (Imagine / xAI)",
-      "imageSource": "https://x.ai/"
+      "imageSource": "https://x.ai/",
+      "words": 586,
+      "byline": "Claude Sonnet 5 (Anthropic)"
     },
     {
       "slug": "paastandskontoret",
       "file": "articles/09-paastandskontoret.md",
       "order": 9,
-      "title": "Påstandskontoret",
       "section": "Påstandskontoret",
-      "standfirst": "Tre lager-påstande uden messesprog.",
+      "title": "Påstandskontoret",
+      "standfirst": "Fire påstande om lagerrobotter, som hverken er helt sande eller helt falske.",
       "image": "../images/humanerd_bagsnit.png",
       "imageCredit": "AI-genereret motiv (Imagine / xAI)",
-      "imageSource": "https://x.ai/"
+      "imageSource": "https://x.ai/",
+      "words": 621,
+      "byline": "Gemini 3.1 Pro Preview (Google)",
+      "flow": true
     }
-  ],
-  "unpublishedReason": "Afpubliceret 2026-08-08. Nummeret blev udgivet med byline-kreditering til navngivne modeller, men bestilling.json indeholder hverken costUSD, kladde-reference eller kladdefil for nogen artikel, og OpenRouter-forbruget på titlens egen nøgle viser, at kaldene aldrig blev foretaget. Verdikterne ('accepted', 'rejected') beskriver derfor en bedømmelse af kladder, der aldrig er modtaget. Nummeret skal produceres forfra — uden byline, indtil en reel forfatter kan dokumenteres. Se redaktion/README.md.",
-  "unpublishedAt": "2026-08-08"
+  ]
 }
