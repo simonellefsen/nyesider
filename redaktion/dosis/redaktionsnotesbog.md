@@ -108,8 +108,68 @@ DOI-metadata. Kildekontrol er ikke mistillid — det er den eneste måde at skel
 ## Nr. 3 — udgivet
 
 **Tema:** Søvnen, der ikke kan stikkes  
-11 artikler: leder, søvn-som-tilskud, timer, melatonin, hygiejne, tracker, søvn+GLP-1, tallet, ordbog, rygtebørs, til PULSEN.  
-`bestilling.json`: `redaktion/dosis/numre/2026-08-nr3/bestilling.json`.
+**Genopbygget 2026-08-18:** 13 artikler / 7.603 ord (var 11 / 1.552 — gennemsnit 141 ord pr. artikel,
+det tyndeste nummer i hele porteføljen). Ordbogen fjernet. Tolv artikler reelt kommissioneret på
+`.env.dosis`; lederen er chefredaktionens uden byline. Forbrug **0,5669 USD**. Tre nye motiver
+(Imagine): sundhedsprofil (geometrisk), melatonin til børn (illustreret), søvnapnø (abstrakt).
+
+Den planlagte udgave lå med `status: scheduled` og `published: 2026-08-15` og bar byline til **elleve
+navngivne modeller uden en eneste kvittering, kladde eller registreret forbrug**. Den var altså ikke
+omfattet af afpubliceringen 8. august, men bar nøjagtig samme fejl — og var på vej i produktion.
+Lære: **rullen den 8. august fangede det, der var udgivet, ikke det, der lå i kø.** Når et sådant fund
+gøres igen, skal `status: scheduled` og `draft` gennemgås i samme omgang som `published`.
+
+### Læring fra genopbygningen af nr. 3 (2026-08-18)
+
+**Danmark havde ingen officiel anbefaling for voksnes søvnlængde før 2024.** Sundhedsstyrelsens
+«Anbefalinger for søvnlængde» er senest opdateret 4. november 2025 og giver 7–9 timer til 18–64-årige
+og 7–8 timer til 65+. Det er et *interval*. Den internationale konsensus (Watson m.fl., AASM og SRS,
+*J Clin Sleep Med* 2015;11(6):591–592) siger «mindst 7 timer» — en *nedre grænse*. De to udsagn er
+ikke ens, og forskellen er den slags, der forsvinder i referatet. Modellen fandt selv skellet; det
+stod ikke i briefet.
+
+**To gættede URL'er i én kladde — begge i den samme artikel.** `melatonin-boern` linkede til
+`sundhedsdatastyrelsen.dk/da/sundhedsdata-og-registere/sundhedsdatabanken` (**404**) og til en
+opdigtet sti under Lægemiddelstyrelsens `/tilskud/tilskud-til-medicin/`. Den rigtige side ligger under
+`/tilskud/individuelle-tilskud/enkelttilskud/vejledende-kriterier/soevnproblemer-hos-boern-og-unge-melatonin/`.
+Begge blev fanget af den faste URL-kontrol før accept. Mønstret er nu set i næsten hvert nummer:
+**modeller gætter myndigheders stier ud fra emnet, og de gætter plausibelt.**
+
+**Cochrane og Wiley svarer 412, ikke 404.** `doi.org/10.1002/14651858.CD001520` rapporteres som
+**DEAD 412 Precondition Failed** af `check_links.py`, og cochranelibrary.com omdirigerer til
+`?cookiesEnabled`. DOI'en er korrekt — CSL-JSON giver «Melatonin for the prevention and treatment of
+jet lag», *Cochrane Database of Systematic Reviews*, 22. april 2002. Tilføj **412** til listen over
+bot-blokeringer sammen med 403/406/429; det er ikke et dødt link.
+
+**Tirzepatid er en injektion, ikke en pille.** En kladde åbnede med «en pille, der gjorde noget ved
+selve tilstanden» og kaldte placebo en «sukkerpille». Rettet. Fejltypen er værd at huske: modellen
+lånte det mest almindelige billede af «medicin» i stedet for det, kilden faktisk beskriver.
+
+**Metoden med de forbudte tal virkede sjette gang.** Briefene forbød udtrykkeligt danske
+søvnapnø-prævalenstal, ventetider, CPAP-antal, priser, nøjagtighedstal for wearables og enhver dosis
+til læseren — fordi ingen af dem kunne kildebelægges. Tolv kladder, ikke ét opfundet tal.
+(Samme resultat som INDENI, HORISONTEN, PULSEN, KULTURBOXEN og HumaNerd nr. 2.)
+
+**Melatonin er nummerets bedste historie, og den er regulatorisk.** Stoffet er receptpligtigt i
+Danmark og må ikke tilsættes kosttilskud (Lægemiddelstyrelsen, 29. august 2025, i forbindelse med en
+undersøgelse af 24 søvnkosttilskud uden fund af udeklarerede lægemiddelstoffer). Samtidig har EU en
+godkendt sundhedsanprisning for melatonin **som fødevare** ved 1 mg pr. portion (forordning 432/2012,
+på EFSA-udtalelserne 2011;9(6):2241 og 2010;8(2):1467). EFSA svarer på «kan effekten dokumenteres?»,
+Lægemiddelstyrelsen på «hvad slags produkt er det?». Begge har ret. Bemærk termen: **sundheds­anprisning**
+er forordningens danske ord, ikke «sundhedspåstand».
+
+**Danske melatonintal til børn:** 13.226 brugere 0–17 år i 2020, 24.651 i 2024, 27.662 i 2025
+(Sundhedsdatastyrelsens sundhedsdatabank, gengivet af TV 2 i maj 2026). Tilskudsreglerne kræver
+mindst **fire ugers søvnhygiejne** uden tilstrækkelig effekt først, søvnregistrering 14 dage før og
+efter, bevilling i 12 måneder og **beskrivelse af en medicinpause** ved forlængelse. Myndigheden har
+altså bygget «prøv adfærd først» og «hold pause og se efter» ind i selve tilskudsreglen.
+
+**Søvnbesvær er et socialt tal.** Statens Institut for Folkesundhed, Ugens tal nr. 17, 22. april 2026,
+på Den Nationale Sundhedsprofil 2025 (over 135.000 svar): meget generet af søvnproblemer inden for 14
+dage steg fra 10,2 % (2010) til 16,3 % (2025). Kvinder 19,6 %, mænd 12,9 %. Grundskole 21,2 % mod lang
+videregående 11,6 %. Beskæftigede 14,2 %, arbejdsløse 29,8 %, førtidspensionister 38,8 %. Det er
+**selvrapporteret gene**, ikke målt søvn — og en stigning kan også afspejle, at det er blevet mere
+legitimt at svare ja.
 
 ## Nr. 4 — kandidater
 
@@ -147,3 +207,7 @@ Fact-check obligatorisk før accept (se [redaktion/README](../README.md)). Medic
   sammenholdes med det, fodnoten påstår. To ud af fire var forkerte i første forsøg.
 
 - **2026-08-09:** Nr. 2 genopbygget og genudgivet efter afpubliceringen 2026-08-08. Se læringen ovenfor.
+
+- **2026-08-18:** Nr. 3 genopbygget og udgivet efter at have ligget i kø med elleve udokumenterede
+  bylines. Se læringen ovenfor. Ny fast note til kildekontrollen: **412 er bot-blokering, ikke et dødt
+  link** (Wiley/Cochrane).

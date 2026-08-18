@@ -2,345 +2,474 @@
   "magazine": "dosis",
   "issue": "2026-08-nr3",
   "issueTheme": "Søvnen, der ikke kan stikkes",
-  "retrofitNote": "At publish 2026-08-08.",
+  "integrityNote": "Skrevet fra bunden 2026-08-18. Den planlagte udgave (status: scheduled, published: 2026-08-15) bar byline til elleve navngivne modeller uden en eneste kvittering, kladde eller registreret forbrug — samme mønster som de 17 numre, der blev afpubliceret 2026-08-08. Hele nummeret produceres forfra på titlens egen nøgle (.env.dosis). Byline sættes kun, hvor receipt.costUSD og receipt.draft er udfyldt; lederen er chefredaktionens og har ingen byline.",
   "budget": {
-    "articles": 11,
+    "articles": 13,
     "wordsPerArticle": [
-      50,
-      400
+      550,
+      800
     ],
-    "targetPages": 12,
-    "note": "11 arts sleep package"
+    "targetPages": 16,
+    "note": "Den planlagte udgave var 11 artikler på 1.552 ord — gennemsnit 141 pr. artikel, det tyndeste nummer i hele porteføljen. Budgettet her er 550-800 ord pr. feature, som i nr. 1 og nr. 2 efter genopbygningen. Ordbogen er droppet (format afskaffet 2026-08-08); til gengæld er der tre nye features, fordi researchen bar dem: den danske sundhedsprofil, melatonin til børn og soevnapnoe. Rygtebørs og kryds deler ét bagsnit-motiv."
   },
+  "researchNote": "ADVARSEL: dette felt naar ALDRIG frem til modellen — kun brief.angle goer. Alle tal og citater nedenfor er derfor ogsaa skrevet ind i de enkelte briefs. Alt kontrolleret 2026-08-18.\n\nDANSKE ANKRE\n1) Sundhedsstyrelsen, «Anbefalinger for soevnlaengde» (sst.dk/vidensbase/forebyggelse/anbefalinger-for-soevnlaengde), senest opdateret 4. november 2025. Danmark havde INGEN officiel anbefaling for soevnlaengde til voksne foer 2024 — den kom for foerste gang i 2024. Tabellen: 0-3 mdr. 14-17 t/doegn; 4-11 mdr. 12-15 t; 1-2 aar 11-14 t; 3-5 aar 10-13 t; 6-13 aar 9-11 t; 14-17 aar 8-10 t; 18-25 aar 7-9 t; 26-64 aar 7-9 t; 65+ 7-8 t. SST's eget forbehold: «Der er tale om generelle anbefalinger», og behovet «vil variere mellem individer og afhaenger af flere forhold, herunder helbredstilstand, livsstil og alder.»\n\n2) Statens Institut for Folkesundhed, SDU, «Ugens tal» nr. 17, udgivet 22. april 2026 (sdu.dk/da/sif/ugens_tal/ut_17_flere_danskere_sover_daarligt), baseret paa Den Nationale Sundhedsprofil 2025 med svar fra over 135.000 personer paa 16 aar og derover. Andelen «meget generet af soevnproblemer eller soevnbesvaer inden for de seneste 14 dage»: 10,2 pct. i 2010 -> 16,3 pct. i 2025. Kvinder 19,6 pct., maend 12,9 pct. Grundskole som hoejeste uddannelse 21,2 pct. mod 11,6 pct. blandt personer med lang videregaaende uddannelse. Beskaeftigede 14,2 pct., arbejdsloese 29,8 pct., foertidspensionister 38,8 pct.\n\n3) Melatonin i Danmark. Laegemiddelstyrelsen, nyhed 29. august 2025 (laegemiddelstyrelsen.dk/da/nyheder/2025/ny-undersoegelse-kosttilskud-til-soevnregulering-indeholder-ingen-udeklarerede-laegemiddelstoffer/): Foedevarestyrelsen og Laegemiddelstyrelsen undersoegte 24 kosttilskud markedsfoert til regulering af soevn og fandt INGEN udeklarerede laegemiddelstoffer. Melatonin beskrives som et stof, «som normalt findes i receptpligtige laegemidler og som ikke maa tilsaettes kosttilskud». Projektleder Josephine Al-Sayed: «Det er opmuntrende, at vi ikke finder laegemiddelstoffer i denne type kosttilskud.» Melatonin er altsaa receptpligtigt laegemiddel i Danmark og maa ikke saelges som kosttilskud.\n\n4) Laegemiddelstyrelsens vejledende kriterier for enkelttilskud, «Soevnproblemer hos boern og unge: melatonin» (laegemiddelstyrelsen.dk/da/tilskud/individuelle-tilskud/enkelttilskud/vejledende-kriterier/soevnproblemer-hos-boern-og-unge-melatonin/): tilskud gives typisk til boern og unge med autisme, ADHD eller Smith-Magenis syndrom og samtidige soevnforstyrrelser, forudsat at «soevnhygiejniske tiltag i minimum fire uger har haft utilstraekkelig effekt». Der kraeves soevnregistrering i mindst 14 dage foer og efter behandlingsstart. Bevilling gives foerst for 12 maaneder; ved ansoegning om forlaengelse skal «resultatet af en medicinpause vaere beskrevet i ansoegningen».\n\n5) Melatoninforbrug blandt boern. TV 2, 28.-29. maj 2026 (nyheder.tv2.dk/samfund/2026-05-28-flere-danske-boern-og-unge-faar-medicin-mod-soevnproblemer), paa tal fra Sundhedsdatastyrelsens sundhedsdatabank: antal brugere af melatonin i aldersgruppen 0-17 aar var 13.226 i 2020, 24.651 i 2024 og 27.662 i 2025. Sine Ditlev Bihlet, medstifter af Center for Soevn og sundhedsplejerske: «Der er sjaeldent et quick fix paa soevn, saa det handler om at finde aarsagerne bag.» ATTRIBUER som TV 2's gengivelse af Sundhedsdatastyrelsens tal.\n\nINTERNATIONALE ANKRE (alle DOI-kontrolleret via CSL-JSON 2026-08-18 — titel og tidsskrift stemmer)\n6) Watson NF m.fl., «Recommended Amount of Sleep for a Healthy Adult: A Joint Consensus Statement of the American Academy of Sleep Medicine and Sleep Research Society», Journal of Clinical Sleep Medicine 2015;11(6):591-592, doi 10.5664/jcsm.4758. Anbefaler mindst 7 timers soevn pr. nat for voksne.\n\n7) Spiegel K, Tasali E, Penev P, Van Cauter E, «Brief Communication: Sleep Curtailment in Healthy Young Men Is Associated with Decreased Leptin Levels, Elevated Ghrelin Levels, and Increased Hunger and Appetite», Annals of Internal Medicine 2004;141:846-850, doi 10.7326/0003-4819-141-11-200412070-00008. TOLV maend, gennemsnitsalder 22 aar; to doegn med afkortet soevn mod to doegn med forlaenget soevn under kontrolleret kalorieindtag og fysisk aktivitet. Leptin faldt 18 pct.; ghrelin steg; sult og appetit steg. VIGTIGT: 12 personer, to naetter — det er et mekanismestudie, ikke et befolkningsstudie. Det skal staa i artiklen.\n\n8) Gardiner C m.fl., «The effect of caffeine on subsequent sleep: A systematic review and meta-analysis», Sleep Medicine Reviews 2023;69:101764, doi 10.1016/j.smrv.2023.101764. 24 studier. Koffein reducerede total soevntid med 45 minutter og soevneffektivitet med 7 pct.; indsovningstid steg 9 minutter; vaagen tid efter indsovning steg 12 minutter. Let soevn (N1) steg 6,1 minutter, dyb soevn (N3/N4) faldt 11,4 minutter. Konklusion med tal: kaffe (107 mg pr. 250 ml) boer indtages MINDST 8,8 timer foer sengetid, og en standardportion pre-workout (217,5 mg) mindst 13,2 timer foer sengetid, hvis man vil undgaa at miste soevntid.\n\n9) Herxheimer A, Petrie KJ, «Melatonin for the prevention and treatment of jet lag», Cochrane Database of Systematic Reviews, 22. april 2002, doi 10.1002/14651858.CD001520. Klassisk Cochrane-review om melatonin og jetlag.\n\n10) EU-forordning 432/2012 og EFSA. Den godkendte sundhedsanpaastand «melatonin bidrager til at reducere tiden det tager at falde i soevn» maa kun bruges om foedevarer med 1 mg melatonin pr. portion, og forbrugeren skal oplyses om, at effekten opnaas ved at inntage 1 mg taet paa sengetid. EFSA's videnskabelige udtalelser: EFSA Journal 2011;9(6):2241 (reduktion af indsovningstid) og EFSA Journal 2010;8(2):1467 (subjektiv jetlag-foelelse). POINTEN, der er nummerets skarpeste: EU har godkendt en sundhedsanpaastand for melatonin SOM FOEDEVARE, mens melatonin i Danmark er receptpligtigt laegemiddel og ikke maa tilsaettes kosttilskud. Samme stof, to regulatoriske virkeligheder.\n\n11) Benjafield AV, Ayas NT, Eastwood PR m.fl., «Estimation of the global prevalence and burden of obstructive sleep apnoea: a literature-based analysis», The Lancet Respiratory Medicine 2019;7:687-698, doi 10.1016/S2213-2600(19)30198-5. Skoen: 936 millioner voksne i alderen 30-69 aar har let til svaer obstruktiv soevnapnoe (AHI mindst 5), og 425 millioner har moderat til svaer (AHI mindst 15). Det er et LITTERATURBASERET skoen, ikke en optaelling — det skal staa.\n\n12) Khosla S m.fl., «Consumer Sleep Technology: An American Academy of Sleep Medicine Position Statement», Journal of Clinical Sleep Medicine 2018;14(5):877-880, doi 10.5664/jcsm.7128. Ordret fra abstractet: «Given the lack of validation and United States Food and Drug Administration (FDA) clearance, CSTs cannot be utilized for the diagnosis and/or treatment of sleep disorders at this time. However, CSTs may be utilized to enhance the patient-clinician interaction when presented in the context of an appropriate clinical evaluation.» De skriver ogsaa, at fremtidig validering, adgang til raa data og algoritmer samt FDA-tilsyn er noedvendigt.\n\n13) Malhotra A, Grunstein RR, Fietze I m.fl. (SURMOUNT-OSA), «Tirzepatide for the Treatment of Obstructive Sleep Apnea and Obesity», New England Journal of Medicine 2024;391(13):1193-1205, doi 10.1056/NEJMoa2404881. To fase 3-forsoeg, dobbeltblindede, randomiserede, blandt voksne med moderat til svaer obstruktiv soevnapnoe og svaer overvaegt. Forsoeg 1: deltagere UDEN overtryksbehandling (PAP). Forsoeg 2: deltagere I overtryksbehandling. 1:1 til hoejst tolererede dosis tirzepatid (10 mg eller 15 mg) eller placebo i 52 uger. Ved start var gennemsnitligt AHI 51,5 haendelser i timen i forsoeg 1 og 49,5 i forsoeg 2; gennemsnitligt BMI 39,1 og 38,7. Forsoeg 1 efter 52 uger: aendring i AHI -25,3 haendelser i timen (95 pct. konfidensinterval -29,3 til -21,2) med tirzepatid mod -5,3 (-9,4 til -1,1) med placebo; forskel -20,0 (-25,8 til -14,2), P under 0,001. Forsoeg 2: -29,3 (-33,2 til -25,4) mod -5,5 (-9,9 til -1,2); forskel -23,8 (-29,6 til -17,9), P under 0,001. Hyppigste bivirkninger med tirzepatid var mave-tarm-relaterede og overvejende milde til moderate. Finansieret af Eli Lilly. NCT05412004. Bemaerk ogsaa: en erratum blev trykt i NEJM 17. oktober 2024.\n\nSTRENGT FORBUDT I HELE NUMMERET (der findes ingen verificeret kilde her): danske tal for soevnapnoe-praevalens, danske ventetider paa soevnudredning, antal CPAP-brugere i Danmark, priser paa soevnudredning eller udstyr, procenttal for hvor mange soevnapnoe-tilfaelde der er udiagnosticerede i Danmark, noejagtigheden af enkelte wearables i procent, «X pct. af danskerne sover under 7 timer», markedsstoerrelser for soevnprodukter, og enhver dosisanbefaling til laeseren. Metoden har virket fem gange 2026-08-17 (INDENI, HORISONTEN, PULSEN, KULTURBOXEN, HumaNerd nr. 2): en brief, der udtrykkeligt FORBYDER de tal, der ikke kan kildebelaegges, faar mekanismen forklaret i stedet — omkring fyrre kladder uden ét opfundet tal.\n\nDOSIS' EGNE REGLER: medicin omtales med indikation og forbehold, aldrig med dosisraad til laeseren. Relativ og absolut risiko skal altid skilles. Hyppighedskategorier er definerede intervaller. Ordbogen er droppet som format siden 2026-08-08 — gloser forklares i broedteksten.\n\nKRYDSLINK: PULSEN nr. 3 er UDGIVET SOM KLADDE og maa IKKE linkes til — et doedt internt link braekker prerenderingen. Link kun til /pulsen/2026-08-nr2/... og /dosis/2026-08-nr1|nr2/...\n",
   "opgaver": [
     {
       "slug": "leder",
       "order": 1,
       "section": "Leder",
       "brief": {
-        "angle": "Søvn som det tilskud, der ikke er en pille.",
+        "angle": "Chefredaktionens egen leder. Nummerets rygrad: Danmark fik sin foerste officielle anbefaling for soevnlaengde til voksne i 2024, andelen der er meget generet af soevnproblemer er steget fra 10,2 til 16,3 pct. siden 2010, melatonin er receptpligtigt her og forbudt i kosttilskud mens EU har godkendt en sundhedsanpaastand for det som foedevare, og det foerste laegemiddel mod soevnapnoe kom ud af fedmemedicinen. Plus en aaben redegoerelse for afpubliceringen og genopbygningen.",
         "words": [
-          40,
-          220
+          350,
+          550
         ],
         "mustCite": 0,
         "format": "leder"
       },
       "writer": {
-        "byline": "Claude Fable 5",
-        "model": "chefredaktør",
+        "byline": null,
+        "model": "editor-led",
         "fallback": null
       },
       "receipt": {
-        "words": 91,
+        "words": 466,
         "costUSD": null,
         "draft": null
       },
       "verdict": {
-        "status": "accepted",
-        "checkedAt": "2026-08-08",
+        "status": "rewritten-by-editor",
+        "checkedAt": "2026-08-18",
         "citations": 0,
-        "editorNote": "Editor-led batch; finished prose; jargon first-mention; bagsnit share images."
-      }
-    },
-    {
-      "slug": "soevn-som-tilskud",
-      "order": 2,
-      "section": "Gennembrud & forskning",
-      "brief": {
-        "angle": "Fysiologi før hype.",
-        "words": [
-          50,
-          350
-        ],
-        "mustCite": 1,
-        "format": "feature"
-      },
-      "writer": {
-        "byline": "GPT-5.6 Terra (OpenAI)",
-        "model": "openai/gpt-5.6-terra",
-        "fallback": "deepseek/deepseek-v3.2"
-      },
-      "receipt": {
-        "words": 140,
-        "costUSD": null,
-        "draft": null
-      },
-      "verdict": {
-        "status": "accepted-after-edit",
-        "checkedAt": "2026-08-08",
-        "citations": 1,
-        "editorNote": "Editor-led batch; finished prose; jargon first-mention; bagsnit share images."
+        "editorNote": "Chefredaktionens egen leder. Ingen model kaldt, ingen byline, ingen kvittering — writer.model er 'editor-led'. Redegoer aabent for, at den planlagte udgave bar elleve byline uden daekning, og for hvilke tal nummeret bevidst IKKE indeholder."
       }
     },
     {
       "slug": "hvor-meget-soevn",
-      "order": 3,
+      "order": 2,
       "section": "Longevity & aldring",
       "brief": {
-        "angle": "7–9 timer som pejlemærke.",
+        "angle": "Nummerets hovedartikel, og den har et konkret dansk nyhedsanker: Danmark havde INGEN officiel anbefaling for, hvor meget voksne boer sove, foer 2024. Sundhedsstyrelsen udgav den foerste i 2024, og siden er den opdateret — siden «Anbefalinger for soevnlaengde» i Sundhedsstyrelsens vidensbase blev senest opdateret 4. november 2025. Begynd der: hvorfor er det bemaerkelsesvaerdigt, at et land, der har anbefalinger for alt fra D-vitamin til motion, foerst i 2024 fik en for soevn? Gengiv SST's tabel praecist og fuldt ud, for den er selve pointen om at behovet skifter med alderen: 0-3 maaneder 14-17 timer i doegnet, 4-11 maaneder 12-15 timer, 1-2 aar 11-14 timer, 3-5 aar 10-13 timer, 6-13 aar 9-11 timer, 14-17 aar 8-10 timer, 18-25 aar 7-9 timer, 26-64 aar 7-9 timer, og 65 aar og derover 7-8 timer. Gengiv OGSAA SST's eget forbehold, ordret: «Der er tale om generelle anbefalinger», og behovet «vil variere mellem individer og afhaenger af flere forhold, herunder helbredstilstand, livsstil og alder.» Saet det op mod den internationale konsensus, der kom ti aar tidligere: American Academy of Sleep Medicine og Sleep Research Society anbefalede i 2015 mindst syv timers soevn pr. nat for voksne (Watson m.fl., Journal of Clinical Sleep Medicine 2015, bind 11, nr. 6, side 591-592). Bemaerk forskellen i FORM: amerikanerne satte en nedre graense (mindst 7), Sundhedsstyrelsen et interval (7-9). Det er ikke det samme udsagn, og artiklen skal sige hvorfor det betyder noget for en laeser, der ligger paa 6,5 time. Skriv derefter det, DOSIS altid skriver: en anbefaling er et pejlemaerke for en befolkning, ikke en diagnose af dig. Forklar hvorfor gennemsnit og interval ikke er det samme som facit, og hvorfor regelmaessighed — samme soevnvindue hverdag og weekend — er en selvstaendig ting, der ikke staar i timetallet. STRENGT: ingen tal ud over dem, der staar her. Skriv IKKE hvor stor en andel af danskerne der sover under syv timer — det tal har vi ikke en kilde til. Skriv ingen anbefalinger om medicin. Forklar «konsensusudtalelse» i broedteksten foerste gang.",
         "words": [
-          50,
-          350
+          600,
+          800
+        ],
+        "mustCite": 2,
+        "format": "feature",
+        "mustNumber": [
+          "SST: 18-25 aar 7-9 t, 26-64 aar 7-9 t, 65+ 7-8 t",
+          "SST-siden senest opdateret 4. november 2025",
+          "AASM/SRS 2015: mindst 7 timer"
+        ]
+      },
+      "writer": {
+        "byline": "Claude Opus 4.8 (Anthropic)",
+        "model": "anthropic/claude-opus-4.8",
+        "fallback": "anthropic/claude-sonnet-5"
+      },
+      "receipt": {
+        "words": 805,
+        "costUSD": 0.064925,
+        "draft": "kladder/02-hvor-meget-soevn.md",
+        "costRouting": "byok"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-18",
+        "citations": 2,
+        "editorNote": "REELT kommissioneret paa .env.dosis; kladde i kladder/. Alle ni raekker i SST-tabellen korrekt gengivet, forbeholdet ordret, og AASM/SRS-referencen korrekt (JCSM 2015;11(6):591-592, DOI-kontrolleret). Modellen fandt selv nummerets bedste analytiske greb: at «mindst 7» og «7-9» ikke er samme udsagn, fordi det ene er en nedre graense og det andet et interval — det stod ikke i briefet. Redaktionelt: rubrikken strammet, de literale \\u00a0-escapes erstattet af rigtige ikke-brydende mellemrum, og fodnoterne forsynet med verificerede links (begge svarer 200)."
+      }
+    },
+    {
+      "slug": "soevnproblemer-danmark",
+      "order": 3,
+      "section": "Gennembrud & forskning",
+      "brief": {
+        "angle": "Den danske maaling, og den skal laeses som en maaling og ikke som en stemning. Statens Institut for Folkesundhed ved Syddansk Universitet udgav 22. april 2026 «Ugens tal» nr. 17 paa grundlag af Den Nationale Sundhedsprofil 2025, der bygger paa svar fra over 135.000 personer paa 16 aar og derover. Tallet: andelen af voksne, der har vaeret MEGET generet af soevnproblemer eller soevnbesvaer inden for de seneste 14 dage, er steget fra 10,2 pct. i 2010 til 16,3 pct. i 2025. Cirka hver sjette. Skriv de sociale forskelle frem, for de er det egentlige indhold: kvinder 19,6 pct. mod maend 12,9 pct.; personer med grundskole som hoejeste uddannelse 21,2 pct. mod 11,6 pct. blandt personer med lang videregaaende uddannelse; beskaeftigede 14,2 pct., arbejdsloese 29,8 pct. og foertidspensionister 38,8 pct. Artiklens vinkel: det her ligner et sundhedstal og opfoerer sig som et socialt tal. Naar spaendet mellem beskaeftigede og foertidspensionister er 14,2 mod 38,8 pct., er soevn ikke primaert en vane — det er ogsaa et spejl af arbejde, sygdom, oekonomi og bekymring. Vaer meget praecis om, HVAD der er maalt: det er selvrapporteret gene inden for 14 dage, ikke maalt soevnlaengde og ikke en diagnose. En stigning i selvrapporteret gene kan ogsaa afspejle, at det er blevet mere legitimt at svare ja. Skriv den forbehold frem i stedet for at gemme den. Forklar «selvrapporteret» og «Den Nationale Sundhedsprofil» i broedteksten. STRENGT: brug kun de tal, der staar her. Ingen aarsagsforklaringer med tal paa (skaerme, arbejdstid, stress) — der findes ingen kilde til dem i dette nummer, og en aarsag uden kilde er en paastand.",
+        "words": [
+          550,
+          750
         ],
         "mustCite": 1,
-        "format": "feature"
+        "format": "feature",
+        "mustNumber": [
+          "10,2 pct. i 2010 -> 16,3 pct. i 2025",
+          "kvinder 19,6 pct., maend 12,9 pct.",
+          "beskaeftigede 14,2 pct., foertidspensionister 38,8 pct.",
+          "over 135.000 svarpersoner"
+        ]
+      },
+      "writer": {
+        "byline": "Gemini 3.1 Pro Preview (Google)",
+        "model": "google/gemini-3.1-pro-preview",
+        "fallback": "anthropic/claude-sonnet-5"
+      },
+      "receipt": {
+        "words": 726,
+        "costUSD": 0.091014,
+        "draft": "kladder/03-soevnproblemer-danmark.md",
+        "costRouting": "byok"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-18",
+        "citations": 1,
+        "editorNote": "REELT kommissioneret. Alle otte tal fra Ugens tal nr. 17 korrekt gengivet, og forbeholdet om selvrapportering skrevet frem som briefet kraevede. Redaktionelt tre indgreb: aabningen var wellness-essayistisk og er kortet ned; «et socialt parameter» rettet til «et socialt faenomen»; og en passage, der sidestillede pulsvariation fra et smartwatch med polysomnografi som maalemetode, er fjernet — den modsagde nummerets tracker-artikel. Tilfoejet et afsnit om, at en sundhedsprofil viser sammenhaeng og ikke aarsagsretning, fordi kladden lod laeseren slutte fra spaend til aarsag."
+      }
+    },
+    {
+      "slug": "soevn-som-tilskud",
+      "order": 4,
+      "section": "Protein & træning",
+      "brief": {
+        "angle": "Fysiologien, og den skal skrives med et mekanismestudies aerlighed. Udgangspunktet er DOSIS' egen ramme: soevn er det eneste «tilskud», man ikke kan koebe. Det klassiske forsoeg er Spiegel, Tasali, Penev og Van Cauter, «Brief Communication: Sleep Curtailment in Healthy Young Men Is Associated with Decreased Leptin Levels, Elevated Ghrelin Levels, and Increased Hunger and Appetite», Annals of Internal Medicine 2004, bind 141, side 846-850. Design: TOLV raske maend med gennemsnitsalder 22 aar, to doegn med afkortet soevn mod to doegn med forlaenget soevn, under kontrolleret kalorieindtag og fysisk aktivitet. Resultat: leptin — maethedshormonet — faldt 18 pct.; ghrelin — sulthormonet — steg; og deltagernes selvrapporterede sult og appetit steg. Forklar de to hormoner i broedteksten, kort og uden laerebogstone: leptin siger stop, ghrelin siger start. Og skriv saa det, artiklen faktisk handler om: at det her er TOLV UNGE MAEND OVER TO NAETTER. Det er et mekanismestudie. Det viser, at knappen findes og kan trykkes paa — det viser IKKE, hvor meget den betyder over et helt liv, for kvinder, for aeldre, eller for dig i naeste uge. Det er praecis den slags studie, der bliver til «soev dig slank» i en overskrift, og forskellen mellem hvad studiet viste og hvad overskriften siger er artiklens egentlige emne. Land det med DOSIS-reglen: naar et lille, kontrolleret forsoeg viser en mekanisme, er den rigtige konklusion «det haenger sammen», ikke «goer saadan her». STRENGT: ingen tal ud over 12 deltagere, 22 aar i gennemsnit, to doegn og 18 pct. leptinfald. Angiv IKKE et procenttal for ghrelinstigningen — kilden her siger kun at den steg. Ingen raad om soevnmaengde (det staar i en anden artikel), ingen kostraad, ingen kalorietal.",
+        "words": [
+          550,
+          750
+        ],
+        "mustCite": 1,
+        "format": "feature",
+        "mustNumber": [
+          "12 raske maend, gennemsnit 22 aar",
+          "to doegn afkortet mod to doegn forlaenget soevn",
+          "leptin -18 pct."
+        ]
       },
       "writer": {
         "byline": "Claude Sonnet 5 (Anthropic)",
         "model": "anthropic/claude-sonnet-5",
-        "fallback": "deepseek/deepseek-v3.2"
+        "fallback": "anthropic/claude-opus-4.8"
       },
       "receipt": {
-        "words": 126,
-        "costUSD": null,
-        "draft": null
+        "words": 625,
+        "costUSD": 0.02797,
+        "draft": "kladder/04-soevn-som-tilskud.md",
+        "costRouting": "byok"
       },
       "verdict": {
         "status": "accepted-after-edit",
-        "checkedAt": "2026-08-08",
+        "checkedAt": "2026-08-18",
         "citations": 1,
-        "editorNote": "Editor-led batch; finished prose; jargon first-mention; bagsnit share images."
+        "editorNote": "REELT kommissioneret. Studiets design gengivet praecist — 12 maend, gennemsnitsalder 22, to doegn, leptin -18 pct. — og modellen respekterede forbuddet mod at angive et procenttal for ghrelin, som kilden ikke giver. Faktafejl rettet: kladden kaldte det «et lille dansk-uafhaengigt studie»; Spiegel m.fl. er amerikansk (University of Chicago), og formuleringen var i oevrigt meningsloes. Fodnotemarkoerer lavet om fra hoejtstillede tal til [^1]-syntaks. Tilfoejet et afsnit om, at den stramme kontrol baade er studiets styrke og grunden til, at resultatet ikke uden videre kan flyttes ud af laboratoriet."
       }
     },
     {
       "slug": "melatonin",
-      "order": 4,
+      "order": 5,
       "section": "Vitaminer & mineraler",
       "brief": {
-        "angle": "Signalstof, ikke mirakel.",
+        "angle": "Nummerets skarpeste historie, og den er regulatorisk. Samme stof — melatonin — er to forskellige ting alt efter hvilken graense det staar paa. I Danmark er melatonin RECEPTPLIGTIGT laegemiddel og maa ikke tilsaettes kosttilskud. Laegemiddelstyrelsen skrev det selv i en nyhed 29. august 2025 om en undersoegelse, Foedevarestyrelsen og Laegemiddelstyrelsen lavede sammen: de analyserede 24 kosttilskud markedsfoert til regulering af soevn og fandt ingen udeklarerede laegemiddelstoffer. I den forbindelse beskrives melatonin som et stof, «som normalt findes i receptpligtige laegemidler og som ikke maa tilsaettes kosttilskud». Projektleder Josephine Al-Sayed sagde: «Det er opmuntrende, at vi ikke finder laegemiddelstoffer i denne type kosttilskud.» I EU findes samtidig en GODKENDT sundhedsanpaastand for melatonin som FOEDEVARE: efter forordning 432/2012 maa paastanden om, at melatonin bidrager til at reducere den tid, det tager at falde i soevn, kun bruges om foedevarer med 1 mg melatonin pr. portion, og forbrugeren skal oplyses om, at effekten opnaas ved at indtage 1 mg taet paa sengetid. Grundlaget er EFSA's videnskabelige udtalelser (EFSA Journal 2011;9(6):2241 om indsovningstid og EFSA Journal 2010;8(2):1467 om subjektiv jetlag-foelelse). Det er artiklens omdrejningspunkt: EU har godkendt en sundhedsanpaastand for et stof, som en dansk laeser ikke lovligt kan koebe som kosttilskud herhjemme. Ingen af de to myndigheder tager fejl — de svarer paa forskellige spoergsmaal. EFSA svarer paa «kan man dokumentere en effekt?». Laegemiddelstyrelsen svarer paa «hvad slags produkt er det her?». Forklar den skelnen, for den forklarer ogsaa, hvorfor en dansker, der bestiller melatonin hjem fra en udenlandsk webshop, ikke koeber det samme reguleringsmaessigt, som naaboen i et andet EU-land henter paa hylden. Naevn ogsaa jetlag som det bedst undersoegte omraade og henvis til Cochrane-reviewet: Herxheimer og Petrie, «Melatonin for the prevention and treatment of jet lag», Cochrane Database of Systematic Reviews, 22. april 2002. STRENGT: skriv IKKE en dosisanbefaling til laeseren. 1 mg-tallet maa kun optraede som DET, DER STAAR I EU-REGLEN om maerkning — ikke som et raad. Ingen tal for hvor mange danskere der bruger melatonin (det staar i en anden artikel), ingen bivirkningsfrekvenser, ingen priser, ingen udsagn om hvor effektivt det er ud over at pege paa Cochrane-reviewets eksistens. Forklar «sundhedsanpaastand», «EFSA» (Den Europaeiske Foedevaresikkerhedsautoritet) og «receptpligtigt» foerste gang.",
         "words": [
-          50,
-          350
+          650,
+          850
         ],
-        "mustCite": 1,
-        "format": "feature"
+        "mustCite": 3,
+        "format": "feature",
+        "mustNumber": [
+          "24 kosttilskud undersoegt, ingen udeklarerede laegemiddelstoffer",
+          "melatonin maa ikke tilsaettes kosttilskud i DK",
+          "EU-forordning 432/2012: 1 mg pr. portion"
+        ]
       },
       "writer": {
-        "byline": "DeepSeek V3.2 (DeepSeek)",
-        "model": "deepseek/deepseek-v3.2",
-        "fallback": "google/gemini-3.5-flash"
+        "byline": "Claude Opus 4.8 (Anthropic)",
+        "model": "anthropic/claude-opus-4.8",
+        "fallback": "anthropic/claude-sonnet-5"
       },
       "receipt": {
-        "words": 118,
-        "costUSD": null,
-        "draft": null
+        "words": 871,
+        "costUSD": 0.07822,
+        "draft": "kladder/05-melatonin.md",
+        "costRouting": "byok"
       },
       "verdict": {
         "status": "accepted-after-edit",
-        "checkedAt": "2026-08-08",
-        "citations": 1,
-        "editorNote": "Editor-led batch; finished prose; jargon first-mention; bagsnit share images."
+        "checkedAt": "2026-08-18",
+        "citations": 5,
+        "editorNote": "REELT kommissioneret, og nummerets bedste kladde. Den regulatoriske pointe — at EFSA svarer paa «kan effekten dokumenteres?» og Laegemiddelstyrelsen paa «hvad slags produkt er det?» — er baaret hele vejen igennem uden at goere nogen af myndighederne til skurk. Alle tal og citater korrekte. Redaktionelt: «sundhedspaastand» rettet til den korrekte danske term «sundhedsanprisning», som ogsaa er den, forordningen bruger; de to EFSA-udtalelser er flyttet fra parentes til egne fodnoter med DOI; og 432/2012 er linket til EUR-Lex' danske udgave (kontrolleret, svarer 200). Datoen 16. maj 2012 kontrolleret mod forordningen."
+      }
+    },
+    {
+      "slug": "melatonin-boern",
+      "order": 6,
+      "section": "Sikkerhed & bivirkninger",
+      "brief": {
+        "angle": "Den danske tal-historie om melatonin, og den skal skrives uden pegefinger. TV 2 gennemgik i slutningen af maj 2026 tal fra Sundhedsdatastyrelsens sundhedsdatabank: antallet af brugere af melatonin i aldersgruppen 0-17 aar var 13.226 i 2020, 24.651 i 2024 og 27.662 i 2025. Altsaa mere end en fordobling paa fem aar. Sine Ditlev Bihlet, medstifter af Center for Soevn og sundhedsplejerske, sagde til TV 2: «Der er sjaeldent et quick fix paa soevn, saa det handler om at finde aarsagerne bag.» Det interessante er, at det danske regelsaet allerede siger noget meget lignende — og det er artiklens egentlige indhold. Laegemiddelstyrelsens vejledende kriterier for enkelttilskud til melatonin ved soevnproblemer hos boern og unge kraever, at «soevnhygiejniske tiltag i minimum fire uger har haft utilstraekkelig effekt», foer der gives tilskud. De kraever soevnregistrering i mindst 14 dage foer og efter behandlingsstart. Tilskud gives typisk ved autisme, ADHD eller Smith-Magenis syndrom med samtidige soevnforstyrrelser, og der kan gives tilskud til boern uden de diagnoser efter en konkret vurdering. Bevilling gives foerst for 12 maaneder, og ved ansoegning om forlaengelse skal «resultatet af en medicinpause vaere beskrevet i ansoegningen». Laes de krav som det, de er: myndigheden har bygget «proev adfaerd foerst» og «hold pause og se efter» ind i selve tilskudsreglen. Det er sjaeldent, og det er en oplysning, de faerreste foraeldre kender. Vaer omhyggelig med ikke at goere stigningen til en skandale — vi ved fra tallene, at flere faar det; vi ved IKKE fra dem, hvor mange der faar det med rette. Skriv det eksplicit. STRENGT FORBUDT: at gaette hvor stor en andel af brugerne der har en relevant diagnose, at angive doser, at skrive om bivirkningshyppighed, at sammenligne med andre lande, eller at bruge tallene til at konkludere om over- eller underbehandling. Forklar «enkelttilskud», «soevnhygiejne» og «Sundhedsdatastyrelsen» foerste gang. Naevn at melatonin i Danmark er receptpligtigt (uddybet i nummerets melatonin-artikel).",
+        "words": [
+          550,
+          750
+        ],
+        "mustCite": 2,
+        "format": "feature",
+        "mustNumber": [
+          "0-17 aar: 13.226 (2020), 24.651 (2024), 27.662 (2025)",
+          "minimum fire ugers soevnhygiejne foer tilskud",
+          "soevnregistrering mindst 14 dage foer og efter",
+          "bevilling foerst for 12 maaneder"
+        ]
+      },
+      "writer": {
+        "byline": "GPT-5.6 Terra (OpenAI)",
+        "model": "openai/gpt-5.6-terra",
+        "fallback": "anthropic/claude-sonnet-5"
+      },
+      "receipt": {
+        "words": 572,
+        "costUSD": 0.029115,
+        "draft": "kladder/06-melatonin-boern.md",
+        "costRouting": "byok"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-18",
+        "citations": 2,
+        "editorNote": "REELT kommissioneret. Alle tre aarstal og alle fire tilskudskriterier korrekt gengivet, og modellen holdt selv fast i det svaereste: at en stigende brugerstatistik ikke i sig selv beviser over- eller underbehandling. TO GAETTEDE URL'ER FANGET OG RETTET — dette er praecis den fejl, notesbogen advarer om. Kladdens fodnote 1 linkede til sundhedsdatastyrelsen.dk/da/sundhedsdata-og-registere/sundhedsdatabanken, som svarer 404; erstattet af TV 2-artiklen (den faktiske kilde til sammenstillingen) plus medstat.dk. Fodnote 2 linkede til en gaettet sti under /tilskud/tilskud-til-medicin/; erstattet af den verificerede side om melatonin til boern og unge. Tilfoejet Bihlet-citatet, som kladden udelod."
       }
     },
     {
       "slug": "soevnhygiejne",
-      "order": 5,
+      "order": 7,
       "section": "Ernæring & kost",
       "brief": {
-        "angle": "Lys, koffein, vaner.",
+        "angle": "Den artikel, alle tror de har laest foer — og som denne gang har praecise tal. Grundlaget er en systematisk gennemgang med metaanalyse: Gardiner m.fl., «The effect of caffeine on subsequent sleep: A systematic review and meta-analysis», Sleep Medicine Reviews 2023, bind 69, artikel 101764, baseret paa 24 studier. Resultaterne, som skal gengives praecist: koffein reducerede den samlede soevntid med 45 minutter og soevneffektiviteten med 7 pct.; indsovningstiden steg med 9 minutter; og den vaagne tid efter man var faldet i soevn steg med 12 minutter. Let soevn (stadie N1) steg med 6,1 minutter, mens dyb soevn (stadie N3 og N4) faldt med 11,4 minutter. Og saa det tal, artiklen skal bygges omkring: for at undgaa at miste soevntid boer kaffe (107 mg koffein pr. 250 ml) indtages MINDST 8,8 timer foer sengetid, og en standardportion pre-workout-tilskud (217,5 mg koffein) mindst 13,2 timer foer sengetid. Regn det om for laeseren: skal man sove klokken 23, peger 8,8 timer paa omkring klokken 14. Det er tidligere, end de fleste tror, og det er hele nyheden i en ellers udslidt genre — «drik ikke kaffe om aftenen» er blevet til et klokkeslaet med et tal bag. Vaer redelig om, hvad tallet er: et gennemsnit fra en metaanalyse over 24 studier, ikke en personlig graense. Foelsomhed for koffein varierer betydeligt. Skriv det. Naevn ogsaa kort, at alkohol er den anden klassiske «soevnhjaelper», der ikke er en: den kan forkorte indsovningstiden og samtidig forstyrre soevnen senere paa natten — henvis til Ebrahim m.fl., «Alcohol and sleep I: effects on normal sleep», Alcohol: Clinical and Experimental Research 2013, bind 37, side 539-549, og hold formuleringen paa det niveau, uden egne tal. STRENGT: ingen tal om lys, skaermbrug, motion, temperatur eller sengetider — vi har ingen kilde til dem. De maa gerne naevnes som almindelige raad UDEN tal og uden at blive tilskrevet en myndighed. Ingen anbefalet koffeinmaengde pr. dag. Forklar «metaanalyse», «soevneffektivitet» og soevnstadierne kort foerste gang.",
         "words": [
-          50,
-          350
+          600,
+          800
         ],
-        "mustCite": 0,
-        "format": "feature"
+        "mustCite": 2,
+        "format": "feature",
+        "mustNumber": [
+          "45 minutters kortere soevn, soevneffektivitet -7 pct.",
+          "kaffe 107 mg/250 ml: mindst 8,8 timer foer sengetid",
+          "pre-workout 217,5 mg: mindst 13,2 timer",
+          "dyb soevn -11,4 minutter"
+        ]
       },
       "writer": {
-        "byline": "Mistral Large (Mistral AI)",
-        "model": "mistralai/mistral-large",
-        "fallback": "deepseek/deepseek-v3.2"
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "anthropic/claude-opus-4.8"
       },
       "receipt": {
-        "words": 101,
-        "costUSD": null,
-        "draft": null
+        "words": 729,
+        "costUSD": 0.025792,
+        "draft": "kladder/07-soevnhygiejne.md",
+        "costRouting": "byok"
       },
       "verdict": {
         "status": "accepted-after-edit",
-        "checkedAt": "2026-08-08",
-        "citations": 0,
-        "editorNote": "Editor-led batch; finished prose; jargon first-mention; bagsnit share images."
+        "checkedAt": "2026-08-18",
+        "citations": 2,
+        "editorNote": "REELT kommissioneret. Alle syv tal fra metaanalysen korrekt gengivet, og omregningen til klokkeslaet — 8,8 timer foer sengetid svarer til kl. 14, hvis man sover kl. 23 — er modellens egen og er nummerets mest brugbare enkeltoplysning. Forbeholdet om, at 8,8 er et gennemsnit og ikke en personlig graense, staar hvor det skal. Redaktionelt: fodnotemarkoerer lavet om til [^1]-syntaks, DOI-links tilfoejet, og «det dobbelte af koffeinindholdet» blødt op til «omtrent det dobbelte» (217,5 mod 107 mg er en faktor 2,03)."
       }
     },
     {
-      "slug": "tracker",
-      "order": 6,
-      "section": "Wearables & hjemmetests",
+      "slug": "soevnapnoe",
+      "order": 8,
+      "section": "Gennembrud & forskning",
       "brief": {
-        "angle": "Tendens, ikke facit.",
+        "angle": "Den sygdom, der er stor nok til at aendre et magasins emne — og som er svaer at taelle. Den bedste globale opgoerelse er Benjafield m.fl., «Estimation of the global prevalence and burden of obstructive sleep apnoea: a literature-based analysis», The Lancet Respiratory Medicine 2019, bind 7, side 687-698. Skoennet: 936 millioner voksne i alderen 30-69 aar har let til svaer obstruktiv soevnapnoe, defineret som et apnoe-hypopnoe-indeks (AHI) paa mindst 5, og 425 millioner har moderat til svaer sygdom med AHI paa mindst 15. Forklar AHI i broedteksten: antallet af vejrtraekningsstop (apnoeer) og delvise stop (hypopnoeer) pr. times soevn. Og forklar saa det, der er artiklens metodiske kerne: dette er et LITTERATURBASERET SKOEN, ikke en optaelling af diagnosticerede patienter. Forfatterne modellerede praevalens ud fra de befolkningsundersoegelser, der fandtes, og fremskrev til lande uden data. Naar tallet naermer sig en milliard, er det derfor et estimat med stor usikkerhed — og netop derfor er det interessant: forskellen mellem hvor mange der HAR tilstanden og hvor mange der er UDREDT for den er hele pointen, og den kan ikke laeses ud af tallet. Skriv ogsaa, hvad der faktisk kraeves for en diagnose: polysomnografi, altsaa en soevnundersoegelse hvor vejrtraekning, ilt, hjerterytme, hjerneaktivitet og bevaegelse maales samtidig. Det er guldstandarden, og det er grunden til, at ingen forbrugerdimser kan stille diagnosen (uddybes i nummerets tracker-artikel). Land artiklen paa det, DOSIS kan sige med rette: soevnapnoe er en tilstand, hvor symptomet — snorken, dagtraethed, at partneren hoerer vejrtraekningen stoppe — er noget andet end diagnosen, og hvor vejen fra det ene til det andet gaar gennem klinikken. STRENGT FORBUDT: danske praevalenstal, danske ventetider, antal CPAP-brugere, priser, procenttal for udiagnosticerede, og enhver paastand om behandlingseffekt ud over det, der maatte staa i nummerets tirzepatid-artikel. Naevn CPAP kun som navnet paa overtryksbehandling, forklaret foerste gang, uden effekttal.",
         "words": [
-          50,
-          350
+          550,
+          750
         ],
-        "mustCite": 0,
-        "format": "feature"
+        "mustCite": 1,
+        "format": "feature",
+        "mustNumber": [
+          "936 mio. voksne 30-69 aar med AHI mindst 5",
+          "425 mio. med AHI mindst 15",
+          "litteraturbaseret skoen, ikke optaelling"
+        ]
       },
       "writer": {
-        "byline": "Grok 4.5 (xAI)",
-        "model": "x-ai/grok-4.5",
-        "fallback": "deepseek/deepseek-v3.2"
+        "byline": "Gemini 3.1 Pro Preview (Google)",
+        "model": "google/gemini-3.1-pro-preview",
+        "fallback": "anthropic/claude-sonnet-5"
       },
       "receipt": {
-        "words": 127,
-        "costUSD": null,
-        "draft": null
+        "words": 647,
+        "costUSD": 0.084582,
+        "draft": "kladder/08-soevnapnoe.md",
+        "costRouting": "byok"
       },
       "verdict": {
         "status": "accepted-after-edit",
-        "checkedAt": "2026-08-08",
-        "citations": 0,
-        "editorNote": "Editor-led batch; finished prose; jargon first-mention; bagsnit share images."
+        "checkedAt": "2026-08-18",
+        "citations": 1,
+        "editorNote": "REELT kommissioneret. Begge praevalenstal korrekte, AHI forklaret ordentligt, og det metodiske hovedpunkt — at 936 millioner er et litteraturbaseret skoen og ikke en optaelling — baaret igennem. Redaktionelt tre indgreb: «kvaelningslignende pauser i ilttilfoerslen» er en overdrivelse af hvad en hypopnoe er og er skrevet om; en usourcet paastand om, at der «ingen adgang» er til overtryksbehandling uden fuld diagnose, er fjernet, da briefet forboed udsagn om behandlingsadgang; og en formulering om, at forskellen mellem forekomst og udredning var «hele pointen med studiet», er dæmpet til at spoergsmaalet er det, tallet goer synligt. Krydslink til nummerets tracker-artikel tilfoejet."
       }
     },
     {
       "slug": "soevn-appetit",
-      "order": 7,
-      "section": "Protein & træning",
+      "order": 9,
+      "section": "Tilskud, piller & væsker",
       "brief": {
-        "angle": "Søvn i vægtbehandlingen.",
+        "angle": "Historien om, at soevnapnoe fik sit foerste laegemiddel — og at det kom fra fedmemedicinen. Kilden er SURMOUNT-OSA: Malhotra, Grunstein, Fietze m.fl., «Tirzepatide for the Treatment of Obstructive Sleep Apnea and Obesity», New England Journal of Medicine 2024, bind 391, nr. 13, side 1193-1205. Design, som skal gengives praecist: TO fase 3-forsoeg, dobbeltblindede og randomiserede, blandt voksne med moderat til svaer obstruktiv soevnapnoe og svaer overvaegt. I forsoeg 1 indgik deltagere, der IKKE var i overtryksbehandling (PAP — positive airway pressure, overtryk gennem maske under soevn). I forsoeg 2 indgik deltagere, der VAR i overtryksbehandling. Deltagerne blev fordelt 1:1 til hoejst tolererede dosis tirzepatid (10 mg eller 15 mg) eller placebo i 52 uger. Ved start var gennemsnitligt AHI 51,5 haendelser i timen i forsoeg 1 og 49,5 i forsoeg 2; gennemsnitligt BMI var 39,1 og 38,7. Resultater efter 52 uger — forsoeg 1: aendring i AHI paa -25,3 haendelser i timen (95 pct. konfidensinterval -29,3 til -21,2) med tirzepatid mod -5,3 (-9,4 til -1,1) med placebo, en forskel paa -20,0 (-25,8 til -14,2). Forsoeg 2: -29,3 (-33,2 til -25,4) mod -5,5 (-9,9 til -1,2), en forskel paa -23,8 (-29,6 til -17,9). Begge med P under 0,001. De hyppigste bivirkninger med tirzepatid var mave-tarm-relaterede og overvejende milde til moderate. Forsoeget var finansieret af Eli Lilly, som producerer laegemidlet — det SKAL staa. Forklar AHI (apnoe-hypopnoe-indeks: antal vejrtraekningsstop og delvise stop pr. times soevn) og konfidensinterval kort i broedteksten. Artiklens vinkel, som er DOSIS' egen: det her er en STOR effekt, og det er samtidig et lille skridt. Stort, fordi placebogruppen ogsaa faldt — og forskellen alligevel var omkring 20 haendelser i timen. Lille, fordi et gennemsnitligt AHI, der falder fra godt 50 til godt 25, stadig er en sygdom: halveret er ikke helbredt. Skriv den saetning. Knyt det til DOSIS nr. 2's GLP-1-tema med et internt link til /dosis/2026-08-nr2/hvad-er-glp1, og forklar at tirzepatid virker paa to hormonveje (GIP og GLP-1), hvor de aeldre midler kun virker paa den ene. STRENGT FORBUDT: at skrive at midlet «behandler soevnapnoe» uden at naevne at det er undersoegt hos personer med svaer overvaegt; at angive vaegttab i kilo eller procent (tallet staar ikke i vores kilde); at give dosisraad; at naevne priser, tilskud eller dansk godkendelsesstatus — det ved vi ikke.",
         "words": [
-          50,
-          350
+          600,
+          800
         ],
-        "mustCite": 0,
-        "format": "feature"
+        "mustCite": 1,
+        "format": "feature",
+        "mustNumber": [
+          "AHI -25,3 mod -5,3 (forsoeg 1)",
+          "AHI -29,3 mod -5,5 (forsoeg 2)",
+          "52 uger, tirzepatid 10 eller 15 mg",
+          "gennemsnitligt AHI ved start 51,5 og 49,5"
+        ]
       },
       "writer": {
-        "byline": "Gemini 3.1 Pro (Google)",
-        "model": "google/gemini-3.1-pro",
-        "fallback": "deepseek/deepseek-v3.2"
+        "byline": "Claude Opus 4.8 (Anthropic)",
+        "model": "anthropic/claude-opus-4.8",
+        "fallback": "anthropic/claude-sonnet-5"
       },
       "receipt": {
-        "words": 87,
-        "costUSD": null,
-        "draft": null
+        "words": 675,
+        "costUSD": 0.06313,
+        "draft": "kladder/09-soevn-appetit.md",
+        "costRouting": "byok"
       },
       "verdict": {
         "status": "accepted-after-edit",
-        "checkedAt": "2026-08-08",
-        "citations": 0,
-        "editorNote": "Editor-led batch; finished prose; jargon first-mention; bagsnit share images."
+        "checkedAt": "2026-08-18",
+        "citations": 1,
+        "editorNote": "REELT kommissioneret. Begge forsoegs tal, konfidensintervaller og udgangsvaerdier korrekt gengivet, Eli Lilly-finansieringen naevnt to gange uopfordret, og «halveret er ikke helbredt» er modellens egen formulering af den pointe, briefet bad om. FAKTAFEJL RETTET: kladden aabnede med «en pille, der gjorde noget ved selve tilstanden» og kaldte placebo en «sukkerpille» — tirzepatid gives som injektion, ikke som tablet. Aendret til «en medicinsk behandling» og «placebo». Desuden rettet «fire gange saa meget som placebo» til «knap fem gange» (25,3 mod 5,3 er en faktor 4,8). BMI forklaret, og fortegnene i punktopstillingen gjort konsistente."
+      }
+    },
+    {
+      "slug": "tracker",
+      "order": 10,
+      "section": "Wearables & hjemmetests",
+      "brief": {
+        "angle": "Den artikel, der skal skille maaling fra diagnose — og den har en ordret myndighedsformulering at gaa efter. American Academy of Sleep Medicine udsendte i 2018 en positionsudtalelse om forbrugerteknologi til soevn: Khosla m.fl., «Consumer Sleep Technology: An American Academy of Sleep Medicine Position Statement», Journal of Clinical Sleep Medicine 2018, bind 14, nr. 5, side 877-880. Kernen, som skal gengives praecist og gerne i oversaettelse med det engelske i parentes: fordi forbrugerteknologien mangler validering og godkendelse fra den amerikanske laegemiddelmyndighed FDA (Food and Drug Administration), kan den «ikke anvendes til diagnosticering og/eller behandling af soevnsygdomme» paa nuvaerende tidspunkt («CSTs cannot be utilized for the diagnosis and/or treatment of sleep disorders at this time»). Men — og det er den halvdel, der oftest falder ud af referatet — de skriver ogsaa, at forbrugerteknologien «kan anvendes til at styrke samspillet mellem patient og kliniker, naar den praesenteres i sammenhaeng med en passende klinisk vurdering» («may be utilized to enhance the patient-clinician interaction when presented in the context of an appropriate clinical evaluation»). Og de peger paa, hvad der mangler: fremtidig validering, adgang til raa data og algoritmer samt tilsyn fra FDA. Skriv artiklen som en skelnen, ikke som en advarsel. Et ur eller en ring maaler bevaegelse og puls og gaetter derfra paa soevnstadier med en algoritme, producenten ikke offentliggoer. Det goer den daarlig til at afgoere, hvad der skete i nat, og potentielt brugbar til at se, hvad der er sket over uger. Den skelnen — enkeltmaaling mod tendens — er hele artiklen. Naevn ogsaa aabent, at udtalelsen er fra 2018, at forbrugerteknologien har flyttet sig siden, og at AASM's egen liste over mangler (validering, aabne algoritmer, tilsyn) er den rigtige maalestok at holde nye produkter op imod — ikke marketingmateriale. Land det paa DOSIS-tonen: hvis maalingen goer dig mere vaagen af bekymring, har den kostet mere end den maalte. STRENGT FORBUDT: noejagtighedstal i procent for konkrete apparater eller maerker, navne paa specifikke produkter, priser, markedstal, og enhver paastand om at et bestemt apparat kan opdage soevnapnoe. Forklar «polysomnografi» og «algoritme» kort foerste gang.",
+        "words": [
+          550,
+          750
+        ],
+        "mustCite": 1,
+        "format": "feature",
+        "mustNumber": [
+          "AASM-positionsudtalelse 2018, JCSM 14(5):877-880",
+          "kan ikke bruges til diagnose eller behandling",
+          "kan styrke samtalen med klinikeren"
+        ]
+      },
+      "writer": {
+        "byline": "GPT-5.6 Terra (OpenAI)",
+        "model": "openai/gpt-5.6-terra",
+        "fallback": "anthropic/claude-sonnet-5"
+      },
+      "receipt": {
+        "words": 729,
+        "costUSD": 0.022344,
+        "draft": "kladder/10-tracker.md",
+        "costRouting": "byok"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-18",
+        "citations": 1,
+        "editorNote": "REELT kommissioneret. Begge AASM-citater gengivet ordret paa engelsk med daekkende dansk oversaettelse, og — vigtigst — kladden tog selv den halvdel med, som naesten altid falder ud af referatet: at forbrugerteknologi maa bruges til at styrke samtalen med klinikeren. Den leverede ogsaa selv et fungerende PMC-link (PMC5940440), kontrolleret og korrekt. Redaktionelt: stavefejlen «grublerede» rettet, «proprietaer algoritme» omskrevet til dansk, og AASM praesenteret som fagorganisation foerste gang."
       }
     },
     {
       "slug": "tallet",
-      "order": 8,
+      "order": 11,
       "section": "Laboratoriet / tallet",
       "brief": {
-        "angle": "Timer, surveys, melatonin.",
+        "angle": "DOSIS' faste talrubrik, i nummerets stramme format: en tabel, hvor HVER raekke har et tal, et aar og en fodnote til den navngivne kilde — ingen raekker uden kilde. Byg tabellen af praecis disse seks raekker og intet andet. RAEKKE 1, anbefalet soevnlaengde for voksne i Danmark: 7-9 timer for 18-64-aarige og 7-8 timer for 65+, Sundhedsstyrelsens anbefalinger for soevnlaengde, siden senest opdateret 4. november 2025; note: Danmarks foerste officielle anbefaling for voksne kom i 2024. RAEKKE 2, international konsensus: mindst 7 timer pr. nat for voksne, American Academy of Sleep Medicine og Sleep Research Society, Watson m.fl., Journal of Clinical Sleep Medicine 2015;11(6):591-592; note: en nedre graense, ikke et interval. RAEKKE 3, meget generet af soevnproblemer inden for 14 dage, voksne i Danmark: 10,2 pct. i 2010 mod 16,3 pct. i 2025, Statens Institut for Folkesundhed, Ugens tal nr. 17, 22. april 2026, paa Den Nationale Sundhedsprofil 2025 med over 135.000 svarpersoner; note: selvrapporteret gene, ikke maalt soevn. RAEKKE 4, brugere af melatonin, 0-17 aar i Danmark: 13.226 i 2020, 24.651 i 2024 og 27.662 i 2025, Sundhedsdatastyrelsens sundhedsdatabank gengivet af TV 2 i maj 2026; note: melatonin er receptpligtigt i Danmark. RAEKKE 5, obstruktiv soevnapnoe globalt: 936 millioner voksne i alderen 30-69 aar med AHI mindst 5 og 425 millioner med AHI mindst 15, Benjafield m.fl., The Lancet Respiratory Medicine 2019;7:687-698; note: litteraturbaseret skoen, ikke optaelling. RAEKKE 6, koffein og soevn: samlet soevntid 45 minutter kortere, og kaffe boer indtages mindst 8,8 timer foer sengetid, Gardiner m.fl., Sleep Medicine Reviews 2023;69:101764, metaanalyse af 24 studier; note: gennemsnit, ikke personlig graense. Skriv en kort indledning paa 60-100 ord om, hvad der goer et soevntal svaert: naesten alle tal om soevn er enten selvrapporterede, modellerede eller maalt paa faa mennesker i et laboratorium — de tre ting fejler paa hver sin maade, og en tabel som denne blander dem bevidst, saa forskellen kan ses. Slut med to-tre linjers laeseregel. STRENGT: ingen raekker ud over de seks. Ingen tal, der ikke staar i denne brief.",
         "words": [
-          80,
-          350
+          400,
+          600
         ],
-        "mustCite": 4,
-        "format": "tallet"
+        "mustCite": 6,
+        "format": "tabel",
+        "mustNumber": [
+          "7-9 timer (18-64) / 7-8 timer (65+)",
+          "16,3 pct. i 2025 mod 10,2 pct. i 2010",
+          "27.662 melatoninbrugere 0-17 aar i 2025",
+          "936 mio. med AHI mindst 5",
+          "8,8 timer foer sengetid"
+        ]
       },
       "writer": {
-        "byline": "DeepSeek V3.2 (DeepSeek)",
-        "model": "deepseek/deepseek-v3.2",
-        "fallback": "google/gemini-3.5-flash"
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "anthropic/claude-opus-4.8"
       },
       "receipt": {
-        "words": 141,
-        "costUSD": null,
-        "draft": null
+        "words": 388,
+        "costUSD": 0.028002,
+        "draft": "kladder/11-tallet.md",
+        "costRouting": "byok"
       },
       "verdict": {
         "status": "accepted-after-edit",
-        "checkedAt": "2026-08-08",
-        "citations": 4,
-        "editorNote": "Editor-led batch; finished prose; jargon first-mention; bagsnit share images."
-      }
-    },
-    {
-      "slug": "ordbogen",
-      "order": 9,
-      "section": "Ordbogen",
-      "brief": {
-        "angle": "Melatonin, REM, CPAP.",
-        "words": [
-          50,
-          180
-        ],
-        "mustCite": 0,
-        "format": "bagsnit"
-      },
-      "writer": {
-        "byline": "Gemini 3.5 Flash (Google)",
-        "model": "google/gemini-3.5-flash",
-        "fallback": "minimax/minimax-m3"
-      },
-      "receipt": {
-        "words": 59,
-        "costUSD": null,
-        "draft": null
-      },
-      "verdict": {
-        "status": "accepted-after-edit",
-        "checkedAt": "2026-08-08",
-        "citations": 0,
-        "editorNote": "Editor-led batch; finished prose; jargon first-mention; bagsnit share images."
+        "checkedAt": "2026-08-18",
+        "citations": 6,
+        "editorNote": "REELT kommissioneret. Alle seks raekker med korrekte tal, aarstal og kilder, og indledningen om, at soevntal enten er selvrapporterede, modellerede eller maalt paa faa mennesker, er praecis den ramme rubrikken skal have. Redaktionelt: fodnoterne lavet om fra nummereret liste til [^n]-syntaks med links, saa de fungerer i sitet; raekkenummer-kolonnen fjernet som overfloedig; og laeseregelen omskrevet, saa den slutter paa den saetning, der faktisk er pointen — at det er saadan en anbefaling bliver til en diagnose."
       }
     },
     {
       "slug": "rygteboersen",
-      "order": 10,
+      "order": 12,
       "section": "Rygtebørsen",
       "brief": {
-        "angle": "Hype i soveværelset.",
+        "angle": "DOSIS' faste bagsnit: fem paastande om soevn, hver med en kort afmontering paa 40-70 ord og en stjernevurdering fra én til fem stjerner efter hvor meget hold der er i den. Formatet er kort, tørt og uden pegefinger. Brug praecis disse fem paastande. 1) «Fire timer er nok, hvis man er disciplineret nok» — hold den op mod, at baade Sundhedsstyrelsen og den internationale konsensus lander paa syv timer eller derover for voksne. 2) «Melatonin er naturligt, altsaa harmloest» — naturligt siger noget om oprindelse, ikke om virkning; i Danmark er det receptpligtigt laegemiddel og maa ikke saelges som kosttilskud. 3) «Min ring kan sige, om jeg har soevnapnoe» — en diagnose kraever en soevnundersoegelse; forbrugerteknologi er ikke valideret eller godkendt til diagnostik. 4) «En daarlig soevnscore betyder en daarlig nat» — en algoritme, hvis virkemaade ikke er offentlig, giver et tal, ikke en dom; og bekymring over tallet er i sig selv en soevnforstyrrelse. 5) «Man kan indhente soevn i weekenden» — regelmaessighed er en selvstaendig ting, og det er ikke det samme som at et regnskab gaar op. STRENGT: ingen nye tal overhovedet, heller ikke afrundede — alle tal staar i nummerets oevrige artikler, og denne rubrik henviser hoejst til dem i ord. Ingen fodnoter. Ingen dosisraad, ingen produktnavne, ingen maerker.",
         "words": [
-          50,
-          180
+          350,
+          500
         ],
         "mustCite": 0,
         "format": "bagsnit"
       },
       "writer": {
-        "byline": "Qwen3.7 Max (Alibaba)",
-        "model": "qwen/qwen3.7-max",
-        "fallback": "deepseek/deepseek-v3.2"
+        "byline": "GPT-5.6 Terra (OpenAI)",
+        "model": "openai/gpt-5.6-terra",
+        "fallback": "anthropic/claude-sonnet-5"
       },
       "receipt": {
-        "words": 62,
-        "costUSD": null,
-        "draft": null
+        "words": 339,
+        "costUSD": 0.0163635,
+        "draft": "kladder/12-rygteboersen.md",
+        "costRouting": "byok"
       },
       "verdict": {
         "status": "accepted-after-edit",
-        "checkedAt": "2026-08-08",
+        "checkedAt": "2026-08-18",
         "citations": 0,
-        "editorNote": "Editor-led batch; finished prose; jargon first-mention; bagsnit share images."
+        "editorNote": "REELT kommissioneret. Alle fem paastande afmonteret uden ét nyt tal, praecis som briefet kraevede, og uden pegefinger. Stjernevurderingerne er velafvejede — de to sidste faar to stjerner, fordi der er en kerne af noget rigtigt i dem. Redaktionelt kun format: stjernerne flyttet op under hver rubrik i stedet for at haenge i bunden af afsnittet, og indledningen kortet."
       }
     },
     {
       "slug": "til-pulsen",
-      "order": 11,
+      "order": 13,
       "section": "Kryds (PULSEN m.fl.)",
       "brief": {
-        "angle": "Bro til klinikken.",
+        "angle": "Kort bro fra DOSIS til soestertitlen PULSEN paa 250-350 ord. DOSIS skriver om kroppen mellem konsultationerne: vaner, tilskud, maaling, forskning. PULSEN skriver om sundhedsvaesenet som system: udredning, kapacitet, henvisninger, drift. Soevn er et godt eksempel paa, hvor graensen gaar, og det er hele teksten: snorken er DOSIS-stof, indtil den bliver en henvisning — og saa er det PULSEN-stof. Skriv det konkret: den dag et symptom skal blive til en diagnose, kraever det en soevnundersoegelse paa en klinik, en henvisning, en tid og et apparat, og alt det er systemets logik, ikke vanens. Naevn overtryksbehandling (CPAP — continuous positive airway pressure, overtryk gennem maske under soevn) som eksemplet paa noget, der baade er et apparat i et soveværelse og en post i et budget. Slut med en aerlig afgraensning: DOSIS kender ikke laeserens journal, og hvor et symptom hoerer hjemme i systemet, er ikke noget, et magasin kan afgoere. STRENGT: INGEN link til PULSEN nr. 3 — det nummer er ikke udgivet, og et doedt internt link braekker sitet. Link i stedet til /pulsen/2026-08-nr2/leder. Ingen tal overhovedet: ingen ventetider, ingen priser, ingen kapacitetstal, ingen praevalens. Ingen fodnoter.",
         "words": [
-          50,
-          180
+          250,
+          400
         ],
         "mustCite": 0,
         "format": "bagsnit"
       },
       "writer": {
-        "byline": "Claude Fable 5",
-        "model": "chefredaktør",
-        "fallback": null
+        "byline": "Gemini 3.1 Pro Preview (Google)",
+        "model": "google/gemini-3.1-pro-preview",
+        "fallback": "anthropic/claude-sonnet-5"
       },
       "receipt": {
-        "words": 58,
-        "costUSD": null,
-        "draft": null
+        "words": 288,
+        "costUSD": 0.03545,
+        "draft": "kladder/13-til-pulsen.md",
+        "costRouting": "byok"
       },
       "verdict": {
-        "status": "accepted",
-        "checkedAt": "2026-08-08",
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-18",
         "citations": 0,
-        "editorNote": "Editor-led batch; finished prose; jargon first-mention; bagsnit share images."
+        "editorNote": "REELT kommissioneret. Arbejdsdelingen mellem DOSIS og PULSEN skarpt formuleret, CPAP forklaret foerste gang, og — afgoerende — modellen respekterede forbuddet mod at linke til PULSEN nr. 3, der stadig er kladde, og linkede korrekt til nr. 2. Et doedt internt link ville have braekket prerenderingen. Redaktionelt: sproget strammet et par steder («benhaard post i et regionalt budget» daempet, da vi ikke har kilde paa hvem der betaler)."
       }
     }
   ]
