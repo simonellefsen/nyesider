@@ -1,0 +1,123 @@
+{
+  "magazine": "kraften",
+  "number": 3,
+  "title": "KRAFTEN nr. 3 · August 2026",
+  "issueTheme": "Hvem får strømmen først?",
+  "published": "2026-08-15",
+  "status": "published",
+  "pdf": null,
+  "cover": "images/kraften_cover.png",
+  "coverCredit": "AI-genereret forside (Imagine / xAI)",
+  "coverSource": "https://x.ai/",
+  "images": [
+    "images/kraften_cover.png",
+    "images/kraften_leder.png",
+    "images/kraften_datacentre.png",
+    "images/kraften_irland.png",
+    "images/kraften_havneel.png",
+    "images/kraften_afrika.png",
+    "images/kraften_svenskatom.png",
+    "images/kraften_tallet.png",
+    "images/kraften_bagsnit.png"
+  ],
+  "productionCostUSD": 0.2526,
+  "imageCredits": "Imagine / xAI. Se SOURCES.md.",
+  "backCoverPromise": "KRAFTEN nr. 4 følger op, når data centre-moratorier eller nye SMR-ansøgninger lander med konkret myndighedstekst.",
+  "articles": [
+    {
+      "slug": "leder",
+      "file": "articles/01-leder.md",
+      "order": 1,
+      "title": "Hvem får strømmen først?",
+      "section": "Leder",
+      "standfirst": "Datacentre sluger stadig mere strøm globalt. 730 millioner mennesker har stadig ingen. Elektrificering handler ikke kun om at producere mere — men om hvem der får strømmen først.",
+      "image": "../images/kraften_leder.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/"
+    },
+    {
+      "slug": "datacentre-globalt",
+      "file": "articles/02-datacentre-globalt.md",
+      "order": 2,
+      "title": "Datacentrene tager en stadig større bid",
+      "section": "Elektrificering (global)",
+      "byline": "Claude Sonnet 5 (Anthropic)",
+      "standfirst": "485 terawattimer i 2025. Næsten en fordobling ventet inden 2030. Én sektor, der knap eksisterede for et årti siden.",
+      "image": "../images/kraften_datacentre.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/"
+    },
+    {
+      "slug": "irland-case",
+      "file": "articles/03-irland-case.md",
+      "order": 3,
+      "title": "Irlands elnet under pres",
+      "section": "Lande & regioner (statistik)",
+      "byline": "Gemini 3.1 Pro Preview (Google)",
+      "standfirst": "Datacentre stod for 23 procent af Irlands elforbrug i 2025. Husholdningerne var kun tre point foran — og gabet lukker hurtigt.",
+      "image": "../images/kraften_irland.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/"
+    },
+    {
+      "slug": "havne-el",
+      "file": "articles/04-havne-el.md",
+      "order": 4,
+      "title": "Landstrøm: elektrificeringen, der foregår ved kaj",
+      "section": "Byggeri & anlæg",
+      "byline": "Claude Sonnet 5 (Anthropic)",
+      "standfirst": "Loven er vedtaget, deadline står fast. Kun 20 procent af de krævede tilslutninger var på plads, da vi kiggede efter.",
+      "image": "../images/kraften_havneel.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/"
+    },
+    {
+      "slug": "afrika-netadgang",
+      "file": "articles/05-afrika-netadgang.md",
+      "order": 5,
+      "title": "Det afrikanske netadgangs-spring",
+      "section": "Lande & regioner (statistik)",
+      "byline": "Claude Sonnet 5 (Anthropic)",
+      "standfirst": "Minigrids driver næsten al ny elektrificering i Afrika syd for Sahara. Det er ikke en overgangsteknologi — det kan blive normen.",
+      "image": "../images/kraften_afrika.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/"
+    },
+    {
+      "slug": "svensk-atom",
+      "file": "articles/06-svensk-atom.md",
+      "order": 6,
+      "title": "Det svenske atom-træk",
+      "section": "Atom til el (fission, SMR, thorium, fusion)",
+      "byline": "Gemini 3.1 Pro Preview (Google)",
+      "standfirst": "Sveriges første nye atomkraft i 40 år har fået en leverandør. Byggeriet er endnu ikke begyndt.",
+      "image": "../images/kraften_svenskatom.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/"
+    },
+    {
+      "slug": "tallet",
+      "file": "articles/07-tallet.md",
+      "order": 7,
+      "title": "Tallet: to virkeligheder på samme graf",
+      "section": "Tallet (datavisning)",
+      "byline": "Claude Sonnet 5 (Anthropic)",
+      "standfirst": "Datacentre sluger stadig mere strøm. 730 millioner mennesker har stadig ingen. Begge dele er sande på samme tid.",
+      "image": "../images/kraften_tallet.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/"
+    },
+    {
+      "slug": "rygteboersen",
+      "file": "articles/08-rygteboersen.md",
+      "order": 8,
+      "title": "Rygtebørsen: strømmen går, hvor den vil",
+      "section": "Rygtebørsen",
+      "byline": "GPT-5.6 Terra (OpenAI)",
+      "standfirst": "Branchestøj, politiske mavefornemmelser og kvalificerede gæt — ikke nyhedsrapportering.",
+      "image": "../images/kraften_bagsnit.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/"
+    }
+  ]
+}

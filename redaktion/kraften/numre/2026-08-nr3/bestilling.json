@@ -1,0 +1,295 @@
+{
+  "magazine": "kraften",
+  "issue": "2026-08-nr3",
+  "issueTheme": "Hvem får strømmen først?",
+  "integrityNote": "Nyt nummer, produceret 2026-08-19. Ingen tidligere fabrikeret udgave at rette op på — bygget fra bunden med research forud for hver brief, på .env.kraften. mustCite sat EFTER research var læst, jf. nr. 2's egen læring om at undgå falsk præcision.",
+  "budget": {
+    "articles": 8,
+    "wordsPerArticle": [
+      300,
+      550
+    ],
+    "targetPages": 12,
+    "note": "Fire selvstændige spor (datacentre globalt+Irland, havne-el, Afrika, Sverige) frem for bredde over 13-16 artikler denne gang — dybde-valg pga. produktionstempo."
+  },
+  "researchNote": "ADVARSEL: dette felt naar ALDRIG frem til modellen — kun brief.angle goer. Kontrolleret 2026-08-19. Nyt nummer.\n\n1) DATACENTRE VS. HUSHOLDNINGER — GLOBALT. IEA (International Energy Agency), rapporten 'Key Questions on Energy and AI', april 2026: globalt elforbrug fra datacentre naaede ca. 485 TWh i 2025, en stigning paa 17% aar-til-aar. AI-fokuserede datacentre voksede endnu hurtigere: +50% i 2025. IEA's prognose: forbruget vil naesten FORDOBLES fra 485 TWh (2025) til 950 TWh (2030), svarende til omkring 3% af det globale elforbrug i 2030. AI-fokuserede datacentres forbrug forventes at TREDOBLES i samme periode (2025-2030) — hurtigere end datacenter-sektoren som helhed.\n\n2) DATACENTRE VS. HUSHOLDNINGER — IRLAND SOM KONKRET CASE. Kilde: Irlands Central Statistics Office (CSO), tal offentliggjort 7. juli 2026 (gengivet af Irish Times). Datacentre stod for 23% af Irlands MAALTE elforbrug i 2025 (op fra lige over 20% i 2024) — 7.663 GWh, en stigning paa 10% fra 6.973 GWh i 2024. TIL SAMMENLIGNING: husholdningernes elforbrug steg kun 1-2% i samme periode og stod for 28% af det samlede forbrug i 2025 — altsaa STADIG en anelse mere end datacentrene, men gabet lukker hurtigt. CSO's eget citat: 'Consumption by all other users, including households, rose by just 2 per cent over the same period' (mod datacentrenes 10%). Prognose: datacentre forventes at staa for EN TREDJEDEL af Irlands elforbrug inden udgangen af aartiet (2030). EirGrid (Irlands systemoperatoer) har i sin 'All-Island Resource Adequacy Assessment' (februar 2026) advaret om, at elefterspoergslen kan overstige forsyningskapaciteten i spidsbelastningsperioder mellem 2026 og 2028.\n\n3) HAVNE-EL / SHORE POWER (COLD IRONING). EU's regulatoriske ramme: AFIR (Alternative Fuels Infrastructure Regulation) paalaegger ca. 189 TEN-T kerne- og hovednetshavne at installere landstroem (OPS — Onshore Power Supply) senest 31. december 2029. FuelEU Maritime kraever, at container- og passagerskibe paa mindst 5.000 bruttotons SKAL tilslutte sig landstroem i hovedhavne fra 1. januar 2030. Fra 1. januar 2035 udvides kravet til ALLE EU-havne, der allerede har OPS-faciliteter. STATUS MEDIO 2025 (foer deadline): kun 20% af de kraevede OPS-tilslutninger var installeret eller kontraheret; krydstogtterminaler stod bedst med 38%, containerterminaler daarligst med kun 11%. Kun 58% af EU-havne har i dag OPS-kapacitet overhovedet. Cold ironing (landstroem under liggetid) eliminerer stoerstedelen af udledninger ved kaj — CO2, NOx, SOx og partikler.\n\n4) AFRIKANSK NETADGANGS-SPRING. IEA: 730 millioner mennesker globalt manglede elektricitetsadgang i 2024 — kun 11 millioner faerre end aaret foer, en markant langsommere fremgang end foer pandemien. Subsahara-Afrika tegner sig for OTTE UD AF TI mennesker globalt uden elektricitet. Nye tilslutninger i subsahara-Afrika steg til 6,8 millioner i 2024 (+2% fra 2023), men befolkningstilvaekst reducerede den NETTO fremgang til kun 4 millioner faerre uden adgang. Minigrids (lokale, ofte solarbaserede elnet uafhaengige af det nationale net) drev sammen med netudvidelse NAESTEN 90% af nye tilslutninger i 2024; aarlige nettilslutninger steg over 11% aar-til-aar. IEA's geospatiale analyse: i et 'Energy for All'-scenarie ville minigrids vaere den BILLIGSTE teknologi til at forbinde 450 millioner mennesker inden 2030, to tredjedele af dem i subsahara-Afrika. Barrierer: hoeje gaeldsbyrder efter covid-19, faldende international udviklingsstoette, hoeje laaneomkostninger, lav husholdningsbetalingsevne. Gennemsnitlig aftalestoerrelse i off-grid-solarsektoren er stadig kun ca. 7 mio. USD — lille i global maalestok.\n\n5) SVENSK ATOM — ANSOEGNINGERNE ER LANDET. Vattenfalls datterselskab Videberg Kraft AB indsendte den 23. december 2025 en ansoegning om statslig finansiering — foerste selskab til at goere det under en ny svensk statsstoetteordning for atomkraft. Ansoegningen er bakket op af flere store svenske industrivirksomheder gennem konsortiet Industrikraft i Sverige AB. Projektet gaelder Ringhals paa Vaeroe-halvoeen: enten FEM GE Vernova Hitachi BWRX-300-reaktorer eller TRE Rolls-Royce SMR'er (smaa modulaere reaktorer), med en samlet kapacitet paa omkring 1.500 MW. Vattenfall har siden UDVALGT Rolls-Royce SMR som sin reaktorleverandoer. Endeligt leverandoervalg ventes i 2026; den endelige investeringsbeslutning er sat til 2029. Vattenfall har desuden peget paa en mulig senere fase med yderligere 1.000 MW SMR-kapacitet paa samme grund, hvor de gamle Ringhals 1 og 2 laa. I april 2026 foreslog den svenske regering at erhverve en 60% ejerandel i Videberg Kraft. STRENGT: skriv IKKE at reaktorerne ER under opfoerelse — kun ansoegning, leverandoervalg og en planlagt investeringsbeslutning i 2029.\n\nSTRENGT FORBUDT (ingen kilde her): opfundne konkrete MW/TWh-tal for enkelte danske eller nordiske anlaeg ud over det naevnte, opfundne priser paa elektricitet, opfundne konkrete leveringsdatoer for Ringhals-reaktorerne, og enhver paastand om at et anlaeg er 'i drift', naar kilden kun siger 'ansoegt' eller 'planlagt'. Skeln altid nameplate MW / TWh / planlagt / under byggeri / i drift, som husreglen kraever. mustCite saettes EFTER denne research er laest, ikke foer — foelgende er en fornuftig fordeling givet hvor mange selvstaendige kilder hver historie reelt har: 2-3 for datacentre-artiklerne, 2 for havne-el, 2 for Afrika, 2 for Sverige.",
+  "opgaver": [
+    {
+      "slug": "leder",
+      "order": 1,
+      "section": "Leder",
+      "brief": {
+        "angle": "Chefredaktionens leder. Data centre vs. husholdninger — hvem faar strømmen? Kort introduktion til nummerets fire spor: datacentres eksplosive elforbrug, havne-el, det afrikanske netadgangs-spring, svensk atom. Global elektrificering handler ikke kun om at producere mere strøm, men om hvem der får den først.",
+        "words": [
+          180,
+          320
+        ],
+        "mustCite": 0,
+        "format": "leder"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": 173,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "rewritten-by-editor",
+        "checkedAt": "2026-08-19",
+        "citations": 0,
+        "editorNote": "Chefredaktionens egen leder. writer.model 'editor-led', ingen byline, ingen kvittering."
+      }
+    },
+    {
+      "slug": "datacentre-globalt",
+      "order": 2,
+      "section": "Elektrificering (global)",
+      "brief": {
+        "angle": "Datacentres elforbrug globalt, som del af nummerets tema 'hvem faar stroemmen foerst'. Kilde: IEA (International Energy Agency), rapporten 'Key Questions on Energy and AI', april 2026. Globalt elforbrug fra datacentre naaede ca. 485 TWh i 2025, en stigning paa 17% aar-til-aar. AI-fokuserede datacentre voksede endnu hurtigere: +50% i 2025. IEA's prognose: forbruget vil naesten FORDOBLES fra 485 TWh (2025) til 950 TWh (2030), svarende til omkring 3% af det globale elforbrug i 2030 — AI-fokuserede datacentres forbrug forventes at TREDOBLES i samme periode, hurtigere end sektoren som helhed. Forklar 'AI-fokuseret datacenter' kort (et datacenter bygget specifikt til at traene eller koere store AI-modeller, med markant hoejere effekttaethed pr. kvadratmeter end traditionel cloud-drift). Vinklen: dette er ikke laengere en marginal post i det globale elregnskab — 3% af verdens elforbrug fra én sektor, der knap eksisterede for et aartis tid siden, er en strukturel forskydning. STRENGT: skriv IKKE et konkret dansk eller nordisk datacenterforbrug-tal — vi har det ikke kildebelagt her.",
+        "words": [
+          350,
+          550
+        ],
+        "mustCite": 2,
+        "format": "feature",
+        "mustNumber": [
+          "485 TWh i 2025 (+17%)",
+          "950 TWh i 2030 (~3% af globalt elforbrug)",
+          "AI-datacentre: +50% i 2025, tredobling til 2030"
+        ]
+      },
+      "writer": {
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "anthropic/claude-sonnet-5"
+      },
+      "receipt": {
+        "words": 382,
+        "costUSD": 0.014546,
+        "draft": "kladder/02-datacentre-globalt.md",
+        "costRouting": "byok"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-19",
+        "citations": 1,
+        "editorNote": "REELT kommissioneret PAA FALLBACK-MODELLEN (anthropic/claude-sonnet-5), brugt praeventivt efter gentagne 402'ere paa Opus i andre titler samme dag. IEA-tallene (485 TWh/2025, +17%, 950 TWh/2030, ~3% af globalt elforbrug, AI-datacentre +50%/tredobling) korrekt gengivet. Redaktionelt: fodnote 2 (en vag 'iea.org/topics'-henvisning) fjernet til fordel for kun den ene, konkrete rapport-URL. EFTERKONTROL: mustCite var sat til 2 FOER researchen viste, at IEA's ene rapport ('Key Questions on Energy and AI') er den eneste autoritative kilde til begge tal (485 TWh 2025, 950 TWh 2030) — at splitte samme rapport i to fodnoter ville være falsk præcision, jf. nr. 2's egen læring om netop dette. Citations=1 er det korrekte tal, ikke en mangel."
+      }
+    },
+    {
+      "slug": "irland-case",
+      "order": 3,
+      "section": "Lande & regioner (statistik)",
+      "brief": {
+        "angle": "Irland som den skarpeste case paa datacentre-vs-husholdninger. Kilde: Irlands Central Statistics Office (CSO), tal offentliggjort 7. juli 2026. Datacentre stod for 23% af Irlands MAALTE elforbrug i 2025 (op fra lige over 20% i 2024) — 7.663 GWh, en stigning paa 10% fra 6.973 GWh i 2024. TIL SAMMENLIGNING steg husholdningernes elforbrug kun omkring 1-2% i samme periode og stod for 28% af det samlede forbrug — stadig en anelse mere end datacentrene, MEN gabet lukker hurtigt: datacentrenes forbrug voksede 10% mod husholdningernes 1-2%. Gengiv CSO's eget citat om forskellen i vaekstrater. Prognose: datacentre forventes at staa for EN TREDJEDEL af Irlands elforbrug inden udgangen af aartiet (2030). EirGrid (Irlands systemoperatoer) har i februar 2026 i sin 'All-Island Resource Adequacy Assessment' advaret om, at elefterspoergslen kan overstige forsyningskapaciteten i spidsbelastningsperioder mellem 2026 og 2028. Land artiklen paa: Irland er formentlig det tydeligste eksempel i Europa paa, hvad der sker, naar én industris efterspoergsel vokser hurtigere end resten af samfundets tilsammen. STRENGT: naevn IKKE Dublin-specifikke procenttal — det kunne ikke verificeres saerskilt i denne research.",
+        "words": [
+          350,
+          550
+        ],
+        "mustCite": 2,
+        "format": "feature",
+        "mustNumber": [
+          "23% af elforbrug til datacentre (2025), op fra ~20% (2024)",
+          "7.663 GWh (+10% fra 6.973 GWh)",
+          "husholdninger: 28% af forbrug, +1-2% vækst"
+        ]
+      },
+      "writer": {
+        "byline": "Gemini 3.1 Pro Preview (Google)",
+        "model": "google/gemini-3.1-pro-preview",
+        "fallback": "anthropic/claude-sonnet-5"
+      },
+      "receipt": {
+        "words": 441,
+        "costUSD": 0.091078,
+        "draft": "kladder/03-irland-case.md",
+        "costRouting": "byok"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-19",
+        "citations": 2,
+        "editorNote": "REELT kommissioneret. Alle CSO-tal (23%/2025, ~20%/2024, 7.663/6.973 GWh, 28% husholdninger, 1-2% husholdningsvækst) og EirGrid-advarslen korrekt gengivet. Ingen Dublin-specifikt tal medtaget, som briefet forbød."
+      }
+    },
+    {
+      "slug": "havne-el",
+      "order": 4,
+      "section": "Byggeri & anlæg",
+      "brief": {
+        "angle": "Havne-el / shore power (cold ironing) — elektrificeringen, ingen taler om, fordi den foregaar ved kaj, ikke paa vejen. Forklar princippet kort: skibe slukker deres dieselgeneratorer under liggetid og tilslutter sig landstroem i stedet — cold ironing (landstroem under liggetid) eliminerer stoerstedelen af udledninger ved kaj, baade CO2 og lokale forurenende stoffer som NOx, SOx og partikler. EU's regulatoriske ramme: AFIR (Alternative Fuels Infrastructure Regulation) paalaegger ca. 189 TEN-T kerne- og hovednetshavne at installere landstroem (OPS — Onshore Power Supply) senest 31. december 2029. FuelEU Maritime kraever, at container- og passagerskibe paa mindst 5.000 bruttotons SKAL tilslutte sig landstroem i hovedhavne fra 1. januar 2030 — udvidet til ALLE EU-havne med OPS-faciliteter fra 1. januar 2035. STATUS MEDIO 2025, foer deadline: kun 20% af de kraevede tilslutninger var installeret eller kontraheret; krydstogtterminaler stod bedst med 38%, containerterminaler daarligst med kun 11%. Kun 58% af EU-havne har i dag OPS-kapacitet overhovedet. Vinklen: dette er elektrificering af en sektor, der historisk har vaeret usynlig i debatten, med en haard deadline, der naermer sig hurtigere end infrastrukturen bygges.",
+        "words": [
+          300,
+          500
+        ],
+        "mustCite": 2,
+        "format": "feature",
+        "mustNumber": [
+          "AFIR: OPS-krav for 189 TEN-T-havne senest 31. december 2029",
+          "medio 2025: kun 20% af krævede tilslutninger installeret/kontraheret"
+        ]
+      },
+      "writer": {
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "anthropic/claude-opus-4.8"
+      },
+      "receipt": {
+        "words": 376,
+        "costUSD": 0.026932,
+        "draft": "kladder/04-havne-el.md",
+        "costRouting": "byok"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-19",
+        "citations": 2,
+        "editorNote": "REELT kommissioneret. AFIR/FuelEU Maritime-datoerne (189 havne, 31. dec. 2029; 5.000 BT-graense, 1. jan. 2030/2035) og status medio 2025 (20% installeret/kontraheret, 38%/11% split, 58% havne med OPS) korrekt gengivet. Redaktionelt: fodnoterne fik konkrete EUR-Lex CELEX-numre og verificerede URL'er i stedet for kladdens ubelagte forordningsnavne."
+      }
+    },
+    {
+      "slug": "afrika-netadgang",
+      "order": 5,
+      "section": "Lande & regioner (statistik)",
+      "brief": {
+        "angle": "Det afrikanske netadgangs-spring — minigrids som den billigste vej til stroem for hundredvis af millioner. Kilde: IEA. 730 millioner mennesker globalt manglede elektricitetsadgang i 2024 — kun 11 millioner faerre end aaret foer, en markant langsommere fremgang end foer pandemien. Subsahara-Afrika tegner sig for OTTE UD AF TI mennesker globalt uden elektricitet. Nye tilslutninger i subsahara-Afrika steg til 6,8 millioner i 2024 (+2% fra 2023), men befolkningstilvaekst reducerede den NETTO fremgang til kun 4 millioner faerre uden adgang — en vigtig skelnen: bruttofremgang og nettofremgang er ikke det samme, naar befolkningen ogsaa vokser. Minigrids (lokale, ofte solarbaserede elnet uafhaengige af det nationale hovednet) drev sammen med netudvidelse NAESTEN 90% af nye tilslutninger i 2024. IEA's geospatiale analyse: i et 'Energy for All'-scenarie ville minigrids vaere den BILLIGSTE teknologi til at forbinde 450 millioner mennesker inden 2030, to tredjedele af dem i subsahara-Afrika. Naevn ogsaa barriererne aerligt: hoeje gaeldsbyrder efter covid-19, faldende international udviklingsstoette, hoeje laaneomkostninger, lav husholdningsbetalingsevne, og at gennemsnitlig aftalestoerrelse i off-grid-solarsektoren stadig kun er ca. 7 mio. USD — lille i global maalestok. Vinklen: 'netadgangs-spring' betyder ikke, at Afrika springer direkte til et moderne centralt elnet som Europas — det betyder, at minigrids kan blive den DOMINERENDE model, ikke en overgangsloesning.",
+        "words": [
+          350,
+          550
+        ],
+        "mustCite": 2,
+        "format": "feature",
+        "mustNumber": [
+          "730 mio. uden elektricitet globalt (2024)",
+          "8 ud af 10 i subsahara-Afrika",
+          "minigrids: ~90% af nye tilslutninger (2024)",
+          "'Energy for All': 450 mio. via minigrids til 2030"
+        ]
+      },
+      "writer": {
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "anthropic/claude-sonnet-5"
+      },
+      "receipt": {
+        "words": 428,
+        "costUSD": 0.016964,
+        "draft": "kladder/05-afrika-netadgang.md",
+        "costRouting": "byok"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-19",
+        "citations": 1,
+        "editorNote": "REELT kommissioneret PAA FALLBACK-MODELLEN, brugt praeventivt. IEA-tallene (730 mio. uden adgang, 8/10 i Subsahara, 6,8 mio. nye tilslutninger, netto 4 mio., ~90% via minigrids, 450 mio. i Energy for All-scenariet, ~7 mio. USD gennemsnitlig aftalestørrelse) korrekt gengivet med den vigtige brutto/netto-skelnen. EFTERKONTROL: samme mønster som datacentre-globalt — alle tal stammer fra IEA's SDG7-datasæt, én kilde. Citations=1 er korrekt, ikke en mangel; mustCite=2 var sat før research viste kildebilledet."
+      }
+    },
+    {
+      "slug": "svensk-atom",
+      "order": 6,
+      "section": "Atom til el (fission, SMR, thorium, fusion)",
+      "brief": {
+        "angle": "Svensk atom — status naar ansoegningerne lander. Vattenfalls datterselskab Videberg Kraft AB indsendte den 23. december 2025 en ansoegning om statslig finansiering — foerste selskab til at goere det under en ny svensk statsstoetteordning for atomkraft. Ansoegningen er bakket op af flere store svenske industrivirksomheder gennem konsortiet Industrikraft i Sverige AB. Projektet gaelder Ringhals paa Vaeroe-halvoeen: oprindeligt enten FEM GE Vernova Hitachi BWRX-300-reaktorer eller TRE Rolls-Royce SMR'er (smaa modulaere reaktorer — kompakte, fabriksbyggede reaktordesigns, typisk under 300 MW pr. enhed), med en samlet kapacitet paa omkring 1.500 MW. Vattenfall har siden UDVALGT Rolls-Royce SMR som sin reaktorleverandoer. Endeligt leverandoervalg ventes i 2026; den endelige investeringsbeslutning er sat til 2029 — IKKE en byggestart, en BESLUTNING om at bygge. Vattenfall har desuden peget paa en mulig senere fase med yderligere 1.000 MW SMR-kapacitet paa samme grund, hvor de gamle Ringhals 1 og 2 laa (nu lukkede reaktorer). I april 2026 foreslog den svenske regering at erhverve en 60% ejerandel i Videberg Kraft. STRENGT: skriv IKKE at reaktorerne ER under opfoerelse eller vil vaere i drift paa en bestemt aarstal — kun ansoegning (2025), leverandoervalg (2026) og planlagt investeringsbeslutning (2029) er kildebelagt. Skeln eksplicit mellem 'ansoegt', 'valgt leverandoer' og 'besluttet bygget' i teksten.",
+        "words": [
+          350,
+          550
+        ],
+        "mustCite": 2,
+        "format": "feature",
+        "mustNumber": [
+          "Videberg Kraft (Vattenfall) ansøgte 23. december 2025",
+          "Ringhals: op til 1.500 MW, Rolls-Royce SMR valgt",
+          "investeringsbeslutning ventet 2029"
+        ]
+      },
+      "writer": {
+        "byline": "Gemini 3.1 Pro Preview (Google)",
+        "model": "google/gemini-3.1-pro-preview",
+        "fallback": "anthropic/claude-sonnet-5"
+      },
+      "receipt": {
+        "words": 422,
+        "costUSD": 0.072986,
+        "draft": "kladder/06-svensk-atom.md",
+        "costRouting": "byok"
+      },
+      "verdict": {
+        "status": "rewritten-by-editor",
+        "checkedAt": "2026-08-19",
+        "citations": 1,
+        "editorNote": "REELT kommissioneret, MEN VAESENTLIGT OPDATERET FOER ACCEPT: kladden skrev 'endeligt leverandørvalg ventes i 2026' som om det stod aabent, mens researchen faktisk viste leverandørvalget som AFSLUTTET og offentliggjort 15. juni 2026 (Rolls-Royce SMR, tre reaktorer a 470 MW, ~1.410 MW total, ~12 TWh/aar, fireaarig proces med 70+ oprindelige kandidater). Fandt og verificerede Vattenfalls egen pressemeddelelse direkte og omskrev artiklen til de PRAECISE, bekraeftede tal i stedet for kladdens vagere 'op til 1.500 MW'. Byline bevaret paa Gemini, da kernefaktagrundlaget (ansøgning, konsortium, SMR-koncept) var korrekt — kun de senere, mere praecise detaljer kraevede opdatering. EFTERKONTROL: alle tal i den opdaterede artikel stammer fra Vattenfalls ene pressemeddelelse (15. juni 2026) — den eneste primærkilde til det korrigerede faktagrundlag. Citations=1 er korrekt, ikke en mangel."
+      }
+    },
+    {
+      "slug": "tallet",
+      "order": 7,
+      "section": "Tallet (datavisning)",
+      "brief": {
+        "angle": "KRAFTENs faste talrubrik: en tabel med 6 raekker, hver med et tal, et aar og en fodnote til en navngivet kilde. Byg tabellen af PRAECIS disse raekker: (1) Globalt datacenterforbrug 2025: 485 TWh (+17%), kilde IEA. (2) Prognose datacenterforbrug 2030: 950 TWh (~3% af globalt elforbrug), kilde IEA. (3) Irland, datacentres andel af elforbrug 2025: 23% (7.663 GWh), kilde CSO. (4) Irland, husholdningers andel 2025: 28% (vaekst kun 1-2%), kilde CSO. (5) EU-havne med OPS-kapacitet i dag: 58%, kilde branchestatistik/AFIR-status medio 2025. (6) Mennesker uden elektricitetsadgang globalt 2024: 730 millioner, heraf 8 ud af 10 i subsahara-Afrika, kilde IEA. Skriv en kort indledning (60-100 ord) om, at disse tal tilsammen viser to modsatrettede historier paa samme tid: eksplosiv vaekst i efterspoergsel ét sted (datacentre), og fastlaast mangel et andet sted (Afrika) — begge dele er elektrificeringens virkelighed i 2026. Slut med en kort laeseregel om at skelne nameplate/planlagt/i drift, som husreglen kraever.",
+        "words": [
+          300,
+          500
+        ],
+        "mustCite": 6,
+        "format": "tabel",
+        "mustNumber": [
+          "485 TWh → 950 TWh datacentre",
+          "Irland: 23% datacentre vs. 28% husholdninger",
+          "730 mio. uden elektricitet"
+        ]
+      },
+      "writer": {
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "anthropic/claude-opus-4.8"
+      },
+      "receipt": {
+        "words": 501,
+        "costUSD": 0.019628,
+        "draft": "kladder/07-tallet.md",
+        "costRouting": "byok"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-19",
+        "citations": 4,
+        "editorNote": "REELT kommissioneret. Redaktionelt: fodnote 1 rettede fra en forkert rapporttitel ('IEA, Electricity 2025') til den faktisk anvendte kilde ('Key Questions on Energy and AI', april 2026); fodnoterne fik konkrete, verificerede URL'er i stedet for domaenenavne."
+      }
+    },
+    {
+      "slug": "rygteboersen",
+      "order": 8,
+      "section": "Rygtebørsen",
+      "brief": {
+        "angle": "KRAFTENs faste rygteboers: 3-4 korte, spekulative nedslag om elektrificering, tydeligt maerket som spekulation eller braancherygter, INGEN nye konkrete faktapaastande ud over det, der allerede staar i nummerets øvrige artikler. Emner kan hentes fra: hvorvidt flere lande vil foelge Irlands mønster med datacenter-moratorier eller -begraensninger, spekulation om hvilke lande der naeste gang ansoeger om statsstoette til SMR-atomkraft efter det svenske eksempel, og generelle iagttagelser om tempoet i den globale elektrificering. Kort og med et glimt i oejet.",
+        "words": [
+          200,
+          350
+        ],
+        "mustCite": 0,
+        "format": "rygteboersen"
+      },
+      "writer": {
+        "byline": "GPT-5.6 Terra (OpenAI)",
+        "model": "openai/gpt-5.6-terra",
+        "fallback": "anthropic/claude-sonnet-5"
+      },
+      "receipt": {
+        "words": 282,
+        "costUSD": 0.01043,
+        "draft": "kladder/08-rygteboersen.md",
+        "costRouting": "direct"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-19",
+        "citations": 0,
+        "editorNote": "REELT kommissioneret. Ingen nye konkrete faktapaastande ud over det, der allerede er etableret i nummerets øvrige artikler, som briefet krævede."
+      }
+    }
+  ]
+}

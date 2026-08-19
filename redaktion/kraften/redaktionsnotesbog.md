@@ -113,12 +113,46 @@ begrundelsen ind i artiklen: *«en falsk-præcis procent er værre end en åben 
 har derefter fundet de tal, der kunne findes (Kina 22 %, OECD 20 %), og ladet resten stå tomt med
 begrundelsen. Det er den rigtige rækkefølge.
 
-## Nr. 3 — kandidater
+## Nr. 3 — udgivet 2026-08-19
 
-- **(2026-08) Data centre vs. husholdninger — regionale case**  
-- **(2026-08) Havne-el / shore power**  
-- **(2026-08) Afrikanske netadgangs-spring**  
-- **(2026-08) Svensk atom — status når ansøgninger lander**
+**Tema:** Hvem får strømmen først? **8 artikler, 2.742 ord.** Syv artikler reelt kommissioneret på
+`.env.kraften`; lederen er redaktionens uden byline. Forbrug **0,2526 USD**. `check_issue.py`:
+**0 fejl, 0 advarsler.** `bestilling.json`: `redaktion/kraften/numre/2026-08-nr3/bestilling.json`.
+
+Alle fire nr. 3-kandidater brugt: data centre vs. husholdninger (globalt + Irland som case),
+havne-el, det afrikanske netadgangs-spring, og svensk atom.
+
+### Kernetal
+
+- **Datacentre globalt:** 485 TWh i 2025 (+17 %), ventet 950 TWh i 2030 (~3 % af globalt
+  elforbrug). AI-fokuserede datacentre: +50 % i 2025, tredobling ventet til 2030. Kilde: IEA,
+  *Key Questions on Energy and AI*, april 2026.
+- **Irland:** datacentre 23 % af elforbruget i 2025 (7.663 GWh, +10 %) mod husholdningers
+  28 % (+1–2 %) — gabet lukker hurtigt. Kilde: CSO, 7. juli 2026.
+- **Havne-el:** kun 20 % af de AFIR-krævede OPS-tilslutninger var installeret/kontraheret medio
+  2025, 58 % af EU-havne har OPS-kapacitet overhovedet. Deadline: 31. december 2029.
+- **Afrika:** 730 mio. uden elektricitet globalt (2024), 8 ud af 10 i Subsahara-Afrika. Minigrids
+  drev ~90 % af nye tilslutninger i 2024.
+- **Svensk atom:** Videberg Kraft (Vattenfall) valgte Rolls-Royce SMR som leverandør, offentliggjort
+  15. juni 2026 — tre reaktorer à 470 MW (~1.410 MW, ~12 TWh/år), efter en fireårig proces med 70+
+  oprindelige kandidater. Investeringsbeslutning ventet 2029.
+
+### En kladde blev væsentligt opdateret før accept
+
+`svensk-atom`-kladden skrev, at "endeligt leverandørvalg ventes i 2026", som om spørgsmålet stod
+åbent. En opfølgende research fandt Vattenfalls egen pressemeddelelse af 15. juni 2026, der viser,
+at valget allerede var truffet og offentliggjort — med langt mere præcise tal (470 MW × 3 = 1.410 MW,
+~12 TWh/år, 70+ oprindelige kandidater over fire år) end kladdens vagere "op til 1.500 MW". Artiklen
+blev omskrevet til de bekræftede tal. Verdikt: `rewritten-by-editor`.
+
+### mustCite sat før research — igen, men denne gang håndteret rigtigt
+
+Tre artikler (`datacentre-globalt`, `afrika-netadgang`, `svensk-atom`) endte med færre citationer
+end briefet krævede — men denne gang er det IKKE en fejl. Hver historie har genuint kun ÉN
+autoritativ kilde (IEA's ene rapport, Vattenfalls ene pressemeddelelse). At splitte samme side i
+flere fodnoter for at ramme et tal ville have været den falske præcision, nr. 2's læring advarer
+imod. Ledgerens `citations`-felt er rettet til det faktiske, korrekte antal, med en forklarende note
+— ikke opjusteret med opfundne ekstra fodnoter.
 
 ## Research-regler
 
@@ -126,6 +160,10 @@ Tal med **kilde + årstal**. Skeln nameplate MW / TWh / planlagt / under byggeri
 OpenRouter: **kun** `.env.kraften`. Imagine: `.env.local`.
 
 ## Log
+
+- **2026-08-19:** Nr. 3 udgivet — 'Hvem får strømmen først?', nyt nummer produceret fra bunden.
+  Se læringen ovenfor. Én kladde (svensk-atom) væsentligt opdateret før accept, da en opfølgende
+  research fandt et nyere, mere præcist primærkilde-dokument end kladdens grundlag.
 
 - **2026-08-08 (format):** Ordbogen fjernet fra nr. 2 — gloser i parentes/fodnote i features (ikke separat ordliste).
 

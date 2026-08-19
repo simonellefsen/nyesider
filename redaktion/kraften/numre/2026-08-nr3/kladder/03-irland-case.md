@@ -1,0 +1,16 @@
+**Irlands elnet under pres: Datacentre haler ind på husholdningerne**
+
+I bestræbelserne på at elektrificere verdenssamfundet er det oftest elnettets omstilling til at håndtere elbiler, varmepumper og tung industri, der trækker overskrifterne. Men i Irland er det en helt anden sektor, der skaber de største forskydninger på nettet. Den grønne ø er i løbet af de seneste år blevet Europas absolutte knudepunkt for datacentre — de enorme anlæg, der danner den fysiske rygrad for det globale internet, cloud-tjenester og kunstig intelligens. Denne udvikling sætter nu landets strømforsyning under et hidtil uset pres.
+
+Ifølge tal fra Irlands statistiske bureau, Central Statistics Office (CSO), der blev offentliggjort den 7. juli 2026, stod datacentre for 23 % af Irlands målte elforbrug i 2025.[^1] Det er en markant fremgang fra lige over 20 % i 2024. Omsat til absolutte tal voksede datacentrenes årlige elforbrug fra 6.973 GWh i 2024 til hele 7.663 GWh i 2025, hvilket svarer til en stigning på 10 %.
+
+Til sammenligning stod de irske husholdninger samlet set for 28 % af det nationale elforbrug. Dermed udgør borgernes strømforbrug i hjemmet stadig en anelse mere end datacentrene, men gabet mellem de to grupper lukker sig hurtigt. I sin udgivelse understreger CSO netop denne kontrast i udviklingen med ordene: "datacentrenes forbrug voksede 10 % mod husholdningernes 1-2 %."
+
+Udviklingen ser ikke ud til at bremse op. Tværtimod peger prognoser på, at datacentrene forventes at stå for en tredjedel af Irlands samlede elforbrug inden udgangen af årtiet i 2030. Denne voldsomme koncentration af strømforbrug i én specifik sektor skaber alvorlige logistiske udfordringer for de aktører, der har ansvaret for at opretholde en stabil forsyning af watt til både industri og borgere.
+
+I februar 2026 udgav Irlands systemoperatør, EirGrid, sin seneste *All-Island Resource Adequacy Assessment*.[^2] Rapporten indeholdt en utvetydig advarsel: Den stigende elefterspørgsel kan meget vel komme til at overstige forsyningskapaciteten i spidsbelastningsperioder mellem 2026 og 2028. Hvis ikke udbygningen af ny elproduktion og forstærkningen af nettet kan holde trit med den hastigt voksende kapacitetsefterspørgsel fra de nye serverhaller, risikerer forsyningssikkerheden at vakle i de mest kritiske timer.
+
+Problemstillingen rækker langt ud over de irske grænser, da datacentre skyder op overalt på kloden for at understøtte den globale digitalisering. Men Irland er formentlig det tydeligste eksempel i Europa på, hvad der sker, når én industris efterspørgsel vokser hurtigere end resten af samfundets tilsammen.
+
+[^1]: Central Statistics Office (CSO), *Data Centres Metered Electricity Consumption* (offentliggjort 7. juli 2026). For at undgå opdigtede dybe links henvises der direkte til CSO's officielle statistikarkiv for energi: [cso.ie/en/statistics/energy](https://www.cso.ie/en/statistics/energy/)
+[^2]: EirGrid, *All-Island Resource Adequacy Assessment* (februar 2026). Rapporten udgives som del af systemoperatørens faste vurderinger og kan fremsøges i EirGrids bibliotek: [eirgrid.ie/library](https://www.eirgrid.ie/library)
