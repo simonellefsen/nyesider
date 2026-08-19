@@ -1,0 +1,257 @@
+{
+  "magazine": "orbit",
+  "issue": "2026-08-nr3",
+  "issueTheme": "To hastigheder i kredsløb",
+  "integrityNote": "Nyt nummer, produceret 2026-08-19. Ingen tidligere fabrikeret udgave at rette op på — bygget fra bunden med research forud for hver brief, på .env.orbit. mustCite sat EFTER research var læst, jf. nr. 2's egen læring. Alle opsendelsestal holder eksplicit trackerusikkerhed frem, hvor kilder er uenige, i stedet for at vælge ét facit-tal.",
+  "budget": {
+    "articles": 7,
+    "wordsPerArticle": [
+      300,
+      600
+    ],
+    "targetPages": 12,
+    "note": "Fire selvstændige spor (global rekord, Starship, kinesiske konstellationer, Ariane 6) frem for bredde over 10-14 artikler denne gang."
+  },
+  "researchNote": "ADVARSEL: dette felt naar ALDRIG frem til modellen — kun brief.angle goer. Kontrolleret 2026-08-19. Nyt nummer.\n\n1) 2025 SATTE OPSENDELSESREKORD — MEN TRACKERE ER IKKE ENIGE OM DET PRAECISE TAL. To seriøse kilder: SpaceNews rapporterer 324 orbitale opsendelsesforsøg globalt i 2025 (+25% fra 2024's 259), heraf USA 193 forsøg (SpaceX 165 Falcon 9-missioner alene) og Kina 92 forsøg (+35% fra 2024). Payload Space rapporterer 329 forsøg globalt (321 naaede kredsløb), USA 181 forsøg (179 succes'er, SpaceX 170 opsendelser, Rocket Lab 18), Kina 92 forsøg (samme tal som SpaceNews), Europa 8 forsøg/7 succes'er (det højeste siden 2021). FORSKELLEN mellem 324/329 og 193/181 for USA skyldes formentlig forskellig taelling af Falcon Heavy, suborbitale forsøg eller afskaeringstidspunkt for aaret — begge kilder er seriøse space-branchemedier, ikke useriøse. SKRIV DENNE USIKKERHED EKSPLICIT IND I ARTIKLEN i stedet for at vaelge ét tal som facit — det er selve pointen, ikke en svaghed. Begge kilder ENES om: Kina 92 forsøg (+35%), USA og Kina tilsammen ca. 88% af alle globale opsendelser, og at 2025 er en klar rekord uanset hvilken tracker man bruger. Konsekvent brugbart udsagn: 'et sted mellem 320 og 330 orbitale opsendelsesforsøg' — brug IKKE et enkelt praecist tal som om det var uomtvisteligt.\n\n2) STARSHIP — FLIGHT 13 GENNEMFOERT, FLIGHT 14 PLANLAGT. Flight 13 opsendtes fra Pad B paa Starbase 24. juli 2026 kl. 17.51 lokal tid (Texas), efter to udskudte forsøg: 16. juli (fire motorer taendte ikke) og 23. juli (daarligt vejr). Flyvningen lykkedes stort set: alle 33 motorer taendte nominelt ved start, 20 Starlink V3-satellitter (6 med kameraer) blev udskudt fra lastrummet, og Ship 40 gentaendte sin motor i 14 sekunder foer en vellykket nedslag/'splashdown' i havet UDEN eksplosion — hvilket gjorde det muligt at inspicere varmeskjoldets fliser efter flyvningen. Flight 14 er planlagt til september 2026, med Booster 21 og Ship 41: den kan blive den foerste flyvning med baade et forsoegt boostergreb ('catch') OG et skibsgreb med taarnet, og den foerste flyvning hvor Starship reelt udskyder anvendelige nyttelaster i kredsloeb — noget den aldrig har gjort foer. STRENGT: skriv IKKE at flight 14 ER gennemfoert eller lykkedes — det er en FREMTIDIG, planlagt flyvning i skrivende stund (kontrolleret 2026-08-19).\n\n3) KINESISKE LEO-MEGAKONSTELLATIONER — OPSENDT VS. PLAN. To parallelle kinesiske bredbaandskonstellationer i lav kredsloeb (LEO — Low Earth Orbit): GUOWANG og QIANFAN. GUOWANG: ca. 190 satellitter opsendt medio 2026 (efter tidligere delmaal paa ca. 163 efter 20 opsendelser medio marts 2026). Planen er stejl: 310 satellitter i 2026, 900 i 2027, og 3.600 om AARET fra 2028. QIANFAN: konstellationen var vokset til omkring 200 satellitter i kredsloeb pr. 5. juni 2026 (andre kilder angiver ca. 182 tidligere i juni — talforskellen afspejler formentlig forskellige optaellingstidspunkter). Planen (pr. december 2025): 324 satellitter opsendt i 2026, endnu 324 i 2027, saa 4.000 i baade 2028 og 2029, og 5.000 i 2030 — med i alt 15.000 GODKENDTE satellitter for hele konstellationen. TILSAMMEN: de to programmer planlaegger over 28.000 satellitter i alt, og medio 2026 var over 350 satellitter opsendt paa tvaers af begge. POINTEN: selv med accelererende opsendelsestempo er BEGGE konstellationer et godt stykke bagud i forhold til deres egne, meget ambitioese planer for 2026 — 190 og ~200 opsendt versus planer paa hhv. 310 og 324 for aaret. Skriv det som status, ikke som kritik eller ros.\n\n4) ARIANE 6 — TEMPOET STIGER FRA ET LAVT UDGANGSPUNKT. Europa gennemfoerte 4 vellykkede Ariane 6-flyvninger i 2025. For 2026 sigter Arianespace mod 6-8 flyvninger — naer raketten's angivne maksimale aarlige kapacitet paa 10 flyvninger. 2026-manifestet indledes med debuten for den kraftigere firebooster-variant Ariane 64, som del af en kontrakt paa 18 missioner for Amazons Kuiper-konstellation. ESA's generaldirektoer Josef Aschbacher har naevnt fremtidige scenarier paa 12, 15 og 20 flyvninger om aaret som noget, agenturet undersoeger, men Europa's naevaerende maalsaetning er 10 flyvninger som loft. Vinklen: Europa er ved at fordoble sin opsendelsesrate, men fra et meget lavt udgangspunkt sammenlignet med USA's og Kinas industrielle tempo (se artikel 1).\n\nSTRENGT FORBUDT (ingen kilde her): opfundne praecise satellittal for en bestemt dato ud over det naevnte, opfundne konkrete danske/nordiske opsendelser, en enkelt 'facit'-tal for det globale opsendelsesantal 2025 uden at naevne trackerforskellen, og enhver paastand om at Flight 14 er gennemfoert. mustCite saettes EFTER denne research: 2 for artikel 1 (to trackere er reelt to kilder, ikke falsk splitning), 1 for Starship (én SpaceX/rumfarts-nyhedskilde er den reelle kilde), 1-2 for konstellationsartiklen (flere delkilder om samme emne), 1 for Ariane 6.",
+  "opgaver": [
+    {
+      "slug": "leder",
+      "order": 1,
+      "section": "Leder",
+      "brief": {
+        "angle": "Chefredaktionens leder. 2025 satte opsendelsesrekord — men trackerne er ikke enige om det præcise tal. Introducer nummerets fire spor: den globale rekord, Starship efter flight 13, de kinesiske megakonstellationer bagud eget mål, Ariane 6's fordoblede men stadig lave tempo.",
+        "words": [
+          180,
+          320
+        ],
+        "mustCite": 0,
+        "format": "leder"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": 194,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "rewritten-by-editor",
+        "checkedAt": "2026-08-19",
+        "citations": 0,
+        "editorNote": "Chefredaktionens egen leder. writer.model 'editor-led', ingen byline, ingen kvittering."
+      }
+    },
+    {
+      "slug": "global-rekord",
+      "order": 2,
+      "section": "Opsendelser (SpaceX, Blue Origin m.fl.)",
+      "brief": {
+        "angle": "2025 satte global opsendelsesrekord — men to seriøse trackere er ikke enige om det praecise tal, og det er selve historien. SpaceNews rapporterer 324 orbitale opsendelsesforsøg globalt i 2025 (+25% fra 2024's 259), USA 193 forsøg (SpaceX 165 Falcon 9-missioner alene), Kina 92 forsøg (+35% fra 2024). Payload Space rapporterer 329 forsøg globalt (321 naaede kredsloeb), USA 181 forsøg (179 succes'er, SpaceX 170 opsendelser, Rocket Lab 18), Kina 92 (samme), Europa 8 forsøg/7 succes'er — det højeste siden 2021. SKRIV DENNE FORSKEL EKSPLICIT: forskellen paa 324 vs. 329 og USA's 193 vs. 181 skyldes formentlig ulige taelling af Falcon Heavy, suborbitale forsøg, eller afskaeringstidspunkt for aaret. Det er IKKE et tegn paa, at nogen af kilderne er upaalidelige — det illustrerer, hvor svaert det er at faa et enkelt 'facit'-tal i en branche med accelererende tempo og mange selvstaendige aktoerer. Begge kilder er dog enige om det vigtigste: Kina 92 forsøg (+35%), USA og Kina tilsammen omkring 88% af alle globale opsendelser, og at 2025 er en klar rekord uanset tracker. Brug formuleringen 'et sted mellem 320 og 330 orbitale opsendelsesforsøg' i stedet for et enkelt praecist tal. Land artiklen paa: verdens rumfart er blevet en to-hastigheds-oekonomi, hvor USA og Kina opererer paa industriel kadence (ugentligt eller hurtigere), mens resten af verden ligger i enkeltcifrede eller lave tocifrede tal.",
+        "words": [
+          400,
+          600
+        ],
+        "mustCite": 2,
+        "format": "feature",
+        "mustNumber": [
+          "~320-330 opsendelsesforsøg globalt 2025 (to trackere: 324 og 329)",
+          "Kina: 92 forsøg (+35%)",
+          "USA+Kina: ~88% af globale opsendelser"
+        ]
+      },
+      "writer": {
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "anthropic/claude-sonnet-5"
+      },
+      "receipt": {
+        "words": 477,
+        "costUSD": 0.017698,
+        "draft": "kladder/02-global-rekord.md",
+        "costRouting": "byok"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-19",
+        "citations": 2,
+        "editorNote": "REELT kommissioneret PAA FALLBACK-MODELLEN (anthropic/claude-sonnet-5), brugt praeventivt efter gentagne 402'ere paa Opus i andre titler samme dag. Begge trackeres tal (SpaceNews 324, Payload Space 329) korrekt gengivet med forskellen skrevet aabent frem, ikke skjult bag et enkelt facit-tal. Redaktionelt: fodnoterne fik konkrete, verificerede URL'er (svar 200) i stedet for vage kildenavne."
+      }
+    },
+    {
+      "slug": "starship-status",
+      "order": 3,
+      "section": "Opsendelser (SpaceX, Blue Origin m.fl.)",
+      "brief": {
+        "angle": "Starship efter Flight 13 — status, ikke hype. Flight 13 opsendtes fra Pad B paa Starbase 24. juli 2026 kl. 17.51 lokal tid, efter to udskudte forsøg: 16. juli (fire motorer taendte ikke) og 23. juli (daarligt vejr). Flyvningen lykkedes stort set: alle 33 motorer taendte nominelt ved start, 20 Starlink V3-satellitter (6 med kameraer) blev udskudt fra lastrummet, og Ship 40 gentaendte sin motor i 14 sekunder foer en vellykket 'splashdown' i havet UDEN eksplosion — hvilket gjorde det muligt at inspicere varmeskjoldets fliser efter flyvningen. Forklar kort, hvorfor tile-inspektion efter en kontrolleret nedslag er vaerdifuldt for SpaceX (data om, hvordan varmeskjoldet klarede genindtraengning, uden at skibet gaar tabt). Flight 14 er PLANLAGT til september 2026, med Booster 21 og Ship 41 — den kan blive den foerste flyvning med baade et forsoegt boostergreb ('catch') OG et skibsgreb med taarnet, og den foerste flyvning hvor Starship reelt udskyder anvendelige nyttelaster i kredsloeb. SKRIV EKSPLICIT at Flight 14 er FREMTIDIG og planlagt, ikke gennemfoert. STRENGT: ingen spekulation om Flight 14's udfald.",
+        "words": [
+          350,
+          550
+        ],
+        "mustCite": 1,
+        "format": "feature",
+        "mustNumber": [
+          "Flight 13: 24. juli 2026, 33 motorer, 20 Starlink V3",
+          "Flight 14: planlagt september 2026, Booster 21/Ship 41"
+        ]
+      },
+      "writer": {
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "anthropic/claude-opus-4.8"
+      },
+      "receipt": {
+        "words": 424,
+        "costUSD": 0.018228,
+        "draft": "kladder/03-starship-status.md",
+        "costRouting": "byok"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-19",
+        "citations": 1,
+        "editorNote": "REELT kommissioneret. Flight 13-detaljerne (24. juli 2026, to udskudte forsoeg, 33 motorer, 20 Starlink V3, Ship 40's 14-sekunders gentaending og vellykkede splashdown) korrekt gengivet. Flight 14 konsekvent behandlet som FREMTIDIG og planlagt, ikke gennemfoert, som briefet krævede."
+      }
+    },
+    {
+      "slug": "kinesiske-konstellationer",
+      "order": 4,
+      "section": "Satellitter & konstellationer",
+      "brief": {
+        "angle": "Kinesiske LEO-megakonstellationer — opsendt vs. plan. To parallelle kinesiske bredbaandskonstellationer i lav kredsloeb: GUOWANG og QIANFAN. GUOWANG: ca. 190 satellitter opsendt medio 2026. Planen: 310 satellitter i 2026, 900 i 2027, og 3.600 OM AARET fra 2028. QIANFAN: voksede til omkring 200 satellitter i kredsloeb pr. 5. juni 2026. Planen (pr. december 2025): 324 satellitter i 2026, endnu 324 i 2027, saa 4.000 i baade 2028 og 2029, og 5.000 i 2030 — med i alt 15.000 GODKENDTE satellitter for hele konstellationen. TILSAMMEN planlaegger de to programmer over 28.000 satellitter, og medio 2026 var over 350 opsendt paa tvaers af begge. Land artiklens hovedpointe klart: selv med accelererende opsendelsestempo er BEGGE konstellationer et godt stykke bagud i forhold til deres egne, ambitioese 2026-maal — Guowang ca. 190 opsendt versus et maal paa 310 for aaret, Qianfan ca. 200 versus 324. Skriv det som en noegtern statusopgoerelse, ikke som kritik eller ros af Kina. Forklar kort 'LEO' (lav kredsloeb, low Earth orbit) og hvorfor megakonstellationer bruger tusindvis af satellitter (global daekning kraever mange satellitter i lav, hurtigt bevaegende bane).",
+        "words": [
+          350,
+          550
+        ],
+        "mustCite": 1,
+        "format": "feature",
+        "mustNumber": [
+          "Guowang: ~190 opsendt (mål 2026: 310)",
+          "Qianfan: ~200 opsendt (mål 2026: 324)",
+          "tilsammen: 28.000+ planlagt, 350+ opsendt medio 2026"
+        ]
+      },
+      "writer": {
+        "byline": "Gemini 3.1 Pro Preview (Google)",
+        "model": "google/gemini-3.1-pro-preview",
+        "fallback": "anthropic/claude-sonnet-5"
+      },
+      "receipt": {
+        "words": 472,
+        "costUSD": 0.069452,
+        "draft": "kladder/04-kinesiske-konstellationer.md",
+        "costRouting": "byok"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-19",
+        "citations": 1,
+        "editorNote": "REELT kommissioneret. Guowang- og Qianfan-tallene (190/310, 200/324, 900 i 2027, 3.600/aar fra 2028 for Guowang; 324/324/4.000/4.000/5.000 for Qianfan, 15.000 total godkendt) korrekt gengivet. FAKTAFEJL FANGET OG RETTET: kladdens fodnote citerede en SpaceNews-artikel fra 6. august 2024 om de FOERSTE Qianfan-opsendelser — irrelevant for de 2026-tal, briefet gav. Erstattet med to konstellationssporings-kilder (KeepTrack, China in Space), der faktisk daekker 2026-status."
+      }
+    },
+    {
+      "slug": "ariane6-tempo",
+      "order": 5,
+      "section": "Nationer & agenturer (NASA, ESA, Indien, Kina, Rusland)",
+      "brief": {
+        "angle": "Ariane 6 fordobler tempoet — fra et lavt udgangspunkt. Europa gennemfoerte 4 vellykkede Ariane 6-flyvninger i 2025. For 2026 sigter Arianespace mod 6-8 flyvninger — naer raketten's angivne maksimale aarlige kapacitet paa 10 flyvninger. 2026-manifestet indledes med debuten for den kraftigere firebooster-variant Ariane 64, som del af en kontrakt paa 18 missioner for Amazons Kuiper-konstellation. ESA's generaldirektoer Josef Aschbacher har naevnt fremtidige scenarier paa 12, 15 og 20 flyvninger om aaret som noget, agenturet undersoeger, men Europas naevaerende maalsaetning er 10 flyvninger som loft. Vinklen, som skal saette tal i perspektiv til nummerets globale rekord-artikel: en fordobling fra 4 til 6-8 lyder imponerende isoleret set, men er stadig et meget lille tal sammenlignet med USA's og Kinas industrielle opsendelsestempo (se artikel 1: Kina alene 92 forsøg i 2025). Naevn Ariane 64-varianten og Kuiper-kontrakten som konkrete, kildebelagte detaljer, der viser hvad tempoet reelt bygger paa.",
+        "words": [
+          300,
+          500
+        ],
+        "mustCite": 1,
+        "format": "feature",
+        "mustNumber": [
+          "2025: 4 Ariane 6-flyvninger",
+          "2026-mål: 6-8 flyvninger (kapacitetsloft 10)"
+        ]
+      },
+      "writer": {
+        "byline": "GPT-5.6 Terra (OpenAI)",
+        "model": "openai/gpt-5.6-terra",
+        "fallback": "anthropic/claude-sonnet-5"
+      },
+      "receipt": {
+        "words": 391,
+        "costUSD": 0.0304985,
+        "draft": "kladder/05-ariane6-tempo.md",
+        "costRouting": "direct"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-19",
+        "citations": 2,
+        "editorNote": "REELT kommissioneret. Tallene (4 flyvninger 2025, 6-8 maal 2026, kapacitetsloft 10, Kuiper-kontrakt 18 missioner, Ariane 64-debut, Aschbachers 12/15/20-scenarier) korrekt gengivet. FAKTAFEJL FANGET OG RETTET: begge kladdens fodnote-URL'er (aboutamazon.com og esa.int/Enabling_Support/Space_Transportation/Ariane_6) svarede 404. Erstattet med Arianespaces egen pressemeddelelse og ESA's faktiske Ariane 6-oversigtsside, begge verificeret 200."
+      }
+    },
+    {
+      "slug": "tallet",
+      "order": 6,
+      "section": "Tallet (statistik)",
+      "brief": {
+        "angle": "ORBITs faste talrubrik: en tabel med 6 raekker, hver med et tal, et aar og en fodnote til en navngivet kilde. Byg tabellen af PRAECIS disse raekker, og respekter trackerusikkerheden fra artikel 1: (1) Globale opsendelsesforsøg 2025: 'ca. 320-330' (to trackere: SpaceNews 324, Payload Space 329), kilde begge navngivet. (2) Kinas opsendelsesforsøg 2025: 92 (+35% fra 2024), kilde SpaceNews/Payload (enige). (3) USA+Kinas andel af globale opsendelser: ~88%, kilde SpaceNews. (4) Guowang opsendt vs. 2026-maal: ~190 vs. 310, kilde konstellationssporing. (5) Qianfan opsendt vs. 2026-maal: ~200 vs. 324, kilde konstellationssporing. (6) Ariane 6-flyvninger: 4 (2025) → 6-8 (2026-mål), kilde Arianespace/branchepresse. Skriv en kort indledning (60-100 ord) om, at 2025-2026 er praeget af en markant acceleration i global opsendelseskapacitet, men at tempoet er ekstremt ujaevnt fordelt — mellem lande og mellem plan og virkelighed. Slut med en laeseregel om, at nar to seriøse kilder er uenige om et tal, er det oftest fordi de taeller forskelligt, ikke fordi den ene tager fejl.",
+        "words": [
+          300,
+          500
+        ],
+        "mustCite": 6,
+        "format": "tabel",
+        "mustNumber": [
+          "~320-330 globale opsendelser (2025)",
+          "Kina: 92 (+35%)",
+          "USA+Kina: ~88%"
+        ]
+      },
+      "writer": {
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "anthropic/claude-opus-4.8"
+      },
+      "receipt": {
+        "words": 371,
+        "costUSD": 0.01541,
+        "draft": "kladder/06-tallet.md",
+        "costRouting": "byok"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-19",
+        "citations": 5,
+        "editorNote": "REELT kommissioneret. Alle seks raekker korrekt gengivet med den samme trackerusikkerhed som artikel 1. Redaktionelt: alle fem fodnoter fik konkrete, verificerede URL'er i stedet for domaenenavne uden links; en tastefejl (’3 5 %’ i stedet for ’35 %’) rettet. EFTERKONTROL: raekke 1 og 2 deler bevidst de samme to fodnoter ([^1][^2]), fordi begge tal (globalt antal og Kina-tallet) staar i de samme to trackerrapporter — at opfinde separate fodnoter til samme kilder ville vaere falsk praecision. 5 unikke kilder for 6 raekker er derfor korrekt, ikke en mangel."
+      }
+    },
+    {
+      "slug": "rygteboersen",
+      "order": 7,
+      "section": "Rygtebørsen",
+      "brief": {
+        "angle": "ORBITs faste rygteboers: 3-4 korte, spekulative nedslag om rumfart, tydeligt maerket som spekulation eller branchesladder, INGEN nye konkrete faktapaastande ud over det, der allerede staar i nummerets øvrige artikler. Emner kan hentes fra: spekulation om Flight 14's udfald (uden at forudsige et resultat, kun at naevne at forventningerne er hoeje), hvorvidt flere lande vil foelge Kinas megakonstellations-spor, og generelle iagttagelser om tempoet i den globale rumfartskonkurrence. Kort og med et glimt i oejet.",
+        "words": [
+          200,
+          350
+        ],
+        "mustCite": 0,
+        "format": "rygteboersen"
+      },
+      "writer": {
+        "byline": "GPT-5.6 Terra (OpenAI)",
+        "model": "openai/gpt-5.6-terra",
+        "fallback": "anthropic/claude-sonnet-5"
+      },
+      "receipt": {
+        "words": 253,
+        "costUSD": 0.011378,
+        "draft": "kladder/07-rygteboersen.md",
+        "costRouting": "direct"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-19",
+        "citations": 0,
+        "editorNote": "REELT kommissioneret. Ingen nye konkrete faktapaastande eller forudsigelser om Flight 14's udfald, som briefet krævede."
+      }
+    }
+  ]
+}

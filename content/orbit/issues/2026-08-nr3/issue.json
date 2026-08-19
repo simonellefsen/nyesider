@@ -1,0 +1,110 @@
+{
+  "magazine": "orbit",
+  "number": 3,
+  "title": "ORBIT nr. 3 · August 2026",
+  "issueTheme": "To hastigheder i kredsløb",
+  "published": "2026-08-15",
+  "status": "published",
+  "pdf": null,
+  "cover": "images/orbit_cover.png",
+  "coverCredit": "AI-genereret forside (Imagine / xAI)",
+  "coverSource": "https://x.ai/",
+  "images": [
+    "images/orbit_cover.png",
+    "images/orbit_leder.png",
+    "images/orbit_rekord.png",
+    "images/orbit_starship.png",
+    "images/orbit_konstellationer.png",
+    "images/orbit_ariane.png",
+    "images/orbit_tallet.png",
+    "images/orbit_bagsnit.png"
+  ],
+  "productionCostUSD": 0.1627,
+  "imageCredits": "Imagine / xAI. Se SOURCES.md.",
+  "backCoverPromise": "ORBIT nr. 4 følger op, når Flight 14 er gennemført og Kinas konstellationer har nye, verificerbare tal.",
+  "articles": [
+    {
+      "slug": "leder",
+      "file": "articles/01-leder.md",
+      "order": 1,
+      "title": "To hastigheder i kredsløb",
+      "section": "Leder",
+      "standfirst": "2025 satte opsendelsesrekord — men trackerne er ikke enige om det præcise tal. Det er selve historien i dette nummer.",
+      "image": "../images/orbit_leder.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/"
+    },
+    {
+      "slug": "global-rekord",
+      "file": "articles/02-global-rekord.md",
+      "order": 2,
+      "title": "To trackere, ét rekordår",
+      "section": "Opsendelser (SpaceX, Blue Origin m.fl.)",
+      "byline": "Claude Sonnet 5 (Anthropic)",
+      "standfirst": "Hvor mange gange fløj verden i rummet i 2025? Det korte svar: et sted mellem 320 og 330. Det lange svar er interessant.",
+      "image": "../images/orbit_rekord.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/"
+    },
+    {
+      "slug": "starship-status",
+      "file": "articles/03-starship-status.md",
+      "order": 3,
+      "title": "Starship efter Flight 13",
+      "section": "Opsendelser (SpaceX, Blue Origin m.fl.)",
+      "byline": "Claude Sonnet 5 (Anthropic)",
+      "standfirst": "En status, ikke en sejrserklæring. Alle motorer tændte. Et skib overlevede sit nedslag. Flight 14 er planlagt, ikke gennemført.",
+      "image": "../images/orbit_starship.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/"
+    },
+    {
+      "slug": "kinesiske-konstellationer",
+      "file": "articles/04-kinesiske-konstellationer.md",
+      "order": 4,
+      "title": "Kinas megakonstellationer: planen møder virkeligheden",
+      "section": "Satellitter & konstellationer",
+      "byline": "Gemini 3.1 Pro Preview (Google)",
+      "standfirst": "To programmer, 28.000 planlagte satellitter, og begge et godt stykke bagud i forhold til deres egne 2026-mål.",
+      "image": "../images/orbit_konstellationer.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/"
+    },
+    {
+      "slug": "ariane6-tempo",
+      "file": "articles/05-ariane6-tempo.md",
+      "order": 5,
+      "title": "Ariane 6 skruer op — men fra et lavt udgangspunkt",
+      "section": "Nationer & agenturer (NASA, ESA, Indien, Kina, Rusland)",
+      "byline": "GPT-5.6 Terra (OpenAI)",
+      "standfirst": "Fra fire til seks-otte flyvninger lyder som en fordobling. Sammenlignet med Kinas 92, er det stadig beskedent.",
+      "image": "../images/orbit_ariane.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/"
+    },
+    {
+      "slug": "tallet",
+      "file": "articles/06-tallet.md",
+      "order": 6,
+      "title": "Tallet",
+      "section": "Tallet (statistik)",
+      "byline": "Claude Sonnet 5 (Anthropic)",
+      "standfirst": "Acceleration, ujævnt fordelt — mellem lande, og mellem plan og virkelighed.",
+      "image": "../images/orbit_tallet.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/"
+    },
+    {
+      "slug": "rygteboersen",
+      "file": "articles/07-rygteboersen.md",
+      "order": 7,
+      "title": "Rygtebørsen",
+      "section": "Rygtebørsen",
+      "byline": "GPT-5.6 Terra (OpenAI)",
+      "standfirst": "Flight 14, national prestige og kortere pauser mellem opsendelserne.",
+      "image": "../images/orbit_bagsnit.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/"
+    }
+  ]
+}

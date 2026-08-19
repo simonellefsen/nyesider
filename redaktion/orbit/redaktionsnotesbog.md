@@ -89,16 +89,42 @@ afregnes på vores egen upstream-nøgle. `commission.py` er rettet, så den tage
 upstream_inference_cost` — men **aldrig lægger de to sammen**; det dobbelttæller et normalt kald.
 Facit aflæses på `GET /api/v1/key`: `usage` skal matche de rutede kald, `byok_usage` de øvrige.
 
-## Nr. 3 — kandidater
+## Nr. 3 — udgivet 2026-08-19
 
-- **(2026-08) Starship flight-by-flight / post-13** — genbrug, næste V3, om V3 går i Falcon-manifest  
-- **(2026-08) Starbase** — site, pads, FAA, Texas-politik (ikke kun livestream)  
-- **(2026-08) Launch pads & raketter verden rundt** — sammenlign klasse, alder, kadence, genbrug (Falcon, Long March, Ariane, Soyuz, Electron, New Glenn, …)  
-- **(2026-08) Starmind** — research lead (afklar hvad læser/redaktion mener; produkt/projekt/firma)  
-- **(2026-08) Kommerciel SSA-marked**  
-- **(2026-08) Kinesiske LEO-konstellationer — opsendte vs. plan**  
-- **(2026-08) Ariane 6 flight rate**  
-- **(2026-08) Liability i praksis** — forsikring, forlig, nationale love oven på 1972-konventionen  
+**Tema:** To hastigheder i kredsløb. **7 artikler, 2.456 ord.** Seks artikler reelt kommissioneret på
+`.env.orbit`; lederen er redaktionens uden byline. Forbrug **0,1627 USD**. `check_issue.py`:
+**0 fejl, 1 advarsel** (korrekt, se nedenfor). `bestilling.json`:
+`redaktion/orbit/numre/2026-08-nr3/bestilling.json`.
+
+Fire kandidater brugt: launch pads/raketter verden rundt (som en global rekord-status), Starship
+post-13, kinesiske LEO-konstellationer opsendt vs. plan, og Ariane 6 flight rate. Fire står stadig
+åbne til nr. 4: Starbase (site/FAA/Texas-politik), Starmind, kommerciel SSA-marked, liability i
+praksis.
+
+### Trackerusikkerhed skrevet åbent frem — første gang i porteføljen
+
+Global-rekord-artiklen og Tallet holder bevidst TO tal i luften på samme tid: SpaceNews' 324 globale
+opsendelsesforsøg for 2025 mod Payload Space's 329. I stedet for at vælge ét som facit, skriver
+begge artikler forskellen frem som pointen — trackere tæller Falcon Heavy, suborbitale forsøg og
+årsafskæring forskelligt, og det er ikke et tegn på, at nogen tager fejl. **Denne tilgang bør
+gentages, når to seriøse kilder reelt er uenige** — vælg ikke ét tal for at virke skarpere, end
+kilderne selv er.
+
+### To gættede/forkerte kilder fanget
+
+- `kinesiske-konstellationer`-kladden citerede en SpaceNews-artikel fra **6. august 2024** om
+  Qianfans FØRSTE opsendelser — irrelevant for 2026-status. Erstattet med to konstellationssporings-
+  kilder (KeepTrack, China in Space), der faktisk dækker 2026-tallene.
+- `ariane6-tempo`-kladden citerede to URL'er, der begge svarede **404** (aboutamazon.com,
+  esa.int/Enabling_Support/Space_Transportation/Ariane_6 — en ældre, flyttet sti). Erstattet med
+  Arianespaces egen pressemeddelelse og ESA's faktiske programoversigt.
+
+### mustCite-lektionen fra nr. 2 anvendt korrekt denne gang
+
+`tallet` endte med 5 citationer mod et briefet mustCite på 6 — men det er korrekt, ikke en fejl:
+række 1 og 2 deler bevidst de samme to kilder (SpaceNews + Payload Space), fordi begge tal reelt
+står i de samme to rapporter. At opfinde separate fodnoter til samme kilder havde været den falske
+præcision, nr. 2's egen læring advarer imod.  
 
 ## Format
 
@@ -111,6 +137,10 @@ Ingen opdigtede launch-datoer. Skeln planlagt/scrub/success/failure. Primære ki
 `python production/load_env.py orbit` før produktion.
 
 ## Log
+
+- **2026-08-19:** Nr. 3 udgivet — 'To hastigheder i kredsløb', nyt nummer produceret fra bunden.
+  Se læringen ovenfor. To gættede/forkerte kilder fanget og rettet; trackerusikkerhed skrevet
+  åbent frem i stedet for et falsk facit-tal.
 
 - **2026-08-08 (depth):** Nr. 2 — nærpassage/Tallet udvidet (kollisioner, CDM, Liability Convention); Starship flight 13 (V3, Starlink V3-test, Indiske Ocean); SSA/leder/kalender synket.
 
