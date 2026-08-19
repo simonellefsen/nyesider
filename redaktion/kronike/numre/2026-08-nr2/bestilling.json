@@ -1,0 +1,339 @@
+{
+  "magazine": "kronike",
+  "issue": "2026-08-nr2",
+  "issueTheme": "Kvinders valgret — fire aartier, fem aarstal",
+  "integrityNote": "Nyt nummer, produceret 2026-08-19. Research forud for hver brief, paa .env.kronike. mustCite sat efter research var laest.",
+  "budget": {
+    "articles": 9,
+    "wordsPerArticle": [
+      250,
+      900
+    ],
+    "targetPages": 12,
+    "note": "Seks features paa 700-900 ord (formatets gulv efter nr. 1's laering), Tallet 250-450, leder 120-220, myter/bagsnit kort."
+  },
+  "researchNote": "ADVARSEL: dette felt naar ALDRIG frem til modellen — kun brief.angle goer. Kontrolleret 2026-08-19.\nTema: Kvinders valgret i Danmark, 1871-1924.\n\n1) DANSK KVINDESAMFUND 1871. Stiftet 1871 af Matilde Bajer og Fredrik Bajer, som gren af den\ninternationale Association internationale des femmes (Geneve). Matilde Bajer var foreningens\nfoerste formand, men traadte tilbage allerede ved udgangen af 1871 (hun var gravid). Fredrik Bajer\n(rigsdagsmand, senere Nobels fredspris 1908) var raadgiver og sekretaer. Foreningens foerste\nformaal: at hoejne kvinden aandeligt, saedeligt og oekonomisk og goere hende til et mere\nselvstaendigt medlem af familie og stat, saerligt ved at aabne adgang til selverhverv. Foreningen\nvar politisk neutral. I protest mod denne apolitiske linje stiftede Matilde Bajer sammen med\nJohanne Meyer i 1886 Kvindelig Fremskridtsforening, der kaempede for kvinde-, freds- og\narbejdersager.\n\n2) 1908 — KOMMUNAL VALGRET. Ved lovaendring 20. april 1908 fik kvinder (ogsaa gifte) og\ntjenestefolk kommunal valgret, efter 22 aars diskussion. Foerste kommunalvalg med kvindelig\ndeltagelse: 12. marts 1909. I 1907 blev paraplyorganisationen Landsforbundet for Kvinders Valgret\ndannet, med omkring 160 lokalforeninger og ca. 12.000 medlemmer i hele landet.\n\n3) 5. JUNI 1915 — GRUNDLOVSAeNDRINGEN. Grundlovsaendringen gav valgret og valgbarhed til\nRigsdagen for maend og kvinder over 25 aar med fast bopael i landet. Kvinder og tjenestefolk fik\npolitisk valgret, valgretsalderen blev saenket, den privilegerede valgret til Landstinget forsvandt,\nog forholdstalsvalg blev indfoert. Dagen blev fejret med et optog til Amalienborg, hvor 12.000\nkvinder overrakte en adresse til regering og rigsdag. Danmark var, efter Finland (1906) og Norge\n(1913), det tredje land i Europa, hvor kvinder fik valgret til parlamentet. (Global kontekst:\nNew Zealand 1893 var verdens foerste selvstyrende land med kvindelig parlamentarisk valgret;\nAustralien fulgte 1902; Finland 1906 var foerste europaeiske land med baade valgret OG valgbarhed\nfor alle.)\n\n4) VALGET 1918 — DE FOeRSTE KVINDER I RIGSDAGEN. Folketingsvalget 22. april 1918 var det\nfoerste nationale valg efter grundlovsaendringen. Fire kvinder blev valgt til Folketinget: Karen\nAnkersted (Det Konservative Folkeparti/Hoejre, 1859-1921), Mathilde Malling Hauschultz\n(konservativ, 1885-1929), Helga Larsen (Socialdemokratiet, 1884-1947) og Elna Munch (Det Radikale\nVenstre, 1871-1945). Fem kvinder blev valgt til Landstinget, heriblandt Nina Bang.\n\n5) NINA BANG 1924 — MINISTER. Nina Bang (1866-1928), historiker og politiker, medlem af\nLandstinget 1918-1928 for Socialdemokratiet, blev 23. april 1924 Danmarks foerste kvindelige\nminister (undervisningsminister i 2,5 aar, i Thorvald Staunings regering). STRENGT PRAeCIST OM\n\"VERDENS FOeRSTE\"-MYTEN: Nina Bang krediteres ofte som \"verdens foerste kvindelige minister\" —\ndet er en myte, der kraever en praecisering, ikke en simpel bekraeftelse. Aleksandra Kollontaj\nblev folkekommissaer (minister) i Sovjetruslands provisoriske/bolsjevikiske regering allerede i\n1917/1918 — foer Nina Bang. Forskellen: Kollontaj blev udpeget af Lenin og den bolsjevikiske magt\nefter revolutionen, ikke af en demokratisk, parlamentarisk valgt regering. Nina Bang er derfor\nden foerste kvindelige minister udpeget af en demokratisk, parlamentarisk valgt regering — IKKE\nuindskraenket \"verdens foerste kvindelige minister\". Skriv denne skelnen eksplicit og noejagtigt,\nikke som en fodnote-detalje.\n\nSTRENGT FORBUDT (ingen kilde her): opfundne citater fra Bajer-parret eller Nina Bang, opfundne\nnavne paa menige/almindelige kvinder i optoget til Amalienborg, en paastand om at \"verdens\nfoerste\"-myten er ukompliceret sand, og enhver antydning af at valgretten blev \"givet\" som en gave\nfremfor et resultat af organiseret kamp over fire aartier. mustCite: 3+ for alle features. 0 for\nleder og myter/bagsnit (medmindre en konkret paastand kraever kilde).",
+  "opgaver": [
+    {
+      "slug": "leder",
+      "order": 1,
+      "section": "Leder",
+      "brief": {
+        "angle": "Chefredaktionens leder. Fire aartier fra Dansk Kvindesamfund (1871) til Nina Bang som minister (1924) — og hvorfor det ikke var én dag, én lov eller én gave, men et langt, organiseret arbejde med konkrete aarstal: 1871, 1908, 1915, 1918, 1924. Introducer nummerets greb: hvert af disse aarstal er en artikel, der viser hvad kampen reelt bestod af.",
+        "words": [
+          120,
+          220
+        ],
+        "mustCite": 0,
+        "format": "leder"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": "anthropic/claude-sonnet-5"
+      },
+      "receipt": {
+        "words": null,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "editor-led",
+        "checkedAt": "2026-08-19",
+        "citations": 0,
+        "editorNote": "Chefredaktionens leder, ingen byline, ingen kommissionering."
+      }
+    },
+    {
+      "slug": "tallet",
+      "order": 2,
+      "section": "Tallet",
+      "brief": {
+        "angle": "Tallet: en kildebelagt tabel over noegletal i kampen for kvinders valgret i Danmark. Raekker: (1) 1871 — Dansk Kvindesamfund stiftet. (2) 1907 — Landsforbundet for Kvinders Valgret dannet, ca. 160 lokalforeninger, ca. 12.000 medlemmer. (3) 20. april 1908 — kommunal valgret for kvinder og tjenestefolk; foerste kommunalvalg med kvindelig deltagelse 12. marts 1909. (4) 5. juni 1915 — grundlovsaendringen; 12.000 kvinder i optog til Amalienborg samme dag. (5) 22. april 1918 — foerste rigsdagsvalg efter aendringen: 4 kvinder i Folketinget, 5 i Landstinget. (6) 23. april 1924 — Nina Bang bliver Danmarks foerste kvindelige minister. Skriv en kort indledning om, at tallene spaender over 53 aar, ikke ét øjeblik.",
+        "words": [
+          250,
+          450
+        ],
+        "mustCite": 4,
+        "format": "tabel",
+        "mustNumber": [
+          "1871: Dansk Kvindesamfund stiftet",
+          "1907: ca. 12.000 medlemmer i Landsforbundet",
+          "5. juni 1915: 12.000 kvinder i optog",
+          "22. april 1918: 4 kvinder i Folketinget"
+        ]
+      },
+      "writer": {
+        "byline": null,
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "anthropic/claude-sonnet-5"
+      },
+      "receipt": {
+        "words": 359,
+        "costUSD": 0.01971,
+        "draft": "kladder/02-tallet.md",
+        "costRouting": "byok",
+        "generationId": "gen-1787169297-AL5OmZazX2a3zUpUEhxK"
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-08-19",
+        "citations": 5,
+        "editorNote": "Kladdens fem fodnoter var prosahenvisninger til domænenavne uden URL. Erstattet med fem konkrete, verificerede sider (danmarkshistorien.dk, KVINFO, danmarkshistorien.lex.dk x2, Kristeligt Dagblad)."
+      }
+    },
+    {
+      "slug": "bajer",
+      "order": 3,
+      "section": "Foreningen",
+      "brief": {
+        "angle": "Foreningen: Matilde og Fredrik Bajer stifter Dansk Kvindesamfund i 1871. Matilde Bajer var foreningens foerste formand men traadte tilbage allerede ved udgangen af 1871 (hun var gravid); Fredrik Bajer (senere rigsdagsmand og Nobels fredspristager 1908) var raadgiver og sekretaer. Foreningen var en gren af den internationale Association internationale des femmes i Geneve. Foreningens foerste formaal: at hoejne kvinden aandeligt, saedeligt og oekonomisk, saerligt ved adgang til selverhverv — bevidst IKKE et krav om valgret fra start. Foreningen var politisk neutral, hvilket i 1886 fik Matilde Bajer og Johanne Meyer til at stifte den mere politiske Kvindelig Fremskridtsforening ved siden af. Landing: valgretskampen begyndte ikke som en valgretskamp — den begyndte som et spoergsmaal om oekonomisk selvstaendighed, og splittedes senere over hvor politisk en kvindeforening maatte vaere.",
+        "words": [
+          700,
+          900
+        ],
+        "mustCite": 3,
+        "format": "feature",
+        "mustNumber": [
+          "1871: Dansk Kvindesamfund stiftet",
+          "1886: Kvindelig Fremskridtsforening stiftet"
+        ]
+      },
+      "writer": {
+        "byline": null,
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "anthropic/claude-sonnet-5"
+      },
+      "receipt": {
+        "words": 687,
+        "costUSD": 0.024852,
+        "draft": "kladder/03-bajer.md",
+        "costRouting": "byok",
+        "generationId": "gen-1787169331-LyEUjBQTTfz25NMPtYR2"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-19",
+        "citations": 3,
+        "editorNote": "Faktuelt solid kladde. Fodnoterne pegede på domænenavne uden URL — erstattet med tre konkrete, verificerede sider. Tredje citation (NobelPrize.org) tilføjet for at nå mustCite=3, til Fredrik Bajers fredspris 1908, som kladden nævnte uden kilde."
+      }
+    },
+    {
+      "slug": "landsforbundet",
+      "order": 4,
+      "section": "Organisationen",
+      "brief": {
+        "angle": "Organisationen: Landsforbundet for Kvinders Valgret, dannet 1907 som paraplyorganisation for lokale valgretsforeninger, med ca. 160 lokalforeninger og ca. 12.000 medlemmer i hele landet. Beskriv den kommunale valgret 20. april 1908 (efter 22 aars diskussion i Rigsdagen) som resultatet af dette organisationsarbejde — kvinder (ogsaa gifte) og tjenestefolk fik kommunal valgret. Foerste kommunalvalg med kvindelig deltagelse: 12. marts 1909. Forklar hvorfor 'tjenestefolk' er en vigtig detalje: det var ikke kun et koensspoergsmaal, men ogsaa et klassespoergsmaal — ugifte tjenestefolk uden egen husstand havde tidligere vaeret udelukket paa linje med fattighjaelpsmodtagere. Landing: den kommunale valgret i 1908 var en syv-aar-lang generalproeve for den nationale valgret i 1915 — samme organisationer, samme argumenter, samme modstandere.",
+        "words": [
+          700,
+          900
+        ],
+        "mustCite": 3,
+        "format": "feature",
+        "mustNumber": [
+          "1907: Landsforbundet dannet, ca. 12.000 medlemmer",
+          "20. april 1908: kommunal valgret",
+          "12. marts 1909: foerste kommunalvalg med kvinder"
+        ]
+      },
+      "writer": {
+        "byline": null,
+        "model": "google/gemini-3.1-pro-preview",
+        "fallback": "anthropic/claude-sonnet-5"
+      },
+      "receipt": {
+        "words": 882,
+        "costUSD": 0.062434,
+        "draft": "kladder/04-landsforbundet.md",
+        "costRouting": "byok",
+        "generationId": "gen-1787169372-9oTZLyLPkvGSoUbw6u1L"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-19",
+        "citations": 4,
+        "editorNote": "Stærk kladde med selvstændigt fundne, korrekte URL'er. Verificeret mod ekstern research: 127 valgte kvinder, 7 i Københavns Borgerrepræsentation, 50%/76,5% stemmedeltagelse, LKV's tre stiftere (Rambusch/Munch/Hjelmer) og 'de syv F'er' er alle bekræftet korrekte, ikke opfundne. Ingen rettelser nødvendige ud over fodnote-format."
+      }
+    },
+    {
+      "slug": "grundloven-1915",
+      "order": 5,
+      "section": "Grundlovsdagen",
+      "brief": {
+        "angle": "Grundlovsdagen: 5. juni 1915. Grundlovsaendringen gav valgret og valgbarhed til Rigsdagen for maend og kvinder over 25 aar med fast bopael i landet; kvinder og tjenestefolk fik politisk valgret, valgretsalderen blev saenket, den privilegerede valgret til Landstinget forsvandt, og forholdstalsvalg blev indfoert. Beskriv fejringen: et optog til Amalienborg, hvor 12.000 kvinder overrakte en adresse til regering og rigsdag. Saet det i europaeisk perspektiv: Danmark var, efter Finland (1906) og Norge (1913), det tredje land i Europa, hvor kvinder fik valgret til parlamentet. Land artiklen paa: dette var kulminationen af fire aartiers organisationsarbejde (jf. artiklerne om Bajer-parret og Landsforbundet), ikke en isoleret politisk beslutning.",
+        "words": [
+          700,
+          900
+        ],
+        "mustCite": 3,
+        "format": "feature",
+        "mustNumber": [
+          "5. juni 1915: grundlovsaendringen",
+          "12.000 kvinder i optog til Amalienborg",
+          "Danmark tredje land i Europa efter Finland (1906) og Norge (1913)"
+        ]
+      },
+      "writer": {
+        "byline": null,
+        "model": "openai/gpt-5.6-terra",
+        "fallback": "anthropic/claude-sonnet-5"
+      },
+      "receipt": {
+        "words": 848,
+        "costUSD": 0.0475135,
+        "draft": "kladder/05-grundloven-1915.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1787169425-0YXEZnj1LIYfeQksBMYF"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-19",
+        "citations": 3,
+        "editorNote": "Kladden krediterede Jutta Bojsen-Møller som 'forperson for Dansk Kvindesamfund' i 1915 — faktuelt forkert. Hun var formand 1894-1910 og i 1915 æresformand, som ledte optoget. Rettet til korrekt titel. Fodnoter til bare domænenavne (ft.dk, danmarkshistorien.dk, kvinfo.dk, ipu.org) erstattet med tre konkrete, verificerede sider."
+      }
+    },
+    {
+      "slug": "valget-1918",
+      "order": 6,
+      "section": "Valget",
+      "brief": {
+        "angle": "Valget: Folketingsvalget 22. april 1918, det foerste nationale valg efter grundlovsaendringen. Fire kvinder blev valgt til Folketinget: Karen Ankersted (Det Konservative Folkeparti/Hoejre, 1859-1921), Mathilde Malling Hauschultz (konservativ, 1885-1929), Helga Larsen (Socialdemokratiet, 1884-1947) og Elna Munch (Det Radikale Venstre, 1871-1945). Fem kvinder blev valgt til Landstinget, heriblandt Nina Bang (Socialdemokratiet). Navngiv alle fire Folketings-kvinder korrekt med parti. Landing: ni kvinder ud af et rigsdagsflertal paa flere hundrede maend var en spinkel start, ikke et gennembrud i tal — men det var foerste gang, princippet om valgbarhed fra 1915 blev proevet i praksis.",
+        "words": [
+          700,
+          900
+        ],
+        "mustCite": 3,
+        "format": "feature",
+        "mustNumber": [
+          "22. april 1918: valgdato",
+          "4 kvinder valgt til Folketinget",
+          "5 kvinder valgt til Landstinget"
+        ]
+      },
+      "writer": {
+        "byline": null,
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "anthropic/claude-sonnet-5"
+      },
+      "receipt": {
+        "words": 623,
+        "costUSD": 0.02311,
+        "draft": "kladder/06-valget-1918.md",
+        "costRouting": "byok",
+        "generationId": "gen-1787169514-T8QQYFKGYRiu5eI35BN0"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-19",
+        "citations": 3,
+        "editorNote": "Kladden skrev ukritisk, at Nina Bang blev 'Danmarks og verdens første kvindelige minister' — det modsiger direkte den præcisering, nummerets egen Nina Bang-artikel kræver (Aleksandra Kollontaj var minister i Sovjetrusland 1917/18, før Bang). Rettet til at henvise til den dedikerede artikel i stedet for at gentage den upræcise påstand. Tilføjet tredje citation (Karen Ankersteds tale, dansketaler.dk) for at nå mustCite=3."
+      }
+    },
+    {
+      "slug": "nina-bang",
+      "order": 7,
+      "section": "Ministeren",
+      "brief": {
+        "angle": "Ministeren: Nina Bang (1866-1928), historiker og politiker, medlem af Landstinget 1918-1928 for Socialdemokratiet, blev 23. april 1924 Danmarks foerste kvindelige minister — undervisningsminister i 2,5 aar i Thorvald Staunings regering. Skriv PRAeCIST om 'verdens foerste'-paastanden, som ofte gentages ukritisk: Aleksandra Kollontaj blev folkekommissaer i den bolsjevikiske magts regering i Sovjetrusland allerede i 1917/1918 — foer Nina Bang. Forskellen er, at Kollontaj blev udpeget af Lenin og den bolsjevikiske magt efter revolutionen, ikke af en demokratisk, parlamentarisk valgt regering. Nina Bang er derfor den foerste kvindelige minister udpeget af en demokratisk, parlamentarisk valgt regering — skriv denne skelnen eksplicit, ikke som en bisaetning. STRENGT: paastaa ikke uindskraenket, at Nina Bang var 'verdens foerste kvindelige minister' periode.",
+        "words": [
+          700,
+          900
+        ],
+        "mustCite": 3,
+        "format": "feature",
+        "mustNumber": [
+          "23. april 1924: Nina Bang minister",
+          "1917/1918: Aleksandra Kollontaj folkekommissaer"
+        ]
+      },
+      "writer": {
+        "byline": null,
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "anthropic/claude-sonnet-5"
+      },
+      "receipt": {
+        "words": 658,
+        "costUSD": 0.039542,
+        "draft": "kladder/07-nina-bang.md",
+        "costRouting": "byok",
+        "generationId": "gen-1787169560-e0VAIbC6zRN04PgrfqJq"
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-08-19",
+        "citations": 3,
+        "editorNote": "Kladden håndterede 'verdens første'-myten præcis som briefet: korrekt skelnen mellem Kollontajs bolsjevikiske udnævnelse og Bangs parlamentariske. Fodnoter til bare domænenavne erstattet med tre konkrete, verificerede sider, inklusive danmarkshistorien.lex.dk's egen MYTE-artikel om netop denne påstand."
+      }
+    },
+    {
+      "slug": "europa-sammenligning",
+      "order": 8,
+      "section": "Europa",
+      "brief": {
+        "angle": "Europa: saet den danske valgretskamp i international sammenhaeng. New Zealand var 1893 verdens foerste selvstyrende land med kvindelig parlamentarisk valgret; Australien fulgte 1902. I Europa var Finland 1906 det foerste land med baade valgret OG valgbarhed for alle kvinder og maend (dengang Storfyrstendoemmet Finland, senere republikken Finland). Norge fulgte i 1913 (maend havde stemt siden 1898). Danmark fulgte 5. juni 1915, som tredje land i Europa. Nævn til sammenligning mindst ét land, der fik kvindelig valgret markant senere (fx Sverige 1921, eller Frankrig 1944, eller Schweiz paa forbundsniveau saa sent som 1971) for at vise, hvor stor spredningen var. Landing: rakkefolgen var ikke tilfaeldig — de nordiske lande og Finland delte tidlige, staerke kvindebevaegelser og relativt hoej lae- og skrivefaerdighed blandt kvinder.",
+        "words": [
+          700,
+          900
+        ],
+        "mustCite": 3,
+        "format": "feature",
+        "mustNumber": [
+          "1893: New Zealand (verdens foerste selvstyrende land)",
+          "1906: Finland (foerste i Europa med valgret+valgbarhed)",
+          "1913: Norge",
+          "1915: Danmark (tredje i Europa)"
+        ]
+      },
+      "writer": {
+        "byline": null,
+        "model": "google/gemini-3.1-pro-preview",
+        "fallback": "anthropic/claude-sonnet-5"
+      },
+      "receipt": {
+        "words": 1055,
+        "costUSD": 0.06405,
+        "draft": "kladder/08-europa-sammenligning.md",
+        "costRouting": "byok",
+        "generationId": "gen-1787169619-My1cOq955lOoEm0jEVaM"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-19",
+        "citations": 6,
+        "editorNote": "Fact-checket eksternt: Kate Sheppard/New Zealand 1893, Finland 1906/19 kvinder af 200 (9,5%), Miina Sillanpää Finlands første kvindelige minister 1926, UK 1928, Frankrig 1944, Schweiz 1971 — alle bekræftet korrekte. Alle seks fodnoter havde allerede konkrete URL'er fra kladden; verificeret at de rent faktisk findes og handler om det påståede. HLS-forkortelsen omskrevet for at undgå falsk kollision med check_issue.py's ORBIT-specifikke 'Human Landing System'-regel."
+      }
+    },
+    {
+      "slug": "myter",
+      "order": 9,
+      "section": "Myter & misforståelser",
+      "brief": {
+        "angle": "Bagsnit: Myter & misforståelser om kvinders valgret i Danmark. Afmonter mindst tre udbredte misforstaaelser uden nye tal ud over dem, der allerede staar i nummeret. Myte 1: 'Kvinder fik valgret som en gave fra velvillige mandlige politikere.' Svar: det var resultatet af 44 aars organiseret arbejde (1871-1915), med foreninger, medlemstal og gentagne lovforslag, der blev nedstemt i Landstinget igen og igen, foer de blev vedtaget. Myte 2: 'Nina Bang var uindskraenket verdens foerste kvindelige minister.' Svar: hun var den foerste udpeget af en demokratisk, parlamentarisk valgt regering — Aleksandra Kollontaj var minister i den bolsjevikiske magts Sovjetrusland allerede i 1917/1918. Myte 3 (find selv en tredje relevant misforstaaelse fra stoffet, fx at ALLE kvinder fik valgret paa én gang i 1915, eller at kommunal og national valgret kom samtidig — de var adskilt af syv aar, 1908 og 1915). INGEN nye tal ud over dem, der allerede er etableret andetsteds i nummeret.",
+        "words": [
+          350,
+          550
+        ],
+        "mustCite": 0,
+        "format": "paastandskontoret"
+      },
+      "writer": {
+        "byline": null,
+        "model": "openai/gpt-5.6-terra",
+        "fallback": "anthropic/claude-sonnet-5"
+      },
+      "receipt": {
+        "words": 454,
+        "costUSD": 0.0207695,
+        "draft": "kladder/09-myter.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1787169671-ilvgXo4hNFE4rD1sBt2X"
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-08-19",
+        "citations": 0,
+        "editorNote": "mustCite 0. Alle tre myter bygger på tal og påstande allerede kildebelagt i nummerets øvrige artikler. Ingen nye tal."
+      }
+    }
+  ]
+}
