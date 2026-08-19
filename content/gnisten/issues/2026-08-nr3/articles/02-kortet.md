@@ -1,6 +1,7 @@
 ---
-title: "Kortet: sommeren 2026, tre spor"
-standfirst: Cloud-assistenter, lokale modeller og agenter der rører dine filer — tre lag, samme forvirring.
+title: "Kortet: tre spor lige nu"
+standfirst: Skyen bliver usynlig, det lokale spor rækker ud efter skyen, og agenterne får deres egen bremsediskussion.
+byline: Claude Sonnet 5 (Anthropic)
 section: Kortet
 order: 2
 image: ../images/gnisten_kortet.png
@@ -8,8 +9,20 @@ imageCredit: "AI-genereret motiv (Imagine / xAI)"
 imageSource: "https://x.ai/"
 ---
 
-1. **Cloud-assistenter** — ChatGPT, Claude, Gemini: nemme, opdaterede, data forlader ofte din maskine.  
-2. **Lokale modeller** — [Ollama](https://ollama.com) m.fl. kører *on-device*: privat, sløvere, dig der vedligeholder.  
-3. **Agenter** — multi-step-systemer med *tool use*: “læs fil, ret, gem, commit” med tilladelser.
+### Skyen bliver usynlig
 
-GNISTEN anbefaler: lær lag 1 godt, prøv lag 2 når privatliv tæller, rør lag 3 med **små opgaver** først.
+Der er sket noget stille med de store cloud-modeller (kunstig intelligens, der kører på leverandørens servere, ikke på din egen maskine): de er ved at forsvinde ind i det, du allerede bruger. Google er godt i gang med at lade Gemini glide ind i mail, kalender og søgefelt, så du ikke længere åbner en separat "AI-app" — du skriver bare en besked, og hjælpen dukker op af sig selv.
+
+Nogle kalder det *ambient* — omtrent "omgivende": modellen sidder i luften omkring dig i stedet for at vente på et klik. Fordelen er, at tærsklen falder. Ulempen er den samme: det bliver sværere at se, hvornår det egentlig er AI, der har foreslået noget, og hvornår det bare er dig.
+
+### Det lokale spor rækker ud efter skyen
+
+Ollama har længe været første stop for dem, der vil køre sprogmodeller på egen computer — ingen data sendt afsted, intet abonnement. Men værktøjet peger nu også udad: der er kommet en cloud-mulighed som supplement til det lokale, så man kan skifte til ekstern regnekraft, når ens egen maskine ikke slår til.
+
+Det er værd at bide mærke i, for det er lidt af en kovending for et projekt, hvis pointe var at holde alting lokalt. Grænsen mellem "lokalt" og "sky" bliver mere flydende end skarp — også for de værktøjer, der solgte sig selv på at være det modsatte af cloud.
+
+### Agenter — værktøjer med egen vilje
+
+Den tredje bevægelse handler om agenter: AI, der ikke bare svarer på spørgsmål, men selv tager skridt — booker, søger, skriver kode, sender mails — uden at du klikker for hvert delmål.
+
+Det er attraktivt, fordi det sparer klik, og det kræver eftertanke af samme grund: jo mere agenten må gøre selv, desto vigtigere bliver det, hvor bremsen sidder. Nogle værktøjer beder om godkendelse ved hvert vigtigt skridt, andre kører videre, indtil de støder på en mur. Hvor meget bremse man vil have, er ikke et teknisk spørgsmål — det er et spørgsmål om, hvor meget man tør give slip på.

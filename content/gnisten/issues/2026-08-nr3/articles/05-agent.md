@@ -1,6 +1,7 @@
 ---
-title: "Din første agent-arbejdsgang (uden at miste kontrollen)"
-standfirst: En agent er bare en assistent med flere skridt og flere tilladelser. Giv den små opgaver.
+title: "Din første agent-arbejdsgang — med bremse indbygget"
+standfirst: Du behøver ikke opfinde et sikkerhedsprincip for AI-agenter. Et af de mest udbredte værktøjer har allerede bygget det ind.
+byline: Claude Sonnet 5 (Anthropic)
 section: Værkstedet
 order: 5
 image: ../images/gnisten_agent.png
@@ -8,56 +9,39 @@ imageCredit: "AI-genereret motiv (Imagine / xAI)"
 imageSource: "https://x.ai/"
 ---
 
-### Definition
+Du har hørt, at AI-agenter — programmer der selv udfører flere skridt for at løse en opgave, uden at du godkender hvert skridt undervejs — kan gøre ting på din computer: rette filer, køre kommandoer, installere pakker. Det lyder både spændende og en smule skræmmende.
 
-En **agent** er et AI-system, der planlægger og udfører flere trin: læs fil → foreslå rettelse → skriv udkast → (måske) kør kommando. Det er kraftfuldt. Det er også der, ting kan gå galt. Under motorhjelmen ligger ofte **tool use** / *function calling*: modellen må kalde værktøjer (filer, terminal, API’er) i stedet for kun at returnere tekst.
+Den gode nyhed er, at du ikke selv skal opfinde et sikkerhedsprincip for, hvor meget agenten må gøre uden dig. Et af de mest udbredte agent-værktøjer har allerede bygget det ind — du skal bare genkende det og vælge bevidst.
 
-Chat er “spørg og få svar”. Agent er “få lov til at *gøre* noget”. Forskellen er **tilladelser**.
+### To tilstande
 
-### Mini-workflow du kan kopiere
+Kilden er GitHub Copilot CLI's egen dokumentation om det, værktøjet kalder "autopilot".[^1] Der findes to tilstande.
 
-1. **Mål:** “Lav en punktopstilling af denne mødenote.”  
-2. **Input:** én fil / én tekst.  
-3. **Output:** ny fil `referat-udkast.md` — **ikke** overwrite af originalen.  
-4. **Stop:** du læser, retter, godkender.  
-5. Først derefter: send, publicér, commit.
+**Interaktiv tilstand** er standarden. Agenten stopper ved beslutningspunkter og beder om din godkendelse, før den udfører noget, der kræver tilladelser. Ifølge dokumentationen gælder det selv, hvis du har sat en indstilling, der forudgodkender bestemte typer handlinger — agenten venter stadig på input ved de egentlige beslutningspunkter.
 
-Skriv målet ind i prompten som en checkliste. Agenter elsker at “hjælpe videre” — din opgave er at sige, hvornår de er færdige.
+**Autopilot-tilstand** arbejder sig igennem en opgave uden at stoppe efter hvert skridt. Den fortsætter, til opgaven er færdig, et problem forhindrer videre fremgang, du selv afbryder manuelt, eller et indbygget loft for antal fortsættelser er nået. For at bruge autopilot skal du eksplicit vælge én af tre ting: give fulde tilladelser (det, værktøjet selv anbefaler til autopilot), fortsætte med begrænsede tilladelser, eller annullere.
 
-### Tre niveauer af tillid
+### Dokumentationens egen advarsel
 
-| Niveau | Agenten må | Du gør |
-|---|---|---|
-| 0 — Chat | Læse det, du limer ind | Alt andet |
-| 1 — Udkast | Skrive til en *ny* fil | Godkende før brug |
-| 2 — Handling | Køre afgrænsede kommandoer / tools | Overvåge log; smal mappe |
+GitHub er selv ærlig om, hvad det koster at vælge forkert. Om hvornår autopilot passer:
 
-De fleste begyndere skal bo på **niveau 1** i uger. Niveau 2 kræver, at du forstår, hvilke tools der er tændt — se [**MCP** (*Model Context Protocol*) i nr. 2](/gnisten/2026-08-nr2/vaerkstedet-mcp): en fælles “stik”-standard, så værktøjer kan kobles til modeller på tværs af produkter.
+> «Autopilot mode is best for well-defined tasks. It is not ideal for open-ended exploration, feature development without a clear goal, or tasks where you want to guide the ongoing work.»[^2]
 
-### Sikkerhedsregler (print dem ud)
+På dansk: autopilot-tilstand fungerer bedst til veldefinerede opgaver. Den er ikke ideel til åben udforskning, funktionsudvikling uden et klart mål, eller opgaver hvor du vil guide arbejdet undervejs.
 
-- Ingen agenter med adgang til **hele** harddisken “fordi det er nemt”.  
-- Ingen API-nøgler i chats, du deler eller logger.  
-- Ingen “slet / force-push / send mail” uden eksplicit menneske-godkendelse.  
-- Hold et **sandbox-mappe**-trick: agenten må kun skrive i `~/tmp/agent-leg/`.  
-- Log hvad den gjorde. Hvis du ikke kan genfortælle det, var tillid for høj.
+Og om fulde tilladelser: de «gives the CLI permission to make any changes it deems necessary to complete the task, including altering and deleting files» — giver kommandolinjeværktøjet tilladelse til at foretage de ændringer, det finder nødvendige, herunder at ændre og slette filer. Samtidig «AI credits are consumed without your direct involvement» — kreditter forbruges, uden at du er direkte involveret.[^3] Dokumentationen anbefaler selv sandboxing, altså isolering, lokalt eller i skyen, som en måde at begrænse, hvor meget agenten kan nå.
 
-### Hvad “den første rigtige agent” betyder i GNISTEN
+### Din første arbejdsgang, konkret
 
-Ikke en autonom kollega. En **kæde med bremse**:
+1. Start altid i interaktiv tilstand, og giv agenten en lille, veldefineret opgave — ikke «ordn min mappe», men «omdøb disse tre filer efter dette mønster».
+2. Læs, hvad agenten spørger om, før du godkender. Det er hele pointen med bremsen.
+3. Brug først autopilot, når to ting begge er sande: opgaven er snævert afgrænset, og du kan tolerere, at noget ændres eller slettes, uden at du ser det ske i realtid.
+4. Giv aldrig fulde tilladelser på en mappe, du ikke har en sikkerhedskopi af. Det er ikke en overdreven forholdsregel — det er den betingelse, dokumentationen selv sætter fulde tilladelser i forhold til.
 
-1. Læs `noter.txt`.  
-2. Skriv `udkast.md` med tre bullet-afsnit.  
-3. Stop.  
-4. Du retter to sætninger.  
-5. (Valgfrit) bed om en anden version — stadig ny fil.
+Værktøjet har allerede lagt bremsen ind. Din opgave er ikke at bygge din egen — det er at vælge tilstand med åbne øjne.
 
-Når det mønster er kedeligt sikkert, kan du udvide. Kedeligt er godt.
+[^1]: GitHub: [«About autopilot mode» — GitHub Copilot CLI-dokumentation](https://docs.github.com/en/copilot/concepts/agents/copilot-cli/autopilot).
 
-### Bro til Gemini og lokalt
+[^2]: Samme kilde, afsnittet om hvornår autopilot-tilstand er egnet.
 
-- Cloud-agent (ChatGPT/Gemini/Cursor-agtige flows): hurtig, men data- og tool-politik er leverandørens.  
-- [Lokal model](/gnisten/2026-08-nr3/lokale-modeller) + agent: mere privat, mere friktion.  
-- [Gemini i økosystemet](/gnisten/2026-08-nr3/fokus-gemini): integration er magten — og risikoen, hvis du limer det forkerte ind.
-
-Kontrol er en feature. Hastværk er en bug.
+[^3]: Samme kilde, afsnittet om tilladelser og forbrug af AI-kreditter i autopilot-tilstand.

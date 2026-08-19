@@ -18,11 +18,42 @@ Redaktionel backlog og noter — opdateret efter nr. 3 (august 2026, "Agenten og
 - **Kilder skal pege på den konkrete side**, ikke på leverandørens forside. En adresse, der virker,
   er ikke det samme som en adresse, der dokumenterer påstanden.
 
-## Afviklet i nr. 3
+## Afviklet i nr. 3 — genopbygget 2026-08-19
 
-- **Løfte indfriet** fra nr. 2-bagside: Fokus Gemini · lokale modeller (Ollama) · første agent-arbejdsgang med bremse.  
-- Kortet, Månedens prompt, Regningen, sladder. Ordbogen droppet (gloser inline).  
-- `bestilling.json`: `redaktion/gnisten/numre/2026-08-nr3/bestilling.json`.
+**Genopbygget:** 8 artikler / 2.620 ord. Syv artikler reelt kommissioneret på `.env.gnisten`;
+lederen er redaktionens uden byline. Forbrug **0,2156 USD**. Fire nye motiver (Imagine).
+
+Den afpublicerede bestilling.json var det reneste tomme skelet fundet i hele oprydningen: otte
+opgaver, alle `writer.model: "editor-led"`, ingen `researchNote`, ikke ét `mustNumber` — og alligevel
+udgivet med byline til navngivne modeller. Nummeret er nu bygget forfra med reel research forud for
+hver brief.
+
+### Læring fra genopbygningen af nr. 3 (2026-08-19)
+
+**`.env.gnisten` ramte en kreditgrænse midt i produktionen.** Opus 4.8's `max_tokens`-budget kunne
+ikke dækkes af nøglens resterende kredit (OpenRouter HTTP 402). Løsning: `--fallback`-flaget i
+`commission.py`, som brugte `writer.fallback` (Claude Sonnet 5) i stedet — en sanktioneret vej, ikke
+en omgåelse. Bylinen på `agent`-artiklen navngiver derfor Sonnet, ikke Opus, fordi bylinereglen er
+byline ⇔ den model, der faktisk kørte.
+
+**Google-kilder om Gemini skal holdes adskilt.** «Personal Intelligence» (blog.google, 14. januar
+2026) forbinder Gemini til præcis fire apps — Gmail, Google Photos, YouTube, Search — IKKE alle
+Workspace-apps. Flere sekundære kilder (SEO-blogs, som GNISTENs egen nr. 2-læring advarede mod)
+overdriver dette til at være hele økosystemet. Adskilt fra «Gmail is entering the Gemini era», som
+beskriver fem konkrete Gmail-funktioner med et klart gratis/abonnement-skel.
+
+**Ollama er ikke længere rent lokalt.** Ollama.com beskriver sig selv som «on your computer and in
+the cloud» — en cloud-mulighed er kommet oveni det lokale spor. GNISTEN kalder det stadig «det
+private valg», fordi offline-kørsel stadig findes, men skrev skiftet eksplicit frem i tre artikler
+(Kortet, Værkstedet, Regningen), fordi det ændrer selve præmissen for, hvorfor man vælger værktøjet.
+
+**GitHub Copilot CLI's autopilot-dokumentation er en klar, citerbar kilde til «bremse og
+tillidsniveau».** Man behøver ikke opfinde et sikkerhedsprincip for agenter — det er allerede skrevet
+ned i et udbredt værktøjs egen dokumentation, med en eksplicit advarsel om at fulde tilladelser
+"gives the CLI permission to make any changes it deems necessary to complete the task, including
+altering and deleting files".
+
+`bestilling.json`: `redaktion/gnisten/numre/2026-08-nr3/bestilling.json`.
 
 ## Afviklet i nr. 2
 
@@ -90,3 +121,7 @@ i en fuld build.
 
 - **2026-08-09:** Nr. 2 genopbygget og genudgivet efter afpubliceringen 2026-08-08. `bestilling.json`
   oprettet fra bunden — der fandtes ingen. Kildedækningen gik fra 0 til 13 fodnoter. Se læringen ovenfor.
+
+- **2026-08-19:** Nr. 3 genopbygget og udgivet efter at have ligget som et tomt brief-skelet med
+  byline til navngivne modeller. Se læringen ovenfor. Ny fast note: `.env.gnisten` har en snæver
+  kreditgrænse — brug `--fallback` frem for at presse Opus-kald igennem, hvis 402 opstår.

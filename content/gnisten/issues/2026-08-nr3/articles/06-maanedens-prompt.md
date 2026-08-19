@@ -1,6 +1,7 @@
 ---
-title: "Månedens prompt: Agent med bremse"
-standfirst: Kopiér, tilpas, kør — med et indbygget stop.
+title: "Månedens prompt: Bed om en plan"
+standfirst: Den billigste bremse, du kan bygge ind i enhver samtale med en agent.
+byline: Gemini 3.1 Pro Preview (Google)
 section: Månedens prompt
 order: 6
 flow: true
@@ -9,14 +10,8 @@ imageCredit: "AI-genereret motiv (Imagine / xAI)"
 imageSource: "https://x.ai/"
 ---
 
-```
-Du er min assistent. Opgave: [ÉN konkret opgave].
-Regler:
-1) Lav en kort plan på max 5 trin.
-2) Udfør kun trin 1, og vis mig resultatet.
-3) Stop og vent på mit "ja" før trin 2.
-4) Skriv aldrig over mine originale filer; brug *-udkast.
-5) Hvis noget er usikkert, spørg i stedet for at gætte.
-```
+Vil du undgå, at din AI-assistent styrter afsted i den forkerte retning? Kopiér denne tekst, næste gang du stiller en opgave, og sæt den ind før selve opgavebeskrivelsen:
 
-Brug den i cloud eller lokalt. Bremsepedalen er meningen.
+> "Din opgave er at [indsæt din opgave her]. Inden du går i gang med at løse den, skal du skrive en kort, trin-for-trin plan over, præcis hvad du vil gøre. Vent derefter på mit klare klarsignal, før du udfører selve planen."
+
+At bede modellen om at vise sine planer, før den går i gang, er en simpel og effektiv bremse. Uanset om du bruger et skybaseret værktøj eller et program på din egen computer, giver metoden dig mulighed for at rette misforståelser og justere kursen, inden agenten for alvor går i gang. Det koster ingenting og bevarer din styring over processen.

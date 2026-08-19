@@ -1,19 +1,19 @@
 ---
-title: Regningen
-standfirst: Cloud koster abonnement eller tokens. Lokalt koster strøm og disk.
+title: "Regningen: Hvad koster 'gratis'?"
+standfirst: Cloud eller lokalt — regningen lander bare et andet sted.
+byline: Claude Sonnet 5 (Anthropic)
 section: Regningen
 order: 7
 flow: true
-image: ../images/gnisten_prompt.png
+image: ../images/gnisten_bagsnit.png
 imageCredit: "AI-genereret motiv (Imagine / xAI)"
 imageSource: "https://x.ai/"
 ---
 
-| Spor | Typisk prislogik |
-|---|---|
-| Cloud gratis lag | Begrænset, data til træning/analyse efter vilkår |
-| Cloud plus | Månedspris — tjek hvad der er inkluderet |
-| API | Betal pr. token — små eksperimenter er billige, loops er dyre |
-| Lokalt | Gratis modeller + din elregning + din tid |
+En cloud-model som Google Gemini har typisk et abonnement eller en pris pr. forespørgsel — du betaler, hver gang du trykker enter. En lokal model kørt via Ollama koster ikke noget pr. forespørgsel, men kræver til gengæld din egen hardware — den du allerede har betalt for, eller skal ud og købe — samt din egen tid til opsætning og vedligehold.
 
-**Tip:** Sæt et månedligt loft. Skærmtid på AI er også en omkostning.
+Men skellet er ikke længere så skarpt, som det lyder. Ollama tilbyder nu selv cloud-kørsel som et ekstra spor ved siden af det lokale[^1] — så "lokalt" og "gratis" ikke længere automatisk er det samme udsagn, heller ikke hos Ollama selv.
+
+GNISTENs regel: et gratis værktøj har altid en pris et sted. Enten betaler du i penge, i tid brugt på opsætning og fejlfinding — eller i den kontrol, du giver fra dig, når data og forespørgsler sendes til en andens server.
+
+[^1]: [Ollamas hjemmeside](https://ollama.com/): "Build with open models, on your computer and in the cloud."

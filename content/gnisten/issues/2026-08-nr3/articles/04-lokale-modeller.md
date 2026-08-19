@@ -1,6 +1,7 @@
 ---
-title: "Lokale modeller: Ollama for begyndere"
-standfirst: Privat, langsommere, dit ansvar — og det er præcis derfor det er interessant.
+title: "Din egen private AI med Ollama"
+standfirst: Langsommere end en cloud-model, men den er din. Og den er ikke længere kun lokal.
+byline: Gemini 3.1 Pro Preview (Google)
 section: Værkstedet
 order: 4
 image: ../images/gnisten_lokal.png
@@ -8,48 +9,32 @@ imageCredit: "AI-genereret motiv (Imagine / xAI)"
 imageSource: "https://x.ai/"
 ---
 
-En **lokal model** (*on-device*) kører på *din* computer. Teksten forlader ikke maskinen, medmindre *du* sender den videre. Det er den primære grund til at prøve det — ikke “gratis uendelig GPT-5 derhjemme”.
+Når vi arbejder med kunstig intelligens — for eksempel ChatGPT — sender vi vores tekster og data afsted til store, eksterne servere. For mange nysgerrige skabere rejser det et naturligt spørgsmål: hvad nu, hvis du vil eksperimentere på din egen maskine, uden at dele dine ufærdige idéer med resten af verden? Det er her, Ollama kommer ind i billedet.
 
-### Hvad du får
+I tekniske kredse bliver Ollama ofte beskrevet med analogien "Docker for AI-modeller" — Docker er et populært værktøj, der pakker kompliceret software ind i lukkede kasser, så det er nemt at starte på enhver computer. Det er en analogi, ikke et faktuelt navn på produktet, men den giver et hurtigt billede: Ollama gør det let at hente og køre sprogmodeller uden at skulle indstille alting manuelt.
 
-- **Privatliv som default:** dagbogsnoter, klientkladde, familieplan — uden cloud-log.  
-- **Ingen abonnementsmåler pr. token** (du betaler i strøm, disk og tålmodighed).  
-- **Kontrol:** du vælger modelstørrelse, og du kan slukke.
+### Ikke længere kun lokalt
 
-### Hvad du *ikke* får
+På sin egen hjemmeside beskriver projektet sig selv med ordene: "Build with open models, on your computer and in the cloud."[^1] Det er værd at bemærke: Ollama er ikke længere udelukkende et rent lokalt værktøj. Der er nu også en cloud-mulighed som et direkte valg oveni den lokale funktion.
 
-- Samme rå styrke som de største cloud-modeller — især på lange, komplekse opgaver.  
-- Altid-opdateret viden om “i går”.  
-- Magisk “det bare virker”-installation på en gammel laptop med 8 GB RAM.
+Når vi her i magasinet alligevel kalder det det private valg, skyldes det, at programmet fortsat kan køres "entirely offline for mission critical work". Valget mellem at køre lokalt på skrivebordet eller i skyen er dit.
 
-### Ollama i tre skridt (macOS/Linux/Windows)
+### Sådan kommer du i gang
 
-[Ollama](https://ollama.com) er den mest begyndervenlige vej lige nu: ét program, simple kommandoer, modeller hentes med navn.
+Ollama understøtter macOS, Linux og Windows. Du finder installationsfilerne på den officielle download-side.[^2] Bruger du macOS, kræver det Sonoma 14 eller nyere.
 
-1. Installér Ollama fra den officielle side.  
-2. Åbn terminalen og kør fx `ollama run llama3.2` (eller en anden model, Ollama foreslår — navne skifter; se deres katalog).  
-3. Skriv en sætning. Vent. Læs svaret. Ret forventningen: det er *dit* hardwarebudget, der sætter tempoet.
+Foretrækker du kommandolinjen, klares installationen på macOS og Linux med: `curl -fsSL https://ollama.com/install.sh | sh`. Projektet opdateres løbende — seneste version på GitHub er v0.32.14, udgivet 15. august 2026.[^3]
 
-**Tip:** Start med en **lille** model. Hellere hurtige, korte svar end en kæmpe model, der får blæseren til at græde.
+Når installationen er overstået, åbner du terminalen og skriver din første kommando: `ollama run <navn-paa-model>`. Projektets egen dokumentation bruger sprogmodellen `gemma4` som gennemgående eksempel. Første gang du kører kommandoen, henter Ollama automatisk de nødvendige filer, hvis de ikke allerede findes lokalt.
 
-### Hvornår det giver mening for en begynder
+### Taler samme sprog som de store
 
-| Situation | Cloud | Lokalt |
-|---|---|---|
-| “Skriv tre emner til et nyhedsbrev” | Ofte bedst | Fint, hvis privat |
-| Følsomme noter / arbejdskladder | Kun med bevidst politik | Ofte bedst |
-| Kode-hjælp på stor codebase | Ofte bedst | Afhænger af RAM/GPU |
-| Offline i toget | Nej | Ja |
+En af Ollamas styrker er, hvordan den kommunikerer med andre programmer. Den kører en REST-API (*Representational State Transfer*, en almindelig måde at lade programmer tale sammen over internettet) på port 11434, i et OpenAI-kompatibelt format. Har du fundet et værktøj, der egentlig er bygget til at tale med OpenAIs systemer, vil det derfor ofte virke med Ollama med få ændringer.
 
-### Tre fejl, alle laver
+I GNISTEN handler det om at prøve ting af uden forhåndskrav. Du behøver ikke forstå kvantisering (en metode til at komprimere filstørrelser) eller tænke over hukommelsen på din computers grafikkort for at eksperimentere. Du skal bare være forberedt på, at Ollama vil være langsommere end en stor cloud-model på samme opgave — og at det til gengæld holder dine forespørgsler på din egen maskine, når du vælger den lokale kørsel.
 
-1. **For stor model først.** Download er gigabytes; inference er langsom.  
-2. **Tror “lokalt = sandt”.** **Hallucinationer** (overbevist opdigt) findes stadig — privatliv ændrer ikke sandhedskravet.  
+[^1]: Ollamas hjemmeside: [ollama.com](https://ollama.com/).
 
-3. **Glemmer opdateringer.** Ollama og modeller opdateres — kør `ollama pull …` når du vil have nyere vægte.
+[^2]: Ollamas officielle download-side: [ollama.com/download](https://ollama.com/download).
 
-### Bro til resten af nummeret
-
-Når den lokale model kan svare på én fil, er næste skridt **ikke** “giv den hele harddisken”. Næste skridt er en lille [agent-arbejdsgang](/gnisten/2026-08-nr3/agent) med output til en *ny* fil — og dig som bremse.
-
-Lokalt er ikke det modsatte af cloud. Det er et **ekstra gear**, når privatliv eller offline vejer tungere end rå top-model-kvalitet.
+[^3]: Udgivelsesnoter fra Ollamas GitHub-arkiv: [github.com/ollama/ollama/releases](https://github.com/ollama/ollama/releases/tag/v0.32.14).

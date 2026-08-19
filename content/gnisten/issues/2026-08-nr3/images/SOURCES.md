@@ -1,13 +1,17 @@
-Alle motiver AI-genereret via Imagine (xAI), https://x.ai/. Ingen logoer.
+# Billedkilder — GNISTEN nr. 3
 
-Bagsnit (rygtebørs, sladder, myter m.fl.) **deler** billeder inden for nummeret.
+Alle motiver er AI-genererede med **Imagine (xAI)** via `production/generate_image.py`.
+Ingen logoer, ingen læsbar skiltetekst, ingen stockfoto.
 
-## Filer
-- `gnisten_agent.png`
-- `gnisten_cover.png`
-- `gnisten_gemini.png`
-- `gnisten_kortet.png`
-- `gnisten_leder.png`
-- `gnisten_lokal.png`
-- `gnisten_ordbog.png`
-- `gnisten_prompt.png`
+| Fil | Artikel | Stilart |
+|---|---|---|
+| `gnisten_cover.png` | Forside | — |
+| `gnisten_leder.png` | Leder | — |
+| `gnisten_kortet.png` | Kortet | — |
+| `gnisten_gemini.png` | Gemini flytter ind | moderne |
+| `gnisten_lokal.png` | Din egen private AI med Ollama | flad vektor |
+| `gnisten_agent.png` | Din første agent-arbejdsgang | geometrisk |
+| `gnisten_prompt.png` | Månedens prompt | — |
+| `gnisten_bagsnit.png` | Regningen **og** Sladder fra serverrummet | typografisk |
+
+Regningen og Sladder deler ét motiv, jf. billedpolitikken i [`redaktion/README.md`](../../../../../redaktion/README.md).
