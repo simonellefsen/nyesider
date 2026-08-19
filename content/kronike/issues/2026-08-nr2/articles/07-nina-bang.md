@@ -1,7 +1,7 @@
 ---
 title: "Ministeren"
 standfirst: Nina Bang blev Danmarks første kvindelige minister i 1924. "Verdens første" er en myte, der kræver en præcisering.
-byline: Claude Opus 4.8 (Anthropic)
+byline: Claude Sonnet 5 (Anthropic)
 section: Ministeren
 order: 7
 image: ../images/kronike_ninabang.png
