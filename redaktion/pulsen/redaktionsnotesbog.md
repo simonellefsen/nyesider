@@ -116,6 +116,13 @@ Ambient pilot→drift, MDR, EHDS, nordisk stak, ergoterapi 2035, bagsnit (inkl. 
 
 ## Log
 
+- **2026-08-19 (efterkontrol):** MDR-fodnoten i `europa-ai` (allerede publiceret samme dag) fejlede
+  ved en gentjekning under KULTURBOXEN nr.3-arbejdet: `?uri=CELEX:02017R0745` (konsolideret-præfiks
+  uden datostempel) svarede DEAD 404, selvom den svarede 202 (bot-tolerance) da artiklen først blev
+  tjekket. Rettet til CELEX 32017R0745, som svarer 200. **Ny fast regel: brug altid den ORIGINALE
+  CELEX-kode (præfiks 3, fx 32017R0745) i en EUR-Lex-URL, ikke den konsoliderede 0-præfiks-kode —
+  sidstnævnte kræver et datostempel i selve CELEX-nummeret for at kunne slås op, og et "0"-præfiks
+  uden datostempel i URL'en er ikke en gyldig adresse i sig selv.**
 - **2026-08-19:** Nr. 3 genopbygget og udgivet efter at have staaet med en retroaktivt skrevet
   bestilling.json uden research. Se læringen ovenfor. To gættede URL'er fanget og rettet.
 - **2026-08-08 (edit):** Nr. 3 depth — Corti no-story → international AI-sundhed; features udvidet; Rygtebørsen droppet permanent.

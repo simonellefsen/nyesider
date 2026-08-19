@@ -1,0 +1,352 @@
+{
+  "magazine": "kulturboxen",
+  "issue": "2026-08-nr3",
+  "issueTheme": "OFW — landet der arbejder ude",
+  "culture": "Filippinerne",
+  "integrityNote": "Nyt nummer, produceret 2026-08-19. Ingen tidligere fabrikeret udgave at rette op på — bygget fra bunden med research forud for hver brief, på .env.kulturboxen.",
+  "budget": {
+    "articles": 10,
+    "wordsPerArticle": [
+      300,
+      600
+    ],
+    "targetPages": 14,
+    "note": "Migrationsvinkel frem for rejsevinkel. Bevidst asynk med HORISONTEN denne gang — ingen samtidig Filippinerne-rejseudgave."
+  },
+  "researchNote": "ADVARSEL: dette felt naar ALDRIG frem til modellen — kun brief.angle goer. Kontrolleret 2026-08-19. Nyt nummer, ny kultur: Filippinerne, set gennem migrationen og forbindelsen til Danmark. Ny titel — ingen tidligere afsnit at bygge videre paa.\n\n1) REMITTANCER — DEN OEKONOMISKE RYGRAD. Filippinske arbejdere i udlandet (OFW — Overseas Filipino Workers) sendte i 2025 et REKORDHOEJT beloeb hjem: 35,634 mia. USD, en stigning paa 3,3% fra 34,493 mia. USD i 2024. Det svarede til 7,3% af Filippinernes BNP og 6,4% af bruttonationalindkomsten (BNI) i 2025. Landets centralbank forventer 3% vaekst til 36,6 mia. USD i 2026. For januar 2026 alene: 3,02 mia. USD, +3,5% aar-til-aar, med stigning hos baade landbaserede og sobaserede arbejdere. BEMAERK: selve remittance-andelen af BNP er FALDENDE over tid, ikke fordi remittancerne falder, men fordi den samlede filippinske oekonomi vokser hurtigere end remittancerne — analytikere kalder det 'ikke bekymrende', et tegn paa oekonomisk vaekst, ikke svaghed.\n\n2) KVINDERNE BAERER MIGRATIONEN. 56,0% af alle OFW'er er i dag kvinder (kilde: Lancet Regional Health — Western Pacific, scoping review om 'left-behind children'). Blandt filippinske indvandrere til Danmark specifikt er andelen endnu mere skaev: FILIPPINSKE KVINDER UDGOER 95% af indvandrere fra Filippinerne til Danmark, ifoelge Danmarks Statistik.\n\n3) AU PAIR-SYSTEMET I DANMARK — DEN KONKRETE DANSKE FORBINDELSE. Filippinere har i mange aar domineret au pair-ordningen i Danmark. Tal fra Danmarks Statistik/SIRI (Styrelsen for International Rekruttering og Integration), gengivet af Kristeligt Dagblad 6. maj 2024: I 2013 blev der udstedt 1.989 au pair-opholdstilladelser i alt, heraf 1.646 til filippinske statsborgere (ca. 83%). I 2023 var det samlede tal faldet til blot 533, heraf 431 filippinske (ca. 81%) — et fald til under en fjerdedel paa ti aar. I 2024 sås en lille stigning igen: 591 tilladelser i alt, heraf 483 filippinske (ca. 82%) ifoelge Danmarks Statistiks seneste opgoerelse. Til sammenligning viste et aeldre DST-tal fra 2018: 1.006 au pair-indvandrere i alt, heraf 818 filippinske (ca. 81%) — andelen har altsaa ligget stabilt omkring 80-83% i over et aarti, selvom det ABSOLUTTE tal er styrtdykket. AARSAGER TIL FALDET, ifoelge Kristeligt Dagblads research (kilder: DST, fagforeningen FOA, SIRI): stigende udgifter for vaertsfamilier (40.000-45.000 kr. til fly, forsikring og obligatorisk dansk-kursus), mediernes afsloering af sager, hvor au pairs er blevet udnyttet som billig arbejdskraft (lange arbejdstider, tilbageholdt loen), og et skift i prioriteter efter coronapandemien mod mere familietid i hjemmet.\n\n4) OFW-DEPLOYERING GLOBALT OG BPO-INDUSTRIEN HJEMME. Filippinerne har to parallelle eksportoekonomier for arbejdskraft: dem der REJSER UD (OFW) og dem der arbejder for udenlandske virksomheder UDEN at rejse, i BPO-sektoren (Business Process Outsourcing, fx callcentre og kundeservice for udenlandske firmaer). BPO/IT-BPM-sektoren beskaeftigede 1,89 millioner mennesker i 2025 (op 3,7% fra 1,82 mio. i 2024), heraf 1,68 millioner specifikt i kontaktcenter- og BPM-delen (op 4% fra 1,62 mio.). Sektoren genererede eksportindtaegter over 40 mia. USD i 2025, med en prognose omkring 42 mia. USD i 2026. AI-udviklingen skaber usikkerhed: i juli 2026 nedjusterede brancheorganisationen IBPAP sine 2028-maal (fra 2,5 mio. ansatte til et interval paa 1,85-2,14 mio.), med AI-automatisering naevnt som en af aarsagerne.\n\n5) BOERNENE, DER BLIVER TILBAGE. En scoping review i The Lancet Regional Health — Western Pacific undersoegte sundhedstilstanden hos boern, der er 'ladt tilbage' i Filippinerne, naar forael eller foraeldre migrerer for arbejde. Reviewet samlede 4.440 poster fra fagfaellebedoemte artikler og graa litteratur, hvoraf 50 blev inkluderet. Fundet: boern, der er ladt tilbage, oplever et bredt spektrum af daarligere fysiske (generelt helbred, hygiejne, sygdom, ernaering) og mentale (adfaerdsmaessige, kognitive, emotionelle) helbredsudfald, saerligt ved moderens fravaer. Et modvirkende fund: normaliseringen af arbejdsmigration kan reducere det traumatiske ved separationen, fordi boernene oftere kender andre boern i samme situation. STRENGT: dette er forskningsresultater om en SANDSYNLIGHED/tendens paa tvaers af mange studier, IKKE en garanti eller en dom over den enkelte families valg — skriv det med den noedvendige nuance.\n\n6) BOENDERNES EGEN OEKONOMISKE LOGIK. Remittancer bruges typisk til husholdningsforbrug, boernenes skolegang, sundhedsudgifter og boligforbedringer i hjemlandet — dette er almindeligt kendt fra migrationslitteraturen generelt og maa naevnes som generel kontekst, IKKE med opfundne konkrete procenttal for filippinsk forbrugsfordeling, medmindre en kilde findes.\n\nSTRENGT FORBUDT (ingen kilde her): danske au pair-loennnivauer i konkrete kroner, navngivne enkeltsager om udnyttelse (kun den generelle mediefortaelling om afsloeringer maa naevnes), opfundne procenttal for hvordan remittancer bruges, konkrete tal for antallet af filippinere bosat i Danmark i alt (kun au pair-tallene og Gentofte-eksemplet er kildebelagt), og enhver paastand om at migration er 'godt' eller 'skidt' i sig selv — nummeret skal beskrive mekanismen, ikke doemme den. mustCite: 2+ for Penge/oekonomi- og Tallet-artikler, 1-2 for øvrige features, 0 for Myter, jf. KULTURBOXENs egen standardregel.",
+  "opgaver": [
+    {
+      "slug": "leder",
+      "order": 1,
+      "section": "Leder",
+      "brief": {
+        "angle": "Chefredaktionens leder. Nyt nummer, ny kultur: Filippinerne — set gennem migrationen, ikke gennem stranden. Introducer temaet: et land hvor millioner arbejder i udlandet, og hvor den konkrete forbindelse til Danmark hedder au pair. Notér bevidst asynk med HORISONTEN (intet synkroniseret rejsenummer denne gang).",
+        "words": [
+          200,
+          350
+        ],
+        "mustCite": 0,
+        "format": "leder"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": 176,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "rewritten-by-editor",
+        "checkedAt": "2026-08-19",
+        "citations": 0,
+        "editorNote": "Chefredaktionens egen leder. writer.model 'editor-led', ingen byline, ingen kvittering."
+      }
+    },
+    {
+      "slug": "remittance-oekonomien",
+      "order": 2,
+      "section": "Penge, priser & forbrug",
+      "brief": {
+        "angle": "Remittance-oekonomien — millioner af filippinske arbejdere i udlandet (OFW, Overseas Filipino Workers) baerer en central del af landets oekonomi paa deres loenninger hjem. I 2025 sendte OFW'er et rekordhoejt beloeb hjem: 35,634 mia. USD, en stigning paa 3,3% fra 34,493 mia. USD i 2024 — svarende til 7,3% af Filippinernes BNP og 6,4% af bruttonationalindkomsten. Centralbanken forventer 3% vaekst til 36,6 mia. USD i 2026; januar 2026 alene viste 3,02 mia. USD, op 3,5% aar-til-aar. Forklar den vigtige nuance: remittance-ANDELEN af BNP er faldende over tid — ikke fordi pengene sendt hjem falder, men fordi den samlede filippinske oekonomi vokser hurtigere. Det er et tegn paa vaekst, ikke svaghed, ifoelge analytikere. Naevn ogsaa kort, at 56,0% af alle OFW'er i dag er kvinder. Land artiklen paa: dette er ikke en marginal indtaegtskilde, det er en strukturel del af den filippinske oekonomi, drevet af millioner af individuelle familiebeslutninger om at rejse for at arbejde.",
+        "words": [
+          350,
+          550
+        ],
+        "mustCite": 3,
+        "format": "feature",
+        "mustNumber": [
+          "35,634 mia. USD i 2025 (+3,3%)",
+          "7,3% af BNP, 6,4% af BNI",
+          "56,0% af OFW'er er kvinder"
+        ]
+      },
+      "writer": {
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "anthropic/claude-sonnet-5"
+      },
+      "receipt": {
+        "words": 470,
+        "costUSD": 0.019502,
+        "draft": "kladder/02-remittance-oekonomien.md",
+        "costRouting": "byok"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-19",
+        "citations": 3,
+        "editorNote": "REELT kommissioneret PAA FALLBACK-MODELLEN (anthropic/claude-sonnet-5), brugt praeventivt efter gentagne 402'ere paa Opus samme dag i andre titler. Alle remittance-tal (35,634 mia. USD, +3,3%, 7,3% af BNP, 56,0% kvinder) korrekt gengivet. Redaktionelt: en tredje fodnote (BSP's 'Overview of Philippine Economic and Financial Developments') fjernet, da den ikke var noedvendig oveni de to primaere kilder. Fodnoteantal rettet til at matche det faktiske antal efter redaktionel tilfoejelse af manglende fodnoter. Lancet-fodnoten pegede oprindeligt paa tidsskriftets forside, som gav en uendelig redirect-loop (DEAD 302) i check_links.py — rettet til den konkrete artikel via PMC (Dominguez & Hall 2022, bind 28, artikel 100566), verificeret 200."
+      }
+    },
+    {
+      "slug": "au-pair-danmark",
+      "order": 3,
+      "section": "Dagligdag & tempo",
+      "brief": {
+        "angle": "Au pair-systemet i Danmark — den konkrete danske forbindelse til Filippinerne. Filippinere har i mange aar domineret ordningen. Tal (Danmarks Statistik/SIRI, gengivet af Kristeligt Dagblad 6. maj 2024): 2013: 1.989 au pair-opholdstilladelser i alt, heraf 1.646 filippinske (ca. 83%). 2023: faldet til 533 i alt, heraf 431 filippinske (ca. 81%) — under en fjerdedel af 2013-niveauet. 2024: en lille stigning til 591 i alt, heraf 483 filippinske (ca. 82%), ifoelge Danmarks Statistiks seneste opgoerelse. Til sammenligning et aeldre DST-tal fra 2018: 1.006 au pair-indvandrere i alt, heraf 818 filippinske (ca. 81%). Pointen: andelen har ligget stabilt omkring 80-83% i over et aarti, mens det ABSOLUTTE tal er styrtdykket. AARSAGER til faldet (kilder: DST, FOA, SIRI, via Kristeligt Dagblad): stigende udgifter for vaertsfamilier (40.000-45.000 kr. til fly, forsikring, obligatorisk dansk-kursus), mediernes afsloering af sager med udnyttelse som billig arbejdskraft (lange arbejdstider, tilbageholdt loen — naevn dette som en generel mediefortaelling, IKKE en navngivet enkeltsag), og et skift efter coronapandemien mod mere familietid i vaertshjemmene. Skriv artiklen med respekt for begge sider af relationen — vaertsfamilie og au pair — uden at forenkle til en entydig skurk/offer-fortaelling.",
+        "words": [
+          400,
+          600
+        ],
+        "mustCite": 2,
+        "format": "feature",
+        "mustNumber": [
+          "2013: 1.989 tilladelser (1.646 filippinske)",
+          "2023: 533 (431 filippinske)",
+          "2024: 591 (483 filippinske)"
+        ]
+      },
+      "writer": {
+        "byline": "Gemini 3.1 Pro Preview (Google)",
+        "model": "google/gemini-3.1-pro-preview",
+        "fallback": "anthropic/claude-sonnet-5"
+      },
+      "receipt": {
+        "words": 579,
+        "costUSD": 0.062752,
+        "draft": "kladder/03-au-pair-danmark.md",
+        "costRouting": "byok"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-19",
+        "citations": 2,
+        "editorNote": "REELT kommissioneret. Alle au pair-tal (2013: 1.989/1.646, 2023: 533/431, 2024: 591/483) korrekt gengivet med den praecise pointe om stabil andel vs. styrtdykkende volumen. FAKTAFEJL FANGET OG RETTET: kladden citerede en opdigtet Kristeligt Dagblad-titel ('Au pair-ordningen skrumper') og en ikke-eksisterende specifik DST-tabel (statistikbanken.dk/VAN22, som ved kontrol kun viser en generisk soegeside, ikke au pair-data). Begge erstattet med den faktisk verificerede artikel og dens rigtige titel. Fodnoteantal rettet til at matche det faktiske antal efter redaktionel tilfoejelse af manglende fodnoter."
+      }
+    },
+    {
+      "slug": "arbejde-i-udlandet",
+      "order": 4,
+      "section": "Arbejde & hierarki",
+      "brief": {
+        "angle": "To parallelle eksportoekonomier for arbejdskraft: dem der REJSER UD (OFW, Overseas Filipino Workers — sygeplejersker, sofolk, husarbejdere, byggearbejdere m.fl. i mere end 100 lande) og dem der arbejder for udenlandske virksomheder UDEN at rejse, i BPO-sektoren (Business Process Outsourcing — fx callcentre og kundeservice for internationale firmaer, drevet fra filippinsk jord). BPO/IT-BPM-sektoren beskaeftigede 1,89 millioner mennesker i 2025 (op 3,7% fra 1,82 mio. i 2024), heraf 1,68 millioner specifikt i kontaktcenter- og forretningsprocesdelen (op 4% fra 1,62 mio.). Sektoren genererede eksportindtaegter over 40 mia. USD i 2025, med en prognose omkring 42 mia. USD i 2026. AI-udviklingen skaber usikkerhed for sektorens fremtid: i juli 2026 nedjusterede brancheorganisationen IBPAP sine 2028-maal fra 2,5 millioner ansatte til et interval paa 1,85-2,14 millioner, med AI-automatisering naevnt som en medvirkende aarsag. Vinklen: to forskellige svar paa det samme spoergsmaal — hvordan tjener man en global loen uden en global oekonomi derhjemme — det ene ved at rejse, det andet ved at lade verden komme til én via en telefonlinje.",
+        "words": [
+          350,
+          550
+        ],
+        "mustCite": 2,
+        "format": "feature",
+        "mustNumber": [
+          "BPO/IT-BPM: 1,89 mio. ansatte i 2025",
+          "eksport over 40 mia. USD (2025)"
+        ]
+      },
+      "writer": {
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "anthropic/claude-opus-4.8"
+      },
+      "receipt": {
+        "words": 502,
+        "costUSD": 0.018906,
+        "draft": "kladder/04-arbejde-i-udlandet.md",
+        "costRouting": "byok"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-19",
+        "citations": 2,
+        "editorNote": "REELT kommissioneret. BPO/IT-BPM-tallene (1,89 mio. ansatte, +3,7%, 40+ mia. USD eksport, IBPAP's 2028-nedjustering) korrekt gengivet. To fodnoter til samme kilde (ibpap.org) reduceret til én i den accepterede version. Fodnoteantal rettet til at matche det faktiske antal efter redaktionel tilfoejelse af manglende fodnoter."
+      }
+    },
+    {
+      "slug": "boernene-der-bliver-tilbage",
+      "order": 5,
+      "section": "Tabuer & det usagte",
+      "brief": {
+        "angle": "Boernene, der bliver tilbage — den del af migrationshistorien, der sjaeldent fortaelles fra Danmark. Byg artiklen paa en scoping review i The Lancet Regional Health — Western Pacific om sundhedstilstanden hos boern 'ladt tilbage' i Filippinerne, naar en eller begge foraeldre migrerer for arbejde. Reviewet samlede 4.440 poster fra fagfaellebedoemte artikler og graa litteratur, hvoraf 50 studier blev inkluderet. Fundet: boernene oplever et bredt spektrum af daarligere fysiske (generelt helbred, hygiejne, sygdom, ernaering) og mentale (adfaerdsmaessige, kognitive, emotionelle) helbredsudfald — saerligt naar det er MODEREN, der er fravaerende (relevant her, fordi 95% af filippinske indvandrere til Danmark er kvinder). Naevn ogsaa det modvirkende fund: normaliseringen af arbejdsmigration i Filippinerne kan reducere det traumatiske ved separationen, fordi boernene ofte kender andre i samme situation gennem deres omgangskreds. VIGTIG NUANCE: dette er forskningsresultater om en tendens paa tvaers af mange studier, IKKE en dom over den enkelte families valg eller en paastand om, at alle 'ladt tilbage'-boern klarer sig daarligt. Skriv det med den ydmyghed, som den akademiske kilde selv har. STRENGT: ingen opfundne konkrete tal for antal boern i Danmark eller Filippinerne paavirket — brug kun de tal, der er givet her.",
+        "words": [
+          350,
+          550
+        ],
+        "mustCite": 2,
+        "format": "feature",
+        "mustNumber": [
+          "Lancet-review: 4.440 poster, 50 inkluderet studier",
+          "95% af filippinske indvandrere til DK er kvinder"
+        ]
+      },
+      "writer": {
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "anthropic/claude-sonnet-5"
+      },
+      "receipt": {
+        "words": 514,
+        "costUSD": 0.018146,
+        "draft": "kladder/05-boernene-der-bliver-tilbage.md",
+        "costRouting": "byok"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-19",
+        "citations": 2,
+        "editorNote": "REELT kommissioneret PAA FALLBACK-MODELLEN, brugt praeventivt. Lancet-reviewets tal (4.440 poster, 50 studier) og DST's 95%-tal korrekt gengivet med den noedvendige nuance om, at det er en tendens, ikke en dom. Redaktionelt rettet en tegnkodningsfejl ('nÌsten' -> 'næsten'). Lancet-fodnoten pegede oprindeligt paa tidsskriftets forside, som gav en uendelig redirect-loop (DEAD 302) i check_links.py — rettet til den konkrete artikel via PMC (Dominguez & Hall 2022, bind 28, artikel 100566), verificeret 200."
+      }
+    },
+    {
+      "slug": "fiesta-og-tro",
+      "order": 6,
+      "section": "Ceremonier & ritualer",
+      "brief": {
+        "angle": "Fiesta og tro — den katolske kalender som social struktur i Filippinerne. Filippinerne er et af Asiens mest katolske lande, og hver by og landsby har typisk sin egen skytshelgen og sin egen aarlige fiesta (byfest) til dennes aere, med gudstjeneste, procession, mad og fest. Beskriv fiestaens sociale funktion: den er ikke kun religion, den er ogsaa den lejlighed, hvor migrantarbejdere fra samme by planlaegger at rejse hjem, hvor familier fra naer og fjern samles, og hvor lokalsamfundets sammenhold demonstreres gennem faelles forberedelse og deling af mad. Skriv om, hvordan afstanden (OFW'er i udlandet) goer disse ceremonielle faellesskaber vigtigere, ikke mindre vigtige — fiestaen bliver et fast punkt i kalenderen, man planlaegger sin hjemrejse efter. STRENGT: naevn ikke navngivne konkrete byfester eller helgener med specifikke datoer, medmindre de er almindeligt kendt og generelle (fx at det er almindelig praksis paa tvaers af landet) — undgaa at opfinde en specifik lokal fiesta-kalender, vi ikke har kildebelaeg for.",
+        "words": [
+          300,
+          500
+        ],
+        "mustCite": 1,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "GPT-5.6 Terra (OpenAI)",
+        "model": "openai/gpt-5.6-terra",
+        "fallback": "anthropic/claude-sonnet-5"
+      },
+      "receipt": {
+        "words": 366,
+        "costUSD": 0.018766,
+        "draft": "kladder/06-fiesta-og-tro.md",
+        "costRouting": "direct"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-19",
+        "citations": 1,
+        "editorNote": "REELT kommissioneret. Ingen opfundne konkrete fiesta-datoer eller navngivne byfester, som briefet forbød. Et sekundaert fodnote-forslag (Fenella Cannell-bogreference via et gaettet Google Books-link) fjernet i den accepterede version til fordel for kun den verificerede Britannica-kilde."
+      }
+    },
+    {
+      "slug": "mad-og-bord",
+      "order": 7,
+      "section": "Spise & drikke",
+      "brief": {
+        "angle": "Mad og bord i filippinsk hverdag og fest. Beskriv det filippinske maaltids grundstruktur: ris som fast bestanddel af naesten hvert maaltid, kombineret med retter der blander spansk, kinesisk, malaysisk og amerikansk paavirkning — et resultat af landets lange kolonihistorie. Naevn generelle, veletablerede kendetegn: brugen af eddike og citrus (calamansi) til syrlighed, soja og fiskesovs til dybde, og den saeregne blanding af soedt og salt i mange retter. Beskriv 'kamayan'-traditionen (at spise med haenderne fra bananblade, ofte ved faellesspisning) som et eksempel paa mad som faellesskab frem for individuel servering. Forbind det til migrationen: mad fra hjemlandet — importerede varer, opskrifter givet videre — bliver en maade at holde fast i identitet paa for filippinere i udlandet, herunder i Danmark. STRENGT: undgaa at navngive specifikke retter med paastande om oprindelsesaar eller opfundne 'traditionelle' detaljer, du ikke er sikker paa — hold dig til bredt anerkendte, generelle traek.",
+        "words": [
+          300,
+          500
+        ],
+        "mustCite": 0,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "Gemini 3.1 Pro Preview (Google)",
+        "model": "google/gemini-3.1-pro-preview",
+        "fallback": "anthropic/claude-sonnet-5"
+      },
+      "receipt": {
+        "words": 383,
+        "costUSD": 0.04079,
+        "draft": "kladder/07-mad-og-bord.md",
+        "costRouting": "byok"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-19",
+        "citations": 0,
+        "editorNote": "REELT kommissioneret. Ingen opfundne konkrete retter med paastaaede oprindelsesaartal, som briefet kraevede. mustCite 0 for dette format, som resten af KULTURBOXENs mad-artikler."
+      }
+    },
+    {
+      "slug": "tallet",
+      "order": 8,
+      "section": "Tallet / pejlemærker",
+      "brief": {
+        "angle": "KULTURBOXENs faste talrubrik: en tabel med 5-6 raekker, hver med et tal, et aar og en fodnote til en navngivet kilde. Byg tabellen af PRAECIS disse raekker: (1) OFW-remittancer 2025: 35,634 mia. USD, +3,3% fra 2024, kilde BusinessWorld/centralbankdata. (2) Remittancer som andel af BNP 2025: 7,3%, kilde samme. (3) Andel kvinder blandt OFW'er: 56,0%, kilde Lancet Regional Health — Western Pacific-review. (4) Au pair-opholdstilladelser til filippinske statsborgere, Danmark: 1.646 (2013) → 431 (2023) → 483 (2024), kilde Danmarks Statistik/SIRI via Kristeligt Dagblad. (5) BPO/IT-BPM-beskaeftigelse Filippinerne 2025: 1,89 mio., +3,7% fra 2024, kilde industristatistik (IBPAP). (6) Lancet-reviewets datagrundlag: 4.440 poster gennemgaaet, 50 studier inkluderet. Skriv en kort indledning (60-100 ord) om, at disse tal tilsammen tegner et billede af et land, hvor migration ikke er en undtagelse, men en strukturel del af oekonomien og familielivet. Slut med en kort laeseregel om, at tal om mennesker (som OFW-koen) altid daekker over individuelle beslutninger, ikke kun statistik.",
+        "words": [
+          350,
+          550
+        ],
+        "mustCite": 6,
+        "format": "tabel",
+        "mustNumber": [
+          "35,634 mia. USD (2025)",
+          "7,3% af BNP",
+          "56,0% kvinder",
+          "1.646→431→483 au pair-tilladelser"
+        ]
+      },
+      "writer": {
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "anthropic/claude-opus-4.8"
+      },
+      "receipt": {
+        "words": 511,
+        "costUSD": 0.019124,
+        "draft": "kladder/08-tallet.md",
+        "costRouting": "byok"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-19",
+        "citations": 6,
+        "editorNote": "REELT kommissioneret. Alle seks raekker korrekt gengivet med kilde. Redaktionelt: fodnoterne fik rigtige, klikbare links (kladden havde kun tekstreferencer uden URL). Fodnoteantal rettet til at matche det faktiske antal efter redaktionel tilfoejelse af manglende fodnoter. Lancet-fodnoten pegede oprindeligt paa tidsskriftets forside, som gav en uendelig redirect-loop (DEAD 302) i check_links.py — rettet til den konkrete artikel via PMC (Dominguez & Hall 2022, bind 28, artikel 100566), verificeret 200."
+      }
+    },
+    {
+      "slug": "myter",
+      "order": 9,
+      "section": "Rygtebørsen / myter",
+      "brief": {
+        "angle": "KULTURBOXENs faste myte-rubrik: 4-5 udbredte, forenklede antagelser om filippinske migranter/au pairs, hver afmonteret kort og noegternt uden at opfinde nye tal. Eksempler paa myter at tage fat paa (formulér selv, brug kun allerede etablerede fakta fra nummerets øvrige artikler til at afmontere dem): 'Au pair er bare billig hushjaelp' (det er formelt en kulturudvekslingsordning, ikke et ansaettelsesforhold — selvom virkeligheden nogle gange har afveget, jf. artiklen om au pair-systemet); 'Alle filippinske migranter er au pairs eller hushjaelp' (OFW-koen daekker sygeplejersker, sofolk, ingeniører, IT-folk og mange andre faggrupper i over 100 lande); 'Penge sendt hjem er bare et sidespring for smaating' (7,3% af et helt lands BNP er alt andet end smaating); 'Boern der er ladt tilbage, klarer sig altid daarligt' (forskningen viser en tendens mod daarligere udfald, men ogsaa modvirkende faktorer som normalisering i lokalsamfundet). INGEN nye konkrete tal ud over dem, der allerede staar i nummeret.",
+        "words": [
+          300,
+          500
+        ],
+        "mustCite": 0,
+        "format": "myter"
+      },
+      "writer": {
+        "byline": "GPT-5.6 Terra (OpenAI)",
+        "model": "openai/gpt-5.6-terra",
+        "fallback": "anthropic/claude-sonnet-5"
+      },
+      "receipt": {
+        "words": 443,
+        "costUSD": 0.0167625,
+        "draft": "kladder/09-myter.md",
+        "costRouting": "direct"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-19",
+        "citations": 0,
+        "editorNote": "REELT kommissioneret. Alle fire myter afmonteret udelukkende med tal og fakta allerede etableret andetsteds i nummeret, som briefet kraevede — ingen nye paastande."
+      }
+    },
+    {
+      "slug": "til-horisonten",
+      "order": 10,
+      "section": "Til HORISONTEN (kryds)",
+      "brief": {
+        "angle": "Kort bro til soestertitlen HORISONTEN, i samme stil som tidligere numres kryds-artikler — MEN denne gang er der IKKE noget synkroniseret HORISONTEN-nummer om Filippinerne. Skriv det aabent: dette er bevidst asynk (jf. husreglens mulighed for det), fordi KULTURBOXENs research denne gang gik mod migrationen og den danske forbindelse (au pair-systemet) snarere end mod rejsemaalet. Giv alligevel HORISONTEN et par observationer fra research, som kan vaere nyttige, HVIS de en dag skriver om Filippinerne som rejsemaal: landet bestaar af over 7.000 oer, hvilket goer intern logistik og transport til en helt anden planlaegningsopgave end et sammenhaengende landomraade; og at den katolske fiesta-kalender (beskrevet i nummerets ceremoni-artikel) betyder, at lokale byer kan vaere enten festligt overfyldte eller ekstra stille, afhaengigt af hvornaar man rejser. INGEN links til et ikke-eksisterende HORISONTEN-nummer. Underskriv som *KULTURBOXEN*.",
+        "words": [
+          200,
+          350
+        ],
+        "mustCite": 0,
+        "format": "bagsnit"
+      },
+      "writer": {
+        "byline": "Gemini 3.1 Pro Preview (Google)",
+        "model": "google/gemini-3.1-pro-preview",
+        "fallback": "anthropic/claude-sonnet-5"
+      },
+      "receipt": {
+        "words": 279,
+        "costUSD": 0.026656,
+        "draft": "kladder/10-til-horisonten.md",
+        "costRouting": "byok"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-19",
+        "citations": 0,
+        "editorNote": "REELT kommissioneret. Redegoer aabent for den bevidste asynk med HORISONTEN, som briefet kraevede, uden at linke til et ikke-eksisterende HORISONTEN-nummer om Filippinerne."
+      }
+    }
+  ]
+}

@@ -146,7 +146,7 @@
         "status": "accepted-after-edit",
         "checkedAt": "2026-08-19",
         "citations": 3,
-        "editorNote": "REELT kommissioneret PAA FALLBACK-MODELLEN (anthropic/claude-sonnet-5), brugt praeventivt. MDR regel 11 og EHDS artikel 105-tidslinjen genbrugt korrekt fra PULSEN nr. 2's allerede DOI/EUR-Lex-verificerede fakta. Alle tre fodnote-URL'er (EUR-Lex MDR, EUR-Lex EHDS, FDA SaMD) verificeret — de to EUR-Lex-adresser svarer 202, som er den kendte bot-tolerance, ikke et doedt link, jf. nr. 2's egen laering. Asien-afsnittet holder det eksplicitte kildekritiske forbehold, briefet kraevede, i selve broedteksten."
+        "editorNote": "REELT kommissioneret PAA FALLBACK-MODELLEN (anthropic/claude-sonnet-5), brugt praeventivt. MDR regel 11 og EHDS artikel 105-tidslinjen genbrugt korrekt fra PULSEN nr. 2's allerede DOI/EUR-Lex-verificerede fakta. Alle tre fodnote-URL'er (EUR-Lex MDR, EUR-Lex EHDS, FDA SaMD) verificeret — de to EUR-Lex-adresser svarer 202, som er den kendte bot-tolerance, ikke et doedt link, jf. nr. 2's egen laering. Asien-afsnittet holder det eksplicitte kildekritiske forbehold, briefet kraevede, i selve broedteksten. EFTERKONTROL 2026-08-19 (under KULTURBOXEN nr.3-arbejdet): MDR-fodnoten svarede DEAD 404 ved gentjek — URL-formen '?uri=CELEX:02017R0745' (konsolideret-praefiks uden datostempel) findes ikke som selvstaendig adresse. Rettet til den grundlaeggende CELEX 32017R0745, som svarer 200."
       }
     },
     {

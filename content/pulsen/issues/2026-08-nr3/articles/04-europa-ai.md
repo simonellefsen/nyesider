@@ -31,7 +31,7 @@ I dele af Asien beskrives godkendelsescyklusser for sundheds-AI ofte som markant
 
 Billedet af et globalt AI-sundhedskapløb holder ikke. EU bygger et system af risikoklasser og datoer for datadeling. USA godkender produkter enkeltvis. Og tempo-fortællingen om Asien er den, der kræver mest kildekritisk arbejde, før den kan bruges til noget som helst i en dansk sundhedsfaglig sammenhæng.
 
-[^1]: Europa-Parlamentets og Rådets forordning (EU) 2017/745 af 5. april 2017 om medicinsk udstyr, [konsolideret udgave (CELEX 02017R0745)](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02017R0745), EUR-Lex.
+[^1]: Europa-Parlamentets og Rådets forordning (EU) 2017/745 af 5. april 2017 om medicinsk udstyr, [EUR-Lex (CELEX 32017R0745)](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32017R0745).
 
 [^2]: Europa-Parlamentets og Rådets forordning (EU) 2025/327 om det europæiske sundhedsdataområde (EHDS), [EUR-Lex (CELEX 32025R0327)](https://eur-lex.europa.eu/legal-content/DA/TXT/?uri=CELEX:32025R0327).
 

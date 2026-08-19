@@ -100,11 +100,55 @@ i briefen — det virker, når man beder om det.
 `supra-og-bordet` angav Darra Goldstein, *The Georgian Feast*, UC Press 1999 — korrekt forlag, år og
 førsteudgave. `familie-og-forhold` og `skat-og-stat` angav hver sit korrekte Venedigkommission-nummer.
 
-## Nr. 3 — kandidater
+## Nr. 3 — udgivet 2026-08-19
+
+**Tema:** Landet der arbejder ude · **Kultur:** Filippinerne, set gennem migrationen
+**10 artikler, 3.979 ord.** Ni artikler reelt kommissioneret på `.env.kulturboxen`; lederen er
+redaktionens uden byline. Forbrug **0,2414 USD**. `check_issue.py`: **0 fejl, 0 advarsler.**
+`bestilling.json`: `redaktion/kulturboxen/numre/2026-08-nr3/bestilling.json`.
+
+Første af de tre nr. 3-kandidater valgt. De to øvrige (Marokko, Japan uden kirsebærtræer) står
+stadig som kandidater til nr. 4.
+
+**Bevidst asynk med HORISONTEN.** Ingen samtidig rejseudgave om Filippinerne denne gang —
+researchen gik mod migrationen og den danske au pair-forbindelse, ikke mod ruten. Notér det
+åbent i bagsnittet «Til HORISONTEN» i stedet for at tvinge en syntetisk synk, jf. husreglens
+egen anvisning om, at synk ikke altid er muligt.
+
+### Kernetal
+
+- **OFW-remittancer:** 35,634 mia. USD i 2025 (+3,3 % fra 2024), 7,3 % af BNP. 56,0 % af
+  alle OFW'er er kvinder.
+- **Au pair i Danmark:** filippinske statsborgere har udgjort 80–83 % af alle au pair-tilladelser
+  i over et årti (2013: 1.646/1.989; 2023: 431/533; 2024: 483/591) — stabil andel, styrtdykkende
+  volumen. Kilde: Kristeligt Dagblad 6. maj 2024, med tal fra DST/SIRI.
+- **BPO/IT-BPM:** 1,89 mio. ansatte i 2025 (+3,7 %), over 40 mia. USD i eksport — den anden
+  eksportøkonomi for arbejdskraft, hvor opgaven rejser i stedet for mennesket.
+- **Børnene, der bliver tilbage:** Dominguez & Hall (2022), *Lancet Regional Health — Western
+  Pacific*, scoping review, 4.440 poster gennemgået, 50 studier inkluderet.
+
+### To kilde-fælder fanget
+
+- **En opdigtet DST-tabelreference.** En kladde citerede `statistikbanken.dk/VAN22` som specifik
+  kilde til au pair-tal — ved kontrol viser adressen kun en generisk søgeside, intet konkret
+  indhold. Erstattet med den faktisk verificerede Kristeligt Dagblad-artikel.
+- **En uendelig redirect-loop.** Tre kladder linkede til `thelancet.com/journals/lanwpc/home`
+  (tidsskriftets forside) i stedet for den konkrete artikel — `check_links.py` rapporterede
+  **DEAD 302** med en redirect-loop-fejl. Fundet den rigtige artikel (Dominguez & Hall 2022,
+  bind 28, artikel 100566) og skiftet til PMC-spejlet, som svarer 200 til automatiserede kald,
+  hvor selve Lancet-siden svarer 403.
+
+### Ny artikeltype: en dansk migrationsforbindelse uden rejsevinkel
+
+Dette er første KULTURBOXEN-nummer, hvor den konkrete danske forbindelse til kulturen ikke er
+turisme, men arbejdsmigration (au pair). Det gav en ekstra sektion (`Dagligdag & tempo`) en
+markant mere Danmarks-nær vinkel end i Georgien- og Sydtyrol-numrene — værd at overveje som fast
+greb, når et lands diaspora i Danmark er dokumenterbar.
+
+## Nr. 4 — kandidater
 
 - **(2026-08) Marokko** (by vs. land, Ramadan-rytme, handel, kønsrum)  
-- **(2026-08) Japan uden kirsebærtræer** (arbejde, service, bolig, dating)  
-- **(2026-08) Filippinerne / OFW** (familieøkonomi, remitter, diaspora i DK)
+- **(2026-08) Japan uden kirsebærtræer** (arbejde, service, bolig, dating)
 
 ## Format
 
@@ -112,6 +156,9 @@ førsteudgave. `familie-og-forhold` og `skat-og-stat` angav hver sit korrekte Ve
 - **Standard `mustCite`:** 2+ for Tallet; 1–2 for Penge/Stat; 0 for Myter. **Ingen Ordbog** — gloser i parentes/fodnote.
 
 ## Log
+
+- **2026-08-19:** Nr. 3 udgivet — Filippinerne/OFW, nyt nummer produceret fra bunden. Se
+  læringen ovenfor. To kildefælder fanget (opdigtet DST-tabelreference, uendelig redirect-loop).
 
 - **2026-08-08 (format):** Ordbogen fjernet fra nr. 2 — gloser i parentes/fodnote i features.
 
