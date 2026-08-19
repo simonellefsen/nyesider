@@ -21,6 +21,46 @@ Vi bruger "fysisk AI" som en forklaring, ikke som en magisk etiket: en robot ska
 
 ## Udgivne numre
 
+### Nr. 3 — “Tre humanoider, tre beviser” — UDGIVET 2026-08-19 (nyt nummer, fra bunden)
+
+7 artikler, **3.656 ord**. Seks artikler reelt kommissioneret på `.env.humanerd`; lederen er
+chefredaktionens og har **ingen byline**. Samlet forbrug **0,2028 USD**. `check_issue.py`:
+**0 fejl, 1 advarsel** (korrekt, se nedenfor). `bestilling.json` under `numre/2026-08-nr3/`.
+
+Idébank-emnet "Tre humanoider, tre beviser" brugt direkte: 1X NEO (forudsalgs-bevis, 10.000
+forudbestillinger på fem dage), Figure 03 hos BMW Spartanburg (kontraheret drifts-bevis, 40
+enheder, 25 USD/robot-time, 99 %+ nøjagtighed), og Boston Dynamics Atlas hos Hyundai
+(hensigts-bevis: en 25.000-robot-plan for 2028, blokeret af Korean Metal Workers' Union siden
+22. januar 2026 — bilindustriens første strejke rettet specifikt mod humanoide robotter, juli
+2026). Verdenskortet-artiklen bruger samme research til at afmontere national-kapløbs-sproget:
+BMW bruger både amerikansk (Figure) og schweizisk (Hexagon/AEON) teknologi på to forskellige
+fabrikker; et koreansk selskab (Hyundai) ejer et amerikansk robotfirma (Boston Dynamics).
+
+### Fire gættede/dårlige kilder fanget og rettet
+
+- **Atlas/fagforening:** kladdens tre fodnoter (bostondynamics.com, hyundaimotorgroup.com,
+  ifr.org) sourcerede intet af fagforeningens citat eller juli-strejken. Erstattet med UPI
+  (26. jan. 2026) og Tech Times (20. jul. 2026), som faktisk dækker de to hændelser.
+- **Verdenskortet:** to fodnoter fra 2024 (Reuters om BMW/Figure, TechCrunch om Mercedes/Apptronik)
+  var forældede *og* døde — Reuters-linket gav **HTTP 401** (behandlet som dødt, ikke
+  bot-tolerabelt, jf. SPÆNDING nr. 3's regel samme dag), TechCrunch-linket gav **404**. Erstattet
+  med Figure AI's og PR Newswires egne 2026-meddelelser.
+- **Hjemmet:** en fodnote pegede på en gættet `openai.com/index/1x/`-sti (HTTP 403, ikke
+  bekræftet som en reel side). Erstattet med 1X's egen, bekræftede pressemeddelelse om den
+  OpenAI-ledede finansieringsrunde.
+- **Tallet:** kladdens seks fodnoter var kun prosahenvisninger til domænenavne
+  ("hyundaimotorgroup.com", "sydkoreansk erhvervspresse") uden konkrete URL'er — ubrugeligt for
+  en læser. Erstattet med fire konkrete, verificerede sider (1x.tech, BMW Group PressClub,
+  Hyundai newsroom, Seoul Economic Daily).
+
+### mustCite-advarslen i Tallet er korrekt, ikke en fejl
+
+`tallet` endte med 4 citationer mod et briefet mustCite på 5 — samme mønster som ORBIT og
+KRAFTEN nr. 3 samme dag. Tabellens seks rækker deler reelt kun fire distinkte kilder: række 1+2
+er begge 1X, række 3+4 er begge BMW. At opfinde en femte fodnote til en allerede citeret kilde
+havde været falsk præcision. Ledgerens `citations`-felt viser det faktiske, korrekte antal med
+en forklarende note.
+
 ### Nr. 2 — “Lagerets koreografi” — GENOPBYGGET OG GENUDGIVET 2026-08-17
 
 9 artikler, **5.878 ord** (var 2.279 ord — gns. 253). Otte artikler reelt kommissioneret på
@@ -111,7 +151,7 @@ levetidstallet var det rigtige. Reglen er stadig: afstem mod begge, og forklar f
 
 - **(2026-08) Robotten der kan se** — kameraer, kraftsensorer og grænserne for perception.
 - **(2026-08) Håndens problem** — gribere, taktilitet og hvorfor det bløde stadig er svært.
-- **(2026-08) Tre humanoider, tre beviser** — 1X, Figure og Boston Dynamics sammenlignet på opgave, dokumentation, autonomi, kundeadgang og sikker drift; undgå at lave en model- eller nationalitetsrangliste af demoer.
+- ~~Tre humanoider, tre beviser~~ → **brugt i nr. 3** (2026-08-19).
 - **(2026-08) Dronen som robot** — inspektion, lager, landbrug og beredskab; skeln mellem fjernstyring, assisteret flyvning og autonomi.
 - **(2026-08) Robotter i krig** — militære anvendelser, dual use, menneskelig kontrol, fejlrisiko og dokumentation. Må ikke behandles som gadgetstof eller produktpromovering; brug primærkilder, folkeretlige rammer og uafhængig rapportering.
 - **(2026-08) Boston Dynamics efter videoen** — fra mobilitet til konkret arbejdscelle, med den samme pilot→drift-målestok som nr. 1.

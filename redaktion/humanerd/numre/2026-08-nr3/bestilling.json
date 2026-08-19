@@ -1,0 +1,265 @@
+{
+  "magazine": "humanerd",
+  "issue": "2026-08-nr3",
+  "issueTheme": "Tre humanoider, tre beviser",
+  "integrityNote": "Nyt nummer, produceret 2026-08-19. Ingen tidligere fabrikeret udgave at rette op på — bygget fra bunden med research forud for hver brief, på .env.humanerd. mustCite sat efter research var læst, jf. titlens standardregel.",
+  "budget": {
+    "articles": 7,
+    "wordsPerArticle": [
+      350,
+      750
+    ],
+    "targetPages": 12,
+    "note": "Dybde før bredde, som formatreglen kræver. Idébank-emnet 'Tre humanoider, tre beviser' brugt direkte."
+  },
+  "researchNote": "ADVARSEL: dette felt naar ALDRIG frem til modellen — kun brief.angle goer. Kontrolleret 2026-08-19. Nyt nummer: tre humanoider, tre beviser.\n\n1) 1X NEO — HJEMMEROBOTTEN. 1X Technologies (norsk-amerikansk, stoettet af bl.a. OpenAI) lancerede NEO, en humanoid hjemmerobot, til foromsalg. 10.000 foromsalgsordrer paa fem dage, startende oktober 2025. Pris: 20.000 USD ved koeb, eller et abonnement paa 499 USD/maaned (sidstnaevnte leveres paa et senere tidspunkt). NEO er 5'6\" (ca. 168 cm) hoej. Fuldskala-produktion begyndte paa NEO-fabrikken i Hayward, Californien, ifoelge en pressemeddelelse dateret 30. april 2026 — beskrevet som Amerikas foerste vertikalt integrerede humanoid-robotfabrik. Foerste kundeleverancer planlagt til amerikanske hjem i 2026; udvidelse til andre markeder foerst fra 2027.\n\n2) FIGURE 03 — BMW SPARTANBURG. Figure AI's robot Figure 03 er indsat hos BMW's fabrik i Spartanburg, South Carolina, til logistikopgaver — sortering af uopsorterede komponenter i sekventeringsvogne til samlebaandet. Dette bygger paa en tidligere pilot med forgaengeren Figure 02, som understoettede produktionen af over 30.000 BMW X3-biler. Efter den vellykkede ti-maaneders pilot indgik Figure og BMW en kommerciel kontrakt, der daekker en indledende flaade paa 40 Figure 03-enheder, der opererer paa tvaers af karrosseri- og samlebaandsarbejdsstationer. Driftsoekonomi: 25 USD pr. robot-driftstime, med over 99% placeringsnoejagtighed.\n\n3) BMW LEIPZIG — ET TREDJE, ANDET ROBOTMAERKE (VIGTIG SKELNEN). BMW's tredje pilot bruger AEON-humanoidrobotter fra Hexagon Robotics (Zuerich) paa fabrikken i Leipzig — IKKE fra Figure og IKKE fra Apptronik. To enheder sigter mod fuld produktion inden udgangen af 2026, og arbejder med hoejspaendingsbatterisamling og komponentfremstilling. STRENGT: forveksl IKKE AEON (Hexagon Robotics) med Figure 03 (Figure AI) eller Apollo (Apptronik) — det er tre forskellige selskaber og tre forskellige robotter, brugt af to forskellige bilproducenter (BMW bruger baade Figure OG Hexagon; Mercedes-Benz bruger Apptronik).\n\n4) APPTRONIK APOLLO — MERCEDES-BENZ. Apptronik (amerikansk) har en kommerciel aftale med Mercedes-Benz om at pilotere Apollo-robotten i Mercedes-Benz' produktionsanlaeg. Apollo transporterer komponenter/moduler til produktionslinjen, hvor Mercedes-Benz' faglaerte medarbejdere samler dem og udfoerer indledende kvalitetstjek. Mercedes-Apollo-programmet er designet som en multi-opgave, multi-fabrik-indsats fra starten — en mere ambitioes raekkevidde end BMW's mere afgraensede pilotopgaver. Pr. 2026 beskrives Apollo hos Mercedes-Benz som en af de mest betydningsfulde humanoid-robot-indsaettelser i bilindustriens historie til dato.\n\n5) BOSTON DYNAMICS ATLAS — HYUNDAI, OG FAGFORENINGENS MODSTAND (DEN VIGTIGSTE HISTORIE I NUMMERET). Boston Dynamics (ejet af Hyundai Motor Group) viste den produktionsklare version af Atlas paa CES i Las Vegas, januar 2026. Alle Atlas-leverancer for 2026 er fuldt booket, til Hyundais Robotics Metaplant Application Center (RMAC) og Google DeepMind; flere kunder foelger fra 2027. Den produktionsklare Atlas har et firetimers batteri, der kan udskiftes paa under tre minutter. Hyundai Motor Group har annonceret en plan om at indsaette over 25.000 Atlas-robotter paa tvaers af Hyundai- og Kia-fabrikker, hvilket ville opsuge 83% af den aarlige produktionskapacitet paa 30.000 enheder, gruppen sigter mod inden 2028.\n\nMEN: den koreanske fagforening Korean Metal Workers' Union (Hyundai Motor-afdelingen) udsendte den 22. januar 2026 en offentlig erklaering om, at Atlas IKKE maa komme ind paa Hyundais fabriksgulve uden en formel arbejdsmarkedsaftale. Fagforeningen citerede robottens anslaaede enhedspris — internt anslaaet til omkring 200 millioner koreanske won (ca. 145.000 USD) — som bevis paa, at ledelsen ser Atlas som et redskab til at reducere arbejdsomkostninger. Fagforeningens formulering (citer paa engelsk plus dansk gengivelse): 'Keep in mind that not a single robot can enter the workplace without labor-management agreement.' I juli 2026 gennemfoerte fagforeningen en tre-dages delvis arbejdsnedlaeggelse (fire timer om dagen), med krav om skriftlige jobgarantier, foer humanoide robotter maa komme ind paa fabrikkerne — beskrevet som bilindustriens foerste strejke specifikt om humanoide robotter. STRENGT: skriv dette som en igangvaerende konflikt, IKKE som afgjort — Hyundais plan om 25.000 robotter er en HENSIGT, ikke en gennemfoert installation, og fagforeningens blokade staar ved.\n\nSTRENGT FORBUDT (ingen kilde her): opfundne konkrete danske robotinstallationer, opfundne praecise tal for hvor mange Figure 03- eller Apollo-enheder der reelt er i drift UD OVER de naevnte tal, en paastand om at Hyundais 25.000-plan ER gennemfoert, og enhver sammenligning der rangordner robotterne efter nationalitet frem for dokumenteret opgave/autonomi/kundeadgang (jf. HumaNerds egen husregel). mustCite: 2+ for Fabrikken/Humanoiden/Verdenskortet/Tallet, 1 for Hjemmet, 0 for Påstandskontoret.",
+  "opgaver": [
+    {
+      "slug": "leder",
+      "order": 1,
+      "section": "Leder",
+      "brief": {
+        "angle": "Chefredaktionens leder. Tre humanoider, tre beviser: 1X NEO til hjemmet, Figure 03 hos BMW, Atlas hos Hyundai — tre forskellige bevistyper (foromsalg, kontraheret flaade, blokeret af fagforening). Introducer nummerets vinkel: ikke hvilken robot der er 'bedst', men hvilken slags bevis hver historie faktisk er.",
+        "words": [
+          180,
+          320
+        ],
+        "mustCite": 0,
+        "format": "leder"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": null,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "editor-led",
+        "checkedAt": "2026-08-19",
+        "citations": 0,
+        "editorNote": "Chefredaktionens leder, ingen byline, ingen kommissionering."
+      }
+    },
+    {
+      "slug": "tre-humanoider",
+      "order": 2,
+      "section": "Fabrikken",
+      "brief": {
+        "angle": "Fabrikken: tre humanoide robotter, tre forskellige slags beviser. Ikke en rangliste, men en skelnen mellem hvad hver historie reelt dokumenterer. (1) 1X NEO: hjemmerobot, 10.000 foromsalgsordrer paa fem dage (fra oktober 2025), pris 20.000 USD eller abonnement 499 USD/maaned, fuldskala-produktion startet paa Hayward-fabrikken (pressemeddelelse 30. april 2026), foerste leverancer til amerikanske hjem planlagt 2026, andre markeder fra 2027. Dette er et FOROMSALGS-bevis — kunder har betalt for noget, der endnu ikke er leveret i hjemmet. (2) Figure 03 hos BMW Spartanburg: bygger paa en ti-maaneders Figure 02-pilot der understoettede produktion af over 30.000 BMW X3-biler; kommerciel kontrakt paa en indledende flaade paa 40 Figure 03-enheder, 25 USD/robot-driftstime, over 99% placeringsnoejagtighed. Dette er et KONTRAHERET DRIFTS-bevis — en flaade, der reelt arbejder paa en fabrik. (3) Boston Dynamics Atlas hos Hyundai: produktionsklar version vist paa CES januar 2026, alle 2026-leverancer fuldt booket til Hyundais RMAC og Google DeepMind, firetimers batteri der kan skiftes paa under tre minutter, Hyundai-planen om 25.000 Atlas-robotter paa tvaers af fabrikker — MEN den koreanske fagforening Korean Metal Workers' Union blokerer indtil en arbejdsmarkedsaftale er paa plads (uddybes i naeste artikel). Dette er et HENSIGTS-bevis, hvor den sociale/arbejdsmarkedsmaessige side af historien er lige saa vigtig som teknologien. Land artiklen paa: 'bevis' for en humanoid robot betyder meget forskellige ting alt efter, om det er en foromsalgsordre, en kontraheret fabriksflaade, eller en plan, der endnu ikke maa udfoeres.",
+        "words": [
+          500,
+          750
+        ],
+        "mustCite": 3,
+        "format": "feature",
+        "mustNumber": [
+          "1X NEO: 10.000 forudbestillinger, 20.000 USD/499 USD md.",
+          "Figure 03: 40 enheder, 25 USD/robot-time, 99%+ nøjagtighed",
+          "Atlas: Hyundai-plan om 25.000 robotter"
+        ]
+      },
+      "writer": {
+        "byline": "Claude Opus 4.8 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "anthropic/claude-sonnet-5"
+      },
+      "receipt": {
+        "words": 670,
+        "costUSD": 0.031386,
+        "draft": "kladder/02-tre-humanoider.md",
+        "costRouting": "byok",
+        "generationId": "gen-1787167742-xiKrWtxEw8iJwnwLRSd2"
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-08-19",
+        "citations": 3,
+        "editorNote": "Accepteret uden faktuelle rettelser. Kildehenvisninger i kladden holdt til de tre virksomheders egne sider (1x.tech, figure.ai, bostondynamics.com), alle relevante for de faktuelle påstande i artiklen."
+      }
+    },
+    {
+      "slug": "atlas-fagforening",
+      "order": 3,
+      "section": "Humanoiden",
+      "brief": {
+        "angle": "Humanoiden: Atlas hos Hyundai, og fagforeningen der siger nej. Boston Dynamics (ejet af Hyundai Motor Group) viste den produktionsklare Atlas paa CES i Las Vegas, januar 2026. Alle 2026-leverancer er fuldt booket til Hyundais Robotics Metaplant Application Center (RMAC) og Google DeepMind. Den produktionsklare model har et firetimers batteri, der kan udskiftes paa under tre minutter. Hyundai Motor Group har annonceret en plan om at indsaette over 25.000 Atlas-robotter paa tvaers af Hyundai- og Kia-fabrikker — 83% af den planlagte aarlige produktionskapacitet paa 30.000 enheder inden 2028. MEN: den 22. januar 2026 udsendte den koreanske fagforening Korean Metal Workers' Union (Hyundai Motor-afdelingen) en offentlig erklaering om, at Atlas ikke maa komme ind paa fabriksgulvene uden en formel arbejdsmarkedsaftale. Fagforeningen citerede robottens anslaaede enhedspris — internt anslaaet til omkring 200 millioner koreanske won, ca. 145.000 USD — som bevis paa, at ledelsen ser Atlas som et redskab til at reducere arbejdsomkostninger. Citer fagforeningens formulering paa engelsk plus dansk gengivelse: 'Keep in mind that not a single robot can enter the workplace without labor-management agreement.' I juli 2026 gennemfoerte fagforeningen en tre-dages delvis arbejdsnedlaeggelse (fire timer om dagen), med krav om skriftlige jobgarantier, foer humanoide robotter maa komme ind paa fabrikkerne — beskrevet som bilindustriens foerste strejke specifikt rettet mod humanoide robotter. Land artiklen paa: dette er en igangvaerende konflikt, ikke en afgjort sag. Hyundais 25.000-plan er en HENSIGT, ikke en gennemfoert installation. STRENGT: skriv ikke at planen er gennemfoert eller opgivet — begge dele er aabne pr. researchdatoen.",
+        "words": [
+          500,
+          750
+        ],
+        "mustCite": 2,
+        "format": "feature",
+        "mustNumber": [
+          "22. januar 2026: fagforeningens erklæring",
+          "~200 mio. KRW (~145.000 USD) anslået enhedspris",
+          "juli 2026: tre-dages delvis arbejdsnedlæggelse"
+        ]
+      },
+      "writer": {
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "anthropic/claude-opus-4.8"
+      },
+      "receipt": {
+        "words": 615,
+        "costUSD": 0.033938,
+        "draft": "kladder/03-atlas-fagforening.md",
+        "costRouting": "byok",
+        "generationId": "gen-1787167787-PtiRVLEeV8UxcOEBq08Q"
+      },
+      "verdict": {
+        "status": "rewritten-by-editor",
+        "checkedAt": "2026-08-19",
+        "citations": 3,
+        "editorNote": "Teksten er kladdens egen, men de tre fodnoter var generiske (bostondynamics.com, hyundaimotorgroup.com, ifr.org) og sourcerede ikke fagforeningens citat eller juli-strejken. Erstattet med UPI (26. jan. 2026) og Tech Times (20. jul. 2026), som faktisk dækker de to hændelser. Boston Dynamics-fodnoten bevaret til de tekniske/produktspecifikke påstande."
+      }
+    },
+    {
+      "slug": "verdenskortet",
+      "order": 4,
+      "section": "Verdenskortet",
+      "brief": {
+        "angle": "Verdenskortet sammenligner regioner uden at goere nationalitet til teknologiens forklaring, som formatet kraever. Kortlaeg de tre bilkoncerners humanoid-strategier geografisk: BMW bruger BAADE Figure 03 (amerikansk selskab, Spartanburg-fabrikken i USA) OG AEON fra Hexagon Robotics (schweizisk-baseret selskab, Leipzig-fabrikken i Tyskland) — samme bilproducent, to forskellige robotleverandoerer paa to forskellige kontinenter. Mercedes-Benz bruger Apptronik (amerikansk selskab) og Apollo-robotten i sine egne fabrikker, i et program designet som multi-opgave og multi-fabrik fra starten. Hyundai (sydkoreansk) ejer Boston Dynamics (amerikansk, oprindeligt) og planlaegger at indsaette Atlas i egne fabrikker i Sydkorea og potentielt andre lande. 1X (norsk-amerikansk, delvist OpenAI-stoettet) saelger direkte til amerikanske forbrugere foerst, med udvidelse til andre markeder fra 2027. Pointen, artiklen skal lande: dette er IKKE et nationalt kaploeb (fx 'USA vs. Korea vs. Europa') — det er et net af selskaber, der krydser landegraenser i begge retninger: europaeiske bilproducenter koeber amerikansk teknologi, et koreansk selskab ejer et amerikansk robotfirma, og en robot udviklet i Schweiz bruges i en tysk fabrik ejet af en tysk bilproducent, mens amerikanske robotter bruges hos den samme producent i USA. Skriv EKSPLICIT, at nationalitet ikke forklarer teknologien eller kvaliteten — det forklarer kun, hvor kapitalen og HQ'et sidder.",
+        "words": [
+          400,
+          650
+        ],
+        "mustCite": 2,
+        "format": "feature",
+        "mustNumber": [
+          "BMW: Figure (USA) + Hexagon/AEON (Schweiz, i Leipzig)",
+          "Mercedes-Benz: Apptronik/Apollo (USA)",
+          "Hyundai (Sydkorea) ejer Boston Dynamics"
+        ]
+      },
+      "writer": {
+        "byline": "Gemini 3.1 Pro Preview (Google)",
+        "model": "google/gemini-3.1-pro-preview",
+        "fallback": "anthropic/claude-sonnet-5"
+      },
+      "receipt": {
+        "words": 565,
+        "costUSD": 0.062482,
+        "draft": "kladder/04-verdenskortet.md",
+        "costRouting": "byok",
+        "generationId": "gen-1787167836-X76X2XOxycPWi6rJoaxC"
+      },
+      "verdict": {
+        "status": "rewritten-by-editor",
+        "checkedAt": "2026-08-19",
+        "citations": 2,
+        "editorNote": "Kladdens to fodnoter var døde/forældede: Reuters-artikel fra 18. jan. 2024 om BMW/Figure gav HTTP 401 (behandlet som dødt link, jf. titlens standardregel om at 401 ikke er bot-tolerabelt); TechCrunch-artikel fra 15. mar. 2024 om Mercedes/Apptronik gav HTTP 404. Begge var desuden 2024-forhåndsannonceringer, ikke kilder til de 2026-fakta, briefen faktisk krævede. Erstattet med Figure AI's egen 2026-nyhed om BMW-leverancen og PR Newswires meddelelse om Apptronik/Mercedes-aftalen — begge verificeret 200."
+      }
+    },
+    {
+      "slug": "hjemmet",
+      "order": 5,
+      "section": "Hjemmet",
+      "brief": {
+        "angle": "Hjemmet: 1X NEO og spoergsmaalet om, hvad en robot i privatlivet reelt betyder. NEO er en humanoid hjemmerobot fra 1X Technologies (norsk-amerikansk, delvist stoettet af OpenAI), 5'6' (ca. 168 cm) hoej. 10.000 foromsalgsordrer paa fem dage fra oktober 2025. Pris: 20.000 USD ved koeb, eller et abonnement paa 499 USD/maaned (leveres paa et senere tidspunkt). Fuldskala-produktion startede paa NEO-fabrikken i Hayward, Californien (pressemeddelelse 30. april 2026), beskrevet som Amerikas foerste vertikalt integrerede humanoid-robotfabrik. Foerste leverancer til amerikanske hjem planlagt 2026; andre markeder fra 2027. Vinklen, som HumaNerds format kraever (Hjemmet behandler privatliv, sikkerhed og vedligehold som en del af produktet): stil de spoergsmaal, en fabriksrobot ikke rejser paa samme maade — hvem har adgang til de data, en robot i hjemmet indsamler (kameraer, mikrofoner, kortlaegning af boligen)? Hvem vedligeholder og reparerer den, naar noget gaar galt? Hvad sker der, hvis abonnementsmodellen (499 USD/md.) betyder, at robotten kan 'laases' eller miste funktioner, hvis man stopper med at betale? STRENGT: opfind IKKE konkrete svar paa disse spoergsmaal, hvis vi ikke har kildebelaeg — stil dem som aabne, reelle spoergsmaal, en potentiel kunde boer stille, ikke som fakta om NEO's databehandling, vi ikke kender.",
+        "words": [
+          400,
+          650
+        ],
+        "mustCite": 1,
+        "format": "feature",
+        "mustNumber": [
+          "10.000 forudbestillinger (5 dage, okt. 2025)",
+          "20.000 USD / 499 USD md."
+        ]
+      },
+      "writer": {
+        "byline": "GPT-5.6 Terra (OpenAI)",
+        "model": "openai/gpt-5.6-terra",
+        "fallback": "anthropic/claude-sonnet-5"
+      },
+      "receipt": {
+        "words": 531,
+        "costUSD": 0.021445,
+        "draft": "kladder/05-hjemmet.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1787167883-EJLdMKMbOxi7UM91qzY5"
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-08-19",
+        "citations": 2,
+        "editorNote": "Kladdens primære kilde (1x.tech/neo) holdt. Anden fodnote udskiftet fra en gættet openai.com-sti (HTTP 403, ubekræftet som reel side) til 1X's egen bekræftede pressemeddelelse om OpenAI-ledet finansiering."
+      }
+    },
+    {
+      "slug": "tallet",
+      "order": 6,
+      "section": "Tallet",
+      "brief": {
+        "angle": "HumaNerds faste talrubrik: en kildebelagt tabel med aar, geografi og maaleenhed, som formatet kraever — skeln virksomhedstal fra IFR-statistik (her er ALT virksomhedstal, saa mærk det tydeligt som saadan). Byg tabellen af PRAECIS disse raekker: (1) 1X NEO forudbestillinger: 10.000 paa fem dage, oktober 2025, kilde 1X/branchepresse. (2) 1X NEO pris: 20.000 USD (koeb) eller 499 USD/maaned (abonnement), 2026, kilde 1X. (3) Figure 03 hos BMW: 40 enheder i indledende flaade, 25 USD/robot-driftstime, 99%+ placeringsnoejagtighed, 2026, kilde BMW/Figure AI-pressemateriale. (4) Figure 02-pilotens resultat: understoettede produktion af 30.000+ BMW X3-biler, foer 2026, kilde BMW. (5) Hyundai/Atlas-plan: 25.000 robotter paa tvaers af fabrikker, 83% af 30.000 enheders aarlig produktionskapacitet, maal 2028, kilde Hyundai Motor Group. (6) Fagforeningens anslaaede Atlas-enhedspris: ca. 200 mio. KRW (~145.000 USD), januar 2026, kilde Korean Metal Workers' Union (INTERNT ANSLAG, ikke officiel Hyundai-pris — skriv det tydeligt). Skriv en kort indledning om, at ALLE tal i denne tabel er virksomheds- eller fagforeningsoplysninger, ikke uafhaengig IFR-statistik — humanoide hjemme- og fabriksrobotter er saa nye, at der endnu ikke findes sammenlignelig branchestatistik for dem.",
+        "words": [
+          350,
+          550
+        ],
+        "mustCite": 5,
+        "format": "tabel",
+        "mustNumber": [
+          "10.000 forudbestillinger",
+          "40 Figure 03-enheder hos BMW",
+          "25.000 Atlas-mål hos Hyundai",
+          "~145.000 USD anslået Atlas-pris"
+        ]
+      },
+      "writer": {
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "anthropic/claude-opus-4.8"
+      },
+      "receipt": {
+        "words": 618,
+        "costUSD": 0.035508,
+        "draft": "kladder/06-tallet.md",
+        "costRouting": "byok",
+        "generationId": "gen-1787167913-0ZnoNCcwHu1WtSkSYl56"
+      },
+      "verdict": {
+        "status": "rewritten-by-editor",
+        "checkedAt": "2026-08-19",
+        "citations": 4,
+        "editorNote": "Kladdens seks fodnoter var kun prosahenvisninger til domænenavne uden konkrete URL'er — erstattet med fire konkrete, verificerede kilder (1x.tech, BMW Group PressClub, Hyundai newsroom, Seoul Economic Daily). Briefet mustCite var 5, men tabellens seks rækker deler reelt kun fire distinkte kilder — række 1+2 er begge 1X, række 3+4 er begge BMW. At opfinde en femte fodnote til en allerede citeret kilde ville have været falsk præcision, jf. ORBIT/KRAFTEN nr. 3's etablerede regel samme dag."
+      }
+    },
+    {
+      "slug": "paastandskontoret",
+      "order": 7,
+      "section": "Påstandskontoret",
+      "brief": {
+        "angle": "Påstandskontoret afmonterer 3 udbredte paastande om humanoide robotter uden messesprog, kun med tal allerede etableret andetsteds i nummeret. Paastand 1: 'Humanoide robotter arbejder allerede overalt paa fabrikker.' Svar: de konkrete, dokumenterede flaader er stadig smaa — 40 Figure 03-enheder hos BMW, to AEON-enheder hos BMW Leipzig — ikke tusindvis i daglig drift; Hyundais 25.000-plan er et MAAL for 2028, ikke en nuvaerende installation, og er desuden blokeret af en fagforening. Paastand 2: 'Man kan koebe en hjemmerobot ligesom en vaskemaskine.' Svar: 1X NEO tager foromsalg, men foerste leverancer til hjem er planlagt til 2026 — ingen har endnu en NEO i drift i hjemmet paa researchtidspunktet, kun forudbestillinger. Paastand 3: 'Robotterne erstatter menneskelige arbejdere en-til-en.' Svar: de dokumenterede opgaver (Figure 03's sortering, Apollo's komponenttransport, AEON's batterisamling) er specifikke, afgraensede opgaver i et samlebaandsflow, ikke en generel erstatning af en medarbejders fulde arbejdsdag — og den koreanske fagforenings modstand handler netop om frygten for, at det udvikler sig i den retning. INGEN nye tal ud over dem, der allerede staar i nummeret.",
+        "words": [
+          350,
+          550
+        ],
+        "mustCite": 0,
+        "format": "paastandskontoret"
+      },
+      "writer": {
+        "byline": "GPT-5.6 Terra (OpenAI)",
+        "model": "openai/gpt-5.6-terra",
+        "fallback": "anthropic/claude-sonnet-5"
+      },
+      "receipt": {
+        "words": 477,
+        "costUSD": 0.01807,
+        "draft": "kladder/07-paastandskontoret.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1787167963-JkIvUcGlJGrkadp6KKQf"
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-08-19",
+        "citations": 0,
+        "editorNote": "mustCite 0, ingen nye tal ud over dem, der allerede er kildebelagt andetsteds i nummeret. Ingen ændringer."
+      }
+    }
+  ]
+}
