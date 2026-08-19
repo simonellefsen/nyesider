@@ -2,26 +2,27 @@
   "magazine": "pulsen",
   "issue": "2026-08-nr3",
   "issueTheme": "Når driften taler",
-  "retrofitNote": "Written at publish time 2026-08-08.",
+  "integrityNote": "Skrevet forfra 2026-08-19. Den afpublicerede udgave (2026-08-08) havde en bestilling.json skrevet retroaktivt ved udgivelsestidspunktet ('Written at publish time') — alle otte opgaver writer.model 'editor-led', ingen costUSD nogen steder. Hele nummeret genkommissioneres på .env.pulsen med reel research forud for hver brief. Corti-artiklen forbliver droppet (no-story, jf. husreglen 'ingen pligt-Corti'); Rygtebørsen forbliver permanent fjernet.",
   "budget": {
     "articles": 8,
     "wordsPerArticle": [
-      100,
-      750
+      400,
+      600
     ],
     "targetPages": 12,
-    "note": "8 arts after Rygtebørsen drop; Corti replaced by europa-ai; depth pass on features."
+    "note": "Features 400-600 ord (ikke 120-ords stubs, jf. formatreglen). Ingen Rygtebørs. Corti nævnes kun som en af de to testede AID_NOTE-løsninger, ikke som selvstændig markedsartikel."
   },
+  "researchNote": "ADVARSEL: dette felt naar ALDRIG frem til modellen — kun brief.angle goer. Kontrolleret 2026-08-19.\n\n1) AMBIENT AI I DRIFT — AID_NOTE. Danmarks foerste evaluering af Ambient Scribe-losninger (tale-til-tekst-AI der lytter med under en konsultation og udkaster journalnotatet). Projektledere: Mads Kyed og Maiken Overbeck Wolderslund, begge Odense Universitetshospital. Deltagende: Odense Universitetshospital, Sygehus Lillebaelt, Sygehus Soenderjylland, Psykiatrien, Regional IT — syv afdelinger paa tvaers af de fire organisationer. To losninger testes: Corti Assistant og Tandem (via Omilon). Loeber oktober 2025 til oktober 2026 — status august 2026 er altsaa CA. TI MAANEDER inde af tolv, taettere paa slutning end midte; skriv IKKE 'halvvejs', skriv det faktiske tidspunkt. Evaluerer fire ting: dokumentationskvalitet, tidsbesparelse, brugeroplevelse, oekonomi. Testes paa tre samtaletyper: stuegang, ambulante konsultationer, akutte situationer. Internationale erfaringer peger paa 20-30% tidsbesparelse, men lokal test og tilpasning fremhaeves som noedvendig foer bred udrulning.\n\n2) ET LILLE, MODSAETTENDE DATAPUNKT — HOLD DET ADSKILT FRA AID_NOTE. Et speciale (kandidatspeciale, IKKE peer-reviewed forskning) fra Aalborg Universitet, Master i Clinical Science and Technology, 2025, forfattere Moss, Schultz, Nielsen og Soerensen: 'Evaluating Ambient AI for Clinical Documentation: A Mixed-Methods Study'. KUN TO KLINIKERE deltog: én sygeplejerske og én psykolog. Sygeplejerskens dokumentationstid STEG fra 7,5 til 21,5 minutter (p=0,024, statistisk signifikant paa dette lille datasaet). Psykologens tid: 62,0 vs. 86,4 minutter (p=0,190, ikke signifikant). Faejlrate hoejere hos psykologen (34,11) end sygeplejersken (9,33). Kvalitativt: AI blev oplevet som intuitiv og nyttig til at strukturere udkast, men hyppige fejl og 'hallucinationer' (opdigtede detaljer) svaekkede tilliden og forhindrede tidsbesparelser. SKRIV EKSPLICIT at dette er ET SPECIALE MED TO DELTAGERE, ikke en repraesentativ undersoegelse — det er en advarsel mod at overfortolke et enkelt lille studie, ikke en dom over ambient AI som saadan.\n\n3) REGION-FUSION. Fra 1. januar 2027 bliver Region Sjaelland og Region Hovedstaden til 'Region Oestdanmark'. De tre vestlige regioner (Nordjylland, Midtjylland, Syddanmark) fortsaetter uaendret og faar deres valgte politikere til at overtage fra 1. januar 2026. 2026 er et OVERGANGSAAR: de eksisterende regionsraad i Sjaelland og Hovedstaden fortsaetter driften af de eksisterende opgaver, mens det nye regionsraad for Oestdanmark (valgt 18. november 2025, 47 direkte valgte medlemmer) fungerer som forberedelsesudvalg. Fuldt driftsansvar fra 1. januar 2027. Reformen medfoerer ifoelge juridiske kilder 'kontraktharmonisering, IT-integration og udbudsretlige konsekvenser' — en klar strategi for systemintegration fremhaeves som noedvendig for at undgaa ineffektive arbejdsgange og datatab. Desuden: 'Digital Sundhed Danmark', ejet af stat, regioner og kommuner, samler sundhed.dk, MedCom og det meste af Sundhedsdatastyrelsen og skal lave en national strategi for data og digitalisering — forventes etableret i loebet af 2026. STRENGT: ingen opfundne konkrete IT-systemnavne eller kontraktbeloeb for selve fusionen — vi har kun den overordnede juridiske og tidsmaessige ramme som kilde.\n\n4) EUROPA-AI (Europa/USA/Asien, mustCite=3). Genbrug ALLEREDE VERIFICEREDE fakta fra PULSEN nr. 2 (samme titel, samme research-standard): MDR (Medical Device Regulation) regel 11, bilag VIII til forordning (EU) 2017/745 (konsolideret 02017R0745-20250110): software der leverer information til diagnostiske eller terapeutiske beslutninger er klasse IIa; klasse III ved risiko for doed eller uoprettelig forvaerring; IIb ved alvorlig forvaerring eller kirurgi; ellers klasse I ('All other software is classified as class I'). EHDS (European Health Data Space) artikel 105, forordning (EU) 2025/327: gaelder fra 26. marts 2027; artikel 3-15 m.fl. fra 26. marts 2029 for foerste gruppe datakategorier og 26. marts 2031 for naeste; kapitel III fra 2031; kapitel IV fra 2029; artikel 75(5) foerst fra 26. marts 2035. KILDETEKNISK: EUR-Lex svarer HTTP 202 paa automatiserede kald — det beviser IKKE at siden findes eller er den rigtige, tjek indholdet i en browser. For USA/Asien-delen: brug kun generelle, velkendte reguleringsrammer (FDA's godkendelsesspor for software som medicinsk udstyr i USA) uden at opfinde konkrete godkendelsestal eller datoer, medmindre de kan verificeres saerskilt.\n\n5) FARMAKOGENOMIK. Region Hovedstadens Psykiatri er blandt de psykiatriske hospitaler, hvor psykiatere kan rekvirere farmakogenetisk testning (PGx — testning af generne, der styrer, hvordan kroppen omsaetter lægemidler, brugt til at tilpasse den farmakologiske behandling af f.eks. angst og depression til den enkelte patient). Priser: en test af ét gen koster typisk 700-3.500 DKK; en paneltest, der daekker flere gener og ofte anbefales, koster omkring det dobbelte (ca. 1.400-7.000 DKK). Barrierer for udbredt klinisk brug i Danmark, ifoelge Dansk Selskab for Patientsikkerhed: primaert uddannelse og kendskab blandt klinikere, kompleksitet ved at fortolke resultater korrekt, og tvivl om tilstraekkelig evidens. Skeln mellem REAKTIV testning (efter ordination, naar noget er gaaet galt) og FOREBYGGENDE testning (foer ordination). STRENGT: brug IKKE et konkret tal for 'halvering af bivirkninger' — det kunne ikke verificeres i denne session (kilden krævede et mistænkeligt 'security-check'-redirect, som blev fravalgt). Skriv i stedet at farmakogenetisk vejledt behandling KAN reducere bivirkninger, uden et praecist tal.\n\n6) ERGOTERAPI EFTER OK. OK25-overenskomsten (for ergoterapeuter, fysioterapeuter og jordemoedre, forhandlet mellem KL og bl.a. Ergoterapeutforeningen/ETF) blev godkendt 9. april 2025 med 82,5% ja-stemmer blandt de ansatte og en stemmedeltagelse paa 58,5%; ETF's egen medlemsafstemning gav 100% ja. Paa hjaelpemiddelomraadet: det er politisk besluttet at afskaffe det saakaldte 'afgraensningscirkulaere' (den administrative graense for, hvilke hjaelpemidler der kan bevilges), med alle aendringer paa omraadet forventet gennemfoert i 2027; ETF og KL udviklede i 2024 et faelles forslag til at skabe klarhed paa omraadet. Vinklen: en overenskomst siger noget om loen og vilkaar, men afgoer ikke, om tiden til dokumentation og hjaelpemiddelbevilling reelt raekker i hverdagen — det er en anden samtale, som overenskomsten ikke fanger.\n\nSTRENGT FORBUDT (ingen kilde her): danske patienttal, konkrete besparelser i kroner for regionsfusionen, navngivne konkrete IT-systemer der skiftes ud, FDA-godkendelsestal for konkrete AI-produkter, og 'halvering af bivirkninger' (se punkt 5). mustCite: 0-2 generelt, 3+ for europa-ai. Jargon (MDR, EHDS, EPJ, AI Act, ambient, PGx) udfoldes pr. artikel i parentes/fodnote foerste gang. Ingen Rygtebørs (droppet permanent 2026-08-08). Ingen pligt-Corti — Corti maa KUN naevnes som en af de to testede loesninger i AID_NOTE, ikke som en selvstaendig IPO/markedsartikel.",
   "opgaver": [
     {
       "slug": "leder",
       "order": 1,
       "section": "Leder",
       "brief": {
-        "angle": "Drift, fusioner, international AI — ingen rygtebørs.",
+        "angle": "Chefredaktionens leder. 'Naar driften taler' — regionsfusion, ambient AI der er gaaet fra pilot til drift under evaluering, og et blik ud over Danmark. Aaben note om afpubliceringen 2026-08-08. Ingen rygteboers.",
         "words": [
-          80,
-          200
+          180,
+          300
         ],
         "mustCite": 0,
         "format": "leder"
@@ -32,15 +33,15 @@
         "fallback": null
       },
       "receipt": {
-        "words": 143,
+        "words": 227,
         "costUSD": null,
         "draft": null
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
+        "status": "rewritten-by-editor",
+        "checkedAt": "2026-08-19",
         "citations": 0,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "editorNote": "Chefredaktionens egen leder. writer.model 'editor-led', ingen byline, ingen kvittering."
       }
     },
     {
@@ -48,29 +49,34 @@
       "order": 2,
       "section": "Feature · Ambient AI",
       "brief": {
-        "angle": "Ret-tid vs sparet tid; måletabel; EPJ/MDR.",
+        "angle": "Status paa Danmarks foerste store Ambient Scribe-evaluering, AID_NOTE: projektledere Mads Kyed og Maiken Overbeck Wolderslund (begge OUH); deltagende Odense Universitetshospital, Sygehus Lillebaelt, Sygehus Soenderjylland, Psykiatrien og Regional IT, syv afdelinger i alt. To loesninger testes: Corti Assistant og Tandem (via Omilon). Loeber oktober 2025-oktober 2026 — vaer PRAECIS om, at status august 2026 er ca. ti maaneder inde af tolv, taettere paa afslutning end midte. Evaluerer dokumentationskvalitet, tidsbesparelse, brugeroplevelse og oekonomi, paa tre samtaletyper: stuegang, ambulant, akut. Internationale erfaringer peger paa 20-30% tidsbesparelse, men lokal test fremhaeves som noedvendig. Saet det op imod et LILLE, MODSAETTENDE datapunkt, holdt tydeligt adskilt: et kandidatspeciale fra Aalborg Universitet (2025, Moss/Schultz/Nielsen/Soerensen), KUN TO deltagere (én sygeplejerske, én psykolog) — sygeplejerskens dokumentationstid STEG fra 7,5 til 21,5 minutter (p=0,024), psykologens gik fra 62,0 til 86,4 minutter (ikke signifikant), og AI blev oplevet som nyttig til at strukturere udkast, men hyppige fejl og 'hallucinationer' (opdigtede detaljer i journalnotatet) undergravede tilliden. Skriv EKSPLICIT, at dette er et lille speciale med to deltagere, ikke repraesentativ forskning — brug det som en advarsel mod at tro, at ambient AI automatisk sparer tid, ikke som en dom. Vinklen 'ret-tid vs sparet tid': maalt tid i minutter er noget andet end oplevet lettelse, og de to kan pege i hver sin retning samtidig. Forklar 'ambient scribe', 'EPJ' (elektronisk patientjournal) og 'hallucination' foerste gang.",
         "words": [
-          300,
-          550
+          400,
+          600
         ],
-        "mustCite": 0,
-        "format": "feature"
+        "mustCite": 2,
+        "format": "feature",
+        "mustNumber": [
+          "AID_NOTE: 7 afdelinger, okt. 2025-okt. 2026",
+          "Aalborg-speciale: 7,5→21,5 min. (p=0,024), n=2"
+        ]
       },
       "writer": {
-        "byline": null,
-        "model": "editor-led",
-        "fallback": "deepseek/deepseek-v3.2"
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "anthropic/claude-sonnet-5"
       },
       "receipt": {
-        "words": 311,
-        "costUSD": null,
-        "draft": null
+        "words": 541,
+        "costUSD": 0.03749,
+        "draft": "kladder/02-ambient-halvaar.md",
+        "costRouting": "byok"
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
-        "citations": 0,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-19",
+        "citations": 2,
+        "editorNote": "REELT kommissioneret PAA FALLBACK-MODELLEN (anthropic/claude-sonnet-5) — brugt praeventivt efter gentagne 402'ere paa Opus i tidligere numre samme dag. AID_NOTE-fakta (projektledere, deltagende hospitaler, syv afdelinger, Corti Assistant/Tandem, okt. 2025-okt. 2026) korrekt gengivet, og status praecist beskrevet som ~10 maaneder inde, IKKE 'halvvejs'. Aalborg-specialet holdt tydeligt adskilt fra AID_NOTE og eksplicit mærket som et lille speciale med to deltagere, ikke repraesentativ forskning. Redaktionelt: fodnote 1 rettede fra en gaettet 'corti.ai'-reference til den faktiske kilde (cai-x.dk/AID_NOTE-siden)."
       }
     },
     {
@@ -78,29 +84,34 @@
       "order": 3,
       "section": "Analyse · Systemer",
       "brief": {
-        "angle": "Kontrakt, prioritet, superbrugere, stopdato under omorganisering.",
+        "angle": "Region-fusionen som drift-historie, ikke politik-historie. Fra 1. januar 2027 bliver Region Sjaelland og Region Hovedstaden til Region Oestdanmark; de tre vestlige regioner fortsaetter uaendret med nye politikere fra 1. januar 2026. 2026 er et overgangsaar: de eksisterende regionsraad i Sjaelland/Hovedstaden driver videre, mens det nye regionsraad for Oestdanmark (valgt 18. november 2025, 47 medlemmer) fungerer som forberedelsesudvalg uden fuldt driftsansvar foer 1. januar 2027. Vinklen for PULSENs laesere (klinikere, sundheds-it, ledelse): en fusion af to regioner er ogsaa en fusion af kontrakter, systemer og prioriteringer — juridiske kilder naevner selv 'kontraktharmonisering, IT-integration og udbudsretlige konsekvenser', og at en klar strategi for systemintegration er noedvendig for at undgaa ineffektive arbejdsgange og datatab. Naevn ogsaa 'Digital Sundhed Danmark' — ejet af stat, regioner og kommuner, samler sundhed.dk, MedCom og det meste af Sundhedsdatastyrelsen, forventes etableret i loebet af 2026, skal lave en national strategi for data og digitalisering. Land artiklen paa PULSENs egen erfaring: en organisatorisk stopdato (1. januar 2027) er ikke det samme som en teknisk stopdato — systemer, superbrugere og prioriteter flytter sig ikke automatisk, naar et regionsraad goer det. STRENGT: ingen opfundne konkrete IT-systemnavne eller kontraktbeloeb — vi har kun den overordnede juridiske og tidsmaessige ramme.",
         "words": [
-          300,
-          550
+          400,
+          600
         ],
-        "mustCite": 0,
-        "format": "feature"
+        "mustCite": 1,
+        "format": "feature",
+        "mustNumber": [
+          "Region Østdanmark fra 1. januar 2027",
+          "2026 som overgangsår, forberedelsesudvalg fra 18. november 2025"
+        ]
       },
       "writer": {
-        "byline": null,
-        "model": "editor-led",
-        "fallback": "deepseek/deepseek-v3.2"
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "anthropic/claude-opus-4.8"
       },
       "receipt": {
-        "words": 313,
-        "costUSD": null,
-        "draft": null
+        "words": 486,
+        "costUSD": 0.031896,
+        "draft": "kladder/03-region-fusion.md",
+        "costRouting": "byok"
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
-        "citations": 0,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-19",
+        "citations": 1,
+        "editorNote": "REELT kommissioneret. Region Oestdanmark-fakta (1. januar 2027, 2026 som overgangsaar, forberedelsesudvalg valgt 18. november 2025, 47 medlemmer) korrekt gengivet. Redaktionelt: kildeafsnittet 'Danske Regioner/Indenrigs- og Sundhedsministeriet' (vage, ikke-linkede referencer) erstattet med en konkret, verificeret fodnote til regionsjaelland.dk's egen side om Region Oestdanmark."
       }
     },
     {
@@ -108,29 +119,34 @@
       "order": 4,
       "section": "Analyse · Marked",
       "brief": {
-        "angle": "AI i sundhed uden for DK: Europa (offentlig/AI Act/EHDS), USA (privat/FDA), Asien (tempo + kildekritik). Ikke Corti-gentagelse.",
+        "angle": "AI i sundhed uden for Danmark: Europa, USA, Asien — med kildekritik som en del af selve artiklen, ikke kun en fodnote. EUROPA: byg videre paa MDR regel 11 (bilag VIII til forordning (EU) 2017/745, konsolideret 02017R0745-20250110) — software der leverer information til diagnostiske eller terapeutiske beslutninger er klasse IIa; klasse III ved risiko for doed eller uoprettelig forvaerring; IIb ved alvorlig forvaerring eller kirurgi; ellers klasse I ('All other software is classified as class I' — citer den saetning, den ER hele historien). Og EHDS artikel 105 (forordning (EU) 2025/327): gaelder fra 26. marts 2027, artikel 3-15 m.fl. fra 26. marts 2029/2031 afhaengigt af datakategori, kapitel III fra 2031, kapitel IV fra 2029, artikel 75(5) foerst fra 26. marts 2035 — brug denne stakkede tidslinje til at vise, at 'EHDS traeder i kraft' er en forsimpling; det er et taeppe af datoer, ikke én dato. NAEVN OGSAA at EUR-Lex svarer HTTP 202 paa automatiserede kald, og at det ikke i sig selv beviser at en side er den rigtige — man skal tjekke indholdet i browseren. USA: hold dig til den generelle, velkendte ramme (FDA's godkendelsesspor for software som medicinsk udstyr) uden at opfinde konkrete godkendelsestal eller produktnavne. ASIEN: skriv om TEMPO som fænomen (hurtigere godkendelsescyklusser er ofte omtalt) MED et eksplicit forbehold om, at kildekritik er saerligt vigtig her, fordi mange rapporter om asiatiske AI-sundhedsgodkendelser er sekundaere og svaere at verificere uafhaengigt — skriv det forbehold ind i teksten selv, ikke kun i en fodnote. Land artiklen paa, at de tre regioner slet ikke loeser det samme problem paa samme maade: EU regulerer risiko-klasser og datadeling, USA regulerer produktgodkendelse, og tempo-fortaellingen om Asien er den, der kraever mest skepsis. mustCite=3: brug MINDST tre konkrete, navngivne kilder (MDR-forordningen, EHDS-forordningen, og en generel FDA-reference), ikke opfundne URL'er.",
         "words": [
-          400,
+          500,
           750
         ],
         "mustCite": 3,
-        "format": "feature"
+        "format": "feature",
+        "mustNumber": [
+          "MDR regel 11: klasse I/IIa/IIb/III",
+          "EHDS art. 105: 26. marts 2027/2029/2031/2035"
+        ]
       },
       "writer": {
-        "byline": null,
-        "model": "editor-led",
-        "fallback": "deepseek/deepseek-v3.2"
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "anthropic/claude-sonnet-5"
       },
       "receipt": {
-        "words": 843,
-        "costUSD": null,
-        "draft": null
+        "words": 669,
+        "costUSD": 0.034986,
+        "draft": "kladder/04-europa-ai.md",
+        "costRouting": "byok"
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
-        "citations": 6,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-19",
+        "citations": 3,
+        "editorNote": "REELT kommissioneret PAA FALLBACK-MODELLEN (anthropic/claude-sonnet-5), brugt praeventivt. MDR regel 11 og EHDS artikel 105-tidslinjen genbrugt korrekt fra PULSEN nr. 2's allerede DOI/EUR-Lex-verificerede fakta. Alle tre fodnote-URL'er (EUR-Lex MDR, EUR-Lex EHDS, FDA SaMD) verificeret — de to EUR-Lex-adresser svarer 202, som er den kendte bot-tolerance, ikke et doedt link, jf. nr. 2's egen laering. Asien-afsnittet holder det eksplicitte kildekritiske forbehold, briefet kraevede, i selve broedteksten."
       }
     },
     {
@@ -138,29 +154,34 @@
       "order": 5,
       "section": "Feature · Klinik",
       "brief": {
-        "angle": "Spytprøve er ikke recept; system/rekvisition/journal.",
+        "angle": "Farmakogenomik i klinisk drift — vinklen er, at en spytproeve ikke er en recept, den er et input i et system. Region Hovedstadens Psykiatri er blandt de steder, hvor psykiatere kan rekvirere farmakogenetisk testning (PGx: testning af de gener, der styrer, hvordan kroppen omsaetter laegemidler), brugt til at tilpasse den farmakologiske behandling af f.eks. angst og depression til den enkelte patient. Priser: en test af ét gen koster typisk 700-3.500 DKK; en paneltest, der daekker flere gener og ofte anbefales, koster omkring det dobbelte. Skeln mellem REAKTIV testning (efter ordination, typisk naar noget er gaaet galt eller virkningen udebliver) og FOREBYGGENDE testning (foer ordination, for at undgaa problemet). Barrierer for udbredt klinisk brug i Danmark: primaert uddannelse og kendskab blandt klinikere, kompleksitet ved korrekt fortolkning af resultater, og tvivl om tilstraekkelig evidens for brugen. Land artiklen paa den systemiske pointe (jf. briefets titel 'system/rekvisition/journal'): en genetisk test aendrer ikke automatisk noget, hvis rekvisitionsgangen, journalsystemet og klinikerens kendskab ikke er bygget til at bruge svaret. Det er ikke laboratoriet, der er flaskehalsen — det er arbejdsgangen omkring det. STRENGT FORBUDT: et konkret tal for 'reduktion i bivirkninger' — det kunne ikke verificeres i denne omgang. Skriv i stedet, at farmakogenetisk vejledt behandling KAN mindske bivirkninger, uden praecist tal. Forklar 'farmakogenomik/PGx' foerste gang.",
         "words": [
-          300,
-          550
+          400,
+          600
         ],
-        "mustCite": 0,
-        "format": "feature"
+        "mustCite": 1,
+        "format": "feature",
+        "mustNumber": [
+          "700-3.500 DKK pr. enkeltgen-test",
+          "paneltest ca. det dobbelte"
+        ]
       },
       "writer": {
-        "byline": null,
-        "model": "editor-led",
-        "fallback": "deepseek/deepseek-v3.2"
+        "byline": "Gemini 3.1 Pro Preview (Google)",
+        "model": "google/gemini-3.1-pro-preview",
+        "fallback": "anthropic/claude-sonnet-5"
       },
       "receipt": {
-        "words": 289,
-        "costUSD": null,
-        "draft": null
+        "words": 542,
+        "costUSD": 0.064512,
+        "draft": "kladder/05-farmakogenomik.md",
+        "costRouting": "byok"
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
-        "citations": 0,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-19",
+        "citations": 1,
+        "editorNote": "REELT kommissioneret. Region Hovedstadens Psykiatri, PGx-priser (700-3.500 DKK enkeltgen, ca. det dobbelte for panel) og de tre barrierer korrekt gengivet uden det ubekraeftede 'halvering af bivirkninger'-tal, som briefet eksplicit forbød. FAKTAFEJL FANGET OG RETTET: kladdens fodnote peger paa pro.medicin.dk/Specielleemner/Emner/3140 — en GAETTET URL, verificeret 404. Erstattet med den faktisk anvendte research-kilde (patientsikkerhed.dk)."
       }
     },
     {
@@ -168,29 +189,34 @@
       "order": 6,
       "section": "Nyt fra ergoterapien",
       "brief": {
-        "angle": "OK vs tid, hjælpemidler, dokumentation.",
+        "angle": "Ergoterapi efter OK25 — overenskomst versus reel tid. OK25-overenskomsten (forhandlet mellem KL og bl.a. Ergoterapeutforeningen/ETF, for ergoterapeuter, fysioterapeuter og jordemoedre) blev godkendt 9. april 2025 med 82,5% ja-stemmer blandt de ansatte og en stemmedeltagelse paa 58,5%; ETF's egen medlemsafstemning gav 100% ja. Paa hjaelpemiddelomraadet er det politisk besluttet at afskaffe det saakaldte 'afgraensningscirkulaere' (den administrative graense for, hvilke hjaelpemidler kommunen kan bevilge), med alle aendringer forventet gennemfoert i 2027 — ETF og KL udviklede allerede i 2024 et faelles forslag til at skabe klarhed paa omraadet. Vinklen er artiklens egentlige pointe: en overenskomst afgoer loen og vilkaar. Den afgoer IKKE, om tiden til dokumentation og hjaelpemiddelbevilling reelt raekker i en almindelig hverdag — det er en anden samtale, som forhandlingsbordet ikke tager. Skriv det som en aerlig konstatering, ikke en klage: strukturaendringer paa hjaelpemiddelomraadet (afgraensningscirkulaerets afskaffelse) er en administrativ forenkling, der lover mere klarhed i 2027 — men lover ikke i sig selv mere tid i 2026. Forklar 'afgraensningscirkulaere' og 'OK25' kort foerste gang. STRENGT: ingen opfundne loensatser eller konkrete timetal for dokumentation.",
         "words": [
-          300,
-          550
+          400,
+          600
         ],
-        "mustCite": 0,
-        "format": "feature"
+        "mustCite": 2,
+        "format": "feature",
+        "mustNumber": [
+          "OK25 godkendt 9. april 2025, 82,5% ja",
+          "afgraensningscirkulaere afskaffes, gennemfoert 2027"
+        ]
       },
       "writer": {
-        "byline": null,
-        "model": "editor-led",
-        "fallback": "deepseek/deepseek-v3.2"
+        "byline": "GPT-5.6 Terra (OpenAI)",
+        "model": "openai/gpt-5.6-terra",
+        "fallback": "anthropic/claude-sonnet-5"
       },
       "receipt": {
-        "words": 236,
-        "costUSD": null,
-        "draft": null
+        "words": 370,
+        "costUSD": 0.0305715,
+        "draft": "kladder/06-ergoterapi-ok.md",
+        "costRouting": "direct"
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
-        "citations": 0,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-19",
+        "citations": 2,
+        "editorNote": "REELT kommissioneret. OK25-tallene (9. april 2025, 82,5% ja, 58,5% deltagelse, 100% ja hos ETF) korrekt gengivet. FAKTAFEJL FANGET OG RETTET: kladdens fodnote 2 citerede 'Cirkulaere nr. 129 af 25. juni 1998' — BAADE aarstal og nummer var forkerte. Det faktiske afgraensningscirkulaere er fra 2013 (retsinformation.dk/eli/retsinfo/2013/9079), fundet ved en opfoelgende soegning efter den gaettede reference ikke kunne bekraeftes. retsinformation.dk svarer 403 til automatiserede kald (WebFetch) men 200 til curl — endnu en variant af 'statuskode beviser ikke indhold'; titlen 'Afgraensningscirkulaeret' er bekraeftet via soegeresultatets egen snippet."
       }
     },
     {
@@ -198,29 +224,30 @@
       "order": 7,
       "section": "Vandrehistorier fra vagtstuen",
       "brief": {
-        "angle": "Anonymiserede vagtstue-historier.",
+        "angle": "PULSENs faste rubrik: 2-3 korte, anonymiserede, letbenede historier fra en vagtstue-hverdag — situationskomik, menneskelig varme, ingen krav om kilde. INGEN konkrete navne, afdelinger, hospitaler eller datoer, der kunne identificere en reel person eller haendelse — det skal laese som genkendelige typer situationer, ikke som referater af noget bestemt der er sket. Tonen er varm og let, ikke sensationel eller nedladende over for patienter eller kolleger.",
         "words": [
-          100,
-          250
+          150,
+          300
         ],
         "mustCite": 0,
         "format": "vandrehistorier"
       },
       "writer": {
-        "byline": null,
-        "model": "editor-led",
-        "fallback": "deepseek/deepseek-v3.2"
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "anthropic/claude-opus-4.8"
       },
       "receipt": {
-        "words": 106,
-        "costUSD": null,
-        "draft": null
+        "words": 266,
+        "costUSD": 0.010094,
+        "draft": "kladder/07-vandrehistorier.md",
+        "costRouting": "byok"
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-19",
         "citations": 0,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "editorNote": "REELT kommissioneret. Ingen identificerbare navne, afdelinger eller datoer, som briefet kraevede."
       }
     },
     {
@@ -228,91 +255,31 @@
       "order": 8,
       "section": "Sjov og spil",
       "brief": {
-        "angle": "MDR, EHDS, ambient.",
+        "angle": "PULSENs faste bagsnit-format: en let, vittig quiz eller ordleg bygget paa nummerets jargon — MDR, EHDS, ambient, PGx, region-fusion. Fx en kort quiz med 4-5 spoergsmaal ('Hvad staar MDR for?', 'Hvornaar traeder EHDS artikel 105 i kraft?' osv.) med svarene lige under, formuleret let og ikke som en eksamensopgave. Ingen nye faktapaastande — kun det, der allerede er etableret i nummerets andre artikler.",
         "words": [
-          60,
-          200
+          150,
+          300
         ],
         "mustCite": 0,
         "format": "bagsnit"
       },
       "writer": {
-        "byline": null,
-        "model": "editor-led",
-        "fallback": "minimax/minimax-m3"
+        "byline": "GPT-5.6 Terra (OpenAI)",
+        "model": "openai/gpt-5.6-terra",
+        "fallback": "anthropic/claude-sonnet-5"
       },
       "receipt": {
-        "words": 87,
-        "costUSD": null,
-        "draft": null
+        "words": 212,
+        "costUSD": 0.010826,
+        "draft": "kladder/08-sjov-og-spil.md",
+        "costRouting": "direct"
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-19",
         "citations": 0,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
-      }
-    },
-    {
-      "slug": "corti",
-      "order": 99,
-      "section": "Analyse · Marked",
-      "brief": {
-        "angle": "Corti IPO status — killed as no-story.",
-        "words": [
-          80,
-          200
-        ],
-        "mustCite": 0,
-        "format": "feature"
-      },
-      "writer": {
-        "byline": null,
-        "model": "editor-led",
-        "fallback": null
-      },
-      "receipt": {
-        "words": 0,
-        "costUSD": null,
-        "draft": null
-      },
-      "verdict": {
-        "status": null,
-        "checkedAt": null,
-        "citations": 0,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
-      }
-    },
-    {
-      "slug": "rygteboersen",
-      "order": 99,
-      "section": "Rygtebørsen",
-      "brief": {
-        "angle": "Spekulativt.",
-        "words": [
-          50,
-          150
-        ],
-        "mustCite": 0,
-        "format": "rygteboersen"
-      },
-      "writer": {
-        "byline": null,
-        "model": "editor-led",
-        "fallback": null
-      },
-      "receipt": {
-        "words": 0,
-        "costUSD": null,
-        "draft": null
-      },
-      "verdict": {
-        "status": null,
-        "checkedAt": null,
-        "citations": 0,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "editorNote": "REELT kommissioneret. Ingen nye faktapaastande ud over det allerede etablerede i nummerets andre artikler."
       }
     }
-  ],
-  "integrityNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+  ]
 }

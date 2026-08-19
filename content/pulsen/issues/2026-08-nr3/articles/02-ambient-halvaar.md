@@ -1,6 +1,7 @@
 ---
-title: "Ambient efter halvandet skift: hvad klinikken faktisk mærker"
-standfirst: Mindre tastatur er ikke det samme som mindre arbejde. Det er en omfordeling af opmærksomhed — og af ret-tid.
+title: "Ret tid eller sparet tid?"
+standfirst: Danmarks største Ambient-forsøg nærmer sig mål. Et lille, modsættende datapunkt stiller det ubehagelige spørgsmål undervejs.
+byline: Claude Sonnet 5 (Anthropic)
 section: Feature · Ambient AI
 order: 2
 image: ../images/pulsen_ambient.png
@@ -8,29 +9,22 @@ imageCredit: "AI-genereret motiv (Imagine / xAI)"
 imageSource: "https://x.ai/"
 ---
 
-**Ambient AI** (eller ambient scribes) er værktøjer, der optager eller lytter med under konsultationen og foreslår **journaltekst**, som klinikeren skal godkende. I [nr. 2](/pulsen/2026-08-nr2/ambient-fra-pilot-til-drift) var historien udrulning. Nu er historien **drift**: det, der sker efter piloten er “lykkedes”, og vagtplanen ikke længere undtager de tre ildsjæle.
+Ti måneder inde i et forsøg, der skal vare tolv, tegner der sig et billede, som hverken er entydigt godt eller entydigt dårligt. Det er meningen. Danmarks hidtil største evaluering af ambient scribe — teknologi, der lytter med under en klinisk samtale og selv skriver et udkast til journalnotatet i den elektroniske patientjournal (EPJ) — nærmer sig nu afslutningen, og de foreløbige tal stiller et ubehageligt spørgsmål: sparer teknologien tid, eller flytter den den bare?
 
-### Hvad der typisk virker
+Projektet, AID_NOTE, ledes af Mads Kyed og Maiken Overbeck Wolderslund, begge fra Odense Universitetshospital (OUH), og involverer syv afdelinger på tværs af Odense Universitetshospital, Sygehus Lillebælt, Sygehus Sønderjylland, Psykiatrien og Regional IT. Forsøget løber fra oktober 2025 til oktober 2026 — status i august 2026 betyder altså, at man er cirka ti måneder inde af tolv, tættere på afslutning end på midtvejs. To løsninger testes side om side: Corti Assistant og Tandem (leveret via Omilon). Begge dokumenterer tre samtaletyper — stuegang, ambulant kontakt og akutte forløb — og evalueringen ser på fire ting: dokumentationskvalitet, tidsbesparelse, brugeroplevelse og økonomi.
 
-- Mindre “næse i skærmen” under samtalen — når lyden er god, og specialet passer.  
-- Hurtigere **kladde** til notat; ikke automatisk færdig journal.  
-- Størst gevinst i **ambulante** forløb med forudsigelig struktur (kontroller, faste skabeloner, få talere).  
-- Bedre oplevelse for patienten, når øjenkontakt erstatter tastaturklap — *hvis* klinikeren ikke bagefter forsvinder i en rette-session.
+Internationale erfaringer, som projektet holder op mod sine egne data, peger typisk på en tidsbesparelse i størrelsesordenen 20–30 %.[^1] Men netop derfor understreges det fra projektledelsen, at internationale tal ikke uden videre kan overføres — dansk klinisk sprog, dansk EPJ-struktur og danske arbejdsgange er ikke det samme som de systemer, hvor de fleste af de store studier stammer fra.
 
-### Hvad der typisk skurrer
+### Et lille, foruroligende modstykke
 
-- **Ret-tid:** nogen skal stadig rette AI’ens formuleringer, medicinnavne, allergier og “patienten nægtede”-nuancer. Hvis ret-tiden æder sparet tastetid, er piloten en **omfordeling**, ikke en gevinst.  
-- **Støj og flersprog** i akutmodtagelsen er hårdere end i et roligt ambulatorium. Tre samtaler i samme rum er et akustisk problem, ikke et modelproblem.  
-- **Tillid og jura:** hvem ejer optagelsen, hvor ligger den, hvornår slettes den, og er værktøjet **MDR**-relevant (*Medical Device Regulation*)?  
-- **EPJ-integration** (elektronisk patientjournal): en flot kladde i et sidevindue er ikke det samme som et felt, der lander rigtigt i journalen.
+Mens det store OUH-forsøg endnu ikke er færdigt, findes der allerede et dansk datapunkt — men et lille og langt fra repræsentativt et af slagsen. Et kandidatspeciale fra Aalborg Universitet (2025) af Moss, Schultz, Nielsen og Sørensen testede ambient AI med kun to deltagere: én sygeplejerske og én psykolog.[^2] Resultatet var ikke en tidsbesparelse, men en tidsforlængelse. Sygeplejerskens dokumentationstid steg fra 7,5 til 21,5 minutter (p = 0,024 — altså statistisk signifikant, om end på et ekstremt lille datagrundlag). Psykologens tid gik fra 62,0 til 86,4 minutter, uden at forskellen var signifikant.
 
-### Sådan måler I (uden leverandør-slides)
+Det er vigtigt at slå fast: to deltagere er ikke forskning, man kan generalisere fra. Specialet er en advarsel, ikke en dom. Deltagerne oplevede AI'en som nyttig til at strukturere et første udkast, men hyppige fejl og såkaldte hallucinationer — hvor AI'en digter detaljer, der aldrig blev sagt, ind i journalnotatet — undergravede tilliden og tvang begge til at bruge ekstra tid på kontrol og rettelser.
 
-| Mål | Hvorfor |
-|---|---|
-| Minutter **sparet** på first draft | Den tal leverandøren elsker |
-| Minutter **rettet** før godkend | Den tal klinikken mærker |
-| Andel notater med **klinisk væsentlig** rettelse | Sikkerhed, ikke kosmetik |
-| Afvisnings-/sluk-rate pr. speciale | Hvor ambient faktisk dør |
+### To slags tid
 
-PULSEN’s pejling: mål **minutter sparet vs. minutter rettet**, ikke kun “vi har tændt systemet”. Regionernes egne evalueringer — når de offentliggøres — slår leverandør-slides. Samme disciplin gælder i [Europa, USA og Asien](/pulsen/2026-08-nr3/europa-ai): ambient er det mest synlige lag, men det er stadig **kladde med ansvar**, ikke en erstatning for journalen.
+Her ligger måske den vigtigste pointe, som det store OUH-forsøg må forholde sig til, når de endelige tal kommer: målt tid i minutter er ikke det samme som oplevet lettelse. En kliniker kan bruge længere tid ved skærmen og stadig opleve arbejdet som mindre belastende, fordi den kognitive byrde ved selv at formulere sætninger forsvinder. Omvendt kan et hurtigere udkast kræve så meget efterkontrol for hallucinationer, at den reelle rettetid æder gevinsten op. De to kurver — ret-tid og sparet tid — peger ikke nødvendigvis samme vej, og det er præcis det, de syv afdelinger nu venter på at få talt sammen, inden forsøget lukker i oktober 2026.
+
+[^1]: [AID_NOTE — Test og evaluering af Ambient Scribe-løsninger](https://cai-x.dk/projekter/igangvaerende-projekter/aid_note-test-og-evaluering-af-ambient-scribe-losninger), Center for AI-forskning i sundhedsvæsenet (CAI-X).
+
+[^2]: Moss, Schultz, Nielsen & Sørensen: [«Evaluating Ambient AI for Clinical Documentation: A Mixed-Methods Study»](https://projekter.aau.dk/evaluating-ambient-ai-for-clinical-documentation-a-mixed-methods-study-30a013f5.html), kandidatspeciale, Master i Clinical Science and Technology, Aalborg Universitet, 2025.

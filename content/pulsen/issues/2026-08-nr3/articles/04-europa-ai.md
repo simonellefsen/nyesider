@@ -1,59 +1,38 @@
 ---
-title: "AI i sundhed uden for Danmark: Europa først — så USA og Asien"
-standfirst: Offentlige systemer prøver ambient, billeddiagnostik og beslutningsstøtte under AI Act og EHDS. Privat drift i USA skaleres hurtigere. Asien tæller hospitaler i hundreder — med kildekritik.
-section: Analyse · Internationalt
+title: "Tre kontinenter, tre problemer"
+standfirst: AI-sundhed uden for Danmark bliver ofte fortalt som ét globalt kapløb. Europa, USA og Asien løser slet ikke den samme opgave.
+byline: Claude Sonnet 5 (Anthropic)
+section: Analyse · Marked
 order: 4
 image: ../images/pulsen_europa-ai.png
 imageCredit: "AI-genereret motiv (Imagine / xAI)"
 imageSource: "https://x.ai/"
 ---
 
-Danmark er ikke den eneste, der ruller **AI** (*artificial intelligence* — kunstig intelligens) ind i klinikken. Forskellen er **hvem betaler**, **hvem godkender**, og om systemet er **offentligt** eller **privat konkurrerende**. PULSEN pejler tre lag: europæisk offentlig drift, amerikansk privat skala, asiatisk tempo — uden at blande “pilot i slide” med “notat i journalen”.
+Når AI i sundhedssektoren diskuteres uden for Danmark, er der en tendens til at tale om "reguleringen" og "godkendelsen" i ental — som om Europa, USA og Asien løser den samme opgave med forskellig hastighed. Det gør de ikke. De regulerer forskellige ting, og især fortællingen om asiatisk tempo bør læses med en solid dosis skepsis.
 
-### Europa: offentlig service under tre love
+### Europa: risikoklasser, ikke tempo
 
-EU-Kommissionen beskriver selv, at klinisk udrulning af AI stadig går **langsommere end forskningspipelinen**, selv når værktøjerne findes: data, finansiering i offentlige hospitaler, workflow-integration og tillid er flaskehalsene — ikke kun algoritmen.[^1] Rammen er tre spor, der overlapper:
+I EU er udgangspunktet forordning (EU) 2017/745 om medicinsk udstyr (Medical Device Regulation, MDR), konsolideret udgave 02017R0745-20250110. Regel 11 i bilag VIII handler specifikt om software, og den afgørende sætning er ikke kompliceret: software der leverer information, som bruges til at træffe beslutninger med diagnostisk eller terapeutisk formål, klassificeres som klasse IIa. Klassen skærpes til III, hvis en fejlagtig beslutning kan medføre død eller uoprettelig forværring af helbredstilstanden, og til IIb ved risiko for alvorlig forværring eller kirurgisk indgreb. Men reglen slutter med en sætning, der ofte overses, fordi den ikke er dramatisk: "All other software is classified as class I." Al anden software er klasse I. Det er ikke en bagatel — det er hele historien i regel 11: de fleste sundheds-apps og administrative AI-værktøjer falder formentlig i den kedelige, uregulerede klasse I, mens de færreste når klasse III.[^1]
 
-1. **AI Act** (*Artificial Intelligence Act* — EU’s AI-forordning, i kraft 2024): systemer til medicinske formål lander typisk som **højrisiko** og skal bl.a. have menneskeligt tilsyn, dokumentation og data af tilstrækkelig kvalitet.[^1]  
-2. **MDR** (*Medical Device Regulation* — EU’s forordning om medicinsk udstyr): når softwaren er et medicinsk udstyr, er det ikke “bare en app”.  
-3. **EHDS** (*European Health Data Space* — det europæiske sundhedsdataområde): skal gøre primær deling og **sekundær brug** af sundhedsdata mere forudsigelig til forskning og AI-træning — i lag, ikke som ét open API.[^1]
+Dertil kommer European Health Data Space (EHDS), forordning (EU) 2025/327, som ofte omtales, som om den "træder i kraft" på én dato. Det gør den ikke. Artikel 105 lægger op til et tæppe af datoer: forordningen finder generel anvendelse fra 26. marts 2027, mens artikel 3-15 og en række andre bestemmelser først gælder fra 26. marts 2029 eller 2031, afhængigt af datakategori. Kapitel III gælder fra 2031, kapitel IV fra 2029, og artikel 75, stk. 5, først fra 26. marts 2035. At sige "EHDS træder i kraft i 2027" er derfor en forenkling, der kan være direkte misvisende for en klinik eller en sundheds-it-afdeling, der planlægger implementering.[^2]
 
-I **klinisk praksis** ser de europæiske historier i 2025–2026 især sådan her ud:
+Endnu et kildekritisk punkt: slår man selv op på EUR-Lex, kan et automatiseret kald mod siden returnere HTTP-statuskode 202. Det betyder blot, at serveren har accepteret forespørgslen — det beviser ikke, at man har fundet den rigtige konsoliderede udgave. Man skal åbne siden i en almindelig browser og læse indholdet.
 
-| Spor | Typisk brug | Hvem driver |
-|---|---|---|
-| **Ambient / documentation** | Kladde til journal og breve under/efter konsultation | Primærsektor og ambulatorier i flere lande; hospitaler langsommere i støjende miljøer |
-| **Billeddiagnostik** | Screening/decision support (fx mammografi, lunge, patologi) | Store hospitaler og screeningprogrammer; ofte CE/MDR-spor |
-| **Drift & logistik** | Senge, triagering, planlægning | Offentlige trust/regioner med knappe senge |
+### USA: godkendelse af produktet, ikke af data
 
-**Storbritannien (NHS-sporet)** har været synligt på ambient documentation: leverandører og trusts tester scribes i almen praksis og på stuegang, mens ansvaret for journalen forbliver klinikerens. **Tyskland** fylder i markedstallene for sundheds-AI i Europa — stærk industri- og hospitalstradition, men også fragmenterede *Krankenkassen* og it-landskaber.[^2] **Frankrig** har lagt en national strategi for sundhedsdata og AI (2025–2028-sporet): store datasæt, etik-rammer og telemedicin/monitorering som politisk pejling — ikke det samme som fuld udrulning på hvert sygehus.[^3]
+Den amerikanske fødevare- og lægemiddelstyrelse (FDA) arbejder efter et andet princip end EU. Her er sporet software som medicinsk udstyr (Software as a Medical Device, SaMD), hvor FDA vurderer det enkelte produkt op mod sikkerheds- og effektivitetskrav forud for markedsføring.[^3] Det er en produktgodkendelse, ikke en regulering af, hvordan sundhedsdata må dele sig på tværs af systemer og lande — det sidste er netop EHDS' ærinde i EU. De to systemer kan derfor ikke sammenlignes direkte i "hvem er hurtigst": de svarer på forskellige spørgsmål.
 
-Kommissionens eget pejlemærke er nøgternt: **deployment** i klinik kræver mere end et CE-mærke — det kræver budget i det offentlige, integration i **EPJ** (elektronisk patientjournal) og en arbejdsgang, hvor AI ikke er “endnu et vindue”.[^1] Initiativer under *AICare@EU* og EHDS-piloter (fx SHAIPED-sporet omkring HealthData@EU) er netop forsøg på at flytte fra R&D til **skalerbar, fair udrulning**.
+### Asien: tempo-fortællingen kræver skepsis
 
-### USA: privat skala, FDA-spor, ambient i massevis
+I dele af Asien beskrives godkendelsescyklusser for sundheds-AI ofte som markant hurtigere end i Europa og USA. Det er en udbredt fortælling — men den bør læses med forbehold, fordi mange af de rapporter, der cirkulerer om asiatiske AI-sundhedsgodkendelser, er sekundære, ofte oversat eller refereret gennem flere led, og svære at verificere uafhængigt op mod primære, offentligt tilgængelige myndighedskilder. Hvor MDR og EHDS kan læses direkte på EUR-Lex, og FDA's rammer kan slås op på myndighedens egen hjemmeside, mangler der ofte en tilsvarende, let tilgængelig primærkilde for de asiatiske eksempler, der citeres i internationale medier.
 
-I USA er historien oftere **private hospitalssystemer** og venture-finansierede værktøjer end én national EPJ. Ambient scribes og dokumentations-AI er rykket fra demo til **kontrakt med health systems** i stor stil: pejlingen er “minutter sparet i ambulatory”, ikke “AI ordinerer”. Parallelt kører **FDA**-sporet (*U.S. Food and Drug Administration*) for *software as a medical device* — clearances i billeddiagnostik og patologi (fx digitale patologi-platforme med 510(k)-spor i midt-2020’erne) er nyheder, når de er **offentlige godkendelser**, ikke LinkedIn-posts.[^4]
+### Konklusion: ikke ét kapløb
 
-Forskellen til Danmark er strukturelt: køberen er ofte et system med egen it-budgetcyklus; regulering er national (FDA) plus delstat; **malpractice**-presset gør “godkend-knappen” til kultur, ikke kun jura. Det, der *ligner* europæisk ambient, er dokumentationslaget. Det, der *adskiller*, er tempoet i indkøb — og risikoen for at forveksle enterprise-licens med klinisk evidens.
+Billedet af et globalt AI-sundhedskapløb holder ikke. EU bygger et system af risikoklasser og datoer for datadeling. USA godkender produkter enkeltvis. Og tempo-fortællingen om Asien er den, der kræver mest kildekritisk arbejde, før den kan bruges til noget som helst i en dansk sundhedsfaglig sammenhæng.
 
-### Asien: tempo og tælling — med kildekritik
+[^1]: Europa-Parlamentets og Rådets forordning (EU) 2017/745 af 5. april 2017 om medicinsk udstyr, [konsolideret udgave (CELEX 02017R0745)](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02017R0745), EUR-Lex.
 
-Asien-Stillehavet er i markedsanalyser den **hurtigst voksende** sundheds-AI-region; Kina fylder i både telemedicin-platforme og hospitalsudrulning.[^5] Offentlige og branchekilder har i 2025 peget på **hundredvis af hospitaler**, der tester eller deployer generelle sprogmodeller og beslutningsstøtte — tal, der skal læses som **udrulningsclaim**, ikke som peer-reviewed outcome på tværs af alle afdelinger.[^6] Japanske og sydkoreanske systemer kombinerer ofte stærk hospitalsteknologi med aldrende befolkning — samme demografi-pres som i [ergoterapi-sporet](/pulsen/2026-08-nr3/ergoterapi-ok), anden indkøbslogik.
+[^2]: Europa-Parlamentets og Rådets forordning (EU) 2025/327 om det europæiske sundhedsdataområde (EHDS), [EUR-Lex (CELEX 32025R0327)](https://eur-lex.europa.eu/legal-content/DA/TXT/?uri=CELEX:32025R0327).
 
-PULSEN’s regel for Asien-tal: **operatør + use-case + status** (pilot / godkendt / i drift). Bland ikke “analyseret X millioner billeder” med “erstatter radiologen”.
-
-### Hvad danske læsere skal tage med
-
-1. **Europa** bygger **tillids- og data-infrastruktur** (AI Act, MDR, EHDS) samtidig med, at offentlige hospitaler mangler penge og integrationstid.  
-2. **USA** skalerer **privat** ambient og diagnostisk AI hurtigere — under FDA og kontraktjura.  
-3. **Asien** viser **volumen**, men kræver hård kildekritik.  
-4. Samme PULSEN-disciplin som hjemme: mål **ret-tid vs. sparet tid**, ejerskab af optag/log, og om værktøjet er journal-kladde eller medicinsk beslutningsstøtte. Se [ambient efter halvandet skift](/pulsen/2026-08-nr3/ambient-halvaar) og [region under omorganisering](/pulsen/2026-08-nr3/region-fusion).
-
-Vi vender tilbage til **enkelte danske selskaber** (fx Corti), når der er **ny clinical evidence, filing eller kontrakt** — ikke fordi navnet skal genbesøges hvert nummer.
-
-[^1]: European Commission, [AI in healthcare](https://health.ec.europa.eu/ehealth-digital-health-and-care/artificial-intelligence-healthcare_en) — AI Act, EHDS, deployment-barrierer, *AICare@EU*.  
-[^2]: Markedsopgørelser for Europe AI in healthcare (fx MarketsandMarkets m.fl.) peger Tyskland som stor andel af det europæiske marked — pejlemærke, ikke facit for klinisk outcome.  
-[^3]: France national strategy on data and AI in healthcare (2025–2028-sporet) — politisk pejling for data/etik/telemedicin.  
-[^4]: Offentlige FDA-clearances for AI-assisteret diagnostik/patologi i midt-2020’erne (fx PathAI AISight Dx-sporet, 2025); enterprise ambient-kontrakter rapporteres løbende af health systems — tjek primær kilde.  
-[^5]: Regionale markedsanalyser Asia-Pacific healthcare AI growth (Grand View / beslægtede) — afrundet pejlemærke.  
-[^6]: Branche- og mediestof om kinesisk hospitalsudrulning af LLM/beslutningsstøtte (2025) — behandl som claim, indtil uafhængig evaluering foreligger.
+[^3]: U.S. Food and Drug Administration: [«Software as a Medical Device (SaMD)»](https://www.fda.gov/medical-devices/digital-health-center-excellence/software-medical-device-samd), FDA.gov.

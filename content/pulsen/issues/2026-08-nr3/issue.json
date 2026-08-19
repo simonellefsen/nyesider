@@ -4,7 +4,7 @@
   "title": "PULSEN · Nr. 3 · August 2026",
   "issueTheme": "Når driften taler",
   "published": "2026-08-08",
-  "status": "draft",
+  "status": "published",
   "pdf": null,
   "cover": "images/pulsen_cover.png",
   "coverCredit": "AI-genereret forside (Imagine / xAI)",
@@ -19,7 +19,7 @@
     "images/pulsen_ergo.png",
     "images/pulsen_bagsnit.png"
   ],
-  "productionCostUSD": null,
+  "productionCostUSD": 0.2204,
   "imageCredits": "Imagine / xAI. Bagsnit deler motiv. Se SOURCES.md.",
   "backCoverPromise": "PULSEN nr. 4 vender tilbage, når offentlige ambient-evalueringer lander med tal — og når AI-udrulning uden for Danmark har ny evidens, ikke bare slides.",
   "articles": [
@@ -29,7 +29,7 @@
       "order": 1,
       "title": "Når driften taler",
       "section": "Leder",
-      "standfirst": "Nr. 2 sendte ambient AI fra pilot til stuegang. Nr. 3 lytter efter, hvad klinikken siger et halvt år senere — og hvad fusioner og nabolande gør ved fortællingen.",
+      "standfirst": "En regionsfusion uden en teknisk plan, en AI-evaluering der nærmer sig facit, og et blik ud over Danmarks grænser. Ingen rygtebørs denne gang.",
       "image": "../images/pulsen_leder.png",
       "imageCredit": "AI-genereret motiv (Imagine / xAI)",
       "imageSource": "https://x.ai/"
@@ -38,9 +38,10 @@
       "slug": "ambient-halvaar",
       "file": "articles/02-ambient-halvaar.md",
       "order": 2,
-      "title": "Ambient efter halvandet skift: hvad klinikken faktisk mærker",
+      "title": "Ret tid eller sparet tid?",
       "section": "Feature · Ambient AI",
-      "standfirst": "Mindre tastatur er ikke det samme som mindre arbejde. Det er en omfordeling af opmærksomhed — og af ret-tid.",
+      "byline": "Claude Sonnet 5 (Anthropic)",
+      "standfirst": "Danmarks største Ambient-forsøg nærmer sig mål. Et lille, modsættende datapunkt stiller det ubehagelige spørgsmål undervejs.",
       "image": "../images/pulsen_ambient.png",
       "imageCredit": "AI-genereret motiv (Imagine / xAI)",
       "imageSource": "https://x.ai/"
@@ -49,9 +50,10 @@
       "slug": "region-fusion",
       "file": "articles/03-region-fusion.md",
       "order": 3,
-      "title": "Når regionen skifter navn: AI-projekter under omorganisering",
+      "title": "Fusionen ingen kan se i systemloggen",
       "section": "Analyse · Systemer",
-      "standfirst": "Fusioner og nye styrespor dræber ikke innovation alene — men de sætter den i venteværelset, mens kontrakter og superbrugere skifter hænder.",
+      "byline": "Claude Sonnet 5 (Anthropic)",
+      "standfirst": "Region Sjælland og Hovedstaden bliver til Region Østdanmark 1. januar 2027. En organisatorisk stopdato er ikke en teknisk stopdato.",
       "image": "../images/pulsen_region.png",
       "imageCredit": "AI-genereret motiv (Imagine / xAI)",
       "imageSource": "https://x.ai/"
@@ -60,9 +62,10 @@
       "slug": "europa-ai",
       "file": "articles/04-europa-ai.md",
       "order": 4,
-      "title": "AI i sundhed uden for Danmark: Europa først — så USA og Asien",
-      "section": "Analyse · Internationalt",
-      "standfirst": "Offentlig AI i EU, privat skala i USA, tempo i Asien — med kildekritik.",
+      "title": "Tre kontinenter, tre problemer",
+      "section": "Analyse · Marked",
+      "byline": "Claude Sonnet 5 (Anthropic)",
+      "standfirst": "AI-sundhed uden for Danmark bliver ofte fortalt som ét globalt kapløb. Europa, USA og Asien løser slet ikke den samme opgave.",
       "image": "../images/pulsen_europa-ai.png",
       "imageCredit": "AI-genereret motiv (Imagine / xAI)",
       "imageSource": "https://x.ai/"
@@ -71,9 +74,10 @@
       "slug": "farmakogenomik",
       "file": "articles/05-farmakogenomik.md",
       "order": 5,
-      "title": "Farmakogenomik: spytprøve er ikke en recept",
+      "title": "Farmakogenomik i driften: spytprøven er ingen recept",
       "section": "Feature · Klinik",
-      "standfirst": "Gener kan påvirke, hvordan du omsætter medicin. Det offentlige system er ikke en webshop for gen-svar — og svaret er beslutningsstøtte, ikke automatisk ordination.",
+      "byline": "Gemini 3.1 Pro Preview (Google)",
+      "standfirst": "Teknologien er moden. Arbejdsgangen omkring den er ikke — og det, ikke laboratoriet, er flaskehalsen.",
       "image": "../images/pulsen_farmako.png",
       "imageCredit": "AI-genereret motiv (Imagine / xAI)",
       "imageSource": "https://x.ai/"
@@ -82,9 +86,10 @@
       "slug": "ergoterapi-ok",
       "file": "articles/06-ergoterapi-ok.md",
       "order": 6,
-      "title": "Ergoterapi efter OK: løn er ikke det eneste signal",
+      "title": "OK25 giver vilkår — men ikke flere minutter i kalenderen",
       "section": "Nyt fra ergoterapien",
-      "standfirst": "Overenskomster lander i nyhederne i en uge. Arbejdspres, hjælpemidler og dokumentation bliver i stuen — og i hjemmebesøget.",
+      "byline": "GPT-5.6 Terra (OpenAI)",
+      "standfirst": "82,5 procent stemte ja til overenskomsten. Den løser stadig ikke spørgsmålet om, hvorvidt tiden rækker i hverdagen.",
       "image": "../images/pulsen_ergo.png",
       "imageCredit": "AI-genereret motiv (Imagine / xAI)",
       "imageSource": "https://x.ai/"
@@ -95,7 +100,8 @@
       "order": 7,
       "title": "Vandrehistorier fra vagtstuen",
       "section": "Vandrehistorier fra vagtstuen",
-      "standfirst": "Anonymiseret. Sande nok til at genkende skadestuen — ikke til at pege nogen ud.",
+      "byline": "Claude Sonnet 5 (Anthropic)",
+      "standfirst": "Tre korte fra hverdagen — anonymiseret, som altid.",
       "image": "../images/pulsen_bagsnit.png",
       "imageCredit": "AI-genereret motiv (Imagine / xAI)",
       "imageSource": "https://x.ai/"
@@ -104,14 +110,14 @@
       "slug": "sjov-og-spil",
       "file": "articles/08-sjov-og-spil.md",
       "order": 8,
-      "title": "Sjov & spil: kender du din forkortelse?",
+      "title": "Kan du tale flydende sundhedsjargon?",
       "section": "Sjov og spil",
-      "standfirst": "Tre hurtige. Ingen præmie — kun mindre skam på næste møde.",
+      "byline": "GPT-5.6 Terra (OpenAI)",
+      "standfirst": "Fem spørgsmål, ingen eksamen.",
       "image": "../images/pulsen_bagsnit.png",
       "imageCredit": "AI-genereret motiv (Imagine / xAI)",
       "imageSource": "https://x.ai/"
     }
   ],
-  "unpublishedReason": "Afpubliceret 2026-08-08. Nummeret blev udgivet med byline-kreditering til navngivne modeller, men bestilling.json indeholder hverken costUSD, kladde-reference eller kladdefil for nogen artikel, og OpenRouter-forbruget på titlens egen nøgle viser, at kaldene aldrig blev foretaget. Verdikterne ('accepted', 'rejected') beskriver derfor en bedømmelse af kladder, der aldrig er modtaget. Nummeret skal produceres forfra — uden byline, indtil en reel forfatter kan dokumenteres. Se redaktion/README.md.",
-  "unpublishedAt": "2026-08-08"
+  "rebuiltNote": "Genopbygget 2026-08-19. Den afpublicerede udgave havde en bestilling.json skrevet på selve udgivelsestidspunktet — ingen research, intet forbrug. Syv byline-artikler er nu reelt kommissioneret på .env.pulsen; lederen er redaktionens uden byline."
 }
