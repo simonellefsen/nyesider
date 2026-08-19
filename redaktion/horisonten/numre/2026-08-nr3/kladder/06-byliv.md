@@ -1,0 +1,9 @@
+# Byen, resorten og landsbyerne imellem
+
+Når bjergene har fyldt dagene med højdemeter og udsigter, er kontrasten til Bolzano/Bozen næsten forfriskende. Sydtyrols største by er et møde mellem to sprog og to bykulturer: arkadegader, caféliv og markeder, hvor tysk og italiensk glider ind i hinanden på en måde, man ikke finder mange andre steder i Europa. Om efteråret får byen og dalene omkring den desuden besøg af Törggelen-sæsonen — den vender vi tilbage til i magasinets artikel om mad og vin, så her skal den blot nævnes som endnu en grund til at lægge vejen forbi uden for højsæsonen.
+
+Kører man videre mod øst, skifter både landskab og administrativ tilhørsforhold. Cortina d'Ampezzo ligger ikke i Sydtyrol/Alto Adige, men i Belluno-provinsen i regionen Veneto — en detalje det er værd at have styr på, hvis man planlægger en rute på tværs af Dolomitterne. Cortina er et af de mest kendte bjergresorts i området, med en atmosfære der er tydeligt anderledes end Bolzanos: mere alpint feriemiljø, mindre bygade-hverdag.
+
+Mellem de to yderpunkter — den tosprogede storby og det internationale resort — ligger de ladinske landsbyer, blandt andet i Val Gardena/Grødendal og Val Badia/Gadertal. Her tales ladinsk, et sprogmindretal med sin egen historie i regionen. Den historie fortjener mere plads, end en bylivsartikel kan give den, så læs videre i KULTURBOXEN nr.\u00a02, hvor den sproglige og kulturelle baggrund udfoldes.
+
+Tilsammen tegner Bolzano, Cortina og de ladinske dale et billede af Sydtyrol og det tilstødende Veneto som et område med flere lag: en by der lever af sin blandingskultur, et resort der lever af bjergene, og landsbyer der lever af et sprog og en identitet, der er ældre end grænserne omkring dem. Det er en fin påmindelse om, at rejsen mellem vandreture og cykelruter også kan handle om at standse op i noget helt andet.

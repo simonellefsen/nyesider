@@ -1,16 +1,45 @@
 # HORISONTEN – Redaktionsnotesbog
 
-Opdateret efter nr. 3 (august 2026) **Dolomitterne i efteråret** — genoplivet fra parked.
+Opdateret efter nr. 3 (august 2026) **Dolomitterne i efteråret** — genopbygget 2026-08-19 fra en tom "parked"-skal.
 
 ## Identitet
 
 **HORISONTEN** er magasinet om at rejse i Europa: ruter, sæson, praktisk planlægning. **vs KULTURBOXEN:** HORISONTEN svarer "hvordan kommer jeg derhen?"; KULTURBOXEN svarer "hvordan lever folk dér?" — se [søstertitel-note](#søstertitel-kulturboxen) nedenfor.
 
-## Afviklet i nr. 3 (publiceret 2026-08)
+## Afviklet i nr. 3 — GENOPBYGGET OG GENUDGIVET 2026-08-19
 
-- **Dolomitterne i efteråret:** overblik, vandring, cykling, løb, byliv (Bolzano/Cortina), søer/udsigter, kalender, mad & vin, praktisk.  
-- Leder broer fra [nr. 2 Georgien](../../content/horisonten/issues/2026-08-nr2/) og [KULTURBOXEN Georgien](../../content/kulturboxen/issues/2026-08-nr1/).  
-- Kilde: parked-pakke i `redaktion/horisonten/parked/dolomitterne-efteraar/` (beholdes som arkiv/kopi-kilde).
+**Dolomitterne i efteråret.** 10 artikler, **2.607 ord**. Ni artikler reelt kommissioneret på
+`.env.horisonten`; lederen er redaktionens uden byline. Forbrug **0,1488 USD**. `check_issue.py`:
+**0 fejl, 0 advarsler.**
+
+Den forrige "parked"-pakke havde `receipt.words` talt fra allerede publiceret tekst og `costUSD:
+null` på alle ti opgaver — en genoplivning uden reel kommissionering, ikke en løgn i samme forstand
+som byline-sagerne, men uden reelt indhold bag. Bygget forfra med research forud for hver brief:
+Sellarondaens tal (51,5–53 km, fire passer), Alpe di Siusis og Lago di Braies' faktiske
+sæsondatoer, og Törggelen-traditionen (Nuier/Suser/Sauser, Keschtnweg, Eisacktal).
+
+### Krydslink til KULTURBOXEN nr. 2 fuldført
+
+KULTURBOXEN nr. 2 (*Tre sprog, ét plateau*, samme destination — Sydtyrol) var allerede udgivet
+2026-08-08 og havde et bagsnit ("Til HORISONTEN") skrevet UDEN levende link, fordi dette nummer
+endnu ikke var udgivet — "behold ordene, drop parentesen", jf. husreglen om cross-title-links til
+ikke-udgivne søskende. Nu hvor nr. 3 er udgivet, er linket tilføjet begge veje: HORISONTEN linker
+til KULTURBOXEN nr. 2 i lederen, overbliksartiklen og bylivsartiklen; KULTURBOXEN nr. 2's bagsnit
+har fået en redaktionel eftertekst med det levende link.
+
+### Formatvalg, der afviger bevidst fra nr. 2's Georgien-mønster
+
+Nr. 2's Kalenderen og Praktisk indeholdt **ingen** datoer/svar, fordi intet kunne kildebelægges
+dengang. Nr. 3's research gav faktisk konkrete, kildebelagte datoer (kabinebane, trafikforbud,
+Törggelen-sæson), så Kalenderen og Praktisk her indeholder måneds-niveau-datoer MED et eksplicit
+forbehold om årlig variation, plus én fodnote til suedtirol.info i Praktisk (mustCite: 1). Begge
+tilgange er rigtige — forskellen er, hvad researchen faktisk fandt, ikke et skift i husregel.
+
+### .env.horisonten ramte samme kreditgrænse som .env.gnisten
+
+Tre af de ni Opus-kald (`cykling`, `mad-og-vin`, `praktisk`) fik OpenRouter 402 (for lav
+kreditgrænse til `max_tokens`-budgettet). Løst med `commission.py --fallback` — byline på de tre
+artikler navngiver derfor Claude Sonnet 5, den model der faktisk skrev dem, ikke Opus 4.8.
 
 ## Afviklet i nr. 2 — GENOPBYGGET OG GENUDGIVET 2026-08-17
 
@@ -91,3 +120,7 @@ statuskode ikke er en dom over en side.
 - **2026-08-08 (senere):** Søster synket — KULTURBOXEN nr. 2 *Tre sprog, ét plateau* (Sydtyrol).
 - **2026-08-01:** Notesbog udvidet med `## Identitet` og `## Format`; leads datostemplet (se [redaktion/README](../README.md)).
 - **2026-08-01 rettelse:** `03-vandring-tramuntana.md` — GR221 var angivet til "90-100 km"; nuværende kilder angiver hovedruten til ca. 140 km (op til ~170 km med varianter). Rettet + kilde tilføjet. Puig de Massanellas højde (1.364 m, næsthøjeste) var korrekt — tilføjede kun kilde. `07-strande-skjulte-bugter.md` — tilføjede "cirka-tal, tjek på stedet"-forbehold til parkeringsprisen, samme mønster som `10-praktisk-planlaeg-turen.md`. **Ikke rettet i denne omgang:** priserne i `10-praktisk-planlaeg-turen.md` (hotel/middag/lejebil) har allerede et tilsvarende forbehold i teksten og er ikke ændret; HORISONTEN nr. 1 og nr. 2 har fortsat 0 % fodnote-dækning generelt, hvilket er en separat, større opgave end denne sessions afgrænsede rettelse af konkrete faktafejl.
+- **2026-08-19:** Nr. 3 genopbygget og udgivet efter at have staaet som en tom "parked"-skal uden
+  reel kommissionering. Se læringen ovenfor. Krydslink til KULTURBOXEN nr. 2 fuldført begge veje.
+  Ny fast note: `.env.horisonten` har samme snævre kreditgrænse som `.env.gnisten` — brug
+  `--fallback` fremfor at presse Opus-kald igennem ved 402.

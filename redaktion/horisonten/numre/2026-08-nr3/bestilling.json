@@ -2,26 +2,27 @@
   "magazine": "horisonten",
   "issue": "2026-08-nr3",
   "issueTheme": "Dolomitterne i efteråret",
-  "retrofitNote": "Parked pakke genoplivet 2026-08-08 som nr.3. Brief rekonstrueret; receipt.words talt fra publiceret tekst. productionCostUSD null (parked + editor-led).",
+  "integrityNote": "Skrevet forfra 2026-08-19. Den afpublicerede udgave (2026-08-08) var en 'parked'-pakke genoplivet uden reel kommissionering — briefs rekonstrueret retroaktivt, receipt.words talt fra allerede publiceret tekst, ingen costUSD nogen steder. Hele nummeret genkommissioneres paa .env.horisonten med research forud for hver brief, og et eksplicit krydslink til soestertitlen KULTURBOXEN nr. 2, som allerede varslede dette nummer.",
   "budget": {
     "articles": 10,
     "wordsPerArticle": [
-      150,
+      200,
       350
     ],
     "targetPages": 14,
-    "note": "Rejseformat med faste sektioner; depth-vs-breadth: fuld destination-pakke frem for færre men længere essays."
+    "note": "Rejseformat med faste sektioner, bredde frem for dybde er et bevidst formatvalg for HORISONTEN. mustCite lavt (0 for de fleste, 1 for Praktisk) er husregel, ikke sjusk — men fakta skal vaere korrekte."
   },
+  "researchNote": "ADVARSEL: dette felt naar ALDRIG frem til modellen — kun brief.angle goer. Kontrolleret 2026-08-19.\n\nDOLOMITTERNE / SYDTYROL I EFTERAARET — noeglefakta til hele nummeret:\n\n1) SELLARONDA (cykelrute): ca. 51,5-53 km, ca. 1.672-1.700 m samlet stigning. Krydser FIRE Dolomit-passer: Sella, Pordoi, Campolongo, Gardena. Traent rytter: 4-6 timer. Mindre traent: 6-8+ timer. Anbefales uden for august (foersommer eller efteraar) for at undgaa hovedsaesonens traengsel.\n\n2) ALPE DI SIUSI / SEISER ALM (Europas stoerste hoejsletteplateau): kabinebanens sommersaeson koerer ca. 21. maj til 1. november. Naar kabinebanen lukker (november-december og igen midt-april til midt-maj), aabnes vejen op til plateauet for privatbiltrafik i stedet — RESTEN AF AARET er vejen normalt lukket for privatbiler kl. 9-17, og plateauet kan da kun naas med kabinebane eller bus.\n\n3) LAGO DI BRAIES (den berømte soe med robaade og bjergkulisse): dalen er lukket for privatbiltrafik 1. juli til 15. september, kl. 9-16. EFTER 15. september kan man igen koere derop i egen bil — en konkret, brugbar efteraarsdetalje: traengslen falder, og adgangen letter samtidig.\n\n4) TÖRGGELEN: en aarhundreder gammel sydtyrolsk efteraarstradition, opkaldt efter \"Torggl\" (rummet med vinpressen). Fejrer den nye vin — kaldet \"Nuier\", \"Suser\" eller \"Sauser\" — med ristede kastanjer. Traditionen: en eftermiddagsvandring (ofte langs den saakaldte Kastanjesti, Keschtnweg) efterfulgt af et maaltid med ristede kastanjer, canederli (boeller), Schlutzkrapfen (fyldte dej-lommer) og vin. Saesonen loeber typisk fra begyndelsen af oktober til midt-november. Foedestedet regnes for at vaere Eisacktal (Eisack-dalen) med byerne Chiusa/Klausen, Bressanone/Brixen og Villandro/Villanders, samt omraaderne omkring Bolzano/Bozen og Merano/Meran.\n\n5) BJERGHYTTER (rifugi): de fleste lukker i oktober. Vandresaesonen fra hytte til hytte loeber typisk fra slutningen af juni/juli til midt/sent september. I oktober indsnaevres vinduet uge for uge, og vejret bliver reelt uforudsigeligt. Konkret raad, som flere kilder samstemmende giver: fokusér paa dal-niveau og gaard-til-gaard/inn-to-inn-ruter i efteraaret i stedet for hoejereliggende hytteture, og planlaeg foerste halvdel af oktober frem for sidste.\n\n6) SPROG: Sydtyrol har tre officielle sprog — tysk (flertal), italiensk og ladinsk (et romansk sprog i nogle alpedale). Se ogsaa KULTURBOXEN nr. 2's dybdegaaende portraet af selvstyret og sprogene.\n\nSOESTERTITEL: KULTURBOXEN nr. 2 (allerede udgivet, 2026-08-08, «Tre sprog, ét plateau») handlede om netop Sydtyrol/Dolomitterne — hverdagsliv, sprog, selvstyre. Deres leder navngav eksplicit, at HORISONTEN «har Dolomitterne paa vej», og deres bagsnit «Til HORISONTEN» gav fem raad til rejsende UDEN et levende link (fordi HORISONTEN nr.3 endnu ikke var udgivet). Nu hvor HORISONTEN nr.3 udgives, skal lederen linke tilbage til KULTURBOXEN nr.2, og redaktionen skal (efter kommissionering) tilfoeje det manglende link i KULTURBOXEN's bagsnit-artikel.\n\nSTRENGT FORBUDT (ingen kilde her): navngivne restauranter/hoteller med adresser, konkrete priser i euro, navngivne loeb/events med praecise datoer (skyrunning-loeb, marked osv.) medmindre det er en generel, veletableret tradition som Törggelen. Ingen paastand om at et sted er 'det bedste' uden belaeg. mustCite er lavt for dette rejseformat (0 for de fleste, 1 for Praktisk) — det er en husregel for HORISONTEN, ikke sjusk; men fakta (afstande, hoejder, aabningstider) skal stadig vaere korrekte, ikke opfundne.",
   "opgaver": [
     {
       "slug": "leder",
       "order": 1,
       "section": "Leder",
       "brief": {
-        "angle": "Bro fra Georgien nr.2 til genoplivet Dolomit-nummer — efterår.",
+        "angle": "Chefredaktionens leder. Bro fra Georgien-nummeret (nr.2) til Dolomitterne i efteraaret. LINK EKSPLICIT til soestertitlen KULTURBOXEN nr.2 (samme destination, hverdagsliv-vinklen), som allerede har varslet dette nummer. Aaben note om afpubliceringen 2026-08-08.",
         "words": [
-          80,
-          150
+          180,
+          320
         ],
         "mustCite": 0,
         "format": "leder"
@@ -32,15 +33,15 @@
         "fallback": null
       },
       "receipt": {
-        "words": 91,
+        "words": 265,
         "costUSD": null,
         "draft": null
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
+        "status": "rewritten-by-editor",
+        "checkedAt": "2026-08-19",
         "citations": 0,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "editorNote": "Chefredaktionens egen leder. writer.model 'editor-led', ingen byline, ingen kvittering."
       }
     },
     {
@@ -48,29 +49,30 @@
       "order": 2,
       "section": "Overblik",
       "brief": {
-        "angle": "Overblik: Sydtyrol/Dolomitter efter højsæson, passer, trængsel.",
+        "angle": "Overblik over Dolomitterne/Sydtyrol i efteraaret — efter hoejsaesonen, foer vinteren. Vinklen: efteraaret er ikke en kompromis-saeson, det er en anden slags saeson med sine egne fordele. Naevn konkret: Alpe di Siusi's kabinebane koerer sommersaeson ca. 21. maj-1. november; naar den lukker, aabnes vejen for privatbiltrafik i stedet. Lago di Braies' dal er lukket for privatbiler 1. juli-15. september kl. 9-16 — EFTER 15. september kan man koere derop selv, hvilket er en konkret, praktisk efteraarsfordel (mindre traengsel, lettere adgang). Bjerghytter lukker typisk i oktober, og vejret bliver reelt uforudsigeligt — anbefal dal-niveau og gaard-til-gaard-ruter frem for hoeje hyttetrekke i efteraaret, og foerste halvdel af oktober frem for sidste. Naevn Sydtyrols tre sprog (tysk, italiensk, ladinsk) kort som kontekst, og link til KULTURBOXEN nr. 2 for den dybere kulturelle vinkel. STRENGT: ingen opfundne aabningstider ud over dem her, ingen konkrete restaurant/hotelnavne.",
         "words": [
-          150,
+          200,
           350
         ],
         "mustCite": 0,
         "format": "feature"
       },
       "writer": {
-        "byline": null,
-        "model": "editor-led",
-        "fallback": "deepseek/deepseek-v3.2"
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "anthropic/claude-opus-4.8"
       },
       "receipt": {
-        "words": 278,
-        "costUSD": null,
-        "draft": null
+        "words": 305,
+        "costUSD": 0.011832,
+        "draft": "kladder/02-dolomitterne-efteraar.md",
+        "costRouting": "byok"
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-19",
         "citations": 0,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "editorNote": "REELT kommissioneret paa .env.horisonten. Alle tre noeglefakta (Alpe di Siusi kabinebane 21. maj-1. november, Lago di Braies trafikforbud 1. juli-15. september kl. 9-16, bjerghytter lukker typisk i oktober) korrekt gengivet. Krydslink til KULTURBOXEN nr. 2 tilfoejet som briefet kraevede."
       }
     },
     {
@@ -78,29 +80,30 @@
       "order": 3,
       "section": "Vandring",
       "brief": {
-        "angle": "Tre niveauer af vandring: blød, mellem, Tre Cime-agtig.",
+        "angle": "Tre niveauer af vandring i Dolomitterne om efteraaret: blød (dal-niveau, kort, tilgaengelig for de fleste), mellem (en dagsvandring med reel hoejdeforskel, stadig uden teknisk klatring), og en Tre Cime-agtig tur (ikonisk udsigt, laengere, kraever kondition og god planlaegning af vejr og tid paa dagen). For alle tre niveauer: skriv EFTERAARETS saerlige forbehold ind — bjerghytter lukker typisk i oktober, vandresaesonen fra hytte til hytte loeber typisk til midt/sent september, og vejret bliver mere uforudsigeligt uge for uge i oktober. Anbefal derfor dal-niveau/inn-to-inn-ruter og foerste halvdel af oktober til det mellemste/haardeste niveau. Forklar 'rifugio' (bjerghytte, ofte med proviant og overnatning) kort i broedteksten foerste gang. STRENGT: ingen navngivne konkrete ruter/stier med praecise km-tal, medmindre det er almindeligt kendt (Tre Cime di Lavaredo maa naevnes som destination, men opfind ikke km-tal for en specifik rundtur).",
         "words": [
-          150,
+          200,
           350
         ],
         "mustCite": 0,
         "format": "feature"
       },
       "writer": {
-        "byline": null,
-        "model": "editor-led",
-        "fallback": "deepseek/deepseek-v3.2"
+        "byline": "Gemini 3.1 Pro Preview (Google)",
+        "model": "google/gemini-3.1-pro-preview",
+        "fallback": "anthropic/claude-sonnet-5"
       },
       "receipt": {
-        "words": 255,
-        "costUSD": null,
-        "draft": null
+        "words": 299,
+        "costUSD": 0.040274,
+        "draft": "kladder/03-vandring.md",
+        "costRouting": "byok"
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-19",
         "citations": 0,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "editorNote": "REELT kommissioneret. De tre niveauer korrekt afgraenset, og efteraarsforbeholdet (hyttesaeson slutter typisk medio/ultimo september, oktober indsnaevres) baaret igennem alle tre. Ingen opfundne km-tal for konkrete ruter, som kraevet."
       }
     },
     {
@@ -108,29 +111,30 @@
       "order": 4,
       "section": "Cykling",
       "brief": {
-        "angle": "Sellaronda og fire passer i efterår.",
+        "angle": "Sellaronda og de fire passer om efteraaret. Grundfakta: ruten er ca. 51,5-53 km med ca. 1.672-1.700 m samlet stigning, og krydser fire passer — Sella, Pordoi, Campolongo og Gardena. En traent rytter koerer den paa 4-6 timer, en mindre traent paa 6-8+ timer. Pointen for efteraarsudgaven: ruten anbefales UDEN FOR august netop for at undgaa hoejsaesonens traengsel, og efteraar er et af de tidspunkter, hvor det anbefales. Skriv ogsaa et forbehold ind om, at passerne kan lukke eller blive glatte tidligt paa efteraaret ved sne i hoejden — tjek altid aktuel status foer afgang, i stedet for at regne med sommerens aabningstider. STRENGT: ingen opfundne aabningsdatoer for de enkelte passer denne saeson (de varierer aar for aar og med vejret) — skriv det som et forbehold, ikke et fast tal.",
         "words": [
-          150,
+          200,
           350
         ],
         "mustCite": 0,
         "format": "feature"
       },
       "writer": {
-        "byline": null,
-        "model": "editor-led",
-        "fallback": "deepseek/deepseek-v3.2"
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "anthropic/claude-sonnet-5"
       },
       "receipt": {
-        "words": 220,
-        "costUSD": null,
-        "draft": null
+        "words": 276,
+        "costUSD": 0.010356,
+        "draft": "kladder/04-cykling.md",
+        "costRouting": "byok"
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-19",
         "citations": 0,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "editorNote": "REELT kommissioneret PAA FALLBACK-MODELLEN (anthropic/claude-sonnet-5) — writer.model (Opus 4.8) fik 402 fra OpenRouter paa samme kreditgraense-problem som GNISTEN. Byline afspejler den model, der faktisk skrev artiklen. Sellaronda-tallene (51,5-53 km, 1.672-1.700 hm, fire passer, 4-6/6-8 timer) korrekt gengivet, og forbeholdet om tidlig sne skrevet som forbehold, ikke fast dato, som briefet kraevede."
       }
     },
     {
@@ -138,29 +142,30 @@
       "order": 5,
       "section": "Løb",
       "brief": {
-        "angle": "Løb: dal, sø, skyrunner-spor.",
+        "angle": "Løb i Dolomitterne om efteraaret: dal-loeb langs floder og soeer, mellemhoejde-spor med udsigt, og et kort afsnit om skyrunning/bjergloeb som disciplin (loeb i hoejde og teknisk terraen) UDEN at navngive konkrete loeb eller datoer, vi ikke har kilde til. Vinklen: efteraarets koelige luft og faerre turister goer det til en god tid at loebe i, men de samme forbehold som vandring gaelder — hoejereliggende spor kan vaere lukket eller uforudsigelige, naar bjerghytterne lukker i oktober. Anbefal dal- og mellemhoejde-ruter til de fleste loebere om efteraaret. STRENGT: ingen navngivne loeb/events, ingen distancer for konkrete ruter der ikke er kildebelagt her.",
         "words": [
-          150,
+          200,
           350
         ],
         "mustCite": 0,
         "format": "feature"
       },
       "writer": {
-        "byline": null,
-        "model": "editor-led",
-        "fallback": "google/gemini-3.5-flash"
+        "byline": "GPT-5.6 Terra (OpenAI)",
+        "model": "openai/gpt-5.6-terra",
+        "fallback": "anthropic/claude-sonnet-5"
       },
       "receipt": {
-        "words": 181,
-        "costUSD": null,
-        "draft": null
+        "words": 270,
+        "costUSD": 0.00934,
+        "draft": "kladder/05-loeb.md",
+        "costRouting": "direct"
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-19",
         "citations": 0,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "editorNote": "REELT kommissioneret. Ingen navngivne loeb eller opfundne distancer, som forbudt i briefet. Skyrunning naevnt som disciplin uden konkrete events."
       }
     },
     {
@@ -168,29 +173,30 @@
       "order": 6,
       "section": "Byliv",
       "brief": {
-        "angle": "Bolzano og Cortina + ladinske landsbyer.",
+        "angle": "Bolzano/Bozen og Cortina d'Ampezzo, plus de ladinske landsbyer, som en kontrast til bjergene. Bolzano er Sydtyrols stoerste by, kendt for sin blanding af tysk og italiensk bykultur (caféer, arkader, markeder) — og om efteraaret rammer Törggelen-saesonen byen og dalene omkring den (se maden-og-vin-artiklen for detaljer, undgaa at gentage al fakta her). Cortina d'Ampezzo ligger i Belluno-provinsen (regionen Veneto, ikke Sydtyrol/Alto Adige) og er kendt som et af de mere kendte bjergresorts i Dolomitterne. De ladinske landsbyer (fx i Val Gardena/Groedendal og Val Badia/Gadertal) er hjemsted for det ladinske sprogmindretal — link til KULTURBOXEN nr. 2 for den dybere sproglige/kulturelle historie i stedet for at gentage den her. STRENGT: ingen opfundne befolkningstal, ingen navngivne konkrete caféer/restauranter.",
         "words": [
-          150,
+          200,
           350
         ],
         "mustCite": 0,
         "format": "feature"
       },
       "writer": {
-        "byline": null,
-        "model": "editor-led",
-        "fallback": "deepseek/deepseek-v3.2"
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "anthropic/claude-opus-4.8"
       },
       "receipt": {
-        "words": 199,
-        "costUSD": null,
-        "draft": null
+        "words": 301,
+        "costUSD": 0.011312,
+        "draft": "kladder/06-byliv.md",
+        "costRouting": "byok"
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-19",
         "citations": 0,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "editorNote": "REELT kommissioneret. Bolzano/Cortina-skellet (Cortina ligger i Veneto, ikke Sydtyrol) korrekt, og krydslink til KULTURBOXEN nr. 2 tilfoejet for den sproglige/kulturelle dybde."
       }
     },
     {
@@ -198,29 +204,30 @@
       "order": 7,
       "section": "Strande",
       "brief": {
-        "angle": "Braies, Seiser Alm, udsigter uden strand.",
+        "angle": "Soeer og udsigter i stedet for strand — Dolomitternes svar paa sommerens badeferie. Lago di Braies: den beroemte soe med robaade og bjergkulisse; dalen er lukket for privatbiltrafik 1. juli-15. september kl. 9-16, men EFTER 15. september kan man koere derop i egen bil — en konkret efteraarsfordel: mindre traengsel og lettere adgang. Alpe di Siusi/Seiser Alm: Europas stoerste hoejsletteplateau; kabinebanens sommersaeson koerer ca. 21. maj til 1. november, og naar den lukker om vinteren, aabnes vejen i stedet for privatbiltrafik. Vinklen: efteraarets lys og faerre mennesker goer begge steder til en anden oplevelse end sommerens travlhed. STRENGT: ingen opfundne aabningstider ud over de naevnte, ingen prisoplysninger for kabinebanen.",
         "words": [
-          150,
+          200,
           350
         ],
         "mustCite": 0,
         "format": "feature"
       },
       "writer": {
-        "byline": null,
-        "model": "editor-led",
-        "fallback": "minimax/minimax-m3"
+        "byline": "Gemini 3.1 Pro Preview (Google)",
+        "model": "google/gemini-3.1-pro-preview",
+        "fallback": "anthropic/claude-sonnet-5"
       },
       "receipt": {
-        "words": 170,
-        "costUSD": null,
-        "draft": null
+        "words": 276,
+        "costUSD": 0.029464,
+        "draft": "kladder/07-soeer-og-udsigt.md",
+        "costRouting": "byok"
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-19",
         "citations": 0,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "editorNote": "REELT kommissioneret. Samme to noeglefakta som overbliksartiklen (Braies/Alpe di Siusi) korrekt genbrugt uden modsigelse mellem artiklerne."
       }
     },
     {
@@ -228,29 +235,30 @@
       "order": 8,
       "section": "Kalenderen",
       "brief": {
-        "angle": "Efterårskalender med forbehold for skiftende datoer.",
+        "angle": "HORISONTENs faste efteraarskalender for Dolomitterne/Sydtyrol, MED eksplicit forbehold om at datoer skifter fra aar til aar og skal tjekkes foer afgang. Byg kalenderen om Törggelen-saesonen (typisk begyndelsen af oktober til midt-november — den nye vin 'Nuier'/'Suser'/'Sauser' fejres med ristede kastanjer, ofte indledt med en eftermiddagsvandring langs Kastanjestien/Keschtnweg), samt de generelle saesonmarkoerer allerede etableret i nummerets andre artikler: kabinebanen paa Alpe di Siusi lukker omkring 1. november, Lago di Braies bliver tilgaengelig for privatbiler igen efter 15. september, og bjerghytterne lukker typisk i loebet af oktober. Formater det som en kort tidslinje/liste med maaneder, IKKE praecise dagsdatoer for konkrete events vi ikke har kildebelaeg for. STRENGT: opfind ikke konkrete festivaldatoer eller aabningsceremonier.",
         "words": [
-          150,
+          200,
           350
         ],
         "mustCite": 0,
         "format": "kalenderen"
       },
       "writer": {
-        "byline": null,
-        "model": "editor-led",
-        "fallback": "deepseek/deepseek-v3.2"
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "anthropic/claude-opus-4.8"
       },
       "receipt": {
-        "words": 181,
-        "costUSD": null,
-        "draft": null
+        "words": 282,
+        "costUSD": 0.011792,
+        "draft": "kladder/08-kalenderen.md",
+        "costRouting": "byok"
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-19",
         "citations": 0,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "editorNote": "REELT kommissioneret. Formatkrav overholdt: maaneds-tidslinje uden opfundne praecise dagsdatoer, med et eksplicit forbehold foerst i teksten om at datoer varierer aar for aar."
       }
     },
     {
@@ -258,29 +266,30 @@
       "order": 9,
       "section": "Mad & Vin",
       "brief": {
-        "angle": "Speck, knödel, sydtyrolsk vin.",
+        "angle": "Speck, knödel og sydtyrolsk vin, med Törggelen som efteraarets omdrejningspunkt. Törggelen er en aarhundreder gammel tradition opkaldt efter 'Torggl' (rummet med den gamle vinpresse) — den fejrer den nye vin, kaldet 'Nuier', 'Suser' eller 'Sauser', sammen med ristede kastanjer. Traditionen: en eftermiddagsvandring, ofte langs Kastanjestien (Keschtnweg), efterfulgt af et maaltid med ristede kastanjer, canederli (boeller/dumplings), Schlutzkrapfen (fyldte dej-lommer) og den nye vin. Saesonen loeber typisk fra begyndelsen af oktober til midt-november. Foedestedet regnes for Eisacktal/Eisack-dalen (byer som Chiusa/Klausen, Bressanone/Brixen, Villandro/Villanders), samt omraaderne omkring Bolzano og Merano. Naevn ogsaa speck (roeget, lufttoerret skinke, en sydtyrolsk specialitet) og knödel (boeller lavet paa gammelt broed) som de to mest genkendelige retter i regionen, uden at paastaa opskrifter eller oprindelsesaarstal vi ikke har kilde til. STRENGT: ingen navngivne restauranter, ingen praecise priser.",
         "words": [
-          150,
+          200,
           350
         ],
         "mustCite": 0,
         "format": "feature"
       },
       "writer": {
-        "byline": null,
-        "model": "editor-led",
-        "fallback": "deepseek/deepseek-v3.2"
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "anthropic/claude-sonnet-5"
       },
       "receipt": {
-        "words": 191,
-        "costUSD": null,
-        "draft": null
+        "words": 303,
+        "costUSD": 0.011964,
+        "draft": "kladder/09-mad-og-vin.md",
+        "costRouting": "byok"
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-19",
         "citations": 0,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "editorNote": "REELT kommissioneret PAA FALLBACK-MODELLEN (anthropic/claude-sonnet-5) — samme kreditgraense-problem. Byline afspejler den faktiske model. Törggelen-fakta (Torggl-navnet, Nuier/Suser/Sauser, Eisacktal-oprindelse, oktober-medio november saeson) korrekt gengivet."
       }
     },
     {
@@ -288,31 +297,35 @@
       "order": 10,
       "section": "Praktisk",
       "brief": {
-        "angle": "Fly, bil, budget, pakning — pejlemærker med forbehold.",
+        "angle": "Praktisk info til efteraarsturen: fly (naermeste lufthavne er typisk Innsbruck, Verona, Venedig eller Bolzanos egen mindre lufthavn — naevn dette som pejlemaerke uden at paastaa konkrete flyruter eller priser), bil (bjergpasser kan lukke tidligt ved sne, tjek altid status foer afgang — dette ER kildebelagt fra nummerets øvrige research), budget (Sydtyrol er generelt et af Italiens dyrere rejsemaal — skriv det som en retning, ikke et tal, medmindre du kan finde en kildebelagt reference), og pakning (lag-paa-lag pga. store temperaturudsving mellem dal og hoejde, samt regntoej — i efteraaret kan der vaere frost om natten i dalene 1.200-1.500 m allerede, mens dagtemperaturen stadig er behagelig). MUSTCITE=1: brug mindst én konkret, verificerbar kilde til enten aabningstider eller en anden konkret paastand (fx Alpe di Siusi-kabinebanens sommersaeson-slutdato eller Lago di Braies' trafikforbud-periode, som begge er etableret research i dette nummer) og saet den i en fodnote til den officielle sydtyrolske turistinformation (suedtirol.info eller lignende), uden at opfinde en URL — brug kun domaenet som navn, ikke en gaettet sti.",
         "words": [
-          150,
+          200,
           350
         ],
         "mustCite": 1,
-        "format": "feature"
+        "format": "feature",
+        "mustNumber": [
+          "frostrisiko om natten i dalbunden i efteraaret",
+          "bjergpasser kan lukke tidligt ved sne"
+        ]
       },
       "writer": {
-        "byline": null,
-        "model": "editor-led",
-        "fallback": "deepseek/deepseek-v3.2"
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "anthropic/claude-sonnet-5"
       },
       "receipt": {
-        "words": 285,
-        "costUSD": null,
-        "draft": null
+        "words": 297,
+        "costUSD": 0.012488,
+        "draft": "kladder/10-praktisk.md",
+        "costRouting": "byok"
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-19",
         "citations": 1,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "editorNote": "REELT kommissioneret PAA FALLBACK-MODELLEN (anthropic/claude-sonnet-5), samme kreditgraense-problem — commission.py's --fallback brugt direkte for at spare et forgaeves 402-forsoeg. Fodnoten peger paa suedtirol.info (verificeret 200), ikke en gaettet understi, som briefet kraevede."
       }
     }
-  ],
-  "integrityNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+  ]
 }

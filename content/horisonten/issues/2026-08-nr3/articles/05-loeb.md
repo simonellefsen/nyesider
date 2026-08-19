@@ -1,27 +1,20 @@
 ---
-title: Løb i dale der trækker vejret
-standfirst: Flade dalbunde, stejle skyrunnerspor og en sø-runde der får pulsen ned mellem tinderne.
+title: "Løb: find rytmen lavere i landskabet"
+standfirst: Dal, sø og skyrunner-spor — og en efterårsregel om at kunne skifte plan hurtigt.
+byline: GPT-5.6 Terra (OpenAI)
 section: Løb
 order: 5
 image: ../images/horisonten_loeb.png
-imageCredit: "AI-genereret rejsemotiv (Imagine / xAI)"
+imageCredit: "AI-genereret motiv (Imagine / xAI)"
 imageSource: "https://x.ai/"
 ---
 
-Du behøver ikke være skyrunner for at løbe i Dolomitterne. Du skal bare vælge terræn med omhu.
+Efteråret klæder Dolomitterne. Luften er køligere, lyset falder lavere over de lyse klippevægge, og der er ofte mere plads på stier, veje og i landsbyerne end i sommermånederne. For løbere er det en sæson, der indbyder til lange, rolige ture — men også til at vælge terræn med omtanke.
 
-## Blødt: dalbunde og cykelstier
+De mest stabile muligheder findes som regel i dalene. Her kan du løbe langs floder, gennem skov og mellem landsbyer, eller følge søbredder, hvor underlaget ofte er mindre teknisk end højere oppe. Dalruterne er et godt valg til både rolige morgenture og længere dage med udsigt, uden nødvendigvis at skulle op i alpint terræn.
 
-Langs Eisack/Isarco og i Val Pusteria/Pustertal findes asfalterede og grusbelagte cykelstier, hvor du kan lægge rolige kilometer uden at bestige en væg. Brunico og Toblach/Dobbiaco er gode baser til lange, flade ture med bjergudsigt i baggrunden.
+Mellem højderne bliver oplevelsen mere bjergpræget: skovspor, grusveje og åbne skråninger med udsigt til takkede tinder. Det er ofte her, den klassiske dolomit-fornemmelse opstår — men efteråret kræver fleksibilitet. Vejret kan vende hurtigt, stier kan være glatte af regn, blade eller tidlig sne, og når bjerghytterne lukker i oktober, bliver de højere ruter mindre forudsigelige. Hav derfor altid en kortere reserveplan i dalen, og tag varmt lag, vand og et offline-kort med.
 
-## Mellem: stier omkring søer
+Dolomitterne har også en stærk tradition for skyrunning — bjergløb i højden, ofte i stejlt og teknisk terræn. Disciplinen kan være fascinerende at kigge på, men er ikke nødvendigvis den rigtige introduktion til løb i bjergene. For de fleste efterårsløbere er dal- og mellemhøjderuter det bedre valg: stadig dramatiske, men med færre alpine usikkerheder.
 
-**Lago di Braies/Pragser Wildsee** er berømt — og i højsæson proppet. En tidlig morgentur i september rundt om søen er en anden oplevelse: spejlblankt vand, træer i farveskift, færre selfie-pinde. Lignende logik gælder **Lago di Carezza/Karersee** tættere på Bolzano-siden.
-
-## Hårdt: skyline-spor
-
-Stier op mod rifugi med 800–1.200 højdemeter er legio. Det kræver trail-skosål, vejrforstand og ærlighed om form. Start blødt de første dage i højden; selv 1.200 meter over havet mærkes, hvis hverdagen er Amager.
-
-## Arrangementer
-
-Dolomitterne har en rig kalender af trail- og bjergmaraton — især i sommerhalvåret. Datoer skifter; tjek aktuelle løbssider, hvis du vil stille op. For de fleste rejsende er den bedste "event" den, der starter fra hotellet kl. 7 uden startnummer.
+Løb tidligt på dagen, hold øje med lokale vejrmeldinger, og vær klar til at bytte en højderute ud med en tur langs vandet. I Dolomitterne er den bedste efterårsplan ofte den, der kan ændres.

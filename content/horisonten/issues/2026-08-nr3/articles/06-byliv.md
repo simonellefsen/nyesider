@@ -1,25 +1,18 @@
 ---
-title: Bolzano og Cortina — to pulser i stenlandet
-standfirst: Den ene er en grøn by med palmefølelse i alperne. Den anden er vinter-OL-glamour med sommersti lige uden for døren.
+title: "Byen, resorten og landsbyerne imellem"
+standfirst: Bolzano taler to sprog, Cortina ligger slet ikke i Sydtyrol, og de ladinske dale taler et helt tredje.
+byline: Claude Sonnet 5 (Anthropic)
 section: Byliv
 order: 6
 image: ../images/horisonten_byliv.png
-imageCredit: "AI-genereret rejsemotiv (Imagine / xAI)"
+imageCredit: "AI-genereret motiv (Imagine / xAI)"
 imageSource: "https://x.ai/"
 ---
 
-## Bolzano / Bozen
+Når bjergene har fyldt dagene med højdemeter og udsigter, er kontrasten til Bolzano/Bozen næsten forfriskende. Sydtyrols største by er et møde mellem to sprog og to bykulturer: arkadegader, caféliv og markeder, hvor tysk og italiensk glider ind i hinanden på en måde, man ikke finder mange andre steder i Europa. Om efteråret får byen og dalene omkring den desuden besøg af [Törggelen-sæsonen](/horisonten/2026-08-nr3/mad-og-vin) — endnu en grund til at lægge vejen forbi uden for højsæsonen.
 
-Bolzano er Sydtyrols hovedby — en blanding af østrigsk kaffehus og italiensk aftenpasseggiata. Gå i de gamle gader omkring Piazza Walther, besøg **Ötzi-museet** (Sydtyrols arkæologiske museum), og tag den lille svævebane eller stierne op mod **Ritten/Renon**, hvis du vil have udsigt uden en hel dags ekspedition.
+Kører man videre mod øst, skifter både landskab og administrativ tilhørsforhold. Cortina d'Ampezzo ligger ikke i Sydtyrol/Alto Adige, men i Belluno-provinsen i regionen Veneto — en detalje det er værd at have styr på, hvis man planlægger en rute på tværs af Dolomitterne. Cortina er et af de mest kendte bjergresorts i området, med en atmosfære der er tydeligt anderledes end Bolzanos: mere alpint feriemiljø, mindre bygade-hverdag.
 
-Om efteråret er byen et logisk knudepunkt: togforbindelser, biludlejning, markeder og restauranter, der serverer både knödel og risotto. Det er også her, mange starter vinruten i nærområdet.
+Mellem de to yderpunkter — den tosprogede storby og det internationale resort — ligger de ladinske landsbyer, blandt andet i Val Gardena/Grødendal og Val Badia/Gadertal. Her tales ladinsk, et sprogmindretal med sin egen historie i regionen. Den historie fortjener mere plads, end en bylivsartikel kan give den, så læs videre i [KULTURBOXEN nr. 2](/kulturboxen/2026-08-nr2/leder), hvor den sproglige og kulturelle baggrund udfoldes.
 
-## Cortina d'Ampezzo
-
-Cortina er mere poleret — boutiques, hoteller med historie, og en beliggenhed midt i Ampezzo-dalens amfiteater af tinder. Om sommeren og det tidlige efterår er byen base for vandring og cykling snarere end ski. Corso Italia er til folkekiggeri; stierne mod Tofane og Faloria er til benarbejde.
-
-Cortina forbereder sig som vært for vinter-OL 2026 (sammen med Milano) — forvent perioder med anlægsarbejde, skiltning og begivenhedstrafik. Tjek lokale info, hvis du rejser tæt på sportsperioder.
-
-## Den tredje mulighed: de ladinske landsbyer
-
-Ortisei, Santa Cristina, Selva, Corvara, San Cassiano — mindre end byerne ovenfor, tættere på stierne. Her er aftenlivet mere støvle end stilet. Det er ofte det rigtige valg, hvis du er kommet for bjergene, ikke for shopping.
+Tilsammen tegner Bolzano, Cortina og de ladinske dale et billede af Sydtyrol og det tilstødende Veneto som et område med flere lag: en by der lever af sin blandingskultur, et resort der lever af bjergene, og landsbyer der lever af et sprog og en identitet, der er ældre end grænserne omkring dem.

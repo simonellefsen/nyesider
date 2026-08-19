@@ -37,3 +37,5 @@ Vi har tidligere skrevet om noget lignende i forbindelse med jeres Georgien-numm
 God rejse — og god fornøjelse med at finde ud af, hvilket navn stedet hedder, når I kommer frem.
 
 *KULTURBOXEN*
+
+*Redaktionel note, 2026-08-19: HORISONTEN nr. 3, [«Dolomitterne i efteråret»](/horisonten/2026-08-nr3/leder), er nu udkommet — dengang dette blev skrevet, var nummeret endnu ikke offentliggjort.*

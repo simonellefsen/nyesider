@@ -1,29 +1,20 @@
 ---
-title: Speck, knödel og glas med udsigt
-standfirst: Sydtyrolsk køkken er alpint og middelhavsk på samme tallerken. Sådan spiser og drikker du dig gennem dalene.
+title: "Törggelen: efterårets fest for den nye vin"
+standfirst: Ristede kastanjer, canederli og en vin, der endnu ikke er helt klar.
+byline: Claude Sonnet 5 (Anthropic)
 section: Mad & Vin
 order: 9
 image: ../images/horisonten_mad.png
-imageCredit: "AI-genereret rejsemotiv (Imagine / xAI)"
+imageCredit: "AI-genereret motiv (Imagine / xAI)"
 imageSource: "https://x.ai/"
 ---
 
-I Dolomitterne spiser du dig gennem en grænse, der for længst er blevet en styrke: østrigsk bjergmad møder italiensk lethed.
+Når kastanjebladene falder over Eisacktal, begynder en af Sydtyrols ældste traditioner: Törggelen. Navnet kommer fra "Torggl", betegnelsen for det rum hvor den gamle vinpresse stod, og traditionen fejrer det øjeblik, hvor druehøsten er presset og den unge, uklare vin — kaldet "Nuier", "Suser" eller "Sauser" alt efter dialekt og modningsgrad — er klar til at smages.
 
-## Det, du bør smage
+Traditionen har rødder flere århundreder tilbage og regnes for at have sit hjem i Eisack-dalen, med byer som Klausen (Chiusa), Brixen (Bressanone) og Villanders (Villandro) som centrale steder, samt områderne omkring Bolzano og Merano. Formen er stort set uændret: en eftermiddagsvandring gennem vinmarker og kastanjeskove, ofte langs den såkaldte Kastanjesti (Keschtnweg), efterfulgt af et solidt måltid.
 
-- **Speck Alto Adige** — lufttørret, røget, skåret tyndt. Godt på bræt, i knödel, til øl eller let rødvin.
-- **Schlutzkrapfen** — small ravioli-agtige med spinat og ricotta; smør og salvie.
-- **Canederli / knödel** — brødbolde i bouillon eller med speck.
-- **Polenta** i de mere italienske dale.
-- **Æbler** fra Etsch/Adige-dalen — efteråret er deres tid.
+Maden hører uløseligt sammen med sæsonen. Ristede kastanjer er selve symbolet — sprødt skal, sødlig, let røget smag — og spises typisk som en del af måltidet eller som afslutning. Dertil kommer canederli, boller lavet på gammelt brød, ofte tilsat speck eller ost, samt Schlutzkrapfen, dej-lommer fyldt med for eksempel spinat og ricotta. Speck — den røgede, lufttørrede skinke — og knödel (boller på gammelt brød) er de to retter, man som besøgende hurtigst lærer at genkende i den sydtyrolske køkkentradition.
 
-## Vin
+Sæsonen for Törggelen løber typisk fra begyndelsen af oktober til midt i november, når den nye vin endnu er ung og kastanjerne er høstet. Det gør perioden ideel for aktive rejsende: temperaturerne er mildere end om sommeren, skovene skifter farve, og en vandretur på nogle timer belønnes naturligt med et måltid, der er bygget til netop denne årstid.
 
-Sydtyrol er et af Italiens mest spændende hvidevinshjørner: **Gewürztraminer** (især omkring Tramin/Termeno), **Kerner**, **Weissburgunder**, plus røde som **Vernatsch/Schiava** og **Lagrein**. Mange vingårde tager imod besøgende efter aftale; de større strøg omkring Bolzano og Kaltern/Caldaro er lette at kombinere med en bydag.
-
-## Hytternes regler
-
-På rifugi er menuen ofte fast og solid. Kontanter kan stadig være praktiske. Bestil ikke tre retter, hvis du skal ned ad en stejl sti i mørke. Et stykke apfelstrudel har reddet flere moraler end en energigel.
-
-Spis lokalt, drikt med måde i højden, og husk: den bedste restaurant er nogle gange den, der ligger 20 minutters gang fra den største parkeringsplads.
+Man behøver ikke opsøge noget bestemt sted for at opleve traditionen — den lever i hele regionen, fra små gårdkroer til byernes vinstuer, og er lige så meget en gåtur og en årstid som en spisning.

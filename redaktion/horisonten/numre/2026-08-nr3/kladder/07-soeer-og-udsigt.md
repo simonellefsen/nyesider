@@ -1,0 +1,9 @@
+# Dolomitternes svar på badeferien: Søer og åbne udsigter i efterårsglød
+
+For mange er ferie lig med hvide sandstrande, men hvis du søger et aktivt og storslået alternativ, er Norditaliens bjerge oplagte. Her skiftes havets bølger ud med blikstille bjergsøer og åbne vidder, der fungerer som Dolomitternes svar på sommerens klassiske badeferie. Rejser du uden for højsæsonen, får du desuden en række mærkbare praktiske fordele forærende.
+
+Et af de mest ikoniske udflugtsmål er Lago di Braies. Den berømte sø med sine klassiske robåde og den dramatiske bjergkulisse i baggrunden trækker tusindvis af besøgende til i de varme måneder. For at håndtere presset på naturen er dalen ind til søen lukket for privatbiltrafik fra den 1. juli til og med den 15. september i tidsrummet kl. 9-16. Men planlægger du din rejse til efter den 15. september, opstår der en konkret efterårsfordel: Du kan køre helt derop i din egen bil. Den lettere adgang kombineret med mindre trængsel gør det nemt at udforske området i dit eget tempo.
+
+Længere mod vest finder du Alpe di Siusi, også kendt som Seiser Alm, som er Europas største højsletteplateau. Her begynder rejsen normalt i dalen, hvorefter man transporteres op. Kabinebanens sommersæson kører fra cirka 21. maj til 1. november, og når den lukker om vinteren, åbnes bjergvejen i stedet for privatbiltrafik.
+
+Både ved Lago di Braies og Alpe di Siusi skaber efteråret ideelle betingelser for den rejsende. Det skarpe efterårslys over bjergtoppene og det faktum, at der er markant færre mennesker, gør begge steder til en helt anden, roligere oplevelse end sommerens travlhed. For den selvkørende Europa-rejsende er efterårsmånederne i Dolomitterne ganske enkelt lig med større frihed og smidigere logistik.

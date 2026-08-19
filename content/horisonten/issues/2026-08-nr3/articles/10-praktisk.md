@@ -1,6 +1,7 @@
 ---
-title: "Praktisk: sådan planlægger du Dolomit-turen"
-standfirst: Fly, bil, budget og pakning — det kedelige, der afgør, om det flotte bliver dejligt.
+title: "Praktisk: sådan planlægger du efterårsturen"
+standfirst: Fly, bil, budget og pakning — med et forbehold, der gælder det hele.
+byline: Claude Sonnet 5 (Anthropic)
 section: Praktisk
 order: 10
 image: ../images/horisonten_praktisk.png
@@ -8,37 +9,22 @@ imageCredit: "AI-genereret motiv (Imagine / xAI)"
 imageSource: "https://x.ai/"
 ---
 
-## Sådan kommer du derhen
+### Fly og ankomst
 
-- **Fly:** Innsbruck, Verona, Venedig og München er typiske indgange; derfra lejebil eller tog+bus. Bolzano har togforbindelser.
-- **Bil:** Den mest fleksible løsning mellem dale. Vær forberedt på sneglatte forhold sent på sæsonen i højden, og på smalle veje.
-- **Offentlig transport:** Sydtyrols busnet er overraskende godt i sæsonen; Mobilcard og lignende periodeskort kan betale sig — tjek aktuelle ordninger på de officielle turist- og transportportaler for Südtirol / Alto Adige.[^1]
+Sydtyrol har ikke selv en stor international lufthavn, men Bolzanos mindre lufthavn fungerer som lokalt pejlemærke for regionen. De fleste rejsende ankommer i stedet via Innsbruck, Verona eller Venedig og kører eller tager tog videre. Tjek altid selv de aktuelle flyforbindelser og priser, da udbuddet varierer meget med sæsonen.
 
-## Overnatning
+### Bil og bjergpasser
 
-Book tidligt omkring Val Gardena, Badia og Cortina i september-weekender. Overvej base i to dale i stedet for at flytte hvert, hvis du vil undgå indpakning hver morgen.
+Kører du selv, skal du regne med, at bjergpasse kan lukke tidligt, når de første snefald rammer højderne. Det gælder især i sen oktober og november, hvor vejret kan skifte hurtigt fra dag til dag. Tjek altid passets status, før du lægger ruten.
 
-## Budget (groft, 2026-priser svinger)
+### Budget
 
-- Mellemklassehotel: ofte dyrere end Mallorcas efterårstilbud i de mest berømte landsbyer.
-- Svævebaner og parkeringsafgifter summerer.
-- Middage på rifugi er fair; finere huse i Cortina er en anden liga.
+Sydtyrol ligger generelt i den dyrere ende af italienske rejsemål, både hvad angår overnatning og restaurantbesøg. Efterårssæsonen — uden for juli-august og vinterferien — er dog typisk billigere end højsæson.
 
-## Pakliste (efterår)
+### Pakning
 
-- Lag-på-lag, vind- og regnjakke, handsker til passene.
-- Vandrestøvler med greb + eventuel trail-sko til løb.
-- Solcreme (højden snyder), solbriller, lille førstehjælp.
-- Offline-kort, powerbank, kontanter.
+Temperaturudsvingene mellem dal og højde er markante om efteråret. I dalbunde omkring 1.200–1.500 meter kan der allerede være nattefrost, mens dagtemperaturen i solen stadig føles behagelig. Pak derfor i lag: et varmt underlag, en isolerende mellemlag og en vind- og vandtæt yderjakke. Regntøj er et must, og gode vandresko eller -støvler med godt greb er afgørende, hvis stierne er våde eller frosne om morgenen.
 
-## Sprog og kultur
+Et konkret eksempel på sæsonafhængig praktik: kabinebanen til Alpe di Siusi lukker for sommersæsonen på et bestemt tidspunkt hvert efterår, og Lago di Braies indfører periodevis trafikforbud for biler. Begge dele bør du tjekke direkte hos den officielle turistinformation, før du planlægger dagsture dertil.[^1]
 
-Tysk og italiensk er officielle i Sydtyrol; ladinsk i flere dale. Engelsk rækker langt i turismen. "Grüß Gott" og "buongiorno" er billig charme.
-
-## Forsikring og fornuft
-
-Bjergredning er ikke en turistattraktion. Vælg ruter efter form, fortæl nogen om planen, og vend om i dårligt vejr. Det er den mest erfarne beslutning, du kan træffe.
-
-Når det praktiske er på plads, kan du glemme det — og se op. Det er derfor, du kom.
-
-[^1]: Südtirol mobil / provincial transport and tourism sites (e.g. südtirolmobil.info and official Alto Adige tourism pages) list current day and multi-day tickets; names and prices change — always verify for your travel week.
+[^1]: [Südtirol — officiel turistinformation for Sydtyrol](https://www.suedtirol.info/en), med opdaterede åbningstider og trafikregler for regionens seværdigheder.
