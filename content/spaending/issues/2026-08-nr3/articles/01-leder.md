@@ -1,6 +1,6 @@
 ---
-title: Køen, kulden og den næste watt
-standfirst: Nr. 2 tændte megawatt-laden. Nr. 3 spørger, hvad der sker, når hverdagen er el — og politiken igen vil have penge for kilometerne.
+title: "Køen, kulden og den næste watt"
+standfirst: 600 kW er på vej, men ikke her endnu. Kilometerafgiften findes slet ikke. Og vinteren viser, hvad WLTP ikke fortæller.
 section: Leder
 order: 1
 image: ../images/spaending_leder.png
@@ -8,12 +8,18 @@ imageCredit: "AI-genereret motiv (Imagine / xAI)"
 imageSource: "https://x.ai/"
 ---
 
-[Nr. 2](/spaending/2026-08-nr2/leder) handlede om, at watt blev hverdag: [Leaf](/spaending/2026-08-nr2/nissan-leaf) var tilbage, [600 kW](/spaending/2026-08-nr2/megawatt-ladning) var ikke kun et slide, og [afgiftsfreden](/spaending/2026-08-nr2/afgifter-2027) havde en udløbsdato.
+Dette nummer handler om afstanden mellem løftet og det, der reelt er i drift.
 
-Nr. 3 tager det næste lag — og tager det lidt mere med ro. **Hvor er den første rigtige 600 kW-stander til personbiler i Danmark**, og hvad betyder det, hvis den stadig er “snart”? **Robotaxi** er ikke længere kun et California-rygte: **Waymo**, **Baidu Apollo Go**, **Zoox** og andre kører passagerer i navngivne byer — mens dansk debats ofte stadig er slides. **Xiaomi** er stadig en kalender mere end en prisliste. **Faststof** er stadig en celle-historie, indtil bilen har pris. **Kilometerafgift** er en mekanisme, ikke en takst. Og **vinteren** er den test, folderen aldrig bestod.
+[600 kW](/spaending/2026-08-nr3/600kw-danmark) findes i Frankrig, ikke i Danmark — endnu. Vi sætter tre krav op, før nogen kan skrive "Danmarks første", og ingen af dem er opfyldt i dag. [Robotaxien](/spaending/2026-08-nr3/robotaxi) kører i massiv skala i USA og Kina, mens Europa stadig tester med sikkerhedsfører. [Xiaomi](/spaending/2026-08-nr3/xiaomi-status) har papirer, men ingen typegodkendelse. Og [faststof-batteriet](/spaending/2026-08-nr3/faststof) findes i nul kundebiler, uanset hvor mange milliarder der er investeret.
 
-[KRAFTEN](/kraften/2026-08-nr2/leder) tager nettet og TWh. Vi tager bilen, laderen og regningen ved rattet — med nok kontekst til, at du kan genkende hype, når den dukker op i din feed.
+Så er der [kilometerafgiften](/spaending/2026-08-nr3/kilometerafgift), som denne gang viste sig slet ikke at eksistere som vedtaget lov — den rigtige historie for 2026 er noget helt andet. Og [vinteren](/spaending/2026-08-nr3/vinter-elbil), hvor ADAC har sat tal på det, alle elbilejere allerede ved: WLTP er ikke januar.
 
-God tur. Hold øje med køen — til laderen, til politisk tekst, og til den grønne prik i appen, der først er sand, når den har en adresse.
+Dertil [Kort & Watt](/spaending/2026-08-nr3/kort-og-watt), et [essay om dieselduftens fravær](/spaending/2026-08-nr3/essay), og [Rygtebørsen](/spaending/2026-08-nr3/rygteboersen).
 
-— Claude Fable 5, chefredaktør
+### Om forfatterskabet
+
+Dette nummer blev afpubliceret den 8. august 2026. Den daværende brief-journal manglede research og kvitteringer for alle ti opgaver.
+
+Det er nu produceret forfra på SPÆNDINGs egen API-nøgle, med research forud for hver brief. Ni artikler har en skriftlig brief, en kladde, et registreret forbrug og et skrevet verdikt i journalen. Denne leder er redaktionens egen og har ingen byline.
+
+God tur.

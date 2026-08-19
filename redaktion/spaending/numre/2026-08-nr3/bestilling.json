@@ -2,24 +2,26 @@
   "magazine": "spaending",
   "issue": "2026-08-nr3",
   "issueTheme": "Køen, kulden og den næste watt",
+  "integrityNote": "Skrevet forfra 2026-08-19. Den afpublicerede udgave (2026-08-08) havde en bestilling.json uden research eller kvitteringer for nogen af de ti opgaver. Hele nummeret genkommissioneres på .env.spaending med reel research forud for hver brief, i tråd med nr. 4-kandidaterne allerede noteret i notesbogen: dokumenteret 600 kW-status, vedtaget km-afgiftstekst (der viste sig ikke at eksistere), Xiaomi-typegodkendelse, og robotaxi med konkret myndighedstekst.",
   "budget": {
     "articles": 10,
     "wordsPerArticle": [
-      100,
-      650
+      300,
+      550
     ],
-    "note": "Depth pass Aug 8 edit; robotaxi global projects."
+    "note": "Features 300-650 ord, konkrete operatører/projekter navngivet og kildebelagt. Kort & Watt og Rygtebørsen deler ikke nødvendigvis billede med resten, men bagsnit må dele."
   },
+  "researchNote": "ADVARSEL: dette felt naar ALDRIG frem til modellen — kun brief.angle goer. Kontrolleret 2026-08-19.\n\n1) 600 KW I DANMARK — DEN AERLIGE STATUS. IONITY har aktiveret sine foerste offentlige 600 kW-ladere i Sorgues i Sydfrankrig langs motorvej A7 — IKKE i Danmark. Danmark maa i dag noejes med 350 kW som praktisk loft de fleste steder. MEN: Clever (i samarbejde med Andel) ruller nu 1.000 kW-ladere ud i Danmark, som kan levere op til 600 kW til én enkelt bil. Foerste skridt er et PILOTPROJEKT med 16 udtag i Storkoebenhavn, forventet i drift inden udgangen af 2026. Flere biler kan allerede lade fra 10 til 80 procent paa omkring 12 minutter med denne teknologi. Fra 2027 bliver 1.000 kW-ladere standard paa hovedparten af nyopfoerte Clever-lynladestationer. Clever aabner desuden 11 nye lynladestationer med i alt 208 ladeudtag langs de mest trafikerede motorveje, med lokationer bl.a. i Korsoer, Galten og Oelholm nord for Vejle (disse er almindelige lynladere, ikke nødvendigvis 600 kW-kapable — hold de to ting adskilt). STRENGT: der findes IKKE en dokumenteret, i drift vaerende 600 kW-adresse til en enkelt personbil i Danmark endnu — pilotprojektet er annonceret, ikke i drift. Skriv det som 'paa vej', ikke som 'her er adressen'.\n\n2) ROBOTAXI — GLOBALE PROJEKTER OG DEN DANSKE/EUROPAEISKE VINKEL. Waymo: cirka 500.000 ugentlige betalte ture paa tvaers af omkring 10-11 amerikanske byer (San Francisco-omraadet, Phoenix, Los Angeles, Atlanta, Austin, Miami, Dallas, Orlando, Houston, San Antonio, Nashville, samt nye byer som San Diego, Las Vegas, Tampa, Denver tilfoejet i loebet af 2026), og har logget over 127 millioner autonome miles. Den eneste amerikanske operatoer med fuld kommerciel foererloes drift i stor skala. Apollo Go (Baidu): over 20 millioner ture kumulativt frem til februar 2026, toppede over ca. 350.000 ugentlige foererloese ture i marts 2026 paa tvaers af 27+ byer, og gik internationalt i 2026 (Dubai via Uber, Abu Dhabi, Seoul, en L4-tilladelse i Schweiz). Zoox (Amazon-ejet): fik amerikansk foederal godkendelse til begraenset kommerciel udrulning af sine robotaxier UDEN rat, hvilket baner vejen for betalte ture i Las Vegas; har allerede koert gratis ture i udvalgte omraader af Las Vegas og San Francisco under testfasen; maa udrulle op til 2.500 robotaxier om aaret over de naeste to aar, men koeretoejerne saelges ikke til private kunder. DEN EUROPAEISKE/DANSKE VINKEL: ingen af disse tre har betalt, kommerciel, foererloes drift i Europa eller Danmark i dag — det er en amerikansk og asiatisk historie. Skriv EKSPLICIT, at 'London/Wayve alene' er for tyndt som europaeisk modvaegt, naar der findes reel kommerciel drift andre steder — brug i stedet det brede billede: USA (Waymo, Zoox) og Kina (Apollo Go) er langt foran; Europa, inkl. Danmark, tester stadig med sikkerhedsfoerer eller i begraensede zoner.\n\n3) XIAOMI — TYPEGODKENDELSE FOER ANMELDELSE. Xiaomi har sat 2027 som sit officielle lanceringsaar i Europa (bekraeftet af flere kilder, bl.a. Xiaomis egen praesident der testkoerte SU7 Ultra gennem Tyskland). Som af juli 2026 saelger Xiaomi sine biler UDELUKKENDE i Kina — der findes intet officielt forhandlernetvaerk uden for hjemmemarkedet. Enkelte SU7-, SU7 Ultra- og YU7-eksemplarer gennemgaar dog allerede INDIVIDUEL EU-godkendelse (en saerlig importordning for enkeltbiler, IKKE fuld typegodkendelse for masseproduktion) og ankommer med europaeiske papirer til kunder, der specifikt bestiller dem den vej. Prototyper af den opdaterede SU7 er observeret i Europa, senest i Frankrig, Polen og Holland. STRENGT: skriv IKKE at Xiaomi er 'paa vej til Danmark' i nogen konkret forstand — pointen er netop, at der IKKE findes officiel typegodkendelse eller et dansk forhandlernetvaerk endnu, kun spredte individuelt importerede eksemplarer og en plan om 2027.\n\n4) FASTSTOF-BATTERIER — SEMI-SOLID ER IKKE SOLID-STATE-HYPEN. En 2026-status ('The 2026 Battery Scorecard'): syv virksomheder har tilsammen investeret over 10 milliarder dollars i solid-state-batteriteknologi, og PR. MARTS 2026 findes der NUL (0) fuldt solid-state-celler i kunders koeretoejer globalt. Den eneste virksomhed, der reelt leverer noget til kunder, er NIO, med et 150 kWh SEMI-solid-state batteripakke (bruger en gel-type elektrolyt, der erstatter det meste, men ikke al, den flydende elektrolyt) — energitaethed ca. 360 Wh/kg, og en ET7-bil koerte 1.070 km paa én opladning. Tilgaengelig nu via NIOs batteribytte-stationer. Forskellen: en SEMI-solid-celle beholder en lille maengde flydende elektrolyt blandet i en gel/pasta; en FULD solid-state-celle fjerner det flydende element helt og bruger kun faste stoffer (sulfid-, oxid- eller polymerbaserede). Konklusion fra kilden: teknologien virker i pilotskala, men ingen virksomhed har loest udfordringen med at skalere produktionen efter deres oprindelige planer. STRENGT: skriv IKKE at 'solid-state kommer snart til almindelige biler' — nul biler har det pr. marts 2026, kun semi-solid findes i produktion.\n\n5) KILOMETERAFGIFT — DER FINDES INGEN VEDTAGET LOV. Kilometerafgift/koerselsafgift er politisk diskuteret i Danmark, men INTET er vedtaget som en landsdaekkende ordning — kun forsoegsprojekter findes. DET, DER FAKTISK SKETE I STEDET FOR 2026: Folketinget (regeringen og De Konservative) besluttede at fastholde registreringsafgiften for elbiler paa 2025-niveau i endnu et aar, i stedet for den oprindeligt planlagte staerkere beskatning. Den oprindelige aftale fra 2021 skulle have saenket bundfradragsgraensen for elbiler fra omkring 419.000 kr. til 366.000 kr. i 2026 — det blev udskudt for at give plads til en politisk loesning, der passer bedre til de nuvaerende oekonomiske forhold. En hurtigtarbejdende ekspertgruppe/-kommission skal finde en mere langsigtet loesning og afrapportere i anden halvdel af 2026. SAMTIDIG saenkes elafgiften markant: fra 90 oere/kWh til ca. 1 oere/kWh (inkl. moms, ca. 0,8 oere ekskl. moms) — gaeldende fra 1. januar 2026 og de naeste to aar (2026-2027), for AL elektricitet, ikke kun elbilopladning specifikt, men markedsfoert kraftigt mod elbil- og varmepumpeejere. Det betyder, at den oekonomiske gevinst ved separate elafgiftsrefusion-ordninger (som mange elbilejere har haft via abonnementer) forsvinder, fordi selve afgiften naesten er vaek. VINKLEN FOR ARTIKLEN (jf. briefets 'mekanisme foer kr./km'): der findes INGEN kilometerafgift-mekanisme at forklare endnu i Danmark — den mest aerlige artikel forklarer, HVORFOR der ikke er nogen (politisk uenighed, forsoegsprojekter, ingen vedtaget lov), og hvad der faktisk skete i stedet (afgiftsfrysning + elafgiftsnedsaettelse). Opfind IKKE et kr./km-tal — det findes ikke.\n\n6) VINTER OG WLTP. ADAC testede 14 populaere familie-elbiler under vinterforhold — alle havde en WLTP-raekkevidde paa mindst 500 km, men INGEN kunne gennemfoere den simulerede 582 km lange motorvejsrute (München-Berlin) uden at lade undervejs. Testen foregik ved konstant 0 grader i et laboratorium. I gennemsnit mister elbiler omkring 30 procent af deres WLTP-raekkevidde om vinteren — en bil med 500 km WLTP kan altsaa ende omkring 350 km i praksis. I ekstreme testbetingelser (ned til minus 31 grader) mistede flere biler over 40 procent af den lovede raekkevidde. Noeglefund: det er IKKE batteriets stoerrelse, der afgoer vinterraekkevidden, men stroemforbruget (kabinevarme, daektryk, koereform mv.). STRENGT: brug kun de generelle procentsatser (ca. 30% gennemsnit, over 40% i ekstremkulde) — opfind ikke konkrete modelspecifikke procenttal, medmindre de er direkte fra denne research.\n\nSTRENGT FORBUDT GENERELT: opfundne adresser (fx en konkret 600 kW-ladestander-adresse der er i drift), opfundne kr./km-satser for kilometerafgift, opfundne danske Xiaomi-priser eller leveringsdatoer, og opfundne procenttal for vinterraekkevidde ud over de to naevnt ovenfor. Rygteboersen (fast format) maa vaere spekulativ i tone, men INGEN nye konkrete faktapaastande. mustCite jf. husreglen: 1-2 for features med pris/raekkevidde/ladeeffekt eller navngivne projekter, 2 for robotaxi og Kort & Watt, 0 for rygteboers og essay.",
   "opgaver": [
     {
       "slug": "leder",
       "order": 1,
       "section": "Leder",
       "brief": {
-        "angle": "Watt-hverdagen, køen og det næste lag.",
+        "angle": "Chefredaktionens leder. Køen (ladeinfrastruktur under pres), kulden (vinterrækkevidde) og det næste lag watt (600 kW, faststof). Aaben note om afpubliceringen 2026-08-08.",
         "words": [
-          100,
-          300
+          180,
+          320
         ],
         "mustCite": 0,
         "format": "leder"
@@ -30,15 +32,15 @@
         "fallback": null
       },
       "receipt": {
-        "words": 180,
+        "words": 196,
         "costUSD": null,
         "draft": null
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
+        "status": "rewritten-by-editor",
+        "checkedAt": "2026-08-19",
         "citations": 0,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "editorNote": "Chefredaktionens egen leder. writer.model 'editor-led', ingen byline, ingen kvittering."
       }
     },
     {
@@ -46,29 +48,34 @@
       "order": 2,
       "section": "Teknologi",
       "brief": {
-        "angle": "Status uden opdigtet adresse — tre krav før ‘første’.",
+        "angle": "600 kW i Danmark, aerligt fortalt. IONITY har aktiveret sine foerste offentlige 600 kW-ladere i Sorgues i Sydfrankrig (motorvej A7) — IKKE i Danmark, som i dag maa noejes med 350 kW de fleste steder. Men Clever (med Andel) ruller nu 1.000 kW-ladere ud, der kan levere op til 600 kW til én bil — foerste skridt er et pilotprojekt med 16 udtag i Storkoebenhavn, forventet i drift inden udgangen af 2026, med 10-80% opladning paa omkring 12 minutter for flere biler. Fra 2027 bliver 1.000 kW standard paa de fleste nye Clever-lynladestationer. Naevn ogsaa Clevers 11 nye lynladestationer (208 udtag i alt) langs de mest trafikerede motorveje som en separat, almindelig udbygning — hold det tydeligt adskilt fra 600 kW-historien. Vinklen, briefet kraever: DER FINDES INGEN dokumenteret, driftsklar 600 kW-adresse til en privatbil i Danmark endnu. Skriv det som 'paa vej' med et konkret tidspunkt (inden udgangen af 2026, 16 udtag, Storkoebenhavn), ikke som en adresse man kan koere hen til i dag. TRE KRAV FOER 'foerste' kan skrives: (1) udtaget skal reelt vaere i drift, ikke annonceret, (2) det skal kunne levere 600 kW til en enkelt bil, ikke kun det samlede anlaeg, (3) det skal vaere offentligt tilgaengeligt, ikke et testanlaeg. Ingen af de tre er opfyldt endnu.",
         "words": [
-          200,
-          650
+          350,
+          550
         ],
-        "mustCite": 0,
-        "format": "feature"
+        "mustCite": 1,
+        "format": "feature",
+        "mustNumber": [
+          "Clever-pilot: 16 udtag, Storkøbenhavn, inden udgangen af 2026",
+          "IONITY 600 kW: Sorgues, Sydfrankrig, ikke Danmark"
+        ]
       },
       "writer": {
-        "byline": null,
-        "model": "editor-led",
-        "fallback": "deepseek/deepseek-v3.2"
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "anthropic/claude-opus-4.8"
       },
       "receipt": {
-        "words": 303,
-        "costUSD": null,
-        "draft": null
+        "words": 443,
+        "costUSD": 0.027786,
+        "draft": "kladder/02-600kw-danmark.md",
+        "costRouting": "byok"
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
-        "citations": 0,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-19",
+        "citations": 1,
+        "editorNote": "REELT kommissioneret. IONITY Sorgues (Frankrig, ikke DK) og Clever/Andel-pilotens tal (16 udtag, Storkøbenhavn, inden udgangen af 2026, 10-80% på ca. 12 min.) korrekt gengivet og adskilt fra de 11 nye almindelige lynladestationer. De tre krav før 'først' bæres tydeligt igennem, som briefet krævede."
       }
     },
     {
@@ -76,29 +83,35 @@
       "order": 3,
       "section": "Teknologi",
       "brief": {
-        "angle": "Waymo, Apollo Go, Zoox — og den danske vinkel.",
+        "angle": "Robotaxi — globale projekter og den europaeiske vinkel. Waymo: ca. 500.000 ugentlige betalte ture paa tvaers af omkring 10-11 amerikanske byer (inkl. San Francisco, Phoenix, Los Angeles, Austin m.fl., samt nye byer som San Diego, Las Vegas, Tampa, Denver tilfoejet i 2026), over 127 millioner autonome miles koert — den eneste amerikanske operatoer med fuld kommerciel foererloes drift i stor skala. Apollo Go (Baidu): over 20 millioner ture kumulativt frem til februar 2026, toppede over ca. 350.000 ugentlige foererloese ture i marts 2026 paa tvaers af 27+ kinesiske byer, og gik internationalt i 2026 (Dubai via Uber, Abu Dhabi, Seoul, en L4-tilladelse i Schweiz). Zoox (Amazon): fik amerikansk foederal godkendelse til begraenset kommerciel udrulning af robotaxier UDEN rat, baner vejen for betalte ture i Las Vegas efter en periode med gratis testture i Las Vegas og San Francisco; maa udrulle op til 2.500 robotaxier om aaret over de naeste to aar, saelges ikke til private. DEN EUROPAEISKE/DANSKE VINKEL, som er artiklens pointe: ingen af disse tre har betalt, kommerciel, foererloes drift i Europa eller Danmark i dag. Skriv EKSPLICIT, at et enkelt europaeisk eksempel alene (fx London/Wayve) er for tyndt som modvaegt, naar USA og Kina allerede har reel skala — brug i stedet det brede billede: USA og Kina er langt foran, Europa (inkl. Danmark) tester stadig med sikkerhedsfoerer eller i begraensede zoner. STRENGT: ingen opfundne danske pilotprojekter eller myndighedstilladelser — vi har ikke kildebelaeg for det.",
         "words": [
-          200,
+          400,
           650
         ],
         "mustCite": 2,
-        "format": "feature"
+        "format": "feature",
+        "mustNumber": [
+          "Waymo: ca. 500.000 ugentlige ture, 127 mio. miles",
+          "Apollo Go: 20 mio. ture kumulativt (feb. 2026)",
+          "Zoox: op til 2.500 robotaxier/år, ikke til privat salg"
+        ]
       },
       "writer": {
-        "byline": null,
-        "model": "editor-led",
-        "fallback": "deepseek/deepseek-v3.2"
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "anthropic/claude-sonnet-5"
       },
       "receipt": {
-        "words": 532,
-        "costUSD": null,
-        "draft": null
+        "words": 497,
+        "costUSD": 0.027392,
+        "draft": "kladder/03-robotaxi.md",
+        "costRouting": "byok"
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-19",
         "citations": 2,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "editorNote": "REELT kommissioneret PÅ FALLBACK-MODELLEN (anthropic/claude-sonnet-5), brugt præventivt efter gentagne 402'ere på Opus samme dag i andre numre. Waymo/Apollo Go/Zoox-tallene korrekt gengivet. Redaktionelt: fodnote 2 (Baidu) rettede fra en ikke-opløselig ir.baidu.com til apollo.auto, som er den faktisk verificerede kilde."
       }
     },
     {
@@ -106,29 +119,34 @@
       "order": 4,
       "section": "Teknologi",
       "brief": {
-        "angle": "Typegodkendelse før anmeldelse.",
+        "angle": "Xiaomi — typegodkendelse foer anmeldelse. Xiaomi har sat 2027 som officielt lanceringsaar i Europa. Som af juli 2026 saelger Xiaomi udelukkende i Kina — intet officielt forhandlernetvaerk uden for hjemmemarkedet. Enkelte SU7-, SU7 Ultra- og YU7-eksemplarer gennemgaar allerede INDIVIDUEL EU-godkendelse (en saerlig importordning for enkeltbiler, IKKE fuld typegodkendelse for masseproduktion) og ankommer med europaeiske papirer til kunder, der specifikt bestiller den vej. Prototyper af den opdaterede SU7 er observeret i Europa (senest Frankrig, Polen, Holland). Vinklen, som briefet kraever: skriv IKKE at Xiaomi er 'paa vej til Danmark' i nogen konkret forstand. Pointen er, at der IKKE findes officiel typegodkendelse eller et dansk/europaeisk forhandlernetvaerk endnu — kun spredte, individuelt importerede eksemplarer og en plan om 2027. Forklar forskellen mellem individuel godkendelse (enkelteksemplarer, dyrere, besvaerligt) og fuld typegodkendelse (masseproduktion, standardvejen for et bilmaerkes lancering) kort i broedteksten.",
         "words": [
-          200,
-          650
+          300,
+          500
         ],
-        "mustCite": 0,
-        "format": "feature"
+        "mustCite": 1,
+        "format": "feature",
+        "mustNumber": [
+          "Officiel Europa-lancering: 2027",
+          "juli 2026: ingen forhandlernetvaerk uden for Kina"
+        ]
       },
       "writer": {
-        "byline": null,
-        "model": "editor-led",
-        "fallback": "deepseek/deepseek-v3.2"
+        "byline": "GPT-5.6 Terra (OpenAI)",
+        "model": "openai/gpt-5.6-terra",
+        "fallback": "anthropic/claude-sonnet-5"
       },
       "receipt": {
-        "words": 208,
-        "costUSD": null,
-        "draft": null
+        "words": 347,
+        "costUSD": 0.02375,
+        "draft": "kladder/04-xiaomi-status.md",
+        "costRouting": "direct"
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
-        "citations": 0,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-19",
+        "citations": 1,
+        "editorNote": "REELT kommissioneret. 2027-lanceringsplanen, det manglende forhandlernetværk og skellet mellem individuel godkendelse og fuld typegodkendelse korrekt forklaret. FODNOTE RETTET: kladdens Reuters-URL svarede DEAD 401 i check_links.py (ikke på den kendte bot-block-liste 403/406/429) — erstattet med CNBC og Autocar, begge verificeret 200, som dækker samme faktuelle claim (2027-lancering, showrooms, lokal produktion under overvejelse)."
       }
     },
     {
@@ -136,29 +154,35 @@
       "order": 5,
       "section": "Teknologi",
       "brief": {
-        "angle": "Semi-solid ≠ solid-state-hype.",
+        "angle": "Faststof-batterier — semi-solid er ikke solid-state-hypen. Pr. marts 2026 har syv virksomheder investeret over 10 milliarder dollars i solid-state-batteriteknologi, og der findes NUL fuldt solid-state-celler i kunders koeretoejer globalt. Den eneste virksomhed, der reelt leverer noget til kunder, er NIO, med et 150 kWh SEMI-solid-state batteripakke (gel-type elektrolyt, der erstatter det meste, men ikke al, den flydende elektrolyt) — energitaethed ca. 360 Wh/kg, en ET7-bil koerte 1.070 km paa én opladning, tilgaengelig nu via NIOs batteribytte-stationer. Forklar forskellen praecist: en SEMI-solid-celle beholder en lille maengde flydende elektrolyt i en gel/pasta; en FULD solid-state-celle fjerner det flydende element helt. Konklusionen fra researchen: teknologien virker i pilotskala, men ingen virksomhed har loest udfordringen med at skalere produktionen efter de oprindelige planer. STRENGT: skriv IKKE at 'solid-state kommer snart til almindelige biler' — nul biler har det pr. marts 2026, kun semi-solid findes reelt i produktion. Forklar 'elektrolyt' kort i broedteksten foerste gang.",
         "words": [
-          200,
-          650
+          300,
+          500
         ],
-        "mustCite": 0,
-        "format": "feature"
+        "mustCite": 1,
+        "format": "feature",
+        "mustNumber": [
+          "7 selskaber, 10+ mia. USD investeret",
+          "0 fuldt solid-state-celler i kundebiler (marts 2026)",
+          "NIO: 150 kWh semi-solid, 1.070 km/opladning"
+        ]
       },
       "writer": {
-        "byline": null,
-        "model": "editor-led",
-        "fallback": "deepseek/deepseek-v3.2"
+        "byline": "Gemini 3.1 Pro Preview (Google)",
+        "model": "google/gemini-3.1-pro-preview",
+        "fallback": "anthropic/claude-sonnet-5"
       },
       "receipt": {
-        "words": 224,
-        "costUSD": null,
-        "draft": null
+        "words": 362,
+        "costUSD": 0.0374,
+        "draft": "kladder/05-faststof.md",
+        "costRouting": "byok"
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
-        "citations": 0,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-19",
+        "citations": 1,
+        "editorNote": "REELT kommissioneret. FAKTAFEJL FANGET OG RETTET: kladdens fodnote citerede en Reuters-artikel fra 18. december 2023 om at NIO 'tester' et 1.000 km-batteri — en forkert, forældet kilde, der ikke matcher de faktiske 2026-tal i briefet (150 kWh, 360 Wh/kg, 1.070 km, ET7). Erstattet med den faktisk anvendte kilde (liveinthefuture.org's 2026-scorecard), som indeholder de korrekte tal."
       }
     },
     {
@@ -166,29 +190,35 @@
       "order": 6,
       "section": "Politik & afgifter",
       "brief": {
-        "angle": "Mekanisme før kr./km.",
+        "angle": "Kilometerafgift — mekanisme foer kr./km, og den aerlige historie er, at mekanismen ikke findes endnu. Der er INTET vedtaget som landsdaekkende kilometerafgift/koerselsafgift i Danmark — kun politisk diskussion og forsoegsprojekter. Skriv det klart og tidligt i artiklen, saa laeseren ikke leder efter et kr./km-tal, der ikke findes. Fortael i stedet, HVAD DER FAKTISK SKETE i stedet for 2026: Folketinget (regeringen og De Konservative) besluttede at fastholde registreringsafgiften for elbiler paa 2025-niveau i endnu et aar, i stedet for den oprindeligt planlagte staerkere beskatning. Den oprindelige aftale fra 2021 skulle have saenket bundfradragsgraensen for elbiler fra omkring 419.000 kr. til 366.000 kr. i 2026 — det er udskudt, mens en hurtigtarbejdende ekspertgruppe/-kommission skal finde en mere langsigtet loesning og afrapportere i anden halvdel af 2026. SAMTIDIG saenkes elafgiften markant: fra 90 oere/kWh til ca. 1 oere/kWh (inkl. moms), gaeldende fra 1. januar 2026 i to aar (2026-2027), for al elektricitet — hvilket ogsaa betyder, at den oekonomiske gevinst ved separate elafgiftsrefusion-abonnementer, mange elbilejere har haft, forsvinder, fordi selve afgiften naesten er vaek. Land artiklen paa: mens politikerne diskuterer en mekanisme, der endnu ikke findes (kilometerafgift), aendrede de faktisk noget helt andet og mere konkret (afgiftsfrysning + elafgiftsnedsaettelse) — det er den rigtige historie for 2026, ikke en opfundet kr./km-sats.",
         "words": [
-          200,
-          650
+          300,
+          500
         ],
-        "mustCite": 0,
-        "format": "feature"
+        "mustCite": 1,
+        "format": "feature",
+        "mustNumber": [
+          "Ingen vedtaget kilometerafgift-lov",
+          "elafgift: 90 øre → ca. 1 øre/kWh fra 1. januar 2026",
+          "registreringsafgift fastholdt på 2025-niveau"
+        ]
       },
       "writer": {
-        "byline": null,
-        "model": "editor-led",
-        "fallback": "deepseek/deepseek-v3.2"
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "anthropic/claude-opus-4.8"
       },
       "receipt": {
-        "words": 203,
-        "costUSD": null,
-        "draft": null
+        "words": 412,
+        "costUSD": 0.025398,
+        "draft": "kladder/06-kilometerafgift.md",
+        "costRouting": "byok"
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
-        "citations": 0,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-19",
+        "citations": 1,
+        "editorNote": "REELT kommissioneret. Hovedpointen — at der ikke findes nogen vedtaget kilometerafgift — bæres tydeligt fra første linje. Redaktionelt: de to vage fodnoter ('skm.dk', 'ft.dk') erstattet af den faktiske researchkilde (FDM), efter notesbogens egen læring om at skm.dk er en forældet URL (flyttet til svmn.dk)."
       }
     },
     {
@@ -196,29 +226,34 @@
       "order": 7,
       "section": "Køretest",
       "brief": {
-        "angle": "WLTP er ikke januar.",
+        "angle": "WLTP er ikke januar. Byg artiklen paa ADACs vintertest af 14 populaere familie-elbiler: alle havde en WLTP-raekkevidde paa mindst 500 km, men INGEN kunne gennemfoere den simulerede 582 km lange motorvejsrute (München-Berlin) uden at lade undervejs. Testen foregik ved konstant 0 grader i et laboratorium. I gennemsnit mister elbiler omkring 30 procent af deres WLTP-raekkevidde om vinteren — en bil med 500 km WLTP kan altsaa ende omkring 350 km i praksis. I ekstreme testbetingelser (ned til minus 31 grader) mistede flere biler over 40 procent af den lovede raekkevidde. Noeglepointen, artiklen skal lande: det er IKKE batteriets stoerrelse, der afgoer vinterraekkevidden, men stroemforbruget — kabinevarme, daektryk, koereform. Forklar WLTP (Worldwide Harmonised Light Vehicle Test Procedure — den officielle EU-testcyklus for raekkevidde og forbrug) kort foerste gang, og hvorfor den maales under forhold, der ikke ligner en dansk januar-motorvejstur. STRENGT: brug kun de to procenttal ovenfor (ca. 30% gennemsnit, over 40% i ekstremkulde) — opfind ikke modelspecifikke procenttal.",
         "words": [
-          200,
-          650
+          300,
+          500
         ],
         "mustCite": 1,
-        "format": "feature"
+        "format": "feature",
+        "mustNumber": [
+          "ADAC: 14 biler, alle ≥500 km WLTP, ingen gennemførte 582 km uden ladning",
+          "gennemsnitligt tab ca. 30%, ekstremkulde over 40%"
+        ]
       },
       "writer": {
-        "byline": null,
-        "model": "editor-led",
-        "fallback": "google/gemini-3.5-flash"
+        "byline": "Gemini 3.1 Pro Preview (Google)",
+        "model": "google/gemini-3.1-pro-preview",
+        "fallback": "anthropic/claude-sonnet-5"
       },
       "receipt": {
-        "words": 264,
-        "costUSD": null,
-        "draft": null
+        "words": 414,
+        "costUSD": 0.0532,
+        "draft": "kladder/07-vinter-elbil.md",
+        "costRouting": "byok"
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-19",
         "citations": 1,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "editorNote": "REELT kommissioneret. ADAC-tallene (14 biler, alle ≥500 km WLTP, 582 km simuleret rute, 0 grader, ingen gennemførte uden ladning, ca. 30% gennemsnitligt tab, over 40% i ekstremkulde) korrekt gengivet med den rigtige pointe om strømforbrug frem for batteristørrelse. Fodnote suppleret med FDMs dækning af samme test som sekundær, dansk kilde."
       }
     },
     {
@@ -226,29 +261,30 @@
       "order": 8,
       "section": "Kort & Watt",
       "brief": {
-        "angle": "Andel, effekt, kø.",
+        "angle": "SPÆNDINGs faste korte rubrik: to-tre korte nedslag med tal — andel (fx andel af nybilsalg der er elbiler, hvis kildebelagt fra research), effekt (ladeeffekt-udviklingen: 350→600→1.000 kW som ramme, jf. 600kW-artiklen) og koe (den danske ladekoe-problematik i overordnede, ikke-opfundne termer). Genbrug KUN tal, der allerede er etableret i nummerets andre artikler (Clever-pilotens 16 udtag, 1.000 kW-standarden fra 2027, ADACs vintertab-procenter) — opfind ingen nye tal her.",
         "words": [
-          100,
+          150,
           300
         ],
         "mustCite": 2,
         "format": "kort"
       },
       "writer": {
-        "byline": null,
-        "model": "editor-led",
-        "fallback": "deepseek/deepseek-v3.2"
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "anthropic/claude-opus-4.8"
       },
       "receipt": {
-        "words": 185,
-        "costUSD": null,
-        "draft": null
+        "words": 264,
+        "costUSD": 0.027454,
+        "draft": "kladder/08-kort-og-watt.md",
+        "costRouting": "byok"
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-19",
         "citations": 2,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "editorNote": "REELT kommissioneret. Kun genbrugte tal fra nummerets øvrige artikler, som briefet krævede. FAKTAFEJL FANGET OG RETTET: kladdens fodnote 1 pegede på 'bilimportoererne.dk', som ikke opløser (DNS-fejl) — den rigtige adresse er mobility.dk, jf. notesbogens egen læring om De Danske Bilimportørers omdøbning til Mobility Denmark."
       }
     },
     {
@@ -256,29 +292,30 @@
       "order": 9,
       "section": "Essay",
       "brief": {
-        "angle": "Når dieselduften er væk.",
+        "angle": "Essay: naar dieselduften er vaek. Et kort, personligt/reflekterende essay om overgangen fra forbraendingsmotor til elbil som SANSEOPLEVELSE — lyden, lugten, vibrationen der forsvinder, og hvad der kommer i stedet (stilhed, en anden slags naervaer med vejen). Ingen tal, ingen kildekrav — det er en stemning, ikke en analyse. Undgaa klicheer om 'fremtiden er elektrisk'; find en konkret, sanselig detalje at haenge essayet op paa.",
         "words": [
-          100,
-          300
+          200,
+          350
         ],
         "mustCite": 0,
         "format": "essay"
       },
       "writer": {
-        "byline": null,
-        "model": "editor-led",
-        "fallback": "deepseek/deepseek-v3.2"
+        "byline": "GPT-5.6 Terra (OpenAI)",
+        "model": "openai/gpt-5.6-terra",
+        "fallback": "anthropic/claude-sonnet-5"
       },
       "receipt": {
-        "words": 156,
-        "costUSD": null,
-        "draft": null
+        "words": 266,
+        "costUSD": 0.009388,
+        "draft": "kladder/09-essay.md",
+        "costRouting": "direct"
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-19",
         "citations": 0,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "editorNote": "REELT kommissioneret. Ingen tal, som formatet kræver — en sanselig, ikke-analytisk tekst."
       }
     },
     {
@@ -286,31 +323,31 @@
       "order": 10,
       "section": "Rygtebørsen",
       "brief": {
-        "angle": "Spekulativt.",
+        "angle": "SPÆNDINGs faste rygteboers: 3-4 spekulative, letbenede rygter/spaekulationer fra elbilbranchen, tydeligt maerket som spekulation, ingen nye konkrete faktapaastande om navngivne kommende modeller eller priser, som vi ikke har kildebelaeg for. Kort og med et glimt i oejet. Ordbudget 250-450 per notesbogens egen laering fra nr. 2 (rygteboersen der forklarer forkortelser undervejs er ikke en rygteboers).",
         "words": [
-          100,
-          300
+          250,
+          450
         ],
         "mustCite": 0,
         "format": "rygteboersen"
       },
       "writer": {
-        "byline": null,
-        "model": "editor-led",
-        "fallback": "deepseek/deepseek-v3.2"
+        "byline": "GPT-5.6 Terra (OpenAI)",
+        "model": "openai/gpt-5.6-terra",
+        "fallback": "anthropic/claude-sonnet-5"
       },
       "receipt": {
-        "words": 90,
-        "costUSD": null,
-        "draft": null
+        "words": 386,
+        "costUSD": 0.01174,
+        "draft": "kladder/10-rygteboersen.md",
+        "costRouting": "direct"
       },
       "verdict": {
-        "status": null,
-        "checkedAt": null,
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-19",
         "citations": 0,
-        "editorNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+        "editorNote": "REELT kommissioneret. Tydeligt mærket som spekulation, ingen navngivne kommende modeller eller opfundne priser."
       }
     }
-  ],
-  "integrityNote": "Afpubliceret 2026-08-08: byline fjernet, fordi den krediterede en model, der ikke havde skrevet teksten (ingen kladde, intet forbrug). Verdikt nulstillet — der har aldrig været en kladde at bedømme. Skal produceres forfra."
+  ]
 }

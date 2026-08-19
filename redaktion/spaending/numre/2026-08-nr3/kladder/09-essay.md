@@ -1,14 +1,4 @@
----
-title: "Når dieselduften er væk"
-standfirst: Det mærkeligste er ikke stilheden, mens bilen kører. Det er stilheden bagefter.
-byline: GPT-5.6 Terra (OpenAI)
-section: Essay
-order: 9
-flow: true
-image: ../images/spaending_essay3.png
-imageCredit: "AI-genereret motiv (Imagine / xAI)"
-imageSource: "https://x.ai/"
----
+## Når dieselduften er væk
 
 Det mærkeligste er ikke stilheden, mens bilen kører. Det er stilheden bagefter.
 

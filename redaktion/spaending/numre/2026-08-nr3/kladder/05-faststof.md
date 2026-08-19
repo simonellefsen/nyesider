@@ -1,0 +1,13 @@
+# Myten om mirakelbatteriet: Hvorfor "solid-state" lader vente på sig
+
+Pr. marts 2026 har syv af verdens største teknologivirksomheder og bilproducenter tilsammen investeret over 10 milliarder amerikanske dollars i udviklingen af solid-state-batterier. Alligevel er resultatet på de globale veje til at tage og føle på: Der findes præcis nul fuldt ud solid-state-celler i kundekøretøjer i dag. Løftet om en forestående revolution af Battery Electric Vehicles (BEV) med fordoblet rækkevidde og lynopladning har vist sig markant sværere at indfri end forventet.
+
+For at forstå forsinkelsen, må man se på kemien. I et traditionelt lithium-ion-batteri bevæger ionerne sig mellem anoden og katoden gennem en flydende elektrolyt – en kemisk væske, der fungerer som transportvej og leder strømmen. Målet med en ægte, fuld solid-state-celle er at fjerne dette flydende element 100 % og erstatte det helt med et fast materiale. Dette vil i teorien øge sikkerheden markant og tillade en langt højere energitæthed.
+
+Men laboratoriets teori er ikke virkelighedens vej. Mens hypen om fuld solid-state dominerer overskrifterne, er det vigtigt at understrege, at semi-solid *ikke* er det samme som ægte solid-state. En semi-solid-celle beholder en lille mængde flydende elektrolyt indlejret i en gel eller pasta, som erstatter det meste af væsken, men altså ikke det hele. 
+
+Den eneste virksomhed, der i dag reelt leverer noget til slutkunderne, er kinesiske NIO, og det er netop med semi-solid-teknologi. NIO har introduceret en 150 kilowatt-timer (kWh) semi-solid-state batteripakke med en energitæthed på cirka 360 Watt-timer per kilogram (Wh/kg). I praksis beviste teknologien sit værd, da en NIO ET7-model kørte imponerende 1.070 kilometer på én enkelt opladning.[^1] Denne batteripakke er tilgængelig nu for kunderne via NIOs netværk af batteribytte-stationer, hvor bilister i minutter kan skifte til det store batteri forud for lange ture.
+
+Konklusionen fra branchens seneste research er krystalklar: Fuld solid-state-teknologi virker i pilotskala, men ingen virksomhed har endnu løst den massive tekniske udfordring med at skalere produktionen op til massefremstilling efter de oprindelige, optimistiske planer. Ægte solid-state kommer ikke snart til almindelige biler. Indtil produktionsgåden er løst, er det den semi-faste gel, der definerer spydspidsen af elbilernes rækkevidde.
+
+[^1]: Reuters. (18. december 2023). "China's Nio tests 1,000-km range EV battery to ease range anxiety". Tilgængelig online: https://www.reuters.com/business/autos-transportation/chinas-nio-tests-1000-km-range-ev-battery-2023-12-18/

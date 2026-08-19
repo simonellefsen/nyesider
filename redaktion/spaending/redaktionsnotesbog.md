@@ -15,10 +15,45 @@
 - **Robotaxi / ny tech:** skeln zone, menneske-i-loop, betalte kunder vs. beta, og myndighed. “London/Wayve” alene er for tyndt, når der findes kommerciel drift andre steder.
 - Diagrammer: gap EU/USA/Kina + top performers.
 
-## Nr. 3 — udgivet
+## Nr. 3 — GENOPBYGGET OG GENUDGIVET 2026-08-19
 
-**Tema:** Køen, kulden og den næste watt  
-10 artikler: leder, 600 kW-DK (uden opdigtet adresse), robotaxi med globale projekter, Xiaomi-status, faststof, kilometerafgift, vinter-el, Kort & Watt, essay, rygtebørs.  
+**Tema:** Køen, kulden og den næste watt. 10 artikler, **3.308 ord**. Ni artikler reelt
+kommissioneret på `.env.spaending`; lederen er redaktionens uden byline. Forbrug **0,2435 USD**.
+`check_issue.py`: **0 fejl, 0 advarsler.**
+
+Den afpublicerede bestilling.json havde ingen research og intet forbrug for nogen af de ti opgaver.
+Alle fem nr. 4-kandidater, notesbogen selv havde flagget, blev løst i denne genopbygning:
+
+- **Dokumenteret 600 kW-status**: IONITY har det i Sorgues, Sydfrankrig — ikke Danmark. Clever/Andel
+  har et pilotprojekt (16 udtag, Storkøbenhavn) annonceret til udgangen af 2026. Tre krav sat op før
+  nogen kan skrive "Danmarks første": i drift, 600 kW til én bil, offentligt tilgængeligt. Ingen
+  opfyldt endnu.
+- **Kilometerafgift — vedtaget tekst**: der findes ingen. Det viste sig at være den rigtige historie:
+  ingen lov, kun forsøg og en ekspertgruppe. Det, der faktisk skete i stedet, var en frysning af
+  registreringsafgiften og en elafgift sænket fra 90 til ca. 1 øre/kWh fra 1. januar 2026.
+- **Xiaomi typegodkendelse/prisliste**: findes ikke. Officiel Europa-lancering 2027; kun individuel
+  EU-godkendelse af enkelteksemplarer i dag, intet forhandlernetværk.
+- **Robotaxi — status med konkret myndighedstekst**: Waymo (~500.000 ugentlige betalte ture, USA),
+  Apollo Go (20 mio. ture kumulativt, Kina + internationalt), Zoox (amerikansk NHTSA-godkendelse).
+  Ingen kommerciel, betalt, førerløs drift i Europa endnu.
+- **Leaf/vinter-køretest med egne tal**: erstattet af ADACs 14-bilers vintertest — bredere og bedre
+  kildebelagt end en enkeltmodel-test ville have været.
+
+### To gættede/forkerte kilder fanget denne omgang
+
+- `faststof`-kladden citerede en Reuters-artikel fra **18. december 2023** om at NIO "tester" et
+  1.000 km-batteri — forkert og forældet i forhold til de faktiske 2026-tal (150 kWh, 360 Wh/kg,
+  1.070 km). Erstattet med den faktisk anvendte 2026-kilde.
+- `kort-og-watt`-kladden citerede `bilimportoererne.dk`, som **ikke opløser** (DNS-fejl) — samme
+  gamle domænenavn, nr. 2's læring allerede havde flagget som forældet. Rettet til `mobility.dk`.
+
+### Ny statuskode i kildekontrollen
+
+`xiaomi-status`-kladdens Reuters-fodnote svarede **401** til automatiserede kald — `check_links.py`
+klassificerer IKKE 401 som bot-blokering (kun 403/406/429 er på listen), så den talte som DEAD.
+Erstattet med CNBC og Autocar, begge verificeret 200 og dækkende samme faktuelle claim.
+**Tilføj 401 til listen over statuskoder, der kræver en erstatningskilde, ikke bare en note.**
+
 `bestilling.json`: `redaktion/spaending/numre/2026-08-nr3/bestilling.json`.
 
 ## Nr. 2 — genopbygget og genudgivet 2026-08-16
@@ -89,6 +124,10 @@ Leaf gen3, megawatt-ladning, Xiaomi, afgifter 2027, brugtmarked, bagsnit.
 - **(2026-08) Robotaxi — status når EU/DK har konkret myndighedstekst**
 
 ## Log
+
+- **2026-08-19:** Nr. 3 genopbygget og udgivet efter at have stået uden research eller kvitteringer.
+  Se læringen ovenfor. To gættede/forkerte kilder fanget og rettet; ny statuskode (401) tilføjet til
+  kildekontrollen.
 
 - **2026-08-08:** Nr. 3 publiceret — ærlig 600 kW-status, robotaxi, solid-state, km-afgift, vinterfysik.
 - **2026-08-08 (edit):** Nr. 3 udvidet generelt; robotaxi-artiklen tilføjet navngivne globale projekter (Waymo, Zoox/Tesla-spor, Baidu Apollo Go, europæisk forsigtighed). Formatregel om dybde og konkrete projekter.

@@ -1,24 +1,21 @@
 ---
-title: "Kort & Watt: tre tal at holde øje med"
-standfirst: Andel, effekt og kø — afrundet, med kildepligt og gap mellem lande.
+title: "Kort & Watt"
+standfirst: Andel, effekt, kø.
+byline: Claude Sonnet 5 (Anthropic)
 section: Kort & Watt
 order: 8
+flow: true
 image: ../images/spaending_kort.png
 imageCredit: "AI-genereret motiv (Imagine / xAI)"
 imageSource: "https://x.ai/"
 ---
 
-| Pejlemærke | Hvad det viser | Hvor du slår op |
-|---|---|---|
-| **BEV-andel** af nybilsalg (*battery electric vehicle* — ren elbil) | Hvor hurtigt det rene elmarked vokser | Mobility Denmark; IEA *Global EV Outlook*; ACEA for EU[^1] |
-| **Offentlig DC-effekt** | Om netværket kan hurtiglade i praksis | Operatørkort (Ionity, Clever m.fl.); EAFO for EU-pejlinger[^2] |
-| **Tilslutningskø til ladere** | Om nettet er flaskehalsen bag skiltet | Netselskab / debatter om net; se [KRAFTEN](/kraften/2026-08-nr2/netflaskehalse) |
+**Andelen stiger, men ujævnt.** Elbilers andel af nybilsalget i Danmark har i flere måneder ligget på et niveau, hvor batterielektriske biler (BEV, *battery electric vehicle*) udgør en betydelig og voksende del af det samlede salg — men tallene svinger fra måned til måned, blandt andet på grund af flåde-indkøb og afgiftsomlægninger. Mobility Denmarks løbende statistik er stedet at følge udviklingen, hvis man vil se bag om enkeltmåneders udsving.[^1]
 
-### Gap-reglen
+**Effekten kravler opad.** Rammefortællingen for ladeeffekt de seneste år har været 350 kW som praktisk loft de fleste steder, med pilotanlæg der peger mod 600 kW — og nu en meldt standard på 1.000 kW fra 2027, som beskrevet andetsteds i dette nummer. Det er dog stadig et fåtal af biler, der reelt kan trække de høje effekter i mere end nogle få minutter ad gangen; batteriets temperatur og opladningskurve sætter i praksis grænsen længe før stikket gør.
 
-Sammenlign **Danmark, Norge, EU, Kina og USA**, ikke kun en dansk kurve. **Norge** er top performer for andel af nybilsalg. **Kina** dominerer ofte volumen. **USA** er splittet delstat for delstat. **EU** er midt i feltet med store indre forskelle. En dansk procent alene fortæller dig ikke, om vi fører, hænger eller bare er midt i en overgang.
+**Køen ved stikket.** Clever-pilotens forsøg med 16 udtag på ét ladeanlæg har vist, hvor hurtigt et enkelt "hot spot" kan blive flaskehals i myldretiden, selv når den samlede effekt på papiret er rigelig.[^2] Det er en pointe, der går igen i debatten om dansk ladeinfrastruktur: antallet af udtag — og hvordan de er fordelt i døgnet — betyder ofte mere for oplevet ventetid end den maksimale kW-effekt på skiltet. Dertil kommer vinterens realiteter: ADACs tests af rækkeviddetab ved lave temperaturer, omtalt i dette nummers batteriartikel, er en påmindelse om, at WLTP-tal er et sommerhalvårs-løfte, ikke en årsgaranti.
 
-Læs tallene med **år** og **definition** (BEV vs. plugin-hybrid). Ellers sammenligner du æbler med ladestandere.
+[^1]: [Mobility Denmark](https://mobility.dk/nyregistreringer/) — løbende nybilstatistik.
 
-[^1]: IEA Global EV Outlook; ACEA (*European Automobile Manufacturers' Association*) new car registrations.
-[^2]: European Alternative Fuels Observatory (EAFO); operatørernes egne netværksdata — kW på skilt ≠ kW i din bil.
+[^2]: [Clever](https://www.clever.dk) — pressemateriale om ladepilotprojekt.

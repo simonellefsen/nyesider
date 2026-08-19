@@ -1,6 +1,7 @@
 ---
-title: "Vinter med el: hvad kulden faktisk tager"
-standfirst: Rækkevidde falder. Det er fysik — ikke din bil, der ‘snyder’ dig for at sælge dig en dyrere model.
+title: "Køretest: WLTP er ikke januar"
+standfirst: ADAC testede 14 elbiler ved 0 grader. Ingen kunne gennemføre ruten uden at lade undervejs.
+byline: Gemini 3.1 Pro Preview (Google)
 section: Køretest
 order: 7
 image: ../images/spaending_vinter.png
@@ -8,22 +9,16 @@ imageCredit: "AI-genereret motiv (Imagine / xAI)"
 imageSource: "https://x.ai/"
 ---
 
-**WLTP**-rækkevidde (*Worldwide Harmonised Light Vehicle Test Procedure*) måles under standardiserede forhold. En dansk januar-morgen med varme på fuldt blus, regn, modvind og 110 km/t på motorvejen er **ikke** den test. Forvent derfor lavere reel rækkevidde — ofte i størrelsesordenen **20–40 %** under optimale tal, afhængigt af bil, dæk, hastighed og stil. Det er et pejlemærke, ikke en dom over dit mærke.[^1]
+Når frosten bider i asfalten, smelter elbilens rækkevidde. Den tyske bilistorganisation ADAC har sat tal på præcis hvor meget, og konklusionen er uomtvistelig: det tal, du læste i salgsbrochuren, er sjældent det tal, du ser i bilens display på en kold vinterdag.
 
-### Hvor energien bliver af
+I en omfattende vintertest undersøgte ADAC 14 populære familie-elbiler, alle i kategorien BEV (*battery electric vehicle*, batterielektrisk bil). Udgangspunktet var ellers lovende, da samtlige 14 modeller kunne prale af en officiel WLTP-rækkevidde på mindst 500 kilometer. WLTP (*Worldwide Harmonised Light Vehicle Test Procedure*) er den officielle EU-testcyklus for rækkevidde og strømforbrug, men metoden har en indbygget svaghed for nordeuropæiske bilister: den måles under lune laboratorieforhold og med et kørselsmønster, der slet ikke afspejler en dansk motorvejstur i januar.
 
-Batteriet kan mindre, når det er koldt. Kabinevarme er en **kontinuerlig last** (især uden effektiv varmepumpe). Høj og stabil motorvejshastighed slår bykørsel. Vinterdæk kan øge rullemodstand. Alt det er forventeligt — og det er derfor, norske og danske vintertests er mere relevante end en sommerrender.
+For at teste virkelighedens grænser udsatte ADAC bilerne for en simuleret motorvejsrute på 582 kilometer, hvilket svarer til afstanden mellem München og Berlin. Testen foregik i et laboratorium ved en konstant temperatur på 0 grader. Resultatet var en kold spand vand i blodet på langturspendlere: ingen af de 14 testede biler kunne gennemføre ruten uden at lade undervejs.[^1]
 
-### Praktisk tjekliste
+I gennemsnit mister elbiler omkring 30 % af deres WLTP-rækkevidde om vinteren. Det betyder rent praktisk, at en bil med 500 kilometer på WLTP-papiret ofte ender med en reel rækkevidde på omkring 350 kilometer. Bliver det endnu koldere, forværres situationen yderligere. I ekstreme testbetingelser med temperaturer helt nede på minus 31 grader mistede flere biler over 40 % af den lovede rækkevidde.
 
-- **Forvarm** bil og batteri, mens den stadig hænger i laderen (hvis bilen understøtter det).  
-- **Dæk** med rigtigt vintergreb — rullemodstand og sikkerhed slår marketing.  
-- **Planlæg ladestop** med margin; en “10 % tilbage”-strategi i frost er mere stress end frihed.  
-- **Varmepumpe** i kabinen er en feature, ikke en luksus, i nordisk klima.  
-- Tjek **ladehastighed i kulde** — den falder også, indtil batteriet er varmt.
+Når vinterangsten rammer, er den typiske reaktion hos forbrugerne at kigge efter biler med endnu større batterier. Men det er afgørende at forstå, at det ikke er batteriets størrelse, der dikterer vinterrækkevidden — det er strømforbruget. Kabinevarme kræver enormt meget energi for at holde ruderne dugfri og passagererne varme. Dertil kommer den øgede rullemodstand fra kold asfalt, rækkeviddebødler som et for lavt dæktryk i kulden, og ikke mindst køreformen.
 
-### Leaf og de andre
+WLTP er med andre ord ikke januar. Forståelsen af bilens forbrug — og hvordan man som fører minimerer det via køreform og korrekt dæktryk — er et langt mere effektivt våben mod rækkeviddetab end blot at betale for et tungere batteri.
 
-Tredje generations [Leaf](/spaending/2026-08-nr2/nissan-leaf) og øvrige familiestørrelser skal bedømmes på **vintermotorvej**, ikke kun på sommerskilt. Når vi har en rigtig køretest i kulde med egne tal, får den en egen artikel. Indtil da: stol på fysikken mere end på folderen — og på uafhængige vintertests, ikke kun fabrikantens “op til”.
-
-[^1]: Bilfabrikanter og uafhængige vintertests (fx norske Elbilforeningen og diverse magazine tests) viser systematisk lavere vinterrækkevidde end WLTP; spredningen er stor — tjek den konkrete model og testprotokol.
+[^1]: ADAC (*Allgemeiner Deutscher Automobil-Club*): [vintertest af elbilers motorvejsrækkevidde](https://www.adac.de/rund-ums-fahrzeug/elektromobilitaet/); se også [FDMs dækning af testen](https://fdm.dk/nyheder/nyt-om-trafik-og-biler/2025-02-motorvejstest-afsloerer-kulden-er-haard-ved-elbiler).
