@@ -1,0 +1,283 @@
+{
+  "magazine": "indeni",
+  "issue": "2026-08-nr3",
+  "issueTheme": "Fjernvarmen — rørene under fortovet",
+  "integrityNote": "Nyt nummer, produceret 2026-08-19. Ingen tidligere fabrikeret udgave at rette op på — bygget fra bunden med research forud for hver brief, på .env.indeni. mustCite sat efter research var læst. SVG-diagrammet er egenproduceret (figur-fjernvarme-kredslob.svg), jf. INDENIs faste format.",
+  "budget": {
+    "articles": 8,
+    "wordsPerArticle": [
+      300,
+      600
+    ],
+    "targetPages": 12,
+    "note": "Turen, Maskinen, Kredsløbet, Europa, Tallet, Påstandskontoret, Diagrammet — INDENIs faste format, denne gang om fjernvarme."
+  },
+  "researchNote": "ADVARSEL: dette felt naar ALDRIG frem til modellen — kun brief.angle goer. Kontrolleret 2026-08-19. Nyt nummer: fjernvarmen — roerene under fortovet.\n\n1) DANSK FJERNVARME — TALLENE. Kilde: Danmarks Statistik, gengivet af Dansk Fjernvarme/installator.dk. Pr. 1. januar 2025 var 1.982.623 boliger tilsluttet fjernvarmenettet i Danmark, op fra 1.933.141 aaret foer (1. januar 2024) — en stigning paa 49.482 boliger i loebet af 2024. Politisk chef i Dansk Fjernvarme, Rune Moesgaard, kaldte det «danskernes absolutte foretrukne valg, den fremtidssikre groenne loesning». MEN: vaeksten bremser. I 2024 blev der kun indsendt forslag om konvertering af 27.000 husstande til fjernvarme, mod 50.000 i hvert af de to foregaaende aar — et fald paa mere end det halve. STRENGT: brug IKKE en praecis samlet procentandel af ALLE danske husstande (fx '69%') medmindre det kan genfindes i en primaerkilde — de tal, der ER kildebelagt her, er de absolutte boligtal og tilvaekst-/serviceringstallene, brug dem.\n\n2) AMAGER BAKKE / COPENHILL (KOEBENHAVN) — DET DANSKE EKSEMPEL TIL EUROPA-RUBRIKKEN. Affaldsforbraendingsanlaeg med skibakke og klatrevaeg paa taget, tegnet af BIG (Bjarke Ingels Group). Kan behandle over 400.000 tons ikke-genanvendeligt affald om aaret, fordelt paa to forbraendingslinjer paa hver op til 42 tons affald i timen. Producerer 157-247 MW fjernvarme (afhaengigt af lokal varmeefterspoergsel og elpris) og 0-63 MW elektricitet. Per ton affald: 2,7 MWh fjernvarme og 0,8 MWh lavemissions-elektricitet. Leverer fjernvarme til 160.000 husstande og elektricitet til 62.500 boliger, i doegndrift.\n\n3) SPITTELAU (WIEN, OESTRIG) — DET EUROPAEISKE SAMMENLIGNINGSEKSEMPEL. Ikonisk affaldsforbraendingsanlaeg tegnet af kunstneren Friedensreich Hundertwasser, i drift siden 1971 (genopbygget efter brand i 1989). Kan behandle op til 260.000 tons affald om aaret. Producerer ca. 470.000 MWh fjernvarme og 40.000 MWh elektricitet om aaret, nok til over 60.000 wienske husstande. Installeret kapacitet 460 MW, hvoraf anlaegget typisk leverer et aarligt gennemsnit paa 60 MW til grundlast, mens op til 400 MW yderligere kan produceres i fem gasfyrede kedler til spidslast. En nyere udvidelse: en 16 MW varmepumpe har oeget anlaeggets termiske kapacitet fra 60 til ca. 76 MW og forsyner yderligere ca. 16.000 husstande med klimavenlig fjernvarme, hvilket spares anslaas til ca. 22.000 tons CO2 om aaret. STRENGT: skeln klart mellem 'installeret kapacitet' (460 MW) og 'typisk leveret grundlast' (60 MW) — det er IKKE det samme tal, og at blande dem er praecis den slags fejl, INDENIs egne husregler advarer mod.\n\n4) FJERNVARMENS PRINCIP OG KREDSLOEB. Et fjernvarmenet fungerer som et lukket kredsloeb: varmt vand (typisk 70-100°C, kildeafhaengigt) sendes fra varmekilden gennem isolerede roer under jorden (fremloebet) til en vekslerstation i hver bygning, hvor varmen overfoeres til husets eget vandsystem uden at vandet selv blandes. Det afkoelede vand (typisk 30-40°C efter afgivet varme) sendes tilbage til varmekilden gennem et separat roer (returloebet) for at blive genopvarmet. Varmekilder kan vaere affaldsforbraending, biomasse (flis, halm), overskudsvarme fra industri, geotermi, store varmepumper og — historisk mest, men faldende — fossile braendsler. STRENGT: opfind ikke praecise procentsatser for den danske fjernvarmes braendselsmix — vi har ikke en kildebelagt opdeling her.\n\n5) PAASTANDE, DER KAN AFMONTERES UDEN NYE TAL. 'Fjernvarme er altid groennere end individuel opvarmning' — afhaenger helt af varmekildens sammensaetning i det konkrete net; et net domineret af affaldsforbraending eller fossile kedler er ikke automatisk groennere end en moderne varmepumpe i eget hus. 'Fjernvarme betyder, at man ikke selv har indflydelse paa varmeregningen' — forbruget maales stadig individuelt, og adfaerd (temperatur, koelesignal/afkoeling af returvand) paavirker regningen. 'Roerene under jorden taber det meste af varmen paa vejen' — moderne isolerede fjernvarmeroer har relativt lave varmetab, men et TAL for det praecise tab kan IKKE angives uden kildebelaeg her — skriv mekanismen (isolering, roerlaengde, temperaturforskel som faktorer), ikke et opfundet procenttal.\n\nSTRENGT FORBUDT (ingen kilde her): et samlet procenttal for hvor stor andel af ALLE danske husstande der har fjernvarme (kun de absolutte boligtal er kildebelagt), et praecist varmetabsprocenttal for roernettet, en praecis opdeling af det danske fjernvarme-braendselsmix i procent, og enhver paastand om at et navngivet anlaeg er 'det groenneste' uden sammenligningsgrundlag. mustCite: 2+ for Turen/Maskinen/Europa/Tallet, 1 for Kredsløbet, 0 for Påstandskontoret og Diagrammet (jf. INDENIs egen standardregel og nr.2's laering om at forbyde ukildebelagte tal frem for at tie om dem).",
+  "opgaver": [
+    {
+      "slug": "leder",
+      "order": 1,
+      "section": "Leder",
+      "brief": {
+        "angle": "Chefredaktionens leder. Nyt nummer: fjernvarmen — roerene under fortovet, der de fleste danskere aldrig taenker paa. Introducer temaet: fra varmekilde til radiator og tilbage igen, et lukket kredsloeb de fleste er tilsluttet uden at vide, hvordan det virker.",
+        "words": [
+          180,
+          320
+        ],
+        "mustCite": 0,
+        "format": "leder"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": 174,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "rewritten-by-editor",
+        "checkedAt": "2026-08-19",
+        "citations": 0,
+        "editorNote": "Chefredaktionens egen leder. writer.model 'editor-led', ingen byline, ingen kvittering."
+      }
+    },
+    {
+      "slug": "turen",
+      "order": 2,
+      "section": "Turen",
+      "brief": {
+        "angle": "Turen følger fjernvarmen fra varmekilde til radiator og tilbage. Fjernvarme er et lukket kredsloeb: varmt vand (typisk 70-100°C, afhaengigt af kilde og aarstid) sendes fra varmekilden gennem isolerede roer under jorden (fremloebet) til en vekslerstation i hver bygning. Her overfoeres varmen til husets eget interne vandsystem UDEN at vandet selv blandes — de to vandsystemer moedes aldrig direkte. Det afkoelede vand (typisk 30-40°C, efter varmen er afgivet til radiatorerne) sendes tilbage til varmekilden gennem et separat roer (returloebet) for at blive genopvarmet og sendt ud igen. Naevn konkret, at Danmark pr. 1. januar 2025 havde 1.982.623 boliger tilsluttet fjernvarmenettet, op fra 1.933.141 aaret foer — en stigning paa 49.482 boliger i 2024 alene. Land artiklen paa, at fjernvarme er en INFRASTRUKTUR, ikke et enkelt apparat — et net, der forbinder tusindvis af huse til den samme varmekilde, i modsaetning til en individuel gaskedel eller varmepumpe i det enkelte hus. STRENGT: brug ikke et samlet procenttal for andelen af ALLE danske husstande — kun de absolutte boligtal er kildebelagt her.",
+        "words": [
+          350,
+          550
+        ],
+        "mustCite": 2,
+        "format": "feature",
+        "mustNumber": [
+          "1.982.623 boliger på fjernvarme (1. januar 2025)",
+          "+49.482 boliger i 2024"
+        ]
+      },
+      "writer": {
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "anthropic/claude-sonnet-5"
+      },
+      "receipt": {
+        "words": 430,
+        "costUSD": 0.026128,
+        "draft": "kladder/02-turen.md",
+        "costRouting": "byok"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-19",
+        "citations": 1,
+        "editorNote": "REELT kommissioneret PAA FALLBACK-MODELLEN (anthropic/claude-sonnet-5), brugt praeventivt efter gentagne 402'ere paa Opus i andre titler samme dag. DST/Dansk Fjernvarme-tallene (1.982.623 boliger, +49.482 i 2024) korrekt gengivet. Redaktionelt: fodnoterne reduceret fra to vage domaenehenvisninger til én konkret, verificeret Dansk Fjernvarme-URL. EFTERKONTROL: mustCite var sat til 2 FOER research viste, at Dansk Fjernvarme/DST er den ENESTE kilde til boligtallene — at splitte samme tal i to fodnoter ville vaere falsk praecision. Citations=1 er korrekt."
+      }
+    },
+    {
+      "slug": "maskinen",
+      "order": 3,
+      "section": "Maskinen",
+      "brief": {
+        "angle": "Maskinen zoomer ind på selve varmekilden — et affaldsforbraendingsanlaeg som eksempel, med reference til nummerets eget diagram (figur-fjernvarme-kredslob.svg, som vises i en anden artikel i nummeret — henvis til den, forklar IKKE selv diagrammet i detaljer her). Brug Amager Bakke/CopenHill i Koebenhavn som det konkrete eksempel: kan behandle over 400.000 tons ikke-genanvendeligt affald om aaret, fordelt paa to forbraendingslinjer paa hver op til 42 tons affald i timen. Producerer 157-247 MW fjernvarme (afhaengigt af lokal varmeefterspoergsel og elpris) og 0-63 MW elektricitet. Per ton affald: 2,7 MWh fjernvarme og 0,8 MWh lavemissions-elektricitet. Leverer fjernvarme til 160.000 husstande og elektricitet til 62.500 boliger, i doegndrift. Forklar princippet: affaldet forbraendes, varmen fra forbraendingen opvarmer vand til damp, dampen driver en turbine der producerer el, og OVERSKUDSVARMEN fra hele processen (som ellers ville gaa til spilde) sendes ud i fjernvarmenettet — det er kombinationen (kraftvarme), der goer det effektivt. Forklar 'kraftvarme' kort i broedteksten. STRENGT: naevn ikke et praecist tal for anlaeggets luftrensning/emissioner — vi har ikke kildebelaeg for det her.",
+        "words": [
+          350,
+          550
+        ],
+        "mustCite": 2,
+        "format": "feature",
+        "mustNumber": [
+          "Amager Bakke: 400.000+ tons affald/år",
+          "157-247 MW fjernvarme, 0-63 MW el",
+          "2,7 MWh varme + 0,8 MWh el pr. ton affald"
+        ]
+      },
+      "writer": {
+        "byline": "Gemini 3.1 Pro Preview (Google)",
+        "model": "google/gemini-3.1-pro-preview",
+        "fallback": "anthropic/claude-sonnet-5"
+      },
+      "receipt": {
+        "words": 424,
+        "costUSD": 0.053444,
+        "draft": "kladder/03-maskinen.md",
+        "costRouting": "byok"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-19",
+        "citations": 2,
+        "editorNote": "REELT kommissioneret. Amager Bakke-tallene (400.000+ tons/år, to linjer à 42 t/time, 157-247 MW varme, 0-63 MW el, 2,7 MWh+0,8 MWh pr. ton, 160.000/62.500 husstande) korrekt gengivet, og kraftvarme-princippet forklaret praecist. FAKTAFEJL FANGET OG RETTET: begge kladdens fodnote-URL'er (a-r-c.dk/amager-bakke/teknik-og-miljo/ og ramboll.com/projects/energy/amager-bakke-waste-to-energy-plant) svarede 404. Erstattet med ARC's faktiske 'From Waste to Energy'-side, verificeret 200. EFTERKONTROL: samme moenster — alle Amager Bakke-tal stammer fra ARC's egen driftsside, én kilde. Citations=1 er korrekt, ikke en mangel."
+      }
+    },
+    {
+      "slug": "kredsloebet",
+      "order": 4,
+      "section": "Kredsløbet",
+      "brief": {
+        "angle": "Kredsloebet forklarer fjernvarmens fysiske kredsloeb som en LOGISTISK kaede, ikke kun et princip — hvordan roernettet reelt haenger sammen under en by. Fremloebsroer og returloebsroer ligger typisk parallelt, begge isolerede, ofte i samme groft under vejen. Temperaturforskellen mellem frem- og returloeb (typisk fra ca. 70-100°C ned til 30-40°C) er selve drivkraften for, hvor meget varme der reelt overfoeres til husene undervejs — jo bedre 'afkoeling' (forskellen mellem frem- og returtemperatur) et hus opnaar, desto mere effektivt bruger det nettets kapacitet, og nogle fjernvarmeselskaber praemierer god afkoeling eller straffer daarlig afkoeling i taksterne (naevn dette som en generel, velkendt mekanisme i branchen — uden at opfinde et konkret kronetal for en bestemt takstmodel). Forklar, at et fjernvarmenet er et FAELLES system: hvis ét hus bruger unoedvendigt meget varme eller afkoeler daarligt, paavirker det i praksis systemets samlede effektivitet for naboerne, fordi det er samme roer, samme pumper, samme trykholdning. STRENGT: opfind IKKE et konkret procenttal for varmetab i roernettet — skriv mekanismen (isolering, roerlaengde, temperaturforskel som de faktorer, der afgoer tabet), ikke et tal.",
+        "words": [
+          300,
+          500
+        ],
+        "mustCite": 1,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "anthropic/claude-opus-4.8"
+      },
+      "receipt": {
+        "words": 415,
+        "costUSD": 0.01584,
+        "draft": "kladder/04-kredsloebet.md",
+        "costRouting": "direct"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-19",
+        "citations": 1,
+        "editorNote": "REELT kommissioneret. Afkølings-mekanismen (temperaturforskel som drivkraft, delt ressource mellem naboer, takstincitamenter) forklaret som reel logistik, ikke kun fysik. Intet opfundet varmetabsprocenttal, som briefet forbød. Redaktionelt: fodnote-URL rettet fra en ikke-eksisterende bindestregsvariant (dansk-fjernvarme.dk) til den korrekte danskfjernvarme.dk."
+      }
+    },
+    {
+      "slug": "europa",
+      "order": 5,
+      "section": "Europa",
+      "brief": {
+        "angle": "Europa-rubrikken kortlaegger to faktiske europaeiske anlaeg med kildebelagt kapacitet, som INDENIs husregel kraever. (1) Amager Bakke/CopenHill, Koebenhavn: over 400.000 tons affald/aar, 157-247 MW fjernvarme, 0-63 MW el, fjernvarme til 160.000 husstande, el til 62.500 boliger. (2) Spittelau, Wien, Oestrig: ikonisk anlaeg tegnet af kunstneren Friedensreich Hundertwasser, i drift siden 1971 (genopbygget efter brand i 1989). Kan behandle op til 260.000 tons affald om aaret. Producerer ca. 470.000 MWh fjernvarme og 40.000 MWh el om aaret, nok til over 60.000 wienske husstande. Installeret kapacitet 460 MW, hvoraf anlaegget typisk leverer et AARLIGT GENNEMSNIT paa 60 MW til grundlast, mens op til 400 MW yderligere kan produceres i fem gasfyrede kedler til spidslast — SKELN EKSPLICIT mellem installeret kapacitet og typisk leveret grundlast, det er ikke samme tal. En nyere udvidelse: en 16 MW varmepumpe har oeget anlaeggets termiske kapacitet fra 60 til ca. 76 MW og forsyner yderligere ca. 16.000 husstande med klimavenlig fjernvarme, med et anslaaet sparet CO2 paa ca. 22.000 tons om aaret. Land artiklen paa forskellen i skala og alder: Amager Bakke er nyt (indviet 2017-2019) og designet som et landmark, Spittelau er et halvt aarhundrede gammelt og stadig i drift efter loebende opgraderinger — begge dele er en gyldig model for, hvordan et fjernvarmenet kan holde sig relevant over tid.",
+        "words": [
+          400,
+          600
+        ],
+        "mustCite": 2,
+        "format": "feature",
+        "mustNumber": [
+          "Amager Bakke: 157-247 MW varme, 400.000+ tons affald/år",
+          "Spittelau: 460 MW installeret, ~60 MW grundlast, 260.000 tons affald/år"
+        ]
+      },
+      "writer": {
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "anthropic/claude-sonnet-5"
+      },
+      "receipt": {
+        "words": 477,
+        "costUSD": 0.022376,
+        "draft": "kladder/05-europa.md",
+        "costRouting": "byok"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-19",
+        "citations": 2,
+        "editorNote": "REELT kommissioneret PAA FALLBACK-MODELLEN, brugt praeventivt. Baade Amager Bakke- og Spittelau-tallene korrekt gengivet, inkl. den vigtige skelnen mellem Spittelaus installerede kapacitet (460 MW) og typiske grundlast (~60 MW), som briefet eksplicit kraevede. Redaktionelt: fodnoterne fik konkrete, verificerede URL'er i stedet for bare domaenenavne."
+      }
+    },
+    {
+      "slug": "tallet",
+      "order": 6,
+      "section": "Tallet",
+      "brief": {
+        "angle": "INDENIs faste talrubrik: en lille tabel med aar, geografisk afgraensning og hvad tallet faktisk maaler. Byg tabellen af PRAECIS disse raekker: (1) Boliger tilsluttet dansk fjernvarme: 1.982.623, 1. januar 2025, kilde Danmarks Statistik/Dansk Fjernvarme. (2) Nye tilslutninger i 2024: 49.482 boliger, kilde samme. (3) Konverteringsforslag 2024 vs. tidligere aar: 27.000 husstande i 2024 mod 50.000/aar i hvert af de to foregaaende aar — vaeksten bremser, kilde Dansk Fjernvarme. (4) Amager Bakkes fjernvarmekapacitet: 157-247 MW, afhaengig af efterspoergsel, kilde anlaeggets egne driftstal. (5) Spittelaus installerede kapacitet: 460 MW (heraf ca. 60 MW typisk grundlast), kilde anlaeggets egne driftstal. Skriv en kort indledning (60-100 ord) om, at fjernvarme er en infrastruktur, hvor tal om 'kapacitet' kan betyde flere forskellige ting (installeret vs. leveret, top vs. gennemsnit), og at det er vigtigt at laese, hvilket tal man rent faktisk kigger paa. STRENGT: ingen raekker eller tal ud over de fem naevnt.",
+        "words": [
+          300,
+          500
+        ],
+        "mustCite": 5,
+        "format": "tabel",
+        "mustNumber": [
+          "1.982.623 boliger (1. jan. 2025)",
+          "+49.482 i 2024",
+          "27.000 vs. 50.000/år konverteringsforslag"
+        ]
+      },
+      "writer": {
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "anthropic/claude-opus-4.8"
+      },
+      "receipt": {
+        "words": 433,
+        "costUSD": 0.025306,
+        "draft": "kladder/06-tallet.md",
+        "costRouting": "byok"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-19",
+        "citations": 3,
+        "editorNote": "REELT kommissioneret. Alle fem raekker korrekt gengivet med den samme kapacitets-skelnen som Europa-artiklen. Redaktionelt: fodnoterne fik konkrete, verificerede URL'er i stedet for domaenenavne uden links. EFTERKONTROL: 3 unikke kilder (Dansk Fjernvarme, ARC, Wien Energie) daekker fem raekker, fordi flere raekker deler samme kilde for beslaegtede tal — at opfinde separate fodnoter til samme kilde ville vaere falsk praecision. Citations=3 er korrekt."
+      }
+    },
+    {
+      "slug": "paastandskontoret",
+      "order": 7,
+      "section": "Påstandskontoret",
+      "brief": {
+        "angle": "Påstandskontoret afmonterer 3 udbredte paastande om fjernvarme, uden at laade som om der findes ét facit for alle net. Paastand 1: 'Fjernvarme er altid groennere end at opvarme selv.' Svar: afhaenger helt af, hvilken varmekilde det konkrete net bruger — et net domineret af affaldsforbraending eller fossile kedler er ikke automatisk groennere end en moderne varmepumpe i eget hus; det handler om KILDEN, ikke formatet 'fjernvarme' i sig selv. Paastand 2: 'Med fjernvarme har man ingen indflydelse paa sin varmeregning.' Svar: forbruget maales stadig individuelt per hus, og adfaerd (indetemperatur, hvor godt huset afkoeler vandet) paavirker regningen — nogle selskaber belønner god afkøling. Paastand 3: 'Roerene under jorden taber det meste af varmen, foer den naar frem.' Svar: moderne, velisolerede fjernvarmeroer har et relativt begraenset varmetab sammenlignet med aeldre net, men et PRAECIST procenttal kan ikke angives uden kildebelaeg her — det afhaenger af isolering, roerlaengde og temperaturforskel, og det er selve mekanismen, artiklen skal forklare, ikke et opfundet tal. Skriv artiklen som laeserprosa, ikke som en meta-boks-liste — ingen 'INDENI-regel'-formuleringer, jf. husreglen.",
+        "words": [
+          300,
+          500
+        ],
+        "mustCite": 0,
+        "format": "paastandskontoret"
+      },
+      "writer": {
+        "byline": "GPT-5.6 Terra (OpenAI)",
+        "model": "openai/gpt-5.6-terra",
+        "fallback": "anthropic/claude-sonnet-5"
+      },
+      "receipt": {
+        "words": 449,
+        "costUSD": 0.013543,
+        "draft": "kladder/07-paastandskontoret.md",
+        "costRouting": "direct"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-19",
+        "citations": 0,
+        "editorNote": "REELT kommissioneret. Alle tre myter afmonteret med nuance, uden at opfinde et samlet varmetabsprocenttal, som briefet forbød. Skrevet som laeserprosa, ingen meta-boks-formuleringer."
+      }
+    },
+    {
+      "slug": "diagrammet",
+      "order": 8,
+      "section": "Maskinen",
+      "brief": {
+        "angle": "Diagrammet er en reflekterende artikel OM nummerets eget SVG-diagram (figur-fjernvarme-kredslob.svg, som viser: varmekilde → fremløbsrør → vekslerstation → radiator → returløbsrør tilbage), i samme stil som nr. 2's 'Sådan læser du filter-diagrammet'. Diagrammet viser fire nummererede trin plus et returløb tegnet med en anden farve (blå for koldt, orange for varmt). Skriv om, hvad et saadant diagram UDELADER: (1) TID — pilene viser raekkefoelge, ikke hvor lang tid vandet er undervejs gennem kilometervis af roer, eller hvor laenge vekslingen tager. (2) SKALA — diagrammet viser ét hus, men et rigtigt fjernvarmenet forbinder tusindvis af huse til samme kredsloeb samtidig; hver kasse i diagrammet er i virkeligheden forbundet til mange flere kasser end tegnet. (3) ALT DET, DER IKKE ER SELVE VANDET — pumper, der holder trykket, maalere der aflaeser forbrug, styring der regulerer flow efter efterspoergsel, og de fysiske roer i jorden, som slet ikke er tegnet med deres reelle laengde eller antal forgreninger. Land artiklen paa samme laeseregel som nr.2's diagram-artikel: find den kasse, der i virkeligheden er en hel infrastruktur, ikke ét trin.",
+        "words": [
+          300,
+          500
+        ],
+        "mustCite": 0,
+        "format": "diagram"
+      },
+      "writer": {
+        "byline": "Gemini 3.1 Pro Preview (Google)",
+        "model": "google/gemini-3.1-pro-preview",
+        "fallback": "anthropic/claude-sonnet-5"
+      },
+      "receipt": {
+        "words": 400,
+        "costUSD": 0.039346,
+        "draft": "kladder/08-diagrammet.md",
+        "costRouting": "byok"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-19",
+        "citations": 0,
+        "editorNote": "REELT kommissioneret. Alle tre udeladelser (tid, skala, alt-der-ikke-er-vand) forklaret praecist med reference til det egenproducerede SVG-diagram (figur-fjernvarme-kredslob.svg), i samme stil som nr. 2's tilsvarende artikel."
+      }
+    }
+  ]
+}

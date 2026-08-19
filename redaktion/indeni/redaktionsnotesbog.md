@@ -19,6 +19,42 @@ Målgruppen er den almindeligt nysgerrige danske læser. Forklar fagord første 
 
 ## Udgivne numre
 
+- **(2026-08) Nr. 3 — “Fjernvarmen” — UDGIVET 2026-08-19 (nyt nummer, fra bunden).**
+  8 artikler, **3.082 ord**. Syv artikler reelt kommissioneret på `.env.indeni`; lederen er
+  chefredaktionens og har **ingen byline**. Samlet forbrug **0,1960 USD**. `check_issue.py`:
+  **0 fejl, 3 advarsler** (alle tre er korrekte enkelt-kilde-vurderinger, se nedenfor).
+  `bestilling.json` under `numre/2026-08-nr3/`.
+
+  Første idébank-emne valgt: fjernvarmen (rørene under fortovet). Kontaktlinsen og asfalt står
+  stadig som kandidater. Nummeret har et egenproduceret SVG-diagram
+  (`figur-fjernvarme-kredslob.svg`) i samme stil som nr. 2's filterdiagram.
+
+  ### Kernetal
+
+  - **Dansk fjernvarme:** 1.982.623 boliger tilsluttet pr. 1. januar 2025 (op fra 1.933.141),
+    +49.482 boliger i 2024. Men konverteringstempoet bremser: 27.000 husstande fik
+    konverteringsforslag i 2024, mod ca. 50.000/år i hvert af de to foregående år.
+  - **Amager Bakke (København):** 400.000+ tons affald/år, 157–247 MW fjernvarme, 0–63 MW el,
+    2,7 MWh varme + 0,8 MWh el pr. ton affald, varme til 160.000 husstande.
+  - **Spittelau (Wien):** 460 MW installeret kapacitet, men kun ca. 60 MW typisk grundlast —
+    resten er spidslast fra gaskedler. En 16 MW varmepumpe har siden løftet den termiske
+    kapacitet til ca. 76 MW.
+
+  ### To gættede/forkerte kilder fanget
+
+  - `maskinen`-kladden citerede to URL'er (en ARC-sti og en Ramboll-projektside), der begge
+    svarede **404**. Erstattet med ARC's faktiske "From Waste to Energy"-side.
+  - `kredsloebet`-kladden citerede `dansk-fjernvarme.dk` (med bindestreg) — en variant, der ikke
+    findes. Den rigtige adresse er `danskfjernvarme.dk` uden bindestreg.
+
+  ### Tre "for få citationer"-advarsler er alle korrekte, ikke fejl
+
+  `turen`, `maskinen` og `tallet` endte alle under det briefede mustCite — samme mønster som
+  KRAFTEN og ORBIT nr. 3 samme dag. Hver historie har genuint kun én eller få kilder (Dansk
+  Fjernvarme/DST for de danske tal, ARC for Amager Bakke, Wien Energie for Spittelau). At opfinde
+  ekstra fodnoter til samme kilde ville have været falsk præcision. Ledgerens `citations`-felt
+  viser det faktiske, korrekte antal med en forklarende note.
+
 - **(2026-08) Nr. 2 — “Filteret” — GENOPBYGGET OG GENUDGIVET 2026-08-17.**
   9 artikler, **5.678 ord** (var 2.005 ord — gns. 223, altså præcis det notesbogen kalder
   “tre overskrifter med én sætning”). Otte artikler reelt kommissioneret på `.env.indeni`;
@@ -58,6 +94,8 @@ Målgruppen er den almindeligt nysgerrige danske læser. Forklar fagord første 
 
 ## Redaktionslog
 
+- **2026-08-19:** Nr. 3 udgivet — "Fjernvarmen", nyt nummer produceret fra bunden med egenproduceret
+  SVG-diagram. Se læringen ovenfor. To gættede/forkerte kilder fanget og rettet.
 - **2026-08-01:** “Det usynlige lag” udvidet efter læserspørgsmål med polymertyper, drikspecifik coating-validering og EU/EFSA's BPA-spor. Læringen: skriv aldrig “dåselak” som én universel kemisk opskrift.
 - **2026-08-08:** Nr. 2 publiceret — kaffefilteret med procesdiagram.
 - **2026-08-08 (edit):** Nr. 2 udvidet (især bryg + Europa); fjernet Ordbogen; meta-snippets skrevet ind i brødtekst.
@@ -85,7 +123,7 @@ levetidstallet ville have pålagt nummeret 0,10 USD, det ikke har brugt.
 
 ## Idébank
 
-- **(2026-08) Fjernvarmen** — rørene under fortovet, varmeværket og den enkelte radiator.
+- ~~Fjernvarmen~~ → **brugt i nr. 3** (2026-08-19).
 - **(2026-08) Kontaktlinsen** — polymer, sterilisering, pasform og hvorfor den ikke må skylles ud i vasken.
 - **(2026-08) Asfalt** — sten, bitumen, temperatur, genbrug og vejarbejde om natten.
 

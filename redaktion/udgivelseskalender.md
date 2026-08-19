@@ -23,7 +23,7 @@ Håndhæves som **ERROR** i `production/check_issue.py` (og dermed i `npm run pr
 | 2026-07-20 | horisonten/2026-07-nr1 (nr. 1) |
 | 2026-08-01 | dosis/2026-08-nr1 (nr. 1); gnisten/2026-08-nr2 (nr. 2); horisonten/2026-08-nr2 (nr. 2); humanerd/2026-08-nr1 (nr. 1); indeni/2026-08-nr1 (nr. 1); kraften/2026-08-nr1 (nr. 1); kulturboxen/2026-08-nr1 (nr. 1); orbit/2026-08-nr1 (nr. 1); pulsen/2026-08-nr2 (nr. 2); spaending/2026-08-nr2 (nr. 2) |
 | 2026-08-08 | dosis/2026-08-nr2 (nr. 2); gnisten/2026-08-nr3 (nr. 3); horisonten/2026-08-nr3 (nr. 3); humanerd/2026-08-nr2 (nr. 2); indeni/2026-08-nr2 (nr. 2); kraften/2026-08-nr2 (nr. 2); kronike/2026-08-nr1 (nr. 1); kulturboxen/2026-08-nr2 (nr. 2); orbit/2026-08-nr2 (nr. 2); pulsen/2026-08-nr3 (nr. 3); spaending/2026-08-nr3 (nr. 3) |
-| 2026-08-15 | dosis/2026-08-nr3 (nr. 3); kraften/2026-08-nr3 (nr. 3); kulturboxen/2026-08-nr3 (nr. 3); orbit/2026-08-nr3 (nr. 3) |
+| 2026-08-15 | dosis/2026-08-nr3 (nr. 3); indeni/2026-08-nr3 (nr. 3); kraften/2026-08-nr3 (nr. 3); kulturboxen/2026-08-nr3 (nr. 3); orbit/2026-08-nr3 (nr. 3) |
 
 ## Efter magasin
 
@@ -64,6 +64,7 @@ Håndhæves som **ERROR** i `production/check_issue.py` (og dermed i `npm run pr
 |---|---|---|---|---|
 | 1 | `2026-08-nr1` | 2026-08-01 | published | Dåsen |
 | 2 | `2026-08-nr2` | 2026-08-08 | published | Filteret |
+| 3 | `2026-08-nr3` | 2026-08-15 | published | Fjernvarmen — rørene under fortovet |
 
 ### kraften
 

@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+  <title id="title">Fjernvarmens kredsløb</title>
+  <desc id="desc">Procesdiagram: varmekilde, fremløbsrør, husets varmeveksler, radiator, returløbsrør tilbage til varmekilden.</desc>
+  <style>
+    .bg{fill:#f5f5ef}.card{fill:#fff;stroke:#d8e1dd;stroke-width:2}
+    .mint{fill:#94c9be}.orange{fill:#e88d45}.ink{fill:#071c2c}
+    text{font-family:Arial,sans-serif;fill:#071c2c}
+    .h{font-size:26px;font-weight:bold}.s{font-size:16px;fill:#3c5654}.n{font-size:18px;font-weight:bold;fill:#e88d45}
+    .arrowHot{stroke:#e88d45;stroke-width:8;fill:none;stroke-linecap:round;marker-end:url(#aHot)}
+    .arrowCold{stroke:#5b8dab;stroke-width:8;fill:none;stroke-linecap:round;marker-end:url(#aCold)}
+    .label{font-size:14px;fill:#3c5654;font-style:italic}
+  </style>
+  <defs>
+    <marker id="aHot" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0 0L12 6 0 12z" fill="#e88d45"/></marker>
+    <marker id="aCold" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0 0L12 6 0 12z" fill="#5b8dab"/></marker>
+  </defs>
+  <rect class="bg" width="1200" height="520" rx="20"/>
+  <text x="48" y="52" class="h">Fjernvarmens kredsløb (forenklet)</text>
+  <text x="48" y="82" class="s">Orange = varmt fremløb. Blå = koldere returløb. Pilene viser typisk retning — ikke hvert ventilhus eller hver måler.</text>
+
+  <g transform="translate(48,150)">
+    <rect class="card" width="200" height="170" rx="12"/><text x="20" y="40" class="n">1</text><text x="20" y="80" class="h" font-size="20">Varmekilde</text><text x="20" y="108" class="s">Affald, biomasse,</text><text x="20" y="128" class="s">overskudsvarme</text>
+  </g>
+  <path class="arrowHot" d="M248 220 H320"/>
+  <text x="250" y="205" class="label">ca. 70–100°C</text>
+
+  <g transform="translate(330,150)">
+    <rect class="card" width="200" height="170" rx="12"/><text x="20" y="40" class="n">2</text><text x="20" y="80" class="h" font-size="20">Fremløbsrør</text><text x="20" y="108" class="s">Isoleret rør</text><text x="20" y="128" class="s">under jorden</text>
+  </g>
+  <path class="arrowHot" d="M530 220 H602"/>
+
+  <g transform="translate(612,150)">
+    <rect class="card" width="200" height="170" rx="12"/><text x="20" y="40" class="n">3</text><text x="20" y="80" class="h" font-size="20">Vekslerstation</text><text x="20" y="108" class="s">Varmen skiftes</text><text x="20" y="128" class="s">til husets eget vand</text>
+  </g>
+  <path class="arrowHot" d="M812 220 H884"/>
+
+  <g transform="translate(894,150)">
+    <rect class="card" width="200" height="170" rx="12"/><text x="20" y="40" class="n">4</text><text x="20" y="80" class="h" font-size="20">Radiator</text><text x="20" y="108" class="s">Varmen afgives</text><text x="20" y="128" class="s">til rummet</text>
+  </g>
+
+  <path class="arrowCold" d="M894 370 H330"/>
+  <text x="500" y="360" class="label">Returløb, ca. 30–40°C — tilbage til varmekilden</text>
+  <path class="arrowCold" d="M330 370 V320 H148 V320"/>
+
+  <text x="48" y="470" class="s">Ikke tegnet: pumper, trykholdning, målere, fjernaflæsning, og de km af rør, der forbinder tusindvis af huse i samme net.</text>
+</svg>

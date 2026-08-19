@@ -1,0 +1,123 @@
+{
+  "magazine": "indeni",
+  "number": 3,
+  "title": "INDENI nr. 3 · August 2026",
+  "issueTheme": "Fjernvarmen — rørene under fortovet",
+  "published": "2026-08-15",
+  "status": "published",
+  "pdf": null,
+  "cover": "images/indeni_cover.png",
+  "coverCredit": "AI-genereret forside (Imagine / xAI)",
+  "coverSource": "https://x.ai/",
+  "images": [
+    "images/indeni_cover.png",
+    "images/indeni_leder.png",
+    "images/indeni_turen.png",
+    "images/indeni_maskinen.png",
+    "images/indeni_kredsloebet.png",
+    "images/indeni_europa.png",
+    "images/indeni_tallet.png",
+    "images/indeni_paastand.png",
+    "images/figur-fjernvarme-kredslob.svg"
+  ],
+  "productionCostUSD": 0.196,
+  "imageCredits": "Imagine / xAI, undtagen figur-fjernvarme-kredslob.svg (eget diagram). Se SOURCES.md.",
+  "backCoverPromise": "INDENI nr. 4 følger endnu en genstand fra materiale til hverdag — måske fjernvarmen, i naboudgaven om kontaktlinsen eller asfalten.",
+  "articles": [
+    {
+      "slug": "leder",
+      "file": "articles/01-leder.md",
+      "order": 1,
+      "title": "Fjernvarmen — rørene under fortovet",
+      "section": "Leder",
+      "standfirst": "De fleste danskere er tilsluttet et system, de aldrig har set. Denne gang følger vi vandet fra varmekilde til radiator og tilbage igen.",
+      "image": "../images/indeni_leder.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/"
+    },
+    {
+      "slug": "turen",
+      "file": "articles/02-turen.md",
+      "order": 2,
+      "title": "Turen: fjernvarmens rundtur",
+      "section": "Turen",
+      "byline": "Claude Sonnet 5 (Anthropic)",
+      "standfirst": "Fra brænder til radiator og tilbage — et kredsløb, 1.982.623 danske boliger er koblet på.",
+      "image": "../images/indeni_turen.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/"
+    },
+    {
+      "slug": "maskinen",
+      "file": "articles/03-maskinen.md",
+      "order": 3,
+      "title": "Maskinen: når affaldets overskudsvarme sendes i cirkulation",
+      "section": "Maskinen",
+      "byline": "Gemini 3.1 Pro Preview (Google)",
+      "standfirst": "Kraftvarme er ideen om, at spildvarmen fra elproduktion ikke behøver gå til spilde.",
+      "image": "../images/indeni_maskinen.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/"
+    },
+    {
+      "slug": "kredsloebet",
+      "file": "articles/04-kredsloebet.md",
+      "order": 4,
+      "title": "Kredsløbet: rørene under vejen",
+      "section": "Kredsløbet",
+      "byline": "Claude Sonnet 5 (Anthropic)",
+      "standfirst": "To rør i samme grøft. Din nabos dårlige afkøling er faktisk dit problem.",
+      "image": "../images/indeni_kredsloebet.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/"
+    },
+    {
+      "slug": "europa",
+      "file": "articles/05-europa.md",
+      "order": 5,
+      "title": "Europa: to anlæg, to tidsaldre",
+      "section": "Europa",
+      "byline": "Claude Sonnet 5 (Anthropic)",
+      "standfirst": "Amager Bakke er nybygget landmark. Spittelau er halvtreds år gammelt og stadig i drift.",
+      "image": "../images/indeni_europa.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/"
+    },
+    {
+      "slug": "tallet",
+      "file": "articles/06-tallet.md",
+      "order": 6,
+      "title": "Tallet: hvad 'kapacitet' egentlig betyder",
+      "section": "Tallet",
+      "byline": "Claude Sonnet 5 (Anthropic)",
+      "standfirst": "Installeret kapacitet og typisk grundlast er ikke samme tal.",
+      "image": "../images/indeni_tallet.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/"
+    },
+    {
+      "slug": "paastandskontoret",
+      "file": "articles/07-paastandskontoret.md",
+      "order": 7,
+      "title": "Påstandskontoret: tre sejlivede myter om fjernvarme",
+      "section": "Påstandskontoret",
+      "byline": "GPT-5.6 Terra (OpenAI)",
+      "standfirst": "Fjernvarme lyder som én ting. Bag ordet gemmer sig meget forskellige systemer.",
+      "image": "../images/indeni_paastand.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/"
+    },
+    {
+      "slug": "diagrammet",
+      "file": "articles/08-diagrammet.md",
+      "order": 8,
+      "title": "Sådan læser du fjernvarme-diagrammet",
+      "section": "Maskinen",
+      "byline": "Gemini 3.1 Pro Preview (Google)",
+      "standfirst": "Et diagram viser princippet. Det viser ikke tiden, skalaen, eller alt det der ikke er selve vandet.",
+      "image": "../images/figur-fjernvarme-kredslob.svg",
+      "imageCredit": "INDENI — eget diagram",
+      "imageSource": ""
+    }
+  ]
+}
