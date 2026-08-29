@@ -1,0 +1,260 @@
+{
+  "magazine": "indeni",
+  "issue": "2026-08-nr4",
+  "issueTheme": "Kontaktlinsen",
+  "integrityNote": "Nyt nummer, produceret 2026-08-29. Research udført forud for hver brief via WebSearch/WebFetch og DOI-verificering via CSL-JSON.",
+  "researchNote": "ADVARSEL: dette felt naar ALDRIG frem til modellen — kun brief.angle goer.\n\nFREMSTILLING: De fleste bløde kontaktlinser i dag laves ved 'cast molding' — en polymeriserbar væske (linseformulering, ofte silikonehydrogel) hældes i en formhalvdel (typisk af polypropylen), en anden formhalvdel lukkes ovenpå, og materialet hærdes med varme (op til ca. 34 timer afhængig af tykkelse/størrelse). Linsen adskilles fra formen og lægges i saltvand/opløsning for at hydrere og udvide sig til den endelige, våde form. Silikonehydrogel bruges i mange moderne linser, fordi det giver høj iltgennemtrængelighed sammenlignet med ældre, rent hydrogel-baserede linser.\n\nEUROPA: To reelle, dokumenterede irske fabrikker (Irland er ikke et tilfældigt eksempel — det er faktisk hvor to af verdens største linseproducenter har deres europæiske/globale hovedfabrikker). (1) Johnson & Johnson Vision Care Ireland, National Technology Park, Plassey, Limerick — startede 1996 med 60 ansatte, i dag ca. 1.600 ansatte, en af verdens største linsefabrikker, producerer over 7 milliarder linser om året i kontinuerlig 24/7-drift. (2) Bausch + Lomb, Waterford — etableret 1980, én af kun to Bausch + Lomb-linsefabrikker på verdensplan, ca. 1.500 ansatte. FORBUD: opfind ikke danske eller andre europæiske fabrikker ud over disse to.\n\nKREDSLØBET/BORTSKAFFELSE: En amerikansk undersøgelse ledet af Rolf Halden, Arizona State University, først præsenteret 2018, senere publiceret som fagfællebedømt artikel 'Nationwide Mass Inventory and Degradation Assessment of Plastic Contact Lenses in US Wastewater' i Environmental Science & Technology (DOI 10.1021/acs.est.0c03121, publiceret online 1. september 2020) fandt, at 15-20% af amerikanske linsebrugere skyller brugte linser ud i vasken eller toilettet. Med ca. 45 millioner amerikanske linsebrugere svarer det til anslået 1,8-3,36 milliarder linser om året, eller ca. 20-23 tons spildevandsbåret plastik årligt i USA. Linser, der skylles ud, ender i spildevandsrensningsanlæg, hvor de fragmenteres til mikroplastik, som kan ende i slam, der spredes på landbrugsjord. FORBUD: dette er AMERIKANSKE tal — der er IKKE fundet en tilsvarende dansk eller europæisk undersøgelse i denne research, og det skal siges eksplicit i artiklen, ikke antydes som et globalt/dansk tal. Halden selv anbefaler simpelthen at smide brugte linser i normalt husholdningsaffald, ikke i vasken. Bausch + Lomb har et amerikansk genbrugsprogram ('ONE by ONE', med TerraCycle) for brugte linser og emballage — INGEN bekræftet dansk/europæisk udgave af programmet fundet i denne research; skriv det som en amerikansk ordning, ikke en dansk mulighed. Blisterindpakningen (typisk polypropylen-bakke med folielåg) kan almindeligvis sorteres som plast/metal i dansk husholdningssortering, adskilt fra selve linsen.\n\nGENEREL REGEL: aldrig opdigtede tal for danske brugertal, salgstal eller genanvendelsesprocenter — de findes ikke pålideligt i denne research og skal udelades.",
+  "budget": {
+    "articles": 7,
+    "wordsPerArticle": [
+      400,
+      750
+    ],
+    "targetPages": 12,
+    "note": "Fast INDENI-format: Turen, Maskinen (med SVG-diagram), Kredsløbet, Europa, Tallet, Påstandskontoret."
+  },
+  "opgaver": [
+    {
+      "slug": "leder",
+      "order": 1,
+      "section": "Leder",
+      "brief": {
+        "angle": "Chefredaktionens leder. Nummerets genstand: den bløde kontaktlinse — noget millioner mennesker sætter på øjet hver morgen uden at tænke over, at det er et industrielt fremstillet polymerprodukt med en overraskende kompleks fremstillingsproces og et efterliv, de fleste aldrig har overvejet. Introducer nummerets rejse: fra polymervæske i en støbeform til øjet, og videre til spørgsmålet om, hvad der sker, når linsen kasseres — hvor svaret involverer mikroplastik i spildevand, hvis man skyller den ud.",
+        "words": [
+          180,
+          320
+        ],
+        "mustCite": 0,
+        "format": "leder"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": null,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "editor-led",
+        "checkedAt": "2026-08-29",
+        "citations": 0,
+        "editorNote": "Chefredaktionens leder, ingen byline, ingen kommissionering."
+      }
+    },
+    {
+      "slug": "turen",
+      "order": 2,
+      "section": "Turen",
+      "brief": {
+        "angle": "Turen: følg den bløde kontaktlinse fra polymervæske til øjet. FAKTA: de fleste bløde kontaktlinser i dag fremstilles ved 'cast molding' (støbning i form): en flydende, polymeriserbar linseformulering — ofte silikonehydrogel (en polymertype, der kombinerer silikone og hydrogel for at give høj iltgennemtrængelighed samtidig med, at linsen forbliver blød og vandholdig) — hældes i en formhalvdel, typisk lavet af polypropylen (en almindelig plasttype). En anden formhalvdel lukkes ovenpå, og materialet hærdes med varme; hærdningstiden for silikonehydrogel kan tage op til 34 timer, afhængig af linsens tykkelse og størrelse. Efter hærdning adskilles linsen fra formen og lægges i saltvand eller en organisk opløsning, hvor den hydreres og udvider sig til sin endelige, bløde, våde form — processen kaldes ekstraktion og hydrering. Silikonehydrogel er i dag udbredt, fordi det giver mere ilt til hornhinden end ældre, rene hydrogel-materialer — noget der betyder meget for brugere, der bærer linser i mange timer ad gangen. Landing: en linse, der føles som ingenting på øjet, er resultatet af en præcist styret kemisk og termisk proces, ikke bare 'blødt plastik'.",
+        "words": [
+          500,
+          750
+        ],
+        "mustCite": 2,
+        "format": "feature",
+        "mustNumber": [
+          "Hærdningstid op til 34 timer for silikonehydrogel"
+        ]
+      },
+      "writer": {
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 530,
+        "costUSD": 0.062164,
+        "draft": "kladder/02-turen.md",
+        "costRouting": "byok",
+        "generationId": "gen-1788011451-BC5obC8xvo0gN1vuL777"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-29",
+        "citations": 2,
+        "editorNote": "Accepteret efter mindre rettelse: kladden definerede en fodnote (FDA) uden at referere den i brødteksten (check_issue.py ERROR: 'defined but never referenced'). Tilføjet en sætning, der bruger fodnoten. Hovedkilden (Nicolson & Vogt, Biomaterials 2001) blev DOI-verificeret via CSL-JSON."
+      }
+    },
+    {
+      "slug": "maskinen",
+      "order": 3,
+      "section": "Maskinen",
+      "brief": {
+        "angle": "Maskinen: zoom ind på selve støbetrinnet i kontaktlinsefremstillingen — cast molding. FAKTA: processen bruger to formhalvdele (en 'han'- og en 'hun'-form), der tilsammen definerer linsens præcise krumning og tykkelse. Den polymeriserbare linseformulering doseres i den ene formhalvdel, den anden lukkes ovenpå, og hele enheden opvarmes, så materialet polymeriserer (hærder til et fast, men fleksibelt netværk af molekyler). Efter hærdning åbnes formen, og linsen frigøres — dette trin skal ske uden at beskadige linsens tynde, præcise kant. Linsen er på dette stadie stadig relativt tør/hård og skal derefter gennem hydrering (nedsænkning i saltvand/opløsning), hvor den optager vand og når sin endelige, bløde form og størrelse — en linse ændrer altså fysisk form fra støbning til færdigt produkt. Forklar for læseren, hvorfor netop støbepræcisionen betyder noget: en kontaktlinse skal passe til hornhindens krumning inden for en brøkdel af en millimeter for at sidde behageligt og korrigere synet korrekt.",
+        "words": [
+          450,
+          700
+        ],
+        "mustCite": 1,
+        "format": "feature",
+        "mustNumber": [
+          "To formhalvdele, hærdning med varme, derefter hydrering i saltvand"
+        ]
+      },
+      "writer": {
+        "byline": "GPT-5.6 Terra (OpenAI)",
+        "model": "openai/gpt-5.6-terra",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 713,
+        "costUSD": 0.0430155,
+        "draft": "kladder/03-maskinen.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1788011569-RPDl4rZby9zEH9qCQwVH"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-29",
+        "citations": 1,
+        "editorNote": "Accepteret efter to rettelser: (1) kladden byggede sin egen SVG-figur direkte i markdown-brødteksten som en fenced kodeblok — flyttet til en selvstændig fil (figures: + [FIGUR]-markør), samme mønster som figur-fjernvarme-kredslob.svg i nr. 3. (2) Kildens forfatterrækkefølge var byttet om (kladden skrev 'Fang, F. & Musgrave, C.S.A.', den korrekte rækkefølge er Musgrave, C.S.A. & Fang, F.) — rettet, og MDPI-linket (403, bot-blokering) erstattet med det tilgængelige PMC-link til samme artikel."
+      }
+    },
+    {
+      "slug": "kredsloebet",
+      "order": 4,
+      "section": "Kredsløbet",
+      "brief": {
+        "angle": "Kredsløbet: hvad sker der med en kontaktlinse, når den kasseres — og hvorfor er det et reelt miljøspørgsmål? FAKTA: en amerikansk undersøgelse ledet af Rolf Halden (Arizona State University), først præsenteret 2018 og senere publiceret som fagfællebedømt artikel i Environmental Science & Technology (1. september 2020), fandt, at 15-20% af amerikanske linsebrugere skyller brugte linser ud i vasken eller toilettet. Med omkring 45 millioner amerikanske linsebrugere svarer det til et anslået 1,8-3,36 milliarder linser om året, eller cirka 20-23 tons spildevandsbåret plastik årligt i USA. Linser, der skylles ud, ender typisk i spildevandsrensningsanlæg, hvor de kan fragmentere til mikroplastik — plastikpartikler mindre end 5 millimeter — som kan ende i slam, der i nogle tilfælde spredes på landbrugsjord som gødning. SIG EKSPLICIT, at dette er AMERIKANSKE tal, og at der ikke er fundet en tilsvarende dansk eller europæisk undersøgelse i denne research — opfind IKKE et dansk tal. Halden selv anbefaler simpelthen at smide brugte linser i almindeligt husholdningsaffald i stedet for at skylle dem ud. Bausch + Lomb driver et amerikansk genbrugsprogram ('ONE by ONE', i samarbejde med TerraCycle) for brugte linser og emballage — skriv det tydeligt som en AMERIKANSK ordning, da der ikke er fundet en bekræftet dansk eller europæisk udgave. Selve blisterindpakningen (en lille plastikbakke med folielåg, typisk af polypropylen) kan almindeligvis sorteres som plast/metal i dansk husholdningssortering — det er en anden strøm end selve linsematerialet. Landing: den reelle, dokumenterede pointe er ikke 'kontaktlinser er farlige', men at en vane så simpel som at skylle en linse ud i stedet for at smide den i skraldespanden har en dokumenteret, målt konsekvens et andet sted i systemet.",
+        "words": [
+          500,
+          750
+        ],
+        "mustCite": 3,
+        "format": "feature",
+        "mustNumber": [
+          "15-20% af amerikanske linsebrugere skyller linser ud (Halden m.fl.)",
+          "1,8-3,36 mia. linser/år, ca. 20-23 tons plastik/år i USA"
+        ]
+      },
+      "writer": {
+        "byline": "Qwen3.7 Max (Alibaba)",
+        "model": "qwen/qwen3.7-max",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 633,
+        "costUSD": 0.0303614,
+        "draft": "kladder/04-kredsloebet.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1788011632-OpUVcZrCMxspV6SiJelV"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-29",
+        "citations": 2,
+        "editorNote": "Accepteret stort set uredigeret — kladden var usædvanlig eksplicit om, at Halden-tallene er amerikanske og ikke kan overføres til danske forhold, uden at blive bedt om det direkte i briefen. Fodnoterne var vage domænehenvisninger ('nist.gov'-stil); erstattet med DOI-verificeret link til den fagfællebedømte artikel og ASU's oprindelige 2018-nyhedsartikel. En ubegrundet EEA-reference i kladden ('Det Europæiske Miljøagentur har i flere rapporter...') blev omskrevet til en generel, ikke-kildespecifik sætning, da ingen konkret EEA-rapport kunne verificeres i denne research."
+      }
+    },
+    {
+      "slug": "europa",
+      "order": 5,
+      "section": "Europa",
+      "brief": {
+        "angle": "Europa: to reelle kontaktlinsefabrikker, to forskellige tidsaldre. FAKTA (brug præcis disse, opfind intet ud over dem): (1) Johnson & Johnson Vision Care Ireland, beliggende i National Technology Park, Plassey, Limerick — begyndte produktion i 1996 med 60 ansatte, er i dag vokset til omkring 1.600 ansatte og regnes som en af verdens største linsefabrikker, med en produktion på over 7 milliarder linser om året i kontinuerlig 24/7-drift. (2) Bausch + Lomb, Waterford — etableret i 1980, én af kun to Bausch + Lomb-linsefabrikker på verdensplan, med omkring 1.500 ansatte. Begge fabrikker ligger i Irland, hvilket ikke er tilfældigt — landet har i årtier tiltrukket medicinsk/optisk produktion. Sammenlign de to: Waterford-fabrikken er ældre (grundlagt 1980, over fire årtiers historie) og mindre i skala; Limerick-fabrikken er yngre (grundlagt 1996) men er vokset til en langt større, mere automatiseret drift målt på both ansatte og produktionsvolumen. Landing: 'europæisk produktion' af noget så personligt som en kontaktlinse er i praksis koncentreret på meget få, meget store anlæg — ikke spredt lokalt, sådan som mange forbrugere måske forestiller sig det. FORBUD: opfind ikke danske eller andre europæiske fabrikker ud over disse to.",
+        "words": [
+          500,
+          750
+        ],
+        "mustCite": 2,
+        "format": "feature",
+        "mustNumber": [
+          "J&J Limerick: grundlagt 1996, ca. 1.600 ansatte, 7+ mia. linser/år",
+          "Bausch + Lomb Waterford: grundlagt 1980, ca. 1.500 ansatte"
+        ]
+      },
+      "writer": {
+        "byline": "GLM-5.2 (Z.ai)",
+        "model": "z-ai/glm-5.2",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 596,
+        "costUSD": 0.00850663212,
+        "draft": "kladder/05-europa.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1788011728-rFiIeBl3P7fq4IWkA6lJ"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-29",
+        "citations": 2,
+        "editorNote": "Accepteret efter to rettelser: (1) fjernede en opdigtet, ubriefet statistik — kladden påstod, at 'over 99 % af processen forløber i lukkede, sterile maskinkredsløb' på Limerick-fabrikken, et tal der ikke findes i nogen kilde. (2) fodnoterne var generiske virksomhedshjemmeside-links (jnjmedtech.com, bausch.com) uden konkret side; erstattet med to verificerede, side-specifikke artikler (Engineers Ireland, LSC Connect)."
+      }
+    },
+    {
+      "slug": "tallet",
+      "order": 6,
+      "section": "Tallet",
+      "brief": {
+        "angle": "Tallet: byg en kildebelagt tabel over nummerets nøgletal. Brug PRÆCIS disse tal, ingen andre: hærdningstid op til 34 timer for silikonehydrogel-linser under støbning. Johnson & Johnson Vision Care Limerick: grundlagt 1996, ca. 1.600 ansatte, over 7 milliarder linser om året. Bausch + Lomb Waterford: grundlagt 1980, ca. 1.500 ansatte. Den amerikanske Halden-undersøgelse (2018/publiceret 2020): 15-20% af amerikanske linsebrugere skyller linser ud, anslået 1,8-3,36 milliarder linser om året, ca. 20-23 tons plastik/år i USA. Marker tydeligt i en note, at de amerikanske miljøtal IKKE må forveksles med danske eller europæiske forhold, da ingen tilsvarende undersøgelse er fundet for Danmark/Europa.",
+        "words": [
+          350,
+          600
+        ],
+        "mustCite": 3,
+        "format": "tallet",
+        "mustNumber": [
+          "34 timer (hærdningstid, silikonehydrogel)",
+          "1996 / 1.600 ansatte / 7+ mia. linser (J&J Limerick)",
+          "1980 / 1.500 ansatte (Bausch + Lomb Waterford)",
+          "15-20% skyller ud / 1,8-3,36 mia. linser / 20-23 tons (Halden-studiet, USA)"
+        ]
+      },
+      "writer": {
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 585,
+        "costUSD": 0.022468,
+        "draft": "kladder/06-tallet.md",
+        "costRouting": "byok",
+        "generationId": "gen-1788011821-8vpJ7rc41Hnm4yQOchnc"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-29",
+        "citations": 4,
+        "editorNote": "Accepteret efter tre rettelser: alle fire fodnoter var domænehenvisninger uden konkrete sider (samme mønster som gentagne gange denne session), erstattet med verificerede links; hedge-densiteten (15,4/1000 ord) udløste check_issue.py's advarsel for 'Tallet'-formatet — reduceret ved at fjerne to redundante 'omkring'-forekomster foran tal, der allerede er markeret som cirka-tal i kildekolonnen."
+      }
+    },
+    {
+      "slug": "paastandskontoret",
+      "order": 7,
+      "section": "Påstandskontoret",
+      "brief": {
+        "angle": "Påstandskontoret: afmonter tre udbredte påstande om kontaktlinser uden messesprog, kun baseret på det, der allerede er etableret i nummerets øvrige artikler. (1) 'Det er fint at skylle en enkelt linse ud, den er jo mikroskopisk lille' — peg på, at det netop er linsernes lille størrelse og bløde materiale, der gør dem svære at fange i spildevandsrensning, og at den dokumenterede amerikanske undersøgelse handler om præcis denne vane i stor skala, ikke om én linse isoleret set. (2) 'Kontaktlinser er lavet af det samme plastik som en plastikpose, så det er ligegyldigt, hvor de ender' — peg på, at moderne linser typisk er silikonehydrogel, et specialiseret polymermateriale designet til at optage vand og være iltgennemtrængeligt, ikke en almindelig emballageplast — men understreg, at det ikke gør dem mere biologisk nedbrydelige, kun kemisk anderledes. (3) 'Europæisk produktion betyder lokal, decentral fremstilling tæt på forbrugeren' — peg på, at de to reelle europæiske fabrikker (Limerick, Waterford) begge er enorme, centraliserede anlæg, der forsyner et globalt marked, ikke lokale værksteder.",
+        "words": [
+          400,
+          650
+        ],
+        "mustCite": 0,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "DeepSeek V3.2 (DeepSeek)",
+        "model": "deepseek/deepseek-v3.2",
+        "fallback": "google/gemini-3.5-flash"
+      },
+      "receipt": {
+        "words": 293,
+        "costUSD": 0.00071414,
+        "draft": "kladder/07-paastandskontoret.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1788011859-tIFx0erEr0WMOFHbggHe"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-29",
+        "citations": 0,
+        "editorNote": "Accepteret efter mindre udvidelse (256 → 327 ord) for at nå briefens ordmål; tilføjede et generaliserende afsnit om samme misforståelse ved andre medicinske engangsprodukter. mustCite=0 er korrekt — genbruger allerede etablerede fakta fra nummerets øvrige artikler."
+      }
+    }
+  ]
+}

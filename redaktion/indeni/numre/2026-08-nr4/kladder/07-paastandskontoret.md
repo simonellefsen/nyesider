@@ -1,0 +1,10 @@
+### Påstandskontoret: Kontaktlinser
+
+**(1) 'Det er fint at skylle en enkelt linse ud, den er jo mikroskopisk lille'**
+Netop størrelsen er problemet. En enkelt linse virker ubetydelig, men vanen i stor skala skaber et miljøproblem. Kontaktlinser er små, bløde og lette. I spildevandsystemet undgår de ofte filtrering i rensningsanlæg og ender i slam eller direkte i vandmiljøet. En amerikansk undersøgelse, der netop fokuserede på denne spildevandsvane, viste, at millioner af linser årligt kan slippe ud på den måde. Problemet er altså den akkumulerede mængde fra mange brugere, ikke den enkelte linse isoleret set.
+
+**(2) 'Kontaktlinser er lavet af det samme plastik som en plastikpose, så det er ligegyldigt, hvor de ender'**
+Dette er en misforståelse af materialet. Mens ældre linser kunne være lavet af polymethylmethacrylat (PMMA), er de fleste moderne dags- og månedslinser lavet af silikonehydrogel. Dette er et specialiseret polymermateriale, designet til at være ekstremt iltgennemtrængeligt og til at binde vand for komfort. Det er kemisk anderledes end polyethylenen i en standard plastikpose. Men – og dette er et afgørende men – det gør dem ikke biologisk nedbrydelige i miljøet. De er stadig plast. Deres særlige egenskaber gør dem måske endnu mere persistent eller tilbøjelige til at opføre sig uforudsigeligt i naturen sammenlignet med emballageplast.
+
+**(3) 'Europæisk produktion betyder lokal, decentral fremstilling tæt på forbrugeren'**
+Forestillingen om europæisk produktion som en netværk af små, lokale værksteder passer ikke på kontaktlinsemarkedet. Hovedparten af verdens kontaktlinser produceres af få, store virksomheder. De to kendte europæiske produktionssteder for store mærker ligger i Irland: et i Limerick og et i Waterford. Begge disse er enorme, højteknologiske og centraliserede fabrikker. De opererer i et globalt logistiknetværk og forsyner et verdensomspændende marked, ikke lokale regioner. 'Europæisk' her betyder geografisk placering af en fabrik, ikke en decentral, kort forsyningskæde.

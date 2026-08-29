@@ -19,6 +19,40 @@ Målgruppen er den almindeligt nysgerrige danske læser. Forklar fagord første 
 
 ## Udgivne numre
 
+- **(2026-08) Nr. 4 — “Kontaktlinsen” — UDGIVET 2026-08-29 (nyt nummer, fra bunden).**
+  7 artikler, **3.113 ord**. Seks artikler reelt kommissioneret på `.env.indeni`; lederen er
+  chefredaktionens og har **ingen byline**. Samlet forbrug **0,1672 USD**. `check_issue.py`:
+  **0 fejl, 1 advarsel** (kredsløbet: 2 citationer mod briefet mustCite=3 — korrekt, kun to
+  reelt distinkte kilder findes for de amerikanske spildevandstal). `bestilling.json` under
+  `numre/2026-08-nr4/`. Idébank-emnet kontaktlinsen valgt over asfalt; asfalt står stadig som
+  kandidat. Nummeret har et egenproduceret SVG-diagram
+  (`figur-kontaktlinse-stobning.svg`, de fire trin i cast molding-processen).
+
+  ### Kernetal
+
+  - **Fremstilling:** op til 34 timers hærdningstid for silikonehydrogel-linser under støbning
+    (cast molding).
+  - **Europa:** Johnson & Johnson Vision Care, Limerick (grundlagt 1996, ca. 1.600 ansatte, 7+
+    mia. linser/år) og Bausch + Lomb, Waterford (grundlagt 1980, ca. 1.500 ansatte) — begge i
+    Irland, ingen tredje europæisk fabrik fundet i denne research.
+  - **Bortskaffelse (amerikanske tal, IKKE danske):** en undersøgelse ledet af Rolf Halden,
+    Arizona State University (først præsenteret 2018, publiceret i *Environmental Science &
+    Technology*, 1. september 2020), fandt at 15-20 % af amerikanske linsebrugere skyller
+    brugte linser ud — anslået 1,8-3,36 mia. linser/år, 20-23 tons plastik/år i USA.
+
+  ### Tre fejl fanget og rettet før udgivelse
+
+  - **Opfundet, ubriefet statistik:** `europa`-kladden påstod, at "over 99 % af processen
+    forløber i lukkede, sterile maskinkredsløb" på Limerick-fabrikken — et tal, der ikke findes
+    i nogen kilde og ikke var briefet. Fjernet helt, ikke blot omformuleret.
+  - **Byttet forfatterrækkefølge:** `maskinen`-kladden citerede "Fang, F. & Musgrave, C.S.A." —
+    den korrekte rækkefølge (verificeret) er Musgrave, C.S.A. & Fang, F. En lille detalje, men
+    samme klasse fejl som notesbogens egen læring om præcise litteraturhenvisninger.
+  - **Egenproduceret SVG skrevet direkte i brødteksten:** `maskinen`-kladden byggede sit eget
+    SVG-diagram som en fenced kodeblok midt i artikelteksten i stedet for at følge titlens
+    faste mønster (selvstændig fil + `figures:`/`[FIGUR]`-markør). Diagrammet var faktisk godt —
+    flyttet til `figur-kontaktlinse-stobning.svg` uden indholdsændring.
+
 - **(2026-08) Nr. 3 — “Fjernvarmen” — UDGIVET 2026-08-19 (nyt nummer, fra bunden).**
   8 artikler, **3.082 ord**. Syv artikler reelt kommissioneret på `.env.indeni`; lederen er
   chefredaktionens og har **ingen byline**. Samlet forbrug **0,1960 USD**. `check_issue.py`:
@@ -94,6 +128,9 @@ Målgruppen er den almindeligt nysgerrige danske læser. Forklar fagord første 
 
 ## Redaktionslog
 
+- **2026-08-29:** Nr. 4 udgivet — "Kontaktlinsen", nyt nummer produceret fra bunden med
+  egenproduceret SVG-diagram af cast molding-processen. Tre fejl fanget og rettet, inkl. en
+  opfundet, ubriefet statistik ("99 % af processen") i Europa-artiklen. Se læringen ovenfor.
 - **2026-08-19:** Nr. 3 udgivet — "Fjernvarmen", nyt nummer produceret fra bunden med egenproduceret
   SVG-diagram. Se læringen ovenfor. To gættede/forkerte kilder fanget og rettet.
 - **2026-08-01:** “Det usynlige lag” udvidet efter læserspørgsmål med polymertyper, drikspecifik coating-validering og EU/EFSA's BPA-spor. Læringen: skriv aldrig “dåselak” som én universel kemisk opskrift.
@@ -124,7 +161,7 @@ levetidstallet ville have pålagt nummeret 0,10 USD, det ikke har brugt.
 ## Idébank
 
 - ~~Fjernvarmen~~ → **brugt i nr. 3** (2026-08-19).
-- **(2026-08) Kontaktlinsen** — polymer, sterilisering, pasform og hvorfor den ikke må skylles ud i vasken.
+- ~~Kontaktlinsen~~ → **brugt i nr. 4** (2026-08-29).
 - **(2026-08) Asfalt** — sten, bitumen, temperatur, genbrug og vejarbejde om natten.
 
 ## Løfter til læseren
