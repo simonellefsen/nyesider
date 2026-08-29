@@ -154,6 +154,48 @@ flere fodnoter for at ramme et tal ville have været den falske præcision, nr. 
 imod. Ledgerens `citations`-felt er rettet til det faktiske, korrekte antal, med en forklarende note
 — ikke opjusteret med opfundne ekstra fodnoter.
 
+## Nr. 4 — udgivet 2026-08-29
+
+**Tema:** Atomkraften vender tilbage — drevet af datacentre, på vej til Månen (indfrier nr. 3's
+bagsideløfte om SMR-ansøgninger med konkret myndigheds-/virksomhedstekst). **7 artikler, 3.494
+ord.** Seks artikler reelt kommissioneret på `.env.kraften`; lederen er redaktionens uden byline.
+Forbrug **0,2157 USD**. `check_issue.py`: **0 fejl, 0 advarsler.** `check_links.py`: **0 døde
+links.** `bestilling.json`: `redaktion/kraften/numre/2026-08-nr4/bestilling.json`.
+
+Fire spor: techgiganternes atomaftaler (Microsoft/Constellation, Google/Kairos, Amazon/X-energy),
+SMR-kapløbet globalt (Kina/Linglong One, Canada/Darlington, USA/Kemmerer, UK/Wylfa), en ærlig
+økonomisk realitetstjek (NuScale-annulleringen), og et rumspor: NASA/DOE's fissionsreaktor til
+Månen.
+
+### Lært af GNISTEN nr. 4 samme dag: skriv verificerede URL'er direkte ind i briefen
+
+Efter at GNISTEN nr. 4 samme dag oplevede, at en model afviste at skrive en artikel, fordi den
+ikke kunne bekræfte begivenheder nyere end dens træningsdata, blev alle KRAFTEN nr. 4-briefs
+skrevet med en eksplicit liste af verificerede URL'er indsat direkte i `brief.angle` — ikke kun
+beskrevet som fakta. Alle seks kommissioneringer lykkedes på første forsøg, med korrekte,
+konkrete fodnoter. **Denne praksis bør være standard fremover, når en brief refererer til
+begivenheder fra 2024-2026** — modellens egen viden rækker ikke til at bekræfte eller finde
+kilder til dem.
+
+### Fabrikeret sammenligningstal fanget i faktatjekket
+
+`atomkraft-paa-maanen`-kladden tilføjede en ubriefet påstand om, at "tidligere rumreaktorer typisk
+har opereret i intervallet 10-40 kilowatt". Research viste, at USA's eneste fissionsreaktor
+nogensinde sendt i rummet (SNAP-10A, 1965) leverede omkring **500 watt** — ikke kilowatt — og at
+tidligere radioisotopgeneratorer (RTG'er, en helt anden teknologi) lå i enkelte til lave hundrede
+watt. Tallet var ikke bare forkert, det var en helt anden størrelsesorden. Rettet til det
+korrekte, kildebelagte SNAP-10A-tal. **Samme mønster som Danmarkshistorien og HumaNerd har fundet
+i andre titler denne uge: en model kan finde korrekte navne og datoer og stadig tilføje et
+selvsikkert, forkert tal ved siden af, hvis briefen ikke eksplicit har stillet det til raadighed.**
+
+### Reaktor 1 vs. reaktor 2 — en skelnen der holdt
+
+Briefen for `techgiganternes-atomaftaler` krævede eksplicit, at Three Mile Islands reaktor 1
+(genstartes af Microsoft/Constellation, lukkede 2019 af økonomiske årsager) ikke måtte blandes
+sammen med reaktor 2 (stedet for 1979-ulykken, permanent lukket). Kladden holdt skelnen korrekt
+uden yderligere redigering — et eksempel på, at en tydelig, eksplicit advarsel i briefen om en
+oplagt forvekslingsrisiko virker.
+
 ## Research-regler
 
 Tal med **kilde + årstal**. Skeln nameplate MW / TWh / planlagt / under byggeri / i drift.  

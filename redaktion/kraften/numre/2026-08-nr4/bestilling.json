@@ -1,0 +1,265 @@
+{
+  "magazine": "kraften",
+  "issue": "2026-08-nr4",
+  "issueTheme": "Atomkraften vender tilbage — drevet af datacentre, på vej til Månen",
+  "integrityNote": "Nyt nummer, produceret 2026-08-29. Research forud for hver brief, paa .env.kraften. mustCite sat efter research var laest. Indfrier nr. 3's bagsideloefte om SMR-ansoegninger med konkret myndigheds-/virksomhedstekst. Verificerede URL'er indsat direkte i hver brief.angle (laering fra GNISTEN nr. 4 samme dag: modeller kan ikke bekraefte begivenheder efter deres traeningsdata uden eksplicitte kilder i briefen).",
+  "budget": {
+    "articles": 7,
+    "wordsPerArticle": [
+      300,
+      750
+    ],
+    "targetPages": 12,
+    "note": "Dybde før bredde, som nr. 3 etablerede. Fire nyhedsspor: techgiganternes atomaftaler, SMR-kapløbet, SMR-økonomiens realitetstjek, og atomkraft på Månen."
+  },
+  "researchNote": "ADVARSEL: dette felt naar ALDRIG frem til modellen — kun brief.angle goer. Kontrolleret 2026-08-29.\nTema (indfrier nr. 3's bagsideloefte om SMR-ansoegninger med konkret myndigheds-/virksomhedstekst):\natomkraften vender tilbage, drevet af datacentre — og paa vej til Maanen.\n\n1) TECHSELSKABERNES ATOMAFTALER (2024-2026). Microsoft indgik 20. september 2024 en 20-aarig\nstroemkoebsaftale (PPA) med Constellation Energy om at genstarte Three Mile Island-vaerkets\nreaktor 1, nu omdoebt Crane Clean Energy Center, med 835 MW kapacitet — reaktoren, der lukkede i\n2019, ventes online igen omkring 2027-2028. Constellation sikrede sig desuden et lån paa 1 mia.\nUSD fra det amerikanske energiministerium til genstarten. Google indgik 14. oktober 2024 en\n\"Master Plant Development Agreement\" med Kairos Power om op til 500 MW SMR-kapacitet (smaa\nmodulaere reaktorer) fordelt paa flere anlaeg, foerste levering ventet 2030 — den foerste\namerikanske virksomhedsaftale om FLERE reaktorer af samme design. Amazon investerede via sin\nClimate Pledge Fund i X-energy (foerst 500 mio. USD i oktober 2024, siden udvidet til 700 mio.\nUSD i en Serie C-1-runde) og planlaegger sammen med X-energy et anlaeg med 12 reaktorer paa\ntilsammen 960 MW (\"Cascade Advanced Energy Center\"), med byggestart tidligst 2030 — del af et\nmaal om 5 GW SMR-kapacitet i USA inden 2039.\n\n2) SMR-KAPLOEBET GLOBALT (status 2026). Den globale SMR-projektpipeline overstiger nu 22 GW og\n176 mia. USD i forpligtede projekter, ifoelge analysefirmaet Wood Mackenzie. Kun FIRE SMR-enheder\nvar i kommerciel drift globalt primo 2026 — alle ved Ruslands flydende Akademik Lomonosov-vaerk\nog Kinas Linglong One. Linglong One (Hainan-provinsen, Kina) ventes at blive verdens foerste\nlandbaserede kommercielle SMR i kommerciel drift i foerste halvaar af 2026. I Canada blev\nBWRX-300-reaktoren ved Darlington den foerste SMR under BYGGERI i Nordamerika. I USA sikrede\nTerraPowers Natrium-anlaeg i Kemmerer, Wyoming, sin byggetilladelse fra det amerikanske\natomtilsyn NRC. I Storbritannien ventes trin 3 af den generiske designvurdering (Generic Design\nAssessment) at vaere faerdig i august 2026, hvilket aabner for byggeri paa Wylfa, Anglesey — Storbritanniens foerste SMR-lokation.\n\n3) SMR-OeKONOMIEN: HVORFOR DET ER SVAeRT AT BYGGE BILLIGT. NuScale — det eneste SMR-design, der\nhar vaeret godkendt af det amerikanske atomtilsyn NRC — annullerede i november 2023 sit\nflagskibsprojekt med det kommunale forsyningskonsortium UAMPS i Idaho, efter at\nomkostningsestimatet var steget fra 5,3 mia. til 9,2 mia. USD (en stigning paa 74%), og den\nberegnede kWh-pris (LCOE) var steget fra 58 til 89 USD/MWh. Hele omkostningsstigningen skete\nUNDER planlaegning og godkendelse, foer selve byggeriet gik i gang — dvs. et teknologigodkendt\ndesign er ikke det samme som et oekonomisk levedygtigt projekt. Foerste-af-sin-slags SMR'er\nforventes ifoelge brancheanalyser at koste 80-150 USD/MWh, konkurrencedygtigt med stor\nkernekraft, men IKKE med sol og vind. Det er netop derfor, at techselskaber med stserke\nbalancer (Google, Amazon, Meta) er blevet SMR-branchens vigtigste \"ankerkunder\" — de kan baere\nden oekonomiske risiko ved foerste-af-sin-slags-anlaeg, som et almindeligt elselskab ikke kan.\n\n4) ATOMKRAFT PAA MAANEN. NASA og det amerikanske energiministerium (DOE) fornyede i 2026 deres\npartnerskab om at udvikle et \"Fission Surface Power\"-system (FSP, en atomreaktor designet til at\nlevere stroem paa Maaneoverfladen) til brug under Artemis-programmet. Maalet er en reaktor paa\nMaanen inden foerste kvartal af regnskabsaar 2030 (dvs. inden udgangen af 2029) — en\nfremrykning i forhold til tidligere planer. En direktiv fra august 2025 haevede effektmaalet til\nMINDST 100 kilowatt. NASA og DOE har tildelt tolv-maaneders udviklingskontrakter paa 5 mio. USD\nhver til tre konsortier: Lockheed Martin (med BWX Technologies og Creare), Westinghouse (med\nAerojet Rocketdyne) og IX — et joint venture mellem Intuitive Machines og X-energy (med Maxar og\nBoeing). Programmet er organisatorisk flyttet fra NASA's Space Technology Mission Directorate til\nExploration Systems Development Mission Directorate.\n\nSTRENGT FORBUDT (ingen kilde her): opfundne konkrete danske eller nordiske SMR-projekter, en\npaastand om at NuScale-annulleringen betyder at SMR-teknologien generelt er doed (den er ikke —\nadskillige andre projekter fortsaetter), og enhver sammenblanding af Three Mile Islands to\nreaktorer (kun reaktor 1/Crane Clean Energy Center er den, der genstartes — reaktor 2 er stedet\nfor 1979-ulykken og forbliver lukket permanent). mustCite: 2+ for alle features. 0 for\nRygtebørsen.",
+  "opgaver": [
+    {
+      "slug": "leder",
+      "order": 1,
+      "section": "Leder",
+      "brief": {
+        "angle": "Chefredaktionens leder. Indfrier nr. 3's bagsideloefte om at foelge op, naar 'nye SMR-ansoegninger lander med konkret myndigheds-/virksomhedstekst' — det er praecis, hvad dette nummer handler om: tre store amerikanske techselskabers dokumenterede atomaftaler (Microsoft/Constellation, Google/Kairos, Amazon/X-energy), en global SMR-kapløbsstatus, en aerlig oekonomisk realitetstjek (NuScale-annulleringen), og et space-spor: NASA og DOE's fornyede satsning paa en atomreaktor til Maanen. Land temaet: atomkraften er ikke 'tilbage' som en generel trend — den er tilbage, DREVET AF konkrete koebere med dybe lommer, og det aendrer, hvem der baerer risikoen.",
+        "words": [
+          180,
+          320
+        ],
+        "mustCite": 0,
+        "format": "leder"
+      },
+      "writer": {
+        "byline": null,
+        "model": "TBD",
+        "fallback": "anthropic/claude-sonnet-5"
+      },
+      "receipt": {
+        "words": null,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "editor-led",
+        "checkedAt": "2026-08-29",
+        "citations": 0,
+        "editorNote": "Chefredaktionens leder, ingen byline, ingen kommissionering."
+      }
+    },
+    {
+      "slug": "tallet",
+      "order": 2,
+      "section": "Tallet",
+      "brief": {
+        "angle": "Tallet: en kildebelagt tabel over noegletal i atomkraftens comeback drevet af datacentre. Raekker: (1) Microsoft/Constellation: 20-aarig aftale, 835 MW, Three Mile Island reaktor 1 (Crane Clean Energy Center), aftale indgaaet 20. sep. 2024, genstart ventet ca. 2027-2028. (2) Google/Kairos Power: op til 500 MW SMR-kapacitet, aftale indgaaet 14. okt. 2024, foerste levering ventet 2030. (3) Amazon/X-energy: 700 mio. USD investeret, 12 reaktorer paa tilsammen 960 MW planlagt ('Cascade Advanced Energy Center'), maal om 5 GW i USA inden 2039. (4) Global SMR-pipeline: over 22 GW og 176 mia. USD i forpligtede projekter (Wood Mackenzie). (5) SMR-enheder i kommerciel drift globalt primo 2026: kun 4 (Rusland + Kina). (6) NuScales annullerede projekt: omkostning steg fra 5,3 til 9,2 mia. USD (+74%), kWh-pris fra 58 til 89 USD/MWh, annulleret november 2023. Kilder: se researchnoten — brug de konkrete URL'er, der er angivet i de andre briefs, til de tilsvarende tal.\n\nVERIFICEREDE KILDER (brug disse konkrete URL'er i dine fodnoter, gaet IKKE andre adresser): https://www.constellationenergy.com/news/2024/Constellation-to-Launch-Crane-Clean-Energy-Center-Restoring-Jobs-and-Carbon-Free-Power-to-The-Grid.html — https://blog.google/company-news/outreach-and-initiatives/sustainability/google-kairos-power-nuclear-energy-agreement/ — https://x-energy.com/news/amazon-invests-in-x-energy-to-support-advanced-small-modular-nuclear-reactors-and-expand-carbon-free-power/ — https://www.utilitydive.com/news/small-modular-reactor-haleu-ge-hitachi-nuscale/709978/ — https://www.eenews.net/articles/nuscale-cancels-first-of-a-kind-nuclear-project-as-costs-surge/",
+        "words": [
+          300,
+          500
+        ],
+        "mustCite": 5,
+        "format": "tabel",
+        "mustNumber": [
+          "835 MW: Microsoft/Constellation (Three Mile Island)",
+          "500 MW: Google/Kairos Power",
+          "12 reaktorer/960 MW: Amazon/X-energy",
+          "22 GW global SMR-pipeline"
+        ]
+      },
+      "writer": {
+        "byline": null,
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "anthropic/claude-sonnet-5"
+      },
+      "receipt": {
+        "words": 446,
+        "costUSD": 0.021068,
+        "draft": "kladder/02-tallet.md",
+        "costRouting": "byok",
+        "generationId": "gen-1787991361-V3jyD79tSQfUOfY6PME9"
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-08-29",
+        "citations": 5,
+        "editorNote": "Alle seks tal krydstjekket mod de fem primærkilder (Constellation, Google, X-energy, Utility Dive/WoodMac, E&E News). Ingen rettelser nødvendige."
+      }
+    },
+    {
+      "slug": "techgiganternes-atomaftaler",
+      "order": 3,
+      "section": "Atom",
+      "brief": {
+        "angle": "Feature: de tre store amerikanske techselskabers atomaftaler, 2024-2026. Microsoft indgik 20. september 2024 en 20-aarig stroemkoebsaftale med Constellation Energy om at genstarte Three Mile Island-vaerkets reaktor 1 (nu omdoebt Crane Clean Energy Center), 835 MW, genstart ventet ca. 2027-2028 — reaktoren lukkede i 2019 af oekonomiske aarsager, IKKE relateret til 1979-ulykken paa den anden reaktor (reaktor 2, som forbliver permanent lukket — hold disse to adskilt eksplicit). Constellation sikrede desuden et laan paa 1 mia. USD fra det amerikanske energiministerium. Google indgik 14. oktober 2024 en 'Master Plant Development Agreement' med Kairos Power om op til 500 MW SMR-kapacitet fordelt paa flere anlaeg, foerste levering ventet 2030 — den foerste amerikanske aftale om FLERE reaktorer af samme avancerede design. Amazon investerede via sin Climate Pledge Fund i X-energy (i alt 700 mio. USD) og planlaegger sammen med X-energy et anlaeg med 12 reaktorer paa tilsammen 960 MW ('Cascade Advanced Energy Center'), byggestart tidligst 2030, som del af et maal om 5 GW i USA inden 2039. Land artiklen paa: dette er ikke tre ens historier — det er tre forskellige strategier (genstart af gammel kapacitet, foerste-flaade-aftale, tidlig investor), der alle loeser samme problem: datacentres behov for stroem, der koerer hele doegnet.\n\nVERIFICEREDE KILDER (brug disse konkrete URL'er i dine fodnoter, gaet IKKE andre adresser): https://www.constellationenergy.com/news/2024/Constellation-to-Launch-Crane-Clean-Energy-Center-Restoring-Jobs-and-Carbon-Free-Power-to-The-Grid.html — https://blog.google/company-news/outreach-and-initiatives/sustainability/google-kairos-power-nuclear-energy-agreement/ — https://www.kairospower.com/updates/google-and-kairos-power-partner-to-deploy-500-mw-of-clean-electricity-generation — https://x-energy.com/news/amazon-invests-in-x-energy-to-support-advanced-small-modular-nuclear-reactors-and-expand-carbon-free-power/",
+        "words": [
+          500,
+          750
+        ],
+        "mustCite": 3,
+        "format": "feature",
+        "mustNumber": [
+          "835 MW Three Mile Island (Microsoft/Constellation)",
+          "500 MW Google/Kairos",
+          "12 reaktorer/960 MW Amazon/X-energy"
+        ]
+      },
+      "writer": {
+        "byline": null,
+        "model": "anthropic/claude-opus-4.8",
+        "fallback": "anthropic/claude-sonnet-5"
+      },
+      "receipt": {
+        "words": 651,
+        "costUSD": 0.062745,
+        "draft": "kladder/03-techgiganternes-atomaftaler.md",
+        "costRouting": "byok",
+        "generationId": "gen-1787991388-YJMMwFQ2TJZypSH9HnB5"
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-08-29",
+        "citations": 4,
+        "editorNote": "Håndterede korrekt den vigtige skelnen mellem Three Mile Islands reaktor 1 (genstartes, lukkede 2019 af økonomiske årsager) og reaktor 2 (1979-ulykken, permanent lukket) uden at blande dem sammen, præcis som briefet krævede. Ingen rettelser nødvendige."
+      }
+    },
+    {
+      "slug": "smr-kaploebet",
+      "order": 4,
+      "section": "Atom",
+      "brief": {
+        "angle": "Feature: SMR-kapløbet globalt, status 2026. Den globale SMR-projektpipeline overstiger nu 22 GW og 176 mia. USD i forpligtede projekter (Wood Mackenzie). Men kun FIRE SMR-enheder er i kommerciel drift globalt primo 2026 — alle ved Ruslands flydende Akademik Lomonosov-vaerk og Kinas Linglong One. Linglong One (Hainan, Kina) ventes at blive verdens foerste landbaserede kommercielle SMR i kommerciel drift i foerste halvaar 2026. I Canada blev BWRX-300-reaktoren ved Darlington den foerste SMR under BYGGERI i Nordamerika. I USA sikrede TerraPowers Natrium-anlaeg i Kemmerer, Wyoming, sin byggetilladelse fra det amerikanske atomtilsyn NRC (Nuclear Regulatory Commission). I Storbritannien ventes trin 3 af den generiske designvurdering (Generic Design Assessment) at vaere faerdig i august 2026, hvilket aabner for byggeri paa Wylfa, Anglesey — Storbritanniens foerste SMR-lokation. Land artiklen paa: forskellen mellem 'planlagt' (22 GW pipeline), 'under byggeri' (faa: Darlington, Kemmerer) og 'i drift' (kun 4 enheder globalt, ingen i Vesten) er den vigtigste skelnen i hele SMR-branchen lige nu — en pipeline er ikke en produktion.\n\nVERIFICEREDE KILDER (brug disse konkrete URL'er i dine fodnoter, gaet IKKE andre adresser): https://www.utilitydive.com/news/small-modular-reactor-haleu-ge-hitachi-nuscale/709978/ — https://world-nuclear.org/information-library/nuclear-power-reactors/small-modular-reactors/small-modular-reactor-smr-global-tracker",
+        "words": [
+          500,
+          750
+        ],
+        "mustCite": 2,
+        "format": "feature",
+        "mustNumber": [
+          "22 GW global SMR-pipeline, 176 mia. USD",
+          "kun 4 SMR-enheder i kommerciel drift globalt"
+        ]
+      },
+      "writer": {
+        "byline": null,
+        "model": "google/gemini-3.1-pro-preview",
+        "fallback": "anthropic/claude-sonnet-5"
+      },
+      "receipt": {
+        "words": 547,
+        "costUSD": 0.053896,
+        "draft": "kladder/04-smr-kaploebet.md",
+        "costRouting": "byok",
+        "generationId": "gen-1787991437-IHojjwRqBu9UG5thfX2x"
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-08-29",
+        "citations": 2,
+        "editorNote": "Alle landetal (Kina/Linglong One, Canada/Darlington, USA/Kemmerer, UK/Wylfa) krydstjekket mod kilderne. Ingen rettelser nødvendige."
+      }
+    },
+    {
+      "slug": "smr-oekonomi",
+      "order": 5,
+      "section": "Atom",
+      "brief": {
+        "angle": "Feature: hvorfor er SMR svaert at bygge billigt? En aerlig oekonomisk realitetstjek, efter de to foregaaende artiklers optimisme. NuScale — det eneste SMR-design, der har vaeret godkendt af det amerikanske atomtilsyn NRC — annullerede i november 2023 sit flagskibsprojekt med det kommunale forsyningskonsortium UAMPS i Idaho, efter at omkostningsestimatet var steget fra 5,3 mia. til 9,2 mia. USD (+74%), og den beregnede kWh-pris (LCOE, Levelized Cost of Electricity — en standardmaalestok for elprisens gennemsnitlige omkostning over et anlaegs levetid) var steget fra 58 til 89 USD/MWh. Hele omkostningsstigningen skete UNDER planlaegning og godkendelse, foer selve byggeriet gik i gang — dvs. et teknologigodkendt design er ikke det samme som et oekonomisk levedygtigt projekt. Foerste-af-sin-slags SMR'er forventes ifoelge brancheanalyser at koste 80-150 USD/MWh, konkurrencedygtigt med stor kernekraft, men IKKE med sol og vind. Land artiklen paa: det er netop derfor, techselskaber med staerke balancer (Google, Amazon, Meta, jf. forrige artikel) er blevet SMR-branchens vigtigste 'ankerkunder' — de kan baere den oekonomiske risiko ved foerste-af-sin-slags-anlaeg paa en maade, et almindeligt elselskab ikke kan. STRENGT: skriv IKKE at NuScale-annulleringen betyder, at SMR-teknologien generelt er doed — andre projekter (Kairos, X-energy, TerraPower) fortsaetter uafhaengigt af NuScale.\n\nVERIFICEREDE KILDER (brug disse konkrete URL'er i dine fodnoter, gaet IKKE andre adresser): https://www.eenews.net/articles/nuscale-cancels-first-of-a-kind-nuclear-project-as-costs-surge/ — https://smrintel.com/smr-cost-per-kwh/",
+        "words": [
+          500,
+          750
+        ],
+        "mustCite": 2,
+        "format": "feature",
+        "mustNumber": [
+          "5,3 → 9,2 mia. USD (+74%)",
+          "58 → 89 USD/MWh LCOE",
+          "annulleret november 2023"
+        ]
+      },
+      "writer": {
+        "byline": null,
+        "model": "openai/gpt-5.6-terra",
+        "fallback": "anthropic/claude-sonnet-5"
+      },
+      "receipt": {
+        "words": 631,
+        "costUSD": 0.0215,
+        "draft": "kladder/05-smr-oekonomi.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1787991476-zSv7hQOIkVzD5ccLylhN"
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-08-29",
+        "citations": 2,
+        "editorNote": "Balanceret realitetstjek, der eksplicit undgik den forbudte konklusion ('SMR er dødt') og i stedet præciserede forskellen mellem teknisk godkendelse og økonomisk levedygtighed. Ingen rettelser nødvendige."
+      }
+    },
+    {
+      "slug": "atomkraft-paa-maanen",
+      "order": 6,
+      "section": "Rumkraft",
+      "brief": {
+        "angle": "Feature: atomkraft paa Maanen. NASA og det amerikanske energiministerium (DOE) fornyede i 2026 deres partnerskab om at udvikle et 'Fission Surface Power'-system (FSP, en atomreaktor designet til at levere stroem paa Maaneoverfladen) til brug under Artemis-programmet, USA's program for bemandet rumfart til Maanen. Maalet er en reaktor paa Maanen inden foerste kvartal af regnskabsaar 2030 (dvs. inden udgangen af 2029) — en fremrykning i forhold til tidligere planer. Et direktiv fra august 2025 haevede effektmaalet til MINDST 100 kilowatt. NASA og DOE har tildelt tolv-maaneders udviklingskontrakter paa 5 mio. USD hver til tre konsortier: Lockheed Martin (med BWX Technologies og Creare), Westinghouse (med Aerojet Rocketdyne) og IX — et joint venture mellem Intuitive Machines og X-energy (med Maxar og Boeing). Programmet er organisatorisk flyttet fra NASA's Space Technology Mission Directorate til Exploration Systems Development Mission Directorate. Land artiklen paa: den samme logik som driver techselskabernes jordbaserede atomaftaler — konstant, vejruafhaengig stroem, hvor sol og batterier ikke slaar til (paa Maanen: 14 dages moerke ad gangen) — driver ogsaa rumfartens interesse for atomkraft. STRENGT: skriv det som en udviklingskontrakt-fase, IKKE som en bygget reaktor — intet er endnu sendt til Maanen.\n\nVERIFICEREDE KILDER (brug disse konkrete URL'er i dine fodnoter, gaet IKKE andre adresser): https://www.nasa.gov/news-release/nasa-department-of-energy-to-develop-lunar-surface-reactor-by-2030 — https://spacenews.com/nasa-and-doe-to-collaborate-on-lunar-nuclear-reactor-development/",
+        "words": [
+          500,
+          750
+        ],
+        "mustCite": 2,
+        "format": "feature",
+        "mustNumber": [
+          "mål: reaktor på Månen inden Q1 FY2030",
+          "mindst 100 kW",
+          "3 × 5 mio. USD udviklingskontrakter"
+        ]
+      },
+      "writer": {
+        "byline": null,
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "anthropic/claude-sonnet-5"
+      },
+      "receipt": {
+        "words": 630,
+        "costUSD": 0.02205,
+        "draft": "kladder/06-atomkraft-paa-maanen.md",
+        "costRouting": "byok",
+        "generationId": "gen-1787991502-f9bbopblWC2VXtexvxVt"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-29",
+        "citations": 3,
+        "editorNote": "Kladden tilføjede en ubriefet, forkert sammenligning ('tidligere rumreaktorer har typisk opereret i intervallet 10-40 kilowatt') — reelt fabrikeret: research viste, at USA's eneste fissionsreaktor nogensinde i rummet (SNAP-10A, 1965) leverede omkring 500 WATT, ikke kilowatt, og at tidligere RTG'er (en anden teknologi) lå i enkelte til lave hundrede watt. Rettet til det korrekte, verificerede SNAP-10A-tal med kilde (World Nuclear Association)."
+      }
+    },
+    {
+      "slug": "rygteboersen",
+      "order": 7,
+      "section": "Rygtebørsen",
+      "brief": {
+        "angle": "Rygtebørsen: kort, letbenet bagsnit med observationer og spekulationer fra energiverdenen, i samme stil som nr. 3. Ingen nye faktapaastande, der kraever kilde — hold det til det, der allerede er etableret i nummeret (techselskabernes atomaftaler, SMR-kapløbet, oekonomien, Maane-reaktoren), formuleret let og drilsk. Slut med et konkret, realistisk bagsideloefte om, hvad KRAFTEN nr. 5 vil handle om — aaben teaser, ikke en detaljeret plan.",
+        "words": [
+          350,
+          550
+        ],
+        "mustCite": 0,
+        "format": "rygtebørs"
+      },
+      "writer": {
+        "byline": null,
+        "model": "google/gemini-3.1-pro-preview",
+        "fallback": "anthropic/claude-sonnet-5"
+      },
+      "receipt": {
+        "words": 424,
+        "costUSD": 0.034402,
+        "draft": "kladder/07-rygteboersen.md",
+        "costRouting": "byok",
+        "generationId": "gen-1787991540-iakVCzUOol3Hg5kq3cvr"
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-08-29",
+        "citations": 0,
+        "editorNote": "mustCite 0. Bagsideløfte til nr. 5 (undersøiske højspændingskabler, kobber) er redaktionens eget valg til idébanken, ikke en påstand der kræver kilde."
+      }
+    }
+  ]
+}
