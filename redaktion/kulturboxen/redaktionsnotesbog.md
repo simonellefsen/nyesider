@@ -145,9 +145,59 @@ turisme, men arbejdsmigration (au pair). Det gav en ekstra sektion (`Dagligdag &
 markant mere Danmarks-nær vinkel end i Georgien- og Sydtyrol-numrene — værd at overveje som fast
 greb, når et lands diaspora i Danmark er dokumenterbar.
 
-## Nr. 4 — kandidater
+## Nr. 4 — udgivet 2026-08-29
 
-- **(2026-08) Marokko** (by vs. land, Ramadan-rytme, handel, kønsrum)  
+**Tema:** Marokko · **Kultur:** by vs. land, ramadan-rytmen, souk-handel, kønsopdelte rum, familieloven
+**10 artikler, 4.704 ord.** Ni artikler reelt kommissioneret på `.env.kulturboxen`; lederen er
+redaktionens uden byline. Forbrug **0,2593 USD**. `check_issue.py`: **0 fejl, 0 advarsler.**
+`bestilling.json`: `redaktion/kulturboxen/numre/2026-08-nr4/bestilling.json`.
+
+**Bevidst asynk med HORISONTEN.** Synk-reglen blev prøvet først: HORISONTEN nr. 4 handler om
+Sicilien, ikke Marokko, og HORISONTENs egen identitet er afgrænset til rejser i Europa. Marokko
+passer derfor ikke ind i den titel. Noteret åbent i bagsnittet «Til HORISONTEN», med et rigtigt
+link til det allerede udgivne HORISONTEN nr. 4 i stedet for et opdigtet Marokko-link.
+
+### Kernetal
+
+- **2024-folketællingen (HCP):** 36.828.330 indbyggere (36.680.178 marokkanere + 148.152
+  udlændinge), +8,80 % siden 2014, årlig vækstrate faldet til 0,85 % (fra 1,25 %).
+- **Urbanisering:** 62,8 % ved 2024-tællingen, HCP's prognose for 2026: 67,9 %. Byhusstande
+  voksede med 1.366.187 i tiåret 2014–2024, mod kun 595.054 på landet — mere end dobbelt så
+  hurtig byvækst i husstandsdannelse.
+- **Håndværkssektoren:** ca. 20 % af erhvervsaktive, heraf 54 % kvinder — strukturen bag
+  soukens lavsystem, der stadig ordner souken geografisk (guldsmede nær moskeen, garvere i
+  periferien).
+- **Moudawana-reformudkastet:** fremlagt 24. december 2024, endnu ikke vedtaget lov på
+  researchtidspunktet. Udelader ligestillet arv — noteret åbent som en skuffelse for dele af
+  kvindebevægelsen, ikke skjult.
+
+### To fejl fanget før udgivelse
+
+- **Modelgenereret escape-artefakt, ikke en rigtig ikke-brydende mellemrumstegn.** Tre kladder
+  (Sonnet-skrevne: by-og-land, familieloven, tallet) indeholdt bogstaveligt seks-tegns-sekvensen
+  backslash-u-0-0-a-0 (den escapede JSON-notation for ikke-brydende mellemrum, ikke selve tegnet)
+  foran hvert `%`. `check_issue.py`s advarsel om "plain space before %%" fangede det, da den
+  første oprydning (fejlagtigt) erstattede det med et almindeligt mellemrum i stedet for det
+  rigtige tegn. Rettet
+  til ægte U+00A0 via et Python-script, der matcher de eksakte tal (undgår at gætte på en generisk
+  regex igen efter en mislykket bash-escaping-runde ødelagde to cifre undervejs).
+- **Uudfyldt skabelon-fodnote.** by-og-land's fodnote 2 citerede Yabiladi med bogstavelige
+  pladsholdere: *"Morocco's population nears [x] million, latest [census figures]"*. Hentede den
+  rigtige sidetitel via `curl` (`og:title`) og rettede til den faktiske overskrift: *"Morocco's
+  population nears 37 million in latest census"*.
+
+### En ubriefet, men korrekt regional detalje
+
+by-og-land nævnte ubedt Casablanca-Settat og Rabat-Salé-Kénitra som de tungeste regioner
+befolkningsmæssigt — ikke i briefen. Verificeret korrekt via WebSearch (Casablanca-Settat: 20,3 %,
+Rabat-Salé-Kénitra: 13,5 % af befolkningen). Da påstanden i teksten er kvalitativ ("hører
+traditionelt til de tungeste regioner") og ikke bærer et konkret tal, blev ingen ny kilde
+tilføjet — de to allerede krævede fodnoter dækker fortsat mustCite: 2. Endnu et eksempel på, at en
+ubriefet, men sand tilføjelse kræver verifikation, ikke automatisk sletning — modsat en decideret
+opfundet kilde (se KULTURBOXEN nr. 3's DST-tabelreference eller HORISONTEN nr. 4's etnadoc.com).
+
+## Nr. 5 — kandidater
+
 - **(2026-08) Japan uden kirsebærtræer** (arbejde, service, bolig, dating)
 
 ## Format
@@ -156,6 +206,10 @@ greb, når et lands diaspora i Danmark er dokumenterbar.
 - **Standard `mustCite`:** 2+ for Tallet; 1–2 for Penge/Stat; 0 for Myter. **Ingen Ordbog** — gloser i parentes/fodnote.
 
 ## Log
+
+- **2026-08-29:** Nr. 4 udgivet — Marokko, nyt nummer produceret fra bunden. Bevidst asynk med
+  HORISONTEN nr. 4 (Sicilien). To fejl fanget før udgivelse (escape-artefakt, uudfyldt
+  skabelon-fodnote). Se læringen ovenfor.
 
 - **2026-08-19:** Nr. 3 udgivet — Filippinerne/OFW, nyt nummer produceret fra bunden. Se
   læringen ovenfor. To kildefælder fanget (opdigtet DST-tabelreference, uendelig redirect-loop).

@@ -1,0 +1,357 @@
+{
+  "magazine": "kulturboxen",
+  "issue": "2026-08-nr4",
+  "issueTheme": "Marokko",
+  "integrityNote": "Nyt nummer, produceret 2026-08-29. Research forud for hver brief, paa .env.kulturboxen. mustCite sat efter research var laest. Bevidst asynk med HORISONTEN nr. 4 (Sicilien) — HORISONTENs identitet er afgraenset til Europa. Verificerede URL'er indsat direkte i hver brief.angle.",
+  "budget": {
+    "articles": 10,
+    "wordsPerArticle": [
+      100,
+      750
+    ],
+    "targetPages": 14,
+    "note": "Matcher nr. 3's format: syv features, Tallet, Myter, Til HORISONTEN."
+  },
+  "researchNote": "ADVARSEL: dette felt naar ALDRIG frem til modellen — kun brief.angle goer. Kontrolleret 2026-08-29.\nKultur: Marokko. BEVIDST ASYNK med HORISONTEN nr. 4 (Sicilien) — proevet foerst, jf. synk-reglen,\nmen HORISONTENs identitet er afgraenset til Europa, saa Marokko passer ikke der.\n\n1) BY VS. LAND. Marokkos 2024-folketaelling (Haut-Commissariat au Plan, HCP, landets officielle\nstatistikmyndighed) gav en total befolkning paa 36.828.330 (36.680.178 marokkanere + 148.152\nudlaendinge) pr. 1. september 2024 — en stigning paa 2.980.088 (8,80%) siden 2014-taellingen,\nmed en gennemsnitlig aarlig vaekstrate paa 0,85% (ned fra 1,25% i 2004-2014). HCP's prognose for\n2026 saetter byandelen til 67,9% af befolkningen. Urbaniseringsraten var 62,8% i 2024-taellingen.\nFem regioner tegner sig for over 70% af befolkningen. Byhusstande voksede med 1.366.187 i tiåret\n2014-2024, mod kun 595.054 paa landet — mere end dobbelt saa hurtig byvaekst som landvaekst.\n\n2) RAMADANENS RYTME. Under ramadanen (den islamiske fastemaaned) skifter dagens rytme markant.\nOffentlige kontorer og de fleste private virksomheder forkorter aabningstiden, typisk til\n09.00-15.00 uden frokostpause. Souks og mindre butikker aabner sjaeldent foer 11.00-12.00, mens\nstore supermarkedskaeder (fx Carrefour, Acima) kan holde aabent til sent (op mod 01.00). Omkring\nen halv time foer solnedgang (iftar, det aftensmaaltid der bryder fasten) toemmes gaderne — taxier\nforsvinder, butikker lukker brat, og det anbefales at planlaegge transport uden om tidsrummet lige\nfoer solnedgang. Om aftenen efter iftar aabner gader og markeder igen, ofte til sent, og indkoeb\ntil naeste dags maaltider bliver en del af den naetlige rytme.\n\n3) SOUKENS HAANDVAeRKSOKONOMI. De marokkanske souks (markeder) er organiseret efter et\nlavsystem (guild-system), der gaar tilbage til middelalderen: guldsmede i ét omraade,\nkryddersaelgere i et andet, laedergarvere i et tredje. De mest prestigefyldte varer (guld,\nsmykker, fine tekstiler) ligger typisk i de centrale, overdaekkede omraader taettest paa\nhovedmoskeen, mens tungere eller kraftigere lugtende haandvaerk (garvning, metalarbejde) er\nskubbet ud i periferien. Haandvaerkssektoren beskaeftiger omkring 20% af den erhvervsaktive\nbefolkning, og kvinder udgoer 54% af haandvaerkerne. Souks er stadig en del af marokkanernes\negen hverdag — lokale koeber krydderier, husholdningsartikler og friske varer i de samme gyder,\nhvor turister koeber suvenirer. Den aabningspris, en saelger naevner, er en forhandlingsaabning,\nikke en fast pris — koeb og salg er en social ritual lige saa meget som en oekonomisk transaktion.\n\n4) KOeNSRUM. Traditionelt har det offentlige rum i Marokko vaeret mandsdomineret — caféer har\nhistorisk vaeret et mandligt rum, som kvinder foerst for nylig er begyndt at dele paa lige fod.\nI byer som Rabat og Marrakech kan kvinder undgaa offentlige pladser eller mandsdominerede caféer\naf frygt for chikane eller omdoemmeskade. En undersoegelse fra 1998 fandt, at kvinders forhold til\n\"neutrale\" cafékaeder (fx globale kaeder) adskiller sig fra traditionelle caféer — der er markant\nmindre koensforskel i klientellet i de \"neutrale\" rum. Hammammen (det offentlige dampbad) er\nomvendt et strengt koensopdelt rum: rene kvinde-hammammer findes ved siden af mandehammammer,\nog blandede offentlige hammammer findes ikke — samme strenge adskillelse som ved boennetid i\nmoskeen. Inden for hammammens kvinderum beskrives stemningen ofte som fri for det hierarki, der\nellers kan praege det offentlige rum.\n\n5) FAMILIELOVEN (MOUDAWANA) UNDER REFORM. Den 24. december 2024 fremlagde Marokkos\njustitsminister Abdellatif Ouahbi og religionsminister Ahmed Taoufiq et udkast til reform af\nMoudawana (familieloven) efter et aars konsultationer med kvinderettighedsgrupper og religioese\nlaerde. Foreslaaede aendringer: formel juridisk vaergemaal over boern til moedre (delt\nvaergemaal mellem begge foraeldre under og efter aegteskabet), formel anerkendelse af en hustrus\nhuslige arbejde i opgoerelsen af formue erhvervet under aegteskabet, og skaerpede restriktioner\npaa polygami (kraever nu retslig godkendelse og dokumentation af noedvendighed). Reformen\nadresserer forældremyndighed, aegteskabsret, polygami, aegteskabsalder, skilsmisse, underholdsbidrag\nog ejendomsret. STRENGT: reformen er et UDKAST/FORSLAG, ikke endeligt vedtaget lov paa\nresearchdatoen — skriv det som en igangvaerende proces, ikke en afsluttet reform. Forslaget\nudelader ligestillet arv mellem maend og kvinder, hvilket har skabt skuffelse i dele af\nkvindebevaegelsen.\n\n6) MAD OG BORD. Fredag (den islamiske helligdag) er couscous-dag i de fleste marokkanske\nhjem — familier samles efter middagsboennen om ét stort, delt fad, siddende paa puder eller ved\net lavt bord. Naar man er gaest i et marokkansk hjem, serveres traditionelt sod mynte-te\nsammen med kager/sødt tilbehør som en fast gaestfrihedsritual. Couscous regnes som Marokkos\nnationalret og et symbol paa ritual, tradition og gaestfrihed — retten deles fra ét stort fad\nsnarere end individuelle portioner, hvilket afspejler en vaerdi af faelles glaede over individuel\nportion.\n\nSTRENGT FORBUDT (ingen kilde her): opfundne konkrete danske Marokko-diaspora-tal (research fandt\nINGEN specifik dansk kilde til marokkanske indvandrertal i Danmark — brug IKKE et opfundet tal;\nnaevn i stedet aabent, at diasporaen primaert er i Frankrig, Spanien, Italien, Holland, Belgien og\nTyskland, IKKE Danmark specifikt), en paastand om at Moudawana-reformen allerede er vedtaget lov\n(den er et udkast/forslag pr. researchdatoen), og enhver antydning af at koensadskillelse i\nhammammer er under afvikling (det er den ikke — det er en fast, vedvarende norm, i modsaetning til\ncaféer, hvor normerne AER under forandring). mustCite: 2+ for Tallet; 1-2 for artikler med\nkonkrete tal/love; 0 for Myter.",
+  "opgaver": [
+    {
+      "slug": "leder",
+      "order": 1,
+      "section": "Leder",
+      "brief": {
+        "angle": "Chefredaktionens leder. Introducer Marokko som dette nummers kultur. Naevn kort nummerets greb: byen der vokser hurtigere end landet, ramadanens omvaeltning af den daglige rytme, soukens middelalderlige lavsystem der stadig strukturerer handel i dag, det koensopdelte offentlige rum (caféer i forandring, hammammer der forbliver strengt adskilte), og familieloven Moudawana, som er under reform lige nu — et udkast, ikke en faerdig lov. STRENGT: skriv IKKE at nummeret har en dansk migrations-vinkel (modsat nr. 3's Filippinerne-nummer) — research fandt ingen specifik, kildebelagt dansk-marokkansk forbindelse denne gang, og det er en aeng, redaktionel detalje, ikke noget lederen skal undskylde for.",
+        "words": [
+          180,
+          320
+        ],
+        "mustCite": 0,
+        "format": "leder"
+      },
+      "writer": {
+        "byline": null,
+        "model": "TBD",
+        "fallback": "anthropic/claude-sonnet-5"
+      },
+      "receipt": {
+        "words": 238,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "rewritten-by-editor",
+        "checkedAt": "2026-08-29",
+        "citations": 0,
+        "editorNote": "Chefredaktionens egen leder. writer.model 'editor-led', ingen byline, ingen kvittering. Linker til alle ni artikler plus bagsnittet til HORISONTEN."
+      }
+    },
+    {
+      "slug": "by-og-land",
+      "order": 2,
+      "section": "Penge, priser & forbrug",
+      "brief": {
+        "angle": "Feature: byen vokser dobbelt saa hurtigt som landet. Marokkos 2024-folketaelling (gennemfoert af HCP, Haut-Commissariat au Plan — landets officielle statistikmyndighed) gav en total befolkning paa 36.828.330 (36.680.178 marokkanere plus 148.152 udlaendinge) pr. 1. september 2024 — en stigning paa 2.980.088 mennesker (8,80%) siden 2014-taellingen, med en gennemsnitlig aarlig vaekstrate paa 0,85% (ned fra 1,25% i tiaaret foer). Urbaniseringsraten var 62,8% ved 2024-taellingen, og HCP's egen prognose for 2026 saetter byandelen til 67,9%. Byhusstande voksede med 1.366.187 i tiaaret 2014-2024, mod kun 595.054 paa landet — mere end dobbelt saa hurtig byvaekst. Fem regioner tegner sig for over 70% af den samlede befolkning. Land artiklen paa: Marokko er midt i en historisk flytning fra land til by, og den flytning goer sig gaeldende hurtigere i husstandsdannelse end i befolkningstal alene — et tegn paa, at byerne trakker yngre, mindre husstande til sig.\n\nVERIFICEREDE KILDER (brug disse konkrete URL'er i dine fodnoter, gaet IKKE andre adresser): https://www.moroccoworldnews.com/2026/07/328042/hcp-moroccos-population-to-reach-43-3-million-by-2060-as-aging-accelerates/ — https://en.yabiladi.com/articles/details/156032/morocco-s-population-nears-million-latest.html",
+        "words": [
+          500,
+          750
+        ],
+        "mustCite": 2,
+        "format": "feature",
+        "mustNumber": [
+          "36.828.330 indbyggere (2024-folketælling)",
+          "67,9% byandel (HCP-prognose 2026)",
+          "1.366.187 nye byhusstande vs. 595.054 nye landhusstande (2014-2024)"
+        ]
+      },
+      "writer": {
+        "byline": null,
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "anthropic/claude-sonnet-5"
+      },
+      "receipt": {
+        "words": 587,
+        "costUSD": 0.021834,
+        "draft": "kladder/02-by-og-land.md",
+        "costRouting": "byok",
+        "generationId": "gen-1787997597-4y5kfSEDsVJPXUPIym5I"
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-08-29",
+        "citations": 2,
+        "editorNote": "Kladdens tal matcher briefen. To rettelser foer udgivelse: (1) modellen skrev bogstaveligt '\\u00a0' i stedet for et mellemrum foer procenttegn syv steder — rettet til almindeligt mellemrum (husstil, jf. nr. 3). (2) fodnote 2's Yabiladi-titel indeholdt uudfyldte pladsholdere ('[x] million, latest [census figures]') — hentede den rigtige sidetitel via curl og rettede til 'Morocco's population nears 37 million in latest census'. Modellen tilfoejede ubriefet, at Casablanca-Settat og Rabat-Sale-Kenitra er de tungeste regioner; verificeret korrekt via WebSearch (praecise tal: 7.689.000/20,3% og 5.133.000/13,5%), men efterlod paastanden uden tal i teksten, saa ingen ny kilde er tilfoejet ud over de to allerede kraevede."
+      }
+    },
+    {
+      "slug": "ramadan-rytmen",
+      "order": 3,
+      "section": "Dagligdag & tempo",
+      "brief": {
+        "angle": "Feature: naar dagen vender om. Under ramadanen (den islamiske fastemaaned) skifter dagens rytme markant. Offentlige kontorer og de fleste private virksomheder forkorter aabningstiden, typisk til 09.00-15.00 uden frokostpause. Souks og mindre butikker aabner sjaeldent foer 11.00-12.00, mens store supermarkedskaeder kan holde aabent til sent (op mod 01.00). Omkring en halv time foer solnedgang (iftar, det aftensmaaltid der bryder fasten) toemmes gaderne — taxier forsvinder, butikker lukker brat. Om aftenen efter iftar aabner gader og markeder igen, ofte til sent, og indkoeb til naeste dags maaltider bliver en del af den naetlige rytme. Land artiklen paa: for en dansk laeser, hvor dagsrytmen er den samme hele aaret, er det svaert at forestille sig en maaned, hvor hele samfundets aabningstider, transportmoenstre og sociale liv systematisk vender om — dagen bliver stille, aftenen bliver den egentlige dag.\n\nVERIFICEREDE KILDER (brug disse konkrete URL'er i dine fodnoter, gaet IKKE andre adresser): https://morocco-tips.com/morocco-during-ramadan/ — https://gomorocconow.com/hours-and-holidays-in-morocco-business-hours-and-holiday-calendar/",
+        "words": [
+          500,
+          750
+        ],
+        "mustCite": 2,
+        "format": "feature",
+        "mustNumber": [
+          "Arbejdstid under ramadanen: typisk 09.00-15.00",
+          "Souks/butikker: sjældent åbne før 11-12"
+        ]
+      },
+      "writer": {
+        "byline": null,
+        "model": "anthropic/claude-opus-4.8",
+        "fallback": "anthropic/claude-sonnet-5"
+      },
+      "receipt": {
+        "words": 566,
+        "costUSD": 0.048035,
+        "draft": "kladder/03-ramadan-rytmen.md",
+        "costRouting": "byok",
+        "generationId": "gen-1787997653-cbnAIXR38XlZjpyXUUYF"
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-08-29",
+        "citations": 2,
+        "editorNote": "Ingen rettelser noedvendige. Begge fodnoter matcher briefens VERIFICEREDE KILDER."
+      }
+    },
+    {
+      "slug": "souk-og-handel",
+      "order": 4,
+      "section": "Arbejde & hierarki",
+      "brief": {
+        "angle": "Feature: soukens middelalderlige orden. De marokkanske souks (markeder) er organiseret efter et lavsystem (guild-system, en historisk fagforenings- og kvalitetskontrolstruktur), der gaar tilbage til middelalderen: guldsmede i ét omraade, kryddersaelgere i et andet, laedergarvere i et tredje. De mest prestigefyldte varer (guld, smykker, fine tekstiler) ligger typisk i de centrale, overdaekkede omraader taettest paa hovedmoskeen, mens tungere eller kraftigere lugtende haandvaerk (garvning, metalarbejde) er skubbet ud i periferien. Haandvaerkssektoren beskaeftiger omkring 20% af den erhvervsaktive befolkning, og kvinder udgoer 54% af haandvaerkerne. Souks er stadig en del af marokkanernes egen hverdag — lokale koeber krydderier, husholdningsartikler og friske varer i de samme gyder, hvor turister koeber suvenirer. Den aabningspris, en saelger naevner, er en forhandlingsaabning, ikke en fast pris — koeb og salg er et socialt ritual lige saa meget som en oekonomisk transaktion. Land artiklen paa: soukens geografiske orden (hvem staar hvor) er ikke tilfaeldig — den er en synlig, levende rest af et aeldgammelt reguleringssystem, der stadig strukturerer, hvordan handel foregaar i dag.\n\nVERIFICEREDE KILDER (brug disse konkrete URL'er i dine fodnoter, gaet IKKE andre adresser): https://nativethreads.co/blogs/blog/the-art-of-the-souk-market-culture-across-the-middle-east-and-north-africa",
+        "words": [
+          500,
+          750
+        ],
+        "mustCite": 1,
+        "format": "feature",
+        "mustNumber": [
+          "Håndværkssektoren: ca. 20% af erhvervsaktive",
+          "Kvinder: 54% af håndværkerne"
+        ]
+      },
+      "writer": {
+        "byline": null,
+        "model": "google/gemini-3.1-pro-preview",
+        "fallback": "anthropic/claude-sonnet-5"
+      },
+      "receipt": {
+        "words": 547,
+        "costUSD": 0.043674,
+        "draft": "kladder/04-souk-og-handel.md",
+        "costRouting": "byok",
+        "generationId": "gen-1787997701-HsdkbVZCPrnyzc4VjbiO"
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-08-29",
+        "citations": 1,
+        "editorNote": "Fjernede overfloedig '(Tilgaaet link)'-tekst i slutningen af fodnote 1 foer udgivelse. Indhold og tal matcher briefen."
+      }
+    },
+    {
+      "slug": "koensrum",
+      "order": 5,
+      "section": "Tabuer & det usagte",
+      "brief": {
+        "angle": "Feature: to rum, to regler. Traditionelt har det offentlige rum i Marokko vaeret mandsdomineret — caféer har historisk vaeret et mandligt rum, som kvinder foerst for nylig er begyndt at dele paa lige fod. I byer som Rabat og Marrakech kan kvinder undgaa offentlige pladser eller mandsdominerede caféer af frygt for chikane eller omdoemmeskade. En undersoegelse fandt, at kvinders forhold til 'neutrale' cafékaeder (globale kaeder) adskiller sig fra traditionelle caféer — markant mindre koensforskel i klientellet i de neutrale rum. Hammammen (det offentlige dampbad) er omvendt et strengt koensopdelt rum: rene kvinde-hammammer findes ved siden af mandehammammer, og blandede offentlige hammammer findes IKKE — samme strenge adskillelse som ved boennetid i moskeen. Inden for kvindehammammens rum beskrives stemningen ofte som fri for det hierarki, der ellers kan praege det offentlige rum. STRENGT: skriv IKKE at koensadskillelsen i hammammer er under afvikling — det er den ikke, det er en fast, vedvarende norm, i modsaetning til caféernes langsomt skiftende normer. Land artiklen paa: to forskellige rum, to forskellige logikker — det ene (caféen) aendrer sig langsomt, det andet (hammammen) forbliver fast, og begge dele fortaeller noget om, hvor forandring reelt sker i et samfund, og hvor den ikke goer.\n\nVERIFICEREDE KILDER (brug disse konkrete URL'er i dine fodnoter, gaet IKKE andre adresser): https://berkleycenter.georgetown.edu/posts/getting-naked-in-morocco-the-politics-of-the-hammam",
+        "words": [
+          500,
+          750
+        ],
+        "mustCite": 1,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": null,
+        "model": "openai/gpt-5.6-terra",
+        "fallback": "anthropic/claude-sonnet-5"
+      },
+      "receipt": {
+        "words": 660,
+        "costUSD": 0.0191185,
+        "draft": "kladder/05-koensrum.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1787997734-dNuTtSWLTyzRmZtqXwgZ"
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-08-29",
+        "citations": 1,
+        "editorNote": "Ingen rettelser noedvendige. Skelner korrekt mellem cafeens langsomme forandring og hammammens faste norm, praecis som briefet, uden at antyde at koensadskillelsen i hammammer er under afvikling."
+      }
+    },
+    {
+      "slug": "familieloven",
+      "order": 6,
+      "section": "Familie & ret",
+      "brief": {
+        "angle": "Feature: familieloven under reform. Den 24. december 2024 fremlagde Marokkos justitsminister Abdellatif Ouahbi og religionsminister Ahmed Taoufiq et udkast til reform af Moudawana (familieloven) efter et aars konsultationer med kvinderettighedsgrupper og religioese laerde. Foreslaaede aendringer: delt juridisk vaergemaal over boern mellem begge foraeldre under og efter aegteskabet (hidtil har vaergemaal typisk ligget hos faderen), formel anerkendelse af en hustrus huslige arbejde i opgoerelsen af formue erhvervet under aegteskabet, og skaerpede restriktioner paa polygami (kraever nu retslig godkendelse og dokumentation af noedvendighed). Reformen adresserer ogsaa aegteskabsalder, skilsmisse, underholdsbidrag og ejendomsret. STRENGT: reformen er et UDKAST/FORSLAG, IKKE endeligt vedtaget lov paa researchdatoen — skriv det som en igangvaerende proces. Naevn ogsaa aabent, at forslaget udelader ligestillet arv mellem maend og kvinder, hvilket har skabt skuffelse i dele af kvindebevaegelsen — dette er IKKE en reform, der loeser alt paa én gang. Land artiklen paa: en familielov, der bliver til gennem aarelange offentlige forhandlinger mellem kvinderettighedsgrupper og religioese laerde, viser noget om, hvordan forandring reelt forhandles i Marokko — hverken revolution eller status quo, men en langsom, synlig proces.\n\nVERIFICEREDE KILDER (brug disse konkrete URL'er i dine fodnoter, gaet IKKE andre adresser): https://www.moroccoworldnews.com/2024/12/166787/moudawana-revision-new-custody-rights-for-mothers-polygamy-restrictions-and-more/",
+        "words": [
+          500,
+          750
+        ],
+        "mustCite": 1,
+        "format": "feature",
+        "mustNumber": [
+          "24. december 2024: Moudawana-udkast fremlagt"
+        ]
+      },
+      "writer": {
+        "byline": null,
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "anthropic/claude-sonnet-5"
+      },
+      "receipt": {
+        "words": 549,
+        "costUSD": 0.021998,
+        "draft": "kladder/06-familieloven.md",
+        "costRouting": "byok",
+        "generationId": "gen-1787997758-vfv6w2p2RUlakMwyqPo8"
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-08-29",
+        "citations": 1,
+        "editorNote": "Rettede to forekomster af det bogstavelige '\\u00a0'-escape til almindeligt mellemrum foer udgivelse. Indholdsmaessigt korrekt: fremstiller Moudawana-reformen som udkast, ikke vedtaget lov, og naevner aabent at ligestillet arv ikke indgaar."
+      }
+    },
+    {
+      "slug": "mad-og-bord",
+      "order": 7,
+      "section": "Spise & drikke",
+      "brief": {
+        "angle": "Feature: fredag er couscous-dag. I marokkanske hjem er fredag (den islamiske helligdag) traditionelt couscous-dag — familier samles efter middagsboennen om ét stort, delt fad, siddende paa puder eller ved et lavt bord. Naar man er gaest i et marokkansk hjem, serveres traditionelt sod mynte-te sammen med kager/sødt tilbehoer som en fast gaestfrihedsritual. Couscous regnes som Marokkos nationalret og et symbol paa ritual, tradition og gaestfrihed — retten deles fra ét stort fad snarere end individuelle portioner, hvilket afspejler en vaerdi af faelles glaede over individuel portion. Land artiklen paa: et maaltid, der IKKE serveres i individuelle portioner, fortaeller noget om, hvad et faellesskab prioriterer — ikke hver sin tallerken, men ét fad, alle raekker ud til.\n\nVERIFICEREDE KILDER (brug disse konkrete URL'er i dine fodnoter, gaet IKKE andre adresser): https://www.mintteatours.com/happy-couscous-day-or-how-in-morocco-friday-couscous/",
+        "words": [
+          400,
+          650
+        ],
+        "mustCite": 1,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": null,
+        "model": "anthropic/claude-opus-4.8",
+        "fallback": "anthropic/claude-sonnet-5"
+      },
+      "receipt": {
+        "words": 471,
+        "costUSD": 0.039645,
+        "draft": "kladder/07-mad-og-bord.md",
+        "costRouting": "byok",
+        "generationId": "gen-1787997796-kyEvm2s6zgeJpSSA8nz9"
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-08-29",
+        "citations": 1,
+        "editorNote": "Ingen rettelser noedvendige."
+      }
+    },
+    {
+      "slug": "tallet",
+      "order": 8,
+      "section": "Tallet / pejlemærker",
+      "brief": {
+        "angle": "Tallet: en kildebelagt tabel over noegletal fra dette nummer. Raekker: (1) Marokkos befolkning ved 2024-folketaellingen: 36.828.330. (2) Byandel, HCP's prognose for 2026: 67,9%. (3) Nye byhusstande vs. landhusstande, 2014-2024: 1.366.187 mod 595.054. (4) Haandvaerkssektoren: ca. 20% af erhvervsaktive, hvoraf 54% er kvinder. (5) Moudawana-reformudkastet: fremlagt 24. december 2024, endnu IKKE vedtaget lov paa researchdatoen. Skriv en kort indledning om, at tallene spaender over meget forskellige tidsskalaer — en folketaelling hvert tiaar, en lovreform der tager aar, og en daglig soukoekonomi, der har koert i aarhundreder.\n\nVERIFICEREDE KILDER (brug disse konkrete URL'er i dine fodnoter, gaet IKKE andre adresser): https://www.moroccoworldnews.com/2026/07/328042/hcp-moroccos-population-to-reach-43-3-million-by-2060-as-aging-accelerates/ — https://nativethreads.co/blogs/blog/the-art-of-the-souk-market-culture-across-the-middle-east-and-north-africa — https://www.moroccoworldnews.com/2024/12/166787/moudawana-revision-new-custody-rights-for-mothers-polygamy-restrictions-and-more/",
+        "words": [
+          350,
+          550
+        ],
+        "mustCite": 3,
+        "format": "tabel",
+        "mustNumber": [
+          "36.828.330 indbyggere",
+          "67,9% byandel",
+          "20% af erhvervsaktive i håndværk (54% kvinder)"
+        ]
+      },
+      "writer": {
+        "byline": null,
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "anthropic/claude-sonnet-5"
+      },
+      "receipt": {
+        "words": 529,
+        "costUSD": 0.023088,
+        "draft": "kladder/08-tallet.md",
+        "costRouting": "byok",
+        "generationId": "gen-1787998035-f91uCm3ais46ZUboofvU"
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-08-29",
+        "citations": 3,
+        "editorNote": "Rettede seks forekomster af det bogstavelige '\\u00a0'-escape til almindeligt mellemrum foer udgivelse (i tabellen og broedteksten). Alle tre kildelinks verificeret levende (200) foer udgivelse."
+      }
+    },
+    {
+      "slug": "myter",
+      "order": 9,
+      "section": "Rygtebørsen / myter",
+      "brief": {
+        "angle": "Rygtebørsen/myter: afmonter 2-3 udbredte misforstaaelser om Marokko uden nye tal ud over dem, der allerede staar i nummeret. Myte 1: 'Marokko er ét ensartet traditionelt samfund.' Svar: landet er midt i en historisk byvaekst, hvor byhusstande vokser mere end dobbelt saa hurtigt som landhusstande — et samfund i hastig forandring, ikke en fastfrosset tradition. Myte 2: 'Alt i Marokko er reguleret af religioes lov, uden forhandling.' Svar: Moudawana-familieloven er netop nu under en flerårig, offentlig forhandlingsproces mellem kvinderettighedsgrupper og religioese laerde — loven forandrer sig, gennem synlig, dokumenteret debat. Myte 3: find selv en tredje relevant misforstaaelse fra stoffet (fx at souk-priser er faste, eller at koensadskillelse gaelder alle offentlige rum ens — hammammen og caféen foelger meget forskellige regler, som nummeret allerede har vist). INGEN nye tal ud over dem, der allerede er etableret andetsteds i nummeret.",
+        "words": [
+          350,
+          550
+        ],
+        "mustCite": 0,
+        "format": "myter"
+      },
+      "writer": {
+        "byline": null,
+        "model": "google/gemini-3.1-pro-preview",
+        "fallback": "anthropic/claude-sonnet-5"
+      },
+      "receipt": {
+        "words": 437,
+        "costUSD": 0.037468,
+        "draft": "kladder/09-myter.md",
+        "costRouting": "byok",
+        "generationId": "gen-1787998093-vRAhIm3RDnldbAwrBTPA"
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-08-29",
+        "citations": 0,
+        "editorNote": "Ingen nye tal ud over dem, der allerede er etableret andetsteds i nummeret, som briefet. Tredje myte (koensopdelt rum) trukket korrekt fra koensrum-artiklen."
+      }
+    },
+    {
+      "slug": "til-horisonten",
+      "order": 10,
+      "section": "Til HORISONTEN",
+      "brief": {
+        "angle": "Til HORISONTEN (kryds-bagsnit): kort tekst, der forklarer den bevidste asynk denne gang. HORISONTEN nr. 4 handler om Sicilien, ikke Marokko — HORISONTENs egen afgraensning er rejser i Europa, og Marokko passer derfor ikke ind i den titel. Skriv IKKE et link til en HORISONTEN-artikel om Marokko (det findes ikke). Skriv i stedet aabent, at denne gang er der ingen soesterrejse, og at laeseren i stedet kan finde HORISONTENs Sicilien-nummer, hvis de vil rejse i Europa i mellemtiden. Kort, aerligt, ingen opfundne links.",
+        "words": [
+          100,
+          250
+        ],
+        "mustCite": 0,
+        "format": "bagsnit"
+      },
+      "writer": {
+        "byline": null,
+        "model": "openai/gpt-5.6-terra",
+        "fallback": "anthropic/claude-sonnet-5"
+      },
+      "receipt": {
+        "words": 120,
+        "costUSD": 0.00447,
+        "draft": "kladder/10-til-horisonten.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1787998124-6g7xAJolf9ShoOeQtogl"
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-08-29",
+        "citations": 0,
+        "editorNote": "Aerlig, kort asynk-note uden opfundne links. Tilfoejede et rigtigt markdown-link til det allerede udgivne HORISONTEN nr. 4 (Sicilien) i stedet for det rene tekstnaevn, modellen leverede."
+      }
+    }
+  ]
+}
