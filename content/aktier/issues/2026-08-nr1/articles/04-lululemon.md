@@ -6,6 +6,8 @@ order: 4
 image: ../images/aktier_lululemon.svg
 imageCredit: "Redaktionelt diagram"
 imageSource: "https://nyesider.vercel.app/aktier"
+figures:
+  - ../images/figur-lulu-pris.svg
 ---
 
 **Ticker:** LULU (Nasdaq)  
@@ -24,6 +26,8 @@ imageSource: "https://nyesider.vercel.app/aktier"
 | 1-års afkast | −41,1 % |
 | PEG | 0,88 |
 | Short interest | ~10 % |
+
+[FIGUR]
 
 **Hvad er Lululemon?** Canadisk producent af træningstøj — *athleisure* — med stærk brandværdi og historisk høj kundeloyalitet. Aktien var en Wall Street-darling før 2024, men er siden blevet straffet for aftagende vækst i Nordamerika.
 

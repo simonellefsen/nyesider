@@ -6,11 +6,11 @@
   "published": "2026-08-29",
   "status": "published",
   "pdf": null,
-  "cover": "images/aktier_cover.svg",
-  "coverCredit": "Redaktionelt diagram",
+  "cover": "images/aktier_cover.png",
+  "coverCredit": "Redaktionelt design (programmatic)",
   "coverSource": "https://nyesider.vercel.app/aktier",
   "images": [
-    "images/aktier_cover.svg",
+    "images/aktier_cover.png",
     "images/aktier_leder.svg",
     "images/aktier_markedet.svg",
     "images/aktier_novo.svg",
@@ -20,10 +20,17 @@
     "images/aktier_bmw.svg",
     "images/aktier_tallet.svg",
     "images/aktier_etf.svg",
-    "images/aktier_rygter.svg"
+    "images/aktier_rygter.svg",
+    "images/figur-novo-pris.svg",
+    "images/figur-lulu-pris.svg",
+    "images/figur-zts-pris.svg",
+    "images/figur-ripa-pris.svg",
+    "images/figur-bmw-pris.svg",
+    "images/figur-tallet-sammenligning.svg",
+    "images/figur-markedet-sammenligning.svg"
   ],
   "productionCostUSD": 0,
-  "imageCredits": "Redaktionelle SVG-diagrammer. Se SOURCES.md.",
+  "imageCredits": "Redaktionelle SVG-diagrammer og prisgrafer (Yahoo Finance data). Se SOURCES.md.",
   "backCoverPromise": "Nr. 2: opfølgning på LULU efter Q2 (3. sep), og nye kandidater fra nordiske small-caps og europæisk industri.",
   "articles": [
     {

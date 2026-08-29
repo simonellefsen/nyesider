@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 370" style="background:#0D1B2A">
+  <defs>
+    <style>
+      .title { font-family: Georgia, serif; font-size: 16px; fill: #C9A227; }
+      .subtitle { font-family: Arial, sans-serif; font-size: 12px; fill: #888888; }
+      .bar-label { font-family: Arial, sans-serif; font-size: 12px; fill: white; }
+      .pct-label { font-family: Arial, sans-serif; font-size: 11px; fill: #C9A227; font-weight: bold; }
+      .source { font-family: Arial, sans-serif; font-size: 9px; fill: #888888; }
+    </style>
+  </defs>
+  
+  <text x="80" y="25" class="title">Fem kandidater: afstand fra 52-ugers top</text>
+  <text x="80" y="45" class="subtitle">Afstand fra 52-ugers top, pr. 28. aug 2026</text>
+
+  <rect x="80" y="70" width="269.2" height="35" fill="#C9A227" rx="4"/>
+  <text x="90" y="92.5" class="bar-label">NOVO-B</text>
+  <text x="359.2" y="92.5" class="pct-label">−26.4 %</text>
+
+  <rect x="80" y="120" width="475.8" height="35" fill="#E8B4B8" rx="4"/>
+  <text x="90" y="142.5" class="bar-label">LULU</text>
+  <text x="565.8" y="142.5" class="pct-label">−46.7 %</text>
+
+  <rect x="80" y="170" width="529.8" height="35" fill="#A3C9A8" rx="4"/>
+  <text x="90" y="192.5" class="bar-label">ZTS</text>
+  <text x="619.8" y="192.5" class="pct-label">−52.0 %</text>
+
+  <rect x="80" y="220" width="364.1" height="35" fill="#B8D4E3" rx="4"/>
+  <text x="90" y="242.5" class="bar-label">RI.PA</text>
+  <text x="454.1" y="242.5" class="pct-label">−35.8 %</text>
+
+  <rect x="80" y="270" width="391.7" height="35" fill="#D4B8E3" rx="4"/>
+  <text x="90" y="292.5" class="bar-label">BMW</text>
+  <text x="481.7" y="292.5" class="pct-label">−38.5 %</text>
+
+  <text x="80" y="355" class="source">Kilde: Yahoo Finance. Alle tal pr. 28. august 2026 lukke.</text>
+</svg>

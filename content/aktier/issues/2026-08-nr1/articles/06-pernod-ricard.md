@@ -6,6 +6,8 @@ order: 6
 image: ../images/aktier_pernod.svg
 imageCredit: "Redaktionelt diagram"
 imageSource: "https://nyesider.vercel.app/aktier"
+figures:
+  - ../images/figur-ripa-pris.svg
 ---
 
 **Ticker:** RI.PA (Euronext Paris)  
@@ -21,6 +23,8 @@ imageSource: "https://nyesider.vercel.app/aktier"
 | P/B | 1,05 |
 | Udbytteafkast | 7,29 % |
 | Payout ratio | ~84 % |
+
+[FIGUR]
 
 **Hvad er Pernod Ricard?** Fransk producent af spiritus — Absolut Vodka, Jameson, Chivas Regal, Martell, Havana Club. Verdens næststørste spirituskoncern efter Diageo.
 

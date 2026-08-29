@@ -6,6 +6,8 @@ order: 3
 image: ../images/aktier_novo.svg
 imageCredit: "Redaktionelt diagram"
 imageSource: "https://nyesider.vercel.app/aktier"
+figures:
+  - ../images/figur-novo-pris.svg
 ---
 
 **Ticker:** NOVO-B.CO (Nasdaq Copenhagen)  
@@ -26,6 +28,8 @@ imageSource: "https://nyesider.vercel.app/aktier"
 | 6-måneders afkast | +24,2 % |
 | 3-måneders afkast | +0,7 % |
 | Næste regnskab | 4. november 2026 |
+
+[FIGUR]
 
 **Hvorfor aktien er faldet.** Den 4. august offentliggjorde Novo H1-regnskab, der slog forventningerne, men guidede stadig til en organisk salgsvækst mellem 0 og −6 % CER (*Constant Exchange Rates*, valutaneutral vækst) for 2026.[^1] Markedet havde håbet på en opjustering. Dertil kommer konkurrencepres fra Eli Lilly i USA og politisk pres på medicinpriser.
 

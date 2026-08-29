@@ -6,6 +6,8 @@ order: 7
 image: ../images/aktier_bmw.svg
 imageCredit: "Redaktionelt diagram"
 imageSource: "https://nyesider.vercel.app/aktier"
+figures:
+  - ../images/figur-bmw-pris.svg
 ---
 
 **Ticker:** BMW.DE (Xetra)  
@@ -24,6 +26,8 @@ imageSource: "https://nyesider.vercel.app/aktier"
 | Payout ratio | ~42 % |
 | 50-dages glidende | €58,95 |
 | 200-dages glidende | €77,42 |
+
+[FIGUR]
 
 **P/B 0,38 ser ekstremt billigt ud.** Aktien handles til 38 % af bogført værdi — €62,64 mod en BVPS (*book value per share*, bogført værdi pr. aktie) på €159,21. Det er langt under 1,0, som normalt betragtes som "fair" for en industrivirksomhed.[^1]
 
