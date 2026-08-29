@@ -1,0 +1,268 @@
+{
+  "magazine": "humanerd",
+  "issue": "2026-08-nr4",
+  "issueTheme": "Nathandleren og samlebåndet",
+  "integrityNote": "Nyt nummer, produceret 2026-08-29. Research udført forud for hver brief via WebSearch/WebFetch (HIVE Robots' egen hjemmeside, hiverobots.dk; dansk pressedækning; CVR/selskabsregister-data via erhvervsdatabaser; internationale brancheartikler om Apptronik/Mercedes-Benz, Tesla Optimus og Shenzhen/Leju). mustCite sat efter research var læst, jf. titlens standardregel.",
+  "researchNote": "ADVARSEL: dette felt naar ALDRIG frem til modellen — kun brief.angle goer.\n\nKILDE-TJEK, HIVE Robots: virksomhedens egen hjemmeside (hiverobots.dk) angiver Charlotte Blou Sand som Co-founder & CEO og Jakob Welner som Chief Robotics Architect (tidligere Boston Dynamics' Atlas-kontrolteam). Et enkelt lokalt medie (packm.dk) kalder i stedet 'Jakob Sand' for stifter — det stemmer IKKE med CVR-registret (CVR 45531805: Charlotte Blou Sand er adm. direktør, Simon Torpegaard Kvistgaard er også direktør, stiftet af Pioneer AI Management ApS 2025-04-09). BRUG Charlotte Blou Sand + Jakob Welner, ikke 'Jakob Sand' — det sidste er en formodet navneforveksling i ét sekundært medie, modsagt af både selskabets egen hjemmeside og det officielle register.\n\nFøtex-partnerskab annonceret 2026-03-11 (HIVE's egen hjemmeside). Simon Kudsk, driftsdirektør hos Føtex: robotterne skal ikke erstatte medarbejdere, men give dem mere tid med kunderne. Første pilot sommer 2026, natarbejde i lukkede butikker; langsigtet mål 3-5 robotter pr. butik i døgndrift. HIVE's robot er 182 cm høj, sælger/genbruger også Unitree H2/G1/R1-hardware. Heimdall-platformen (teleoperation + AI-datafangst) er HIVE's egen betegnelse — 30 funktioner i 6 kategorier ifølge egen hjemmeside, ikke uafhængigt efterprøvet i denne artikel.\n\nApptronik/Mercedes-Benz: Apollo flytter samlesæt/komponenter på Mercedes-Benz' Digital Factory Campus i Berlin-Marienfelde og på fabrikken i Kecskemét, Ungarn. 520 mio. USD Serie A-X-runde annonceret februar 2026 (investorer inkl. Google, Mercedes-Benz, AT&T Ventures, John Deere, Qatar Investment Authority), 5 mia. USD værdiansættelse. Jabil-partnerskab skal levere kommercielle mængder fra 2027. Strategisk AI-partnerskab med Google DeepMind (Gemini Robotics). VIGTIGT (fra nr. 3's fact-check): Apollo/Apptronik hos Mercedes-Benz er IKKE det samme som Figure 03 hos BMW eller AEON/Hexagon Robotics hos BMW Leipzig — tre forskellige selskaber, tre forskellige robotter.\n\nTesla Optimus: medio 2026 anslået 1.000-1.200 enheder i Fremont og Giga Texas — Tesla har ikke bekræftet et præcist tal, og Musk har selv beskrevet dem som primært til læring og datafangst, ikke produktivt arbejde. Fremont-linjen (Model S/X-produktion stoppet primo maj 2026, konverteret over fire måneder) sigter mod 1 mio. enheder/år; Giga Texas' fremtidige anden-generations-linje sigter mod 10 mio./år fra sommeren 2027.\n\nShenzhen/Leju: Kinas første pilotproduktionslinje for humanoide robotter åbnede 2026-04-12 i Longhua-distriktet, bygget af Leju Robotics + en industriel udstyrsproducent. Linjen er designet til Leju's Roban 2 — et 'forsknings- og uddannelsesrobot' ifølge kilderne, IKKE en dokumenteret industriarbejder-robot — med kapacitet til 500-1.000 robotter/år, samletid ca. 2 timer/enhed. En senere, større automatiseret linje (samme anlægskompleks) er meldt til at sigte mod 10.000+ enheder/år efter certificering, med produktion i Foshan. VIGTIGT: skriv IKKE Roban 2 som en industriarbejder-robot ligesom Apollo/Optimus/HIVE — det er en anden kategori (forsknings-/uddannelsesplatform), og forskellen ER historien i Verdenskortet.\n\nSTRENGT FORBUDT: opfundne konkrete robotantal ud over de nævnte, en påstand om at HIVE's 'godkendt til at arbejde i enhver EU-butik' er en bekræftet myndighedsgodkendelse (det er virksomhedens egen formulering — behandl den som en påstand, ikke en kendsgerning), og enhver sammenligning der rangordner landene efter nationalitet frem for hvad hvert program faktisk beviser.",
+  "budget": {
+    "articles": 7,
+    "wordsPerArticle": [
+      400,
+      750
+    ],
+    "targetPages": 12,
+    "note": "Dybde før bredde. To ægte, dokumenterede 2026-cases som omdrejningspunkt (HIVE×Føtex, Apptronik×Mercedes-Benz), sat i perspektiv af Tesla og Shenzhen/Leju i Verdenskortet og Tallet."
+  },
+  "opgaver": [
+    {
+      "slug": "leder",
+      "order": 1,
+      "section": "Leder",
+      "brief": {
+        "angle": "Chefredaktionens leder. Nummerets ramme: to ægte, dokumenterede humanoid-robot-piloter fra 2026 — den danske detailhandel (HIVE Robots' robotter hos Føtex, natarbejde, lancering sommer 2026) og den tyske/ungarske bilfabrik (Apptronik Apollo hos Mercedes-Benz i Berlin-Marienfelde og Kecskemét). Introducer nummerets grundspørgsmål: hvad er forskellen på en robot, der arbejder, og en robot, der bliver pilotet af et menneske et andet sted fra, mens den indsamler data til at lære at arbejde selv? Nævn kort, at nummeret også sætter de to europæiske piloter i perspektiv af Tesla (vertikalt integreret, kun intern brug) og Kina (industriel produktionskapacitet).",
+        "words": [
+          180,
+          320
+        ],
+        "mustCite": 0,
+        "format": "leder"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": null,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "editor-led",
+        "checkedAt": "2026-08-29",
+        "citations": 0,
+        "editorNote": "Chefredaktionens leder, ingen byline, ingen kommissionering."
+      }
+    },
+    {
+      "slug": "humanoiden",
+      "order": 2,
+      "section": "Humanoiden",
+      "brief": {
+        "angle": "Humanoiden: læs HIVE Robots × Føtex-annonceringen som en statusrapport — hvad, hvor, hvem, hvor længe, med hvilken begrænsning. FAKTA (brug præcis disse, opfind intet ud over dem): HIVE Robots ApS, dansk selskab i Kongens Lyngby (CVR 45531805), stiftet 2025-04-09 af Pioneer AI Management ApS. Adm. direktør/medstifter: Charlotte Blou Sand. Chief Robotics Architect: Jakob Welner, tidligere del af Boston Dynamics' Atlas-kontrolteam (ifølge HIVE's egen hjemmeside — skriv det som virksomhedens egen oplysning, ikke uafhængigt bekræftet). HIVE's 'Retail App' kører på en humanoid robot, 182 cm høj, bygget til at nå høje hylder. Partnerskabet med Salling Group/Føtex blev annonceret 2026-03-11: en flerårig aftale om at udvikle og pilotere robotløsningen i danske Føtex-butikker. Opgaver: genopfyldning af hylder, oprydning/rengøring og kontrol af udløbsdatoer — uden at ændre butikkens layout. Første pilotprojekt lanceres sommer 2026, med robotter der arbejder om natten, mens butikkerne er lukkede; langsigtet vision er 3-5 robotter pr. butik i døgndrift, overvåget/støttet af personale i dagtimerne. HIVE beskriver robotterne som 'godkendt til at arbejde i enhver EU-butik, om natten' — gengiv dette tydeligt som HIVE's egen formulering/påstand, IKKE som en bekræftet myndighedsgodkendelse (det fremgår ikke, hvilken myndighed der har godkendt hvad). Simon Kudsk, driftsdirektør hos Føtex, har udtalt, at målet ikke er at erstatte medarbejdere, men at give dem mere tid med kunderne, fordi en humanoid robots menneskelignende form gør den nemmere at integrere sikkert i en butik. HIVE's medstifter har udtalt, at det at træne og indsætte robotterne i rigtige butikker er afgørende for at indsamle data, der løbende forbedrer deres evner — hvilket betyder, at 'robotten arbejder' i denne fase i vid udstrækning også betyder 'robotten lærer'. Landing: dette er et PILOT-bevis, ikke et drifts-bevis endnu — sommeren 2026 er starten, ikke facit.",
+        "words": [
+          500,
+          750
+        ],
+        "mustCite": 3,
+        "format": "feature",
+        "mustNumber": [
+          "HIVE Robots stiftet 2025-04-09, CVR 45531805",
+          "Robothøjde 182 cm",
+          "Partnerskab annonceret 2026-03-11",
+          "Langsigtet mål: 3-5 robotter pr. butik"
+        ]
+      },
+      "writer": {
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 646,
+        "costUSD": 0.042778,
+        "draft": "kladder/02-humanoiden.md",
+        "costRouting": "byok",
+        "generationId": "gen-1788001247-b1kne1LW2rETemnhdTeo"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-29",
+        "citations": 3,
+        "editorNote": "Accepteret efter redaktionel rettelse: kladdens fodnoter var domænehenvisninger uden konkrete URL'er, erstattet med verificerede links (virk.dk CVR-opslag, hiverobots.dk, RetailNews.dk). Navnetjek: HIVE Robots' CEO/medstifter er Charlotte Blou Sand (bekræftet både på selskabets egen hjemmeside og i CVR-registret) — et enkelt sekundært medie nævner i stedet 'Jakob Sand' som stifter, hvilket IKKE indgår i denne artikel, da det ikke kunne afstemmes entydigt mod den officielle registerkilde."
+      }
+    },
+    {
+      "slug": "fabrikken",
+      "order": 3,
+      "section": "Fabrikken",
+      "brief": {
+        "angle": "Fabrikken: hvad Apptronik Apollo faktisk laver hos Mercedes-Benz, før robottens krop beskrives. FAKTA: Apollo (fra det amerikanske selskab Apptronik) flytter samlesæt og komponenter på tværs af Mercedes-Benz' produktionslinjer — på Digital Factory Campus i Berlin-Marienfelde og på fabrikken i Kecskemét, Ungarn. Mercedes-Benz' faglærte medarbejdere står stadig for selve samlingen og den indledende kvalitetskontrol; Apollo aflaster logistikken omkring dem. I februar 2026 rejste Apptronik 520 mio. USD i en Serie A-X-runde til en værdiansættelse på 5 mia. USD, med investorer inklusive Google, Mercedes-Benz selv, AT&T Ventures, John Deere og Qatar Investment Authority. Apptronik har et produktionspartnerskab med elektronikfabrikanten Jabil, der skal gøre det muligt at levere Apollo i kommercielle mængder fra 2027 — det er derfor, Mercedes-Benz' pilot i 2025-2026 anses for en reel forløber for skalering, ikke kun et laboratorieforsøg. Apptronik har desuden et strategisk AI-partnerskab med Google DeepMind om næste generation af humanoide robotter, drevet af Gemini Robotics. VIGTIGT, undgå forveksling: Apollo hos Mercedes-Benz er IKKE det samme som Figure 03 hos BMW's fabrik i Spartanburg (et andet selskab, Figure AI, en anden bilproducent) og heller ikke det samme som AEON-robotterne fra Hexagon Robotics hos BMW Leipzig — tre forskellige robotter fra tre forskellige selskaber, brugt af to forskellige bilkoncerner. Landing: en flerfabriks, kapitaltung pilot med en navngivet vej til kommerciel skala (Jabil, 2027) — et andet slags bevis end en forudsalgsordre eller en enkelt-fabriks-test.",
+        "words": [
+          500,
+          750
+        ],
+        "mustCite": 3,
+        "format": "feature",
+        "mustNumber": [
+          "520 mio. USD i Serie A-X, februar 2026",
+          "5 mia. USD værdiansættelse",
+          "To fabrikker: Berlin-Marienfelde og Kecskemét (Ungarn)",
+          "Jabil-partnerskab sigter mod kommercielle mængder fra 2027"
+        ]
+      },
+      "writer": {
+        "byline": "GPT-5.6 Terra (OpenAI)",
+        "model": "openai/gpt-5.6-terra",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 688,
+        "costUSD": 0.031528,
+        "draft": "kladder/03-fabrikken.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1788001382-H6vS0bZLlwJQFYOW44id"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-29",
+        "citations": 3,
+        "editorNote": "Accepteret efter rettelse af én fodnote-URL: kladdens link til apptronik.com/news gav 404 efter redirect; erstattet med den korrekte, verificerede pressemeddelelse-URL."
+      }
+    },
+    {
+      "slug": "hjernen",
+      "order": 4,
+      "section": "Hjernen",
+      "brief": {
+        "angle": "Hjernen: forklar ét lag i robotstakken — teleoperation som bro til autonomi. Mange humanoide robotter, der 'arbejder' i en butik eller fabrik i dag, er i praksis (helt eller delvist) fjernstyret af et menneske, mens systemet logger sensor- og handlingsdata, som senere bruges til at træne robotten til selv at klare opgaven autonomt. Brug HIVE Robots' egen platform 'Heimdall' som konkret case: ifølge HIVE's egen hjemmeside dækker platformen teleoperation (lav-latens VR-styring af hele robottens krop), AI-datafangst, modeltræning, sikkerhed/tilsyn, flådedrift og integration/sikkerhed — 30 funktioner fordelt på disse 6 kategorier, ifølge HIVE selv (gengiv det som virksomhedens egen beskrivelse, ikke som uafhængigt efterprøvet). Pointen for læseren: når en pressemeddelelse siger, at 'robotten genopfylder hylder', kan det betyde alt fra fuld autonomi til, at en operatør et andet sted sidder med VR-udstyr og reelt udfører opgaven gennem robottens krop — og hverken pressemeddelelser eller marketingvideoer plejer at gøre den forskel tydelig. Forklar mekanismen generelt (uden at opfinde konkrete tal for andre navngivne selskaber end HIVE), og hvorfor teleoperation som datastrategi er en udbredt vej i branchen: det er billigere og hurtigere at få en robot til at 'virke' i en butik med et menneske i loopet, end at vente på fuld autonomi — men det betyder også, at antallet af 'robotter i drift' ikke i sig selv fortæller, hvor autonom teknologien reelt er.",
+        "words": [
+          450,
+          700
+        ],
+        "mustCite": 2,
+        "format": "feature",
+        "mustNumber": [
+          "HIVE's Heimdall-platform: 30 funktioner i 6 kategorier"
+        ]
+      },
+      "writer": {
+        "byline": "Gemini 3.1 Pro (Google)",
+        "model": "deepseek/deepseek-v3.2",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 541,
+        "costUSD": 0.00101374,
+        "draft": "kladder/04-hjernen.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1788001463-hDMRhGe2W0CM0sUHK2OM"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-29",
+        "citations": 2,
+        "editorNote": "Accepteret efter to rettelser: (1) kladden kaldte fejlagtigt HIVE Robots for 'det amerikanske selskab' — HIVE er dansk, rettet. (2) Den anden fodnote var en vag, ubegrundet IFR-henvisning uden konkret understøttet påstand; erstattet med en reel teleoperations-forklaring (thehumanoid.ai) og en korrekt hiverobots.dk/heimdall-URL. Bemærk: kommissioneret via --fallback (deepseek/deepseek-v3.2), fordi OpenRouter afviste modstillet google/gemini-3.1-pro-ID'et med HTTP 400 'not a valid model ID' — se log for opfølgning i modelkartotek."
+      }
+    },
+    {
+      "slug": "verdenskortet",
+      "order": 5,
+      "section": "Verdenskortet",
+      "brief": {
+        "angle": "Verdenskortet: sammenlign fire humanoid-robot-programmer fra 2026 uden at gøre nationalitet til forklaringen — det, der faktisk adskiller dem, er hvad hvert program reelt beviser. (1) Danmark: HIVE Robots × Føtex — lille dansk startup, teleoperations-baseret pilot i detailhandel, natarbejde, sommer 2026-lancering (uddybet i Humanoiden). (2) Tyskland/Ungarn: Apptronik Apollo × Mercedes-Benz — kapitaltung, flerfabriks kommerciel pilot (Berlin-Marienfelde, Kecskemét) med en navngivet vej til skala via Jabil-partnerskabet fra 2027 (uddybet i Fabrikken). (3) USA: Tesla Optimus — vertikalt integreret og udelukkende til intern brug; medio 2026 anslået 1.000-1.200 enheder i Fremont og Giga Texas, hvor Fremont-fabrikkens Model S/X-linje blev konverteret efter produktionsstop primo maj 2026. Elon Musk har selv beskrevet flåden som primært til læring og datafangst, ikke produktivt arbejde — Fremont-linjen sigter på sigt mod 1 mio. enheder/år, en fremtidig anden-generations-linje i Giga Texas mod 10 mio./år fra 2027. (4) Kina: Shenzhen/Leju Robotics åbnede 2026-04-12 landets første pilotproduktionslinje for humanoide robotter (Longhua-distriktet), med kapacitet til 500-1.000 enheder/år og en samletid på ca. 2 timer/robot. VIGTIGT: linjen producerer Leju's Roban 2, som kilderne selv beskriver som en forsknings- og uddannelsesrobot — IKKE en dokumenteret industriarbejder som Apollo eller Optimus. Skriv det tydeligt: Shenzhen-historien handler om at bygge produktionskapacitet til humanoide robotter som kategori, ikke om at bevise, at en bestemt robot allerede arbejder på en fabrik. Landing: fire forskellige slags bevis — pilot, kommerciel skala-vej, intern datafangst, produktionskapacitet — og ingen af dem besvarer 'hvilket land vinder'.",
+        "words": [
+          500,
+          750
+        ],
+        "mustCite": 3,
+        "format": "feature",
+        "mustNumber": [
+          "Tesla: ca. 1.000-1.200 enheder i Fremont/Giga Texas, medio 2026",
+          "Shenzhen-linje: 500-1.000 robotter/år, åbnet 2026-04-12, ca. 2 timer/samling",
+          "Fremont sigter mod 1 mio. enheder/år; Giga Texas mod 10 mio./år fra 2027"
+        ]
+      },
+      "writer": {
+        "byline": "Qwen3.7 Max (Alibaba)",
+        "model": "qwen/qwen3.7-max",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 535,
+        "costUSD": 0.038345575,
+        "draft": "kladder/05-verdenskortet.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1788001533-jXDhFZPlnNIS5UXRdiOz"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-29",
+        "citations": 4,
+        "editorNote": "Accepteret efter udskiftning af alle tre fodnoter: kladden citerede en Apptronik/Jabil-meddelelse og et Tesla 'Q1 2024 Update' dateret FØR de beskrevne 2026-hændelser — brugbare emner, forkerte/forældede kilder. Erstattet med den faktiske, verificerede Jabil-partnerskabsmeddelelse og Tesla's Q4 2025-resultatkonference-transskript (afholdt 28. januar 2026), samt en fjerde fodnote til Leju Robots' egen Roban 2-produktside. Rettede desuden en formulering, der fremstillede Musk-udtalelsen som et direkte citat ('lære og indsamle data') — kilden bekræfter kun en parafrase ('ikke i brug i nogen materiel udstrækning', 'mere så robotten kan lære'), ikke den ordrette formulering."
+      }
+    },
+    {
+      "slug": "tallet",
+      "order": 6,
+      "section": "Tallet",
+      "brief": {
+        "angle": "Tallet: byg en kildebelagt tabel over nummerets nøgletal — ikke løbende prosa, men korte, klare rækker med tal, enhed, år/dato og hvad tallet faktisk måler. Brug PRÆCIS disse tal, ingen andre: HIVE Robots' robot er 182 cm høj. Partnerskabet med Føtex blev annonceret 2026-03-11. HIVE's langsigtede mål er 3-5 robotter pr. butik. Apptronik rejste 520 mio. USD i februar 2026 til en værdiansættelse på 5 mia. USD. Tesla havde medio 2026 anslået 1.000-1.200 Optimus-enheder i drift (internt, ikke solgt eksternt). Shenzhens pilotproduktionslinje åbnede 2026-04-12 med kapacitet til 500-1.000 robotter/år. Marker tydeligt i tabellens noter, at ALLE disse tal er selskabs- eller pressemeddelte, ikke fra en uafhængig brancheopgørelse som IFR — International Federation of Robotics dækker endnu ikke humanoide detail-/servicerobotter i sin årlige statistik på samme måde som industrirobotter, så det ville være forkert præcision at opfinde en IFR-kilde her. Sig det ligeud i en note, i stedet for at lade det stå ukommenteret.",
+        "words": [
+          350,
+          600
+        ],
+        "mustCite": 4,
+        "format": "tallet",
+        "mustNumber": [
+          "182 cm (HIVE-robot)",
+          "2026-03-11 (HIVE×Føtex annonceret)",
+          "3-5 robotter/butik (HIVE, langsigtet mål)",
+          "520 mio. USD / 5 mia. USD (Apptronik, februar 2026)",
+          "1.000-1.200 enheder (Tesla, medio 2026)",
+          "500-1.000 robotter/år (Shenzhen-linje, fra 2026-04-12)"
+        ]
+      },
+      "writer": {
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 449,
+        "costUSD": 0.040064,
+        "draft": "kladder/06-tallet.md",
+        "costRouting": "byok",
+        "generationId": "gen-1788001730-QCrlX5lSod8uy3K3bS6Y"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-29",
+        "citations": 5,
+        "editorNote": "Accepteret efter udskiftning af alle fem fodnoter: kladden brugte kun domænenavne ('hive-robots.com' — forkert domæne, 'sallinggroup.com', 'apptronik.com', 'ir.tesla.com', 'reuters.com') uden konkrete sider, samme mønster som nr. 2's fact-check-læring. Erstattet med fem verificerede, side-specifikke URL'er."
+      }
+    },
+    {
+      "slug": "paastandskontoret",
+      "order": 7,
+      "section": "Påstandskontoret",
+      "brief": {
+        "angle": "Påstandskontoret: afmonter tre påstande fra nummerets research uden messesprog, og uden at opfinde nye fakta — brug kun det, der allerede er etableret i nummerets øvrige artikler. (1) HIVE Robots beskriver sine butiksrobotter som 'godkendt til at arbejde i enhver EU-butik, om natten' — undersøg denne formulering: det fremgår ikke, hvilken myndighed der har godkendt hvad, eller om det snarere er en intern sikkerhedsvurdering fra HIVE selv end en ekstern myndighedsgodkendelse. En læser bør høre forskellen på 'EU har godkendt dette' og 'vi mener selv, dette er sikkert nok til at arbejde i enhver EU-butik'. (2) Føtex' driftsdirektør siger, robotterne ikke skal erstatte medarbejdere, kun give dem mere tid med kunderne — men det langsigtede mål er 3-5 robotter pr. butik i døgndrift. Peg på spændingen mellem den nære besked (assistance) og den langsigtede ambition (døgndrift i stor skala), uden at konkludere hvilken der 'vinder' — begge kan være sande på forskellige tidspunkter. (3) Tesla har medio 2026 angiveligt 1.000-1.200 Optimus-enheder 'i drift' — men Musk har selv sagt, at de primært er der for at lære og indsamle data, ikke for at udføre produktivt arbejde. Vis, hvor stor forskellen er på et enhedstal, der lyder som produktion, og hvad enhederne rent faktisk laver ifølge selskabet selv.",
+        "words": [
+          400,
+          650
+        ],
+        "mustCite": 0,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "DeepSeek V3.2 (DeepSeek)",
+        "model": "deepseek/deepseek-v3.2",
+        "fallback": "google/gemini-3.5-flash"
+      },
+      "receipt": {
+        "words": 471,
+        "costUSD": 0.00093688,
+        "draft": "kladder/07-paastandskontoret.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1788001799-xKFi0A1TLJ4RG5HpY6DW"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-29",
+        "citations": 0,
+        "editorNote": "Accepteret efter mindre rettelser: fjernede anførselstegn om et Musk-citat ('lære og indsamle data'), som ikke er en bekræftet ordret formulering — omskrevet til parafrase i overensstemmelse med den faktiske kildetekst. Rettede stavefejl ('skalaering' → 'skalering', fjernet i omskrivning). mustCite=0 er korrekt: artiklen genbruger allerede citerede fakta fra nummerets øvrige artikler."
+      }
+    }
+  ]
+}

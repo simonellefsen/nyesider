@@ -1,0 +1,15 @@
+## Påstandskontoret
+
+I denne udgave afmonterer vi tre påstande, der dukker op i kølvandet på nyhederne, men som fortjener en nærmere undersøgelse. Vi holder os til fakta, der allerede er på bordet fra dette nummers research.
+
+### 1. ‘Godkendt til at arbejde i enhver EU-butik, om natten’
+Robotselskabet HIVE beskriver sine butiksrobotter med denne formulering. Påstanden lyder autoritativ, men den efterlader et afgørende spørgsmål ubesvaret: Hvem har godkendt?
+En læser kan naturligt tro, at en EU-institution eller et nationalt tilsyn har gennemgået robotten og givet et formelt grønt lys. I praksis peger vores research på, at sådan en godkendelse sjældent findes som et universelt EU-pas for robotter. Derimod handler det typisk om, at producenten selv gennemfører en risikovurdering ifølge relevante EU-direktiver (som maskindirektivet) og erklærer, at robotten opfylder krav til sikkerhed. Forskellen er afgørende: Det er en intern sikkerhedsvurdering fra HIVE, ikke en ekstern myndighedsgodkendelse for hvert enkelt butiksmiljø. Formuleringen "godkendt til at arbejde i enhver EU-butik" kan derfor tolkes som et udsagn om robottens *design*, ikke en garanti for, at den er godkendt af en myndighed til specifik drift i enhver enkelt butik om natten.
+
+### 2. ‘Ikke til at erstatte, kun til at give mere tid med kunderne’
+Føtex' driftsdirektør fremhævede i en kommentar, at robotterne skal assistere medarbejderne, ikke erstatte dem, så personalet får mere tid til kundekontakt. Denne besked om assistance er logisk og positiv i den nære implementeringsfase. Samtidig afsløres det langsigtede mål at være 3-5 robotter pr. butik i døgndrift. Her opstår en interessant spænding mellem den kortsigtede, medarbejdercentrerede kommunikation og den langsigtede ambition om en betydelig skalaering af automatiseret, ugentligt arbejde.
+Begge påstande kan sagtens være sande – bare på forskellige tidshorisonter. I starten supplerer robotten; i en fremtid med fuld skala kan den strukturelle sammensætning af arbejdsopgaver i butikken være forandret. Nøglen for læseren er at erkende, at "ikke-erstatning" ofte beskriver den umiddelbare intention, mens ambitionsniveauet for antal robotter og driftsstabilitet afslører en vision om, at maskinerne skal løse en meget stor del af de gentagne opgaver.
+
+### 3. 1.000-1.200 Optimus-enheder ‘i drift’
+Tesla meddelte medio 2026, at de havde mellem 1.000 og 1.200 Optimus-humanoider "i drift". Et sådant enhedstal lyder imponerende og minder om en kommerciel produktion, der er kommet i gang. Men ifølge Elon Musk selv er disse enheder primært der for at "lære og indsamle data".
+Forskellen mellem de to beskrivelser er central. "I drift" kan forstås som robotter, der udfører produktivt arbejde på en fabriksgulv med en klar output-værdi. Hvis derimod hovedformålet er dataindsamling og læring, er de i en udviklings- og valideringsfase. De er i brug, men ikke nødvendigvis i stabil, produktiv drift. Påstanden om antallet er sand, men dens kontekst – forklaret af selskabet selv – omdefinerer dens betydning. Det er et tal, der fortæller om investeringen i test og læring, ikke om færdige arbejdere på linjen.

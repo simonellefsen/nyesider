@@ -21,6 +21,54 @@ Vi bruger "fysisk AI" som en forklaring, ikke som en magisk etiket: en robot ska
 
 ## Udgivne numre
 
+### Nr. 4 — “Nathandleren og samlebåndet” — UDGIVET 2026-08-29 (nyt nummer, fra bunden)
+
+7 artikler, **3.533 ord**. Seks artikler reelt kommissioneret på `.env.humanerd`; lederen er
+chefredaktionens og har **ingen byline**. Samlet forbrug **0,1547 USD**. `check_issue.py`:
+**0 fejl, 0 advarsler.** `bestilling.json` under `numre/2026-08-nr4/`.
+
+Ejerens brief: en historie om det danske robotselskab **HIVE Robots** og **Salling Group/Føtex**.
+Research (WebSearch/WebFetch) fandt et ægte, dateret partnerskab — annonceret 11. marts 2026,
+pilot fra sommeren 2026, natarbejde i lukkede butikker, langsigtet mål 3-5 robotter pr. butik —
+brugt som nummerets ene anker i **Humanoiden**. Det andet anker, valgt af redaktionen for at give
+nummeret bredde uden at overskride budgettet på 7 artikler, er **Apptronik Apollo hos
+Mercedes-Benz** (Berlin-Marienfelde + Kecskemét, Ungarn, 520 mio. USD Serie A-X februar 2026,
+Jabil-partnerskab mod kommerciel skala fra 2027) — et andet, europæisk, men langt kapitaltungere
+bevis. **Hjernen** bruger HIVE's egen "Heimdall"-platform til at forklare teleoperation som bro
+til autonomi generelt. **Verdenskortet** sætter de to europæiske piloter op mod Tesla (internt,
+udelukkende datafangst ifølge Musk selv) og Shenzhen/Leju (Kinas første pilotproduktionslinje for
+humanoide robotter, men til en forsknings-/uddannelsesrobot, ikke en industriarbejder — en
+skelnen, der ER historien i det afsnit).
+
+#### Fem fejl/svagheder fanget og rettet før udgivelse
+
+- **Faktuel fejl:** Hjernen-kladden kaldte HIVE Robots for "det amerikanske selskab" — HIVE er
+  dansk (Kongens Lyngby, CVR 45531805). Rettet.
+- **Domænenavne uden konkrete URL'er** (samme mønster som nr. 2's læring): Tallet-kladdens fem
+  fodnoter var kun "hive-robots.com" (forkert domæne i øvrigt), "sallinggroup.com", "apptronik.com",
+  "ir.tesla.com", "reuters.com" — ingen af dem pegede på en bestemt side. Erstattet med fem
+  side-specifikke, verificerede URL'er.
+- **Forældede/forkerte kilder til aktuelle påstande:** Verdenskortet-kladden citerede en
+  Apptronik/Jabil-meddelelse og et Tesla "Q1 2024 Update" — begge dateret FØR de 2026-hændelser,
+  de skulle understøtte. Erstattet med den faktiske Jabil-partnerskabsmeddelelse og Tesla's
+  Q4 2025-resultatkonference (afholdt 28. januar 2026).
+- **Dødt link efter redirect:** Fabrikken-kladdens `apptronik.com/news` gav 301→404. `check_links.py`
+  ville have fanget en direkte 404, men ikke redirect-kæden — fundet ved manuel `curl -L`-verificering
+  af hver URL før udgivelse. Erstattet med den korrekte pressemeddelelse-URL.
+- **Citat i anførselstegn uden ordret dækning:** To kladder (Verdenskortet, Påstandskontoret)
+  satte en parafrase af Elon Musk ("lære og indsamle data") i anførselstegn, som om det var et
+  direkte citat. Den faktiske kilde (Teslas Q4 2025-resultatkonference) bekræfter kun parafrasen
+  — ikke den ordrette formulering. Omskrevet til reported speech uden anførselstegn.
+
+**Navnetjek, der IKKE endte i artiklen:** research fandt modstridende sekundære kilder om, hvorvidt
+en "Jakob Sand" er medstifter/direktør hos HIVE Robots ud over CEO Charlotte Blou Sand — nogle
+aggregator-sider nævner ham, det officielle CVR-udtræk gjorde det ikke entydigt. I stedet for at
+gætte blev navnet simpelthen ikke brugt i den udgivne tekst.
+
+**Driftsnotits:** `google/gemini-3.1-pro` (Hjernens planlagte skribent) svarede HTTP 400 "not a
+valid model ID" på OpenRouter, selvom `modeller.json` lister den som `aktiv`. Løst med `--fallback`
+til DeepSeek V3.2 — se `redaktion/modelkartotek.md`, "Produktionspraktik".
+
 ### Nr. 3 — “Tre humanoider, tre beviser” — UDGIVET 2026-08-19 (nyt nummer, fra bunden)
 
 7 artikler, **3.656 ord**. Seks artikler reelt kommissioneret på `.env.humanerd`; lederen er
@@ -166,6 +214,9 @@ levetidstallet var det rigtige. Reglen er stadig: afstem mod begge, og forklar f
 
 ## Log
 
+- **2026-08-29:** Nr. 4 publiceret — "Nathandleren og samlebåndet" (HIVE Robots × Føtex, samt
+  Apptronik Apollo × Mercedes-Benz). Ejerbrief-emne. Fem fejl/svagheder fanget og rettet før
+  udgivelse, se læringen ovenfor.
 - **2026-08-08:** Nr. 2 publiceret — lager/AMR før humanoid-hype.
 - **2026-08-08 (edit):** Nr. 2 udvidet (især lager-koreografi med Amazon/Ocado/AutoStore m.fl.); Ordbogen fjernet; formatregel om dybde og inline-forklaringer.
 - **2026-08-09:** Nr. 1 genopbygget og genudgivet efter afpubliceringen 2026-08-08. Se læringen ovenfor.
