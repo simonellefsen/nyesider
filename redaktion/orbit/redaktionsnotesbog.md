@@ -172,7 +172,9 @@ et konkret, ukildebelagt tal i en sætning, der kun skulle være spekulation. Fj
   USD til Community Foundation of Acadiana. Kilder: [Payload Space](https://payloadspace.com/spacex-announces-new-starbase-louisiana-spaceport/),
   [New Atlas](https://newatlas.com/space-systems/spacex-build-worlds-largest-spaceport-louisiana/).
   God parallel til nr. 4's Starbase-artikel (Texas-byen) — denne gang er det delstaten Louisiana,
-  ikke kun en lokal folkeafstemning.
+  ikke kun en lokal folkeafstemning. **Oplagt kandidat til skala-greb (se `## Format` nedenfor):**
+  125.000-130.000 acres og 820+ mio. USD i lokale betalinger er tal, der beder om et
+  areal-sammenligningsdiagram og helst et kort over Vermilion Parish/Pecan Island.
 - **(2026-08) Europæisk rumadgang** — uafhængighed, opsendelseskapacitet, Ariane-programmets
   næste skridt (lovet som bagsideløfte).
 - **(2026-08) Starmind-opfølgning** — når AI1-prototyperne rent faktisk sendes op (planlagt
@@ -185,12 +187,44 @@ et konkret, ukildebelagt tal i en sætning, der kun skulle være spekulation. Fj
 - **Artikeltal:** typisk 10–14. Faste: Leder · Tallet · opsendelser · agenturer · konstellationer · SSA/skrot · kalender · rygtebørs. **Ingen Ordbog** — gloser i parentes/fodnote.
 - **Standard `mustCite`:** 2+ for Tallet og agentur-features med launch-tal; 0 for rygtebørs.
 
+### Ejerens greb (tilføjet 2026-08-29): skala, kort og deep dives
+
+Fire stående instrukser fra ejeren, gældende fra nr. 5 og fremad:
+
+1. **Vis skalaen på de virkelig store projekter.** Når en artikel handler om noget i milliard-
+   eller mia.-USD-klassen (Starbase Louisiana, Starship-produktion, Terafab-typer anlæg), suppler
+   teksten med et diagram eller en figur, der gør størrelsen konkret — areal sammenlignet med noget
+   kendt, kapitalinvestering over tid, antal ansatte/lokationer. Brug `[CHART chart-id]` (se
+   [content/CHARTS.md](../../content/CHARTS.md)) til tal-serier; brug en hånd-tegnet SVG (som
+   INDENI/GNISTENs `figur-*.svg`-mønster) til strukturelle/geografiske forklaringer.
+2. **Nævn europæisk teknologi, hvor det er relevant.** Artikler må ikke implicit fremstille
+   rumfart som et rent USA/Kina-anliggende — nævn Ariane, ESA-programmer eller andre europæiske
+   aktører, når historien har en naturlig plads til dem (jf. husreglens EU/USA/Kina-graf-standard
+   i CHARTS.md, som allerede gælder for ORBIT).
+3. **Deep dives:** overvej dedikerede dybdegående features om enkeltprogrammer — SpaceX Starship,
+   Blue Origin, SpaceX Starbase (Texas og evt. Louisiana) — frem for kun korte statusopdateringer.
+   Disse kan bære et helt nummer eller stå som en fast tilbagevendende sektion.
+4. **Public domain-kortdata til lokationer.** Ejeren ønsker rigtige kort (fx Natural Earth/
+   OpenStreetMap-afledt data, ikke AI-genererede fantasikort) til artikler, hvor en lokation er
+   central (Starbase Texas vs. Louisiana, lanceringsbaser verden rundt). **Ingen eksisterende
+   pipeline for dette i repoet endnu** — `production/generate_image.py` laver AI-kunst, ikke
+   faktakort. Skal enten (a) løses med en ny let SVG-kort-komponent bygget på fri geodata, eller
+   (b) en hånd-konstrueret SVG pr. artikel efter samme mønster som diagram-figurerne. Afklar
+   værktøjsvalg, før det loves i en brief.
+
+Generelt: læg vægt på at data/kort/diagrammer er *indlejret i artiklen*, ikke en pligtøvelse —
+kun når det rent faktisk gør en stor ting mere begribelig.
+
 ## Research-regler
 
 Ingen opdigtede launch-datoer. Skeln planlagt/scrub/success/failure. Primære kilder.  
 `python production/load_env.py orbit` før produktion.
 
 ## Log
+
+- **2026-08-29 (format):** Ejerens fire stående instrukser til skala/kort/deep dives/europæisk
+  teknologi tilføjet under `## Format`. Gælder fra nr. 5. Kort-pipeline (public domain-geodata)
+  mangler stadig og skal afklares, før den loves i en brief.
 
 - **2026-08-19:** Nr. 3 udgivet — 'To hastigheder i kredsløb', nyt nummer produceret fra bunden.
   Se læringen ovenfor. To gættede/forkerte kilder fanget og rettet; trackerusikkerhed skrevet
