@@ -1,0 +1,14 @@
+# Londons første robotaxi-forsøg ruller ud – men rattet er ikke forladt
+
+I begyndelsen af august 2026 tog Europa et længe ventet, men yderst forsigtigt skridt ind i fremtidens mobilitet. Transport for London (TfL) har givet teknologivirksomheden Wayve og kørselstjenesten Uber tilladelse til at indsætte selvkørende udgaver af den populære batterielektriske bil (BEV) Ford Mustang Mach-E i den britiske hovedstad. Der er dog en markant og strengt vigtig forskel på dette nye projekt og den fuldt automatiserede fremtid, bilbranchen ofte taler om: Forsøget er ikke førerløst.[^1]
+
+Tilladelsen dækker en etårig forsøgsperiode, hvor op til 15 selvkørende biler kan sættes i drift på gaderne i London. Hver eneste tur afvikles med en TfL-godkendt sikkerhedsfører om bord, som sidder bag rattet og er klar til at gribe ind, hvis teknologien svigter. Det er med andre ord et rent superviseret forsøg. Det adskiller sig fundamentalt fra den kommercielle, betalte og fuldt førerløse drift uden mennesker i loopet, som allerede eksisterer andre steder i verden.
+
+Netop skelnen mellem "superviseret" og "førerløs" er afgørende for at forstå, hvor den europæiske udvikling befinder sig. Mens operatører som Waymo og Apollo Go for længst tilbyder robotaxier uden sikkerhedsfører i henholdsvis amerikanske og kinesiske storbyer, er Londons nye initiativ primært et udviklingsprojekt for at teste teknologien i kompleks europæisk trafik.[^2]
+
+Interessen blandt borgerne er dog massiv. Ifølge Uber har over 100.000 londonere allerede tilmeldt sig en venteliste for at prøve teknologien siden juni 2026. At britiske Wayve er en seriøs spiller inden for udviklingen af selvkørende software, understreges af selskabets finansielle muskler. I februar 2026 rejste virksomheden 1,2 milliarder amerikanske dollar (USD) i en Serie D-investeringsrunde, hvilket bragte deres samlede værdiansættelse op på svimlende 8,6 milliarder USD.
+
+For europæiske elbil- og tech-entusiaster er Londons Mustang Mach-E-forsøg en utvetydig milepæl. Selvom Europa stadig er langt fra det niveau af kommerciel autonomi, der er hverdag for kunder hos Waymo i USA og Apollo Go i Kina, repræsenterer samarbejdet mellem Uber, Wayve og myndighederne det første konkrete skridt mod selvkørende taxier på europæisk jord. Teknologien er på vej ud i virkeligheden, men indtil videre beholder et menneske hænderne på rattet.
+
+[^1]: https://newmobility.news/en/2026/08/06/london-clears-wayve-and-uber-for-supervised-robotaxi-rides/
+[^2]: https://www.techtimes.com/articles/325810/20260827/london-robotaxi-riders-promised-2026-driverless-trips-tfl-says-no-rush.htm

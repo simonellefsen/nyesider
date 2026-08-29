@@ -115,13 +115,51 @@ Leaf gen3, megawatt-ladning, Xiaomi, afgifter 2027, brugtmarked, bagsnit. 2.707 
 
 Leaf gen3, megawatt-ladning, Xiaomi, afgifter 2027, brugtmarked, bagsnit.
 
-## Nr. 4 — kandidater
+## Nr. 4 — udgivet 2026-08-29
 
-- **(2026-08) Første dokumenterede DK 600 kW-personbiladresse**  
-- **(2026-08) Leaf/vinter-køretest med egne tal**  
-- **(2026-08) Xiaomi typegodkendelse/prisliste**  
-- **(2026-08) Kilometerafgift — vedtaget tekst**  
-- **(2026-08) Robotaxi — status når EU/DK har konkret myndighedstekst**
+**Tema:** Sommeren, hvor Europa fulgte med. **7 artikler, 2.435 ord.** Seks artikler reelt
+kommissioneret på `.env.spaending`; lederen er redaktionens uden byline. Forbrug **0,1862 USD**.
+`check_issue.py`: **0 fejl, 0 advarsler.** `check_links.py`: **0 døde links.** `bestilling.json`:
+`redaktion/spaending/numre/2026-08-nr4/bestilling.json`.
+
+**Rettelse til dette dokument:** de fem "Nr. 4-kandidater", der stod listet her tidligere (600 kW,
+Leaf-vintertest, Xiaomi, kilometerafgift, robotaxi-myndighedstekst), var allerede løst og brugt i
+selve nr. 3's genopbygning — listen var aldrig ryddet op efter brug. Nr. 4 er i stedet bygget på
+tre helt nye, friske spor: BYD overhaler Tesla i europæiske nyregistreringer (174.144 mod
+170.351) samtidig med at EU skifter fra told til et pris-gulv; London får sit første
+robotaxi-forsøg (Wayve/Uber, TfL-godkendt, men superviseret — ikke førerløs); og Danmarks
+offentlige ladenetværk vokser til 51.090 punkter, +35 % siden udgangen af 2024, hurtigere end
+elbilflåden selv.
+
+### Formatreglens skelnen holdt igen: superviseret ≠ førerløs
+
+`london-robotaxi`-briefen krævede eksplicit, at Wayve/Uber-forsøget i London IKKE blev fremstillet
+som førerløs drift — der er fortsat en TfL-godkendt sikkerhedsfører om bord på hver tur. Kladden
+fulgte instruksen præcist og satte London eksplicit i forhold til Waymo/Apollo Go's reelle,
+betalte, førerløse drift uden for Europa. Samme skelnen blev gentaget i Kort & Watt for at
+understrege pointen på tværs af nummeret.
+
+### En navnefejl fanget: Dansk e-Mobilitet, ikke "Danske Mobilitet"
+
+`danmark-ladenetvaerk`-kladden skrev organisationsnavnet forkert. Rettet til det korrekte navn,
+Dansk e-Mobilitet, før accept.
+
+### Et unødvendigt præcist tal fjernet fra en fremadrettet teaser
+
+`rygteboersen`-kladden lovede i sit bagsideløfte til nr. 5 et konkret "10 % batteritab" for
+brugte elbiler — et tal, der hverken var briefet eller kildebelagt, i en sætning der kun skulle
+være en åben teaser. Rettet til en generisk formulering. **Regel værd at huske: selv et
+bagsideløfte kan indeholde en faktapåstand, der kræver kilde, hvis det er formuleret som et
+konkret tal.**
+
+## Nr. 5 — kandidater
+
+- **(2026-08) Brugtmarkedet for elbiler** — batterikapacitet efter de første år, konkrete
+  tjeklister (lovet som bagsideløfte).
+- **(2026-08) BYD's Ungarn-fabrik** — opfølgning når produktionen af Dolphin Surf reelt starter
+  (planlagt 4. kvartal 2026).
+- **(2026-08) Londons robotaxi-forsøg** — opfølgning på faktiske køretal/hændelser, hvis der
+  kommer data efter opstarten.
 
 ## Log
 

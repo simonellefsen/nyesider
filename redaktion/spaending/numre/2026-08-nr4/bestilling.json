@@ -1,0 +1,255 @@
+{
+  "magazine": "spaending",
+  "issue": "2026-08-nr4",
+  "issueTheme": "Sommeren, hvor Europa fulgte med",
+  "integrityNote": "Nyt nummer, produceret 2026-08-29. Research forud for hver brief, paa .env.spaending. mustCite sat efter research var laest. Verificerede URL'er indsat direkte i hver brief.angle.",
+  "budget": {
+    "articles": 7,
+    "wordsPerArticle": [
+      250,
+      500
+    ],
+    "targetPages": 12,
+    "note": "Tre features (BYD/EU-told, London-robotaxi, dansk ladenetvaerk) plus faste formater Kort & Watt, essay, rygteboersen."
+  },
+  "researchNote": "ADVARSEL: dette felt naar ALDRIG frem til modellen — kun brief.angle goer. Kontrolleret 2026-08-29.\nTema: sommeren, hvor Europa fulgte med — paa told, paa robotaxi, paa ladeinfrastruktur.\n\n1) BYD OVERHALER TESLA I EUROPA, OG EU SKIFTER FRA TOLD TIL PRISGULV. I foerste halvaar 2026\noverhalede BYD Tesla i europaeiske nyregistreringer: 174.144 BYD-koeretoejer mod 170.351\nTesla-koeretoejer. BYD, som er paalagt en ekstra told paa 17% (samlet sats 27%, lavere end fx\nSAIC's), mere end fordoblede sine rene el-bil-import (BEV, Battery Electric Vehicle) til EU. Den\n12. januar 2026 offentliggjorde EU en formel vejledning om en \"pris-forpligtelse\"\n(price undertaking) for kinesiske elbiler — kinesiske producenter som BYD, SAIC og Geely kan nu\nforpligte sig til en mindstepris i stedet for at betale den fulde told op til 35,5%. Samtidig har\nBYD i stigende grad satset paa plug-in-hybridbiler (PHEV, Plug-in Hybrid Electric Vehicle), som\ntolden ikke rammer paa samme maade — i maj 2026 blev BYD Tysklands bedst saelgende PHEV-maerke for\nfoerste gang, med 4.290 nyregistreringer den maaned alene. BYD bygger desuden en fabrik til 4 mia.\neuro i Szeged, Ungarn, hvor produktionen af Dolphin Surf-modellen starter i fjerde kvartal 2026 —\nbiler produceret i EU undgaar tolden helt.\n\n2) LONDON FAAR SIN FOERSTE ROBOTAXI-FORSOEG — MEN MED SIKKERHEDSFOERER. Transport for London\n(TfL) har givet det britiske selskab Wayve og Uber tilladelse (privat udlejningskoeretoejs-licens)\ntil at koere selvkoerende Ford Mustang Mach-E-biler i London, med tilladelse annonceret omkring\n6.-10. august 2026. Op til 15 selvkoerende biler kan indsaettes i en étaarig forsoegsperiode.\nSTRENGT VIGTIGT SKELNEN (jf. formatreglens krav om at skelne menneske-i-loop fra reelt foererloes\ndrift): dette er IKKE foererloes drift — hver tur har fortsat en TfL-godkendt sikkerhedsfoerer om\nbord, der kan gribe ind. Det er et supervised (overvaaget) forsoeg, ikke kommerciel, betalt,\nfoererloes drift, som allerede findes hos Waymo/Apollo Go uden for Europa (jf. nr. 3's daekning).\nUber oplyser, at over 100.000 londonere har tilmeldt sig en venteliste til tjenesten siden juni\n2026. Wayve rejste i februar 2026 1,2 mia. USD i en Serie D-runde, med en post-money vaerdiansaettelse\npaa 8,6 mia. USD.\n\n3) DANMARKS OFFENTLIGE LADENETVAeRK VOKSER HURTIGERE END ELBILFLAADEN. Ifoelge Mobility Denmarks\negen ladestanderstatistik er der nu 51.090 offentlige ladepunkter i Danmark — en stigning paa over\n35% fra 37.567 ved udgangen af december 2024. Over 7.000 af disse er hurtigladere (typisk defineret\nsom ladere over 22-50 kW, ofte DC-lynladere). Danmark har omkring 570.000 elbiler paa vejene. Dette\ner en direkte opfoelgning paa nr. 3's 600 kW-undersoegelse (Clever/Andel-pilotprojektet i\nStorkoebenhavn, 16 udtag, annonceret til udgangen af 2026) — brug IKKE nye, ubriefede tal om\n600 kW-status her, kun de nye, generelle netvaerkstal.\n\nSTRENGT FORBUDT (ingen kilde her): opfundne danske registreringstal for BYD specifikt, en paastand\nom at London-forsoeget er foererloes drift (det er superviseret, med sikkerhedsfoerer), og enhver\nsammenblanding af BYD's toldsats (27% i alt) med andre kinesiske maerkers satser (som er hoejere).\nmustCite: 1-2 for features med pris/dato/navngivne projekter, som formatreglen kraever. 0 for\nessay og rygtebørs.",
+  "opgaver": [
+    {
+      "slug": "leder",
+      "order": 1,
+      "section": "Leder",
+      "brief": {
+        "angle": "Chefredaktionens leder. Introducer nummerets tre spor: BYD overhaler Tesla i europaeiske nyregistreringer, samtidig med at EU skifter fra straf-told til et pris-gulv for kinesiske elbiler; London faar sit foerste robotaxi-forsoeg med Wayve og Uber, men med sikkerhedsfoerer om bord — ikke foererloes drift; og Danmarks offentlige ladenetvaerk vokser hurtigere end elbilflaaden selv, en direkte opfoelgning paa nr. 3's 600 kW-undersoegelse. Land temaet: sommeren 2026 er den, hvor Europa begyndte at foelge med — paa handel, paa teknologi og paa infrastruktur — uden at nogen af de tre historier er faerdige endnu.",
+        "words": [
+          180,
+          320
+        ],
+        "mustCite": 0,
+        "format": "leder"
+      },
+      "writer": {
+        "byline": null,
+        "model": "TBD",
+        "fallback": "anthropic/claude-sonnet-5"
+      },
+      "receipt": {
+        "words": null,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "editor-led",
+        "checkedAt": "2026-08-29",
+        "citations": 0,
+        "editorNote": "Chefredaktionens leder, ingen byline, ingen kommissionering. Udvidet efter første udkast for at matche titlens etablerede lederlængde (~180-200 ord)."
+      }
+    },
+    {
+      "slug": "byd-eu-toldmur",
+      "order": 2,
+      "section": "Politik & afgifter",
+      "brief": {
+        "angle": "Feature: BYD overhaler Tesla i Europa, og EU skifter fra told til prisgulv. I foerste halvaar 2026 overhalede BYD Tesla i europaeiske nyregistreringer: 174.144 BYD-koeretoejer mod 170.351 Tesla-koeretoejer. BYD er paalagt en ekstra told paa 17% (samlet sats 27%), og mere end fordoblede sin rene el-bil-import (BEV) til EU. Den 12. januar 2026 offentliggjorde EU en formel vejledning om en 'pris-forpligtelse' for kinesiske elbiler — producenter som BYD, SAIC og Geely kan nu forpligte sig til en mindstepris i stedet for at betale den fulde told op til 35,5%. Samtidig har BYD satset paa plug-in-hybridbiler (PHEV), som tolden ikke rammer paa samme maade — i maj 2026 blev BYD Tysklands bedst saelgende PHEV-maerke for foerste gang, med 4.290 nyregistreringer den maaned alene. BYD bygger desuden en fabrik til 4 mia. euro i Szeged, Ungarn, hvor produktion af Dolphin Surf-modellen starter i fjerde kvartal 2026 — biler produceret i EU undgaar tolden helt. Land artiklen paa: BYD's europaeiske fremgang skyldes ikke ét greb, men tre samtidige strategier — pris under tolden, produkttype uden om tolden (PHEV), og lokal produktion der eliminerer tolden.\n\nVERIFICEREDE KILDER (brug disse konkrete URL'er i dine fodnoter, gaet IKKE andre adresser): https://euperspectives.eu/2026/07/byd-is-winning-europe/ — https://brusselssignal.eu/2026/01/eu-replaces-china-ev-tariffs-with-a-price-floor-who-benefits/",
+        "words": [
+          300,
+          500
+        ],
+        "mustCite": 2,
+        "format": "feature",
+        "mustNumber": [
+          "174.144 BYD-registreringer vs. 170.351 Tesla (H1 2026)",
+          "27% samlet BYD-told",
+          "12. januar 2026: EU's prisgulv-vejledning"
+        ]
+      },
+      "writer": {
+        "byline": null,
+        "model": "anthropic/claude-opus-4.8",
+        "fallback": "anthropic/claude-sonnet-5"
+      },
+      "receipt": {
+        "words": 427,
+        "costUSD": 0.04429,
+        "draft": "kladder/02-byd-eu-toldmur.md",
+        "costRouting": "byok",
+        "generationId": "gen-1787993470-wDIn8i8Cwzqcj4AaKPjn"
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-08-29",
+        "citations": 2,
+        "editorNote": "Alle tal (registreringstal, toldsatser, datoer, fabriksinvestering) krydstjekket mod kilderne. Ingen rettelser nødvendige."
+      }
+    },
+    {
+      "slug": "london-robotaxi",
+      "order": 3,
+      "section": "Teknologi",
+      "brief": {
+        "angle": "Feature: London faar sit foerste robotaxi-forsoeg — men med sikkerhedsfoerer. Transport for London (TfL) har givet Wayve og Uber tilladelse til at koere selvkoerende Ford Mustang Mach-E-biler i London, tilladelsen annonceret omkring 6.-10. august 2026. Op til 15 selvkoerende biler kan indsaettes i en étaarig forsoegsperiode. STRENGT VIGTIGT SKELNEN: dette er IKKE foererloes drift — hver tur har fortsat en TfL-godkendt sikkerhedsfoerer om bord, der kan gribe ind. Det er et superviseret forsoeg, ikke kommerciel, betalt, foererloes drift, som allerede findes hos Waymo/Apollo Go uden for Europa. Uber oplyser, at over 100.000 londonere har tilmeldt sig en venteliste siden juni 2026. Wayve rejste i februar 2026 1,2 mia. USD i en Serie D-runde, med en vaerdiansaettelse paa 8,6 mia. USD. Land artiklen paa: London er stadig langt fra det, Waymo og Apollo Go allerede goer i USA og Kina, men det er det foerste konkrete, myndighedsgodkendte skridt i Europa — og skelnen mellem 'superviseret' og 'foererloes' er hele historien.\n\nVERIFICEREDE KILDER (brug disse konkrete URL'er i dine fodnoter, gaet IKKE andre adresser): https://newmobility.news/en/2026/08/06/london-clears-wayve-and-uber-for-supervised-robotaxi-rides/ — https://www.techtimes.com/articles/325810/20260827/london-robotaxi-riders-promised-2026-driverless-trips-tfl-says-no-rush.htm",
+        "words": [
+          300,
+          500
+        ],
+        "mustCite": 2,
+        "format": "feature",
+        "mustNumber": [
+          "op til 15 biler, 1-årig forsøgsperiode",
+          "100.000+ på venteliste",
+          "1,2 mia. USD Serie D (Wayve)"
+        ]
+      },
+      "writer": {
+        "byline": null,
+        "model": "google/gemini-3.1-pro-preview",
+        "fallback": "anthropic/claude-sonnet-5"
+      },
+      "receipt": {
+        "words": 369,
+        "costUSD": 0.04414,
+        "draft": "kladder/03-london-robotaxi.md",
+        "costRouting": "byok",
+        "generationId": "gen-1787993506-Bj3VMTERLOXC3Ssdf0ZG"
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-08-29",
+        "citations": 2,
+        "editorNote": "Håndterede korrekt formatets krav om at skelne superviseret fra førerløs drift, uden at overdrive Londons status i forhold til Waymo/Apollo Go. Ingen rettelser nødvendige."
+      }
+    },
+    {
+      "slug": "danmark-ladenetvaerk",
+      "order": 4,
+      "section": "Teknologi",
+      "brief": {
+        "angle": "Feature: Danmarks offentlige ladenetvaerk vokser hurtigere end elbilflaaden. Ifoelge Mobility Denmarks egen ladestanderstatistik er der nu 51.090 offentlige ladepunkter i Danmark — en stigning paa over 35% fra 37.567 ved udgangen af december 2024. Over 7.000 af disse er hurtigladere. Danmark har omkring 570.000 elbiler paa vejene. Dette er en direkte opfoelgning paa nr. 3's 600 kW-undersoegelse (Clever/Andel-pilotprojektet i Storkoebenhavn, 16 udtag, annonceret til udgangen af 2026) — brug IKKE nye, ubriefede tal om 600 kW-status her, kun disse nye, generelle netvaerkstal. Land artiklen paa: vaeksten i antal ladepunkter overhaler vaeksten i antal elbiler, hvilket er den modsatte bekymring af den, der plejede at dominere debatten (for faa ladere) — men et stort antal ladepunkter siger ikke noget om, hvor godt de er fordelt geografisk eller i doegnets timer, hvilket Kort & Watt uddyber andetsteds i nummeret.\n\nVERIFICEREDE KILDER (brug disse konkrete URL'er i dine fodnoter, gaet IKKE andre adresser): https://mobility.dk/ladestanderstatistik/ — https://danskemobilitet.dk/nyheder/ny-statistik-danmark-har-flere-ladestandere-hidtil-antaget",
+        "words": [
+          300,
+          500
+        ],
+        "mustCite": 2,
+        "format": "feature",
+        "mustNumber": [
+          "51.090 offentlige ladepunkter",
+          "+35% fra 37.567 (dec. 2024)",
+          "7.000+ hurtigladere"
+        ]
+      },
+      "writer": {
+        "byline": null,
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "anthropic/claude-sonnet-5"
+      },
+      "receipt": {
+        "words": 401,
+        "costUSD": 0.016964,
+        "draft": "kladder/04-danmark-ladenetvaerk.md",
+        "costRouting": "byok",
+        "generationId": "gen-1787993538-KhTTnLubdw0Azqb085iX"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-29",
+        "citations": 2,
+        "editorNote": "Kladden navngav kilden 'Danske Mobilitet' — det korrekte navn er Dansk e-Mobilitet. Rettet. Ellers ingen faktuelle problemer; alle tal krydstjekket."
+      }
+    },
+    {
+      "slug": "kort-og-watt",
+      "order": 5,
+      "section": "Kort & Watt",
+      "brief": {
+        "angle": "Kort & Watt: korte, letbenet nyhedsglimt i samme stil som nr. 3 — 2-3 korte afsnit, der supplerer nummerets tre features uden at gentage dem. Forslag: (1) en kort note om, at 'foererloes' og 'superviseret' er to forskellige ting i robotaxi-debatten, med reference til London-artiklen. (2) en kort note om, at et stort antal ladepunkter ikke siger noget om koeen ved det enkelte hot spot, med reference til nr. 3's Clever-pilot. (3) en kort note om, at PHEV-salg (plug-in-hybrid) vokser, mens toldbilledet for rene elbiler (BEV) strammes, med reference til BYD-artiklen. Ingen nye faktapaastande ud over det, der allerede staar i nummerets andre artikler.",
+        "words": [
+          250,
+          450
+        ],
+        "mustCite": 0,
+        "format": "kort-og-watt"
+      },
+      "writer": {
+        "byline": null,
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "anthropic/claude-sonnet-5"
+      },
+      "receipt": {
+        "words": 313,
+        "costUSD": 0.011906,
+        "draft": "kladder/05-kort-og-watt.md",
+        "costRouting": "byok",
+        "generationId": "gen-1787993568-HCyYl4zxu1hjvZDam3fo"
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-08-29",
+        "citations": 0,
+        "editorNote": "mustCite 0. Alle tre afsnit bygger udelukkende på fakta allerede etableret i nummerets øvrige artikler, som formatet kræver."
+      }
+    },
+    {
+      "slug": "essay",
+      "order": 6,
+      "section": "Essay",
+      "brief": {
+        "angle": "Essay: en reflekterende, personlig-tonet tekst (ikke en nyhedsartikel) om at koere eller opleve en af sommerens tre historier paa naert hold — fx hvordan det foeles at sidde i en bil med en 'sikkerhedsfoerer', der ikke koerer, men er klar til at overtage; eller betragtninger om, hvad det betyder, at det bilmaerke, der virkede eksotisk for to aar siden, nu er det mest solgte i store dele af Europa. INGEN nye faktapaastande, der kraever kilde — det er en stemningsfuld, tænksom tekst, ikke en nyhedsartikel.",
+        "words": [
+          300,
+          550
+        ],
+        "mustCite": 0,
+        "format": "essay"
+      },
+      "writer": {
+        "byline": null,
+        "model": "openai/gpt-5.6-terra",
+        "fallback": "anthropic/claude-sonnet-5"
+      },
+      "receipt": {
+        "words": 370,
+        "costUSD": 0.010184,
+        "draft": "kladder/06-essay.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1787993592-aODiKcVDiGP4xkIbBLV5"
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-08-29",
+        "citations": 0,
+        "editorNote": "mustCite 0. Stemningsfuld, reflekterende tekst uden faktapåstande, som formatet kræver."
+      }
+    },
+    {
+      "slug": "rygteboersen",
+      "order": 7,
+      "section": "Rygtebørsen",
+      "brief": {
+        "angle": "Rygtebørsen: kort, letbenet bagsnit med observationer og spekulationer fra elbilverdenen, i samme stil som nr. 3. Ingen nye faktapaastande, der kraever kilde — hold det til det, der allerede er etableret i nummeret. Slut med et konkret, realistisk bagsideloefte til nr. 5 — aaben teaser, ikke en detaljeret plan.",
+        "words": [
+          250,
+          450
+        ],
+        "mustCite": 0,
+        "format": "rygtebørs"
+      },
+      "writer": {
+        "byline": null,
+        "model": "google/gemini-3.1-pro-preview",
+        "fallback": "anthropic/claude-sonnet-5"
+      },
+      "receipt": {
+        "words": 381,
+        "costUSD": 0.058766,
+        "draft": "kladder/07-rygteboersen.md",
+        "costRouting": "byok",
+        "generationId": "gen-1787993608-zDwtpD6BgiZhzzILAfnc"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-29",
+        "citations": 0,
+        "editorNote": "mustCite 0. Fjernede et unødvendigt præcist, ukildebelagt tal ('10% batteritab') fra bagsideløftet til nr. 5 — et konkret procenttal i en fremadrettet teaser kræver enten en kilde eller en mere generisk formulering; valgte det sidste."
+      }
+    }
+  ]
+}
