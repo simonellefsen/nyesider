@@ -1157,6 +1157,14 @@ a.mag-card:hover {
 	display: block;
 }
 
+/* Hand-authored diagram SVGs (e.g. INDENI's figur-*.svg): show the whole
+   drawing instead of cropping it to a 16:9 photo box. */
+.article-figure.diagram-figure img {
+	aspect-ratio: auto;
+	object-fit: contain;
+	height: auto;
+}
+
 /* Interactive multi-year trend charts (KRAFTEN online) */
 .trend-chart {
 	margin: 1.5rem 0 1.75rem;

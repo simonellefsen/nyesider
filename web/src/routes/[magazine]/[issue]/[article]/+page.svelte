@@ -199,7 +199,7 @@
 		</header>
 
 		{#if data.article.image}
-			<figure class="article-figure">
+			<figure class="article-figure" class:diagram-figure={data.article.image.endsWith('.svg')}>
 				<img
 					src={data.article.image}
 					alt=""
