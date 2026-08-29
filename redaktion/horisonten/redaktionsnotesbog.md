@@ -122,10 +122,40 @@ allerede-forsøgt-og-forkastet kilde forhindrer, at modellen selv falder i samme
 
 ## Format
 
-- **Faste formater:** Vandring · Cykling · Løb · Byliv · (Strande/søer/udsigter efter destination) · Kalenderen · Mad & Vin · Praktisk.
+- **Faste formater:** Vandring · Cykling · Løb · Byliv · (Strande/søer/udsigter efter destination) · Kalenderen · Mad & Vin · Praktisk · **Rejsevejledning** (ny fast rubrik, se nedenfor).
 - **Standard `mustCite`:** 1–2 for praktik-artikler med priser/afstande/temperaturer; 0 for stemningsartikler uden konkrete tal.
 - Aldrig opdigtede præcise datoer for virkelige begivenheder.  
 - **Fact-check** af stednavne og sæson før accept (chefredaktør — se [redaktion/README](../README.md)).
+
+### Ny fast rubrik (tilføjet 2026-08-29): Rejsevejledning
+
+**Fra nr. 5 og frem** skal hvert nummer have en **Rejsevejledning**-artikel ved siden af (ikke i
+stedet for) den eksisterende Praktisk-artikel. Praktisk handler om *denne rejses* logistik
+(indfaldsveje, baser, ZTL-zoner osv.); Rejsevejledning er den generiske, destinations-tilpassede
+tjekliste, en dansk rejsende altid har brug for. Ejerens brief, 2026-08-29:
+
+- **Officielle retningslinjer** fra Udenrigsministeriet, hvis en rejsevejledning findes for landet
+  (`um.dk/rejse-og-ophold/rejsevejledninger`) — link direkte til den, gengiv ikke selve teksten (den
+  ændrer sig og skal læses i original). Findes ingen UM-vejledning (fx det meste af Vesteuropa), sig
+  det eksplicit i stedet for at opdigte en.
+- **Forberedelse:** rejseforsikring, det blå EU-sygesikringskort (uden for EU: hvad det ikke dækker),
+  vacciner/sundhedsråd hvis relevant.
+- **Kriminalitet & sikkerhed:** lommetyveri, turistfælder, områder at være opmærksom i — kun med
+  kilde (UM, lokalt politi, anerkendt rejseguide), aldrig baseret på formodning.
+- **Hotelregler:** har hotellet reelt krav om at se/kopiere pas eller ID ved indtjekning i det
+  pågældende land (varierer — er lovkrav visse steder, ikke andre)? Depositum, udtjekningstider.
+- **Pas/ID:** gyldighedskrav (nogle lande kræver 6 mdr. tilbageværende gyldighed), om dansk kørekort
+  duer, om ID skal bæres på sig.
+- **Transport til/fra og i landet:** fly/tog/færge/bil fra Danmark — realistiske rejsetider og
+  typiske udbydere, ikke priser der forældes (brug "tjek aktuelle priser" fremfor faste kroner der
+  bliver forkerte om et år, medmindre en kilde giver et dateret spænd).
+- **Prisniveau** (spænd, ikke faste tal — med kilde eller tydeligt mærket "grov tommelfingerregel"):
+  hotel 3/4/5-stjernet, restaurant billig/dyr, supermarked, drikkevarer (øl/vin/kaffe ude), frisør,
+  massage, **drikkepenge-norm** i landet (nogle steder forventet, andre steder ikke — det er ofte det,
+  danske rejsende famler mest med).
+- Samme `mustCite`-logik som Praktisk: konkrete tal og påstande om lov/regler kræver kilde.
+
+Ikke tilføjet retroaktivt til nr. 1–4 — det er en fremadrettet standard, ikke en genudgivelses-opgave.
 
 ## Søstertitel: KULTURBOXEN
 
@@ -146,6 +176,10 @@ allerede-forsøgt-og-forkastet kilde forhindrer, at modellen selv falder i samme
 
 ## Log
 
+- **2026-08-29 (senere):** Ny fast rubrik besluttet: **Rejsevejledning**, fra nr. 5 og frem. Se
+  `## Format` for det fulde brief (UM-vejledning hvis den findes, forberedelse, kriminalitet,
+  hotel-ID-regler, pas/ID-krav, transport fra DK, prisniveau inkl. drikkepenge-norm). Ikke
+  retroaktivt for nr. 1-4.
 - **2026-08-29:** Nr. 4 (Sicilien) fik to rigtige kort tilføjet post-udgivelse:
   `kort-sicilien-syv-lag.svg` i `02-sicilien-overblik.md` (markerer Palermo, Etna, Noto, Agrigento,
   Siracusa — de fem stednavne, artiklens "syv lag" faktisk knytter til geografi) og `kort-baser.svg`
