@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#0D1B2A"/>
+  
+  <!-- Drawdown comparison bars -->
+  <g transform="translate(100, 80)">
+    <!-- Title -->
+    <text x="300" y="0" text-anchor="middle" font-family="Georgia, serif" font-size="24" fill="#fff">Fem kandidater: afstand fra toppen</text>
+    <text x="300" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#888">28. august 2026 · Procent under 52-ugers højeste</text>
+    
+    <!-- Horizontal bars -->
+    <g transform="translate(0, 60)">
+      <!-- NOVO-B: -27.9% -->
+      <text x="0" y="28" font-family="monospace" font-size="14" fill="#888">NOVO-B</text>
+      <rect x="100" y="15" width="167" height="25" fill="#C9A227" rx="3"/>
+      <text x="280" y="33" font-family="monospace" font-size="14" fill="#C9A227">27,9 %</text>
+      
+      <!-- LULU: -46.5% -->
+      <text x="0" y="78" font-family="monospace" font-size="14" fill="#888">LULU</text>
+      <rect x="100" y="65" width="279" height="25" fill="#C9A227" rx="3"/>
+      <text x="392" y="83" font-family="monospace" font-size="14" fill="#C9A227">46,5 %</text>
+      
+      <!-- ZTS: -50.2% -->
+      <text x="0" y="128" font-family="monospace" font-size="14" fill="#888">ZTS</text>
+      <rect x="100" y="115" width="301" height="25" fill="#C9A227" rx="3"/>
+      <text x="414" y="133" font-family="monospace" font-size="14" fill="#C9A227">50,2 %</text>
+      
+      <!-- RI.PA: -37.1% -->
+      <text x="0" y="178" font-family="monospace" font-size="14" fill="#888">RI.PA</text>
+      <rect x="100" y="165" width="223" height="25" fill="#C9A227" rx="3"/>
+      <text x="336" y="183" font-family="monospace" font-size="14" fill="#C9A227">37,1 %</text>
+      
+      <!-- BMW: -36.0% -->
+      <text x="0" y="228" font-family="monospace" font-size="14" fill="#888">BMW</text>
+      <rect x="100" y="215" width="216" height="25" fill="#C9A227" rx="3"/>
+      <text x="329" y="233" font-family="monospace" font-size="14" fill="#C9A227">36,0 %</text>
+    </g>
+    
+    <!-- Scale reference -->
+    <g transform="translate(100, 310)">
+      <line x1="0" y1="0" x2="300" y2="0" stroke="#1a2d42" stroke-width="1"/>
+      <text x="0" y="20" font-family="Arial, sans-serif" font-size="10" fill="#888">0 %</text>
+      <text x="150" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#888">25 %</text>
+      <text x="300" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#888">50 %</text>
+    </g>
+  </g>
+  
+  <!-- Indeks comparison line -->
+  <g transform="translate(100, 420)">
+    <line x1="100" y1="0" x2="108" y2="0" stroke="#40826D" stroke-width="3"/>
+    <text x="120" y="5" font-family="Arial, sans-serif" font-size="11" fill="#40826D">S&amp;P 500: 1,3 % | DAX: 0,2 % | OMXC25: 1,1 %</text>
+  </g>
+  
+  <text x="400" y="475" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#666">Redaktionelt diagram · Nye Sider · Kilde: Yahoo Finance</text>
+</svg>

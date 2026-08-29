@@ -16,6 +16,7 @@ Dansk magasinforlag, hvor hvert nummer produceres af en chefredaktør-agent med 
 | **ORBIT** | Rumfart: opsendelser, satellitter, agenturer, skrot, kalender | Nr. 2 · August 2026 · *"Kataloget og kikkerten"* |
 | **HumaNerd** | Robotter blandt mennesker — fabrik, lager, hjem | Nr. 2 · August 2026 · *"Lagerets koreografi"* |
 | **INDENI** | Hverdagsgenstande indefra — materialer, maskiner, kredsløb | Nr. 2 · August 2026 · *"Filteret"* |
+| **Aktier med Grok** | Aktier der er faldet for langt, ser for billige ud, har et 3–6 mdr. argument | Nr. 1 · August 2026 · *"Fem kandidater i et marked uden bred nedtur"* |
 
 ## Struktur
 

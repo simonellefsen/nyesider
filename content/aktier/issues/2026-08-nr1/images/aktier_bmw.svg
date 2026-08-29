@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#0D1B2A"/>
+  
+  <!-- P/B visual comparison -->
+  <g transform="translate(100, 100)">
+    <!-- Book value bar (tall) -->
+    <rect x="50" y="0" width="80" height="250" fill="#1a2d42" rx="4"/>
+    <text x="90" y="280" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#888">Bogført værdi</text>
+    <text x="90" y="300" text-anchor="middle" font-family="monospace" font-size="14" fill="#888">¬159,21</text>
+    
+    <!-- Price bar (short) -->
+    <rect x="180" y="155" width="80" height="95" fill="#C9A227" rx="4"/>
+    <text x="220" y="280" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#888">Kurs</text>
+    <text x="220" y="300" text-anchor="middle" font-family="monospace" font-size="14" fill="#C9A227">¬62,64</text>
+    
+    <!-- P/B annotation -->
+    <path d="M130 125 L180 155" stroke="#40826D" stroke-width="1" stroke-dasharray="3,3"/>
+    <text x="155" y="115" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#40826D">P/B 0,38</text>
+  </g>
+  
+  <!-- Moving averages on right -->
+  <g transform="translate(400, 120)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="14" fill="#fff">Glidende gennemsnit</text>
+    
+    <line x1="0" y1="50" x2="250" y2="50" stroke="#40826D" stroke-width="2"/>
+    <text x="260" y="55" font-family="Arial, sans-serif" font-size="11" fill="#40826D">50d: ¬58,95 </text>
+    
+    <line x1="0" y1="90" x2="250" y2="90" stroke="#888" stroke-width="2" stroke-dasharray="5,5"/>
+    <text x="260" y="95" font-family="Arial, sans-serif" font-size="11" fill="#888">200d: ¬77,42</text>
+    
+    <circle cx="250" cy="70" r="8" fill="#C9A227"/>
+    <text x="260" y="75" font-family="monospace" font-size="11" fill="#C9A227">¬62,64</text>
+    
+    <text x="0" y="140" font-family="Arial, sans-serif" font-size="11" fill="#888">Fredag +4,5 %  recaptured 50d</text>
+    <text x="0" y="160" font-family="Arial, sans-serif" font-size="11" fill="#888">Stadig langt under 200d</text>
+  </g>
+  
+  <!-- Ticker badge -->
+  <rect x="50" y="40" width="120" height="45" fill="#40826D" rx="4"/>
+  <text x="110" y="70" text-anchor="middle" font-family="monospace" font-size="22" font-weight="bold" fill="#fff">BMW.DE</text>
+  
+  <!-- Trap warning -->
+  <g transform="translate(500, 300)">
+    <rect x="0" y="0" width="220" height="80" fill="#1a2d42" rx="4" stroke="#888" stroke-width="1"/>
+    <text x="110" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#888">Fælderisiko</text>
+    <text x="110" y="48" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#C9A227">Kina/tariffer</text>
+    <text x="110" y="68" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#C9A227">EV 2,9× equity (FS-gæld)</text>
+  </g>
+  
+  <!-- Sleeve badge -->
+  <rect x="660" y="440" width="90" height="25" fill="#C9A227" rx="3"/>
+  <text x="705" y="458" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#0D1B2A">CYCLICAL</text>
+  
+  <text x="400" y="475" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#666">Redaktionelt diagram · Nye Sider · 28. aug 2026</text>
+</svg>

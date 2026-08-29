@@ -1,0 +1,348 @@
+{
+  "magazine": "aktier",
+  "issue": "2026-08-nr1",
+  "issueTheme": "Fem kandidater i et marked uden bred nedtur",
+  "integrityNote": "Første nummer. Editor-led (ingen API-kald, ingen bylines). Alle priser verificeret mod Yahoo Finance 28. aug 2026 lukke. Ingen .env.aktier-nøgle eksisterer endnu — derfor productionCostUSD: 0.",
+  "budget": {
+    "articles": 11,
+    "wordsPerArticle": [400, 700],
+    "targetPages": 14,
+    "note": "Første nummer: Leder + Markedet + 5 kandidat-features + Tallet + ETF'erne + Rygtebørsen + Bagsnit. Editor-led."
+  },
+  "opgaver": [
+    {
+      "slug": "leder",
+      "order": 1,
+      "section": "Leder",
+      "brief": {
+        "angle": "Magasinets mandat: konkrete, kildedækkede købskandidater — ikke gururåd. Markedet er ikke i udsalg, men enkeltnavn kan være det. Fem kandidater i dette nummer.",
+        "words": [150, 250],
+        "mustCite": 0,
+        "format": "leder"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": null,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "editor-led",
+        "checkedAt": "2026-08-29",
+        "citations": 0,
+        "editorNote": "Chefredaktionens leder, ingen byline, ingen kommissionering."
+      }
+    },
+    {
+      "slug": "markedet",
+      "order": 2,
+      "section": "Markedet",
+      "brief": {
+        "angle": "Sen-august 2026 markedsbaggrund. S&P 500 −1,3 % fra 52w top, Nasdaq −2,9 %, STOXX 600 −1,2 %, DAX −0,2 %, OMXC25 −1,1 %, OMXS30 −0,5 %. Fed funds 3,50–3,75 %, PCE +3,7 % y/y, Warsh hawkish, sep-stramning ~57,5 % odds. ECB-stramning til 2,50 % priset ind. Konklusion: ikke bred nedtur, mulighed i enkeltnavn.",
+        "words": [400, 600],
+        "mustCite": 3,
+        "format": "feature",
+        "mustNumber": [
+          "S&P 500 7.711,76 (−1,3 % fra 7.816,70)",
+          "Fed funds 3,50–3,75 %, PCE +3,7 % y/y",
+          "ECB-stramning til 2,50 % priset ind"
+        ]
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": null,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "editor-led",
+        "checkedAt": "2026-08-29",
+        "citations": 3,
+        "editorNote": "Editor-led. Kilder: Yahoo Finance (indekser), Reuters (Fed/PCE)."
+      }
+    },
+    {
+      "slug": "novo-nordisk",
+      "order": 3,
+      "section": "Kandidaten",
+      "brief": {
+        "angle": "NOVO-B.CO (Novo Nordisk, København). CORE-sleeve. DKK 295,50, −27,9 % fra 52w top 409,95. Trail P/E 11,25, fwd 13,48, P/B 5,90 (billig vs egen historie, ikke absolut). +24 % fra feb-bund 237,90. Invalidation: DKK 224 eller ny 2026-guidenedsættelse.",
+        "words": [450, 650],
+        "mustCite": 2,
+        "format": "feature",
+        "mustNumber": [
+          "DKK 295,50, 52w 224,25–409,95, −27,9 % fra top",
+          "Trail P/E 11,25, fwd 13,48, P/B 5,90, EV/EBITDA 9,47",
+          "Margin 42,5 %, ROE 60 %, næste regnskab 4. nov"
+        ]
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": null,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "editor-led",
+        "checkedAt": "2026-08-29",
+        "citations": 2,
+        "editorNote": "Editor-led. Kilder: Yahoo Finance NOVO-B.CO, CNBC 4. aug H1."
+      }
+    },
+    {
+      "slug": "lululemon",
+      "order": 4,
+      "section": "Kandidaten",
+      "brief": {
+        "angle": "LULU (Lululemon, Nasdaq). SATELLITE/BINARY-sleeve. $120,81, −46,5 % fra 52w top 225,98. Trail P/E 9,31, fwd 10,32, P/B 2,71. PEG 0,88, short 10 %. Binært: Q2 3. sep. Size small indtil print. Invalidation: guide-down 3. sep eller break $104,44.",
+        "words": [450, 650],
+        "mustCite": 2,
+        "format": "feature",
+        "mustNumber": [
+          "$120,81, 52w 104,44–225,98, −46,5 % fra top",
+          "Trail P/E 9,31, fwd 10,32, P/B 2,71, EV/EBITDA 5,33",
+          "Q2 3. sep, short interest 10 %"
+        ]
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": null,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "editor-led",
+        "checkedAt": "2026-08-29",
+        "citations": 2,
+        "editorNote": "Editor-led. Kilder: Yahoo Finance LULU."
+      }
+    },
+    {
+      "slug": "zoetis",
+      "order": 5,
+      "section": "Kandidaten",
+      "brief": {
+        "angle": "ZTS (Zoetis, NYSE). SATELLITE-sleeve. $77,34, −50,2 % fra 52w top 155,38. Trail P/E 12,24, fwd 12,11, P/B 9,85 (IKKE billig på bog), D/E 294 %. US companion −11 % Q2, guide cut. Base dannet: −1,2 % over 3m. Invalidation: tredje 2026-guidenedsættelse eller break $71.",
+        "words": [450, 650],
+        "mustCite": 2,
+        "format": "feature",
+        "mustNumber": [
+          "$77,34, 52w 71,00–155,38, −50,2 % fra top",
+          "Trail P/E 12,24, fwd 12,11, P/B 9,85, D/E 294 %",
+          "1y −50 %, 3m −1,2 % (base)"
+        ]
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": null,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "editor-led",
+        "checkedAt": "2026-08-29",
+        "citations": 2,
+        "editorNote": "Editor-led. Kilder: Yahoo Finance ZTS."
+      }
+    },
+    {
+      "slug": "pernod-ricard",
+      "order": 6,
+      "section": "Kandidaten",
+      "brief": {
+        "angle": "RI.PA (Pernod Ricard, Euronext Paris). SATELLITE/YIELD-sleeve. €63,20, −37,1 % fra 52w top 100,55. Trail P/E 11,53, fwd 10,16, P/B 1,05, udbytte 7,29 % (payout 84 % vs ~50 % politik). FY26 organic sales −3,9 %, US −14 %, Kina −19 %. Ærlig 3–6m: rangebound kupon, ikke V-form. Q1 FY27 sales 15. okt. Invalidation: udbyttenedsættelse eller break €58,60.",
+        "words": [450, 650],
+        "mustCite": 2,
+        "format": "feature",
+        "mustNumber": [
+          "€63,20, 52w 58,60–100,55, −37,1 % fra top",
+          "Trail P/E 11,53, fwd 10,16, P/B 1,05, udbytte 7,29 %",
+          "FY26 organic sales −3,9 %, US −14 %, Kina −19 %"
+        ]
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": null,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "editor-led",
+        "checkedAt": "2026-08-29",
+        "citations": 2,
+        "editorNote": "Editor-led. Kilder: Yahoo Finance RI.PA, Pernod FY26-PDF."
+      }
+    },
+    {
+      "slug": "bmw",
+      "order": 7,
+      "section": "Kandidaten",
+      "brief": {
+        "angle": "BMW.DE (BMW, Xetra). SATELLITE/CYCLICAL-sleeve. €62,64, −36,0 % fra 52w top 97,92. Trail P/E 5,77, fwd 9,02, P/B 0,38 (BVPS €159,21), udbytte 7,34 % (payout 42 %). Fredag +4,5 % recaptured 50d €58,95, stadig langt under 200d €77,42. Fælderisiko: Kina/tariffer, EV 2,9× egenkapital pga. FS-gæld. Invalidation: break €56,40 eller udbyttenedsættelse.",
+        "words": [450, 650],
+        "mustCite": 2,
+        "format": "feature",
+        "mustNumber": [
+          "€62,64, 52w 56,40–97,92, −36,0 % fra top",
+          "Trail P/E 5,77, fwd 9,02, P/B 0,38, BVPS €159,21",
+          "Udbytte 7,34 %, payout 42 %, 50d €58,95, 200d €77,42"
+        ]
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": null,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "editor-led",
+        "checkedAt": "2026-08-29",
+        "citations": 2,
+        "editorNote": "Editor-led. Kilder: Yahoo Finance BMW.DE."
+      }
+    },
+    {
+      "slug": "tallet",
+      "order": 8,
+      "section": "Tallet",
+      "brief": {
+        "angle": "Kildetabel over nummerets fem kandidater: ticker, børs, pris, 52w, % fra top, P/E (trail/fwd), P/B, invalidation. Én linje pr. kandidat. Note om sleeve (CORE/SATELLITE/BINARY). Fodnoter pr. celle som DOSIS' 11-tallet.",
+        "words": [500, 700],
+        "mustCite": 5,
+        "format": "tallet",
+        "mustNumber": [
+          "NOVO-B: 295,50 / −27,9 % / P/E 11,25",
+          "LULU: 120,81 / −46,5 % / P/E 9,31",
+          "ZTS: 77,34 / −50,2 % / P/E 12,24",
+          "RI.PA: 63,20 / −37,1 % / P/E 11,53",
+          "BMW: 62,64 / −36,0 % / P/E 5,77"
+        ]
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": null,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "editor-led",
+        "checkedAt": "2026-08-29",
+        "citations": 5,
+        "editorNote": "Editor-led. Fem Yahoo Finance-kilder, én pr. kandidat."
+      }
+    },
+    {
+      "slug": "etferne",
+      "order": 9,
+      "section": "ETF'erne",
+      "brief": {
+        "angle": "Ingen ETF er bedre end enkeltaktierne i dette nummer. SPY/VOO −1,3 %, QQQ −4,3 %, EUNL −1,2 %, EXS1 −0,2 % (på top), XACTC25 −0,7 % (Novo ~16 % af kurven, fortynder dippen), XACT-OMXS30 −0,8 %. Sektor-ETF'er: XLY −6,2 % (forbruger), XLV −3,1 % (sundhed). S&P trailing P/E kilder uenige (27,4× vs 31,3×) — sig det ærligt.",
+        "words": [400, 550],
+        "mustCite": 2,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": null,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "editor-led",
+        "checkedAt": "2026-08-29",
+        "citations": 2,
+        "editorNote": "Editor-led. Kilder: Yahoo Finance ETF-quotes."
+      }
+    },
+    {
+      "slug": "rygteboersen",
+      "order": 10,
+      "section": "Rygtebørsen",
+      "brief": {
+        "angle": "Tre myter afmonteret + navne vi lod ligge. Myte 1: lav P/E er altid et køb. Myte 2: udbytte beskytter i en nedtur. Myte 3: når aktien er halveret, kan den ikke falde mere. Navne vi lod ligge: NKE (fwd P/E 22 > trail 18), DKS (for frisk, neg FCF), ORSTED (neg EPS, valuefælde), VWS (52w top), STLA (neg EPS), KER (neg EPS), LVMH (P/E 21 ikke billig), EQNR (ralliet), COLO-B (P/E 38).",
+        "words": [400, 600],
+        "mustCite": 0,
+        "format": "rygteboersen"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": null,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "editor-led",
+        "checkedAt": "2026-08-29",
+        "citations": 0,
+        "editorNote": "Editor-led. mustCite=0 er bevidst formatvalg for rubrikken."
+      }
+    },
+    {
+      "slug": "bagsnit",
+      "order": 11,
+      "section": "Bagsnit",
+      "brief": {
+        "angle": "Disclaimer: Aktier med Grok giver ikke personlig investeringsrådgivning. Alle tal er pr. 28. august 2026 lukke og kan være forældede, når du læser dette. Husk næste nummer, opfølgning på LULU efter Q2.",
+        "words": [100, 200],
+        "mustCite": 0,
+        "format": "bagsnit"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": null,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "editor-led",
+        "checkedAt": "2026-08-29",
+        "citations": 0,
+        "editorNote": "Editor-led. Disclaimer, ingen kilder."
+      }
+    }
+  ]
+}
