@@ -60,10 +60,39 @@ skelnen, der ER historien i det afsnit).
   direkte citat. Den faktiske kilde (Teslas Q4 2025-resultatkonference) bekræfter kun parafrasen
   — ikke den ordrette formulering. Omskrevet til reported speech uden anførselstegn.
 
-**Navnetjek, der IKKE endte i artiklen:** research fandt modstridende sekundære kilder om, hvorvidt
-en "Jakob Sand" er medstifter/direktør hos HIVE Robots ud over CEO Charlotte Blou Sand — nogle
-aggregator-sider nævner ham, det officielle CVR-udtræk gjorde det ikke entydigt. I stedet for at
-gætte blev navnet simpelthen ikke brugt i den udgivne tekst.
+**Navnetjek, der IKKE endte i artiklen (senere løst, se addendum):** research fandt modstridende
+sekundære kilder om, hvorvidt en "Jakob Sand" er medstifter/direktør hos HIVE Robots ud over CEO
+Charlotte Blou Sand — nogle aggregator-sider nævner ham, det officielle CVR-udtræk gjorde det ikke
+entydigt. I stedet for at gætte blev navnet simpelthen ikke brugt i den udgivne tekst.
+
+#### Addendum 2026-08-29 (samme dag): Chrome-baseret LinkedIn-adgang løste to spørgsmål
+
+Ejeren fik sat en Claude-in-Chrome-browser op med login til LinkedIn — første gang denne redaktion
+har haft en pålidelig vej til at krydstjekke en persons eget CV mod en virksomheds pressemateriale.
+Brugt til at gense **Humanoiden**-artiklens omtale af Jakob Welner, med to resultater:
+
+1. **HIVE's egen pressemeddelelse (9. juni 2026) overdriver.** Den skriver "mere end seks år" hos
+   Boston Dynamics; Welners eget, offentlige LinkedIn-CV daterer ansættelsen til september
+   2021-april 2026 — fire år og otte måneder. Hans reelle titel der var "Software Animation
+   Developer" på tværs af Atlas- *og* Spot-holdene, ikke snævert "Atlas' kontrolteam" som både
+   HIVE's hjemmeside og artiklens første version skrev. **Lærdom:** en virksomheds egen
+   pressemeddelelse om en nyansættelse er ikke en primærkilde til den ansattes CV — den ansattes
+   eget CV er. Samme klasse fejl som nr. 1's "en 200 er ikke et bevis for, at siden er den
+   rigtige" — her er det "en pressemeddelelse er ikke et bevis for et CV-tal".
+2. **"Jakob Sand"-usikkerheden er nu løst.** Han er bekræftet ægte via HIVE's egen
+   LinkedIn-medarbejderliste ("Jakob Sand · Charlotte Blou Sand · Martin Dahl · Jakob Welner") og
+   hans egen LinkedIn-post, der annoncerer Welners ansættelse. Den oprindelige forsigtighed (ikke
+   navngive ham uden entydig kilde) var den rigtige beslutning på det tidspunkt — usikker kilde,
+   udelad frem for gæt — men konklusionen ændrer sig, når en bedre kilde bliver tilgængelig.
+   Tilføjet til artiklen, uden at overdrive hvad der reelt vides om hans rolle ud over
+   medarbejderlisten.
+
+**Ny arbejdsregel:** LinkedIn-profil-URL'er svarer 999 til automatiserede kald (også med en
+browser-agtig User-Agent) — `check_links.py` vil altid vise dem som døde, selvom de er reelle og
+tilgængelige for en logget-ind bruger. Cité derfor **ikke** en rå LinkedIn-URL som klikbar
+fodnote; skriv kilden som almindelig tekst (fx "Welners egen, offentlige LinkedIn-profil") i
+stedet, og lad den primære, faktisk hentbare kilde (fx virksomhedens pressemeddelelse) bære det
+klikbare link.
 
 **Driftsnotits:** `google/gemini-3.1-pro` (Hjernens planlagte skribent) svarede HTTP 400 "not a
 valid model ID" på OpenRouter, selvom `modeller.json` lister den som `aktiv`. Løst med `--fallback`
@@ -214,6 +243,10 @@ levetidstallet var det rigtige. Reglen er stadig: afstem mod begge, og forklar f
 
 ## Log
 
+- **2026-08-29 (senere, post-udgivelse):** Humanoiden (nr. 4) rettet efter Chrome-baseret
+  LinkedIn-adgang: Boston Dynamics-tenure og titel for Jakob Welner korrigeret (HIVE's
+  pressemeddelelse overdrev), Jakob Sand navngivet efter at hans rolle blev bekræftet. Se
+  addendum ovenfor.
 - **2026-08-29:** Nr. 4 publiceret — "Nathandleren og samlebåndet" (HIVE Robots × Føtex, samt
   Apptronik Apollo × Mercedes-Benz). Ejerbrief-emne. Fem fejl/svagheder fanget og rettet før
   udgivelse, se læringen ovenfor.
