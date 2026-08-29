@@ -154,6 +154,20 @@ konkret tal.**
 
 ## Nr. 5 — kandidater
 
+- **(2026-09-03) Teslas Cybercab-lanceringsevent** — ejerens forslag. Tesla afholder et
+  invitation-only lanceringsevent i Austin, Texas, 3. september 2026, for topscorere i
+  virksomhedens "Robotaxi rider"-lodtrækning; livestreamet for alle andre. Ventet indhold: den
+  endelige produktionsdesign af Cybercab (tosædet, ingen rat eller pedaler, bygget udelukkende til
+  førerløs drift på Tesla's AI4-computer), live-demonstrationer af Full Self-Driving, og detaljer
+  om udrulningsplanen for Teslas robotaxi-netværk. Cybercab blev første gang vist frem ved "We,
+  Robot"-eventet i oktober 2024; siden er den blevet testet på offentlig vej, og ansatte fik
+  prøveture på private veje nær Austin-hovedkvarteret i juli 2026. Kilder:
+  [Teslarati](https://www.teslarati.com/tesla-cybercab-launch-official-date-austin/),
+  [Motor1](https://www.motor1.com/news/805874/tesla-cybercab-robotaxi-launch-austin/). Datoen
+  ligger EFTER nr. 4's udgivelse (29. aug.) — til nr. 5 bør research opdateres med, hvad eventet
+  faktisk viste, ikke kun hvad der var annonceret på forhånd. God krydsreference til nr. 4's
+  London-robotaxi-artikel (superviseret vs. reelt førerløs — Cybercab er designet til sidstnævnte
+  fra start).
 - **(2026-08) Brugtmarkedet for elbiler** — batterikapacitet efter de første år, konkrete
   tjeklister (lovet som bagsideløfte).
 - **(2026-08) BYD's Ungarn-fabrik** — opfølgning når produktionen af Dolphin Surf reelt starter

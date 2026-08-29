@@ -161,6 +161,18 @@ et konkret, ukildebelagt tal i en sætning, der kun skulle være spekulation. Fj
 
 ## Nr. 5 — kandidater
 
+- **(2026-08-25) SpaceX' "Louisiana Purchase"** — ejerens forslag. SpaceX har annonceret en
+  100 mia. USD-investering i et fjerde og hidtil største opsendelsesanlæg, "Starbase, Louisiana",
+  i Vermilion Parish ved Pecan Island — 125.000-130.000 acres kystland konverteret fra en tidligere
+  Exxon-grund. Ved fuld udbygning ventes fem opsendelseskomplekser, hver med to ramper og en
+  drivmiddelfarm, plus produktionsfaciliteter og boliger til ansatte. Byggeri ventes at starte
+  2027, første opsendelse tidligst 2029. Lokalaftale: SpaceX betaler Vermilion Parish 25 mio. USD
+  om året i 25 år (med eskalatorklausul) plus 20 mio. USD i forudbetaling — over 820 mio. USD i
+  direkte lokale betalinger over aftalens levetid — samt et krævet velgørenhedsbidrag på 25 mio.
+  USD til Community Foundation of Acadiana. Kilder: [Payload Space](https://payloadspace.com/spacex-announces-new-starbase-louisiana-spaceport/),
+  [New Atlas](https://newatlas.com/space-systems/spacex-build-worlds-largest-spaceport-louisiana/).
+  God parallel til nr. 4's Starbase-artikel (Texas-byen) — denne gang er det delstaten Louisiana,
+  ikke kun en lokal folkeafstemning.
 - **(2026-08) Europæisk rumadgang** — uafhængighed, opsendelseskapacitet, Ariane-programmets
   næste skridt (lovet som bagsideløfte).
 - **(2026-08) Starmind-opfølgning** — når AI1-prototyperne rent faktisk sendes op (planlagt
