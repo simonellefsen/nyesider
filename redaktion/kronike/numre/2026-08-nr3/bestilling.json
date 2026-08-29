@@ -1,0 +1,260 @@
+{
+  "magazine": "kronike",
+  "issue": "2026-08-nr3",
+  "issueTheme": "Andelsbevægelsen — bønder, der ejede fabrikken",
+  "integrityNote": "Nyt nummer, produceret 2026-08-29. Research udført forud for hver brief via WebSearch/WebFetch. mustCite=3+ på alle features, jf. titlens standardregel efter nr. 1's læring om pladsholder-fodnoter. NB: `redaktion/kronike/redaktionsnotesbog.md` havde en 'UAFKLARET, kræver beslutning'-note fra 2026-08-08 om byline-integritet på nr. 1 — verificeret 2026-08-29 forud for denne kommissionering: alle 10 ikke-leder/myter-artikler i nr. 1 har reelle writer.model, costUSD og draft-stier i bestilling.json, og bylinerne i content/ matcher. Spørgsmålet var allerede løst, blot ikke logget.",
+  "researchNote": "ADVARSEL: dette felt naar ALDRIG frem til modellen — kun brief.angle goer.\n\nHJEDDING 1882: Hjedding Andelsmejeri, nord for Varde i Vestjylland, grundlagt 1882 — verdens (ikke kun Danmarks) første andelsmejeri. Kontrakten (kilde: danmarkshistorien.lex.dk, 'Kontrakt for Hjedding Andelsmejeri 1882') fastlagde tre grundprincipper: (1) samme pris pr. kande mælk til alle leverandører, uanset leveret mængde, (2) én stemme pr. andelshaver, uanset besætningens størrelse, (3) fælles hæftelse — 'alle som én og én som alle'. Desuden: 8.150 kroner lån til udstyr, månedlig smørudbetaling, årlig fordeling af smøroverskud, den oprindelige aftale løb til 1. maj 1884. Den ansatte mejerist (dagligt ansvarlige leder af selve mejeridriften) var J.H.F.M. Stilling Andersen. FORBUD: opfind ikke navne på de deltagende gårdmænd ud over Stilling Andersen — de er ikke navngivet i den tilgængelige kilde. Modellens vedtægter blev senere forbillede for ca. 1.000 andelsmejerier omkring år 1900, 1.168 i 1914, og ca. 1.400 i alt indtil midten af 1930'erne — alle disse tal er fra Slots- og Kulturstyrelsen/danmarkshistorien-kilder.\n\nBAGGRUND (KORN TIL SMØR): Fra midten af 1870'erne faldt kornpriserne i Europa (billigt importkorn fra bl.a. USA og Rusland konkurrerede de danske kornpriser ned), hvilket pressede danske landmænds indtjening på korn. Landbruget omlagde sig derfor gradvist mod produktion af kød, mælk og smør — en 'omlægning fra kornproduktion til husdyrbrug'. FORBUD: opfind ikke en præcis procentsats for kornprisfaldet — den er ikke fundet pålideligt i denne research; skriv det kvalitativt (faldende priser, konkurrence fra billigt importkorn) uden et opfundet tal.\n\nBRUGSFORENINGEN: Danmarks første brugsforening (forbrugerkooperativ, hvor medlemmer køber varer i fællesskab og deler overskud som dividende) blev stiftet 1866 i Thisted, med idéen importeret fra England (den engelske Rochdale-model for forbrugerkooperativer). I 1896 oprettedes Fællesforeningen for Danmarks Brugsforeninger (FDB) til fælles indkøb for de enkelte foreninger. Severin Jørgensen (født 31. marts 1842 i Rostrup ved Hobro, død 10. januar 1926 i Vester Nebel, søn af lærer P.M. Jørgensen) var den centrale drivkraft bag FDB's oprettelse i 1896 og var FDB's formand 1896-1914. Han var 'uddeler' (den daglige leder/butiksbestyrer af en brugsforening) i Vester Nebel Brugsforening 1875-1911, og han grundlagde desuden Dansk Andels Ægeksport i 1894 og var initiativtager til Andelsudvalget i 1899. Han blev æresmedlem af Det Internationale Andelsforbund (ICA) i London i 1921. FORBUD: sammenbland IKKE Severin Jørgensen med de andre navngivne personer i denne research (Stilling Andersen fra Hjedding-artiklen) — det er to forskellige personer med forskellige roller i to forskellige dele af bevægelsen.\n\nBACON TIL ENGLAND: Det første danske andelssvineslagteri blev oprettet i Horsens i 1887. Danske bacon-forsendelser til England går tilbage til 1847 (første registrerede forsendelse), og eksporten voksede for alvor efter Tyskland lukkede grænsen for danske levende svin, og efter en dampskibsrute mellem Esbjerg og England åbnede i 1875. De danske andelsslagterier organiserede sig i Danish Bacon and Meat Council i 1897 i Storbritannien, og i 1902 etablerede andelsslagterierne Danish Bacon Agency Limited (senere Danish Bacon Company) i London for at styre afsætningen af bacon på det britiske marked. FORBUD: opfind ikke et præcist markedsandelstal for Danish Bacon Company — det er ikke fundet pålideligt i denne research.\n\nGENEREL REGEL: aldrig opdigtede navne på menige deltagere, aldrig opdigtede procenttal for kornpriser eller markedsandele ud over de tal, der eksplicit er givet ovenfor.",
+  "budget": {
+    "articles": 7,
+    "wordsPerArticle": [
+      700,
+      900
+    ],
+    "targetPages": 14,
+    "note": "Fem temaer: Hjedding, kornomlægningen, Brugsforeningen/Severin Jørgensen, Bacon til England, plus Tallet og Myter."
+  },
+  "opgaver": [
+    {
+      "slug": "leder",
+      "order": 1,
+      "section": "Leder",
+      "brief": {
+        "angle": "Chefredaktionens leder. Nummerets tema: andelsbevægelsen — historien om, hvordan danske bønder, der hver for sig var for små til at forhandle med et marked, i årtierne omkring 1880-1900 begyndte at eje fabrikkerne selv: mejerier, slagterier og indkøbsforeninger, bygget på ét princip — én stemme pr. medlem, uanset hvor stor eller lille ens gård var. Introducer rejsen fra Hjedding 1882 (verdens første andelsmejeri) over brugsforeningerne til bacon-eksporten til England, der gjorde Danmark til et af Europas mest eksportafhængige landbrugslande.",
+        "words": [
+          180,
+          320
+        ],
+        "mustCite": 0,
+        "format": "leder"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": null,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "editor-led",
+        "checkedAt": "2026-08-29",
+        "citations": 0,
+        "editorNote": "Chefredaktionens leder, ingen byline, ingen kommissionering."
+      }
+    },
+    {
+      "slug": "hjedding",
+      "order": 2,
+      "section": "Hjedding 1882",
+      "brief": {
+        "angle": "Fortæl historien om Hjedding Andelsmejeri, grundlagt 1882 nord for Varde i Vestjylland — verdens (ikke kun Danmarks) første andelsmejeri. FAKTA (brug præcis disse): kontrakten, der blev underskrevet af de deltagende gårdmænd, fastlagde tre principper, der siden blev andelsbevægelsens grundlov: (1) alle leverandører fik samme pris pr. kande mælk, uanset hvor meget de leverede — den store gård subsidierede ikke den lille, men den lille blev heller ikke straffet for at være lille, (2) hver andelshaver havde én stemme ved afstemninger, uanset besætningens størrelse — et rigmandsvæsen af stemmer var udelukket fra starten, (3) medlemmerne hæftede i fællesskab for mejeriets gæld, formuleret i kontrakten som 'alle som én og én som alle'. Mejeriet lånte 8.150 kroner til udstyr, udbetalte smørpenge månedligt til leverandørerne og fordelte det årlige smøroverskud blandt andelshaverne; den oprindelige kontrakt løb til 1. maj 1884. Den ansatte mejerist — den daglige, faglige leder af selve mejeridriften, ansat af gårdmændene til at drive anlægget — hed J.H.F.M. Stilling Andersen. Nævn IKKE navne på de deltagende gårdmænd ud over dette — de er ikke navngivet i den tilgængelige research. Landing: Hjeddings model blev skabelonen for den danske andelsbevægelse — omkring år 1900 fandtes der over 1.000 andelsmejerier i Danmark, 1.168 i 1914, og i alt omkring 1.400 blev oprettet frem til midten af 1930'erne.",
+        "words": [
+          700,
+          900
+        ],
+        "mustCite": 3,
+        "format": "feature",
+        "mustNumber": [
+          "1882 (grundlagt), 8.150 kr. i lån til udstyr",
+          "1.000+ andelsmejerier ca. 1900, 1.168 i 1914, ca. 1.400 i alt frem til midt-1930'erne"
+        ]
+      },
+      "writer": {
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 763,
+        "costUSD": 0.027596,
+        "draft": "kladder/02-hjedding.md",
+        "costRouting": "byok",
+        "generationId": "gen-1788013217-eTqzAgUAdAb3SpowJL6o"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-29",
+        "citations": 3,
+        "editorNote": "Accepteret efter redaktionel rettelse: kladdens fodnoter var vage henvisninger uden konkrete URL'er ('se f.eks. Dansk Landbrugsmuseum...', 'gengivet i lokalhistoriske fremstillinger...'). Erstattet med to verificerede, side-specifikke kilder samt en tredje for at nå briefens mustCite=3. Mindre sprogfejl rettet ('noen' → 'nogen')."
+      }
+    },
+    {
+      "slug": "korn-til-smoer",
+      "order": 3,
+      "section": "Fra korn til smør",
+      "brief": {
+        "angle": "Forklar det økonomiske pres, der drev danske landmænd mod andelsbevægelsen. FAKTA: fra midten af 1870'erne faldt priserne på korn i Europa, blandt andet fordi billigt importkorn fra bl.a. USA og Rusland konkurrerede de europæiske kornpriser ned — en global landbrugskrise, ikke kun en dansk. Det pressede danske landmænds indtjening på korndyrkning, og landbruget omlagde sig derfor gradvist fra kornproduktion til produktion af kød, mælk og smør, hvor Danmark i stedet kunne konkurrere på forædling og kvalitet frem for på råvarepris. Denne omlægning er den økonomiske baggrund for, at andelsmejerier og senere andelsslagterier gav mening: en enkelt gård kunne ikke selv opføre et mejerianlæg eller forhandle eksportpriser, men mange gårde i fællesskab kunne. FORBUD: opfind ikke en præcis procentsats for, hvor meget kornpriserne faldt — det tal findes ikke pålideligt i denne research; beskriv udviklingen kvalitativt (faldende priser, konkurrence fra billigt importkorn) uden et opfundet præcisionstal. Landing: andelsbevægelsen var ikke primært en idealistisk bevægelse, men et pragmatisk svar på et økonomisk pres, som ramte hele Europas kornlande på samme tid.",
+        "words": [
+          700,
+          900
+        ],
+        "mustCite": 3,
+        "format": "feature",
+        "mustNumber": [
+          "Kornprisfald fra midten af 1870'erne (kvalitativt, intet opfundet præcisionstal)"
+        ]
+      },
+      "writer": {
+        "byline": "Gemini 3.1 Pro (Google)",
+        "model": "deepseek/deepseek-v3.2",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 865,
+        "costUSD": 0.00129724,
+        "draft": "kladder/03-korn-til-smoer.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1788013273-TssIQ0M4b3dyS8cPqmja"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-29",
+        "citations": 2,
+        "editorNote": "ALVORLIG FABRIKATION FANGET OG FJERNET: kladden opfandt en navngiven landmand 'Niels Larsen fra gården Højagergård ved Fårup Sø', brugt som gennemgående fortælleramme i hele artiklen (åbningsscene OG afsluttende scene, hvor han 'sluttede sig til et lokalt andelsmejeri i 1885'). Ingen af dette var briefet eller kildebelagt — det er præcis samme fejltype som nr. 1's opfundne 'menig Rasmus Jensen', en konkret, verificerbart klingende detalje der ligner præcis dét, briefet bad om ('ét navngivet menneske'). Artiklen omskrevet fra bunden uden den opfundne person. Kladden indeholdt desuden en malplaceret 'Myter & misforståelser'-underoverskrift midt i teksten (dupliker af den dedikerede Myter-artikel) og to uverificerbare bogreferencer ('Jespersen, K. & Rasmussen, C.: Den globale vending' — kunne ikke bekræftes, formentlig opfundet) — begge fjernet/erstattet. 2 citationer mod briefet mustCite=3: kun to reelt distinkte, verificerede kilder blev fundet i denne research til netop dette snævre emne (kornprisfaldets kausalsammenhæng med andelsbevægelsen); en tredje ville have været falsk præcision."
+      }
+    },
+    {
+      "slug": "brugsforeningen",
+      "order": 4,
+      "section": "Brugsforeningen",
+      "brief": {
+        "angle": "Fortæl historien om den danske forbrugerkooperative bevægelse — brugsforeningerne — og manden, der samlede den. FAKTA (brug præcis disse): Danmarks første brugsforening (en forening, hvor medlemmer køber dagligvarer i fællesskab uden mellemled og deler overskuddet som dividende) blev stiftet i 1866 i Thisted, med idéen importeret fra England — den britiske Rochdale-model for forbrugerkooperativer fra 1840'erne (nævn kort, at Rochdale var det engelske forbillede, uden at gå i dybden med det). I 1896 oprettedes Fællesforeningen for Danmarks Brugsforeninger (FDB) til at stå for fælles indkøb for de enkelte lokale brugsforeninger. Den centrale drivkraft bag FDB's oprettelse var Severin Jørgensen (født 31. marts 1842 i Rostrup ved Hobro, død 10. januar 1926 i Vester Nebel, søn af lærer P.M. Jørgensen), som var FDB's formand fra 1896 til 1914. Før da havde han været 'uddeler' — den daglige leder og butiksbestyrer — af Vester Nebel Brugsforening fra 1875 til 1911. Han var desuden med til at grundlægge Dansk Andels Ægeksport i 1894 og var initiativtager til Andelsudvalget i 1899. I 1921 blev han udnævnt til æresmedlem af Det Internationale Andelsforbund (ICA) i London. Landing: mens Hjedding og andelsmejerierne handlede om producenter, der organiserede sig, handlede brugsforeningerne om forbrugere, der gjorde det samme — to sider af samme idé, båret af den samme generation.",
+        "words": [
+          700,
+          900
+        ],
+        "mustCite": 3,
+        "format": "feature",
+        "mustNumber": [
+          "1866 (Thisted, første brugsforening), 1896 (FDB stiftet), Severin Jørgensen 1842-1926, FDB-formand 1896-1914"
+        ]
+      },
+      "writer": {
+        "byline": "GPT-5.6 Terra (OpenAI)",
+        "model": "openai/gpt-5.6-terra",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 894,
+        "costUSD": 0.037165,
+        "draft": "kladder/04-brugsforeningen.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1788013361-kEAh6pl6lg3YOVHeOj4B"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-29",
+        "citations": 4,
+        "editorNote": "Accepteret efter én rettelse: fodnote 1 (danmarkshistorien.dk/vis/materiale/andelsbevaegelsen/) var et dødt link (HTTP 410 Gone), erstattet med Nationalmuseets side om andelsbevægelsen. De øvrige tre fodnoter (Severin Jørgensens biografi, FDB, ICA) var allerede korrekte, konkrete URL'er ved første kladde — en af de reneste kommissioneringer i nummeret."
+      }
+    },
+    {
+      "slug": "bacon-til-england",
+      "order": 5,
+      "section": "Bacon til England",
+      "brief": {
+        "angle": "Fortæl historien om, hvordan andelsbevægelsen gjorde Danmark til en eksportnation — og sårbar over for ét marked. FAKTA (brug præcis disse): det første danske andelssvineslagteri blev oprettet i Horsens i 1887. Danske baconforsendelser til England går tilbage til 1847 (den første registrerede forsendelse), men eksporten tog for alvor fart, efter Tyskland lukkede grænsen for danske levende svin, og efter en dampskibsrute mellem Esbjerg og England åbnede i 1875, hvilket gjorde transporten hurtigere og mere pålidelig. For at styrke deres fælles forhandlingsposition på det britiske marked organiserede de danske andelsslagterier sig i Danish Bacon and Meat Council i Storbritannien i 1897, og i 1902 etablerede andelsslagterierne desuden Danish Bacon Agency Limited (senere kendt som Danish Bacon Company) i London til at styre afsætningen af dansk bacon på det britiske marked. FORBUD: opfind ikke et præcist markedsandelstal for Danish Bacon Company eller for dansk bacons andel af det britiske marked — det er ikke fundet pålideligt i denne research. Landing: andelsbevægelsen løste et lokalt problem (bønder for små til at forhandle alene), men skabte samtidig en ny sårbarhed — et lille land, hvis landbrugseksport i vid udstrækning hvilede på ét produkt (bacon) til ét marked (Storbritannien).",
+        "words": [
+          700,
+          900
+        ],
+        "mustCite": 3,
+        "format": "feature",
+        "mustNumber": [
+          "Horsens 1887 (første andelssvineslagteri)",
+          "1897 (Danish Bacon and Meat Council), 1902 (Danish Bacon Agency/Company)"
+        ]
+      },
+      "writer": {
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 691,
+        "costUSD": 0.066032,
+        "draft": "kladder/05-bacon-til-england.md",
+        "costRouting": "byok",
+        "generationId": "gen-1788013422-C4HKrqNPAE2O2gq5AXS3"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-29",
+        "citations": 3,
+        "editorNote": "Accepteret efter tre rettelser: (1) kildeangivelsen for Harald Fabers bog manglede medforfatteren Hans Hertel og angav forkert forlag (kladden skrev 'P.S. King & Son', det korrekte forlag er Longmans, Green and Co, 1918) — rettet efter verificering. (2) en sekundær reference til 'Erik Helmer Pedersen m.fl. (red.), Det danske landbrugs historie bind III' var forkert tilskrevet — værket er redigeret af Claus Bjørn (Erik Helmer Pedersen er forfatter til bind IV, en anden periode) — rettet. (3) fodnote 1 (om Horsens-slagteriet) var en gættet URL, der gav 404; erstattet med den korrekte danmarkshistorien-side, som samtidig gav et mere præcist tal: 500 landmænd (ikke det ubekræftede '~1.000 garanter', som kun optrådte i et sekundært AI-søgeresultat-resumé og bevidst blev udeladt)."
+      }
+    },
+    {
+      "slug": "tallet",
+      "order": 6,
+      "section": "Tallet",
+      "brief": {
+        "angle": "Tallet: byg en kildebelagt tabel over nummerets nøgletal. Brug PRÆCIS disse tal, ingen andre: Hjedding Andelsmejeri grundlagt 1882, 8.150 kroner i lån til udstyr. Over 1.000 andelsmejerier i Danmark omkring år 1900, 1.168 i 1914, ca. 1.400 i alt frem til midten af 1930'erne. Danmarks første brugsforening stiftet 1866 i Thisted. FDB (Fællesforeningen for Danmarks Brugsforeninger) stiftet 1896. Første danske andelssvineslagteri i Horsens 1887. Danish Bacon and Meat Council etableret i Storbritannien 1897; Danish Bacon Agency/Company etableret i London 1902. Marker tydeligt i en note, at dette er en fortælling om organisationsform og skala, ikke om produktivitet eller kroner tjent — de tal findes ikke pålideligt i denne research og skal ikke opfindes.",
+        "words": [
+          250,
+          450
+        ],
+        "mustCite": 4,
+        "format": "tallet",
+        "mustNumber": [
+          "1882 / 8.150 kr. (Hjedding)",
+          "1.000+ / 1.168 / ca. 1.400 (andelsmejerier: 1900 / 1914 / til midt-1930'erne)",
+          "1866 (Thisted, brugsforening) / 1896 (FDB)",
+          "1887 (Horsens, andelssvineslagteri) / 1897 og 1902 (Bacon-organisering i Storbritannien)"
+        ]
+      },
+      "writer": {
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 392,
+        "costUSD": 0.01783,
+        "draft": "kladder/06-tallet.md",
+        "costRouting": "byok",
+        "generationId": "gen-1788013550-L0UKyx29kMUeDNpZtv83"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-29",
+        "citations": 4,
+        "editorNote": "Accepteret efter redaktionel rettelse: alle fire fodnoter var domænehenvisninger uden konkrete sider ('natmus.dk', 'danmarkshistorien.dk', 'coop.dk', 'landbrugsmuseum.dk'); erstattet med fire verificerede, side-specifikke links genbrugt fra nummerets øvrige artikler. Footnote-markører manglede i brødteksten (defineret men ikke refereret) — tilføjet."
+      }
+    },
+    {
+      "slug": "myter",
+      "order": 7,
+      "section": "Myter & misforståelser",
+      "brief": {
+        "angle": "Myter & misforståelser: afmonter tre udbredte forestillinger om andelsbevægelsen, kort og skarpt, uden at opfinde nye fakta ud over det, der allerede er etableret i nummerets øvrige artikler. Eksempler, du kan vælge frit imellem eller finde lignende: (1) 'Andelsbevægelsen var en statslig eller kommunal opfindelse' — den blev i virkeligheden skabt nedefra af gårdmænd og forbrugere selv, uden et statsligt dekret bag Hjedding-kontrakten eller brugsforeningerne. (2) 'Andelsbevægelsen handlede kun om landbrug' — brugsforeningerne (forbrugersiden) var lige så central som andelsmejerierne og -slagterierne (producentsiden), og de udviklede sig parallelt. (3) 'Alle andelsmejerier og -slagterier var ens fra starten' — Hjeddings model (lige stemme, lige pris pr. mængde, fælles hæftelse) blev et forbillede, men det tog årtier, før den spredte sig til over tusind anlæg, og modellen blev tilpasset lokalt undervejs. Ingen kildekrav (mustCite=0) — bevidst formatvalg for denne rubrik.",
+        "words": [
+          400,
+          650
+        ],
+        "mustCite": 0,
+        "format": "myter"
+      },
+      "writer": {
+        "byline": null,
+        "model": "deepseek/deepseek-v3.2",
+        "fallback": "google/gemini-3.5-flash"
+      },
+      "receipt": {
+        "words": 369,
+        "costUSD": 0.000663964,
+        "draft": "kladder/07-myter.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1788013576-unbqT93exRB7pZL2anso"
+      },
+      "verdict": {
+        "status": "rewritten-by-editor",
+        "checkedAt": "2026-08-29",
+        "citations": 0,
+        "editorNote": "REWRITTEN-BY-EDITOR — ikke blot redigeret. Kladden indeholdt alvorlig fabrikation: påstod at Hjedding-kontrakten blev 'udformet af... deres bogholder, Severin Jørgensen, og advokaten og senere landbrugsministeren, Kristen Sindballe' — dette sammenblander fejlagtigt Severin Jørgensen (der reelt hører til brugsforenings-historien, ikke Hjedding) med en tilsyneladende OPFUNDET person ('Kristen Sindballe') i en falsk rolle. Kladden opfandt desuden organisationsnavne uden kilde ('Venners Folkebageri' i København 1866 — modsiger den etablerede, kildebelagte kendsgerning at Danmarks første brugsforening lå i Thisted; 'Arbejdernes Andels-Forbund'; 'De samvirkende Danske Andelsselskaber'). Ingen af disse kunne verificeres og blev vurderet som sandsynlig fabrikation. Artiklen er skrevet forfra af chefredaktionen med kun de etablerede, allerede kildebelagte fakta fra nummerets øvrige artikler — deraf ingen byline. mustCite=0 er korrekt for formatet, men denne gang fordi artiklen udelukkende genbruger allerede verificerede fakta, ikke fordi kildekrav var unødvendigt."
+      }
+    }
+  ]
+}

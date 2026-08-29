@@ -96,17 +96,87 @@ korrekte. Ingen opfundne detaljer denne gang — men se `bajer`/`valget-1918`-no
 model kan finde korrekte navne og stadig formulere en unøjagtig sammenligning, hvis briefen ikke
 eksplicit forbyder den.
 
-## Nr. 3 — kandidater
+## Nr. 3 — udgivet 2026-08-29
+
+**Tema:** Andelsbevægelsen — bønder, der ejede fabrikken
+**Slug:** `2026-08-nr3`
+7 artikler, **2.741 ord**. Fem artikler reelt kommissioneret på `.env.kronike`; lederen er
+chefredaktionens uden byline; myter-artiklen er `status: rewritten-by-editor` (se nedenfor) og
+har derfor heller ingen byline. Samlet forbrug **0,1506 USD**. `check_issue.py`: **0 fejl, 1
+advarsel** (korn-til-smoer: 2 citationer mod briefet mustCite=3 — korrekt, kun to reelt
+distinkte kilder findes til det snævre emne). `check_links.py`: **0 døde links.**
+`bestilling.json`: `redaktion/kronike/numre/2026-08-nr3/bestilling.json`.
+
+Verificeret forud for produktion: notesbogens egen "UAFKLARET, kræver beslutning"-note fra
+2026-08-08 om byline-integritet på nr. 1 viste sig allerede løst — alle 10 ikke-leder/myter-
+artikler i nr. 1 har reelle `writer.model`, `costUSD` og draft-stier, og content/-bylinerne
+matcher. Spørgsmålet var bare aldrig logget som lukket.
+
+### Kernetal
+
+- **Hjedding 1882:** verdens første andelsmejeri, nord for Varde. Kontrakten: samme pris pr.
+  kande mælk uanset mængde, én stemme pr. andelshaver, fælles hæftelse ("alle som én og én
+  som alle"), 8.150 kr. lån til udstyr. Ansat mejerist: J.H.F.M. Stilling Andersen.
+- **Spredning:** over 1.000 andelsmejerier i Danmark ca. 1900, 1.168 i 1914, ca. 1.400 i alt
+  frem til midt-1930'erne.
+- **Brugsforeningen:** Thisted 1866 (Danmarks første), FDB stiftet 1896. Severin Jørgensen
+  (1842-1926), FDB-formand 1896-1914, uddeler i Vester Nebel Brugsforening 1875-1911.
+- **Bacon til England:** Horsens-slagteriet 1887 (500 landmænd), Danish Bacon and Meat
+  Council 1897, Danish Bacon Agency/Company (London) 1902.
+
+### En alvorlig fabrikation fanget i faktatjekket — og en artikel omskrevet fra bunden
+
+**`korn-til-smoer`-kladden opfandt en navngiven landmand**, "Niels Larsen fra gården
+Højagergård ved Fårup Sø", brugt som fortælleramme gennem hele artiklen — åbningsscene og
+afsluttende scene. Intet af dette var briefet eller kildebelagt. **Samme fejltype som nr. 1's
+"menig Rasmus Jensen"** (se læringen nedenfor): en konkret, verificerbart klingende detalje,
+der ligner præcis dét, briefet efterspurgte ("ét navngivet menneske"), men som ikke findes.
+Fjernet og omskrevet uden opfundet person.
+
+**`myter`-kladden var værre.** Den påstod, at Hjedding-kontrakten blev "udformet af ...
+bogholder[en] Severin Jørgensen og advokaten og senere landbrugsministeren, Kristen
+Sindballe" — en sammenblanding af en reel person (Severin Jørgensen, der reelt hører til
+brugsforenings-historien, ikke Hjedding) i en falsk rolle, plus en tilsyneladende **helt
+opfundet person** ("Kristen Sindballe"). Kladden opfandt desuden organisationsnavne uden
+kilde — "Venners Folkebageri" i København 1866 (modsiger den kildebelagte kendsgerning, at
+Danmarks første brugsforening lå i Thisted), "Arbejdernes Andels-Forbund", "De samvirkende
+Danske Andelsselskaber". Ingen af disse kunne verificeres. Artiklen blev skrevet forfra af
+chefredaktionen — status `rewritten-by-editor`, ingen byline, samme princip som DOSIS' Tallet
+nr. 2 og KRAFTENs Sverige-atomkraft-artikel.
+
+**Lærdom, gentaget fra nr. 1:** et brief, der beder om "ét navngivet menneske" eller kører
+uden strenge kildekrav (mustCite=0 til Myter), er sårbart over for netop denne fejltype — en
+model, der ikke kan finde en reel person/kilde, opfinder ofte en i stedet for at lade
+pladsen stå tom. Overvej fremover et eksplicit forbud mod at opfinde navngivne personer i
+selve briefen for hver artikel, der beder om et "menneske" eller en "scene", ikke kun i
+hovedartiklens brief.
+
+### Tre mindre rettelser
+
+- **Harald Fabers bog** manglede medforfatteren Hans Hertel og angav forkert forlag (kladden:
+  "P.S. King & Son"; korrekt: Longmans, Green and Co, 1918).
+- **Fejltilskrevet redaktør:** en kladde tilskrev *Det danske landbrugs historie* bind III til
+  "Erik Helmer Pedersen m.fl. (red.)" — værket er redigeret af Claus Bjørn; Erik Helmer
+  Pedersen er forfatter til bind IV (en anden periode). Samme fejl optrådte uafhængigt i to
+  forskellige kladder — reproducerbar, ikke tilfældig, samme mønster som DOSIS' DOI-læring.
+- **Gættet URL, dødt link:** `danmarkshistorien.dk/vis/materiale/andelsbevaegelsen/` gav
+  HTTP 410 (Gone); erstattet med Nationalmuseets side om andelsbevægelsen.
+
+## Nr. 4 — kandidater
 
 - **(2026-08) Kalmarunionen i dybden — Norge/Sverige-vinkler**  
 - **(2026-08) Christian 4. og stormagtstiden**  
 - **(2026-08) Slesvig-Holsten før 1864**  
-- **(2026-08) Andelsbevægelsen**  
 - **(2026-08) Besættelsen 1940–45 (uden at æde hele nummeret)**  
 - **(2026-08) Inge Lehmann / Niels Bohr — videnskabsbiografier**
 
 ## Log
 
+- **2026-08-29:** Nr. 3 udgivet — "Andelsbevægelsen: bønder, der ejede fabrikken". Alvorlig
+  fabrikation fanget og fjernet i to kladder (en opfundet landmand i korn-til-smoer, en
+  opfundet person og opfundne organisationsnavne i myter — sidstnævnte omskrevet fra bunden,
+  ingen byline). Samme dag: verificerede at nr. 1's "UAFKLARET"-byline-spørgsmål fra
+  2026-08-08 allerede var løst. Se læringen ovenfor.
 - **2026-08-19:** Nr. 2 udgivet — "Kvinders valgret — fire aartier, fem aarstal". Se læringen
   ovenfor: myte-praecision skal ind i hver brief, der naevner emnet, ikke kun hovedartiklens.
 - **2026-08-08 (dybde):** Nr. 1 — reformation (404→**849** ord) og 1864 (383→**743** ord) reelt kommissioneret hos `anthropic/claude-opus-4.8` og `anthropic/claude-sonnet-5` med briefs på 700–900 ord og `mustCite: 3`. Ordmålet i `## Format` hævet til 700–900 for features. Begge kladder krævede tung fact-check — se `bestilling.json` for verdikterne.
