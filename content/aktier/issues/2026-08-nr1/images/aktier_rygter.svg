@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#0D1B2A"/>
+  
+  <!-- Three myth crosses -->
+  <g transform="translate(100, 100)">
+    <!-- Myth 1 -->
+    <g transform="translate(0, 0)">
+      <circle cx="50" cy="50" r="45" fill="none" stroke="#C9A227" stroke-width="2"/>
+      <line x1="20" y1="20" x2="80" y2="80" stroke="#C9A227" stroke-width="3"/>
+      <line x1="80" y1="20" x2="20" y2="80" stroke="#C9A227" stroke-width="3"/>
+      <text x="50" y="130" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#fff">Myte 1</text>
+      <text x="50" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#888">"Lav P/E</text>
+      <text x="50" y="165" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#888">= altid køb"</text>
+    </g>
+    
+    <!-- Myth 2 -->
+    <g transform="translate(200, 0)">
+      <circle cx="50" cy="50" r="45" fill="none" stroke="#C9A227" stroke-width="2"/>
+      <line x1="20" y1="20" x2="80" y2="80" stroke="#C9A227" stroke-width="3"/>
+      <line x1="80" y1="20" x2="20" y2="80" stroke="#C9A227" stroke-width="3"/>
+      <text x="50" y="130" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#fff">Myte 2</text>
+      <text x="50" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#888">"Udbytte</text>
+      <text x="50" y="165" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#888">beskytter"</text>
+    </g>
+    
+    <!-- Myth 3 -->
+    <g transform="translate(400, 0)">
+      <circle cx="50" cy="50" r="45" fill="none" stroke="#C9A227" stroke-width="2"/>
+      <line x1="20" y1="20" x2="80" y2="80" stroke="#C9A227" stroke-width="3"/>
+      <line x1="80" y1="20" x2="20" y2="80" stroke="#C9A227" stroke-width="3"/>
+      <text x="50" y="130" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#fff">Myte 3</text>
+      <text x="50" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#888">"Kan ikke</text>
+      <text x="50" y="165" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#888">falde mere"</text>
+    </g>
+  </g>
+  
+  <!-- Rejected names grid -->
+  <g transform="translate(100, 310)">
+    <text x="0" y="0" font-family="Georgia, serif" font-size="18" fill="#fff">Navne vi lod ligge</text>
+    
+    <g font-family="monospace" font-size="12" fill="#888">
+      <text x="0" y="35">NKE</text>
+      <text x="70" y="35">DKS</text>
+      <text x="140" y="35">ORSTED</text>
+      <text x="230" y="35">VWS</text>
+      <text x="300" y="35">STLA</text>
+      <text x="370" y="35">KER</text>
+      <text x="430" y="35">LVMH</text>
+      <text x="510" y="35">EQNR</text>
+      <text x="580" y="35">COLO-B</text>
+    </g>
+    
+    <text x="0" y="70" font-family="Arial, sans-serif" font-size="11" fill="#40826D">Enten ikke faldet nok  eller faldet med god grund</text>
+  </g>
+  
+  <!-- Title -->
+  <text x="400" y="50" text-anchor="middle" font-family="Georgia, serif" font-size="28" fill="#C9A227">Rygtebørsen</text>
+  <text x="400" y="75" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#888">Tre myter · Ti afviste navne</text>
+  
+  <text x="400" y="475" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#666">Redaktionelt diagram · Nye Sider</text>
+</svg>

@@ -1,0 +1,23 @@
+{
+  "slug": "aktier",
+  "name": "Aktier med Grok",
+  "tagline": "Magasinet om aktier der er faldet for langt, ser for billige ud, og har et argument for de næste 3–6 måneder",
+  "language": "da",
+  "audience": "Danske læsere der vil have konkrete, kildedækkede købskandidater på NYSE, Nasdaq, Euronext, København, Stockholm og Oslo — ikke gururåd",
+  "sections": [
+    "Leder",
+    "Markedet",
+    "Kandidaten",
+    "Porteføljen",
+    "ETF'erne",
+    "Tallet",
+    "Rygtebørsen"
+  ],
+  "theme": {
+    "colors": {
+      "primary": "#0D1B2A",
+      "accent": "#C9A227",
+      "highlight": "#40826D"
+    }
+  }
+}

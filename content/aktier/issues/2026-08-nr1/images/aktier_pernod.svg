@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#0D1B2A"/>
+  
+  <!-- Dividend yield visual -->
+  <g transform="translate(100, 100)">
+    <!-- Central yield circle -->
+    <circle cx="200" cy="150" r="100" fill="none" stroke="#C9A227" stroke-width="4"/>
+    <circle cx="200" cy="150" r="80" fill="none" stroke="#C9A227" stroke-width="2" opacity="0.5"/>
+    
+    <!-- Yield percentage -->
+    <text x="200" y="140" text-anchor="middle" font-family="Georgia, serif" font-size="48" fill="#C9A227" font-weight="bold">7,3</text>
+    <text x="200" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#C9A227">% udbytte</text>
+    
+    <!-- Warning: payout -->
+    <text x="200" y="280" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#888">Payout 84 % vs ~50 % politik</text>
+  </g>
+  
+  <!-- Price chart on right -->
+  <g transform="translate(400, 120)">
+    <line x1="0" y1="200" x2="300" y2="200" stroke="#1a2d42" stroke-width="1"/>
+    <path d="M0 30 L80 0 L160 100 L240 150 L300 145" 
+          stroke="#40826D" stroke-width="2" fill="none"/>
+    <circle cx="300" cy="145" r="6" fill="#40826D"/>
+    <text x="310" y="150" font-family="monospace" font-size="11" fill="#40826D">¬63,20</text>
+    <text x="310" y="165" font-family="monospace" font-size="10" fill="#888">37,1 %</text>
+  </g>
+  
+  <!-- Ticker badge -->
+  <rect x="50" y="40" width="100" height="45" fill="#40826D" rx="4"/>
+  <text x="100" y="70" text-anchor="middle" font-family="monospace" font-size="22" font-weight="bold" fill="#fff">RI.PA</text>
+  
+  <!-- Sales decline boxes -->
+  <g transform="translate(550, 320)" font-family="Arial, sans-serif">
+    <rect x="0" y="0" width="80" height="60" fill="#1a2d42" rx="4"/>
+    <text x="40" y="20" text-anchor="middle" font-size="11" fill="#888">US</text>
+    <text x="40" y="45" text-anchor="middle" font-size="18" fill="#C9A227" font-weight="bold">14 %</text>
+    
+    <rect x="95" y="0" width="80" height="60" fill="#1a2d42" rx="4"/>
+    <text x="135" y="20" text-anchor="middle" font-size="11" fill="#888">Kina</text>
+    <text x="135" y="45" text-anchor="middle" font-size="18" fill="#C9A227" font-weight="bold">19 %</text>
+  </g>
+  
+  <!-- Sleeve badge -->
+  <rect x="680" y="440" width="70" height="25" fill="#C9A227" rx="3"/>
+  <text x="715" y="458" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#0D1B2A">YIELD</text>
+  
+  <text x="400" y="475" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#666">Redaktionelt diagram · Nye Sider · FY26 salgstal</text>
+</svg>
