@@ -22,6 +22,7 @@ import argparse
 import json
 import re
 import sys
+import threading
 import time
 import urllib.error
 import urllib.request
@@ -32,7 +33,37 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 CONTENT = REPO_ROOT / "content"
 CACHE_FILE = REPO_ROOT / ".linkcache.json"
 CACHE_TTL = 7 * 24 * 3600
-UA = "Mozilla/5.0 (compatible; NyeSider-linkcheck/1.0; +editorial link validation)"
+# A self-identifying UA ("...linkcheck/1.0...") is exactly what bot-detection
+# on sites like Tesla, Mercedes-Benz and Uber filters on — it doesn't matter
+# that the request is otherwise well-behaved. Presenting as an ordinary
+# desktop browser, with the header set a browser actually sends, is what gets
+# a real answer instead of a reflexive 403.
+UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+      "(KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36")
+REQUEST_HEADERS = {
+    "User-Agent": UA,
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    "Accept-Language": "da-DK,da;q=0.9,en-US;q=0.8,en;q=0.7",
+}
+
+# Per-host pacing: several links in one issue often share a domain (e.g. three
+# sst.dk citations), and firing them all at once from an 8-worker pool is what
+# trips a host's own rate limiter (429) — a problem this script creates, not
+# one the host has. Serializing requests to the same host with a minimum gap
+# fixes that without slowing down the (common) case of many different hosts.
+MIN_HOST_INTERVAL = 1.5
+_host_lock = threading.Lock()
+_host_next_slot: dict[str, float] = {}
+
+
+def _throttle(host: str) -> None:
+    with _host_lock:
+        now = time.time()
+        slot = max(now, _host_next_slot.get(host, 0.0))
+        _host_next_slot[host] = slot + MIN_HOST_INTERVAL
+    wait = slot - now
+    if wait > 0:
+        time.sleep(wait)
 
 # Markdown inline links first — the URL inside (...) is delimited, so URLs that
 # themselves contain parentheses (very common for Wikimedia file names) survive
@@ -66,11 +97,12 @@ def check(url: str) -> tuple[str, int, str]:
     host = urllib.parse.urlparse(url).netloc.lower().removeprefix("www.")
     if host in SKIP_HOSTS:
         return url, 0, "skipped (blocks bots)"
-    req = urllib.request.Request(url, headers={"User-Agent": UA}, method="GET")
+    req = urllib.request.Request(url, headers=REQUEST_HEADERS, method="GET")
     last = ""
     # Transient resets are common when several requests hit one host at once;
     # a genuine 404 never becomes a 200 on retry, so this only filters noise.
     for attempt in range(4):
+        _throttle(host)
         try:
             with urllib.request.urlopen(req, timeout=30) as r:
                 return url, r.status, ""
