@@ -94,16 +94,60 @@ bladets egen historik usand bagud. Tjek altid `backCoverPromise` mod det, næste
 standfirst med kolon i. Uden tjekket ville det først være dukket op som en prerender-fejl til sidst
 i en fuld build.
 
-## Løfter givet i nr. 3
+## Nr. 4 — udgivet 2026-08-29
 
-- **Bagsiden:** flere agenter, mere ansvar (`backCoverPromise`).
+**Tema:** Flere agenter, mere ansvar (indfrier nr. 3's bagsideløfte).
+**9 artikler, 4.699 ord.** Otte artikler reelt kommissioneret på `.env.gnisten`; lederen er
+redaktionens uden byline. Samlet forbrug **0,3387 USD** (inklusive et afvist første forsøg, se
+nedenfor). `check_issue.py`: **0 fejl, 0 advarsler.** `check_links.py`: **0 døde links.**
+`bestilling.json`: `redaktion/gnisten/numre/2026-08-nr4/bestilling.json`.
 
-## Historier i støbeskeen til nr. 4+
+Brugt fra idébanken: **Sikkerhed for MCP** og **Agent niveau 2**, begge som selvstændige
+Værkstedet-artikler. En ekstra Fokus-artikel om xAI's Grok Bot blev tilføjet midt i produktionen
+efter ejerens eksplicitte ønske — den passede direkte ind i temaet (en "altid-på"-agent uden
+endnu fastsat udgiftsgrænse er selve pointen med "mere ansvar").
 
-- **(2026-08) Sikkerhed for MCP** — dybere end nr. 2's advarsel; tillid og tilladelser.  
+### Læring: en model, der nægter at gætte en kilde, gør det rigtige
+
+`fokus-ansvar`s første kommissioneringsforsøg endte ikke med en kladde, men med en model
+(Opus 4.8), der **afviste at skrive artiklen** — den kunne ikke bekræfte v2.1.200-ændringen i
+Claude Code eller NSA's MCP-vejledning ud fra egen viden og ville ikke opdigte fodnoter til dem.
+Det er præcis den opførsel, redaktionens regler beder om ("opdigt aldrig en kilde"), men den
+efterlod redaktionen med et problem: research forud for briefen var reel (websøgning bekræftede
+begge begivenheder), men modellen har ikke adgang til den research — kun `brief.angle`.
+**Løsning, der bør gentages fremover:** når en brief refererer til begivenheder nyere end
+modellens træningsdata, skal de faktiske, verificerede URL'er skrives direkte ind i
+`brief.angle` som en eksplicit kildeliste — ikke kun beskrives som fakta, modellen selv skal
+huske eller gætte kilder til. Efter denne rettelse lykkedes genkommissioneringen på første
+forsøg, med korrekte fodnoter. Regningen for det afviste forsøg (0,033515 USD) er talt med i
+`receipt.costUSD`, fordi det var et reelt, betalt API-kald — ikke slettet fra kvitteringen.
+
+### To reelle research-fangster
+
+- **OpenClaw (1,3 mio. USD/30 dage) og DN42 (6.531,30 USD)** er begge dokumenterede, virkelige
+  hændelser fra 2026 med navngivne kilder (Tom's Hardware, Lantian.pub) — ikke hypotetiske
+  eksempler. Verificeret eksternt før kommissionering, og alle tal (603 mia. tokens, 70{NB}%
+  besparelse ved at slå "Fast Mode" fra, 1.894 USD efter AWS' forhandling) holdt stik.
+- `sladder`-kladden skrev "risikoen er 100{NB}%" om en ubegrundet statistik — rettet til en
+  kvalitativ formulering, da mustCite er 0 for bagsnittet, og et præcist procenttal ville kræve
+  en kilde, briefen ikke leverede.
+
+## Løfter givet i nr. 4
+
+- **Bagsiden:** cloud-planer og prismodeller — hvad giver mening, når du bare vil i gang.
+
+## Historier i støbeskeen til nr. 5+
+
+- ~~Sikkerhed for MCP~~ → **brugt i nr. 4** (2026-08-29).
+- ~~Agent niveau 2~~ → **brugt i nr. 4** (2026-08-29).
 - **(2026-08) Læserindsendte prompts** — saml, hvis der kommer svar.  
-- **(2026-08) Agent niveau 2** — smal mappe + én tool, stadig med menneske-stop.  
-- **(2026-08) Sammenligningstabel** cloud-planer uden at love faste priser (link til leverandør).
+- **(2026-08) Sammenligningstabel** cloud-planer uden at love faste priser (link til leverandør) — lovet som bagsideløfte til nr. 5.
+- **(2026-08-29) Gratis at komme i gang: GitHub, Vercel, Supabase** — ejerens forslag. En praktisk
+  guide til de gratis niveauer (free tiers) af tre udbredte udviklerværktøjer, skrevet til en
+  laeser uden programmeringsbaggrund. Husk GNISTENs egen faldgrube fra nr. 2: Vercels gratis
+  Hobby-plan må ifølge Vercels egen dokumentation kun bruges til ikke-kommercielle, personlige
+  formål — samme type vilkårsdetalje skal tjekkes for GitHub og Supabase, ikke antages ens på
+  tværs af de tre. Ikke planlagt til et specifikt nummer endnu.
 
 ## Praktisk
 

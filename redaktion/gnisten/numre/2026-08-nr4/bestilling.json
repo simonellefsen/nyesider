@@ -1,0 +1,328 @@
+{
+  "magazine": "gnisten",
+  "issue": "2026-08-nr4",
+  "issueTheme": "Flere agenter, mere ansvar",
+  "integrityNote": "Nyt nummer, produceret 2026-08-29. Research forud for hver brief, paa .env.gnisten. mustCite sat efter research var laest. Indfrier nr. 3's bagsideloefte.",
+  "budget": {
+    "articles": 9,
+    "wordsPerArticle": [
+      350,
+      750
+    ],
+    "targetPages": 12,
+    "note": "Samme faste formater som nr. 3: Kortet, Fokus, to Vaerkstedet, Maanedens prompt, Regningen, Sladder. Grok Bot (xAI, annonceret 11. august 2026) tilføjet som ekstra Fokus-artikel efter ejerens ønske — direkte on-theme: en 'altid-på'-agent uden endnu fastsat udgiftsgrænse."
+  },
+  "researchNote": "ADVARSEL: dette felt naar ALDRIG frem til modellen — kun brief.angle goer. Kontrolleret 2026-08-29.\nTema (indfrier nr. 3's bagsideloefte): flere agenter, mere ansvar.\n\n1) CLAUDE CODE SKIFTER STANDARD TIL MENNESKE-GODKENDELSE (juli 2026). Version 2.1.200 aendrede\nstandardopfoersel: hvor autonome handlinger tidligere kunne koere uden bekraeftelse, kraever\nstandardtilstanden nu eksplicit menneskelig godkendelse for foelsomme operationer (skrivning,\nbash-kommandoer), og \"auto\"-tilstand (fuld autonomi) kraever eksplicit fravalg/opt-in. Aendringen\ner eksplicit begrundet med OWASP's LLM Top 10-anbefaling om menneske-i-loekken-kontrolpunkter for\nkonsekvente agent-handlinger. Kilde: techtimes.com, 7. juli 2026.\n\n2) NSA/CISA UDGIVER SIKKERHEDSVEJLEDNING OM MCP (maj 2026). USA's National Security Agency (NSA,\nden amerikanske efterretningstjeneste for signalefterretning og cybersikkerhed) udgav i maj 2026\nen formel sikkerhedsvejledning om Model Context Protocol (MCP, standarden der lader AI-assistenter\ntilgaa vaerktoejer og data). Kernepointe: MCP-protokollen selv haandhaever IKKE sikkerhed —\nspecifikationen standardiserer, hvordan modeller opdager og kalder vaerktoejer, men overlader\nautentificering, autorisation og transportsikkerhed til den, der implementerer hver enkelt\nserver. Hver MCP-server er en ny tillidsgraense.\n\n3) MCP-SERVERE ER UDBREDTE, OG DE FLESTE HAR SVAG ADGANGSKONTROL. Ifoelge sikkerhedsfirmaet Wiz\nfandtes MCP-servere i mindst 80% af observerede cloud-miljoeer i starten af 2026, og 5% af disse\nmiljoeer koerte mindst én internetvendt MCP-server. Manglende granulaer autorisation betoed, at\nkompromitterede vaerktoejer kunne laese foelsomt indhold fra private repositories og skrive/\npublicere det til offentlige repositories uden brugerens eksplicitte viden. Anbefalingen: en\nMCP-server og den agent, der bruger den, boer have de smalleste tilladelser, opgaven tillader.\n\n4) DEN OFFICIELLE CLAUDE CODE-DOKUMENTATION VISER PRAECIS, HVORDAN MAN GIVER ÉT VAeRKTOEJ. Officiel\ndokumentation (code.claude.com/docs/en/permissions) beskriver tilladelsesreglerne allow/deny/ask\nog syntaksen for at give adgang til ét specifikt MCP-vaerktoej i stedet for en hel server — fx\n`mcp__servernavn__soeg`, hvis en MCP-server har flere vaerktoejer, men man kun vil give adgang til\nét af dem. Reglerne evalueres i raekkefoelgen deny -> ask -> allow, foerste match vinder.\n\n5) TO VIRKELIGE, DOKUMENTEREDE EKSEMPLER PAA \"AGENT UDEN BREMSE\": (a) Peter Steinberger, skaberen\naf open source-projektet OpenClaw, brugte i maj 2026 over 1,3 millioner USD i OpenAI-API-tokens\npaa 30 dage ved at koere ca. 100 kodningsagenter parallelt (603 milliarder tokens, 7,6 millioner\nforespoergsler). Steinberger praeciserede selv, at \"Fast Mode\"-indstillingen alene stod for\nstoerstedelen af regningen, og at deaktivering af den alene ville have reduceret prisen med\nomkring 70%. OpenAI daekkede selv regningen som en del af hans ansaettelse dér. (b) Den 12. juni\n2026 fik en operatoer en regning paa 6.531,30 USD fra AWS, fordi en autonom agent — givet fuld\nAWS-adgang og bedt om at scanne det hobbyist-drevne netvaerk DN42 — selv besluttede, at opgaven\nkraevede fem store cloud-instanser plus loadbalancere, og derefter gentagne gange genanvendte sin\negen CloudFormation-skabelon, hver gang den stoedte paa en fejl, saa den dublerede sine egne\nressourcer. AWS forhandlede regningen ned til 1.894 USD, efter operatoeren forklarede fejlen.\nFael­les­skabet vurderede, at opgaven kunne vaere loest paa en VPS til 5 USD/maaned.\n\nSTRENGT FORBUDT (ingen kilde her): opfundne konkrete kronebeloeb for danske brugeres AI-regninger,\nen paastand om at MCP nu ER sikkert som standard (det ER det ikke — protokollen paalaegger stadig\nimplementoeren ansvaret), og enhver antydning af at OpenClaw- eller DN42-historierne er hypotetiske\n— begge er dokumenterede haendelser med navngivne kilder. mustCite: 2+ for Kortet, Fokus, begge\nVaerkstedet-artikler og Regningen. 0 for Maanedens prompt og Sladder.",
+  "opgaver": [
+    {
+      "slug": "leder",
+      "order": 1,
+      "section": "Leder",
+      "brief": {
+        "angle": "Chefredaktionens leder. Indfrier nr. 3's bagsideloefte: 'flere agenter, mere ansvar'. Introducer nummerets greb: efterhaanden som agenter faar adgang til flere vaerktoejer (MCP-servere, filsystem, cloud), stiger ogsaa skadespotentialet, hvis noget gaar galt — og industrien selv bevaeger sig mod flere menneske-i-loekken-standardindstillinger, ikke faerre. Naevn kort, at nummeret baade viser den store industrielle bevaegelse (Fokus), det konkrete haandvaerk (begge Vaerkstedet-artikler) og to virkelige, dyre eksempler paa hvad der sker, naar bremsen mangler (Regningen).",
+        "words": [
+          180,
+          320
+        ],
+        "mustCite": 0,
+        "format": "leder"
+      },
+      "writer": {
+        "byline": null,
+        "model": "TBD",
+        "fallback": "anthropic/claude-sonnet-5"
+      },
+      "receipt": {
+        "words": null,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "editor-led",
+        "checkedAt": "2026-08-29",
+        "citations": 0,
+        "editorNote": "Chefredaktionens leder, ingen byline, ingen kommissionering."
+      }
+    },
+    {
+      "slug": "kortet",
+      "order": 2,
+      "section": "Kortet",
+      "brief": {
+        "angle": "Kortet: tre korte, aktuelle spor lige nu, alle med konkret kilde. (1) Claude Code skiftede i juli 2026 (version 2.1.200) sin standardopfoersel, saa foelsomme handlinger (skrivning, bash-kommandoer) nu som udgangspunkt kraever menneskelig godkendelse — fuld autonomi ('auto'-tilstand) kraever nu et eksplicit fravalg, ikke omvendt. Aendringen er eksplicit begrundet i OWASP's LLM Top 10-anbefaling om menneske-i-loekken for konsekvente agent-handlinger. (2) USA's sikkerheds- og efterretningsmyndighed NSA (National Security Agency) udgav i maj 2026 en formel sikkerhedsvejledning om MCP (Model Context Protocol) — protokollen, der lader AI-assistenter tilgaa vaerktoejer og data. Kernepointen: protokollen selv haandhaever ikke sikkerhed, det goer implementeringen. (3) Ifoelge sikkerhedsfirmaet Wiz koerte MCP-servere i mindst 80% af observerede cloud-miljoeer primo 2026, og 5% af dem havde mindst én internetvendt server — et tal, der viser, hvor hurtigt MCP er blevet allestedsnaervaerende, foer sikkerhedspraksis fulgte med.",
+        "words": [
+          400,
+          600
+        ],
+        "mustCite": 3,
+        "format": "feature",
+        "mustNumber": [
+          "juli 2026: Claude Code v2.1.200 standardaendring",
+          "maj 2026: NSA's MCP-sikkerhedsvejledning",
+          "80% af cloud-miljøer har MCP-servere (Wiz)"
+        ]
+      },
+      "writer": {
+        "byline": null,
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "anthropic/claude-sonnet-5"
+      },
+      "receipt": {
+        "words": 418,
+        "costUSD": 0.04008,
+        "draft": "kladder/02-kortet.md",
+        "costRouting": "byok",
+        "generationId": "gen-1787990053-IyDz8vhdJ3EfAOTvGCto"
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-08-29",
+        "citations": 3,
+        "editorNote": "Kladden citerede kun bare domænenavne (docs.claude.com, nsa.gov, wiz.io/blog). Erstattet med tre konkrete, verificerede sider, der faktisk dokumenterer de tre påstande."
+      }
+    },
+    {
+      "slug": "fokus-ansvar",
+      "order": 3,
+      "section": "Fokus",
+      "brief": {
+        "angle": "Fokus: den store bevaegelse i 2026 er ikke 'mere autonomi for enhver pris' — det er det modsatte. Byg artiklen op om Claude Codes standardaendring i juli 2026 (version 2.1.200): hvor autonome handlinger tidligere kunne koere uden bekraeftelse, kraever standardtilstanden nu eksplicit menneskelig godkendelse for foelsomme operationer, og fuld autonomi ('auto'-tilstand) kraever nu et eksplicit fravalg. Forklar hvorfor: aendringen er begrundet med OWASP's (Open Web Application Security Project, en international non-profit-sikkerhedsstandard-organisation) LLM Top 10-anbefaling om menneske-i-loekken-kontrolpunkter for konsekvente agent-handlinger. Kobl det til NSA's MCP-sikkerhedsvejledning fra maj 2026, som understreger, at MCP-protokollen selv IKKE haandhaever sikkerhed — det goer den, der bygger serveren. Landing: 'flere agenter' og 'mere ansvar' er ikke i modstrid — de er to sider af samme udvikling. Jo mere en agent kan goere, jo vigtigere bliver netop de bremser, GNISTEN har talt om siden nr. 2.\n\nVERIFICEREDE KILDER (brug disse konkrete URL'er i dine fodnoter, gaet IKKE andre adresser): Claude Code standardaendring juli 2026: https://www.techtimes.com/articles/319874/20260707/claude-code-defaults-human-approval-auto-mode-requires-explicit-opt.htm — officiel Claude Code-tilladelsesdokumentation: https://code.claude.com/docs/en/permissions — NSA's MCP-sikkerhedsvejledning (maj 2026): https://media.defense.gov/2026/Jun/02/2003943289/-1/-1/0/CSI_MCP_SECURITY.PDF — Wiz' analyse af MCP-udbredelse: https://www.wiz.io/academy/ai-security/model-context-protocol-security",
+        "words": [
+          500,
+          750
+        ],
+        "mustCite": 2,
+        "format": "feature",
+        "mustNumber": [
+          "juli 2026: Claude Code v2.1.200",
+          "maj 2026: NSA's MCP-vejledning"
+        ]
+      },
+      "writer": {
+        "byline": null,
+        "model": "anthropic/claude-opus-4.8",
+        "fallback": "anthropic/claude-sonnet-5"
+      },
+      "receipt": {
+        "words": 609,
+        "costUSD": 0.091555,
+        "draft": "kladder/03-fokus-ansvar.md",
+        "costRouting": "byok",
+        "generationId": "gen-1787990161-xzaazZxBXCicaLQufqSE"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-29",
+        "citations": 4,
+        "editorNote": "Første kommissioneringsforsøg blev afvist af modellen selv, fordi den (med træningsdata før august 2026) ikke kunne bekræfte v2.1.200-ændringen eller NSA-vejledningen og korrekt nægtede at gætte kilder — se noten om dette i redaktionsnotesbogen. Genkommissioneret med eksplicitte, verificerede URL'er indsat i briefen. Receipt.costUSD dækker begge forsøg (afvisningen kostede også reelle tokens)."
+      }
+    },
+    {
+      "slug": "grokbot",
+      "order": 4,
+      "section": "Fokus",
+      "brief": {
+        "angle": "Fokus: Grok Bot — xAI's nye 'altid-paa'-agent, annonceret 11. august 2026. Forklar konkret, hvad der er nyt: hver Bot faar sin egen cloud-computer (dvs. en virtuel maskine, der koerer uafhaengigt af brugerens egen enhed), logger ind i brugerens eksisterende vaerktoejer (indbakke, CRM, dokumenter), og gennemfoerer flertrinsopgaver uden tilsyn — den koerer videre, ogsaa naar brugerens egen computer er slukket, og vender kun tilbage, naar den har brug for godkendelse. Giv ét konkret brugseksempel: en 'salgs-outbound'-Bot, der undersoeger kundeemner om natten, scorer dem efter koebsinteresse, og udkaster mails og LinkedIn-beskeder i saelgerens egen stil — klar til godkendelse, ikke automatisk afsendt. Adgang er bundtet i abonnementer (SuperGrok, Cursor-planer) og udvidet trinvist i august 2026 til flere prisniveauer. VIGTIGT TIL TEMAET: ifoelge xAI's egen dokumentation inkluderer abonnementet en ugentlig brugsgraense, og ekstra brug afregnes efter model- og tokenforbrug — der findes IKKE endnu en Grok Bot-specifik udgiftsgraense. Land artiklen eksplicit paa nummerets tema: dette er praecis den slags produkt, der goer 'mere ansvar' til andet end teori — en agent, der koerer i dagevis uden opsyn og logger ind i rigtige systemer, er noejagtig den slags vaerktoej, Regningen-artiklens to eksempler (OpenClaw, DN42) advarer om, naar der ikke er sat et loft eller et menneske-stop ind.\n\nVERIFICEREDE KILDER (brug disse konkrete URL'er i dine fodnoter, gaet IKKE andre adresser): https://www.unite.ai/xai-launches-grok-bot-always-on-ai-teammates-with-their-own-cloud-computers/ — https://interestingengineering.com/ai-robotics/xai-grok-bot-computer-agent — https://www.eesel.ai/blog/grok-bot-pricing",
+        "words": [
+          500,
+          750
+        ],
+        "mustCite": 3,
+        "format": "feature",
+        "mustNumber": [
+          "11. august 2026: Grok Bot annonceret",
+          "Ingen Grok Bot-specifik udgiftsgrænse endnu"
+        ]
+      },
+      "writer": {
+        "byline": null,
+        "model": "google/gemini-3.1-pro-preview",
+        "fallback": "anthropic/claude-sonnet-5"
+      },
+      "receipt": {
+        "words": 680,
+        "costUSD": 0.05024,
+        "draft": "kladder/04-grokbot.md",
+        "costRouting": "byok",
+        "generationId": "gen-1787990206-EeulyFQE7TBK4i7EXNis"
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-08-29",
+        "citations": 3,
+        "editorNote": "Tilføjet efter ejerens eksplicitte ønske midt i produktionen. Alle tre kilder verificeret; centrale tal (11. august 2026-lancering, ingen Grok Bot-specifik udgiftsgrænse) krydstjekket mod ekstern research."
+      }
+    },
+    {
+      "slug": "mcp-sikkerhed",
+      "order": 5,
+      "section": "Værkstedet",
+      "brief": {
+        "angle": "Vaerkstedet: MCP-sikkerhed i praksis, for en laeser uden programmeringsbaggrund. Forklar konkret, hvad en 'tilladelse' er i en MCP-sammenhaeng (Model Context Protocol, standarden der lader en AI-assistent tilgaa eksterne vaerktoejer og data), og hvorfor hver MCP-server er en ny tillidsgraense (dvs. et sted, hvor man reelt giver en fremmed kode adgang til noget). Forklar de tre tilladelsesniveauer allow/deny/ask (tillad/afvis/spoerg) og at reglerne evalueres i raekkefoelgen deny -> ask -> allow, foerste match vinder — konkret nok til at en laeser kan forstaa, hvorfor en 'afvis'-regel altid vinder over en 'tillad'-regel. Brug Wiz' anbefaling om, at en MCP-server og agenten, der bruger den, boer have de smalleste tilladelser, opgaven tillader, som ledetraad. Konkret raad til laeseren: start altid med at spoerge/godkende, udvid kun til automatisk tilladelse for de handlinger, du har set fungere trygt flere gange.\n\nVERIFICEREDE KILDER (brug disse konkrete URL'er i dine fodnoter, gaet IKKE andre adresser): https://code.claude.com/docs/en/permissions — https://www.wiz.io/academy/ai-security/model-context-protocol-security — NSA's MCP-sikkerhedsvejledning: https://media.defense.gov/2026/Jun/02/2003943289/-1/-1/0/CSI_MCP_SECURITY.PDF",
+        "words": [
+          500,
+          750
+        ],
+        "mustCite": 2,
+        "format": "feature",
+        "mustNumber": [
+          "3 tilladelsesniveauer: allow/deny/ask",
+          "evalueringsrækkefølge: deny → ask → allow"
+        ]
+      },
+      "writer": {
+        "byline": null,
+        "model": "openai/gpt-5.6-terra",
+        "fallback": "anthropic/claude-sonnet-5"
+      },
+      "receipt": {
+        "words": 687,
+        "costUSD": 0.021302,
+        "draft": "kladder/05-mcp-sikkerhed.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1787990247-gQ2ZMxyDbuHuJSPUkdfr"
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-08-29",
+        "citations": 3,
+        "editorNote": "Solid kladde med korrekte, konkrete kilder fra første forsøg (brief indeholdt allerede verificerede URL'er). Ingen faktuelle rettelser nødvendige."
+      }
+    },
+    {
+      "slug": "agent-niveau-2",
+      "order": 6,
+      "section": "Værkstedet",
+      "brief": {
+        "angle": "Vaerkstedet: byg din foerste niveau-2-agent — trin for trin, for en laeser uden programmeringsbaggrund, som allerede har proevet en simpel agent-arbejdsgang (jf. nr. 3's 'din foerste agent-arbejdsgang'). Niveau 2 betyder: agenten faar adgang til én afgraenset mappe (ikke hele filsystemet) og ét konkret vaerktoej (fx web-soegning eller filsoegning) — ikke frie haender. Forklar den officielle Claude Code-syntaks for at give adgang til ét specifikt vaerktoej i stedet for en hel MCP-server (fx `mcp__servernavn__soeg`, hvis en server har flere vaerktoejer, men man kun vil aabne for ét af dem) — dette er dokumenteret i Claude Codes egen officielle dokumentation. Understreg: mennesket forbliver i loekken — bremsen fra nr. 3 fjernes IKKE, den flyttes bare til et sted, hvor agenten kan goere mere pr. godkendelse. Giv laeseren et konkret, lille eksempel-scenarie (fx: en agent, der maa soege i én bestemt dokumentmappe og foreslaa aendringer, men aldrig selv gemme dem uden godkendelse).\n\nVERIFICEREDE KILDER (brug disse konkrete URL'er i dine fodnoter, gaet IKKE andre adresser): https://code.claude.com/docs/en/permissions — https://www.techtimes.com/articles/319874/20260707/claude-code-defaults-human-approval-auto-mode-requires-explicit-opt.htm",
+        "words": [
+          500,
+          750
+        ],
+        "mustCite": 2,
+        "format": "feature",
+        "mustNumber": [
+          "Niveau 2: én mappe + ét værktøj, ikke frie hænder"
+        ]
+      },
+      "writer": {
+        "byline": null,
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "anthropic/claude-sonnet-5"
+      },
+      "receipt": {
+        "words": 645,
+        "costUSD": 0.029796,
+        "draft": "kladder/06-agent-niveau-2.md",
+        "costRouting": "byok",
+        "generationId": "gen-1787990270-5pbNunWic2A3w1SWemKk"
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-08-29",
+        "citations": 2,
+        "editorNote": "mcp__servernavn__værktøjsnavn-syntaksen verificeret mod Claude Codes egen dokumentation. Ingen rettelser nødvendige."
+      }
+    },
+    {
+      "slug": "maanedens-prompt",
+      "order": 7,
+      "section": "Månedens prompt",
+      "brief": {
+        "angle": "Maanedens prompt: en konkret prompt, laeseren kan bruge i sin egen chat med en AI-assistent (Claude, ChatGPT eller lignende) til at faa den til at gennemgaa og forklare sine egne tilladelsesindstillinger i almindeligt sprog — fx 'Forklar mine nuvaerende AI-vaerktoejsindstillinger, som om jeg aldrig har koeret et program foer, og peg paa hvad der ville ske, hvis den maatte handle helt frit.' Forklar hvorfor denne type prompt er nyttig lige nu, koblet til nummerets tema: at forstaa sine egne tilladelser er det foerste, konkrete skridt mod 'mere ansvar'. INGEN paastande om hvilket resultat prompten praecist giver — kun hvorfor den er vaerd at proeve.",
+        "words": [
+          400,
+          600
+        ],
+        "mustCite": 0,
+        "format": "prompt"
+      },
+      "writer": {
+        "byline": null,
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "anthropic/claude-sonnet-5"
+      },
+      "receipt": {
+        "words": 505,
+        "costUSD": 0.019152,
+        "draft": "kladder/07-maanedens-prompt.md",
+        "costRouting": "byok",
+        "generationId": "gen-1787990314-3cpu6UridKVA22xb5aPl"
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-08-29",
+        "citations": 0,
+        "editorNote": "mustCite 0. Ingen faktapåstande, der kræver kilde."
+      }
+    },
+    {
+      "slug": "regningen",
+      "order": 8,
+      "section": "Regningen",
+      "brief": {
+        "angle": "Regningen: to virkelige, dokumenterede eksempler paa, hvad det koster, naar en agent ikke har en bremse. (1) Peter Steinberger, skaberen af open source-projektet OpenClaw, brugte i maj 2026 over 1,3 millioner USD i OpenAI-API-tokens paa 30 dage ved at koere ca. 100 kodningsagenter parallelt — 603 milliarder tokens, 7,6 millioner forespoergsler. Han praeciserede selv, at 'Fast Mode'-indstillingen alene stod for stoerstedelen af regningen, og at den alene ville have reduceret prisen med omkring 70%, hvis den var slaaet fra. OpenAI daekkede selv regningen. (2) Den 12. juni 2026 fik en operatoer en regning paa 6.531,30 USD fra AWS (Amazon Web Services, en cloud-udbyder), fordi en autonom agent — givet fuld AWS-adgang og bedt om at scanne netvaerket DN42 — selv besluttede opgaven kraevede fem store cloud-instanser, og derefter gentagne gange genanvendte sin egen skabelon hver gang den stoedte paa en fejl, saa ressourcerne blev dubleret. AWS forhandlede regningen ned til 1.894 USD; faellesskabets vurdering var, at opgaven kunne vaere loest paa en VPS til 5 USD/maaned. Landing: begge historier handler ikke om, at agenter er farlige i sig selv — de handler om, hvad der sker, naar ingen saetter et loft eller et menneske-stop ind i loekken, praecis den pointe Vaerkstedet-artiklerne viser, hvordan man undgaar.\n\nVERIFICEREDE KILDER (brug disse konkrete URL'er i dine fodnoter, gaet IKKE andre adresser): OpenClaw-historien: https://www.tomshardware.com/tech-industry/artificial-intelligence/openclaw-creator-burns-through-1-3-million-in-openai-api-tokens-in-a-single-month — DN42-historien: https://lantian.pub/en/article/fun/ai-agent-bankrupted-their-operator-scan-dn42lantian.lantian/ — baggrund om agent-udgiftsstyring: https://www.infoq.com/news/2026/07/ai-agents-billing-guardrails/",
+        "words": [
+          400,
+          600
+        ],
+        "mustCite": 3,
+        "format": "feature",
+        "mustNumber": [
+          "1,3 mio. USD på 30 dage (OpenClaw)",
+          "6.531,30 USD (DN42-hændelsen)"
+        ]
+      },
+      "writer": {
+        "byline": null,
+        "model": "anthropic/claude-opus-4.8",
+        "fallback": "anthropic/claude-sonnet-5"
+      },
+      "receipt": {
+        "words": 478,
+        "costUSD": 0.04731,
+        "draft": "kladder/08-regningen.md",
+        "costRouting": "byok",
+        "generationId": "gen-1787990347-VRReVFIcM097nnPhbcf4"
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-08-29",
+        "citations": 3,
+        "editorNote": "Begge hovedhistorier (OpenClaw, DN42) og alle tal krydstjekket mod eksterne kilder og fundet korrekte. Ingen rettelser nødvendige."
+      }
+    },
+    {
+      "slug": "sladder",
+      "order": 9,
+      "section": "Sladder fra serverrummet",
+      "brief": {
+        "angle": "Sladder fra serverrummet: kort, letbenet bagsnit med rygter og observationer fra AI-vaerktoejsverdenen, i samme stil som nr. 3. Ingen nye faktapaastande, der kraever kilde — hold det til det, der allerede er etableret i nummeret (agent-ansvar, tilladelser, regninger der loeber loebsk), formuleret let og drilsk. Slut med et konkret, realistisk bagsideloefte om, hvad GNISTEN nr. 5 vil handle om — foreslaa noget fra idébanken (fx laeserindsendte prompts eller en sammenligningstabel over cloud-planer), skriv det som en aaben teaser, ikke en detaljeret plan.",
+        "words": [
+          350,
+          550
+        ],
+        "mustCite": 0,
+        "format": "sladder"
+      },
+      "writer": {
+        "byline": null,
+        "model": "google/gemini-3.1-pro-preview",
+        "fallback": "anthropic/claude-sonnet-5"
+      },
+      "receipt": {
+        "words": 450,
+        "costUSD": 0.039266,
+        "draft": "kladder/09-sladder.md",
+        "costRouting": "byok",
+        "generationId": "gen-1787990384-tANFhpwp5MHLyBzqOXsN"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-29",
+        "citations": 0,
+        "editorNote": "mustCite 0. Justeret 'Risikoen er 100%' til en kvalitativ formulering ('stiger dramatisk') — det oprindelige 100%-udsagn var retorik uden reelt statistisk grundlag, og en præcis procentsats ville kræve en kilde, briefen ikke stillede til rådighed. Bagsideløfte til nr. 5 stemmer overens med idébankens 'sammenligningstabel cloud-planer'."
+      }
+    }
+  ]
+}
