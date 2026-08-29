@@ -1,0 +1,265 @@
+{
+  "magazine": "orbit",
+  "issue": "2026-08-nr4",
+  "issueTheme": "De fire spor nr. 3 lod stå åbne",
+  "integrityNote": "Nyt nummer, produceret 2026-08-29. Research forud for hver brief, paa .env.orbit. mustCite sat efter research var laest. Verificerede URL'er indsat direkte i hver brief.angle.",
+  "budget": {
+    "articles": 7,
+    "wordsPerArticle": [
+      300,
+      650
+    ],
+    "targetPages": 12,
+    "note": "Fire features (Starbase/FAA, Starmind, SSA-marked/Anduril-ExoAnalytic, liability i praksis), plus leder, tallet og rygtebørs."
+  },
+  "researchNote": "ADVARSEL: dette felt naar ALDRIG frem til modellen — kun brief.angle goer. Kontrolleret 2026-08-29.\nTema: de fire kandidater, nr. 3 selv efterlod aabne — Starbase, Starmind, kommerciel SSA-marked,\nliability i praksis.\n\n1) STARBASE/FAA: FLERE OPSENDELSER GODKENDT, EN BY ER FOEDT. Det amerikanske luftfartstilsyn FAA\n(Federal Aviation Administration) afsluttede sin miljoevurdering og godkendte SpaceX' anmodning om\nat hæve det aarlige antal Starship-opsendelser fra Starbase, Texas fra 5 til 25 om aaret.\nGodkendelsen tillader ogsaa op til 25 landinger om aaret af baade Super Heavy-boosteren og\nStarship-overtrinnet. Separat fra dette: den 3. maj 2025 stemte borgerne i det lokale Cameron\nCounty-omraade for at indlemme deres by som den officielle by \"Starbase\" (afstemningsresultat\n212-6). I 2026 koerer FAA en ny miljoevurdering specifikt om Starship-genindtraedning i\nStillehavet og en ekstra genindtraedningsbane til landing ved Boca Chica-anlaegget i Starbase;\nden offentlige hoeringsperiode for dette udkast lukkede 3. august 2026.\n\n2) STARMIND: SPACEX' ORBITALE AI-MEGAKONSTELLATION. Den 24. juni 2026 bekraeftede Elon Musk\nofficielt via X (tidl. Twitter) navnet \"Starmind\" paa SpaceX' planlagte AI-databehandlings-\nkonstellation i kredsloeb — et projekt adskilt fra Starlink. Hvor Starlink handler om\nbredbaandsforbindelse, er Starmind tænkt som et orbitalt AI-beregningslag, hvor satellitterne\nselv behandler AI-arbejdsbyrder (inklusive stor-sprogmodel-inferens) om bord og sender resultater\ntil Jorden, i stedet for blot at videresende data. Prototyper, kaldet AI1, er planlagt til tidligt\n2027, med bredere produktion maalrettet sent 2027. Produktionen skal foregaa paa en ny fabrik,\nkaldet \"Gigasat Factory\", i Bastrop, Texas. FCC-ansoegninger (det amerikanske\ntelekommunikationstilsyn) soeger godkendelse til en meget stor konstellation, der potentielt kan\nskaleres til hele én million satellitter. STRENGT: skriv dette som en ANNONCERET PLAN med et navn\nog et FCC-ansoegningsspor — IKKE som noget, der allerede er i kredsloeb. Intet Starmind-fartoej er\nsendt op endnu paa researchdatoen.\n\n3) DET KOMMERCIELLE SSA-MARKED: ANDURIL KOEBER EXOANALYTIC. I marts 2026 annoncerede\nforsvarsteknologiselskabet Anduril Industries en aftale om at opkoebe ExoAnalytic Solutions, et\nselskab specialiseret i rumdomaenebevidsthed (\"space domain awareness/SSA\", dvs. sporing og\novervaagning af objekter i kredsloeb) og missilforsvarssoftware. ExoAnalytic driver et globalt\nnetvaerk af over 400 teleskoper (forbrugerklasse-niveau, dvs. ikke militaere superteleskoper) og\nhar omkring 130 ansatte. Selskabets sensornetvaerk fodrer data direkte ind i rumdomaenebevidstheds-\narbejdsgange brugt af det amerikanske Space Force (rumvaernet), allierede militaere og kommercielle\noperatoerer, og selskabet har kontrakter, der loeber til december 2029. Det globale SSA-marked er\nvurderet til omkring 2,32 mia. USD i 2026. STRENGT: dette er ét konkret, navngivet opkoeb — brug\ndet som artiklens rygrad, ikke kun det generiske markedstal.\n\n4) LIABILITY I PRAKSIS: KONVENTIONEN, DER ALDRIG ER BRUGT. FN's Liability Convention (konventionen\nom international erstatningspligt for skader forvoldt af rumgenstande, fra 1972) fastlaegger et\nto-lags ansvarssystem: opsendelseslande haefter absolut (uden krav om at bevise skyld) for skader\npaa Jorden eller fly, mens ansvaret for skader i selve rummet (fx en satellitkollision) kraever, at\nden skadelidte stat beviser skyld. Kun regeringer — ikke private selskaber — kan rejse\ninternationale erstatningskrav gennem diplomatiske kanaler; hvis forhandlinger fejler, kan staterne\nnedsaette en tre-mands klagekommission, hvis afgoerelser dog kun er raadgivende, medmindre begge\nparter paa forhaand har aftalt at vaere bundet af den. Den mest kendte konkrete haendelse er\nIridium-Cosmos-kollisionen i 2009, hvor den amerikanske kommercielle satellit Iridium 33 kolliderede\nmed den udtjente russiske satellit Cosmos 2251 i lav jordbane — den foerste dokumenterede kollision\nmellem to intakte satellitter, som skabte tusindvis af stykker rumskrot. INGEN stat har nogensinde\nforsoegt at rejse et erstatningskrav under konventionen for denne haendelse, og konventionens\nklagekommissions-mekanisme har ALDRIG vaeret brugt til en rumskrot-kollision, siden konventionen\ntraadte i kraft. Som af 2026 er der omkring 11.000 aktive satellitter i kredsloeb, med prognoser om\n30.000-60.000 inden 2030. STRENGT: land artiklen paa, at det juridiske system, der formelt findes,\nreelt aldrig er blevet afproevet — ikke at der ikke findes et system.\n\nSTRENGT FORBUDT (ingen kilde her): en paastand om at Starmind allerede har satellitter i kredsloeb\n(det har det IKKE endnu), en sammenblanding af Starbase-byens indlemmelse (maj 2025) med FAA's\nopsendelsesgodkendelse (separat proces), og opfundne konkrete erstatningsbeloeb for\nIridium-Cosmos-sagen (der blev aldrig rejst noget krav). mustCite: 2+ for alle features. 0 for\nRygtebørsen.",
+  "opgaver": [
+    {
+      "slug": "leder",
+      "order": 1,
+      "section": "Leder",
+      "brief": {
+        "angle": "Chefredaktionens leder. Introducer nummerets fire spor, som nr. 3 selv efterlod aabne: FAA's godkendelse af 25 aarlige Starship-opsendelser fra Starbase og byens egen indlemmelse; SpaceX' officielt navngivne orbitale AI-konstellation Starmind, der endnu kun findes som plan og FCC-ansoegning; forsvarsteknologiselskabet Andurils opkoeb af rumovervaagningsselskabet ExoAnalytic, som viser hvor det kommercielle SSA-marked (space situational awareness/rumdomaenebevidsthed) er paa vej hen; og det aabne spoergsmaal om, hvad der reelt sker juridisk, naar to satellitter kolliderer — FN's Liability Convention findes, men er aldrig blevet afproevet, heller ikke efter den eneste store dokumenterede kollision (Iridium-Cosmos, 2009).",
+        "words": [
+          180,
+          320
+        ],
+        "mustCite": 0,
+        "format": "leder"
+      },
+      "writer": {
+        "byline": null,
+        "model": "TBD",
+        "fallback": "anthropic/claude-sonnet-5"
+      },
+      "receipt": {
+        "words": null,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "editor-led",
+        "checkedAt": "2026-08-29",
+        "citations": 0,
+        "editorNote": "Chefredaktionens leder, ingen byline, ingen kommissionering."
+      }
+    },
+    {
+      "slug": "tallet",
+      "order": 2,
+      "section": "Tallet",
+      "brief": {
+        "angle": "Tallet: en kildebelagt tabel over noegletal fra nummerets fire spor. Raekker: (1) FAA haevede Starbase's tilladte aarlige Starship-opsendelser fra 5 til 25. (2) Starmind (SpaceX' orbitale AI-konstellation, navngivet 24. juni 2026) soeger FCC-godkendelse til potentielt op mod én million satellitter. (3) Det globale SSA-marked (rumdomaenebevidsthed) er vurderet til ca. 2,32 mia. USD i 2026. (4) ExoAnalytic Solutions (opkoebt af Anduril, marts 2026) driver over 400 teleskoper globalt. (5) Antal aktive satellitter i kredsloeb i 2026: ca. 11.000, med prognoser om 30.000-60.000 inden 2030. (6) FN's Liability Convention har ALDRIG vaeret brugt til at afgoere en satellitkollision — heller ikke efter Iridium-Cosmos-kollisionen i 2009.\n\nVERIFICEREDE KILDER (brug disse konkrete URL'er i dine fodnoter, gaet IKKE andre adresser): https://www.teslarati.com/spacex-faa-approval-25-starship-launches/ — https://www.space.com/space-exploration/launches-spacecraft/another-star-is-born-spacex-names-ai-megaconstellation-starmind — https://techcrunch.com/2026/03/11/anduril-snaps-up-space-surveillance-firm-exoanalytic-solutions/ — https://www.livelaw.in/articles/liability-accountability-rethinking-space-debris-law-iridium-cosmos-collision-529560",
+        "words": [
+          300,
+          500
+        ],
+        "mustCite": 4,
+        "format": "tabel",
+        "mustNumber": [
+          "5 → 25 årlige Starship-opsendelser",
+          "op til 1 million satellitter (Starmind FCC-ansøgning)",
+          "ca. 11.000 aktive satellitter (2026)",
+          "0 gange Liability Convention er brugt til en kollision"
+        ]
+      },
+      "writer": {
+        "byline": null,
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "anthropic/claude-sonnet-5"
+      },
+      "receipt": {
+        "words": 389,
+        "costUSD": 0.017796,
+        "draft": "kladder/02-tallet.md",
+        "costRouting": "byok",
+        "generationId": "gen-1787994449-5r6WbjdTc4QI85G4tEES"
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-08-29",
+        "citations": 4,
+        "editorNote": "Alle seks tal krydstjekket mod de fire kilder. Ingen rettelser nødvendige."
+      }
+    },
+    {
+      "slug": "starbase-faa",
+      "order": 3,
+      "section": "Opsendelser (SpaceX, Blue Origin m.fl.)",
+      "brief": {
+        "angle": "Feature: Starbase — flere opsendelser godkendt, en by er født. Det amerikanske luftfartstilsyn FAA (Federal Aviation Administration) afsluttede sin miljoevurdering og godkendte SpaceX' anmodning om at haeve det aarlige antal Starship-opsendelser fra Starbase, Texas fra 5 til 25 om aaret. Godkendelsen tillader ogsaa op til 25 landinger om aaret af baade Super Heavy-boosteren og Starship-overtrinnet. Separat fra selve opsendelsesgodkendelsen: den 3. maj 2025 stemte borgerne i det lokale Cameron County-omraade for at indlemme deres by som den officielle by 'Starbase' (afstemningsresultat 212-6) — et skridt, der er adskilt fra FAA's tilladelsesproces, men som understreger, hvor meget stedet er vokset fra et rent anlaeg til et lokalsamfund. I 2026 koerer FAA en ny miljoevurdering specifikt om Starship-genindtraedning i Stillehavet og en ekstra genindtraedningsbane til landing ved Boca Chica; den offentlige hoeringsperiode for dette udkast lukkede 3. august 2026. Land artiklen paa: Starbase er samtidig blevet en industriel opsendelsesfabrik OG en by — og de to udviklinger, myndighedsgodkendt opsendelsestempo og lokal selvstaendiggoerelse, koerer parallelt, ikke som samme proces.\n\nVERIFICEREDE KILDER (brug disse konkrete URL'er i dine fodnoter, gaet IKKE andre adresser): https://www.teslarati.com/spacex-faa-approval-25-starship-launches/ — https://www.brownsvilletx.gov/m/newsflash/home/detail/2602",
+        "words": [
+          400,
+          650
+        ],
+        "mustCite": 2,
+        "format": "feature",
+        "mustNumber": [
+          "5 → 25 årlige Starship-opsendelser/landinger",
+          "3. maj 2025: byen Starbase indlemmet (212-6)"
+        ]
+      },
+      "writer": {
+        "byline": null,
+        "model": "anthropic/claude-opus-4.8",
+        "fallback": "anthropic/claude-sonnet-5"
+      },
+      "receipt": {
+        "words": 507,
+        "costUSD": 0.046345,
+        "draft": "kladder/03-starbase-faa.md",
+        "costRouting": "byok",
+        "generationId": "gen-1787994473-SXkPfJbe2x5CLIzI1lns"
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-08-29",
+        "citations": 2,
+        "editorNote": "Holdt korrekt de to processer (FAA-opsendelsesgodkendelse og byens indlemmelse) adskilt, som briefet krævede. Ingen rettelser nødvendige."
+      }
+    },
+    {
+      "slug": "starmind",
+      "order": 4,
+      "section": "Konstellationer (Starlink, Kuiper, konkurrenter)",
+      "brief": {
+        "angle": "Feature: Starmind — SpaceX' orbitale AI-megakonstellation, endnu kun en plan. Den 24. juni 2026 bekraeftede Elon Musk officielt via X navnet 'Starmind' paa SpaceX' planlagte AI-databehandlingskonstellation i kredsloeb — et projekt adskilt fra Starlink. Hvor Starlink handler om bredbaandsforbindelse, er Starmind tænkt som et orbitalt AI-beregningslag, hvor satellitterne selv behandler AI-arbejdsbyrder (inklusive stor-sprogmodel-inferens, dvs. de beregninger en AI-model laver for at svare paa en foresporgsel) om bord og sender resultater til Jorden, i stedet for blot at videresende data. Prototyper, kaldet AI1, er planlagt til tidligt 2027, med bredere produktion maalrettet sent 2027, paa en ny fabrik kaldet 'Gigasat Factory' i Bastrop, Texas. FCC-ansoegninger (det amerikanske telekommunikationstilsyn) soeger godkendelse til en konstellation, der potentielt kan skaleres til hele én million satellitter. STRENGT: skriv dette som en ANNONCERET PLAN med et FCC-ansoegningsspor — intet Starmind-fartoej er sendt op endnu. Land artiklen paa: forskellen mellem at navngive en plan og at sende den op er hele historien lige nu — men skalaen i FCC-ansoegningen (op mod en million satellitter, mod Starlinks nuvaerende titusinder) er i sig selv en historie, uanset om planen realiseres i den skala.\n\nVERIFICEREDE KILDER (brug disse konkrete URL'er i dine fodnoter, gaet IKKE andre adresser): https://www.space.com/space-exploration/launches-spacecraft/another-star-is-born-spacex-names-ai-megaconstellation-starmind — https://keeptrack.space/x-report/spacex-brief-2026-06-26",
+        "words": [
+          400,
+          650
+        ],
+        "mustCite": 2,
+        "format": "feature",
+        "mustNumber": [
+          "24. juni 2026: navnet Starmind bekræftet",
+          "op til 1 million satellitter i FCC-ansøgning",
+          "AI1-prototyper planlagt tidligt 2027"
+        ]
+      },
+      "writer": {
+        "byline": null,
+        "model": "google/gemini-3.1-pro-preview",
+        "fallback": "anthropic/claude-sonnet-5"
+      },
+      "receipt": {
+        "words": 443,
+        "costUSD": 0.053868,
+        "draft": "kladder/04-starmind.md",
+        "costRouting": "byok",
+        "generationId": "gen-1787994512-eBmcRRarY4iHu1eyJMsP"
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-08-29",
+        "citations": 2,
+        "editorNote": "Fortalte korrekt historien som en annonceret plan/FCC-ansøgning, ikke som noget allerede i kredsløb. Ingen rettelser nødvendige."
+      }
+    },
+    {
+      "slug": "ssa-marked",
+      "order": 5,
+      "section": "SSA (rumdomænebevidsthed) & skrot",
+      "brief": {
+        "angle": "Feature: det kommercielle SSA-marked — Anduril koeber ExoAnalytic. I marts 2026 annoncerede forsvarsteknologiselskabet Anduril Industries en aftale om at opkoebe ExoAnalytic Solutions, et selskab specialiseret i rumdomaenebevidsthed (SSA, space domain/situational awareness — sporing og overvaagning af objekter i kredsloeb) og missilforsvarssoftware. ExoAnalytic driver et globalt netvaerk af over 400 teleskoper (forbrugerklasse-niveau, altsaa ikke militaere superteleskoper) og har omkring 130 ansatte. Selskabets sensornetvaerk fodrer data direkte ind i rumdomaenebevidstheds-arbejdsgange brugt af det amerikanske Space Force (den amerikanske rumvaernsgren), allierede militaere og kommercielle operatoerer, og selskabet har kontrakter, der loeber til december 2029. Saet opkoebet i sammenhaeng: det globale SSA-marked er vurderet til omkring 2,32 mia. USD i 2026. Land artiklen paa: opkoebet er et konkret tegn paa, at rumdomaenebevidsthed er ved at bevaege sig fra et statsligt/militaert anliggende til et felt, hvor forsvars- og techselskaber konsoliderer kommercielle aktoerer — ExoAnalytics teleskoper var oprindeligt et kommercielt, uafhaengigt netvaerk, og bliver nu del af et stoerre forsvarsteknologiselskab.\n\nVERIFICEREDE KILDER (brug disse konkrete URL'er i dine fodnoter, gaet IKKE andre adresser): https://techcrunch.com/2026/03/11/anduril-snaps-up-space-surveillance-firm-exoanalytic-solutions/ — https://www.satellitetoday.com/technology/2026/03/11/anduril-acquiring-space-domain-awareness-missile-defense-software-company-exoanalytic-solutions/",
+        "words": [
+          400,
+          650
+        ],
+        "mustCite": 2,
+        "format": "feature",
+        "mustNumber": [
+          "400+ teleskoper (ExoAnalytic)",
+          "kontrakter til december 2029",
+          "~2,32 mia. USD globalt SSA-marked (2026)"
+        ]
+      },
+      "writer": {
+        "byline": null,
+        "model": "openai/gpt-5.6-terra",
+        "fallback": "anthropic/claude-sonnet-5"
+      },
+      "receipt": {
+        "words": 506,
+        "costUSD": 0.018232,
+        "draft": "kladder/05-ssa-marked.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1787994557-H2Zh2wIkgBwbfxWWeYV4"
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-08-29",
+        "citations": 2,
+        "editorNote": "Brugte det konkrete, navngivne Anduril/ExoAnalytic-opkøb som rygrad frem for kun generiske markedstal, som briefet krævede. Ingen rettelser nødvendige."
+      }
+    },
+    {
+      "slug": "liability-i-praksis",
+      "order": 6,
+      "section": "SSA (rumdomænebevidsthed) & skrot",
+      "brief": {
+        "angle": "Feature: liability i praksis — konventionen, der aldrig er brugt. FN's Liability Convention (konventionen om international erstatningspligt for skader forvoldt af rumgenstande, fra 1972) fastlaegger et to-lags ansvarssystem: opsendelseslande haefter absolut (uden krav om at bevise skyld) for skader paa Jorden eller fly, mens ansvaret for skader i selve rummet (fx en satellitkollision) kraever, at den skadelidte stat beviser skyld. Kun regeringer — ikke private selskaber — kan rejse internationale erstatningskrav gennem diplomatiske kanaler; hvis forhandlinger fejler, kan staterne nedsaette en tre-mands klagekommission, hvis afgoerelser dog kun er raadgivende, medmindre begge parter paa forhaand har aftalt at vaere bundet af den. Den mest kendte konkrete haendelse er Iridium-Cosmos-kollisionen i 2009, hvor den amerikanske kommercielle satellit Iridium 33 kolliderede med den udtjente russiske satellit Cosmos 2251 i lav jordbane — den foerste dokumenterede kollision mellem to intakte satellitter, som skabte tusindvis af stykker rumskrot. INGEN stat har nogensinde forsoegt at rejse et erstatningskrav under konventionen for denne haendelse, og konventionens klagekommissions-mekanisme har ALDRIG vaeret brugt til en rumskrot-kollision. Som af 2026 er der omkring 11.000 aktive satellitter i kredsloeb, med prognoser om 30.000-60.000 inden 2030. Land artiklen paa: det juridiske system, der formelt findes, er reelt aldrig blevet afproevet — og med flere gange saa mange satellitter paa vej, er det et aabent spoergsmaal, om systemet holder, naar det for foerste gang bliver testet.\n\nVERIFICEREDE KILDER (brug disse konkrete URL'er i dine fodnoter, gaet IKKE andre adresser): https://www.unoosa.org/oosa/en/ourwork/spacelaw/treaties/introliability-convention.html — https://www.livelaw.in/articles/liability-accountability-rethinking-space-debris-law-iridium-cosmos-collision-529560",
+        "words": [
+          400,
+          650
+        ],
+        "mustCite": 2,
+        "format": "feature",
+        "mustNumber": [
+          "2009: Iridium-Cosmos-kollisionen",
+          "0 gange klagekommissionen er brugt til en kollision",
+          "~11.000 aktive satellitter (2026)"
+        ]
+      },
+      "writer": {
+        "byline": null,
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "anthropic/claude-sonnet-5"
+      },
+      "receipt": {
+        "words": 533,
+        "costUSD": 0.020958,
+        "draft": "kladder/06-liability-i-praksis.md",
+        "costRouting": "byok",
+        "generationId": "gen-1787994579-DdwywU74deEWdFe2HC4Q"
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-08-29",
+        "citations": 2,
+        "editorNote": "Den tilføjede, ubriefede dato (10. februar 2009 for Iridium-Cosmos-kollisionen) blev verificeret eksternt og fundet korrekt — ikke en fabrikation denne gang. Ingen rettelser nødvendige."
+      }
+    },
+    {
+      "slug": "rygteboersen",
+      "order": 7,
+      "section": "Rygtebørsen",
+      "brief": {
+        "angle": "Rygtebørsen: kort, letbenet bagsnit med observationer og spekulationer fra rumfartsverdenen, i samme stil som nr. 3. Ingen nye faktapaastande, der kraever kilde — hold det til det, der allerede er etableret i nummeret (Starbase, Starmind, SSA-opkoebet, liability-spoergsmaalet). Slut med et konkret, realistisk bagsideloefte til nr. 5 — aaben teaser, ikke en detaljeret plan.",
+        "words": [
+          300,
+          500
+        ],
+        "mustCite": 0,
+        "format": "rygtebørs"
+      },
+      "writer": {
+        "byline": null,
+        "model": "google/gemini-3.1-pro-preview",
+        "fallback": "anthropic/claude-sonnet-5"
+      },
+      "receipt": {
+        "words": 386,
+        "costUSD": 0.037974,
+        "draft": "kladder/07-rygteboersen.md",
+        "costRouting": "byok",
+        "generationId": "gen-1787994626-sfYWAMYBiscIPOYQOOn9"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-29",
+        "citations": 0,
+        "editorNote": "mustCite 0. Fjernede en ubriefet, ukildebelagt hastighedsangivelse ('27.000 kilometer i timen') for en hypotetisk kollision — et for præcist tal til en spekulativ sætning i bagsnittet."
+      }
+    }
+  ]
+}

@@ -126,6 +126,48 @@ række 1 og 2 deler bevidst de samme to kilder (SpaceNews + Payload Space), ford
 står i de samme to rapporter. At opfinde separate fodnoter til samme kilder havde været den falske
 præcision, nr. 2's egen læring advarer imod.  
 
+## Nr. 4 — udgivet 2026-08-29
+
+**Tema:** De fire spor, nr. 3 lod stå åbne. **7 artikler, 2.910 ord.** Seks artikler reelt
+kommissioneret på `.env.orbit`; lederen er redaktionens uden byline. Forbrug **0,1952 USD**.
+`check_issue.py`: **0 fejl, 0 advarsler.** `check_links.py`: **0 døde links.** `bestilling.json`:
+`redaktion/orbit/numre/2026-08-nr4/bestilling.json`.
+
+Alle fire kandidater fra nr. 3 brugt: Starbase (FAA's godkendelse af 25 årlige
+Starship-opsendelser, holdt eksplicit adskilt fra byens egen indlemmelse maj 2025), Starmind
+(SpaceX' officielt navngivne orbitale AI-konstellation — endnu kun en FCC-ansøgning, intet
+fartøj i kredsløb), det kommercielle SSA-marked (Andurils opkøb af ExoAnalytic Solutions som
+konkret anker for markedstal), og liability i praksis (FN's Liability Convention, aldrig brugt
+til at afgøre en satellitkollision, heller ikke efter Iridium-Cosmos 2009).
+
+### Endnu et eksempel på reglen fra GNISTEN/KRAFTEN samme dag: skriv verificerede URL'er direkte i briefen
+
+Ligesom GNISTEN og KRAFTEN nr. 4 samme dag blev alle briefs skrevet med eksplicitte, verificerede
+kilde-URL'er indsat direkte i `brief.angle`. Alle seks kommissioneringer lykkedes på første
+forsøg med korrekte fodnoter — ingen afviste forsøg denne gang.
+
+### En tilføjet dato blev efterprøvet og holdt stik — ikke alle tilføjelser er fabrikationer
+
+`liability-i-praksis`-kladden tilføjede selv en præcis dato (10. februar 2009) for
+Iridium-Cosmos-kollisionen, som ikke stod i briefen. I modsætning til KRAFTEN nr. 4's SNAP-10A-
+fejl samme dag var dette tal korrekt ved ekstern verifikation. **Lektionen er ikke "stol aldrig
+på en tilføjet detalje" — det er "verificér den altid", uanset om den viser sig rigtig eller
+forkert.**
+
+### En for præcis hastighedsangivelse fjernet fra en spekulativ sætning
+
+`rygteboersen`-kladden skrev "27.000 kilometer i timen" om en hypotetisk fremtidig kollision —
+et konkret, ukildebelagt tal i en sætning, der kun skulle være spekulation. Fjernet før accept.
+
+## Nr. 5 — kandidater
+
+- **(2026-08) Europæisk rumadgang** — uafhængighed, opsendelseskapacitet, Ariane-programmets
+  næste skridt (lovet som bagsideløfte).
+- **(2026-08) Starmind-opfølgning** — når AI1-prototyperne rent faktisk sendes op (planlagt
+  tidligt 2027, muligvis for tidligt til nr. 5).
+- **(2026-08) Første Starbase-miljøvurdering (Stillehavs-genindtræden)** — opfølgning når FAA's
+  afgørelse efter høringsperioden (lukkede 3. august 2026) foreligger.
+
 ## Format
 
 - **Artikeltal:** typisk 10–14. Faste: Leder · Tallet · opsendelser · agenturer · konstellationer · SSA/skrot · kalender · rygtebørs. **Ingen Ordbog** — gloser i parentes/fodnote.
