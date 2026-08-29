@@ -6,6 +6,8 @@ order: 5
 image: ../images/aktier_zoetis.svg
 imageCredit: "Redaktionelt diagram"
 imageSource: "https://nyesider.vercel.app/aktier"
+figures:
+  - ../images/figur-zts-pris.svg
 ---
 
 **Ticker:** ZTS (NYSE)  
@@ -23,6 +25,8 @@ imageSource: "https://nyesider.vercel.app/aktier"
 | 1-års afkast | −50 % |
 | 3-måneders afkast | −1,2 % |
 | D/E | 294 % |
+
+[FIGUR]
 
 **Hvad er Zoetis?** Verdens største producent af medicin og vacciner til dyr — både *companion* (kæledyr) og *livestock* (produktionsdyr). Udsprunget af Pfizer i 2013.
 

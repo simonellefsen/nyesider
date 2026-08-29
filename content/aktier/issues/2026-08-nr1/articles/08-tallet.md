@@ -6,6 +6,8 @@ order: 8
 image: ../images/aktier_tallet.svg
 imageCredit: "Redaktionelt diagram"
 imageSource: "https://nyesider.vercel.app/aktier"
+figures:
+  - ../images/figur-tallet-sammenligning.svg
 ---
 
 Alle tal er pr. 28. august 2026 lukke. P/E er *trailing* (bagudrettet, baseret på de seneste 12 måneders indtjening). P/B er *price-to-book* (pris divideret med bogført værdi pr. aktie). Invalidation er det niveau, hvor vores tese ikke længere holder.
@@ -26,6 +28,8 @@ Alle tal er pr. 28. august 2026 lukke. P/E er *trailing* (bagudrettet, baseret p
 - **CYCLICAL:** Konjunkturfølsom, timing-afhængig.
 
 **Læsevejledning:** En lav P/E eller P/B betyder ikke automatisk "køb". LULU har P/E 9,31, men handler foran et binært øjeblik (Q2 den 3. sep). ZTS har P/B 9,85 — *ikke* billig på bog. BMW har P/B 0,38, men FS-gæld gør nøgletallet vanskeligere at fortolke. Invalidation er vigtigere end multiplen: det er det niveau, hvor vi erkender, at vi tog fejl.
+
+[FIGUR]
 
 [^1]: Yahoo Finance, NOVO-B.CO, 28. aug 2026. https://finance.yahoo.com/quote/NOVO-B.CO/
 [^2]: Yahoo Finance, LULU, 28. aug 2026. https://finance.yahoo.com/quote/LULU/
