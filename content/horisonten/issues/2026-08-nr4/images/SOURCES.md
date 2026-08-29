@@ -16,3 +16,10 @@ Ingen logoer, ingen læsbar skiltetekst, ingen stockfoto.
 | `horisonten_kalenderen.png` | Kalenderen | illustreret |
 | `horisonten_madogvin.png` | Vulkanens vine og gadens arabiske arv | maksimalisme |
 | `horisonten_praktisk.png` | Kør selv på Sicilien | geometrisk |
+
+Kort (ikke AI-genereret — Natural Earth, public domain, `production/generate_map.py`):
+
+| Fil | Artikel | Markører |
+|---|---|---|
+| `kort-sicilien-syv-lag.svg` | Sicilien: øen med syv lag | Palermo, Etna, Noto, Agrigento, Siracusa |
+| `kort-baser.svg` | Tre måder at vælge base på | Palermo, Catania, Noto |

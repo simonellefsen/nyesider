@@ -16,3 +16,9 @@ Ingen logoer, ingen læsbar skiltetekst, ingen stockfoto, ingen afbildning af re
 | `kulturboxen_tallet.png` | Tallet | geometrisk |
 | `kulturboxen_myter.png` | Rygtebørsen / myter | flad vektor |
 | `kulturboxen_bro.png` | Til HORISONTEN | abstrakt |
+
+Kort (ikke AI-genereret — Natural Earth, public domain, `production/generate_map.py`):
+
+| Fil | Artikel | Markører |
+|---|---|---|
+| `kort-marokko.svg` | Byen der vokser dobbelt så hurtigt som landet | Rabat, Casablanca, Marrakech |

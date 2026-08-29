@@ -7,11 +7,15 @@ order: 2
 image: ../images/horisonten_overblik.png
 imageCredit: "AI-genereret motiv (Imagine / xAI)"
 imageSource: "https://x.ai/"
+figures:
+  - ../images/kort-sicilien-syv-lag.svg
 ---
 
 Der findes ikke ét svar på, hvad Sicilien "er". Det er øens grundvilkår, og det er også nøglen til at forstå den, før man overhovedet lægger en rejserute. Sicilien ligger midt i Middelhavet, og den placering har gjort øen til mål for grækere, romere, arabere, normannere og spaniere gennem århundreder. Hvor mange europæiske rejsemål har ét historisk lag, der dominerer — en middelalderby, en renæssancehovedstad — har Sicilien flere lag ved siden af hinanden, ofte synlige i samme gadebillede.
 
 Det mest håndgribelige bevis er øens syv UNESCO-verdensarvssteder (United Nations Educational, Scientific and Cultural Organization, FN's organisation for uddannelse, videnskab og kultur), som tilsammen tegner et kort over de forskellige epoker.[^1]
+
+[FIGUR]
 
 ### De syv steder
 

@@ -146,6 +146,12 @@ allerede-forsøgt-og-forkastet kilde forhindrer, at modellen selv falder i samme
 
 ## Log
 
+- **2026-08-29:** Nr. 4 (Sicilien) fik to rigtige kort tilføjet post-udgivelse:
+  `kort-sicilien-syv-lag.svg` i `02-sicilien-overblik.md` (markerer Palermo, Etna, Noto, Agrigento,
+  Siracusa — de fem stednavne, artiklens "syv lag" faktisk knytter til geografi) og `kort-baser.svg`
+  i `06-byliv.md` (Palermo/Catania/Noto, de tre baser artiklen sammenligner). Genereret med det nye,
+  generelle `production/generate_map.py` (Natural Earth, public domain — ikke AI-genereret, så
+  kystlinjer/grænser er korrekte). Se `redaktion/README.md` → "Kort (maps)".
 - **2026-08-08:** Nr. 3 publiceret — Dolomitterne genoplivet fra parked; byline DeepSeek rettet; `bestilling.json` oprettet.
 - **2026-08-08 (senere):** Søster synket — KULTURBOXEN nr. 2 *Tre sprog, ét plateau* (Sydtyrol).
 - **2026-08-01:** Notesbog udvidet med `## Identitet` og `## Format`; leads datostemplet (se [redaktion/README](../README.md)).

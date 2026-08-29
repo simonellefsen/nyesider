@@ -27,3 +27,6 @@ __pycache__/
 
 # Link-check cache (production/check_links.py)
 .linkcache.json
+
+# Natural Earth map data cache (production/generate_map.py), downloaded on demand
+production/.mapcache/

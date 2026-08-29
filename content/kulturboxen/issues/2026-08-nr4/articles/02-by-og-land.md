@@ -7,9 +7,13 @@ order: 2
 image: ../images/kulturboxen_byland.png
 imageCredit: "AI-genereret motiv (Imagine / xAI)"
 imageSource: "https://x.ai/"
+figures:
+  - ../images/kort-marokko.svg
 ---
 
 Marokko gennemgår i disse år en af sine mest markante samfundsforandringer siden uafhængigheden: en systematisk flytning fra land til by. Tallene fra 2024-folketællingen, gennemført af Haut-Commissariat au Plan (HCP) — landets officielle statistikmyndighed — tegner et billede af et land, hvor byerne trækker befolkningen til sig i et tempo, der overgår den samlede befolkningstilvækst markant.
+
+[FIGUR]
 
 ## Et land på 36,8 millioner
 

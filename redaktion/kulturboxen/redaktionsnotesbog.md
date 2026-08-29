@@ -210,6 +210,11 @@ opfundet kilde (se KULTURBOXEN nr. 3's DST-tabelreference eller HORISONTEN nr. 4
 - **2026-08-29:** Nr. 4 udgivet — Marokko, nyt nummer produceret fra bunden. Bevidst asynk med
   HORISONTEN nr. 4 (Sicilien). To fejl fanget før udgivelse (escape-artefakt, uudfyldt
   skabelon-fodnote). Se læringen ovenfor.
+- **2026-08-29 (senere):** Tilføjet et rigtigt kort til `02-by-og-land.md` (`kort-marokko.svg`) —
+  Marokko markeret med Rabat, Casablanca og Marrakech, de tre byer der faktisk nævnes i nummeret.
+  Genereret med det nye `production/generate_map.py` (Natural Earth, public domain), se
+  `redaktion/README.md` → "Kort (maps)". Værktøjet er generelt for alle titler, ikke kun
+  KULTURBOXEN.
 
 - **2026-08-19:** Nr. 3 udgivet — Filippinerne/OFW, nyt nummer produceret fra bunden. Se
   læringen ovenfor. To kildefælder fanget (opdigtet DST-tabelreference, uendelig redirect-loop).

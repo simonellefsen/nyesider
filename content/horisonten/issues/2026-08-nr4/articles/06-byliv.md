@@ -7,9 +7,13 @@ order: 6
 image: ../images/horisonten_byliv.png
 imageCredit: "AI-genereret motiv (Imagine / xAI)"
 imageSource: "https://x.ai/"
+figures:
+  - ../images/kort-baser.svg
 ---
 
 Sicilien er for stort og for mangefacetteret til én perfekt base. Valget handler mindre om, hvor øen ligger på kortet, og mere om hvilken rejsetakt du ønsker: tæt byliv til fods, en stor udflugtsradius i bil eller roligere dage blandt barokke facader og små piazzaer.
+
+[FIGUR]
 
 ### Palermo: storby, gader og lag af historie
 

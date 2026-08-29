@@ -138,6 +138,42 @@ men ingen artikel udkommer uden.
 - Undtagelse: egenproducerede diagrammer/SVG (fx GNISTEN) og materiale med dokumenteret fri/egen licens.
 - **Gemini/OpenRouter-billeder** kun som fallback — og så på **titlens egen** OpenRouter-nøgle (`.env.<slug>`), så billedforbrug også kan spores pr. magasin.
 
+## Kort (maps) — alle titler
+
+**Når en artikel handler om et sted, og placeringen hjælper læseren, brug et rigtigt kort — ikke et
+AI-genereret "kort-agtigt" motiv.** AI-billedgenerering finder på kystlinjer og grænser; et kort skal
+være korrekt. `production/generate_map.py` tegner lokaliserings-/regionskort ud fra
+[Natural Earth](https://www.naturalearthdata.com/) — **public domain**, ingen kreditering påkrævet
+(scriptet skriver alligevel en kort kildelinje ind i figuren, samme stil som `figur-*.svg`).
+
+```bash
+python production/generate_map.py \
+  --out content/<slug>/issues/<issue>/images/kort-<navn>.svg \
+  --title "Landet/øen" \
+  --note "Kort undertekst (valgfri)" \
+  --bbox lonmin,latmin,lonmax,latmax \
+  --highlight-country "Morocco" \
+  --marker "Rabat:34.020:-6.841" \
+  --marker "Casablanca:33.573:-7.589"
+```
+
+For en region, der ikke er sit eget land (fx Sicilien i Italien), brug `--highlight-admin1` +
+`--highlight-admin1-country` til at slå udvalgte provinser sammen til én markering i stedet for
+`--highlight-country`. Se `python production/generate_map.py --help` for alle flag og et fuldt
+eksempel med admin-1-regioner.
+
+- **Marker kun steder, der faktisk nævnes i artiklen** — find koordinater, opdigt dem ikke.
+- Data hentes og caches i `production/.mapcache/` ved første brug (gitignored, ~35 MB); intet
+  binært data committes.
+- Wire ind i artiklen som ethvert andet figur: `figures: [../images/kort-<navn>.svg]` i frontmatter
+  + en `[FIGUR]`-markørlinje samme sted i brødteksten, og tilføj filen til `issue.json`s `images`-
+  array (ellers flager `check_issue.py` den som "orphan image").
+- Første gang: `pip install -r production/requirements.txt` i `.venv` installerer geopandas/
+  matplotlib/shapely/pyproj/pyogrio — alt sammen rene pip-wheels, intet `brew install` af GEOS/PROJ
+  nødvendigt på macOS arm64.
+- Ikke et krav for hver artikel — kun hvor et kort rent faktisk hjælper læseren med at forstå
+  geografien (rejseguides, regionale sammenligninger, "hvor ligger X").
+
 ## Ny titel
 
 Opret `redaktion/<slug>/redaktionsnotesbog.md` og `content/<slug>/magazine.json` (brand, farver, sektioner, målgruppe).
