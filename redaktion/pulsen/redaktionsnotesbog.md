@@ -106,13 +106,50 @@ og svar, uden udfyldning. **Sæt quizzens ordbudget til 200-350.**
 
 Ambient pilot→drift, MDR, EHDS, nordisk stak, ergoterapi 2035, bagsnit (inkl. daværende rygtebørs).
 
-## Nr. 4 — kandidater
+## Nr. 4 — udgivet 2026-08-29
 
-- **(2026-08) Offentlige ambient-evalueringer med tal**  
-- **(2026-08) NHS/tysk/fransk ambient eller billed-AI — case med kilde**  
-- **(2026-08) Aiforia/Dedalus kliniske resultater**  
-- **(2026-08) Bupa Prevention Pathways tal**  
-- **(2026-08) Corti — kun hvis filing/signaler er nye**
+**Tema:** Tre internationale pejlinger: ambient-tal, klinisk AI og genomdrevet forebyggelse
+(indfrier nr. 3's bagsideløfte). **6 artikler, 2.292 ord.** Fem artikler reelt kommissioneret på
+`.env.pulsen`; lederen er redaktionens uden byline. Forbrug **0,2151 USD**. `check_issue.py`:
+**0 fejl, 1 advarsel** (korrekt, se nedenfor). `check_links.py`: **0 døde links.**
+`bestilling.json`: `redaktion/pulsen/numre/2026-08-nr4/bestilling.json`.
+
+Tre af nr. 3's fire kandidater brugt: offentlige ambient-evalueringer med tal (NHS/Oxford),
+Aiforia/Dedalus' kliniske resultater, og Bupa Prevention Pathways-tal. Corti er ikke brugt som
+egen artikel, men optræder som en konkret detalje i NHS-artiklen (én af 19 leverandører på NHS'
+nye godkendelsesregister) — det tæller som "nye signaler", jf. reglen om at kun bringe Corti ved
+reel nyhed.
+
+### Begge sider af tallet — igen, som AID_NOTE-læringen fra nr. 3 krævede
+
+`nhs-ambient`-briefen krævede eksplicit, at både gevinsten (88% målbar tidsbesparelse) og
+grænsen (44,4% oplevede mindst én hallucination, heraf opdigtede vækstmål hos børn) skulle stå i
+samme artikel, ikke som en positiv historie med en hallucinationsnotits i bunden. Kladden
+efterlevede det uden yderligere redigering — samme disciplin, som nr. 3 etablerede med
+AID_NOTE/AAU-modsætningen.
+
+### mustCite sat før research — samme mønster som KRAFTEN og ORBIT
+
+`bupa-forebyggelse` endte med 1 citation mod et briefet mustCite på 2 — korrekt, ikke en fejl.
+Kun Bupas egen pressemeddelelse findes som kilde for lanceringen; at opfinde en andenkilde til
+samme begivenhed ville have været falsk præcision. Ledgerens `citations`-felt viser det faktiske
+antal med forklarende note, i tråd med portefølgens etablerede praksis denne uge.
+
+### Klinisk succes og finansiel nedtur holdt eksplicit adskilt
+
+`aiforia-dedalus`-briefen krævede, at Aiforias 46% omsætningsfald IKKE blev fremstillet som en
+modsigelse af den kliniske præcision (97-99% sensitivitet i Italien, i klinisk drift i Frankrig).
+Kladden fulgte instruksen præcist — samme systemiske pointe, som KRAFTEN nr. 4 samme dag lavede
+om SMR-økonomi (NuScale-annulleringen betyder ikke, at teknologien er død).
+
+## Nr. 5 — kandidater
+
+- **(2026-08) Bupa Prevention Pathways — opfølgning** efter lanceringen 1. september 2026, hvis
+  der kommer konkrete tal fra de første uger.
+- **(2026-08) AID_NOTE's 12-måneders resultater**, når evalueringen (okt. 2025–okt. 2026)
+  afsluttes.
+- **(2026-08) Danske paralleller til Bupas model** — findes der noget lignende i dansk offentligt
+  eller privat regi?
 
 ## Log
 

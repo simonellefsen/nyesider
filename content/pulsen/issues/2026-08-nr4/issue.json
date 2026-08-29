@@ -1,0 +1,103 @@
+{
+  "magazine": "pulsen",
+  "number": 4,
+  "title": "PULSEN nr. 4 · August 2026",
+  "issueTheme": "Tre internationale pejlinger: ambient-tal, klinisk AI og genomdrevet forebyggelse",
+  "published": "2026-08-29",
+  "status": "published",
+  "pdf": null,
+  "cover": "images/pulsen_cover.png",
+  "coverCredit": "AI-genereret motiv (Imagine / xAI)",
+  "coverSource": "https://x.ai/",
+  "images": [
+    "images/pulsen_aiforia.png",
+    "images/pulsen_bupa.png",
+    "images/pulsen_cover.png",
+    "images/pulsen_leder.png",
+    "images/pulsen_nhs.png",
+    "images/pulsen_quiz.png",
+    "images/pulsen_vandrehistorier.png"
+  ],
+  "productionCostUSD": 0.2151,
+  "imageCredits": "Imagine / xAI. Stil varieret pr. artikel.",
+  "backCoverPromise": "PULSEN nr. 5 følger, om Bupas Prevention Pathways får danske paralleller, og om AID_NOTE's 12-måneders resultater er landet.",
+  "articles": [
+    {
+      "slug": "leder",
+      "file": "articles/01-leder.md",
+      "order": 1,
+      "section": "Leder",
+      "title": "Tre internationale pejlinger: ambient-tal, klinisk AI og genomdrevet forebyggelse",
+      "standfirst": "Nr. 3 lovede at følge op, når offentlige ambient-evalueringer landede med tal, og AI-udrulning uden for Danmark fik ny evidens. Her er tre.",
+      "image": "images/pulsen_leder.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/",
+      "words": 171
+    },
+    {
+      "slug": "nhs-ambient",
+      "file": "articles/02-nhs-ambient.md",
+      "order": 2,
+      "section": "Feature · Ambient AI",
+      "title": "Når maskinen skriver med: Oxfords ambient-pilot viser både gevinsten og grænsen",
+      "standfirst": "88 % af klinikerne sparede målbar tid. 44,4 % oplevede mindst én hallucination. Begge tal hører med.",
+      "image": "images/pulsen_nhs.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/",
+      "words": 582,
+      "byline": "Claude Opus 4.8 (Anthropic)"
+    },
+    {
+      "slug": "aiforia-dedalus",
+      "file": "articles/03-aiforia-dedalus.md",
+      "order": 3,
+      "section": "Analyse · Marked",
+      "title": "Når klinisk præcision møder et utålmodigt marked",
+      "standfirst": "Aiforias AI matcher en patologs præcision i Italien og bruges i drift i Frankrig — mens selskabets egen omsætning faldt 46 %.",
+      "image": "images/pulsen_aiforia.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/",
+      "words": 485,
+      "byline": "Gemini 3.1 Pro (Google)"
+    },
+    {
+      "slug": "bupa-forebyggelse",
+      "file": "articles/04-bupa-forebyggelse.md",
+      "order": 4,
+      "section": "Feature · Klinik",
+      "title": "Når forsikringen får adgang til forebyggelsen før symptomerne",
+      "standfirst": "Bupa lancerer 1. september 2026 en genomik-drevet forebyggelsesindsats. Spørgsmålet, artiklen rejser uden at svare på det: hvem får adgang først?",
+      "image": "images/pulsen_bupa.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/",
+      "words": 466,
+      "byline": "GPT-5.6 Terra (OpenAI)"
+    },
+    {
+      "slug": "vandrehistorier",
+      "file": "articles/05-vandrehistorier.md",
+      "order": 5,
+      "section": "Vandrehistorier fra vagtstuen",
+      "title": "Vandrehistorier fra vagtstuen",
+      "standfirst": "Fire korte fortællinger fra sundhedsvæsenets hverdag med maskinerne.",
+      "image": "images/pulsen_vandrehistorier.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/",
+      "words": 374,
+      "byline": "Claude Sonnet 5 (Anthropic)"
+    },
+    {
+      "slug": "sjov-og-spil",
+      "file": "articles/06-sjov-og-spil.md",
+      "order": 6,
+      "section": "Sjov og spil",
+      "title": "Quiz: Testede du spalterne?",
+      "standfirst": "Seks spørgsmål om nummerets stof.",
+      "image": "images/pulsen_quiz.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/",
+      "words": 214,
+      "byline": "Claude Sonnet 5 (Anthropic)"
+    }
+  ]
+}

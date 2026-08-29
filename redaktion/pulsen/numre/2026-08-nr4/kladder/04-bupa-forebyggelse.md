@@ -1,0 +1,20 @@
+# Når forsikringen får adgang til forebyggelsen før symptomerne
+
+Den 1. september 2026 vil det britiske sundhedsforsikringsselskab Bupa lancere sine nye *Prevention Pathways*: genomikdrevne forebyggelsesforløb for brystkræft, hjerte-kar-sygdom og type 2-diabetes. Ambitionen er at identificere kunder med forhøjet risiko, før de udvikler symptomer, og derefter tilbyde mere målrettet screening, individuelle indsatser og i nogle tilfælde forebyggende behandling, herunder medicin eller kirurgi.[^1]
+
+Genomik betyder her, at DNA-data bruges sammen med øvrige helbredsoplysninger til at vurdere sandsynligheden for senere sygdom. Det er ikke det samme som en diagnose. En genetisk risikovurdering kan pege på, at en person bør følges tættere eller tilbydes en samtale om forebyggelse, men den afgør ikke alene, om sygdom udvikler sig.
+
+Bupa beskriver selv initiativet som det første tilbud af denne type fra et stort privat sundhedsforsikringsselskab til almindelige kunder. Programmet bygger på et genomik-pilotstudie med over 12.000 deltagere og på selskabets digitale sundhedstjeneste Blua. Her anvendes kunstig intelligens (AI) og sundhedsdata til at understøtte personlige anbefalinger og kontakt med sundhedsfaglige tilbud.[^2]
+
+Målet er betydeligt: Bupa forventer at have støttet over 200.000 kunder inden udgangen af 2027. Mere end 36.000 af disse ventes at være omfattet af brystkræftsporet. Tallene siger noget om skalaen, men også om programmets karakter: Det er ikke blot et testtilbud, men en model, hvor risikovurdering skal kobles til konkrete forløb i en forsikringsdrevet sundhedsorganisation.
+
+For klinikere er det centrale spørgsmål, hvad der sker efter risikovurderingen. En DNA-test kan udpege en mulig forhøjet risiko, men den kliniske værdi afhænger af den efterfølgende kæde: genetisk rådgivning, supplerende undersøgelser, adgang til screening, vurdering af bivirkninger og fælles beslutningstagning med patienten. Jo mere et system handler på præsymptomatisk risiko, desto vigtigere bliver det at skelne mellem en risikomarkør og et behandlingskrævende fund.
+
+Det gælder især, når forebyggende medicin eller kirurgi nævnes som mulige spor. Tidlig intervention kan være relevant for nogle højrisikopersoner, men kræver samtidig tydelige kriterier, dokumenteret nytte og en samtale om usikkerhed. Et digitalt risikosignal må ikke blive en automatisk behandlingsanbefaling.
+
+Bupa placerer sig dermed i krydsfeltet mellem forsikring, digital sundhed og klinisk forebyggelse. Det kan give kunder adgang til tidligere afklaring og mere systematisk opfølgning. Men det rejser også driftsmæssige spørgsmål: Hvem har ansvar for opfølgningen, hvis en risikovurdering fører til behov for speciallæge, billeddiagnostik eller længerevarende behandling? Og hvordan deles informationen sikkert mellem forsikringsselskab, digitale tjenester og den kliniske sektor?
+
+Det større, åbne spørgsmål rækker ud over Bupa. Hvad betyder det for sundhedssystemet som helhed, hvis DNA-baseret forebyggelse først skaleres til mennesker, der har råd til privat sundhedsforsikring? Det kan blive en tidlig prøve på, om avanceret forebyggelse udvikles som et privilegium for de forsikrede, eller som erfaring, der senere kan omsættes til bredere og mere lige adgang. Svaret ligger ikke i lanceringen alene, men i hvordan klinisk evidens, finansiering og offentlig kapacitet udvikler sig efter den.
+
+[^1]: Bupa, “Bupa offers customers DNA-driven personalised prevention before symptoms”: https://www.bupa.com/news-and-press/press-releases/2026/bupa-offers-customers-dna-driven-personalised-prevention-before-symptoms  
+[^2]: Bupa, “Bupa offers customers DNA-driven personalised prevention before symptoms”: https://www.bupa.com/news-and-press/press-releases/2026/bupa-offers-customers-dna-driven-personalised-prevention-before-symptoms
