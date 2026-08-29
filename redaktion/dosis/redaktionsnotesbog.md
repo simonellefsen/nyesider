@@ -171,12 +171,59 @@ videregående 11,6 %. Beskæftigede 14,2 %, arbejdsløse 29,8 %, førtidspension
 **selvrapporteret gene**, ikke målt søvn — og en stigning kan også afspejle, at det er blevet mere
 legitimt at svare ja.
 
-## Nr. 4 — kandidater
+## Nr. 4 — udgivet
 
-- **(2026-08) Søvn som "tilskud" der virker** (lovet i bagside-tone på nr. 2)  
-- **(2026-08) Microbiom-hype**  
-- **(2026-08) Styrketræning efter 60**  
-- **(2026-08) Omega-3: evidens vs. hylde**
+**Tema:** Styrke, tarm og fedtsyrer — tre skeptiske eftersyn
+**Nyt nummer, produceret 2026-08-29:** 10 artikler / 4.960 ord. Ni artikler reelt kommissioneret
+på `.env.dosis`; lederen er chefredaktionens uden byline. Forbrug **0,1562 USD**. `check_issue.py`:
+**0 fejl, 1 advarsel** (omega3-evidens-vs-hylde: 2 citationer mod briefet mustCite=3 — korrekt,
+se nedenfor). `bestilling.json` under `numre/2026-08-nr4/`.
+
+Direkte fortsættelse af nr. 3's bagsideløfte: styrketræning efter 60, mikrobiom-hypen og omega-3
+mellem evidens og hylde — hvert tema fik to artikler (hovedvinkel + companion-vinkel) plus Tallet,
+Rygtebørsen og Til PULSEN.
+
+### Fem fejl fanget og rettet før udgivelse
+
+- **Opdigtet artikeltitel (den alvorligste fangst):** `mikrobiom-hypen`-kladden citerede NIST's
+  studie under titlen *"Inter-laboratory comparison of human gut microbiome profiling reveals high
+  variability in commercial testing platforms"* — en titel, der lyder plausibel, men som ikke
+  findes. Den virkelige, DOI-verificerede titel er *"Evaluating the analytical performance of
+  direct-to-consumer gut microbiome testing services"* (Servetas m.fl., *Communications Biology*,
+  DOI 10.1038/s42003-025-09301-3, 26. februar 2026). Samme fejltype som notesbogens egen læring om
+  "en delvist rigtig litteraturhenvisning er farligere end en forkert" — kun her var det ikke
+  forfatter/år, der var forkert, men selve titlen, mens forfatter, tidsskrift og dato faktisk var
+  rigtige.
+- **Myndighedsforveksling:** `hvad-virker-for-tarmen`-kladden tilskrev fibre/søvn/motion/alkohol-
+  rådene til "Sundhedsstyrelsen: De officielle Kostråd" — Kostrådene udgives af
+  **Fødevarestyrelsen**, ikke Sundhedsstyrelsen, og dokumentet dækker desuden ikke denne specifikke
+  påstand. Rettet til en forsigtig, ikke-myndighedsspecifik formulering.
+- **Gættede/dovne URL'er (mønsteret er nu set i næsten hvert nummer):**
+  `foedevarestyrelsen.dk/leksikon-og-data/kostraad` (404, `fisk-eller-pille`), en dovent sammensat
+  PubMed-søgeforespørgsel i stedet for et direkte link (`hvor-meget-er-nok`), og seks
+  domænehenvisninger uden konkrete sider i `tallet` (samme mønster som nr. 2's læring "kladdens
+  fodnoter var kun prosahenvisninger til domænenavne").
+- **Årstalsfejl fundet under egen research, ikke i en kladde:** en indledende WebSearch-opsummering
+  antydede fejlagtigt, at JAHA-metaanalysen om omega-3 (13 forsøg, 127.477 deltagere) var en
+  "2024-2025-opdatering". CSL-JSON-opslag på DOI'en (10.1161/JAHA.119.013543) viste
+  `published-print: 2019-10` — den er fra **2019**, ikke ny. Fanget FØR briefen blev skrevet, så
+  ingen kladde arvede fejlen — men et godt eksempel på, at selv et research-resumé skal DOI-tjekkes,
+  ikke kun kladder.
+- **Talusikkerhed, der bevidst blev udeladt:** research fandt et loft-tal for NIST-mikrobiom-studiet
+  ("1.208 unikke mikrobielle grupper, kun 3 fælles"), men det kunne kun bekræftes via ét
+  AI-søgeresultat-resumé, ikke ved direkte hentning af en primær- eller sekundærkilde. Forbudt
+  eksplicit i briefen og udeladt af alle kladder — ingen af dem opfandt et erstatningstal.
+
+### mustCite-advarslen i omega3-evidens-vs-hylde er korrekt, ikke en fejl
+
+Artiklen endte med 2 citationer mod et briefet mustCite på 3 — samme mønster som er set gentagne
+gange i porteføljen (ORBIT, KRAFTEN, HumaNerd nr. 3). To solidt DOI-verificerede kilder (VITAL-
+forsøget i NEJM, JAHA-metaanalysen) dækker hele artiklens faktuelle indhold; at opfinde en tredje
+fodnote til en allerede citeret kilde havde været falsk præcision.
+
+## Nr. 5 — kandidater
+
+- **(2026-08) Søvn som "tilskud" der virker** (fortsat udestående fra nr. 2's bagside-tone)
 
 ## Produktion
 
@@ -188,6 +235,9 @@ Fact-check obligatorisk før accept (se [redaktion/README](../README.md)). Medic
 
 ## Log
 
+- **2026-08-29:** Nr. 4 publiceret — "Styrke, tarm og fedtsyrer", direkte fortsættelse af nr. 3's
+  bagsideløfte. Fem fejl fanget og rettet før udgivelse, inkl. en opdigtet artikeltitel i en kladde
+  (rigtig kilde, forkert titel). Se læringen ovenfor.
 - **2026-08-08 (format):** Ordbogen fjernet fra nr. 2 — gloser i parentes/fodnote i features.
 
 

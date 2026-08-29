@@ -1,0 +1,363 @@
+{
+  "magazine": "dosis",
+  "issue": "2026-08-nr4",
+  "issueTheme": "Styrke, tarm og fedtsyrer — tre skeptiske eftersyn",
+  "integrityNote": "Nyt nummer, produceret 2026-08-29. Alle DOI'er slået op via CSL-JSON (curl -H 'Accept: application/vnd.citationstyles.csl+json' https://doi.org/<DOI>) og title/container-title krydstjekket mod hvad briefen påstår, jf. titlens standardregel. Tema fortsætter direkte fra nr. 3's bagsideløfte: 'styrke efter 60, mikrobiom-hypen og omega-3 mellem evidens og hylde'.",
+  "researchNote": "ADVARSEL: dette felt naar ALDRIG frem til modellen — kun brief.angle goer.\n\nSTYRKE EFTER 60: Sundhedsstyrelsen, 'Anbefalinger om fysisk aktivitet og stillesiddende tid for ældre: 65+' — mindst 30 min/dag fysisk aktivitet, styrketræning mindst 2 gange/uge. RCT-evidens: systematisk review 2025 (Aging Clinical and Experimental Research, DOI 10.1007/s40520-025-03235-w) — 24 RCT'er, 951 deltagere, styrketræning forbedrer håndgreb-styrke, ganghastighed, knæ-ekstension, 'timed up and go'. Netværksmetaanalyse om optimal dosis (13 studier, 711 deltagere): 3x/uge, ca. 49% af 1RM, 19 uger, gav størst effekt på håndgrebsstyrke — brug dette til 'hvor meget er nok'-artiklen, men skriv det som ÉT studies bud på optimal dosis, ikke en officiel anbefaling. FORBUD: opfind ikke danske deltagerantal, opfind ikke et præcist antal 'danskere over 60 der styrketræner' (ikke fundet en pålidelig dansk kilde til det tal i denne research) — skriv fraværet af det tal frem i stedet.\n\nMIKROBIOM-HYPEN: NIST-ledet studie, Stephanie Servetas m.fl., 'Evaluating the analytical performance of direct-to-consumer gut microbiome testing services', Communications Biology, publiceret online 26. februar 2026 (DOI 10.1038/s42003-025-09301-3, verificeret via CSL-JSON). Design: 7 kommercielle hjemmetest-selskaber fik hver 3 identiske portioner af den SAMME, homogeniserede afføringsprøve (21 kits i alt) — og leverede indbyrdes uenige resultater. Dokumenteret eksempel: ét selskab vurderede en prøve som 'usund' tarmflora, mens andre selskaber vurderede lignende/identiske prøver som normale/sunde — samme kilde-prøve. NIST's egen formulering (parafraseret, ikke ordret citat medmindre kilden bekræfter ordlyden): der findes ingen konsensus-definition af en 'sund' mikrobiom, og metodisk variation samt manglende kvalitetskontrol er hovedårsagen til uenigheden. FORBUD: brug IKKE det specifikke tal '1.208 unikke mikrobielle grupper, kun 3 fælles' — det kunne kun bekræftes via ét AI-søgeresultat-resumé, ikke en primær- eller sekundær kilde ved direkte hentning, og skal derfor UDELADES for ikke at risikere et opfundet præcisionstal. Hvad der faktisk virker for tarmflora ifølge etableret forskning (ikke fra mikrobiom-testen selv): kostfibre, søvn, fysisk aktivitet, mindre alkohol — 'uglamourøst, men det, der er bedst dokumenteret'. Et 2025 Lancet-konsensuspapir advarer mod klinisk brug af mikrobiom-tests pga. utilstrækkelig evidens (brug denne påstand forsigtigt — skriv 'ifølge et konsensuspapir i Lancet' uden at opfinde en præcis DOI, medmindre skribenten selv kan finde og verificere den).\n\nOMEGA-3: VITAL-forsøget, Manson m.fl., New England Journal of Medicine 2019;380:23-32, DOI 10.1056/NEJMoa1811403 (verificeret via CSL-JSON — BEMÆRK: dette er SIDETAL 23-32, IKKE 33-44 som en tidligere DOSIS-notesbog-post fejlagtigt henviste til for en anden VITAL-delartikel om D-vitamin). 25.871 amerikanske deltagere (mænd 50+, kvinder 55+), median opfølgning 5,3 år, 1 g/dag marint n-3 (ca. 840 mg EPA+DHA, forhold 1,2:1). Primært sammensat udfald (større kardiovaskulære hændelser): INGEN statistisk signifikant effekt. MEN en sekundær analyse fandt reduceret risiko for myokardieinfarkt specifikt: hazard ratio 0,72 (95% CI 0,59-0,90). Metaanalyse: 'Marine Omega-3 Supplementation and Cardiovascular Disease: An Updated Meta-Analysis of 13 Randomized Controlled Trials Involving 127 477 Participants', Journal of the American Heart Association, oktober 2019, DOI 10.1161/JAHA.119.013543 (verificeret via CSL-JSON — BEMÆRK: dette er FRA 2019, ikke 2024-2025 som en tidligere søgning fejlagtigt antydede — skriv årstallet korrekt som 2019). Fandt 8% reduceret risiko for hjerteanfald og koronar hjertedød, INGEN reduceret risiko for slagtilfælde. Dansk kostråd (Fødevarestyrelsen, opdateret juni 2024 efter NNR2023): 350 g fisk om ugen, heraf mindst 200 g fed fisk (sild, makrel, laks, ørred) — dette er en anbefaling om FISK SOM MAD, ikke om fiskeolie-tilskud. NNR2023: omega-3 bør udgøre mindst 1% af energiindtaget, svarende til ca. 2,4-3,6 g/dag for voksne. FORBUD: konkludér IKKE at 'omega-3 virker' eller 'omega-3 virker ikke' som en enkelt sætning — det afhænger tydeligt af hvilket udfald og hvilken analyse, og det ER historien.\n\nGENEREL REGEL for hele nummeret: aldrig opdigtede tal, danske myndighedsnavne skal være korrekte (Sundhedsstyrelsen = anbefalinger/forebyggelse, Lægemiddelstyrelsen = medicin/tilskud-regler, Fødevarestyrelsen = kostråd/fødevarer) — forveksl dem ikke.",
+  "budget": {
+    "articles": 10,
+    "wordsPerArticle": [
+      500,
+      800
+    ],
+    "targetPages": 16,
+    "note": "Tre temaer (styrke, mikrobiom, omega-3), to artikler hver + Leder, Tallet, Rygtebørsen, Til PULSEN."
+  },
+  "opgaver": [
+    {
+      "slug": "leder",
+      "order": 1,
+      "section": "Leder",
+      "brief": {
+        "angle": "Chefredaktionens leder. DOSIS måler videre: tre skeptiske eftersyn i dette nummer — styrketræning efter 60 (hvad evidensen faktisk viser, ikke bare at 'motion er godt'), mikrobiom-hypen (et nyt NIST-ledet studie sendte den samme afføringsprøve til syv kommercielle tarmflora-testfirmaer og fik syv forskellige svar), og omega-3 (hvorfor myndighederne anbefaler fisk, men evidensen for fiskeolie-piller er langt mere blandet, end flasken antyder). Fælles tråd: et tal er ikke det samme som en anbefaling, og en anbefaling er ikke det samme som et bevis.",
+        "words": [
+          180,
+          320
+        ],
+        "mustCite": 0,
+        "format": "leder"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": null,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "editor-led",
+        "checkedAt": "2026-08-29",
+        "citations": 0,
+        "editorNote": "Chefredaktionens leder, ingen byline, ingen kommissionering."
+      }
+    },
+    {
+      "slug": "styrke-efter-60",
+      "order": 2,
+      "section": "Styrke & aldring",
+      "brief": {
+        "angle": "Hvorfor styrketræning specifikt — ikke bare 'motion' generelt — bliver vigtigere med alderen. FAKTA (brug præcis disse): Sundhedsstyrelsen anbefaler for 65+ mindst 30 minutters fysisk aktivitet dagligt (så man bliver let/meget forpustet) samt styrketræning mindst 2 gange om ugen. Baggrunden er tab af muskelmasse og -styrke med alderen (sarkopeni — tab af muskelmasse og -funktion relateret til aldring, forklar begrebet). Et systematisk review fra 2025 (24 randomiserede, kontrollerede forsøg, 951 deltagere, alle med sarkopeni) fandt, at styrketræning forbedrede håndgrebsstyrke, ganghastighed, knæ-ekstensionsstyrke og præstation i 'timed up and go'-testen (en klinisk test af, hvor hurtigt man kan rejse sig fra en stol, gå en kort strækning og sætte sig igen — bruges til at vurdere faldrisiko og funktionsevne hos ældre). Landing: dette er ikke råd om at 'holde sig i form' i al almindelighed — det er dokumenteret forebyggelse af et specifikt, målbart tab, der ellers gør hverdagen sværere (at rejse sig, bære indkøbsposer, undgå fald).",
+        "words": [
+          500,
+          800
+        ],
+        "mustCite": 2,
+        "format": "feature",
+        "mustNumber": [
+          "Sundhedsstyrelsen: mindst 30 min/dag + styrketræning mindst 2x/uge (65+)",
+          "2025-review: 24 RCT'er, 951 deltagere"
+        ]
+      },
+      "writer": {
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 612,
+        "costUSD": 0.020884,
+        "draft": "kladder/02-styrke-efter-60.md",
+        "costRouting": "byok",
+        "generationId": "gen-1788009486-m8dYVCtLionDETgoD0eh"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-29",
+        "citations": 2,
+        "editorNote": "Accepteret efter redaktionel rettelse: kladdens to fodnoter var vage prosahenvisninger uden konkrete URL'er, erstattet med verificerede links (Sundhedsstyrelsens 65+-anbefaling, senest opdateret 2024-02-08; det 2025-systematiske review, DOI verificeret via CSL-JSON)."
+      }
+    },
+    {
+      "slug": "hvor-meget-er-nok",
+      "order": 3,
+      "section": "Styrke & aldring",
+      "brief": {
+        "angle": "Companion-artikel til 'Styrke efter 60': hvor meget styrketræning er faktisk nok? FAKTA: en netværksmetaanalyse (13 studier, 711 deltagere, undersøgte optimal dosis af styrketræning for at forbedre håndgrebsstyrke hos ældre med sarkopeni) pegede på omkring 3 gange om ugen, ca. 49% af én-repetition-maksimum (1RM — den tungeste vægt, man kan løfte én gang; forklar begrebet), over cirka 19 uger, som den kombination der gav størst effekt på håndgrebsstyrke i netop DETTE studies model. Skriv det tydeligt som ét studies matematiske bud på en optimal dosis — IKKE som en officiel anbefaling fra en sundhedsmyndighed, og ikke som 'den rigtige mængde for alle'. Sæt det op mod Sundhedsstyrelsens enklere, bredere råd (mindst 2x/uge, ingen specifik %1RM eller ugeantal) — pointen er, at forskningens optimeringsforsøg og myndighedens brede, lavthængende anbefaling ikke modsiger hinanden, de svarer bare på forskellige spørgsmål ('hvad er nok til at gøre en forskel' vs. 'hvad er matematisk optimalt i ét studie'). FORBUD: opfind intet dansk deltagerantal eller nogen dansk andel, der styrketræner — det tal findes ikke pålideligt i denne research.",
+        "words": [
+          500,
+          800
+        ],
+        "mustCite": 2,
+        "format": "feature",
+        "mustNumber": [
+          "Netværksmetaanalyse: 13 studier, 711 deltagere, ca. 3x/uge, ~49% af 1RM, ~19 uger"
+        ]
+      },
+      "writer": {
+        "byline": "GPT-5.6 Terra (OpenAI)",
+        "model": "openai/gpt-5.6-terra",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 673,
+        "costUSD": 0.0285455,
+        "draft": "kladder/03-hvor-meget-er-nok.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1788009552-UZEi3U7cqmyaILctaXeu"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-29",
+        "citations": 2,
+        "editorNote": "Accepteret efter redaktionel rettelse: fodnote 1 var en dovent sammensat PubMed-søgeforespørgsel i stedet for et direkte link til artiklen; erstattet med det faktiske PMC-link til netværksmetaanalysen (DOI 10.3389/fphys.2025.1564988, verificeret). Fodnote 2's URL var forkert (gættet sti); erstattet med den verificerede sst.dk-URL."
+      }
+    },
+    {
+      "slug": "mikrobiom-hypen",
+      "order": 4,
+      "section": "Tarmflora & mikrobiom",
+      "brief": {
+        "angle": "Mikrobiom-hypen: en samme afføringsprøve, syv forskellige svar. FAKTA (brug præcis disse): et NIST-ledet studie (Stephanie Servetas og kolleger, publiceret online 26. februar 2026 i Communications Biology) sendte den samme, homogeniserede afføringsprøve — opdelt i identiske portioner — til syv kommercielle hjemme-tarmflora-testfirmaer, tre kits pr. firma. Selvom prøven var identisk, varierede resultaterne mellem selskaberne. Et dokumenteret eksempel: ét selskab vurderede en af prøverne som en 'usund' tarmflora, mens andre selskaber ikke gjorde det ud fra tilsvarende prøver. Forskerne peger på metodisk variation og mangel på fælles kvalitetsstandarder som hovedårsag. Der findes i dag ingen bredt anerkendt, konsensus-defineret 'sund' referenceværdi for et mikrobiom, som testfirmaer kan måle op imod — det er en central grund til, at resultaterne spreder sig. FORBUD: brug IKKE noget specifikt tal for 'antal mikrobielle grupper fundet' eller lignende — det kunne ikke bekræftes solidt i denne research og skal udelades, ikke gættes. Landing: en test, der svarer forskelligt på den samme prøve, kan ikke i sig selv bruges til at guide dine kostvalg, uanset hvor overbevisende rapporten ser ud.",
+        "words": [
+          500,
+          800
+        ],
+        "mustCite": 2,
+        "format": "feature",
+        "mustNumber": [
+          "7 testfirmaer, 3 kits hver (21 kits), samme afføringsprøve, publiceret 2026-02-26"
+        ]
+      },
+      "writer": {
+        "byline": "Gemini 3.1 Pro (Google)",
+        "model": "deepseek/deepseek-v3.2",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 491,
+        "costUSD": 0.00081774,
+        "draft": "kladder/04-mikrobiom-hypen.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1788009614-fsdQfAHZASUB1jTfzlzw"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-29",
+        "citations": 3,
+        "editorNote": "Accepteret efter en alvorlig rettelse: kladdens fodnote 1 opdigtede en titel — 'Inter-laboratory comparison of human gut microbiome profiling reveals high variability in commercial testing platforms' — der IKKE er den virkelige artikels titel. Den korrekte, DOI-verificerede titel er 'Evaluating the analytical performance of direct-to-consumer gut microbiome testing services' (Communications Biology, DOI 10.1038/s42003-025-09301-3). Tilføjede desuden den verificerede Lancet Gastroenterology & Hepatology-konsensusartikel (DOI 10.1016/S2468-1253(24)00311-X, februar 2025) som tredje kilde."
+      }
+    },
+    {
+      "slug": "hvad-virker-for-tarmen",
+      "order": 5,
+      "section": "Tarmflora & mikrobiom",
+      "brief": {
+        "angle": "Companion-artikel til mikrobiom-hypen: hvad ved vi faktisk virker for tarmfloraen, når testene ikke kan bruges til at guide dig? FAKTA: det, der er bedst og mest reproducerbart dokumenteret for en gavnlig tarmflora, er ifølge etableret ernæringsforskning: højt indtag af kostfibre, tilstrækkelig søvn, fysisk aktivitet og mindre alkoholindtag — bevidst uglamourøst sammenlignet med et personligt testresultat eller et specifikt probiotikum. Et konsensuspapir i Lancet fra 2025 advarer mod, at mikrobiom-testning bruges klinisk, fordi evidensen for det endnu er utilstrækkelig — skriv dette som 'ifølge et rapporteret konsensuspapir i Lancet' UDEN at opfinde en præcis DOI eller titel, medmindre du selv kan verificere den. Forklar begrebet probiotika (levende mikroorganismer, der i tilstrækkelig mængde menes at give sundhedsmæssig gavn) og præbiotika (kostfibre/stoffer, der fremmer væksten af gavnlige tarmbakterier) kort i parentes. Pointen: den kedelige liste (fibre, søvn, motion, mindre alkohol) er langt mere solidt dokumenteret end noget, en tarmflora-test eller et specifikt probiotikaprodukt kan levere i dag. FORBUD: opfind intet specifikt produktnavn, ingen specifikke procenttal for effekt af fibre/probiotika, der ikke er givet her.",
+        "words": [
+          500,
+          800
+        ],
+        "mustCite": 1,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "Qwen3.7 Max (Alibaba)",
+        "model": "qwen/qwen3.7-max",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 705,
+        "costUSD": 0.0331639,
+        "draft": "kladder/05-hvad-virker-for-tarmen.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1788009648-EnYWjoATsYjfrUCQ9xtx"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-29",
+        "citations": 2,
+        "editorNote": "Accepteret efter rettelse af en myndighedsforveksling: kladden tilskrev fibre/søvn/motion/alkohol-listen til 'Sundhedsstyrelsen: De officielle Kostråd' — men Kostrådene udgives af Fødevarestyrelsen, ikke Sundhedsstyrelsen, og dokumentet dækker ikke specifikt denne påstand. Omskrevet til en forsigtig, ikke-myndighedsspecifik attribution ('flere uafhængige oversigter'). Lancet-konsensuscitatet, som kladden bevidst undlod at sætte en gættet DOI på (jf. forbuddet i briefen), blev efterfølgende fundet og verificeret (samme kilde som mikrobiom-hypen)."
+      }
+    },
+    {
+      "slug": "omega3-evidens-vs-hylde",
+      "order": 6,
+      "section": "Fedtsyrer & hjerte",
+      "brief": {
+        "angle": "Omega-3: evidens vs. hylde. FAKTA (brug præcis disse): VITAL-forsøget (Manson m.fl., New England Journal of Medicine, 2019, bind 380, side 23-32) fulgte 25.871 amerikanske deltagere (mænd 50+, kvinder 55+) i median 5,3 år, med 1 gram marint omega-3 om dagen (ca. 840 mg EPA+DHA — eicosapentaensyre og docosahexaensyre, de to vigtigste marine omega-3-fedtsyrer, forklar forkortelserne). Det primære, sammensatte udfald (større kardiovaskulære hændelser samlet) viste INGEN statistisk signifikant effekt af tilskuddet. MEN en sekundær analyse i samme forsøg fandt en reduceret risiko for myokardieinfarkt (blodprop i hjertet) specifikt: hazard ratio 0,72 (konfidensinterval 0,59-0,90) — altså en reel, men snævrere effekt end det brede løfte, tilskuddet ofte sælges på. En metaanalyse fra 2019 (Journal of the American Heart Association, 13 randomiserede forsøg, 127.477 deltagere i alt) fandt 8% reduceret risiko for hjerteanfald og koronar hjertedød — men INGEN reduceret risiko for slagtilfælde. Skriv årstallet 2019 korrekt for begge kilder — det er IKKE nye 2025/2026-studier. Landing: 'virker omega-3?' er det forkerte spørgsmål — det afhænger tydeligt af hvilket udfald, man spørger til, og et enkelt stort forsøg og en samlet metaanalyse af flere forsøg kan svare forskelligt på samme spørgsmål uden at modsige hinanden.",
+        "words": [
+          500,
+          800
+        ],
+        "mustCite": 3,
+        "format": "feature",
+        "mustNumber": [
+          "VITAL: 25.871 deltagere, 5,3 år, 1 g/dag (~840 mg EPA+DHA)",
+          "VITAL sekundær analyse: MI-risiko HR 0,72 (95% CI 0,59-0,90)",
+          "JAHA 2019-metaanalyse: 13 forsøg, 127.477 deltagere, 8% reduceret MI/CHD-død-risiko, ingen effekt på slagtilfælde"
+        ]
+      },
+      "writer": {
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 621,
+        "costUSD": 0.031692,
+        "draft": "kladder/06-omega3-evidens-vs-hylde.md",
+        "costRouting": "byok",
+        "generationId": "gen-1788009799-Rwt59m4JTB887bb72qYI"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-29",
+        "citations": 2,
+        "editorNote": "Accepteret stort set uredigeret — begge DOI'er (NEJM 10.1056/NEJMoa1811403, JAHA 10.1161/JAHA.119.013543) verificeret via CSL-JSON, herunder sidetal, år og forfatterliste (Hu Y, Hu FB, Manson JE). Én fodnote (vitalstudy.org) fjernet som redundant med den primære NEJM-kilde. mustCite=3 var briefet, men artiklen har reelt kun to distinkte, solidt verificerede kilder — samme mønster som tidligere numre (fx ORBIT, HumaNerd nr. 3): at opfinde en tredje fodnote til en allerede citeret kilde havde været falsk præcision."
+      }
+    },
+    {
+      "slug": "fisk-eller-pille",
+      "order": 7,
+      "section": "Fedtsyrer & hjerte",
+      "brief": {
+        "angle": "Companion-artikel til omega-3-evidensartiklen: hvorfor de danske kostråd anbefaler fisk, ikke fiskeolie-piller. FAKTA: Fødevarestyrelsens officielle kostråd (opdateret juni 2024 efter NNR2023, de nye nordiske næringsstofanbefalinger) anbefaler 350 gram fisk om ugen for alle over 10 år, heraf mindst 200 gram fed fisk (sild, makrel, laks, ørred). NNR2023 angiver desuden, at omega-3-fedtsyrer bør udgøre mindst 1% af det daglige energiindtag, svarende til cirka 2,4-3,6 gram om dagen for voksne. Dette er en anbefaling om fisk SOM MAD — ikke specifikt om fiskeolie-tilskud i pilleform. Forklar forskellen for læseren: fisk giver også protein, D-vitamin, jod og selen samtidig med omega-3, og evidensen bag kostrådet om fisk som fødevare hviler på et bredere grundlag end de blandede resultater for isolerede fiskeolie-tilskud (se forrige artikel). Landing: at 'spise mere fisk' og 'tage en fiskeolie-pille' ikke nødvendigvis er udskiftelige råd, selvom de begge handler om omega-3 — myndighedernes anbefaling handler om kosten som helhed, ikke om en isoleret kapsel.",
+        "words": [
+          500,
+          800
+        ],
+        "mustCite": 2,
+        "format": "feature",
+        "mustNumber": [
+          "Fødevarestyrelsen: 350 g fisk/uge, heraf mindst 200 g fed fisk",
+          "NNR2023: omega-3 ≥1% af energiindtag (~2,4-3,6 g/dag)"
+        ]
+      },
+      "writer": {
+        "byline": "DeepSeek V3.2 (DeepSeek)",
+        "model": "deepseek/deepseek-v3.2",
+        "fallback": "google/gemini-3.5-flash"
+      },
+      "receipt": {
+        "words": 500,
+        "costUSD": 0.00123925,
+        "draft": "kladder/07-fisk-eller-pille.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1788009851-X9oGqmjaAIUcCHC4XdKa"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-29",
+        "citations": 2,
+        "editorNote": "Accepteret efter rettelse: kladdens fodnote 1 pegede på en gættet URL (foedevarestyrelsen.dk/leksikon-og-data/kostraad, HTTP 404); erstattet med den verificerede kost.dk-side. Tilføjede desuden DTU Fødevareinstituttets 'Danskernes Kostvaner 2021-2024'-tal (kun 25 % af voksne opfylder fiskerådet) som ny fodnote 2, fundet under fact-check for at styrke artiklens pointe."
+      }
+    },
+    {
+      "slug": "tallet",
+      "order": 8,
+      "section": "Tallet",
+      "brief": {
+        "angle": "Tallet: byg en kildebelagt tabel over nummerets vigtigste tal — samme princip som tidligere numre (kildetabel, ikke løs prosa). Brug PRÆCIS disse tal, ingen andre: Sundhedsstyrelsens anbefaling for 65+ (mindst 30 min/dag fysisk aktivitet, styrketræning mindst 2x/uge). 2025-review om styrketræning ved sarkopeni: 24 RCT'er, 951 deltagere. NIST-ledet mikrobiom-studie: 7 testfirmaer, 3 kits hver (21 kits i alt), samme afføringsprøve, publiceret 2026-02-26. VITAL-forsøget: 25.871 deltagere, 5,3 års opfølgning, MI-risiko HR 0,72. JAHA 2019-metaanalyse: 127.477 deltagere i 13 forsøg, 8% reduceret MI/CHD-død-risiko. Fødevarestyrelsens fiskeanbefaling: 350 g/uge, mindst 200 g fed fisk. Marker tydeligt i en note, hvilke tal der er myndighedsanbefalinger (bindende råd) og hvilke der er forskningsresultater fra enkeltstudier eller metaanalyser (ikke anbefalinger i sig selv) — de to kategorier skal ikke fremstå som samme slags tal.",
+        "words": [
+          500,
+          800
+        ],
+        "mustCite": 6,
+        "format": "tallet",
+        "mustNumber": [
+          "30 min/dag + 2x/uge styrketræning (SST, 65+)",
+          "24 RCT'er / 951 deltagere (2025-review)",
+          "7 firmaer / 21 kits (NIST-studie, 2026-02-26)",
+          "25.871 deltagere / HR 0,72 (VITAL)",
+          "127.477 deltagere / 8% (JAHA 2019)",
+          "350 g fisk/uge, ≥200 g fed fisk (Fødevarestyrelsen)"
+        ]
+      },
+      "writer": {
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 610,
+        "costUSD": 0.024506,
+        "draft": "kladder/08-tallet.md",
+        "costRouting": "byok",
+        "generationId": "gen-1788010077-YO8pi2v6Mp3EDWDfkJBI"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-29",
+        "citations": 6,
+        "editorNote": "Accepteret efter redaktionel rettelse: alle seks fodnoter var domænehenvisninger uden konkrete URL'er ('sst.dk', 'nist.gov', 'vitalstudy.org', 'ahajournals.org', 'foedevarestyrelsen.dk' m.fl.) — samme mønster som er set gentagne gange denne session. Erstattet med seks side-specifikke, verificerede links, alle genbrugt fra nummerets øvrige artikler."
+      }
+    },
+    {
+      "slug": "rygteboersen",
+      "order": 9,
+      "section": "Rygtebørsen",
+      "brief": {
+        "angle": "Rygtebørsen: tre udbredte påstande om styrke, tarmflora eller omega-3, afmonteret kort og skarpt — samme spekulative, letbenede sladder-tone som DOSIS' tidligere rygtebørs-klummer, ikke en akademisk gennemgang. Eksempler på den slags påstande, du kan vælge frit imellem eller finde lignende: 'du bliver for stiv/muskuløs af styrketræning som ældre kvinde', 'en tarmflora-test kan fortælle dig præcis, hvad du skal spise', 'fiskeolie-piller er lige så godt som at spise fisk'. Ingen kildekrav (mustCite=0) — det er et bevidst formatvalg for denne rubrik, ligesom i tidligere numre.",
+        "words": [
+          400,
+          650
+        ],
+        "mustCite": 0,
+        "format": "rygteboersen"
+      },
+      "writer": {
+        "byline": "GPT-5.6 Terra (OpenAI)",
+        "model": "openai/gpt-5.6-terra",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 572,
+        "costUSD": 0.014674,
+        "draft": "kladder/09-rygteboersen.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1788010120-14L8UqthZqt2dCmf45hg"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-29",
+        "citations": 0,
+        "editorNote": "Accepteret uredigeret. mustCite=0 er korrekt — bevidst formatvalg for rubrikken."
+      }
+    },
+    {
+      "slug": "til-pulsen",
+      "order": 10,
+      "section": "Kryds (PULSEN m.fl.)",
+      "brief": {
+        "angle": "Til PULSEN: kort krydsartikel, der bygger bro fra DOSIS' individuelle råd (styrke, tarmflora, omega-3) til PULSEN's systemperspektiv. Vinkel: når tre personlige sundhedsvalg (styrketræning, tarmflora-tests, fiskeolie-tilskud) møder det danske sundhedssystem — hvem betaler, hvem rådgiver, og hvor går grænsen mellem noget, det offentlige anbefaler bredt (som Sundhedsstyrelsens motionsråd), og noget, der er op til den enkelte at købe sig til (som en tarmflora-test eller et tilskud)? Ingen nye sundhedstal — byg videre på det, der allerede er etableret i nummerets øvrige artikler.",
+        "words": [
+          250,
+          450
+        ],
+        "mustCite": 0,
+        "format": "krydslink"
+      },
+      "writer": {
+        "byline": "Gemini 3.1 Pro (Google)",
+        "model": "deepseek/deepseek-v3.2",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 265,
+        "costUSD": 0.0006756,
+        "draft": "kladder/10-til-pulsen.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1788010148-70bWFZjzrszyCohVDlro"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-08-29",
+        "citations": 0,
+        "editorNote": "Accepteret uredigeret. Ingen nye sundhedstal, bygger på nummerets øvrige artikler."
+      }
+    }
+  ]
+}
