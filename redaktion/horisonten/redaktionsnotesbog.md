@@ -83,9 +83,39 @@ statuskode ikke er en dom over en side.
   ortodokse kirkes officielle side (udsigter). Ingen af dem var briefet eller kontrolleret. Fjernet.
 - **En markdown-fejl** i vandringsartiklens fodnote, hvor URL'en stod både som linktekst og mål.
 
-## Historier i støbeskeen til nr. 4+
+## Nr. 4 — udgivet 2026-08-29
 
-1. **(2026-08) Kreta, Sicilien, eller storby-weekend** (Lissabon / Ljubljana).  
+**Tema:** Sicilien i efteråret. **10 artikler, 3.719 ord.** Ni artikler reelt kommissioneret på
+`.env.horisonten`; lederen er redaktionens uden byline. Forbrug **0,2422 USD**. `check_issue.py`:
+**0 fejl, 0 advarsler.** `check_links.py`: **0 døde links.** `bestilling.json`:
+`redaktion/horisonten/numre/2026-08-nr4/bestilling.json`.
+
+Valgt fra idébankens "Kreta, Sicilien, eller storby-weekend". **Bevidst asynk med KULTURBOXEN
+nr. 4** (Marokko) — prøvet først, jf. synk-reglen, men HORISONTENs egen identitet og nr. 3's
+bagsideløfte afgrænser titlen til Europa, og Marokko passer derfor ikke. Noteret åbent her,
+ikke stiltiende sprunget over.
+
+### To fabrikerede kilder fanget i faktatjekket
+
+- `cykling`-kladden tilføjede en ubriefet, ukildebelagt hældningsprocent ("over 10%") for
+  Madonie-stigningerne — fjernet, kladden havde intet belæg for det præcise tal.
+- `kalenderen`-kladden citerede selv en fodnote til "www.etnadoc.com" — domænet svarer slet ikke
+  (ingen DNS-opløsning). Ren fabrikation, ikke i briefens kildeliste. Erstattet med den allerede
+  verificerede Following the Riviera-kilde. **Samme mønster som KRAFTEN nr. 4's SNAP-10A-fejl
+  samme uge: en model kan føje en overbevisende, præcis detalje til, som slet ikke står i
+  briefen — verificér altid tilføjelser, ikke kun de tal, briefen selv gav.**
+
+### En race, der ikke fandtes
+
+`løb`-briefen forbød på forhånd at opfinde et navngivet løb med dato, efter en indledende
+søgning fandt en tilsyneladende lovende kilde ("finishers.com/en/event/etna-trail"), som ved
+verifikation gav **404**. Kladden fulgte forbuddet og skrev i stedet om ruter og sæson uden en
+konkret konkurrence. God demonstration af, at en advarsel i researchNote/brief.angle om en
+allerede-forsøgt-og-forkastet kilde forhindrer, at modellen selv falder i samme fælde.
+
+## Historier i støbeskeen til nr. 5+
+
+1. **(2026-08) Kreta eller storby-weekend** (Lissabon / Ljubljana) — Sicilien brugt i nr. 4.
 2. **(2026-08) Læsersendte ruter** (Mallorca + senere Georgien/Dolomit).  
 3. **(2026-08) Postkort-vignet** som fast bagsnit.  
 4. ~~Bevidst asynk~~ → **synket 2026-08-08:** [KULTURBOXEN nr. 2](../../content/kulturboxen/issues/2026-08-nr2/) (Sydtyrol / tre sprog).
