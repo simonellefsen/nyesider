@@ -1,0 +1,347 @@
+{
+  "magazine": "aktier",
+  "issue": "2026-08-nr2",
+  "issueTheme": "Fire dips, stadig intet udsalg i indekset",
+  "integrityNote": "Andet nummer. Editor-led (ingen API-kald, ingen bylines). Alle priser verificeret mod Yahoo Finance 28. aug 2026 lukke. Ingen .env.aktier-nøgle eksisterer endnu — derfor productionCostUSD: 0.",
+  "budget": {
+    "articles": 11,
+    "wordsPerArticle": [400, 650],
+    "targetPages": 14,
+    "note": "Leder + Markedet + 4 nye kandidater (PYPL, YAR.OL, HUSQ-B.ST, AD.AS) + Tallet + ETF'erne + Porteføljen + Rygtebørsen + Bagsnit. Editor-led."
+  },
+  "opgaver": [
+    {
+      "slug": "leder",
+      "order": 1,
+      "section": "Leder",
+      "brief": {
+        "angle": "Fire nye kandidater: PayPal efter en død deal, Yara til 8×, Husqvarna under bog, Ahold på 52-ugers bund. Markedet er ikke i udsalg, men enkeltnavn er det. Nr.1's fem navne følger vi i Porteføljen. Husk: ikke personlig rådgivning.",
+        "words": [150, 250],
+        "mustCite": 0,
+        "format": "leder"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": null,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "editor-led",
+        "checkedAt": "2026-08-31",
+        "citations": 0,
+        "editorNote": "Chefredaktionens leder, ingen byline, ingen kommissionering."
+      }
+    },
+    {
+      "slug": "markedet",
+      "order": 2,
+      "section": "Markedet",
+      "brief": {
+        "angle": "Sen-august 2026 markedsbaggrund. S&P 500 7.711,76 (−1,3 % fra 52w top 7.816,70), Nasdaq 26.402, Dow 53.560. OMXC25 1.923,68 (−1,1 %), OMXS30 3.331,26 (−0,5 % fra 3.349,20), DAX 26.569,99 (−0,2 %). Warsh-tale hawkish fredag, LULU Q2 3. sep som kalenderevent.",
+        "words": [400, 600],
+        "mustCite": 3,
+        "format": "feature",
+        "mustNumber": [
+          "S&P 500 7.711,76 (−1,3 % fra 7.816,70)",
+          "OMXS30 3.331,26 (−0,5 % fra 3.349,20)",
+          "LULU Q2 3. sep 2026"
+        ]
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": null,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "editor-led",
+        "checkedAt": "2026-08-31",
+        "citations": 3,
+        "editorNote": "Editor-led. Kilder: Yahoo Finance (indekser), Reuters/FMT (Warsh)."
+      }
+    },
+    {
+      "slug": "paypal",
+      "order": 3,
+      "section": "Kandidaten",
+      "brief": {
+        "angle": "PYPL (PayPal, NasdaqGS). SATELLITE-sleeve, fresh event washout. $53,66 (−12,71 % fredag), −32,3 % fra 52w top 79,21. Trail P/E 11,62, fwd 11,78, P/B 2,65 (BVPS $22,99), EV/EBITDA 7,51. Stripe+Advent deal-talks faldt væk ~$60,50/aktie. Ikke earnings-miss: Q2 rev +5 %, adj EPS $1,38 vs ~$1,28. Invalidation: $38,46.",
+        "words": [450, 650],
+        "mustCite": 2,
+        "format": "feature",
+        "mustNumber": [
+          "$53,66 (−12,71 % fredag), 52w 38,46–79,21, −32,3 % fra top",
+          "Trail P/E 11,62, fwd 11,78, P/B 2,65, EV/EBITDA 7,51",
+          "Q2 rev +5 % til $8,68 mia., FY EPS-guide ~$5,38, næste regnskab ~27. okt"
+        ]
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": null,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "editor-led",
+        "checkedAt": "2026-08-31",
+        "citations": 2,
+        "editorNote": "Editor-led. Kilder: Yahoo Finance PYPL, SEC filing Q2."
+      }
+    },
+    {
+      "slug": "yara",
+      "order": 4,
+      "section": "Kandidaten",
+      "brief": {
+        "angle": "YAR.OL (Yara International, Oslo Børs). SATELLITE/YIELD-sleeve. NOK 446,40, −25,5 % fra 52w top 599,40. Trail P/E 7,82/8,09, fwd 7,67, P/B 1,33, EV/EBITDA 4,45. Udbytte 4,93 %. Q2: EBITDA ex-items USD 906m (+39 % y/y), NI USD 545m vs 413m; deliveries −17 % (Hormuz/urea spike). Invalidation: NOK 353,40 eller dividend cut.",
+        "words": [450, 650],
+        "mustCite": 2,
+        "format": "feature",
+        "mustNumber": [
+          "NOK 446,40, 52w 353,40–599,40, −25,5 % fra top",
+          "Trail P/E 7,82/8,09, fwd 7,67, P/B 1,33, yield 4,93 %",
+          "Q2 EBITDA ex-items USD 906m (+39 % y/y), næste regnskab 22. okt"
+        ]
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": null,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "editor-led",
+        "checkedAt": "2026-08-31",
+        "citations": 2,
+        "editorNote": "Editor-led. Kilder: Yahoo Finance YAR.OL, Yara IR."
+      }
+    },
+    {
+      "slug": "husqvarna",
+      "order": 5,
+      "section": "Kandidaten",
+      "brief": {
+        "angle": "HUSQ-B.ST (Husqvarna, Nasdaq Stockholm). SATELLITE-sleeve. SEK 37,98, −29,7 % fra 52w top 54,04. Trail P/E 15,06/15,57, fwd 11,52, P/B 0,83 (BVPS 45,05), EV/EBITDA 11,85. Udbytte 3,95 %. Under bog — det billige hook. Op-margin stadig 13,56 %. Invalidation: SEK 34,19. Vintersæson er risikoen.",
+        "words": [450, 650],
+        "mustCite": 2,
+        "format": "feature",
+        "mustNumber": [
+          "SEK 37,98, 52w 34,19–54,04, −29,7 % fra top",
+          "Trail P/E 15,06/15,57, fwd 11,52, P/B 0,83 (under bog)",
+          "Op-margin 13,56 %, yield 3,95 %, næste regnskab 21. okt"
+        ]
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": null,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "editor-led",
+        "checkedAt": "2026-08-31",
+        "citations": 2,
+        "editorNote": "Editor-led. Kilder: Yahoo Finance HUSQ-B.ST."
+      }
+    },
+    {
+      "slug": "ahold",
+      "order": 6,
+      "section": "Kandidaten",
+      "brief": {
+        "angle": "AD.AS (Ahold Delhaize, Euronext Amsterdam). SATELLITE/YIELD-sleeve. €30,57, −28,1 % fra 52w top 42,54, kun 0,8 % over 52w bund. Trail P/E 12,18, fwd 11,26, P/B 1,85, EV/EBITDA 3,87. Udbytte 4,06 %. Q2: sales €23,2 mia., uop margin 3,9 %; US comps +0,8 % (SNAP/IRA/egg drag). Invalidation: €30,33 eller FCF-guide cut.",
+        "words": [450, 650],
+        "mustCite": 2,
+        "format": "feature",
+        "mustNumber": [
+          "€30,57, 52w 30,33–42,54, −28,1 % fra top, 0,8 % over bund",
+          "Trail P/E 12,18, fwd 11,26, P/B 1,85, EV/EBITDA 3,87",
+          "Q2 sales €23,2 mia., yield 4,06 %, næste regnskab 4. nov"
+        ]
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": null,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "editor-led",
+        "checkedAt": "2026-08-31",
+        "citations": 2,
+        "editorNote": "Editor-led. Kilder: Yahoo Finance AD.AS, Ahold Q2 PDF."
+      }
+    },
+    {
+      "slug": "tallet",
+      "order": 7,
+      "section": "Tallet",
+      "brief": {
+        "angle": "Kildetabel over nummerets fire nye kandidater: ticker, børs, pris, 52w, % fra top, P/E (trail/fwd), P/B, sleeve, invalidation. Én linje pr. kandidat. Note om sleeves og læsevejledning.",
+        "words": [400, 700],
+        "mustCite": 4,
+        "format": "tallet",
+        "mustNumber": [
+          "PYPL: 53,66 / −32,3 % / P/E 11,62",
+          "YAR: 446,40 / −25,5 % / P/E 7,82",
+          "HUSQ-B: 37,98 / −29,7 % / P/E 15,06",
+          "AD: 30,57 / −28,1 % / P/E 12,18"
+        ]
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": null,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "editor-led",
+        "checkedAt": "2026-08-31",
+        "citations": 4,
+        "editorNote": "Editor-led. Fire Yahoo Finance-kilder, én pr. kandidat."
+      }
+    },
+    {
+      "slug": "etferne",
+      "order": 8,
+      "section": "ETF'erne",
+      "brief": {
+        "angle": "Ingen ETF er bedre end enkeltaktierne. SPY 769,35 (−1,3 %), VOO ~707 (−1,3 %), QQQ 716,43 (−4,3 %), EUNL.DE 128,22 (−1,2 %). IWDA.AS 128,22 (−1,2 %), VWCE.DE 168,54 (−0,9 %). Nordiske: XACTC25 214,30 (−0,7 %), XACT-OMXS30 496 (−0,8 %), EXS1.DE 218,95 (−0,2 %). Ingen rabat på indeks.",
+        "words": [400, 600],
+        "mustCite": 2,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": null,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "editor-led",
+        "checkedAt": "2026-08-31",
+        "citations": 2,
+        "editorNote": "Editor-led. Kilder: Yahoo Finance ETF-quotes."
+      }
+    },
+    {
+      "slug": "portefoeljen",
+      "order": 9,
+      "section": "Porteføljen",
+      "brief": {
+        "angle": "Nr.1's fem navne: NOVO-B.CO DKK 295,50 (uændret), LULU $120,81 (Q2 3. sep binær), ZTS $77,34, RI.PA €63,20, BMW.DE €62,64. Alle uændret fra nr.1 (28. aug lukke). LULU er den aktive position — Q2 afgør CORE/invalideret.",
+        "words": [400, 600],
+        "mustCite": 0,
+        "format": "feature",
+        "mustNumber": [
+          "NOVO-B DKK 295,50",
+          "LULU $120,81, Q2 3. sep 2026",
+          "ZTS $77,34, RI.PA €63,20, BMW.DE €62,64"
+        ]
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": null,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "editor-led",
+        "checkedAt": "2026-08-31",
+        "citations": 0,
+        "editorNote": "Editor-led. Priser fra nr.1 verificeret uændret."
+      }
+    },
+    {
+      "slug": "rygteboersen",
+      "order": 10,
+      "section": "Rygtebørsen",
+      "brief": {
+        "angle": "Afviste navne denne uge: FISV $53,18 (−61,6 %, P/E 10, JANA aktivist — følger, ikke feature). CHTR $153,62 (P/E ~4, men D/E 441 %, short 51,6 % — billig og farlig). ELUX-B.ST (SEK ~9 mia. fortegningsemission, TTM tab — dilutionfælde). STLAP.PA €4,68 (−55 %, P/B 0,28 — masse-auto som BMW). ORCL $150,85 (P/E 26, P/B 12). CMCSA (kun −18 %). ERIC-B.ST (fwd P/E 21). Ørsted (fwd ~21, TTM loss). NKE, DKS samme som nr.1.",
+        "words": [300, 500],
+        "mustCite": 0,
+        "format": "rygteboersen"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": null,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "editor-led",
+        "checkedAt": "2026-08-31",
+        "citations": 0,
+        "editorNote": "Editor-led. mustCite=0 er bevidst formatvalg for rubrikken."
+      }
+    },
+    {
+      "slug": "bagsnit",
+      "order": 11,
+      "section": "Bagsnit",
+      "brief": {
+        "angle": "Disclaimer: Aktier med Grok giver ikke personlig investeringsrådgivning. Alle tal er pr. 28. august 2026 lukke. Nr. 3 følger LULU efter Q2 (3. sep) og Novo frem mod Q3 (4. nov).",
+        "words": [150, 250],
+        "mustCite": 0,
+        "format": "bagsnit"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": null,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "editor-led",
+        "checkedAt": "2026-08-31",
+        "citations": 0,
+        "editorNote": "Editor-led. Disclaimer, ingen kilder."
+      }
+    }
+  ]
+}

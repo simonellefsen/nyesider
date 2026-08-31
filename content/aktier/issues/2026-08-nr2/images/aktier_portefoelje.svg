@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#0D1B2A"/>
+  
+  <!-- Five portfolio positions -->
+  <g transform="translate(100, 100)">
+    <!-- NOVO - CORE -->
+    <circle cx="100" cy="80" r="50" fill="#C9A227" opacity="0.8"/>
+    <text x="100" y="85" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#0D1B2A" font-weight="bold">NOVO</text>
+    <text x="100" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#888">CORE</text>
+    
+    <!-- LULU - BINARY (highlighted) -->
+    <circle cx="250" cy="80" r="50" fill="#40826D" opacity="0.9"/>
+    <text x="250" y="85" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#fff" font-weight="bold">LULU</text>
+    <text x="250" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#40826D">Q2 3. sep</text>
+    
+    <!-- ZTS - SATELLITE -->
+    <circle cx="400" cy="80" r="40" fill="#C9A227" opacity="0.5"/>
+    <text x="400" y="85" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#fff">ZTS</text>
+    <text x="400" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#888">SATELLITE</text>
+    
+    <!-- RI.PA - YIELD -->
+    <circle cx="530" cy="80" r="40" fill="#C9A227" opacity="0.5"/>
+    <text x="530" y="85" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#fff">RI.PA</text>
+    <text x="530" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#888">YIELD</text>
+    
+    <!-- BMW - CYCLICAL -->
+    <circle cx="660" cy="80" r="40" fill="#C9A227" opacity="0.5"/>
+    <text x="660" y="85" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#fff">BMW</text>
+    <text x="660" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#888">CYCLICAL</text>
+  </g>
+  
+  <!-- Binary indicator arrow for LULU -->
+  <g transform="translate(350, 280)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="14" fill="#888">LULU: Guide-up ’ CORE</text>
+    <text x="0" y="25" font-family="Arial, sans-serif" font-size="14" fill="#888">LULU: Guide-down ’ Invalideret</text>
+  </g>
+  
+  <!-- Text -->
+  <text x="400" y="400" text-anchor="middle" font-family="Georgia, serif" font-size="24" fill="#fff">Porteføljen: nr. 1's fem kandidater</text>
+  <text x="400" y="430" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#888">Redaktionelt diagram · Nye Sider</text>
+</svg>

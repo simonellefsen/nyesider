@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#0D1B2A"/>
+  
+  <!-- 52-week range visualization -->
+  <g transform="translate(150, 200)">
+    <!-- Range bar -->
+    <rect x="0" y="40" width="500" height="30" fill="#888" opacity="0.2"/>
+    
+    <!-- 52w low marker (left) -->
+    <line x1="0" y1="30" x2="0" y2="80" stroke="#40826D" stroke-width="3"/>
+    <text x="0" y="100" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#40826D">52w bund</text>
+    <text x="0" y="115" font-family="Arial, sans-serif" font-size="10" fill="#888">¬30,33</text>
+    
+    <!-- Current price marker (very close to low) -->
+    <circle cx="10" cy="55" r="12" fill="#C9A227"/>
+    <text x="10" y="20" text-anchor="middle" font-family="Georgia, serif" font-size="18" fill="#C9A227">¬30,57</text>
+    <text x="70" y="60" font-family="Arial, sans-serif" font-size="11" fill="#C9A227">+0,8 %</text>
+    
+    <!-- 52w high marker (right) -->
+    <line x1="500" y1="30" x2="500" y2="80" stroke="#888" stroke-width="3"/>
+    <text x="500" y="100" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#888">52w top</text>
+    <text x="500" y="115" font-family="Arial, sans-serif" font-size="10" fill="#888">¬42,54</text>
+  </g>
+  
+  <!-- Text -->
+  <text x="400" y="380" text-anchor="middle" font-family="Georgia, serif" font-size="24" fill="#fff">Ahold: På 52-ugers bund</text>
+  <text x="400" y="410" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#888">Redaktionelt diagram · Nye Sider</text>
+</svg>

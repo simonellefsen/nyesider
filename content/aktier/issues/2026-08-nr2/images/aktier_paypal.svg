@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#0D1B2A"/>
+  
+  <!-- Falling price curve with sharp drop -->
+  <path d="M100 150 Q200 140, 300 160 Q400 180, 450 200 L500 380" 
+        stroke="#C9A227" stroke-width="4" fill="none" stroke-linecap="round"/>
+  
+  <!-- Deal break marker -->
+  <circle cx="500" cy="380" r="20" fill="#40826D" opacity="0.8"/>
+  <text x="530" y="385" font-family="Arial, sans-serif" font-size="14" fill="#40826D">12,7 %</text>
+  
+  <!-- Volume bars (3x normal) -->
+  <g transform="translate(100, 420)">
+    <rect x="50" y="-20" width="30" height="20" fill="#888" opacity="0.3"/>
+    <rect x="100" y="-25" width="30" height="25" fill="#888" opacity="0.3"/>
+    <rect x="150" y="-18" width="30" height="18" fill="#888" opacity="0.3"/>
+    <rect x="200" y="-22" width="30" height="22" fill="#888" opacity="0.3"/>
+    <rect x="250" y="-20" width="30" height="20" fill="#888" opacity="0.3"/>
+    <rect x="300" y="-60" width="30" height="60" fill="#C9A227" opacity="0.8"/>
+    <text x="315" y="-65" font-family="Arial, sans-serif" font-size="10" fill="#C9A227" text-anchor="middle">3× vol</text>
+  </g>
+  
+  <!-- Text -->
+  <text x="400" y="470" text-anchor="middle" font-family="Georgia, serif" font-size="24" fill="#fff">PayPal: Deal break</text>
+  <text x="400" y="490" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#888">Redaktionelt diagram · Nye Sider</text>
+</svg>

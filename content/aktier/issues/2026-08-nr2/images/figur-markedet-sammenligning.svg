@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" style="background:#0D1B2A">
+  <defs>
+    <style>
+      .title { font-family: Georgia, serif; font-size: 14px; fill: #C9A227; }
+      .label { font-family: Arial, sans-serif; font-size: 11px; fill: #888888; }
+      .value { font-family: Arial, sans-serif; font-size: 10px; fill: #888888; }
+      .source { font-family: Arial, sans-serif; font-size: 9px; fill: #888888; }
+    </style>
+  </defs>
+  
+  <text x="80" y="25" class="title">Indekser vs. kandidater: afstand fra 52-ugers top</text>
+  
+  <!-- Index bars (near 0) -->
+  <g transform="translate(80, 60)">
+    <text x="0" y="25" class="label">S&amp;P 500</text>
+    <rect x="100" y="10" width="8" height="20" fill="#888" opacity="0.6"/>
+    <text x="115" y="25" class="value">1,3 %</text>
+    
+    <text x="0" y="55" class="label">DAX</text>
+    <rect x="100" y="40" width="2" height="20" fill="#888" opacity="0.6"/>
+    <text x="115" y="55" class="value">0,2 %</text>
+    
+    <text x="0" y="85" class="label">OMXC25</text>
+    <rect x="100" y="70" width="7" height="20" fill="#888" opacity="0.6"/>
+    <text x="115" y="85" class="value">1,1 %</text>
+    
+    <text x="0" y="115" class="label">OMXS30</text>
+    <rect x="100" y="100" width="3" height="20" fill="#888" opacity="0.6"/>
+    <text x="115" y="115" class="value">0,5 %</text>
+  </g>
+  
+  <!-- Candidate bars (much larger) -->
+  <g transform="translate(80, 200)">
+    <text x="0" y="25" class="label">PYPL</text>
+    <rect x="100" y="10" width="194" height="20" fill="#C9A227" opacity="0.8"/>
+    <text x="300" y="25" class="value">32,3 %</text>
+    
+    <text x="0" y="55" class="label">YAR</text>
+    <rect x="100" y="40" width="153" height="20" fill="#40826D" opacity="0.8"/>
+    <text x="260" y="55" class="value">25,5 %</text>
+    
+    <text x="0" y="85" class="label">HUSQ-B</text>
+    <rect x="100" y="70" width="178" height="20" fill="#C9A227" opacity="0.7"/>
+    <text x="285" y="85" class="value">29,7 %</text>
+    
+    <text x="0" y="115" class="label">AD</text>
+    <rect x="100" y="100" width="169" height="20" fill="#40826D" opacity="0.7"/>
+    <text x="275" y="115" class="value">28,1 %</text>
+  </g>
+  
+  <text x="80" y="380" class="source">Kilde: Yahoo Finance, 28. aug 2026 lukke. Indekserne er tæt på toppen; kandidaterne er faldet 2532 %.</text>
+</svg>

@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" style="background:#0D1B2A">
+  <defs>
+    <style>
+      .title { font-family: Georgia, serif; font-size: 14px; fill: #C9A227; }
+      .label { font-family: Arial, sans-serif; font-size: 12px; fill: #fff; }
+      .sublabel { font-family: Arial, sans-serif; font-size: 10px; fill: #888; }
+      .value { font-family: Arial, sans-serif; font-size: 11px; fill: #888888; }
+      .source { font-family: Arial, sans-serif; font-size: 9px; fill: #888888; }
+    </style>
+  </defs>
+  
+  <text x="80" y="25" class="title">Fire kandidater: nøgletal-sammenligning</text>
+  
+  <!-- Headers -->
+  <g transform="translate(80, 60)">
+    <text x="0" y="0" class="sublabel">Ticker</text>
+    <text x="100" y="0" class="sublabel">% fra top</text>
+    <text x="200" y="0" class="sublabel">P/E trail</text>
+    <text x="290" y="0" class="sublabel">P/E fwd</text>
+    <text x="380" y="0" class="sublabel">P/B</text>
+    <text x="460" y="0" class="sublabel">Yield</text>
+    <text x="540" y="0" class="sublabel">Sleeve</text>
+  </g>
+  
+  <!-- Data rows -->
+  <g transform="translate(80, 100)">
+    <!-- PYPL -->
+    <text x="0" y="0" class="label" fill="#C9A227">PYPL</text>
+    <text x="100" y="0" class="value">32,3 %</text>
+    <text x="200" y="0" class="value">11,62</text>
+    <text x="290" y="0" class="value">11,78</text>
+    <text x="380" y="0" class="value">2,65</text>
+    <text x="460" y="0" class="value"></text>
+    <text x="540" y="0" class="sublabel">SATELLITE</text>
+    
+    <!-- YAR -->
+    <text x="0" y="50" class="label" fill="#40826D">YAR</text>
+    <text x="100" y="50" class="value">25,5 %</text>
+    <text x="200" y="50" class="value">7,82</text>
+    <text x="290" y="50" class="value">7,67</text>
+    <text x="380" y="50" class="value">1,33</text>
+    <text x="460" y="50" class="value">4,93 %</text>
+    <text x="540" y="50" class="sublabel">YIELD</text>
+    
+    <!-- HUSQ-B -->
+    <text x="0" y="100" class="label" fill="#C9A227">HUSQ</text>
+    <text x="100" y="100" class="value">29,7 %</text>
+    <text x="200" y="100" class="value">15,06</text>
+    <text x="290" y="100" class="value">11,52</text>
+    <text x="380" y="100" class="value" fill="#40826D">0,83</text>
+    <text x="460" y="100" class="value">3,95 %</text>
+    <text x="540" y="100" class="sublabel">SATELLITE</text>
+    
+    <!-- AD -->
+    <text x="0" y="150" class="label" fill="#40826D">AD</text>
+    <text x="100" y="150" class="value">28,1 %</text>
+    <text x="200" y="150" class="value">12,18</text>
+    <text x="290" y="150" class="value">11,26</text>
+    <text x="380" y="150" class="value">1,85</text>
+    <text x="460" y="150" class="value">4,06 %</text>
+    <text x="540" y="150" class="sublabel">YIELD</text>
+  </g>
+  
+  <!-- Highlights -->
+  <g transform="translate(80, 310)">
+    <text x="0" y="0" class="sublabel">Laveste P/E: YAR (7,82). Under bog: HUSQ (P/B 0,83). Tættest på 52w bund: AD (+0,8 %).</text>
+  </g>
+  
+  <text x="80" y="380" class="source">Kilde: Yahoo Finance Key Statistics, 28. aug 2026 lukke.</text>
+</svg>
