@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#0D1B2A"/>
+  
+  <!-- Grid of ETF boxes -->
+  <g transform="translate(100, 80)">
+    <!-- Row 1: US ETFs -->
+    <rect x="0" y="0" width="180" height="80" fill="none" stroke="#C9A227" stroke-width="2" opacity="0.5"/>
+    <text x="90" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#C9A227">SPY</text>
+    <text x="90" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#40826D">1,3 %</text>
+    
+    <rect x="200" y="0" width="180" height="80" fill="none" stroke="#C9A227" stroke-width="2" opacity="0.5"/>
+    <text x="290" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#C9A227">QQQ</text>
+    <text x="290" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#40826D">4,3 %</text>
+    
+    <rect x="400" y="0" width="180" height="80" fill="none" stroke="#C9A227" stroke-width="2" opacity="0.5"/>
+    <text x="490" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#C9A227">VOO</text>
+    <text x="490" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#40826D">1,3 %</text>
+    
+    <!-- Row 2: EU ETFs -->
+    <rect x="0" y="100" width="180" height="80" fill="none" stroke="#888" stroke-width="2" opacity="0.5"/>
+    <text x="90" y="135" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#888">EUNL</text>
+    <text x="90" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#40826D">1,2 %</text>
+    
+    <rect x="200" y="100" width="180" height="80" fill="none" stroke="#888" stroke-width="2" opacity="0.5"/>
+    <text x="290" y="135" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#888">EXS1</text>
+    <text x="290" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#40826D">0,2 %</text>
+    
+    <rect x="400" y="100" width="180" height="80" fill="none" stroke="#888" stroke-width="2" opacity="0.5"/>
+    <text x="490" y="135" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#888">VWCE</text>
+    <text x="490" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#40826D">0,9 %</text>
+    
+    <!-- Row 3: Nordic ETFs -->
+    <rect x="100" y="200" width="180" height="80" fill="none" stroke="#888" stroke-width="2" opacity="0.5"/>
+    <text x="190" y="235" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#888">XACTC25</text>
+    <text x="190" y="255" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#40826D">0,7 %</text>
+    
+    <rect x="300" y="200" width="180" height="80" fill="none" stroke="#888" stroke-width="2" opacity="0.5"/>
+    <text x="390" y="235" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#888">OMXS30</text>
+    <text x="390" y="255" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#40826D">0,8 %</text>
+  </g>
+  
+  <!-- Text -->
+  <text x="400" y="420" text-anchor="middle" font-family="Georgia, serif" font-size="24" fill="#fff">ETF'erne: ingen rabat</text>
+  <text x="400" y="450" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#888">Redaktionelt diagram · Nye Sider</text>
+</svg>

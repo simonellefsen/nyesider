@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" style="background:#0D1B2A">
+  <defs>
+    <style>
+      .title { font-family: Georgia, serif; font-size: 16px; fill: #C9A227; }
+      .subtitle { font-family: Arial, sans-serif; font-size: 12px; fill: #888888; }
+      .axis-label { font-family: Arial, sans-serif; font-size: 11px; fill: #888888; }
+      .price-label { font-family: Arial, sans-serif; font-size: 10px; fill: #888888; }
+      .annotation { font-family: Arial, sans-serif; font-size: 10px; }
+      .source { font-family: Arial, sans-serif; font-size: 9px; fill: #888888; }
+    </style>
+  </defs>
+  
+  <!-- Title -->
+  <text x="80" y="25" class="title">Yara International (YAR.OL) — 1 år</text>
+  <text x="80" y="45" class="subtitle">YAR.OL, daglig lukkekurs, 1 år</text>
+  
+  <!-- Grid lines -->
+  <g stroke="#444444" stroke-width="0.5" stroke-dasharray="2,4">
+    <line x1="80" y1="340.0" x2="720" y2="340.0" />
+    <line x1="80" y1="284.0" x2="720" y2="284.0" />
+    <line x1="80" y1="228.0" x2="720" y2="228.0" />
+    <line x1="80" y1="172.0" x2="720" y2="172.0" />
+    <line x1="80" y1="116.0" x2="720" y2="116.0" />
+    <line x1="80" y1="60.0" x2="720" y2="60.0" />
+  </g>
+
+  <!-- 52-ugers top -->
+  <line x1="80" y1="86.5" x2="720" y2="86.5" 
+        stroke="#C9A227" stroke-width="1" stroke-dasharray="6,4" opacity="0.6"/>
+  <text x="725" y="86.5" class="annotation" fill="#C9A227">52w top</text>
+  <text x="725" y="98.5" class="price-label">NOK 599.40</text>
+
+  <!-- 52-ugers bund -->
+  <line x1="80" y1="325.9" x2="720" y2="325.9" 
+        stroke="#40826D" stroke-width="1" stroke-dasharray="6,4" opacity="0.6"/>
+  <text x="725" y="325.9" class="annotation" fill="#40826D">52w bund</text>
+  <text x="725" y="337.9" class="price-label">NOK 353.40</text>
+
+  <!-- Price line -->
+  <path d="M 80.0,316.2 L 82.6,314.0 L 85.1,314.8 L 87.7,315.5 L 90.3,319.5 L 92.9,321.2 L 95.4,319.6 L 98.0,318.1 L 100.6,309.5 L 103.1,315.9 L 105.7,310.8 L 108.3,309.3 L 110.8,308.7 L 113.4,312.7 L 116.0,317.0 L 118.6,319.8 L 121.1,317.4 L 123.7,318.3 L 126.3,308.0 L 128.8,305.4 L 131.4,302.9 L 134.0,309.0 L 136.5,309.8 L 139.1,315.0 L 141.7,309.4 L 144.3,310.4 L 146.8,311.8 L 149.4,310.8 L 152.0,313.0 L 154.5,306.7 L 157.1,300.3 L 159.7,305.1 L 162.2,304.7 L 164.8,307.6 L 167.4,298.8 L 170.0,297.5 L 172.5,303.3 L 175.1,304.2 L 177.7,307.6 L 180.2,307.6 L 182.8,305.2 L 185.4,299.1 L 188.0,304.6 L 190.5,308.8 L 193.1,309.4 L 195.7,312.5 L 198.2,310.6 L 200.8,306.1 L 203.4,311.5 L 205.9,307.7 L 208.5,321.3 L 211.1,322.6 L 213.7,322.0 L 216.2,308.8 L 218.8,303.1 L 221.4,301.1 L 223.9,306.7 L 226.5,309.8 L 229.1,315.2 L 231.6,316.3 L 234.2,318.5 L 236.8,314.5 L 239.4,317.4 L 241.9,314.3 L 244.5,312.8 L 247.1,311.7 L 249.6,310.3 L 252.2,307.4 L 254.8,303.6 L 257.3,300.1 L 259.9,295.4 L 262.5,290.4 L 265.1,287.2 L 267.6,300.8 L 270.2,296.2 L 272.8,283.5 L 275.3,284.7 L 277.9,282.4 L 280.5,281.4 L 283.1,275.4 L 285.6,277.9 L 288.2,270.1 L 290.8,267.9 L 293.3,264.1 L 295.9,268.9 L 298.5,267.0 L 301.0,270.3 L 303.6,267.0 L 306.2,267.8 L 308.8,280.1 L 311.3,288.0 L 313.9,284.3 L 316.5,283.0 L 319.0,274.1 L 321.6,259.2 L 324.2,257.4 L 326.7,262.8 L 329.3,268.4 L 331.9,263.4 L 334.5,260.0 L 337.0,256.4 L 339.6,241.7 L 342.2,237.9 L 344.7,245.0 L 347.3,241.7 L 349.9,236.1 L 352.4,238.5 L 355.0,237.5 L 357.6,236.4 L 360.2,232.5 L 362.7,230.3 L 365.3,227.1 L 367.9,220.3 L 370.4,215.8 L 373.0,224.8 L 375.6,221.3 L 378.2,226.0 L 380.7,235.8 L 383.3,236.8 L 385.9,227.7 L 388.4,222.2 L 391.0,214.6 L 393.6,216.8 L 396.1,217.6 L 398.7,212.0 L 401.3,209.1 L 403.9,202.0 L 406.4,196.2 L 409.0,192.4 L 411.6,198.7 L 414.1,192.3 L 416.7,193.1 L 419.3,184.5 L 421.8,189.9 L 424.4,169.8 L 427.0,126.0 L 429.6,118.0 L 432.1,131.9 L 434.7,128.4 L 437.3,125.6 L 439.8,137.5 L 442.4,167.3 L 445.0,189.5 L 447.6,164.4 L 450.1,155.8 L 452.7,150.6 L 455.3,145.3 L 457.8,125.1 L 460.4,121.0 L 463.0,123.9 L 465.5,89.0 L 468.1,147.2 L 470.7,125.8 L 473.3,126.2 L 475.8,114.9 L 478.4,141.8 L 481.0,133.6 L 483.5,127.8 L 486.1,167.1 L 488.7,160.5 L 491.2,156.4 L 493.8,145.9 L 496.4,148.4 L 499.0,147.2 L 501.5,148.4 L 504.1,148.2 L 506.7,151.9 L 509.2,145.3 L 511.8,146.9 L 514.4,131.9 L 516.9,154.4 L 519.5,149.0 L 522.1,156.0 L 524.7,155.0 L 527.2,145.7 L 529.8,158.0 L 532.4,150.8 L 534.9,147.6 L 537.5,150.6 L 540.1,155.6 L 542.7,151.9 L 545.2,160.1 L 547.8,164.6 L 550.4,182.9 L 552.9,174.9 L 555.5,180.5 L 558.1,179.9 L 560.6,178.8 L 563.2,167.7 L 565.8,181.9 L 568.4,189.4 L 570.9,218.1 L 573.5,208.7 L 576.1,212.6 L 578.6,203.5 L 581.2,212.4 L 583.8,216.2 L 586.3,225.8 L 588.9,227.8 L 591.5,239.7 L 594.1,234.2 L 596.6,248.1 L 599.2,248.8 L 601.8,240.7 L 604.3,251.4 L 606.9,244.4 L 609.5,249.5 L 612.0,246.1 L 614.6,258.5 L 617.2,248.5 L 619.8,247.3 L 622.3,250.6 L 624.9,249.3 L 627.5,230.1 L 630.0,240.5 L 632.6,237.3 L 635.2,225.3 L 637.8,213.8 L 640.3,223.2 L 642.9,227.8 L 645.5,230.7 L 648.0,234.2 L 650.6,241.9 L 653.2,236.6 L 655.7,220.1 L 658.3,226.0 L 660.9,243.8 L 663.5,238.7 L 666.0,231.2 L 668.6,231.5 L 671.2,235.1 L 673.7,247.6 L 676.3,256.5 L 678.9,257.8 L 681.4,258.3 L 684.0,264.8 L 686.6,255.6 L 689.2,258.9 L 691.7,259.0 L 694.3,263.0 L 696.9,262.8 L 699.4,263.3 L 702.0,264.6 L 704.6,244.4 L 707.1,248.5 L 709.7,231.8 L 712.3,225.8 L 714.9,228.6 L 717.4,225.6 L 720.0,243.4" fill="none" stroke="#C9A227" stroke-width="2" stroke-linejoin="round"/>
+
+  <!-- Current price -->
+  <circle cx="720.0" cy="235.4" r="6" fill="#40826D" />
+  <text x="715.0" y="223.4" class="annotation" fill="#40826D" text-anchor="end">NOK 446.40</text>
+
+  <!-- X-axis -->
+  <text x="80.0" y="375" class="axis-label" text-anchor="middle">aug 25</text>
+  <text x="85.1" y="375" class="axis-label" text-anchor="middle">sep 25</text>
+  <text x="200.8" y="375" class="axis-label" text-anchor="middle">nov 25</text>
+  <text x="301.0" y="375" class="axis-label" text-anchor="middle">jan 26</text>
+  <text x="406.4" y="375" class="axis-label" text-anchor="middle">mar 26</text>
+  <text x="511.8" y="375" class="axis-label" text-anchor="middle">may 26</text>
+  <text x="614.6" y="375" class="axis-label" text-anchor="middle">jul 26</text>
+
+  <!-- Y-axis -->
+  <text x="70" y="344.0" class="price-label" text-anchor="end">NOK 339</text>
+  <text x="70" y="288.0" class="price-label" text-anchor="end">NOK 396</text>
+  <text x="70" y="232.0" class="price-label" text-anchor="end">NOK 454</text>
+  <text x="70" y="176.0" class="price-label" text-anchor="end">NOK 512</text>
+  <text x="70" y="120.0" class="price-label" text-anchor="end">NOK 569</text>
+  <text x="70" y="64.0" class="price-label" text-anchor="end">NOK 627</text>
+
+  <!-- Source -->
+  <text x="80" y="395" class="source">Kilde: Yahoo Finance. Stiplet linje: 52w top/bund. Aktuel pris: NOK 446.40 (-25.5 % fra top).</text>
+</svg>

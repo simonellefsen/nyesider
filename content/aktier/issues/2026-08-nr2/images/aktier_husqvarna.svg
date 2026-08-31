@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#0D1B2A"/>
+  
+  <!-- P/B under 1 visualization -->
+  <g transform="translate(400, 200)">
+    <!-- Book value bar (full) -->
+    <rect x="-100" y="-80" width="80" height="200" fill="#40826D" opacity="0.3"/>
+    <text x="-60" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#40826D">Bogført</text>
+    <text x="-60" y="165" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#888">SEK 45</text>
+    
+    <!-- Market price bar (83% of book) -->
+    <rect x="20" y="-46" width="80" height="166" fill="#C9A227" opacity="0.8"/>
+    <text x="60" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#C9A227">Pris</text>
+    <text x="60" y="165" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#888">SEK 38</text>
+    
+    <!-- P/B label -->
+    <text x="150" y="30" font-family="Georgia, serif" font-size="36" fill="#fff">P/B 0,83</text>
+    <text x="150" y="55" font-family="Arial, sans-serif" font-size="14" fill="#888">Under bog</text>
+  </g>
+  
+  <!-- Text -->
+  <text x="400" y="420" text-anchor="middle" font-family="Georgia, serif" font-size="24" fill="#fff">Husqvarna: Under bogført værdi</text>
+  <text x="400" y="450" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#888">Redaktionelt diagram · Nye Sider</text>
+</svg>

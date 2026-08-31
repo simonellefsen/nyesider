@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#0D1B2A"/>
+  
+  <!-- Abstract fertilizer/grain motif -->
+  <g transform="translate(400, 220)">
+    <!-- Circular yield representation -->
+    <circle cx="0" cy="0" r="100" fill="none" stroke="#40826D" stroke-width="3"/>
+    
+    <!-- Dividend yield arc (4.93%) -->
+    <path d="M0 -100 A100 100 0 0 1 99 17.4" stroke="#C9A227" stroke-width="8" fill="none" stroke-linecap="round"/>
+    
+    <!-- P/E indicator -->
+    <text x="0" y="-10" text-anchor="middle" font-family="Georgia, serif" font-size="48" fill="#C9A227">8×</text>
+    <text x="0" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#888">P/E</text>
+    
+    <!-- Yield label -->
+    <text x="120" y="20" font-family="Arial, sans-serif" font-size="14" fill="#40826D">4,9 % yield</text>
+  </g>
+  
+  <!-- Text -->
+  <text x="400" y="420" text-anchor="middle" font-family="Georgia, serif" font-size="24" fill="#fff">Yara: Gødning til 8×</text>
+  <text x="400" y="450" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#888">Redaktionelt diagram · Nye Sider</text>
+</svg>

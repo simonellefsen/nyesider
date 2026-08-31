@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" style="background:#0D1B2A">
+  <defs>
+    <style>
+      .title { font-family: Georgia, serif; font-size: 16px; fill: #C9A227; }
+      .subtitle { font-family: Arial, sans-serif; font-size: 12px; fill: #888888; }
+      .axis-label { font-family: Arial, sans-serif; font-size: 11px; fill: #888888; }
+      .price-label { font-family: Arial, sans-serif; font-size: 10px; fill: #888888; }
+      .annotation { font-family: Arial, sans-serif; font-size: 10px; }
+      .source { font-family: Arial, sans-serif; font-size: 9px; fill: #888888; }
+    </style>
+  </defs>
+  
+  <!-- Title -->
+  <text x="80" y="25" class="title">Husqvarna (HUSQ-B.ST) — 1 år</text>
+  <text x="80" y="45" class="subtitle">HUSQ-B.ST, daglig lukkekurs, 1 år</text>
+  
+  <!-- Grid lines -->
+  <g stroke="#444444" stroke-width="0.5" stroke-dasharray="2,4">
+    <line x1="80" y1="340.0" x2="720" y2="340.0" />
+    <line x1="80" y1="284.0" x2="720" y2="284.0" />
+    <line x1="80" y1="228.0" x2="720" y2="228.0" />
+    <line x1="80" y1="172.0" x2="720" y2="172.0" />
+    <line x1="80" y1="116.0" x2="720" y2="116.0" />
+    <line x1="80" y1="60.0" x2="720" y2="60.0" />
+  </g>
+
+  <!-- 52-ugers top -->
+  <line x1="80" y1="98.5" x2="720" y2="98.5" 
+        stroke="#C9A227" stroke-width="1" stroke-dasharray="6,4" opacity="0.6"/>
+  <text x="725" y="98.5" class="annotation" fill="#C9A227">52w top</text>
+  <text x="725" y="110.5" class="price-label">SEK 54.04</text>
+
+  <!-- 52-ugers bund -->
+  <line x1="80" y1="329.1" x2="720" y2="329.1" 
+        stroke="#40826D" stroke-width="1" stroke-dasharray="6,4" opacity="0.6"/>
+  <text x="725" y="329.1" class="annotation" fill="#40826D">52w bund</text>
+  <text x="725" y="341.1" class="price-label">SEK 34.19</text>
+
+  <!-- Price line -->
+  <path d="M 80.0,91.7 L 82.6,102.6 L 85.1,112.9 L 87.7,122.2 L 90.3,116.1 L 92.9,116.1 L 95.4,117.3 L 98.0,121.7 L 100.6,121.5 L 103.1,126.1 L 105.7,126.1 L 108.3,131.2 L 110.8,134.5 L 113.4,142.4 L 116.0,140.3 L 118.6,139.6 L 121.1,145.2 L 123.7,154.9 L 126.3,148.3 L 128.8,160.3 L 131.4,156.7 L 134.0,153.4 L 136.5,143.8 L 139.1,143.8 L 141.7,135.9 L 144.3,118.9 L 146.8,119.4 L 149.4,123.8 L 152.0,132.2 L 154.5,139.6 L 157.1,150.4 L 159.7,158.5 L 162.2,151.2 L 164.8,161.3 L 167.4,142.4 L 170.0,141.0 L 172.5,135.2 L 175.1,128.4 L 177.7,170.6 L 180.2,183.6 L 182.8,182.6 L 185.4,173.9 L 188.0,177.9 L 190.5,183.9 L 193.1,183.2 L 195.7,187.3 L 198.2,200.0 L 200.8,205.7 L 203.4,212.7 L 205.9,208.5 L 208.5,211.5 L 211.1,212.9 L 213.7,202.6 L 216.2,198.0 L 218.8,197.9 L 221.4,199.2 L 223.9,210.6 L 226.5,221.5 L 229.1,231.5 L 231.6,209.6 L 234.2,220.6 L 236.8,215.2 L 239.4,211.5 L 241.9,204.0 L 244.5,209.0 L 247.1,201.2 L 249.6,202.3 L 252.2,201.4 L 254.8,205.7 L 257.3,207.3 L 259.9,194.5 L 262.5,190.7 L 265.1,194.3 L 267.6,191.3 L 270.2,197.6 L 272.8,180.0 L 275.3,172.5 L 277.9,181.4 L 280.5,181.3 L 283.1,190.9 L 285.6,190.6 L 288.2,200.4 L 290.8,198.3 L 293.3,199.1 L 295.9,186.2 L 298.5,185.9 L 301.0,185.4 L 303.6,193.8 L 306.2,180.3 L 308.8,189.5 L 311.3,179.9 L 313.9,188.7 L 316.5,190.5 L 319.0,187.0 L 321.6,167.0 L 324.2,168.5 L 326.7,207.0 L 329.3,217.2 L 331.9,199.7 L 334.5,185.5 L 337.0,191.9 L 339.6,196.9 L 342.2,197.9 L 344.7,198.8 L 347.3,206.2 L 349.9,196.2 L 352.4,191.8 L 355.0,184.3 L 357.6,229.7 L 360.2,219.9 L 362.7,213.1 L 365.3,213.5 L 367.9,195.1 L 370.4,199.7 L 373.0,200.6 L 375.6,207.1 L 378.2,208.7 L 380.7,205.5 L 383.3,215.5 L 385.9,217.8 L 388.4,218.9 L 391.0,226.7 L 393.6,219.8 L 396.1,223.1 L 398.7,221.7 L 401.3,220.9 L 403.9,240.8 L 406.4,264.8 L 409.0,248.6 L 411.6,249.4 L 414.1,249.6 L 416.7,269.9 L 419.3,256.2 L 421.8,264.6 L 424.4,279.5 L 427.0,289.8 L 429.6,291.6 L 432.1,296.7 L 434.7,296.5 L 437.3,311.2 L 439.8,318.0 L 442.4,306.2 L 445.0,299.8 L 447.6,295.3 L 450.1,295.2 L 452.7,296.7 L 455.3,298.9 L 457.8,296.1 L 460.4,284.9 L 463.0,293.6 L 465.5,291.8 L 468.1,273.0 L 470.7,273.1 L 473.3,257.2 L 475.8,266.7 L 478.4,257.2 L 481.0,246.8 L 483.5,245.0 L 486.1,241.5 L 488.7,252.9 L 491.2,256.8 L 493.8,264.7 L 496.4,197.2 L 499.0,205.2 L 501.5,208.6 L 504.1,215.2 L 506.7,219.6 L 509.2,215.1 L 511.8,226.0 L 514.4,232.8 L 516.9,210.7 L 519.5,213.4 L 522.1,204.5 L 524.7,207.6 L 527.2,215.6 L 529.8,213.1 L 532.4,226.3 L 534.9,233.3 L 537.5,231.4 L 540.1,229.7 L 542.7,233.3 L 545.2,224.8 L 547.8,211.5 L 550.4,221.2 L 552.9,227.5 L 555.5,236.6 L 558.1,222.1 L 560.6,237.6 L 563.2,232.8 L 565.8,237.2 L 568.4,240.4 L 570.9,243.6 L 573.5,243.2 L 576.1,246.0 L 578.6,257.2 L 581.2,258.8 L 583.8,246.4 L 586.3,242.1 L 588.9,255.4 L 591.5,277.0 L 594.1,274.8 L 596.6,279.9 L 599.2,302.8 L 601.8,292.6 L 604.3,287.8 L 606.9,286.4 L 609.5,290.9 L 612.0,287.6 L 614.6,305.0 L 617.2,303.9 L 619.8,293.3 L 622.3,296.9 L 624.9,299.5 L 627.5,319.7 L 630.0,316.4 L 632.6,312.3 L 635.2,311.4 L 637.8,304.3 L 640.3,297.1 L 642.9,290.9 L 645.5,302.2 L 648.0,300.7 L 650.6,312.8 L 653.2,304.0 L 655.7,300.6 L 658.3,294.9 L 660.9,287.5 L 663.5,269.1 L 666.0,271.7 L 668.6,276.1 L 671.2,275.4 L 673.7,266.3 L 676.3,261.6 L 678.9,256.1 L 681.4,261.8 L 684.0,262.7 L 686.6,269.9 L 689.2,269.7 L 691.7,274.4 L 694.3,279.0 L 696.9,278.2 L 699.4,288.0 L 702.0,295.3 L 704.6,296.0 L 707.1,296.8 L 709.7,288.6 L 712.3,298.8 L 714.9,291.3 L 717.4,288.6 L 720.0,292.5" fill="none" stroke="#C9A227" stroke-width="2" stroke-linejoin="round"/>
+
+  <!-- Current price -->
+  <circle cx="720.0" cy="285.0" r="6" fill="#40826D" />
+  <text x="715.0" y="273.0" class="annotation" fill="#40826D" text-anchor="end">SEK 37.98</text>
+
+  <!-- X-axis -->
+  <text x="80.0" y="375" class="axis-label" text-anchor="middle">aug 25</text>
+  <text x="85.1" y="375" class="axis-label" text-anchor="middle">sep 25</text>
+  <text x="200.8" y="375" class="axis-label" text-anchor="middle">nov 25</text>
+  <text x="301.0" y="375" class="axis-label" text-anchor="middle">jan 26</text>
+  <text x="403.9" y="375" class="axis-label" text-anchor="middle">mar 26</text>
+  <text x="511.8" y="375" class="axis-label" text-anchor="middle">may 26</text>
+  <text x="614.6" y="375" class="axis-label" text-anchor="middle">jul 26</text>
+
+  <!-- Y-axis -->
+  <text x="70" y="344.0" class="price-label" text-anchor="end">SEK 33</text>
+  <text x="70" y="288.0" class="price-label" text-anchor="end">SEK 38</text>
+  <text x="70" y="232.0" class="price-label" text-anchor="end">SEK 43</text>
+  <text x="70" y="176.0" class="price-label" text-anchor="end">SEK 48</text>
+  <text x="70" y="120.0" class="price-label" text-anchor="end">SEK 53</text>
+  <text x="70" y="64.0" class="price-label" text-anchor="end">SEK 57</text>
+
+  <!-- Source -->
+  <text x="80" y="395" class="source">Kilde: Yahoo Finance. Stiplet linje: 52w top/bund. Aktuel pris: SEK 37.98 (-29.7 % fra top).</text>
+</svg>
