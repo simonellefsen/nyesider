@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0D1B2A"/>
+      <stop offset="100%" style="stop-color:#1B3A4B"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg)"/>
+  <!-- Nike swoosh stylized -->
+  <path d="M50,180 Q150,160 200,140 Q280,100 350,80" stroke="#C9A227" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <!-- Price info -->
+  <text x="200" y="200" fill="#C9A227" font-family="Arial" font-size="28" text-anchor="middle" font-weight="bold">$38,40</text>
+  <text x="200" y="225" fill="#FF4444" font-family="Arial" font-size="16" text-anchor="middle">50,1% fra top</text>
+  <!-- Key metrics -->
+  <text x="70" y="260" fill="#40826D" font-family="Arial" font-size="14">P/E 18,3</text>
+  <text x="170" y="260" fill="#40826D" font-family="Arial" font-size="14">P/B 3,83</text>
+  <text x="270" y="260" fill="#40826D" font-family="Arial" font-size="14">Yield 4,3%</text>
+  <text x="200" y="285" fill="#666" font-family="Arial" font-size="10" text-anchor="middle">SATELLITE · Margin-turnaround</text>
+</svg>

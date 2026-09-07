@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0D1B2A"/>
+      <stop offset="100%" style="stop-color:#1B3A4B"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg)"/>
+  <text x="200" y="30" fill="#C9A227" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold">Fem kandidater: % fra 52w top</text>
+  <!-- Horizontal bar chart -->
+  <g transform="translate(30,50)">
+    <!-- BSX -->
+    <text x="0" y="15" fill="#fff" font-family="Arial" font-size="12">BSX</text>
+    <rect x="60" y="5" width="280" height="20" fill="#333"/>
+    <rect x="60" y="5" width="158" height="20" fill="#C9A227"/>
+    <text x="345" y="20" fill="#C9A227" font-family="Arial" font-size="11">56%</text>
+    
+    <!-- NKE -->
+    <text x="0" y="55" fill="#fff" font-family="Arial" font-size="12">NKE</text>
+    <rect x="60" y="45" width="280" height="20" fill="#333"/>
+    <rect x="60" y="45" width="140" height="20" fill="#C9A227"/>
+    <text x="345" y="60" fill="#C9A227" font-family="Arial" font-size="11">50%</text>
+    
+    <!-- VOLCAR -->
+    <text x="0" y="95" fill="#fff" font-family="Arial" font-size="12">VOLCAR</text>
+    <rect x="60" y="85" width="280" height="20" fill="#333"/>
+    <rect x="60" y="85" width="135" height="20" fill="#C9A227"/>
+    <text x="345" y="100" fill="#C9A227" font-family="Arial" font-size="11">48%</text>
+    
+    <!-- DECK -->
+    <text x="0" y="135" fill="#fff" font-family="Arial" font-size="12">DECK</text>
+    <rect x="60" y="125" width="280" height="20" fill="#333"/>
+    <rect x="60" y="125" width="87" height="20" fill="#C9A227"/>
+    <text x="345" y="140" fill="#C9A227" font-family="Arial" font-size="11">31%</text>
+    
+    <!-- MBG -->
+    <text x="0" y="175" fill="#fff" font-family="Arial" font-size="12">MBG</text>
+    <rect x="60" y="165" width="280" height="20" fill="#333"/>
+    <rect x="60" y="165" width="66" height="20" fill="#40826D"/>
+    <text x="345" y="180" fill="#40826D" font-family="Arial" font-size="11">24%</text>
+  </g>
+  <!-- Legend -->
+  <rect x="80" y="255" width="15" height="15" fill="#C9A227"/>
+  <text x="100" y="267" fill="#fff" font-family="Arial" font-size="10">SATELLITE</text>
+  <rect x="200" y="255" width="15" height="15" fill="#40826D"/>
+  <text x="220" y="267" fill="#fff" font-family="Arial" font-size="10">YIELD</text>
+  <text x="200" y="290" fill="#666" font-family="Arial" font-size="10" text-anchor="middle">Priser pr. 4. sep 2026</text>
+</svg>
