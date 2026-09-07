@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#f8f9fa"/>
+      <stop offset="100%" style="stop-color:#e9ecef"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="300" fill="url(#bg)"/>
+  <!-- Title -->
+  <text x="300" y="25" fill="#0D1B2A" font-family="Arial" font-size="14" text-anchor="middle" font-weight="bold">BSX · 1-års pris (sep 2025  sep 2026)</text>
+  <!-- Axes -->
+  <line x1="60" y1="250" x2="570" y2="250" stroke="#333" stroke-width="1"/>
+  <line x1="60" y1="50" x2="60" y2="250" stroke="#333" stroke-width="1"/>
+  <!-- Y-axis labels -->
+  <text x="50" y="55" fill="#666" font-family="Arial" font-size="10" text-anchor="end">$110</text>
+  <text x="50" y="105" fill="#666" font-family="Arial" font-size="10" text-anchor="end">$95</text>
+  <text x="50" y="155" fill="#666" font-family="Arial" font-size="10" text-anchor="end">$80</text>
+  <text x="50" y="205" fill="#666" font-family="Arial" font-size="10" text-anchor="end">$65</text>
+  <text x="50" y="250" fill="#666" font-family="Arial" font-size="10" text-anchor="end">$50</text>
+  <!-- X-axis labels -->
+  <text x="60" y="270" fill="#666" font-family="Arial" font-size="9" text-anchor="middle">Sep 25</text>
+  <text x="185" y="270" fill="#666" font-family="Arial" font-size="9" text-anchor="middle">Dec 25</text>
+  <text x="315" y="270" fill="#666" font-family="Arial" font-size="9" text-anchor="middle">Mar 26</text>
+  <text x="440" y="270" fill="#666" font-family="Arial" font-size="9" text-anchor="middle">Jun 26</text>
+  <text x="560" y="270" fill="#666" font-family="Arial" font-size="9" text-anchor="middle">Sep 26</text>
+  <!-- Price path - steep decline -->
+  <path d="M60,65 L100,55 L150,50 L180,48 L200,52 L250,65 L300,90 L350,120 L400,160 L450,200 L490,225 L530,235 L560,230" 
+        fill="none" stroke="#0D1B2A" stroke-width="2"/>
+  <!-- 52w high marker -->
+  <circle cx="180" cy="48" r="5" fill="#C9A227"/>
+  <text x="180" y="38" fill="#C9A227" font-family="Arial" font-size="10" text-anchor="middle">52w høj: $109,50</text>
+  <!-- Event markers -->
+  <line x1="350" y1="120" x2="350" y2="260" stroke="#FF4444" stroke-width="1" stroke-dasharray="4,2"/>
+  <text x="350" y="275" fill="#FF4444" font-family="Arial" font-size="8" text-anchor="middle">Recall+Cyber</text>
+  <!-- Current price marker -->
+  <circle cx="560" cy="230" r="5" fill="#FF4444"/>
+  <text x="540" y="220" fill="#FF4444" font-family="Arial" font-size="10" text-anchor="end">Nu: $47,80</text>
+  <!-- Annotations -->
+  <text x="300" y="290" fill="#666" font-family="Arial" font-size="9" text-anchor="middle">Kilde: Yahoo Finance · 56% fra 52-ugers top</text>
+</svg>

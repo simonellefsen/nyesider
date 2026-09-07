@@ -1,0 +1,380 @@
+{
+  "magazine": "aktier",
+  "issue": "2026-09-nr3",
+  "issueTheme": "LULU invalideret — fem nye dips mens indekset holder toppen",
+  "integrityNote": "Tredje nummer. Editor-led (ingen API-kald, ingen bylines). Alle priser verificeret mod Yahoo Finance 4. sep 2026 lukke. Ingen .env.aktier-nøgle eksisterer endnu — derfor productionCostUSD: 0. LULU invalideret per Q2-regnskab 3. sep (guide-down).",
+  "budget": {
+    "articles": 12,
+    "wordsPerArticle": [400, 650],
+    "targetPages": 16,
+    "note": "Leder + Markedet + 5 nye kandidater (NKE, DECK, BSX, VOLCAR-B, MBG) + Tallet + ETF'erne + Porteføljen (LULU exit) + Rygtebørsen + Bagsnit. Editor-led."
+  },
+  "opgaver": [
+    {
+      "slug": "leder",
+      "order": 1,
+      "section": "Leder",
+      "brief": {
+        "angle": "LULU invalideret (Q2 guide-down). Fem nye kandidater: Nike (−50%), Deckers (−31%), Boston Scientific (−56%), Volvo Cars (−48%), Mercedes (−24%). Indekset er ikke i udsalg, enkeltnavn er. Nr.1+nr.2's navne (minus LULU) følger vi i Porteføljen. Husk: ikke personlig rådgivning.",
+        "words": [200, 280],
+        "mustCite": 0,
+        "format": "leder"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": null,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "editor-led",
+        "checkedAt": "2026-09-07",
+        "citations": 0,
+        "editorNote": "Chefredaktionens leder, ingen byline, ingen kommissionering."
+      }
+    },
+    {
+      "slug": "markedet",
+      "order": 2,
+      "section": "Markedet",
+      "brief": {
+        "angle": "Første uge af sep 2026. S&P 500 7.719,77 (−1,2% fra 52w top), Nasdaq 26.524 (−3,9%), DAX −0,4%. LULU crashede 17% efter Q2 guide-down. Fed rente uændret. Kalender: Nike Q1 29. sep, Husqvarna Q3 21. okt, Yara Q3 22. okt, Volvo Cars Q3 23. okt, MBG Q3 28. okt, Novo Q3 4. nov.",
+        "words": [350, 450],
+        "mustCite": 3,
+        "format": "feature",
+        "mustNumber": [
+          "S&P 500 7.719,77 (−1,2% fra top)",
+          "LULU −17,4% til $100,61 efter Q2",
+          "FY-guide: $10,35-10,50 mia., EPS $9,48-9,73"
+        ]
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": null,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "editor-led",
+        "checkedAt": "2026-09-07",
+        "citations": 3,
+        "editorNote": "Editor-led. Kilder: Yahoo Finance (indekser), CME FedWatch, LULU earnings."
+      }
+    },
+    {
+      "slug": "nike",
+      "order": 3,
+      "section": "Kandidaten",
+      "brief": {
+        "angle": "NKE (Nike, NYSE). SATELLITE-sleeve, margin-turnaround. $38,40 (−50,1% fra 52w top $80,17). Trail P/E 18,30, P/B 3,83, yield 4,3%. Brandet er intakt, marginen skal rettes. Invalidation: $38,00.",
+        "words": [450, 600],
+        "mustCite": 1,
+        "format": "feature",
+        "mustNumber": [
+          "$38,40, 52w 38,86–80,17, −50,1% fra top",
+          "Trail P/E 18,30, P/B 3,83, yield 4,3%",
+          "Næste regnskab 29. sep 2026"
+        ]
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": null,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "editor-led",
+        "checkedAt": "2026-09-07",
+        "citations": 1,
+        "editorNote": "Editor-led. Kilde: Yahoo Finance NKE."
+      }
+    },
+    {
+      "slug": "deckers",
+      "order": 4,
+      "section": "Kandidaten",
+      "brief": {
+        "angle": "DECK (Deckers Outdoor, NYSE). SATELLITE-sleeve, derated growth. $85,81 (−31,3% fra 52w top $124,88). HOKA +26% vækst, UGG +5%. Trail P/E ~12, P/B ~5. Tariff-forbehold har derated aktien. Invalidation: $78,91.",
+        "words": [450, 600],
+        "mustCite": 1,
+        "format": "feature",
+        "mustNumber": [
+          "$85,81, 52w 78,91–124,88, −31,3% fra top",
+          "Trail P/E ~12, P/B ~5",
+          "HOKA +26% vækst i FY26"
+        ]
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": null,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "editor-led",
+        "checkedAt": "2026-09-07",
+        "citations": 1,
+        "editorNote": "Editor-led. Kilde: Yahoo Finance DECK."
+      }
+    },
+    {
+      "slug": "boston-scientific",
+      "order": 5,
+      "section": "Kandidaten",
+      "brief": {
+        "angle": "BSX (Boston Scientific, NYSE). SATELLITE-sleeve, event washout. $47,80 (−56,3% fra 52w top $109,50). Recall + cyberangreb + guide-down. Trail P/E ~19, P/B ~2,7. Franchisen er intakt. Invalidation: $45,00.",
+        "words": [450, 600],
+        "mustCite": 2,
+        "format": "feature",
+        "mustNumber": [
+          "$47,80, 52w ~47–109,50, −56,3% fra top",
+          "Trail P/E ~19, P/B ~2,7",
+          "Konsensus kursmål $61 (+27%)"
+        ]
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": null,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "editor-led",
+        "checkedAt": "2026-09-07",
+        "citations": 2,
+        "editorNote": "Editor-led. Kilder: Simply Wall St, Barchart."
+      }
+    },
+    {
+      "slug": "volvo-cars",
+      "order": 6,
+      "section": "Kandidaten",
+      "brief": {
+        "angle": "VOLCAR-B.ST (Volvo Cars, Nasdaq Stockholm). SATELLITE-sleeve, ekstrem value. SEK 18,86 (−48,4% fra 52w top 36,54). Trail P/E 5,94, P/B 0,37. Geely-backing, nordisk brand. Invalidation: SEK 18,00.",
+        "words": [450, 600],
+        "mustCite": 1,
+        "format": "feature",
+        "mustNumber": [
+          "SEK 18,86, 52w 18,33–36,54, −48,4% fra top",
+          "Trail P/E 5,94, P/B 0,37 (ekstrem value)",
+          "Næste regnskab 23. okt 2026"
+        ]
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": null,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "editor-led",
+        "checkedAt": "2026-09-07",
+        "citations": 1,
+        "editorNote": "Editor-led. Kilde: Yahoo Finance VOLCAR-B.ST."
+      }
+    },
+    {
+      "slug": "mercedes",
+      "order": 7,
+      "section": "Kandidaten",
+      "brief": {
+        "angle": "MBG.DE (Mercedes-Benz, Xetra). YIELD-sleeve, value + buyback + dividend. €47,69 (−23,5% fra 52w top €62,34). Trail P/E 8,93, P/B ~0,49, yield 7,3%. Aktiv buyback (58 mio. aktier). Invalidation: €42,00.",
+        "words": [450, 600],
+        "mustCite": 2,
+        "format": "feature",
+        "mustNumber": [
+          "€47,69, 52w 42,62–62,34, −23,5% fra top",
+          "Trail P/E 8,93, P/B ~0,49, yield 7,3%",
+          "Buyback op til 58 mio. aktier (sep 2026 – apr 2027)"
+        ]
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": null,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "editor-led",
+        "checkedAt": "2026-09-07",
+        "citations": 2,
+        "editorNote": "Editor-led. Kilder: Yahoo Finance MBG.DE, Aktiencheck.de."
+      }
+    },
+    {
+      "slug": "tallet",
+      "order": 8,
+      "section": "Tallet",
+      "brief": {
+        "angle": "Kildetabel over nummerets fem nye kandidater: ticker, børs, pris, 52w, % fra top, P/E, P/B, sleeve, invalidation. Én linje pr. kandidat. Note om sleeves og læsevejledning.",
+        "words": [350, 500],
+        "mustCite": 5,
+        "format": "tallet",
+        "mustNumber": [
+          "NKE: 38,40 / −50,1% / P/E 18,30",
+          "DECK: 85,81 / −31,3% / P/E 12",
+          "BSX: 47,80 / −56,3% / P/E 19",
+          "VOLCAR: 18,86 / −48,4% / P/E 5,94",
+          "MBG: 47,69 / −23,5% / P/E 8,93"
+        ]
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": null,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "editor-led",
+        "checkedAt": "2026-09-07",
+        "citations": 5,
+        "editorNote": "Editor-led. Fem Yahoo Finance-kilder, én pr. kandidat."
+      }
+    },
+    {
+      "slug": "etferne",
+      "order": 9,
+      "section": "ETF'erne",
+      "brief": {
+        "angle": "Ingen ETF er bedre end enkeltaktierne. SPY $770,19 (−1,2%), VOO $708,01 (−1,2%), QQQ $719,06 (−3,9%), EUNL €128,50 (−1,0%), EXS1 €218,50 (−0,4%), OMXC25 DKK 242,30 (−1,1%). P/E ~25 på S&P 500. Ingen rabat på indeks.",
+        "words": [350, 450],
+        "mustCite": 1,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": null,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "editor-led",
+        "checkedAt": "2026-09-07",
+        "citations": 1,
+        "editorNote": "Editor-led. Kilde: Yahoo Finance ETF-quotes."
+      }
+    },
+    {
+      "slug": "portefoeljen",
+      "order": 10,
+      "section": "Porteføljen",
+      "brief": {
+        "angle": "LULU invalideret (Q2 guide-down 3. sep, −17% til $100,61). Tager tabet (~17% fra $120,81). Nr.1's øvrige fire (NOVO-B, ZTS, RI.PA, BMW) holder. Nr.2's fire (PYPL, YAR, HUSQ-B, AD) holder og har let bounce. Ni kandidater tilbage.",
+        "words": [400, 550],
+        "mustCite": 0,
+        "format": "feature",
+        "mustNumber": [
+          "LULU: $120,81 → $100,61 = ~17% tab",
+          "YAR: +2%, HUSQ-B: +3%, AD: +4%",
+          "9 kandidater tilbage fra nr.1+nr.2"
+        ]
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": null,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "editor-led",
+        "checkedAt": "2026-09-07",
+        "citations": 0,
+        "editorNote": "Editor-led. LULU invalideret per notesbog-regel."
+      }
+    },
+    {
+      "slug": "rygteboersen",
+      "order": 11,
+      "section": "Rygtebørsen",
+      "brief": {
+        "angle": "Afviste navne: CMCSA (−19%, ikke nok rabat), BALD-B (for illikvid), RNO (foretrækker MBG), LULU som re-pick (nej, respekter invalidation). Fra nr.2: FISV (følger, JANA), CHTR (for binær), ELUX-B (dilution), STLAP (masse-auto).",
+        "words": [350, 450],
+        "mustCite": 0,
+        "format": "rygteboersen"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": null,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "editor-led",
+        "checkedAt": "2026-09-07",
+        "citations": 0,
+        "editorNote": "Editor-led. mustCite=0 er bevidst formatvalg for rubrikken."
+      }
+    },
+    {
+      "slug": "bagsnit",
+      "order": 12,
+      "section": "Bagsnit",
+      "brief": {
+        "angle": "Disclaimer: Aktier med Grok giver ikke personlig investeringsrådgivning. Alle tal er pr. 4. september 2026 lukke. Nr. 4 følger Nike Q1 (29. sep), Husqvarna Q3 (21. okt), Yara Q3 (22. okt), Volvo Cars Q3 (23. okt), Mercedes Q3 (28. okt), Novo Q3 (4. nov).",
+        "words": [180, 250],
+        "mustCite": 0,
+        "format": "bagsnit"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": null,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "editor-led",
+        "checkedAt": "2026-09-07",
+        "citations": 0,
+        "editorNote": "Editor-led. Disclaimer, ingen kilder."
+      }
+    }
+  ]
+}
