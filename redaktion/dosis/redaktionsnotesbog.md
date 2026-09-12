@@ -1,6 +1,6 @@
 # DOSIS – Redaktionsnotesbog
 
-Opdateret efter nr. 2 (august 2026, *"Appetitten under kontrol"*).  
+Opdateret efter nr. 5 (2026-09-12, *"Tre skeptiske eftersyn"*).
 OpenRouter: **kun** `.env.dosis`. Imagine: `.env.local`.
 
 ## Identitet
@@ -221,9 +221,44 @@ gange i porteføljen (ORBIT, KRAFTEN, HumaNerd nr. 3). To solidt DOI-verificered
 forsøget i NEJM, JAHA-metaanalysen) dækker hele artiklens faktuelle indhold; at opfinde en tredje
 fodnote til en allerede citeret kilde havde været falsk præcision.
 
-## Nr. 5 — kandidater
+## Nr. 5 — udgivet 2026-09-12
 
-- **(2026-08) Søvn som "tilskud" der virker** (fortsat udestående fra nr. 2's bagside-tone)
+**Tema:** Tre skeptiske eftersyn: magnesium, creatin og collagen. **6 artikler, 2.621 ord.** Fem
+artikler reelt kommissioneret på `.env.dosis`; lederen er redaktionens uden byline. Forbrug
+**0,1324 USD**. `check_issue.py`: **0 fejl, 0 advarsler.** `check_links.py`: **0 døde links.**
+`bestilling.json`: `redaktion/dosis/numre/2026-09-nr5/bestilling.json`.
+
+Indfrier nr. 2's udestående "søvn som tilskud"-spor, direkte fortsættelse af nr. 3/4's
+skeptiske-eftersyn-format. Collagen-historien er nummerets skarpeste: en metaanalyse med 23
+forsøg/1.474 deltagere, hvor den positive effekt forsvinder fuldstændig i studier uden
+industrifinansiering — et dokumenteret, kvantificeret eksempel på finansieringsbias, ikke bare en
+generel mistanke om den.
+
+### En opdigtet statistik fanget i nummerets skarpeste historie
+
+`collagen-huden`-kladden (Gemini 3.1 Pro) tilføjede en ubriefet sætning om, at "det meste er over
+90 % industri-hype" — et præcist, opdigtet tal, der ikke findes i den citerede metaanalyse eller
+nogen anden kilde. Ironisk nok skete fabrikationen midt i en artikel, der netop handler om at
+adskille reel evidens fra overbevisende, men ubelagte påstande. Fjernet.
+
+### En dovent sammensat søge-URL fanget
+
+`creatin-hjernen`-kladdens sidste fodnote var en generisk PubMed-søgeforespørgsel i stedet for et
+direkte link til det specifikke Alzheimer-pilotstudie — samme mønster som er set i adskillige
+andre titler denne uge. Redaktionen fandt selv det korrekte PubMed-ID (40395689) og rettede
+fodnoten.
+
+## Løfter givet i nr. 5
+
+- **Bagsiden:** en obduktion af, hvordan en wellness-myte dør — kirkegården for glemte
+  superfødevarer.
+
+## Nr. 6 — kandidater
+
+- ~~Søvn som "tilskud" der virker~~ → **brugt i nr. 5** (2026-09-12, som magnesium-artiklen).
+- **(2026-09) Glemte superfødevarer** — en "obduktion" af, hvordan en tidligere hypet
+  ingrediens (fx chiafrø, goji-bær, kokosvand) gik fra "essentiel" til glemt. Lovet som
+  bagsideløfte til nr. 6.
 
 ## Produktion
 
@@ -234,6 +269,11 @@ python3 production/load_env.py dosis
 Fact-check obligatorisk før accept (se [redaktion/README](../README.md)). Medicin = indikation, forbehold, ingen dosisråd til læseren.
 
 ## Log
+
+- **2026-09-12:** Nr. 5 udgivet — "Tre skeptiske eftersyn" (magnesium, creatin, collagen). Se
+  læringen ovenfor: en opdigtet "90 % industri-hype"-statistik fanget midt i nummerets egen
+  fortælling om at adskille evidens fra hype, og en doven PubMed-søge-URL erstattet med det
+  specifikke studie.
 
 - **2026-08-29:** Nr. 4 publiceret — "Styrke, tarm og fedtsyrer", direkte fortsættelse af nr. 3's
   bagsideløfte. Fem fejl fanget og rettet før udgivelse, inkl. en opdigtet artikeltitel i en kladde

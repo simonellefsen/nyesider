@@ -1,0 +1,219 @@
+{
+  "magazine": "dosis",
+  "issue": "2026-09-nr5",
+  "issueTheme": "Tre skeptiske eftersyn: magnesium, creatin og collagen",
+  "budget": {
+    "articles": 6,
+    "wordsPerArticle": [
+      300,
+      750
+    ],
+    "targetPages": 12,
+    "note": "Fortsætter nr. 4's 'skeptiske eftersyn'-format. Collagen-historien er nummerets skarpeste: en dokumenteret finansieringsbias i selve metaanalysen."
+  },
+  "opgaver": [
+    {
+      "slug": "leder",
+      "order": 1,
+      "section": "Leder",
+      "brief": {
+        "angle": "Kort leder der introducerer temaet: DOSIS' kritiske eftersyn fortsætter — denne gang tre populære tilskud/kosttrends: magnesium til søvn, creatin til hjernen, og collagen til huden. Fælles pointe: 'virker det?' afhænger ofte af, hvem der har betalt for undersøgelsen.",
+        "words": [
+          150,
+          250
+        ],
+        "mustCite": 0,
+        "format": "leder"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": null,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-09-12",
+        "citations": 0,
+        "editorNote": "Redaktionens egen leder, ingen byline, ingen API-kald."
+      }
+    },
+    {
+      "slug": "magnesium-soevn",
+      "order": 2,
+      "section": "Feature · Søvn",
+      "brief": {
+        "angle": "Skeptisk eftersyn af magnesiumtilskud til søvn — et af de mest solgte 'søvn-tilskud' på hylden. Brug PRÆCIS disse verificerede fund fra en systematisk oversigt offentliggjort august 2026 (PubMed ID 42661485, søgte PubMed/MEDLINE, Scopus, Cochrane CENTRAL, ClinicalTrials.gov og WHO's kliniske forsøgsregister fra start til 1. juni 2026, 12 randomiserede, kontrollerede forsøg inkluderet i hovedanalysen): konklusionen er, at den nuværende evidens IKKE understøtter magnesium som en rutinemæssig behandling af søvnløshed. Tilskuddet kan muligvis give en beskeden effekt på udvalgte, subjektive mål hos nogle voksne, men fundene er inkonsistente på tværs af subjektive mål, EEG, actigrafi (bevægelsesmåling) og fysiologiske markører, og evidensens sikkerhed er lav til meget lav. En separat, mindre oversigt over magnesium-L-threonat (et specifikt, dyrere magnesiumtilskud markedsført specifikt til søvn og kognition) fandt kun 5 randomiserede forsøg — 2 lav kvalitet, 2 middel kvalitet, 1 høj kvalitet — og i 2 ud af de 5 forsøg forbedrede magnesium IKKE søvnkvaliteten mere end placebo. Skriv eksplicit, at der ikke findes nogen dansk myndighedsanbefaling om magnesiumtilskud specifikt til søvn (skriv fraværet frem, gæt IKKE en anbefaling). IKKE opdigt et præcist dosis-råd til læseren — DOSIS giver aldrig doseringsråd.",
+        "words": [
+          500,
+          750
+        ],
+        "mustCite": 2,
+        "mustNumber": [
+          "12 randomiserede forsøg",
+          "1. juni 2026"
+        ],
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 558,
+        "costUSD": 0.034956,
+        "draft": "kladder/02-magnesium-soevn.md",
+        "costRouting": "byok",
+        "generationId": "gen-1789202522-1oiqAbYT4UGIBi74XS83"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-09-12",
+        "citations": 2,
+        "editorNote": "Faktatjekket direkte mod PubMed 42661485 og Frontiers-artiklen. Bar sst.dk-henvisning fjernet (kan ikke bruges til at bevise et fravær af anbefaling); ingen faktafejl fundet i selve tallene."
+      }
+    },
+    {
+      "slug": "creatin-hjernen",
+      "order": 3,
+      "section": "Feature · Kognition",
+      "brief": {
+        "angle": "Skeptisk eftersyn af påstanden om, at creatin (kendt fra styrketræning) også er godt for hjernen/kognitionen — en hurtigt voksende markedsføringsvinkel. Brug PRÆCIS disse verificerede fund: videnskaben understøtter IKKE endnu at behandle creatin som et bevist nootropikum/hjerne-sundhedstilskud for raske voksne. Det mest forsvarlige fund er, at creatin muligvis beskedent kan understøtte kognitiv præstation, når hjernen er under metabolisk stress — fx ved søvnmangel eller træthed — IKKE som en generel kognitiv boost for en rask, udhvilet person. Et pilotforsøg med KUN 20 Alzheimer-patienter (8 uger, 20 g creatin dagligt) viste forbedret samlet kognition og en 11 % stigning i hjernens creatin-koncentration — men studiet havde INGEN kontrolgruppe (single-arm design) og kort opfølgning, så det skal tolkes med stor forsigtighed, ikke som bevis. Subgruppeanalyser i en større metaanalyse antydede størst effekt hos personer med sygdom, i aldersgruppen 18-60 år, og hos kvinder — men dette er sekundære, mindre sikre fund, ikke hovedkonklusionen. SKELN SKARPT mellem creatins veldokumenterede effekt på muskelstyrke/træning (som IKKE er til diskussion i denne artikel) og den langt mere spinkle evidens for kognition hos raske mennesker — bland ikke de to. IKKE opdigt et præcist IQ-forbedringstal eller lignende.",
+        "words": [
+          500,
+          750
+        ],
+        "mustCite": 2,
+        "mustNumber": [
+          "20 patienter",
+          "8 uger",
+          "11 %"
+        ],
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "GPT-5.6 Terra (OpenAI)",
+        "model": "openai/gpt-5.6",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 575,
+        "costUSD": 0.0289435,
+        "draft": "kladder/03-creatin-hjernen.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1789202597-eqFxWsSk1bQOwAa8VUpo"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-09-12",
+        "citations": 3,
+        "editorNote": "Faktatjekket. Kladdens sidste fodnote var en dovent sammensat PubMed-søge-URL i stedet for det specifikke studie — erstattet med det korrekte PubMed-ID (40395689) efter uafhængig søgning. Alle tre kildeURL'er verificeret (Nature, Frontiers, PubMed)."
+      }
+    },
+    {
+      "slug": "collagen-huden",
+      "order": 4,
+      "section": "Feature · Hud",
+      "brief": {
+        "angle": "Skeptisk eftersyn af collagentilskud mod hudaldring — DOSIS' skarpeste historie i dette nummer. Brug PRÆCIS disse verificerede fund fra Myung & Park, 'Effects of Collagen Supplements on Skin Aging: A Systematic Review and Meta-Analysis of Randomized Controlled Trials', The American Journal of Medicine, 2025, bind 138, nr. 9, s. 1264-1277, DOI 10.1016/j.amjmed.2025.04.034 (verificeret via CSL-JSON): metaanalysen omfattede 23 randomiserede, kontrollerede forsøg med 1.474 deltagere. Den SAMLEDE pulje af alle studier viste en forbedring i hudens fugtighed, elasticitet og rynker. MEN — og dette er hele historien — da forskerne opdelte studierne efter finansieringskilde, viste studier UDEN finansiering fra medicinal-/tilskudsindustrien INGEN effekt på nogen af de tre mål, mens studier MED industrifinansiering viste signifikante positive effekter på alle tre mål. Forfatternes konklusion var eksplicit: der findes i øjeblikket ingen klinisk evidens, der understøtter brug af collagentilskud til at forebygge eller behandle hudaldring. En separat paraplygennemgang (umbrella review) af 16 systematiske oversigter (113 forsøg, 7.983 patienter) fandt den stærkeste evidens specifikt hos postmenopausale kvinder og personer med UV-skadet hud — grupper, der typisk IKKE nævnes specifikt i produkternes markedsføring til et bredt publikum. Gør pointen skarp og eksplicit: dette er ikke bare 'blandet evidens', det er et dokumenteret eksempel på, hvordan finansieringskilde kan forudsige et studies resultat.",
+        "words": [
+          500,
+          750
+        ],
+        "mustCite": 2,
+        "mustNumber": [
+          "23 forsøg",
+          "1.474 deltagere"
+        ],
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "Gemini 3.1 Pro (Google)",
+        "model": "google/gemini-3.1-pro-preview",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 696,
+        "costUSD": 0.054476,
+        "draft": "kladder/04-collagen-huden.md",
+        "costRouting": "byok",
+        "generationId": "gen-1789202685-mLaZzWdm4BFG0djehP7H"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-09-12",
+        "citations": 2,
+        "editorNote": "Faktatjekket direkte mod DOI'en via CSL-JSON (titel, tidsskrift, bind og forfattere bekræftet ordret). Kladden tilføjede en ubriefet, opdigtet statistik ('over 90 % industri-hype'), som ikke findes i studiet — fjernet."
+      }
+    },
+    {
+      "slug": "tallet",
+      "order": 5,
+      "section": "Tallet",
+      "brief": {
+        "angle": "Tallet: byg en lille kildetabel, der sammenligner de tre tilskuds evidensstyrke, ikke et enkelt tal. Kolonner: tilskud, hvad det markedsføres til, antal forsøg i den nyeste oversigt, hovedkonklusion, evidensstyrke (fx 'lav/meget lav' for magnesium, 'foreløbig/spinkel' for creatin til kognition, 'kun i industrifinansierede studier' for collagen). Brug PRÆCIS de tal, der allerede er brugt i nummerets tre features (12 forsøg for magnesium, 20 Alzheimer-patienter/8 uger for creatin, 23 forsøg/1.474 deltagere for collagen). Pointen skal være eksplicit: 'evidens findes' er ikke det samme som 'evidens overbeviser' — og for mindst ét af de tre tilskud (collagen) afhænger konklusionen direkte af, hvem der betalte for forskningen.",
+        "words": [
+          300,
+          450
+        ],
+        "mustCite": 1,
+        "format": "tallet"
+      },
+      "writer": {
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 327,
+        "costUSD": 0.013404,
+        "draft": "kladder/05-tallet.md",
+        "costRouting": "byok",
+        "generationId": "gen-1789202740-iC0PwJbQnTLMUS3OA9rc"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-09-12",
+        "citations": 3,
+        "editorNote": "Faktatjekket. Kladdens afsluttende kildenote var vag og delvist forkert ('Cochrane-databasen' — ingen af de tre citerede studier er Cochrane-reviews) — erstattet med tre direkte, specifikke fodnoter til de faktiske kilder, allerede verificeret i nummerets øvrige artikler."
+      }
+    },
+    {
+      "slug": "rygteboersen",
+      "order": 6,
+      "section": "Rygtebørsen",
+      "brief": {
+        "angle": "Rygtebørsen: DOSIS' etablerede løse spekulationsformat om nye tilskud/sundhedstrends i medierne, ingen kildekrav. Slut med et konkret bagsideløfte til nr. 6, der viderefører 'næste hylde, næste myte'-linjen — vælg et emne, der ikke allerede er brugt i denne notesbog.",
+        "words": [
+          300,
+          500
+        ],
+        "mustCite": 0,
+        "format": "rygteboersen"
+      },
+      "writer": {
+        "byline": "DeepSeek V3.2 (DeepSeek)",
+        "model": "deepseek/deepseek-v3.2",
+        "fallback": null
+      },
+      "receipt": {
+        "words": 312,
+        "costUSD": 0.0005712,
+        "draft": "kladder/06-rygteboersen.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1789202769-6o7lEcmjoXNeF1DEhOh6"
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-09-12",
+        "citations": 0,
+        "editorNote": "Ren spekulationskolonne (mustCite 0), konsekvent hedget sprog ('ifølge rygterne', 'skulle være') — ingen ændring nødvendig."
+      }
+    }
+  ]
+}

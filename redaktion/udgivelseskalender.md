@@ -29,7 +29,7 @@ Håndhæves som **ERROR** i `production/check_issue.py` (og dermed i `npm run pr
 | 2026-08-31 | aktier/2026-08-nr2 (nr. 2) |
 | 2026-09-05 | gnisten/2026-09-nr5 (nr. 5); kraften/2026-09-nr5 (nr. 5); orbit/2026-09-nr5 (nr. 5); pulsen/2026-09-nr5 (nr. 5); spaending/2026-09-nr5 (nr. 5) |
 | 2026-09-07 | aktier/2026-09-nr3 (nr. 3) |
-| 2026-09-12 | horisonten/2026-09-nr5 (nr. 5); kulturboxen/2026-09-nr5 (nr. 5) |
+| 2026-09-12 | dosis/2026-09-nr5 (nr. 5); horisonten/2026-09-nr5 (nr. 5); kulturboxen/2026-09-nr5 (nr. 5) |
 
 ## Efter magasin
 
@@ -49,6 +49,7 @@ Håndhæves som **ERROR** i `production/check_issue.py` (og dermed i `npm run pr
 | 2 | `2026-08-nr2` | 2026-08-08 | published | Appetitten under kontrol |
 | 3 | `2026-08-nr3` | 2026-08-15 | published | Søvnen, der ikke kan stikkes |
 | 4 | `2026-08-nr4` | 2026-08-29 | published | Styrke, tarm og fedtsyrer — tre skeptiske eftersyn |
+| 5 | `2026-09-nr5` | 2026-09-12 | published | Tre skeptiske eftersyn: magnesium, creatin og collagen |
 
 ### gnisten
 
