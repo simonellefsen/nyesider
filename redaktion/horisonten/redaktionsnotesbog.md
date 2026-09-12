@@ -1,6 +1,6 @@
 # HORISONTEN – Redaktionsnotesbog
 
-Opdateret efter nr. 3 (august 2026) **Dolomitterne i efteråret** — genopbygget 2026-08-19 fra en tom "parked"-skal.
+Opdateret efter nr. 5 (2026-09-12) **Kreta** — introducerer den nye faste rubrik Rejsevejledning.
 
 ## Identitet
 
@@ -113,9 +113,54 @@ verifikation gav **404**. Kladden fulgte forbuddet og skrev i stedet om ruter og
 konkret konkurrence. God demonstration af, at en advarsel i researchNote/brief.angle om en
 allerede-forsøgt-og-forkastet kilde forhindrer, at modellen selv falder i samme fælde.
 
-## Historier i støbeskeen til nr. 5+
+## Nr. 5 — udgivet 2026-09-12
 
-1. **(2026-08) Kreta eller storby-weekend** (Lissabon / Ljubljana) — Sicilien brugt i nr. 4.
+**Tema:** Kreta. **7 artikler, 2.958 ord.** Seks artikler reelt kommissioneret på `.env.horisonten`;
+lederen er redaktionens uden byline. Forbrug **0,1635 USD**. `check_issue.py`: **0 fejl, 1
+advarsel** (korrekt, se nedenfor). `check_links.py`: **0 døde links** (3 bot-blokerede, alle
+læst manuelt). `bestilling.json`: `redaktion/horisonten/numre/2026-09-nr5/bestilling.json`.
+
+Valgt fra idébankens "Kreta eller storby-weekend", ophængt på en frisk nyhed: 12. juli 2025
+optog UNESCO seks minoiske paladscentre (Knossos, Phaistos, Malia, Zakros, Zominthos, Kydonia)
+samlet på verdensarvslisten. Nummeret introducerer desuden den nye faste rubrik **Rejsevejledning**
+(besluttet 2026-08-29), første gang anvendt her.
+
+### En forkert UNESCO-ID og to flaky/dead URL'er fanget
+
+`vandring-samaria`-kladden citerede Samaria-kløftens UNESCO tentative-list-side med et forkert
+ID-nummer (5863 i stedet for det korrekte 5865) — en plausibel, men forkert adresse, samme
+fejlklasse som porteføljens gentagne "gættet myndighedssti"-mønster. Rettet efter uafhængig
+verifikation. To andre URL'er var reelt problematiske efter redigering: en visitgreece.gr-side
+manglede et `/en/`-sprogpræfiks og gav en vedvarende redirect-kæde (rettet til slutmålet), og
+`unesco.org/en/global-geoparks` viste sig at svare **200 til en almindelig curl-forespørgsel, men
+404 til både `check_links.py` og WebFetch** — endnu en variant af "en klient-afhængig statuskode
+er ikke en dom over sidens eksistens", denne gang i den modsatte retning af de tidligere fundne
+tilfælde (ESA/EUR-Lex svarede *falsk levende*; her svarer unesco.org's topsider *falsk død* til
+automatiserede klienter, mens en specifik undersides-URL for samme program virkede fint).
+Erstattet med Psiloritis Geoparks egen hjemmeside.
+
+### En forkert "indfødt drue" fanget
+
+`mad-og-vin`-kladden nævnte Assyrtiko som en af Kretas indfødte druesorter — druen er græsk, men
+dens hjemsted er Santorini, og den står ikke på listen over Kretas 11 faktisk indfødte
+druesorter. Fjernet uden erstatning, da Vidiano og Kotsifali allerede bar pointen.
+
+### En opdigtet græsk lovhenvisning fanget
+
+`rejsevejledning`-kladden (første artikel i det nye format) citerede en "græsk ministerafgørelse
+91354/2017" om hotellers pasregistrering — ingen søgning kunne bekræfte, at denne afgørelse
+findes under det nummer. Erstattet med Hellenic Chamber of Hotels' egen side om gæsters/hotellers
+rettigheder, som dækker emnet generelt uden at opfinde et præcist paragrafnummer, kladden ikke
+selv kunne belægge.
+
+## Løfter givet i nr. 5
+
+- **Bagsiden:** næste horisont venter fortsat i Europa (uændret løfte).
+
+## Historier i støbeskeen til nr. 6+
+
+1. ~~Kreta~~ → **brugt i nr. 5** (2026-09-12).
+2. **(2026-08) Storby-weekend** (Lissabon / Ljubljana).
 2. **(2026-08) Læsersendte ruter** (Mallorca + senere Georgien/Dolomit).  
 3. **(2026-08) Postkort-vignet** som fast bagsnit.  
 4. ~~Bevidst asynk~~ → **synket 2026-08-08:** [KULTURBOXEN nr. 2](../../content/kulturboxen/issues/2026-08-nr2/) (Sydtyrol / tre sprog).
@@ -175,6 +220,11 @@ Ikke tilføjet retroaktivt til nr. 1–4 — det er en fremadrettet standard, ik
 - OpenRouter: **kun** `.env.horisonten`. Imagine: `.env.local`.
 
 ## Log
+
+- **2026-09-12:** Nr. 5 udgivet — Kreta, første brug af den nye Rejsevejledning-rubrik. Se
+  læringen ovenfor: en forkert UNESCO-ID, en flaky unesco.org-underside der svarer forskelligt
+  til forskellige klienter, en fejlagtig "indfødt drue"-påstand og en opdigtet græsk lovhenvisning
+  blev alle fanget og rettet.
 
 - **2026-08-29 (senere):** Ny fast rubrik besluttet: **Rejsevejledning**, fra nr. 5 og frem. Se
   `## Format` for det fulde brief (UM-vejledning hvis den findes, forberedelse, kriminalitet,

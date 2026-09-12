@@ -1,0 +1,250 @@
+{
+  "magazine": "horisonten",
+  "issue": "2026-09-nr5",
+  "issueTheme": "Kreta — oldtidens paladser, en kløft der lukker for vinteren, og en ny fast rubrik",
+  "budget": {
+    "articles": 7,
+    "wordsPerArticle": [
+      350,
+      650
+    ],
+    "targetPages": 12,
+    "note": "Kreta valgt fra idébanken (Kreta/storby-weekend). Introducerer den nye faste rubrik Rejsevejledning, besluttet 2026-08-29. Hængt op på 2025-UNESCO-optagelsen af de minoiske paladscentre."
+  },
+  "opgaver": [
+    {
+      "slug": "leder",
+      "order": 1,
+      "section": "Leder",
+      "brief": {
+        "angle": "Kort leder der introducerer temaet: Kreta, valgt fra idébanken som næste europæiske horisont. Nævn den friske UNESCO-optagelse i 2025 som ophæng, og at nummeret introducerer en ny fast rubrik: Rejsevejledning.",
+        "words": [
+          150,
+          250
+        ],
+        "mustCite": 0,
+        "format": "leder"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": null,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-09-12",
+        "citations": 0,
+        "editorNote": "Redaktionens egen leder, ingen byline, ingen API-kald."
+      }
+    },
+    {
+      "slug": "overblik",
+      "order": 2,
+      "section": "Overblik",
+      "brief": {
+        "angle": "Overblik over Kreta som rejsemål. Brug PRÆCIS dette som ophæng: 12. juli 2025 blev 'Minoan Palatial Centres' (de minoiske paladscentre) optaget på UNESCO's verdensarvsliste — en seriel indskrivning af seks arkæologiske steder på Kreta: Knossos, Phaistos, Malia, Zakros, Zominthos og Kydonia, der repræsenterer den minoiske civilisation (ca. 1900-1100 f.Kr.), en central bronzealderkultur i Middelhavet (kilde: whc.unesco.org/en/list/1733/ og flere sekundære, verificerede kilder — Knossos er den mest besøgte, Phaistos rummer den berømte, endnu uudtydede Phaistos-disk, Malia var den minoiske civilisations vigtigste handelscentrum på nordkysten). Kreta har desuden allerede fire UNESCO-relaterede naturudpegninger: Psiloritis og Sitia som UNESCO Global Geoparks (2015), og Asterousia-bjergkæden som biosfærereservat (2020). Beskriv øens geografi kort (Grækenlands største ø, bjergkæde med Hvide Bjerge/Lefka Ori i vest og Psiloritis/Ida i midten) og hvorfor en uge på Kreta kan spænde fra oldtidsruiner til bjergvandring til strand uden at flytte base langt.",
+        "words": [
+          450,
+          650
+        ],
+        "mustCite": 2,
+        "mustNumber": [
+          "12. juli 2025",
+          "seks arkæologiske steder"
+        ],
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 476,
+        "costUSD": 0.020744,
+        "draft": "kladder/02-overblik.md",
+        "costRouting": "byok",
+        "generationId": "gen-1789199715-arMRu3aCqOfA3OKCCUir"
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-09-12",
+        "citations": 2,
+        "editorNote": "Faktatjekket mod UNESCO. Ingen fejl fundet."
+      }
+    },
+    {
+      "slug": "de-minoiske-paladser",
+      "order": 3,
+      "section": "Historie",
+      "brief": {
+        "angle": "Feature om de seks minoiske paladscentre, der i juli 2025 blev optaget samlet på UNESCO's verdensarvsliste: Knossos, Phaistos, Malia, Zakros, Zominthos og Kydonia. Brug PRÆCIS disse verificerede fakta: Knossos er det mest besøgte, udgravet af arkæologen Arthur Evans i starten af 1900-tallet, som troede det var kong Minos' palads. Phaistos er Kretas næststørste minoiske palads, ligger på en bakketop med udsigt over Mesara-sletten, og huser den berømte Phaistos-disk — verdens ældste, endnu uudtydede tekst med trykte symboler. Malia var den minoiske civilisations vigtigste handelscentrum på nordkysten, grundlagt omkring 1900 f.Kr., genopbygget efter et ødelæggende jordskælv omkring 1700 f.Kr., og er det tredjestørste minoiske palads med et areal på 7.500 kvadratmeter. Indskrivningsprocessen var ikke uden kontroverser: UNESCO's ekspertråd anbefalede oprindeligt en henvisning (referral) tilbage til ansøgeren pga. spørgsmål om integreret forvaltning, juridisk beskyttelse af Kydonia, og autenticiteten af rekonstruktionerne på Knossos — men Verdensarvskomiteen stemte til sidst enstemmigt for optagelse. Nævn kort denne kontrovers, det gør historien mere ærlig end en ren hyldest. IKKE opdigt besøgstal eller åbningstider, hvis de ikke kan verificeres direkte.",
+        "words": [
+          450,
+          650
+        ],
+        "mustCite": 3,
+        "mustNumber": [
+          "seks steder",
+          "juli 2025",
+          "7.500 kvadratmeter Malia"
+        ],
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "GPT-5.6 Terra (OpenAI)",
+        "model": "openai/gpt-5.6",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 444,
+        "costUSD": 0.0282185,
+        "draft": "kladder/03-de-minoiske-paladser.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1789199758-i6XHw4UlllKzVctVtoYj"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-09-12",
+        "citations": 1,
+        "editorNote": "Faktatjekket. To af kladdens fire fodnoter (Britannica, en UNESCO 'documents'-underside) svarer 403 og kunne ikke uafhængigt bekræftes ud over titel/emne — reduceret til den ene, centrale, verificerede UNESCO-listeside, som dækker hele artiklens faktuelle indhold. citations-feltet viser det faktiske antal."
+      }
+    },
+    {
+      "slug": "vandring-samaria",
+      "order": 4,
+      "section": "Vandring",
+      "brief": {
+        "angle": "Feature om vandring i Samaria-kløften (Samaria Gorge), Kretas mest kendte gåtur, og øens eneste indstillede kandidat til UNESCO's verdensarvsliste (Nationalparken Samaria, på Grækenlands 'tentative list' siden januar 2014). FORBUD MOD AT OPFINDE EN PRÆCIS ÅBNINGS-/LUKKEDATO for 2026-sæsonen — kilder er indbyrdes uenige om den eksakte dato (varierer mellem primo maj og midt-maj afhængigt af vintervejr og sikkerhedsinspektion). Skriv i stedet det generelle, velbelagte mønster: parken lukker typisk for offentligheden fra 1. november til udgangen af april pga. vintervejr, sikkerhed og vedligehold, og genåbner om foråret — den præcise dato fastsættes af lokale myndigheder ud fra vinterens nedbør og en sikkerhedsinspektion af kløften, ikke en fast kalenderdato. Sæsonen løber typisk til midt-oktober. Samme greb som HORISONTEN nr. 2's Georgien-artikel brugte for bjergpas: 'sneen bestemmer, ikke datoen'. Beskriv kløftens karakter (en af Europas længste kløfter, går gennem det, der er indstillet som nationalpark, fra Omalos-højsletten til landsbyen Agia Roumeli ved kysten) uden at opfinde en præcis længde eller gåtid, medmindre det kan kildebelægges direkte.",
+        "words": [
+          400,
+          600
+        ],
+        "mustCite": 2,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "Gemini 3.1 Pro (Google)",
+        "model": "google/gemini-3.1-pro-preview",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 473,
+        "costUSD": 0.064684,
+        "draft": "kladder/04-vandring-samaria.md",
+        "costRouting": "byok",
+        "generationId": "gen-1789199826-rSXrII8Zs7RQ7bFtGAER"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-09-12",
+        "citations": 2,
+        "editorNote": "Faktatjekket. Kladden citerede en forkert UNESCO tentative-list-ID (5863) for Samaria-kløften — den korrekte er 5865, verificeret via uafhængig søgning. Rettet. Kladden fulgte korrekt forbuddet mod at opfinde en præcis 2026-åbningsdato og skrev i stedet det generelle, kildebelagte sæsonmønster."
+      }
+    },
+    {
+      "slug": "mad-og-vin",
+      "order": 5,
+      "section": "Mad & Vin",
+      "brief": {
+        "angle": "Feature om kretensisk mad- og vinkultur — grundstenen i den oprindelige 'middelhavsdiæt'. Dæk: olivenolie som dagligt element i næsten al madlavning; vilde grøntsager/urter, bælgfrugter, gede-/fåreost i moderate mængder som del af den traditionelle kost; raki (også kaldet tsikoudia på Kreta, tsipouro andre steder i Grækenland) — en druebrændevin fremstillet af presserester efter vinfremstilling, destilleret én til tre gange, som stort set enhver familie med en vinmark laver selv, og som er central i kretensisk gæstfrihed. Kreta har dyrket vin i omkring 4.000 år; nævn indfødte drueSorter som Vidiano, Assyrtiko og Kotsifali. Skriv IKKE et opdigtet tal for, hvor 'sund' kosten gør folk, eller en levealders-statistik — det er ikke briefet og kan let blive en ubelagt 'blue zone'-påstand (jf. DOSIS' egen skepsis mod netop den slags myter). Hold fokus praktisk: hvad en rejsende faktisk møder på en taverna-menu og bør prøve.",
+        "words": [
+          400,
+          600
+        ],
+        "mustCite": 2,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "DeepSeek V3.2 (DeepSeek)",
+        "model": "deepseek/deepseek-v3.2",
+        "fallback": null
+      },
+      "receipt": {
+        "words": 462,
+        "costUSD": 0.0010157,
+        "draft": "kladder/05-mad-og-vin.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1789199920-fbyIOTDT8Fk2DYnavx8l"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-09-12",
+        "citations": 2,
+        "editorNote": "To af kladdens tre oprindelige kilder var døde (visitgreece.gr/wine_regions: 500-fejl; greecefoods.com/raki: 404). Erstattet med Wines of Cretes egen historieside og Discover Greece. Derudover nævnte kladden fejlagtigt Assyrtiko som en 'indfødt kretensisk drue' — druen er græsk, men dens hjemsted er Santorini, ikke Crete; Cretas egne 11 indfødte druesorter tæller ikke Assyrtiko. Fjernet fra teksten uden erstatning, da Vidiano og Kotsifali allerede dækkede pointen. En mindre trykfejl ('alvir' for 'alvor') rettet."
+      }
+    },
+    {
+      "slug": "praktisk",
+      "order": 6,
+      "section": "Praktisk",
+      "brief": {
+        "angle": "Praktisk-artikel om selve rejsens logistik til Kreta. Brug PRÆCIS disse verificerede tal: der er direkte fly fra København til begge Kretas lufthavne — til Chania cirka 10 ugentlige afgange (Norwegian, SAS), til Heraklion cirka 3 ugentlige afgange (Norwegian, SAS, Sunclass) — begge ruter omkring 3 timer 35-40 minutters flyvetid (kilde: flightconnections.com, tal opgjort medio 2026 — skriv eksplicit, at antallet af ugentlige afgange varierer med sæson og kan være ændret siden). Foreslå Chania som base for vestlige Kreta (Samaria-kløften, Hvide Bjerge) og Heraklion for de centrale/østlige minoiske paladser (Knossos er tættest på Heraklion). Skriv IKKE faste priser i kroner — brug 'tjek aktuelle priser', jf. husreglen. Nævn kort, at leje af bil giver størst frihed til at nå både kløfter og paladser i samme uge.",
+        "words": [
+          350,
+          550
+        ],
+        "mustCite": 1,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 429,
+        "costUSD": 0.017178,
+        "draft": "kladder/06-praktisk.md",
+        "costRouting": "byok",
+        "generationId": "gen-1789199996-FtvbSfGxUGTkigqQ98Fr"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-09-12",
+        "citations": 2,
+        "editorNote": "Faktatjekket. Fodnoten pegede oprindeligt på flightconnections.com's forside — opdelt i de to konkrete rutesider (CPH-CHQ, CPH-HER) for at matche de to separate tal i teksten."
+      }
+    },
+    {
+      "slug": "rejsevejledning",
+      "order": 7,
+      "section": "Rejsevejledning",
+      "brief": {
+        "angle": "FØRSTE artikel i HORISONTENs nye faste rubrik Rejsevejledning (se notesbogens fulde brief). For Grækenland/Kreta: (1) Udenrigsministeriet HAR en aktiv rejsevejledning for Grækenland — link direkte til https://um.dk/rejse-og-ophold/rejse-til-udlandet/rejsevejledninger/graekenland (senest opdateret 11. maj 2026), gengiv IKKE selve indholdet, kun at den findes og hvad de overordnede temaer er ifølge UM selv: skovbrandsrisiko maj-oktober pga. varme og tørke, jordskælvsrisiko (med mulig tsunamifare), lav generel kriminalitet men udbredt lommetyveri i turistområder, og demonstrationer i Athen (mindre relevant for Kreta specifikt — nævn det kort som national kontekst). (2) Forberedelse: det blå EU-sygesikringskort dækker akut/nødvendig behandling på lige fod med grækere (Grækenland er EU-land); rejseforsikring anbefales alligevel til hjemtransport, som EU-kortet ikke dækker. (3) Hotelregler: græsk lov kræver registrering af udenlandske gæster (typisk pasnummer noteres), men hotellet må ikke beholde det fysiske pas efter registrering — bed om det tilbage med det samme. (4) Pas/ID: som EU-borger kan danskere rejse på pas ELLER dansk kørekort/sundhedskort duer ikke som rejsedokument til Grækenland — brug pas eller EU-gyldigt ID-kort, tjek gyldighed før afrejse. (5) Prisniveau: brug spænd, ikke faste kronebeløb, mærket som grov tommelfingerregel hvor ingen dateret kilde findes. Drikkepenge-norm: IKKE obligatorisk i Grækenland, men almindeligt at runde op eller lægge et par euro på restaurantbordet (kontant, ikke på kortet) — 10-15 % praktiseres af nogle, men mange lokale nøjes med oprunding; ved taxa er drikkepenge ikke forventet, men 2-3 euro ekstra ved længere ture eller bagagehjælp er en pæn gestus. IKKE opdigt en officiel dansk kilde til drikkepenge-normer — det er skik, ikke lov, og skal mærkes som sådan.",
+        "words": [
+          450,
+          650
+        ],
+        "mustCite": 2,
+        "mustNumber": [
+          "11. maj 2026"
+        ],
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "GPT-5.6 Terra (OpenAI)",
+        "model": "openai/gpt-5.6",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 546,
+        "costUSD": 0.031661,
+        "draft": "kladder/07-rejsevejledning.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1789200030-60re2jCCLkVyklzlIhp3"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-09-12",
+        "citations": 4,
+        "editorNote": "Første artikel i den nye faste rubrik. To fejl fanget: (1) en opdigtet, ikke-verificerbar 'græsk ministerafgørelse 91354/2017' om hotellers pasregistrering — ingen søgning kunne bekræfte, at denne afgørelse findes; erstattet med Hellenic Chamber of Hotels' egen side om gæsters/hotellers rettigheder og pligter, som ikke navngiver et præcist paragrafnummer for netop pas-detaljen, men er en reel, relevant, verificeret kilde. (2) borger.dk-linket til EU-sygesikringskortet var forkert/dødt (404) — rettet til den korrekte, verificerede side."
+      }
+    }
+  ]
+}
