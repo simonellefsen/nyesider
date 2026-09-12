@@ -1,6 +1,6 @@
 # KULTURBOXEN – Redaktionsnotesbog
 
-Opdateret efter nr. 2 (august 2026, *"Tre sprog, ét plateau"* — Sydtyrol).  
+Opdateret efter nr. 5 (2026-09-12, *"Japan uden kirsebærtræer"*).
 OpenRouter: **kun** `.env.kulturboxen`. Imagine: `.env.local` / `XAI_API_KEY`.
 
 ## Identitet
@@ -196,9 +196,58 @@ tilføjet — de to allerede krævede fodnoter dækker fortsat mustCite: 2. Endn
 ubriefet, men sand tilføjelse kræver verifikation, ikke automatisk sletning — modsat en decideret
 opfundet kilde (se KULTURBOXEN nr. 3's DST-tabelreference eller HORISONTEN nr. 4's etnadoc.com).
 
-## Nr. 5 — kandidater
+## Nr. 5 — udgivet 2026-09-12
 
-- **(2026-08) Japan uden kirsebærtræer** (arbejde, service, bolig, dating)
+**Tema:** Japan uden kirsebærtræer — arbejde, bolig, dating og hverdag. **7 artikler, 2.671
+ord.** Seks artikler reelt kommissioneret på `.env.kulturboxen`; lederen er redaktionens uden
+byline. Forbrug **0,1496 USD**. `check_issue.py`: **0 fejl, 2 advarsler** (begge forklarede, se
+nedenfor). `check_links.py`: **0 døde links** (1 bot-blokeret, Japan Times, læst manuelt).
+`bestilling.json`: `redaktion/kulturboxen/numre/2026-09-nr5/bestilling.json`.
+
+Idébankens sidste emne brugt. Bevidst asynk med HORISONTEN nr. 5 (Kreta, ikke Japan) — noteret
+åbent i et "Til HORISONTEN"-bagsnit med et rigtigt link. Fire spor bandt sig sammen til ét
+demografisk portræt: rekordhøje karoshi-tal (arbejde), en akiya-krise (bolig), faldende
+dating-/ægteskabsinteresse (76,3 % af de ugifte uden kæreste) og konbini som samfundets sidste
+åbne butik i affolkede egne.
+
+### En upræcis generalisering fanget mod en myndigheds egen hvidbog
+
+`arbejde-karoshi`-kladden hævdede, at "anslået hver tiende japansk lønmodtager arbejder over 80
+timers overarbejde om måneden" — en plausibel, men for bred generalisering. MHLW's egen
+2025-hvidbog om overarbejdsdød viser et mere præcist, branchespecifikt billede: over 18 % i
+restaurations- og transportbranchen overskrider "karoshi-grænsen", og blandt afdelingsledere i
+restaurationsbranchen er andelen 29,0 %. Rettet til det faktiske, mere præcise branchetal —
+**endnu et eksempel på, at en plausibel national gennemsnitspåstand kan dække over en langt mere
+koncentreret, branchespecifik virkelighed, som kun en myndigheds egen hvidbog afslører.**
+
+### En ubekræftelig budgetvækst-påstand fjernet, ikke rettet
+
+`dating-konkatsu`-kladden hævdede, at det kommunale konkatsu-budget voksede fra 3 til 9,3 mia. yen
+fra 2013 til 2025. Selvstændig research i de japanske budgetdokumenter fandt IKKE en ren,
+sammenlignelig før/efter-figur — de faktiske tal er spredt over adskillige års oprindelige og
+supplerende budgetter (30,1 mia. yen i 2013, en ekstraordinær bevilling på 40 mia. yen i 2016,
+10 mia. yen i 2024's ordinære budget plus 90 mia. yen i en 2023-tillægsbevilling), og ingen af
+disse kan lægges sammen til den påståede lineære vækstkurve. **Reglen anvendt her: når en
+tilsyneladende præcis før/efter-sammenligning viser sig at hvile på et rod af budgetkategorier,
+der ikke er sammenlignelige, er den rigtige løsning at fjerne sammenligningen — ikke at vælge to
+tal, der tilfældigvis matcher historien, man gerne vil fortælle.**
+
+### En model, der selv sagde fra frem for at gætte en URL
+
+`hverdag-konbini`-kladden (DeepSeek V3.2) skrev eksplicit i sin egen fodnote, at den ikke havde
+den konkrete Japan Times-URL og derfor ikke ville gætte den — samme disciplin, GNISTEN og flere
+andre titler tidligere har set fra andre modeller. Redaktionen fandt og indsatte selv den
+korrekte, verificerede artikel-URL. Kladden var samtidig kortere end briefet (269 mod 450-650
+ord) — accepteret uden kunstig udfyldning, da indholdet allerede var fuldt dækkende.
+
+## Løfter givet i nr. 5
+
+- **Bagsiden:** ny kultur, samme nysgerrighed — emne endnu ikke valgt.
+
+## Nr. 6 — kandidater
+
+- ~~Japan uden kirsebærtræer~~ → **brugt i nr. 5** (2026-09-12).
+- Idébanken er tom — næste kultur skal findes fra bunden til nr. 6.
 
 ## Format
 
@@ -206,6 +255,10 @@ opfundet kilde (se KULTURBOXEN nr. 3's DST-tabelreference eller HORISONTEN nr. 4
 - **Standard `mustCite`:** 2+ for Tallet; 1–2 for Penge/Stat; 0 for Myter. **Ingen Ordbog** — gloser i parentes/fodnote.
 
 ## Log
+
+- **2026-09-12:** Nr. 5 udgivet — Japan uden kirsebærtræer. Idébanken tømt. Se læringen ovenfor:
+  en for bred generalisering fanget mod en myndigheds egen branchespecifikke hvidbog, og en
+  ubekræftelig budgettal-sammenligning fjernet frem for rettet, da tallene ikke var sammenlignelige.
 
 - **2026-08-29:** Nr. 4 udgivet — Marokko, nyt nummer produceret fra bunden. Bevidst asynk med
   HORISONTEN nr. 4 (Sicilien). To fejl fanget før udgivelse (escape-artefakt, uudfyldt

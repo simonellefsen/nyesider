@@ -1,0 +1,27 @@
+---
+title: "Når kærligheden bliver et overskudsprojekt"
+standfirst: En markant dalende interesse for romantik i Japan fortæller en strukturel historie, ikke en eksotisk kuriositet.
+byline: Gemini 3.1 Pro (Google)
+section: Dating
+order: 4
+image: ../images/kulturboxen_dating.png
+imageCredit: "AI-genereret motiv (Imagine / xAI)"
+imageSource: "https://x.ai/"
+---
+
+I Danmark og resten af Europa betragter vi oftest dating som en organisk og social del af tilværelsen. Man mødes på studiet, gennem fælles venner, til fredagsbaren eller ved at swipe sig gennem en aften på sofaen. Det er en privatsag, som overvejende er drevet af lyst og fritid. Men kigger man mod Japan, fortæller en markant dalende interesse for romantik en anden og mere strukturel historie. Her er parforholdet for mange blevet et drænende overskudsprojekt i et samfund, hvor selve fundamentet for fritid er under voldsomt pres.
+
+Det er en udbredt, men forsimplet myte i Vesten at betragte den japanske datingkultur som en eksotisk kuriositet fyldt med mærkværdige teknologiske løsninger. Virkeligheden er langt mere pragmatisk. Ændringerne i måden, japanerne finder — eller i stigende grad fravælger — en partner på, er et direkte spejl af de vilkår, borgerne lever under.
+
+En omfattende spørgeskemaundersøgelse fra Meiji Yasuda Research Institute, der blev offentliggjort 5. februar 2026, sætter to streger under udviklingen. I undersøgelsen, som bygger på svar fra 8.872 japanere i alderen 18-54 år indsamlet i december 2025, tegner der sig et billede af et historisk skifte.[^1] Blandt de ugifte respondenter svarer 76,3 %, at de aktuelt ikke har nogen kæreste — en mærkbar stigning fra 72,0 % ved den forrige måling i 2023. Endnu mere opsigtsvækkende er det, at kun 49,5 % overhovedet erklærer sig interesseret i kærlighed og dating. Det er et fald fra 59,9 % blot tre år tidligere, og det markerer første gang nogensinde, at under halvdelen af de ugifte japanere udviser interesse for romantiske relationer. Samtidig svinder lysten til at indgå ægteskab ind: kun 36,8 % svarer, at de gerne vil giftes, hvilket er et fald fra 47,3 % i 2023.
+
+Når hverdagens overskud til at date organisk forsvinder, træder andre systemer til. I Japan er begrebet konkatsu (ægteskabsjagt) blevet en integreret del af voksenlivet. Konkatsu adskiller sig fra uforpligtende dating ved at være en aktiv, formaliseret og ofte stærkt systematisk søgen efter en ægtefælle. Konceptet er i dag populariseret bredt og drives frem via specialiserede apps, ægteskabsbureauer og gennem matchmaking-arrangementer afholdt af kommunerne.
+
+De japanske myndigheder anser nemlig ikke det dalende romantiske engagement som et privat anliggende. Det betragtes som en national udfordring, der er uløseligt forbundet til landets hastigt faldende fødselstal og de deraf følgende demografiske udfordringer. Konsekvensen er, at staten griber ind med finansiering til kommunerne gennem det, der officielt hedder "tilskuddet til regional prioriteret indsats mod faldende fødselstal" — en pulje, Børne- og Familieagenturet (Children and Families Agency, CFA) uddeler til kommuner, der vil styrke lokale ægteskabsstøtte-tiltag, herunder matchmaking-arrangementer og digitale platforme.[^2]
+
+For at forstå logikken bag de statsstøttede stævnemøder må man se på de rammer, borgerne skal navigere i. Som beskrevet i dette nummers artikel om karoshi (død af overarbejde), er den japanske arbejdskultur ofte præget af lange arbejdsdage, massive forventninger til loyalitet over for arbejdspladsen og en voksende økonomisk usikkerhed for yngre generationer.
+
+Når en ung lønmodtager endelig har fri, er den mentale og fysiske træthed ofte altomsluttende. Konkatsu og de kommunale bevillinger er derfor ikke udtryk for et uromantisk samfund, men et systemisk og nøgternt modsvar. Når arbejdsmarkedet udpiner den tid og energi, som relationer normalt kræver for at opstå tilfældigt, forsøger systemet at effektivisere processen i et forsøg på at sikre fremtidens demografi.
+
+[^1]: [Meiji Yasuda Research Institute: «恋愛・結婚に関するアンケート調査」実施結果について»](https://www.myri.co.jp/research/report/pdf/myilw_report_2026_01.pdf), 5. februar 2026.
+[^2]: [Children and Families Agency (こども家庭庁): «地域少子化対策重点推進交付金»](https://www.cfa.go.jp/policies/shoushika/koufukin)

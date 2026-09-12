@@ -1,0 +1,262 @@
+{
+  "magazine": "kulturboxen",
+  "issue": "2026-09-nr5",
+  "issueTheme": "Japan uden kirsebærtræer — arbejde, bolig, dating og hverdag",
+  "budget": {
+    "articles": 7,
+    "wordsPerArticle": [
+      150,
+      700
+    ],
+    "targetPages": 12,
+    "note": "Japan valgt fra idébanken ('Japan uden kirsebærtræer'). Bevidst asynk med HORISONTEN nr. 5 (Kreta)."
+  },
+  "opgaver": [
+    {
+      "slug": "leder",
+      "order": 1,
+      "section": "Leder",
+      "brief": {
+        "angle": "Kort leder der introducerer temaet: Japan uden kirsebærtræer — arbejde, bolig, dating og hverdagsservice, altså det Japan, der ikke er turistbrochuren. Nævn bevidst asynk med HORISONTEN (Kreta denne gang, ikke Japan).",
+        "words": [
+          150,
+          250
+        ],
+        "mustCite": 0,
+        "format": "leder"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": null,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-09-12",
+        "citations": 0,
+        "editorNote": "Redaktionens egen leder, ingen byline, ingen API-kald."
+      }
+    },
+    {
+      "slug": "arbejde-karoshi",
+      "order": 2,
+      "section": "Arbejde",
+      "brief": {
+        "angle": "Feature om japansk arbejdskultur og loven, der skulle stoppe overarbejdsdødsfald, men ikke helt har gjort det. Brug PRÆCIS disse verificerede tal fra Sundheds-, Arbejds- og Velfærdsministeriet (MHLW, Ministry of Health, Labour and Welfare) for regnskabsåret 2024 (kilde: nippon.com's gengivelse af MHLW's tal, https://www.nippon.com/ja/japan-data/h02473/): 1.304 sager om 'karoshi' (overarbejdsdød/arbejdsskadeanerkendelse) — det højeste nogensinde og 196 flere end året før. Heraf 247 sager om hjerne-/hjertesygdom og 1.057 sager om psykiske lidelser (første gang psykiske lidelser passerede 1.000 sager); 89 af de psykiske sager involverede selvmord eller selvmordsforsøg. Siden 2019 har Japans arbejdsstandardlov (§ 36) haft et lovfæstet loft på 45 timers overarbejde pr. måned og 360 timer pr. år — men trods loftet arbejder anslået hver tiende japansk lønmodtager over 80 timers overarbejde om måneden. Forklar kort baggrunden: 'karoshi' betyder bogstaveligt 'død af overarbejde', og en lov fra 2014 (Karoshi Prevention Countermeasures Promotion Law) pålagde staten et ansvar for at forebygge det. Pointen skal være ærlig: loven satte et loft, men tallene stiger stadig — kulturelle normer om overarbejde eksisterer stadig ved siden af lovgivningen. IKKE romantisér eller eksotisér — skriv det som et arbejdsmarkedsproblem, en dansk læser kan forstå konturerne af.",
+        "words": [
+          500,
+          700
+        ],
+        "mustCite": 2,
+        "mustNumber": [
+          "1.304 sager",
+          "45 timer/måned",
+          "360 timer/år"
+        ],
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 610,
+        "costUSD": 0.02082,
+        "draft": "kladder/02-arbejde-karoshi.md",
+        "costRouting": "byok",
+        "generationId": "gen-1789201233-4g22fTHprWEqLfj2C4qn"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-09-12",
+        "citations": 3,
+        "editorNote": "Faktatjekket mod MHLW. Kladdens påstand om at 'hver tiende japansk lønmodtager arbejder over 80 timers overarbejde om måneden' viste sig ved efterprøvning mod MHLW's egen 2025-hvidbog om overarbejdsdød at være en upræcis generalisering — hvidbogens faktiske tal er branchespecifikt (over 18 % i restaurations- og transportbranchen, 29,0 % blandt afdelingsledere i restauration). Erstattet den generelle, ubelagte påstand med det faktiske, mere præcise branchetal. Bar fodnote til mhlw.go.jp/ rettet til den konkrete overarbejdsloft-side."
+      }
+    },
+    {
+      "slug": "bolig-akiya",
+      "order": 3,
+      "section": "Bolig",
+      "brief": {
+        "angle": "Feature om Japans tomme huse — akiya — og hvorfor et land med boligmangel i storbyerne samtidig har millioner af tomme boliger. Brug PRÆCIS disse verificerede tal fra Indenrigs- og Kommunikationsministeriets (MIC, Ministry of Internal Affairs and Communications) boligtælling 'Housing and Land Survey' fra 2023 (senest offentliggjorte tælling, gennemføres hvert femte år): 9 millioner tomme boliger i alt (900万戸), svarende til en rekordhøj tomgangsprocent på 13,8 % af den samlede boligmasse (op fra 13,6 % i 2018-tællingen) — en stigning på 510.000 boliger siden 2018. Skeln EKSPLICIT mellem den brede 'tomme bolig'-kategori (inkluderer boliger til salg, til leje, og fritidsboliger) og den snævrere undergruppe 'andre tomme boliger' — dem uden lejer, uden aktiv ejerforvaltning og uden klar fremtidsplan — som er den, folk normalt mener med 'akiya' i egentlig forstand: 3,86 millioner boliger, en stigning på 2,5 gange siden 1993. Forklar kort de tre samtidige årsager: faldende fødselstal, koncentration af befolkningen om hovedstadsregionen, og en aldrende befolkning, der efterlader forældrehjem uden arvinger, der vil bo der. Nævn at nogle kommuner sælger akiya-huse for meget lave beløb (i nogle tilfælde under 1 million yen) for at få dem beboet igen, men skriv IKKE et opdigtet, præcist prisniveau eller et opdigtet 2040-fremskrivningstal, medmindre det direkte kan kildebelægges.",
+        "words": [
+          450,
+          650
+        ],
+        "mustCite": 2,
+        "mustNumber": [
+          "9 millioner boliger",
+          "13,8 %",
+          "3,86 millioner"
+        ],
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "GPT-5.6 Terra (OpenAI)",
+        "model": "openai/gpt-5.6",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 529,
+        "costUSD": 0.023371,
+        "draft": "kladder/03-bolig-akiya.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1789201315-1eveEXKZBPIDgVrraFx5"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-09-12",
+        "citations": 2,
+        "editorNote": "Faktatjekket. Kladdens fodnote til stat.go.jp pegede på en gættet, ikke-eksisterende sti — rettet til den korrekte resultatside for 2023-boligtællingen."
+      }
+    },
+    {
+      "slug": "dating-konkatsu",
+      "order": 4,
+      "section": "Dating",
+      "brief": {
+        "angle": "Feature om japansk dating og ægteskabskultur, og hvorfor interessen for kærester falder markant. Brug PRÆCIS disse verificerede tal fra Meiji Yasuda Research Institutes spørgeskemaundersøgelse 'Undersøgelse om kærlighed og ægteskab', offentliggjort 5. februar 2026 (8.872 japanere i alderen 18-54 år, dataindsamlet december 2025): 76,3 % af de ugifte svarede, at de aktuelt ikke har nogen kæreste — op fra 72,0 % i den forrige undersøgelse i 2023. Kun 49,5 % erklærede sig interesseret i kærlighed/dating, ned fra 59,9 % i 2023 — første gang under halvdelen af de ugifte japanere udviste interesse for romantiske relationer. Kun 36,8 % svarede, at de gerne vil giftes, ned fra 47,3 % i 2023. Forklar begrebet 'konkatsu' (ægteskabsjagt, en aktiv, ofte systematisk søgen efter en ægtefælle, populariseret via apps og kommunale matchmaking-arrangementer) og nævn, at Japans nationale budget til kommunale konkatsu-aktiviteter er vokset fra 3 mia. yen i 2013 til 9,3 mia. yen i regnskabsåret 2025 — en stigning, der viser, hvor alvorligt myndighederne tager faldet. IKKE fremstil det som en eksotisk kuriositet — forbind det direkte til Japans faldende fødselstal og arbejdsmarkedets pres (jf. nummerets artikel om karoshi), da det er den samme underliggende historie set fra to vinkler.",
+        "words": [
+          450,
+          650
+        ],
+        "mustCite": 2,
+        "mustNumber": [
+          "76,3 %",
+          "49,5 %",
+          "9,3 mia. yen"
+        ],
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "Gemini 3.1 Pro (Google)",
+        "model": "google/gemini-3.1-pro-preview",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 561,
+        "costUSD": 0.067502,
+        "draft": "kladder/04-dating-konkatsu.md",
+        "costRouting": "byok",
+        "generationId": "gen-1789201394-CESKsc0npxtOGwgxdqYs"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-09-12",
+        "citations": 2,
+        "editorNote": "Faktatjekket. Kladdens påstand om, at det kommunale konkatsu-budget voksede fra 3 mia. til 9,3 mia. yen fra 2013 til regnskabsåret 2025, kunne IKKE bekræftes ved selvstændig research — de faktiske japanske budgettal er opdelt i forvirrende lag af oprindelige og supplerende budgetter på tværs af flere år (fx 30,1 mia. yen i 2013, 40 mia. yen i 2016 som ekstraordinær bevilling, 10 mia. yen i 2024's oprindelige budget plus 90 mia. yen i 2023's tillægsbevilling), og ingen enkelt, sammenlignelig før/efter-figur kunne findes. Den ubekræftede, forsimplede vækstpåstand er fjernet og erstattet med en generel, korrekt beskrivelse af selve tilskudsordningen og dens formål, med kilde til CFA's egen side."
+      }
+    },
+    {
+      "slug": "hverdag-konbini",
+      "order": 5,
+      "section": "Hverdag",
+      "brief": {
+        "angle": "Feature om konbini (dagligvarebutikker) som Japans egentlige hverdagsinfrastruktur — ikke bare en butik, men et sted man betaler regninger, sender pakker og spiser aftensmad. Brug PRÆCIS disse verificerede tal fra Japan Franchise Association (JFA), gengivet af Japan Times januar 2026: 56.054 konbini-butikker ved udgangen af 2025 (en stigning på over 300 i løbet af året), samlet omsætning steg 2,2 % til 12,05 billioner yen — rekord for fjerde år i træk — mens antal kunder faktisk FALDT 0,2 % samlet set, men det gennemsnitlige køb pr. kunde steg 2,5 % til 737,9 yen. Nævn, at der findes omkring én konbini pr. 2.000 indbyggere, og de tre store kæder: 7-Eleven (ca. 21.000 butikker), FamilyMart (ca. 16.000) og Lawson (ca. 14.000) — mærk disse kædetal som mindre præcise/afrundede, da de ikke stammer fra samme officielle JFA-optælling som totaltallet. Forklar begrebet 'omotenashi' (gæstfrihed/service ydet uden forventning om tak, en kerneværdi i japansk servicekultur) med konkrete, konkrete eksempler fra konbini-oplevelsen (opvarmning af mad, betaling af regninger, pakkeforsendelse). Nævn kort, at konbini i landdistrikter i stigende grad erstatter lukkede lokale butikker efterhånden som befolkningen falder — en direkte forbindelse til nummerets bolig-artikel om affolkning.",
+        "words": [
+          450,
+          650
+        ],
+        "mustCite": 2,
+        "mustNumber": [
+          "56.054 butikker",
+          "12,05 billioner yen"
+        ],
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "DeepSeek V3.2 (DeepSeek)",
+        "model": "deepseek/deepseek-v3.2",
+        "fallback": null
+      },
+      "receipt": {
+        "words": 269,
+        "costUSD": 0.00067704,
+        "draft": "kladder/05-hverdag-konbini.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1789201499-7f53MHqeLq6sKWIGBtVo"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-09-12",
+        "citations": 1,
+        "editorNote": "Faktatjekket mod JFA/Japan Times. Kladden undlod selv at gætte den specifikke Japan Times-URL og skrev det åbent — redaktionen fandt og indsatte den korrekte, verificerede artikel-URL. Kort artikel (269 ord mod briefet 450-650) accepteret, da indholdet er fuldt dækkende uden at kræve kunstig udfyldning."
+      }
+    },
+    {
+      "slug": "tallet",
+      "order": 6,
+      "section": "Tallet",
+      "brief": {
+        "angle": "Tallet: 76,3 % — andelen af ugifte japanere (18-54 år), der ikke har nogen kæreste, ifølge Meiji Yasuda Research Institutes undersøgelse offentliggjort 5. februar 2026. Byg som en lille tabel, der viser udviklingen fra 2023 til 2026: andel uden kæreste (72,0 % → 76,3 %), andel interesseret i dating (59,9 % → 49,5 %), andel der ønsker at gifte sig (47,3 % → 36,8 %). Forklar kort metoden (8.872 respondenter, 18-54 år, dataindsamlet december 2025). Sæt tallet i kontekst af nummerets øvrige artikler: karoshi-tallene (arbejde) og akiya-tallene (bolig) er andre symptomer på samme demografiske udvikling.",
+        "words": [
+          300,
+          450
+        ],
+        "mustCite": 1,
+        "mustNumber": [
+          "76,3 %",
+          "72,0 %",
+          "49,5 %"
+        ],
+        "format": "tallet"
+      },
+      "writer": {
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 369,
+        "costUSD": 0.029476,
+        "draft": "kladder/06-tallet.md",
+        "costRouting": "byok",
+        "generationId": "gen-1789201521-K75VdSEUMvC7K6AwwUP6"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-09-12",
+        "citations": 1,
+        "editorNote": "Faktatjekket. Bar fodnote (meijiyasuda.co.jp) rettet til den konkrete PDF-rapport."
+      }
+    },
+    {
+      "slug": "til-horisonten",
+      "order": 7,
+      "section": "Til HORISONTEN",
+      "brief": {
+        "angle": "Kort bagsnit i KULTURBOXENs etablerede 'Til HORISONTEN'-format: forklar, at der IKKE er synket et samtidigt HORISONTEN-nummer om Japan denne gang (HORISONTEN nr. 5 handler om Kreta) — bevidst asynk, jf. husreglens egen anvisning om, at synk ikke altid er muligt. Sæt et rigtigt link til det allerede udgivne HORISONTEN nr. 5 (content/horisonten/issues/2026-09-nr5/), og skriv kort, hvorfor det ikke passede denne gang. Ingen kildekrav.",
+        "words": [
+          150,
+          300
+        ],
+        "mustCite": 0,
+        "format": "krydslink"
+      },
+      "writer": {
+        "byline": "GPT-5.6 Terra (OpenAI)",
+        "model": "openai/gpt-5.6",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 167,
+        "costUSD": 0.007796,
+        "draft": "kladder/07-til-horisonten.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1789201566-VCOSpq1wkEadGSsqxATl"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-09-12",
+        "citations": 0,
+        "editorNote": "Krydslink rettet fra en repo-filsti til den korrekte URL-rute (/horisonten/2026-09-nr5). Ingen kildekrav."
+      }
+    }
+  ]
+}
