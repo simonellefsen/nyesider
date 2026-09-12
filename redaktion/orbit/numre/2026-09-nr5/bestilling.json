@@ -1,0 +1,226 @@
+{
+  "magazine": "orbit",
+  "issue": "2026-09-nr5",
+  "issueTheme": "Europæisk rumadgang — og en amerikansk kontrast i skala",
+  "budget": {
+    "articles": 6,
+    "wordsPerArticle": [
+      300,
+      700
+    ],
+    "targetPages": 12,
+    "note": "Indfrier nr. 4's bagsideløfte om europæisk rumadgang (Ariane 6 + Themis/European Launcher Challenge). Starbase Louisiana er ejerens idébank-forslag, brugt som bevidst skala-kontrast, jf. ejerens stående instrukser fra 2026-08-29."
+  },
+  "opgaver": [
+    {
+      "slug": "leder",
+      "order": 1,
+      "section": "Leder",
+      "brief": {
+        "angle": "Kort leder der introducerer temaet: europæisk adgang til rummet — uafhængighed og opsendelseskapacitet. Indfrier nr. 4's bagsideløfte. Nævn kort at nummeret også ser på et amerikansk megaprojekt (Starbase Louisiana) som kontrast i skala.",
+        "words": [
+          150,
+          250
+        ],
+        "mustCite": 0,
+        "format": "leder"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": null,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-09-05",
+        "citations": 0,
+        "editorNote": "Redaktionens egen leder, ingen byline, ingen API-kald."
+      }
+    },
+    {
+      "slug": "tallet",
+      "order": 2,
+      "section": "Tallet",
+      "brief": {
+        "angle": "Tallet: Ariane 6's 2026-flyvefrekvens som mål for europæisk rumadgang, sat op mod global kontekst. PRÆCISE tal, ingen andre: Ariane 6 er fuldt operationel og ramper op til 8 flyvninger i 2026, efter en vellykket tilbagevenden til flyvning i starten af 2025 (kilde: europeanspaceflight.com, https://europeanspaceflight.com/european-rocket-launches-in-2026/). Den seneste bekræftede flyvning (VA270) skete 27. august 2026 fra Kourou i Fransk Guyana med satellitten Meteosat Third Generation-Imager 2 (MTG-I2) og to P120C-boostere (ESA's egen side, https://www.esa.int/Enabling_Support/Space_Transportation/Ariane). Byg Tallet som en kort sammenligning: Ariane 6's 8 flyvninger i 2026 mod husreglens EU/USA/Kina-standard — brug tidligere ORBIT-numres allerede etablerede globale opsendelses-tal, hvis de er tilgængelige, ELLER hold sammenligningen kvalitativ og eksplicit mærket som sådan, hvis et præcist 2026-helårstal for USA/Kina ikke kan verificeres direkte. Opdigt IKKE et præcist tal for USA eller Kina, hvis det ikke er kildebelagt.",
+        "words": [
+          300,
+          450
+        ],
+        "mustCite": 2,
+        "mustNumber": [
+          "8 flyvninger i 2026",
+          "27. august 2026"
+        ],
+        "format": "tallet"
+      },
+      "writer": {
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 354,
+        "costUSD": 0.016178,
+        "draft": "kladder/02-tallet.md",
+        "costRouting": "byok",
+        "generationId": "gen-1789195254-uQAaXBy3TeQEqHhTam4m"
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-09-05",
+        "citations": 2,
+        "editorNote": "Faktatjekket. Modellen afviste korrekt at opdigte et præcist USA/Kina-sammenligningstal uden kilde — holdt bevidst kvalitativt, som briefet krævede."
+      }
+    },
+    {
+      "slug": "ariane6-uafhaengighed",
+      "order": 3,
+      "section": "Europæisk rumadgang",
+      "brief": {
+        "angle": "Feature om Ariane 6 som kernen i europæisk uafhængig rumadgang. PRÆCISE, verificerede tal: raketten er fuldt operationel i 2026 med to konfigurationer — Ariane 62 (to boostere) og Ariane 64 (fire boostere) — og ramper op til 8 flyvninger i alt i 2026 fra Kourou-rumcentret i Fransk Guyana (europeanspaceflight.com). Den seneste bekræftede flyvning, VA270, skete 27. august 2026 med Meteosat Third Generation-Imager 2 (MTG-I2) og to P120C-boostere (esa.int/Enabling_Support/Space_Transportation/Ariane). Forklar kort baggrunden: efter Ariane 5's udfasning og forsinkelser i Ariane 6-udviklingen stod Europa i en periode UDEN egen adgang til tunge opsendelser og måtte leje plads hos andre — det er den sårbarhed, Ariane 6 skal lukke. IKKE opdigte en præcis dato for, hvornår 'gabet' startede eller sluttede, hvis det ikke er kildebelagt — hold den del kvalitativ. Byggeri: fransk-tysk-ledet ArianeGroup, med delkomponenter fra flere ESA-medlemslande. Pointen: europæisk rumadgang er ikke en abstrakt politisk ambition, det er en konkret, flyvende raket med en stigende flyverate i 2026.",
+        "words": [
+          450,
+          650
+        ],
+        "mustCite": 3,
+        "mustNumber": [
+          "8 flyvninger i 2026",
+          "27. august 2026",
+          "Ariane 62/64"
+        ],
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "GPT-5.6 Terra (OpenAI)",
+        "model": "openai/gpt-5.6",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 420,
+        "costUSD": 0.027931,
+        "draft": "kladder/03-ariane6-uafhaengighed.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1789195278-RAJoseGeZUG38jIRfVPU"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-09-05",
+        "citations": 4,
+        "editorNote": "Faktatjekket mod ESA/ArianeGroup/European Spaceflight. To fodnoter pegede oprindeligt på domænets forside (europeanspaceflight.com/, ariane.group/en/) — rettet til de konkrete sider."
+      }
+    },
+    {
+      "slug": "themis-genbrug",
+      "order": 4,
+      "section": "Europæisk rumadgang",
+      "brief": {
+        "angle": "Feature om, hvad der kommer efter Ariane 6: Europas første genbrugelige raket-demonstrator, Themis (ESA/ArianeGroup), og European Launcher Challenge. PRÆCISE, verificerede tal: Themis er en 30 meter høj demonstrator af et første-trin med Prometheus-raketmotoren (ca. 100 tons trykkraft), bygget til at teste lodret landing og genbrug — samme grundprincip som SpaceX's Falcon 9, men et europæisk, selvstændigt program. Themis blev i 2025 transporteret 3.000 km fra Frankrig til Esrange rumcenter i Nordsverige. Den 23. juli 2026 gennemførte ArianeGroup og SSC Space en fuld 'wet dress rehearsal' — en generalprøve med flydende kvælstof i stedet for ilt/metan ved temperaturer ned til -200°C — som del af EU's SALTO-testprogram; det var FØRSTE gang landingsbenene (fremstillet i kulfiberkompositmateriale af det schweiziske firma Connova) bar den fyldte demonstrators fulde vægt under realistiske forhold. Selve det egentlige hop-testflyvning (Europas første flyvetest med landing) er IKKE fløjet endnu ved research-tidspunktet (september 2026) — skriv det eksplicit som en kommende milepæl, ikke som allerede sket. Nævn desuden European Launcher Challenge: ESA udvalgte 7. juli 2025 fem selskaber til næste fase — Isar Aerospace og Rocket Factory Augsburg (Tyskland), PLD Space (Spanien), MaiaSpace (Frankrig) og Orbex (Storbritannien) — der hver kan modtage op til 169 mio. euro til at levere opsendelsestjenester til ESA i perioden 2026-2030 og demonstrere en testflyvning. Pointen: europæisk rumadgang handler ikke kun om Ariane 6, men om at opbygge FLERE konkurrerende, europæiske alternativer.",
+        "words": [
+          500,
+          700
+        ],
+        "mustCite": 3,
+        "mustNumber": [
+          "30 meter",
+          "23. juli 2026",
+          "5 selskaber",
+          "169 mio. euro"
+        ],
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "Gemini 3.1 Pro (Google)",
+        "model": "google/gemini-3.1-pro-preview",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 545,
+        "costUSD": 0.154668,
+        "draft": "kladder/04-themis-genbrug.md",
+        "costRouting": "byok",
+        "generationId": "gen-1789195331-LTILG1NXDKHMEZNp8X7R"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-09-05",
+        "citations": 3,
+        "editorNote": "Kladden indeholdt en fuld SVG-figur skrevet inline i brødteksten (samme fejltype som INDENI's 'maskinen' i august) — ekstraheret til content/orbit/issues/2026-09-nr5/images/figur-themis-skala-logistik.svg og koblet på via figures:/[FIGUR], uden at ændre selve diagrammet. Én fodnote (europæisk launcher challenge) pegede på esa.int/ uden konkret side — rettet."
+      }
+    },
+    {
+      "slug": "starbase-louisiana",
+      "order": 5,
+      "section": "Deep dive",
+      "brief": {
+        "angle": "Feature om SpaceX's Starbase Louisiana — ejerens forslag fra idébanken, og en bevidst kontrast i skala til nummerets europæiske spor. PRÆCISE, verificerede tal (CNBC, CNN, Louisiana Economic Development, bekræftet august 2026): SpaceX annoncerede 25. august 2026 en 100 mia. USD-investering i et nyt rumopsendelsesanlæg ved Pecan Island i Vermilion Parish, Louisiana — det fjerde og hidtil største af selskabets anlæg. Cirka 125.000 acres jord skal bruges til 10 opsendelsesramper, brændstofproduktions-faciliteter, et kraftværk, en dybvandshavn og boliger til ansatte — beskrevet som en lille by med mindst 3.000 fastboende og op til 10.000 permanente job, hvoraf 60-80 % ventes besat af lokale. Byggeri ventes at starte 2027, første opsendelse tidligst 2029. SpaceX betaler lokale skattemyndigheder 25 mio. USD om året i stedet for ejendomsskat, plus 20 mio. USD i forudbetaling. SKALA-GREB (obligatorisk jf. ejerens stående instruks): sæt de 125.000 acres i forhold til noget genkendeligt for en dansk læser (fx antal gange Amagers areal, eller sammenlign med et dansk landsdel/øs areal) — brug reelle, opslåede arealtal, opdigt intet. Nævn eksplicit forskellen i tilgang: Europas rumprogram er statsstøttet og fordelt på mange lande/selskaber (jf. nummerets andre artikler), mens dette er ét privat selskabs enkeltstående investering.",
+        "words": [
+          450,
+          650
+        ],
+        "mustCite": 3,
+        "mustNumber": [
+          "100 mia. USD",
+          "125.000 acres",
+          "25. august 2026"
+        ],
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "DeepSeek V3.2 (DeepSeek)",
+        "model": "deepseek/deepseek-v3.2",
+        "fallback": null
+      },
+      "receipt": {
+        "words": 333,
+        "costUSD": 0.00081766,
+        "draft": "kladder/05-starbase-louisiana.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1789195460-M8ggkJ02MlCYi1vuMgeI"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-09-05",
+        "citations": 3,
+        "editorNote": "Kladden indsatte en ubriefet '[CHART starbase-louisiana-area-comparison]'-reference til en chart-infrastruktur, der ikke findes i CHARTS.md — fjernet. Arealregnestykket var også forkert ('over tre gange Københavns Kommune' — reelt ca. 5,7×) og indeholdt en ubelagt påstand om en 'kritisk fordel' ved ækvatoriale baner fra Louisiana, som ikke er en reel geografisk fordel ved denne breddegrad og ikke var briefet. Begge rettet: arealet er omregnet korrekt (125.000 acres = ca. 506 km²) og sammenlignet med Bornholm (589 km²); den ubelagte ækvatorial-påstand fjernet og erstattet med den briefede, kildebelagte pointe om søtransport af Starship-dele."
+      }
+    },
+    {
+      "slug": "rygteboersen",
+      "order": 6,
+      "section": "Rygtebørs",
+      "brief": {
+        "angle": "Rygtebørs-bagsnit i ORBITs etablerede korte, nøgterne stil: løse rygter og småhistorier fra rumfartsverdenen denne måned, ingen kildekrav. Slut med et konkret, realistisk bagsideløfte til nr. 6 (vælg et emne fra idébanken eller et nyt, undgå opdigtede, ukildebelagte tal).",
+        "words": [
+          300,
+          500
+        ],
+        "mustCite": 0,
+        "format": "rygteboersen"
+      },
+      "writer": {
+        "byline": "GPT-5.6 Terra (OpenAI)",
+        "model": "openai/gpt-5.6",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 345,
+        "costUSD": 0.017591,
+        "draft": "kladder/06-rygteboersen.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1789195557-hGJjCnsvSFbZuH6Y31lA"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-09-05",
+        "citations": 0,
+        "editorNote": "Kladdens bagsideløfte til nr. 6 dublerede stof, der allerede er brugt i selve nr. 5 (Ariane 6) — rettet til to reelt ubrugte, allerede noterede idébank-emner (Starbase-miljøvurdering, Starmind-opfølgning)."
+      }
+    }
+  ]
+}

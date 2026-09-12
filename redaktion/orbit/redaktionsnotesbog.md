@@ -1,6 +1,6 @@
 # ORBIT – Redaktionsnotesbog
 
-Opdateret efter genopbygningen af nr. 2 (august 2026, *"Kataloget og kikkerten"*).  
+Opdateret efter nr. 5 (september 2026, *"Europæisk rumadgang"*).
 OpenRouter: **kun** `.env.orbit`. Imagine: `.env.local` / `XAI_API_KEY`.
 
 ## Identitet
@@ -159,7 +159,61 @@ forkert.**
 `rygteboersen`-kladden skrev "27.000 kilometer i timen" om en hypotetisk fremtidig kollision —
 et konkret, ukildebelagt tal i en sætning, der kun skulle være spekulation. Fjernet før accept.
 
-## Nr. 5 — kandidater
+## Nr. 5 — udgivet 2026-09-05
+
+**Tema:** Europæisk rumadgang — og en amerikansk kontrast i skala (indfrier nr. 4's bagsideløfte).
+**6 artikler, 2.134 ord.** Fem artikler reelt kommissioneret på `.env.orbit`; lederen er
+redaktionens uden byline. Forbrug **0,2172 USD**. `check_issue.py`: **0 fejl, 1 advarsel**
+(korrekt, se nedenfor). `check_links.py`: **0 døde links, 0 ikke-verificerbare.**
+`bestilling.json`: `redaktion/orbit/numre/2026-09-nr5/bestilling.json`.
+
+To europæiske spor (Ariane 6's 2026-flyverate, Themis-genbrugsdemonstratoren + European Launcher
+Challenge) plus ejerens idébank-forslag som bevidst skala-kontrast: SpaceX' Starbase Louisiana.
+
+### Endnu en inline-SVG fanget — samme fejltype som INDENI i august
+
+`themis-genbrug`-kladden (Gemini 3.1 Pro) skrev en fuld, velkonstrueret SVG-figur direkte ind i
+brødteksten som en kodeblok, i stedet for at følge den etablerede `figures:`/`[FIGUR]`-konvention.
+Ekstraheret uændret til `content/orbit/issues/2026-09-nr5/images/figur-themis-skala-logistik.svg`.
+**Dette er nu observeret i to titler (INDENI august, ORBIT september) — værd at nævne eksplicit i
+fremtidige briefs, der beder om et diagram: "lever selve figuren, men skriv den IKKE ind i "
+"brødteksten som en kodeblok."**
+
+### En opdigtet chart-reference og en forkert skala-sammenligning fanget
+
+`starbase-louisiana`-kladden (DeepSeek V3.2) indsatte en `[CHART starbase-louisiana-area-comparison]`-
+reference til en chart-infrastruktur, der ikke findes noget sted i `content/CHARTS.md` — fjernet.
+Kladden regnede desuden forkert: 125.000 acres blev kaldt "over tre gange Københavns Kommune",
+men den korrekte omregning (ca. 506 km²) er nærmere **5,7 gange** Københavns areal. Erstattet med
+en korrekt, let efterprøvet sammenligning: næsten på størrelse med Bornholm (589 km²). Kladden
+tilføjede også en ubelagt, tvivlsom teknisk påstand om en "kritisk fordel" ved ækvatoriale
+baneopsendelser fra Louisianas breddegrad (29,6° N — ingen særlig ækvatorial fordel over Texas)
+— fjernet og erstattet med den briefede, kildebelagte pointe om søtransport via dybvandshavnen.
+
+### Bagsideløfte, der ville have dublueret nummerets eget indhold
+
+`rygteboersen`-kladden lovede i første omgang, at nr. 6 skulle "gå tæt på Ariane 6" — præcis det
+emne, nr. 5 selv allerede dækker. Rettet til to reelt ubrugte idébank-emner (Starbase-
+miljøvurdering, Starmind-opfølgning). **Lektionen: en model, der skriver et bagsideløfte, kender
+ikke resten af nummerets indhold — chefredaktøren skal altid tjekke løftet mod, hvad der faktisk
+allerede er brugt, ikke kun mod idébanken.**
+
+## Løfter givet i nr. 5
+
+- **Bagsiden:** FAA's miljøvurdering af Starbase' genindtræden i Stillehavet, og en Starmind-
+  opfølgning.
+
+## Nr. 6 — kandidater
+
+- ~~SpaceX' "Louisiana Purchase"~~ → **brugt i nr. 5** (2026-09-05).
+- **(2026-08) Starmind-opfølgning** — når AI1-prototyperne rent faktisk sendes op.
+- **(2026-08) Første Starbase-miljøvurdering (Stillehavs-genindtræden)** — opfølgning når FAA's
+  afgørelse efter høringsperioden (lukkede 3. august 2026) foreligger. Lovet som bagsideløfte til
+  nr. 6.
+- **(2026-08) Europæisk rumadgang — opfølgning** — kommerciel SSA-marked og liability i praksis
+  (fra nr. 3's åbne spor) er stadig ubrugte.
+
+## Nr. 5 — kandidater (arkiv, brugt)
 
 - **(2026-08-25) SpaceX' "Louisiana Purchase"** — ejerens forslag. SpaceX har annonceret en
   100 mia. USD-investering i et fjerde og hidtil største opsendelsesanlæg, "Starbase, Louisiana",
@@ -221,6 +275,11 @@ Ingen opdigtede launch-datoer. Skeln planlagt/scrub/success/failure. Primære ki
 `python production/load_env.py orbit` før produktion.
 
 ## Log
+
+- **2026-09-05:** Nr. 5 udgivet — 'Europæisk rumadgang', indfrier nr. 4's bagsideløfte. Se
+  læringen ovenfor: endnu en inline-SVG ekstraheret (samme fejltype som INDENI), en opdigtet
+  chart-reference og en forkert arealsammenligning fanget og rettet, og et bagsideløfte der
+  ville have dubleret nummerets eget indhold blev rettet før publicering.
 
 - **2026-08-29 (format):** Ejerens fire stående instrukser til skala/kort/deep dives/europæisk
   teknologi tilføjet under `## Format`. Gælder fra nr. 5. Kort-pipeline (public domain-geodata)
