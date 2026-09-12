@@ -183,6 +183,19 @@ skriver selvsikkert forkert om en kilde, den ikke reelt har adgang til.** Artikl
 færdig af redaktionen (status: `rewritten-by-editor`, ingen byline). Begge kaldte regninger
 (0,008301 + 0,0253035 USD) er reelle, betalte API-kald og talt med i nummerets samlede forbrug.
 
+### Ejeren bad om Grokipedia som ekstra kilde — samme dateret-kilde-lektion igen
+
+2026-09-12 bad ejeren om at tilføje Grokipedia (grokipedia.com/page/tesla-cybercab) som kilde til
+Cybercab-artiklen. Siden viste sig at være et præcist eksempel på lektionen ovenfor: dens eget
+`dateModified`-metadata er **2026-04-24**, altså skrevet FØR september-eventet fandt sted, og
+siden nævner hverken ACL Live, de fire navngivne præsentatører eller den lukkede lanceringsform —
+kun tidligere 2026-udvikling (FCC-godkendelse februar, produktionsstart februar, volumenoptrapning
+april). Den er tilføjet som ekstra fodnote KUN til de uændrede køretøjsspecifikationer (tosædet,
+lounge-kabine, ingen rat/pedaler), som siden faktisk dækker — ikke til selve eventet. **Samme regel
+som portefølje-lektionen fra samme dag: en kildes eksistens og en kildes relevans for netop den
+påstand, den skal understøtte, er to forskellige ting — tjek altid, at kilden faktisk dækker det
+tidspunkt, artiklen handler om, uanset hvor autoritativ kilden ellers er.**
+
 ### En kladde brugte forældede kilder til en aktuel begivenhed
 
 `kort-og-watt`-kladden (Gemini 3.1 Pro) citerede en Uber-investor-pressemeddelelse fra 2024 og en

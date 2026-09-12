@@ -12,7 +12,7 @@ SPÆNDING nr. 4 varslede eventet på forhånd: Tesla ville afholde et lancerings
 
 Eventet var invitation-only og blev holdt på spillestedet ACL Live i Austin. Der var ingen offentlig livestream, hvilket skabte tydelig utilfredshed på X, hvor tilhængere ventede forgæves på en sending, der aldrig kom. Elon Musk deltog ikke. I stedet præsenterede fire Tesla-medarbejdere i omkring 15 minutter: ledende ingeniør Eric Earle, softwarechef Silvio Brugada, designer Ian Kettle og Ashok Elluswamy, chef for selskabets selvkørselssystemer.[^1]
 
-Selve køretøjet er en tosædet bil uden rat eller pedaler, bygget til udelukkende at blive kørt af Teslas Full Self-Driving-software (FSD). Dagen efter eventet begyndte Tesla at tilbyde offentlige, betalte Cybercab-ture i Austin gennem selskabets eksisterende Robotaxi-tjeneste — første gang køretøjet transporterede betalende kunder frem for ansatte eller inviterede testpersoner.[^1]
+Selve køretøjet er en tosædet bil uden rat eller pedaler, indrettet som en lounge-agtig kabine, og bygget til udelukkende at blive kørt af Teslas Full Self-Driving-software (FSD).[^2] Dagen efter eventet begyndte Tesla at tilbyde offentlige, betalte Cybercab-ture i Austin gennem selskabets eksisterende Robotaxi-tjeneste — første gang køretøjet transporterede betalende kunder frem for ansatte eller inviterede testpersoner.[^1]
 
 ## To milepæle, ikke én
 
@@ -23,3 +23,4 @@ Den lukkede form er i sig selv en historie. Et produkt, Tesla tidligere har omta
 Indtil da er den ærlige status denne: Cybercab kører nu med betalende passagerer i Austin. Hvor mange, hvor ofte, og med hvilken grad af menneskeligt opsyn, er endnu ikke offentliggjort.
 
 [^1]: [Wikipedia: «Tesla Cybercab»](https://en.wikipedia.org/wiki/Tesla_Cybercab)
+[^2]: [Grokipedia: «Tesla Cybercab»](https://grokipedia.com/page/tesla-cybercab) — dækker køretøjets design og specifikationer, men siden er sidst opdateret 24. april 2026 og omtaler ikke selve september-eventet.
