@@ -1,0 +1,217 @@
+{
+  "magazine": "pulsen",
+  "issue": "2026-09-nr5",
+  "issueTheme": "Opfølgning: Bupa i drift, og AID_NOTE på målstregen",
+  "budget": {
+    "articles": 6,
+    "wordsPerArticle": [
+      200,
+      600
+    ],
+    "targetPages": 10,
+    "note": "Indfrier nr. 4's bagsideløfte. AID_NOTE er endnu ikke afsluttet (løber til okt. 2026) — dækket ærligt som status, ikke som konklusion."
+  },
+  "opgaver": [
+    {
+      "slug": "leder",
+      "order": 1,
+      "section": "Leder",
+      "brief": {
+        "angle": "Kort leder der introducerer temaet: opfølgning på nr. 4's to bagsideløfter — er Bupas Prevention Pathways landet, og er AID_NOTE's 12-måneders resultater klar? Vær ærlig om, at AID_NOTE (løber okt. 2025-okt. 2026) endnu ikke er afsluttet.",
+        "words": [
+          150,
+          250
+        ],
+        "mustCite": 0,
+        "format": "leder"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": null,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-09-05",
+        "citations": 0,
+        "editorNote": "Redaktionens egen leder, ingen byline, ingen API-kald."
+      }
+    },
+    {
+      "slug": "bupa-i-drift",
+      "order": 2,
+      "section": "Feature · Forebyggelse",
+      "brief": {
+        "angle": "Feature: opfølgning på Bupas Prevention Pathways, som PULSEN nr. 4 omtalte som kommende — nu er den gået live. Brug PRÆCIS disse verificerede tal fra Bupas egen pressemeddelelse (bupa.com, 2026): Prevention Pathways for brystkræft, hjerte-kar-sygdom og type 2-diabetes gik i drift 1. september 2026, tilgængelig for fornyende Consumer- og SME-kunder (nye kunder omfattes efter 12 måneders karenstid). Programmet kombinerer DNA-test, klinisk vurdering og Bupas AI-drevne platform Blua til at identificere forhøjet risiko tidligere. For brystkræft kan det betyde adgang til forebyggende medicin (fx Tamoxifen) eller risikoreducerende kirurgi (mastektomi), styret af test for gener som BRCA. Bupa forventer, at programmet støtter 200.000 mennesker ved udgangen af 2027, heraf 36.000 via brystkræft-sporet og over 95.000 via hjerte-kar/diabetes-sporene. Baggrund: et genomik-pilotprojekt med over 12.000 kunder. Et separat 'Medication Check'-tiltag gik i drift allerede 1. juni 2026 og kan potentielt nå 4,2 mio. britiske kunder i fast medicin. Nævn eksplicit, at dette er britisk (UK), ikke dansk — ingen dansk pendant er fundet (dækkes i en separat artikel i dette nummer).",
+        "words": [
+          400,
+          600
+        ],
+        "mustCite": 3,
+        "mustNumber": [
+          "1. september 2026",
+          "200.000 mennesker",
+          "36.000",
+          "12.000 kunder i pilot"
+        ],
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 464,
+        "costUSD": 0.02368,
+        "draft": "kladder/02-bupa-i-drift.md",
+        "costRouting": "byok",
+        "generationId": "gen-1789196458-bRBn5iumZQiv7YRbw2Dg"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-09-05",
+        "citations": 2,
+        "editorNote": "Faktatjekket mod Bupas egen pressemeddelelse. Kladdens tre bare 'bupa.com (2026)'-fodnoter uden URL rettet til to konkrete, verificerede sider (samme pressemeddelelse dækker både Prevention Pathways og Medication Check)."
+      }
+    },
+    {
+      "slug": "aidnote-status",
+      "order": 3,
+      "section": "Feature · Ambient AI",
+      "brief": {
+        "angle": "Feature: ærlig status på AID_NOTE, Danmarks store Ambient Scribe-evaluering, som PULSEN nr. 3/4 har fulgt. Brug PRÆCIS disse verificerede fakta (cai-x.com, projektsiden): projektet løber oktober 2025 til oktober 2026 og sammenligner to AI-tale-til-tekst-løsninger, Corti Assistant og Tandem (via Omilon), i realistiske kliniske miljøer på tværs af syv afdelinger på fire institutioner — Odense Universitetshospital, Sygehus Lillebælt, Sygehus Sønderjylland og Center for Digital Psykiatri. Evalueringen dækker fire fokusområder (dokumentationskvalitet, tidsforbrug, brugeroplevelse, økonomisk effekt) på tværs af tre kliniske kontekster (stuegang, ambulant, akut). SKRIV EKSPLICIT OG TYDELIGT, at der IKKE er offentliggjorte fore-løbige eller endelige resultater endnu på researchtidspunktet (september 2026) — projektet er tæt på afslutning (løber til oktober 2026), men ikke færdigt. Dette er IKKE en fiasko eller forsinkelse, det er blot status: en evaluering, der endnu løber. Genbrug gerne den etablerede kontrast fra nr. 3 (AID_NOTE vs. det lille, modsatrettede AAU-kandidatspeciale) som baggrund, men skriv IKKE et nyt konkluderende tal, der ikke er kildebelagt.",
+        "words": [
+          350,
+          550
+        ],
+        "mustCite": 2,
+        "mustNumber": [
+          "oktober 2025 til oktober 2026",
+          "syv afdelinger",
+          "fire institutioner"
+        ],
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "GPT-5.6 Terra (OpenAI)",
+        "model": "openai/gpt-5.6",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 384,
+        "costUSD": 0.020996,
+        "draft": "kladder/03-aidnote-status.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1789196529-cLSZTUEGWe4FusmXdtl5"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-09-05",
+        "citations": 2,
+        "editorNote": "Faktatjekket mod CAI-X's projektside. Modellen skrev korrekt og eksplicit, at ingen resultater er offentliggjort endnu — ingen opdigtet konklusion. Bar 'cai-x.com'-fodnote rettet til den konkrete projektside."
+      }
+    },
+    {
+      "slug": "dansk-parallel",
+      "order": 4,
+      "section": "Analyse · Marked",
+      "brief": {
+        "angle": "Feature: besvarer nr. 3/4's åbne spørgsmål — findes der en dansk pendant til Bupas Prevention Pathways? Svaret er research-baseret: nej, ingen fundet dansk forsikringsselskab eller offentlig aktør tilbyder i dag et sammenligneligt DNA-drevet, forsikringskoblet forebyggelsesprogram. Men Danmark har i 2026 fået konkret etisk/klinisk regulering, der ville være relevant, hvis et sådant program kom: Dansk Selskab for Medicinsk Genetik (DSMG) udgav i 2026 en vejledning om rapportering af sekundære fund ved omfattende genetiske analyser — dvs. hvad en klinik skal gøre, når en bred gentest utilsigtet finder noget andet end det, man ledte efter (fx en BRCA-risiko fundet ved en utilknyttet test). Forklar hvorfor sekundære fund er etisk komplekst (kan påvirke både patienten og familiemedlemmer, som ikke selv har bedt om at få det at vide). Skriv ærligt, at det danske sundhedssystems universelle, skattefinansierede model (uden privat sundhedsforsikring som hovedadgang) er en strukturel grund til, at et Bupa-lignende program ikke opstår på samme måde her — det er en strukturel forskel, ikke nødvendigvis et 'bagud'. IKKE opdigt et dansk pilotprojekt eller en dansk aktør, der ikke er fundet i research.",
+        "words": [
+          400,
+          600
+        ],
+        "mustCite": 2,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "Gemini 3.1 Pro (Google)",
+        "model": "google/gemini-3.1-pro-preview",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 511,
+        "costUSD": 0.104872,
+        "draft": "kladder/04-dansk-parallel.md",
+        "costRouting": "byok",
+        "generationId": "gen-1789196577-LJ1VufQAsJHDgLVvFbgT"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-09-05",
+        "citations": 3,
+        "editorNote": "Faktatjekket. Kladdens to fodnoter var opdigtede uden URL ('Indenrigs- og Sundhedsministeriet: Kort om det danske sundhedsvæsen'; 'Det Etiske Råd: Genetiske undersøgelser af raske' — hverken titel eller udgiver kunne bekræftes). Erstattet med tre reelle, verificerede kilder: Sundhedsstyrelsens 'Det danske sundhedsvæsen' (2017), DSMG's 2026-vejledning om sekundære fund (den faktiske kilde til hele artiklens kernepointe), og Det Etiske Råds egen 2000-redegørelse om præsymptomatisk gendiagnostik (dateret eksplicit i teksten, så læseren ved det ikke er en ny udtalelse)."
+      }
+    },
+    {
+      "slug": "vandrehistorier",
+      "order": 5,
+      "section": "Vandrehistorier fra vagtstuen",
+      "brief": {
+        "angle": "Vandrehistorier fra vagtstuen: PULSENs faste, løse anekdote-format fra sundhedsvæsenets hverdag. Ingen kildekrav, ingen konkrete opdigtede statistikker eller navngivne hospitaler/patienter — hold det generisk og genkendeligt, som formatet plejer.",
+        "words": [
+          300,
+          500
+        ],
+        "mustCite": 0,
+        "format": "anekdote"
+      },
+      "writer": {
+        "byline": "DeepSeek V3.2 (DeepSeek)",
+        "model": "deepseek/deepseek-v3.2",
+        "fallback": null
+      },
+      "receipt": {
+        "words": 286,
+        "costUSD": 0.00046848,
+        "draft": "kladder/05-vandrehistorier.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1789196723-ay5X7fQnCaDrAhBX80du"
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-09-05",
+        "citations": 0,
+        "editorNote": "Anekdotisk format, ingen faktapåstande der kræver kilde."
+      }
+    },
+    {
+      "slug": "quiz",
+      "order": 6,
+      "section": "Sjov og spil",
+      "brief": {
+        "angle": "Quiz: 'Testede du spalterne?' — 5-8 spørgsmål baseret på dette nummers egne artikler (Bupa Prevention Pathways, AID_NOTE, dansk sundhedsgenetik). Facitliste til sidst. Ordbudget 200-350 (jf. notesbogens etablerede lære om quizzens naturlige længde).",
+        "words": [
+          200,
+          350
+        ],
+        "mustCite": 0,
+        "format": "quiz"
+      },
+      "writer": {
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 302,
+        "costUSD": 0.032574,
+        "draft": "kladder/06-quiz.md",
+        "costRouting": "byok",
+        "generationId": "gen-1789196743-RWb04cPYkJF4RResBWnc"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-09-05",
+        "citations": 0,
+        "editorNote": "Spørgsmål 4's facit ('Nationalt Genom Center') stemte ikke overens med den faktiske artikel, der handler om DSMG (Dansk Selskab for Medicinsk Genetik) — rettet, så spørgsmål og facit matcher det publicerede indhold."
+      }
+    }
+  ]
+}

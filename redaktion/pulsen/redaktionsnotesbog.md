@@ -1,6 +1,6 @@
 # PULSEN – Redaktionsnotesbog
 
-Opdateret efter genopbygningen af nr. 3 (2026-08-19, "Når driften taler"). Modelerfaringer: [modelkartotek](../modelkartotek.md).
+Opdateret efter nr. 5 (2026-09-05, "Opfølgning: Bupa i drift, og AID_NOTE på målstregen"). Modelerfaringer: [modelkartotek](../modelkartotek.md).
 
 ## Identitet
 
@@ -142,16 +142,65 @@ modsigelse af den kliniske præcision (97-99% sensitivitet i Italien, i klinisk 
 Kladden fulgte instruksen præcist — samme systemiske pointe, som KRAFTEN nr. 4 samme dag lavede
 om SMR-økonomi (NuScale-annulleringen betyder ikke, at teknologien er død).
 
-## Nr. 5 — kandidater
+## Nr. 5 — udgivet 2026-09-05
 
-- **(2026-08) Bupa Prevention Pathways — opfølgning** efter lanceringen 1. september 2026, hvis
-  der kommer konkrete tal fra de første uger.
-- **(2026-08) AID_NOTE's 12-måneders resultater**, når evalueringen (okt. 2025–okt. 2026)
-  afsluttes.
-- **(2026-08) Danske paralleller til Bupas model** — findes der noget lignende i dansk offentligt
-  eller privat regi?
+**Tema:** Opfølgning på nr. 4's to bagsideløfter. **6 artikler, 2.082 ord.** Fem artikler reelt
+kommissioneret på `.env.pulsen`; lederen er redaktionens uden byline. Forbrug **0,1826 USD**.
+`check_issue.py`: **0 fejl, 1 advarsel** (korrekt, se nedenfor). `check_links.py`: **0 døde
+links** (2 bot-blokerede, sst.dk og etiskraad.dk, svarer 429 men er læst manuelt).
+`bestilling.json`: `redaktion/pulsen/numre/2026-09-nr5/bestilling.json`.
+
+Kun ét af de to lovede spor kunne reelt indfries: Bupas Prevention Pathways gik i drift 1.
+september 2026, mens AID_NOTE (løber til oktober 2026) endnu ikke har offentliggjorte resultater.
+Skrevet ærligt som status, ikke som et opdigtet facit — se læringen nedenfor. Tredje spor (dansk
+parallel til Bupa) besvarede notesbogens eget åbne spørgsmål: nej, ingen findes, af strukturelle
+grunde.
+
+### En kladde opdigtede to fodnoter uden URL — fanget og rettet
+
+`dansk-parallel`-kladden (Gemini 3.1 Pro) citerede "Indenrigs- og Sundhedsministeriet: Kort om det
+danske sundhedsvæsen" og "Det Etiske Råd: Genetiske undersøgelser af raske" — ingen af titlerne
+kunne bekræftes, og ingen URL var angivet. Research fandt de faktiske, nærtbeslægtede kilder:
+Sundhedsstyrelsens "Det danske sundhedsvæsen" (2017) og Det Etiske Råds egen redegørelse om
+præsymptomatisk gendiagnostik — men sidstnævnte er fra **år 2000**, ikke en ny udtalelse. Det er
+skrevet eksplicit ind i teksten med årstal, så en læser ikke fejlagtigt tror, det er en frisk
+kilde. **Samme mønster som gentagne gange før i porteføljen: en model finder et plausibelt
+klingende institutionsnavn og en plausibel titel, men ingen af delene holder ved eftertjek.**
+
+### Ærlig "intet resultat endnu" holdt, uden at blive fyldt ud med et gæt
+
+`aidnote-status`-briefen krævede eksplicit, at kladden IKKE måtte opdigte et konkluderende tal,
+selvom evalueringen er tæt på sin afslutning (okt. 2025–okt. 2026). Kladden fulgte instruksen
+præcist og skrev fraværet af resultater som neutral status, ikke som forsinkelse eller fiasko.
+**Dette er værd at fremhæve som et positivt eksempel: at afstå fra et facit er lige så vigtigt en
+disciplin som at fact-checke et, der allerede findes.**
+
+### Quiz-facit, der ikke matchede den faktiske artikel
+
+`quiz`-kladden byggede spørgsmål 4 om "hvilken institution artiklen nævner" med facit "Nationalt
+Genom Center" — men den faktiske artikel handler om Dansk Selskab for Medicinsk Genetik (DSMG).
+Modellen skrev quizzen uden adgang til den færdige artikeltekst og gættede forkert på et
+plausibelt, men forkert facit. Rettet før publicering. **Lær af dette: en quiz om nummerets eget
+indhold skal krydstjekkes mod de FAKTISK publicerede artikler, ikke mod briefen — kladden kender
+kun sin egen opgave, ikke naboartiklernes endelige tekst.**
+
+## Løfter givet i nr. 5
+
+- **Bagsiden:** AID_NOTE, når evalueringen er afsluttet, og om flere danske aktører følger DSMG's
+  2026-vejledning i praksis.
+
+## Nr. 6 — kandidater
+
+- ~~Bupa Prevention Pathways — opfølgning~~ → **brugt i nr. 5** (2026-09-05).
+- ~~Danske paralleller til Bupas model~~ → **brugt i nr. 5** (2026-09-05, svar: ingen findes).
+- **(2026-09) AID_NOTE's resultater**, når evalueringen (okt. 2025–okt. 2026) faktisk afsluttes —
+  lovet som bagsideløfte til nr. 6.
 
 ## Log
+
+- **2026-09-05:** Nr. 5 udgivet — opfølgning på nr. 4's to bagsideløfter. Se læringen ovenfor: to
+  opdigtede fodnoter uden URL fanget og rettet, en ærlig "intet resultat endnu"-status holdt uden
+  at blive fyldt med et gæt, og et quiz-facit rettet til at matche den faktisk publicerede artikel.
 
 - **2026-08-19 (efterkontrol):** MDR-fodnoten i `europa-ai` (allerede publiceret samme dag) fejlede
   ved en gentjekning under KULTURBOXEN nr.3-arbejdet: `?uri=CELEX:02017R0745` (konsolideret-præfiks
