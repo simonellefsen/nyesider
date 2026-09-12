@@ -1,0 +1,89 @@
+{
+  "magazine": "spaending",
+  "number": 5,
+  "title": "SPÆNDING nr. 5 · September 2026",
+  "issueTheme": "Brugtmarkedet finder sine ben — og to robotaxi-forsøg går fra plan til drift",
+  "published": "2026-09-05",
+  "status": "published",
+  "pdf": null,
+  "cover": "images/spaending_cover.png",
+  "coverCredit": "AI-genereret motiv (Imagine / xAI)",
+  "coverSource": "https://x.ai/",
+  "images": [
+    "images/spaending_brugtmarked.png",
+    "images/spaending_cover.png",
+    "images/spaending_cybercab.png",
+    "images/spaending_kortogwatt.png",
+    "images/spaending_leder.png",
+    "images/spaending_rygteboers.png"
+  ],
+  "productionCostUSD": 0.1571,
+  "imageCredits": "Imagine / xAI. Stil varieret pr. artikel.",
+  "backCoverPromise": "SPÆNDING nr. 6 kigger på de første konkrete detaljer omkring Volvos næste generations elektriske platform, ventet i en mere traditionel sedan- eller stationcar-udgave af EX30.",
+  "articles": [
+    {
+      "slug": "leder",
+      "file": "articles/01-leder.md",
+      "order": 1,
+      "section": "Leder",
+      "title": "Brugtmarkedet finder sine ben",
+      "standfirst": "To robotaxi-forsøg gik fra plan til drift denne sommer. Og et voksende brugtmarked stiller et nyt spørgsmål til forhandleren.",
+      "image": "images/spaending_leder.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/",
+      "words": 109
+    },
+    {
+      "slug": "brugtmarkedet-batteri",
+      "file": "articles/02-brugtmarkedet-batteri.md",
+      "order": 2,
+      "section": "Feature · Brugtmarked",
+      "title": "Brugte elbiler: sådan læser du et batteri, før du skriver under",
+      "standfirst": "Det europæiske brugtmarked for elbiler vokser hurtigt. Kilometertallet er det forkerte spørgsmål — her er det rigtige.",
+      "image": "images/spaending_brugtmarked.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/",
+      "words": 509,
+      "byline": "Claude Sonnet 5 (Anthropic)"
+    },
+    {
+      "slug": "cybercab-lancering",
+      "file": "articles/03-cybercab-lancering.md",
+      "order": 3,
+      "section": "Feature · Robotaxi",
+      "title": "Cybercab: et lukket event, ikke den store demonstration",
+      "standfirst": "Tesla lancerede sin robotaxi den 3. september 2026 — men uden livestream, uden Musk, og uden det store fremmøde nogen havde ventet.",
+      "image": "images/spaending_cybercab.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/",
+      "words": 335
+    },
+    {
+      "slug": "kort-og-watt",
+      "file": "articles/04-kort-og-watt.md",
+      "order": 4,
+      "section": "Kort & Watt",
+      "title": "Kort & Watt",
+      "standfirst": "London fik sine første robotaxier — superviseret, ikke førerløs. Og BYDs ungarske tidsplan skrider igen.",
+      "image": "images/spaending_kortogwatt.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/",
+      "words": 362,
+      "byline": "Gemini 3.1 Pro (Google)"
+    },
+    {
+      "slug": "rygteboers",
+      "file": "articles/05-rygteboers.md",
+      "order": 5,
+      "section": "Rygtebørs",
+      "title": "Rygtebørs",
+      "standfirst": "En Alpine-drøm går i vasken, en Cybertruck dukker op på dansk motorvej, og Apples bilprojekt lever stadig — i formindsket form.",
+      "image": "images/spaending_rygteboers.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/",
+      "words": 376,
+      "byline": "DeepSeek V3.2 (DeepSeek)",
+      "flow": true
+    }
+  ]
+}

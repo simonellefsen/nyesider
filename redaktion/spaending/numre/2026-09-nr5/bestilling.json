@@ -1,0 +1,189 @@
+{
+  "magazine": "spaending",
+  "issue": "2026-09-nr5",
+  "issueTheme": "Brugtmarkedet finder sine ben — og to robotaxi-forsøg går fra plan til drift",
+  "budget": {
+    "articles": 5,
+    "wordsPerArticle": [
+      250,
+      650
+    ],
+    "targetPages": 10,
+    "note": "Indfrier nr. 4's bagsideløfte (brugtmarked/batterikapacitet). Cybercab-eventet og Londons robotaxi-lancering fandt begge sted 3. september 2026 — opdateret med, hvad der faktisk skete."
+  },
+  "opgaver": [
+    {
+      "slug": "leder",
+      "order": 1,
+      "section": "Leder",
+      "brief": {
+        "angle": "Kort leder der introducerer temaet: det europæiske brugtmarked for elbiler, batterikapacitet efter de første år, og en kort status på Tesla Cybercab og Londons robotaxi-forsøg. Indfrier nr. 4's bagsideløfte.",
+        "words": [
+          150,
+          250
+        ],
+        "mustCite": 0,
+        "format": "leder"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": null,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-09-05",
+        "citations": 0,
+        "editorNote": "Redaktionens egen leder, ingen byline, ingen API-kald."
+      }
+    },
+    {
+      "slug": "brugtmarkedet-batteri",
+      "order": 2,
+      "section": "Feature · Brugtmarked",
+      "brief": {
+        "angle": "Hovedfeature (indfrier nr. 4's bagsideløfte): det europæiske brugtmarked for elbiler, og hvad en køber konkret skal kigge efter. Brug PRÆCIS disse verificerede tal: det europæiske brugtmarked for elbiler var vurderet til 63 mia. USD i 2025, ventes at vokse til 68,4 mia. USD i 2026 og 161,4 mia. USD i 2035 (ca. 10 % årlig vækst 2026-2035) — kilde: GM Insights markedsanalyse. Forklar begrebet State of Health (SoH, batteriets sundhedstilstand målt i procent af oprindelig kapacitet) som det centrale tal en køber skal spørge efter — IKKE kilometertal alene. Forklar KONKRET, hvordan man tjekker det: bed om et batteri-sundhedstjek/-rapport (fra forhandler eller en app/OBD-II-enhed), og — hvis muligt — observér en DC-lynladning under fremvisningen for at se, om ladehastigheden stiger jævnt eller er ustabil. Nævn producenters typiske batterigaranti-model som eksempel: Tesla garanterer 8 år og et kilometerantal, der varierer efter model (Model 3/Y bagagerumsdrevne op til 160.000 km, Premium-varianter op til ca. 193.000 km, Model S/X/Cybertruck op til 240.000 km), med minimum 70 % kapacitetsbevarelse i garantiperioden — og garantien løber fra bilens FØRSTE leveringsdato, ikke fra din købsdato, hvilket er særligt vigtigt ved brugtkøb (kilde: Tesla's egen garantiside). IKKE opdigt et præcist kroneværditab eller en præcis årlig degraderingsprocent, hvis det ikke kan verificeres direkte fra en pålidelig kilde — hold den del kvalitativ (fx 'de fleste elbiler mister kun en mindre del af kapaciteten over de første år' uden et tal, du ikke selv kan belægge). Vinklen skal være praktisk: hvad spørger du forhandleren om, hvilke dokumenter beder du om.",
+        "words": [
+          450,
+          650
+        ],
+        "mustCite": 2,
+        "mustNumber": [
+          "63 mia. USD i 2025",
+          "68,4 mia. USD i 2026",
+          "8 år"
+        ],
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 509,
+        "costUSD": 0.026944,
+        "draft": "kladder/02-brugtmarkedet-batteri.md",
+        "costRouting": "byok",
+        "generationId": "gen-1789197604-0pZ3Aq0AdV9ErzDEgDer"
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-09-05",
+        "citations": 2,
+        "editorNote": "Faktatjekket mod GM Insights og Tesla's egen garantiside. Bar 'gminsights.com'-fodnote rettet til den konkrete rapportside. Modellen fulgte instruksen om IKKE at opdigte en præcis degraderingsprocent eller kroneværdi, hvor kilden ikke kunne verificeres — accepteret uden ændring."
+      }
+    },
+    {
+      "slug": "cybercab-lancering",
+      "order": 3,
+      "section": "Feature · Robotaxi",
+      "brief": {
+        "angle": "Feature: opfølgning på Tesla Cybercabs lanceringsevent, som SPÆNDING nr. 4 varslede på forhånd — nu har det fundet sted, og research skal opdatere med, hvad der FAKTISK skete, ikke kun hvad der var annonceret. Brug PRÆCIS disse verificerede fakta: eventet blev holdt 3. september 2026 i Austin, Texas, som et LUKKET, invitation-only arrangement på spillestedet ACL Live — ikke den store, åbne livestream-begivenhed mange fans forventede (ingen offentlig livestream var tilgængelig, hvilket skabte utilfredshed på X/Twitter). Elon Musk deltog IKKE; i stedet præsenterede ledende ingeniør Eric Earle, softwarechef Silvio Brugada, designer Ian Kettle og chef for selvkørselssystemer Ashok Elluswamy i omkring 15 minutter. Cybercab er tosædet, uden rat eller pedaler, og kører udelukkende på Teslas Full Self-Driving-software. Samme dag begyndte Tesla at tilbyde OFFENTLIGE betalte ture i Cybercab i Austin — første gang køretøjet transporterede betalende kunder frem for ansatte eller inviterede testere. SKELN EKSPLICIT mellem 'lancering af selve køretøjet/eventet' og 'kommerciel start af betalte ture' — det er to forskellige, men samtidige, begivenheder. IKKE fremstil eventet som en stor, åben demonstration — det var bevidst lukket. VERIFICEREDE KILDER (brug disse eksplicit som fodnoter): https://en.wikipedia.org/wiki/Tesla_Cybercab (bekræfter dato, lukket format, ACL Live-spillested, de fire navngivne præsentatører, at Musk ikke deltog, og at betalte ture startede dagen efter selve eventet — IKKE samme dag, ret denne detalje). Skriv IKKE at det skete \"samme dag\" — det var dagen efter.",
+        "words": [
+          400,
+          600
+        ],
+        "mustCite": 3,
+        "mustNumber": [
+          "3. september 2026",
+          "Austin, Texas",
+          "15 minutter"
+        ],
+        "format": "feature"
+      },
+      "writer": {
+        "byline": null,
+        "model": "openai/gpt-5.6",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 335,
+        "costUSD": 0.033604,
+        "draft": "kladder/03-cybercab-lancering.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1789197691-2N1PjpeFezHm4xI9oAiE"
+      },
+      "verdict": {
+        "status": "rewritten-by-editor",
+        "checkedAt": "2026-09-05",
+        "citations": 1,
+        "editorNote": "To kommissioneringsforsøg mislykkedes på hver sin måde. Første forsøg (uden URL i briefen) nægtede korrekt at skrive artiklen, fordi begivenheden ligger efter modellens træningsdata (samme mønster som GNISTEN nr. 4's fokus-ansvar). Andet forsøg fik en verificeret Wikipedia-URL indsat direkte i briefen — men modellen kan IKKE faktisk hente URL'ens indhold; den ræsonnerede i stedet ud fra egen træningsviden om Cybercabs 2024-fremvisning og konkluderede FEJLAGTIGT, at den anviste kilde ikke dækkede 2026-eventet (den gør), og opdigtede desuden ekstra, ubriefede fodnoter (Tesla we-robot-side, NHTSA, Waymo) til støtte for sin forkerte skepsis. Dette er et nyt, vigtigt fund: at indsætte en URL i brief.angle giver IKKE modellen levende browsing — den kan stadig afvise eller fejlrapportere en velverificeret, dateret kilde, og denne gang med selvsikker, forkert begrundelse i stedet for en ærlig afvisning. Redaktionen skrev derfor selve artiklen (status: rewritten-by-editor, ingen byline), baseret på research foretaget UDEN for kommissioneringen (direkte WebFetch af Wikipedia-siden). Begge kaldte regninger er reelle og talt med."
+      }
+    },
+    {
+      "slug": "kort-og-watt",
+      "order": 4,
+      "section": "Kort & Watt",
+      "brief": {
+        "angle": "Kort & Watt-bagsnit (kort nyhedsformat, må dele billede med Rygtebørs). To korte, kildebelagte notitser: (1) Uber og Wayve lancerede 3. september 2026 Londons FØRSTE kommercielle robotaxi-forsøg — superviseret, IKKE førerløs: en sikkerhedsfører sidder altid i bilen (Ubers licens til at operere selvkørende køretøjer i London kræver det). Under 20 biler tilgængelige ved lancering, alle en el-drevet Ford Mustang Mach-E udstyret med Wayves AI-førersystem. Passagerer, der bestiller UberX, Uber Electric eller Uber Comfort, kan blive matchet med en Wayve-tur uden ekstra pris. SKELN EKSPLICIT superviseret fra førerløs — samme skelnen SPÆNDING etablerede for London i nr. 4. (2) BYDs planlagte fabrik i Szeged, Ungarn — SPÆNDING nr. 4 nævnte Q4 2026 som forventet produktionsstart for Dolphin Surf-modellen. Skriv ærligt, at tidsplanen har flyttet sig undervejs (tidligere meldinger nævnte 2. kvartal 2026), og at Q4 2026 er det seneste, ubekræftede skøn fra BYD-ledelsen — ikke en bekræftet dato. Fabrikken har en planlagt årlig kapacitet på op til 300.000 biler, men tidlig produktion ventes lavere (omkring 150.000/år).",
+        "words": [
+          300,
+          500
+        ],
+        "mustCite": 3,
+        "mustNumber": [
+          "3. september 2026",
+          "under 20 biler",
+          "300.000 biler"
+        ],
+        "format": "kort-og-watt"
+      },
+      "writer": {
+        "byline": "Gemini 3.1 Pro (Google)",
+        "model": "google/gemini-3.1-pro-preview",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 362,
+        "costUSD": 0.09564,
+        "draft": "kladder/04-kort-og-watt.md",
+        "costRouting": "byok",
+        "generationId": "gen-1789197749-jun3FzQ4bGybxR182tFZ"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-09-05",
+        "citations": 4,
+        "editorNote": "Faktatjekket. Kladdens to Wayve/London-fodnoter var forældede (Uber-investor-pressemeddelelse fra 2024, Reuters-artikel om en kapitalrejsning fra maj 2024) og dokumenterede IKKE selve 2026-lanceringen — samme 'model kan ikke faktisk læse indsatte URL'er'-mønster som cybercab-lancering. Erstattet med Wayves egen 2026-pressemeddelelse og Engadget. Kladdens BYD-tarifpåstand ('17,0 % aktuel toldsats') var forældet: EU erstattede tolden med en mindstepris-ordning fra januar 2026, hvilket kladden ikke kendte til. Rettet til den korrekte, aktuelle beskrivelse."
+      }
+    },
+    {
+      "slug": "rygteboers",
+      "order": 5,
+      "section": "Rygtebørs",
+      "brief": {
+        "angle": "Rygtebørs-bagsnit i SPÆNDINGs etablerede stil (250-450 ord, jf. notesbogens formatlære): løse rygter og småhistorier fra elbilverdenen denne måned, ingen kildekrav. Slut med et konkret, realistisk bagsideløfte til nr. 6 (vælg fra idébanken eller et nyt emne — undgå opdigtede, ukildebelagte tal, selv i et bagsideløfte).",
+        "words": [
+          250,
+          450
+        ],
+        "mustCite": 0,
+        "format": "rygteboersen"
+      },
+      "writer": {
+        "byline": "DeepSeek V3.2 (DeepSeek)",
+        "model": "deepseek/deepseek-v3.2",
+        "fallback": null
+      },
+      "receipt": {
+        "words": 376,
+        "costUSD": 0.00088345,
+        "draft": "kladder/05-rygteboers.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1789197862-oy4myEJwXpeCVpQjZbRJ"
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-09-05",
+        "citations": 0,
+        "editorNote": "Ren rygtekolonne (mustCite 0); alle påstande eksplicit hedget som rygter/uverificerede ('skulle', 'hviskes det', 'ifølge øjenvidner') — ingen ændring nødvendig."
+      }
+    }
+  ]
+}

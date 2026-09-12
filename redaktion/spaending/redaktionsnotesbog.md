@@ -1,6 +1,6 @@
 # SPÆNDING – Redaktionsnotesbog
 
-*Opdateret efter nr. 3 (august 2026, "Køen, kulden og den næste watt") — editor-revision for dybde.*
+*Opdateret efter nr. 5 (2026-09-05, "Brugtmarkedet finder sine ben").*
 
 ## Identitet
 
@@ -152,7 +152,63 @@ være en åben teaser. Rettet til en generisk formulering. **Regel værd at husk
 bagsideløfte kan indeholde en faktapåstand, der kræver kilde, hvis det er formuleret som et
 konkret tal.**
 
-## Nr. 5 — kandidater
+## Nr. 5 — udgivet 2026-09-05
+
+**Tema:** Brugtmarkedet finder sine ben — og to robotaxi-forsøg går fra plan til drift (indfrier
+nr. 4's bagsideløfte). **5 artikler, 1.691 ord.** Tre artikler reelt kommissioneret på
+`.env.spaending`; lederen er redaktionens uden byline, og Cybercab-artiklen er redaktionens efter
+to mislykkede kommissioneringsforsøg (se nedenfor). Forbrug **0,1571 USD**. `check_issue.py`:
+**0 fejl, 2 advarsler** (begge forklarede, se nedenfor). `check_links.py`: **0 døde links** (4
+bot-blokerede: Wayve, Engadget, electrive.com, Tesla — alle svarer 403 men er læst manuelt).
+`bestilling.json`: `redaktion/spaending/numre/2026-09-nr5/bestilling.json`.
+
+### Vigtigt nyt fund: at indsætte en URL i briefen giver IKKE modellen levende browsing
+
+`cybercab-lancering` blev forsøgt kommissioneret to gange. Første forsøg (uden URL i briefen)
+afviste korrekt at skrive artiklen, fordi eventet (3. september 2026) ligger efter modellens
+træningsdata — samme sunde reaktion som GNISTEN nr. 4's `fokus-ansvar`. Efter GNISTEN/KRAFTEN/
+ORBITs etablerede fix — sæt en verificeret URL direkte ind i `brief.angle` — blev anden
+kommissionering forsøgt med `https://en.wikipedia.org/wiki/Tesla_Cybercab` indsat eksplicit.
+Modellen skrev denne gang en hel artikel, der HÆVDEDE, at kilden ikke dokumenterede eventet — men
+det gør den, hvilket redaktionen selv bekræftede ved en direkte `WebFetch` af samme URL. Modellen
+havde altså ikke rent faktisk læst siden; den ræsonnerede ud fra sin egen (forældede) viden om
+Cybercabs 2024-fremvisning, konkluderede fejlagtigt, at intet nyere var dokumenteret, og opfandt
+oven i købet fire ekstra, ubriefede fodnoter (Tesla, NHTSA, Waymo) til støtte for sin forkerte
+skepsis. Det er værre end en ærlig afvisning, fordi det ligner en velbegrundet, kildekritisk
+artikel. **Rettelse til hele porteføljens URL-i-brief-praksis: en indsat URL er en instruktion om,
+hvad artiklen SKAL siges at bygge på — den er ikke en garanti for, at modellen selv har læst
+indholdet. Chefredaktøren skal stadig selv verificere kildens indhold uafhængigt (fx via egen
+WebFetch) og være parat til at skrive artiklen selv, hvis modellen enten afviser ELLER — værre —
+skriver selvsikkert forkert om en kilde, den ikke reelt har adgang til.** Artiklen blev skrevet
+færdig af redaktionen (status: `rewritten-by-editor`, ingen byline). Begge kaldte regninger
+(0,008301 + 0,0253035 USD) er reelle, betalte API-kald og talt med i nummerets samlede forbrug.
+
+### En kladde brugte forældede kilder til en aktuel begivenhed
+
+`kort-og-watt`-kladden (Gemini 3.1 Pro) citerede en Uber-investor-pressemeddelelse fra 2024 og en
+Reuters-artikel om en kapitalrejsning fra maj 2024 som "dokumentation" for Londons robotaxi-
+lancering i september 2026 — samme mønster som Cybercab-fejlen: plausible, ægte kilder, der bare
+ikke handler om den begivenhed, de skal dokumentere. Erstattet med Wayves egen 2026-pressemeddelelse
+og Engadget. Samme kladde citerede også en forældet EU-toldsats for BYD (17 %), uden at vide, at EU
+erstattede tolden med en mindstepris-ordning fra januar 2026 — rettet til den aktuelle beskrivelse.
+
+## Løfter givet i nr. 5
+
+- **Bagsiden:** Volvos næste generations elektriske platform, ventet i en sedan-/stationcar-udgave
+  af EX30.
+
+## Nr. 6 — kandidater
+
+- ~~Teslas Cybercab-lanceringsevent~~ → **brugt i nr. 5** (2026-09-05, som et lukket, afdæmpet
+  event — ikke den store demonstration, der var ventet).
+- ~~Brugtmarkedet for elbiler~~ → **brugt i nr. 5** (2026-09-05).
+- **(2026-09) Volvos næste generations EV-platform** — lovet som bagsideløfte til nr. 6.
+- **(2026-08) BYD's Ungarn-fabrik — opfølgning** — produktionsstart har flyttet sig fra Q2 til Q4
+  2026; stadig ubekræftet.
+- **(2026-09) Londons robotaxi-forsøg — opfølgning** — konkrete køretal/hændelser, når data
+  foreligger efter opstarten 3. september 2026.
+
+## Nr. 5 — kandidater (arkiv, brugt)
 
 - **(2026-09-03) Teslas Cybercab-lanceringsevent** — ejerens forslag. Tesla afholder et
   invitation-only lanceringsevent i Austin, Texas, 3. september 2026, for topscorere i
@@ -176,6 +232,11 @@ konkret tal.**
   kommer data efter opstarten.
 
 ## Log
+
+- **2026-09-05:** Nr. 5 udgivet — 'Brugtmarkedet finder sine ben', indfrier nr. 4's bagsideløfte.
+  Vigtigt metodefund: en URL indsat i `brief.angle` beviser ikke, at modellen har læst dens
+  indhold — den kan stadig skrive selvsikkert forkert om en kilde, den reelt ikke har adgang til.
+  Se læringen ovenfor. Cybercab-artiklen skrevet af redaktionen efter to mislykkede forsøg.
 
 - **2026-08-19:** Nr. 3 genopbygget og udgivet efter at have stået uden research eller kvitteringer.
   Se læringen ovenfor. To gættede/forkerte kilder fanget og rettet; ny statuskode (401) tilføjet til
