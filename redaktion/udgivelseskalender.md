@@ -27,6 +27,7 @@ Håndhæves som **ERROR** i `production/check_issue.py` (og dermed i `npm run pr
 | 2026-08-19 | humanerd/2026-08-nr3 (nr. 3); kronike/2026-08-nr2 (nr. 2) |
 | 2026-08-29 | aktier/2026-08-nr1 (nr. 1); dosis/2026-08-nr4 (nr. 4); gnisten/2026-08-nr4 (nr. 4); horisonten/2026-08-nr4 (nr. 4); humanerd/2026-08-nr4 (nr. 4); indeni/2026-08-nr4 (nr. 4); kraften/2026-08-nr4 (nr. 4); kronike/2026-08-nr3 (nr. 3); kulturboxen/2026-08-nr4 (nr. 4); orbit/2026-08-nr4 (nr. 4); pulsen/2026-08-nr4 (nr. 4); spaending/2026-08-nr4 (nr. 4) |
 | 2026-08-31 | aktier/2026-08-nr2 (nr. 2) |
+| 2026-09-05 | gnisten/2026-09-nr5 (nr. 5) |
 | 2026-09-07 | aktier/2026-09-nr3 (nr. 3) |
 
 ## Efter magasin
@@ -56,6 +57,7 @@ Håndhæves som **ERROR** i `production/check_issue.py` (og dermed i `npm run pr
 | 2 | `2026-08-nr2` | 2026-08-01 | published | Ud af browseren |
 | 3 | `2026-08-nr3` | 2026-08-08 | published | Agenten og den lokale hjerne |
 | 4 | `2026-08-nr4` | 2026-08-29 | published | Flere agenter, mere ansvar |
+| 5 | `2026-09-nr5` | 2026-09-05 | published | Skyen som standardvalg — hvad koster det at komme i gang? |
 
 ### horisonten
 

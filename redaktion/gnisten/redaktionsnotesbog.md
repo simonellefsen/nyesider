@@ -1,6 +1,6 @@
 # GNISTEN – Redaktionsnotesbog
 
-Redaktionel backlog og noter — opdateret efter nr. 3 (august 2026, "Agenten og den lokale hjerne"). Modelerfaringer ligger i det fælles [modelkartotek](../modelkartotek.md).
+Redaktionel backlog og noter — opdateret efter nr. 5 (september 2026, "Skyen som standardvalg"). Modelerfaringer ligger i det fælles [modelkartotek](../modelkartotek.md).
 
 ## Identitet
 
@@ -132,22 +132,54 @@ forsøg, med korrekte fodnoter. Regningen for det afviste forsøg (0,033515 USD)
   kvalitativ formulering, da mustCite er 0 for bagsnittet, og et præcist procenttal ville kræve
   en kilde, briefen ikke leverede.
 
-## Løfter givet i nr. 4
+## Nr. 5 — udgivet 2026-09-05
 
-- **Bagsiden:** cloud-planer og prismodeller — hvad giver mening, når du bare vil i gang.
+**Tema:** Skyen som standardvalg — hvad koster det at komme i gang? Indfrier nr. 4's
+bagsideløfte (cloud-planer/prismodeller) og bruger ejerens idé fra idébanken (gratis
+GitHub/Vercel/Supabase). **7 artikler, 3.196 ord.** Seks artikler reelt kommissioneret på
+`.env.gnisten`; lederen er redaktionens uden byline. Forbrug **0,2378 USD**. `check_issue.py`:
+**0 fejl, 1 advarsel** (korrekt, se nedenfor). `check_links.py`: **0 døde links** (1 bot-blokeret,
+`openai.com/chatgpt/pricing/`, svarer 403 til automatiserede kald men er læst manuelt).
+`bestilling.json`: `redaktion/gnisten/numre/2026-09-nr5/bestilling.json`.
 
-## Historier i støbeskeen til nr. 5+
+### En kladde opfandt sin egen produktionshistorie
+
+`regningen`-kladden (DeepSeek V3.2) skrev en helt fiktiv fortælling om, at "MCP er blevet rullet
+ud til hele redaktionen" og anslog "10-12 mandetimer" i produktion — intet af det afspejler,
+hvordan nummeret faktisk blev til (én kommissionering pr. artikel via `commission.py`, ikke en
+agent-arbejdsgang). Ingen af tallene havde belæg. Skrevet helt om af redaktionen til en ærlig
+disclosure af nummerets reelle, opsummerede produktionsomkostning (0,2378 USD) — samme greb som
+`08-regningen.md` i nr. 1 brugte til at rette en faktor-90-fejl om egen produktionspris. Verdikt:
+`rewritten-by-editor`, byline fjernet, selvom kaldet var reelt og betalt (medregnet i summen).
+**Reglen bekræftet igen: en model kan finde på en plausibel proces-fortælling om *sig selv* lige
+så let som om et eksternt emne — fact-check gælder også artikler om egen produktion.**
+
+### Prisstrid mellem sekundære kilder — løst ved kildekvalitet, ikke gennemsnit
+
+Research til `fokus-cloud-planer` stødte på modstridende sekundære kilder om ChatGPT Plus'
+pris: en gruppe lavkvalitets-SEO-sider hævdede en prisstigning til 24 USD/md fra 15. juni 2026,
+mens en etableret cost-management-blog (CloudZero) skrev "uændret, ingen prisstigning i 2026" med
+langt mere sammenhængende, verificerbare detaljer (Go-niveau lanceret 16. januar, to-trins
+Pro fra 9. april, Business-prisnedsættelse 2. april). OpenAI's egen prisside blokerer automatiserede
+kald (403) og kunne ikke bekræfte direkte. Redaktionen valgte den bedre kildekvalitet (20 USD/md)
+frem for at gennemsnitte eller nævne begge tal som "usikkerhed" — i modsætning til ORBIT nr. 3's
+tracker-uenighed er dette ikke to seriøse kilder, der reelt er uenige, men formentlig én
+AI-genereret rygte-artikel kopieret på tværs af indholdsfabrikker. **Lær af dette: når "flere
+kilder" viser sig at være samme ukildebelagte påstand gentaget af content-farme, tæller det som
+én kilde, ikke flere — vurdér kildens egen troværdighed, ikke antallet af sider, der gentager den.**
+
+## Løfter givet i nr. 5
+
+- **Bagsiden:** kan AI hjælpe med at rydde op i en overfyldt indbakke uden at sende, slette eller
+  love noget på dine vegne?
+
+## Historier i støbeskeen til nr. 6+
 
 - ~~Sikkerhed for MCP~~ → **brugt i nr. 4** (2026-08-29).
 - ~~Agent niveau 2~~ → **brugt i nr. 4** (2026-08-29).
-- **(2026-08) Læserindsendte prompts** — saml, hvis der kommer svar.  
-- **(2026-08) Sammenligningstabel** cloud-planer uden at love faste priser (link til leverandør) — lovet som bagsideløfte til nr. 5.
-- **(2026-08-29) Gratis at komme i gang: GitHub, Vercel, Supabase** — ejerens forslag. En praktisk
-  guide til de gratis niveauer (free tiers) af tre udbredte udviklerværktøjer, skrevet til en
-  laeser uden programmeringsbaggrund. Husk GNISTENs egen faldgrube fra nr. 2: Vercels gratis
-  Hobby-plan må ifølge Vercels egen dokumentation kun bruges til ikke-kommercielle, personlige
-  formål — samme type vilkårsdetalje skal tjekkes for GitHub og Supabase, ikke antages ens på
-  tværs af de tre. Ikke planlagt til et specifikt nummer endnu.
+- ~~Cloud-planer og prismodeller~~ → **brugt i nr. 5** (2026-09-05).
+- ~~Gratis at komme i gang: GitHub, Vercel, Supabase~~ → **brugt i nr. 5** (2026-09-05).
+- **(2026-08) Læserindsendte prompts** — saml, hvis der kommer svar.
 
 ## Praktisk
 
@@ -155,6 +187,10 @@ forsøg, med korrekte fodnoter. Regningen for det afviste forsøg (0,033515 USD)
 - OpenRouter: **kun** `.env.gnisten`. Imagine: `.env.local`.
 
 ## Log
+
+- **2026-09-05:** Nr. 5 udgivet — 'Skyen som standardvalg', indfrier nr. 4's bagsideløfte. Se
+  læringen ovenfor: en kladde opfandt sin egen produktionshistorie (rewritten-by-editor), og en
+  reel prisstrid i sekundære kilder blev løst ved kildekvalitet, ikke ved at nævne begge tal.
 
 - **2026-08-08 (format):** Ordbogen fjernet fra nr. 3 — gloser i parentes/fodnote i features.
 

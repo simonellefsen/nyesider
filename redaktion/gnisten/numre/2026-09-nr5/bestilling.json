@@ -1,0 +1,252 @@
+{
+  "magazine": "gnisten",
+  "issue": "2026-09-nr5",
+  "issueTheme": "Skyen som standardvalg — hvad koster det at komme i gang?",
+  "budget": {
+    "articles": 7,
+    "wordsPerArticle": [
+      400,
+      750
+    ],
+    "targetPages": 10,
+    "note": "Indfrier nr. 4's bagsideløfte (cloud-planer/prismodeller) + idébankens 'gratis at komme i gang'-forslag. Syv artikler, seks reelt kommissioneret."
+  },
+  "opgaver": [
+    {
+      "slug": "leder",
+      "order": 1,
+      "section": "Leder",
+      "brief": {
+        "angle": "Kort leder der introducerer temaet: skyen som standardvalg, og hvad det koster at komme i gang uden at betale for meget eller love for lidt. Indfrier nr. 4's bagsideløfte om cloud-planer og prismodeller.",
+        "words": [
+          150,
+          250
+        ],
+        "mustCite": 0,
+        "format": "leder"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": null,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-09-05",
+        "citations": 0,
+        "editorNote": "Redaktionens egen leder, ingen byline, ingen API-kald."
+      }
+    },
+    {
+      "slug": "kortet",
+      "order": 2,
+      "section": "Kortet",
+      "brief": {
+        "angle": "To korte nyhedsnotitser til begyndere, uden forudsætninger. (1) Google har lanceret en Find Hub-funktion, hvor man kan bede Gemini huske, hvor man har lagt ting uden sporingsbrik (fx pas, nøgler) via stemmekommando \"Hey Google, remember in Find Hub that I put my passport in my bedroom drawer\" — placeringen gemmes i en \"Remembered\"-fane i Find Hub-appen, kan ses med foto, og hentes igen ved at spørge Gemini. Kilde: https://blog.google/products-and-platforms/platforms/android/android-drop-september-2026/ (Android 16+, regioner hvor Gemini og Find Hub understøttes). (2) Anthropic udgav 1. september 2026 to nye modeller, Claude Fable 5.1 og Claude Mythos 5.1 — samme underliggende model med forskellige sikkerhedsniveauer, beskrevet som selskabets mest avancerede til kodning og videnarbejde, med tidlige forsøg på videnskabelig forskning. Kilde: https://www.anthropic.com/news (nyhedsarkiv, 1. september 2026-opslag). Forklar kort og uden hype hvad hver nyhed betyder for en almindelig bruger.",
+        "words": [
+          400,
+          600
+        ],
+        "mustCite": 2,
+        "format": "kortet"
+      },
+      "writer": {
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 427,
+        "costUSD": 0.019516,
+        "draft": "kladder/02-kortet.md",
+        "costRouting": "byok",
+        "generationId": "gen-1789192638-vS0ZLERnGUd5RVw2qTkA"
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-09-05",
+        "citations": 2,
+        "editorNote": "Faktatjekket mod primærkilder (OpenAI/Anthropic/Google prissider, GitHub/Vercel/Supabase dokumentation, Google Blog); ingen fejl fundet, mindre stilrettelser (fjernet literal \\u00a0-escape i kortet.md)."
+      }
+    },
+    {
+      "slug": "fokus-cloud-planer",
+      "order": 3,
+      "section": "Fokus",
+      "brief": {
+        "angle": "Fokus-feature: sammenlign de tre store AI-chatabonnementers prisniveauer ærligt og uden anbefaling af ét bestemt — så en nybegynder selv kan vurdere, om gratis er nok. Brug PRÆCIS disse verificerede tal (fra udbydernes egne prissider, tjekket september 2026), ingen andre: ChatGPT — Free 0 kr., Plus 20 USD/md (https://openai.com/chatgpt/pricing/), Pro 200 USD/md (fuld adgang til avancerede ræsonnementsmodeller). Claude — Free 0 kr., Pro 20 USD/md ved månedlig betaling (17 USD/md ved årsbinding), Max fra 100 USD/md (5x brug) eller 200 USD/md (20x brug) (https://claude.com/pricing). Google AI (Gemini) — Free 0 kr., AI Plus 4,99 USD/md (400 GB lagerplads, dobbelt Gemini-adgang), AI Pro 19,99 USD/md (5 TB lagerplads, 4x Gemini-adgang, 10 USD Google Cloud-kredit/md), AI Ultra fra 249,99 USD/md (20 TB, op til 20x Gemini-adgang) (https://one.google.com/about/google-ai-plans/). Pointen briefen skal lande: alle tre har en gratis version der reelt duer til at prøve tjenesten, og spring fra gratis til første betalte niveau er ens (~20 USD/md) hos ChatGPT og Claude, mens Google har et billigere mellemtrin. De dyre topniveauer (100-250 USD/md) er til professionel brug, ikke nybegyndere. Skriv EKSPLICIT, at priserne er i USD, kan variere med moms/valutakurs, og at abonnementsvilkår ændrer sig ofte — tjek altid udbyderens egen side før man betaler.",
+        "words": [
+          550,
+          750
+        ],
+        "mustCite": 3,
+        "mustNumber": [
+          "20 USD/md ChatGPT Plus",
+          "200 USD/md ChatGPT Pro",
+          "20 USD/md Claude Pro",
+          "100/200 USD/md Claude Max",
+          "4,99 USD/md Google AI Plus",
+          "19,99 USD/md Google AI Pro"
+        ],
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "GPT-5.6 Terra (OpenAI)",
+        "model": "openai/gpt-5.6",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 664,
+        "costUSD": 0.015921,
+        "draft": "kladder/03-fokus-cloud-planer.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1789192668-NeUrDJlY9CHvFZgFe8LW"
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-09-05",
+        "citations": 3,
+        "editorNote": "Faktatjekket mod primærkilder (OpenAI/Anthropic/Google prissider, GitHub/Vercel/Supabase dokumentation, Google Blog); ingen fejl fundet, mindre stilrettelser (fjernet literal \\u00a0-escape i kortet.md)."
+      }
+    },
+    {
+      "slug": "vaerkstedet-gratis-tre-vaerktoejer",
+      "order": 4,
+      "section": "Værkstedet",
+      "brief": {
+        "angle": "Fra idébanken: praktisk guide til de gratis niveauer af GitHub, Vercel og Supabase, skrevet til en læser uden programmeringsbaggrund, der gerne vil lægge sit første AI-genererede projekt et sted. Brug PRÆCIS disse verificerede tal, ingen andre: GitHub Free — ubegrænsede private repositories (kodemapper) med et begrænset funktionssæt, 2.000 minutters gratis GitHub Actions (automatiske kørsler) pr. måned, 500 MB Packages-lager, 15 GB Codespaces-lager pr. måned (https://docs.github.com/en/get-started/learning-about-github/githubs-plans). Vercel Hobby — udtrykkeligt kun til PERSONLIGT, IKKE-kommercielt brug (Vercels egen ordlyd), 100 GB Fast Data Transfer/md, 1 million funktionskald/md, kun ÉN udvikler pr. konto (ingen med-udviklere/team), overskrider man et loft sættes funktionen bare på pause i ca. 30 dage — ingen overraskelsesregning (https://vercel.com/pricing). Supabase Free — 500 MB database, 1 GB fillager, 5 GB egress/md, 50.000 månedlige aktive brugere, højst 2 aktive projekter, og et gratis projekt sættes på PAUSE efter 1 uges inaktivitet (data bevares, men projektet skal genstartes manuelt) (https://supabase.com/pricing). Pointen: de tre gratis niveauer er nok til at lære og til at vise et projekt frem, men hver har sin egen faldgrube en begynder skal kende FØR de rammer den — Vercels kommercielle forbud (samme faldgrube GNISTEN selv trådte i nr. 2), Supabases automatiske pause, GitHubs Actions-minutloft. Skriv det som en trin-for-trin-rækkefølge (opret kode på GitHub → deploy på Vercel → tilføj database på Supabase), ikke som tre isolerede afsnit.",
+        "words": [
+          550,
+          750
+        ],
+        "mustCite": 3,
+        "mustNumber": [
+          "2.000 Actions-minutter/md",
+          "100 GB Fast Data Transfer/md Vercel",
+          "500 MB database Supabase",
+          "1 uges inaktivitet før pause"
+        ],
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "Gemini 3.1 Pro (Google)",
+        "model": "google/gemini-3.1-pro-preview",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 651,
+        "costUSD": 0.169684,
+        "draft": "kladder/04-vaerkstedet-gratis-tre-vaerktoejer.md",
+        "costRouting": "byok",
+        "generationId": "gen-1789192702-0IpTSm1Dkzd6e1SBWZNr"
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-09-05",
+        "citations": 3,
+        "editorNote": "Faktatjekket mod primærkilder (OpenAI/Anthropic/Google prissider, GitHub/Vercel/Supabase dokumentation, Google Blog); ingen fejl fundet, mindre stilrettelser (fjernet literal \\u00a0-escape i kortet.md)."
+      }
+    },
+    {
+      "slug": "maanedens-prompt",
+      "order": 5,
+      "section": "Månedens prompt",
+      "brief": {
+        "angle": "Månedens prompt: en praktisk, kopiér-og-brug prompt til at få en AI-chatbot til at hjælpe med at vælge mellem gratis niveauer af cloud-værktøjer til et konkret lille projekt (matcher nummerets tema). Vis selve promptteksten i en tydelig boks/citat, og forklar hvorfor den er formuleret, som den er (fx: bed modellen spørge ind til projektets størrelse og trafikforventning, før den anbefaler noget).",
+        "words": [
+          400,
+          600
+        ],
+        "mustCite": 0,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 534,
+        "costUSD": 0.018142,
+        "draft": "kladder/05-maanedens-prompt.md",
+        "costRouting": "byok",
+        "generationId": "gen-1789192812-qbKGZH4JvDViZHY1FAXd"
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-09-05",
+        "citations": 0,
+        "editorNote": "Faktatjekket mod primærkilder (OpenAI/Anthropic/Google prissider, GitHub/Vercel/Supabase dokumentation, Google Blog); ingen fejl fundet, mindre stilrettelser (fjernet literal \\u00a0-escape i kortet.md)."
+      }
+    },
+    {
+      "slug": "regningen",
+      "order": 6,
+      "section": "Regningen",
+      "brief": {
+        "angle": "Regningen: dette nummers egen produktionsomkostning, i GNISTENs etablerede stil — vis regnestykket åbent (hvor mange artikler blev reelt kommissioneret, hvad kostede det i alt, hvad koster det pr. artikel), og brug det som en konkret pointe i selve nummerets tema (at vide hvad noget koster, før man skalerer det, gælder for AI-forbrug lige så vel som for cloud-hosting).",
+        "words": [
+          400,
+          600
+        ],
+        "mustCite": 0,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": null,
+        "model": "deepseek/deepseek-v3.2",
+        "fallback": null
+      },
+      "receipt": {
+        "words": 202,
+        "costUSD": 0.00054862,
+        "draft": "kladder/06-regningen.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1789192842-XI2e1XVjCFw3SYd6TBUJ"
+      },
+      "verdict": {
+        "status": "rewritten-by-editor",
+        "checkedAt": "2026-09-05",
+        "citations": 0,
+        "editorNote": "Kladden opfandt en usand produktionshistorie (\"MCP rullet ud til hele redaktionen\", \"10-12 mandetimer\") uden belæg i, hvordan nummeret faktisk blev produceret. Skrevet helt om af redaktionen til en ærlig disclosure af nummerets reelle produktionsomkostning (0,2378 USD, jf. --sum). Byline fjernet, selvom et reelt, betalt kald blev foretaget."
+      }
+    },
+    {
+      "slug": "sladder",
+      "order": 7,
+      "section": "Sladder",
+      "brief": {
+        "angle": "Sladder-bagsnit i GNISTENs etablerede løse, anekdotiske stil: rygter og småhistorier fra AI-værktøjs-verdenen denne måned, ingen kildekrav. Slut med et konkret, realistisk bagsideløfte til nr. 6 (vælg selv et emne, der ikke allerede er brugt i denne notesbog, og som IKKE indeholder et opdigtet, ukildebelagt tal).",
+        "words": [
+          400,
+          600
+        ],
+        "mustCite": 0,
+        "format": "rygteboersen"
+      },
+      "writer": {
+        "byline": "GPT-5.6 Terra (OpenAI)",
+        "model": "openai/gpt-5.6",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 491,
+        "costUSD": 0.01395,
+        "draft": "kladder/07-sladder.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1789192869-EHKeSNxgcG8mXG1Ay7Fh"
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-09-05",
+        "citations": 0,
+        "editorNote": "Faktatjekket mod primærkilder (OpenAI/Anthropic/Google prissider, GitHub/Vercel/Supabase dokumentation, Google Blog); ingen fejl fundet, mindre stilrettelser (fjernet literal \\u00a0-escape i kortet.md)."
+      }
+    }
+  ]
+}
