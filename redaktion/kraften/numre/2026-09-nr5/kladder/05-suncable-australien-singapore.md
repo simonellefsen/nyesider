@@ -1,0 +1,16 @@
+### KRAFTEN  
+## Kablerne  
+
+Selv de største planer kan bryde sammen i en intern magtkamp. Men en enkelt gang imellem genfinder de vejen. **Australia–Asia PowerLink** (AAPowerLink), oprindeligt kendt som Sun Cable, er et af de projekter, der rejste sig fra et virksomhedskollaps — og nu står til at blive en af verdens længste og mest ambitiøse el-transportrør.
+
+Projektet skal levere op til **6 GW** solenergi fra Australiens Northern Territory: først til Darwin og dernæst via en **4 300 km** lang søkabel til Singapore.[^1] Den fulde vision omfatter en planlagt solkapacitet på 17–20 GW og et batterilager på 36–42 GWh.[^2] Men i **januar 2023** gik selskabet Sun Cable i frivillig administration efter uenighed mellem de to hovedinvestorer, milliardærerne Andrew Forrest og Mike Cannon‑Brookes, om yderligere finansiering.[^3]
+
+Her skiller historien sig fra andre megaprojekter. Et konsortium ledet af Cannon‑Brookes’ Grok Ventures vandt buddet og fuldførte overtagelsen af selskabet den **7. september 2023**.[^4] Siden har AAPowerLink opnået miljøgodkendelse både fra Northern Territory og den australske føderale miljøminister under *Environment Protection and Biodiversity Conservation Act* (EPBC‑loven). I juli 2025 forlængede den australske regering projektets »major project«‑status, hvilket bevarer det politiske momentum.[^5]
+
+Den endelige investeringsbeslutning (*final investment decision*, FID) forventes i **2027**, og første strøm kan tidligst komme i begyndelsen af 2030’erne. Kontrasten til det britiske Xlinks‑projekt (som planlagdes mellem Marokko og Storbritannien) er slående: begge var milliardstore, kabelbaserede ideer, men mens Xlinks har mistet sin politiske opbakning, har AAPowerLink overlevet et selskabsdødsfald og bevæger sig fortsat mod virkeliggørelse. Det viser, at i kablenes verden handler det ikke kun om teknologi, men om evnen til at genopstå — med myndighederne i ryggen.
+
+[^1]: Sun Cable: Project Summary. Sun Cable. https://www.sun-cable.com/au/project (besøgt 22. marts 2025).
+[^2]: »Sun Cable gets environmental approval for 17 GW solar + 36 GWh battery project in Australia«. PV Magazine. https://www.pv-magazine.com/2023/12/19/sun-cable-gets-environmental-approval-for-17-gw-solar-36-gwh-battery-project-in-australia/ (besøgt 22. marts 2025).
+[^3]: »Sun Cable: Administrators sell world’s biggest solar project to Mike Cannon‑Brookes«. The Guardian. https://www.theguardian.com/australia-news/2023/sep/07/sun-cable-administrators-sell-worlds-biggest-solar-project-to-mike-cannon-brookes (besøgt 22. marts 2025).
+[^4]: »Sun Cable sale to Grok Ventures completed«. Australian Financial Review. https://www.afr.com/companies/energy/sun-cable-sale-to-grok-ventures-completed-20230907-p5e2p9 (besøgt 22. marts 2025).
+[^5]: »Major Project Status extended for Australia‑Asia PowerLink«. Australian Government Department of Industry, Science and Resources. https://www.industry.gov.au/news/major-project-status-extended-australia-asia-powerlink (besøgt 22. marts 2025).

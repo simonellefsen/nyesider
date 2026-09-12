@@ -1,6 +1,6 @@
 # KRAFTEN – Redaktionsnotesbog
 
-Opdateret efter genopbygningen af nr. 2 (august 2026, *"Strøm overalt"*). Modelerfaringer: [modelkartotek](../modelkartotek.md).
+Opdateret efter nr. 5 (september 2026, *"Fra produktion til distribution"*). Modelerfaringer: [modelkartotek](../modelkartotek.md).
 
 ## Identitet
 
@@ -196,12 +196,71 @@ sammen med reaktor 2 (stedet for 1979-ulykken, permanent lukket). Kladden holdt 
 uden yderligere redigering — et eksempel på, at en tydelig, eksplicit advarsel i briefen om en
 oplagt forvekslingsrisiko virker.
 
+## Nr. 5 — udgivet 2026-09-05
+
+**Tema:** Fra produktion til distribution — undersøiske højspændingskabler og kobber som ressource
+(indfrier nr. 4's bagsideløfte). **7 artikler, 2.773 ord.** Seks artikler reelt kommissioneret på
+`.env.kraften`; lederen er redaktionens uden byline. Forbrug **0,1754 USD**. `check_issue.py`:
+**0 fejl, 3 advarsler** (alle forklarede, se nedenfor). `check_links.py`: **0 døde links** (1
+bot-blokeret, National Grid, svarer 403 men er læst manuelt). `bestilling.json`:
+`redaktion/kraften/numre/2026-09-nr5/bestilling.json`.
+
+Tre kabel-cases med tre forskellige skæbner: Viking Link (Danmark-UK, i drift siden 29. december
+2023, 765 km/1.400 MW), Xlinks (Marokko-UK, 4.000 km/11,5 GW, **afvist af den britiske regering i
+juni 2025** efter milliarder i privat investering), og Australia-Asia PowerLink/tidl. Sun Cable
+(4.300 km/6 GW, overlevede et selskabskollaps i januar 2023, FID ventet 2027). Plus Tallet og en
+kobber-feature, begge bygget på samme S&P Global/IEA-tal (42 mio. ton efterspørgsel i 2040 mod et
+forsyningsgab på 10 mio. ton).
+
+### Xlinks-fejlen der ikke blev begået: forældet træningsviden om et "kommende" projekt
+
+Første websøgning på Xlinks fandt kun 2022-2023-materiale, der beskrev projektet som fremadskridende
+("første kabel aktivt i 2027"). En opfølgende søgning specifikt efter 2025-2026-status afslørede, at
+den britiske regering reelt havde **afvist** projektet i juni 2025 — en fundamentalt anden historie.
+**Lektionen, værd at gentage i alle titler:** et projekt, der lød aktivt i det, modellen (eller den
+første websøgning) "husker", skal altid eftertjekkes for en nyere status, før det briefes som
+igangværende. Havde denne fejl ikke være fanget i research-fasen, ville en hel artikel være bygget
+på en forkert præmis.
+
+### To kladder med opdigtede/døde kilder — begge fanget og rettet
+
+- `suncable-australien-singapore`-kladden (DeepSeek V3.2) citerede fem URL'er, hvoraf tre var
+  problematiske: `sun-cable.com` opløser slet ikke (DNS-fejl, ren opdigtning — selskabets rigtige
+  side er `suncable.sg`, som til gengæld ikke kan hentes automatiseret pga. en TLS-fejl), en
+  Guardian-artikel på en gættet, forkert sti (404), og en australsk regeringsside, der konsekvent
+  timer ud. Erstattet med Wikipedia, New Atlas, ABC News (uændret AFR-kilde beholdt) og Energy
+  Storage News — samme fakta, verificerede adresser.
+- `xlinks-afvist`-kladden (Gemini 3.1 Pro) citerede en 2023-artikel (NS Energy) om et projekt, der
+  siden er blevet afvist — indholdsmæssigt forældet, ikke forkert i sig selv — samt `viking-link.com`,
+  som timer ud og ikke kan verificeres. Begge erstattet med aktuelle 2025-kilder (Solar Power Portal,
+  Morocco World News) og Wikipedia.
+
+### Bare domænehenvisninger fanget igen — samme mønster som nr. 1 og nr. 2
+
+`kobber-flaskehalsen`-kladden pegede på `spglobal.com/commodityinsights` og `iea.org` uden konkret
+side — nøjagtig den fejltype, nr. 1 og nr. 2's læringer allerede havde navngivet. Erstattet med de
+faktiske sider (samme S&P Global-pressemeddelelse som Tallet bruger, IEA's Global Critical Minerals
+Outlook 2025-side). **Mønstret gentager sig på tværs af numre — det er værd at skrive direkte ind i
+fremtidige briefs: "brug den konkrete side, ikke domænets forside", ikke kun i chefredaktørens
+tjekliste.**
+
+## Løfter givet i nr. 5
+
+- **Bagsiden:** en satellit gennem Jordens skygge — hvordan solpaneler, batterier og strømstyring
+  holder den i live, når lyset forsvinder.
+
 ## Research-regler
 
-Tal med **kilde + årstal**. Skeln nameplate MW / TWh / planlagt / under byggeri / i drift.  
+Tal med **kilde + årstal**. Skeln nameplate MW / TWh / planlagt / under byggeri / i drift.
+**Tjek altid om et "kommende" projekt stadig er aktivt** — Xlinks nr. 5's lektion: et projekt kan
+være afvist eller skrinlagt siden modellens træningsdata.
 OpenRouter: **kun** `.env.kraften`. Imagine: `.env.local`.
 
 ## Log
+
+- **2026-09-05:** Nr. 5 udgivet — 'Fra produktion til distribution', indfrier nr. 4's bagsideløfte.
+  Se læringen ovenfor: en forældet "Xlinks er på vej"-antagelse blev fanget og rettet til den
+  faktiske 2025-afvisning; to kladder havde opdigtede/døde kilder, alle erstattet.
 
 - **2026-08-19:** Nr. 3 udgivet — 'Hvem får strømmen først?', nyt nummer produceret fra bunden.
   Se læringen ovenfor. Én kladde (svensk-atom) væsentligt opdateret før accept, da en opfølgende

@@ -1,0 +1,267 @@
+{
+  "magazine": "kraften",
+  "issue": "2026-09-nr5",
+  "issueTheme": "Fra produktion til distribution: kablerne under havet og kobberet i dem",
+  "budget": {
+    "articles": 7,
+    "wordsPerArticle": [
+      300,
+      650
+    ],
+    "targetPages": 12,
+    "note": "Indfrier nr. 4's bagsideløfte om undersøiske højspændingskabler og kobber. Tre kabel-cases (drift/afvist/genopstået) plus Tallet og en kobber-ressourcefeature."
+  },
+  "opgaver": [
+    {
+      "slug": "leder",
+      "order": 1,
+      "section": "Leder",
+      "brief": {
+        "angle": "Kort leder der introducerer temaet: strømmen skal ikke kun produceres, den skal transporteres — undersøiske højspændingskabler mellem lande, og kobber som den fysiske forudsætning for hele elektrificeringen. Indfrier nr. 4's bagsideløfte.",
+        "words": [
+          150,
+          250
+        ],
+        "mustCite": 0,
+        "format": "leder"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": null,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-09-05",
+        "citations": 0,
+        "editorNote": "Redaktionens egen leder, ingen byline, ingen API-kald."
+      }
+    },
+    {
+      "slug": "tallet",
+      "order": 2,
+      "section": "Tallet",
+      "brief": {
+        "angle": "Tallet: 42 millioner ton kobber om året i 2040 — den forventede globale efterspørgsel, en stigning på 50 % fra i dag, ifølge S&P Global-studiet omtalt januar 2026 (https://press.spglobal.com/2026-01-08-Substantial-Shortfall-in-Copper-Supply-Widens-as-the-Race-for-AI-and-Growing-Defense-Spending-Add-to-Accelerating-Demand,-New-S-P-Global-Study-Finds). PRÆCISE tal at bruge, ingen andre: global produktion topper ved 33 mio. ton i 2030, hvorefter den falder; uden markant ny investering når primær forsyning kun 22 mio. ton i 2040 — et forsyningsgab på 10 mio. ton, svarende til 25 % under forventet efterspørgsel. Af de 42 mio. ton dækker 'kerneøkonomisk' efterspørgsel 23 mio. ton (53 %), energiomstillingen 15,7 mio. ton, og AI/datacentre + forsvar tilsammen omkring 4 mio. ton. Global elefterspørgsel ventes at stige knap 50 % frem til 2040 — svarende til at tilføje omkring 330 Hoover-dæmninger eller over 650 1-gigawatt-atomreaktorer om året. Byg Tallet som en tabel/oversigt med disse delposter, ikke kun ét tal.",
+        "words": [
+          350,
+          500
+        ],
+        "mustCite": 2,
+        "mustNumber": [
+          "42 mio. ton kobber i 2040",
+          "10 mio. ton forsyningsgab",
+          "25 % under efterspørgsel",
+          "33 mio. ton produktionstop 2030"
+        ],
+        "format": "tallet"
+      },
+      "writer": {
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 397,
+        "costUSD": 0.03262,
+        "draft": "kladder/02-tallet.md",
+        "costRouting": "byok",
+        "generationId": "gen-1789193921-OMjR2Y9z62U3AvMMbbj9"
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-09-05",
+        "citations": 1,
+        "editorNote": "Faktatjekket mod S&P Global-pressemeddelelsen direkte; alle briefede tal (42/33/22/10 mio. ton, 25 %) stemmer. Kun 1 reel kilde findes for tallene — mustCite 2 var sat før research; citations-feltet viser det faktiske antal. Hedge-densitetsadvarslen (17,6/1000w) accepteret bevidst: \"ca.\" bruges kun foran tal, der er reelle afrundinger i kildens egen tabel (4, 42, 10 mio. ton), ikke som vag sprogbrug — at fjerne dem ville give falsk præcision."
+      }
+    },
+    {
+      "slug": "viking-link",
+      "order": 3,
+      "section": "Kablerne",
+      "brief": {
+        "angle": "Feature om Viking Link — verdens (ved åbning) længste land- og søkabel-forbindelse til dato, og den der reelt forbinder Danmark til Storbritannien. Brug PRÆCIS disse tal, verificeret via Wikipedia og National Grid: samlet længde 765 km, heraf 650 km under vand; kapacitet 1.400 MW (1,4 GW), men begrænset til 800 MW ved idriftsættelse 29. december 2023 — fuld kapacitet muliggjort fra 14. januar 2024, da den danske systemoperatør Energinet indførte ændringer. Anlægsomkostning ca. 13,4 mia. DKK. Bygget af et joint venture mellem National Grid og Energinet; Siemens Energy stod for konverterstationer, Prysmian og NKT for søkablerne, Balfour Beatty for det engelske landanlæg. Forklar HVDC (High Voltage Direct Current, højspændt jævnstrøm) og hvorfor lange søkabler bruger jævnstrøm frem for vekselstrøm (mindre tab over lange afstande). Pointen: dette er ikke et fremtidsprojekt, det er et kabel, der allerede flytter dansk og britisk strøm hver dag.",
+        "words": [
+          450,
+          650
+        ],
+        "mustCite": 3,
+        "mustNumber": [
+          "765 km",
+          "1.400 MW",
+          "13,4 mia. DKK",
+          "29. december 2023"
+        ],
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "GPT-5.6 Terra (OpenAI)",
+        "model": "openai/gpt-5.6",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 466,
+        "costUSD": 0.028101,
+        "draft": "kladder/03-viking-link.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1789193962-rP1VB5DTxca833Edtzjy"
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-09-05",
+        "citations": 4,
+        "editorNote": "Faktatjekket mod Wikipedia og National Grid/Hitachi Energy. Ingen fejl fundet."
+      }
+    },
+    {
+      "slug": "xlinks-afvist",
+      "order": 4,
+      "section": "Kablerne",
+      "brief": {
+        "angle": "Feature om det modsatte eksempel: Xlinks Morocco-UK Power Project, verdens planlagt LÆNGSTE søkabel (4.000 km), som britiske regering AFVISTE i juni 2025. Brug PRÆCIS disse verificerede tal (Wikipedia, opdateret 2. juni 2026, krydstjekket): planlagt 11,5 GW vedvarende energiproduktion i Marokko (sol og vind), 22,5 GWh batterilagring, en 3,6 GW HVDC-forbindelse via 4.000 km kabel til Storbritannien, anslået pris 20-22 mia. GBP (2024-tal). I juni 2025 meddelte den britiske energiminister Michael Shanks til Parlamentet, at regeringen ikke længere ville støtte projektet — energiminister Ed Miliband afviste det med henvisning til en præference for 'hjemmeavlet' (homegrown) britisk vedvarende energi frem for en Marokko-forbindelse. Trods betydelig privat investering fra TAQA, TotalEnergies, Octopus Energy, GE Vernova og African Finance Corporation endte statens exit projektet reelt. Nævn den kaskadeeffekt, at en tilhørende britisk kabelfabrik (XLCC) i Skotland satte byggeriet i bero som følge af afvisningen. SKELN EKSPLICIT mellem dette (afvist) og Viking Link (allerede i drift) — de må ikke blandes sammen. Pointen: de færreste af de helt store kabelprojekter, der bliver annonceret, bliver reelt bygget — politisk vilje og finansiering er lige så afgørende som teknologien.",
+        "words": [
+          450,
+          650
+        ],
+        "mustCite": 3,
+        "mustNumber": [
+          "4.000 km",
+          "11,5 GW",
+          "3,6 GW",
+          "juni 2025"
+        ],
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "Gemini 3.1 Pro (Google)",
+        "model": "google/gemini-3.1-pro-preview",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 522,
+        "costUSD": 0.068418,
+        "draft": "kladder/04-xlinks-afvist.md",
+        "costRouting": "byok",
+        "generationId": "gen-1789194018-WP2wQqnNd7VKg0K3pEIL"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-09-05",
+        "citations": 3,
+        "editorNote": "Faktatjekket mod Wikipedia (opdateret 2026-06-02), Solar Power Portal og Morocco World News. Kladdens oprindelige NS Energy-fodnote (2023-artikel, forældet ift. 2025-afvisningen) og viking-link.com (findes ikke/timeout) er erstattet med verificerede kilder."
+      }
+    },
+    {
+      "slug": "suncable-australien-singapore",
+      "order": 5,
+      "section": "Kablerne",
+      "brief": {
+        "angle": "Feature om et tredje kabelprojekt, der hverken er i drift eller endeligt skrinlagt, men genopstået fra et kollaps: Australia-Asia PowerLink (tidligere Sun Cable). Brug PRÆCIS disse verificerede tal (Wikipedia/pv-magazine/energy-storage.news): op til 6 GW solenergi fra Australiens Northern Territory til Darwin og Singapore, 17-20 GW planlagt solkapacitet, 36,42-42 GWh batterilagring, forbundet via 4.300 km søkabel. Selskabet Sun Cable kollapsede i januar 2023 (uenighed mellem investorerne Andrew Forrest og Mike Cannon-Brookes om yderligere finansiering) og gik i frivillig administration. Et konsortium ledet af Cannon-Brookes' Grok Ventures vandt buddet på at overtage selskabet, overtagelsen afsluttet 7. september 2023. Projektet har siden fået miljøgodkendelse fra Northern Territory og fra den australske miljøminister under EPBC-loven (Environment Protection and Biodiversity Conservation Act), og regeringen forlængede i juli 2025 projektets 'major project'-status. Endelig investeringsbeslutning (FID) ventes i 2027; første strøm tidligst i begyndelsen af 2030'erne. Pointen: sammenlign eksplicit med Xlinks' skæbne — begge er milliardstore ideer, men denne overlevede et selskabskollaps og har stadig myndighedsopbakning, mens Xlinks mistede den.",
+        "words": [
+          400,
+          600
+        ],
+        "mustCite": 3,
+        "mustNumber": [
+          "6 GW",
+          "4.300 km",
+          "januar 2023",
+          "2027 (FID)"
+        ],
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "DeepSeek V3.2 (DeepSeek)",
+        "model": "deepseek/deepseek-v3.2",
+        "fallback": null
+      },
+      "receipt": {
+        "words": 331,
+        "costUSD": 0.00070186,
+        "draft": "kladder/05-suncable-australien-singapore.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1789194073-PF9Kh6HVQ9LIgNoEMeIn"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-09-05",
+        "citations": 5,
+        "editorNote": "Faktatjekket. Tre af kladdens fem oprindelige URL'er var enten opdigtede/ikke-eksisterende (sun-cable.com, DNS-fejl), forkert sti (Guardian, 404) eller ikke-verificerbare (industry.gov.au, timeout). Erstattet med Wikipedia, New Atlas, ABC News, AFR (uændret, virkede) og Energy Storage News — samme fakta, verificerede adresser."
+      }
+    },
+    {
+      "slug": "kobber-flaskehalsen",
+      "order": 6,
+      "section": "Ressourcen",
+      "brief": {
+        "angle": "Feature om kobber som den fysiske flaskehals for hele elektrificeringen — hvert kabel i nummeret (Viking Link, Xlinks, Sun Cable), hver vindmølle og hvert elbilbatteri kræver kobber i store mængder. Brug PRÆCIS de samme S&P Global/IEA-tal som i Tallet (42 mio. ton efterspørgsel i 2040, 10 mio. ton forsyningsgab, produktionstop 33 mio. ton i 2030), men uddyb HVORFOR forsyningen halter: faldende malmindhold i eksisterende miner, stigende projektomkostninger og en markant opbremsning i nye fund af kobberforekomster gør det svært at bringe ny forsyning i produktion. IEA peger på en kombination af løsninger: højere priser, efterspørgselsdæmpning ('demand destruction'), accelereret genanvendelse, og hurtigere udvikling af nye miner. Nævn eksplicit, at vedvarende energi (sol/vind) kræver 2,5-7 gange så meget kobber som fossile teknologier, afhængigt af om det er landvind eller havvind. IKKE et ubriefet tal for kobberpris — hvis en kilde til den aktuelle kobberpris (LME/COMEX) ikke kan verificeres direkte, undlad den eller markér den eksplicit som et øjebliksbillede med dato.",
+        "words": [
+          450,
+          650
+        ],
+        "mustCite": 3,
+        "mustNumber": [
+          "42 mio. ton i 2040",
+          "10 mio. ton forsyningsgab",
+          "2,5-7 gange mere kobber"
+        ],
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 576,
+        "costUSD": 0.03199,
+        "draft": "kladder/06-kobber-flaskehalsen.md",
+        "costRouting": "byok",
+        "generationId": "gen-1789194274-T3DgEpb7Ewc8W9LVsxzR"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-09-05",
+        "citations": 2,
+        "editorNote": "Kladdens to fodnoter pegede på bare domæner (spglobal.com/commodityinsights, iea.org) uden konkret side — samme fejltype som tidligere fanget i KRAFTEN nr. 1/2. Erstattet med de konkrete, verificerede sider (samme S&P Global-pressemeddelelse som Tallet, IEA's Global Critical Minerals Outlook 2025-side)."
+      }
+    },
+    {
+      "slug": "rygteboers",
+      "order": 7,
+      "section": "Rygtebørs",
+      "brief": {
+        "angle": "Rygtebørs-bagsnit i KRAFTENs etablerede korte, nøgterne stil: løse rygter og småhistorier fra elektrificeringsverdenen, ingen kildekrav. Slut med et konkret, realistisk bagsideløfte til nr. 6 (vælg et emne, der ikke allerede er brugt i denne notesbog, og undgå opdigtede, ukildebelagte tal).",
+        "words": [
+          300,
+          500
+        ],
+        "mustCite": 0,
+        "format": "rygteboersen"
+      },
+      "writer": {
+        "byline": "GPT-5.6 Terra (OpenAI)",
+        "model": "openai/gpt-5.6",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 341,
+        "costUSD": 0.01352,
+        "draft": "kladder/07-rygtebørs.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1789194329-UytU5OoUbwYaozTakyrI"
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-09-05",
+        "citations": 0,
+        "editorNote": "Ingen faktapåstande der kræver kilde (mustCite 0); ingen redigering nødvendig."
+      }
+    }
+  ]
+}

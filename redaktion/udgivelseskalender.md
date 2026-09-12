@@ -27,7 +27,7 @@ Håndhæves som **ERROR** i `production/check_issue.py` (og dermed i `npm run pr
 | 2026-08-19 | humanerd/2026-08-nr3 (nr. 3); kronike/2026-08-nr2 (nr. 2) |
 | 2026-08-29 | aktier/2026-08-nr1 (nr. 1); dosis/2026-08-nr4 (nr. 4); gnisten/2026-08-nr4 (nr. 4); horisonten/2026-08-nr4 (nr. 4); humanerd/2026-08-nr4 (nr. 4); indeni/2026-08-nr4 (nr. 4); kraften/2026-08-nr4 (nr. 4); kronike/2026-08-nr3 (nr. 3); kulturboxen/2026-08-nr4 (nr. 4); orbit/2026-08-nr4 (nr. 4); pulsen/2026-08-nr4 (nr. 4); spaending/2026-08-nr4 (nr. 4) |
 | 2026-08-31 | aktier/2026-08-nr2 (nr. 2) |
-| 2026-09-05 | gnisten/2026-09-nr5 (nr. 5) |
+| 2026-09-05 | gnisten/2026-09-nr5 (nr. 5); kraften/2026-09-nr5 (nr. 5) |
 | 2026-09-07 | aktier/2026-09-nr3 (nr. 3) |
 
 ## Efter magasin
@@ -94,6 +94,7 @@ Håndhæves som **ERROR** i `production/check_issue.py` (og dermed i `npm run pr
 | 2 | `2026-08-nr2` | 2026-08-08 | published | Strøm overalt |
 | 3 | `2026-08-nr3` | 2026-08-15 | published | Hvem får strømmen først? |
 | 4 | `2026-08-nr4` | 2026-08-29 | published | Atomkraften vender tilbage — drevet af datacentre, på vej til Månen |
+| 5 | `2026-09-nr5` | 2026-09-05 | published | Fra produktion til distribution: kablerne under havet og kobberet i dem |
 
 ### kronike
 
