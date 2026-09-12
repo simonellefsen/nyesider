@@ -1,0 +1,21 @@
+---
+title: "Europa: grønnere asfalt fra Odense og Amsterdam"
+standfirst: Et lille dansk pilotprojekt og en etableret hollandsk producent viser to forskellige skalaer af samme retning.
+byline: DeepSeek V3.2 (DeepSeek)
+section: Europa
+order: 5
+image: ../images/indeni_europa.png
+imageCredit: "AI-genereret motiv (Imagine / xAI)"
+imageSource: "https://x.ai/"
+---
+
+Når vejarbejdet begynder, er det ofte med en antagelse om, at asfalt er asfalt — et slidstærkt, men miljøbelastende produkt af sten, sand og bitumen fra råolie. Men i Europa arbejder både store producenter og mindre pilotprojekter på at bryde denne formel og lukke kredsløbet for vejens mest almindelige materiale.
+
+I Danmark blev et konkret, lille skridt taget den 2. december 2024. Her meddelte byggekoncernen NCC, at dens asfaltfabrik i Odense havde leveret en ny type asfalt til et fjernvarmeprojekt i Munkebo.[^1] Blandingen var bemærkelsesværdig: den indeholdt genbrugsasfalt, som var fjernet fra et tidligere fjernvarmeprojekt på samme sted — et lokalt og lukket materialekredsløb. Hertil kom genbrugsglas fra husholdningsaffald og "welding shells" (svejseslagger), et biprodukt fra vindmølleindustrien. I stedet for traditionelt, oliebaseret bitumen blev materialerne bundet sammen med et biologisk bindemiddel ved navn Sealoflex Bio. Ifølge NCC resulterede dette i en CO₂-reduktion på omkring 75 % sammenlignet med traditionelt produceret asfalt. Det er vigtigt at understrege målestokken: produktionsmængden i dette specifikke projekt var kun 150-200 ton. Det er et pilotprojekt, der viser en mulighed, ikke et udtryk for fabrikkens generelle, daglige produktion.
+
+Bindemiddelet, som muliggør denne type asfalt, udvikles af det hollandske firma Ooms Producten. Ooms driver selv asfaltproduktion gennem to navngivne anlæg: Asphalt Production Amsterdam (APA) og Asphalt Production Rotterdam Rijnmond (APRR).[^2] Disse anlæg producerer standard asfaltblandinger i kommerciel skala, herunder også blandinger med genbrugt asfaltgranulat (reclaimed asphalt pavement, RAP). Deres fokus er den etablerede industri og masseproduktion — en helt anden skala end det danske pilotprojekt.
+
+Sammenstillingen af de to steder afslører asfaltindustriens udfordring: der er et skel mellem at udvikle en innovativ, cirkulær prototype i et begrænset, 150-200 ton stort projekt, og at omlægge den etablerede, massive produktionskapacitet, som Ooms' anlæg i Amsterdam og Rotterdam repræsenterer. NCC's initiativ i Munkebo viser, at lukkede kredsløb er tekniske muligheder, hvor materialer holdes inden for samme projekt eller område. Ooms' virksomhed viser, at bio-baserede bindemidler kan integreres i større, regionale anlæg. Men de fleste europæiske veje bliver stadig lagt med asfalt fra den konventionelle, fossile produktion. Piloten i Odense er et tegn på, at kredsløbet kan lægges — men kapaciteten til at gøre det til normen skal findes et andet sted.
+
+[^1]: [NCC: «Danmarkspremiere: NCC præsenterer fremtidens asfalt»](https://www.ncc.dk/om-ncc/medier/pressemeddelelser/pressrelease/2024/0c677ab4a915f26a/), 2. december 2024.
+[^2]: [Ooms Producten: Sealoflex](https://oomsproducten.nl/sealoflex/)

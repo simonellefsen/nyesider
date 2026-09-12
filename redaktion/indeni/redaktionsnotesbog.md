@@ -19,7 +19,40 @@ Målgruppen er den almindeligt nysgerrige danske læser. Forklar fagord første 
 
 ## Udgivne numre
 
-- **(2026-08) Nr. 4 — “Kontaktlinsen” — UDGIVET 2026-08-29 (nyt nummer, fra bunden).**
+- **(2026-09) Nr. 5 — "Asfalt" — UDGIVET 2026-09-12 (nyt nummer, fra bunden).**
+  7 artikler, **2.829 ord**. Seks artikler reelt kommissioneret på `.env.indeni`; lederen er
+  chefredaktionens og har **ingen byline**. Samlet forbrug **0,149 USD**. `check_issue.py`:
+  **0 fejl, 0 advarsler.** `check_links.py`: **0 døde links.** `bestilling.json` under
+  `numre/2026-09-nr5/`. Idébankens sidste emne (asfalt) brugt. Nummeret har et egenproduceret
+  SVG-diagram (`figur-asfalt-proces.svg`, tørretromle → blander → udlægningsmaskine med de tre
+  temperaturtrin).
+
+  ### Kernetal
+
+  - **Sammensætning:** 90-95 vægtprocent tilslag (knust sten/grus/sand), 5-10 vægtprocent
+    bitumen (destillationsrest fra olieraffinering).
+  - **Temperaturer:** tørretromle 145-160°C, bitumen opvarmes til 155-160°C, selve
+    varmblandingen 150-190°C, udlægning/komprimering 130-160°C. Warm Mix Asphalt (lavere
+    temperatur, ca. 130°C) udgjorde 14,6 % af den europæiske produktion i 2024 (EAPA).
+  - **Europa 2024 (EAPA, "Asphalt in Figures"):** 268,7 mio. ton samlet asfaltproduktion — det
+    laveste i tre årtier på nær 2014. 40,0 mio. ton genbrugsasfalt (RAP) til rådighed, heraf
+    73 % genbrugt direkte, 24 % til ubundne lag, 3 % ukendt/losseplads. National variation
+    (2023-tal): Tyskland op mod 97 % genanvendelse, Schweiz omkring 24 %.
+  - **To europæiske anlæg:** NCC's asfaltfabrik i Odense (pilotprojekt, 2. december 2024,
+    150-200 ton, bio-bindemiddel Sealoflex Bio, ca. 75 % CO2-reduktion) og Ooms Producten,
+    Nederlandene (udvikler bindemidlet, driver Asphalt Production Amsterdam og Asphalt
+    Production Rotterdam Rijnmond i kommerciel skala) — bevidst holdt adskilt i teksten som to
+    forskellige størrelsesordener, ikke sammenlignet som ét og samme niveau.
+
+  ### To gættede/døde kilder fanget
+
+  - `turen`-kladden citerede `eurobitume.eu` for bitumens oprindelse som destillationsrest —
+    domænet opløser slet ikke (DNS-fejl, formentlig nedlagt). Erstattet med Pavemade's tekniske
+    forklaring.
+  - `europa`-kladden citerede en gættet NCC-URL med forkert sti (404). Erstattet med den
+    faktiske, tidligere verificerede pressemeddelelse-URL.
+
+- **(2026-08) Nr. 4 — "Kontaktlinsen" — UDGIVET 2026-08-29 (nyt nummer, fra bunden).**
   7 artikler, **3.113 ord**. Seks artikler reelt kommissioneret på `.env.indeni`; lederen er
   chefredaktionens og har **ingen byline**. Samlet forbrug **0,1672 USD**. `check_issue.py`:
   **0 fejl, 1 advarsel** (kredsløbet: 2 citationer mod briefet mustCite=3 — korrekt, kun to
@@ -128,6 +161,9 @@ Målgruppen er den almindeligt nysgerrige danske læser. Forklar fagord første 
 
 ## Redaktionslog
 
+- **2026-09-12:** Nr. 5 udgivet — "Asfalt", idébankens sidste emne, nyt nummer produceret fra
+  bunden med egenproduceret SVG-diagram af varmblandingsprocessen. To gættede/døde kilder fanget
+  og rettet (eurobitume.eu opløser slet ikke; en gættet NCC-URL). Se læringen ovenfor.
 - **2026-08-29:** Nr. 4 udgivet — "Kontaktlinsen", nyt nummer produceret fra bunden med
   egenproduceret SVG-diagram af cast molding-processen. Tre fejl fanget og rettet, inkl. en
   opfundet, ubriefet statistik ("99 % af processen") i Europa-artiklen. Se læringen ovenfor.
@@ -162,7 +198,8 @@ levetidstallet ville have pålagt nummeret 0,10 USD, det ikke har brugt.
 
 - ~~Fjernvarmen~~ → **brugt i nr. 3** (2026-08-19).
 - ~~Kontaktlinsen~~ → **brugt i nr. 4** (2026-08-29).
-- **(2026-08) Asfalt** — sten, bitumen, temperatur, genbrug og vejarbejde om natten.
+- ~~Asfalt~~ → **brugt i nr. 5** (2026-09-12).
+- Idébanken er tom — næste genstand skal findes fra bunden til nr. 6.
 
 ## Løfter til læseren
 

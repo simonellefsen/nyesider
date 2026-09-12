@@ -1,0 +1,257 @@
+{
+  "magazine": "indeni",
+  "issue": "2026-09-nr5",
+  "issueTheme": "Asfalt — fra stenbrud og raffinaderi til vejen, der genopstår som sig selv",
+  "budget": {
+    "articles": 7,
+    "wordsPerArticle": [
+      300,
+      650
+    ],
+    "targetPages": 12,
+    "note": "Idébankens sidste emne (asfalt) brugt. Europa-artiklen kobler et dansk pilotprojekt (NCC Odense) til en etableret hollandsk producent (Ooms) af selve bindemidlet."
+  },
+  "opgaver": [
+    {
+      "slug": "leder",
+      "order": 1,
+      "section": "Leder",
+      "brief": {
+        "angle": "Kort leder der introducerer temaet: asfalt, valgt fra idébanken. Fra sten og bitumen til vejen under dine fødder, og hvorfor den samme vej ofte er lagt om af genbrugt materiale fra sig selv.",
+        "words": [
+          150,
+          250
+        ],
+        "mustCite": 0,
+        "format": "leder"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": null,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-09-12",
+        "citations": 0,
+        "editorNote": "Redaktionens egen leder, ingen byline, ingen API-kald."
+      }
+    },
+    {
+      "slug": "turen",
+      "order": 2,
+      "section": "Turen",
+      "brief": {
+        "angle": "Turen følger asfalt fra råstof til vej. Brug PRÆCIS disse verificerede tal: en typisk asfaltblanding består af omkring 90-95 vægtprocent tilslag (aggregat — knust sten, grus og sand) og 5-10 vægtprocent bitumen (det sorte, klæbende bindemiddel, en tung rest fra olieraffinering). Forklar kort begge råstoffers oprindelse: tilslaget knuses fra sten i stenbrud, bitumen er den tungeste fraktion, der bliver tilbage, når råolie destilleres til benzin, diesel og andre lettere produkter. Nævn at bitumen historisk set var et af de sidste, mindst værdifulde biprodukter fra et raffinaderi, før det blev en efterspurgt vare i sig selv til vejbygning. IKKE opdigt et præcist årstal for, hvornår bitumen første gang blev brugt til vejbelægning, medmindre det kan verificeres. Slut med en kort bro til, at det færdige tilslag+bitumen skal varmes op og blandes — hvilket er emnet for nummerets næste artikel, Maskinen.",
+        "words": [
+          450,
+          650
+        ],
+        "mustCite": 2,
+        "mustNumber": [
+          "90-95 %",
+          "5-10 %"
+        ],
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 556,
+        "costUSD": 0.028094,
+        "draft": "kladder/02-turen.md",
+        "costRouting": "byok",
+        "generationId": "gen-1789205797-FafLPMtVFTYzdIEPEAyI"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-09-12",
+        "citations": 2,
+        "editorNote": "Faktatjekket. Bar eurobitume.eu-fodnote rettet — domænet opløser slet ikke (DNS-fejl, formentlig nedlagt/flyttet) — erstattet med pavemade.com's tekniske forklaring af bitumen som destillationsrest."
+      }
+    },
+    {
+      "slug": "maskinen",
+      "order": 3,
+      "section": "Maskinen",
+      "brief": {
+        "angle": "Maskinen zoomer ind på selve asfaltværket (varmblandingsanlægget). Brug PRÆCIS disse verificerede tal: tilslaget tørres i en tromletørrer ved 145-160°C for at fjerne al fugt, opvarmes bitumen separat til omkring 155-160°C for at gøre den flydende og lav-viskøs, og de to blandes derefter i en blander — hele varmblandet asfalt (hot mix asphalt) produceres typisk ved 150-190°C, og udlægning/komprimering på vejen sker typisk ved 130-160°C. Forklar HVORFOR den høje temperatur er nødvendig: dels for at fjerne al vand fra tilslaget (vand og varm bitumen blander sig dårligt), dels for at holde bitumen tyndtflydende nok til at kunne dække hver eneste stenkorn og senere arbejdes/udlægges. Nævn kort 'varmblandet asfalt' (Warm Mix Asphalt, WMA) som et nyere alternativ, der producerer ved lavere temperatur (omkring 130°C) for at spare energi — og at WMA i 2024 udgjorde omkring 14,6 % af den europæiske asfaltproduktion, hvor der findes fulde tal. VIGTIGT: BESKRIV et simpelt, tydeligt diagram over processen i PROSA (tørretromle → blander → udlægningsmaskine, med de tre temperaturtrin markeret) — INDENI tegner selv det endelige SVG-diagram; skriv IKKE selve SVG-koden i artiklen.",
+        "words": [
+          450,
+          650
+        ],
+        "mustCite": 2,
+        "mustNumber": [
+          "145-160°C",
+          "150-190°C",
+          "14,6 %"
+        ],
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "GPT-5.6 Terra (OpenAI)",
+        "model": "openai/gpt-5.6",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 472,
+        "costUSD": 0.0361185,
+        "draft": "kladder/03-maskinen.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1789205901-u1qjMm3nbz9fZOohV4bJ"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-09-12",
+        "citations": 2,
+        "editorNote": "Faktatjekket mod DOI (Rubio m.fl.) og EAPA. Modellens prosabeskrivelse af diagrammet (tørretromle → blander → udlægningsmaskine, tre temperaturtrin) er brugt som grundlag for det egenproducerede SVG-diagram figur-asfalt-proces.svg."
+      }
+    },
+    {
+      "slug": "kredsloebet",
+      "order": 4,
+      "section": "Kredsløbet",
+      "brief": {
+        "angle": "Kredsløbet forklarer asfaltgenbrug som en reel logistisk kæde. Brug PRÆCIS disse verificerede tal fra European Asphalt Pavement Association (EAPA)'s 'Asphalt in Figures 2024': blandt de europæiske lande med fuldstændige data var der i 2024 40,0 mio. ton genbrugsasfalt (Reclaimed Asphalt Pavement, RAP — gammel asfalt fræset op fra veje under renovering) til rådighed. Af dette blev 73 % genbrugt direkte i nye asfaltblandinger, 24 % genanvendt til ubundne vejlag eller anlægsformål, og kun 3 % endte i ukendt anvendelse eller på lossepladsen. Der er stor national variation: Tyskland genanvender op mod 97 %, mens Schweiz kun ligger omkring 24 % (2023-tal, nyeste tilgængelige for netop denne sammenligning — skriv årstallet eksplicit ved denne specifikke sammenligning). Forklar den praktiske logistik: når en vej skal renoveres, fræses den gamle asfalt op på stedet, transporteres til et asfaltværk, hvor den gamle bitumen 'genopfriskes' med et tilsætningsstof og blandes med frisk tilslag og bitumen i op til meget høje andele — nævn, at asfalt i princippet kan genbruges 100 %, altså i et lukket kredsløb uden reelt affald, hvis logistikken fungerer. IKKE opdigt et præcist dansk RAP-tal, medmindre det kan kildebelægges.",
+        "words": [
+          450,
+          650
+        ],
+        "mustCite": 2,
+        "mustNumber": [
+          "40,0 mio. ton",
+          "73 %",
+          "97 %"
+        ],
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "Gemini 3.1 Pro (Google)",
+        "model": "google/gemini-3.1-pro-preview",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 548,
+        "costUSD": 0.048636,
+        "draft": "kladder/04-kredsloebet.md",
+        "costRouting": "byok",
+        "generationId": "gen-1789205992-wMQxkP4eqNFx7QqCcsYN"
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-09-12",
+        "citations": 2,
+        "editorNote": "Faktatjekket mod EAPA. Ingen fejl fundet."
+      }
+    },
+    {
+      "slug": "europa",
+      "order": 5,
+      "section": "Europa",
+      "brief": {
+        "angle": "Europa-artiklen kortlægger mindst to faktiske europæiske anlæg/industriled inden for grønnere asfalt. Brug PRÆCIS disse verificerede fakta: (1) NCC's asfaltfabrik i Odense, Danmark, annoncerede 2. december 2024 en ny asfalttype til et fjernvarmeprojekt i Munkebo — lavet af genbrugsasfalt fra et TIDLIGERE fjernvarmeprojekt (et lukket materialekredsløb), genbrugsglas fra husholdningsaffald, og 'welding shells' (svejseslagger, et biprodukt fra vindmølleindustrien), bundet sammen med et biologisk bindemiddel (Sealoflex Bio, udviklet af det hollandske firma Ooms) i stedet for det traditionelle olie-baserede bitumen — med en angivet CO2-reduktion på omkring 75 % sammenlignet med traditionelt produceret asfalt (sammenlignet med GAB 0 med 50 % genbrugsindhold). Produktionsmængden i dette specifikke projekt var 150-200 ton — SKRIV DETTE EKSPLICIT SOM ET LILLE PILOTPROJEKT, ikke som asfaltfabrikkens generelle produktion. (2) Ooms Producten i Nederlandene, som selv udvikler det bio-baserede bindemiddel, driver to navngivne asfaltproduktionsanlæg: Asphalt Production Amsterdam (APA) og Asphalt Production Rotterdam Rijnmond (APRR), der producerer standard asfaltblandinger, herunder med genbrugt asfaltgranulat. Skeln EKSPLICIT mellem det lille, konkrete pilotprojekt i Munkebo (150-200 ton) og Ooms' generelle, etablerede produktionskapacitet i Amsterdam/Rotterdam — bland ikke annonceret pilotskala med etableret industriel skala.",
+        "words": [
+          450,
+          650
+        ],
+        "mustCite": 2,
+        "mustNumber": [
+          "2. december 2024",
+          "75 %",
+          "150-200 ton"
+        ],
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "DeepSeek V3.2 (DeepSeek)",
+        "model": "deepseek/deepseek-v3.2",
+        "fallback": null
+      },
+      "receipt": {
+        "words": 375,
+        "costUSD": 0.0008042,
+        "draft": "kladder/05-europa.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1789206032-ekfaudVGBOgqy9g4VmFU"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-09-12",
+        "citations": 2,
+        "editorNote": "Faktatjekket. Kladdens NCC-fodnote var en gættet, forkert URL-sti (404) — erstattet med den faktiske, tidligere verificerede pressemeddelelse-URL. Ooms-fodnoten peger nu på den mere specifikke Sealoflex-produktside."
+      }
+    },
+    {
+      "slug": "tallet",
+      "order": 6,
+      "section": "Tallet",
+      "brief": {
+        "angle": "Tallet: byg en lille kildetabel med år, geografisk afgrænsning og hvad tallet faktisk måler. Brug PRÆCIS: samlet europæisk asfaltproduktion 268,7 mio. ton i 2024 (EU-27 + øvrige europæiske lande, EAPA) — det laveste registrerede tal i tre årtier på nær 2014; 40,0 mio. ton genbrugsasfalt til rådighed i 2024 (lande med fulde data), heraf 73 % genbrugt direkte; varmblandet asfalt (WMA) udgjorde 14,6 % markedsandel i 2024. Forklar kort, at 268,7 mio. ton er et fald, ikke en stigning — nævn det uden at opfinde en årsag, hvis årsagen ikke kan kildebelægges direkte (byggeaktivitet generelt kan nævnes forsigtigt som sandsynlig kontekst, ikke som fastslået kendsgerning).",
+        "words": [
+          300,
+          450
+        ],
+        "mustCite": 1,
+        "format": "tallet"
+      },
+      "writer": {
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 362,
+        "costUSD": 0.015046,
+        "draft": "kladder/06-tallet.md",
+        "costRouting": "byok",
+        "generationId": "gen-1789206070-qyQQ3hEj5HmIHz1l1JQE"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-09-12",
+        "citations": 1,
+        "editorNote": "Faktatjekket. Rettet en mindre trykfejl ('low mere' → 'love mere')."
+      }
+    },
+    {
+      "slug": "paastandskontoret",
+      "order": 7,
+      "section": "Påstandskontoret",
+      "brief": {
+        "angle": "Påstandskontoret afmonterer en udbredt hverdagspåstand: 'Vejarbejde med asfalt lægges om natten for at genere bilisterne mindst muligt — eller bare fordi det er billigere.' Brug PRÆCIS denne verificerede begrundelse fra Vejdirektoratet: nattearbejde (typisk kl. 18-06) på stærkt trafikerede strækninger vælges primært for at begrænse gener for trafikanter i dagtimerne OG for at øge sikkerheden for de vejarbejdere, der står tæt på kørebanen — lavere trafikmængde om natten betyder færre biler tæt på arbejdsholdet. Nævn IKKE et opdigtet prisargument (billigere nattetakst for arbejdskraft er ikke i briefen og skal ikke opfindes som forklaring, medmindre det kan kildebelægges). Vend også kort den anden, mindre kendte side: asfalt skal have tid til at køle af og hærde efter udlægning, før den kan bære trafik igen — dette er en praktisk, teknisk begrænsning, ikke kun en gene-minimering. Ingen facit-facit-tone, som om alle emballagevalg har ét rigtigt svar — dette handler specifikt om denne ene, konkrete påstand.",
+        "words": [
+          350,
+          550
+        ],
+        "mustCite": 1,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "GPT-5.6 Terra (OpenAI)",
+        "model": "openai/gpt-5.6",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 382,
+        "costUSD": 0.020301,
+        "draft": "kladder/07-paastandskontoret.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1789206097-AEtItMDD5YArnU9yQ6kT"
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-09-12",
+        "citations": 1,
+        "editorNote": "Faktatjekket direkte mod Vejdirektoratets egen FAQ-side. Ingen fejl fundet."
+      }
+    }
+  ]
+}

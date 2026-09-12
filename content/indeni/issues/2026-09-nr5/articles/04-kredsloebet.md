@@ -1,0 +1,29 @@
+---
+title: "Kredsløbet: fra nedslidt landevej til friske vejbaner"
+standfirst: Asfalt kan i princippet genbruges 100 % — og i Europa genbruges tre fjerdedele af det, der findes, allerede direkte.
+byline: Gemini 3.1 Pro (Google)
+section: Kredsløbet
+order: 4
+image: ../images/indeni_kredsloebet.png
+imageCredit: "AI-genereret motiv (Imagine / xAI)"
+imageSource: "https://x.ai/"
+---
+
+Når vi kører på landevejen, føles asfalten som et permanent og næsten urokkeligt fundament under bildækkene. Men i virkeligheden er vejnettet et af de tungeste og mest velfungerende materialekredsløb, vi har. Asfalt er nemlig ikke et materiale, man bare lægger, slider op og smider væk. Det er et materiale, der i princippet kan genbruges 100 % i et lukket kredsløb uden reelt affald — forudsat at logistikken og anlæggene er gearet til det.
+
+Selve kredsløbet starter direkte ude på vejen. Når en strækning har nået slutningen af sin levetid, ankommer en asfalttraktor udstyret med en stor, roterende fræsetromle. Maskinens metaltænder skræller det øverste, slidte lag af, mens vejen samtidig holdes fugtig for at binde støvet. Dette opfræsede materiale kaldes i branchen for Reclaimed Asphalt Pavement (RAP).
+
+Den gamle asfalt læsses direkte over på lastbiler, og her opstår en af kredsløbets store logistiske fordele: den lastbil, der skal levere rygende varm, ny asfalt til vejprojektet, kan på tilbagevejen tage et læs kold RAP med tilbage til asfaltværket. Det minimerer kørsel med tomme lastbiler.
+
+For at forstå, hvordan den knuste vej bliver til ny asfalt, skal vi kigge på materialets bestanddele. Efter årtier på vejen er den gamle bitumen blevet stiv og oxideret af sollys, ilt og temperatursvingninger. På asfaltværket bliver RAP'en varmet forsigtigt op, og den gamle bitumen "genopfriskes" ved at tilsætte særlige foryngelsesmidler, der blødgør bindemidlet igen. Herefter blandes det opfræsede materiale med frisk tilslag og ny bitumen i store tromler. Fordi stenene ikke tager skade af at ligge på vejen, og fordi bitumen kan reaktiveres, kan asfaltværker køre med meget høje andele af genbrug i de nye blandinger.
+
+Logistikken fungerer i stor skala på tværs af Europa. Ifølge den europæiske brancheorganisation European Asphalt Pavement Association (EAPA) og deres dataudgivelse Asphalt in Figures 2024[^1] var der blandt de europæiske lande med fuldstændige indberetninger hele 40,0 mio. ton genbrugsasfalt til rådighed det år.
+
+Størstedelen af dette bjerg fik nyt liv. Ud af de 40 millioner tons blev 73 % genbrugt direkte i produktionen af nye asfaltblandinger. Yderligere 24 % blev genanvendt som ubundne lag — for eksempel som det stabiliserende grusfundament, der ligger under selve den sorte asfaltbelægning på byggepladser og nye veje. Kun 3 % endte i ukendt anvendelse eller på en losseplads.
+
+Men bag det pæne gennemsnit gemmer der sig store nationale forskelle, som primært dikteres af landenes lovgivning, udbudskrav og afstanden mellem asfaltværkerne. Kigger vi på specifikke landesammenligninger, hvor de nyeste fuldt sammenlignelige og tilgængelige tal er fra 2023, er der markante yderpunkter. Tyskland er en absolut frontløber i Europa; her genanvendes op mod 97 % af den opfræsede asfalt direkte i nye asfaltblandinger. Til sammenligning ligger et land som Schweiz på blot omkring 24 % genanvendelse i samme årlige opgørelse.[^2]
+
+Asfaltkredsløbet er ikke afhængigt af fremtidig magi eller uopfundne teknologier. Det er en storskala maskine, der allerede kører. Når systemet fungerer optimalt, undgår vi at sprænge millioner af tons jomfruelige sten ud af klippebakker og grusgrave, ligesom vi sparer store mængder ny råolie. Den vej, du kører på til arbejde i dag, indeholder sandsynligvis de samme sten, som dine forældre kørte på for tyve år siden — blot bundet sammen på ny.
+
+[^1]: [European Asphalt Pavement Association (EAPA): «Asphalt in Figures»](https://eapa.org/asphalt-in-figures/), 2024-opgørelse.
+[^2]: [European Asphalt Pavement Association (EAPA): «Asphalt in Figures»](https://eapa.org/asphalt-in-figures/), landesammenligning baseret på 2023-tal.

@@ -29,7 +29,7 @@ Håndhæves som **ERROR** i `production/check_issue.py` (og dermed i `npm run pr
 | 2026-08-31 | aktier/2026-08-nr2 (nr. 2) |
 | 2026-09-05 | gnisten/2026-09-nr5 (nr. 5); kraften/2026-09-nr5 (nr. 5); orbit/2026-09-nr5 (nr. 5); pulsen/2026-09-nr5 (nr. 5); spaending/2026-09-nr5 (nr. 5) |
 | 2026-09-07 | aktier/2026-09-nr3 (nr. 3) |
-| 2026-09-12 | dosis/2026-09-nr5 (nr. 5); horisonten/2026-09-nr5 (nr. 5); kulturboxen/2026-09-nr5 (nr. 5) |
+| 2026-09-12 | dosis/2026-09-nr5 (nr. 5); horisonten/2026-09-nr5 (nr. 5); indeni/2026-09-nr5 (nr. 5); kulturboxen/2026-09-nr5 (nr. 5) |
 
 ## Efter magasin
 
@@ -88,6 +88,7 @@ Håndhæves som **ERROR** i `production/check_issue.py` (og dermed i `npm run pr
 | 2 | `2026-08-nr2` | 2026-08-08 | published | Filteret |
 | 3 | `2026-08-nr3` | 2026-08-15 | published | Fjernvarmen — rørene under fortovet |
 | 4 | `2026-08-nr4` | 2026-08-29 | published | Kontaktlinsen |
+| 5 | `2026-09-nr5` | 2026-09-12 | published | Asfalt — fra stenbrud og raffinaderi til vejen, der genopstår som sig selv |
 
 ### kraften
 
