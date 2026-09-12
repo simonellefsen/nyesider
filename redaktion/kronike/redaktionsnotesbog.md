@@ -162,16 +162,76 @@ hovedartiklens brief.
 - **Gættet URL, dødt link:** `danmarkshistorien.dk/vis/materiale/andelsbevaegelsen/` gav
   HTTP 410 (Gone); erstattet med Nationalmuseets side om andelsbevægelsen.
 
-## Nr. 4 — kandidater
+## Nr. 4 — udgivet 2026-09-12
 
-- **(2026-08) Kalmarunionen i dybden — Norge/Sverige-vinkler**  
-- **(2026-08) Christian 4. og stormagtstiden**  
-- **(2026-08) Slesvig-Holsten før 1864**  
-- **(2026-08) Besættelsen 1940–45 (uden at æde hele nummeret)**  
+**Tema:** Christian 4. og stormagtstiden — byggekongen, der forarmede sit rige
+**Slug:** `2026-09-nr4`
+6 artikler, **2.624 ord**. Fem artikler reelt kommissioneret på `.env.kronike` (Claude Sonnet 5
+×2, GPT-5.6 Terra, Gemini 3.1 Pro, DeepSeek V3.2); lederen er chefredaktionens og har **ingen
+byline**. Samlet forbrug **0,1561 USD**. `check_issue.py`: **0 fejl, 0 advarsler.**
+`check_links.py`: **0 døde links** (18 links, 2 fra cache). `bestilling.json`:
+`redaktion/kronike/numre/2026-09-nr4/bestilling.json`.
+
+Struktur: Kalmarkrigen (dansk sejr, Sverige betaler sølvløsesum) og byggeriet i København
+(Børsen, Rundetårn, Christianshavn, Rosenborg, Nyboder) mod Kejserkrigen (nederlag ved Lutter
+1626, Freden i Lübeck 1629) — samme regeringstid set fra to modsatrettede vinkler, båret af
+Tallet og Myter i bagsnittet.
+
+**Ordmål under revideret mål:** de tre features landede på 517–669 ord, under nr. 1-2's
+revidere format-mål (700–900). Briefene i `bestilling.json` var skrevet med `words: [500, 700]`
+— en `budget`-beslutning nedskrevet ved oprettelsen, men lavere end den senere skærpede
+retningslinje. Alle tre opfylder dog stadig krav-testen (navngivet menneske, konkret scene,
+hårdt tal med kilde) og blev ikke forlænget kunstigt for at ramme et ordtal. **Ret op på dette i
+nr. 5's brief-skabelon**, så `words`-feltet matcher den skærpede 700-900-norm fra start.
+
+### Fem faktiske fejl fanget i faktatjekket — den alvorligste var en forkert historisk
+### sammenligning, ikke bare et dødt link
+
+- **Kalmarkrigen-kladden overdrev løsesummens størrelse markant.** Kladden skrev, at
+  Älvsborgs-løsesummen svarede til "to tredjedele af Sveriges kornhøst over **seks år**". Det
+  korrekte, kildebelagte skøn (den svenske økonomihistoriker Eli Heckscher) er to tredjedele af
+  **ét enkelt års** høst — en sekstredobling af den relative byrde, som kladden selv aldrig
+  fandt på at opdigte et tal for, men som opstod ved at forveksle betalingsperioden (seks år)
+  med sammenligningsgrundlaget. Rettet efter direkte opslag i den svenske Wikipedia-artikel,
+  som citerer Heckschers beregning ordret.
+- **Byggekongen-kladden kaldte Rundetårn "et tårn for Trinitatis Kirke".** Ifølge Lex.dk har
+  Rundetårn **aldrig** fungeret som kirkens klokketårn — det er en selvstændig bygning i samme
+  komplet (observatorium + universitetsbibliotek), blot fysisk og administrativt bundet til
+  kirken. En let, plausibelt lydende sammenblanding, som ville være sluppet igennem uden direkte
+  opslag.
+- **Nederlaget-kladden fik selve fredsslutningen 1629 forkert.** Kladden skrev, at Danmark fik
+  det besatte Jylland tilbage "uden at afstå territorium". Faktisk måtte Danmark betale 2
+  millioner rigsdaler **og** afstå Holsten i ti år for at få Jylland tilbage — en reel
+  forsimpling, der gjorde freden mildere, end den var.
+- **Myter-kladden opfandt et direkte citat** tilskrevet historikeren Knud J.V. Jespersen, med en
+  død gyldendal.dk-URL (404) og et mistænkeligt "besøgt 2024-03-15"-tidsstempel, der ikke kunne
+  verificeres nogetsteds. Fjernet og erstattet med et faktisk citat fra danmarkshistorien.lex.dk.
+- **Et opdigtet/dødt link:** `kongernessamling.dk` (nederlaget-kladden) — findes ikke, det
+  korrekte domæne er `denkongeligesamling.dk`. Samme mønster som tidligere numres gættede
+  URL-stier: modellen genskaber et plausibelt udseende domænenavn frem for at hente det
+  nøjagtige.
+
+### En genkendelig, modelspecifik fejl: literal ` `-escape i stedet for et rigtigt NBSP
+
+Claude Sonnet 5s kladder (`kalmarkrigen`, `tallet`) indeholdt begge den **literale tekststreng**
+` ` (backslash-u-nul-nul-a-nul) i stedet for et rigtigt non-breaking space-tegn (U+00A0) —
+en escape-sekvens, modellen skrev som bogstaver, ikke som det tegn, den forestillede sig. Ikke
+fanget af `check_issue.py`, kun ved manuel gennemlæsning af kladden. Rettet til almindelige
+mellemrum i den endelige artikel. Værd at holde øje med i fremtidige Sonnet 5-kommissioner på
+tværs af titler.
+
+## Nr. 5 — kandidater
+
+- **(2026-08) Kalmarunionen i dybden — Norge/Sverige-vinkler**
+- **(2026-08) Slesvig-Holsten før 1864**
+- **(2026-08) Besættelsen 1940–45 (uden at æde hele nummeret)**
 - **(2026-08) Inge Lehmann / Niels Bohr — videnskabsbiografier**
 
 ## Log
 
+- **2026-09-12:** Nr. 4 udgivet — "Christian 4. og stormagtstiden". Se læringen ovenfor: en
+  forkert relativ sammenligning (seks års høst i stedet for ét års) er lige så farlig som et
+  opdigtet tal, fordi den ikke ligner en fabrikation ved første gennemlæsning.
 - **2026-08-29:** Nr. 3 udgivet — "Andelsbevægelsen: bønder, der ejede fabrikken". Alvorlig
   fabrikation fanget og fjernet i to kladder (en opfundet landmand i korn-til-smoer, en
   opfundet person og opfundne organisationsnavne i myter — sidstnævnte omskrevet fra bunden,

@@ -1,0 +1,103 @@
+{
+  "magazine": "kronike",
+  "number": 4,
+  "title": "KRØNIKE nr. 4 · September 2026",
+  "issueTheme": "Christian 4. og stormagtstiden — byggekongen, der forarmede sit rige",
+  "published": "2026-09-12",
+  "status": "published",
+  "pdf": null,
+  "cover": "images/kronike_cover.png",
+  "coverCredit": "AI-genereret motiv (Imagine / xAI)",
+  "coverSource": "https://x.ai/",
+  "images": [
+    "images/kronike_cover.png",
+    "images/kronike_leder.png",
+    "images/kronike_kalmarkrigen.png",
+    "images/kronike_byggekongen.png",
+    "images/kronike_nederlaget.png",
+    "images/kronike_tallet.png",
+    "images/kronike_myter.png"
+  ],
+  "productionCostUSD": 0.1561,
+  "imageCredits": "Imagine / xAI. Stil varieret pr. artikel.",
+  "backCoverPromise": "KRØNIKE nr. 5 fortsætter med at se dansk historie fra mere end én vinkel ad gangen.",
+  "articles": [
+    {
+      "slug": "leder",
+      "file": "articles/01-leder.md",
+      "order": 1,
+      "section": "Leder",
+      "title": "Christian 4. og stormagtstiden",
+      "standfirst": "Byggekongen, der efterlod København sit ansigt, var også kongen hvis krige forarmede landet. To sider af samme regeringstid.",
+      "image": "images/kronike_leder.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/",
+      "words": 198
+    },
+    {
+      "slug": "kalmarkrigen",
+      "file": "articles/02-kalmarkrigen.md",
+      "order": 2,
+      "section": "Sejren",
+      "title": "Sejren der kostede Sverige et sølvbjerg",
+      "standfirst": "Kalmarkrigen endte, hvor de fleste af Christian 4.s krige ikke gjorde: med en dansk sejr — betalt af Sverige i sølv.",
+      "image": "images/kronike_kalmarkrigen.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/",
+      "words": 517,
+      "byline": "Claude Sonnet 5 (Anthropic)"
+    },
+    {
+      "slug": "byggekongen",
+      "file": "articles/03-byggekongen.md",
+      "order": 3,
+      "section": "Byggekongen",
+      "title": "Kongen, der byggede magten ind i København",
+      "standfirst": "Christian 4.s krige blev dyre og skuffende. Hans byggeri i København holdt.",
+      "image": "images/kronike_byggekongen.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/",
+      "words": 669,
+      "byline": "GPT-5.6 Terra (OpenAI)"
+    },
+    {
+      "slug": "nederlaget",
+      "file": "articles/04-nederlaget.md",
+      "order": 4,
+      "section": "Nederlaget",
+      "title": "Stormagtens kollaps: da kongen spillede hasard med riget",
+      "standfirst": "De krige, Christian 4. selv startede for at gøre Danmark til en europæisk stormagt, endte med at forarme og lemlæste landet — og kongen selv.",
+      "image": "images/kronike_nederlaget.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/",
+      "words": 576,
+      "byline": "Gemini 3.1 Pro (Google)"
+    },
+    {
+      "slug": "tallet",
+      "file": "articles/05-tallet.md",
+      "order": 5,
+      "section": "Tallet",
+      "title": "Tallet: Christian 4. i fire kolonner",
+      "standfirst": "52 år på tronen efterlod byggerier, gæld og et privatliv, der stadig driller historikere.",
+      "image": "images/kronike_tallet.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/",
+      "words": 334,
+      "byline": "Claude Sonnet 5 (Anthropic)"
+    },
+    {
+      "slug": "myter",
+      "file": "articles/06-myter.md",
+      "order": 6,
+      "section": "Myter",
+      "title": "Storhedstid eller ruinøs krig? Myten om Christian 4.",
+      "standfirst": "Byggekonge og krigsherre, der forarmede riget, er ikke to modstridende historier om Christian 4. Det er to sandheder om samme regeringstid.",
+      "image": "images/kronike_myter.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/",
+      "words": 330,
+      "byline": "DeepSeek V3.2 (DeepSeek)"
+    }
+  ]
+}

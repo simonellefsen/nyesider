@@ -1,0 +1,12 @@
+## Storhedstid eller ruinøs krig? Myten om Christian 4.
+
+Christian 4. (1577-1648) står i dansk erindring som en af vores største konger. Billedet af den byggelystne monark, der satte Børsen, Rundetårn og Christianshavn på landkortet, og som førte Danmark til sejr i Kalmarkrigen (1611-1613), er fast forankret. Men denne forestilling om en entydig "storhedstid" er en myte, der fortæller kun halve historien. Christian 4.s regeringstid var også en periode, der ødelagde statens finanser og svækkede Danmarks militære styrke for fremtiden.
+
+Kongens senere, katastrofale krige modsætter sig direkte billedet af den kloge statsmand. I 1625 blandede han sig i den blodige Trediveårskrig på protestanternes side, i håb om at genvinde regional dominans. Resultatet var et forsmædeligt nederlag til kejserens tropper ved **Lutter am Barenberge i 1626**. Nederlaget var ikke kun et militært slag; det var en økonomisk ruin. Krigen blev finansieret ved enorme lån, beskatning af bønderne og ved at pantsætte og sælge kronens jordegods. Historikeren **Knud J. V. Jespersen** konkluderer, at Christian 4.s krigsførelse "medførte en voldsom udplyndring af statens finanser, der i realiteten var med til at svække det danske monarki for en længere årrække"[^1].
+
+Denne svækkelse blev en uoverskuelig arv for hans efterfølgere. Kongens byggeprogram og tidlige sejr var én sandhed. En anden, mindre fortalt sandhed var, at han efterlod et fattigt og militært skrøbeligt rige. Det var denne arv, der delvis lå bag de afgørende nederlag mod Sverige få årtier senere. Under Christian 4.s søn, Frederik 3., mistede Danmark i 1658 provinserne Skåne, Halland og Blekinge ved freden i Roskilde. Selv om disse krige officielt udkæmpedes af andre konger, var grundlaget for fiaskoen lagt i faderens ødelæggende krige og tomme statskasse.
+
+Myten om "storhedstiden" opstår, når vi adskiller kongen som bygherre fra kongen som krigsherre. De er den samme person. Christians pragtfulde byværker og hans ruinøse krige er to sider af samme regering – en regering, hvis sidste halvdel forarmede landet og banede vejen for territorialtab. At huske den ene halvdel uden den anden er at misforstå historien fuldstændigt.
+
+[^1]: Knud J. V. Jespersen, *Danmarks historie – gennem 500 år*, Gyldendal 2019. https://www.gyldendal.dk/videnskab-og-populaervidenskab/danmarks-historie-gennem-500-aar (Besøgt 2024-03-15)
+[^2]: "Christian 4.", *Danmarkshistorien.dk*, Aarhus Universitet. https://danmarkshistorien.dk/vis/materiale/christian-4-1577-1648 (Besøgt 2024-03-15)

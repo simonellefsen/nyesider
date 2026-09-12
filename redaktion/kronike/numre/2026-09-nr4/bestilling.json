@@ -1,0 +1,221 @@
+{
+  "magazine": "kronike",
+  "issue": "2026-09-nr4",
+  "issueTheme": "Christian 4. og stormagtstiden — byggekongen, der forarmede sit rige",
+  "budget": {
+    "articles": 6,
+    "wordsPerArticle": [
+      300,
+      700
+    ],
+    "targetPages": 12,
+    "note": "Idébank-emnet 'Christian 4. og stormagtstiden' brugt. Struktureret som sejr (Kalmarkrigen) + byggeri, mod nederlag (Trediveårskrigen) — samme regeringstid set fra to vinkler."
+  },
+  "opgaver": [
+    {
+      "slug": "leder",
+      "order": 1,
+      "section": "Leder",
+      "brief": {
+        "angle": "Kort leder der introducerer temaet: Christian 4. og stormagtstiden — valgt fra idébanken. Byggekongen, der efterlod København sit ansigt, men også kongen hvis krige forarmede landet. To sider af samme regeringstid, ikke én entydig heltefortælling.",
+        "words": [
+          150,
+          250
+        ],
+        "mustCite": 0,
+        "format": "leder"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": 205,
+        "costUSD": 0.0,
+        "draft": null
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-09-12",
+        "citations": 0,
+        "editorNote": "Editor-led leder, ingen API-kald — ingen byline, per husregel."
+      }
+    },
+    {
+      "slug": "kalmarkrigen",
+      "order": 2,
+      "section": "Sejren",
+      "brief": {
+        "angle": "Feature om Kalmarkrigen (1611-1613) mod Sverige — den ene krig i Christian 4.s regeringstid, der reelt endte som en dansk sejr. Brug PRÆCIS disse verificerede fakta: krigen udbrød 1611, og endte med Freden i Knæred 1613, som var til dansk fordel. Sverige forpligtede sig til at betale en løsesum på 1 million rigsdaler i sølv for at få den svenske fæstning Älvsborg tilbage fra dansk besættelse — et beløb med en sølvvægt på omkring 25,5 ton, betalt i fire rater over seks år (1616-1619), finansieret af en rigsdækkende svensk skat. Beløbet svarede angiveligt til omkring to tredjedele af landets kornhøst over seks år — brug dette sammenligningstal EKSPLICIT MÆRKET som et historisk skøn, ikke et præcist regnskabstal. Forklar kort baggrunden: Christian 4. ønskede at svække Sveriges adgang til Nordsøen/Kattegat via Älvsborg, og krigen var en del af den langvarige dansk-svenske rivalisering om kontrollen med Østersø-handlen. IKKE opdigt navngivne slag, generaler eller troppetal, medmindre de kan kildebelægges direkte.",
+        "words": [
+          500,
+          700
+        ],
+        "mustCite": 3,
+        "mustNumber": [
+          "1611-1613",
+          "1613",
+          "1 million rigsdaler"
+        ],
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 500,
+        "costUSD": 0.034678,
+        "draft": "kladder/02-kalmarkrigen.md",
+        "costRouting": "byok",
+        "generationId": "gen-1789244792-kN5I2YDXJCEQhyUYuVxQ"
+      },
+      "verdict": {
+        "status": "accepted-with-edits",
+        "checkedAt": "2026-09-12",
+        "citations": 4,
+        "editorNote": "Rettede en litteral \\u00a0-escape-fejl fra modellen (ikke et rigtigt NBSP-tegn) til almindelige mellemrum/rigtige tegn. Rettede 'Gustav 2 Adolf' til korrekt 'Gustav II Adolf'. Vigtigst: modellens skøn ('to tredjedele af SEKS ÅRS kornhøst') var en fabrikeret forstørrelse — Eli Heckschers faktiske, kildebelagte skøn er to tredjedele af ÉT ÅRS kornhøst. Rettet til den korrekte sammenligning. Justerede krigsforløbet: Kalmar faldt allerede i august 1611, før Karl 9.s død i oktober samme år — ikke som følge af den, som udkastet antydede. Erstattede tre domæne-only-fodnoter (danmarkshistorien.dk, lex.dk, rigsarkivet.dk uden specifikke sider) med fire specifikke, verificerede URL'er."
+      }
+    },
+    {
+      "slug": "byggekongen",
+      "order": 3,
+      "section": "Byggekongen",
+      "brief": {
+        "angle": "Feature om Christian 4. som byggekonge — de bygninger og bydele, der stadig former København. Brug PRÆCIS disse verificerede fakta: Børsen (1619-1625), Regensen (1618-1628, kollegium for studerende), Rosenborg Slot (fuldført 1634), Rundetårn (fuldført 1642, oprindeligt bygget som kombination af observatorium, universitetsbibliotek og tårn for Trinitatis Kirke), Christianshavn (anlagt fra 1618 som en ny bydel på en kunstig ø med kanaler, inspireret af hollandsk byplanlægning), og Nyboder (opført fra 1630'erne som boliger til søfolk i den danske flåde). Nævn desuden, at han grundlagde flere byer uden for Danmark, herunder Kristiansand (Norge) og Glückstadt (Tyskland). Forklar kort HVORFOR: Christian 4. ønskede at gøre København til en handelsmetropol og demonstrere kongemagtens styrke og velstand gennem monumentalt byggeri — en byggeaktivitet, der i høj grad var finansieret af Øresundstolden (afgift betalt af udenlandske skibe, der sejlede gennem Øresund). IKKE opdigt en præcis samlet byggesum eller antal ansatte håndværkere, medmindre det kan kildebelægges direkte.",
+        "words": [
+          500,
+          700
+        ],
+        "mustCite": 3,
+        "mustNumber": [
+          "1619-1625",
+          "1642",
+          "1618"
+        ],
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "GPT-5.6 Terra (OpenAI)",
+        "model": "openai/gpt-5.6",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 581,
+        "costUSD": 0.0335285,
+        "draft": "kladder/03-byggekongen.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1789244864-X5z7MPyHFChqNPJOyMT8"
+      },
+      "verdict": {
+        "status": "accepted-with-edits",
+        "checkedAt": "2026-09-12",
+        "citations": 7,
+        "editorNote": "Rettede en reel faktafejl: udkastet kaldte Rundetårn 'et tårn for Trinitatis Kirke', men Rundetårn har ifølge Lex.dk aldrig fungeret som kirkens klokketårn — det er en selvstændig bygning i samme kompleks. Omskrev afsnittet til at afspejle dette præcist. Opdaterede alle denstoredanske.lex.dk-URL'er til deres endelige lex.dk/<opslag>-adresser (redirect-kæde) og rettede Øresundstolden-fodnotens URL, som gav 404 (manglede 'ca.' i stien)."
+      }
+    },
+    {
+      "slug": "nederlaget",
+      "order": 4,
+      "section": "Nederlaget",
+      "brief": {
+        "angle": "Feature om Christian 4.s katastrofale indblanding i Trediveårskrigen — modstykket til Kalmarkrigens sejr. Brug PRÆCIS disse verificerede fakta: Christian 4. erklærede krig mod den tysk-romerske kejser i 1625, som leder af den protestantiske sag i Nordtyskland (samtidig hertug af Holsten, hvilket gav ham en direkte interesse i det tyske rige). Det afgørende nederlag kom ved slaget ved Lutter am Barenberge, 27. august 1626, hvor Christian 4.s styrker blev tungt besejret af den katolske ligas general Tilly (Johan Tzerclaes, greve af Tilly). Krigen sluttede med Freden i Lübeck 1629, som afsluttede Danmarks direkte involvering. Nævn kort, at Christian 4. senere, under Torstenson-krigen mod Sverige (1643-1645), mistede synet på det ene øje under søslaget ved Kolberger Heide (1644) — et fysisk, symbolsk mén, der overlevede ham resten af livet. Pointen skal være eksplicit: de krige, Christian 4. selv iværksatte for at gøre Danmark til en europæisk stormagt, endte med at forarme og svække landet — en direkte kontrast til nummerets Kalmarkrig-artikel og byggeri-artikel. IKKE opdigt troppetal eller tabstal for slaget ved Lutter, medmindre de kan kildebelægges direkte.",
+        "words": [
+          500,
+          700
+        ],
+        "mustCite": 3,
+        "mustNumber": [
+          "1625",
+          "27. august 1626",
+          "1629"
+        ],
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "Gemini 3.1 Pro (Google)",
+        "model": "google/gemini-3.1-pro-preview",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 648,
+        "costUSD": 0.072116,
+        "draft": "kladder/04-nederlaget.md",
+        "costRouting": "byok",
+        "generationId": "gen-1789245578-G4NwJMLd7gIBoBeSOOQR"
+      },
+      "verdict": {
+        "status": "accepted-with-edits",
+        "checkedAt": "2026-09-12",
+        "citations": 4,
+        "editorNote": "Rettede en reel faktafejl: udkastet hævdede Danmark fik Jylland tilbage ved Freden i Lübeck 1629 'uden at afstå territorium' — faktisk måtte Danmark betale 2 mio. rigsdaler OG midlertidigt afstå Holsten i ti år. Rettet til de korrekte vilkår. Troppetallet '20.000 mand' blev verificeret direkte mod da.wikipedia (begge hære ca. 20.000) fremfor fjernet, da det modsat udkastets øvrige to fodnoter faktisk var korrekt. Erstattede to døde/opdigtede URL'er (danmarkshistorien.dk gav 410, kongernessamling.dk gav 404 — forkert domæne, det hedder denkongeligesamling.dk) med fire verificerede kilder."
+      }
+    },
+    {
+      "slug": "tallet",
+      "order": 5,
+      "section": "Tallet",
+      "brief": {
+        "angle": "Tallet: byg en lille kildetabel over Christian 4.s regeringstid. Kolonner/rækker: regeringstid (1588 konge, 1596 myndig/kronet regent, til 1648 — 52 år som regerende monark, den længste regeringstid af nogen dansk konge), Kalmarkrigens løsesum (1 million rigsdaler sølv, ca. 25,5 ton), nederlaget ved Lutter (27. august 1626), og antal børn (over 20 legitime og uægte børn totalt — han giftede sig først med Anna Cathrine af Brandenburg i 1597, og indgik i 1615 et morganatisk ægteskab med Kirsten Munk, som han fik 12 børn med, heraf to dødfødte). MÆRK EKSPLICIT børnetallet 'over 20' som et samlet, historisk anslået tal på tværs af flere kilder — ikke et præcist, entydigt regnskabstal, da kilder varierer i den nøjagtige optælling.",
+        "words": [
+          300,
+          450
+        ],
+        "mustCite": 2,
+        "format": "tallet"
+      },
+      "writer": {
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 330,
+        "costUSD": 0.01491,
+        "draft": "kladder/05-tallet.md",
+        "costRouting": "byok",
+        "generationId": "gen-1789245787-vdIbDz99BKiSMvXn7vHB"
+      },
+      "verdict": {
+        "status": "accepted-with-edits",
+        "checkedAt": "2026-09-12",
+        "citations": 3,
+        "editorNote": "Rettede endnu et tilfælde af modellens litterale \\u00a0-escape-fejl (samme mønster som i kalmarkrigen.md) til almindelige mellemrum. Erstattede en bare-domain-fodnote (natmus.dk uden specifik side) og en generel DBL-fodnote, der ikke direkte dækkede børnetallet, med tre specifikke, verificerede kilder — hver knyttet til den påstand, den faktisk understøtter."
+      }
+    },
+    {
+      "slug": "myter",
+      "order": 6,
+      "section": "Myter",
+      "brief": {
+        "angle": "Myter-bagsnit: afmonter myten om Christian 4.s regeringstid som en entydig dansk 'storhedstid'. Brug PRÆCIS denne pointe, som er direkte dokumenteret: selvom Christian 4. huskes for et imponerende byggeprogram (Rundetårn, Børsen, Christianshavn m.fl.) og en tidlig militær sejr (Kalmarkrigen 1611-1613), FORARMEDE hans senere krige — særligt den katastrofale indblanding i Trediveårskrigen fra 1625 og nederlaget ved Lutter am Barenberge i 1626 — reelt den danske stat. De økonomiske og militære skader fra hans regeringstid er en del af baggrunden for, at Danmark kun få årtier senere (under hans søn og sønnesøn) tabte afgørende krige mod Sverige og mistede store landområder (Skånelandene, 1658). Skriv IKKE et opdigtet, præcist årstal eller begivenhedsforløb for de senere svenskekrige ud over, hvad der allerede er kildebelagt her — hold den del kvalitativ og generel ('få årtier senere', 'under hans efterfølgere'). Pointen: 'byggekonge og stormagt' er ikke en modsigelse af 'krige der forarmede landet' — det er to sandheder om samme regeringstid, der ofte fortælles hver for sig.",
+        "words": [
+          350,
+          550
+        ],
+        "mustCite": 2,
+        "format": "myter"
+      },
+      "writer": {
+        "byline": "DeepSeek V3.2 (DeepSeek)",
+        "model": "deepseek/deepseek-v3.2",
+        "fallback": null
+      },
+      "receipt": {
+        "words": 357,
+        "costUSD": 0.00086212,
+        "draft": "kladder/06-myter.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1789245854-JMR6PTgCtcicyOu4YGnJ"
+      },
+      "verdict": {
+        "status": "accepted-with-edits",
+        "checkedAt": "2026-09-12",
+        "citations": 2,
+        "editorNote": "Fjernede et opdigtet direkte citat tilskrevet historikeren Knud J.V. Jespersen med en død URL (gyldendal.dk gav 404) og et mistænkeligt 'besøgt 2024-03-15'-tidsstempel, som ikke kunne verificeres nogetsteds. Erstattede med et faktisk, verificeret citat fra danmarkshistorien.lex.dk om Christian 4.s finansielle afhængighed af Rigsrådet fra 1630'erne som følge af Kejserkrigen. Fjernede desuden en fodnote ([^2] i udkastet), der aldrig blev refereret i brødteksten (danmarkshistorien.dk om Christian 4. generelt) og tilføjede i stedet en reel, verificeret kilde til Roskildefreden 1658 (Skåne/Halland/Blekinge), som artiklens pointe hænger på. Rettede desuden en forkert/gættet lex.dk-URL for Roskildefreden (404) til den korrekte 'Roskildefreden'."
+      }
+    }
+  ]
+}
