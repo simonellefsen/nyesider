@@ -1,0 +1,103 @@
+{
+  "magazine": "humanerd",
+  "number": 5,
+  "title": "HumaNerd nr. 5 · September 2026",
+  "issueTheme": "Dronen som robot — tre beviser, tre autonominiveauer",
+  "published": "2026-09-12",
+  "status": "published",
+  "pdf": null,
+  "cover": "images/humanerd_cover.png",
+  "coverCredit": "AI-genereret motiv (Imagine / xAI)",
+  "coverSource": "https://x.ai/",
+  "images": [
+    "images/humanerd_cover.png",
+    "images/humanerd_leder.png",
+    "images/humanerd_leveringsdrone.png",
+    "images/humanerd_paastandskontoret.png",
+    "images/humanerd_politidrone.png",
+    "images/humanerd_tallet.png",
+    "images/humanerd_vindmoelledrone.png"
+  ],
+  "productionCostUSD": 0.2237,
+  "imageCredits": "Imagine / xAI. Stil varieret pr. artikel.",
+  "backCoverPromise": "HumaNerd nr. 6 fortsætter med at skelne pilot fra drift, ét bevis ad gangen.",
+  "articles": [
+    {
+      "slug": "leder",
+      "file": "articles/01-leder.md",
+      "order": 1,
+      "section": "Leder",
+      "title": "Dronen som robot",
+      "standfirst": "Tre droner, tre autonominiveauer, tre forskellige svar på spørgsmålet: hvor meget af beslutningen ligger hos mennesket?",
+      "image": "images/humanerd_leder.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/",
+      "words": 142
+    },
+    {
+      "slug": "politidrone",
+      "file": "articles/02-politidrone.md",
+      "order": 2,
+      "section": "Fabrikken",
+      "title": "Fabrikken: dronen, der når frem før patruljevognen",
+      "standfirst": "Dronen flyver selv til gerningsstedet. Det, der sker derefter, styrer et menneske stadig.",
+      "image": "images/humanerd_politidrone.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/",
+      "words": 682,
+      "byline": "Claude Sonnet 5 (Anthropic)"
+    },
+    {
+      "slug": "leveringsdrone",
+      "file": "articles/03-leveringsdrone.md",
+      "order": 3,
+      "section": "Humanoiden",
+      "title": "Zipline er ikke en drone-demo. Det er en flåde i drift",
+      "standfirst": "Fra én pilot pr. fly til én flådeansvarlig for hundrede — men mennesket er ikke væk, det har skiftet rolle.",
+      "image": "images/humanerd_leveringsdrone.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/",
+      "words": 596,
+      "byline": "GPT-5.6 Terra (OpenAI)"
+    },
+    {
+      "slug": "vindmoelledrone",
+      "file": "articles/04-vindmoelledrone.md",
+      "order": 4,
+      "section": "Verdenskortet",
+      "title": "Verdenskortet: roterende vinger og flyvende algoritmer over Østersøen",
+      "standfirst": "Et dansk demonstrationsprojekt viste fuldt autonom inspektion af havvindmøller, mens de stadig roterede. Det er en pilot, ikke drift endnu.",
+      "image": "images/humanerd_vindmoelledrone.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/",
+      "words": 588,
+      "byline": "Gemini 3.1 Pro (Google)"
+    },
+    {
+      "slug": "tallet",
+      "file": "articles/05-tallet.md",
+      "order": 5,
+      "section": "Tallet",
+      "title": "Tallet: tre droner, tre slags autonomi",
+      "standfirst": "\"Autonom drone\" dækker i praksis meget forskellige ting.",
+      "image": "images/humanerd_tallet.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/",
+      "words": 443,
+      "byline": "Claude Sonnet 5 (Anthropic)"
+    },
+    {
+      "slug": "paastandskontoret",
+      "file": "articles/06-paastandskontoret.md",
+      "order": 6,
+      "section": "Påstandskontoret",
+      "title": "Påstandskontoret: «autonome droner betyder, at der ikke længere er et menneske involveret»",
+      "standfirst": "Selv i de mest avancerede dronesystemer befinder mennesket sig stadig i kontrolrummet — blot i en anden rolle.",
+      "image": "images/humanerd_paastandskontoret.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/",
+      "words": 379,
+      "byline": "DeepSeek V3.2 (DeepSeek)"
+    }
+  ]
+}

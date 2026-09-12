@@ -21,7 +21,59 @@ Vi bruger "fysisk AI" som en forklaring, ikke som en magisk etiket: en robot ska
 
 ## Udgivne numre
 
-### Nr. 4 — “Nathandleren og samlebåndet” — UDGIVET 2026-08-29 (nyt nummer, fra bunden)
+### Nr. 5 — "Dronen som robot" — UDGIVET 2026-09-12 (nyt nummer, fra bunden)
+
+6 artikler, **2.830 ord**. Fem artikler reelt kommissioneret på `.env.humanerd`; lederen er
+chefredaktionens og har **ingen byline**. Samlet forbrug **0,2237 USD**. `check_issue.py`:
+**0 fejl, 2 advarsler** (begge korrekte mustCite-afvigelser, se nedenfor). `check_links.py`:
+**0 døde links** (1 bot-blokeret, Uber Investor Relations, læst manuelt). `bestilling.json`
+under `numre/2026-09-nr5/`.
+
+Idébank-emnet "Dronen som robot" brugt. Tre beviser på tre forskellige autonominiveauer, der
+bevidst IKKE følges ad med modenhed/skala: en amerikansk politidrone (teleopereret indsats +
+autonom navigation, 20.000+ besvarede opkald i Chula Vista), en amerikansk leveringsdrone-operatør
+(Zipline — fuldt autonom, superviseret i flåde af én "flådeansvarlig" for op til 100 fly, 2,5 mio.
+kommercielle leverancer), og et DANSK demonstrationsprojekt (AQUADA-GO — fuldt autonom inspektion
+af roterende havvindmøller ved Rødsand 2, men stadig kun ét demonstrationsprojekt, ikke udbredt
+drift). Verdenskortet-artiklen giver nummeret et europæisk/dansk anker midt i to amerikanske cases.
+
+#### Tre fejl fanget og rettet før udgivelse
+
+- **Bare domænehenvisninger** (samme mønster som tidligere numre): `politidrone`- og
+  `leveringsdrone`-kladdernes fodnoter pegede på forsider/generelle newsroom-sider
+  (chulavistaca.gov, faa.gov, droneresponders.org, zipline.com) uden konkret artikel. Erstattet
+  med specifikke, verificerede artikler (Police1, Tech Times, Ziplines egen juli 2026-
+  pressemeddelelse).
+- **Tre døde/gættede URL'er i én artikel:** `vindmoelledrone`-kladden citerede
+  energycluster.dk/projekter/aquada-go/, ens.dk/.../eudp og vindenergi.dtu.dk — alle tre gav
+  enten 404 eller forbindelsesfejl. Erstattet med RWE's egen, verificerede pressemeddelelse og
+  EUDP's faktiske projektside (eudp.dk/en/node/16610).
+- **Opdigtet finansieringskilde og akronym:** `paastandskontoret`-kladden hævdede, at AQUADA-GO
+  er finansieret under **EU's Horizon-program** og opfandt en akronym-udfoldning ("Autonomous
+  QUAlity inspection Drones for Offshore wind"). Projektet er faktisk finansieret af det
+  **danske EUDP-program** (Energistyrelsen) — en helt anden finansieringskilde. Ingen kilde
+  bekræftede den påståede akronym-betydning. Begge dele rettet. **Værd at bemærke: fejlen opstod i**
+  **en artikel, hvis hele formål er at afmontere overdrevne autonomi-påstande — endnu et eksempel**
+  **på, at fact-check-disciplinen skal gælde nummerets egne artikler lige så strengt som de**
+  **påstande, artiklen selv kritiserer.**
+
+#### Byggefejl fanget for `npm run preflight`, ikke af `check_issue.py`
+
+`05-tallet.md`s `standfirst`-felt var skrevet som `standfirst: "Autonom drone" dækker i praksis...`
+— en indledende, ordret citeret frase efterfulgt af ukvoteret tekst. `check_issue.py`s
+YAML-frontmatter-tjek (som fanger den kendte "kolon i ukvoteret standfirst"-fejl) fangede IKKE
+dette — men SvelteKits fulde `npm run build` gjorde, med en reel `404`-fejl under prerender af
+netop denne artikel-side, fordi js-yaml (den bibliotek, sitet faktisk bruger) fortolker en værdi,
+der starter med et bogstaveligt anførselstegn efterfulgt af ukvoteret tekst, som en ugyldig
+blok-mapping. Fejlen blev fundet ved at køre `getArticle()` direkte via `npx tsx` uden om
+sidens try/catch, som ellers skjuler den bagvedliggende YAML-fejl bag en generisk 404. Rettet ved
+at pakke hele standfirst-strengen i anførselstegn og bruge »guillemets« til den interne
+fremhævelse i stedet for lige citationstegn. **Ny regel værd at huske på tværs af hele
+porteføljen: en `standfirst`, der selv indeholder anførselstegn omkring et enkelt ord/en enkelt
+frase, skal ALTID have hele værdien pakket i ydre anførselstegn — ikke kun når der også er en
+kolon i teksten, som er den eneste variant, `check_issue.py` i dag fanger.**
+
+### Nr. 4 — "Nathandleren og samlebåndet" — UDGIVET 2026-08-29 (nyt nummer, fra bunden)
 
 7 artikler, **3.533 ord**. Seks artikler reelt kommissioneret på `.env.humanerd`; lederen er
 chefredaktionens og har **ingen byline**. Samlet forbrug **0,1547 USD**. `check_issue.py`:
@@ -229,7 +281,7 @@ levetidstallet var det rigtige. Reglen er stadig: afstem mod begge, og forklar f
 - **(2026-08) Robotten der kan se** — kameraer, kraftsensorer og grænserne for perception.
 - **(2026-08) Håndens problem** — gribere, taktilitet og hvorfor det bløde stadig er svært.
 - ~~Tre humanoider, tre beviser~~ → **brugt i nr. 3** (2026-08-19).
-- **(2026-08) Dronen som robot** — inspektion, lager, landbrug og beredskab; skeln mellem fjernstyring, assisteret flyvning og autonomi.
+- ~~Dronen som robot~~ → **brugt i nr. 5** (2026-09-12).
 - **(2026-08) Robotter i krig** — militære anvendelser, dual use, menneskelig kontrol, fejlrisiko og dokumentation. Må ikke behandles som gadgetstof eller produktpromovering; brug primærkilder, folkeretlige rammer og uafhængig rapportering.
 - **(2026-08) Boston Dynamics efter videoen** — fra mobilitet til konkret arbejdscelle, med den samme pilot→drift-målestok som nr. 1.
 - **(2026-08) Humanoiden på scenen** — robotter i koncert, teater, forlystelse, tv og brandaktivering. Skeln mellem autonom robot, teleoperation, forudprogrammeret koreografi og visuel illusion.
@@ -243,6 +295,10 @@ levetidstallet var det rigtige. Reglen er stadig: afstem mod begge, og forklar f
 
 ## Log
 
+- **2026-09-12:** Nr. 5 udgivet — "Dronen som robot", idébank-emne. Tre beviser på tre
+  autonominiveauer (politidrone, leveringsdrone, dansk vindmølledrone). Tre fejl fanget og
+  rettet, inkl. en forkert finansieringskilde (EU Horizon i stedet for det danske EUDP) og et
+  opdigtet akronym — begge i selve Påstandskontoret-artiklen. Se læringen ovenfor.
 - **2026-08-29 (senere, post-udgivelse):** Humanoiden (nr. 4) rettet efter Chrome-baseret
   LinkedIn-adgang: Boston Dynamics-tenure og titel for Jakob Welner korrigeret (HIVE's
   pressemeddelelse overdrev), Jakob Sand navngivet efter at hans rolle blev bekræftet. Se

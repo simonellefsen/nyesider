@@ -1,0 +1,220 @@
+{
+  "magazine": "humanerd",
+  "issue": "2026-09-nr5",
+  "issueTheme": "Dronen som robot — tre beviser, tre autonominiveauer",
+  "budget": {
+    "articles": 6,
+    "wordsPerArticle": [
+      300,
+      750
+    ],
+    "targetPages": 12,
+    "note": "Idébank-emnet 'Dronen som robot' brugt. Tre cases på stigende skala af drift, men ikke stigende autonomi i samme rækkefølge — pointen er netop, at de tre akser (autonomi/modenhed/skala) ikke følges ad."
+  },
+  "opgaver": [
+    {
+      "slug": "leder",
+      "order": 1,
+      "section": "Leder",
+      "brief": {
+        "angle": "Kort leder der introducerer temaet: dronen som robot. Tre beviser på tre forskellige niveauer af autonomi — politidroner (teleopereret med autonom navigation), leveringsdroner (fuldt autonome, superviseret i flåde) og en dansk vindmølleinspektionsdrone (fuldt autonom, stadig pilotprojekt). Fortsætter HumaNerds skelnen mellem pilot, validering og drift, ét bevis ad gangen.",
+        "words": [
+          150,
+          250
+        ],
+        "mustCite": 0,
+        "format": "leder"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": null,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-09-12",
+        "citations": 0,
+        "editorNote": "Redaktionens egen leder, ingen byline, ingen API-kald."
+      }
+    },
+    {
+      "slug": "politidrone",
+      "order": 2,
+      "section": "Fabrikken",
+      "brief": {
+        "angle": "Feature om 'Drone as First Responder' (DFR) — droner der sendes til 911/112-opkald før en patruljevogn når frem. Brug PRÆCIS disse verificerede tal: som af februar 2026 havde over 1.000 amerikanske myndigheder (politi, brand, redning) fået FAA-dispensationer (BVLOS — Beyond Visual Line of Sight, at flyve dronen længere væk end piloten kan se den med det blotte øje) til at automatisere droneoperationer og starte et DFR-program — FAA godkendte flere BVLOS-dispensationer mellem april 2025 og februar 2026 end i de foregående syv år tilsammen (976 dispensationer totalt siden det første DFR-program i 2018, frem til april 2025). Brug Chula Vista Police Department (Californien) som det konkrete, dokumenterede eksempel: programmet har siden sin start besvaret over 20.000 opkald. SKELN PRÆCIST autonominiveauet: dronen letter og navigerer SELV (autonomt) til GPS-koordinater og begynder at streame video, FØR en patruljevogn når frem — men en menneskelig teleoperatør (en uddannet politibetjent, ikke kun en dronepilot) styrer fortsat dronen og dirigerer selve indsatsen undervejs. Dette er IKKE en fuldt autonom robot, der selv træffer beslutninger — det er autonom navigation kombineret med menneskelig kontrol af selve opgaven. IKKE bland dette sammen med det næste niveau (fuldt autonome leveringsdroner), som nummerets næste artikel dækker.",
+        "words": [
+          500,
+          750
+        ],
+        "mustCite": 3,
+        "mustNumber": [
+          "1.000 myndigheder",
+          "20.000 opkald"
+        ],
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 682,
+        "costUSD": 0.043186,
+        "draft": "kladder/02-politidrone.md",
+        "costRouting": "byok",
+        "generationId": "gen-1789243185-dqWmswlx35185tkdHG0J"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-09-12",
+        "citations": 2,
+        "editorNote": "Faktatjekket. Kladdens tre fodnoter var bare domænehenvisninger (chulavistaca.gov, faa.gov, droneresponders.org) uden konkret side — erstattet med to konkrete, verificerede artikler (Police1, Tech Times), der faktisk dækker de citerede tal."
+      }
+    },
+    {
+      "slug": "leveringsdrone",
+      "order": 3,
+      "section": "Humanoiden",
+      "brief": {
+        "angle": "Feature om Zipline, den amerikanske leveringsdrone-operatør, som det klareste bevis på reel, kommerciel DRIFT i stor skala — ikke en pilot. Brug PRÆCIS disse verificerede tal: Zipline har gennemført over 2,5 mio. kommercielle leverancer og fløjet mere end 135 mio. autonome kilometer (commercial autonomous miles) uden en rapporteret sikkerhedshændelse. Selskabet har udviklet sig fra én pilot pr. luftfartøj til én 'fleet commander' (flådeansvarlig), der overvåger op til 100 autonome fly ad gangen — mennesket er fjernet fra alle beslutninger på det enkelte flyveniveau; de fleste Zipline-flyvninger i dag er fuldt autonome. Fabrikken i South San Francisco kan producere 24.000 nye droner om året. Selskabet ekspanderer i USA — Phoenix, Dallas-området og det nordvestlige Arkansas — og har annonceret en Uber Eats-partnerskab med et erklæret mål om 1 mio. leverancer dagligt inden 2029, hvilket ville være en 231 gange stigning fra det aktuelle niveau på omkring 4.320 leverancer dagligt. SKRIV EKSPLICIT, at 2029-målet er et annonceret FREMTIDSMÅL, ikke et opnået tal — bland ikke det ambitiøse mål sammen med de allerede opnåede 2,5 mio. leverancer. SKELN dette autonominiveau (supervision af hele flåden, ingen per-flyvning-kontrol) fra forrige artikels politidrone (aktiv teleoperatørstyring pr. hændelse).",
+        "words": [
+          500,
+          750
+        ],
+        "mustCite": 3,
+        "mustNumber": [
+          "2,5 mio. leverancer",
+          "135 mio. km",
+          "100 fly pr. flådeansvarlig"
+        ],
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "GPT-5.6 Terra (OpenAI)",
+        "model": "openai/gpt-5.6",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 596,
+        "costUSD": 0.0312985,
+        "draft": "kladder/03-leveringsdrone.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1789243261-iS8i7qtaU0h9fIGpEBJb"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-09-12",
+        "citations": 3,
+        "editorNote": "Faktatjekket. To af kladdens fodnoter pegede på Ziplines forside/generelle newsroom uden en specifik artikel — erstattet med den konkrete pressemeddelelse (juli 2026), hvor 2,5 mio. leverancer/135 mio. km-tallene faktisk står."
+      }
+    },
+    {
+      "slug": "vindmoelledrone",
+      "order": 4,
+      "section": "Verdenskortet",
+      "brief": {
+        "angle": "Feature om AQUADA-GO — et dansk demonstrationsprojekt, der i januar 2026 viste den første fuldt autonome inspektion af OPERATIONELLE (roterende) havvindmøller. Brug PRÆCIS disse verificerede fakta: projektet blev ledet af det danske startup Quali Drone i samarbejde med RWE, Statkraft, TotalEnergies, DTU (Danmarks Tekniske Universitet) og Energy Cluster Denmark, med et budget på 17.796.010 DKK støttet af EUDP (Energiteknologisk Udviklings- og Demonstrationsprogram). Demonstrationen fandt sted ved Rødsand 2 Havmøllepark syd for Lolland (drevet af RWE), annonceret 15. januar 2026. Teknologien bruger visuelle kameraer og termografi kombineret med AI-algoritmer til at opdage overfladeskader og revner i vingerne, MENS møllen fortsat roterer — traditionel inspektion kræver, at møllen stoppes. AI-algoritmerne identificerer selv vingeskader UDEN menneskelig indgriben under selve flyvningen — dette er altså fuldt autonom flyvning OG fuldt autonom skadesdetektion. SKRIV EKSPLICIT, at projektet løb 2022 til marts 2026 — dette er afslutningen på et FLERÅRIGT DEMONSTRATIONSPROJEKT, ikke en beskrivelse af udbredt, kommerciel drift på tværs af mange vindmølleparker endnu. Skeln dette klart fra nummerets to forrige artikler: politidronen er teleopereret med autonom navigation, leveringsdronen er fuldt autonom OG allerede i massiv kommerciel drift — denne vindmølledrone er fuldt autonom, men STADIG en demonstration/pilot, ikke bevist drift i stor skala endnu.",
+        "words": [
+          500,
+          750
+        ],
+        "mustCite": 3,
+        "mustNumber": [
+          "15. januar 2026",
+          "17.796.010 DKK",
+          "2022-marts 2026"
+        ],
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "Gemini 3.1 Pro (Google)",
+        "model": "google/gemini-3.1-pro-preview",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 588,
+        "costUSD": 0.100874,
+        "draft": "kladder/04-vindmoelledrone.md",
+        "costRouting": "byok",
+        "generationId": "gen-1789243351-DHu2EaFNxWB5cR0oe2gy"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-09-12",
+        "citations": 2,
+        "editorNote": "Faktatjekket direkte mod RWE's pressemeddelelse. Kladdens tre fodnoter (energycluster.dk, ens.dk, vindenergi.dtu.dk) var alle døde/gættede URL'er — erstattet med RWE's egen, verificerede pressemeddelelse og EUDP's faktiske projektside (eudp.dk/en/node/16610)."
+      }
+    },
+    {
+      "slug": "tallet",
+      "order": 5,
+      "section": "Tallet",
+      "brief": {
+        "angle": "Tallet: byg en lille kildetabel, der sammenligner de tre droners autonomi- og driftsniveau — ikke et enkelt tal. Kolonner: drone-type, autonominiveau (fx 'teleopereret navigation + autonom flyvning', 'fuldt autonom, superviseret i flåde', 'fuldt autonom, demonstrationsprojekt'), modenhed (pilot/demonstration vs. etableret drift), og nøgletal (20.000 opkald for politidronen; 2,5 mio. leverancer/135 mio. km for leveringsdronen; ét demonstrationsprojekt 2022-2026 for vindmølledronen). Brug PRÆCIS de tal, der allerede er brugt i nummerets tre features. Pointen skal være eksplicit: 'autonom flyvning' er ikke det samme som 'fuldt autonom beslutningstagning', og 'demonstreret teknologi' er ikke det samme som 'udbredt drift' — tre forskellige akser, der let forveksles i mediedækning.",
+        "words": [
+          300,
+          450
+        ],
+        "mustCite": 1,
+        "format": "tallet"
+      },
+      "writer": {
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 443,
+        "costUSD": 0.047164,
+        "draft": "kladder/05-tallet.md",
+        "costRouting": "byok",
+        "generationId": "gen-1789243459-owrIYJ5RTnDLfhDSVoaI"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-09-12",
+        "citations": 2,
+        "editorNote": "Faktatjekket. Rettet en trykfejl ('ikingen ting' → 'intet'). Fodnoter tilføjet med konkrete kilder."
+      }
+    },
+    {
+      "slug": "paastandskontoret",
+      "order": 6,
+      "section": "Påstandskontoret",
+      "brief": {
+        "angle": "Påstandskontoret afmonterer en udbredt hverdagspåstand om droner: 'Autonome droner betyder, at der ikke længere er et menneske involveret.' Brug nummerets egne tre eksempler til at vise, at dette næsten aldrig er sandt i praksis: Chula Vista-politidronen har en aktiv menneskelig teleoperatør, der styrer indsatsen; selv Zipline, det mest autonome eksempel, har en menneskelig 'flådeansvarlig', der overvåger op til 100 fly og kan gribe ind; og AQUADA-GO's vindmølledrone er et demonstrationsprojekt med forskere og ingeniører til stede. Pointen er IKKE, at autonomi er en myte — de tekniske fremskridt er reelle og dokumenterede (autonom flyvning, autonom skadesdetektion) — men at 'autonom' i praksis oftest betyder 'mennesket flyttet fra at styre hver bevægelse til at overvåge mange systemer ad gangen', ikke 'mennesket helt væk'. Ingen hype-sprog, ingen messesprog.",
+        "words": [
+          350,
+          550
+        ],
+        "mustCite": 1,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "DeepSeek V3.2 (DeepSeek)",
+        "model": "deepseek/deepseek-v3.2",
+        "fallback": null
+      },
+      "receipt": {
+        "words": 379,
+        "costUSD": 0.00117205,
+        "draft": "kladder/06-paastandskontoret.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1789243533-3aQjrOByRaTM9jdUbacC"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-09-12",
+        "citations": 3,
+        "editorNote": "Faktatjekket. Kladden hævdede fejlagtigt, at AQUADA-GO er 'et offentligt dokumenteret innovationsprojekt under EU's Horizon-program' og opdigtede en akronym-udfoldning ('Autonomous QUAlity inspection Drones for Offshore wind') — projektet er faktisk finansieret af det DANSKE EUDP-program (Energistyrelsen), ikke EU's Horizon-program, og ingen kilde bekræfter den påståede akronym-betydning. Rettet til den korrekte finansieringskilde og fjernet den opdigtede akronym-forklaring. Én fodnote-URL (chulavistaca.gov) var desuden en gættet sti — erstattet med en verificeret artikel."
+      }
+    }
+  ]
+}
