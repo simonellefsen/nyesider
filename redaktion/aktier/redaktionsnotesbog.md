@@ -88,27 +88,64 @@ python3 production/load_env.py aktier   # når .env.aktier oprettes
 
 **ETF-vurdering:** Ingen ETF anbefales. SPY −1,2 %, QQQ −3,9 %, EUNL −1,0 %. P/E ~25 på S&P 500. Rabat kun i enkeltnavn.
 
-## Nr. 4 — kandidater / opfølgning
+## Nr. 4 — udgivet (2026-09-14)
 
-**(2026-09-29)** Nike Q1 FY27 — margin-stabilisering?
+**Tema:** Comcast endelig med — Rockwool åbner København-siden  
+**Editor-led:** Alle artikler skrevet af chefredaktionen uden byline. Ingen OpenRouter-kald (`.env.aktier` endnu ikke oprettet). `productionCostUSD: 0`.
 
-**(2026-10-21)** Husqvarna Q3 + ex-div 19. okt.
+**Fem nye kandidater (pris 11. sep 2026 lukke):**
+1. **CMCSA** (Comcast, NasdaqGS) — $25,20, −23,3 % fra top, trail P/E 8,08, yield 5,24 %, CORE/YIELD.
+2. **STZ** (Constellation Brands, NYSE) — $122,45, −27,4 % fra top, trail P/E 11,67, yield 3,36 %, CORE.
+3. **CAP.PA** (Capgemini, Euronext Paris) — €102,9, −32,8 % fra top, trail P/E 13,1, fwd 7,5, CORE.
+4. **WKL.AS** (Wolters Kluwer, Euronext Amsterdam) — €66,24, −43,6 % fra top, trail P/E 11,3, yield 3,9 %, CORE.
+5. **ROCK-B.CO** (Rockwool, Nasdaq Copenhagen) — DKK 190,4, −22,2 % fra top, fwd P/E 12,6, yield 2,2 %, CORE.
+
+**Porteføljen (fra nr.1+nr.2+nr.3):**
+- Fra nr.1: NOVO-B (hold), ZTS (hold), RI.PA (hold), BMW.DE (hold).
+- Fra nr.2: PYPL (+2 %), YAR.OL (+2 %), HUSQ-B.ST (+3 %), AD.AS (+1 %).
+- Fra nr.3: NKE (−1 %), DECK (0 %), BSX (0 %), VOLCAR-B.ST (+1 %), MBG.DE (−1 %).
+- 14 kandidater aktive fra nr.1+nr.2+nr.3, ingen invalidationer.
+
+**Rygtebørsen (afviste):** FISV (−62 %, falling knife), UPS (−18 %, under screen), DG (P/E ~16), BALD-B (illikvid), CHTR (leverage veto), CPB/CAG/GIS (value-trap), STLAP/ELUX (traps), ERIC (ikke billig), ORSTED (ingen trail P/E), RNO/VOW3 (auto-overlap), COLO/AMBU/GN (dyre).
+
+**ETF-vurdering:** Ingen ETF anbefales. SPY −1,9 %, QQQ −4,5 %, OMXS30 −0,4 %. P/E ~24,7 på S&P 500. Rabat kun i enkeltnavn.
+
+## Nr. 5 — kandidater / opfølgning
+
+**(2026-09-17–18)** FOMC-møde — Fed rentebeslutning.
+
+**(2026-09-29)** Nike Q1 FY27 — margin-stabilisering? Binær test.
+
+**(2026-10-03)** Constellation Brands Q2 FY27.
+
+**(2026-10-15)** Pernod Ricard Q1 FY27-salgstal.
+
+**(2026-10-19)** Husqvarna ex-udbytte SEK 1,50.
+
+**(2026-10-21)** Husqvarna Q3.
 
 **(2026-10-22)** Yara Q3 — nitrogen og margin.
 
 **(2026-10-23)** Volvo Cars Q3 — Kina-stabilisering?
 
+**(2026-10-24)** Comcast Q3.
+
 **(2026-10-28)** Mercedes-Benz Q3 + PayPal Q3.
+
+**(2026-10-30)** Capgemini Q3 + Wolters Kluwer Q3.
 
 **(2026-11-04)** Novo Q3 + Ahold Q3.
 
+**(2026-11-06)** Rockwool Q3.
+
 **Følger (ikke feature endnu):**
-- FISV — aktivist JANA, debit-talks. Feature hvis deal-nyt.
+- FISV — aktivist JANA, debit-talks. Feature hvis deal-nyt eller stabilisering.
 - CHTR — for binær (D/E 441 %, short 52 %).
-- CMCSA — near-miss, følger for evt. nr.4.
+- UPS — nær-miss (−18 %), yield 6,56 %. Overvåg.
 
 ## Log
 
 - **2026-08-29:** Nr. 1 publiceret — *"Fem kandidater i et marked uden bred nedtur"*. Editor-led, ingen bylines, `productionCostUSD: 0`. Fem kandidater: NOVO-B, LULU, ZTS, RI.PA, BMW.
 - **2026-08-31:** Nr. 2 publiceret — *"Fire dips, stadig intet udsalg i indekset"*. Editor-led, ingen bylines, `productionCostUSD: 0`. Fire nye kandidater: PYPL, YAR.OL, HUSQ-B.ST, AD.AS. Porteføljen følger nr. 1's fem navne. LULU Q2 3. sep er det aktive binære.
 - **2026-09-07:** Nr. 3 publiceret — *"LULU invalideret — fem nye dips mens indekset holder toppen"*. Editor-led, ingen bylines, `productionCostUSD: 0`. **LULU exit** (guide-down, −17 % tab). Fem nye kandidater: NKE, DECK, BSX, VOLCAR-B.ST, MBG.DE. Porteføljen nu 9 aktive fra nr.1+nr.2 (minus LULU).
+- **2026-09-14:** Nr. 4 publiceret — *"Comcast endelig med — Rockwool åbner København-siden"*. Editor-led, ingen bylines, `productionCostUSD: 0`. Fem nye kandidater: CMCSA, STZ, CAP.PA, WKL.AS, ROCK-B.CO. **Rockwool** er første rene CPH-kandidat udover Novo. Porteføljen nu 19 aktive (14 fra nr.1–3 + 5 nye). Ingen invalidationer.
