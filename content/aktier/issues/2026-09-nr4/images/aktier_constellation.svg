@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0D1B2A"/>
+      <stop offset="100%" style="stop-color:#1B3A4B"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg)"/>
+  <text x="200" y="35" fill="#C9A227" font-family="Arial" font-size="20" text-anchor="middle" font-weight="bold">STZ</text>
+  <text x="200" y="55" fill="#888" font-family="Arial" font-size="12" text-anchor="middle">Constellation Brands · NYSE</text>
+  <!-- Beer bottles/glasses stylized -->
+  <g transform="translate(140,75)">
+    <!-- Bottle 1 -->
+    <rect x="0" y="30" width="25" height="50" rx="3" fill="none" stroke="#C9A227" stroke-width="2"/>
+    <rect x="5" y="20" width="15" height="15" rx="2" fill="none" stroke="#C9A227" stroke-width="2"/>
+    <!-- Bottle 2 -->
+    <rect x="45" y="30" width="25" height="50" rx="3" fill="none" stroke="#C9A227" stroke-width="2"/>
+    <rect x="50" y="20" width="15" height="15" rx="2" fill="none" stroke="#C9A227" stroke-width="2"/>
+    <!-- Bottle 3 -->
+    <rect x="90" y="30" width="25" height="50" rx="3" fill="none" stroke="#40826D" stroke-width="2"/>
+    <rect x="95" y="20" width="15" height="15" rx="2" fill="none" stroke="#40826D" stroke-width="2"/>
+  </g>
+  <text x="200" y="165" fill="#C9A227" font-family="Arial" font-size="11" text-anchor="middle">Corona · Modelo · Pacifico</text>
+  <!-- Key metrics -->
+  <g transform="translate(60,185)">
+    <rect x="0" y="0" width="120" height="30" rx="5" fill="#1B3A4B" stroke="#C9A227"/>
+    <text x="60" y="20" fill="#C9A227" font-family="Arial" font-size="12" text-anchor="middle">P/E 11,67</text>
+  </g>
+  <g transform="translate(220,185)">
+    <rect x="0" y="0" width="120" height="30" rx="5" fill="#1B3A4B" stroke="#40826D"/>
+    <text x="60" y="20" fill="#40826D" font-family="Arial" font-size="12" text-anchor="middle">Yield 3,36%</text>
+  </g>
+  <text x="200" y="250" fill="#FF6666" font-family="Arial" font-size="14" text-anchor="middle">27,4% fra 52w top · nær bund</text>
+  <text x="200" y="280" fill="#666" font-family="Arial" font-size="10" text-anchor="middle">CORE · USA's bedst sælgende øl (Modelo)</text>
+</svg>
