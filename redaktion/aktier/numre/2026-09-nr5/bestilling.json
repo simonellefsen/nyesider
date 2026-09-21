@@ -1,0 +1,380 @@
+{
+  "magazine": "aktier",
+  "issue": "2026-09-nr5",
+  "issueTheme": "Efter Fed: Adobe til rabat — yield i UPS, Sanofi, Telenor og Telekom",
+  "integrityNote": "Femte nummer. Editor-led (ingen API-kald, ingen bylines). Alle priser verificeret mod Yahoo Finance 18. sep 2026 lukke. Ingen .env.aktier-nøgle eksisterer endnu — derfor productionCostUSD: 0.",
+  "budget": {
+    "articles": 12,
+    "wordsPerArticle": [400, 650],
+    "targetPages": 16,
+    "note": "Leder + Markedet + 5 nye kandidater (ADBE, UPS, SAN.PA, TEL.OL, DTE.DE) + Tallet + ETF'erne + Porteføljen + Rygtebørsen + Bagsnit. Editor-led."
+  },
+  "opgaver": [
+    {
+      "slug": "leder",
+      "order": 1,
+      "section": "Leder",
+      "brief": {
+        "angle": "Fem nye kandidater: Adobe (kreativ software GenAI-frygt), UPS (pakkelogistik yield), Sanofi (pharma Dupixent), Telenor (nordisk telecom yield), Deutsche Telekom (T-Mobile US). Fire yield-navne, én software-klassiker. Husk: ikke personlig rådgivning.",
+        "words": [200, 280],
+        "mustCite": 0,
+        "format": "leder"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": null,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "editor-led",
+        "checkedAt": "2026-09-21",
+        "citations": 0,
+        "editorNote": "Chefredaktionens leder, ingen byline, ingen kommissionering."
+      }
+    },
+    {
+      "slug": "markedet",
+      "order": 2,
+      "section": "Markedet",
+      "brief": {
+        "angle": "Uge 38 2026: FOMC 17-18. sep bag os. S&P 500 −2,3%, Nasdaq −3,6%, EUNL −2,2% fra top. Markedet holder, enkeltnavn solgt ned 19–33%. Nike Q1 29. sep næste binære.",
+        "words": [350, 450],
+        "mustCite": 3,
+        "format": "feature",
+        "mustNumber": [
+          "SPY $761,69 (−2,3% fra top)",
+          "QQQ −3,6% fra top",
+          "EUNL.DE €127,04 (−2,2%)"
+        ]
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": null,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "editor-led",
+        "checkedAt": "2026-09-21",
+        "citations": 3,
+        "editorNote": "Editor-led. Kilder: Yahoo Finance (indekser), CME FedWatch, Nike IR."
+      }
+    },
+    {
+      "slug": "adobe",
+      "order": 3,
+      "section": "Kandidaten",
+      "brief": {
+        "angle": "ADBE (Adobe, NasdaqGS). CORE-sleeve. $248,92 (−32,8% fra 52w top $370,31). Trail P/E 15,0, fwd 10,0, P/B 8,9 (asset-light — forklar). GenAI-frygt vs. 90% recurring, 30%+ OM, $7+ mia. FCF.",
+        "words": [450, 600],
+        "mustCite": 2,
+        "format": "feature",
+        "mustNumber": [
+          "$248,92, 52w $190,12–370,31, −32,8% fra top",
+          "Trail P/E 15,0, fwd 10,0, P/B 8,9",
+          "Invalidation: ARR-vækst <5%, FCF-kollaps"
+        ]
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": null,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "editor-led",
+        "checkedAt": "2026-09-21",
+        "citations": 2,
+        "editorNote": "Editor-led. Kilde: Yahoo Finance ADBE, Adobe IR."
+      }
+    },
+    {
+      "slug": "ups",
+      "order": 4,
+      "section": "Kandidaten",
+      "brief": {
+        "angle": "UPS (United Parcel Service, NYSE). CORE/YIELD-sleeve. $99,06 (−19,1% fra 52w top $122,41). Trail P/E 15,1, fwd 12,5, P/B 5,9, yield 6,6% ($6,56). Near-miss i nr.4 (−18%), nu klar.",
+        "words": [450, 600],
+        "mustCite": 2,
+        "format": "feature",
+        "mustNumber": [
+          "$99,06, 52w $82,00–122,41, −19,1% fra top",
+          "Trail P/E 15,1, fwd 12,5, P/B 5,9, yield 6,6%",
+          "Invalidation: udbyttenedsættelse / FCF <$5 mia."
+        ]
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": null,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "editor-led",
+        "checkedAt": "2026-09-21",
+        "citations": 2,
+        "editorNote": "Editor-led. Kilde: Yahoo Finance UPS, UPS IR."
+      }
+    },
+    {
+      "slug": "sanofi",
+      "order": 5,
+      "section": "Kandidaten",
+      "brief": {
+        "angle": "SAN.PA (Sanofi, Euronext Paris). CORE/YIELD-sleeve. €74,05 (−18,8% fra 52w top €91,15). Trail P/E 19,3, **fwd 8,7**, P/B 1,33, yield 5,4% (€4,12). Borderline i nr.4 rygtebørs, nu klar. Dupixent-pipeline.",
+        "words": [450, 600],
+        "mustCite": 2,
+        "format": "feature",
+        "mustNumber": [
+          "€74,05, 52w €71,25–91,15, −18,8% fra top",
+          "Trail P/E 19,3, fwd 8,7, P/B 1,33, yield 5,4%",
+          "Invalidation: Dupixent-fald / yield-cut"
+        ]
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": null,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "editor-led",
+        "checkedAt": "2026-09-21",
+        "citations": 2,
+        "editorNote": "Editor-led. Kilde: Yahoo Finance SAN.PA, Sanofi IR."
+      }
+    },
+    {
+      "slug": "telenor",
+      "order": 6,
+      "section": "Kandidaten",
+      "brief": {
+        "angle": "TEL.OL (Telenor, Oslo Børs). YIELD-sleeve. NOK 132,00 (−26,1% fra 52w top NOK 178,70). Trail P/E 11,3, fwd 14,4, P/B 2,69, yield 7,2% (NOK 9,70). Ex-div 15. okt, udbetaling 27. okt.",
+        "words": [450, 550],
+        "mustCite": 2,
+        "format": "feature",
+        "mustNumber": [
+          "NOK 132,00, 52w NOK 125,20–178,70, −26,1% fra top",
+          "Trail P/E 11,3, fwd 14,4, P/B 2,69, yield 7,2%",
+          "Invalidation: udbyttenedsættelse / norsk markedsandel −5pp"
+        ]
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": null,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "editor-led",
+        "checkedAt": "2026-09-21",
+        "citations": 2,
+        "editorNote": "Editor-led. Kilde: Yahoo Finance TEL.OL, Telenor IR."
+      }
+    },
+    {
+      "slug": "deutsche-telekom",
+      "order": 7,
+      "section": "Kandidaten",
+      "brief": {
+        "angle": "DTE.DE (Deutsche Telekom, Xetra). CORE/YIELD-sleeve. €27,11 (−21,1% fra 52w top €34,36). Trail P/E 15,8, fwd 11,8, P/B 2,0, yield 3,5% (€1,00). ~50% af T-Mobile US — cash-maskinen.",
+        "words": [450, 600],
+        "mustCite": 2,
+        "format": "feature",
+        "mustNumber": [
+          "€27,11, 52w €23,53–34,36, −21,1% fra top",
+          "Trail P/E 15,8, fwd 11,8, P/B 2,0, yield 3,5%",
+          "Invalidation: T-Mobile US abonnentstop / koncern-FCF <€8 mia."
+        ]
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": null,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "editor-led",
+        "checkedAt": "2026-09-21",
+        "citations": 2,
+        "editorNote": "Editor-led. Kilde: Yahoo Finance DTE.DE, Deutsche Telekom IR."
+      }
+    },
+    {
+      "slug": "tallet",
+      "order": 8,
+      "section": "Tallet",
+      "brief": {
+        "angle": "Kildetabel over nummerets fem nye kandidater: ticker, børs, pris, 52w, % fra top, P/E, P/B, yield, sleeve, invalidation. Én linje pr. kandidat. Note om sleeves og læsevejledning.",
+        "words": [350, 500],
+        "mustCite": 5,
+        "format": "tallet",
+        "mustNumber": [
+          "ADBE: $248,92 / −32,8% / P/E 15,0",
+          "UPS: $99,06 / −19,1% / P/E 15,1 / yield 6,6%",
+          "SAN.PA: €74,05 / −18,8% / fwd P/E 8,7 / yield 5,4%",
+          "TEL.OL: NOK 132,00 / −26,1% / P/E 11,3 / yield 7,2%",
+          "DTE.DE: €27,11 / −21,1% / P/E 15,8 / yield 3,5%"
+        ]
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": null,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "editor-led",
+        "checkedAt": "2026-09-21",
+        "citations": 5,
+        "editorNote": "Editor-led. Fem Yahoo Finance-kilder, én pr. kandidat."
+      }
+    },
+    {
+      "slug": "etferne",
+      "order": 9,
+      "section": "ETF'erne",
+      "brief": {
+        "angle": "Stadig ingen ETF-rabat. SPY $761,69 (−2,3%), VOO −2,3%, QQQ −3,6%, EUNL −2,2%, EEM −4,5%, OBX −5,8%, OMXC25 −3,9%. Konklusion: rabat kun i enkeltnavn.",
+        "words": [350, 450],
+        "mustCite": 1,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": null,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "editor-led",
+        "checkedAt": "2026-09-21",
+        "citations": 1,
+        "editorNote": "Editor-led. Kilde: Yahoo Finance ETF-quotes."
+      }
+    },
+    {
+      "slug": "portefoeljen",
+      "order": 10,
+      "section": "Porteføljen",
+      "brief": {
+        "angle": "Opdater alle 19 aktive positioner fra nr.1–nr.4 med nuværende pris vs. entry. Nr.1: NOVO-B, ZTS, RI.PA, BMW. Nr.2: PYPL, YAR, HUSQ-B, AD. Nr.3: NKE (BINÆRT!), DECK, BSX, VOLCAR-B, MBG. Nr.4: CMCSA, STZ, CAP.PA, WKL.AS, ROCK-B.CO. Flag NKE Q1 29. sep. Nr.5 tilføjer ADBE, UPS, SAN.PA, TEL.OL, DTE.DE → 24 kandidater total.",
+        "words": [450, 600],
+        "mustCite": 0,
+        "format": "feature",
+        "mustNumber": [
+          "19 kandidater fra nr.1+nr.2+nr.3+nr.4",
+          "5 nye kandidater fra nr.5",
+          "24 kandidater i alt"
+        ]
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": null,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "editor-led",
+        "checkedAt": "2026-09-21",
+        "citations": 0,
+        "editorNote": "Editor-led. Porteføljeopdatering, ingen kilder."
+      }
+    },
+    {
+      "slug": "rygteboersen",
+      "order": 11,
+      "section": "Rygtebørsen",
+      "brief": {
+        "angle": "Afviste navne: FISV (−64,6%, falling knife), DSV.CO (P/E 40+), KER.PA (earnings stress), IFX.DE (ekstrem P/E), MC.PA (luxury derating), DG (value trap), ADS.DE/PUM (NKE overlap), ORSTED.CO (ingen P/E), ERIC-B.ST (ikke billig), F/VOW3 (auto overlap), BN.PA (P/E 20+), INTC (AI-kompleks).",
+        "words": [350, 450],
+        "mustCite": 0,
+        "format": "rygteboersen"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": null,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "editor-led",
+        "checkedAt": "2026-09-21",
+        "citations": 0,
+        "editorNote": "Editor-led. mustCite=0 er bevidst formatvalg for rubrikken."
+      }
+    },
+    {
+      "slug": "bagsnit",
+      "order": 12,
+      "section": "Bagsnit",
+      "brief": {
+        "angle": "Disclaimer: Aktier med Grok giver ikke personlig investeringsrådgivning. Alle tal er pr. 18. september 2026 lukke. Nr. 6 følger Nike Q1 (29. sep), Constellation Q2 (3. okt), Pernod Q1 (15. okt), Telenor ex-div (15. okt), Husqvarna Q3/ex-div (19./21. okt), Yara Q3 (22. okt), Volvo Cars Q3 (23. okt), Comcast Q3 (24. okt), PayPal/Mercedes Q3 (28. okt), Capgemini/WKL Q3 (30. okt), Novo/Ahold Q3 (4. nov), Rockwool Q3 (6. nov).",
+        "words": [180, 250],
+        "mustCite": 0,
+        "format": "bagsnit"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": null,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "editor-led",
+        "checkedAt": "2026-09-21",
+        "citations": 0,
+        "editorNote": "Editor-led. Disclaimer, ingen kilder."
+      }
+    }
+  ]
+}

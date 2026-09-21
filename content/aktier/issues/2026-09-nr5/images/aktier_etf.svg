@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#f8f9fa"/>
+      <stop offset="100%" style="stop-color:#e9ecef"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#bg)"/>
+  <text x="300" y="35" fill="#0D1B2A" font-family="Arial" font-size="18" text-anchor="middle" font-weight="bold">ETF'ERNE</text>
+  <text x="300" y="55" fill="#415A77" font-family="Arial" font-size="11" text-anchor="middle">Ingen ETF-rabat  alle tæt på 52-ugers top</text>
+  
+  <!-- Grid of ETF boxes -->
+  <g transform="translate(50, 80)">
+    <!-- Row 1 -->
+    <rect x="0" y="0" width="115" height="70" fill="#40826D" rx="5"/>
+    <text x="57" y="25" fill="#E0E1DD" font-family="Arial" font-size="12" text-anchor="middle" font-weight="bold">SPY</text>
+    <text x="57" y="45" fill="#E0E1DD" font-family="Arial" font-size="10" text-anchor="middle">$761,69</text>
+    <text x="57" y="60" fill="#C9A227" font-family="Arial" font-size="10" text-anchor="middle">2,3%</text>
+    
+    <rect x="130" y="0" width="115" height="70" fill="#40826D" rx="5"/>
+    <text x="187" y="25" fill="#E0E1DD" font-family="Arial" font-size="12" text-anchor="middle" font-weight="bold">QQQ</text>
+    <text x="187" y="45" fill="#E0E1DD" font-family="Arial" font-size="10" text-anchor="middle">$721,45</text>
+    <text x="187" y="60" fill="#C9A227" font-family="Arial" font-size="10" text-anchor="middle">3,6%</text>
+    
+    <rect x="260" y="0" width="115" height="70" fill="#40826D" rx="5"/>
+    <text x="317" y="25" fill="#E0E1DD" font-family="Arial" font-size="12" text-anchor="middle" font-weight="bold">EUNL</text>
+    <text x="317" y="45" fill="#E0E1DD" font-family="Arial" font-size="10" text-anchor="middle">¬127,04</text>
+    <text x="317" y="60" fill="#C9A227" font-family="Arial" font-size="10" text-anchor="middle">2,2%</text>
+    
+    <rect x="390" y="0" width="115" height="70" fill="#40826D" rx="5"/>
+    <text x="447" y="25" fill="#E0E1DD" font-family="Arial" font-size="12" text-anchor="middle" font-weight="bold">VOO</text>
+    <text x="447" y="45" fill="#E0E1DD" font-family="Arial" font-size="10" text-anchor="middle">$700,45</text>
+    <text x="447" y="60" fill="#C9A227" font-family="Arial" font-size="10" text-anchor="middle">2,3%</text>
+    
+    <!-- Row 2 -->
+    <rect x="65" y="90" width="115" height="70" fill="#40826D" rx="5"/>
+    <text x="122" y="115" fill="#E0E1DD" font-family="Arial" font-size="12" text-anchor="middle" font-weight="bold">IMEA</text>
+    <text x="122" y="135" fill="#E0E1DD" font-family="Arial" font-size="10" text-anchor="middle">¬38,50</text>
+    <text x="122" y="150" fill="#C9A227" font-family="Arial" font-size="10" text-anchor="middle">3,1%</text>
+    
+    <rect x="195" y="90" width="115" height="70" fill="#40826D" rx="5"/>
+    <text x="252" y="115" fill="#E0E1DD" font-family="Arial" font-size="12" text-anchor="middle" font-weight="bold">EEM</text>
+    <text x="252" y="135" fill="#E0E1DD" font-family="Arial" font-size="10" text-anchor="middle">$46,20</text>
+    <text x="252" y="150" fill="#C9A227" font-family="Arial" font-size="10" text-anchor="middle">4,5%</text>
+    
+    <rect x="325" y="90" width="115" height="70" fill="#40826D" rx="5"/>
+    <text x="382" y="115" fill="#E0E1DD" font-family="Arial" font-size="12" text-anchor="middle" font-weight="bold">OBX</text>
+    <text x="382" y="135" fill="#E0E1DD" font-family="Arial" font-size="10" text-anchor="middle">NOK 105,80</text>
+    <text x="382" y="150" fill="#C9A227" font-family="Arial" font-size="10" text-anchor="middle">5,8%</text>
+  </g>
+  
+  <!-- No recommendation box -->
+  <rect x="150" y="280" width="300" height="50" fill="#778DA9" rx="5"/>
+  <text x="300" y="305" fill="#E0E1DD" font-family="Arial" font-size="12" text-anchor="middle" font-weight="bold">INGEN ETF-ANBEFALING</text>
+  <text x="300" y="320" fill="#E0E1DD" font-family="Arial" font-size="10" text-anchor="middle">Rabat kun i enkeltnavn</text>
+  
+  <text x="300" y="365" fill="#415A77" font-family="Arial" font-size="10" text-anchor="middle">Venter på 10%+ indeksfald før ETF-allokering</text>
+  <text x="300" y="385" fill="#778DA9" font-family="Arial" font-size="9" text-anchor="middle">Kilde: Yahoo Finance · 18. sep 2026</text>
+</svg>

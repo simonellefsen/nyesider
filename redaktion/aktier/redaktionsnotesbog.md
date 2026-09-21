@@ -110,15 +110,36 @@ python3 production/load_env.py aktier   # når .env.aktier oprettes
 
 **ETF-vurdering:** Ingen ETF anbefales. SPY −1,9 %, QQQ −4,5 %, OMXS30 −0,4 %. P/E ~24,7 på S&P 500. Rabat kun i enkeltnavn.
 
-## Nr. 5 — kandidater / opfølgning
+## Nr. 5 — udgivet (2026-09-21)
 
-**(2026-09-17–18)** FOMC-møde — Fed rentebeslutning.
+**Tema:** Efter Fed: Adobe til rabat — yield i UPS, Sanofi, Telenor og Telekom  
+**Editor-led:** Alle artikler skrevet af chefredaktionen uden byline. Ingen OpenRouter-kald (`.env.aktier` endnu ikke oprettet). `productionCostUSD: 0`.
 
-**(2026-09-29)** Nike Q1 FY27 — margin-stabilisering? Binær test.
+**Fem nye kandidater (pris 18. sep 2026 lukke):**
+1. **ADBE** (Adobe, NasdaqGS) — $248,92 (−32,8% fra 52w top $370,31). Trail P/E 15,0, fwd 10,0, P/B 8,9 (asset-light), ingen udbytte. CORE. GenAI-frygt vs. 90% recurring.
+2. **UPS** (United Parcel Service, NYSE) — $99,06 (−19,1% fra 52w top $122,41). Trail P/E 15,1, fwd 12,5, yield 6,6%. CORE/YIELD. Near-miss i nr.4, nu klar.
+3. **SAN.PA** (Sanofi, Euronext Paris) — €74,05 (−18,8% fra 52w top €91,15). Trail P/E 19,3, **fwd 8,7**, P/B 1,33, yield 5,4%. CORE/YIELD. Dupixent-pipeline.
+4. **TEL.OL** (Telenor, Oslo Børs) — NOK 132,00 (−26,1% fra 52w top NOK 178,70). Trail P/E 11,3, yield 7,2%. YIELD. Defensiv nordisk cash.
+5. **DTE.DE** (Deutsche Telekom, Xetra) — €27,11 (−21,1% fra 52w top €34,36). Trail P/E 15,8, fwd 11,8, yield 3,5%. CORE/YIELD. ~50% T-Mobile US.
+
+**Porteføljen (fra nr.1+nr.2+nr.3+nr.4):**
+- Fra nr.1: NOVO-B (hold), ZTS (hold, nær low), RI.PA (hold), BMW.DE (hold).
+- Fra nr.2: PYPL (hold), YAR.OL (hold), HUSQ-B.ST (hold), AD.AS (hold).
+- Fra nr.3: NKE (**BINÆRT** Q1 29. sep), DECK (hold), BSX (hold, nær low), VOLCAR-B.ST (hold, nær low), MBG.DE (hold).
+- Fra nr.4: CMCSA (hold), STZ (hold), CAP.PA (hold), WKL.AS (hold), ROCK-B.CO (hold).
+- 19 kandidater aktive fra nr.1–4 + 5 nye = **24 i alt**.
+
+**Rygtebørsen (afviste):** FISV (falling knife), DSV.CO (P/E 40+), KER.PA (earnings stress), IFX.DE (ekstrem P/E), MC.PA (luxury derating), DG (value trap), ADS.DE/PUM (NKE overlap), ORSTED.CO (ingen P/E), ERIC-B (ikke billig), F/VOW3 (auto overlap), BN.PA (P/E 20+), INTC (AI-kompleks).
+
+**ETF-vurdering:** Ingen ETF anbefales. SPY −2,3%, QQQ −3,6%, EUNL −2,2%. Rabat kun i enkeltnavn.
+
+## Nr. 6 — kandidater / opfølgning
+
+**(2026-09-29)** Nike Q1 FY27 — **BINÆRT**. Margin-stabilisering eller guide-down?
 
 **(2026-10-03)** Constellation Brands Q2 FY27.
 
-**(2026-10-15)** Pernod Ricard Q1 FY27-salgstal.
+**(2026-10-15)** Pernod Ricard Q1 FY27-salgstal. Telenor ex-udbytte NOK 4,70.
 
 **(2026-10-19)** Husqvarna ex-udbytte SEK 1,50.
 
@@ -130,18 +151,22 @@ python3 production/load_env.py aktier   # når .env.aktier oprettes
 
 **(2026-10-24)** Comcast Q3.
 
+**(2026-10-27)** UPS Q3, Telenor udbyttebetaling.
+
 **(2026-10-28)** Mercedes-Benz Q3 + PayPal Q3.
 
 **(2026-10-30)** Capgemini Q3 + Wolters Kluwer Q3.
 
 **(2026-11-04)** Novo Q3 + Ahold Q3.
 
+**(2026-11-05)** Deutsche Telekom Q3.
+
 **(2026-11-06)** Rockwool Q3.
 
 **Følger (ikke feature endnu):**
 - FISV — aktivist JANA, debit-talks. Feature hvis deal-nyt eller stabilisering.
-- CHTR — for binær (D/E 441 %, short 52 %).
-- UPS — nær-miss (−18 %), yield 6,56 %. Overvåg.
+- CHTR — for binær (D/E 441%, short 52%).
+- NHY.OL — aluminium-cyklisk, optional follower.
 
 ## Log
 
@@ -149,3 +174,4 @@ python3 production/load_env.py aktier   # når .env.aktier oprettes
 - **2026-08-31:** Nr. 2 publiceret — *"Fire dips, stadig intet udsalg i indekset"*. Editor-led, ingen bylines, `productionCostUSD: 0`. Fire nye kandidater: PYPL, YAR.OL, HUSQ-B.ST, AD.AS. Porteføljen følger nr. 1's fem navne. LULU Q2 3. sep er det aktive binære.
 - **2026-09-07:** Nr. 3 publiceret — *"LULU invalideret — fem nye dips mens indekset holder toppen"*. Editor-led, ingen bylines, `productionCostUSD: 0`. **LULU exit** (guide-down, −17 % tab). Fem nye kandidater: NKE, DECK, BSX, VOLCAR-B.ST, MBG.DE. Porteføljen nu 9 aktive fra nr.1+nr.2 (minus LULU).
 - **2026-09-14:** Nr. 4 publiceret — *"Comcast endelig med — Rockwool åbner København-siden"*. Editor-led, ingen bylines, `productionCostUSD: 0`. Fem nye kandidater: CMCSA, STZ, CAP.PA, WKL.AS, ROCK-B.CO. **Rockwool** er første rene CPH-kandidat udover Novo. Porteføljen nu 19 aktive (14 fra nr.1–3 + 5 nye). Ingen invalidationer.
+- **2026-09-21:** Nr. 5 publiceret — *"Efter Fed: Adobe til rabat — yield i UPS, Sanofi, Telenor og Telekom"*. Editor-led, ingen bylines, `productionCostUSD: 0`. Fem nye kandidater: ADBE, UPS, SAN.PA, TEL.OL, DTE.DE. **Adobe** er første software-kandidat. Fire yield-navne (UPS 6,6%, SAN 5,4%, TEL 7,2%, DTE 3,5%). Porteføljen nu **24 aktive** (19 fra nr.1–4 + 5 nye). **NKE Q1 29. sep er binært** — hold uden exit før regnskab.

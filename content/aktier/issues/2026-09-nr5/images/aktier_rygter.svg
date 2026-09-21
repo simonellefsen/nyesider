@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#2C2C2C"/>
+      <stop offset="100%" style="stop-color:#1A1A1A"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#bg)"/>
+  <text x="300" y="35" fill="#C9A227" font-family="Arial" font-size="18" text-anchor="middle" font-weight="bold">RYGTEBØRSEN</text>
+  <text x="300" y="55" fill="#778DA9" font-family="Arial" font-size="11" text-anchor="middle">Navne vi lod ligge  og hvorfor</text>
+  
+  <!-- Rejected stocks with X marks -->
+  <g transform="translate(50, 80)">
+    <!-- Row 1 -->
+    <g>
+      <text x="0" y="20" fill="#778DA9" font-family="Arial" font-size="11">FISV</text>
+      <text x="60" y="20" fill="#FF6B6B" font-family="Arial" font-size="14"></text>
+      <text x="80" y="20" fill="#555" font-family="Arial" font-size="9">falling knife</text>
+    </g>
+    <g transform="translate(200, 0)">
+      <text x="0" y="20" fill="#778DA9" font-family="Arial" font-size="11">DSV.CO</text>
+      <text x="60" y="20" fill="#FF6B6B" font-family="Arial" font-size="14"></text>
+      <text x="80" y="20" fill="#555" font-family="Arial" font-size="9">P/E 40+</text>
+    </g>
+    <g transform="translate(380, 0)">
+      <text x="0" y="20" fill="#778DA9" font-family="Arial" font-size="11">KER.PA</text>
+      <text x="60" y="20" fill="#FF6B6B" font-family="Arial" font-size="14"></text>
+      <text x="80" y="20" fill="#555" font-family="Arial" font-size="9">earnings stress</text>
+    </g>
+    
+    <!-- Row 2 -->
+    <g transform="translate(0, 40)">
+      <text x="0" y="20" fill="#778DA9" font-family="Arial" font-size="11">IFX.DE</text>
+      <text x="60" y="20" fill="#FF6B6B" font-family="Arial" font-size="14"></text>
+      <text x="80" y="20" fill="#555" font-family="Arial" font-size="9">ekstrem P/E</text>
+    </g>
+    <g transform="translate(200, 40)">
+      <text x="0" y="20" fill="#778DA9" font-family="Arial" font-size="11">MC.PA</text>
+      <text x="60" y="20" fill="#FF6B6B" font-family="Arial" font-size="14"></text>
+      <text x="80" y="20" fill="#555" font-family="Arial" font-size="9">luxury derating</text>
+    </g>
+    <g transform="translate(380, 40)">
+      <text x="0" y="20" fill="#778DA9" font-family="Arial" font-size="11">DG</text>
+      <text x="60" y="20" fill="#FF6B6B" font-family="Arial" font-size="14"></text>
+      <text x="80" y="20" fill="#555" font-family="Arial" font-size="9">value trap</text>
+    </g>
+    
+    <!-- Row 3 -->
+    <g transform="translate(0, 80)">
+      <text x="0" y="20" fill="#778DA9" font-family="Arial" font-size="11">ADS.DE</text>
+      <text x="60" y="20" fill="#FF6B6B" font-family="Arial" font-size="14"></text>
+      <text x="80" y="20" fill="#555" font-family="Arial" font-size="9">NKE overlap</text>
+    </g>
+    <g transform="translate(200, 80)">
+      <text x="0" y="20" fill="#778DA9" font-family="Arial" font-size="11">ORSTED</text>
+      <text x="60" y="20" fill="#FF6B6B" font-family="Arial" font-size="14"></text>
+      <text x="80" y="20" fill="#555" font-family="Arial" font-size="9">ingen P/E</text>
+    </g>
+    <g transform="translate(380, 80)">
+      <text x="0" y="20" fill="#778DA9" font-family="Arial" font-size="11">ERIC-B</text>
+      <text x="60" y="20" fill="#FF6B6B" font-family="Arial" font-size="14"></text>
+      <text x="80" y="20" fill="#555" font-family="Arial" font-size="9">ikke billig</text>
+    </g>
+    
+    <!-- Row 4 -->
+    <g transform="translate(0, 120)">
+      <text x="0" y="20" fill="#778DA9" font-family="Arial" font-size="11">F / VOW3</text>
+      <text x="60" y="20" fill="#FF6B6B" font-family="Arial" font-size="14"></text>
+      <text x="80" y="20" fill="#555" font-family="Arial" font-size="9">auto overlap</text>
+    </g>
+    <g transform="translate(200, 120)">
+      <text x="0" y="20" fill="#778DA9" font-family="Arial" font-size="11">BN.PA</text>
+      <text x="60" y="20" fill="#FF6B6B" font-family="Arial" font-size="14"></text>
+      <text x="80" y="20" fill="#555" font-family="Arial" font-size="9">P/E 20+</text>
+    </g>
+    <g transform="translate(380, 120)">
+      <text x="0" y="20" fill="#778DA9" font-family="Arial" font-size="11">INTC</text>
+      <text x="60" y="20" fill="#FF6B6B" font-family="Arial" font-size="14"></text>
+      <text x="80" y="20" fill="#555" font-family="Arial" font-size="9">AI-kompleks</text>
+    </g>
+  </g>
+  
+  <!-- Criteria reminder -->
+  <rect x="100" y="290" width="400" height="70" fill="#333" rx="5"/>
+  <text x="300" y="315" fill="#C9A227" font-family="Arial" font-size="11" text-anchor="middle" font-weight="bold">Vores kriterier:</text>
+  <text x="300" y="335" fill="#E0E1DD" font-family="Arial" font-size="10" text-anchor="middle">1) Klar rabat på P/E/P/B</text>
+  <text x="300" y="350" fill="#E0E1DD" font-family="Arial" font-size="10" text-anchor="middle">2) Intakt forretning · 3) Klar invalidation</text>
+  
+  <text x="300" y="390" fill="#555" font-family="Arial" font-size="9" text-anchor="middle">September 2026</text>
+</svg>

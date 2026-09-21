@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 250">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#f8f9fa"/>
+      <stop offset="100%" style="stop-color:#e9ecef"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="250" fill="url(#bg)"/>
+  <text x="300" y="25" fill="#0D1B2A" font-family="Arial" font-size="12" text-anchor="middle" font-weight="bold">Indekser vs. enkeltnavn  % fra 52-ugers top</text>
+  
+  <!-- Horizontal bar chart -->
+  <g transform="translate(100, 50)">
+    <!-- SPY -->
+    <text x="-10" y="20" fill="#0D1B2A" font-family="Arial" font-size="10" text-anchor="end">SPY</text>
+    <rect x="0" y="8" width="23" height="18" fill="#40826D" rx="2"/>
+    <text x="30" y="22" fill="#40826D" font-family="Arial" font-size="9">2,3%</text>
+    
+    <!-- QQQ -->
+    <text x="-10" y="50" fill="#0D1B2A" font-family="Arial" font-size="10" text-anchor="end">QQQ</text>
+    <rect x="0" y="38" width="36" height="18" fill="#40826D" rx="2"/>
+    <text x="45" y="52" fill="#40826D" font-family="Arial" font-size="9">3,6%</text>
+    
+    <!-- EUNL -->
+    <text x="-10" y="80" fill="#0D1B2A" font-family="Arial" font-size="10" text-anchor="end">EUNL</text>
+    <rect x="0" y="68" width="22" height="18" fill="#40826D" rx="2"/>
+    <text x="30" y="82" fill="#40826D" font-family="Arial" font-size="9">2,2%</text>
+    
+    <!-- Divider -->
+    <line x1="0" y1="100" x2="400" y2="100" stroke="#778DA9" stroke-width="1" stroke-dasharray="4,4"/>
+    <text x="200" y="115" fill="#778DA9" font-family="Arial" font-size="8" text-anchor="middle"> enkeltnavn </text>
+    
+    <!-- ADBE -->
+    <text x="-10" y="145" fill="#0D1B2A" font-family="Arial" font-size="10" text-anchor="end">ADBE</text>
+    <rect x="0" y="133" width="328" height="18" fill="#C9A227" rx="2"/>
+    <text x="340" y="147" fill="#C9A227" font-family="Arial" font-size="9">32,8%</text>
+    
+    <!-- TEL.OL -->
+    <text x="-10" y="175" fill="#0D1B2A" font-family="Arial" font-size="10" text-anchor="end">TEL.OL</text>
+    <rect x="0" y="163" width="261" height="18" fill="#C9A227" rx="2"/>
+    <text x="273" y="177" fill="#C9A227" font-family="Arial" font-size="9">26,1%</text>
+  </g>
+  
+  <text x="300" y="240" fill="#778DA9" font-family="Arial" font-size="9" text-anchor="middle">Kilde: Yahoo Finance · 18. sep 2026</text>
+</svg>

@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#00509E"/>
+      <stop offset="100%" style="stop-color:#003366"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#bg)"/>
+  
+  <!-- Norwegian flag hint -->
+  <rect x="50" y="40" width="80" height="12" fill="#BA0C2F"/>
+  <rect x="50" y="52" width="80" height="8" fill="#FFFFFF"/>
+  <rect x="50" y="60" width="80" height="12" fill="#00205B"/>
+  <rect x="68" y="40" width="8" height="32" fill="#FFFFFF"/>
+  <rect x="72" y="40" width="4" height="32" fill="#00205B"/>
+  
+  <!-- Signal tower icon -->
+  <rect x="285" y="60" width="30" height="80" fill="#E0E1DD"/>
+  <circle cx="300" cy="80" r="15" fill="none" stroke="#C9A227" stroke-width="2"/>
+  <circle cx="300" cy="80" r="30" fill="none" stroke="#C9A227" stroke-width="2" opacity="0.7"/>
+  <circle cx="300" cy="80" r="45" fill="none" stroke="#C9A227" stroke-width="2" opacity="0.4"/>
+  
+  <text x="300" y="180" fill="#E0E1DD" font-family="Arial" font-size="24" text-anchor="middle" font-weight="bold">TELENOR</text>
+  <text x="300" y="205" fill="#C9A227" font-family="Arial" font-size="14" text-anchor="middle">TEL.OL · NOK 132,00 · 26,1% fra top</text>
+  
+  <!-- Key metrics boxes -->
+  <g transform="translate(60, 225)">
+    <rect x="0" y="0" width="100" height="50" fill="#004080" rx="5"/>
+    <text x="50" y="22" fill="#E0E1DD" font-family="Arial" font-size="10" text-anchor="middle">Trail P/E</text>
+    <text x="50" y="40" fill="#C9A227" font-family="Arial" font-size="14" text-anchor="middle" font-weight="bold">11,3</text>
+  </g>
+  <g transform="translate(175, 225)">
+    <rect x="0" y="0" width="100" height="50" fill="#004080" rx="5"/>
+    <text x="50" y="22" fill="#E0E1DD" font-family="Arial" font-size="10" text-anchor="middle">Fwd P/E</text>
+    <text x="50" y="40" fill="#C9A227" font-family="Arial" font-size="14" text-anchor="middle" font-weight="bold">14,4</text>
+  </g>
+  <g transform="translate(290, 225)">
+    <rect x="0" y="0" width="100" height="50" fill="#004080" rx="5"/>
+    <text x="50" y="22" fill="#E0E1DD" font-family="Arial" font-size="10" text-anchor="middle">Yield</text>
+    <text x="50" y="40" fill="#40826D" font-family="Arial" font-size="14" text-anchor="middle" font-weight="bold">7,2%</text>
+  </g>
+  <g transform="translate(405, 225)">
+    <rect x="0" y="0" width="135" height="50" fill="#40826D" rx="5"/>
+    <text x="67" y="22" fill="#E0E1DD" font-family="Arial" font-size="10" text-anchor="middle">Sleeve</text>
+    <text x="67" y="40" fill="#E0E1DD" font-family="Arial" font-size="12" text-anchor="middle" font-weight="bold">YIELD</text>
+  </g>
+  
+  <text x="300" y="315" fill="#87CEEB" font-family="Arial" font-size="12" text-anchor="middle" font-weight="bold">Ex-udbytte 15. oktober · NOK 4,70</text>
+  <text x="300" y="350" fill="#6495ED" font-family="Arial" font-size="11" text-anchor="middle">Nordisk telecom · 54% statsejet · Grundlagt 1855</text>
+  <text x="300" y="385" fill="#004080" font-family="Arial" font-size="9" text-anchor="middle">Oslo Børs · September 2026</text>
+</svg>
