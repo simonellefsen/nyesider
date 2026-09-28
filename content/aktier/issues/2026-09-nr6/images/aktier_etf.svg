@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300">
+  <rect width="600" height="300" fill="#0D1B2A"/>
+  <text x="300" y="30" fill="#C9A227" font-family="Georgia, serif" font-size="16" text-anchor="middle">ETF'erne: stadig ved toppen</text>
+  <!-- Grid of ETF boxes -->
+  <g transform="translate(50, 60)">
+    <rect x="0" y="0" width="150" height="60" fill="#40826D" rx="6" opacity="0.8"/>
+    <text x="75" y="25" fill="#FFFFFF" font-family="Arial" font-size="14" text-anchor="middle" font-weight="bold">SPY</text>
+    <text x="75" y="45" fill="#FFFFFF" font-family="Arial" font-size="12" text-anchor="middle">−1,0%</text>
+    
+    <rect x="170" y="0" width="150" height="60" fill="#40826D" rx="6" opacity="0.8"/>
+    <text x="245" y="25" fill="#FFFFFF" font-family="Arial" font-size="14" text-anchor="middle" font-weight="bold">QQQ</text>
+    <text x="245" y="45" fill="#FFFFFF" font-family="Arial" font-size="12" text-anchor="middle">−0,6%</text>
+    
+    <rect x="340" y="0" width="150" height="60" fill="#40826D" rx="6" opacity="0.8"/>
+    <text x="415" y="25" fill="#FFFFFF" font-family="Arial" font-size="14" text-anchor="middle" font-weight="bold">EUNL</text>
+    <text x="415" y="45" fill="#FFFFFF" font-family="Arial" font-size="12" text-anchor="middle">−0,7%</text>
+    
+    <rect x="0" y="80" width="150" height="60" fill="#40826D" rx="6" opacity="0.6"/>
+    <text x="75" y="105" fill="#FFFFFF" font-family="Arial" font-size="14" text-anchor="middle" font-weight="bold">VOO</text>
+    <text x="75" y="125" fill="#FFFFFF" font-family="Arial" font-size="12" text-anchor="middle">−1,0%</text>
+    
+    <rect x="170" y="80" width="150" height="60" fill="#40826D" rx="6" opacity="0.6"/>
+    <text x="245" y="105" fill="#FFFFFF" font-family="Arial" font-size="14" text-anchor="middle" font-weight="bold">IMEA</text>
+    <text x="245" y="125" fill="#FFFFFF" font-family="Arial" font-size="12" text-anchor="middle">−1,5%</text>
+    
+    <rect x="340" y="80" width="150" height="60" fill="#40826D" rx="6" opacity="0.6"/>
+    <text x="415" y="105" fill="#FFFFFF" font-family="Arial" font-size="14" text-anchor="middle" font-weight="bold">EEM</text>
+    <text x="415" y="125" fill="#FFFFFF" font-family="Arial" font-size="12" text-anchor="middle">−3,2%</text>
+  </g>
+  <text x="300" y="250" fill="#C9A227" font-family="Arial" font-size="14" text-anchor="middle" font-weight="bold">Ingen ETF-anbefaling</text>
+  <text x="300" y="275" fill="#888888" font-family="Arial" font-size="10" text-anchor="middle">Rabat kun i enkeltnavn. Indekserne er tæt på top.</text>
+</svg>

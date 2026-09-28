@@ -31,6 +31,8 @@ Håndhæves som **ERROR** i `production/check_issue.py` (og dermed i `npm run pr
 | 2026-09-07 | aktier/2026-09-nr3 (nr. 3) |
 | 2026-09-12 | dosis/2026-09-nr5 (nr. 5); horisonten/2026-09-nr5 (nr. 5); humanerd/2026-09-nr5 (nr. 5); indeni/2026-09-nr5 (nr. 5); kronike/2026-09-nr4 (nr. 4); kulturboxen/2026-09-nr5 (nr. 5) |
 | 2026-09-14 | aktier/2026-09-nr4 (nr. 4) |
+| 2026-09-21 | aktier/2026-09-nr5 (nr. 5) |
+| 2026-09-28 | aktier/2026-09-nr6 (nr. 6) |
 
 ## Efter magasin
 
@@ -42,6 +44,8 @@ Håndhæves som **ERROR** i `production/check_issue.py` (og dermed i `npm run pr
 | 2 | `2026-08-nr2` | 2026-08-31 | published | Fire dips, stadig intet udsalg i indekset |
 | 3 | `2026-09-nr3` | 2026-09-07 | published | LULU invalideret — fem nye dips mens indekset holder toppen |
 | 4 | `2026-09-nr4` | 2026-09-14 | published | Comcast endelig med — Rockwool åbner København-siden |
+| 5 | `2026-09-nr5` | 2026-09-21 | published | Efter Fed: Adobe til rabat — yield i UPS, Sanofi, Telenor og Telekom |
+| 6 | `2026-09-nr6` | 2026-09-28 | published | Intuit-vask — Pepsi, Lowe's og Orkla mens Nike venter |
 
 ### dosis
 

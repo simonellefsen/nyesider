@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300">
+  <rect width="600" height="300" fill="#0D1B2A"/>
+  <text x="300" y="40" fill="#C9A227" font-family="Georgia, serif" font-size="24" text-anchor="middle" font-weight="bold">LOW</text>
+  <text x="300" y="65" fill="#40826D" font-family="Arial" font-size="14" text-anchor="middle">Lowe's (NYSE)</text>
+  <!-- Down arrow -->
+  <polygon points="300,90 360,170 330,170 330,220 270,220 270,170 240,170" fill="#C9A227" opacity="0.85"/>
+  <!-- Key stats -->
+  <text x="150" y="260" fill="#FFFFFF" font-family="Arial" font-size="14" text-anchor="middle">−35,4% fra top</text>
+  <text x="300" y="260" fill="#FFFFFF" font-family="Arial" font-size="14" text-anchor="middle">P/E 16,0</text>
+  <text x="450" y="260" fill="#FFFFFF" font-family="Arial" font-size="14" text-anchor="middle">Yield 2,6%</text>
+  <text x="300" y="285" fill="#40826D" font-family="Arial" font-size="12" text-anchor="middle" font-weight="bold">CORE</text>
+</svg>
