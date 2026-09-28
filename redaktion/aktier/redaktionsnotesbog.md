@@ -133,7 +133,31 @@ python3 production/load_env.py aktier   # når .env.aktier oprettes
 
 **ETF-vurdering:** Ingen ETF anbefales. SPY −2,3%, QQQ −3,6%, EUNL −2,2%. Rabat kun i enkeltnavn.
 
-## Nr. 6 — kandidater / opfølgning
+## Nr. 6 — udgivet (2026-09-28)
+
+**Tema:** Intuit-vask — Pepsi, Lowe's og Orkla mens Nike venter  
+**Editor-led:** Alle artikler skrevet af chefredaktionen uden byline. Ingen OpenRouter-kald (`.env.aktier` endnu ikke oprettet). `productionCostUSD: 0`.
+
+**Fem nye kandidater (pris 25. sep 2026 lukke):**
+1. **INTU** (Intuit, NasdaqGS) — $275,79 (−60,8% fra 52w top $703,96). Trail P/E 16,8, fwd 10,2, P/B 3,90, yield 1,7%. CORE. GenAI + Free File frygt vs. 90% recurring.
+2. **PEP** (PepsiCo, NasdaqGS) — $128,63 (−25,0% fra 52w top $171,51). Trail P/E 16,9, fwd 14,4, P/B 7,95, yield 4,5%. CORE/YIELD. Volumen-frygt vs. Dividend King.
+3. **LOW** (Lowe's, NYSE) — $189,28 (−35,4% fra 52w top $293,02). Trail P/E 16,0, fwd 14,5, yield 2,6%. CORE. Billigere end HD.
+4. **ORK.OL** (Orkla, Oslo Børs) — NOK 93,35 (−28,8% fra 52w top NOK 131,11). Trail P/E 14,2, fwd 13,6, P/B 1,92, yield 4,3%. YIELD. Nordisk staples.
+5. **PHIA.AS** (Philips, Euronext Amsterdam) — €21,87 (−21,0% fra 52w top €27,68). Trail P/E 19,2, fwd 13,0, P/B 1,87, yield 4,0%. CORE/YIELD. Health-tech recovery.
+
+**Porteføljen (fra nr.1+nr.2+nr.3+nr.4+nr.5):**
+- Fra nr.1: NOVO-B (hold), ZTS (hold, nær low), RI.PA (hold), BMW.DE (hold).
+- Fra nr.2: PYPL (hold), YAR.OL (hold), HUSQ-B.ST (hold, nær low), AD.AS (hold).
+- Fra nr.3: NKE (**BINÆRT Q1 29. sep — I MORGEN!**), DECK (hold), BSX (hold, nær low), VOLCAR-B.ST (hold, nær low), MBG.DE (hold).
+- Fra nr.4: CMCSA (hold, nær low), STZ (hold), CAP.PA (hold), WKL.AS (hold), ROCK-B.CO (hold).
+- Fra nr.5: ADBE (hold), UPS (hold), SAN.PA (hold), TEL.OL (hold), DTE.DE (hold).
+- 24 kandidater aktive fra nr.1–5 + 5 nye = **29 i alt**.
+
+**Rygtebørsen (afviste):** FISV (−64%, falling knife), NOW (P/E ~85), ORCL (AI-kompleks), EL (absurd P/E), BA (ingen earnings), SHOP/CMG (rig), DG (value-trap), FDX (UPS overlap), HD (richer end LOW), TOM.OL (cyklisk), COLO-B (dyr), MC/KER (luxury), EQT.ST (P/B ekstrem), SAP (P/E 28), UNA (mild dip), WMT (P/E 39), LULU (ingen re-pick).
+
+**ETF-vurdering:** Ingen ETF anbefales. SPY −1,0%, QQQ −0,6%, EUNL −0,7%. Indekserne ved toppen. Rabat kun i enkeltnavn.
+
+## Nr. 7 — kandidater / opfølgning
 
 **(2026-09-29)** Nike Q1 FY27 — **BINÆRT**. Margin-stabilisering eller guide-down?
 
@@ -175,3 +199,4 @@ python3 production/load_env.py aktier   # når .env.aktier oprettes
 - **2026-09-07:** Nr. 3 publiceret — *"LULU invalideret — fem nye dips mens indekset holder toppen"*. Editor-led, ingen bylines, `productionCostUSD: 0`. **LULU exit** (guide-down, −17 % tab). Fem nye kandidater: NKE, DECK, BSX, VOLCAR-B.ST, MBG.DE. Porteføljen nu 9 aktive fra nr.1+nr.2 (minus LULU).
 - **2026-09-14:** Nr. 4 publiceret — *"Comcast endelig med — Rockwool åbner København-siden"*. Editor-led, ingen bylines, `productionCostUSD: 0`. Fem nye kandidater: CMCSA, STZ, CAP.PA, WKL.AS, ROCK-B.CO. **Rockwool** er første rene CPH-kandidat udover Novo. Porteføljen nu 19 aktive (14 fra nr.1–3 + 5 nye). Ingen invalidationer.
 - **2026-09-21:** Nr. 5 publiceret — *"Efter Fed: Adobe til rabat — yield i UPS, Sanofi, Telenor og Telekom"*. Editor-led, ingen bylines, `productionCostUSD: 0`. Fem nye kandidater: ADBE, UPS, SAN.PA, TEL.OL, DTE.DE. **Adobe** er første software-kandidat. Fire yield-navne (UPS 6,6%, SAN 5,4%, TEL 7,2%, DTE 3,5%). Porteføljen nu **24 aktive** (19 fra nr.1–4 + 5 nye). **NKE Q1 29. sep er binært** — hold uden exit før regnskab.
+- **2026-09-28:** Nr. 6 publiceret — *"Intuit-vask — Pepsi, Lowe's og Orkla mens Nike venter"*. Editor-led, ingen bylines, `productionCostUSD: 0`. Fem nye kandidater: INTU, PEP, LOW, ORK.OL, PHIA.AS. **Intuit** er største drawdown (−61%). Fire yield-navne (PEP 4,5%, ORK 4,3%, PHIA 4,0%, LOW 2,6%). Porteføljen nu **29 aktive** (24 fra nr.1–5 + 5 nye). **NKE Q1 29. sep er i morgen** — binært.

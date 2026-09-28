@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 280">
+  <defs>
+    <linearGradient id="bg-markedet" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#f8f9fa"/>
+      <stop offset="100%" style="stop-color:#e9ecef"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="280" fill="url(#bg-markedet)"/>
+  <text x="300" y="25" fill="#0D1B2A" font-family="Georgia, serif" font-size="14" text-anchor="middle" font-weight="bold">Indeks ved toppen, kandidater solgt fra</text>
+  <text x="300" y="42" fill="#888888" font-family="Arial" font-size="10" text-anchor="middle">Afstand fra 52-ugers top — indeks vs. nummerets fem kandidater</text>
+  
+  <!-- Legend -->
+  <rect x="430" y="12" width="12" height="12" fill="#40826D" rx="2"/>
+  <text x="447" y="22" fill="#888888" font-family="Arial" font-size="9">Indeks</text>
+  <rect x="500" y="12" width="12" height="12" fill="#C9A227" rx="2"/>
+  <text x="517" y="22" fill="#888888" font-family="Arial" font-size="9">Kandidat</text>
+  
+  <!-- Horizontal bar chart -->
+  <g transform="translate(100, 55)">
+    <!-- Indices (green, small) -->
+    <rect x="0" y="0" width="6.153846153846154" height="22" fill="#40826D" rx="3"/>
+    <text x="10" y="16" fill="#FFFFFF" font-family="Arial" font-size="10">SPY</text>
+    <text x="16.153846153846153" y="16" fill="#40826D" font-family="Arial" font-size="10" font-weight="bold">−1,0%</text>
+    
+    <rect x="0" y="28" width="3.692307692307692" height="22" fill="#40826D" rx="3"/>
+    <text x="10" y="44" fill="#FFFFFF" font-family="Arial" font-size="10">QQQ</text>
+    <text x="13.692307692307692" y="44" fill="#40826D" font-family="Arial" font-size="10" font-weight="bold">−0,6%</text>
+    
+    <rect x="0" y="56" width="4.3076923076923075" height="22" fill="#40826D" rx="3"/>
+    <text x="10" y="72" fill="#FFFFFF" font-family="Arial" font-size="10">EUNL</text>
+    <text x="14.307692307692307" y="72" fill="#40826D" font-family="Arial" font-size="10" font-weight="bold">−0,7%</text>
+    
+    <!-- Stocks (gold, large) -->
+    <rect x="0" y="90" width="374.15384615384613" height="22" fill="#C9A227" rx="3"/>
+    <text x="10" y="106" fill="#0D1B2A" font-family="Arial" font-size="10" font-weight="bold">INTU</text>
+    <text x="384.15384615384613" y="106" fill="#C9A227" font-family="Arial" font-size="10" font-weight="bold">−60,8%</text>
+    
+    <rect x="0" y="118" width="217.84615384615384" height="22" fill="#C9A227" rx="3" opacity="0.85"/>
+    <text x="10" y="134" fill="#0D1B2A" font-family="Arial" font-size="10" font-weight="bold">LOW</text>
+    <text x="227.84615384615384" y="134" fill="#C9A227" font-family="Arial" font-size="10" font-weight="bold">−35,4%</text>
+    
+    <rect x="0" y="146" width="177.23076923076923" height="22" fill="#C9A227" rx="3" opacity="0.7"/>
+    <text x="10" y="162" fill="#0D1B2A" font-family="Arial" font-size="10" font-weight="bold">ORK</text>
+    <text x="187.23076923076923" y="162" fill="#C9A227" font-family="Arial" font-size="10" font-weight="bold">−28,8%</text>
+    
+    <rect x="0" y="174" width="153.84615384615387" height="22" fill="#C9A227" rx="3" opacity="0.6"/>
+    <text x="10" y="190" fill="#0D1B2A" font-family="Arial" font-size="10" font-weight="bold">PEP</text>
+    <text x="163.84615384615387" y="190" fill="#C9A227" font-family="Arial" font-size="10" font-weight="bold">−25,0%</text>
+  </g>
+  
+  <text x="300" y="265" fill="#888888" font-family="Arial" font-size="8" text-anchor="middle">Kilde: Yahoo Finance, 25. september 2026. Grøn = indeks (tæt på top). Guld = kandidater.</text>
+</svg>

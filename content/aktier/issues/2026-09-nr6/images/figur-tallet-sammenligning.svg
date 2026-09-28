@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 280">
+  <defs>
+    <linearGradient id="bg-tallet" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#f8f9fa"/>
+      <stop offset="100%" style="stop-color:#e9ecef"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="280" fill="url(#bg-tallet)"/>
+  <text x="300" y="25" fill="#0D1B2A" font-family="Georgia, serif" font-size="14" text-anchor="middle" font-weight="bold">Fem kandidater: P/E vs. drawdown</text>
+  
+  <!-- Scatter plot area -->
+  <g transform="translate(80, 50)">
+    <!-- Grid -->
+    <line x1="0" y1="170" x2="440" y2="170" stroke="#ccc" stroke-width="1"/>
+    <line x1="0" y1="0" x2="0" y2="170" stroke="#ccc" stroke-width="1"/>
+    
+    <!-- X-axis: P/E (10-20) -->
+    <text x="220" y="200" fill="#888888" font-family="Arial" font-size="10" text-anchor="middle">Trailing P/E →</text>
+    <text x="0" y="185" fill="#888888" font-family="Arial" font-size="8" text-anchor="middle">10</text>
+    <text x="110" y="185" fill="#888888" font-family="Arial" font-size="8" text-anchor="middle">13</text>
+    <text x="220" y="185" fill="#888888" font-family="Arial" font-size="8" text-anchor="middle">15</text>
+    <text x="330" y="185" fill="#888888" font-family="Arial" font-size="8" text-anchor="middle">18</text>
+    <text x="440" y="185" fill="#888888" font-family="Arial" font-size="8" text-anchor="middle">20</text>
+    
+    <!-- Y-axis: Drawdown (0-70%) -->
+    <text x="-30" y="85" fill="#888888" font-family="Arial" font-size="10" text-anchor="middle" transform="rotate(-90, -30, 85)">↓ Drawdown %</text>
+    <text x="-10" y="5" fill="#888888" font-family="Arial" font-size="8" text-anchor="end">0%</text>
+    <text x="-10" y="45" fill="#888888" font-family="Arial" font-size="8" text-anchor="end">20%</text>
+    <text x="-10" y="90" fill="#888888" font-family="Arial" font-size="8" text-anchor="end">40%</text>
+    <text x="-10" y="135" fill="#888888" font-family="Arial" font-size="8" text-anchor="end">60%</text>
+    <text x="-10" y="170" fill="#888888" font-family="Arial" font-size="8" text-anchor="end">70%</text>
+    
+    <!-- Data points -->
+    <!-- INTU: P/E 16.8, DD 60.8% -->
+    <circle cx="299.20000000000005" cy="147.65714285714284" r="12" fill="#C9A227"/>
+    <text x="299.20000000000005" y="151.65714285714284" fill="#0D1B2A" font-family="Arial" font-size="9" text-anchor="middle" font-weight="bold">INTU</text>
+    
+    <!-- LOW: P/E 16.0, DD 35.4% -->
+    <circle cx="264.0" cy="85.97142857142856" r="12" fill="#C9A227" opacity="0.85"/>
+    <text x="264.0" y="89.97142857142856" fill="#0D1B2A" font-family="Arial" font-size="9" text-anchor="middle" font-weight="bold">LOW</text>
+    
+    <!-- ORK: P/E 14.2, DD 28.8% -->
+    <circle cx="184.79999999999995" cy="69.94285714285714" r="12" fill="#C9A227" opacity="0.7"/>
+    <text x="184.79999999999995" y="73.94285714285714" fill="#0D1B2A" font-family="Arial" font-size="9" text-anchor="middle" font-weight="bold">ORK</text>
+    
+    <!-- PEP: P/E 16.9, DD 25.0% -->
+    <circle cx="303.5999999999999" cy="60.714285714285715" r="12" fill="#C9A227" opacity="0.6"/>
+    <text x="303.5999999999999" y="64.71428571428572" fill="#0D1B2A" font-family="Arial" font-size="9" text-anchor="middle" font-weight="bold">PEP</text>
+    
+    <!-- PHIA: P/E 19.2, DD 21.0% -->
+    <circle cx="404.79999999999995" cy="51.0" r="12" fill="#C9A227" opacity="0.5"/>
+    <text x="404.79999999999995" y="55.0" fill="#0D1B2A" font-family="Arial" font-size="9" text-anchor="middle" font-weight="bold">PHIA</text>
+  </g>
+  
+  <text x="300" y="265" fill="#888888" font-family="Arial" font-size="8" text-anchor="middle">Alle tal pr. 25. september 2026. Kilde: Yahoo Finance.</text>
+</svg>

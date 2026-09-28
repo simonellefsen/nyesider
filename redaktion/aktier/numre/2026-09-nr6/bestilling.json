@@ -1,0 +1,380 @@
+{
+  "magazine": "aktier",
+  "issue": "2026-09-nr6",
+  "issueTheme": "Intuit-vask — Pepsi, Lowe's og Orkla mens Nike venter",
+  "integrityNote": "Sjette nummer. Editor-led (ingen API-kald, ingen bylines). Alle priser verificeret mod Yahoo Finance 25. sep 2026 (US fredag lukke). Ingen .env.aktier-nøgle eksisterer endnu — derfor productionCostUSD: 0.",
+  "budget": {
+    "articles": 12,
+    "wordsPerArticle": [400, 650],
+    "targetPages": 16,
+    "note": "Leder + Markedet + 5 nye kandidater (INTU, PEP, LOW, ORK.OL, PHIA.AS) + Tallet + ETF'erne + Porteføljen + Rygtebørsen + Bagsnit. Editor-led."
+  },
+  "opgaver": [
+    {
+      "slug": "leder",
+      "order": 1,
+      "section": "Leder",
+      "brief": {
+        "angle": "Fem nye kandidater: Intuit (software GenAI-frygt), Pepsi (staples yield), Lowe's (home improvement), Orkla (nordisk yield), Philips (health-tech recovery). Nike Q1 i morgen binært. Husk: ikke personlig rådgivning.",
+        "words": [200, 280],
+        "mustCite": 0,
+        "format": "leder"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": null,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "editor-led",
+        "checkedAt": "2026-09-28",
+        "citations": 0,
+        "editorNote": "Chefredaktionens leder, ingen byline, ingen kommissionering."
+      }
+    },
+    {
+      "slug": "markedet",
+      "order": 2,
+      "section": "Markedet",
+      "brief": {
+        "angle": "Uge 39 2026: Nike Q1 i morgen. SPY −1,0%, QQQ −0,6%, EUNL −0,7% fra top. Enkeltnavn: INTU −61%, LOW −35%, ORK −29%, PEP −25%, PHIA −21%. Rabat kun i enkeltnavn.",
+        "words": [350, 450],
+        "mustCite": 3,
+        "format": "feature",
+        "mustNumber": [
+          "SPY $771 (−1,0% fra top)",
+          "QQQ −0,6% fra top",
+          "EUNL.DE €129 (−0,7%)"
+        ]
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": null,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "editor-led",
+        "checkedAt": "2026-09-28",
+        "citations": 3,
+        "editorNote": "Editor-led. Kilder: Yahoo Finance (indekser), CME FedWatch, Nike IR."
+      }
+    },
+    {
+      "slug": "intuit",
+      "order": 3,
+      "section": "Kandidaten",
+      "brief": {
+        "angle": "INTU (Intuit, NasdaqGS). CORE-sleeve. $275,79 (−60,8% fra 52w top $703,96). Trail P/E 16,8, fwd 10,2, P/B 3,90, yield 1,7%. GenAI + Free File frygt vs. 90% recurring.",
+        "words": [450, 600],
+        "mustCite": 2,
+        "format": "feature",
+        "mustNumber": [
+          "$275,79, 52w $265–704, −60,8% fra top",
+          "Trail P/E 16,8, fwd 10,2, P/B 3,90, yield 1,7%",
+          "Invalidation: ARR-vækst <3%, FCF-kollaps"
+        ]
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": null,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "editor-led",
+        "checkedAt": "2026-09-28",
+        "citations": 2,
+        "editorNote": "Editor-led. Kilde: Yahoo Finance INTU, Intuit IR."
+      }
+    },
+    {
+      "slug": "pepsi",
+      "order": 4,
+      "section": "Kandidaten",
+      "brief": {
+        "angle": "PEP (PepsiCo, NasdaqGS). CORE/YIELD-sleeve. $128,63 (−25,0% fra 52w top $171,51). Trail P/E 16,9, fwd 14,4, P/B 7,95, yield 4,5%. Volumen-frygt vs. Dividend King.",
+        "words": [450, 600],
+        "mustCite": 2,
+        "format": "feature",
+        "mustNumber": [
+          "$128,63, 52w $122–172, −25,0% fra top",
+          "Trail P/E 16,9, fwd 14,4, P/B 7,95, yield 4,5%",
+          "Invalidation: udbyttenedsættelse / volumen-kollaps"
+        ]
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": null,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "editor-led",
+        "checkedAt": "2026-09-28",
+        "citations": 2,
+        "editorNote": "Editor-led. Kilde: Yahoo Finance PEP, PepsiCo IR."
+      }
+    },
+    {
+      "slug": "lowes",
+      "order": 5,
+      "section": "Kandidaten",
+      "brief": {
+        "angle": "LOW (Lowe's, NYSE). CORE-sleeve. $189,28 (−35,4% fra 52w top $293,02). Trail P/E 16,0, fwd 14,5, yield 2,6%. Billigere end HD, intakt franchise.",
+        "words": [450, 600],
+        "mustCite": 2,
+        "format": "feature",
+        "mustNumber": [
+          "$189,28, 52w $175–293, −35,4% fra top",
+          "Trail P/E 16,0, fwd 14,5, yield 2,6%",
+          "Invalidation: comps −10% over 4Q / margin-kollaps"
+        ]
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": null,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "editor-led",
+        "checkedAt": "2026-09-28",
+        "citations": 2,
+        "editorNote": "Editor-led. Kilde: Yahoo Finance LOW, Lowe's IR."
+      }
+    },
+    {
+      "slug": "orkla",
+      "order": 6,
+      "section": "Kandidaten",
+      "brief": {
+        "angle": "ORK.OL (Orkla, Oslo Børs). YIELD-sleeve. NOK 93,35 (−28,8% fra 52w top NOK 131,11). Trail P/E 14,2, fwd 13,6, P/B 1,92, yield 4,3%. Nordisk staples.",
+        "words": [450, 550],
+        "mustCite": 2,
+        "format": "feature",
+        "mustNumber": [
+          "NOK 93,35, 52w NOK 88–131, −28,8% fra top",
+          "Trail P/E 14,2, fwd 13,6, P/B 1,92, yield 4,3%",
+          "Invalidation: markedsandelstab 3+ pp / udbyttenedsættelse"
+        ]
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": null,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "editor-led",
+        "checkedAt": "2026-09-28",
+        "citations": 2,
+        "editorNote": "Editor-led. Kilde: Yahoo Finance ORK.OL, Orkla IR."
+      }
+    },
+    {
+      "slug": "philips",
+      "order": 7,
+      "section": "Kandidaten",
+      "brief": {
+        "angle": "PHIA.AS (Philips, Euronext Amsterdam). CORE/YIELD-sleeve. €21,87 (−21,0% fra 52w top €27,68). Trail P/E 19,2, fwd 13,0, P/B 1,87, yield 4,0%. Health-tech recovery.",
+        "words": [450, 600],
+        "mustCite": 2,
+        "format": "feature",
+        "mustNumber": [
+          "€21,87, 52w €18,50–27,68, −21,0% fra top",
+          "Trail P/E 19,2, fwd 13,0, P/B 1,87, yield 4,0%",
+          "Invalidation: ny recall/FDA-sanktion / udbyttenedsættelse"
+        ]
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": null,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "editor-led",
+        "checkedAt": "2026-09-28",
+        "citations": 2,
+        "editorNote": "Editor-led. Kilde: Yahoo Finance PHIA.AS, Philips IR."
+      }
+    },
+    {
+      "slug": "tallet",
+      "order": 8,
+      "section": "Tallet",
+      "brief": {
+        "angle": "Kildetabel over nummerets fem nye kandidater: ticker, børs, pris, 52w, % fra top, P/E, P/B, yield, sleeve, invalidation. Én linje pr. kandidat. Note om sleeves og læsevejledning.",
+        "words": [350, 500],
+        "mustCite": 5,
+        "format": "tallet",
+        "mustNumber": [
+          "INTU: $275,79 / −60,8% / P/E 16,8 / yield 1,7%",
+          "PEP: $128,63 / −25,0% / P/E 16,9 / yield 4,5%",
+          "LOW: $189,28 / −35,4% / P/E 16,0 / yield 2,6%",
+          "ORK.OL: NOK 93,35 / −28,8% / P/E 14,2 / yield 4,3%",
+          "PHIA.AS: €21,87 / −21,0% / fwd P/E 13,0 / yield 4,0%"
+        ]
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": null,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "editor-led",
+        "checkedAt": "2026-09-28",
+        "citations": 5,
+        "editorNote": "Editor-led. Fem Yahoo Finance-kilder, én pr. kandidat."
+      }
+    },
+    {
+      "slug": "etferne",
+      "order": 9,
+      "section": "ETF'erne",
+      "brief": {
+        "angle": "Stadig ingen ETF-rabat. SPY $771 (−1,0%), VOO −1,0%, QQQ −0,6%, EUNL −0,7%, EEM −3,2%. Konklusion: rabat kun i enkeltnavn.",
+        "words": [350, 450],
+        "mustCite": 1,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": null,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "editor-led",
+        "checkedAt": "2026-09-28",
+        "citations": 1,
+        "editorNote": "Editor-led. Kilde: Yahoo Finance ETF-quotes."
+      }
+    },
+    {
+      "slug": "portefoeljen",
+      "order": 10,
+      "section": "Porteføljen",
+      "brief": {
+        "angle": "Opdater alle 24 aktive positioner fra nr.1–nr.5 med nuværende pris vs. entry. NKE Q1 29. sep (i morgen) er BINÆRT. Nr.6 tilføjer INTU, PEP, LOW, ORK.OL, PHIA.AS → 29 kandidater total.",
+        "words": [450, 600],
+        "mustCite": 0,
+        "format": "feature",
+        "mustNumber": [
+          "24 kandidater fra nr.1+nr.2+nr.3+nr.4+nr.5",
+          "5 nye kandidater fra nr.6",
+          "29 kandidater i alt"
+        ]
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": null,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "editor-led",
+        "checkedAt": "2026-09-28",
+        "citations": 0,
+        "editorNote": "Editor-led. Porteføljeopdatering, ingen kilder."
+      }
+    },
+    {
+      "slug": "rygteboersen",
+      "order": 11,
+      "section": "Rygtebørsen",
+      "brief": {
+        "angle": "Afviste navne: FISV (−64%, falling knife), NOW (P/E ~85), ORCL (AI-kompleks), EL (absurd P/E), BA (ingen earnings), SHOP/CMG (rig), DG (value-trap), FDX (UPS overlap), HD (richer end LOW), TOM.OL (cyklisk), COLO-B (dyr), MC/KER (luxury), EQT.ST (P/B ekstrem), SAP (P/E 28), UNA (mild dip), WMT (P/E 39), LULU (ingen re-pick).",
+        "words": [350, 450],
+        "mustCite": 0,
+        "format": "rygteboersen"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": null,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "editor-led",
+        "checkedAt": "2026-09-28",
+        "citations": 0,
+        "editorNote": "Editor-led. mustCite=0 er bevidst formatvalg for rubrikken."
+      }
+    },
+    {
+      "slug": "bagsnit",
+      "order": 12,
+      "section": "Bagsnit",
+      "brief": {
+        "angle": "Disclaimer: Aktier med Grok giver ikke personlig investeringsrådgivning. Alle tal pr. 25. september 2026. Nr. 7 følger Nike Q1 (29. sep), Constellation Q2 (3. okt), PepsiCo Q3 (~okt), Pernod Q1 (15. okt), Telenor ex-div (15. okt), Husqvarna (19./21. okt), Yara Q3 (22. okt), Volvo Cars Q3 (23. okt), Comcast Q3 (24. okt), PayPal/Mercedes Q3 (28. okt), Intuit Q1 (~nov).",
+        "words": [180, 250],
+        "mustCite": 0,
+        "format": "bagsnit"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": null,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "editor-led",
+        "checkedAt": "2026-09-28",
+        "citations": 0,
+        "editorNote": "Editor-led. Disclaimer, ingen kilder."
+      }
+    }
+  ]
+}

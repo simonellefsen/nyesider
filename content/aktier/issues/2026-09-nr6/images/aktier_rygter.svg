@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300">
+  <rect width="600" height="300" fill="#0D1B2A"/>
+  <text x="300" y="30" fill="#C9A227" font-family="Georgia, serif" font-size="16" text-anchor="middle">Rygtebørsen: afviste navne</text>
+  <!-- Grid of rejection reasons -->
+  <g transform="translate(50, 55)">
+    <g>
+      <line x1="0" y1="0" x2="20" y2="20" stroke="#E8B4B8" stroke-width="3"/>
+      <line x1="20" y1="0" x2="0" y2="20" stroke="#E8B4B8" stroke-width="3"/>
+      <text x="30" y="15" fill="#FFFFFF" font-family="Arial" font-size="11">FISV: falling knife (−64%)</text>
+    </g>
+    <g transform="translate(0, 30)">
+      <line x1="0" y1="0" x2="20" y2="20" stroke="#E8B4B8" stroke-width="3"/>
+      <line x1="20" y1="0" x2="0" y2="20" stroke="#E8B4B8" stroke-width="3"/>
+      <text x="30" y="15" fill="#FFFFFF" font-family="Arial" font-size="11">NOW: P/E ~85 (for dyrt)</text>
+    </g>
+    <g transform="translate(0, 60)">
+      <line x1="0" y1="0" x2="20" y2="20" stroke="#E8B4B8" stroke-width="3"/>
+      <line x1="20" y1="0" x2="0" y2="20" stroke="#E8B4B8" stroke-width="3"/>
+      <text x="30" y="15" fill="#FFFFFF" font-family="Arial" font-size="11">ORCL: AI-kompleks</text>
+    </g>
+    <g transform="translate(0, 90)">
+      <line x1="0" y1="0" x2="20" y2="20" stroke="#E8B4B8" stroke-width="3"/>
+      <line x1="20" y1="0" x2="0" y2="20" stroke="#E8B4B8" stroke-width="3"/>
+      <text x="30" y="15" fill="#FFFFFF" font-family="Arial" font-size="11">EL: absurd P/E</text>
+    </g>
+    <g transform="translate(250, 0)">
+      <line x1="0" y1="0" x2="20" y2="20" stroke="#E8B4B8" stroke-width="3"/>
+      <line x1="20" y1="0" x2="0" y2="20" stroke="#E8B4B8" stroke-width="3"/>
+      <text x="30" y="15" fill="#FFFFFF" font-family="Arial" font-size="11">BA: ingen earnings-kvalitet</text>
+    </g>
+    <g transform="translate(250, 30)">
+      <line x1="0" y1="0" x2="20" y2="20" stroke="#E8B4B8" stroke-width="3"/>
+      <line x1="20" y1="0" x2="0" y2="20" stroke="#E8B4B8" stroke-width="3"/>
+      <text x="30" y="15" fill="#FFFFFF" font-family="Arial" font-size="11">SHOP/CMG: stadig rig</text>
+    </g>
+    <g transform="translate(250, 60)">
+      <line x1="0" y1="0" x2="20" y2="20" stroke="#E8B4B8" stroke-width="3"/>
+      <line x1="20" y1="0" x2="0" y2="20" stroke="#E8B4B8" stroke-width="3"/>
+      <text x="30" y="15" fill="#FFFFFF" font-family="Arial" font-size="11">DG: value-trap historie</text>
+    </g>
+    <g transform="translate(250, 90)">
+      <line x1="0" y1="0" x2="20" y2="20" stroke="#E8B4B8" stroke-width="3"/>
+      <line x1="20" y1="0" x2="0" y2="20" stroke="#E8B4B8" stroke-width="3"/>
+      <text x="30" y="15" fill="#FFFFFF" font-family="Arial" font-size="11">HD: richer end LOW</text>
+    </g>
+  </g>
+  <text x="300" y="220" fill="#C9A227" font-family="Arial" font-size="12" text-anchor="middle">Kriterier: (1) klar rabat · (2) intakt forretning · (3) klar invalidation</text>
+  <text x="300" y="245" fill="#888888" font-family="Arial" font-size="10" text-anchor="middle">Mange navne er faldet, men få opfylder alle tre.</text>
+  <text x="300" y="270" fill="#888888" font-family="Arial" font-size="10" text-anchor="middle">LULU, SAP, WMT, MC.PA, KER, TOM.OL, COLO-B også afvist.</text>
+</svg>
