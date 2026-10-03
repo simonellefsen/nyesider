@@ -1,0 +1,225 @@
+{
+  "budget": {
+    "articles": 6,
+    "note": "Idébank-emnet 'Håndens problem' brugt. Start med opgaven før kroppen: lagerpluk (Sparrow), sekventering (Figure 03), følesansen (taktilitet), markedsrammen (IFR), myteafmontering (blødt greb). Kompakt som nr. 5.",
+    "targetPages": 12,
+    "wordsPerArticle": [
+      300,
+      750
+    ]
+  },
+  "issue": "2026-10-nr6",
+  "issueTheme": "Håndens problem — gribere, taktilitet, og hvorfor det bløde stadig er svært",
+  "magazine": "humanerd",
+  "opgaver": [
+    {
+      "brief": {
+        "angle": "Kort leder der introducerer temaet: Håndens problem. Robotten kan køre, se og løfte — men at gribe det bløde, glatte og uforudsigelige er stadig det sværeste. Nummeret starter med opgaven før kroppen: hvad skal hånden faktisk holde fast i? Fortsætter HumaNerds skelnen mellem prototype, pilot, validering, kommerciel installation og stabil drift.",
+        "format": "leder",
+        "mustCite": 0,
+        "words": [
+          150,
+          250
+        ]
+      },
+      "order": 1,
+      "receipt": {
+        "costUSD": null,
+        "draft": null,
+        "words": null
+      },
+      "section": "Leder",
+      "slug": "leder",
+      "verdict": {
+        "citations": 0,
+        "checkedAt": "2026-10-03",
+        "editorNote": "Redaktionens egen leder, ingen byline, ingen API-kald.",
+        "status": "accepted"
+      },
+      "writer": {
+        "byline": null,
+        "fallback": null,
+        "model": "editor-led"
+      }
+    },
+    {
+      "brief": {
+        "angle": "Feature om Amazon Sparrow — robotarmen der skal plukke enkeltvarer før pakning. Start med OPGAVEN: at samle vidt forskellige varer op af en kasse (bøger, flasker, bløde poser i plast) uden at tabe eller ødelægge dem. Brug PRÆCIS disse verificerede fakta: Sparrow blev præsenteret november 2022 som Amazons første system der kan detektere, udvælge og håndtere enkeltvarer; den bruger computer vision og AI plus en specialbygget griber med flere sugekopper; Amazon oplyste at den kunne håndtere ca. 65 % af varesortimentet; den blev først afprøvet i Richmond, Texas i 2023; på det mest avancerede lager i Shreveport, Louisiana konsoliderer Sparrow-arme i dag varer mellem kasser. Nævn at Amazon i februar 2025 havde over 750.000 robotter i flåden (overvejende mobile drive-enheder), og at Robin (pakkesortering, Lakeland Florida 2022) og Cardinal (stabling af kasser i vogne, Nashville 2022) er SØSKENDE-systemer til andre delopgaver — bland dem ikke sammen med Sparrows enkeltvare-pluk. SKELN prototype/pilot/drift: Sparrow er i kommerciel brug til konsolidering, men det fulde enkeltvare-pluk til kundeordrer er stadig under udrulning. Mærk alle Amazon-tal som virksomhedens egne oplysninger.",
+        "format": "feature",
+        "mustCite": 3,
+        "mustNumber": [
+          "65 % af sortimentet",
+          "750.000 robotter"
+        ],
+        "words": [
+          500,
+          750
+        ]
+      },
+      "order": 2,
+      "receipt": {
+        "words": 681,
+        "costUSD": 0.024434,
+        "draft": "kladder/02-griberen.md",
+        "costRouting": "byok",
+        "generationId": "gen-1791038836-Z2XN8xDyDVmWiXiefUMZ"
+      },
+      "section": "Fabrikken",
+      "slug": "griberen",
+      "verdict": {
+        "citations": 3,
+        "checkedAt": "2026-10-03",
+        "editorNote": "Faktatjekket. Kladdens fodnoter var titler uden URLer — erstattet med tre konkrete, verificerede artikler (AboutAmazon, WIRED, NYT/Business Insider).",
+        "status": "accepted-after-edit"
+      },
+      "writer": {
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "fallback": "deepseek/deepseek-v3.2",
+        "model": "anthropic/claude-sonnet-5"
+      }
+    },
+    {
+      "brief": {
+        "angle": "Feature om Figure 03 hos BMW i Spartanburg, USA — humanoidens hænder som arbejdshænder. Start med OPGAVEN: sekventering, altså at samle usorterede dele fra store containere over i en sekvensvogn, så de ankommer til samlebåndet i den rigtige rækkefølge. Brug PRÆCIS disse verificerede fakta fra BMWs pressemeddelelse 25. juni 2026: forgængeren Figure 02 arbejdede ca. 10-11 måneder i karosseriværkstedet og medvirkede ved produktionen af over 30.000 BMW X3; Figure 03 er efterfølgeren til logistik-sekventering i Hal 52; de nye hænder har taktile sensorer og håndfladekameraer for større præcision, plus bløde komponenter af sikkerhedshensyn, trådløs opladning og talefunktion. SKELN: Figure 02-forløbet var et pilot/driftsbevis i ét værksted, Figure 03-sekventeringen er næste pilot i logistikken — ikke stabil drift på tværs af mange fabrikker endnu. Nævn at menneskelig hånd har ca. 27 frihedsgrader som reference, og at 22 frihedsgrader (Tesla Optimus næste generation, annonceret 2024) er virksomhedstal, ikke et målt driftsresultat.",
+        "format": "feature",
+        "mustCite": 3,
+        "mustNumber": [
+          "30.000 BMW X3",
+          "25. juni 2026"
+        ],
+        "words": [
+          500,
+          750
+        ]
+      },
+      "order": 3,
+      "receipt": {
+        "words": 746,
+        "costUSD": 0.0432265,
+        "draft": "kladder/03-haenderne.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1791038871-BdI2sbeFms7pFwHkfUlf"
+      },
+      "section": "Humanoiden",
+      "slug": "haenderne",
+      "verdict": {
+        "citations": 3,
+        "checkedAt": "2026-10-03",
+        "editorNote": "Faktatjekket. BMW-pressemeddelelsens bare domæne erstattet med fuld artikel-URL + Figure AI; Tesla IR-generiskhenvisning erstattet med Teslarati-artikel; DOI verificeret via doi.org.",
+        "status": "accepted-after-edit"
+      },
+      "writer": {
+        "byline": "GPT-5.6 Terra (OpenAI)",
+        "fallback": "deepseek/deepseek-v3.2",
+        "model": "openai/gpt-5.6-terra"
+      }
+    },
+    {
+      "brief": {
+        "angle": "Hjernen forklarer ét lag i robotstakken: følesansen. Hvorfor kameraer alene ikke er nok — robotten skal mærke kontakt, tryk, slip og vibration for at justere grebet i millisekunder. Brug PRÆCIS disse dokumenterbare systemer: Robotiqs taktile fingerspidser TSF-85 (kapacitivt sensorarray til tryk-, slip- og vibrationsdata, 1000 Hz målefrekvens ifølge Robotiqs produktark 2026, over 23.000 leverede gribere totalt); Robotiq 2F-85-griberen (slaglængde 85 mm, griberkraft 20-235 N, nyttelast op til 5 kg); Covariant Brain hos Otto Group (over 100 AI-robotter under udrulning i koncernens lagre, bl.a. Haldensleben, til ordrepluk). Forklar kæden syn → grebsplanlægning → føling → slip-detektion → gen-greb. SKELN kommerciel installation (Robotiq-gribere, Covariant-stationer i drift) fra forskning (tætte taktile arrays på humanoide fingre, stadig pilot). Mærk alle virksomhedstal som virksomhedstal.",
+        "format": "feature",
+        "mustCite": 3,
+        "mustNumber": [
+          "1000 Hz",
+          "20-235 N"
+        ],
+        "words": [
+          500,
+          750
+        ]
+      },
+      "order": 4,
+      "receipt": {
+        "words": 651,
+        "costUSD": 0.030708025,
+        "draft": "kladder/04-foelesansen.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1791038921-qAgjQyGDaeKUVWAMvf3n"
+      },
+      "section": "Hjernen",
+      "slug": "foelesansen",
+      "verdict": {
+        "citations": 3,
+        "checkedAt": "2026-10-03",
+        "editorNote": "Faktatjekket. Bare domæner erstattet med Robotiq-produktark (PDF), Robotiq TSF-side og IEEE Spectrum; udokumenteret 99%-påstand og Covariant-404 fjernet.",
+        "status": "accepted-after-edit"
+      },
+      "writer": {
+        "byline": "Qwen3.7 Max (Alibaba)",
+        "fallback": "deepseek/deepseek-v3.2",
+        "model": "qwen/qwen3.7-max"
+      }
+    },
+    {
+      "brief": {
+        "angle": "Tallet: byg en lille kildetabel over IFR World Robotics 2025 (2024-tal, udgivet 25. september 2025): 542.000 nyinstallerede industrirobotter i 2024 (næsthøjeste år nogensinde, kun 2 % under rekordåret), driftsbestand 4.664.000 (+9 %), Kina 295.000 (54 % af alle nyinstallationer), Asien 74 % / Europa 16 % / Nordamerika 9 %, robottæthed globalt 177 pr. 10.000 ansatte i fremstillingsindustrien, top: Sydkorea 1.220, Singapore 818, Kina 567, Tyskland 449, Japan 446. Pointen skal være eksplicit: det bløde greb er IKKE med i disse tal — IFR tæller industrirobotter i fremstillingsindustrien, så lagerpluk og humanoide hænder falder stort set udenfor. Tabellen måler det hårde og gentagelige; nummerets tema er netop det, statistikken ikke fanger. Alle tal er IFR-statistik, ikke virksomhedstal.",
+        "format": "tallet",
+        "mustCite": 2,
+        "mustNumber": [
+          "542.000",
+          "4.664.000"
+        ],
+        "words": [
+          300,
+          450
+        ]
+      },
+      "order": 5,
+      "receipt": {
+        "words": 338,
+        "costUSD": 0.0427635,
+        "draft": "kladder/05-tallet.md",
+        "costRouting": "byok",
+        "generationId": "gen-1791038994-PSr9accmb7RE1g5cFexN"
+      },
+      "section": "Tallet",
+      "slug": "tallet",
+      "verdict": {
+        "citations": 2,
+        "checkedAt": "2026-10-03",
+        "editorNote": "Faktatjekket. Generiske IFR-henvisninger erstattet med de to konkrete pressemeddelelser (2025-report + global demand).",
+        "status": "accepted-after-edit"
+      },
+      "writer": {
+        "byline": "Gemini 3.5 Flash (Google)",
+        "fallback": "deepseek/deepseek-v3.2",
+        "model": "google/gemini-3.5-flash"
+      }
+    },
+    {
+      "brief": {
+        "angle": "Påstandskontoret afmonterer påstanden: 'Den bløde griber løser alt — så kan robotten tage hvad som helst.' Brug Ocado som det dokumenterbare modeksempel: 48.000-50.000 forskellige varer på lageret, fra Evian-flasker til croissanter; SoMa-projektet (EU Horizon 2020) med den bløde RBO Hand 2 (gummifingre med trykluft, udviklet på TU Berlin) kunne i forsøg løfte enkelte frugter fra et fladt bord, men i et rigtigt lager ligger varerne stablet og skrider under grebet. Ocados egen konklusion dengang: universel plukning af hele sortimentet er en af de sværeste udfordringer. Pointen: blødt materiale hjælper mod knusning, men løser ikke syn, grebsplanlægning, slip-detektion og hygiejne/krav til fødevarer — hånden er et system, ikke et materiale. Ingen hype-sprog.",
+        "format": "feature",
+        "mustCite": 2,
+        "mustNumber": [
+          "48.000 varer"
+        ],
+        "words": [
+          350,
+          550
+        ]
+      },
+      "order": 6,
+      "receipt": {
+        "words": 427,
+        "costUSD": 0.00075664,
+        "draft": "kladder/06-paastandskontoret.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1791039015-ZP9kwXVwWefnaCf3p0SH"
+      },
+      "section": "Påstandskontoret",
+      "slug": "paastandskontoret",
+      "verdict": {
+        "citations": 2,
+        "checkedAt": "2026-10-03",
+        "editorNote": "Faktatjekket. Fodnote til IFR service-robots uden dækning og SoMa uden URL erstattet med TechCrunch og MIT Technology Review.",
+        "status": "accepted-after-edit"
+      },
+      "writer": {
+        "byline": "DeepSeek V3.2 (DeepSeek)",
+        "fallback": "google/gemini-3.5-flash",
+        "model": "deepseek/deepseek-v3.2"
+      }
+    }
+  ]
+}

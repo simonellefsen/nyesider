@@ -33,6 +33,7 @@ Håndhæves som **ERROR** i `production/check_issue.py` (og dermed i `npm run pr
 | 2026-09-14 | aktier/2026-09-nr4 (nr. 4) |
 | 2026-09-21 | aktier/2026-09-nr5 (nr. 5) |
 | 2026-09-28 | aktier/2026-09-nr6 (nr. 6) |
+| 2026-10-03 | gnisten/2026-10-nr6 (nr. 6); horisonten/2026-10-nr6 (nr. 6); humanerd/2026-10-nr6 (nr. 6); indeni/2026-10-nr6 (nr. 6); kraften/2026-10-nr6 (nr. 6); kronike/2026-10-nr5 (nr. 5); kulturboxen/2026-10-nr6 (nr. 6); orbit/2026-10-nr6 (nr. 6); pulsen/2026-10-nr6 (nr. 6); spaending/2026-10-nr6 (nr. 6) |
 
 ## Efter magasin
 
@@ -56,6 +57,7 @@ Håndhæves som **ERROR** i `production/check_issue.py` (og dermed i `npm run pr
 | 3 | `2026-08-nr3` | 2026-08-15 | published | Søvnen, der ikke kan stikkes |
 | 4 | `2026-08-nr4` | 2026-08-29 | published | Styrke, tarm og fedtsyrer — tre skeptiske eftersyn |
 | 5 | `2026-09-nr5` | 2026-09-12 | published | Tre skeptiske eftersyn: magnesium, creatin og collagen |
+| 6 | `2026-10-nr6` | 2026-10-10 | scheduled | Kirkegården for glemte superfødevarer — en obduktion af, hvordan en wellness-myte dør |
 
 ### gnisten
 
@@ -66,6 +68,7 @@ Håndhæves som **ERROR** i `production/check_issue.py` (og dermed i `npm run pr
 | 3 | `2026-08-nr3` | 2026-08-08 | published | Agenten og den lokale hjerne |
 | 4 | `2026-08-nr4` | 2026-08-29 | published | Flere agenter, mere ansvar |
 | 5 | `2026-09-nr5` | 2026-09-05 | published | Skyen som standardvalg — hvad koster det at komme i gang? |
+| 6 | `2026-10-nr6` | 2026-10-03 | published | Indbakken uden at trykke send — kan AI rydde op uden at sende, slette eller love noget på dine vegne? |
 
 ### horisonten
 
@@ -76,6 +79,7 @@ Håndhæves som **ERROR** i `production/check_issue.py` (og dermed i `npm run pr
 | 3 | `2026-08-nr3` | 2026-08-08 | published | Dolomitterne i efteråret |
 | 4 | `2026-08-nr4` | 2026-08-29 | published | Sicilien i efteråret |
 | 5 | `2026-09-nr5` | 2026-09-12 | published | Kreta — oldtidens paladser, en kløft der lukker for vinteren, og en ny fast rubrik |
+| 6 | `2026-10-nr6` | 2026-10-03 | published | Storby-weekend Lissabon — syv bakker, to verdensarvsmonumenter og en kyststi mod vest |
 
 ### humanerd
 
@@ -86,6 +90,7 @@ Håndhæves som **ERROR** i `production/check_issue.py` (og dermed i `npm run pr
 | 3 | `2026-08-nr3` | 2026-08-19 | published | Tre humanoider, tre beviser |
 | 4 | `2026-08-nr4` | 2026-08-29 | published | Nathandleren og samlebåndet |
 | 5 | `2026-09-nr5` | 2026-09-12 | published | Dronen som robot — tre beviser, tre autonominiveauer |
+| 6 | `2026-10-nr6` | 2026-10-03 | published | Håndens problem — gribere, taktilitet, og hvorfor det bløde stadig er svært |
 
 ### indeni
 
@@ -96,6 +101,7 @@ Håndhæves som **ERROR** i `production/check_issue.py` (og dermed i `npm run pr
 | 3 | `2026-08-nr3` | 2026-08-15 | published | Fjernvarmen — rørene under fortovet |
 | 4 | `2026-08-nr4` | 2026-08-29 | published | Kontaktlinsen |
 | 5 | `2026-09-nr5` | 2026-09-12 | published | Asfalt — fra stenbrud og raffinaderi til vejen, der genopstår som sig selv |
+| 6 | `2026-10-nr6` | 2026-10-03 | published | Køleskabet — fra stål og kølemiddel til kompressoren, der aldrig sover, og kredsløbet der tapper den tom |
 
 ### kraften
 
@@ -106,6 +112,7 @@ Håndhæves som **ERROR** i `production/check_issue.py` (og dermed i `npm run pr
 | 3 | `2026-08-nr3` | 2026-08-15 | published | Hvem får strømmen først? |
 | 4 | `2026-08-nr4` | 2026-08-29 | published | Atomkraften vender tilbage — drevet af datacentre, på vej til Månen |
 | 5 | `2026-09-nr5` | 2026-09-05 | published | Fra produktion til distribution: kablerne under havet og kobberet i dem |
+| 6 | `2026-10-nr6` | 2026-10-03 | published | Gennem skyggen: solpaneler, batterier og strømstyring når lyset forsvinder |
 
 ### kronike
 
@@ -115,6 +122,7 @@ Håndhæves som **ERROR** i `production/check_issue.py` (og dermed i `npm run pr
 | 2 | `2026-08-nr2` | 2026-08-19 | published | Kvinders valgret — fire aartier, fem aarstal |
 | 3 | `2026-08-nr3` | 2026-08-29 | published | Andelsbevægelsen — bønder, der ejede fabrikken |
 | 4 | `2026-09-nr4` | 2026-09-12 | published | Christian 4. og stormagtstiden — byggekongen, der forarmede sit rige |
+| 5 | `2026-10-nr5` | 2026-10-03 | published | Slesvig-Holsten før 1864 — hertugdømmerne, helstaten og den forfatning, der blev påskud |
 
 ### kulturboxen
 
@@ -125,6 +133,7 @@ Håndhæves som **ERROR** i `production/check_issue.py` (og dermed i `npm run pr
 | 3 | `2026-08-nr3` | 2026-08-15 | published | Landet der arbejder ude |
 | 4 | `2026-08-nr4` | 2026-08-29 | published | Marokko |
 | 5 | `2026-09-nr5` | 2026-09-12 | published | Japan uden kirsebærtræer — arbejde, bolig, dating og hverdag |
+| 6 | `2026-10-nr6` | 2026-10-03 | published | Portugal — hverdag, arbejde, bolig, mad, penge, normer |
 
 ### orbit
 
@@ -135,6 +144,7 @@ Håndhæves som **ERROR** i `production/check_issue.py` (og dermed i `npm run pr
 | 3 | `2026-08-nr3` | 2026-08-15 | published | To hastigheder i kredsløb |
 | 4 | `2026-08-nr4` | 2026-08-29 | published | De fire spor nr. 3 lod stå åbne |
 | 5 | `2026-09-nr5` | 2026-09-05 | published | Europæisk rumadgang — og en amerikansk kontrast i skala |
+| 6 | `2026-10-nr6` | 2026-10-03 | published | Løfterne indfries: FAA siger ja til Stillehavet, Starmind venter stadig på rampen |
 
 ### pulsen
 
@@ -145,6 +155,7 @@ Håndhæves som **ERROR** i `production/check_issue.py` (og dermed i `npm run pr
 | 3 | `2026-08-nr3` | 2026-08-08 | published | Når driften taler |
 | 4 | `2026-08-nr4` | 2026-08-29 | published | Tre internationale pejlinger: ambient-tal, klinisk AI og genomdrevet forebyggelse |
 | 5 | `2026-09-nr5` | 2026-09-05 | published | Opfølgning: Bupa i drift, og AID_NOTE på målstregen |
+| 6 | `2026-10-nr6` | 2026-10-03 | published | Mellemåret: AID_NOTE og genomik uden facit — men med pejlemærker |
 
 ### spaending
 
@@ -155,6 +166,7 @@ Håndhæves som **ERROR** i `production/check_issue.py` (og dermed i `npm run pr
 | 3 | `2026-08-nr3` | 2026-08-08 | published | Køen, kulden og den næste watt |
 | 4 | `2026-08-nr4` | 2026-08-29 | published | Sommeren, hvor Europa fulgte med |
 | 5 | `2026-09-nr5` | 2026-09-05 | published | Brugtmarkedet finder sine ben — og to robotaxi-forsøg går fra plan til drift |
+| 6 | `2026-10-nr6` | 2026-10-03 | published | Europa bygger, tester og designer lavt — Szeged, London og Volvos SPA3-platform |
 
 ## Kollisioner (skal være tom)
 

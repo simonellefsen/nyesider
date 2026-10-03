@@ -21,6 +21,37 @@ Vi bruger "fysisk AI" som en forklaring, ikke som en magisk etiket: en robot ska
 
 ## Udgivne numre
 
+### Nr. 6 — "Håndens problem" — UDGIVET 2026-10-03 (nyt nummer, fra bunden)
+
+6 artikler, **ca. 2.600 ord**. Fem artikler reelt kommissioneret på `.env.humanerd`;
+lederen er chefredaktionens og har **ingen byline**. Samlet forbrug **0,1419 USD**.
+`check_issue.py`: **0 fejl, 0 advarsler**. `check_links.py`: **0 døde links**
+(1 bot-blokeret, NYT Shreveport-artikel, verificeret via indhold). `bestilling.json`
+under `numre/2026-10-nr6/`.
+
+Idébank-emnet "Håndens problem" brugt. Opgaven før kroppen: Amazon Sparrow
+(enkeltvare-pluk, 65 % dækning som virksomhedstal, Richmond-pilot → Shreveport-drift),
+Figure 03 hos BMW Spartanburg (sekventering i Hal 52, taktile sensorer +
+håndfladekameraer, 25. juni 2026, 30.000+ X3 med Figure 02), følesansen
+(Robotiq 2F-85/TSF-85, Covariant Brain), IFR-rammen (542.000/4.664.000,
+World Robotics 2025) og Ocado/SoMa som modeksempel på at blødt ≠ løst.
+
+#### Fejl fanget og rettet før udgivelse
+
+- **Bare domænehenvisninger igen:** alle fem kladder citerede forsider/generelle
+  sider (Amazon.com, press.bmwgroup.com, robotiq.com, covariant.ai, ifr.org)
+  uden konkret artikel. Erstattet med specifikke, verificerede URL'er.
+- **Covariant-404:** kladden henviste til en Covariant/Otto-case-URL, der giver
+  404 for automatiserede kald. Erstattet med covariant.ai-forsiden (200) +
+  IEEE Spectrum-artiklen om Covariant-historikken.
+- **Udokumenteret 99 %-påstand:** følesansen-kladden hævdede »mere end 99 %«
+  korrektion uden menneskelig indgriben uden kilde. Fjernet.
+- **Års-blanding i Tallet:** et udkast blandede 2025-tal (USA 38.500, Tyskland
+  <25.000 fra IFRs 2026-pressemeddelelse) ind i en 2024-tabel. Rettet før tryk —
+  år og rapport hører sammen.
+- **DOI verificeret:** GRASP-taksonomiens DOI (10.1109/THMS.2015.2470657)
+  opløst via doi.org og bekræftet titel/tidsskrift før tryk.
+
 ### Nr. 5 — "Dronen som robot" — UDGIVET 2026-09-12 (nyt nummer, fra bunden)
 
 6 artikler, **2.830 ord**. Fem artikler reelt kommissioneret på `.env.humanerd`; lederen er
@@ -279,7 +310,7 @@ levetidstallet var det rigtige. Reglen er stadig: afstem mod begge, og forklar f
 ## Idébank
 
 - **(2026-08) Robotten der kan se** — kameraer, kraftsensorer og grænserne for perception.
-- **(2026-08) Håndens problem** — gribere, taktilitet og hvorfor det bløde stadig er svært.
+- ~~Håndens problem~~ → **brugt i nr. 6** (2026-10-03).
 - ~~Tre humanoider, tre beviser~~ → **brugt i nr. 3** (2026-08-19).
 - ~~Dronen som robot~~ → **brugt i nr. 5** (2026-09-12).
 - **(2026-08) Robotter i krig** — militære anvendelser, dual use, menneskelig kontrol, fejlrisiko og dokumentation. Må ikke behandles som gadgetstof eller produktpromovering; brug primærkilder, folkeretlige rammer og uafhængig rapportering.

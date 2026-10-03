@@ -1,0 +1,19 @@
+---
+title: "Rygtebørsen"
+standfirst: Implantater, der vokser sammen med knoglen. CGM på forsikringen. ApoB-hjemmetests. Og et løfte om nr. 7.
+byline: DeepSeek V3.2 (DeepSeek)
+section: Rygtebørsen
+order: 6
+image: ../images/dosis_rygteboersen.png
+imageCredit: "AI-genereret motiv (Imagine / xAI)"
+imageSource: "https://x.ai/"
+flow: true
+---
+
+Rygterne går om, at en fremtrædende dansk professor i materialevidenskab og en fælles nordisk forskningsgruppe er i gang med at udvikle en ny type knogleimplantat. Prototypen skulle efter sigende være baseret på et biokompositmateriale, designet til gradvist at integrere sig med det eksisterende knoglevæv. Der rygtes også om et lille, certificeret firma i Struer, der muligvis står for fremstillingen. I DOSIS venter vi spændt på at se, om projektet kan leve op til ambitionerne — og om det overhovedet bliver til noget.
+
+På det metaboliske felt hviskes der om, at et af de store private sundhedsforsikringsselskaber overvejer at tilbyde kontinuerlig glukoseovervågning (CGM, små sensorer der måler blodsukker døgnet rundt) som en standardfordel for visse kundesegmenter. Tanken er åbenbart, at forebyggende data kan være billigere end senere behandling af type 2-diabetes og hjerte-kar-sygdom. Det ville være et markant skub i retning af at gøre wearables til en fast del af den forebyggende sundhedspakke uden for det offentlige system.
+
+Og så er der den vedvarende snak om hjemmetest-kits, der går langt ud over de nuværende nogenlunde pålidelige blodprøver for D-vitamin og kolesterol. Rygtet vil have det til, at der er iværksættere, der kigger på at bringe lavpraktisk test for apolipoprotein B (ApoB, en mere præcis risikomarkør for hjerte-kar-sygdom end almindeligt kolesterol) ud til forbrugerne. Spørgsmålet er, om det kan gøres både nøjagtigt, sikkert og til en pris, der ikke kun tiltrækker biohackere.
+
+Men alt dette er, som altid, bare rygter. Vi hører, vi noterer, og vi tager det med et solidt gran salt. Den eneste ting, vi med sikkerhed kan love, er, at vi i **DOSIS nr. 7** endelig kaster os over implantater og proteser med vores sædvanlige blanding af nysgerrighed og skepsis. Spørgsmålet "Hvad holder i 10 år?" bliver sat på spidsen — fra hofteproteser til cochleaimplantater og de nyeste cybernetiske dimser. Det har været et kernestof for længe underbehandlet. Nu kommer det.

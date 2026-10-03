@@ -1,0 +1,245 @@
+{
+  "magazine": "horisonten",
+  "issue": "2026-10-nr6",
+  "issueTheme": "Storby-weekend Lissabon — syv bakker, to verdensarvsmonumenter og en kyststi mod vest",
+  "budget": {
+    "articles": 7,
+    "wordsPerArticle": [
+      350,
+      650
+    ],
+    "targetPages": 12,
+    "note": "Lissabon valgt fra idébankens 'Storby-weekend (Lissabon/Ljubljana)'. Kompakt som nr. 5 (7 artikler). Synket med KULTURBOXEN nr. 6 (portugisisk hverdag/kultur) — ingen interne krydslinks før søster-nummeret ligger på disk."
+  },
+  "opgaver": [
+    {
+      "slug": "leder",
+      "order": 1,
+      "section": "Leder",
+      "brief": {
+        "angle": "Kort leder der introducerer temaet: storby-weekend i Lissabon, valgt fra idébanken som næste europæiske horisont. Nævn de syv bakker, sporvogn 28 og Beléms to verdensarvsmonumenter som ophæng, og at nummeret er synket med KULTURBOXEN nr. 6 om portugisisk hverdag og kultur (uden at linke — søster-nummeret er endnu ikke på disk).",
+        "words": [
+          150,
+          250
+        ],
+        "mustCite": 0,
+        "format": "leder"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": null,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-10-03",
+        "citations": 0,
+        "editorNote": "Redaktionens egen leder, ingen byline, ingen API-kald."
+      }
+    },
+    {
+      "slug": "overblik",
+      "order": 2,
+      "section": "Overblik",
+      "brief": {
+        "angle": "Overblik over Lissabon som storby-weekend: beliggenheden ved Tejo-flodens munding, de syv bakker og bydelene Alfama, Baixa, Chiado, Bairro Alto og Belém. Brug PRÆCIS disse verificerede fakta: Mosteiro dos Jerónimos (Hieronymit-klosteret) og Torre de Belém (Belém-tårnet) blev sammen optaget på UNESCOs verdensarvsliste i 1983 (liste nr. 263, kriterierne iii og vi) som udtryk for manuelinsk arkitektur og opdagelsesrejsernes tidsalder — klosteret grundlagt af kong Manuel 1. i slutningen af 1400-tallet, tårnet bygget omkring 1514. Nævn kort, at Lissabon er en oplagt efterårs- og vinterdestination for danskere, fordi byen ligger uden for den klassiske badesæson. Citér KUN fra disse verificerede kilder: https://whc.unesco.org/en/list/263/ og https://www.visitlisboa.com/en/places/alfama",
+        "words": [
+          450,
+          650
+        ],
+        "mustCite": 2,
+        "mustNumber": [
+          "1983",
+          "liste nr. 263"
+        ],
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 519,
+        "costUSD": 0.020618,
+        "draft": "kladder/02-overblik.md",
+        "costRouting": "byok",
+        "generationId": "gen-1791038880-6cbhcYvmHe3EjPguTBhw"
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-10-03",
+        "citations": 2,
+        "editorNote": "Faktatjekket mod UNESCO og Visit Lisboa. Ingen fejl fundet."
+      }
+    },
+    {
+      "slug": "byliv",
+      "order": 3,
+      "section": "Byliv",
+      "brief": {
+        "angle": "Stemningsfuldt byportræt: en weekend til fods og med sporvogn gennem Alfama (byens ældste kvarter, katedralen Sé fra 1147, udsigtspunkterne Miradouro de Santa Luzia og Portas do Sol, Castelo de São Jorge på toppen), Baixa og Chiado, op til Bairro Alto og ud til Belém. Brug PRÆCIS dette verificerede faktum: sporvognslinje 28 kører mellem Graça/Martim Moniz og Prazeres/Campo de Ourique — forbi katedralen, Alfama og Portas do Sol, gennem Baixa og op ad Chiado-bakken forbi Estrela til Campo de Ourique — og linje 15 kører fra Praça da Figueira langs floden til Belém/Algés. Opfind INGEN køreplaner, priser eller stoppestedsnavne ud over disse. Citér KUN fra disse verificerede kilder: https://www.visitlisboa.com/en/places/no-28-tram og https://www.visitportugal.com/en/destinos/lisboa-regi%C3%A3o/320317",
+        "words": [
+          450,
+          650
+        ],
+        "mustCite": 2,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "Mistral Large (Mistral AI)",
+        "model": "mistralai/mistral-large",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 782,
+        "costUSD": 0.012596,
+        "draft": "kladder/03-byliv.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1791038909-9KjraV5vSSYa6jLCjdzM"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-10-03",
+        "citations": 2,
+        "editorNote": "Faktatjekket. Fjernet kladdens ubriefede 1928-indvielsespaastand om linje 28 og en 404-fodnote til en gaettet Visit Lisboa-underside; Se-katedralens 1147 dækkes af Alfama-kilden. Pastéis de Belém siden 1837 beholdes som alment belagt."
+      }
+    },
+    {
+      "slug": "vandring-sintra",
+      "order": 4,
+      "section": "Vandring",
+      "brief": {
+        "angle": "Feature om dagsturen ud af byen: Sintra-bjergene med Park and National Palace of Pena og kyststien mod Cascais. Brug PRÆCIS disse verificerede fakta fra parkens egen side: Palácio da Pena ligger inde i Parque da Pena på en bakketop — regn med cirka 30 minutters gang fra parkens hovedindgang op til selve paladset; billet til paladsets indre gælder kun den valgte dato og det valgte klokkeslæt uden tolerance for forsinkelse, og køb på forhånd anbefales. Opfind INGEN togtider, priser i euro eller vandreturslængder i kilometer. Nævn kort, at Sintras kulturlandskab står på UNESCOs verdensarvsliste, men uden at opfinde årstal eller liste-ID. Citér KUN fra disse verificerede kilder: https://www.parquesdesintra.pt/en/parks-monuments/park-and-national-palace-of-pena/ og https://www.parquesdesintra.pt/en/plan-your-visit/tickets-palace-of-pena/",
+        "words": [
+          400,
+          600
+        ],
+        "mustCite": 2,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "Gemini 3.1 Pro (Google)",
+        "model": "google/gemini-3.1-pro-preview",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 510,
+        "costUSD": 0.061056,
+        "draft": "kladder/04-vandring-sintra.md",
+        "costRouting": "byok",
+        "generationId": "gen-1791038941-NKOganuM93k1QMVuanoN"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-10-03",
+        "citations": 2,
+        "editorNote": "Faktatjekket mod Parques de Sintra. Kun sproglig stramning; 30-minutters opstigning og billetvilkaar verificeret."
+      }
+    },
+    {
+      "slug": "mad-og-vin",
+      "order": 5,
+      "section": "Mad & Vin",
+      "brief": {
+        "angle": "Feature om Lissabons mad- og vinkultur — hold fokus praktisk: hvad en rejsende faktisk møder. Dæk: pastéis de nata (de varme vaniljekager, mest berømt fra Belém), bacalhau (klipfisk) som nationalspise i utallige variationer, bifana og prego som gadens sandwich, ginjinha (kirsebærlikør) som shot i Alfama og Bairro Alto, samt vinho verde og portvin som de to vintyper danskere oftest møder først. Skriv IKKE sundhedspåstande, levealdersstatistik eller opdigtede restaurantpriser — ingen 'så meget sundere'-tal uden kilde. Hold priser helt ude eller som tydeligt mærkede cirka-spænd. mustCite er 0: dette er en stemnings- og guideartikel uden konkrete talpåstande, og der må derfor ikke forekomme fodnoter med gættede kilder.",
+        "words": [
+          400,
+          600
+        ],
+        "mustCite": 0,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "DeepSeek V3.2 (DeepSeek)",
+        "model": "deepseek/deepseek-v3.2",
+        "fallback": "google/gemini-3.5-flash"
+      },
+      "receipt": {
+        "words": 282,
+        "costUSD": 0.00117738,
+        "draft": "kladder/05-mad-og-vin.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1791038983-osTwsyygysX5J4k3siOY"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-10-03",
+        "citations": 0,
+        "editorNote": "Stemningsartikel uden fodnoter (mustCite 0). Rettet forvansket saetning og udvidet med markeds- og fado-afsnit uden talpaastande."
+      }
+    },
+    {
+      "slug": "praktisk",
+      "order": 6,
+      "section": "Praktisk",
+      "brief": {
+        "angle": "Praktisk-artikel om selve rejsens logistik til Lissabon. Brug PRÆCIS disse verificerede tal: der går direkte fly fra København (CPH) til Lissabon (LIS) med Norwegian, SAS og TAP Portugal — omkring 3 timer 55 minutters flyvetid og cirka 4 ugentlige afgange i gennemsnit (kilde: flightconnections.com, tal opgjort 2026 — skriv eksplicit, at antallet af ugentlige afgange varierer med sæson og kan være ændret siden). Foreslå base efter temperament: Alfama/Graça for stemning og udsigt (mange trapper), Baixa/Chiado for centralt og plant, Belém for roligt og grønt. Skriv IKKE faste priser i kroner — brug 'tjek aktuelle priser', jf. husreglen. Nævn kort metroen fra lufthavnen og linje 15-sporvognen til Belém som de to nemmeste ankomster, uden at opfinde minuttal eller billetpriser. Citér KUN fra denne verificerede kilde: https://www.flightconnections.com/flights-from-cph-to-lis",
+        "words": [
+          350,
+          550
+        ],
+        "mustCite": 1,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "Qwen3.7 Max (Alibaba)",
+        "model": "qwen/qwen3.7-max",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 407,
+        "costUSD": 0.02272385,
+        "draft": "kladder/06-praktisk.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1791039050-Q5xleneAEhpAhpqluV48"
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-10-03",
+        "citations": 1,
+        "editorNote": "Faktatjekket. CPH-LIS-tal med saesonforbehold og FlightConnections-kilde."
+      }
+    },
+    {
+      "slug": "rejsevejledning",
+      "order": 7,
+      "section": "Rejsevejledning",
+      "brief": {
+        "angle": "HORISONTENs faste rubrik Rejsevejledning for Portugal/Lissabon. (1) Udenrigsministeriet HAR en aktiv rejsevejledning for Portugal: link direkte til https://um.dk/rejse-og-ophold/rejse-til-udlandet/rejsevejledninger/portugal (senest opdateret 23. april 2026), gengiv IKKE selve teksten, kun at den findes og hvad de overordnede temaer er ifølge UM selv: de fleste danskere har ingen problemer; lomme-, taske- og tricktyverier er særligt udbredt i storbyer som Lissabon og ved Algarvekysten — vær især opmærksom i offentlig transport; naturbrande i juli til midt i oktober; jordskælvsrisiko; rejsende skal altid kunne vise gyldigt billed-ID og bør have kopi af passet på sig. (2) Forberedelse: det blå EU-sygesikringskort kan bruges i Portugal, men er ikke et alternativ til en privat rejseforsikring — kilde: borger.dk-siden om EU-sygesikringskortet https://www.borger.dk/sundhed-og-sygdom/sundhedskort--laegevalg-og-tandlaege/EU-sygesikringskortet-det-blaa-kort (3) Hotelregler: portugisisk lov (Lei n.º 23/2007, artikel 15 og 16) kræver, at overnatningssteder udfylder og indberetter et boletim de alojamento for hver udenlandsk gæst — også EU-borgere — via systemet SIBA (i dag drevet af UCFE under Sistema de Segurança Interna, efter at udlændingestyrelsen SEF blev nedlagt i oktober 2023); hotellet beder derfor om pas/ID ved indtjekning. Opfind INGEN danske ministerafgørelser eller paragrafnumre ud over netop denne lov. Kilde: https://diariodarepublica.pt/dr/detalhe/portaria/321-2023-223414657 (4) Pas/ID: som EU-borger kan danskere rejse på pas; dansk kørekort og sundhedskort er ikke rejsedokumenter — kilde: https://europa.eu/youreurope/citizens/travel/entry-exit/eu-citizen/index_da.htm (5) Prisniveau: brug KUN spænd mærket som grov tommelfingerregel. Drikkepenge-norm: IKKE obligatorisk i Portugal, men almindeligt at lægge cirka 5-10 % på restaurant ved god betjening — skik, ikke lov, og skal mærkes som sådan.",
+        "words": [
+          450,
+          650
+        ],
+        "mustCite": 4,
+        "mustNumber": [
+          "23. april 2026"
+        ],
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "GPT-5.6 Terra (OpenAI)",
+        "model": "openai/gpt-5.6-terra",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 563,
+        "costUSD": 0.025706,
+        "draft": "kladder/07-rejsevejledning.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1791039100-R8WTXNImzOzPoPPcetvb"
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-10-03",
+        "citations": 4,
+        "editorNote": "Faktatjekket. UM-vejledning (23.04.2026), EU-kort, pas/ID og hotel-boletim (Lei 23/2007 art. 15-16 via Portaria 321/2023) alle med verificerede kilder. Ingen opdigtede afgørelser."
+      }
+    }
+  ]
+}

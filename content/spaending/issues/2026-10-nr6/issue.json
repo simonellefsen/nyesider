@@ -1,0 +1,103 @@
+{
+  "articles": [
+    {
+      "slug": "leder",
+      "file": "articles/01-leder.md",
+      "order": 1,
+      "section": "Leder",
+      "title": "Europa bygger, tester og designer lavt",
+      "standfirst": "Szeged nærmer sig produktion, London tester superviseret — og Volvos nye platform åbner døren for lave elbiler igen.",
+      "image": "images/spaending_leder.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/",
+      "words": 142
+    },
+    {
+      "slug": "volvo-spa3-lave-elbiler",
+      "file": "articles/02-volvo-spa3-lave-elbiler.md",
+      "order": 2,
+      "section": "Feature · Teknologi",
+      "title": "Derfor ligner elbiler baby-SUV'er — og derfor kan Volvos SPA3 ændre formen",
+      "standfirst": "Det flade batteri har tvunget designet i højden. Volvos nye platform giver foden plads igen — men intet er besluttet.",
+      "byline": "GPT-5.6 Terra (OpenAI)",
+      "image": "images/spaending_spa3.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/",
+      "words": 531
+    },
+    {
+      "slug": "ex60-forste-spa3-bil",
+      "file": "articles/03-ex60-forste-spa3-bil.md",
+      "order": 3,
+      "section": "Køretest · Modelnyt",
+      "title": "Volvo EX60: 810 kilometer som nyt europæisk pejlemærke",
+      "standfirst": "Platformens første bil lover rækkeviddeangst afløst af \"range comfort\" — til plug-in-hybrid-pris.",
+      "byline": "GPT-5.6 Terra (OpenAI)",
+      "image": "images/spaending_ex60.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/",
+      "words": 441
+    },
+    {
+      "slug": "kort-og-watt",
+      "file": "articles/04-kort-og-watt.md",
+      "order": 4,
+      "section": "Kort & Watt",
+      "title": "Kort & Watt: Szeged nærmer sig — London kører superviseret",
+      "standfirst": "BYDs ungarske fabrik i prøveproduktion. Londons robotaxi har fører om bord — og ingen dato for andet.",
+      "byline": "Claude Sonnet 5 (Anthropic)",
+      "image": "images/spaending_kortogwatt.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/",
+      "words": 501
+    },
+    {
+      "slug": "essay-stationcaren",
+      "file": "articles/05-essay-stationcaren.md",
+      "order": 5,
+      "section": "Essay",
+      "title": "Den elektriske stationcars genfødsel",
+      "standfirst": "Lav, lang og rummelig som en skuffe på hjul — Europas bilform venter på strøm.",
+      "byline": "Mistral Large (Mistral AI)",
+      "image": "images/spaending_essay.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/",
+      "words": 422
+    },
+    {
+      "slug": "rygteboers",
+      "file": "articles/06-rygteboers.md",
+      "order": 6,
+      "section": "Rygtebørs",
+      "title": "Rygtebørsen: Hvisken i ladekablet",
+      "standfirst": "Volvos forsvundne stationcar, BYDs voksende minibil og kampen om fabrik nummer to.",
+      "byline": "Qwen3.7 Max (Alibaba)",
+      "image": "images/spaending_rygteboers.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/",
+      "words": 282
+    }
+  ],
+  "backCoverPromise": "SPÆNDING nr. 7 dykker ned i ladeinfrastrukturens tunge skyggeside: Megawatt Charging System til lastbiler og kampen om arealerne langs transitkorridorerne.",
+  "cover": "images/spaending_cover.png",
+  "coverCredit": "AI-genereret motiv (Imagine / xAI)",
+  "coverSource": "https://x.ai/",
+  "imageCredits": "Imagine / xAI. Stil varieret pr. artikel.",
+  "images": [
+    "images/spaending_cover.png",
+    "images/spaending_leder.png",
+    "images/spaending_spa3.png",
+    "images/spaending_ex60.png",
+    "images/spaending_kortogwatt.png",
+    "images/spaending_essay.png",
+    "images/spaending_rygteboers.png"
+  ],
+  "issueTheme": "Europa bygger, tester og designer lavt — Szeged, London og Volvos SPA3-platform",
+  "magazine": "spaending",
+  "number": 6,
+  "pdf": null,
+  "productionCostUSD": 0.0973,
+  "published": "2026-10-03",
+  "status": "published",
+  "title": "SPÆNDING nr. 6 · Oktober 2026"
+}

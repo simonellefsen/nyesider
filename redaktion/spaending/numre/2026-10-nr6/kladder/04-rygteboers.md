@@ -1,0 +1,10 @@
+# Rygtebørsen: Hvisken i ladekablet
+
+I krogene på de europæiske biludstillinger og i de lukkede ingeniørfora hviskes der om en ny fællesnævner for næste generations batteripakker: ES60, eller i visse kredse kaldet EV60. Forlydenderne vil vide, at standarden skulle bane vejen for en ny rækkevidde-æra med et internt udviklingsmål sat til 2028. Om der er tale om en specifik semi-solid cellekemi eller et modulært chassis, er stadig uvist, men ingeniørerne skulle allerede nu teste de første prototyper, der angiveligt forbedrer den termiske effektivitet med op mod 15\u00a0%.
+
+Ned i de mere overkommelige segmenter rygtes en 2. generation af BYDs populære mikro-bil, Dolphin Surf. I Kina tales der om en model under kodenavnet Great Seagull, der skulle strække sig til cirka 4,2 meter i længden. De kinesiske specifikationer nævner en ydelse på 129 hestekræfter, men husk på, at disse Kina-tal ofte beskæres, når bilerne homologeres til europæiske sikkerhedskrav. Det vides endnu ikke, hvornår en eventuel Battery Electric Vehicle (BEV) i denne klasse rammer europæisk asfalt, eller om den overhovedet vil bære det samme modelnavn her.
+
+Endelig er der politisk kamp om arbejdspladserne. BYDs første europæiske fabrik i Ungarn er en kendt sag, men placeringen af fabrikkantens nummer to EU-fabrik er angiveligt i spil. Lobbyister fra Spanien, Frankrig og Italien skulle ligge i hård forhandling med den kinesiske gigant. Rygtet siger, at en endelig afgørelse om placeringen ventes mod slutningen af 2026, selvom lokale myndigheder forsøger at fremskynde processen med skattelettelser og løfter om dedikerede energizoner.
+
+**I næste nummer:**
+I SPÆNDING nr. 7 dykker vi ned i ladeinfrastrukturens tunge skyggeside. Vi ser på, hvorfor introduktionen af Megawatt Charging System (MCS) til eldrevne lastbiler kræver en komplet gentænkning af de europæiske rastepladsers elnet, og hvilke operatører der allerede nu sikrer sig arealer langs de store transitkorridorer, før de første seriemodeller ruller ud.

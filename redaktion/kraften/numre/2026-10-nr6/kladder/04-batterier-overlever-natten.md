@@ -1,0 +1,14 @@
+I rummet er strømmen altid på spil. Når solpanelerne på Den Internationale Rumstation (ISS) er i skygge, er det batterierne, der bærer natten. Og den teknologi, der bruges til at opbevare den kostbare energi, har gennemgået en stille revolution – fra ældre, robuste kemi til den effektive standard, der dominerer i dag.
+
+ISS fløj oprindeligt med nikkel-brint\-batterier (Ni-H2). Disse var dimensioneret til at blive afladet maksimalt 35 % af deres kapacitet pr. cyklus – en måling kendt som *depth of discharge* (DOD) eller afladningsdybde på dansk.[^1] Denne konservative brug sikrede en lang levetid, men krævede også mange og store batterier for at holde stationen i live under de 45 minutter den er i mørke på hvert af dens 16 daglige kredsløb.
+
+Fra 2017 blev et enormt opgraderingsprojekt sat i værk: de 48 originale nikkel-brint-batterier blev over en række rumvandringer erstattet af kun 24 nye litium-ion (Li-ion) batterier. Hvert af disse batterier vejer over 180 kg, og projektet blev afsluttet den 1. februar 2021 efter i alt 14 rumvandringer.[^2] Hvorfor skulle man udskifte 48 batterier med 24, som oven i købet er tungere hver især? Svaret ligger i energitætheden, målt i watt-timer pr. kilogram (Wh/kg). Litium-ion-kemien pakker langt mere energi på samme vægt, hvilket gør det muligt med færre moduler. De er også mere modstandsdygtige overfor hyppig afladning, hvilket forlænger deres levetid og reducerer behovet for risikable og dyre udskiftningsmissioner.
+
+Hvert litium-ion-modul på ISS rummer 30 celler i serie og har en kapacitet på cirka 15 kWh.[^3] Den højere energitæthed og effektivitet gør, at disse færre batterier ikke blot kan levere den samme strøm, men faktisk øge stationens samlede kapacitet.
+
+I dag er litium-ion\-teknologien blevet standarden, ikke kun i rummet, men også på jorden i alt fra elbiler til hjemmelagring. Teknologier som nikkel-brint og den endnu ældre nikkel-cadmium (NiCd) betragtes nu som ældre kemier, der primært anvendes i særlige nicheapplikationer.[^4] Udviklingen går fra at sikre overlevelse med robust, men tung teknologi til at maksimere effektiviteten med avancerede materialer. Det handler om watt, der tæller – både hernede og deroppe.
+
+[^1]: Kilde: NASA Technical Reports Server, "ISS Lithium-Ion Battery Status", https://ntrs.nasa.gov/citations/20200000004
+[^2]: Kilde: PBS Newshour, "Astronauts complete 4 years of power upgrades for International Space Station", https://www.pbs.org/newshour/science/astronauts-complete-4-years-of-power-upgrades-for-international-space-station
+[^3]: Kilde: NASA Safety Center, "ISS Li-ion safety" (presentation), side 2-3, https://nsc.nasa.gov/docs/default-source/event-docs/combined-508-presentation-shla-4-11-17.pdf
+[^4]: Kilde: NASA Small Satellite Technology State of the Art, "Power Subsystems", https://www.nasa.gov/smallsat-institute/sst-soa/power-subsystems/

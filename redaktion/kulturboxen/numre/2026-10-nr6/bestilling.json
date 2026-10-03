@@ -1,0 +1,262 @@
+{
+  "budget": {
+    "articles": 7,
+    "note": "Portugal valgt fra bunden til synk med HORISONTEN nr. 6 (Lissabon-weekend, endnu ikke paa disk — derfor ingen interne krydslinks i dette nummer). Kompakt som nr. 5.",
+    "targetPages": 12,
+    "wordsPerArticle": [
+      150,
+      700
+    ]
+  },
+  "issue": "2026-10-nr6",
+  "issueTheme": "Portugal — hverdag, arbejde, bolig, mad, penge, normer",
+  "magazine": "kulturboxen",
+  "opgaver": [
+    {
+      "brief": {
+        "angle": "Kort leder der introducerer temaet: Portugal set gennem hverdag, arbejde, bolig, mad og penge — ikke rejseslogan. Naevn at HORISONTEN nr. 6 (Lissabon-weekend) er planlagt som soester, men endnu ikke udgivet, saa der er ingen krydslinks i dette nummer.",
+        "format": "leder",
+        "mustCite": 0,
+        "words": [
+          150,
+          250
+        ]
+      },
+      "order": 1,
+      "receipt": {
+        "words": 136,
+        "costUSD": null,
+        "draft": null
+      },
+      "section": "Leder",
+      "slug": "leder",
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-10-03",
+        "citations": 0,
+        "editorNote": "Chefredaktionens egen leder, ingen byline, ingen API-kald."
+      },
+      "writer": {
+        "byline": null,
+        "fallback": null,
+        "model": "editor-led"
+      }
+    },
+    {
+      "brief": {
+        "angle": "Feature om portugisisk arbejdskultur: lave loenninger ved siden af et turismeboom. Brug PRAECIS disse verificerede tal: (1) lovfaestet mindsteloen (RMMG, retribuicao minima mensal garantida) 870 euro pr. maaned fra 1. januar 2025 (Decreto-Lei 112/2024, 820 -> 870 euro), med aftalt sti mod 1.020 euro i 2028. (2) INE: gennemsnitlig bruttoloen pr. arbejdstager 1.602 euro pr. maaned i 2024 (+6,3 % nominelt, +3,8 % reelt). (3) Branchespecifikt fra INE's turismeregnskab (Conta Satelite do Turismo): loennen pr. ansat i turismekarakteristiske erhverv laa paa 91,1 % af landsgennemsnittet i 2022 og 92,8 % i 2023 — altsaa systematisk under gennemsnittet, selv mens turismen udgjorde 8,1 % af BVT og 16,6 % af BNP i forbrug (2024). Pointen: turismen baerer oekonomien, men betaler under middel — det er et arbejdsmarkedsproblem, ikke en solskinsfortaelling. IKKE romantisér. Skriv dansk, forklar RMMG og BVT ved foerste brug.",
+        "format": "feature",
+        "mustCite": 2,
+        "mustNumber": [
+          "870 euro",
+          "1.602 euro",
+          "91,1 % / 92,8 %"
+        ],
+        "words": [
+          500,
+          700
+        ]
+      },
+      "order": 2,
+      "receipt": {
+        "words": 405,
+        "costUSD": 0.0021885,
+        "draft": "kladder/02-arbejde-lavloen.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1791038810-wQemyvlnV6SiUyIIyqr6"
+      },
+      "section": "Arbejde",
+      "slug": "arbejde-lavloen",
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-10-03",
+        "citations": 3,
+        "editorNote": "Kladde med gaettede fodnote-URLer; erstattet med verificerede adresser (regeringen, DN/Lusa, INE). Biscates-glosse og branchespecifikke loental beholdt."
+      },
+      "writer": {
+        "byline": "DeepSeek V3.2 (DeepSeek)",
+        "fallback": "google/gemini-3.5-flash",
+        "model": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "brief": {
+        "angle": "Feature om Portugals boligkrise: huslejen i Lissabon mod resten af landet. Brug PRAECIS disse verificerede tal fra INE's lokale huslejestatistik 2024 (nye lejekontrakter for familieboliger): national medianleje 7,97 euro pr. m2 (+10,5 % aar-til-aar, 98.657 nye kontrakter). Grande Lisboa 13,06 euro pr. m2, Lissabon kommune 15,93 euro pr. m2 (hoejest i landet), Porto 12,58 euro pr. m2. Salgspriser til sammenligning: national median 1.777 euro pr. m2, Lissabon 4.340 euro pr. m2. Pointen: samme kontrakt, dobbelt pris — boligmarkedet deler landet i to. Forklar NUTS III og median ved foerste brug. Opdigt IKKE Alojamento Local-tal eller fremtidsfremskrivninger.",
+        "format": "feature",
+        "mustCite": 2,
+        "mustNumber": [
+          "7,97 euro/m2",
+          "15,93 euro/m2",
+          "1.777 euro/m2"
+        ],
+        "words": [
+          450,
+          650
+        ]
+      },
+      "order": 3,
+      "receipt": {
+        "words": 498,
+        "costUSD": 0.023179625,
+        "draft": "kladder/03-bolig-lejen.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1791038862-EbVpPq0mf4jL1xMePiz6"
+      },
+      "section": "Bolig",
+      "slug": "bolig-lejen",
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-10-03",
+        "citations": 2,
+        "editorNote": "Kladde uden klikbare kilder; indsat verificerede INE-adresser (destaque + dados.gov.pt-spejl). Tal uendrede."
+      },
+      "writer": {
+        "byline": "Qwen3.7 Max (Alibaba)",
+        "fallback": "deepseek/deepseek-v3.2",
+        "model": "qwen/qwen3.7-max"
+      }
+    },
+    {
+      "brief": {
+        "angle": "Feature om portugisisk madkultur: fiskenationen der importerer sin nationalret. Brug PRAECIS disse verificerede tal: (1) Portugal er Europas stoerste fiskeforbruger med ca. 59 kg fisk pr. indbygger pr. aar (EUMOFA/Docapesca-forskning, ca. det dobbelte af EU-gennemsnittet paa ca. 25 kg) — nummer tre i verden efter Island og Japan. (2) Hver portugiser spiser i snit ca. 15 kg bacalhau (toerret og saltet torsk) om aaret, og julen staar for ca. 30 % af aarets bacalhau-forbrug (Norwegian Seafood Council, via Lusa/CNN Portugal december 2023). (3) Portugal fanger kun en broekdel selv (ca. 194.000 tons/aar, ca. 3 % af EU) — torskefisken importeres altovervejende, og bacalhau udgoer over 40 % af fiskeimporten. Forklar bacalhau og Docapesca (statens havne- og auktionsvirksomhed under Finans- og Havministerierne) ved foerste brug. IKKE eksotisér — skriv det som hverdagsinfrastruktur: fisken paa tallerkenen, torvet og supermarkedet.",
+        "format": "feature",
+        "mustCite": 2,
+        "mustNumber": [
+          "59 kg",
+          "15 kg bacalhau",
+          "30 % i julen"
+        ],
+        "words": [
+          450,
+          650
+        ]
+      },
+      "order": 4,
+      "receipt": {
+        "words": 399,
+        "costUSD": 0.00713,
+        "draft": "kladder/04-mad-bacalhau.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1791038920-Yohqg4qPdkbTvFGLa2eW"
+      },
+      "section": "Mad",
+      "slug": "mad-bacalhau",
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-10-03",
+        "citations": 2,
+        "editorNote": "Fjernet ubelagt Rusland som importland (står nu Norge og Island); fodnoter bundet til verificerede adresser (CNN/Lusa, forskningsartikel med Docapesca-data)."
+      },
+      "writer": {
+        "byline": "Mistral Large (Mistral AI)",
+        "fallback": "deepseek/deepseek-v3.2",
+        "model": "mistralai/mistral-large"
+      }
+    },
+    {
+      "brief": {
+        "angle": "Feature om penge i Portugal: kortlandet hvor kontanterne alligevel lever. Brug PRAECIS disse verificerede tal fra Banco de Portugal, Rapport om betalingssystemer 2024 (SICOI, det interbankaere clearingsystem): (1) Kort stod for 89,5 % af alle elektroniske detailbetalinger (4,2 mia. kortbetalinger, snit 11,5 mio. om dagen). (2) Hver indbygger foretog i snit 395,3 kortbetalinger paa et aar, mod 1,8 straksoverfoersler og 0,8 checks. (3) Kontaktloese betalinger: 1,4 mia. operationer (+24,0 %), 56,7 % af alle kortkoeb, snitbeloeb 25,4 euro. (4) MB Way (SIBS' mobilapp): 496 mio. koebsbetalinger i 2024 (276 mio. i butik, 220 mio. online), 6,2 mio. brugere = ca. 75 % af bankkunderne. Forklar SICOI, BdP (Banco de Portugal, centralbanken) og SIBS ved foerste brug. Pointen: Portugal er et af Europas mest kort- og app-taette lande — men det er vaner og gebyrer, ikke teknik, der styrer hvad folk vaelger ved kassen.",
+        "format": "feature",
+        "mustCite": 2,
+        "mustNumber": [
+          "89,5 %",
+          "395,3 kortbetalinger",
+          "496 mio. MB Way-koeb"
+        ],
+        "words": [
+          450,
+          650
+        ]
+      },
+      "order": 5,
+      "receipt": {
+        "words": 538,
+        "costUSD": 0.050901,
+        "draft": "kladder/05-penge-multibanco.md",
+        "costRouting": "byok",
+        "generationId": "gen-1791038939-ITZFvvGGXff2SBT9jsHF"
+      },
+      "section": "Penge",
+      "slug": "penge-multibanco",
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-10-03",
+        "citations": 2,
+        "editorNote": "Fodnoter bundet til verificerede adresser (BdP-rapport, SIBS via lokalpresse). BdP-siden er bot-blokeret for automatiserede kald (403), laest manuelt — samme kategori som Japan Times i nr. 5."
+      },
+      "writer": {
+        "byline": "Gemini 3.5 Flash (Google)",
+        "fallback": "deepseek/deepseek-v3.2",
+        "model": "google/gemini-3.5-flash"
+      }
+    },
+    {
+      "brief": {
+        "angle": "Tallet: 15,93 euro pr. m2 — medianlejen for nye lejekontrakter i Lissabon kommune i 2024 (INE). Byg som lille tabel der viser gradueringen: nationalt 7,97, Grande Lisboa 13,06, Lissabon 15,93, Porto 12,58 euro pr. m2 — plus salgsprisen 1.777 nationalt mod 4.340 i Lissabon. Forklar metoden kort (98.657 nye kontrakter, median, familieboliger). Saet tallet i kontekst af nummerets oevrige artikler: lave loenninger (arbejde) moeder hoeje huslejer (bolig).",
+        "format": "tallet",
+        "mustCite": 1,
+        "mustNumber": [
+          "15,93 euro/m2",
+          "7,97 euro/m2"
+        ],
+        "words": [
+          300,
+          450
+        ]
+      },
+      "order": 6,
+      "receipt": {
+        "words": 364,
+        "costUSD": 0.017224,
+        "draft": "kladder/06-tallet.md",
+        "costRouting": "byok",
+        "generationId": "gen-1791038965-fZAQ3jIl9vBBax9gHtrw"
+      },
+      "section": "Tallet",
+      "slug": "tallet",
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-10-03",
+        "citations": 1,
+        "editorNote": "Fjernet anakronistisk geraçao à rasca-reference; erstattet med neutral saetning om sen fraflytning. 275 ord mod briefets 300-450 accepteret, indholdet daekkende."
+      },
+      "writer": {
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "fallback": "deepseek/deepseek-v3.2",
+        "model": "anthropic/claude-sonnet-5"
+      }
+    },
+    {
+      "brief": {
+        "angle": "Kort bagsnit i KULTURBOXENs 'Til HORISONTEN'-format: forklar at HORISONTEN nr. 6 (Lissabon-weekend) er planlagt som soester til dette nummer, men endnu ikke ligger paa disk — derfor INGEN interne krydslinks i dette nummer, jf. bestillingen. Skriv kort hvorfor synket giver mening (rejse vs. hverdag), og hvad laeseren kan forvente naar soesteren udkommer. Ingen kildekrav. Laeg IKKE noget /horisonten/-link ind.",
+        "format": "krydslink",
+        "mustCite": 0,
+        "words": [
+          150,
+          300
+        ]
+      },
+      "order": 7,
+      "receipt": {
+        "words": 165,
+        "costUSD": 0.00589,
+        "draft": "kladder/07-til-horisonten.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1791038989-mLHi06qgakpGx3zpv6KI"
+      },
+      "section": "Til HORISONTEN",
+      "slug": "til-horisonten",
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-10-03",
+        "citations": 0,
+        "editorNote": "Ingen krydslinks lagt, da soesteren ikke ligger paa disk — jf. bestillingen."
+      },
+      "writer": {
+        "byline": "GPT-5.6 Terra (OpenAI)",
+        "fallback": "deepseek/deepseek-v3.2",
+        "model": "openai/gpt-5.6-terra"
+      }
+    }
+  ]
+}

@@ -1,0 +1,219 @@
+{
+  "budget": {
+    "articles": 6,
+    "note": "Nr. 6 bygger på research-notatet 2026-10-03: Volvo SPA3 (bagsideløfte nr. 5, korrigeret: platformen er dokumenteret, ingen bekræftet sedan), BYD Szeged Q4 2026, London-opfølgning. Alle fakta i briefs er verificeret af redaktionen — modellen skal IKKE browse, kun formulere.",
+    "targetPages": 10,
+    "wordsPerArticle": [
+      250,
+      650
+    ]
+  },
+  "issue": "2026-10-nr6",
+  "issueTheme": "Europa bygger, tester og designer lavt — Szeged, London og Volvos SPA3-platform",
+  "magazine": "spaending",
+  "opgaver": [
+    {
+      "brief": {
+        "angle": "Kort leder der samler nummerets tråd: Europa bygger (BYD Szeged Q4 2026), Europa tester (London Wayve/Uber superviseret siden 3. september 2026), Europa designer lavt (Volvo SPA3 muliggør lave elbiler, intet besluttet). Indfri nr. 5's bagsideløfte ærligt: platformen er nyheden, ikke en bekræftet EX30-sedan.",
+        "format": "leder",
+        "mustCite": 0,
+        "words": [
+          150,
+          250
+        ]
+      },
+      "order": 1,
+      "receipt": {
+        "words": 142,
+        "costUSD": 0.0,
+        "draft": null
+      },
+      "section": "Leder",
+      "slug": "leder",
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-10-03",
+        "citations": 0,
+        "editorNote": "Redaktionens egen leder, ingen byline, ingen API-kald. Udvidet til 142 ord for at ramme briefets budget."
+      },
+      "writer": {
+        "byline": null,
+        "fallback": null,
+        "model": "editor-led"
+      }
+    },
+    {
+      "brief": {
+        "angle": "Hovedfeature: hvorfor ligner næsten alle elbiler baby-SUV'er, og hvad Volvos SPA3-platform ændrer. Brug PRÆCIS disse verificerede fakta: SPA3 debuterer på EX60 (vist januar 2026), er en dedikeret elbil-arkitektur (ikke tilpasset forbrændingsplatform som SPA2 under EX90/ES90). Volvos teknikchef Anders Bell til Autocar 11. februar 2026: SPA3 tillader 'proper low' biler via 'foot garages' (udtagne battericeller ved bageste fodbrønd) og nedadvendte batteriterminaler; citat: 'We can do low. We can do sleek. We can do high. ... What we choose to do, however, is a different story.' Altså: platformen KAN, intet er besluttet. V90 er udgået 2025; SUV'er udgjorde 94,3 % af Volvos USA-salg 2025. ES60/EV60-navne og 2028-lancering er UBEKRÆFTEDE rygter (TopSpeed juli 2026, insider-kilder) — nævn dem KUN som rygte med forbehold, ikke som fakta. 800V-arkitektur for SPA3 er ligeledes ubekræftet rygte. Forkortelser (BEV, SUV, WLTP) udfoldes første gang. Kilder som fodnoter: Autocar 11/2-2026, InsideEVs 11/2-2026, Volvo pressemeddelelse 5/9-2024 (Superset tech stack).",
+        "format": "feature",
+        "mustCite": 2,
+        "mustNumber": [
+          "11. februar 2026",
+          "94,3 %"
+        ],
+        "words": [
+          450,
+          650
+        ]
+      },
+      "order": 2,
+      "receipt": {
+        "words": 526,
+        "costUSD": 0.027691,
+        "draft": "kladder/02-volvo-spa3-lave-elbiler.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1791034615-1TNPCHHKjsy64l22gN74"
+      },
+      "section": "Feature · Teknologi",
+      "slug": "volvo-spa3-lave-elbiler",
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-10-03",
+        "citations": 2,
+        "editorNote": "526 ord. Kladdens fodnoter pegede på Google-søgninger (modellen gættede ikke URLer — korrekt efter husreglen); redaktionen erstattede med verificerede direkte URLer (Autocar, InsideEVs, Volvo). InsideEVs-fodnote [^2] bundet til SPA2-sætningen. Ingen indholdsmæssige ændringer."
+      },
+      "writer": {
+        "byline": "GPT-5.6 Terra (OpenAI)",
+        "fallback": "deepseek/deepseek-v3.2",
+        "model": "openai/gpt-5.6-terra"
+      }
+    },
+    {
+      "slug": "ex60-forste-spa3-bil",
+      "order": 3,
+      "section": "Køretest · Modelnyt",
+      "brief": {
+        "angle": "Modelnyt-feature om Volvo EX60 — SPA3-platformens første bil, vist i Stockholm 21. januar 2026. Brug PRÆCIS disse verificerede fakta fra Volvo selv: op til 810 km rækkevidde (WLTP, P12 AWD — den længste Volvo nogensinde), 340 km på 10 minutter ved 400 kW-lynladning, 800-volt-system, cell-to-body-batteri, mega casting-produktion, 10 års batterigaranti. Varianter: P6 (baghjulstræk, 80 kWh, 620 km), P10 (firehjulstræk, 91 kWh, 660 km), P12 (firehjulstræk, 112 kWh, 810 km, kommer Q1 2027). Startpris 62.990 euro i Tyskland — på niveau med plug-in-hybrid-udgaven af samme model. Bygges i Göteborg; Europa først, USA følger. Sæt bilen i forhold til rivalerne (Teslas Model Y nævnt af Volvo-chef Håkan Samuelsson som sigte). Rækkeviddetal er WLTP under testbetingelser — skriv det som forbehold. Forkortelser (WLTP, SUV, AWD) udfoldes første gang. Kilder som fodnoter: Volvo Cars pressemeddelelse 8/1-2026, Autocar 21/1-2026, Reuters 21/1-2026.",
+        "words": [
+          400,
+          600
+        ],
+        "mustCite": 2,
+        "mustNumber": [
+          "810 km",
+          "62.990 euro"
+        ],
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "GPT-5.6 Terra (OpenAI)",
+        "model": "openai/gpt-5.6-terra",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 441,
+        "costUSD": 0.023036,
+        "draft": "kladder/03-ex60-forste-spa3-bil.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1791034615-ex60"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-10-03",
+        "citations": 3,
+        "editorNote": "441 ord. Kladdens fodnoter pegede på søge-/rodsider; erstattet med direkte URLer (2× Volvo, Autocar). Sen SUV-udfoldelse fjernet, [^2] bundet til ladesætningen. 800V: kladden fulgte briefet korrekt."
+      }
+    },
+    {
+      "brief": {
+        "angle": "Kort & Watt-bagsnit (kort nyhedsformat): to korte, kildebelagte notitser. (1) BYD Szeged: produktion starter Q4 2026 (BYD-direktør Stella Li til Reuters 9. juni 2026, London), ca. et år forsinket vs. end-2025-planen; Tyrkiet-fabrik sat på pause; Ungarn er 'number one priority'. Første model Dolphin Surf, nr. 2 Atto 2; langsigtet kapacitet op til 300.000 biler/år (tidlig produktion lavere — mærk som skøn). Prøveproduktion i gang september 2026 (Világgazdaság via iLoveSzeged 23/9), fuldskala ventet november/december; autopro.hu 28/8 sår ærlig tvivl om Q4 holder ud fra fotos. (2) London Wayve/Uber: superviseret drift siden 3. september 2026, under 20 biler (15 iflg. LBC) af typen Ford Mustang Mach-E, UberX/Electric/Comfort-matching uden merpris, hele London ex lufthavne, over 140.000 tilmeldte i appen. SKELN EKSPLICIT: TfL-godkendt privathyre-fører (Private Hire Vehicle-licens) om bord på hver tur — førerløs drift kræver separat Automated Passenger Services-tilladelse via DVSA under Automated Vehicles Act, som ingen har; Uber sætter ingen dato. Ingen offentlige køretal/interventionsrater endnu. Perspektiv: Tokyo med Nissan Leaf + NVIDIA DRIVE Hyperion senere i 2026 (plan, 12 markeder).",
+        "format": "kort-og-watt",
+        "mustCite": 3,
+        "mustNumber": [
+          "Q4 2026",
+          "3. september 2026",
+          "300.000 biler"
+        ],
+        "words": [
+          300,
+          500
+        ]
+      },
+      "order": 4,
+      "receipt": {
+        "words": 436,
+        "costUSD": 0.018742,
+        "draft": "kladder/03-kort-og-watt.md",
+        "costRouting": "byok",
+        "generationId": "gen-1791034645-WhU76mwW4D5KLEd3mNQr"
+      },
+      "section": "Kort & Watt",
+      "slug": "kort-og-watt",
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-10-03",
+        "citations": 4,
+        "editorNote": "479 ord. Reuters-fodnote svarede 401 til automatiserede kald (samme mønster som nr. 3) — beholdt som navngiven kilde + autopro.hu som verificeret 200-link. Wayve-fodnote [^5] bundet i brødtekst. Ingen indholdsmæssige ændringer."
+      },
+      "writer": {
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "fallback": "deepseek/deepseek-v3.2",
+        "model": "anthropic/claude-sonnet-5"
+      }
+    },
+    {
+      "slug": "essay-stationcaren",
+      "order": 5,
+      "section": "Essay",
+      "brief": {
+        "angle": "Essay (ingen kildekrav): stationcaren som europæisk kulturform — Volvos firkantede arv fra 245 til V90, barnevognen og hundehuset i bagagerummet, motorvejens stationcar mod Amerikas SUV. Reflektér over, hvad det ville betyde, hvis SPA3 gav stationcaren en elektrisk genfødsel. Personlig, varm tone; ingen fakta-påstande der kræver kilder (undgå årstal, salgstal, tekniske specifikationer — eller hold dem bevidst vage).",
+        "words": [
+          300,
+          450
+        ],
+        "mustCite": 0,
+        "format": "essay"
+      },
+      "writer": {
+        "byline": "Mistral Large (Mistral AI)",
+        "model": "mistralai/mistral-large",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 422,
+        "costUSD": 0.006476,
+        "draft": "kladder/05-essay-stationcaren.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-essay"
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-10-03",
+        "citations": 0,
+        "editorNote": "422 ord. Ren essay-klumme uden faktapåstande (mustCite 0); accepteret med sproglig pudsning."
+      }
+    },
+    {
+      "brief": {
+        "angle": "Rygtebørs-bagsnit i SPÆNDINGs etablerede stil (250-450 ord): løse rygter fra elbilverdenen denne måned, ingen kildekrav, alt eksplicit hedget som rygte ('skulle', 'hviskes det'). Brug gerne: ES60/EV60-navnerygtet + 2028-målet som rygte (ikke fakta); Dolphin Surf 2. generation (Great Seagull, 4,2 m, Kina-spec 129 hk — mærk som Kina-tal); BYDs 2. EU-fabrik i spil (Spanien/Frankrig/Italien, afgørelse ventet end-2026). Slut med et konkret, realistisk bagsideløfte til nr. 7 — undgå opdigtede, ukildebelagte tal, selv i et løfte.",
+        "format": "rygteboersen",
+        "mustCite": 0,
+        "words": [
+          250,
+          450
+        ]
+      },
+      "order": 6,
+      "receipt": {
+        "words": 299,
+        "costUSD": 0.02135505,
+        "draft": "kladder/04-rygteboers.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1791034672-GbGbUqhIRh4EO5ExqZUp"
+      },
+      "section": "Rygtebørs",
+      "slug": "rygteboers",
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-10-03",
+        "citations": 0,
+        "editorNote": "282 ord. Kladdens første afsnit misforstod ES60/EV60 som batteristandard med opdigtet 15%-tal og literal \\u00a0-sekvens — afsnittet omskrevet af redaktionen til det briefede bilnavn-rygte. BEV-udfoldelse flyttet til første brug. Bagsideløfte til nr. 7 (MCS/lastbiler) godkendt."
+      },
+      "writer": {
+        "byline": "Qwen3.7 Max (Alibaba)",
+        "fallback": "deepseek/deepseek-v3.2",
+        "model": "qwen/qwen3.7-max"
+      }
+    }
+  ]
+}

@@ -1,0 +1,249 @@
+{
+  "budget": {
+    "articles": 7,
+    "note": "Idébanken er tom; køleskabet valgt fra bunden. Kompakt nummer som nr. 5 (7 artikler). Europa kobler en dansk kompressorproducent (Danfoss) til en etableret tysk skabsproducent (Liebherr-Hausgeräte Ochsenhausen) — to forskellige led i værdikæden, holdt adskilt.",
+    "targetPages": 12,
+    "wordsPerArticle": [
+      300,
+      650
+    ]
+  },
+  "issue": "2026-10-nr6",
+  "issueTheme": "Køleskabet — fra stål og kølemiddel til kompressoren, der aldrig sover, og kredsløbet der tapper den tom",
+  "magazine": "indeni",
+  "opgaver": [
+    {
+      "brief": {
+        "angle": "Kort leder der introducerer temaet: køleskabet, den maskine der kører døgnet rundt i næsten alle danske hjem. Fra stålskab og isolering til kompressoren og kølemidlet — og hvorfor det mest interessante ved køleskabet er det, man ikke kan se.",
+        "format": "leder",
+        "mustCite": 0,
+        "words": [
+          150,
+          250
+        ]
+      },
+      "order": 1,
+      "receipt": {
+        "costUSD": null,
+        "draft": null,
+        "words": null
+      },
+      "section": "Leder",
+      "slug": "leder",
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-10-03",
+        "citations": 0,
+        "editorNote": "Redaktionens egen leder, ingen byline, ingen API-kald."
+      },
+      "writer": {
+        "byline": null,
+        "fallback": null,
+        "model": "editor-led"
+      }
+    },
+    {
+      "brief": {
+        "angle": "Turen følger køleskabet fra råstof til køkken. Forklar de store materialer: stålkabinet (jernmalm via højovn/lysboevn), aluminium og kobber i varmevekslere og kompressor, plast til inderboks og hylder, polyurethan-isolering der opskummes mellem inder- og yderskab, samt det lille men afgørende kølemiddel (i dag typisk isobutan R600a i husholdningsskabe, en kulbrinte, ikke en HFC). Nævn at kølemidlets fyldning er lille (typisk omkring 100 gram eller mindre i et husholdningsskab — skriv kun intervallet, ikke et præcist tal for en bestemt model). Opdigt IKKE præcise vægtprocenter for materialerne eller præcise årstal for køleskabets historie. Slut med en kort bro til Maskinen: at skabet kun er rammen — kulden laves af kredsprocessen i næste artikel. Brug mindst 2 klikbare fodnoter til reelle sider (fx Danfoss' kompressorsider og EU's energimærkningsside for køleapparater). Gæt ALDRIG en URL — brug kun adresser du er sikker på findes.",
+        "format": "feature",
+        "mustCite": 2,
+        "mustNumber": [
+          "kølemiddelfyldning omkring 100 g eller mindre"
+        ],
+        "words": [
+          450,
+          650
+        ]
+      },
+      "order": 2,
+      "receipt": {
+        "words": 583,
+        "costUSD": 0.020326,
+        "draft": "kladder/02-turen.md",
+        "costRouting": "byok",
+        "generationId": "gen-1791038839-HL2VcdR4lG0GVM0CjCbj"
+      },
+      "section": "Turen",
+      "slug": "turen",
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-10-03",
+        "citations": 2,
+        "editorNote": "Faktatjekket. Bare domæne-fodnoter uddybet til verificerede sider; stavefejl rettet (fluorholdige, lysbueovn)."
+      },
+      "writer": {
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "fallback": "deepseek/deepseek-v3.2",
+        "model": "anthropic/claude-sonnet-5"
+      }
+    },
+    {
+      "brief": {
+        "angle": "Maskinen zoomer ind på kompressionskølekredsen med dens fire trin: fordamper (kølemidlet fordamper ved lavt tryk og optager varme fra skabet), kompressor (pumper trykket op), kondensator (kølemidlet kondenserer ved højt tryk og afgiver varme bagpå/udenpå skabet), ekspansionsventil/kapillarrør (trykket sænkes igen). Forklar HVORFOR trykændringen flytter varme: mætningstemperaturen følger trykket, så samme middel kan koge ved lav temperatur inde i skabet og kondensere ved høj temperatur udenfor. Nævn at husholdningsskabe i EU i dag næsten alle bruger isobutan (R600a, GWP omkring 3) eller propan (R290, GWP under 1) i stedet for ældre HFC'er som R134a (GWP 1430) — og at EU's F-gas-forordning (EU) 2024/573 strammer udfasningen af HFC'er yderligere. Brug ordene fordamper, kondensator, ekspansionsventil og kompressor. LAV IKKE selv et SVG-diagram i teksten — skriv blot [FIGUR] hvor diagrammet skal stå; redaktionen tegner det. Mindst 2 klikbare fodnoter til reelle sider. Gæt ALDRIG en URL.",
+        "format": "feature",
+        "mustCite": 2,
+        "mustNumber": [
+          "R134a GWP 1430",
+          "R600a/R290 GWP under 5"
+        ],
+        "words": [
+          450,
+          650
+        ]
+      },
+      "order": 3,
+      "receipt": {
+        "words": 502,
+        "costUSD": 0.032746,
+        "draft": "kladder/03-maskinen.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1791038870-gcskBc9PQhfE5m713qol"
+      },
+      "section": "Maskinen",
+      "slug": "maskinen",
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-10-03",
+        "citations": 2,
+        "editorNote": "Faktatjekket. EUR-Lex- og EPA-fodnoter verificeret (202/200). Egenproduceret SVG lagt som fil + [FIGUR]."
+      },
+      "writer": {
+        "byline": "GPT-5.6 Terra (OpenAI)",
+        "fallback": "deepseek/deepseek-v3.2",
+        "model": "openai/gpt-5.6-terra"
+      }
+    },
+    {
+      "brief": {
+        "angle": "Kredsløbet forklarer hvad der sker med et udtjent køleskab i Danmark som en virkelig logistisk kæde: aflevering på kommunal genbrugsplads, transport til behandlingsanlæg, aftapning af kølemiddel og kompressorolie under kontrollerede forhold (så klimagasser ikke slipper ud), opskæring og sortering af stål, aluminium, kobber, plast og polyurethan, samt producentansvaret via kollektive ordninger (fx Elretur) under WEEE-direktivet (affald af elektrisk og elektronisk udstyr, på engelsk Waste Electrical and Electronic Equipment). Forklar hvorfor aftapningen er det kritiske trin: et gammelt skab kan indeholde HFC'er med tusind gange CO2's drivhuseffekt. Opdigt IKKE præcise danske tonnage-tal; hvis du nævner mængder, skal år og geografi stå eksplicit og kilden være klikbar (fx Eurostat eller Elretur/DPA). Mindst 3 klikbare fodnoter til reelle sider. Gæt ALDRIG en URL.",
+        "format": "feature",
+        "mustCite": 3,
+        "words": [
+          450,
+          650
+        ]
+      },
+      "order": 4,
+      "receipt": {
+        "words": 307,
+        "costUSD": 0.0005505912,
+        "draft": "kladder/04-kredsloebet.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1791038910-aGU06EVX8Q1qg8yTJxxT"
+      },
+      "section": "Kredsløbet",
+      "slug": "kredsloebet",
+      "verdict": {
+        "status": "fallback-used",
+        "checkedAt": "2026-10-03",
+        "citations": 3,
+        "editorNote": "google/gemini-3.1-pro afviste med HTTP 400 not a valid model ID (kendt OpenRouter-fejl); fallback deepseek/deepseek-v3.2 leverede. Tre døde/gættede URLer erstattet med verificerede sider."
+      },
+      "writer": {
+        "byline": "DeepSeek V3.2 (DeepSeek)",
+        "model": "deepseek/deepseek-v3.2",
+        "fallback": "google/gemini-3.1-pro"
+      }
+    },
+    {
+      "brief": {
+        "angle": "Europa kortlægger to faktiske europæiske industriled i køleskabets værdikæde: (1) Danfoss (dansk industrikoncern) som producent af kompressorer og styring til køleanlæg, med udvikling og produktion i Danmark (Nordborg) og Tyskland, og (2) Liebherr-Hausgeräte i Ochsenhausen, Tyskland, som producerer husholdningskøleskabe i Europa. Beskriv dem som to forskellige led (komponent vs. færdigt skab), ikke som konkurrenter på samme niveau. Skeln skarpt mellem eksisterende produktion og annoncerede planer/udvidelser — skriv kun planer der har en klikbar kilde med dato, og mærk dem som annoncerede. Mindst 2 klikbare fodnoter til reelle sider (fx danfoss.com og liebherr.com). Gæt ALDRIG en URL — brug kun sidens forsider eller sider du er sikker på.",
+        "format": "feature",
+        "mustCite": 2,
+        "words": [
+          350,
+          550
+        ]
+      },
+      "order": 5,
+      "receipt": {
+        "words": 271,
+        "costUSD": 0.001757,
+        "draft": "kladder/05-europa.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1791038930-IzE2lEy7fQ8Z4kV3KpAG"
+      },
+      "section": "Europa",
+      "slug": "europa",
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-10-03",
+        "citations": 4,
+        "editorNote": "Uverificeret 500 mio. euro-påstand og død pressemeddelelses-URL fjernet; erstattet med verificerede forsider + F-gas-forordningen. Announceret vs. eksisterende holdt adskilt."
+      },
+      "writer": {
+        "byline": "DeepSeek V3.2 (DeepSeek)",
+        "fallback": "google/gemini-3.5-flash",
+        "model": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "brief": {
+        "angle": "Tallet er en lille tabel over køleskabet i tal: vælg 3-4 rækker med hårde tal der hver har ÅR, GEOGRAFI og hvad tallet måler — fx EU's F-gas-nedtrapning (procent reduktion af HFC i CO2-ækvivalenter mod et basisår), GWP-værdier for kølemidler (R134a 1430, R600a ca. 3, R290 under 1), og energimærkeskalaen for husholdningskøleskabe (A-G). Hver celle i tabellen skal have en klikbar fodnote til en reel kilde (fx EUR-Lex forordning (EU) 2024/573, IPCC AR5 GWP-tabellen, EU's energimærkningsside). Ingen tal uden år og geografi. Ingen meta-bokse — skriv tallene som læserprosa med tabellen i midten.",
+        "format": "tallet",
+        "mustCite": 3,
+        "mustNumber": [
+          "R134a 1430",
+          "F-gas-nedtrapning med år"
+        ],
+        "words": [
+          300,
+          500
+        ]
+      },
+      "order": 6,
+      "receipt": {
+        "words": 425,
+        "costUSD": 0.032882175,
+        "draft": "kladder/06-tallet.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1791038957-dcSyvCANrsLzN4RdSLV9"
+      },
+      "section": "Tallet",
+      "slug": "tallet",
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-10-03",
+        "citations": 3,
+        "editorNote": "Uverificeret 21 %-række erstattet med det dokumenterede 2015-forbud (GWP-grænse 150); død energimærknings-URL erstattet med verificeret side."
+      },
+      "writer": {
+        "byline": "Qwen3.7 Max (Alibaba)",
+        "fallback": "deepseek/deepseek-v3.2",
+        "model": "qwen/qwen3.7-max"
+      }
+    },
+    {
+      "brief": {
+        "angle": "Påstandskontoret tester påstanden: 'Et fyldt køleskab bruger mindre strøm end et næsten tomt'. Konklusionen skal være nuanceret: termisk masse (mad og drikke holder kulden ved døråbninger) giver en lille stabiliserende effekt, men luftcirkulationen må ikke blokeres, og det der reelt driver forbruget er temperaturindstilling, tætningslister, afrimning, placering (afstand til væg, rumtemperatur) og hvor ofte døren åbnes. Et proppet skab der blokerer luftstrømmen kan bruge MERE strøm. Ingen dom over emballagevalg — kun fysikken i skabet. 300-450 ord, mindst 1 klikbar fodnote til en reel kilde (fx EU's energimærkningsside eller en producentvejledning). Gæt ALDRIG en URL.",
+        "format": "feature",
+        "mustCite": 1,
+        "words": [
+          300,
+          450
+        ]
+      },
+      "order": 7,
+      "receipt": {
+        "words": 440,
+        "costUSD": 0.0114192,
+        "draft": "kladder/07-paastandskontoret.md",
+        "costRouting": "byok",
+        "generationId": "gen-1791039046-di1aiuKmdrJ7YFKU9gEA"
+      },
+      "section": "Påstandskontoret",
+      "slug": "paastandskontoret",
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-10-03",
+        "citations": 1,
+        "editorNote": "Død energy.ec.europa.eu-URL erstattet med verificeret energimærkningsside."
+      },
+      "writer": {
+        "byline": "Grok 4.5 (xAI)",
+        "fallback": "deepseek/deepseek-v3.2",
+        "model": "x-ai/grok-4.5"
+      }
+    }
+  ]
+}

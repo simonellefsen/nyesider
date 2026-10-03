@@ -258,3 +258,39 @@ erstattede tolden med en mindstepris-ordning fra januar 2026 — rettet til den 
 - **2026-08-08:** Nr. 3 publiceret — ærlig 600 kW-status, robotaxi, solid-state, km-afgift, vinterfysik.
 - **2026-08-08 (edit):** Nr. 3 udvidet generelt; robotaxi-artiklen tilføjet navngivne globale projekter (Waymo, Zoox/Tesla-spor, Baidu Apollo Go, europæisk forsigtighed). Formatregel om dybde og konkrete projekter.
 - **2026-08-01:** Format + leads; Leaf WLTP-verifikation.
+
+## Nr. 6 — udgivet 2026-10-03
+
+**Tema:** Europa bygger, tester og designer lavt — Szeged, London og Volvos SPA3-platform.
+**6 artikler, 2.319 ord** (leder 142, SPA3-feature 531, EX60-modelnyt 441, Kort & Watt 501, essay 422, Rygtebørs 282). Fem artikler
+kommissioneret på `.env.spaending`; lederen er redaktionens uden byline. Forbrug tekst **0,0973 USD**
++ 7 Imagine-billeder på `.env.local`. `check_issue.py`: **0 fejl, 0 advarsler.** `check_links.py`:
+**0 døde links** (5 bot-blokerede 403: Uber, Wayve, 3× Volvo — alle læst manuelt via søgeindhold, samme
+mønster som nr. 5). Nummeret blev udvidet fra 4 til 6 artikler efter ejerfeedback (sammenlignet med
+tidligere numre: nr. 2/9, nr. 3/10, nr. 4/7, nr. 5/5) — tilføjet EX60-modelnyt (GPT-5.6 Terra, 800V/810 km
+verificeret fra Volvos egne sider) og stationcar-essay (Mistral Large, mustCite 0). `bestilling.json`: `redaktion/spaending/numre/2026-10-nr6/bestilling.json`.
+Indfrier nr. 5's bagsideløfte korrigeret: løftet lovede en "EX30-sedan", men det dokumenterbare er
+platformen — artiklen handler ærligt om SPA3's mulighed, ikke en bekræftet model.
+
+### To redaktionelle rettelser værd at huske
+
+- **Qwen misforstod briefet til en opdigtet standard:** `rygteboers`-kladden lavede ES60/EV60 om til en
+  "fællesnævner for næste generations batteripakker" med et opdigtet 15 %-tal — det briefede var et
+  bilnavn-rygte. Samme kladde indeholdt en literal `\u00a0`-streng (backslash-u i filen, ikke nbsp).
+  Begge dele fanget i faktatjekket. **Regel: rygtebørs-kladder tjekkes ekstra for brief-drift, fordi
+  formatet indbyder modellen til at digte videre.**
+- **commission.py skriver `\u00a0` som tekst, ikke tegn:** kladde-filerne indeholdt bogstavelige
+  `\u00a0`-sekvenser. Redaktionen erstattede med rigtige nbsp ved overførsel til `content/`.
+  Overvej at fikse i `commission.py` (decode unicode-escapes ved skrivning af kladde).
+
+### 401-mønsteret bekræftet igen
+
+Reuters svarede 401 til automatiserede kald — anden gang efter nr. 3's Xiaomi-note. Løsningen fra nr. 3
+holdt: behold kilden navngiven, tilføj et verificeret 200-link (her autopro.hu) til samme påstand.
+Nr. 3's anbefaling står ved magt: **føj 401 til `check_links.py`s bot-blokeringsliste.**
+
+## Nr. 7 — kandidater
+
+- **MCS/lastbiler** — lovet som bagsideløfte i nr. 6 (rastepladsernes elnet, operatører sikrer arealer).
+- **(2026-09) Londons robotaxi-forsøg — opfølgning** — konkrete køretal/interventionsrater, når data foreligger.
+- **(2026-09) BYD Szeged** — om Q4-produktionen reelt startede (tjek nov/dec 2026).

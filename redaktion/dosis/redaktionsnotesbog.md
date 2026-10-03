@@ -248,10 +248,30 @@ direkte link til det specifikke Alzheimer-pilotstudie — samme mønster som er 
 andre titler denne uge. Redaktionen fandt selv det korrekte PubMed-ID (40395689) og rettede
 fodnoten.
 
-## Løfter givet i nr. 5
+## Nr. 6 — klar til udgivelse (status: scheduled, published: 2026-10-10)
 
-- **Bagsiden:** en obduktion af, hvordan en wellness-myte dør — kirkegården for glemte
-  superfødevarer.
+**Tema:** Kirkegården for glemte superfødevarer — en obduktion af, hvordan en wellness-myte dør.
+Indfrir nr. 5's bagsideløfte. **6 artikler, ~2.860 ord.** Fem artikler kommissioneret på
+`.env.dosis`; lederen er redaktionens uden byline. Forbrug **0,13 USD**. `check_issue.py`:
+**0 fejl, 0 advarsler.** `check_links.py`: **0 døde links** (3 doi.org-403'er er bot-blokering,
+alle tre DOI'er verificeret via CSL-JSON). Cover + 6 artikelbilleder (Imagine, varierede stilarter).
+`bestilling.json`: `redaktion/dosis/numre/2026-10-nr6/bestilling.json`.
+
+### To DOI-fangster (samme fejltype som nr. 1- og nr. 2-læringerne)
+
+- **Chia-kladdens DOI opløste til det forkerte arbejde:** `10.1016/j.nutres.2011.12.002`, anført som
+  Nieman-chia-forsøget, opløste til et doenjang/indmad-fedt-studie. Erstattet med Vuksan
+  Salba-DOI (`10.2337/dc07-1144`, verificeret) + Nieman som titel-uden-link. Tredje gang i
+  DOSIS at en DOI opløser korrekt til det forkerte arbejde — CSL-tjekket er ikke valgfrit.
+- **Goji-kladden skrev Amagalanova + linkløse fodnoter:** rettet til Amagase-DOI
+  (`10.1089/acm.2008.0004`, verificeret). Husk: forfatternavn er også en påstand.
+- **Tallet-kladden brugte granatæble/acai** i stedet for nummerets tre cases — genskrevet af
+  redaktionen (verdict `rewritten-by-editor`).
+
+## Løfter givet i nr. 6
+
+- **Bagsiden:** DOSIS nr. 7 om implantater og proteser — "Hvad holder i 10 år?"
+  (hofteproteser, cochleaimplantater, cybernetik).
 
 ## Nr. 6 — kandidater
 

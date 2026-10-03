@@ -1,0 +1,35 @@
+## Påstandskontoret: Fylder skabet mindre strøm?
+
+**Påstanden:** Et fyldt køleskab bruger mindre strøm end et næsten tomt.
+
+**Kort svar:** Delvist rigtigt — og nemt at misforstå. Mad og drikke kan stabilisere temperaturen lidt. Det, der mest driver forbruget, er indstilling, tætningslister, afrimning, placering og døråbninger. Et skab, der er proppet til, så luften ikke kan cirkulere, kan bruge mere strøm.
+
+### Hvad termisk masse faktisk gør
+
+Når du åbner døren, strømmer kold luft ud, og varmere rumluft ind. Kompressoren skal bagefter fjerne den ekstra varme. Fødevarer og væsker har langt højere varmekapacitet end luft: de holder på kulden og “buffer” temperaturstigningen, så termostaten ikke behøver at kalde på kompressoren lige så hårdt efter korte åbninger.
+
+Effekten er reel, men lille i hverdagen. Den hjælper mest ved hyppige, korte døråbninger. Den erstatter ikke god isolation, tætte lister eller en fornuftig temperaturindstilling.
+
+### Når “fyldt” bliver dyrt
+
+Køleskabe er bygget til tvungen luftcirkulation omkring hylder og bagvæg (ofte hvor fordamperen sidder). Blokerer du luftveje med tætpakkede bakker, mælkekartoner helt op ad bagvæggen eller plastikfolie over hylderne, bliver afkølingen ujævn. Nogle zoner bliver for varme; termostaten kan køre længere for at nå indstillingen — eller slet ikke nå den jævnt. Et “proppet” skab er altså ikke det samme som et “velordnet fyldt” skab.
+
+Tomt skab betyder mere luft, der hurtigt skiftes ud ved døråbning. Det er ikke automatisk strømsluger, hvis døren holdes lukket, listerne er tætte, og hylderne ikke blokerer blæser eller gitter.
+
+### Det, der typisk betyder mere
+
+- **Temperaturindstilling:** Hver grad koldere koster energi. De fleste husholdninger klarer sig med ca. 4–5 °C i køl (frost typisk −18 °C), medmindre særlige hensyn kræver andet.
+- **Tætningslister og dørvaner:** Utætte lister og lange kig i skabet trækker mere end fyldningsgraden.
+- **Afrimning og is:** Is på fordamper isolerer den forkerte vej og forlænger driftstiden.
+- **Placering:** Tæt på ovn, radiator eller i direkte sol; for lille afstand til væg, så kondensator ikke kan afgive varme — det hæver forbruget uanset indhold.
+- **Rumtemperatur:** Et skab i et varmt bryggers arbejder hårdere end et i et køligt køkken.
+
+Producenter og energimærkningsvejledninger understreger jævn luftstrøm, korrekt indstilling og vedligehold frem for “fyld skabet for at spare”.[1]
+
+### Konklusion
+
+Termisk masse fra mad og drikke giver en lille stabiliserende effekt ved døråbninger. Den er ikke en licens til at stable tæt. Blokeret cirkulation kan øge forbruget. Vil du spare strøm, så ret indstillingen, tjek listerne, afrim når det er nødvendigt, giv skabet plads til at komme af med varmen, og luk døren — og lad luften have frie veje mellem varerne.
+
+---
+
+[1] Europa-Kommissionen, information om energimærkning og energieffektive køleapparater: [energy-efficient products – refrigerating appliances](https://energy.ec.europa.eu/topics/energy-efficiency/energy-label-and-ecodesign/energy-label-products_en)

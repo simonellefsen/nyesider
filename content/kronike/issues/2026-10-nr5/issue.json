@@ -1,0 +1,103 @@
+{
+  "magazine": "kronike",
+  "number": 5,
+  "title": "KRØNIKE nr. 5 · Oktober 2026",
+  "issueTheme": "Slesvig-Holsten før 1864 — hertugdømmerne, helstaten og den forfatning, der blev påskud",
+  "published": "2026-10-03",
+  "status": "published",
+  "pdf": null,
+  "cover": "images/kronike_cover.png",
+  "coverCredit": "AI-genereret motiv (Imagine / xAI)",
+  "coverSource": "https://x.ai/",
+  "images": [
+    "images/kronike_cover.png",
+    "images/kronike_leder.png",
+    "images/kronike_helstaten.png",
+    "images/kronike_treaarskrigen.png",
+    "images/kronike_london.png",
+    "images/kronike_tallet.png",
+    "images/kronike_myter.png"
+  ],
+  "productionCostUSD": 0.1402,
+  "imageCredits": "Imagine / xAI. Stil varieret pr. artikel.",
+  "backCoverPromise": "KRØNIKE nr. 6 vender tilbage til idébanken: Kalmarunionen, Besættelsen, eller Inge Lehmann og Niels Bohr.",
+  "articles": [
+    {
+      "slug": "leder",
+      "file": "articles/01-leder.md",
+      "order": 1,
+      "section": "Leder",
+      "title": "Hertugdømmerne, før de blev 1864",
+      "standfirst": "I fire hundrede år var den danske konge samtidig hertug i Slesvig og Holsten — to lande, to retsordener, én person. 1864 kom ikke ud af ingenting.",
+      "image": "images/kronike_leder.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/",
+      "words": 162
+    },
+    {
+      "slug": "helstaten",
+      "file": "articles/02-helstaten.md",
+      "order": 2,
+      "section": "Riget & grænser",
+      "title": "Ikke som konge af Danmark",
+      "standfirst": "Ribebrevet fra 1460 gjorde den danske konge til hertug i Slesvig og greve i Holsten. Det gjorde ikke de to lande til Danmark.",
+      "image": "images/kronike_helstaten.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/",
+      "words": 768,
+      "byline": "Claude Sonnet 5 (Anthropic)"
+    },
+    {
+      "slug": "treaarskrigen",
+      "file": "articles/03-treaarskrigen.md",
+      "order": 3,
+      "section": "Krig & krise",
+      "title": "Sejren, der ikke knyttede Slesvig til Danmark",
+      "standfirst": "Treårskrigen begyndte med et kup i Rendsborg og endte med danmarkshistoriens største slag. Militært vandt Danmark. Diplomatisk stod Slesvig, hvor det havde stået.",
+      "image": "images/kronike_treaarskrigen.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/",
+      "words": 753,
+      "byline": "GPT-5.6 Terra (OpenAI)"
+    },
+    {
+      "slug": "london-november",
+      "file": "articles/04-london-november.md",
+      "order": 4,
+      "section": "Internationalt",
+      "title": "To dokumenter, én fælde",
+      "standfirst": "Londontraktaten af 1852 anerkendte helstaten og Christian 9. Den nævnte ikke Slesvig. Novemberforfatningen 1863 blev alligevel krigens påskud.",
+      "image": "images/kronike_london.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/",
+      "words": 784,
+      "byline": "Gemini 3.1 Pro Preview (Google)"
+    },
+    {
+      "slug": "tallet",
+      "file": "articles/05-tallet.md",
+      "order": 5,
+      "section": "Tallet",
+      "title": "Tallet: helstaten i fire kolonner",
+      "standfirst": "Et pergament, et slag, en traktat og et rigsråd. Fire tal, der bærer Slesvig-Holsten frem til tærsklen af 1864.",
+      "image": "images/kronike_tallet.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/",
+      "words": 267,
+      "byline": "Claude Sonnet 5 (Anthropic)"
+    },
+    {
+      "slug": "myter",
+      "file": "articles/06-myter.md",
+      "order": 6,
+      "section": "Myter & missforståelser",
+      "title": "Brød Danmark Londontraktaten?",
+      "standfirst": "Skolebogen siger ofte, at 1864 kom, fordi Danmark brød en stormagtstraktat. Traktaten nævnte ikke Slesvig. Det, der blev viftet med, var en noteudveksling.",
+      "image": "images/kronike_myter.png",
+      "imageCredit": "AI-genereret motiv (Imagine / xAI)",
+      "imageSource": "https://x.ai/",
+      "words": 379,
+      "byline": "DeepSeek V3.2 (DeepSeek)"
+    }
+  ]
+}

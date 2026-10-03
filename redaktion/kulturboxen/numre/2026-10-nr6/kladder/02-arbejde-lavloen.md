@@ -1,0 +1,16 @@
+# Lav løn ved høj season: Portugals turismeparadoks
+
+I januar 2025 steg Portugals lovfæstede mindsteløn (RMMG – *Retribuição Mínima Mensal Garantida*) fra 820 til 870 euro om måneden.[^1] Regeringen har en plan om at føre den til 1.020 euro i 2028. Tallet lyder af fremskridt, men for mange portugisere føles fremgangen som en langsom tragt mod en meget høj husleje.
+
+For mens turismen har været landets økonomiske motor i et årti, betaler den ikke motorløn. Ifølge Portugals nationale statistikinstitut (INE) var den gennemsnitlige bruttoløn pr. arbejdstager i 2024 på 1.602 euro om måneden.[^2] For dem, der arbejder direkte i turismen – på hoteller, i restauranter eller ved seværdigheder – er billedet noget andet. INEs satellitregnskab for turisme viser, at lønnen pr. ansat i turismekarakteristiske erhverv lå på 91,1 % af landsgennemsnittet i 2022 og 92,8 % i 2023.[^2] Sektoren betaler altså systematisk under gennemsnittet.
+
+Paradokset er slående: I 2024 stod turisme for 8,1 % af bruttoværditilvæksten (BVT) og 16,6 % af BNP i forbrug.[^2] Branchen bærer en væsentlig del af den nationale økonomi, men kan ikke eller vil ikke bære en tilsvarende del af lønningerne. For den enkelte portugiser mærkes det som en dobbelthed: et arbejdsmarked, der skaber mange jobs, men som sjældent skaber opsparing eller sikkerhed.
+
+Arbejdskulturen præges af denne splittelse. Mange kombinerer et fuldtidsjob med «*biscates*» – små tilfældige job – for at få det til at hænge sammen. Familiestrukturer er ofte afgørende for at kunne bo i de turisttunge og dyre bycentre. Den officielle optimisme om stigende mindsteløn møder den hverdagslige erfaring, at leveomkostningerne, især på bolig, stiger hurtigere.
+
+Det er et arbejdsmarkedsproblem, ikke en solskinsfortælling. Turismens vækst har ikke automatisk oversat sig til bredere velstand for de ansatte. I stedet skaber den et parallelsamfund af sæsonarbejde, midlertidige kontrakter og lønninger, der holder sig tæt på den lovfæstede minimumsgrænse, mens overskuddet forsvinder i ejendomsspekulation og international kapital.
+
+At forstå det portugisiske arbejdsliv handler derfor ikke kun om at kigge på de nationale gennemsnitstal, men om at se skellet mellem de sektorer, der tjener penge på landet, og de sektorer, der betaler løn til dets befolkning. For hundretusindvis er turismen ikke en ferie, men en måde at få måneden til at løbe rundt på – lige akkurat.
+
+[^1]: Decreto-Lei 112/2024, der fastsætter RMMG. Læs mere på Det Portugisiske Arbejdsministeriums hjemmeside: [https://www.portugal.gov.pt/pt/gc23/comunicacao/noticia?i=decreto-lei-que-fixa-o-salario-minimo-nacional-em-2025](https://www.portugal.gov.pt/pt/gc23/comunicacao/noticia?i=decreto-lei-que-fixa-o-salario-minimo-nacional-em--2025)
+[^2]: Instituto Nacional de Estatística (INE) – Portugals nationale statistikinstitut. Tallene for gennemsnitsløn og turismesektorens løn er fra statistikkontoret. Se publikationer: [https://www.ine.pt/xportal/xmain?xpid=INE&xpgid=ine_publicacoes](https://www.ine.pt/xportal/xmain?xpid=INE&xpgid=ine_publicacoes)

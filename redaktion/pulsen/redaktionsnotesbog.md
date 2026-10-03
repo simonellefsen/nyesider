@@ -184,6 +184,41 @@ plausibelt, men forkert facit. Rettet før publicering. **Lær af dette: en quiz
 indhold skal krydstjekkes mod de FAKTISK publicerede artikler, ikke mod briefen — kladden kender
 kun sin egen opgave, ikke naboartiklernes endelige tekst.**
 
+## Nr. 6 — udgivet 2026-10-03
+
+**Tema:** Mellemåret: AID_NOTE og genomik uden facit — men med pejlemærker
+(indfrier nr. 5's bagsideløfte ærligt). **6 artikler, 1.741 ord.** Fem artikler reelt
+kommissioneret på `.env.pulsen`; lederen er redaktionens uden byline. Forbrug **0,1671 USD**.
+`check_issue.py`: **0 fejl, 2 advarsler** (to features redigeret kortere end brief —
+bevidst stramning, ikke stubs). `check_links.py`: **0 døde links**
+(1 bot-blokeret, digitalhealth.net 403, verificeret via research).
+`bestilling.json`: `redaktion/pulsen/numre/2026-10-nr6/bestilling.json`.
+
+Alle tre spor bekræftet uden facit: AID_NOTE fortsat igangværende (slut okt. 2026,
+første formidling RAIN 30. sep. 2026); DSMG uden samlet 2026-vejledning —
+anlægsbærer v3 (13. april 2026, 1/800→1/500) som væsentligste revision, adherence ukendt;
+Bupa i drift 1. sep. 2026 men kun prognosetal.
+
+### Generiske fodnoter fanget i alle tre features
+
+Alle tre feature-kladder leverede generiske forsider frem for konkrete kilder
+(cimt.dk, regionsyddanmark.dk, tortus.ai, ouh.nhs.uk, tandemhealth.ai,
+dsmg.dk/retningslinjer som 404). Erstattet med konkrete sider: CAI-X projektside,
+RAIN-program, GOSH-nyhed, Digital Health-artikel + Oxford-PDF, Tandem/Capio-studie,
+DSMG guideline-oversigt + anlægsbærer-PDF + EUR-Lex 2025/327.
+
+### Quiz omskrevet fra bunden
+
+`quiz`-kladden spurgte til stof uden for nummeret (Bupa-prognoser, MDR-gæt) med
+forkerte facit — samme fejltype som nr. 5 (facit matchede ikke faktisk artikel).
+Omskrevet af redaktøren til 5 spørgsmål der matcher de publicerede artikler.
+**Regel bekræftet: quiz krydstjekkes mod FAKTISK publicerede artikler.**
+
+## Løfter givet i nr. 6
+
+- **Bagsiden:** AID_NOTEs evalueringsrapport når den offentliggøres; om DSMG's
+  1/500-tærskel slår igennem i praksis.
+
 ## Løfter givet i nr. 5
 
 - **Bagsiden:** AID_NOTE, når evalueringen er afsluttet, og om flere danske aktører følger DSMG's
@@ -197,6 +232,10 @@ kun sin egen opgave, ikke naboartiklernes endelige tekst.**
   lovet som bagsideløfte til nr. 6.
 
 ## Log
+
+- **2026-10-03:** Nr. 6 udgivet — mellemåret uden facit. Se læringen ovenfor:
+  generiske fodnoter i alle tre features erstattet med konkrete kilder, quiz
+  omskrevet til at matche faktiske artikler.
 
 - **2026-09-05:** Nr. 5 udgivet — opfølgning på nr. 4's to bagsideløfter. Se læringen ovenfor: to
   opdigtede fodnoter uden URL fanget og rettet, en ærlig "intet resultat endnu"-status holdt uden

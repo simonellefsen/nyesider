@@ -153,6 +153,37 @@ findes under det nummer. Erstattet med Hellenic Chamber of Hotels' egen side om 
 rettigheder, som dækker emnet generelt uden at opfinde et præcist paragrafnummer, kladden ikke
 selv kunne belægge.
 
+## Nr. 6 — udgivet 2026-10-03
+
+**Tema:** Storby-weekend Lissabon. **7 artikler, 3.043 ord.** Seks artikler reelt kommissioneret på
+`.env.horisonten`; lederen er redaktionens uden byline. Forbrug **0,1439 USD**. `check_issue.py`:
+**0 fejl, 0 advarsler.** `check_links.py`: **0 døde links** (1 bot-blokeret: whc.unesco.org 403,
+kendt mønster — indholdet verificeret via UNESCO-søgning, åbner i browser).
+
+Valgt fra idébankens "Storby-weekend (Lissabon/Ljubljana)". **Søster: KULTURBOXEN nr. 6**
+(portugisisk hverdag/kultur) — synket efter husreglen, men UDEN interne krydslinks endnu:
+søster-nummeret lå ikke på disk ved redaktionens slutning, og døde interne links knækker
+prerender. Redaktionen sætter links, når begge numre er klar.
+
+### To fejl fanget i faktatjekket
+
+- `byliv`-kladden påstod, at sporvognslinje 28 "blev indviet i 1928" — linjenummeret er ikke et
+  årstal, og kilden (Visit Portugal) siger intet om 1928. Fjernet. Samme kladde citerede en
+  gættet Visit Lisboa-underside (`/en/places/se-de-lisboa`), der svarer **404** — samme
+  "gættet myndighedssti"-mønster som Kretas UNESCO-ID-fejl i nr. 5. Erstattet med den
+  verificerede Alfama-side, som selv nævner Sé-katedralens 1147.
+- `rejsevejledning` holdt sig til den virkelige lovhjemmel (Lei n.º 23/2007, art. 15-16, via
+  Portaria 321/2023 om SIBA-indberetning) uden at opfinde ministerafgørelsesnumre — den
+  modsatte lektie af nr. 5's opdigtede "91354/2017".
+
+### Praktisk-noter
+
+- Intet kort i dette nummer: `.venv` peger på en slettet Homebrew-Python (ødelagt symlink),
+  og system-Python mangler geopandas — `generate_map.py` kunne ikke køre. Noteret i
+  nummerets `images/SOURCES.md`. Geografien dækkes af navngivne steder i teksten.
+- `openai/gpt-5.6-terra` (modeller.json-ID'et, ikke `openai/gpt-5.6` fra nr. 5's ledger)
+  kommissionerede uden fejl — ingen grund til at bruge den korte variant fremover.
+
 ## Løfter givet i nr. 5
 
 - **Bagsiden:** næste horisont venter fortsat i Europa (uændret løfte).

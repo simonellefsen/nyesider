@@ -1,0 +1,227 @@
+{
+  "budget": {
+    "articles": 6,
+    "note": "Kompakt som nr. 5. Indfrier nr. 5's to bagsideløfter: FAA-afgørelse (foreligger: FONSI/ROD 2. sep. 2026) og Starmind-opfølgning (ikke opsendt; FCC-spor sep. 2026). EU-SSA/liability-sporet fra nr. 3/4 genbesøges som europæisk vinkel (EU SST 700+ satellitter, EUSPA sep. 2026).",
+    "targetPages": 12,
+    "wordsPerArticle": [
+      300,
+      700
+    ]
+  },
+  "issue": "2026-10-nr6",
+  "issueTheme": "Løfterne indfries: FAA siger ja til Stillehavet, Starmind venter stadig på rampen",
+  "magazine": "orbit",
+  "opgaver": [
+    {
+      "brief": {
+        "angle": "Kort leder der introducerer temaet: nr. 5 lovede to opfølgninger, og begge leveres her — FAA's miljøafgørelse om Starbase' Stillehavs-genindtræden foreligger (ja, afgjort 2. september 2026), mens Starmind stadig ikke er sendt op. Nævn kort at nummeret også tjekker det europæiske SSA-spor.",
+        "format": "leder",
+        "mustCite": 0,
+        "words": [
+          150,
+          250
+        ]
+      },
+      "order": 1,
+      "receipt": {
+        "costUSD": null,
+        "draft": null,
+        "words": null
+      },
+      "section": "Leder",
+      "slug": "leder",
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-10-03",
+        "citations": 0,
+        "editorNote": "Redaktionens egen leder, ingen byline, ingen API-kald."
+      },
+      "writer": {
+        "byline": null,
+        "fallback": null,
+        "model": "editor-led"
+      }
+    },
+    {
+      "brief": {
+        "angle": "Tallet: en kildebelagt mini-tabel over nummerets nøgletal. PRÆCISE tal: FAA's høringsperiode for udkastet løb 13. juli–3. august 2026 (22 dage, efter forlængelse) med 37 modtagne høringssvar; den endelige afgørelse (FONSI/ROD) blev dateret 2. september og offentliggjort i Federal Register 4. september 2026 (kilder: https://www.faa.gov/space/stakeholder_engagement/spacex_starship og https://www.federalregister.gov/documents/2026/09/04/2026-18135/notice-of-availability-on-the-final-tiered-environmental-assessment-and-finding-of-no-significant ). Starmind AI1: ca. 30 m høj, 75 m vingefang, op til 250 kW peak / 175 kW gennemsnit, ca. 4 tons pr. platform, ansøgning om op til 1 million satellitter (kilder: https://www.spacex.com/spacexai/starmind og https://satnews.com/2026/09/19/spacex-submits-fcc-re-entry-debris-and-collision-risk-analysis-for-starmind-orbital-data-center-constellation/ ). EU SST: over 400 organisationer modtager tjenester, over 700 satellitter beskyttes mod kollision (kilde: https://www.euspa.europa.eu/eu-space-programme/ssa/eu-sst ). Skriv tabellen nøgternt; opdigt INGEN andre tal.",
+        "format": "tallet",
+        "mustCite": 4,
+        "mustNumber": [
+          "13. juli–3. august 2026, 37 høringssvar",
+          "2. september 2026 (FONSI/ROD)",
+          "250 kW peak / 175 kW gennemsnit",
+          "700+ satellitter i EU SST"
+        ],
+        "words": [
+          300,
+          450
+        ]
+      },
+      "order": 2,
+      "receipt": {
+        "words": 409,
+        "costUSD": 0.01972,
+        "draft": "kladder/02-tallet.md",
+        "costRouting": "byok",
+        "generationId": "gen-1791038837-YhvhWBBpS6JvB0KZKinZ"
+      },
+      "section": "Tallet",
+      "slug": "tallet",
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-10-03",
+        "citations": 5,
+        "editorNote": "Faktatjekket mod FAA/Federal Register/SpaceX/SatNews/EUSPA. Rettet: literal \\u00a0-escape i kladden til ægte nbsp; fjernet underlig formulering; tilføjet FCC-gloss efter check_issue-advarsel."
+      },
+      "writer": {
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "fallback": "deepseek/deepseek-v3.2",
+        "model": "anthropic/claude-sonnet-5"
+      }
+    },
+    {
+      "brief": {
+        "angle": "Feature om FAA's afgørelse: den amerikanske luftfartsmyndighed FAA (Federal Aviation Administration) har sagt ja til SpaceX' Stillehavs-plan. PRÆCISE, verificerede facts: udkastet til den trinvise miljøvurdering (Tiered Environmental Assessment) var i høring 13. juli–3. august 2026 (22 dage efter en uges forlængelse) med 37 høringssvar; den endelige vurdering plus FONSI/ROD (Finding of No Significant Impact / Record of Decision — altså konstatering af ingen væsentlig miljøpåvirkning med tilladelse til at gå videre) blev dateret 2. september og offentliggjort i Federal Register 4. september 2026, docket FAA-2026-6968. NASA (National Aeronautics and Space Administration) og kystvagten USCG var kooperative myndigheder. Tilladelsen dækker: et nyt nordligt Stillehavs-nødlandingsområde (Northern Pacific Contingency Landing Area syd for Aleuterne) plus udvidelse af to eksisterende områder (Hawaii/det centrale Stillehav og det sydøstlige Stillehav) samt luftrumslukninger for en ekstra genindtræningsbane til landing ved Starbase i Texas. Fuldbyrdelsen af miljøvurderingen garanterer ikke i sig selv licensændringen — skriv den sondring eksplicit. Nævn at bl.a. pilotforeningen ALPA indgav kritiske høringssvar om luftrumssikkerhed. Kilder (brug disse konkrete URL'er, gæt ingen andre): https://www.faa.gov/space/stakeholder_engagement/spacex_starship — https://www.federalregister.gov/documents/2026/09/04/2026-18135/notice-of-availability-on-the-final-tiered-environmental-assessment-and-finding-of-no-significant . Pointen: høringen er lukket, afgørelsen foreligger — Stillehavet er nu formelt farbart for Starship-nødlandinger.",
+        "format": "feature",
+        "mustCite": 2,
+        "mustNumber": [
+          "3. august 2026: høringen lukkede",
+          "2. september 2026: FONSI/ROD",
+          "37 høringssvar"
+        ],
+        "words": [
+          450,
+          650
+        ]
+      },
+      "order": 3,
+      "receipt": {
+        "words": 477,
+        "costUSD": 0.0190925,
+        "draft": "kladder/03-faa-afgoerelse.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1791038854-Q5o1JTzZx6ndewP4qiGU"
+      },
+      "section": "Opsendelser",
+      "slug": "faa-afgoerelse",
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-10-03",
+        "citations": 2,
+        "editorNote": "Faktatjekket: datoer, 37 svar, docket-nummer og tre havområder holder mod FAA/Federal Register. Rettet: fodnoter til URL-form; ALPA/NASA/USCG udfoldet."
+      },
+      "writer": {
+        "byline": "GPT-5.6 Terra (OpenAI)",
+        "fallback": "deepseek/deepseek-v3.2",
+        "model": "openai/gpt-5.6-terra"
+      }
+    },
+    {
+      "brief": {
+        "angle": "Feature og ærlig status: Starmind (SpaceX' planlagte orbitale AI-konstellation, navngivet 24. juni 2026) er stadig IKKE sendt op pr. 3. oktober 2026 — skriv det eksplicit i første afsnit, opdigt intet facit. PRÆCISE, verificerede facts: AI1-prototyperne sigter mod tidligt 2027 med serieproduktion sent 2027 fra Gigasat-fabrikken i Bastrop, Texas; SpaceX' egen produktside angiver ca. 30 m højde, 75 m vingefang, op til 250 kW peak / 175 kW gennemsnit pr. satellit i solsynkron bane (SSO) med laserlinks via Starlink (kilde: https://www.spacex.com/spacexai/starmind ). 18. september 2026 indsendte SpaceX et 12-siders teknisk svar til tele-tilsynet FCC (Federal Communications Commission) om genindtræning og kollisionsrisiko for de ca. 4 tons tunge platforme (kilde: https://satnews.com/2026/09/19/spacex-submits-fcc-re-entry-debris-and-collision-risk-analysis-for-starmind-orbital-data-center-constellation/ ). Baggrunden fra juni 2026 (navnet bekræftet af Musk, FCC-ansøgning om op til 1 million satellitter) dækkes kort (kilde: https://www.space.com/space-exploration/launches-spacecraft/another-star-is-born-spacex-names-ai-megaconstellation-starmind ). Lever selve figuren som beskrivelse, men skriv den IKKE ind i brødteksten som kodeblok eller inline-SVG; indsæt ingen [CHART ...]-referencer. Pointen: papirarbejdet rykker (FCC-sporet lever), men rampen er stadig tom.",
+        "format": "feature",
+        "mustCite": 3,
+        "mustNumber": [
+          "0 Starmind-satellitter i kredsløb pr. okt. 2026",
+          "tidligt 2027: AI1-prototyper",
+          "18. september 2026: FCC-svar"
+        ],
+        "words": [
+          450,
+          650
+        ]
+      },
+      "order": 4,
+      "receipt": {
+        "words": 644,
+        "costUSD": 0.08243,
+        "draft": "kladder/04-starmind-status.md",
+        "costRouting": "byok",
+        "generationId": "gen-1791038886-Aw9FWWQfAkSLoJeaGJxh"
+      },
+      "section": "Konstellationer",
+      "slug": "starmind-status",
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-10-03",
+        "citations": 3,
+        "editorNote": "Ærlig nul-status holdt som briefet. Fjernet ubelagte sammenligninger (A380, europæiske satellitters effekt) og strammet til briefede tal."
+      },
+      "writer": {
+        "byline": "Gemini 3.1 Pro Preview (Google)",
+        "fallback": "deepseek/deepseek-v3.2",
+        "model": "google/gemini-3.1-pro-preview"
+      }
+    },
+    {
+      "brief": {
+        "angle": "Feature om det europæiske svar på trængslen: EU's rumovervågning EU SST (EU Space Surveillance and Tracking, under EUSPA — EU's rumprogramagentur) beskytter nu over 700 satellitter og leverer kollisionsvarsling, genindtræningsanalyse og fragmenteringsanalyse til over 400 organisationer (kilder: https://www.euspa.europa.eu/eu-space-programme/ssa/eu-sst og https://www.euspa.europa.eu/eu-space-programme/ssa ). Sæt det op mod nr. 4's to pointer: det kommercielle SSA-marked konsolideres (Andurils køb af ExoAnalytic) mens juraen halter — FN's Liability Convention (erstatningskonventionen fra 1972: opsendelsesstaten hæfter absolut for skader på Jorden, men skyld skal bevises ved skader i selve rummet) er stadig aldrig brugt til en satellitkollision, heller ikke efter Iridium-Cosmos 2009. Nævn EU's markedsrapport 2026 (SSA som vækstområde ved siden af sikker satellitkommunikation som IRIS² med 290 satellitter) kvalitativt uden at opdigte sidetal. Pointen: Europa bygger operationel overvågning, mens ansvars-spørgsmålet stadig er uafprøvet — sporet fra nr. 3 er altså stadig åbent og værd at følge.",
+        "format": "feature",
+        "mustCite": 2,
+        "mustNumber": [
+          "700+ satellitter beskyttet",
+          "400+ organisationer",
+          "0 gange Liability Convention brugt til kollision"
+        ],
+        "words": [
+          450,
+          650
+        ]
+      },
+      "order": 5,
+      "receipt": {
+        "words": 382,
+        "costUSD": 0.00141756,
+        "draft": "kladder/05-europaeisk-ssa.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1791038944-bqqmxFclA0xj92SKek5G"
+      },
+      "section": "Rumskrot & sikkerhed",
+      "slug": "europaeisk-ssa",
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-10-03",
+        "citations": 3,
+        "editorNote": "Vage/ubelagte fodnoter erstattet med verificerede EUSPA/UNOOSA-URLer; ubelagt IRIS²-satellittal (290) fjernet til kvalitativ omtale; konkrete Anduril/ExoAnalytic-tal fra nr. 4 genindsat."
+      },
+      "writer": {
+        "byline": "DeepSeek V3.2 (DeepSeek)",
+        "fallback": "google/gemini-3.5-flash",
+        "model": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "brief": {
+        "angle": "Rygtebørs-bagsnit i ORBITs etablerede korte, nøgterne stil: løse rygter og småhistorier, ingen kildekrav. Slut med et konkret bagsideløfte til nr. 7 der IKKE dublerer dette nummers indhold (altså IKKE FAA-Stillehavet, IKKE Starmind, IKKE EU-SST/liability — de er brugt her). Vælg i stedet fx årets opsendelsestempo 2026 (global optælling), Ariane 6's årsregnskab, Themis' hop-test hvis den flyver, eller IRIS²-udrulningen.",
+        "format": "rygteboersen",
+        "mustCite": 0,
+        "words": [
+          300,
+          500
+        ]
+      },
+      "order": 6,
+      "receipt": {
+        "words": 440,
+        "costUSD": 0.024662,
+        "draft": "kladder/06-rygteboersen.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1791039028-YRUJsReZr2TwEncZWmLC"
+      },
+      "section": "Rygtebørs",
+      "slug": "rygteboersen",
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-10-03",
+        "citations": 0,
+        "editorNote": "Fjernet ubelagt 40-procents-påstand om startups; udfoldet GEO/ESA/rideshare; bagsideløfte til nr. 7 (IRIS²) tjekket mod nummerets indhold — kun nævnt i én sætning i SSA-artiklen, ingen dublering af hovedstof."
+      },
+      "writer": {
+        "byline": "Qwen3.7 Max (Alibaba)",
+        "fallback": "deepseek/deepseek-v3.2",
+        "model": "qwen/qwen3.7-max"
+      }
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+# EU SST: Europa holder vagt over de 700
+
+Hvem holder øje med den voksende sværm af satellitter og rumskrot i det allerede tætte banerum? For flere end 400 kommercielle og offentlige organisationer er svaret det europæiske svar: **EU Space Surveillance and Tracking (EU SST)**. Opereret under EUSPA (EU's rumprogramagentur) beskytter det overvågningsnetværk nu mere end 700 satellitter med tjenester som kollisionsvarsling, analyse af genindtrængen i atmosfæren og sporing af fragmenteringer efter eksplosioner eller sammenstød.[^1]
+
+Dette sætter fokus på en af rumfartens mest pressende udfordringer: sikkerheden i et stadig mere trafikeret rum. EU SST repræsenterer en strategisk europæisk indsats for at skabe selvstændig, operationel overvågningskapacitet. Initiativet vokser i takt med behovet, og ifølge EUSPAs egen markedsanalyse for 2026 ses rumovervågning og -sikkerhed som et vækstområde, sideløbende med udbygningen af EU’s sikre satellitkommunikationsprogram, IRIS², der skal tælle 290 satellitter.
+
+Den europæiske løsning sættes på prøve i en tid, hvor det kommercielle marked for **rumovervågning (Space Situational Awareness, SSA)** også konsolideres. For nylig blev den amerikanske SSA-leverandør ExoAnalytic Solutions opkøbt af forsvarstech-selskabet Anduril, hvilket tydeliggør den strategiske værdi af præcise data om objekter i kredsløb.
+
+Men teknisk kapacitet er kun den ene side af sagen. Den juridiske ramme for ansvar ved kollisioner er stadig stort set uafprøvet. **FN's *Liability Convention* (erstatningskonventionen)** fra 1972 fastslår, at opsendelsesstaten hæfter absolut for skader forårsaget af dens rumgenstande på jorden eller mod luftfartøjer i luften. For skader i rummet selv – f.eks. ved sammenstød mellem to satellitter – skal der derimod påvises **skyld**. Denne distinktion er aldrig blevet brugt i en reel satellitkollisionssag, heller ikke efter det berømte sammenstød mellem Iridium 33 og Cosmos 2251 i 2009.[^2]
+
+Mens Europa og andre aktører derfor med succes bygger den nødvendige operationelle overvågning, forbliver sporet omkring det juridiske og ansvarsmæssige spørgsmål åbent. EU SST beskytter allerede en betydelig flåde af satellitter, men selve rammerne for, hvem der betaler, hvis beskyttelsen svigter, er stadig teoretiske. Dette gør det til et kritisk område at følge, ikke kun for operatørerne af de 700+ satellitter, men for hele den globale rumindustris fremtidige bæredygtighed.
+
+[^1]: EUSPA, "EU Space Surveillance and Tracking (EU SST)," https://www.euspa.europa.eu/eu-space-programme/ssa/eu-sst (besøgt marts 2026).
+[^2]: United Nations Office for Outer Space Affairs, "Convention on International Liability for Damage Caused by Space Objects," 1972. Se også analyser af Iridium-Cosmos-hændelsen, f.eks. via Secure World Foundation.

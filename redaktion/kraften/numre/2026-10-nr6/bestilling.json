@@ -1,0 +1,263 @@
+{
+  "budget": {
+    "articles": 7,
+    "note": "Indfrier nr. 5's bagsideløfte: en satellit gennem Jordens skygge. Kompakt som nr. 5. KRAFTEN tager rum-watt, ikke opsendelser.",
+    "targetPages": 12,
+    "wordsPerArticle": [
+      300,
+      650
+    ]
+  },
+  "issue": "2026-10-nr6",
+  "issueTheme": "Gennem skyggen: solpaneler, batterier og strømstyring når lyset forsvinder",
+  "magazine": "kraften",
+  "opgaver": [
+    {
+      "brief": {
+        "angle": "Kort leder der introducerer temaet: hver satellit lever af lys, men bruger det meste af sin tid på at forberede sig på mørke. Fra lav jordbane til geostationær bane er formørkelsen den hårdeste, mest forudsigelige prøve et elsystem kan få — og den forklarer, hvorfor rumkraft handler om batterier og styring lige så meget som om paneler. Indfrier nr. 5's bagsideløfte.",
+        "format": "leder",
+        "mustCite": 0,
+        "words": [
+          150,
+          250
+        ]
+      },
+      "order": 1,
+      "receipt": {
+        "costUSD": null,
+        "draft": null,
+        "words": null
+      },
+      "section": "Leder",
+      "slug": "leder",
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-10-03",
+        "citations": 0,
+        "editorNote": "Redaktionens egen leder, ingen byline."
+      },
+      "writer": {
+        "byline": null,
+        "fallback": null,
+        "model": "editor-led"
+      }
+    },
+    {
+      "brief": {
+        "angle": "Tallet: 72 minutter — den længste formørkelse en geostationær satellit oplever i døgnet ved jævndøgn, når Jordens skygge rammer fuldt. Brug PRÆCIS disse verificerede tal: GEO (geostationær bane, ca. 35.786 km over ækvator): op til 72 minutters formørkelse pr. døgn i formørkelsessæsonerne, som ligger ca. sidst i februar til midt i april og sidst i august til midt i oktober (ca. 45 dage hver) — kilde https://www.nesdis.noaa.gov/our-satellites/currently-flying/goes-east-west/goes-eclipse-schedule . LEO (lav jordbane, f.eks. ISS i ca. 400 km højde): ca. 90 minutters omløb, heraf ca. 30 minutters formørkelse pr. omløb — kilde https://ntrs.nasa.gov/api/citations/20160014034/downloads/20160014034.pdf (ISS Electrical Power overview, side 4-5). GOES-batterierne (28 celler, 12 Ah) dimensioneres til 60 % DOD (depth of discharge, afladningsdybde) ved de 72 minutter — kilde https://ntrs.nasa.gov/api/citations/19990004147/downloads/19990004147.pdf . Byg Tallet som en lille tabel GEO vs LEO: højde, omløbstid, maks. formørkelse, sæson. Udfold alle forkortelser første gang (LEO = lav jordbane/low Earth orbit, GEO = geostationær bane/geostationary orbit, DOD = afladningsdybde/depth of discharge, Ah = amperetime).",
+        "format": "tallet",
+        "mustCite": 3,
+        "mustNumber": [
+          "72 minutter (GEO maks.)",
+          "30 minutter pr. 90 minutters omløb (LEO/ISS)",
+          "45 dage pr. formørkelsessæson (GEO)"
+        ],
+        "words": [
+          300,
+          450
+        ]
+      },
+      "order": 2,
+      "receipt": {
+        "words": 389,
+        "costUSD": 0.0164,
+        "draft": "kladder/02-tallet.md",
+        "costRouting": "byok",
+        "generationId": "gen-1791038849-cOzLOELV8CCFCh2DzIoy"
+      },
+      "section": "Tallet",
+      "slug": "tallet",
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-10-03",
+        "citations": 3,
+        "editorNote": "Faktatjekket mod NOAA/NTRS; alle tal stemmer. Literal-escapes rettet til nbsp."
+      },
+      "writer": {
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "fallback": "deepseek/deepseek-v3.2",
+        "model": "anthropic/claude-sonnet-5"
+      }
+    },
+    {
+      "brief": {
+        "angle": "Feature om solpaneler i rummet: hvorfor en satellits paneler ligner jordiske solceller, men ikke er det. Brug PRÆCIS disse verificerede tal: moderne triple-junction-celler af galliumarsenid-typen (GaInP/GaAs/Ge) når ca. 32 % virkningsgrad ved opsendelse (BOL = beginning of life, tilstanden ved opsendelse) — kilde https://www.spectrolab.com/photovoltaics/XTE-SF_Data_Sheet.pdf (Spectrolab XTE-SF, 32,2 % BOL) og https://www.spectrolab.com/ (32 %). Forklar at stråling nedbryder cellerne, så EOL (end of life, tilstanden ved missionens afslutning) er lavere, og at paneler dimensioneres efter EOL-effekt, ikke BOL. Brug ISS som eksempel på skala: hvert nyt iROSA-panel (ISS Roll-Out Solar Array) leverer over 20 kW, seks paneler tilsammen over 120 kW ekstra, hvilket løfter stationens effekt med 20-30 % — kilde https://www.nasa.gov/missions/station/new-solar-arrays-to-power-nasas-international-space-station-research . Forklar kort hvorfor paneler i rummet giver mere pr. kvadratmeter end på jorden (ingen atmosfære, AM0-solspektrum), men også koster mere pr. watt. Skeln nameplate (mærkeeffekt ved opsendelse) / i drift / planlagt. Udfold forkortelser første gang: BOL, EOL, kW, iROSA. Brug den konkrete side, ikke domænets forside.",
+        "format": "feature",
+        "mustCite": 3,
+        "mustNumber": [
+          "32 % virkningsgrad (BOL)",
+          "20+ kW pr. iROSA-panel",
+          "120 kW ekstra / 20-30 % løft (ISS)"
+        ],
+        "words": [
+          400,
+          600
+        ]
+      },
+      "order": 3,
+      "receipt": {
+        "words": 484,
+        "costUSD": 0.033391,
+        "draft": "kladder/03-solpaneler-i-rummet.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1791038871-kVutSnB6QOetGV9RC4Il"
+      },
+      "section": "Panelerne",
+      "slug": "solpaneler-i-rummet",
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-10-03",
+        "citations": 3,
+        "editorNote": "NREL-fodnote erstattet med Spectrolab-oversigt; forkortelser udfoldet pr. artikel."
+      },
+      "writer": {
+        "byline": "GPT-5.6 Terra (OpenAI)",
+        "fallback": "deepseek/deepseek-v3.2",
+        "model": "openai/gpt-5.6-terra"
+      }
+    },
+    {
+      "brief": {
+        "angle": "Feature om batterierne der bærer natten: fra nikkel-brint til litium-ion. Brug PRÆCIS disse verificerede tal: ISS fløj oprindeligt med nikkel-brint-batterier (Ni-H2) dimensioneret til maks. 35 % DOD (afladningsdybde) i lav jordbane — kilde https://ntrs.nasa.gov/citations/20200000004 (ISS Lithium-Ion Battery Status, NASA NTRS). Fra 2017 blev de skiftet til litium-ion (Li-ion): 24 litium-ion-batterier á over 180 kg (400 pund) hver, færdiggjort 1. februar 2021 efter 14 rumvandringer — kun halvt så mange som de 48 nikkel-brint-batterier de erstattede — kilde https://www.pbs.org/newshour/science/astronauts-complete-4-years-of-power-upgrades-for-international-space-station . Hvert litium-ion-modul rummer 30 celler i serie, ca. 15 kWh — kilde https://nsc.nasa.gov/docs/default-source/event-docs/combined-508-presentation-shla-4-11-17.pdf (ISS Li-ion safety, side 2-3). Forklar DOD (depth of discharge) og Wh/kg (watt-timer pr. kilogram, energitæthed) i klar dansk, og hvorfor færre, tungere batterier vinder: højere energitæthed og længere levetid betyder færre udskiftninger. I dag er litium-ion standarden; nikkel-cadmium (NiCd) og nikkel-brint regnes for ældre kemi — kilde https://www.nasa.gov/smallsat-institute/sst-soa/power-subsystems/ . Tjek at intet 'kommende' batteriprojekt beskrives som aktivt uden aktuel kilde (Xlinks-læringen).",
+        "format": "feature",
+        "mustCite": 3,
+        "mustNumber": [
+          "35 % DOD (Ni-H2 oprindeligt)",
+          "24 batterier / 14 rumvandringer / februar 2021",
+          "30 celler i serie, ca. 15 kWh pr. modul"
+        ],
+        "words": [
+          400,
+          600
+        ]
+      },
+      "order": 4,
+      "receipt": {
+        "words": 390,
+        "costUSD": 0.0007141,
+        "draft": "kladder/04-batterier-overlever-natten.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1791038947-Od4fDdzpZtMq1kWxVbHB"
+      },
+      "section": "Batterierne",
+      "slug": "batterier-overlever-natten",
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-10-03",
+        "citations": 4,
+        "editorNote": "Kladde-fejl rettet: 45 min mørke -> ca. 30 min; årstal og tal verificeret."
+      },
+      "writer": {
+        "byline": "DeepSeek V3.2 (DeepSeek)",
+        "fallback": "google/gemini-3.5-flash",
+        "model": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "brief": {
+        "angle": "Feature om strømstyringen (EPS = electric power system, satellittens elsystem): hvad der sker i minutterne omkring ind- og udtræden af skyggen. Brug PRÆCIS disse verificerede fakta: ISS-kredsløbet er ca. 90 minutter med ca. 30 minutters formørkelse, hvor batterierne leverer hele lasten og lades op igen i solfasen via laderegulatoren (BCDU = battery charge/discharge unit) — kilde https://ntrs.nasa.gov/api/citations/20160014034/downloads/20160014034.pdf (side 4, 8-10). Systemet har tabeller for load shedding (planlagt afbrydelse af ikke-kritiske laster), fejlisolering via sikringer/afbrydere, og panelerne peges aktivt mod Solen med en pegealgoritme — samme kilde side 9-10. GOES-satellitterne i geostationær bane kører på batterier op til 72 minutter pr. døgn i formørkelsessæson og drosler instrumenter ned efter faste regler — kilde https://www.ospo.noaa.gov/operations/goes/eclipse.html og https://ntrs.nasa.gov/api/citations/19990004147/downloads/19990004147.pdf . Forklar safe mode (sikkerhedstilstand, hvor satellitten ofrer missionen for at redde strømmen) som det yderste værn. Vinklen: strømstyring er den usynlige halvdel af rumkraft — paneler og batterier er kun så gode som den computer, der prioriterer mellem dem. Udfold EPS, BCDU, LEO, GEO første gang.",
+        "format": "feature",
+        "mustCite": 3,
+        "mustNumber": [
+          "90 minutters omløb / 30 minutters formørkelse (ISS)",
+          "72 minutter på batteri pr. døgn (GEO/GOES i sæson)",
+          "1150 W nominel last (GOES)"
+        ],
+        "words": [
+          400,
+          600
+        ]
+      },
+      "order": 5,
+      "receipt": {
+        "words": 516,
+        "costUSD": 0.056518,
+        "draft": "kladder/05-stroemstyring-formoerkelse.md",
+        "costRouting": "byok",
+        "generationId": "gen-1791039025-aKxWgZKKIMJBGegEyAiK"
+      },
+      "section": "Styringen",
+      "slug": "stroemstyring-formoerkelse",
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-10-03",
+        "citations": 3,
+        "editorNote": "Faktatjekket mod NTRS/NOAA; 1150 W og 72 min verificeret."
+      },
+      "writer": {
+        "byline": "Gemini 3.1 Pro Preview (Google)",
+        "fallback": "deepseek/deepseek-v3.2",
+        "model": "google/gemini-3.1-pro-preview"
+      }
+    },
+    {
+      "brief": {
+        "angle": "Feature-casen: følg ISS gennem ét kredsløb — 90 minutter fra sollys ind i Jordens skygge og ud igen. Byg fortællingen på PRÆCIS disse verificerede tal: 8 solcelle-vinger (SAW = solar array wing) med ca. 31 kW hver ved opsendelse, ca. 248 kW samlet nameplate — kilde https://ntrs.nasa.gov/api/citations/20160014034/downloads/20160014034.pdf (side 5). Seks nye iROSA-vinger lægger hver over 20 kW til (over 120 kW samlet), så stationen ender med op til ca. 215 kW til rådighed — kilde https://www.nasa.gov/missions/station/new-solar-arrays-to-power-nasas-international-space-station-research og https://spacenews.com/new-solar-arrays-to-power-nasas-international-space-station-research (11. januar 2021). Beskriv minut for minut: panelerne lader batterierne i solfasen, batterierne tager over i de ca. 30 minutters mørke, styringen smider ikke-kritisk last ved behov. Nævn at panelerne fjerres (drejes af vejen) ved rumvandringer og at besøgende fartøjers dyser, skygger og nedbrydning æder af effekten over år — samme NTRS-kilde side 6-7. Pointen: selv menneskehedens største solcelleanlæg lever på lånt tid hver eneste time — og overlever, fordi nogen har regnet på mørket. Udfold SAW, iROSA, LEO første gang.",
+        "format": "feature",
+        "mustCite": 3,
+        "mustNumber": [
+          "31 kW pr. vinge / 248 kW samlet (BOL)",
+          "20+ kW pr. iROSA / 215 kW samlet efter opgradering",
+          "30 minutters formørkelse pr. 90 minutters omløb"
+        ],
+        "words": [
+          400,
+          600
+        ]
+      },
+      "order": 6,
+      "receipt": {
+        "words": 451,
+        "costUSD": 0.00953,
+        "draft": "kladder/06-iss-gennem-skyggen.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1791039065-Z0kLazitIOYp8s39UUvO"
+      },
+      "section": "Casen",
+      "slug": "iss-gennem-skyggen",
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-10-03",
+        "citations": 3,
+        "editorNote": "Fjernet ubriefet 10-15 %-påstand; rettet opsendelsesår og Ni-H2-anakronisme til Li-ion."
+      },
+      "writer": {
+        "byline": "Mistral Large (Mistral AI)",
+        "fallback": "deepseek/deepseek-v3.2",
+        "model": "mistralai/mistral-large"
+      }
+    },
+    {
+      "brief": {
+        "angle": "Rygtebørs-bagsnit i KRAFTENs etablerede korte, nøgterne stil: løse rygter og småhistorier fra elektrificerings- og rumkraftverdenen, ingen kildekrav. Slut med et konkret bagsideløfte til nr. 7: når en satellit kan overleve 72 minutter i Jordens skygge, hvad kræver det så at holde lys i 14 døgn i træk — elnettet på Månen og overlevelse gennem månenatten.",
+        "format": "rygteboersen",
+        "mustCite": 0,
+        "words": [
+          300,
+          500
+        ]
+      },
+      "order": 7,
+      "receipt": {
+        "words": 328,
+        "costUSD": 0.02295985,
+        "draft": "kladder/07-rygteboers.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1791039088-sMDhig4L7WKFmqaC4w8f"
+      },
+      "section": "Rygtebørs",
+      "slug": "rygteboers",
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-10-03",
+        "citations": 0,
+        "editorNote": "MustCite 0; forkortelser udfoldet; bagsideløfte til nr. 7 om månenatten."
+      },
+      "writer": {
+        "byline": "Qwen3.7 Max (Alibaba)",
+        "fallback": "deepseek/deepseek-v3.2",
+        "model": "qwen/qwen3.7-max"
+      }
+    }
+  ]
+}

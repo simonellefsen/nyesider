@@ -1,6 +1,6 @@
 # KULTURBOXEN – Redaktionsnotesbog
 
-Opdateret efter nr. 5 (2026-09-12, *"Japan uden kirsebærtræer"*).
+Opdateret efter nr. 6 (2026-10-03, *"Portugal — landet bag postkortet"*).
 OpenRouter: **kun** `.env.kulturboxen`. Imagine: `.env.local` / `XAI_API_KEY`.
 
 ## Identitet
@@ -240,14 +240,62 @@ andre titler tidligere har set fra andre modeller. Redaktionen fandt og indsatte
 korrekte, verificerede artikel-URL. Kladden var samtidig kortere end briefet (269 mod 450-650
 ord) — accepteret uden kunstig udfyldning, da indholdet allerede var fuldt dækkende.
 
-## Løfter givet i nr. 5
+## Nr. 6 — udgivet 2026-10-03
+
+**Tema:** Portugal — hverdag, arbejde, bolig, mad, penge, normer. **7 artikler, 2.231
+ord.** Seks artikler reelt kommissioneret på `.env.kulturboxen`; lederen er
+redaktionens uden byline. Forbrug **0,1065 USD**. `check_issue.py`: **0 fejl,
+0 advarsler.** `check_links.py`: **0 døde links** (1 bot-blokeret, Banco de
+Portugal, læst manuelt — samme kategori som Japan Times i nr. 5).
+`bestilling.json`: `redaktion/kulturboxen/numre/2026-10-nr6/bestilling.json`.
+
+**Søster: HORISONTEN nr. 6 (Lissabon-weekend) — planlagt, endnu ikke på disk.**
+Derfor INGEN interne krydslinks i dette nummer, jf. bestillingen. Når søsteren
+udkommer, kan «Til HORISONTEN»-bagsnittet få sit link ved genoptryk.
+
+### Kernetal
+
+- **Mindsteløn (RMMG):** 870 euro/md. fra 1. januar 2025 (Decreto-Lei 112/2024),
+  sti mod 1.020 euro i 2028. Gennemsnitsløn (INE): 1.602 euro/md. i 2024.
+- **Branchespecifikt (INE Conta Satélite):** løn pr. ansat i turismeerhverv kun
+  91,1 % af landsgennemsnittet (2022), 92,8 % (2023) — mens turismen stod for
+  8,1 % af BVT og 16,6 % af BNP i forbrug (2024).
+- **Bolig (INE 2024, 98.657 nye kontrakter):** national medianleje 7,97 euro/m2
+  (+10,5 %); Lissabon 15,93; Porto 12,58. Salg: 1.777 nationalt, 4.340 Lissabon.
+- **Fisk:** ca. 59 kg pr. indbygger (EU-snit ca. 25 kg); bacalhau ca. 15 kg,
+  ca. 30 % i julen (NSC via Lusa).
+- **Penge (BdP 2024):** kort 89,5 % af elektroniske detailbetalinger;
+  395,3 kortbetalinger pr. indbygger; kontaktløst 56,7 % af kortkøb;
+  MB Way 496 mio. køb, 6,2 mio. brugere (ca. 75 % af bankkunderne).
+
+### To fælder fanget
+
+- **To INE deep-link-PDF'er serverede byte-identisk fil.** To forskellige
+  `attachfileu.jsp?...boui=...`-adresser returnerede samme 713.108 bytes —
+  INE ignorerer tilsyneladende parameteren, præcis som Geostat ignorerer
+  sluggen (nr. 1-læringen). **Brugt i stedet:** INE's destaque-landingsside +
+  dados.gov.pt-datasættet (titel verificeret). Endnu et eksempel på, at status
+  200 ikke beviser indhold.
+- **En anakronistisk reference i kladden.** `tallet` kaldte unge lissabonnere
+  «geração à rasca» — det er en protestbevægelse fra 2011, ikke et nutidigt
+  øgenavn for en generation. Fjernet og erstattet med neutral beskrivelse.
+
+### Værktøjsfejl (ikke redaktionel)
+
+- **`generate_map.py` kunne ikke køre:** `.venv`'ens `python`-symlink er
+  brækket (peger på ikke-eksisterende homebrew-python), så geopandas kan ikke
+  importeres. Kort udeladt; byerne (Lissabon, Porto) er umiskendelige uden.
+  Nogen bør reparere `.venv` (eller `pip install -r requirements.txt` i en
+  frisk venv), før næste nummer med kortbehov.
+
+## Løfter givet i nr. 6
 
 - **Bagsiden:** ny kultur, samme nysgerrighed — emne endnu ikke valgt.
+- **Til HORISONTEN:** link til søsteren (Lissabon-weekend), når den udkommer.
 
-## Nr. 6 — kandidater
+## Nr. 7 — kandidater
 
-- ~~Japan uden kirsebærtræer~~ → **brugt i nr. 5** (2026-09-12).
-- Idébanken er tom — næste kultur skal findes fra bunden til nr. 6.
+- Idébanken er tom — næste kultur skal findes fra bunden til nr. 7.
 
 ## Format
 
@@ -256,6 +304,11 @@ ord) — accepteret uden kunstig udfyldning, da indholdet allerede var fuldt dæ
 
 ## Log
 
+- **2026-10-03:** Nr. 6 udgivet — Portugal, synket med planlagte HORISONTEN nr. 6
+  (Lissabon-weekend, endnu ikke på disk — derfor ingen krydslinks). To
+  kildefælder fanget (byte-identiske INE-PDF'er, anakronistisk geração
+  à rasca-reference). Se læringen ovenfor. `.venv`'ens Python-symlink er
+  brækket — generate_map.py kunne ikke køre.
 - **2026-09-12:** Nr. 5 udgivet — Japan uden kirsebærtræer. Idébanken tømt. Se læringen ovenfor:
   en for bred generalisering fanget mod en myndigheds egen branchespecifikke hvidbog, og en
   ubekræftelig budgettal-sammenligning fjernet frem for rettet, da tallene ikke var sammenlignelige.

@@ -220,15 +220,37 @@ fanget af `check_issue.py`, kun ved manuel gennemlæsning af kladden. Rettet til
 mellemrum i den endelige artikel. Værd at holde øje med i fremtidige Sonnet 5-kommissioner på
 tværs af titler.
 
-## Nr. 5 — kandidater
+## Nr. 5 — udgivet 2026-10-03
+
+**Tema:** Slesvig-Holsten før 1864 — hertugdømmerne, helstaten og den forfatning, der blev påskud
+**Slug:** `2026-10-nr5`
+6 artikler. Fem artikler reelt kommissioneret på `.env.kronike` (Claude Sonnet 5 ×2, GPT-5.6 Terra, Gemini 3.1 Pro Preview, DeepSeek V3.2); lederen er chefredaktionens og har **ingen byline**. Samlet forbrug **0,1402 USD**. `bestilling.json`: `redaktion/kronike/numre/2026-10-nr5/bestilling.json`.
+
+Features briefet til **700–900** (rettelse fra nr. 4). Struktur: Ribebrevet/helstaten, Treårskrigen/Isted, Londontraktaten vs. Aftalerne 1851–52 + Novemberforfatningen; Tallet og Myter i bagsnittet. 1864-krigen selv ligger i nr. 1 — dette nummer stopper ved tærsklen.
+
+### Kernetal
+
+- **Ribebrevet 5. marts 1460:** 18 segl; kåring «ikke som konge af Danmark»; sætningen *dat se bliven ewich tosamende ungedelt* er landfred, senere læst som *up ewig ungedeelt*.
+- **Isted 25. juli 1850:** ca. 37.000 vs. ca. 27.000; 845 danske faldne (sejrherren havde de største tab).
+- **Londontraktaten 8. maj 1852:** syv underskrivere; integritet + arvefølge; **ingen** bestemmelser om Slesvig.
+- **Novemberforfatningen:** vedtaget 13. november, underskrevet 18. november 1863 i Det gule Palæ — forfatningsretsligt ikke inkorporation.
+
+### Fact-check
+
+- Gemini-kladden lagde underskriften på **Amalienborg**. Korrekt: Det gule Palæ i Amaliegade (Gyldendal og Politikens Danmarkshistorie).
+- Myter-kladden henviste til en artikel af «Carsten Due-Nielsen», som ikke kunne verificeres. Erstattet med Peter Yding Brunbechs dokumenterede myte-artikel.
+- Treårskrigen-kladden gættede `danmarkshistorien.dk/vis/materiale/…` (410-mønsteret). Erstattet.
+- Kort via `generate_map.py` sprunget over: projektets `.venv/bin/python3` peger på en brudt 3.14-symlink, geopandas derfor utilgængeligt.
+
+## Nr. 6 — kandidater
 
 - **(2026-08) Kalmarunionen i dybden — Norge/Sverige-vinkler**
-- **(2026-08) Slesvig-Holsten før 1864**
 - **(2026-08) Besættelsen 1940–45 (uden at æde hele nummeret)**
 - **(2026-08) Inge Lehmann / Niels Bohr — videnskabsbiografier**
 
 ## Log
 
+- **2026-10-03:** Nr. 5 udgivet — "Slesvig-Holsten før 1864". Features 700–900. Se læringen: to dokumenter fra 1851–52 (noter vs. traktat) skal holdes ude fra hinanden i *hver* brief, der nævner 1864-årsagen; Gemini gættede underskriftsstedet.
 - **2026-09-12:** Nr. 4 udgivet — "Christian 4. og stormagtstiden". Se læringen ovenfor: en
   forkert relativ sammenligning (seks års høst i stedet for ét års) er lige så farlig som et
   opdigtet tal, fordi den ikke ligner en fabrikation ved første gennemlæsning.

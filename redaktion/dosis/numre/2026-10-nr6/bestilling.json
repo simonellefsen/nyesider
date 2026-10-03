@@ -1,0 +1,206 @@
+{
+  "budget": {
+    "articles": 6,
+    "note": "Kompakt som nr. 5. Indfrier nr. 5's bagsideløfte: obduktion af glemte superfødevarer. Tre cases (chia, goji, kokosvand) + Tallet + Rygtebørsen.",
+    "targetPages": 12,
+    "wordsPerArticle": [
+      300,
+      750
+    ]
+  },
+  "issue": "2026-10-nr6",
+  "issueTheme": "Kirkegården for glemte superfødevarer — en obduktion af, hvordan en wellness-myte dør",
+  "magazine": "dosis",
+  "opgaver": [
+    {
+      "brief": {
+        "angle": "Kort leder der introducerer temaet: chiafrø, gojibær og kokosvand gik alle fra 'essentiel' til glemt på få år. Fælles pointe: en superfood dør sjældent af modbevis — den dør af stilhed, når næste hype overtager hylden.",
+        "format": "leder",
+        "mustCite": 0,
+        "words": [
+          150,
+          250
+        ]
+      },
+      "order": 1,
+      "receipt": {
+        "costUSD": null,
+        "draft": null,
+        "words": null
+      },
+      "section": "Leder",
+      "slug": "leder",
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-10-03",
+        "citations": 0,
+        "editorNote": "Redaktionens egen leder, ingen byline, ingen API-kald."
+      },
+      "writer": {
+        "byline": null,
+        "fallback": null,
+        "model": "editor-led"
+      }
+    },
+    {
+      "brief": {
+        "angle": "Skeptisk obduktion af chiafrø: fra 'essentiel omega-3 og fiber' til glemt. Gennemgå hvad evidensen faktisk viste (små forsøg, surrogatmarkører som blodtryk/kolesterol, ikke hårde endepunkter), og hvordan markedsføringen løb foran. Nævn EFSA-sundhedsanprisninger som ramme hvor relevant, uden at opdigte danske anbefalinger. OPDIGT INGEN præcise danske markedsandele, salgstal, priser eller prævalenstal. Findes ingen dansk myndighedsanbefaling specifikt om chiafrø som 'essentiel' fødevare, skriv fraværet frem. Giv ALDRIG dosisråd til læseren.",
+        "format": "feature",
+        "mustCite": 2,
+        "words": [
+          500,
+          750
+        ]
+      },
+      "order": 2,
+      "receipt": {
+        "words": 660,
+        "costUSD": 0.025198,
+        "draft": "kladder/02-chia-glemt.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1791035258-SvmEblkkhbVKkW38nMUZ"
+      },
+      "section": "Ernæring & kost",
+      "slug": "chia-glemt",
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-10-03",
+        "citations": 4,
+        "editorNote": "Kladde-DOI 10.1016/j.nutres.2011.12.002 opløste til doenjang/kystfedme-arbejde (samme fejltype som nr. 1-læringen) — erstattet med Vuksan Salba-DOI (verificeret) + Nieman titel-uden-link. Død EU-register-URL erstattet med EFSA-emneside (200)."
+      },
+      "writer": {
+        "byline": "GPT-5.6 Terra (OpenAI)",
+        "fallback": "deepseek/deepseek-v3.2",
+        "model": "openai/gpt-5.6-terra"
+      }
+    },
+    {
+      "brief": {
+        "angle": "Skeptisk obduktion af gojibær: fra 'lykkelig bær, evig ungdom' til glemt. Gennemgå hvad de få små humanforsøg faktisk viste (korte forløb, subjektive mål, små stikprøver), og hvordan eksotisme + antioxidant-fortællingen bar hypen. SKELN mellem næringsindhold (C-vitamin, fiber) og sygdoms/health-claims. OPDIGT INGEN præcise danske salgstal, importtal eller ORAC-værdier som sundhedseffekt. Giv ALDRIG dosisråd.",
+        "format": "feature",
+        "mustCite": 2,
+        "words": [
+          500,
+          750
+        ]
+      },
+      "order": 3,
+      "receipt": {
+        "words": 631,
+        "costUSD": 0.021598,
+        "draft": "kladder/03-goji-glemt.md",
+        "costRouting": "byok",
+        "generationId": "gen-1791035292-kuRraNpDLgCiQhF6cdv8"
+      },
+      "section": "Ernæring & kost",
+      "slug": "goji-glemt",
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-10-03",
+        "citations": 2,
+        "editorNote": "Kladde skrev Amagalanova + fodnoter uden links — rettet til Amagase DOI 10.1089/acm.2008.0004 (verificeret via CSL-JSON) + EFSA-emneside."
+      },
+      "writer": {
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "fallback": "deepseek/deepseek-v3.2",
+        "model": "anthropic/claude-sonnet-5"
+      }
+    },
+    {
+      "brief": {
+        "angle": "Skeptisk obduktion af kokosvand: fra 'naturens sportsdrik' til glemt. Gennemgå hydreringsevidensen (små crossover-forsøg på væskebalance efter motion, ikke overlegenhed til vand i hverdagen), og hvordan 'elektrolyt'- og 'naturlig'-fortællingen bar prisen. Nævn at kokosvand er en fødevare, ikke et lægemiddel — ingen indikation, ingen tilskudsregler. OPDIGT INGEN præcise danske markedsandele, literpriser eller dehydrerings-procenter. Giv ALDRIG dosisråd.",
+        "format": "feature",
+        "mustCite": 2,
+        "words": [
+          500,
+          750
+        ]
+      },
+      "order": 4,
+      "receipt": {
+        "words": 761,
+        "costUSD": 0.05111,
+        "draft": "kladder/04-kokosvand-glemt.md",
+        "costRouting": "byok",
+        "generationId": "gen-1791035328-ios7uak6yA9vAvoPqRkQ"
+      },
+      "section": "Tilskud, piller & væsker",
+      "slug": "kokosvand-glemt",
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-10-03",
+        "citations": 2,
+        "editorNote": "Kalman-DOI verificeret (10.1186/1550-2783-9-1). SEKTION-metatekst fjernet, trimmet til 574 ord. Ismail 2007 som titel-uden-link."
+      },
+      "writer": {
+        "byline": "Gemini 3.1 Pro Preview (Google)",
+        "fallback": "deepseek/deepseek-v3.2",
+        "model": "google/gemini-3.1-pro-preview"
+      }
+    },
+    {
+      "brief": {
+        "angle": "Tallet: byg en lille kildetabel over de tre obduktioner — kolonner: superfood, hvad den blev solgt som, hvad de bedste humanstudier faktisk var (design/størrelse), hovedkonklusion i én sætning. Brug KUN tal, der allerede er verificeret i nummerets tre features eller fra EFSA/forordning 432/2012-rammen. Pointen eksplicit: myten døde ikke af ét modbevis, men af at evidensen aldrig rakte til påstanden.",
+        "format": "tallet",
+        "mustCite": 1,
+        "words": [
+          300,
+          450
+        ]
+      },
+      "order": 5,
+      "receipt": {
+        "words": 293,
+        "costUSD": 0.028448,
+        "draft": "kladder/05-tallet.md",
+        "costRouting": "byok",
+        "generationId": "gen-1791035373-5VDFHCcAgdum0UB385Ph"
+      },
+      "section": "Tallet",
+      "slug": "tallet",
+      "verdict": {
+        "status": "rewritten-by-editor",
+        "checkedAt": "2026-10-03",
+        "citations": 1,
+        "editorNote": "Kladde brugte granatæble/acai i stedet for nummerets tre cases — tabellen genskrevet til chia/goji/kokosvand med forordning 432/2012."
+      },
+      "writer": {
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "fallback": "deepseek/deepseek-v3.2",
+        "model": "anthropic/claude-sonnet-5"
+      }
+    },
+    {
+      "brief": {
+        "angle": "Rygtebørsen: DOSIS' etablerede løse spekulationsformat, ingen kildekrav. Slut med et konkret bagsideløfte til nr. 7, der peger på implantater/proteser ('hvad holder i 10 år?') — et DOSIS-kernestof der ikke har fået et fuldt nummer endnu.",
+        "format": "rygteboersen",
+        "mustCite": 0,
+        "words": [
+          300,
+          500
+        ]
+      },
+      "order": 6,
+      "receipt": {
+        "words": 322,
+        "costUSD": 0.0009483,
+        "draft": "kladder/06-rygteboersen.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1791035206-s9owIwdeaC7PFZeeeLIP"
+      },
+      "section": "Rygtebørsen",
+      "slug": "rygteboersen",
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-10-03",
+        "citations": 0,
+        "editorNote": "Norsk typo rettet (framstillingen→fremstillingen), forkortelser udfoldet. mustCite 0, hedget sprog intakt, nr. 7-løfte om implantater."
+      },
+      "writer": {
+        "byline": "DeepSeek V3.2 (DeepSeek)",
+        "fallback": null,
+        "model": "deepseek/deepseek-v3.2"
+      }
+    }
+  ]
+}

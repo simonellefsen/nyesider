@@ -1,6 +1,6 @@
 # GNISTEN – Redaktionsnotesbog
 
-Redaktionel backlog og noter — opdateret efter nr. 5 (september 2026, "Skyen som standardvalg"). Modelerfaringer ligger i det fælles [modelkartotek](../modelkartotek.md).
+Redaktionel backlog og noter — opdateret efter nr. 6 (oktober 2026, "Indbakken uden at trykke send"). Modelerfaringer ligger i det fælles [modelkartotek](../modelkartotek.md).
 
 ## Identitet
 
@@ -168,17 +168,35 @@ AI-genereret rygte-artikel kopieret på tværs af indholdsfabrikker. **Lær af d
 kilder" viser sig at være samme ukildebelagte påstand gentaget af content-farme, tæller det som
 én kilde, ikke flere — vurdér kildens egen troværdighed, ikke antallet af sider, der gentager den.**
 
-## Løfter givet i nr. 5
+## Nr. 6 — udgivet 2026-10-03
 
-- **Bagsiden:** kan AI hjælpe med at rydde op i en overfyldt indbakke uden at sende, slette eller
-  love noget på dine vegne?
+**Tema:** Indbakken uden at trykke send — kan AI rydde op uden at sende, slette eller love
+noget på dine vegne? Indfrier nr. 5's bagsideløfte. **7 artikler, 2.919 ord.** Fem artikler
+reelt kommissioneret på `.env.gnisten`; leder og Regningen er redaktionens uden byline.
+Forbrug **0,1117 USD** (under halvdelen af nr. 5's 0,2378 USD). Værkstedet skrevet på
+Claude Sonnet 5, bevidst ikke Gemini 3.1 Pro (71 % af nr. 5's regning).
+`check_issue.py`: **0 fejl, 0 advarsler.** `check_links.py`: **0 døde links** (2 bot-blokerede
+OpenAI Help Center-sider, begge læst i browser: `gmail.modify` og `Mail.Send` står stadig).
+`bestilling.json`: `redaktion/gnisten/numre/2026-10-nr6/bestilling.json`.
 
-## Historier i støbeskeen til nr. 6+
+### Modelvalg er en bremse
+
+Nr. 5's Værkstedet på Gemini 3.1 Pro kostede 0,1697 USD alene. Samme format på Sonnet 5
+i nr. 6 kostede 0,0306 USD. Tallet siger ikke, at den dyre model var dårlig; det siger, at
+casting skal stå i briefen, før kaldet går af sted.
+
+## Løfter givet i nr. 6
+
+- **Bagsiden:** hvad der sker, når AI får lov at se dine filer — og hvordan du siger nej.
+
+## Historier i støbeskeen til nr. 7+
 
 - ~~Sikkerhed for MCP~~ → **brugt i nr. 4** (2026-08-29).
 - ~~Agent niveau 2~~ → **brugt i nr. 4** (2026-08-29).
 - ~~Cloud-planer og prismodeller~~ → **brugt i nr. 5** (2026-09-05).
 - ~~Gratis at komme i gang: GitHub, Vercel, Supabase~~ → **brugt i nr. 5** (2026-09-05).
+- ~~Indbakke-oprydning uden send/slet/løfte~~ → **brugt i nr. 6** (2026-10-03).
+- **Filer og hvordan man siger nej** — nr. 7's bagsideløfte.
 - **(2026-08) Læserindsendte prompts** — saml, hvis der kommer svar.
 
 ## Praktisk
@@ -187,6 +205,9 @@ kilder" viser sig at være samme ukildebelagte påstand gentaget af content-farm
 - OpenRouter: **kun** `.env.gnisten`. Imagine: `.env.local`.
 
 ## Log
+
+- **2026-10-03:** Nr. 6 udgivet — 'Indbakken uden at trykke send', indfrier nr. 5's
+  bagsideløfte. Fem reelle kald, 0,1117 USD. Værkstedet på Sonnet 5 i stedet for Gemini 3.1 Pro.
 
 - **2026-09-05:** Nr. 5 udgivet — 'Skyen som standardvalg', indfrier nr. 4's bagsideløfte. Se
   læringen ovenfor: en kladde opfandt sin egen produktionshistorie (rewritten-by-editor), og en

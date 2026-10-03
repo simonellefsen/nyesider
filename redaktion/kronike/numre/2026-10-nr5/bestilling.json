@@ -1,0 +1,226 @@
+{
+  "magazine": "kronike",
+  "issue": "2026-10-nr5",
+  "issueTheme": "Slesvig-Holsten før 1864 — hertugdømmerne, helstaten og den forfatning, der blev påskud",
+  "budget": {
+    "articles": 6,
+    "wordsPerArticle": [
+      150,
+      900
+    ],
+    "targetPages": 12,
+    "note": "Idébank-emnet 'Slesvig-Holsten før 1864'. Kompakt som nr. 4 (6 artikler). Features briefes til 700–900 ord (nr. 4's 500–700 var under den skærpede norm). Nummeret er forhistorien til 1864, ikke krigen selv — Dybbøl ligger i nr. 1."
+  },
+  "opgaver": [
+    {
+      "slug": "leder",
+      "order": 1,
+      "section": "Leder",
+      "brief": {
+        "angle": "Kort leder: 1864 kom ikke ud af ingenting. I fire hundrede år var den danske konge samtidig hertug i Slesvig og Holsten — to lande, to retsordener, én person. Dette nummer fortæller, hvordan den konstruktion holdt, brød sammen i 1848 og blev bundet fast af stormagterne, indtil Novemberforfatningen 1863 blev påskuddet. Ikke en krigsberetning; en statsretslig forhistorie.",
+        "words": [
+          150,
+          220
+        ],
+        "mustCite": 0,
+        "format": "leder"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": 162,
+        "costUSD": 0.0,
+        "draft": null
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-10-03",
+        "citations": 0,
+        "editorNote": "Editor-led leder, ingen API-kald — ingen byline, per husregel."
+      }
+    },
+    {
+      "slug": "helstaten",
+      "order": 2,
+      "section": "Riget & grænser",
+      "brief": {
+        "angle": "Feature om, hvad hertugdømmerne var, før de blev et nationalt problem. Brug PRÆCIS disse verificerede fakta og ingen andre tal/årstal, medmindre du kan slå dem op: I 1459 døde den sidste hertug af slægten Schauenburg barnløs. Den slesvig-holstenske adel tilbød den danske konge Christian 1. (født 1426, regent 1448–1481) at blive hertug af Slesvig og greve af Holsten for at holde de to lande sammen. Betingelserne blev skrevet i Ribebrevet, underskrevet i Ribe 5. marts 1460 — originalen ligger stadig i det slesvig-holstenske ridderskabs arkiv på Landsarkivet i Slesvig, forsynet med 18 segl, heriblandt Christian 1.s. Ribebrevet sikrede hertugdømmernes særstatus over for Danmark og deres indbyrdes forbindelse (det senere slagord «up ewig ungedeelt»). I 1474 blev Holsten ophøjet fra grevskab til hertugdømme. Slesvig var et dansk len: kongen var både lensmand og lensherre. Holsten var et tysk len: kongen var lensmand under den tyske kejser, og fra 1815 medlem af Det Tyske Forbund. Fra 1490 til 1779 var kongen ofte ikke enehertug, men deltog i en fællesregering med andre hertuger (Gottorp m.fl.). Fællesregeringen i Slesvig ophørte 1721, i Holsten 1773; i 1779 sad den danske konge som enehersker i begge hertugdømmer — uden at de ophørte med at være hertugdømmer. Scene: Ribebrevet som fysisk dokument (pergament, segl, arkiv). Navngivne mennesker, der SKAL kunne slås op: Christian 1. Opfind ALDRIG en navngiven adelsmand, bonde eller soldat som ramme. Gæt aldrig en URL; skriv værkets titel, hvis du er usikker. Forklar «helstaten» som det samlede danske monarki (kongeriget + Slesvig + Holsten + senere Lauenborg) — og at det ikke var én stat med én forfatning.",
+        "words": [
+          700,
+          900
+        ],
+        "mustCite": 3,
+        "mustNumber": [
+          "1460",
+          "1474",
+          "1779"
+        ],
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 787,
+        "costUSD": 0.027626,
+        "draft": "kladder/02-helstaten.md",
+        "costRouting": "byok",
+        "generationId": "gen-1791038940-MhvMmVN1saiyrsX91oDC"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-10-03",
+        "citations": 3,
+        "editorNote": "Rettede literale \\u00a0-escapes. Navngav Adolf 8. (død dec. 1459) i stedet for kun slægten. Skelnede Ribebrevets faktiske sætning 'dat se bliven ewich tosamende ungedelt' fra det senere slagord 'up ewig ungedeelt'. Erstattede tre domæne-/gætte-fodnoter med tre verificerede lex.dk/danmarkshistorien-URL'er. Fjernede uverificerede silkesnore på seglene."
+      }
+    },
+    {
+      "slug": "treaarskrigen",
+      "order": 3,
+      "section": "Krig & krise",
+      "brief": {
+        "angle": "Feature om Treårskrigen 1848–51 (1. slesvigske krig) som både borgerkrig og stormagtskrig. Brug PRÆCIS disse verificerede fakta: Den 18. marts 1848 vedtog et stormøde i Rendsborg krav om fælles slesvig-holstensk forfatning og Slesvigs optagelse i Det Tyske Forbund. Natten mellem 23. og 24. marts blev en slesvig-holstensk provisorisk regering dannet. Den 24. marts 1848 greb prins Frederik af Nør (Frederik, 1800–1865), bror til hertug Christian August af Augustenborg, fæstningen i Rendsborg — kuppet, der udløste krigen. Den danske hær vandt slaget ved Bov 9. april 1848. Krigen fortsatte til 1850, afbrudt af våbenhvile fra slutningen af august 1848 til april 1849. Den 2. juli 1850 sluttede Danmark fred med Preussen og Det Tyske Forbund; slesvig-holstenerne kæmpede videre alene. Danmarkshistoriens største slag stod 25. juli 1850 på Isted Hede nord for Slesvig by: den danske hær under overgeneral Christoph von Krogh ca. 37.000 mand, den slesvig-holstenske under Wilhelm von Willisen ca. 27.000. Dansk sejr, men de største tab: 845 danske faldne og yderligere 2.770 sårede eller tilfangetagne; slesvig-holstenske tab 534 faldne og 2.274 sårede eller tilfangetagne. General F.A. Schleppegrell faldt ved Stolk. Senere mislykkedes slesvig-holstenske angreb ved Mysunde (september) og belejringen af Frederiksstad (oktober). Den provisoriske regering og dens hær blev først opløst i januar 1851 efter pres fra Preussen, Rusland og Østrig. Pointen: Danmark vandt militært, men Slesvig blev ikke knyttet nærmere til kongeriget. Scene: Rendsborg-kuppet 24. marts ELLER Isted 25. juli — ét konkret sted, ét navngivet menneske der kan slås op (Frederik af Nør, Krogh, Schleppegrell eller Willisen). Opfind ALDRIG en menig, et dagbogs-citat eller et troppetal ud over de nævnte. Gæt aldrig en URL. Skriv IKKE Dybbøl 1864; det ligger i et andet nummer.",
+        "words": [
+          700,
+          900
+        ],
+        "mustCite": 3,
+        "mustNumber": [
+          "24. marts 1848",
+          "25. juli 1850",
+          "845"
+        ],
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "GPT-5.6 Terra (OpenAI)",
+        "model": "openai/gpt-5.6-terra",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 782,
+        "costUSD": 0.029754,
+        "draft": "kladder/03-treaarskrigen.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1791038982-QVyUa2ok5pvydwgrFRs0"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-10-03",
+        "citations": 3,
+        "editorNote": "Erstattede en gættet danmarkshistorien.dk/vis/materiale-URL (samme 410-mønster som nr. 1) med tre verificerede sider. Tilføjede Isted-morgenen (regn, Schleppegrell ved Stolk) fra danmarkshistorien, så artiklen ramte 700-ords-gulvet."
+      }
+    },
+    {
+      "slug": "london-november",
+      "order": 4,
+      "section": "Internationalt",
+      "brief": {
+        "angle": "Feature om, hvordan freden efter Treårskrigen blev bundet af TO forskellige dokumenter, som senere er blevet forvekslet — og hvordan Novemberforfatningen 1863 blev påskuddet for 1864. Brug PRÆCIS denne skelnen, som er dokumenteret: (1) Aftalerne af 1851–52 var en noteudveksling mellem Danmark, Preussen og Østrig. Essensen: Danmark lovede ikke at indlemme Slesvig i kongeriget; til gengæld skulle båndene mellem Slesvig og Holsten heller ikke være tættere end båndene til kongeriget. De var ikke egentlige traktater. (2) Londontraktaten af 8. maj 1852 blev underskrevet af Rusland, England, Frankrig, Sverige-Norge, Østrig, Preussen og Danmark. Den indeholdt kun to vigtige elementer: anerkendelse af det danske monarkis integritet (kongeriget + Slesvig + Holsten + Lauenborg) og anerkendelse af prins Christian af Glücksburg (senere Christian 9.) og Louise af Hessen som arvinger. Danmark havde håbet på en «garanti», men fik en «anerkendelse». Traktaten indeholdt INGEN bestemmelser om Slesvig. Helstaten blev formelt proklameret 28. januar 1852 (Januarkundgørelsen). Helstatsforfatningen (Fællesforfatningen) af 2. oktober 1855, i det væsentlige udformet af C.G. Andræ, indførte et fælles Rigsråd med 80 medlemmer (20 kongevalgte, 30 valgt af Rigsdagen/stænder, 30 ved direkte valg). Den 6. november 1858 blev Helstatsforfatningen sat ud af kraft for Holsten og Lauenborg. 30. marts 1863: Martskundgørelsen. 29. september 1863: C.C. Halls regering forelagde forslag til ændring. Rigsrådet vedtog Novemberforfatningen 13. november 1863; Christian 9. underskrev den 18. november 1863, tre dage efter Frederik 7.s død 15. november. Novemberforfatningen var en grundlov for kongeriget og Slesvigs fællesanliggender — forfatningsretsligt IKKE en inkorporation af Slesvig (fællesanliggenderne forblev de samme), men den blev forstået som et skridt den vej, og Bismarck brugte den som påskud. Scene: underskriften 18. november 1863 ELLER traktaten i London 8. maj 1852. Navngivne: Christian 9., C.C. Hall, C.G. Andræ, Frederik 7. Opfind ALDRIG et citat. Gæt aldrig en URL. Skriv ikke slagene i 1864.",
+        "words": [
+          700,
+          900
+        ],
+        "mustCite": 3,
+        "mustNumber": [
+          "8. maj 1852",
+          "2. oktober 1855",
+          "18. november 1863"
+        ],
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "Gemini 3.1 Pro Preview (Google)",
+        "model": "google/gemini-3.1-pro-preview",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 1019,
+        "costUSD": 0.06752,
+        "draft": "kladder/04-london-november.md",
+        "costRouting": "byok",
+        "generationId": "gen-1791039018-czRkjmceTCrOhId5lIfa"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-10-03",
+        "citations": 5,
+        "editorNote": "Kladden var 1019 ord og lagde underskriften på Amalienborg; rettet til Det gule Palæ i Amaliegade (Gyldendal og Politikens Danmarkshistorie). Fjernede opdigtede forfatterkrediteringer (Thorsten Borring Olesen, Helge Larsen, Kristian Hvidt) og erstattede med verificerede lex-URL'er. Skar Bismarck-indre-tanker. Forkortet til briefets 700–900."
+      }
+    },
+    {
+      "slug": "tallet",
+      "order": 5,
+      "section": "Tallet",
+      "brief": {
+        "angle": "Tallet: en lille kildetabel over helstaten før 1864. Fire rækker, hver med ét hårdt tal + år + kilde: (1) Ribebrevet 5. marts 1460 — 18 segl på originalen. (2) Isted 25. juli 1850 — ca. 37.000 danske mod ca. 27.000 slesvig-holstenske; 845 danske faldne. (3) Londontraktaten 8. maj 1852 — syv underskrivere. (4) Helstatsforfatningens Rigsråd 1855 — 80 medlemmer. Mærk 37.000/27.000 eksplicit som omtrentlige samtidige styrkeangivelser, ikke præcise rullelister. Ingen opfundne personer. Ingen gætte-URL'er.",
+        "words": [
+          250,
+          450
+        ],
+        "mustCite": 2,
+        "mustNumber": [
+          "1460",
+          "845",
+          "80"
+        ],
+        "format": "tallet"
+      },
+      "writer": {
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 328,
+        "costUSD": 0.014714,
+        "draft": "kladder/05-tallet.md",
+        "costRouting": "byok",
+        "generationId": "gen-1791039069-S94Oaoptk1MT88w1qgmh"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-10-03",
+        "citations": 3,
+        "editorNote": "Erstattede Rigsarkivet/Tøjhusmuseet-domænefodnoter uden specifik side. Byggede kildetabel. Mærkede 37.000/27.000 som samtidige styrkeangivelser. Rettede \\u00a0-escapes."
+      }
+    },
+    {
+      "slug": "myter",
+      "order": 6,
+      "section": "Myter & missforståelser",
+      "brief": {
+        "angle": "Myter-bagsnit: afmonter myten «Danmark brød Londontraktaten, og derfor kom krigen i 1864». Brug PRÆCIS den skelnen, historikerne har dokumenteret: Londontraktaten af 8. maj 1852 anerkendte det danske monarkis integritet og Christian 9. som arving — den indeholdt ingen bestemmelser om Slesvig. Det, Danmark i 1863 brød (eller i hvert fald blev anklaget for at bryde), var Aftalerne af 1851–52 med Preussen og Østrig, en noteudveksling, ikke en traktat. Novemberforfatningen var forfatningsretsligt ikke en inkorporation af Slesvig. Pointen: 1864 blev udløst af et påskud i et forvejen uløseligt nationalt og diplomatisk dødvande — ikke af at Danmark «brød en stormagtstraktat» i den forstand, skolebogen ofte siger. Skriv IKKE et opdigtet citat tilskrevet Bismarck, Hall eller en historiker. Gæt aldrig en URL. Hold 1864-krigen selv uden for — henvis kun til, at forfatningen blev brugt som begrundelse.",
+        "words": [
+          350,
+          550
+        ],
+        "mustCite": 2,
+        "format": "myter"
+      },
+      "writer": {
+        "byline": "DeepSeek V3.2 (DeepSeek)",
+        "model": "deepseek/deepseek-v3.2",
+        "fallback": null
+      },
+      "receipt": {
+        "words": 317,
+        "costUSD": 0.0005852016,
+        "draft": "kladder/06-myter.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1791039095-hqEQ6PSJ7nOCNcugG3AS"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-10-03",
+        "citations": 2,
+        "editorNote": "Fjernede en sandsynligt opdigtet artikel (Carsten Due-Nielsen på danmarkshistorien.dk) og en løs Politikens-Danmarkshistorie-henvisning. Bygget om over Peter Yding Brunbechs dokumenterede myte-artikel. Udvide t for at ramme 350-ords-gulvet."
+      }
+    }
+  ]
+}

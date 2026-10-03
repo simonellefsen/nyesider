@@ -203,6 +203,37 @@ allerede er brugt, ikke kun mod idébanken.**
 - **Bagsiden:** FAA's miljøvurdering af Starbase' genindtræden i Stillehavet, og en Starmind-
   opfølgning.
 
+## Nr. 6 — udgivet 2026-10-03
+
+**Tema:** Løfterne indfries: FAA siger ja til Stillehavet, Starmind venter stadig på rampen.
+**6 artikler, 2.031 ord.** Fem artikler reelt kommissioneret på `.env.orbit`; lederen er
+redaktionens uden byline. Forbrug **0,1473 USD**. `check_issue.py`: **0 fejl, 0 advarsler.**
+`check_links.py`: **0 døde links, 0 ikke-verificerbare.** `bestilling.json`:
+`redaktion/orbit/numre/2026-10-nr6/bestilling.json`.
+
+Begge bagsideløfter fra nr. 5 indfriet — med modsat fortegn: FAA-afgørelsen foreligger
+(FONSI/ROD dateret 2. september, offentliggjort i Federal Register 4. september 2026,
+docket FAA-2026-6968, 37 høringssvar), mens Starmind ærligt står på nul opsendte
+satellitter (AI1-prototyper tidligt 2027, FCC-genindtræningsanalyse indsendt 18. september
+2026). Det europæiske SSA/liability-spor fra nr. 3/4 viste sig stadig åbent og blev brugt
+som nummerets europæiske vinkel (EU SST: 400+ organisationer, 700+ satellitter).
+
+### Vage fodnoter og ubelagte sammenligninger fanget
+
+`europaeisk-ssa`-kladden (DeepSeek V3.2) citerede UNOOSA via "Secure World Foundation"
+uden konkret URL og angav IRIS²'s satellittal (290) uden kilde — begge rettet til
+verificerede EUSPA/UNOOSA-URL'er og kvalitativ omtale. `starmind-status`-kladden
+sammenlignede med Airbus A380 og europæiske satellitters effekttal uden belæg — fjernet.
+`rygteboersen`-kladden angav "op mod 40 %" europæiske startups på udenlandske raketter
+uden kilde — fjernet. **Mønsteret gentager sig: ubelagte præcise tal i ellers velbriefede
+kladder. Fortsæt med at skrive mustNumber-tallene eksplicit i briefen og klippe alt andet.**
+
+### Løfter givet i nr. 6
+
+- **Bagsiden:** IRIS² — EU's kommende konstellation for sikker satellitkommunikation
+  (arkitektur, tidsplan, aktører). Tjekket mod nummerets indhold: IRIS² nævnes kun i én
+  sætning i SSA-artiklen — ingen dublering af hovedstof.
+
 ## Nr. 6 — kandidater
 
 - ~~SpaceX' "Louisiana Purchase"~~ → **brugt i nr. 5** (2026-09-05).

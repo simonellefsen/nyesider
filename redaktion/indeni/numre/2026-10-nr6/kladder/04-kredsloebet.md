@@ -1,0 +1,13 @@
+Når et køleskab i Danmark dør, starter en præcis logistisk kæde, designet til at fange de farlige stoffer og redde metallet. Kredsløbet begynder på den kommunale genbrugsplads, hvor skabet registreres som «WEEE» – affald af elektrisk og elektronisk udstyr (på engelsk Waste Electrical and Electronic Equipment)[^1]. Herfra køres det til et autoriseret behandlingsanlæg, hvor den egentlige proces starter.
+
+Det absolut kritiske trin er aftapningen. I et gammelt skabs isolering og kredsløb kan der være fluorerede drivhusgasser (HFC’er), hvis drivhuseffekt er over tusind gange stærkere end CO₂’s. Olie fra kompressoren er også et miljøproblem. Aftapningen skal foregå i et lukket system med specialudstyr, før nogen skærer i skabet. Dette er det vigtigste klimatiltag i hele kredsløbet: at forhindre at disse gasser nogensinde slipper ud.
+
+Efter aftapning bliver skabet manuelt eller mekanisk flået. Kompressoren, som indeholder kobber og stål, udskilles. Kabinettet presses og sorteres: stållet magnetsepareres, aluminiumen håndplukkes, og kobberrør skæres fri. Den tykke isoleringsskum af polyurethan bliver til bundfald; det er svært at genanvende og ender ofte som brændsel i forbrenningsanlægget. Plastdelen i inderlåg eller hylder sorteres efter type, hvis markedet er gunstigt.
+
+Ansvaret for at dette kredsløb overhovedet eksisterer, ligger hos producenterne via WEEE-direktivet. I Danmark organiserer de fleste producenter og importører indsamlingen gennem den kollektive ordning Elretur[^2]. Den finansierer logistikken fra genbrugsplads til behandling. Mængderne af indsamlet WEEE offentliggøres årligt, men tallene skal læses med omtanke: de dækker over hele Danmark, og det er ofte en blanding af store og små hvidevarer, ikke kun køleskabe[^3].
+
+Uden denne strukturerede kæde ville mængden af metal gå tabt, og de potentielt katastrofale klimagasser ville sive ud i atmosfæren. Kredsløbet handler ikke kun om genbrug, men om indespærring.
+
+[^1]: Miljøstyrelsen, “Affald af elektrisk og elektronisk udstyr (WEEE)”, https://mst.dk/affald-genbrug/affaldsfraktioner/elektronikaffald-weee/
+[^2]: Elretur, “Hvordan fungerer det?”, https://www.elretur.dk/producentansvar/hvordan-fungerer-det/
+[^3]: Eurostat, “Waste electrical and electronic equipment (WEEE) by waste management operations”, data fra 2022, https://ec.europa.eu/eurostat/databrowser/view/ENV_WASELECTRON_custom_11786669/default/table

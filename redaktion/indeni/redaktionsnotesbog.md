@@ -19,6 +19,39 @@ Målgruppen er den almindeligt nysgerrige danske læser. Forklar fagord første 
 
 ## Udgivne numre
 
+- **(2026-10) Nr. 6 — "Køleskabet" — UDGIVET 2026-10-03 (nyt nummer, fra bunden).**
+  7 artikler, **2.691 ord**. Seks artikler reelt kommissioneret på `.env.indeni`; lederen er
+  chefredaktionens og har **ingen byline**. Samlet forbrug **0,0997 USD**. `check_issue.py`:
+  **0 fejl, 0 advarsler.** `check_links.py`: **0 døde links.** `bestilling.json` under
+  `numre/2026-10-nr6/`. Idébanken var tom — køleskabet valgt fra bunden. Nummeret har et
+  egenproduceret SVG-diagram (`figur-koelekreds.svg`, fordamper → kompressor → kondensator →
+  ventil med returpile og kølemiddel-note).
+
+  ### Kernetal
+
+  - **Kølemiddel:** R134a GWP 1.430 (IPCC AR5) mod R600a ca. 3 og R290 under 1; fyldning i
+    husholdningsskabe omkring 100 gram eller mindre. EU: ingen HFC med GWP over 150 i nye
+    husholdningsskabe siden 2015; F-gas-forordning (EU) 2024/573 strammer yderligere.
+  - **To europæiske led:** Danfoss (kompressorer/styring, Nordborg DK + Tyskland) og
+    Liebherr-Hausgeräte Ochsenhausen, Tyskland (færdige skabe) — bevidst holdt adskilt som
+    komponent vs. samling, med annonceret vs. eksisterende kapacitet skilt ad.
+  - **Kredsløb:** WEEE-direktivet + producentansvar; Elretur har skiftet navn til Retur
+    (elretur.dk redirecter permanent til retur.dk/da/elretur).
+
+  ### Fire døde/gættede kilder fanget
+
+  - `kredsloebet`-kladden: MST-sti med bindestregs-variant (404), Elretur-underside (404 →
+    rebrand til Retur), Eurostat-databrowser med custom-id (død). Erstattet med WEEE-direktivet
+    (EUR-Lex), Retur-forsiden og Eurostat-statistikforklaringen — alle verificeret 200.
+  - `europa`-kladden: gættet Danfoss-pressemeddelelse om 500 mio. euro (404). Hele påstanden
+    fjernet, ikke blot omformuleret — samme klasse som nr. 4's opfundne "99 %".
+  - `tallet`-kladden: to energy.ec.europa.eu-dybde-URL'er (404). Erstattet med verificeret
+    energimærkningsside; uverificeret "21 %"-række erstattet med det dokumenterede
+    2015-forbud.
+  - `paastandskontoret`-kladden: samme døde energy-URL. Samme erstatning.
+  - `google/gemini-3.1-pro` afviste igen med HTTP 400 "not a valid model ID" (kendt fejl,
+    se modelkartoteket); fallback til DeepSeek V3.2 leverede med det samme.
+
 - **(2026-09) Nr. 5 — "Asfalt" — UDGIVET 2026-09-12 (nyt nummer, fra bunden).**
   7 artikler, **2.829 ord**. Seks artikler reelt kommissioneret på `.env.indeni`; lederen er
   chefredaktionens og har **ingen byline**. Samlet forbrug **0,149 USD**. `check_issue.py`:
@@ -161,6 +194,10 @@ Målgruppen er den almindeligt nysgerrige danske læser. Forklar fagord første 
 
 ## Redaktionslog
 
+- **2026-10-03:** Nr. 6 udgivet — "Køleskabet", valgt fra bunden (idébanken var tom), nyt
+  nummer produceret fra bunden med egenproduceret SVG-diagram af kølekredsen. Fire
+  døde/gættede kilder fanget og rettet (MST-sti, Elretur-rebrand til Retur, Eurostat-custom-id,
+  gættet Danfoss-pressemeddelelse med 500 mio. euro-påstand fjernet helt). Se læringen ovenfor.
 - **2026-09-12:** Nr. 5 udgivet — "Asfalt", idébankens sidste emne, nyt nummer produceret fra
   bunden med egenproduceret SVG-diagram af varmblandingsprocessen. To gættede/døde kilder fanget
   og rettet (eurobitume.eu opløser slet ikke; en gættet NCC-URL). Se læringen ovenfor.
@@ -199,7 +236,7 @@ levetidstallet ville have pålagt nummeret 0,10 USD, det ikke har brugt.
 - ~~Fjernvarmen~~ → **brugt i nr. 3** (2026-08-19).
 - ~~Kontaktlinsen~~ → **brugt i nr. 4** (2026-08-29).
 - ~~Asfalt~~ → **brugt i nr. 5** (2026-09-12).
-- Idébanken er tom — næste genstand skal findes fra bunden til nr. 6.
+- Idébanken er tom — køleskabet blev valgt fra bunden til nr. 6. Næste genstand skal findes fra bunden til nr. 7.
 
 ## Løfter til læseren
 

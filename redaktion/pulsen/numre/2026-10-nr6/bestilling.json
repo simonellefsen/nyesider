@@ -1,0 +1,219 @@
+{
+  "budget": {
+    "articles": 6,
+    "note": "Indfrier nr. 5's bagsideløfte ærligt: AID_NOTE fortsat uden offentlig evalueringsrapport pr. 3. okt. 2026; DSMG uden samlet 2026-vejledning; Bupa i drift men kun prognosetal. Internationale benchmarks som pejlemærker, ingen opdigtede danske effekttal.",
+    "targetPages": 10,
+    "wordsPerArticle": [
+      200,
+      600
+    ]
+  },
+  "issue": "2026-10-nr6",
+  "issueTheme": "Mellemåret: AID_NOTE og genomik uden facit — men med pejlemærker",
+  "magazine": "pulsen",
+  "opgaver": [
+    {
+      "brief": {
+        "angle": "Kort leder: nr. 5 lovede AID_NOTE-resultater og DSMG i praksis. Ingen af delene kan leveres som facit endnu — og det er pointen. Mellemåret hvor infrastrukturen står, men tallene mangler.",
+        "format": "leder",
+        "mustCite": 0,
+        "words": [
+          150,
+          250
+        ]
+      },
+      "order": 1,
+      "receipt": {
+        "costUSD": null,
+        "draft": null
+      },
+      "section": "Leder",
+      "slug": "leder",
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-10-03",
+        "citations": 0,
+        "editorNote": "Redaktionens egen leder, ingen byline, ingen API-kald."
+      },
+      "writer": {
+        "byline": null,
+        "fallback": null,
+        "model": "editor-led"
+      }
+    },
+    {
+      "brief": {
+        "angle": "Feature: ærlig status på AID_NOTE pr. oktober 2026. Brug PRÆCIS disse verificerede fakta: projektet løber oktober 2025 til oktober 2026, sammenligner Corti Assistant og Tandem (via Omilon) i syv afdelinger på fire institutioner (Odense Universitetshospital, Sygehus Lillebælt, Sygehus Sønderjylland, Center for Digital Psykiatri). Evalueres af MTV-enheden i CIMT med forskning via SDU på dokumentationskvalitet, tidsforbrug, brugeroplevelse og økonomi. Første offentlige formidling programsat til RAIN-mødet 30. september 2026 i Odense ('afprøvning, erfaringer og evaluering' + 'fra afprøvning til indkøb'). SKRIV EKSPLICIT at ingen evalueringsrapport med tal er offentliggjort pr. 3. oktober 2026 — ikke fiasko, men status.",
+        "format": "feature",
+        "mustCite": 2,
+        "mustNumber": [
+          "oktober 2025 til oktober 2026",
+          "syv afdelinger",
+          "RAIN-mødet 30. september 2026"
+        ],
+        "words": [
+          350,
+          550
+        ]
+      },
+      "order": 2,
+      "receipt": {
+        "words": 400,
+        "costUSD": 0.028914,
+        "draft": "kladder/02-aidnote-oktober.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1791038795-FfjYa3MaBNl8vJtRwUEt"
+      },
+      "section": "Feature · Ambient AI",
+      "slug": "aidnote-oktober",
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-10-03",
+        "citations": 2,
+        "editorNote": "Kladde fin; generiske fodnoter (cimt.dk, regionsyddanmark.dk) erstattet med konkrete CAI-X projektside + RAIN-program."
+      },
+      "writer": {
+        "byline": "GPT-5.6 Terra (OpenAI)",
+        "fallback": "deepseek/deepseek-v3.2",
+        "model": "openai/gpt-5.6"
+      }
+    },
+    {
+      "brief": {
+        "angle": "Feature: internationale ambient-benchmarks som pejlemærker — IKKE som danske resultater. Brug PRÆCIS disse verificerede tal: NHS/GOSH TORTUS-studie over 17.000 patientforløb (23,5 % mere patienttid, 8,2 % kortere konsultation, 92 % samtykke); Oxford-pilot juli-nov 2025 (87 % sparede admin-tid, dokumentation uden for arbejdstid halveret 3,02 til 1,55 timer/uge, 99,7 % samtykke); Tandem/Capio peer-reviewet studie 236.153 notater fra 1.295 klinikere (6,69 til 4,72 min pr. notat, fald 29 %, selekteret kohorte uden kontrolgruppe). Skeln konsekvent mellem benchmark og dansk evidens.",
+        "format": "feature",
+        "mustCite": 3,
+        "mustNumber": [
+          "17.000 patientforløb",
+          "87 % sparede tid",
+          "29 % fald"
+        ],
+        "words": [
+          400,
+          600
+        ]
+      },
+      "order": 3,
+      "receipt": {
+        "words": 499,
+        "costUSD": 0.043392,
+        "draft": "kladder/03-benchmarks-udlandet.md",
+        "costRouting": "byok",
+        "generationId": "gen-1791038841-XByPNu35DRm7iSUE5N7G"
+      },
+      "section": "Feature · Internationalt",
+      "slug": "benchmarks-udlandet",
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-10-03",
+        "citations": 3,
+        "editorNote": "Kladde fulgte brief; generiske leverandør-forsider erstattet med konkrete GOSH-, Oxford- og Tandem-kilder."
+      },
+      "writer": {
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "fallback": "deepseek/deepseek-v3.2",
+        "model": "anthropic/claude-sonnet-5"
+      }
+    },
+    {
+      "brief": {
+        "angle": "Analyse: DSMG har ingen samlet 2026-vejledning — kun enkeltstående revisioner, og udbredelsen i praksis er ukendt. Brug PRÆCIS disse verificerede fakta: anlægsbærer-guideline version 3 godkendt 13. april 2026 hæver tærsklen for a priori-risiko fra 1/800 til 1/500 (færre par tilbydes test); derudover PRS-anbefalinger, pakke om sekundære fund ved omfattende genetiske analyser, samt onkogenetiske revisioner 2026. Ældre kerneguides gælder fortsat (prædiktiv gentest 2015 med rådgivningsforløb, MDT og betænkningstid). Nationalt Genom Center er nu del af Sundhedsdatastyrelsen; EHDS sekundærbrug af genomdata først 2031. Skriv ærligt at adherence-data mangler.",
+        "format": "feature",
+        "mustCite": 2,
+        "mustNumber": [
+          "13. april 2026",
+          "1/800 til 1/500"
+        ],
+        "words": [
+          400,
+          600
+        ]
+      },
+      "order": 4,
+      "receipt": {
+        "words": 459,
+        "costUSD": 0.059048,
+        "draft": "kladder/04-dsmg-praksis.md",
+        "costRouting": "byok",
+        "generationId": "gen-1791038902-hnmdfQmL5OvmZX6eQKmy"
+      },
+      "section": "Analyse · Genetik",
+      "slug": "dsmg-praksis",
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-10-03",
+        "citations": 3,
+        "editorNote": "Kladde fin; dsmg.dk/retningslinjer-404 erstattet med konkrete guideline-oversigt + PDF + EUR-Lex 2025/327."
+      },
+      "writer": {
+        "byline": "Gemini 3.1 Pro (Google)",
+        "fallback": "deepseek/deepseek-v3.2",
+        "model": "google/gemini-3.1-pro-preview"
+      }
+    },
+    {
+      "brief": {
+        "angle": "Vandrehistorier fra vagtstuen: PULSENs faste anekdote-format. To korte scener om dokumentation og samtaler der aldrig bliver felter i journalen — generisk, genkendeligt, ingen navngivne hospitaler/patienter, ingen opdigtede statistikker.",
+        "format": "anekdote",
+        "mustCite": 0,
+        "words": [
+          300,
+          500
+        ]
+      },
+      "order": 5,
+      "receipt": {
+        "words": 370,
+        "costUSD": 0.00098136,
+        "draft": "kladder/05-vandrehistorier.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1791038941-lFaJaokjg6tRtluSb8ll"
+      },
+      "section": "Vandrehistorier fra vagtstuen",
+      "slug": "vandrehistorier",
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-10-03",
+        "citations": 0,
+        "editorNote": "Let strammet; anekdotisk format, ingen faktapåstande."
+      },
+      "writer": {
+        "byline": "DeepSeek V3.2 (DeepSeek)",
+        "fallback": null,
+        "model": "deepseek/deepseek-v3.2"
+      }
+    },
+    {
+      "brief": {
+        "angle": "Quiz: 'Testede du spalterne?' — 5-8 spørgsmål baseret på DETTE nummers artikler (AID_NOTE-status, internationale benchmarks, DSMG-revisioner, Bupa-prognoser). Facitliste til sidst. Ordbudget 200-350. Krydstjek facit mod artiklernes faktiske indhold, ikke kun briefen.",
+        "format": "quiz",
+        "mustCite": 0,
+        "words": [
+          200,
+          350
+        ]
+      },
+      "order": 6,
+      "receipt": {
+        "words": 264,
+        "costUSD": 0.034734,
+        "draft": "kladder/06-quiz.md",
+        "costRouting": "byok",
+        "generationId": "gen-1791039023-yuuCZKDxiTdX808fuc7I"
+      },
+      "section": "Sjov og spil",
+      "slug": "quiz",
+      "verdict": {
+        "status": "rewritten-by-editor",
+        "checkedAt": "2026-10-03",
+        "citations": 0,
+        "editorNote": "Kladden byggede på stof uden for nummeret (Bupa, MDR-gæt) med forkerte facit; omskrevet fra bunden til 5 spørgsmål der matcher de faktisk publicerede artikler."
+      },
+      "writer": {
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "fallback": "deepseek/deepseek-v3.2",
+        "model": "anthropic/claude-sonnet-5"
+      }
+    }
+  ]
+}

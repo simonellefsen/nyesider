@@ -244,6 +244,23 @@ Outlook 2025-side). **Mønstret gentager sig på tværs af numre — det er vær
 fremtidige briefs: "brug den konkrete side, ikke domænets forside", ikke kun i chefredaktørens
 tjekliste.**
 
+## Nr. 6 — udgivet 2026-10-03
+
+**Tema:** Gennem skyggen — solpaneler, batterier og strømstyring når lyset forsvinder (indfrier nr. 5's bagsideløfte). **7 artikler, 2.371 ord.** Seks artikler reelt kommissioneret på `.env.kraften`; lederen er redaktionens uden byline. Forbrug **0,1395 USD**. `check_issue.py`: **0 fejl, 1 advarsel** (Tallet-hedge, bevidst accepteret som i nr. 5: "ca." kun foran reelle afrundinger). `check_links.py`: **0 døde links**. `bestilling.json`: `redaktion/kraften/numre/2026-10-nr6/bestilling.json`.
+
+Syv spor: Tallet (72 min GEO vs 30 min LEO), triple-junction-paneler (~32 % BOL, iROSA 20+ kW), ISS-batteriskiftet (48 Ni-H2 → 24 Li-ion, 2017-2021, 14 rumvandringer), EPS/strømstyring (BCDU, load shedding, safe mode), ISS-casen (31 kW/vinge, 248 kW BOL → 215 kW), rygtebørs med løfte til nr. 7.
+
+### Fanget i faktatjekket
+
+- **45-minutters-fejl:** batteri-kladde skrev 45 min mørke pr. ISS-kredsløb; korrekt er ca. 30 min. Rettet.
+- **Ubriefet 10-15 %-påstand:** ISS-kladde påstod effektfald på 10-15 % efter få år uden kilde. Fjernet.
+- **Ni-H2-anakronisme:** ISS-case beskrev batterierne som nikkel-brint i nutid; siden 2021 er de Li-ion. Rettet.
+- **NREL-fodnote:** solpanel-kladde citerede NREL-forside-agtig oversigt uden for briefen; erstattet med Spectrolabs egen oversigtsside.
+
+## Løfter givet i nr. 6
+
+- **Bagsiden:** KRAFTEN nr. 7 om elnettet på Månen — 14 døgn i træk gennem månenatten.
+
 ## Løfter givet i nr. 5
 
 - **Bagsiden:** en satellit gennem Jordens skygge — hvordan solpaneler, batterier og strømstyring
@@ -257,6 +274,9 @@ være afvist eller skrinlagt siden modellens træningsdata.
 OpenRouter: **kun** `.env.kraften`. Imagine: `.env.local`.
 
 ## Log
+
+- **2026-10-03:** Nr. 6 udgivet — 'Gennem skyggen', indfrier nr. 5's bagsideløfte.
+  Se læringen ovenfor: 45-min-fejl, ubriefet nedbrydningstal og Ni-H2-anakronisme fanget i faktatjekket.
 
 - **2026-09-05:** Nr. 5 udgivet — 'Fra produktion til distribution', indfrier nr. 4's bagsideløfte.
   Se læringen ovenfor: en forældet "Xlinks er på vej"-antagelse blev fanget og rettet til den

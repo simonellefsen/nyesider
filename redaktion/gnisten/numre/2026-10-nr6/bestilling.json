@@ -1,0 +1,244 @@
+{
+  "magazine": "gnisten",
+  "issue": "2026-10-nr6",
+  "issueTheme": "Indbakken uden at trykke send — kan AI rydde op uden at sende, slette eller love noget på dine vegne?",
+  "budget": {
+    "articles": 7,
+    "wordsPerArticle": [
+      400,
+      750
+    ],
+    "targetPages": 10,
+    "note": "Indfrier nr. 5's bagsideløfte om indbakke-oprydning med tre bremser. Syv artikler, fem reelt kommissioneret. Værkstedet på Sonnet 5, ikke Gemini 3.1 Pro, fordi den sidste kostede 71 % af nr. 5's regning."
+  },
+  "opgaver": [
+    {
+      "slug": "leder",
+      "order": 1,
+      "section": "Leder",
+      "brief": {
+        "angle": "Kort leder der indfrier nr. 5's bagsideløfte: kan AI hjælpe med at rydde op i en overfyldt indbakke uden at sende, slette eller love noget på dine vegne? Pointen er de tre bremser — ikke et nyt værktøj.",
+        "words": [
+          150,
+          250
+        ],
+        "mustCite": 0,
+        "format": "leder"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": 156,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-10-03",
+        "citations": 0,
+        "editorNote": "Redaktionens egen leder, ingen byline, ingen API-kald. Indfrier nr. 5's bagsideløfte med de tre bremser."
+      }
+    },
+    {
+      "slug": "kortet",
+      "order": 2,
+      "section": "Kortet",
+      "brief": {
+        "angle": "To korte nyhedsnotitser til begyndere, uden forudsætninger. (1) Google bekendtgjorde 30. september 2026 Gemini 4 Argon — en frontier-model til kodning, videnarbejde og cyberforsvar, med 1 million output-tokens. Den ruller FØRST ud til betroede cyberforsvarere via Fairwind-programmet; Google skriver eksplicit, at den kommer til udviklere, virksomheder og forbrugere senere, begyndende med betalte API-kunder og Google AI Ultra. En almindelig bruger kan altså ikke åbne Gemini og vælge Argon i dag. Kilde: https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/ (30. september 2026). Nævn IKKE interne Google-tal (300 TiB, 2,7x, 40 %) — de er virksomhedens egne demonstrationspåstande, ikke noget en begynder kan slå efter. Forklar Fairwind i parentes: Googles program for betroede cyberforsvarere. (2) Apple Intelligence i Mail: en kort automatisk sammenfatning vises under hver mail i indbakken; åbn mailen og tryk «Vat sammen» / Summarize for en længere tråd-sammenfatning. Smart Reply foreslår svar, men du trykker selv send. Apple skriver, at resultater kan variere, og at vigtig information skal tjekkes. Kilde: https://support.apple.com/guide/iphone/use-apple-intelligence-in-mail-iph9ae667055/ios . Pointen: den ene nyhed er et navn, du ikke kan bruge endnu; den anden er en funktion, du måske allerede har — og ingen af dem sender mailen for dig.",
+        "words": [
+          400,
+          600
+        ],
+        "mustCite": 2,
+        "format": "kortet"
+      },
+      "writer": {
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 424,
+        "costUSD": 0.022256,
+        "draft": "kladder/02-kortet.md",
+        "costRouting": "byok",
+        "generationId": "gen-1791034264-UOtF7UfeWCbCBEZrML42"
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-10-03",
+        "citations": 2,
+        "editorNote": "Faktatjekket mod Google Gemini 4 Argon-blog 30. sep 2026 (Fairwind først, derefter betalt API og AI Ultra) og Apple Support Mail Intelligence. Fjernet literal \\u00a0 og ## Pointen-overskrift fra kladden. Ingen interne Google-tal."
+      }
+    },
+    {
+      "slug": "fokus-indbakke",
+      "order": 3,
+      "section": "Fokus",
+      "brief": {
+        "angle": "Fokus-feature: kan AI hjælpe med at rydde op i en overfyldt indbakke uden at sende, slette eller love noget på dine vegne? Sammenlign tre indbyggede værktøjer ærligt, uden at kåre en vinder. Brug PRÆCIS disse verificerede kilder og påstande, ingen andre: (1) Gmail + Gemini, Google Blog 8. januar 2026, https://blog.google/products-and-platforms/products/gmail/gmail-is-entering-the-gemini-era/ — AI Overview-sammenfatninger af lange tråde ruller ud gratis til alle; at stille spørgsmål til hele indbakken («Who was the plumber that gave me a quote…») kræver Google AI Pro eller Ultra; Help Me Write og Suggested Replies ruller ud gratis, og Google skriver at du kan forfine svaret «before giving it your approval»; Proofread er Pro/Ultra. Google beskriver IKKE automatisk afsendelse. (2) Copilot i Outlook, Microsoft Support FAQ, sidst opdateret august 2026, https://support.microsoft.com/en-us/outlook/frequently-asked-questions-about-copilot-in-outlook — kan opsummere tråde, skrive kladder (Draft with Copilot) og give coaching. DEN SAMME FAQ nævner også «Email triage actions» som pin, flag, archive, delete. Det er den vigtige forskel: Outlook-Copilot kan slette og arkivere, hvis du beder den om det. Microsoft skriver selv: «it's important that you review, edit, and verify anything it creates for you.» (3) Apple Intelligence i Mail, https://support.apple.com/guide/iphone/use-apple-intelligence-in-mail-iph9ae667055/ios — automatiske preview-sammenfatninger, Summarize på tråde, Smart Reply; du trykker selv send. Apple: «Apple Intelligence works with generative models; results may vary. Check important information for accuracy.» Pointen briefen skal lande: de tre bremser (ikke sende, ikke slette, ikke love datoer/refus/levering på dine vegne) er et valg, du tager — Gmail og Apple holder afsendelsen hos dig som standard; Outlook kan slette, hvis du lader den. Et værktøj, der «rydder op» ved at slette, har brudt den anden bremse.",
+        "words": [
+          550,
+          750
+        ],
+        "mustCite": 3,
+        "mustNumber": [
+          "Gmail-trådsammenfatning gratis; indbakke-spørgsmål kræver Pro/Ultra",
+          "Outlook Copilot kan slette og arkivere som triage"
+        ],
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "GPT-5.6 Terra (OpenAI)",
+        "model": "openai/gpt-5.6",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 691,
+        "costUSD": 0.0262685,
+        "draft": "kladder/03-fokus-indbakke.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1791034297-vngDrpTsGBw82wjtIx77"
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-10-03",
+        "citations": 3,
+        "editorNote": "Faktatjekket mod Google Gmail Gemini-blog 8. jan 2026, Microsoft Copilot Outlook FAQ (opdateret aug 2026, triage inkl. slet/arkiv) og Apple Support Mail. Microsoft-citat parafraseret på dansk; 'fire handlinger' blødt til pin/flag/archive/delete og mere."
+      }
+    },
+    {
+      "slug": "vaerkstedet-tre-bremser",
+      "order": 4,
+      "section": "Værkstedet",
+      "brief": {
+        "angle": "Praktisk trin-for-trin til en læser uden programmeringsbaggrund, der vil bruge AI på indbakken med tre faste bremser: (A) send aldrig, (B) slet aldrig, (C) lov aldrig dato, refus eller levering på dine vegne. To spor, i den rækkefølge: 1) Hvis du bruger Gmail: åbn en lang tråd, brug den gratis AI Overview-sammenfatning, og brug Help Me Write til at lave en KLADDE — læs den, ret den, tryk selv send. Kilde: https://blog.google/products-and-platforms/products/gmail/gmail-is-entering-the-gemini-era/ . 2) Hvis du ikke vil have AI inde i selve mailprogrammet: kopier én mail (eller et uddrag) ind i en almindelig AI-chat og brug en fast instruks: klassificér (svar i dag / parkér / reklame), skriv et udkast, sæt [TJEK] dér, hvor der ellers ville stå et løfte. Send og slet sker ude i mailprogrammet, af dig. Advarsel, med kilde: ChatGPTs Google-app beder om OAuth-scopet gmail.modify (https://www.googleapis.com/auth/gmail.modify) ifølge OpenAIs egen FAQ https://help.openai.com/articles/10408842-google-app-for-chatgpt-data-controls-faq — modify betyder, at forbindelsen kan ændre mail, ikke kun læse den. ChatGPTs Outlook-app kan ifølge OpenAI sende almindelig tekst-mail, når Mail.Send er givet: https://help.openai.com/articles/12512241-outlook-email-and-calendar-app-for-chatgpt . Derfor er paste-ind-i-chat det sikre begynderspor, indtil man bevidst har læst tilladelserne. Microsofts Copilot-FAQ nævner delete som triage: https://support.microsoft.com/en-us/outlook/frequently-asked-questions-about-copilot-in-outlook — brug den som belæg for, at «ryd op» hos nogle værktøjer inkluderer sletning. Ingen trin, der kræver kode, MCP eller API-nøgler.",
+        "words": [
+          550,
+          750
+        ],
+        "mustCite": 3,
+        "mustNumber": [
+          "gmail.modify som ChatGPT-Gmail-scope",
+          "tre bremser: send, slet, lov"
+        ],
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 642,
+        "costUSD": 0.030608,
+        "draft": "kladder/04-vaerkstedet-tre-bremser.md",
+        "costRouting": "byok",
+        "generationId": "gen-1791034330-cK5gRNDYzW9qtYDimbTG"
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-10-03",
+        "citations": 4,
+        "editorNote": "Faktatjekket mod Gmail Gemini-blog, OpenAI Google-app FAQ (gmail.modify), OpenAI Outlook-app FAQ (Mail.Send) og Microsoft Copilot FAQ. 'tre hundrede mails' erstattet med 'overfyldt indbakke'."
+      }
+    },
+    {
+      "slug": "maanedens-prompt",
+      "order": 5,
+      "section": "Månedens prompt",
+      "brief": {
+        "angle": "Månedens prompt: en kopiér-og-brug prompt til at triagere indbakke-uddrag i en almindelig AI-chat (uden at forbinde Gmail/Outlook). Vis selve promptteksten i en tydelig boks. Prompten SKAL indeholde de tre bremser: (1) foreslå aldrig at sende, (2) foreslå aldrig at slette, (3) skriv aldrig et løfte om dato, refus, pris eller levering — sæt [TJEK] i stedet. Den skal bede om en tabel eller liste med: afsender, hvad mailen vil, forslag (svar i dag / parkér / reklame), og et kladde-svar hvor det er relevant. Forklar hvorfor den er formuleret sådan: uden bremserne vil de fleste chatbotter enten tilbyde at sende, eller skrive «jeg sørger for at…» i kladden. mustCite 0 — ingen tal, ingen produktpåstande.",
+        "words": [
+          400,
+          600
+        ],
+        "mustCite": 0,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 550,
+        "costUSD": 0.020062,
+        "draft": "kladder/05-maanedens-prompt.md",
+        "costRouting": "byok",
+        "generationId": "gen-1791034374-LeW0rgot6nTy3koYPfcu"
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-10-03",
+        "citations": 0,
+        "editorNote": "Ingen kilder påkrævet. Boks bruger refus. Tre bremser bevaret: send, slet, lov."
+      }
+    },
+    {
+      "slug": "regningen",
+      "order": 6,
+      "section": "Regningen",
+      "brief": {
+        "angle": "Regningen skrives af redaktionen efter kommissionering. Vis det reelle productionCostUSD, hvad den dyreste artikel kostede, og hold det op mod nr. 5 (0,2378 USD, hvor Værkstedet alene var 0,1697 USD / 71 %). Ingen opdigtet produktionshistorie.",
+        "words": [
+          200,
+          400
+        ],
+        "mustCite": 0,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": 172,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-10-03",
+        "citations": 0,
+        "editorNote": "Redaktionens egen, ingen byline. Ærlig fordeling af de fem kald; Værkstedet 0,0306 USD vs nr. 5's 0,1697 USD på Gemini 3.1 Pro. Samlet 0,1117 USD."
+      }
+    },
+    {
+      "slug": "sladder",
+      "order": 7,
+      "section": "Sladder",
+      "brief": {
+        "angle": "Sladder-bagsnit i GNISTENs løse, anekdotiske stil: rygter og småhistorier fra AI-værktøjs-verdenen denne måned, ingen kildekrav, INGEN opdigtede procenttal. Hold det i ånden af nummerets tema (værktøjer der gerne vil handle på dine vegne). Slut med ét konkret, realistisk bagsideløfte til nr. 7, der IKKE allerede er brugt, og som IKKE indeholder et ukildebelagt tal. Forslag til løfte (må parafraseres, ikke opfindes om): næste nummer kigger på, hvad der sker, når AI får lov at se dine filer — og hvordan man siger nej.",
+        "words": [
+          400,
+          600
+        ],
+        "mustCite": 0,
+        "format": "rygteboersen"
+      },
+      "writer": {
+        "byline": "GPT-5.6 Terra (OpenAI)",
+        "model": "openai/gpt-5.6",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 483,
+        "costUSD": 0.012481,
+        "draft": "kladder/07-sladder.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1791034405-ANNmMzdy9vKVq1xETEiG"
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-10-03",
+        "citations": 0,
+        "editorNote": "flow:true. Ingen opdigtede procenttal. Bagsideløfte: nr. 7 om filer og hvordan man siger nej."
+      }
+    }
+  ]
+}
