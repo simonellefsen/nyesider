@@ -33,7 +33,7 @@ Håndhæves som **ERROR** i `production/check_issue.py` (og dermed i `npm run pr
 | 2026-09-14 | aktier/2026-09-nr4 (nr. 4) |
 | 2026-09-21 | aktier/2026-09-nr5 (nr. 5) |
 | 2026-09-28 | aktier/2026-09-nr6 (nr. 6) |
-| 2026-10-03 | gnisten/2026-10-nr6 (nr. 6); horisonten/2026-10-nr6 (nr. 6); humanerd/2026-10-nr6 (nr. 6); indeni/2026-10-nr6 (nr. 6); kraften/2026-10-nr6 (nr. 6); kronike/2026-10-nr5 (nr. 5); kulturboxen/2026-10-nr6 (nr. 6); orbit/2026-10-nr6 (nr. 6); pulsen/2026-10-nr6 (nr. 6); spaending/2026-10-nr6 (nr. 6) |
+| 2026-10-03 | dosis/2026-10-nr6 (nr. 6); gnisten/2026-10-nr6 (nr. 6); horisonten/2026-10-nr6 (nr. 6); humanerd/2026-10-nr6 (nr. 6); indeni/2026-10-nr6 (nr. 6); kraften/2026-10-nr6 (nr. 6); kronike/2026-10-nr5 (nr. 5); kulturboxen/2026-10-nr6 (nr. 6); orbit/2026-10-nr6 (nr. 6); pulsen/2026-10-nr6 (nr. 6); spaending/2026-10-nr6 (nr. 6) |
 
 ## Efter magasin
 
@@ -57,7 +57,7 @@ Håndhæves som **ERROR** i `production/check_issue.py` (og dermed i `npm run pr
 | 3 | `2026-08-nr3` | 2026-08-15 | published | Søvnen, der ikke kan stikkes |
 | 4 | `2026-08-nr4` | 2026-08-29 | published | Styrke, tarm og fedtsyrer — tre skeptiske eftersyn |
 | 5 | `2026-09-nr5` | 2026-09-12 | published | Tre skeptiske eftersyn: magnesium, creatin og collagen |
-| 6 | `2026-10-nr6` | 2026-10-10 | scheduled | Kirkegården for glemte superfødevarer — en obduktion af, hvordan en wellness-myte dør |
+| 6 | `2026-10-nr6` | 2026-10-03 | published | Kirkegården for glemte superfødevarer — en obduktion af, hvordan en wellness-myte dør |
 
 ### gnisten
 

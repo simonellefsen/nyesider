@@ -248,7 +248,7 @@ direkte link til det specifikke Alzheimer-pilotstudie — samme mønster som er 
 andre titler denne uge. Redaktionen fandt selv det korrekte PubMed-ID (40395689) og rettede
 fodnoten.
 
-## Nr. 6 — klar til udgivelse (status: scheduled, published: 2026-10-10)
+## Nr. 6 — udgivet 2026-10-03 (status: published)
 
 **Tema:** Kirkegården for glemte superfødevarer — en obduktion af, hvordan en wellness-myte dør.
 Indfrir nr. 5's bagsideløfte. **6 artikler, ~2.860 ord.** Fem artikler kommissioneret på
