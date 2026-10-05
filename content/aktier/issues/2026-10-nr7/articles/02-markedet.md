@@ -27,9 +27,9 @@ QQQ satte ny rekordlukning fredag. Verdensindekserne IWDA og EUNL ligeså. S&P 5
 | EXSA.DE (STOXX Europe 600) | €62,55 | −5,6 % | 17,4 |
 | VGK | $86,38 | −7,4 % | 16,8 |
 | CAC 40 | 7.897 | −9,8 % | — |
-| DAX | 21.918 | −5,2 % | — |
+| DAX | 25.231 | −5,2 % | — |
 
-Frankrig er svagt: CAC 40 mistede 4 % i september. En 2027-skatteforslag på langdistance-transportinfrastruktur-operatører ramte Vinci og Eiffage.[^1]
+Frankrig er svagt: CAC 40 mistede over 4 % i september.[^1] Separat: et 2027-skatteforslag på langdistance-transportinfrastruktur-operatører ramte Vinci og Eiffage.[^3]
 
 ## Norden
 
@@ -60,5 +60,6 @@ Frankrig er svagt: CAC 40 mistede 4 % i september. En 2027-skatteforslag på la
 
 Indekset slog vores kandidater. Det er fakta. Metoden med at købe "på bunden" har produceret for mange tab. Nr. 7 strammer op.
 
-[^1]: Reuters, 26. sep 2026. https://www.reuters.com/business/
+[^1]: Boursier, 30. sep 2026. https://www.boursier.com/indices/actualites/news/cloture-paris-le-cac-40-a-perdu-plus-de-4-en-septembre-994902.html
+[^3]: TrustFinance. https://news.trustfinance.com/news/en-US/vinci-shares-tumble-to-52-week-low-on-french-infrastructure-tax-proposal
 [^2]: Federal Reserve, 16. sep 2026. https://www.federalreserve.gov/monetarypolicy/files/monetary20260916a1.pdf

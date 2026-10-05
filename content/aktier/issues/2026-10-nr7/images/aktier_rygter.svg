@@ -7,7 +7,7 @@
   </defs>
   <rect width="600" height="400" fill="url(#bg-rygt)"/>
   
-  <text x="300" y="35" fill="#0D1B2A" font-family="Georgia, serif" font-size="18" text-anchor="middle" font-weight="bold">RYGTEB�RSEN</text>
+  <text x="300" y="35" fill="#0D1B2A" font-family="Georgia, serif" font-size="18" text-anchor="middle" font-weight="bold">RYGTEBØRSEN</text>
   <text x="300" y="55" fill="#888888" font-family="Arial" font-size="11" text-anchor="middle">Navne vi lod ligge (og hvorfor)</text>
   
   <!-- Reject reasons -->
@@ -17,52 +17,52 @@
     <line x1="15" y1="10" x2="30" y2="25" stroke="#ff6b6b" stroke-width="2"/>
     <line x1="30" y1="10" x2="15" y2="25" stroke="#ff6b6b" stroke-width="2"/>
     <text x="45" y="20" fill="#0D1B2A" font-family="Arial" font-size="11" font-weight="bold">CTVA (Corteva)</text>
-    <text x="45" y="35" fill="#888888" font-family="Arial" font-size="9">Spinoff, ikke fald  data ej sammenlignelig</text>
+    <text x="45" y="35" fill="#888888" font-family="Arial" font-size="9">Spinoff, ikke fald – data ej sammenlignelig</text>
     
     <!-- NOC -->
     <rect x="260" y="0" width="240" height="45" fill="#C9A227" rx="5" opacity="0.15"/>
     <circle cx="275" cy="22" r="8" fill="none" stroke="#C9A227" stroke-width="2"/>
     <text x="290" y="20" fill="#0D1B2A" font-family="Arial" font-size="11" font-weight="bold">NOC (Northrop)</text>
-    <text x="290" y="35" fill="#888888" font-family="Arial" font-size="9">Tabte F/A-XX  faldende kniv, f�lger</text>
+    <text x="290" y="35" fill="#888888" font-family="Arial" font-size="9">Tabte F/A-XX – faldende kniv, følger</text>
     
     <!-- MC.PA -->
     <rect x="0" y="55" width="240" height="45" fill="#ff6b6b" rx="5" opacity="0.15"/>
     <line x1="15" y1="65" x2="30" y2="80" stroke="#ff6b6b" stroke-width="2"/>
     <line x1="30" y1="65" x2="15" y2="80" stroke="#ff6b6b" stroke-width="2"/>
     <text x="45" y="75" fill="#0D1B2A" font-family="Arial" font-size="11" font-weight="bold">MC.PA (LVMH)</text>
-    <text x="45" y="90" fill="#888888" font-family="Arial" font-size="9">42%, 52w lav  ingen bundformation</text>
+    <text x="45" y="90" fill="#888888" font-family="Arial" font-size="9">−42%, 52w lav – ingen bundformation</text>
     
     <!-- DG.PA -->
     <rect x="260" y="55" width="240" height="45" fill="#C9A227" rx="5" opacity="0.15"/>
     <circle cx="275" cy="77" r="8" fill="none" stroke="#C9A227" stroke-width="2"/>
     <text x="290" y="75" fill="#0D1B2A" font-family="Arial" font-size="11" font-weight="bold">DG.PA (Vinci)</text>
-    <text x="290" y="90" fill="#888888" font-family="Arial" font-size="9">Fransk skat  bin�rt, yield 4,7%, f�lger</text>
+    <text x="290" y="90" fill="#888888" font-family="Arial" font-size="9">Fransk skat – binært, yield 4,7%, følger</text>
     
     <!-- PRX.AS -->
     <rect x="0" y="110" width="240" height="45" fill="#ff6b6b" rx="5" opacity="0.15"/>
     <line x1="15" y1="120" x2="30" y2="135" stroke="#ff6b6b" stroke-width="2"/>
     <line x1="30" y1="120" x2="15" y2="135" stroke="#ff6b6b" stroke-width="2"/>
     <text x="45" y="130" fill="#0D1B2A" font-family="Arial" font-size="11" font-weight="bold">PRX.AS (Prosus)</text>
-    <text x="45" y="145" fill="#888888" font-family="Arial" font-size="9">46%  falder hele �ret trods buybacks</text>
+    <text x="45" y="145" fill="#888888" font-family="Arial" font-size="9">−46% – falder hele året trods buybacks</text>
     
     <!-- COF -->
     <rect x="260" y="110" width="240" height="45" fill="#C9A227" rx="5" opacity="0.15"/>
     <circle cx="275" cy="132" r="8" fill="none" stroke="#C9A227" stroke-width="2"/>
     <text x="290" y="130" fill="#0D1B2A" font-family="Arial" font-size="11" font-weight="bold">COF (Capital One)</text>
-    <text x="290" y="145" fill="#888888" font-family="Arial" font-size="9">Kortdelinkvens + Discover  f�lger</text>
+    <text x="290" y="145" fill="#888888" font-family="Arial" font-size="9">Kortdelinkvens + Discover – følger</text>
     
     <!-- MCD -->
     <rect x="0" y="165" width="240" height="45" fill="#ff6b6b" rx="5" opacity="0.15"/>
     <line x1="15" y1="175" x2="30" y2="190" stroke="#ff6b6b" stroke-width="2"/>
     <line x1="30" y1="175" x2="15" y2="190" stroke="#ff6b6b" stroke-width="2"/>
     <text x="45" y="185" fill="#0D1B2A" font-family="Arial" font-size="11" font-weight="bold">MCD (McDonald's)</text>
-    <text x="45" y="200" fill="#888888" font-family="Arial" font-size="9">32%  P/E 19 ikke billigt nok</text>
+    <text x="45" y="200" fill="#888888" font-family="Arial" font-size="9">−32% – P/E 19 ikke billigt nok</text>
     
     <!-- NHY.OL -->
     <rect x="260" y="165" width="240" height="45" fill="#C9A227" rx="5" opacity="0.15"/>
     <circle cx="275" cy="187" r="8" fill="none" stroke="#C9A227" stroke-width="2"/>
     <text x="290" y="185" fill="#0D1B2A" font-family="Arial" font-size="11" font-weight="bold">NHY.OL (Norsk Hydro)</text>
-    <text x="290" y="200" fill="#888888" font-family="Arial" font-size="9">33,5%, fwd P/E 9,6  aluminium, f�lger</text>
+    <text x="290" y="200" fill="#888888" font-family="Arial" font-size="9">−33,5%, fwd P/E 9,6 – aluminium, følger</text>
   </g>
   
   <!-- Legend -->
@@ -72,7 +72,7 @@
     <text x="25" y="20" fill="#0D1B2A" font-family="Arial" font-size="10">Afvist</text>
     
     <circle cx="105" cy="17" r="8" fill="none" stroke="#C9A227" stroke-width="2"/>
-    <text x="120" y="22" fill="#0D1B2A" font-family="Arial" font-size="10">F�lger</text>
+    <text x="120" y="22" fill="#0D1B2A" font-family="Arial" font-size="10">Følger</text>
   </g>
   
   <!-- Footer -->

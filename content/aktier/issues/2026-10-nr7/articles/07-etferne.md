@@ -34,7 +34,7 @@ QQQ og verdensindekserne (IWDA, EUNL) satte ny rekordlukning fredag 2. oktober. 
 
 Europa er 5–7 % fra toppen. P/E ~17. Det er et mildt dip — ikke et udsalg.
 
-**CAC 40 mistede >4 % i september** på grund af et fransk skatteforslag på langdistance-transport­infra­struktur-operatører.
+**CAC 40 mistede over 4 % i september.**[^2] Separat ramte et fransk skatteforslag Vinci og Eiffage (langdistance-transportinfrastruktur-operatører).[^3]
 
 ## Norden
 
@@ -59,3 +59,5 @@ Det er ikke et argument for at købe indeks *nu* (stadig dyrt). Men det er et ar
 **Alle tal pr. lukkekurs fredag 2. oktober 2026.** Kilde: Yahoo Finance.[^1]
 
 [^1]: Yahoo Finance, 2. okt 2026. https://finance.yahoo.com/
+[^2]: Boursier, 30. sep 2026. https://www.boursier.com/indices/actualites/news/cloture-paris-le-cac-40-a-perdu-plus-de-4-en-septembre-994902.html
+[^3]: TrustFinance. https://news.trustfinance.com/news/en-US/vinci-shares-tumble-to-52-week-low-on-french-infrastructure-tax-proposal

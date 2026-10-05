@@ -46,7 +46,7 @@ At købe indeks havde slået os. Det er fakta.
 
 ## Nr. 8
 
-Nr. 8 udkommer næste søndag. Vi følger:
+Nr. 8 udkommer næste mandag (13. oktober). Vi følger:
 
 - **STZ Q2 FY27** (6. oktober) — allerede invalideret, men opfølgning.
 - **BKNG Q3** (~27. oktober) — test af AI-agent-tesen.

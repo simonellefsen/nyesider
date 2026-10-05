@@ -8,13 +8,13 @@
   <rect width="600" height="400" fill="url(#bg-rbrew)"/>
   
   <text x="300" y="35" fill="#0D1B2A" font-family="Georgia, serif" font-size="20" text-anchor="middle" font-weight="bold">ROYAL UNIBREW (RBREW.CO)</text>
-  <text x="300" y="55" fill="#C9A227" font-family="Arial" font-size="12" text-anchor="middle">Nasdaq Copenhagen · CORE/YIELD</text>
+  <text x="300" y="55" fill="#C9A227" font-family="Arial" font-size="12" text-anchor="middle">Nasdaq Copenhagen Â· CORE/YIELD</text>
   
   <!-- Price info box -->
   <rect x="50" y="75" width="200" height="120" fill="#0D1B2A" rx="5"/>
   <text x="150" y="100" fill="#C9A227" font-family="Arial" font-size="11" text-anchor="middle">PRIS (2. OKT)</text>
   <text x="150" y="130" fill="#ffffff" font-family="Georgia, serif" font-size="24" text-anchor="middle" font-weight="bold">DKK 405,40</text>
-  <text x="150" y="155" fill="#ff6b6b" font-family="Arial" font-size="14" text-anchor="middle">38,0 % fra top</text>
+  <text x="150" y="155" fill="#ff6b6b" font-family="Arial" font-size="14" text-anchor="middle">âˆ’38,0 % fra top</text>
   <text x="150" y="180" fill="#C9A227" font-family="Arial" font-size="11" text-anchor="middle">Tester april-bund</text>
   
   <!-- Key metrics -->
@@ -38,8 +38,8 @@
   <rect x="50" y="210" width="500" height="70" fill="#C9A227" rx="5" opacity="0.2"/>
   <rect x="50" y="210" width="500" height="70" fill="none" stroke="#C9A227" stroke-width="1" rx="5"/>
   <text x="300" y="235" fill="#0D1B2A" font-family="Arial" font-size="12" text-anchor="middle" font-weight="bold">PEPSICO-LICENS (21. APR 2026)</text>
-  <text x="300" y="255" fill="#0D1B2A" font-family="Arial" font-size="10" text-anchor="middle">PepsiCo fornyer ikke DK/FI/Baltikum ved udløb 2028</text>
-  <text x="300" y="272" fill="#0D1B2A" font-family="Arial" font-size="10" text-anchor="middle">~13% af omsætning · Carlsberg overtager fra 2029</text>
+  <text x="300" y="255" fill="#0D1B2A" font-family="Arial" font-size="10" text-anchor="middle">PepsiCo fornyer ikke DK/FI/Baltikum ved udlÃ¸b 2028</text>
+  <text x="300" y="272" fill="#0D1B2A" font-family="Arial" font-size="10" text-anchor="middle">~13% af omsÃ¦tning Â· Carlsberg overtager fra 2029</text>
   
   <!-- Invalidation -->
   <rect x="50" y="295" width="500" height="50" fill="#ff6b6b" rx="5" opacity="0.9"/>
@@ -47,5 +47,5 @@
   <text x="300" y="335" fill="#ffffff" font-family="Arial" font-size="10" text-anchor="middle">(april 52-ugers bund) eller FY26-guide cut (11. nov)</text>
   
   <!-- Bottom line -->
-  <text x="300" y="375" fill="#0D1B2A" font-family="Georgia, serif" font-size="11" text-anchor="middle" font-style="italic">"Første nye københavnskandidat siden Rockwool"</text>
+  <text x="300" y="375" fill="#0D1B2A" font-family="Georgia, serif" font-size="11" text-anchor="middle" font-style="italic">"FÃ¸rste nye kÃ¸benhavnskandidat siden Rockwool"</text>
 </svg>

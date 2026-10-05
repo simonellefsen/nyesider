@@ -64,7 +64,7 @@ Q2-EBIT var dog DKK 753 mio. vs. DKK 774 mio. forventet — aktien faldt 8,5 % 
 
 **Invalidation:** Lukkekurs under **DKK 394,60** (april 52-ugers bund) eller en FY26-guide-nedjustering i forbindelse med Q3-rapporten 11. november.
 
-**3–6 måneders case.** Hvis Q3 viser stabil vækst, og bunden holder, kan aktien re-rates mod DKK 450–480. Hvis bunden bryder — respektér stoplosset.
+**3–6 måneders case.** Hvis Q3 viser stabil vækst, og bunden holder, kan aktien nærme sig H1-tilbagekøbets gennemsnitspris på DKK 457,7 (jf. H1-rapporten). Hvis bunden bryder — respektér stoplosset.
 
 [^1]: Reuters, 21. apr 2026. https://www.reuters.com/business/royal-unibrew-sinks-pepsico-hands-bottling-licence-carlsberg-2026-04-21/
 [^2]: Royal Unibrew H1 2026 Interim Report. https://cms.unibrew.com/media/ga2msftv/royal-unibrew-interim-report-h1-2026.pdf
