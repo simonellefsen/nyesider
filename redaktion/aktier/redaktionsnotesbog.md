@@ -157,27 +157,57 @@ python3 production/load_env.py aktier   # når .env.aktier oprettes
 
 **ETF-vurdering:** Ingen ETF anbefales. SPY −1,0%, QQQ −0,6%, EUNL −0,7%. Indekserne ved toppen. Rabat kun i enkeltnavn.
 
-## Nr. 7 — kandidater / opfølgning
+## Nr. 7 — udgivet (2026-10-05)
 
-**(2026-09-29)** Nike Q1 FY27 — **BINÆRT**. Margin-stabilisering eller guide-down?
+**Tema:** Regnskabsdag: ni ud, tre ind — vi rydder op i porteføljen  
+**Editor-led:** Alle artikler skrevet af chefredaktionen uden byline. Ingen OpenRouter-kald (`.env.aktier` endnu ikke oprettet). `productionCostUSD: 0`.
 
-**(2026-10-03)** Constellation Brands Q2 FY27.
+**RETTELSE:** Nr. 4, 5 og 6 skrev fejlagtigt "ingen invalidationer" — ni kandidater var allerede invalideret på pris. Korrekt antal var 28, ikke 29. Nike Q1 FY27 blev aflagt 1. okt, ikke 29. sep.
+
+**Ni invaliderede (pris-baseret):**
+1. **ZTS** (nr. 1) — niveau $71, brud 24. sep, lukke $69,69, −9,9 %
+2. **BMW.DE** (nr. 1) — niveau €56,40, brud 25. sep, lukke €54,32, −13,3 %
+3. **HUSQ-B.ST** (nr. 2) — niveau SEK 34,19, brud 24. sep, lukke SEK 34,74, −8,5 %
+4. **NKE** (nr. 3) — niveau $38, brud 9. sep, lukke $33,87, −11,8 %
+5. **BSX** (nr. 3) — niveau $45, brud 8. sep, lukke $42,60, −10,9 %
+6. **DECK** (nr. 3) — niveau $78,91, brud 15. sep, lukke $79,12, −7,8 %
+7. **VOLCAR-B.ST** (nr. 3) — niveau SEK 18, brud 18. sep, lukke SEK 14,18, −24,8 %
+8. **MBG.DE** (nr. 3) — niveau €42, brud 24. sep, lukke €39,72, −16,7 %
+9. **STZ** (nr. 4) — niveau $120,25, brud 18. sep, lukke $112,87, −7,8 %
+
+**Tre nye kandidater (pris 2. okt 2026 lukke):**
+1. **ACN** (Accenture, NYSE) — $198,90, −31,7 % fra top, trail P/E 15,9, fwd 12,5, yield 3,4 %, CORE. Q4 FY26 beat.
+2. **BKNG** (Booking Holdings, NasdaqGS) — $159,02, −29,3 % fra top, trail P/E 17,6, fwd 12,9, yield 1,1 %, SATELLITE. AI-agent-frygt.
+3. **RBREW.CO** (Royal Unibrew, København) — DKK 405,40, −38,0 % fra top, trail P/E 12,4, fwd 10,7, yield 4,0 %, CORE/YIELD. Første nye CPH-kandidat siden Rockwool.
+
+**Porteføljen (efter oprydning):**
+- **19 aktive fra nr. 1–6:** NOVO-B, RI.PA, PYPL, YAR.OL, AD.AS, CMCSA, CAP.PA, WKL.AS, ROCK-B, ADBE, UPS, SAN.PA, TEL.OL, DTE.DE, INTU, PEP, LOW, ORK.OL, PHIA.AS.
+- **3 nye i nr. 7:** ACN, BKNG, RBREW.CO.
+- **22 aktive i alt.**
+
+**Track record (ærligt):**
+- Snit alle 28 kandidater: **−6,3 %**
+- SPY i samme periode: **~0 %**
+- EUNL i samme periode: **~+1,8 %**
+- Indekset slog vores kandidater.
+
+**Lærdom:** At købe navne *på* 52-ugers bund uden bundformation producerede for mange faldende knive. Fra nr. 7: krav om bekræftet højere bund eller indtruffet katalysator, invalidation stramt under synlig støtte, færre navne.
+
+## Nr. 8 — kandidater / opfølgning
+
+**(2026-10-06)** Constellation Brands Q2 FY27 (allerede invalideret).
 
 **(2026-10-15)** Pernod Ricard Q1 FY27-salgstal. Telenor ex-udbytte NOK 4,70.
 
-**(2026-10-19)** Husqvarna ex-udbytte SEK 1,50.
-
-**(2026-10-21)** Husqvarna Q3.
-
 **(2026-10-22)** Yara Q3 — nitrogen og margin.
-
-**(2026-10-23)** Volvo Cars Q3 — Kina-stabilisering?
 
 **(2026-10-24)** Comcast Q3.
 
-**(2026-10-27)** UPS Q3, Telenor udbyttebetaling.
+**(~2026-10-27)** Booking Holdings Q3 — **BINÆRT**. AI-agent-tesen testes.
 
-**(2026-10-28)** Mercedes-Benz Q3 + PayPal Q3.
+**(2026-10-27)** UPS Q3.
+
+**(2026-10-28)** PayPal Q3.
 
 **(2026-10-30)** Capgemini Q3 + Wolters Kluwer Q3.
 
@@ -187,10 +217,20 @@ python3 production/load_env.py aktier   # når .env.aktier oprettes
 
 **(2026-11-06)** Rockwool Q3.
 
+**(2026-11-11)** Royal Unibrew Q3 — **BINÆRT**. Dobbeltbund-test.
+
+**(2026-11-13)** ACN dividend.
+
+**(2026-12-17)** ACN Q1 FY27 — bekræftelse af bundformation.
+
 **Følger (ikke feature endnu):**
 - FISV — aktivist JANA, debit-talks. Feature hvis deal-nyt eller stabilisering.
 - CHTR — for binær (D/E 441%, short 52%).
-- NHY.OL — aluminium-cyklisk, optional follower.
+- NHY.OL — aluminium-cyklisk, fwd P/E 9,6.
+- DG.PA (Vinci) — fransk skat binær, yield 4,7 %.
+- SGO.PA (Saint-Gobain) — ved 52w lav, følger.
+- COF (Capital One) — kortdelinkvens + Discover.
+- NOC (Northrop) — tabte F/A-XX, faldende kniv.
 
 ## Log
 
@@ -200,3 +240,4 @@ python3 production/load_env.py aktier   # når .env.aktier oprettes
 - **2026-09-14:** Nr. 4 publiceret — *"Comcast endelig med — Rockwool åbner København-siden"*. Editor-led, ingen bylines, `productionCostUSD: 0`. Fem nye kandidater: CMCSA, STZ, CAP.PA, WKL.AS, ROCK-B.CO. **Rockwool** er første rene CPH-kandidat udover Novo. Porteføljen nu 19 aktive (14 fra nr.1–3 + 5 nye). Ingen invalidationer.
 - **2026-09-21:** Nr. 5 publiceret — *"Efter Fed: Adobe til rabat — yield i UPS, Sanofi, Telenor og Telekom"*. Editor-led, ingen bylines, `productionCostUSD: 0`. Fem nye kandidater: ADBE, UPS, SAN.PA, TEL.OL, DTE.DE. **Adobe** er første software-kandidat. Fire yield-navne (UPS 6,6%, SAN 5,4%, TEL 7,2%, DTE 3,5%). Porteføljen nu **24 aktive** (19 fra nr.1–4 + 5 nye). **NKE Q1 29. sep er binært** — hold uden exit før regnskab.
 - **2026-09-28:** Nr. 6 publiceret — *"Intuit-vask — Pepsi, Lowe's og Orkla mens Nike venter"*. Editor-led, ingen bylines, `productionCostUSD: 0`. Fem nye kandidater: INTU, PEP, LOW, ORK.OL, PHIA.AS. **Intuit** er største drawdown (−61%). Fire yield-navne (PEP 4,5%, ORK 4,3%, PHIA 4,0%, LOW 2,6%). Porteføljen nu **29 aktive** (24 fra nr.1–5 + 5 nye). **NKE Q1 29. sep er i morgen** — binært.
+- **2026-10-05:** Nr. 7 publiceret — *"Regnskabsdag: ni ud, tre ind — vi rydder op i porteføljen"*. Editor-led, ingen bylines, `productionCostUSD: 0`. **RETTELSE** af nr. 4–6's fejl om invalidationer. **Ni invalideret** (ZTS, BMW, HUSQ, NKE, BSX, DECK, VOLCAR, MBG, STZ). Tre nye kandidater: ACN, BKNG, RBREW.CO. **ACN** er første +60%-over-bund kandidat (bekræftet vending). **RBREW** er anden CPH-kandidat efter Rockwool. Track record −6,3 % vs. SPY ~0 % — indekset slog os. Porteføljen nu **22 aktive** (19 fra nr.1–6 + 3 nye).

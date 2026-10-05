@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300">
+  <defs>
+    <linearGradient id="bg-tall" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#f8f9fa"/>
+      <stop offset="100%" style="stop-color:#e9ecef"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="300" fill="url(#bg-tall)"/>
+  <text x="300" y="25" fill="#0D1B2A" font-family="Georgia, serif" font-size="14" text-anchor="middle" font-weight="bold">Tre kandidater: P/E vs. Drawdown</text>
+  <text x="300" y="42" fill="#888888" font-family="Arial" font-size="10" text-anchor="middle">Priser og nøgletal pr. 2. okt 2026</text>
+  
+  <!-- Chart area -->
+  <rect x="80" y="60" width="440" height="180" fill="#ffffff" stroke="#e0e0e0" stroke-width="1"/>
+  
+  <!-- Y-axis (P/E) -->
+  <text x="50" y="145" fill="#0D1B2A" font-family="Arial" font-size="10" text-anchor="middle" transform="rotate(-90, 50, 145)">Trailing P/E</text>
+  <text x="75" y="70" fill="#888888" font-family="Arial" font-size="8" text-anchor="end">20</text>
+  <text x="75" y="105" fill="#888888" font-family="Arial" font-size="8" text-anchor="end">17</text>
+  <text x="75" y="145" fill="#888888" font-family="Arial" font-size="8" text-anchor="end">14</text>
+  <text x="75" y="185" fill="#888888" font-family="Arial" font-size="8" text-anchor="end">11</text>
+  <text x="75" y="235" fill="#888888" font-family="Arial" font-size="8" text-anchor="end">8</text>
+  
+  <!-- X-axis (Drawdown) -->
+  <text x="300" y="275" fill="#0D1B2A" font-family="Arial" font-size="10" text-anchor="middle">Afstand fra 52w top (%)</text>
+  <text x="80" y="255" fill="#888888" font-family="Arial" font-size="8" text-anchor="middle">25%</text>
+  <text x="190" y="255" fill="#888888" font-family="Arial" font-size="8" text-anchor="middle">30%</text>
+  <text x="300" y="255" fill="#888888" font-family="Arial" font-size="8" text-anchor="middle">35%</text>
+  <text x="410" y="255" fill="#888888" font-family="Arial" font-size="8" text-anchor="middle">40%</text>
+  <text x="520" y="255" fill="#888888" font-family="Arial" font-size="8" text-anchor="middle">45%</text>
+  
+  <!-- Grid lines -->
+  <line x1="80" y1="105" x2="520" y2="105" stroke="#e0e0e0" stroke-width="0.5"/>
+  <line x1="80" y1="145" x2="520" y2="145" stroke="#e0e0e0" stroke-width="0.5"/>
+  <line x1="80" y1="185" x2="520" y2="185" stroke="#e0e0e0" stroke-width="0.5"/>
+  <line x1="190" y1="60" x2="190" y2="240" stroke="#e0e0e0" stroke-width="0.5"/>
+  <line x1="300" y1="60" x2="300" y2="240" stroke="#e0e0e0" stroke-width="0.5"/>
+  <line x1="410" y1="60" x2="410" y2="240" stroke="#e0e0e0" stroke-width="0.5"/>
+  
+  <!-- Data points -->
+  <!-- ACN: P/E 15.9, 31.7% -->
+  <circle cx="235" cy="115" r="20" fill="#40826D" opacity="0.8"/>
+  <text x="235" y="105" fill="#ffffff" font-family="Arial" font-size="10" text-anchor="middle" font-weight="bold">ACN</text>
+  <text x="235" y="120" fill="#ffffff" font-family="Arial" font-size="8" text-anchor="middle">P/E 15,9</text>
+  
+  <!-- BKNG: P/E 17.6, 29.3% -->
+  <circle cx="155" cy="90" r="18" fill="#888888" opacity="0.8"/>
+  <text x="155" y="80" fill="#ffffff" font-family="Arial" font-size="10" text-anchor="middle" font-weight="bold">BKNG</text>
+  <text x="155" y="95" fill="#ffffff" font-family="Arial" font-size="8" text-anchor="middle">P/E 17,6</text>
+  
+  <!-- RBREW: P/E 12.4, 38.0% -->
+  <circle cx="380" cy="175" r="20" fill="#C9A227" opacity="0.8"/>
+  <text x="380" y="165" fill="#0D1B2A" font-family="Arial" font-size="10" text-anchor="middle" font-weight="bold">RBREW</text>
+  <text x="380" y="180" fill="#0D1B2A" font-family="Arial" font-size="8" text-anchor="middle">P/E 12,4</text>
+  
+  <!-- Legend -->
+  <circle cx="80" y="290" r="6" fill="#40826D"/>
+  <text x="92" y="293" fill="#0D1B2A" font-family="Arial" font-size="9">CORE</text>
+  <circle cx="150" y="290" r="6" fill="#888888"/>
+  <text x="162" y="293" fill="#0D1B2A" font-family="Arial" font-size="9">SATELLITE</text>
+  <circle cx="240" y="290" r="6" fill="#C9A227"/>
+  <text x="252" y="293" fill="#0D1B2A" font-family="Arial" font-size="9">CORE/YIELD</text>
+</svg>
