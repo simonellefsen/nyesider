@@ -8,13 +8,13 @@
   <rect width="600" height="400" fill="url(#bg-acn)"/>
   
   <text x="300" y="35" fill="#0D1B2A" font-family="Georgia, serif" font-size="20" text-anchor="middle" font-weight="bold">ACCENTURE (ACN)</text>
-  <text x="300" y="55" fill="#C9A227" font-family="Arial" font-size="12" text-anchor="middle">NYSE � CORE</text>
+  <text x="300" y="55" fill="#C9A227" font-family="Arial" font-size="12" text-anchor="middle">NYSE · CORE</text>
   
   <!-- Price info box -->
   <rect x="50" y="75" width="200" height="120" fill="#0D1B2A" rx="5"/>
   <text x="150" y="100" fill="#C9A227" font-family="Arial" font-size="11" text-anchor="middle">PRIS (2. OKT)</text>
   <text x="150" y="130" fill="#ffffff" font-family="Georgia, serif" font-size="28" text-anchor="middle" font-weight="bold">$198,90</text>
-  <text x="150" y="155" fill="#ff6b6b" font-family="Arial" font-size="14" text-anchor="middle">31,7 % fra top</text>
+  <text x="150" y="155" fill="#ff6b6b" font-family="Arial" font-size="14" text-anchor="middle">−31,7 % fra top</text>
   <text x="150" y="180" fill="#40826D" font-family="Arial" font-size="11" text-anchor="middle">+60 % over bund</text>
   
   <!-- Key metrics -->
@@ -38,7 +38,7 @@
   <rect x="50" y="210" width="500" height="70" fill="#40826D" rx="5"/>
   <text x="300" y="235" fill="#ffffff" font-family="Arial" font-size="12" text-anchor="middle" font-weight="bold">Q4 FY26 BEAT (1. OKT 2026)</text>
   <text x="300" y="255" fill="#ffffff" font-family="Arial" font-size="11" text-anchor="middle">Rev $18,68bn (+6%) vs $18,03bn | EPS $3,29 vs $3,18</text>
-  <text x="300" y="272" fill="#ffffff" font-family="Arial" font-size="11" text-anchor="middle">FY27 guide: +36% rev/EPS | Div +5% til $1,71/kvartal</text>
+  <text x="300" y="272" fill="#ffffff" font-family="Arial" font-size="11" text-anchor="middle">FY27 guide: +3–6% rev/EPS | Div +5% til $1,71/kvartal</text>
   
   <!-- Invalidation -->
   <rect x="50" y="295" width="500" height="50" fill="#ff6b6b" rx="5" opacity="0.9"/>

@@ -8,8 +8,8 @@
   <rect width="600" height="400" fill="url(#bg-leder)"/>
   
   <!-- Title -->
-  <text x="300" y="50" fill="#C9A227" font-family="Georgia, serif" font-size="24" text-anchor="middle" font-weight="bold">NR. 7 � OKTOBER 2026</text>
-  <text x="300" y="80" fill="#ffffff" font-family="Georgia, serif" font-size="14" text-anchor="middle">Oprydning i portef�ljen</text>
+  <text x="300" y="50" fill="#C9A227" font-family="Georgia, serif" font-size="24" text-anchor="middle" font-weight="bold">NR. 7 · OKTOBER 2026</text>
+  <text x="300" y="80" fill="#ffffff" font-family="Georgia, serif" font-size="14" text-anchor="middle">Oprydning i porteføljen</text>
   
   <!-- Nine OUT arrows (invalidated) -->
   <g transform="translate(50, 120)">
@@ -74,8 +74,8 @@
   
   <!-- Bottom stats -->
   <rect x="50" y="310" width="500" height="60" fill="#0D1B2A" stroke="#C9A227" stroke-width="1" rx="5"/>
-  <text x="150" y="340" fill="#ff6b6b" font-family="Arial" font-size="14" text-anchor="middle">Snit: 6,3 %</text>
-  <text x="150" y="358" fill="#888888" font-family="Arial" font-size="10" text-anchor="middle">Nr. 16 kandidater</text>
+  <text x="150" y="340" fill="#ff6b6b" font-family="Arial" font-size="14" text-anchor="middle">Snit: −6,3 %</text>
+  <text x="150" y="358" fill="#888888" font-family="Arial" font-size="10" text-anchor="middle">Nr. 1–6 kandidater</text>
   <text x="300" y="340" fill="#888888" font-family="Arial" font-size="14" text-anchor="middle">SPY: ~0 %</text>
   <text x="300" y="358" fill="#888888" font-family="Arial" font-size="10" text-anchor="middle">Indeks</text>
   <text x="450" y="340" fill="#C9A227" font-family="Arial" font-size="14" text-anchor="middle" font-weight="bold">22 aktive</text>

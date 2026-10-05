@@ -27,9 +27,9 @@ figures:
 
 [FIGUR]
 
-**Hvad er Accenture?** Global konsulentgigant: strategi, teknologi, drift, digital transformation. ~750.000 ansatte i 120 lande. Top 3 global IT-services ved siden af IBM og Deloitte.
+**Hvad er Accenture?** Global konsulentgigant: strategi, teknologi, drift, digital transformation.
 
-**Hvorfor aktien har været nede.** 2025–2026 har været præget af AI-disruptions-frygt (*generativ kunstig intelligens* som erstatning for konsulentarbejde). Aktien faldt 65 % fra januar-toppen til juni-bunden.
+**Hvorfor aktien har været nede.** 2025–2026 har været præget af AI-disruptions-frygt (*generativ kunstig intelligens* som erstatning for konsulentarbejde). Aktien faldt knap 57 % fra januar-lukkehøjden ($288,54 den 14. jan) til juni-lukkebunden ($124,44 den 30. jun).
 
 **Q4 FY26 (aflæst 1. oktober 2026).** Resultatet slog forventningerne på alle linjer:
 
@@ -40,7 +40,7 @@ figures:
 - Udbytte +5 % til $1,71/kvartal, udbetales 13. nov.
 - FY27 guide: +3–6 % omsætning og adj. EPS.[^1][^2]
 
-Aktien steg 15,8 % den 1. oktober (største daglige stigning nogensinde), men faldt 6,3 % tilbage den 2. oktober til $198,90.
+Aktien steg over 22 % intraday og lukkede op 15,8 % den 1. oktober (CNBC), men faldt 6,3 % tilbage den 2. oktober til $198,90.
 
 **Vores tese.** AI-rabatten blev testet af et faktisk kvartal — og den viste sig ikke. Ved P/E 16 / fwd 12,5 med 3 %+ udbytte og aktietilbagekøb handler aktien langt under sin egen historiske multipel. Aktien er *solgt ned* og *allerede bundfisket* — den er +60 % over juni-bunden med højere lavpunkter.
 
@@ -54,7 +54,7 @@ Aktien steg 15,8 % den 1. oktober (største daglige stigning nogensinde), men f
 
 **Invalidation:** Lukkekurs under **$174,47** (laveste lukkekurs før regnskabet, 28. sep — et fuldt gap-fill ville betyde, at markedet afviste kvartalet). Eller en nedjustering af FY27-guiden.
 
-**3–6 måneders case.** Hvis AI-frygten letter yderligere, og Q1 FY27 (17. dec) bekræfter trenden, kan aktien re-rates mod $230–250. Hvis bounces gentagne gange fejler — $174,47 er grænsen.
+**3–6 måneders case.** Hvis AI-frygten letter yderligere, og Q1 FY27 (17. dec) bekræfter trenden, kan aktien nærme sig analytikerkursmål — Stifel har $242. Hvis bounces gentagne gange fejler — $174,47 er grænsen.
 
 [^1]: CNBC, 1. okt 2026. https://www.cnbc.com/2026/10/01/accenture-rallies-more-than-20percent-after-earnings-beat-heads-for-best-day-ever.html
 [^2]: Accenture Investor Relations, Q4 FY26. https://newsroom.accenture.com/content/4q-full-fy26-earnings/accenture-reports-fourth-quarter-and-full-year-fiscal-2026-results.pdf

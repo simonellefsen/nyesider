@@ -27,12 +27,12 @@ figures:
 
 [FIGUR]
 
-**Hvad er Booking Holdings?** Verdens største online rejsebureau (*OTA*, online travel agency): Booking.com, Priceline, Agoda, Kayak, OpenTable. ~90 % af omsætningen er fra hotelreservationer.
+**Hvad er Booking Holdings?** Verdens største online rejsebureau (*OTA*, online travel agency): Booking.com, Priceline, Agoda, Kayak, OpenTable.
 
 **Hvorfor aktien er faldet.**
 September var den værste måned siden juni 2022: −18,6 % per 22. september.[^1]
 
-1. **eTraveli-blokering (9. sep).** EU General Court stadfæstede EU-Kommissionens blokering af Booking Holdings' opkøb af eTraveli (flybilletsøgning).[^2]
+1. **eTraveli-blokering (9. sep).** EU General Court stadfæstede EU-Kommissionens blokering af Booking Holdings' opkøb af eTraveli (flybilletsøgning).[^1][^2]
 2. **AI-agent-frygt (22. sep).** Metas "Muse" AI-agent + Expedia-partnerskab skabte frygt for, at AI-agenter vil bypass OTA'er — du spørger din assistent, og den booker direkte hos hotellet.
 3. **Brent > $100 + Fed-rentehævning.** Irankonflikten sendte olie over $100; Fed hævede renten for første gang i tre år.
 
@@ -50,7 +50,7 @@ September var den værste måned siden juni 2022: −18,6 % per 22. september.[
 
 **Invalidation:** Lukkekurs under **$154,13** (maj-bunden) eller Q3 room-night-vækst under ~3 % / endnu en guide-nedjustering.
 
-**3–6 måneders case.** Hvis Q3 viser stabil vækst, og AI-frygten viser sig overdrevet (endnu ingen målt effekt), kan aktien re-rates mod $180–200. Hvis Q3 skuffer — maj-bunden holder ikke.
+**3–6 måneders case.** Hvis Q3 viser stabil vækst, og AI-frygten viser sig overdrevet (endnu ingen målt effekt), kan aktien re-rates fra den nuværende multipel. Hvis Q3 skuffer — maj-bunden holder ikke.
 
 [^1]: Benzinga, 22. sep 2026. https://www.benzinga.com/news/travel/26/09/61932902/booking-holdings-worst-month-since-june-2022-etraveli-ai-agents
 [^2]: Motley Fool, 23. sep 2026. https://www.fool.com/investing/2026/09/23/why-booking-holdings-stock-was-sliding-today/
