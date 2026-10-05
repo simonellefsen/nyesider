@@ -1,0 +1,283 @@
+{
+  "magazine": "aktier",
+  "issue": "2026-10-nr7",
+  "issueTheme": "Regnskabsdag: ni ud, tre ind — vi rydder op i porteføljen",
+  "budget": {
+    "articles": 10,
+    "wordsPerArticle": [280, 700],
+    "targetPages": 12,
+    "note": "Færre kandidat-artikler (3 i stedet for 5). Fokus på ærlig oprydning og RETTELSE. Ni invalidationer dokumenteret."
+  },
+  "opgaver": [
+    {
+      "slug": "leder",
+      "order": 1,
+      "section": "Leder",
+      "brief": {
+        "angle": "Ærlig leder: ni invalidationer, −6,3 % snit, indekset slog os. RETTELSE om nr. 4–6. Tre nye kandidater.",
+        "words": [200, 300],
+        "mustCite": 0,
+        "format": "leder"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": 280,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "rewritten-by-editor",
+        "checkedAt": "2026-10-05",
+        "citations": 0,
+        "editorNote": "Editor-led. Ærlig tone om track record. RETTELSE inkluderet."
+      }
+    },
+    {
+      "slug": "markedet",
+      "order": 2,
+      "section": "Markedet",
+      "brief": {
+        "angle": "Indeks ved toppen, vores kandidater i rødt. Performance-sammenligning pr. nummer. Fed-hævning, makro.",
+        "words": [400, 500],
+        "mustCite": 2,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": 450,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "rewritten-by-editor",
+        "checkedAt": "2026-10-05",
+        "citations": 2,
+        "editorNote": "Editor-led. Fed-kilde + Reuters inkluderet."
+      }
+    },
+    {
+      "slug": "accenture",
+      "order": 3,
+      "section": "Kandidaten",
+      "brief": {
+        "angle": "Accenture Q4 FY26 beat. +60% over bund. AI-frygt testet og bestod. CORE-kandidat.",
+        "words": [500, 650],
+        "mustCite": 2,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": 580,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "rewritten-by-editor",
+        "checkedAt": "2026-10-05",
+        "citations": 2,
+        "editorNote": "Editor-led. CNBC og Accenture IR citeret."
+      }
+    },
+    {
+      "slug": "booking",
+      "order": 4,
+      "section": "Kandidaten",
+      "brief": {
+        "angle": "Booking Holdings: AI-agent-vask, eTraveli-blokering, kun 3% over støtte. SATELLITE-kandidat.",
+        "words": [450, 550],
+        "mustCite": 2,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": 520,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "rewritten-by-editor",
+        "checkedAt": "2026-10-05",
+        "citations": 2,
+        "editorNote": "Editor-led. Benzinga og Motley Fool citeret."
+      }
+    },
+    {
+      "slug": "royal-unibrew",
+      "order": 5,
+      "section": "Kandidaten",
+      "brief": {
+        "angle": "Royal Unibrew: dobbeltbund-test, PepsiCo-licens i 2029, første CPH-kandidat siden Rockwool. CORE/YIELD.",
+        "words": [500, 600],
+        "mustCite": 3,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": 560,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "rewritten-by-editor",
+        "checkedAt": "2026-10-05",
+        "citations": 3,
+        "editorNote": "Editor-led. Reuters, Royal Unibrew IR, Børsen citeret."
+      }
+    },
+    {
+      "slug": "tallet",
+      "order": 6,
+      "section": "Tallet",
+      "brief": {
+        "angle": "Tre kandidater i én tabel. P/E, yield, invalidation. Sleeves forklaret.",
+        "words": [300, 400],
+        "mustCite": 1,
+        "format": "tallet"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": 350,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "rewritten-by-editor",
+        "checkedAt": "2026-10-05",
+        "citations": 1,
+        "editorNote": "Editor-led. Yahoo Finance citeret."
+      }
+    },
+    {
+      "slug": "etferne",
+      "order": 7,
+      "section": "ETF'erne",
+      "brief": {
+        "angle": "Stadig ingen rabat i indekset — og indekset slog os. US/verden ved toppen, Europa mildt dip.",
+        "words": [350, 450],
+        "mustCite": 1,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": 400,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "rewritten-by-editor",
+        "checkedAt": "2026-10-05",
+        "citations": 1,
+        "editorNote": "Editor-led. Yahoo Finance citeret."
+      }
+    },
+    {
+      "slug": "portefoeljen",
+      "order": 8,
+      "section": "Porteføljen",
+      "brief": {
+        "angle": "Ni invalideret (dokumenteret tabel), 19 aktive fra nr. 1–6, tre nye. Nike/STZ opfølgning. Kalender.",
+        "words": [600, 750],
+        "mustCite": 3,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": 700,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "rewritten-by-editor",
+        "checkedAt": "2026-10-05",
+        "citations": 3,
+        "editorNote": "Editor-led. Nike IR, CNBC, Constellation IR citeret."
+      }
+    },
+    {
+      "slug": "rygteboersen",
+      "order": 9,
+      "section": "Rygtebørsen",
+      "brief": {
+        "angle": "Afviste navne: CTVA spinoff, NOC kontrakt, MC.PA deroute, nordiske faldende knive. Følger-liste.",
+        "words": [300, 420],
+        "mustCite": 0,
+        "format": "rygteboersen"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": 380,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "rewritten-by-editor",
+        "checkedAt": "2026-10-05",
+        "citations": 0,
+        "editorNote": "Editor-led. Kort format, ingen fodnoter påkrævet."
+      }
+    },
+    {
+      "slug": "bagsnit",
+      "order": 10,
+      "section": "Bagsnit",
+      "brief": {
+        "angle": "Disclaimer, hvad vi lærte af ni invalidationer, track record tabel, kalender for nr. 8.",
+        "words": [250, 350],
+        "mustCite": 0,
+        "format": "bagsnit"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": 320,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "rewritten-by-editor",
+        "checkedAt": "2026-10-05",
+        "citations": 0,
+        "editorNote": "Editor-led. Standard disclaimer. Ærlig track record tabel."
+      }
+    }
+  ]
+}

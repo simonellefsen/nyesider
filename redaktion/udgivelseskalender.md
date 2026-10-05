@@ -34,6 +34,7 @@ Håndhæves som **ERROR** i `production/check_issue.py` (og dermed i `npm run pr
 | 2026-09-21 | aktier/2026-09-nr5 (nr. 5) |
 | 2026-09-28 | aktier/2026-09-nr6 (nr. 6) |
 | 2026-10-03 | dosis/2026-10-nr6 (nr. 6); gnisten/2026-10-nr6 (nr. 6); horisonten/2026-10-nr6 (nr. 6); humanerd/2026-10-nr6 (nr. 6); indeni/2026-10-nr6 (nr. 6); kraften/2026-10-nr6 (nr. 6); kronike/2026-10-nr5 (nr. 5); kulturboxen/2026-10-nr6 (nr. 6); orbit/2026-10-nr6 (nr. 6); pulsen/2026-10-nr6 (nr. 6); spaending/2026-10-nr6 (nr. 6) |
+| 2026-10-05 | aktier/2026-10-nr7 (nr. 7) |
 
 ## Efter magasin
 
@@ -47,6 +48,7 @@ Håndhæves som **ERROR** i `production/check_issue.py` (og dermed i `npm run pr
 | 4 | `2026-09-nr4` | 2026-09-14 | published | Comcast endelig med — Rockwool åbner København-siden |
 | 5 | `2026-09-nr5` | 2026-09-21 | published | Efter Fed: Adobe til rabat — yield i UPS, Sanofi, Telenor og Telekom |
 | 6 | `2026-09-nr6` | 2026-09-28 | published | Intuit-vask — Pepsi, Lowe's og Orkla mens Nike venter |
+| 7 | `2026-10-nr7` | 2026-10-05 | published | Regnskabsdag: ni ud, tre ind — vi rydder op i porteføljen |
 
 ### dosis
 
