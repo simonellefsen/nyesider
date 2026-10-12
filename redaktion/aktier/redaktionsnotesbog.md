@@ -193,27 +193,61 @@ python3 production/load_env.py aktier   # når .env.aktier oprettes
 
 **Lærdom:** At købe navne *på* 52-ugers bund uden bundformation producerede for mange faldende knive. Fra nr. 7: krav om bekræftet højere bund eller indtruffet katalysator, invalidation stramt under synlig støtte, færre navne.
 
-## Nr. 8 — kandidater / opfølgning
+## Nr. 8 — udgivet (2026-10-12)
 
-**(2026-10-06)** Constellation Brands Q2 FY27 (allerede invalideret).
+**Tema:** SpaceX-chokket: telekom i frit fald — vi køber ikke kniven  
+**Editor-led:** Alle artikler skrevet af chefredaktionen uden byline. Ingen OpenRouter-kald (`.env.aktier` endnu ikke oprettet). `productionCostUSD: 0`.
 
-**(2026-10-15)** Pernod Ricard Q1 FY27-salgstal. Telenor ex-udbytte NOK 4,70.
+**RI.PA INVALIDERET:**
+- Pernod Ricard lukkede €58,04 mandag 5. oktober 2026 — under invalidationsniveauet €58,60.
+- Nr. 7 flagede den ved €58,62 den 2. oktober.
+- Ved brud: −8,2 % fra entry (€63,20). Ved 9. okt (€61,60): −2,5 %.
+- Exit bekræftet. Ingen re-entry (samme regel som LULU/HUSQ/DECK).
 
-**(2026-10-22)** Yara Q3 — nitrogen og margin.
+**SpaceX telekomchok (8.–9. oktober 2026):**
+- SpaceX aftalte køb af 800 MHz lavbånds-spektrum fra Grain Management (~$8 mia.).
+- TMUS −13,3 %, VZ −8,8 %, T −9,8 % på fredag 9. oktober.
+- Samlet tab: ~$58 mia. markedsværdi.
+- DTE.DE (vores nr. 5) faldt −7,9 % til €24,70 (−8,9 % fra entry).
+- CMCSA (vores nr. 4) ramte 52w bund $20,66 (−18,0 % fra entry).
+- Vi køber IKKE TMUS/VZ/T — følger, venter på bekræftet bund.
 
-**(2026-10-24)** Comcast Q3.
+**Én ny kandidat:**
+1. **CCL** (Carnival, NYSE) — $26,35, −22,6 % fra top, +20,9 % over bund (24. sep $21,79), trail P/E 11,6, fwd 10,3, yield 1,7 %, SATELLITE. Q3 beat-and-raise 29. sep. Invalidation lukke < $22,14.
 
-**(~2026-10-27)** Booking Holdings Q3 — **BINÆRT**. AI-agent-tesen testes.
+**Ærligt scorecard (31 kandidater, nr. 1–7):**
+- Snit: **−3,8 %**
+- I plus: **8 af 31**
+- Indekset slog os igen.
+- Kun nr. 7 foran SPY/EUNL — én uge, for tidligt at konkludere.
 
-**(2026-10-27)** UPS Q3.
+**Rettelse:** Nr. 7 skrev "Comcast Q3 24. oktober". Korrekt: **22. oktober** (24. okt er lørdag).
+
+**Porteføljen nu:** 21 aktive fra nr. 1–7 (efter RI.PA exit) + 1 ny = **22 aktive kandidater**.
+
+## Nr. 9 — kandidater / opfølgning
+
+**(2026-10-13)** US-banker (JPM, GS, WFC, C).
+
+**(2026-10-14)** US CPI (konsensus 3,6 %).
+
+**(2026-10-15)** Pernod Ricard Q1 FY27-salgstal (RI.PA nu ude). Telenor ex-udbytte NOK 4,70.
+
+**(2026-10-22)** Yara Q3 — nitrogen og margin. **Comcast Q3** — CMCSA test.
+
+**(~2026-10-27)** Booking Holdings Q3 — **BINÆRT**. AI-agent-tesen testes. UPS Q3.
+
+**(2026-10-27–28)** FOMC.
 
 **(2026-10-28)** PayPal Q3.
+
+**(2026-10-29)** Cognizant Q3 + Boliden Q3 (følgere).
 
 **(2026-10-30)** Capgemini Q3 + Wolters Kluwer Q3.
 
 **(2026-11-04)** Novo Q3 + Ahold Q3.
 
-**(2026-11-05)** Deutsche Telekom Q3.
+**(2026-11-05)** Deutsche Telekom Q3 — **nøgletest efter TMUS-chok**.
 
 **(2026-11-06)** Rockwool Q3.
 
@@ -223,10 +257,15 @@ python3 production/load_env.py aktier   # når .env.aktier oprettes
 
 **(2026-12-17)** ACN Q1 FY27 — bekræftelse af bundformation.
 
+**(Dec 2026, ubekræftet)** CCL Q4 FY26.
+
 **Følger (ikke feature endnu):**
+- TMUS/VZ/T — telekomchok 9. okt, shock-day lav. Venter på højere bund.
+- CTSH (Cognizant) — −32 %, fwd 9,3, +53 % over bund. Ville passe bundreglen, men IT-services koncentration (ACN, CAP.PA). Q3 29. okt.
+- BOL.ST (Boliden) — −25 %, P/E 12,3, +35 % over bund. Metals-cyklisk. Q3 29. okt.
 - FISV — aktivist JANA, debit-talks. Feature hvis deal-nyt eller stabilisering.
-- CHTR — for binær (D/E 441%, short 52%).
-- NHY.OL — aluminium-cyklisk, fwd P/E 9,6.
+- CHTR — leverage veto (D/E >400%, short >50%).
+- NHY.OL — aluminium-cyklisk, fwd P/E 9,6. Falder stadig.
 - DG.PA (Vinci) — fransk skat binær, yield 4,7 %.
 - SGO.PA (Saint-Gobain) — ved 52w lav, følger.
 - COF (Capital One) — kortdelinkvens + Discover.
@@ -242,3 +281,4 @@ python3 production/load_env.py aktier   # når .env.aktier oprettes
 - **2026-09-28:** Nr. 6 publiceret — *"Intuit-vask — Pepsi, Lowe's og Orkla mens Nike venter"*. Editor-led, ingen bylines, `productionCostUSD: 0`. Fem nye kandidater: INTU, PEP, LOW, ORK.OL, PHIA.AS. **Intuit** er største drawdown (−61%). Fire yield-navne (PEP 4,5%, ORK 4,3%, PHIA 4,0%, LOW 2,6%). Porteføljen nu **29 aktive** (24 fra nr.1–5 + 5 nye). **NKE Q1 29. sep er i morgen** — binært.
 - **2026-10-05:** Nr. 7 publiceret — *"Regnskabsdag: ni ud, tre ind — vi rydder op i porteføljen"*. Editor-led, ingen bylines, `productionCostUSD: 0`. **RETTELSE** af nr. 4–6's fejl om invalidationer. **Ni invalideret** (ZTS, BMW, HUSQ, NKE, BSX, DECK, VOLCAR, MBG, STZ). Tre nye kandidater: ACN, BKNG, RBREW.CO. **ACN** er første +60%-over-bund kandidat (bekræftet vending). **RBREW** er anden CPH-kandidat efter Rockwool. Track record −6,3 % vs. SPY ~0 % — indekset slog os. Porteføljen nu **22 aktive** (19 fra nr.1–6 + 3 nye).
 - **2026-10-05 (post-merge rettelse):** SVG-filer rettet for UTF-8-kodningsfejl (cp1252 → UTF-8) og XML-well-formedness. Artikler 02–05, 07 og 10 rettet: fjernet usourcerede tal (ACN-medarbejdere, 65 %→57 %, Booking 90 % hotel, targets $230–250/$180–200/DKK 450–480), DAX-niveau korrigeret (21.918→25.231), falsk Reuters-fodnote erstattet med Boursier/TrustFinance, CAC 40/Vinci-kausalitet præciseret, udgivelsesdag søndag→mandag.
+- **2026-10-12:** Nr. 8 publiceret — *"SpaceX-chokket: telekom i frit fald — vi køber ikke kniven"*. Editor-led, ingen bylines, `productionCostUSD: 0`. **RI.PA exit** (€58,04 < €58,60 den 5. okt). **SpaceX telekomchok** (TMUS −13%, VZ −9%, T −10%). DTE.DE −7,9%, CMCSA −18% (holder, fundamental inv.). **Én ny kandidat: CCL** (Carnival, SATELLITE, Q3 beat-and-raise). Vi køber ikke TMUS/VZ/T — shock-day lav er præcis hvad vi stoppede med at købe. **Rettelse:** Comcast Q3 er 22. okt, ikke 24. okt (lørdag). **Ærligt scorecard:** 31 kandidater snit −3,8%, 8 i plus. Indekset slog os igen. Porteføljen nu **22 aktive** (21 fra nr.1–7 + 1 ny).
