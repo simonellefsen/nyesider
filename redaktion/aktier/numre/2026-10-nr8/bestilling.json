@@ -1,0 +1,229 @@
+{
+  "magazine": "aktier",
+  "issue": "2026-10-nr8",
+  "issueTheme": "SpaceX-chokket: telekom i frit fald — vi køber ikke kniven",
+  "budget": {
+    "articles": 8,
+    "wordsPerArticle": [280, 750],
+    "targetPages": 10,
+    "note": "Kun én kandidat-artikel (CCL). SpaceX-telekomchok dominerer Markedet. RI.PA invalideret. Rettelse: Comcast Q3 22. okt, ikke 24. okt."
+  },
+  "opgaver": [
+    {
+      "slug": "leder",
+      "order": 1,
+      "section": "Leder",
+      "brief": {
+        "angle": "SpaceX-chok, telekom crasher, vi køber ikke kniven. RI.PA exit. Én ny kandidat (CCL). 22 aktive.",
+        "words": [200, 300],
+        "mustCite": 0,
+        "format": "leder"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": 280,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "rewritten-by-editor",
+        "checkedAt": "2026-10-12",
+        "citations": 0,
+        "editorNote": "Editor-led. Ærlig tone om falling-knife-afvisning."
+      }
+    },
+    {
+      "slug": "markedet",
+      "order": 2,
+      "section": "Markedet",
+      "brief": {
+        "angle": "SpaceX spektrumkøb, telekomchok (TMUS -13%, VZ -9%, T -10%), effekt på DTE.DE/CMCSA, uge frem, vi køber ikke kniven.",
+        "words": [500, 650],
+        "mustCite": 8,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": 580,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "rewritten-by-editor",
+        "checkedAt": "2026-10-12",
+        "citations": 8,
+        "editorNote": "Editor-led. Light Reading, etf.net, NBC, CNBC, MarketScreener, MarketIntelLabs, FXEmpire citeret."
+      }
+    },
+    {
+      "slug": "carnival",
+      "order": 3,
+      "section": "Kandidaten",
+      "brief": {
+        "angle": "CCL Q3 beat-and-raise, +21% fra bund, bekræftet højere bund, SATELLITE, invalidation $22,14.",
+        "words": [550, 680],
+        "mustCite": 4,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": 620,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "rewritten-by-editor",
+        "checkedAt": "2026-10-12",
+        "citations": 4,
+        "editorNote": "Editor-led. Carnival 8-K, Investing.com, StockStory, Motley Fool call transcript citeret."
+      }
+    },
+    {
+      "slug": "tallet",
+      "order": 4,
+      "section": "Tallet",
+      "brief": {
+        "angle": "Én kandidat (CCL) i tabel med pris, 52w-afstand, P/E, yield, invalidation. Sleeve-forklaring.",
+        "words": [250, 320],
+        "mustCite": 1,
+        "format": "tallet"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": 280,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "rewritten-by-editor",
+        "checkedAt": "2026-10-12",
+        "citations": 1,
+        "editorNote": "Editor-led. Yahoo Finance citeret."
+      }
+    },
+    {
+      "slug": "etferne",
+      "order": 5,
+      "section": "ETF'erne",
+      "brief": {
+        "angle": "US ved top, QQQ -1.5%, Europa 5-8% ned, CAC 40 -11% dybest, telecom-ETF advarsel, ingen anbefaling.",
+        "words": [320, 420],
+        "mustCite": 2,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": 380,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "rewritten-by-editor",
+        "checkedAt": "2026-10-12",
+        "citations": 2,
+        "editorNote": "Editor-led. Yahoo Finance og etf.net citeret."
+      }
+    },
+    {
+      "slug": "portefoeljen",
+      "order": 6,
+      "section": "Porteføljen",
+      "brief": {
+        "angle": "RI.PA exit (€58,04 < €58,60), near-misses, telekomchok DTE/CMCSA, scorecard 31 kandidater -3.8% snit, 8/31 i plus, kalender.",
+        "words": [650, 800],
+        "mustCite": 0,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": 750,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "rewritten-by-editor",
+        "checkedAt": "2026-10-12",
+        "citations": 0,
+        "editorNote": "Editor-led. Alle tal fra vedhæftede CSV/JSON. Ærligt scorecard."
+      }
+    },
+    {
+      "slug": "rygteboersen",
+      "order": 7,
+      "section": "Rygtebørsen",
+      "brief": {
+        "angle": "TMUS/VZ/T følger, CHTR leverage veto, CTSH/BOL.ST følgere, ingen bund endnu (PRX/MC/NHY), nordiske rejects, gentagne afvisninger.",
+        "words": [380, 460],
+        "mustCite": 0,
+        "format": "rygteboersen"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": 420,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "rewritten-by-editor",
+        "checkedAt": "2026-10-12",
+        "citations": 0,
+        "editorNote": "Editor-led. Kort format, ingen fodnoter påkrævet."
+      }
+    },
+    {
+      "slug": "bagsnit",
+      "order": 8,
+      "section": "Bagsnit",
+      "brief": {
+        "angle": "Disclaimer, rettelse (Comcast Q3 22. okt ikke 24. okt), track record tabel, kalender for nr. 9.",
+        "words": [300, 380],
+        "mustCite": 1,
+        "format": "bagsnit"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": 350,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "rewritten-by-editor",
+        "checkedAt": "2026-10-12",
+        "citations": 1,
+        "editorNote": "Editor-led. Comcast IR via Nasdaq citeret for rettelse."
+      }
+    }
+  ]
+}
