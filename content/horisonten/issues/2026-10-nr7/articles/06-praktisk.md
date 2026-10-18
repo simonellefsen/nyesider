@@ -28,5 +28,7 @@ Der findes flere måder at klare transporten på:
 
 Husk, at du aldrig bør regne med faste priser for hverken flybilletter eller lokal transport. Tjek altid de aktuelle satser og afgangstider, inden du booker, så logistikken spiller optimalt sammen med din planlagte sæson og rute.
 
+Hvad det koster at *bo* i Slovenien — sene flytninger, lange uger, bolig og kontanter — står i [KULTURBOXEN](/kulturboxen/2026-10-nr7/hverdagsspor).
+
 ---
 [^1]: "Ljubljana Jože Pučnik Airport", *Wikipedia*. Tilgængelig på: [https://en.wikipedia.org/wiki/Ljubljana_Airport](https://en.wikipedia.org/wiki/Ljubljana_Airport).

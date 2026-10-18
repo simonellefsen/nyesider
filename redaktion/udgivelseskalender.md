@@ -36,7 +36,7 @@ Håndhæves som **ERROR** i `production/check_issue.py` (og dermed i `npm run pr
 | 2026-10-03 | dosis/2026-10-nr6 (nr. 6); gnisten/2026-10-nr6 (nr. 6); horisonten/2026-10-nr6 (nr. 6); humanerd/2026-10-nr6 (nr. 6); indeni/2026-10-nr6 (nr. 6); kraften/2026-10-nr6 (nr. 6); kronike/2026-10-nr5 (nr. 5); kulturboxen/2026-10-nr6 (nr. 6); orbit/2026-10-nr6 (nr. 6); pulsen/2026-10-nr6 (nr. 6); spaending/2026-10-nr6 (nr. 6) |
 | 2026-10-05 | aktier/2026-10-nr7 (nr. 7) |
 | 2026-10-12 | aktier/2026-10-nr8 (nr. 8) |
-| 2026-10-18 | dosis/2026-10-nr7 (nr. 7); gnisten/2026-10-nr7 (nr. 7); horisonten/2026-10-nr7 (nr. 7); humanerd/2026-10-nr7 (nr. 7); kraften/2026-10-nr7 (nr. 7); kronike/2026-10-nr6 (nr. 6); orbit/2026-10-nr7 (nr. 7); pulsen/2026-10-nr7 (nr. 7); spaending/2026-10-nr7 (nr. 7) |
+| 2026-10-18 | dosis/2026-10-nr7 (nr. 7); gnisten/2026-10-nr7 (nr. 7); horisonten/2026-10-nr7 (nr. 7); humanerd/2026-10-nr7 (nr. 7); indeni/2026-10-nr7 (nr. 7); kraften/2026-10-nr7 (nr. 7); kronike/2026-10-nr6 (nr. 6); kulturboxen/2026-10-nr7 (nr. 7); orbit/2026-10-nr7 (nr. 7); pulsen/2026-10-nr7 (nr. 7); spaending/2026-10-nr7 (nr. 7) |
 
 ## Efter magasin
 
@@ -111,6 +111,7 @@ Håndhæves som **ERROR** i `production/check_issue.py` (og dermed i `npm run pr
 | 4 | `2026-08-nr4` | 2026-08-29 | published | Kontaktlinsen |
 | 5 | `2026-09-nr5` | 2026-09-12 | published | Asfalt — fra stenbrud og raffinaderi til vejen, der genopstår som sig selv |
 | 6 | `2026-10-nr6` | 2026-10-03 | published | Køleskabet — fra stål og kølemiddel til kompressoren, der aldrig sover, og kredsløbet der tapper den tom |
+| 7 | `2026-10-nr7` | 2026-10-18 | published | Vaskemaskinen — fra tromle og tætningsliste til økoprogrammet, mikrofiberne i udblødningen og fabrikkerne bag tromlerne |
 
 ### kraften
 
@@ -145,6 +146,7 @@ Håndhæves som **ERROR** i `production/check_issue.py` (og dermed i `npm run pr
 | 4 | `2026-08-nr4` | 2026-08-29 | published | Marokko |
 | 5 | `2026-09-nr5` | 2026-09-12 | published | Japan uden kirsebærtræer — arbejde, bolig, dating og hverdag |
 | 6 | `2026-10-nr6` | 2026-10-03 | published | Portugal — hverdag, arbejde, bolig, mad, penge, normer |
+| 7 | `2026-10-nr7` | 2026-10-18 | published | Slovenien — hverdag, arbejde, bolig, mad, penge, normer |
 
 ### orbit
 

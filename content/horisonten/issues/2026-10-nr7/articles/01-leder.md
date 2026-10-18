@@ -14,6 +14,6 @@ Den slovenske hovedstad er ikke en by med verdensberømte ikoner. I stedet har d
 
 Dette nummer er gennemført på få dage: et historisk overblik fra romersk Emona til moderne EU-hovedstad, et byportræt til fods, en vandredag ved Bled-søen, slovensk mad fra potica til kranjska klobasa, det praktiske og den faste Rejsevejledning med det, en dansk rejsende altid bør have med.
 
-Nummeret er tilrettelagt sammen med søstermagasinet KULTURBOXEN nr. 7, der ser på slovensk hverdag og kultur — rejsen her, livet dér. God tur.
+Nummeret er tilrettelagt sammen med søstermagasinet [KULTURBOXEN nr. 7](/kulturboxen/2026-10-nr7/leder), der ser på slovensk hverdag og kultur — rejsen her, livet dér. God tur.
 
 Dette nummer kostede 0,16 USD · 1,04 kr. at producere.

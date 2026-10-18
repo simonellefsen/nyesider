@@ -1,0 +1,251 @@
+{
+  "budget": {
+    "articles": 7,
+    "note": "Vaskemaskinen valgt fra bunden (idébanken er tom). Kompakt nummer som nr. 5-6 (7 artikler). Europa kobler to reelle europæiske vaskemaskinefabrikker (Electrolux Porcia, Italien; Arçelik Ulmi, Rumænien) — eksisterende produktion og annoncerede planer holdes skarpt adskilt.",
+    "targetPages": 12,
+    "wordsPerArticle": [
+      300,
+      650
+    ]
+  },
+  "issue": "2026-10-nr7",
+  "issueTheme": "Vaskemaskinen — fra tromle og tætningsliste til økoprogrammet, mikrofiberne i udblødningen og fabrikkerne bag tromlerne",
+  "magazine": "indeni",
+  "opgaver": [
+    {
+      "slug": "leder",
+      "order": 1,
+      "section": "Leder",
+      "brief": {
+        "angle": "Kort leder der introducerer temaet: vaskemaskinen, den maskine der ligner alle andre hvidevarer, men standser ingen vaskemidler i praksis — hver dag i næsten alle danske hjem. Fra tromle og ophæng til vaskemiddel, spildevandet og genanvendelsen — og hvorfor det mest interessante ved vaskemaskinen er det, der forsvinder ud i kloakken: vandet, vaskemidlet og tøjets mikrofibre.",
+        "format": "leder",
+        "mustCite": 0,
+        "words": [
+          150,
+          250
+        ]
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": null,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-10-18",
+        "citations": 0,
+        "editorNote": "Redaktionens egen leder, ingen byline, ingen API-kald."
+      }
+    },
+    {
+      "slug": "turen",
+      "order": 2,
+      "section": "Turen",
+      "brief": {
+        "angle": "Turen følger vaskemaskinen fra råstof til vaskerum. Forklar de store materialer: stål til kabinet og chassi, rustfrit stål eller plastkomposit til tromlen, kobber i motorviklinger og ledninger, plast til pumper, slanger og bagpanel, gummi til dørens tætningsliste, stålfjedre og støddæmpere i ophænget — samt de tunge kontravægte, typisk af beton, der modvirker tromlens vibrationer, særligt under centrifugering. Nævn at en husholdningsvaskemaskine typisk vejer mellem 60 og 80 kg, og at kontravægtene udgør en væsentlig del af vægten — skriv kun intervallet, ikke præcise tal for en bestemt model. Opdigt IKKE vægtprocenter for materialerne eller præcise årstal for vaskemaskinens historie. Slut med en kort bro til Maskinen: at kabinet, motor og kontravægte kun er rammen — selve vasken styres af økoprogrammet, som er emnet for næste artikel. Brug mindst 2 klikbare fodnoter til reelle sider (fx en producentens egen teknologi- eller produkt-side og EU's energimærkningsside for vaskemaskiner). Gæt ALDRIG en URL — brug kun adresser du er sikker på findes.",
+        "format": "feature",
+        "mustCite": 2,
+        "mustNumber": [
+          "vaskemaskine typisk 60-80 kg"
+        ],
+        "words": [
+          450,
+          650
+        ]
+      },
+      "writer": {
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 544,
+        "costUSD": 0.035858,
+        "draft": "kladder/02-turen.md",
+        "costRouting": "byok",
+        "generationId": "gen-1792302267-hfJgoV37jh8Ea0Nws4vt"
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-10-18",
+        "citations": 2,
+        "editorNote": "Faktatjek af venter."
+      }
+    },
+    {
+      "slug": "maskinen",
+      "order": 3,
+      "section": "Maskinen",
+      "brief": {
+        "angle": "Maskinen forklarer selve vaskeprocessen trin for trin: vand fyldes ind gennem indløbsventilen, opvarmes af maskinens eget varmeelement til programmets temperatur (i EU tager maskinen typisk selv koldt vand ind og varmer det op), vaskemidlet opløses, tromlen drejer frem og tilbage reversibelt, og tromlens lifters løfter vasketøjet op og slipper det ned i vasketøjspuljen; afløbspumpen tømmer vaskebadet, og finallyen centrifugering (op til ca. 1.600 o/min i visse topmodeller) presser vandet ud — jo højere omdrejningstal, jo mindre restfugtighed i tøjet. Forklar hvad EU's regler definerer: økoprogrammet 'eco 40-60' er det officielle standardprogram, der angives på energimærket (Forordning (EU) 2019/2023), og ecodesign-forordningen (EU) 2019/2022 sætter krav til blandt andet energi- og vandforbrug per cyklus og adgang til reservedele og serviceinformation i en række år efter salgets ophør (op til 10 år for visse reservedele). Brug ordene tromle, lifters, pumpe, tætningsliste, økoprogram og centrifugering. LAV IKKE selv et SVG-diagram i teksten — skriv blot [FIGUR] hvor diagrammet skal stå; redaktionen tegner det. Mindst 2 klikbare fodnoter til reelle sider (fx EUR-Lex). Gæt ALDRIG en URL.",
+        "format": "feature",
+        "mustCite": 2,
+        "mustNumber": [
+          "A-G-skalaen",
+          "eco 40-60",
+          "centrifugering op til ca. 1600 o/min"
+        ],
+        "words": [
+          450,
+          650
+        ]
+      },
+      "writer": {
+        "byline": "GPT-5.6 Terra (OpenAI)",
+        "model": "openai/gpt-5.6-terra",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 540,
+        "costUSD": 0.020876,
+        "draft": "kladder/03-maskinen.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1792302321-ks1VAsVy6ukcEQeaZZxy"
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-10-18",
+        "citations": 2,
+        "editorNote": "Faktatjek af venter."
+      }
+    },
+    {
+      "slug": "kredsloebet",
+      "order": 4,
+      "section": "Kredsløbet",
+      "brief": {
+        "angle": "Kredsløbet forklarer hvad der sker med en udtjent vaskemaskine i Danmark som en virkelig logistisk kæde: aflevering på kommunal genbrugsplads, transport til behandlingsanlæg, demontering og selektiv udskillelse af enkelte komponenter (fx kviksølvkontakter i meget ældre modeller håndteres særskilt), opskæring og sortering af stål (kabinet, tromme), kobber (motorviklinger), aluminium, plast og gummi, samt den tunge betonkontravægt som restfraktion — og producentansvaret via kollektive ordninger under WEEE-direktivet (affald af elektrisk og elektronisk udstyr, på engelsk Waste Electrical and Electronic Equipment). Forklar hvorfor motoren, kobberet og tromlen er de mest værdifulde fraktioner — og hvorfor den store betonkontravægt gør transport og håndtering tung og dyr. Opdigt IKKE præcise danske tonnage-tal; hvis du nævner mængder, skal år og geografi stå eksplicit og kilden være klikbar (fx Eurostat eller en kollektiv ordning). Mindst 3 klikbare fodnoter til reelle sider. Gæt ALDRIG en URL.",
+        "format": "feature",
+        "mustCite": 3,
+        "words": [
+          450,
+          650
+        ]
+      },
+      "writer": {
+        "byline": "DeepSeek V3.2 (DeepSeek)",
+        "model": "deepseek/deepseek-v3.2",
+        "fallback": "google/gemini-3.5-flash"
+      },
+      "receipt": {
+        "words": 334,
+        "costUSD": 0.00070262,
+        "draft": "kladder/04-kredsloebet.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1792302345-PELHaMoyt0NRaNZvk25s"
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-10-18",
+        "citations": 3,
+        "editorNote": "Faktatjek af venter."
+      }
+    },
+    {
+      "slug": "europa",
+      "order": 5,
+      "section": "Europa",
+      "brief": {
+        "angle": "Europa kortlægger to reelle europæiske vaskemaskinefabrikker: (1) Electrolux Groups vaskemaskinefabrik i Porcia (Pordenone, Italien), som producerer husholdningsvaskemaskiner i Europa, og (2) Arçelik (Beko), som producerer vaskemaskiner i Ulmi (Dâmbovița, Rumænien) — den fabrik blev i 2019 udpeget som WEF Global Lighthouse-fabrik og i 2022 som Sustainability Lighthouse, begge udpegningsprogrammer fra World Economic Forum. Beskriv dem som to europæiske producenter af færdige vaskemaskiner på samme led i værdikæden. Skeln skarpt mellem eksisterende produktion og annoncerede planer/udvidelser — anfør kun planer der har en klikbar kilde med dato, og mærk dem som 'annonceret'. Mindst 2 klikbare fodnoter til reelle sider (fx electroluxgroup.com, arcelikglobal.com eller weforum.org). Gæt ALDRIG en URL — brug kun sidens forsider eller sider du er sikker på findes.",
+        "format": "feature",
+        "mustCite": 2,
+        "words": [
+          350,
+          550
+        ]
+      },
+      "writer": {
+        "byline": "DeepSeek V3.2 (DeepSeek)",
+        "model": "deepseek/deepseek-v3.2",
+        "fallback": "google/gemini-3.5-flash"
+      },
+      "receipt": {
+        "words": 316,
+        "costUSD": 0.00062204,
+        "draft": "kladder/05-europa.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1792302380-1aisw7KuVDhnkQSqC3qZ"
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-10-18",
+        "citations": 2,
+        "editorNote": "Faktatjek af venter."
+      }
+    },
+    {
+      "slug": "tallet",
+      "order": 6,
+      "section": "Tallet",
+      "brief": {
+        "angle": "Tallet er en lille tabel over vaskemaskinen i tal: vælg 3 rækker med hårde tal, der hver har ÅR, GEOGRAFI og hvad tallet måler — (1) EU's fosfatgrænse: max 0,5 gram fosfor per vaskeproces i forbrugervasketøj, i kraft fra 30. juni 2013 (EU, forordning (EU) nr. 259/2012, som ændrede forordning (EF) nr. 648/2004); (2) udledninger af tekstilmikrofibre fra tøjvask: ca. 5,69 millioner ton mikroplast per år globalt — ca. en tredjedel af havets primære mikroplast — og for Europa ca. 0,45 millioner ton (2024-studie, PubMed-artikel 39047563); (3) EU's energimærkning for vaskemaskiner: A-G-skalaen, med energiforbrug angivet i kWh for 100 kørsler af økoprogrammet eco 40-60, i kraft fra 1. marts 2021 (EU). Hver celle i tabellen skal have en klikbar fodnote til en reel kilde (fx EUR-Lex for forordning (EU) nr. 259/2012, PubMed-artiklen, EU's energimærkningsside). Ingen tal uden år og geografi. Ingen meta-bokse — skriv tallene som læserprosa med tabellen i midten.",
+        "format": "tallet",
+        "mustCite": 3,
+        "mustNumber": [
+          "fosfatgrænse 0,5 g fosfor pr. vaskeproces, i kraft fra 2013-06-30 (EU)",
+          "5,69 mio. ton mikrofibre globalt; ca. 0,45 mio. ton Europa (2024-studie)",
+          "A-G-skalaen og kWh pr. 100 øko-cyklusser, i kraft fra 2021-03-01 (EU)"
+        ],
+        "words": [
+          300,
+          500
+        ]
+      },
+      "writer": {
+        "byline": "Qwen3.7 Max (Alibaba)",
+        "model": "qwen/qwen3.7-max",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 367,
+        "costUSD": 0.035959025,
+        "draft": "kladder/06-tallet.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1792302410-c0tNpU8f6bSlkHYT52Qr"
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-10-18",
+        "citations": 3,
+        "editorNote": "Faktatjek af venter."
+      }
+    },
+    {
+      "slug": "paastandskontoret",
+      "order": 7,
+      "section": "Påstandskontoret",
+      "brief": {
+        "angle": "Påstandskontoret tester påstanden: 'Økoprogrammet sparer strøm — men tager timer og vasker først lige så rent som de hurtige programmer, hvis vaskemidlet og tøjmængden er rigtige'. Konklusionen skal være nuanceret: EU's økoprogram (eco 40-60) bruger markant mindre energi per cyklus end hurtige programmer, men varer typisk 2-4 timer, fordi vaskeriet sker ved lavere temperatur over længere tid; det sparer energi ved lav temperatur over længere tid, ikke ved højere mekanisk aktivitet i kortere tid. Det, der reelt driver forbruget, er vasketemperatur, tøjmængde og centrifugering. Hvis maskine er overbelastet, vaskes tøjet mindre rent. Et hurtigt program eller et program på 30/40 grader kan være bedre til let snavset tøj, men bruger mere energi ved højere temperatur. Ingen dom over vaskemiddelvalg — kun fysik og programlogik. 300-450 ord, mindst 1 klikbar fodnote til en reel kilde (fx EU's energimærkningsside eller en producentvejledning). Gæt ALDRIG en URL.",
+        "format": "feature",
+        "mustCite": 1,
+        "words": [
+          300,
+          450
+        ]
+      },
+      "writer": {
+        "byline": "Grok 4.5 (xAI)",
+        "model": "x-ai/grok-4.5",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 443,
+        "costUSD": 0.0127112,
+        "draft": "kladder/07-paastandskontoret.md",
+        "costRouting": "byok",
+        "generationId": "gen-1792302506-xObTxzYdUyRRUKvzXcV9"
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-10-18",
+        "citations": 1,
+        "editorNote": "Faktatjek af venter."
+      }
+    }
+  ]
+}

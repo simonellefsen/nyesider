@@ -1,0 +1,278 @@
+{
+  "magazine": "kulturboxen",
+  "issue": "2026-10-nr7",
+  "issueTheme": "Slovenien - hverdag, arbejde, bolig, mad, penge, normer",
+  "budget": {
+    "articles": 7,
+    "wordsPerArticle": [
+      400,
+      680
+    ],
+    "targetPages": 14,
+    "note": "Kompakt som nr. 5 og nr. 6: ca. 7 artikler. Ikke 12-16."
+  },
+  "opgaver": [
+    {
+      "slug": "leder",
+      "order": 1,
+      "section": "Leder",
+      "brief": {
+        "angle": "Editor-led. Slovenien som Europas stille barn: ikke feriebrochuren, men landet man bor i. Hverdag, arbejde, bolig, mad, penge, normer – uden at dømme.",
+        "words": [
+          180,
+          350
+        ],
+        "mustCite": 0,
+        "mustNumber": [],
+        "format": "leder"
+      },
+      "writer": {
+        "byline": "",
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": null,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": null,
+        "checkedAt": null,
+        "citations": null,
+        "editorNote": null
+      }
+    },
+    {
+      "slug": "hverdagsspor",
+      "order": 2,
+      "section": "Hverdagsspor",
+      "brief": {
+        "angle": "Feature: slovenske voksne flytter fra forældrene i gennemsnit som 29,1-årige (Eurostat 2024, EU-snit 26,3; Danmark 21,8), og 59,1 % af 18–34-årige bor stadig hos forældrene (SURS/SURS-data, 2023). Forklar hvorfor (boligpriser, familienormer) og hvordan det mærkes i hverdagen. Brug netop de to tal med angivet år.",
+        "words": [
+          420,
+          680
+        ],
+        "mustCite": 2,
+        "mustNumber": [],
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "DeepSeek V3.2 (DeepSeek)",
+        "model": "deepseek/deepseek-v3.2",
+        "fallback": null
+      },
+      "receipt": {
+        "words": 431,
+        "costUSD": 0.00065296,
+        "draft": "kladder/02-hverdagsspor.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1792302258-9BjKDDdPT2S94uCexaj3"
+      },
+      "verdict": {
+        "status": null,
+        "checkedAt": null,
+        "citations": null,
+        "editorNote": null
+      }
+    },
+    {
+      "slug": "arbejde",
+      "order": 3,
+      "section": "Arbejde",
+      "brief": {
+        "angle": "Feature: det slovenske arbejdsmarked. Beskæftigelsesrate for 20–64-årige: 78,3 % i 2025 mod 76,1 % i EU; arbejdsløshed 3,6 % mod 5,8 % i EU (Eurostat, 2025). Sloveniens faktiske arbejdsuge er 38,3 timer – landet har en af de længste i EU (EU-gennemsnit 35,9; Danmark 33,9) (Eurostat, 2025). Forklar kombinationen høj beskæftigelse + lang arbejdsuge i en lille, produktionsnær økonomi. Brug netop disse tal med årstal.",
+        "words": [
+          420,
+          650
+        ],
+        "mustCite": 2,
+        "mustNumber": [],
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "Qwen3.7 Max (Alibaba)",
+        "model": "qwen/qwen3.7-max",
+        "fallback": null
+      },
+      "receipt": {
+        "words": 536,
+        "costUSD": 0.032736,
+        "draft": "kladder/03-arbejde.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1792302280-tA82lFYuEABlRizDc0fJ"
+      },
+      "verdict": {
+        "status": null,
+        "checkedAt": null,
+        "citations": null,
+        "editorNote": null
+      }
+    },
+    {
+      "slug": "bolig",
+      "order": 4,
+      "section": "Bolig",
+      "brief": {
+        "angle": "Feature: det slovenske boligmarked. 74,2 % ejer deres bolig (Eurostat 2024/2025, EU-gennemsnit 68 %), men boligudgift-overbelastning er kun 3,5 % af befolkningen mod 7,7 % i EU (Eurostat). Medianpriser for brugte lejligheder (GURS/Banka Slovenijes årsrapport 2024, udgivet 2025): 2.920 €/m² i hele landet, 4.510 €/m² i Ljubljana, 2.330 €/m² i Maribor. Boligpriser steg 8,5 % i 2024 (SURS HPI). Forklar paradokset: høj ejerandel, lave boligudgifter, stigende priser. Brug netop disse tal.",
+        "words": [
+          420,
+          680
+        ],
+        "mustCite": 2,
+        "mustNumber": [],
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "Mistral Large (Mistral AI)",
+        "model": "mistralai/mistral-large",
+        "fallback": null
+      },
+      "receipt": {
+        "words": 700,
+        "costUSD": 0.011088,
+        "draft": "kladder/04-bolig.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1792302365-Icxq3o6GqbPtvO12ivBC"
+      },
+      "verdict": {
+        "status": null,
+        "checkedAt": null,
+        "citations": null,
+        "editorNote": null
+      }
+    },
+    {
+      "slug": "mad",
+      "order": 5,
+      "section": "Mad",
+      "brief": {
+        "angle": "Feature: slovensk madkultur. Slovenska potica – EU TSG (traditionel specialitet) 2021; ældste opskrift 1689 (Valvasor). Kranjska klobasa – EU PGI (beskyttet geografisk angivelse) 1. januar 2015; ældste kendte opskrift 1896 (Katarina Prato, Süddeutsche Küche); max 15 certificerede producenter. Forklar, hvordan disse to fødevarer er nationale identitetsymboler på hverdagens bord – ikke turistgastro. Brug årstallene 1689, 1896, 2015 og 2021.",
+        "words": [
+          400,
+          650
+        ],
+        "mustCite": 2,
+        "mustNumber": [],
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "Gemini 3.5 Flash (Google)",
+        "model": "google/gemini-3.5-flash",
+        "fallback": null
+      },
+      "receipt": {
+        "words": 434,
+        "costUSD": 0.046023,
+        "draft": "kladder/05-mad.md",
+        "costRouting": "byok",
+        "generationId": "gen-1792302391-ub9REsLuru4zdbWHFXuU"
+      },
+      "verdict": {
+        "status": null,
+        "checkedAt": null,
+        "citations": null,
+        "editorNote": null
+      }
+    },
+    {
+      "slug": "penge",
+      "order": 6,
+      "section": "Penge",
+      "brief": {
+        "angle": "Feature: slovensk betalingskultur. 64 % af betalinger ved fysiske betalingssteder var kontanter i Slovenien i 2024 – 52 % i hele euroområdet (ECB SPACE-studie 2024). Kortbetalinger 29 %, mobil-app 3 % (Banka Slovenije/ECB). I Sverige/Danmark bryster vi os af MobilePay & apps. Euro indført 1. januar 2007. Forklar kontantparadokset i et EU-land med høj digital enferelig bank/digitalisationsgrad – fokus på normer, ikke turist-tips. Brug netop talene 64 %, 29 %, 3 %.",
+        "words": [
+          420,
+          680
+        ],
+        "mustCite": 2,
+        "mustNumber": [],
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": null
+      },
+      "receipt": {
+        "words": 502,
+        "costUSD": 0.021908,
+        "draft": "kladder/06-penge.md",
+        "costRouting": "byok",
+        "generationId": "gen-1792302423-LDFROLnqLyYWshBXZ8Eu"
+      },
+      "verdict": {
+        "status": null,
+        "checkedAt": null,
+        "citations": null,
+        "editorNote": null
+      }
+    },
+    {
+      "slug": "tallet",
+      "order": 7,
+      "section": "Tallet",
+      "brief": {
+        "angle": "Data-tæt bagside om ét tal: 29,1 år – den gennemsnitslige alder, hvoryder en slovener flytter hjemmefra (Eurostat 2024). Kvinder 27,8; mænd 30,3. EU-gennemsnit 26,3; Danmark 21,8. Historisk: 30,8 år ved EU-tiltrædelse 2004, 28,6 aar i 2014. Dernæst: 59,1 % af 18–34-årige bor sammen med forældrene (Eurostat 2025). Fodnote alle tal. En tabel med de regionale tal er fint.",
+        "words": [
+          300,
+          500
+        ],
+        "mustCite": 2,
+        "mustNumber": [],
+        "format": "tallet"
+      },
+      "writer": {
+        "byline": "GPT-5.6 Terra (OpenAI)",
+        "model": "openai/gpt-5.6-terra",
+        "fallback": null
+      },
+      "receipt": {
+        "words": 398,
+        "costUSD": 0.022396,
+        "draft": "kladder/07-tallet.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1792302456-kuboi2Ht0miwztwNtJLq"
+      },
+      "verdict": {
+        "status": null,
+        "checkedAt": null,
+        "citations": null,
+        "editorNote": null
+      }
+    },
+    {
+      "slug": "til-horisonten",
+      "order": 8,
+      "section": "Til HORISONTEN",
+      "brief": {
+        "angle": "Kort krydslink-besked til søstermagasinet HORISONTEN nr. 7 om Ljubljana-weekend. Ingen interne links – søsteren ligger endnu ikke på disk. Kort flow-afsnit.",
+        "words": [
+          180,
+          350
+        ],
+        "mustCite": 0,
+        "mustNumber": [],
+        "format": "krydslink"
+      },
+      "writer": {
+        "byline": "GLM-5.2 (Z.ai)",
+        "model": "z-ai/glm-5.2",
+        "fallback": null
+      },
+      "receipt": {
+        "words": 194,
+        "costUSD": 0.0059012,
+        "draft": "kladder/08-til-horisonten.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1792302475-3PLtuaw4L03XnBlnlN8m"
+      },
+      "verdict": {
+        "status": null,
+        "checkedAt": null,
+        "citations": null,
+        "editorNote": null
+      }
+    }
+  ]
+}
