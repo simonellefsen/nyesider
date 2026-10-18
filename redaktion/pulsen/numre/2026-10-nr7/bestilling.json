@@ -1,0 +1,233 @@
+{
+  "magazine": "pulsen",
+  "issue": "2026-10-nr7",
+  "issueTheme": "Delstatus: AID_NOTE's officielle mellemtal og overførslen til Digital Sundhed Danmark",
+  "budget": {
+    "articles": 6,
+    "targetPages": 10,
+    "wordsPerArticle": [
+      200,
+      550
+    ],
+    "note": "Indfrier nr. 6's bagsideløfte med det, der reelt findes pr. 18. okt. 2026: AID_NOTE har stadig ingen evalueringsrapport, men nu en offentliggjort delstatus (RAIN-mødet 30. sep. 2026, mellemtal efter ca. én måneds brug) og en rapport-dato (nov.–dec. 2026 til Strategisk IT-forum). Spornummer 2: Digital Sundhed Danmarks konkrete 1. januar 2027-overførsel (BEK nr 591, dikterer deleliste; fortegnelser forfalder 15. okt. 2026). Spornummer 3: DSMG 1/500 — guideline v3 nu offentligt indekseret, adherence-data findes stadig ikke. Ingen opdigtede danske effekttal."
+  },
+  "opgaver": [
+    {
+      "slug": "leder",
+      "order": 1,
+      "section": "Leder",
+      "brief": {
+        "angle": "Kort leder: nr. 6 lovede AID_NOTE-rapporten når den offentliggøres, og DSMG 1/500 i praksis. Rapporten er stadig ikke offentlig — men nu findes der en officiel delstatus: mellemtal fortalt på RAIN-mødet 30. september 2026, rapport-dato november–december 2026, og skemaene til statens største sundhed-it-overførsel skal være afleveret 15. oktober 2026. Løftet indfries som delstatus, ikke som facit.",
+        "words": [
+          150,
+          250
+        ],
+        "mustCite": 0,
+        "format": "leder"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": null,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": null,
+        "checkedAt": null,
+        "citations": 0,
+        "editorNote": null
+      }
+    },
+    {
+      "slug": "aidnote-delstatus",
+      "order": 2,
+      "section": "Feature · Ambient AI",
+      "brief": {
+        "angle": "Feature: AID_NOTE's første offentliggjorte mellemtal. Brug PRÆCIS disse verificerede fakta fra Syddansk Sundhedsinnovations nyhed (7. oktober 2026) om RAIN-mødet 30. september 2026 i Odense med over 120 deltagere: De første resultater af AID_NOTE's evaluering viser et blandet billede. 7 ud af 13 klinikere bruger mindre tid på at færdiggøre notatet, mens 6 bruger mere. 9 ud af 12 oplever udkastet som et brugbart udgangspunkt, men med et tydeligt behov for redigering, og 8 ud af 11 finder løsningen nyttig. Tidsmålinger og vurdering af journalkvaliteten er endnu ikke opgjort. Erfaringer fra driften: skabelonerne er tilpasset afdelingernes behov, hvilket har givet mere ensartede notater; tekniske udfordringer og afbrydelser i løbet af dagen har fyldt; notaternes længde kan styres ved at redigere dem eller bede løsningen om at skrive mere eller mindre. Fra leverandørsiden: Omilon-konsulent Anne Bøgh Fangel pegede på, at samme teknologi kan give vidt forskellige resultater, fordi betingelserne omkring den er forskellige, og kaldte ambient scribe \"et spejl på praksis\" — hun gav eksempler (et udkast kunne ikke bruges, fordi lægen ikke sagde sine fund højt; to medarbejdere vurderede det samme notat forskelligt) og satte syv principper, blandt andet at begynde med arbejdet og ikke med teknologien, og at vurdere kvalitet og ikke kun effektivitet. Fra Regional IT (Pia Normann): evalueringsrapporten fremlægges i november–december 2026 for Strategisk IT-forum og den relevante strategigruppe — her skal videre udvikling eller anskaffelse godkendes, og der skal afsættes økonomi; kommende løsninger skal understøtte regionens cloudstrategi; giver forum grønt lys, starter Regional IT et projekt efter regionens it-projektmodel. Fra evalueringsleddet (CAI-X): det internationale forskningsfelt vokser hurtigt — 145 publikationer om ambient scribe i 2026 mod 56 i 2025 — men kun 33 studier undersøger løsningerne i reel klinisk praksis, og de fleste måler alene tid; derfor evaluerer AID_NOTE også notatkvalitet, brugeroplevelse og arbejdsgange. Projektet sammenligner Corti Assistant og Tandem (via Omilon) i afprøvning på fire sygehuse i Region Syddanmark, i både somatik og psykiatri; projektsiden (cai-x.dk) angiver syv afdelinger, beretningen fra RAIN-mødet taler om ni forskellige specialemiljøer — nævn tallet, der passer til den kilde du citerer. KÆRNEPUNKT: den fulde evalueringsrapport er STADIG IKKE offentliggjort pr. 18. oktober 2026 — de offentliggjorte tal er \"de første resultater efter cirka en måneds brug\". Delstatus, ikke facit. Skriv begge sider i SAMME artikel: det blandede tidsbillede (7/13 vs. 6/13) og læringen \"brugbart er ikke det samme som færdigt\". Jargon: udfold \"ambient scribe\", \"epikrisis\"-navne som E-journal kun hvis ellers brugt, og alle kilder som konkrete fodnoter med URL.",
+        "words": [
+          350,
+          550
+        ],
+        "mustCite": 3,
+        "mustNumber": [
+          "7 ud af 13 og 6 ud af 13",
+          "9 ud af 12 og 8 ud af 11",
+          "145 publikationer i 2026 mod 56 i 2025",
+          "over 120 deltagere",
+          "november–december 2026"
+        ],
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 536,
+        "costUSD": 0.03196,
+        "draft": "kladder/02-aidnote-delstatus.md",
+        "costRouting": "byok",
+        "generationId": "gen-1792302265-O5Lj6uw5xZqP9QXV3tCG"
+      },
+      "verdict": {
+        "status": null,
+        "checkedAt": null,
+        "citations": null,
+        "editorNote": null
+      }
+    },
+    {
+      "slug": "dds-2027",
+      "order": 3,
+      "section": "Feature · Sundheds-it",
+      "brief": {
+        "angle": "Feature: hvad der faktisk flytter 1. januar 2027, da Digital Sundhed Danmark (DSD) overtager — dokumenteret fra lov og bekendtgørelse, ikke fra strategisider. Verificerede fakta: Fra 1. januar 2026 samledes sundhed.dk, Sundhedsdatastyrelsen, MedCom og fælles regionale it-opgaver i \"Det forberedende Digital Sundhed Danmark\", jf. loven om Digital Sundhed Danmark (lov nr 1758 af 29. december 2025). Den endelige DSD etableres 1. januar 2027 og ejes af kommuner, regioner og staten i fællesskab; sundhed.dk, Sundhedsdatastyrelsen og MedCom ophører som selvstændige organisationer pr. 31. december 2026. Bekendtgørelse nr 591 af 25. juni 2026 (Sundheds- og Kirkeministeriet) fastlægger overførslen. Fra Region Nordjylland overføres bl.a. opgaverne med Sundhedsjournalen inkl. underliggende datakilder (E-journal og laboratorie-svarportalen), app'en MinSundhed, WebReq inkl. WebPatient, Vacciner.dk, Coronaprøver.dk, telemedicinske løsninger (Telma og Sårjournalen, fremover Telesår) samt landsdækkende PRO-løsninger inkl. den kommunale PRO-løsning (K-PRO). Fra Region Midtjylland: Det Fælles Praksisadministrationssystem (LUNA), Fælles Udbredelse af Telemedicinsk Infrastruktur (FUT) og det fælles patientoverblik SAMBLIK. Ansatte, der per 1. januar 2026 brugte mindst 50 procent af arbejdstiden på en overført opgave, overføres til DSD. Overførslerne sker uden kompensation, men en afgivende region skal kompensere DSD for udgifter, der var kendte og fastslåede den 1. januar 2027. Proces-milepæl: fra 1. september 2026 sendte det forberedende DSD en skabelon ud, og senest 15. oktober 2026 — tre dage før dette nummer udgives — skal Sundhedsdatastyrelsen, sundhed.dk, MedCom og de tre afgivende regioner aflevere værdiansatte fortegnelser; herefter indkaldes der til forhandlinger, og ved uenighed træffer sundheds- og kirkeministeren bestemmelsen. DSD bliver en landsdækkende organisation med kontorer i Aalborg, Odense og København; bestyrelsen udpeges af ejerkredsen i andet halvår af 2026. DSD samler også Nationalt Genom Center. Region Østdanmark/fusionen er en anden lovgivning — nævn blot kort, at den digitale overførsel er et venskabsstykke til den større reform. Udfold hver forkortelse første gang (DSD, PRO, K-PRO, FUT, LUNA). Kilder som konkrete fodnoter med URL: retsinformation.dk loven og BEK 591, og Sundhedsdatastyrelsens side om DSD.",
+        "words": [
+          350,
+          550
+        ],
+        "mustCite": 3,
+        "mustNumber": [
+          "1. januar 2027",
+          "BEK nr 591 af 25. juni 2026",
+          "15. oktober 2026",
+          "MinSundhed og Sundhedsjournalen"
+        ],
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "GPT-5.6 Terra (OpenAI)",
+        "model": "openai/gpt-5.6-terra",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 424,
+        "costUSD": 0.021114,
+        "draft": "kladder/03-dds-2027.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1792302303-X00S4SQf2LQ8WlWuDPlC"
+      },
+      "verdict": {
+        "status": null,
+        "checkedAt": null,
+        "citations": null,
+        "editorNote": null
+      }
+    },
+    {
+      "slug": "dsmg-500",
+      "order": 4,
+      "section": "Analyse · Genetik",
+      "brief": {
+        "angle": "Analyse: opfølgning på DSMG's 1/500-tærskel. Grundlag: guideline for anlægsbærerundersøgelse ved autosomal recessive sygdomme, version 3, godkendt 13. april 2026 — tærsklen er flyttet fra 1/800 til 1/500 (0,1 % til 0,2 %) i a priori-risiko for et afficeret barn; under 1/500 er anlægsbærerundersøgelse som hovedregel IKKE indiceret, over 1/500 kan den overvejes, hvis den kan udføres af rimelig kvalitet og med rimeligt ressourceforbrug. Ny dokumentation denne gang: guidelinen er optaget i Aarhus Universitets forskningsbase PURE (13. april 2026) med Sara Bohnstedt Mørup, Morten Dunø, Pernille Mathiesen Tørring, Susanne E. Boonen, Ida Charlotte Bay Lund og Laura Kirstine Sønderberg Roos m.fl.; guidelinen henviser til en ny britisk retningslinje (National Genomic Test Directory) med følgende grænser: tilbud til partner af en kendt anlægsbærer ved konsangvinitet (mindst halvfætre/halvkusine) eller hvor anlægsbærerhyppigheden i befolkningen overstiger 1:70 — svarende til en a priori-risiko over 1/280 for et afficeret barn; og DSMG argumenterer for 1/500 gennem sammenligning med 1. trimester-tærsklerne 1/300 (trisomi 21) og 1/150 (trisomi 13 og 18). Adhærensen: der findes STADIG ingen offentliggjorte data om, hvorvidt de kliniske afdelinger i praksis har tilpasset sig 1/500 — pr. 18. oktober 2026. Skriv det tydeligt. Hovedpointe: vi kan dokumentere, at tærsklen flyttede, og at guidelinen nationalt nu er indekseret (PURE), men \"slår igennem i praksis\" er stadig udokumenteret — evidensen mangler.",
+        "words": [
+          300,
+          500
+        ],
+        "mustCite": 2,
+        "mustNumber": [
+          "1/800 til 1/500",
+          "13. april 2026",
+          "1:70, svarende til over 1/280"
+        ],
+        "format": "analytic"
+      },
+      "writer": {
+        "byline": "Gemini 3.1 Pro Preview (Google)",
+        "model": "google/gemini-3.1-pro-preview",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 428,
+        "costUSD": 0.051852,
+        "draft": "kladder/04-dsmg-500.md",
+        "costRouting": "byok",
+        "generationId": "gen-1792302326-MwbKkgejWgqunuTplhX1"
+      },
+      "verdict": {
+        "status": null,
+        "checkedAt": null,
+        "citations": null,
+        "editorNote": null
+      }
+    },
+    {
+      "slug": "vandrehistorier",
+      "order": 5,
+      "section": "Vandrehistorier fra vagtstuen",
+      "brief": {
+        "angle": "Fast format: tre korte, faktatjekkede vandrehistorier kredsende om nummerets tema. Brikker (alle verificerede): (1) AAU-kandidatspecialet fra Aalborg Universitet, forbundet med Steno Diabetes Center North Denmark med pilotering af Corti: en sygeplejerskes dokumentationstid steg fra 7,5 til 21,5 minutter (p = 0,024), mens psykologens tid ikke ændrede sig statistisk signifikant (62,0 vs. 86,4 minutter, p = 0,190). Pointen: samme værktøj, to mennesker, to resultater. Fremhæv studiets egne begrænsninger (n = 2, kort forsøgsperiode, fejlregistreringsskemaet ikke-validated) og citér den faktiske hovedkonklusion: \"Ambient AI did not improve documentation efficiency ... and did not demonstrate sufficient effectiveness\" — giv det i dansk gengivelse med den engelske original i fodnoten. (2) AID_NOTE's litteratur-billede fra RAIN: 145 publikationer om ambient scribe i 2026 mod 56 i 2025 — men kun 33 studier undersøger løsningerne i reel klinisk praksis, og de fleste måler alene tid, ikke dokumentationskvalitet eller brugeroplevelse. (3) Fra RAIN-mødet 30. september 2026: over 120 deltagere; Omilon-konsulent Anne Bøgh Fangel kaldte ambient scribe \"et spejl på praksis\" og nævnte, at to medarbejdere kunne vurdere det samme notat forskelligt — en lille lektion: vurdering af notatkvalitet kræver fælles kriterier.",
+        "words": [
+          250,
+          400
+        ],
+        "mustCite": 2,
+        "mustNumber": [
+          "7,5 til 21,5 minutter (p = 0,024)",
+          "145 mod 56",
+          "over 120 deltagere"
+        ],
+        "format": "vandrehistorier"
+      },
+      "writer": {
+        "byline": "DeepSeek V3.2 (DeepSeek)",
+        "model": "deepseek/deepseek-v3.2",
+        "fallback": "google/gemini-3.5-flash"
+      },
+      "receipt": {
+        "words": 298,
+        "costUSD": 0.00064176,
+        "draft": "kladder/05-vandrehistorier.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1792302362-CvAm1rsqACZj4AF8EWjf"
+      },
+      "verdict": {
+        "status": null,
+        "checkedAt": null,
+        "citations": null,
+        "editorNote": null
+      }
+    },
+    {
+      "slug": "quiz",
+      "order": 6,
+      "section": "Sjov og spil",
+      "brief": {
+        "angle": "Fast format: quiz til nummeret. Fem spørgsmål med A/B/C-facit, udelukkende fra de øvrige artikler i DETTE nummer (AID_NOTE-delstatus, DSD-overførselen, DSMG 1/500, vandrehistorier). Bemærk: du har IKKE adgang til de færdige artikeltekster — hold spørgsmålene på det faktuelle niveau, briefene definerer (se de øvrige briefes angle-tekster, som indeholder alle tallene), og undgå spørgsmål af typen \"hvilken institution nævner artiklen\". Ét grundtal pr. spørgsmål; distraktorer vælges som plausible tal fra samme område.",
+        "words": [
+          200,
+          350
+        ],
+        "mustCite": 0,
+        "mustNumber": [
+          "5 spørgsmål",
+          "facit fra dette nummer"
+        ],
+        "format": "quiz"
+      },
+      "writer": {
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 213,
+        "costUSD": 0.056508,
+        "draft": "kladder/06-quiz.md",
+        "costRouting": "byok",
+        "generationId": "gen-1792302383-JXpIahYWbXbdVpMD5hii"
+      },
+      "verdict": {
+        "status": null,
+        "checkedAt": null,
+        "citations": null,
+        "editorNote": null
+      }
+    }
+  ]
+}

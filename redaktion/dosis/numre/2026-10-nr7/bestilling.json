@@ -1,0 +1,206 @@
+{
+  "budget": {
+    "articles": 6,
+    "note": "Kompakt som nr. 5/6. Indfrier nr. 6's bagsideløfte: implantater og proteser — «Hvad holder i 10 år?». Tre cases (hofteprotesen, cochleaimplantatet, cybernetikken) + Tallet + Rygtebørsen.",
+    "targetPages": 12,
+    "wordsPerArticle": [
+      300,
+      750
+    ]
+  },
+  "issue": "2026-10-nr7",
+  "issueTheme": "Hvad holder i 10 år? — en status på implantater og proteser, fra hofteproteser og cochleaimplantater til cybernetik",
+  "magazine": "dosis",
+  "opgaver": [
+    {
+      "brief": {
+        "angle": "Kort leder der indfrier nr. 6's bagsideløfte: implantater og proteser. Fælles pointe: prostetik er kroppens mest velprøvede hardware, men «holder i 10 år» er ikke et løfte om evig ungdom — det er et revisionstal, og det offentliggøres i registre, som kroppens andre produkter aldrig kommer i nærheden af. Sassy skepsis, ikke guru.",
+        "format": "leder",
+        "mustCite": 0,
+        "words": [
+          150,
+          250
+        ]
+      },
+      "order": 1,
+      "receipt": {
+        "costUSD": null,
+        "draft": null,
+        "words": 177
+      },
+      "section": "Leder",
+      "slug": "leder",
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-10-18",
+        "citations": 0,
+        "editorNote": "Redaktionens egen leder, ingen byline, ingen API-kald."
+      },
+      "writer": {
+        "byline": null,
+        "fallback": null,
+        "model": "editor-led"
+      }
+    },
+    {
+      "brief": {
+        "angle": "Hofteprotesen som kroppens mest velprøvede implantat: Hvad viser registrene faktisk? Danmark har et af verdens ældste ortopædiske registre (Dansk Hoftealloplastik Register siden ~1979). Nøglepointen: implantatoverlevelse er et opgjort, offentligt tal, og 10-årsoverlevelse for standardproteser ligger højt — men tallet afhænger af patientens alder og aktivitetsniveau, og «holder i 10 år» er ikke det samme som «holder livet ud». Behandl materiale-spørgsmål (keramik vs. polyethylen) forsigtigt; gå ikke i detaljer med kirurgi-indikationer. OPDIGT INGEN præcise ventetider eller danske antal indsatte proteser, medmindre tallet kan henvises til registeret selv. Medicin = indikation og forbehold. Giv ALDRIG dosisråd eller livsstilsråd med offentlig autoritet.",
+        "format": "feature",
+        "mustCite": 2,
+        "words": [
+          500,
+          750
+        ]
+      },
+      "order": 2,
+      "receipt": {
+        "words": 748,
+        "costUSD": 0.030584,
+        "draft": "kladder/02-hofteprotesen-holder.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1792301994-mHGdnXnJNYSX8n3J8sMK"
+      },
+      "section": "Implantater & proteser",
+      "slug": "hofteprotesen-holder",
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-10-18",
+        "citations": 2,
+        "editorNote": "Kladdens DOI 10.2147/CLEP.S99457 opløste via CSL-JSON til Danish Breast Cancer Cooperative Group — samme fejltype som nr. 1/2/6. Erstattet med rigtigt DHR-DOI 10.2147/CLEP.S99498 (Gundtoft m.fl., Clinical Epidemiology 2016), verificeret."
+      },
+      "writer": {
+        "byline": "GPT-5.6 Terra (OpenAI)",
+        "fallback": "deepseek/deepseek-v3.2",
+        "model": "openai/gpt-5.6-terra"
+      }
+    },
+    {
+      "brief": {
+        "angle": "Cochleaimplantatet: teknologien erstatter ikke naturlig hørelse, men er samtidig det implantat, der er bedst dokumenteret på funktion frem for overlevelse. Skeptisk vinkel: hvad måler man efter 10 år — lyd, taleforståelse, hinge i dagligdagen — og hvor lang levetid har selve enheden? Alle relevante resultater bør relateres til at implantatets effekt afhænger af livslang træning (taleaudiologi). FORBEHOLD: resultater hos børn med tidligt implantat kan ikke generaliseres til voksne; ingen kirurgiske eller tekniske detaljer. Medicin = indikation og forbehold. OPDIGT INGEN præcise danske cochleaimplantat-antal, ventetider eller priser uden kilde. Giv ALDRIG dosisråd.",
+        "format": "feature",
+        "mustCite": 2,
+        "words": [
+          500,
+          750
+        ]
+      },
+      "order": 3,
+      "receipt": {
+        "words": 594,
+        "costUSD": 0.01991,
+        "draft": "kladder/03-cochleaimplantatet-holder.md",
+        "costRouting": "byok",
+        "generationId": "gen-1792302058-FX2lI0zOwbimR8JaDbfL"
+      },
+      "section": "Implantater & proteser",
+      "slug": "cochleaimplantatet-holder",
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-10-18",
+        "citations": 2,
+        "editorNote": "Sidste afsnit omskrevet fra metasprog til læsersprog. Begge fodnote-URLer verificeret (NIDCD 200, EURO-CIU 200)."
+      },
+      "writer": {
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "fallback": "deepseek/deepseek-v3.2",
+        "model": "anthropic/claude-sonnet-5"
+      }
+    },
+    {
+      "brief": {
+        "angle": "Cybernetikken: hvad virker i dag, og hvad er hype? Adskil omhyggeligt (i) etablerede neurale implantater med årtiers evidens (fx cochleaimplantatets yngre slægtning: hjernestimulering ved Parkinson) fra (ii) mediehypen om hjerne-grænseflader og teknologi-fusion (BSCI, Neuro-bryds hype, «cyborg»-navneskilt). Realisme: beviskravet er kroppens; udskift og revidér er dyrt. Skeptisk teleskop: hvad måler man, og hvad lover marketing? FORBEHOLD: eksperimentelle implantater er ikke fossilt offentliggjorte; de fleste neurale interface-nyheder er fase 1-demonstrationer, ikke behandling. OPDIGT INGEN priser, antal brugere eller «første gang»-påstande uden kilde. Giv ALDRIG dosisråd.",
+        "format": "feature",
+        "mustCite": 2,
+        "words": [
+          500,
+          750
+        ]
+      },
+      "order": 4,
+      "receipt": {
+        "words": 832,
+        "costUSD": 0.096286,
+        "draft": "kladder/04-cybernetikken-holder.md",
+        "costRouting": "byok",
+        "generationId": "gen-1792302109-5gM6IGfhkmA8SCWwdGCW"
+      },
+      "section": "Cybernetik",
+      "slug": "cybernetikken-holder",
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-10-18",
+        "citations": 2,
+        "editorNote": "Falsk-præcis sætning om præcis 0 pct. hjernebetændelsesrisiko fjernet og erstattet af «ingen hjernekirurgi ved håndleddet». NINDS-fodnote rettet til rigtig side og titel (403-boterblokeret, ikke død)."
+      },
+      "writer": {
+        "byline": "Gemini 3.1 Pro Preview (Google)",
+        "fallback": "deepseek/deepseek-v3.2",
+        "model": "google/gemini-3.1-pro-preview"
+      }
+    },
+    {
+      "brief": {
+        "angle": "Tallet: byg en lille kildetabel over implantatoverlevelse — kolonner: implantat, hvilket tal der lovgives om, 10-årstal (med kilde), og hvad tallet faktisk betyder. Hovedtal: hofteprotese (Dansk Hoftealloplastik Register), cochleaimplantat, (evt. ydre neurale interfaces). Brug KUN tal, der er verificeret via registre eller DOI i de andre artikler — eller skriv «ikke opgjort som 10-årstal». Pointen: implantater er de eneste «produkter på kroppen» med offentlige revisionsatabeller.",
+        "format": "tallet",
+        "mustCite": 4,
+        "words": [
+          300,
+          450
+        ]
+      },
+      "order": 5,
+      "receipt": {
+        "words": 427,
+        "costUSD": 0.04803,
+        "draft": "kladder/05-tallet.md",
+        "costRouting": "byok",
+        "generationId": "gen-1792302181-AvWUFwvnWTfX9emBxpTl"
+      },
+      "section": "Tallet",
+      "slug": "tallet",
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-10-18",
+        "citations": 4,
+        "editorNote": "Kladdens superscript-fodnoter konverteret til [^n]-fodnoter (mustCite 1→4), DHR-link testet til registerets egen RKKP-side. Hedge-advarselen er bevidst: tabellen markerer selv sine huller («ikke opgjort»)."
+      },
+      "writer": {
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "fallback": "deepseek/deepseek-v3.2",
+        "model": "anthropic/claude-sonnet-5"
+      }
+    },
+    {
+      "brief": {
+        "angle": "Rygtebørsen: DOSIS' etablerede løse spekulationsformat, ingen kildekrav. Rum: neurales grænseflader, anti-«cyborg»-marketingsphere, protesetelemetri, «party-trick-implantater». Slut med et konkret bagsideløfte til nr. 8 (vælg selv tema — frite hylder; fx radon, saftkure eller datarådet, jf. notesbogen). Husk DOSIS' identitet: sassy skepsis, ikke guru.",
+        "format": "rygteboersen",
+        "mustCite": 0,
+        "words": [
+          300,
+          500
+        ]
+      },
+      "order": 6,
+      "receipt": {
+        "words": 197,
+        "costUSD": 0.00044206875,
+        "draft": "kladder/06-rygteboersen.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1792302250-NpQAC6L7yI7w0jcKTDxr"
+      },
+      "section": "Rygtebørsen",
+      "slug": "rygteboersen",
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-10-18",
+        "citations": 0,
+        "editorNote": "Torset omskrevet til mere rygtebørs-weight, metasprog fjernet. mustCite 0 er bevidst formatvalg. Nr. 8-løfte: wearables-data."
+      },
+      "writer": {
+        "byline": "DeepSeek V3.2 (DeepSeek)",
+        "fallback": null,
+        "model": "deepseek/deepseek-v3.2"
+      }
+    }
+  ]
+}

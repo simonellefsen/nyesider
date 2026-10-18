@@ -1,0 +1,212 @@
+{
+  "magazine": "spaending",
+  "issue": "2026-10-nr7",
+  "issueTheme": "Roadster Event - hvad Tesla faktisk viste paa SpaceX McGregor, dokumenteret vs. show, og hvad Europa kan homologere",
+  "budget": {
+    "articles": 6,
+    "targetPages": 10,
+    "wordsPerArticle": [
+      150,
+      650
+    ],
+    "note": "Nr. 7 bygger paa research-notatet 2026-10-18: Teslas Roadster Event (aftenen 15. oktober amerikansk tid / natten til 16. oktober europaeisk tid) paa SpaceX McGregor, Texas. Alle fakta i briefs er verificeret af redaktionen - modellen skal IKKE browse, kun formulere. Selskabstal maerkes som selskabstal. Bagsideloeftet fra nr. 6 (MCS/lastbiler) er udskudt til nr. 8."
+  },
+  "opgaver": [
+    {
+      "slug": "leder",
+      "order": 1,
+      "section": "Leder",
+      "writer": {
+        "model": "editor-led",
+        "byline": null,
+        "fallback": null
+      },
+      "brief": {
+        "angle": "Kort leder der samler traaden: Tesla viste et Roadster-event pa SpaceX testbane i McGregor, Texas - spektakulaere stuntes for live-publikum (op ad rampe og fast paa den lodrette del med sugeviften, kickflip over traekket af Teslaer, 0-60 mph paa 0,81 s) - men det dokumenterbare er faa og afgraensede ting: tre versioner kaldet ved navn (Performance/Thrust/Rocket), produktion naevnt som 2028, ingen pris, ingen detaljeret dokumentation, og en variant er eksplicit not approved for public road use. Europa-vinklen: for den europaeiske koeber er Rocket irrelevant og Thrust uafklaret; det interessante er typegodkendelse og hvad der reelt kan blive paa vej her. Fra show til homologering - den afstand er nummerets tema.",
+        "format": "leder",
+        "mustCite": 0,
+        "words": [
+          150,
+          250
+        ]
+      },
+      "receipt": {
+        "words": 0,
+        "costUSD": 0,
+        "draft": null
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-10-18",
+        "citations": 0,
+        "editorNote": "Redaktionens egen leder, ingen byline, ingen API-kald. Skrevet direkte af redaktionen i kladder/01-leder.md."
+      }
+    },
+    {
+      "slug": "roadster-event-stunts",
+      "order": 2,
+      "section": "Feature · Event",
+      "writer": {
+        "model": "openai/gpt-5.6-terra",
+        "byline": "GPT-5.6 Terra (OpenAI)",
+        "fallback": "openai/gpt-5.6-terra"
+      },
+      "brief": {
+        "angle": "Hovedfeature: hvad skete der faktisk pa McGregor. Verificerede fakta: Roadster Event aftenen 15. oktober 2026 amerikansk tid (natten til 16. oktober europaeisk tid) pa SpaceX testcenter i McGregor, Texas naer Waco, ca. 23 min livestreamet; kapitler i Teslas replay: Ramp Demo, Kickflip Demo, Design, Aero, 0-60 Demo; introen aabnedes med en Raptor static fire. Demoerne (live, ikke video): bilen korte op ad en hoej, buet rampe og hang fast pa den lodrette del med sugefanens nedadkraft; anden gang fortsatte den ud over rampens kant, roterede og landede pa hjulene. Senere hoppede en Roadster - Lars Moravy kaldte det the kickflip - over raekken af oevrige Tesla-modeller inkl. Cybertruck og Semi. 0-60-maalingen: forst ca. 1,0 s, dernaest 0,81 s efter paa-mindelser om mindre-end-1-sekund-loeftet - selskabstal med kun to maalinger. Vigtig praecision: Tesla haeveede IKKE at demobilene var produktionsbiler - kun at en version af bilen kunne dette (Road & Track): skriv et eksemplar, ikke produktionsbilen. Teknikken (selskabsbeskrivelser): multi-mode fan + ground sealing, nedadkraft op til 2 G (Car and Drivers forbehold: 2 G gaelder ved ca. 200 mph); to kulfiberbeholdere, samlet 600 liter, ca. 250 kg trykluft, 10 dyser; bilen fylder selv tanken op (Musks ord, uproevet). Ca. 1.500 hk fra to bagmotorer, baghjulsdrift, ca. 1.678 kg, Roadster-specifik 4680-celle, rekkevidde over 300 miles (~480 km), topfart over 230 mph - alle selskabstal. Design: to saeder, saeder stoebt i chassis, steer-by-wire yoke/brems/gashandtag, inspiration fra SR-71 og F-35 (Teslas egne ord), Ano White og guldtone vinduer. Citer Musks ord: fun meter to 11 out of 10, Where we're going, you don't need tires. Forkortelser foerste gang: BEV (Battery Electric Vehicle, ren elbil), mph (miles per hour; 60 mph er ca. 97 km/h, saa 0,81 s til 60 mph er ca. 0,84 s til 100 km/h selskabsregnet). Kilder som fodnoter: Teslas replay (YouTube), The Verge, Reuters (via TimesLIVE), Car and Driver.",
+        "format": "feature",
+        "mustCite": 4,
+        "mustNumber": [
+          "0,81 s",
+          "600 liter",
+          "250 kg",
+          "23 min"
+        ],
+        "words": [
+          500,
+          650
+        ]
+      },
+      "receipt": {
+        "words": 583,
+        "costUSD": 0.0393435,
+        "draft": "redaktion/spaending/numre/2026-10-nr7/kladder/02-roadster-event-stunts.md"
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-10-18",
+        "citations": null,
+        "editorNote": "Kladde overført til content/ med redaktionelle fodnote-URL'er og nbsp-bug rettet."
+      }
+    },
+    {
+      "slug": "roadster-tre-versioner-depositummer",
+      "order": 3,
+      "section": "Feature · Selskabet",
+      "writer": {
+        "model": "anthropic/claude-sonnet-5",
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "fallback": "anthropic/claude-sonnet-5"
+      },
+      "brief": {
+        "angle": "Selskabssiden: de tre Roadster-versioner og pengene bag. Verificeret: efter eventet opdelte tesla.com/roadster bilen i tre trims: Performance (Road Ready, to saeder, aktiv aero + multi-mode sugevift, 0-60 mph under 1,6 s - maal), Thrust (Race Ready, to saeder, rear-mounted cold-gas, 0-60 mph under 0,9 s, Limited Release) og Rocket (Air Ready, en saede, 10 dyser rundt om bilen, 0-60 mph under 0,59 s, topfart over 230 mph, Invite only og eksplicit NOT approved for public road use). Reservationer ifoelge Reuters og Fortune: Performance-depositum $50.000, Thrust-depositum $250.000; ifoelge Engadget er Performance $5.000 nu + $45.000 inden 10 dage, og Thrust-pakken koster yderligere $245.000 inden 10 dage efter reservation. Ingen endelig pris annonceret. FAA (via CBS/Politico, bragt i Fortune 17.10.2026): bilen opfylder ikke definitionen af luftfartoej og skal ikke certificeres; NHTSA: will continue to monitor the situation. Produktion naevnt som 2028 (Reuters, Musks ord paa scenen). Musks Mach 0,5-pivot i streamen er en ambition til publikum, ikke et dokumenteret designmaal. Rekkevidden er under halvdelen af 2017-loeftet (over 300 miles mod 620 miles) - naevn kort. Forkortelser foerste gang: NHTSA = National Highway Traffic Safety Administration (amerikansk vejsikkerhedsagentur), FAA = Federal Aviation Administration (amerikansk luftfartsagentur). Kilder som fodnoter: Fortune 17/10-2026, Engadget 16/10-2026, The Verge 16/10-2026, Reuters/TimesLIVE 16/10-2026.",
+        "format": "feature",
+        "mustCite": 4,
+        "mustNumber": [
+          "$50.000",
+          "$250.000",
+          "2028"
+        ],
+        "words": [
+          420,
+          560
+        ]
+      },
+      "receipt": {
+        "words": 488,
+        "costUSD": 0.026534,
+        "draft": "redaktion/spaending/numre/2026-10-nr7/kladder/03-roadster-tre-versioner-depositummer.md"
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-10-18",
+        "citations": null,
+        "editorNote": "Kladde overført til content/ med redaktionelle fodnote-URL'er og nbsp-bug rettet."
+      }
+    },
+    {
+      "slug": "roadster-europa-hvad-kan-blive-lov",
+      "order": 4,
+      "section": "Feature · Europa",
+      "writer": {
+        "model": "openai/gpt-5.6-terra",
+        "byline": "GPT-5.6 Terra (OpenAI)",
+        "fallback": "anthropic/claude-sonnet-5"
+      },
+      "brief": {
+        "angle": "Den europaeiske vinkel: hvad kan faktisk homologeres i EU af det, Tesla viste? Verificeret: (1) Steer-by-wire kan typegodkendes i Europa under UN R79 (styringsudstyr) som full power steering: kravet er godkendelse til R79.01.S3 eller senere med Annex 6-dokumentation (dokumentation, fejlkoncept, test af systemet i intakt og fejltilstand), vist af UK Vehicle Certification Agency blog 13.2.2025. Toyota/Lexus bruger steer-by-wire; Tesla har endnu ingen SbW-bil godkendt i EU. (2) Rocket-trimmen er eksplicit not approved for public road use - ikke relevant for det europaeiske koeb i naevaerende form. (3) Precedens Cybertruck: ingen EU-typegodkendelse, saelges ikke i Europa - blokeret bl.a. af skarpe panelkanter (UNECE R26 kraever radius paa mindst 2,5 mm; Cybertrucks staalplader er 1,8 mm) og vaegt over 3,5 t; transport-NGO'er (bl.a. European Transport Safety Council) bad om af-registrering af de faa importerede biler ifoelge WIRED 14.10.2024. Roadster er en klassisk sportsvogn - langt nemmere at homologere end Cybertruck paa papiret - men fan-sugeviften og trykluftthrusterne ligger uden for de eksisterende UNECE-kategorier: ingen regler regulerer downforce-fans eller trykluft-booster. (4) Parallel: McMurtry Speirling PURE (Storbritannien) - britisk fan-EV med 2.000 kg nedadkraft fra 0 mph, Goodwood-rekord 39,08 s i 2022, Top Gear Track 55,9 s i 2025, 1.000 bhp, 0-60 mph 1,55 s, pris 995.000 pund, 25 stk. solgt, leveringer fra 2026s slutning - track-only, ikke road-legal; McMurtry droppede road-legal-planen. Konklusion: i dag kan europaeiske kunder kun se stunts, ikke koebe en flyvende Roadster; Performance-trimmen er den eneste, som potentielt kan ansoge om EU-typegodkendelse, mens fan- og thrustersystemet er et regelvaerk der mangler (UNECE R79 styring, R13-H bremser, R26 karrosseri - ingen fan- eller thruster-kategori). Forkortelser foerste gang: UNECE = Economic Commission for Europe of the United Nations (FN's europaeiske transportkommission), SbW = steer-by-wire, VCA = Vehicle Certification Agency (britisk certificeringsorgan). Kilder som fodnoter: UK VCA blog 13.2.2025, WIRED 14.10.2024, McMurtry pressemeddelelse 2.7.2026.",
+        "format": "feature",
+        "mustCite": 3,
+        "mustNumber": [
+          "2,5 mm",
+          "39,08 s",
+          "1.000 bhp"
+        ],
+        "words": [
+          450,
+          580
+        ]
+      },
+      "receipt": {
+        "words": 493,
+        "costUSD": 0.0383555,
+        "draft": "redaktion/spaending/numre/2026-10-nr7/kladder/04-roadster-europa-hvad-kan-blive-lov.md"
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-10-18",
+        "citations": null,
+        "editorNote": "Kladde overført til content/ med redaktionelle fodnote-URL'er og nbsp-bug rettet."
+      }
+    },
+    {
+      "slug": "essay-2017-loftet",
+      "order": 5,
+      "section": "Essay · Krydsfeltet",
+      "writer": {
+        "model": "mistralai/mistral-large",
+        "byline": "Mistral Large (Mistral AI)",
+        "fallback": "mistralai/mistral-large"
+      },
+      "brief": {
+        "angle": "Essay: ni aar mellem loefte og (halv)levering. Saet 2017-loefterne mod 2026-realiteten: 2017: 0-60 mph 1,9 s, topfart over 250 mph, 200 kWh batteri, 620 miles (~998 km) rekkevidde, pris fra $200.000, leveringer i 2020, depositum $50.000 ($250.000 for Founders Series). 2026: produktion naevnt som 2028 - otte aar efter det oprindelige loefte (Fortune), rekkevidde over 300 miles (~480 km, under halvdelen af loeftet), ingen pris, 2 saeder (Rocket: 1), fan- og thrustersystemet som vedhaeng fra SpaceX-samarbejdet. Tesla har ikke offentliggjort, hvad de mange 2017-depositumsholdere faar i den nye trims-struktur. Skriv subjektivt og reflekterende: hvad goer ni aars loefte og skiftende deadlines med en bilkoebers tillid, og hvad gik man tabt af, mens man ventede? Konkurrenterne stod ikke stille i de ni aar: Rimac Nevera og Pininfarina Battista tog rekorderne, og Tesla kom bagud i spec-koebet - brug kun fangede punkter ovenfor, opdig ikke ny konkurrent-detaljer. En kilde som fodnote: The Verge 16.10.2026 (historien om 2017-loefterne, $200.000 og depositumerne). Hold essay-stemmen subjektiv men holcaeret, ca. 400 ord.",
+        "format": "essay",
+        "mustCite": 1,
+        "words": [
+          380,
+          500
+        ]
+      },
+      "receipt": {
+        "words": 420,
+        "costUSD": 0.007712,
+        "draft": "redaktion/spaending/numre/2026-10-nr7/kladder/05-essay-2017-loftet.md"
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-10-18",
+        "citations": null,
+        "editorNote": "Kladde overført til content/ med redaktionelle fodnote-URL'er og nbsp-bug rettet."
+      }
+    },
+    {
+      "slug": "rygteboers",
+      "order": 6,
+      "section": "Rygtebørsen",
+      "writer": {
+        "model": "qwen/qwen3.7-max",
+        "byline": "Qwen3.7 Max (Alibaba)",
+        "fallback": "qwen/qwen3.7-max"
+      },
+      "brief": {
+        "angle": "Rygebørsen: fire punkter om Roadster-eventet og hvad der KUN er rygter/ambitioner, IKKE dokumenteret. (1) Tesla-SpaceX-fusion: journalister bag The Verge og Electrek gætt blev at eventet er sat op for at laegge grunden til en fusion mellem Tesla og SpaceX; intet bekraæftet - mærk uttrykkeligt som spekulation. (2) Bedre end 0,81 s i produktionen: Musks løfte under eventet (bygger paa F=ma-retorik); selskabsambition, ikke dokumenteret måling. (3) Mach 0,5-topfart (~610 km/h): Musks eget udsagn til publikum - show-ambition, ikke dokumenteret designmål. (4) Bilen fylder selv lufttanken op med trykluft: Musks paa-staende; ikke verificeret i praaksis. Regler: brug KUN disse fire punkter, ingen opdigtede tal, maerker ALT som rygte/selskabstal/ambition, ingen andre modeller eller udsolgede skud. Format: kort, skarpe bagsnit-punkter paa dansk.",
+        "format": "bagsnit",
+        "mustCite": 0,
+        "words": [
+          250,
+          320
+        ]
+      },
+      "receipt": {
+        "words": 278,
+        "costUSD": 0.0270043,
+        "draft": "redaktion/spaending/numre/2026-10-nr7/kladder/06-rygteboers.md"
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-10-18",
+        "citations": null,
+        "editorNote": "Kladde overført til content/ med redaktionelle fodnote-URL'er og nbsp-bug rettet."
+      }
+    }
+  ]
+}

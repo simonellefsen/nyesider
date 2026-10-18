@@ -1,0 +1,12 @@
+## Rygtebørsen
+
+**Propellens prisfastsættelse**
+I kredse hos europæiske underleverandører af fremdriftssystemer tales der i øjeblikket meget om et skifte i de gasser, der bruges til elektrisk fremdrift. Flere mellemstore satellitproducenter siges at redesigne deres Hall-effect-thrustere til at køre på krypton eller endda argon i stedet for den traditionelle xenon. Årsagen er ikke pludselige gennembrud i fysikken, men ren forsyningssikkerhed og økonomi. Xenon er en sjælden biprodukt fra luftadskillelsesanlæg, og med et globalt marked, der presses af både rumfart og halvlederindustri, søger operatørerne mod billigere alternativer. Det kræver ofte lidt større tanke og højere effektkrav ombord, men for konstellationer med hundredvis af satellitter er besparelsen i indkøb og logistik markant.
+
+**Genforsikrernes nye krav**
+Rumskrot og kollisionsrisiko er ikke længere kun et teknisk eller regulatorisk problem – det er et hårdt forsikringsproblem. Fra mæglerne i London lyder det, at præmierne for nye satellitter i LEO (Low Earth Orbit, lavt jordkredsløb) er steget mærkbart det seneste år, i visse tilfælde med over 30\u00a0%. Men det er ikke kun prisen, der strammes. Markedet begynder angiveligt at afvise policer for satellitter, der udelukkende afhænger af manuelle undvigemanøvrer kommanderet fra jorden. For at få tegnet en forsikring i dag kræver de store genforsikrere i stigende grad indbyggede, autonome systemer til kollisionsundvigelse, der kan reagere på tværs af konstellationer uden forsinkelse, døgnet rundt.
+
+**Bagsidens løfte: Nr. 8**
+I ORBIT nr. 8 indfrier vi det dybdestudie, vi oprindeligt stillede i udsigt til nr. 7. Vi bringer den fulde gennemgang af IRIS² (Infrastructure for Resilience, Interoperability, Security, and Satellite), EU's kommende konstellation for sikker og suveræn satellitkommunikation. Vi piller arkitekturen fra hinanden, ser på den justerede tidsplan og kortlægger de europæiske leverandører, der skal levere hardwaren til kredsløb.
+
+Men en konstellation i rummet er kun en teoretisk øvelse, hvis man ikke har midlerne til at sende den op. Derfor kobler vi IRIS²-gennemgangen direkte til det fundamentale spørgsmål om europæisk rumadgang. Vi ser på, om den nuværende og kommende portefølje af europæiske løfteraketter reelt kan garantere den uafhængighed, som Bruxelles og de europæiske forsvarsministerier kræver. Kan Europa løfte sin egen sikkerhedskommunikation fra egen jord, eller forblir adgangen til rummet en geopolitisk flaskehals? Det undersøger vi i næste nummer.

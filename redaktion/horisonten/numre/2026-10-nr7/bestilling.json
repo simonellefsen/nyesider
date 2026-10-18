@@ -1,0 +1,237 @@
+{
+  "magazine": "horisonten",
+  "issue": "2026-10-nr7",
+  "issueTheme": "Storby-weekend Ljubljana",
+  "budget": {
+    "articles": 7,
+    "wordsPerArticle": [
+      350,
+      650
+    ],
+    "targetPages": 12
+  },
+  "opgaver": [
+    {
+      "slug": "leder",
+      "order": 1,
+      "section": "Leder",
+      "brief": {
+        "angle": "Introducerer temaet: storby-weekend i Ljubljana. Ophaeng er dragene, den bilfrie bykerne og Alperne. Nummeret er synket med KULTURBOXEN nr. 7, men der linkes ikke til den.",
+        "words": [
+          150,
+          250
+        ],
+        "mustCite": 0,
+        "format": "leder"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": null,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-10-18",
+        "citations": 0,
+        "editorNote": "Redaktionens egen leder, ingen API-kald."
+      }
+    },
+    {
+      "slug": "overblik",
+      "order": 2,
+      "section": "Overblik",
+      "brief": {
+        "angle": "Overblik over Ljubljana i tre historiske lag: romerne kaldte stedet Emona; byen var habsburgsk fra 1300-tallet til 1918; og den er i dag hovedstad i Slovenien, en lille EU-stat med cirka 300.000 indbyggere. Brug kun disse kilder: https://en.wikipedia.org/wiki/Ljubljana og https://en.wikipedia.org/wiki/Slovenia",
+        "words": [
+          350,
+          600
+        ],
+        "mustCite": 2,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 398,
+        "costUSD": 0.01706,
+        "draft": "kladder/02-overblik.md",
+        "costRouting": "byok",
+        "generationId": "gen-1792302850-XrqgOEoL8VBVbGMTMkvm"
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-10-18",
+        "citations": 2,
+        "editorNote": "Faktatjekket. Draft accepteret."
+      }
+    },
+    {
+      "slug": "byliv",
+      "order": 3,
+      "section": "Byliv",
+      "brief": {
+        "angle": "Byliv til fods. Den bilfrie bykerne. Broerne langs Ljubljanica: Triple Bridge, Dragebroen fra 1901, Butchers Bridge. Metelkova er en autonom kulturzone siden 1993. Center Rog genaabnede i november 2023. Brug kun disse kilder: https://en.wikipedia.org/wiki/Ljubljana og https://en.wikipedia.org/wiki/Metelkova",
+        "words": [
+          350,
+          600
+        ],
+        "mustCite": 2,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "Mistral Large (Mistral AI)",
+        "model": "mistralai/mistral-large",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 688,
+        "costUSD": 0.01116,
+        "draft": "kladder/03-byliv.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1792302878-hm81bzRip9Anv61jMWaP"
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-10-18",
+        "citations": 2,
+        "editorNote": "Faktatjekket. Draft accepteret."
+      }
+    },
+    {
+      "slug": "vandring-slovenia",
+      "order": 4,
+      "section": "Vandring",
+      "brief": {
+        "angle": "Dagstur fra byen. Bled ligger omkring 55 km fra Ljubljana. Soen er en gletsjersoe med en lille oe med en kirke. Soen ligger 475 meter over havet. Tjek altid aktuelle priser og tider. Brug kun disse kilder: https://en.wikipedia.org/wiki/Lake_Bled og https://en.wikipedia.org/wiki/Bled",
+        "words": [
+          350,
+          600
+        ],
+        "mustCite": 2,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "Gemini 3.1 Pro (Google)",
+        "model": "google/gemini-3.1-pro-preview",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 511,
+        "costUSD": 0.083598,
+        "draft": "kladder/04-vandring-slovenia.md",
+        "costRouting": "byok",
+        "generationId": "gen-1792302913-7WvnxTQkuIr2RrOImRHZ"
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-10-18",
+        "citations": 2,
+        "editorNote": "Faktatjekket. Draft accepteret."
+      }
+    },
+    {
+      "slug": "mad-og-vin",
+      "order": 5,
+      "section": "Mad & Vin",
+      "brief": {
+        "angle": "Slovensk mad til en weekendrejsende. Temaer: potica, kranjska klobasa, prekmurska gibanica. I 2016 inddelte forskere det slovenske koekken i 24 gastronomiske regioner. Brug kun denne kilde: https://en.wikipedia.org/wiki/Slovenian_cuisine",
+        "words": [
+          350,
+          550
+        ],
+        "mustCite": 1,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "DeepSeek V3.2 (DeepSeek)",
+        "model": "deepseek/deepseek-v3.2",
+        "fallback": "google/gemini-3.5-flash"
+      },
+      "receipt": {
+        "words": 324,
+        "costUSD": 0.0007875,
+        "draft": "kladder/05-mad-og-vin.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1792302967-H469wghf86JIft0ME0GV"
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-10-18",
+        "citations": 1,
+        "editorNote": "Faktatjekket. Draft accepteret."
+      }
+    },
+    {
+      "slug": "praktisk",
+      "order": 6,
+      "section": "Praktisk",
+      "brief": {
+        "angle": "Logistik. Fly fra Koebenhavn til Ljubljana lufthavn. Flyvetiden er cirka to timer. Lufthavnen ligger cirka 25 km fra byen. Skriv ingen faste priser; tjek altid aktuelle priser og afgange. Brug kun denne kilde: https://en.wikipedia.org/wiki/Ljubljana_Airport",
+        "words": [
+          350,
+          550
+        ],
+        "mustCite": 1,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "Qwen3.7 Max (Alibaba)",
+        "model": "qwen/qwen3.7-max",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 405,
+        "costUSD": 0.023262225,
+        "draft": "kladder/06-praktisk.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1792302989-11ACblkyWQwOrQzWv8uJ"
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-10-18",
+        "citations": 1,
+        "editorNote": "Faktatjekket. Draft accepteret."
+      }
+    },
+    {
+      "slug": "rejsevejledning",
+      "order": 7,
+      "section": "Rejsevejledning",
+      "brief": {
+        "angle": "Udenrigsministeriet har ingen rejsevejledning for Slovenien. Sig det eksplicit. EU-sygesikringskortet kan bruges, men erstatter ikke en rejseforsikring. Pas eller nationalt ID-kort er gyldigt rejsedokument for EU-borgere. Drikkepenge er ikke forventet i Slovenien. Brug kun disse kilder: um.dk/rejse-og-ophold/rejse-til-udlandet/rejsevejledninger/slovenien og https://europa.eu/youreurope/citizens/travel/entry-exit/eu-citizen/index_da.htm",
+        "words": [
+          400,
+          600
+        ],
+        "mustCite": 2,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "GPT-5.6 Terra (OpenAI)",
+        "model": "openai/gpt-5.6-terra",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 447,
+        "costUSD": 0.0208465,
+        "draft": "kladder/07-rejsevejledning.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1792303056-lzyHQ7NInGHFvFpwcu8G"
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-10-18",
+        "citations": 2,
+        "editorNote": "Faktatjekket. Draft accepteret."
+      }
+    }
+  ]
+}

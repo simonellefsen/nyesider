@@ -242,14 +242,41 @@ Features briefet til **700–900** (rettelse fra nr. 4). Struktur: Ribebrevet/he
 - Treårskrigen-kladden gættede `danmarkshistorien.dk/vis/materiale/…` (410-mønsteret). Erstattet.
 - Kort via `generate_map.py` sprunget over: projektets `.venv/bin/python3` peger på en brudt 3.14-symlink, geopandas derfor utilgængeligt.
 
-## Nr. 6 — kandidater
+## Nr. 6 — udgivet 2026-10-18
 
-- **(2026-08) Kalmarunionen i dybden — Norge/Sverige-vinkler**
+**Tema:** Kalmarunionen i dybden — tre riger, to dokumenter, ét kongefællesskab set fra Norge og Sverige
+**Slug:** `2026-10-nr6`
+6 artikler, **2.979 ord**. Fem artikler reelt kommissioneret på `.env.kronike` (Claude Sonnet 5 ×2, GPT-5.6 Terra, Gemini 3.1 Pro Preview, DeepSeek V3.2); lederen er chefredaktionens og har **ingen byline**. Samlet forbrug **0,1515 USD**. `check_issue.py`: **0 fejl, 0 advarsler.** `check_links.py`: **13 links, 0 døde.** `bestilling.json`: `redaktion/kronike/numre/2026-10-nr6/bestilling.json`.
+
+Margretes biografi ligger i nr. 1; 1864 i nr. 1; Slesvig-Holsten-tærsklen i nr. 5. Dette nummer er unionen set fra Norge og Sverige.
+
+Struktur: kroningsdokument vs. unionsbrev 1397; Norge blev (Bergen 1450, Norgesparagrafen 1536, 1814); Stockholms blodbad 1520 og Gustav Vasas valg 6. juni 1523; Tallet og Myter i bagsnittet.
+
+### Kernetal
+
+- **17. juni 1397:** Erik af Pommern kronet i Kalmar; kroningsdokument 13. juli med **67** hængende segl.
+- **Unionsbrevet 1397:** papir, 17 udstedere, ca. 10 segl; de seks pergamentskopier blev aldrig udstedt.
+- **Bergen 29. august 1450:** første formelle DK–NO-unionsaftale, efter Christian 1.s kroning i Trondheim 2. august.
+- **Stockholms blodbad 8.–9. november 1520:** **82** henrettede ifølge chefbødlen.
+- **6. juni 1523:** Gustav Vasa valgt i Strängnäs; Norge blev til 1814.
+
+### Fact-check
+
+- Sonnet 5 skrev literal `\\u00a0` og pladsholderfodnoter; slægtskab rettet fra «mosters mor» til søsterdattersøn.
+- Norge-kladden gættede `snl.no/`-stier og `danmarkshistorien.dk/vis/materiale` (410). `snl.no/Christian_1.` (trailing punktum) er den rigtige slug.
+- Blodbadet-kladden 1001 ord, leftover `**SEKTION**`, gættet 410-URL. Kristina Gyllenstierna er reel (lex.dk). Stäket fjernet.
+- Myter-kladden opfandt kilder og blandede Enemark-titel («til Bondeoprør»; rigtig: *Fra Kalmarbrev til Stockholms blodbad*, 1979 — udeladt uden klikbar URL).
+- Kort via `generate_map.py` sprunget over (nr. 5-læringen om brudt `.venv`/geopandas).
+- `check_links.py` fejler på rå `ø` i URL (ascii-codec). Samme side svarer 200 med `%C3%B8` (`Unionsbrevet_1397_om_regeringsud%C3%B8velsen_i_Kalmarunionen`). Apostrof-læringen fra nr. 2 gælder stadig: test den form, artiklen ender med.
+
+## Nr. 7 — kandidater
+
 - **(2026-08) Besættelsen 1940–45 (uden at æde hele nummeret)**
 - **(2026-08) Inge Lehmann / Niels Bohr — videnskabsbiografier**
 
 ## Log
 
+- **2026-10-18:** Nr. 6 udgivet — "Kalmarunionen i dybden (Norge/Sverige)". Features 700–900. Se læringen: gætte-URL'er på snl.no og danmarkshistorien.dk igen; DeepSeek opfandt/blandede Enemark-titel; verificér slægtskab og personer (Kristina Gyllenstierna ok, Carsten Due-Nielsen i nr. 5 var det ikke).
 - **2026-10-03:** Nr. 5 udgivet — "Slesvig-Holsten før 1864". Features 700–900. Se læringen: to dokumenter fra 1851–52 (noter vs. traktat) skal holdes ude fra hinanden i *hver* brief, der nævner 1864-årsagen; Gemini gættede underskriftsstedet.
 - **2026-09-12:** Nr. 4 udgivet — "Christian 4. og stormagtstiden". Se læringen ovenfor: en
   forkert relativ sammenligning (seks års høst i stedet for ét års) er lige så farlig som et

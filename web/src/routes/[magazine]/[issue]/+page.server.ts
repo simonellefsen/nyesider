@@ -3,6 +3,7 @@ import {
 	coverUrl,
 	enrichArticles,
 	formatDanishDate,
+	formatProductionCost,
 	getIssue,
 	getMagazine,
 	listIssues,
@@ -56,7 +57,11 @@ export const load: PageServerLoad = async ({ params }) => {
 				coverCredit: issue.coverCredit ?? null,
 				coverSource: issue.coverSource ?? null,
 				imageCredits: issue.imageCredits ?? null,
-				pdf: pdfUrl(params.magazine, issue)
+				pdf: pdfUrl(params.magazine, issue),
+				productionCost: formatProductionCost(
+					issue.productionCostUSD,
+					issue.productionCostDKK
+				)
 			},
 			articles,
 			listeningTracks

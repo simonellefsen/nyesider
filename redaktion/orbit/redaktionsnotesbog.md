@@ -307,6 +307,24 @@ Ingen opdigtede launch-datoer. Skeln planlagt/scrub/success/failure. Primære ki
 
 ## Log
 
+- **2026-10-18:** Nr. 7 udgivet — 'Kunden og raketten' (Starlink vs. Starshield + Starship
+  Flight 14, to spor pr. ejerens anvisning). 6 artikler, 0 fejl i check_issue, links rene.
+  Læringer: (a) **opsendelsestal tælles nu redaktionelt af GCAT launchlog.tsv** (unikke
+  `Launch_Tag` med `Launch_Code`-præfiks 'O'): 2024=255, 2025=324, 2026 t.o.m. 18. okt.=243
+  (2025 samme dato: 217) — metoden kalibrerer mod nr. 2's notesbogstal; pr. raket læses af
+  `Launch_Vehicle`-feltet, og Chang Zheng-aggregat dækker alle varianter. (b) Reuters og CNBC
+  blokerer linkcheckeren (401/403 uanset UA); reuters.com er tilføjet til check_links.py
+  SKIP_HOSTS som bot-wall — links er reelle, men kan kun verificeres i browser. (c) NR. 6's
+  bagsideløfte (IRIS²-dybdestudie) er udskudt til nr. 8 pr. ejerens beslutning — nr. 7's rygtebørs
+  loever IRIS² + europæisk rumadgang til nr. 8 i stedet, så løftet er holdt, kun rykket.
+  Udsendelsesstatistik-rakettabel: Korrigering af Ariane 6 forhold (foerste kommercielle
+  missioner er 2025, ikke 2026) fra GPT-udkastet under produktion.
+  (d) Tilfaammelse fra ejeren 18. okt.: productionCostDKK-visible prise i nummeret. Felter i
+  issue.json: productionCostDKK, fxRateUSDDKK, fxRateDate, fxRateSource (Nationalbanken DNVALD,
+  sidst offentliggjorte referencekurs firedag - helligdage/weekend er ikke kursdage), plus en synlig
+  linje i lederen. Kurs 16. okt. 2026 = 6,6425 verifikaret direkte i Nationalbankens RSS-feed
+  (/api/currencyrates?format=rss&lang=en&isocodes=usd -> 664,25 pr. 100 USD).
+
 - **2026-09-05:** Nr. 5 udgivet — 'Europæisk rumadgang', indfrier nr. 4's bagsideløfte. Se
   læringen ovenfor: endnu en inline-SVG ekstraheret (samme fejltype som INDENI), en opdigtet
   chart-reference og en forkert arealsammenligning fanget og rettet, og et bagsideløfte der

@@ -1,0 +1,27 @@
+{
+  "articles": [
+    {"byline": null, "file": "articles/01-leder.md", "image": "images/pulsen_leder.png", "imageCredit": "AI-genereret motiv (Imagine / xAI) — flad vektor", "imageSource": "https://x.ai/", "order": 1, "section": "Leder", "slug": "leder", "standfirst": "Vi lovede rapporten. Den kommer i november–december. I mellemtiden findes nu de første tal.", "title": "Delstatus — og en dato", "words": 199},
+    {"byline": "Claude Sonnet 5 (Anthropic)", "file": "articles/02-aidnote-delstatus.md", "image": "images/pulsen_aidnote.png", "imageCredit": "AI-genereret motiv (Imagine / xAI) — moderne", "imageSource": "https://x.ai/", "order": 2, "section": "Feature · Ambient AI", "slug": "aidnote-delstatus", "standfirst": "Når en evaluering deler sine tal halvvejs: 13 klinikere, et delt tidsbillede og en rapport i november–december.", "title": "Det første mellemtal: brugbart — men ikke færdigt", "words": 534},
+    {"byline": "GPT-5.6 Terra (OpenAI)", "file": "articles/03-dds-2027.md", "image": "images/pulsen_dds.png", "imageCredit": "AI-genereret motiv (Imagine / xAI) — geometrisk", "imageSource": "https://x.ai/", "order": 3, "section": "Feature · Sundheds-it", "slug": "dds-2027", "standfirst": "Bekendtgørelsen lister systemerne. Appen MinSundhed og Sundhedsjournalen er med — fortegnelserne forfalder 15. oktober.", "title": "1. januar 2027: det, der faktisk flytter til Digital Sundhed Danmark", "words": 441},
+    {"byline": "Gemini 3.1 Pro (Google)", "file": "articles/04-dsmg-500.md", "image": "images/pulsen_dsmg.png", "imageCredit": "AI-genereret motiv (Imagine / xAI) — minimalisme", "imageSource": "https://x.ai/", "order": 4, "section": "Analyse · Genetik", "slug": "dsmg-500", "standfirst": "DSMG's 1/500-regel er nu registreret i forskningsbasen. Om den følges i klinikken, findes ingen data om.", "title": "Tærsklen er indekseret. Tærsklen er ikke målt.", "words": 389},
+    {"byline": "DeepSeek V3.2 (DeepSeek)", "file": "articles/05-vandrehistorier.md", "image": "images/pulsen_bagsiden.png", "imageCredit": "AI-genereret motiv (Imagine / xAI) — illustreret", "imageSource": "https://x.ai/", "order": 5, "section": "Vandrehistorie · Fra feltet", "slug": "vandrehistorier", "standfirst": "Fra en pilot på to deltagere, der fik det modsatte resultat, til to kolleger, der vurderede det samme notat forskelligt.", "title": "Vandrehistorier: samme værktøj, forskellige udfald", "words": 387},
+    {"byline": "Claude Sonnet 5 (Anthropic)", "file": "articles/06-quiz.md", "flow": true, "image": "images/pulsen_bagsiden.png", "imageCredit": "AI-genereret motiv (Imagine / xAI) — illustreret", "imageSource": "https://x.ai/", "order": 6, "section": "Sjov og spil", "slug": "quiz", "standfirst": "Fem spørgsmål fra dette nummers artikler. Facit nederst — ingen snyd.", "title": "Quiz: fulgte du med?", "words": 205}
+  ],
+  "backCoverPromise": "PULSEN nr. 8 vender tilbage i december 2026 med det, AID_NOTE's evalueringsrapport faktisk siger til Strategisk IT-forum — og først da en afvejning af, om mellemtallet holder som facit.",
+  "cover": "images/pulsen_cover.png",
+  "coverCredit": "AI-genereret motiv (Imagine / xAI) — 3D",
+  "coverSource": "https://x.ai/",
+  "imageCredits": "Imagine / xAI. Stil varieret pr. artikel.",
+  "images": ["images/pulsen_aidnote.png", "images/pulsen_bagsiden.png", "images/pulsen_cover.png", "images/pulsen_dds.png", "images/pulsen_dsmg.png", "images/pulsen_leder.png"],
+  "issueTheme": "Delstatus nr. 3: AID_NOTE's mellemtal, DSD-trusaften og DSMG uden adhærens-data",
+  "magazine": "pulsen",
+  "number": 7,
+  "productionCostUSD": 0.1621,
+  "productionCostDKK": 1.08,
+  "fxRateUSDDKK": 6.6425,
+  "fxRateDate": "2026-10-16",
+  "fxRateSource": "Danmarks Nationalbank (DNVALD), seneste publicerede kurs",
+  "published": "2026-10-18",
+  "status": "published",
+  "title": "PULSEN nr. 7 · Oktober 2026"
+}

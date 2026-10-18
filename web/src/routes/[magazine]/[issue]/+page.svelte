@@ -57,6 +57,9 @@
 		</p>
 		<h1 style="margin:0 0 0.35rem;font-size:clamp(1.6rem,5vw,2.4rem)">{data.issue.title}</h1>
 		<p style="margin:0;color:var(--ink-muted)">{data.issue.publishedLabel}</p>
+		{#if data.issue.productionCost}
+			<p class="production-cost">{data.issue.productionCost}</p>
+		{/if}
 		{#if data.issue.issueTheme}
 			<p style="margin:0.5rem 0 0;font-family:var(--font-serif);font-size:1.2rem;font-style:italic">
 				{data.issue.issueTheme}

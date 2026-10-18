@@ -1,0 +1,280 @@
+{
+  "magazine": "kraften",
+  "issue": "2026-10-nr7",
+  "issueTheme": "Powerwalls — hjemmebatteriet som elektrificering: kilowatt på væggen, gigawatt på nettet",
+  "budget": {
+    "articles": 7,
+    "wordsPerArticle": [
+      300,
+      550
+    ],
+    "targetPages": 12,
+    "note": "Ejerens tema: Powerwalls — hjemmebatteriet som elektrificering (kW/kWh, netydelse, backup), ikke bilmodeller. Kompakt som nr. 6. Powershare kun som kort elektrificerings-note i Rygtebørsen — bilstof til SPÆNDING."
+  },
+  "opgaver": [
+    {
+      "slug": "leder",
+      "order": 1,
+      "section": "Leder",
+      "brief": {
+        "angle": "Kort leder der åbner temaet: hjemmebatteriet er nået frem som elektrificeringskomponent, ikke gadget. Teslas Powerwall 3 fik en 3-faset søster til det europæiske net (3P), og i Californiens hedebølge i oktober 2026 sendte hundrede tusinder af vægbatterier 745 megawatt ind i nettet — i størrelsesordenen et mellemstort kraftværk. Temaet er den dobbelte rolle: batteriet er først husets buffer og nødbackup på væggen, og kan samtidig agere som stykke af et kraftværk, når nettet kalder. Intet bilstof — det tilhører SPÆNDING.",
+        "words": [
+          150,
+          250
+        ],
+        "mustCite": 0,
+        "format": "leder"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": 216,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "editor",
+        "checkedAt": "2026-10-18",
+        "citations": 0,
+        "editorNote": "Redaktionens egen leder, ingen byline.",
+        "checkedAt=datetime": "2026-10-18"
+      }
+    },
+    {
+      "slug": "tallet",
+      "order": 2,
+      "section": "Tallet",
+      "brief": {
+        "angle": "Tallet: 745 MW. Den største registrerede udskrivning af et distribueret kraftværk af private hjemmebatterier leverede Sunrun og Tesla til Kaliforniens elnet aftenen 6. oktober 2026 under en hedebølge. Verificerede tal: Sunruns pressemeddelelse (14. oktober 2026) melder 669 MW 5. oktober og 745 MW 6. oktober; rekordstigen 539 MW (29. juli 2025) — 580 MW (9. september 2026) — 669 MW — 745 MW; 745 MW var nok til at forsyne alle husstande i San Francisco og San Jose samlet i spidsbelastningen; begge aftener udløste DSGS-programmet (Demand Side Grid Support — Kaliforniens program, der aflaster nettet med batterier), da dagens prissignal (day-ahead locational marginal price) oversteg 200 dollar pr. MWh. Kilde: https://investors.sunrun.com/news-events/press-releases/detail/384/sunrun-leads-record-grid-dispatch-delivering-enough-energy . Tesla meldte separat (dashboard, 8. oktober): mere end 85.000 Powerwall-ejere sendte over 600 MW til nettet 6. oktober; detaljer fra Teslas dashboard: 85.774 deltagerhuse, 601 MW spidseffekt og 932 MWh leveret. Kilde: https://teslanewswire.com/articles/sunrun-tesla-745-mw-home-battery-record-california-grid-oct-6-powerwall-vpp . De to tal (745 MW vs 601 MW) kan ikke simpelt lægges sammen eller trækkes fra, og pressemeddelelserne siger ikke, hvor meget af de 745 MW kom fra Teslas fleet — nævne denne usikkerhed. Hovedpointe: tusindvis af vægbatterier kan agere som ét kraftværk; 745 MW er i størrelsesordenen af et mellemstort gas-spidslastværk. Skeln hændelsen (to records-aftener) fra permanent indskrivning: Sunrun alene har mere end 120.000 batterier indskrevet til at understøtte Californiens net, ifølge samme pressemeddelelse. Skeln MW (effekt) og MWh (energi; 932 MWh afsendt over flere timer). Hvorfor 200 dollar pr. MWh betyder noget: det er prisen på spidsenergi — programmerne betaler husejere for at levere på disse tidspunkter.",
+        "words": [
+          300,
+          450
+        ],
+        "mustCite": 3,
+        "mustNumber": [
+          "745 MW 6. oktober 2026",
+          "669 MW 5. oktober 2026",
+          "85.774 huse / 601 MW / 932 MWh (Tesla)",
+          "200 dollar pr. MWh",
+          "120.000+ Sunrun-batterier indskrevet"
+        ],
+        "format": "tallet"
+      },
+      "writer": {
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 346,
+        "costUSD": 0.015768,
+        "draft": "redaktion/kraften/numre/2026-10-nr7/kladder/02-tallet.md",
+        "costRouting": "byok",
+        "generationId": "gen-1792302432-YB4WDd6NXPm9nJKCxR41"
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-10-18",
+        "citations": 3,
+        "editorNote": null,
+        "checkedAt=datetime": "2026-10-18"
+      }
+    },
+    {
+      "slug": "powerwall-3-arkitektur",
+      "order": 3,
+      "section": "Kassen",
+      "brief": {
+        "angle": "Feature om Powerwall 3 som produkt og om forskellen på kilowatt og kilowattimer: effekt (hvad der kan køre samtidig) og energi (hvor længe). Verificerede tal fra Teslas officielle Powerwall 3-datablad (amerikansk version; den europæiske 3P behandles i en anden artikel): 13,5 kWh nominel batterienergi (AC, ved 25 °C og batteriets begyndelse); op til 11,5 kW AC konstant udgangseffekt, konfigurerbar 5,8/7,6/10/11,5 kW; start af belastninger til 185 LRA (locked rotor amps — mål for en motors opstartstrøm; ét batteri kan starte de fleste husstands tunge apparater); op til 20 kW DC-sol-input med 6 MPPT'er (maximum power point tracker — indgang per panelstreng, der trækker maksimal effekt); virkningsgrader 89 % (sol → batteri → hus/net, typisk sol-forbrugsskifte) og 97,5 % (sol direkte → hus/net, CEC-vægtet metode); op til 4 Powerwall-enheder og 3 Expansion-enheder ( hver 13,5 kWh). Kilde: https://energylibrary.tesla.com/docs/Public/EnergyStorage/Powerwall/3/Datasheet/en-us/Powerwall-3-Datasheet.pdf . Nyt i gen 3: inverteren er integreret i batteriet — gen 2 fra 2017 brugte separat inverter; husets solcelle og batteri er nu ét vægmodul. Batterikemi: LFP (litium-jern-fosfat), bekræft i Teslas egen webinar i april 2024 (via Electrek); LFP afløser Powerwall 2's NMC (nickel-manganese-cobalt), giver længere cykluslevs-tid og bedre sikkerhed; Tesla bruger LFP i Megapacks. Kilde: https://electrek.co/2024/04/11/tesla-details-powerwall-3-cheaper-stack/ . Forklaring til læseren: 13,5 kWh er nok til at bruge 1 timmer ved fuld effect (±11,5 kW); husstand, der i normalt døgn trækker 1-2 kW, kan typisk nå et døgn; effekt-eksempler (varmepumpe 2-4 kW, stegeovn 2-3 kW, elbil-lader 7-11 kW). Alle forkortelser udfoldes første gang pr. artikel: kW, kWh, LFP, MPPT, LRA.",
+        "words": [
+          300,
+          550
+        ],
+        "mustCite": 2,
+        "mustNumber": [
+          "13,5 kWh / 11,5 kW",
+          "185 LRA",
+          "89 % / 97,5 % virkningsgrad",
+          "LFP-kemi",
+          "20 kW sol / 6 MPPT'er"
+        ],
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "GPT-5.6 Terra (OpenAI)",
+        "model": "openai/gpt-5.6-terra",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 432,
+        "costUSD": 0.0187055,
+        "draft": "redaktion/kraften/numre/2026-10-nr7/kladder/03-powerwall-3-arkitektur.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1792302455-ZXCKjdMf2y9lIDrinbjH"
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-10-18",
+        "citations": 2,
+        "editorNote": null,
+        "checkedAt=datetime": "2026-10-18"
+      }
+    },
+    {
+      "slug": "powerwall-3p-europa",
+      "order": 4,
+      "section": "Europa-kassen",
+      "brief": {
+        "angle": "Feature om Powerwall 3P — første Powerwall bygget til europæiske trefasenet (230/400 V, 50 Hz) — og om hvornår og hvor europæerne faktisk kan købe den. Verificerede tal fra Teslas officielle 3P-datablad: 13,5 kWh brugbar energi (AC); 15,4 kW konstant AC-udgang ved udetemperatur 25 °C eller lavere med tilstrækkelig sol; op til 10 kW uden sol eller ved højere temperaturer; spidseffekt 21 kW (1 sek) til trefasede belastninger og 7,4 kW til en-fasede; 20,4 kW sol-input med 4 MPPT'er; virkningsgrader 98,4 % (sol → hus/net; EU-vægtet metode) og 90 % (sol → batteri → hus/net); skalerbar op til 4 enheder (61,6 kW) og 4 enheder + 3 Expansion à 13,5 kWh (94,5 kWh); Backup Gateway 2 som netadskilleanlæg. Kilde: https://energylibrary.tesla.com/docs/Public/EnergyStorage/Powerwall/3P/Datasheet/en-aunz/Powerwall-3P-Datasheet.pdf . Lancering: første gang offentligt vist i Nederland 12. august 2026 og solgt via certificerede Tesla-installatører; opdateret i magdetaljeredningen (12. oktober 2026): 15,4 kW kontinuert på alle tre faser, 21 kW peak, NP-markedets størrelse ca. 3 millioner husstande med solceller og ca. 200.000 af dem med et batteri (ca. 2,8 mio. husstande med sol, uden batteri); Tesla's påstand (sådan som firmaet selv oplyser): én enhed kan ved strøum afbrydelelse forsyne mere end 95 % af husstande, inkl. varmepumper og EV-ladere. Kilde: https://solarmagazine.nl/nieuws-zonne-energie/i45050/nieuwste-versie-van-tesla-s-thuisbatterij-nu-in-nederland-verkrijgbaar-powerwall-3p-geschikt-voor-driefase-aansluiting . Priser i NL (meddelelse 12. aug 2026, ekskl. moms og levering): 6.450 euro uden Gateway; 7.300 euro med Gateway; 12.400 euro med Gateway + Expansion unit. Kilde: https://www.bright.nl/nieuws/2122163/de-thuisbatterij-van-tesla-is-nu-echt-in-nederland-beschikbaar.html . Forklar trefase vs. en-fasede net: hvorfor husstant, der får enkelt-fase, er begrænset (3,68 kW-grænsen i DK som vende). Skeln ekspressive den amerikanske Powerwall 3 (split-fase 120/240 V, 60 Hz) fra den europæiske 3P (230/400 V, 50 Hz) — to forskellige produkter. Mærk Tesla's oplysninger som selskabstal: 'ifølge Tesla'.",
+        "words": [
+          300,
+          550
+        ],
+        "mustCite": 3,
+        "mustNumber": [
+          "15,4 kW / 21 kW peak (3P)",
+          "13,5 kWh",
+          "98,4 % / 90 % virkningsgrad",
+          "6.450/7.300/12.400 euro (NL-priser)",
+          "61,6 kW / 94,5 kWh (maks. system)"
+        ],
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "Gemini 3.5 Flash (Google)",
+        "model": "google/gemini-3.5-flash",
+        "fallback": "minimax/minimax-m3"
+      },
+      "receipt": {
+        "words": 387,
+        "costUSD": 0.04293,
+        "draft": "redaktion/kraften/numre/2026-10-nr7/kladder/04-powerwall-3p-europa.md",
+        "costRouting": "byok",
+        "generationId": "gen-1792302474-z1UErud1PdJsA5M2iRLa"
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-10-18",
+        "citations": 3,
+        "editorNote": null,
+        "checkedAt=datetime": "2026-10-18"
+      }
+    },
+    {
+      "slug": "danmark-uden-powerwall",
+      "order": 5,
+      "section": "Danmarks-kassen",
+      "brief": {
+        "angle": "Feature om den danske virkelighed: Danskerne kan i dag IKKE købe en Powerwall med Teslas garanti, men det danske batterimarked vokser alligevel stærkt. Verificerede facts: Teslas europæiske Powerwall-garanti dækker kun 14 lande; Danmark er ikke et af dem; ingen Tesla-model står på Green Power Denmarks positivliste (elnet.dk); den 1-fasede (f.eks. britiske) Powerwall 3 må i et dansk hus højst give 3,68 kW (16 A, en-faset-grænsen). Kilde: https://solcellerapport.dk/maerker/tesla-powerwall . DK-markedet: I de seneste fire kvartaler (Q3 2025 til Q2 2026) er der registreret nettilsluttede 191 MW ny batterieffekt fordelt på 4.479 installationer; private nye batteri-installationer steg fra 546 i Q3 2025 til 1.403 i Q2 2026; kommercielt: 2,6 → 14,8 MW; storskala: 112,4 MW (knap 60 % af de 191 MW). Kilde: https://via.ritzau.dk/pressemeddelelse/15101294/batterier-vinder-frem-bade-pa-bygninger-og-i-stor-skala (Dansk Solcelleforening 20. august 2026, baseret på Energistyrelsens stamdataregister). Danmarks samlede nettilsluttede solcellekapacitet er 5.405 MW fordelt på 172.822 anlæg pr. 30. juni 2026 — kilde https://ens.dk/media/8490/download (Energistyrelsen, 5. august 2026). Håndværkerfradraget op til 9.000 kr. pr. person (2026) dækker kun arbejdsløn, og et batteri alene (uden solceller) giver IKKE fradrag efter Skatterådet SKM2025.487.SR — samme kilde. Artiklen skal anskues som tre moduler: (a) DK-batterimarkederets vækst (tal), (b) hvorfor Powerwall ikke er solgt her (garanti og positivliste), (c) DK-reglerne (1-faset-grænsen, fradrag). Kun KORT fvå konkurrentnavne (fx BYD, Huawei) — ikke en produktguide.",
+        "words": [
+          350,
+          550
+        ],
+        "mustCite": 3,
+        "mustNumber": [
+          "191 MW / 4.479 installationer over fire kvartaler",
+          "546 → 1.403 private batteri-installationer pr. kvartal",
+          "112,4 MW storskala",
+          "3,68 kW 1-faset-grænse / 14 lande",
+          "5.405 MW solcellekapacitet DK"
+        ],
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "DeepSeek V3.2 (DeepSeek)",
+        "model": "deepseek/deepseek-v3.2",
+        "fallback": "google/gemini-3.5-flash"
+      },
+      "receipt": {
+        "words": 340,
+        "costUSD": 0.00082502,
+        "draft": "redaktion/kraften/numre/2026-10-nr7/kladder/05-danmark-uden-powerwall.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1792302500-2ZsOOt3ZO366UwKLEwbP"
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-10-18",
+        "citations": 3,
+        "editorNote": null,
+        "checkedAt=datetime": "2026-10-18"
+      }
+    },
+    {
+      "slug": "hjem-og-netskala",
+      "order": 6,
+      "section": "Netskalaen",
+      "brief": {
+        "angle": "Feature: hvor Powerwallene havner i Teslas regnskab — Q3 2026-deploymentet, og forskellen på hjemmeskala (Powerwall) og netskala (Megapack). Vigtig skelnen: Teslas OFFICIELLE Q3 2026-tal er 13,7 GWh 'deployed energy storage products' (pressemeldelse 2. oktober 2026). Kilde: https://ir.tesla.com/press-release/tesla-third-quarter-2026-production-deliveries-and-deployments . 15,9 GWh var analytiker-konsensus (median af 19 estimater i Teslas company-compiled consensus, offentliggjort ca. 29. september 2026), altså ikke Teslas egen opgørelse. Deploymenten: 13,7 GWh var op ca. 1,5 % fra Q2 2026's 13,5 GWh og ca. 9,6 % fra Q3 2025's 12,5 GWh; Teslas foregående kvartalsrekord var 14,2 GWh i Q4 2025 (ikke slået i Q3 2026). Kilde: https://insightimes.com/en/articles/tesla-energy-q3-why-did-137-gwh-miss-the-159-gwh-consensus (Insight Times, 6. oktober 2026). Deployment er ikke revenue eller profit — Tesla afslører først marginer ved earnings 21. oktober; deployments er lumpy og afhænger af kundens projekttempos (transformere, nettilslutning). Netskala-eksempel: Frankrigs største batteri — TagEnergy anlægget ved Cernay-lès-Reims, 240 MW / 480 MWh, 140 Megapacks, indviet 1. oktober 2026 efter 125 dages drift med 70,5 GWh afsendt til nettet og 145 fulde cyklusser; Tesla har ligeledes startet Megapack 3-produktion i ny Megafactory i Brookshire, Texas (designkapacitet 50 GWh om året). Kilde: https://teslanewswire.com/articles/tesla-energy-q3-2026-13-7-gwh-storage-miss-france-largest-battery-megapack . HOME vs NET-SCALE skelnen: Tesla opgiver IKKE Powerwall- og Megapack-deploy separat i sin kvartalsopgørelse — deploymentet 13,7 GWh dækker begge; en Powerwall er 13,5 kWh, og en Megapack er i MWh-skala per enhed. Forklär GWh (gigawattimer = tusinde MWh). HUSK: Tallet-article i dette nummer handler om 745 MW-udskrivningen; skriv ikke igen den samme historie.",
+        "words": [
+          300,
+          550
+        ],
+        "mustCite": 3,
+        "mustNumber": [
+          "13,7 GWh Q3 2026 (officielt)",
+          "15,9 GWh analytiker-konsensus",
+          "12,5 GWh Q3 2025 / 13,5 GWh Q2 2026",
+          "14,2 GWh Q4 2025 (tidl. rekord)",
+          "240 MW / 480 MWh Frankrig"
+        ],
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "Qwen3.7 Max (Alibaba)",
+        "model": "qwen/qwen3.7-max",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 365,
+        "costUSD": 0.040678,
+        "draft": "redaktion/kraften/numre/2026-10-nr7/kladder/06-hjem-og-netskala.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1792302522-8OOjjzeEuIGLwT6LSKgO"
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-10-18",
+        "citations": 3,
+        "editorNote": null,
+        "checkedAt=datetime": "2026-10-18"
+      }
+    },
+    {
+      "slug": "rygteboersen",
+      "order": 7,
+      "section": "Rygtebørs",
+      "brief": {
+        "angle": "Rygtebørsen — 4-5 korte, mærkede rygter, der alle er skildret som 'siges', 'afventes' eller 'rygtes' — ikke som fastslåede fakta. Bland Powerwall-temaets spørgsmål: (1) 3P-udrulning forventes i flere europæiske markeder efter NL-lanceringen; installatørmiljøerne i Tyskland og Norge nævnes som kandidater — ingen tal, ingen konkrete datoer bortset fra NL (12. august og 12. oktober 2026). (2) Powershare-Note: Software-opdatering 2026.33.5 tilføjede Vehicle-to-Home med Powerwall (via 'Charging > Powershare' i Teslas App, en ladet bil koblet til en compatible Wall Connector kan supplere husets strøm ved udfald); kort elektrificering-note: bilens batteri (typisk 70-80 kWh) har mange gange mere kapacitet end Powerwalls 13,5 kWh. Advar: biler er SPÆNDING-stof; her kun 'bilens batteri' som energilagrings-komponent, ikke bilmodelemne. Kilder: teslanewswire Q3-artiklen (verificeret https://teslanewswire.com/articles/tesla-energy-q3-2026-13-7-gwh-storage-miss-france-largest-battery-megapack , 'Powershare'-sektion). (3) 15,4 kW off-grid-rygtet: amerikanske Powerwall 3'er kan sænke op til 15,4 kW off-grid (kun med sol tilbage og en 80 A-breaker) — det viser databladet; om denne konfiguration kommer til DK er endnu ukendt. (4) Vækstrygte: detailsælger og installatører siges at opleve rekordinteressede private batteri-installanter i efteråret; danskerne rygtes at have taget Powerwall-temaet til sig som en ny trend — intet tal, intet navn. (5) BAGSIDE-LØFTE — nr. 8: elnettet på Månen (udsat fra nr. 7): 'Når en satellit overlever 72 minutter i Jorden skygge, hvad kræver det at holde lys i 14 døgn i træk gennem månens lange nat? Nr. 8 dykker ned i elnettet på Månen.'",
+        "words": [
+          250,
+          400
+        ],
+        "mustCite": 0,
+        "format": "rygteboersen"
+      },
+      "writer": {
+        "byline": "Grok 4.5 (xAI)",
+        "model": "x-ai/grok-4.5",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 257,
+        "costUSD": 0.0100312,
+        "draft": "redaktion/kraften/numre/2026-10-nr7/kladder/07-rygteboersen.md",
+        "costRouting": "byok",
+        "generationId": "gen-1792302604-NYkZ9WNyd9LyKKusJqOi"
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-10-18",
+        "citations": 0,
+        "editorNote": null,
+        "checkedAt=datetime": "2026-10-18"
+      }
+    }
+  ]
+}

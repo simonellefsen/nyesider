@@ -233,6 +233,29 @@ Omskrevet af redaktøren til 5 spørgsmål der matcher de publicerede artikler.
 
 ## Log
 
+- **2026-10-18:** Nr. 7 udgivet — delstatus nr. 3. Bagsideløftet fra nr. 6 indfriet ærligt:
+  rapporten er stadig IKKE offentlig, men første officielle delstatus findes nu (RAIN-mødet
+  30.09.2026, beretning på syddansksundhedsinnovation.dk 07.10.2026 — 7/13 mindre tid, 6/13 mere,
+  9/12 brugbart udkast, 8/11 nyttigt, rapport i nov.–dec.). Bestillingen var klar og ren
+  (bestilling.json valideret, dry-run tjekket). De vigtigste fangster ved manuel review af den
+  rå output fra fire skribenter:
+  (1) DeepSeek V3.2: OPDIGTE fodnotetitler ("Implementering af ambient AI…", "Landscape Review…")
+  og forkert udfoldet RAIN-akronym ("Responsible AI in Health Care Networks" — korrekt: Regionernes
+  AI-netværk), "psystuderende" → psykolog. Omskrevet af redaktøren på verificerede kilder —
+  verdict: rewritten-by-editor.
+  (2) Claude Sonnet 5 (quiz): opdigtede fem spørgsmål, der slet ikke hørte hjemme i nummeret
+  (MDR-risikoklasse, 60.000 patientforløb, overgangsperioder — alt sammen fantasi på baggrund af
+  et emneord). Quiz omskrevet af redaktøren, facit krydskontrolleret 1:1 mod de endelige artikler
+  (den faste regel fra nr. 5 og 6 betalte sig igen).
+  (3) Gemini 3.1 Pro: trodsede regel om ingen "Af Redaktionen"-byline og kastede et EPJ-afsnit ud,
+  der ikke hang sammen med resten ved joint check. Rettet i manuel gennemgang — PURE og
+  guideline-PDF-fodnoterne anvendt som kilder.
+  (4) GPT-5.6 Terra: renest — kun småfejl i to indledninger. Status: accepteret.
+  Vigtig URL-erfaring: Retsinformations .eli-URL'er er en JS-app og kan ikke verificeres direkte;
+  API-PDF-formen bruges i stedet (retsinformation.dk/api/pdf/254544 og /256710). Alle 12
+  kildelinks verificeret — 0 døde. Billeder: 6 xAI-genererede (flat/modern/geometric/minimalism/illustreret/3D), bagsiden
+  delt mellem vandrehistorie og quiz. Tekstomkostning: 0,1621 USD; 2.155 ord.
+
 - **2026-10-03:** Nr. 6 udgivet — mellemåret uden facit. Se læringen ovenfor:
   generiske fodnoter i alle tre features erstattet med konkrete kilder, quiz
   omskrevet til at matche faktiske artikler.

@@ -837,6 +837,12 @@ a.mag-card:hover {
 	max-width: 40rem;
 }
 
+.production-cost {
+	margin: 0.4rem 0 0;
+	font-size: 0.92rem;
+	color: var(--ink-muted);
+}
+
 .toc {
 	list-style: none;
 	padding: 0;

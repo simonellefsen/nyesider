@@ -1,0 +1,226 @@
+{
+  "budget": {
+    "articles": 6,
+    "note": "Idébank-emnet 'Robotten der kan se' brugt. Opgaven før kroppen: hvad skal robotten se, og hvad kan den ikke? BMW AOI, 1X NEO, Figure Helix, IFR cobots, Tesla-illusionen.",
+    "targetPages": 12,
+    "wordsPerArticle": [
+      150,
+      750
+    ]
+  },
+  "issue": "2026-10-nr7",
+  "issueTheme": "Robotten der kan se — kameraer, kraftsensorer og grænserne for perception",
+  "magazine": "humanerd",
+  "opgaver": [
+    {
+      "brief": {
+        "angle": "Kort leder: kameraet er blevet den billigste sensor, og perception er det lag, der afgør om piloter bliver til drift. Men syn er også det lag, der lettest afbildes som løst, selv når det ikke er det. Knyt til nr. 6: øjet og hånden hænger sammen — den hårde del var aldrig kameraet, men det øjeblik synet skal blive til en bevægelse. Opgaven før kroppen, og skelnen mellem prototype, pilot, validering, kommerciel installation og stabil drift.",
+        "format": "leder",
+        "mustCite": 0,
+        "words": [
+          150,
+          250
+        ]
+      },
+      "order": 1,
+      "receipt": {
+        "costUSD": null,
+        "draft": "kladder/01-leder.md",
+        "words": 216
+      },
+      "section": "Leder",
+      "slug": "leder",
+      "verdict": {
+        "citations": 0,
+        "checkedAt": "2026-10-18",
+        "editorNote": "Redaktionens egen leder, ingen byline, ingen API-kald.",
+        "status": "accepted"
+      },
+      "writer": {
+        "byline": null,
+        "fallback": null,
+        "model": "editor-led"
+      }
+    },
+    {
+      "brief": {
+        "angle": "Feature om vision i fabrikken: BMWs AIQX-platform og automatiseret optisk inspektion (AOI) af lakken på fabrikken i Regensburg. Opgaven: kvalitetskontrol af hver eneste bil — opdage en misplaceret stud eller en millimeterstor ujævnhed i lakken, før bilen forlader fabrikken. Verificerede fakta: AIQX (Artificial Intelligence Quality Next) er BMWs egen IT-platform med netværkskameraer (hovedsagligt Axis P14 Bullet-kameraer) langs samlebåndet; ifølge leverandøren Axis er AIQX i dag udrullet på tværs af BMWs fabrikker verden over, med realtidsanalyse og straks-advarsler til medarbejdernes smart devices. I Regensburg er Automated Surface Processing i serieproduktion siden marts 2022: skærme projicerer geometriske mønstre på lakfladen (deflectometry), kameraer scanner dem, systemet bygger et digitalt 3D-billede af karrosseriet, robotten sliber og polerer ud fra det, og en laserprojektor markerer til sidst de flader, der ikke er automatisk kontrolleret, til menneskenes sidste inspektion. Tal: ca. 1.300 BMW X2 pr. arbejdsdag fra Regensburg (BMWs egen bekræftelse) og ca. 1.400 nye biler pr. dag i Regensburg-samlingen med en ny bil ca. hver 57. sekund (BMWs pressemeddelelse april 2025). CNBC citerede tidligere BMW i Spartanburg om 26 kameraer, et lukket AI-kredsløb og over 1 mio. USD i årlige besparelser — mærk som virksomhedstal. SKELN: drift i ét anlæg, men AOI kan ikke se alle flader (kanter og samlinger er svære), og menneskene holder den sidste kontrol. Nævn også pilotprojektet GenAI4Q (april 2025, sammen med München-opstarten Datagon AI), der laver AI-drevet, tilpasset kontrolkatalog for ca. 1.400 daglige biler i samlingen — pilot, ikke drift.",
+        "format": "feature",
+        "mustCite": 3,
+        "mustNumber": [
+          "1.400 biler pr. dag",
+          "26 kameraer"
+        ],
+        "words": [
+          500,
+          750
+        ]
+      },
+      "order": 2,
+      "receipt": {
+        "words": 752,
+        "costUSD": 0.038828,
+        "draft": "kladder/02-fabriksvisioen.md",
+        "costRouting": "byok",
+        "generationId": "gen-1792302268-TRE7T7boly9cC0DRPWls"
+      },
+      "section": "Fabrikken",
+      "slug": "fabriksvisioen",
+      "verdict": {
+        "citations": 4,
+        "checkedAt": "2026-10-18",
+        "editorNote": "Faktatjekket. Fodnoterne pegede først på bare domæner; erstattet med konkrete artikel-URL'er: BMW PressClub T0449729EN (1.400 biler pr. dag og hvert 57. sekund verificeret i originaltekst), Axis-kundecase, CNBC 21.7.2023 og BMW PressClub T0411621EN (ASF, maj 2023).",
+        "status": "accepted-after-edit"
+      },
+      "writer": {
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "fallback": "deepseek/deepseek-v3.2",
+        "model": "anthropic/claude-sonnet-5"
+      }
+    },
+    {
+      "brief": {
+        "angle": "Feature om 1X NEO — det første consumer-ready humanoidprodukt til hjemmet. Opgaven: daglige husjob i private hjem uden fast opstilling, uden kalibreringslys og uden planlagte gangveje. Verificerede fakta: 1X NEO launchede den 28. oktober 2025 med forudsalg, levering til amerikanske kunder fra 2026, Early Access-prisen angivet til 20.000 USD eller et 499 USD i månedligt abonnement ifølge 1Xs annoncering. Robotten vejer 29,94 kg, kan løfte over 68 kg (virksomhedsoplysning), dens Cortex-computer er baseret på NVIDIA Jetson Thor (opgivet til 2070 FP4 TFLOPS). Sensor: to hovedmonterede stereo-fisheye-kameraer på 8,85 megapixels med 90 Hz, 4 beamforming-mikrofoner og link-wise IMU'er — NEO bruger intet lidar og intet dedikeret dybdesystem; perception er alene visuelt. I juni 2025 viste 1X, at NEO kan gå op og ned ad trapper med kun stereo RGB-kameraer: dybde og trappetrinnets højde udledes af billederne i en reinforcement-learning-controller, trænet med omfattende domain randomization i simulation, ifølge 1X. 'Expert Mode' lanceres sammen med salget: en faglært operatør hos 1X kan fjernoperere robotten, og disse fjernoperationssessioner bruges som træningsdata for at forbedre autonomien. Wall Street Journals Joanna Stern oplevede ved et besøg i oktober 2025 intet NEO gjorde autonomt — en faglært operatør (kaldet 'Turing') havde styringen. 1X siger at 'de fleste jobs' skal være autonome i 2026, og at kvaliteten forbedres hurtigt, når dataene samles ind. SKELN: kommerciel installation i enkelthjem med menneskelig backup — ikke stabil drift, ikke bevis på autonomt husarbejde.",
+        "format": "feature",
+        "mustCite": 3,
+        "mustNumber": [
+          "20.000 USD",
+          "8,85 megapixels"
+        ],
+        "words": [
+          500,
+          750
+        ]
+      },
+      "order": 3,
+      "receipt": {
+        "words": 681,
+        "costUSD": 0.0256035,
+        "draft": "kladder/03-neos-oeje.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1792302347-5dwDeoQrZyGQHwOG6ujg"
+      },
+      "section": "Humanoiden",
+      "slug": "neos-oeje",
+      "verdict": {
+        "citations": 4,
+        "checkedAt": "2026-10-18",
+        "editorNote": "Faktatjekket. 1x.tech/discover/neo-stairs og nvidia.com JetBrains-side var opdigtede 404'er; erstattet med 1x.tech/neo-specifikationer samt to Humanoids Daily-artikler (11.6.2025 og okt. 2025, begge verificeret 200). WSJ-link var 401; Joanna Stern citeres via Humanoids Daily.",
+        "status": "accepted-after-edit"
+      },
+      "writer": {
+        "byline": "GPT-5.6 Terra (OpenAI)",
+        "fallback": "deepseek/deepseek-v3.2",
+        "model": "openai/gpt-5.6-terra"
+      }
+    },
+    {
+      "brief": {
+        "angle": "Hjernen forklarer perceptionsstakken: kæden fra pixels til en bevægelse. Brug Figure Helix som det konkrete system. Verificerede fakta: Figure AI introducerede Helix den 20. februar 2025 som en Vision-Language-Action-model (VLA), der kobler syn (stereo-kameraer), sprogforståelse og lavniveau-kontrol i et system. System 1 outputter action chunks ved 200 Hz. Dage senere (26. februar 2025) beskrev Figure 'Helix Accelerating Real-World Logistics': Figur-robotter på lager-håndtering kan tage pakker fra et transportbånd og dreje dem, så forsendelsesetiketten vender rigtigt til scanneren. Figurs tal: 8 timers velkurateret demonstrationsdata gav 40 % bedre throughput end en større, mere rodet mængde data (virksomhedstal); 'Sport Mode' accelererer op til 50 %. Figure opgiver også, at Helix kan 'pick up anything' — gribe tusindvis af aldrig før sete genstande på en naturlig sproglig instruktion. Forklar kæden: kamera → dybdeestimerende viden → 3D-forståelse → grebsplanlægning → korrektion i milisekunder, og peg på pointen: synet er ikke færdigt, før det er blevet til en bevægelse — det er dér, kompromiserne ligger. Mærk alt virksomhedstal.",
+        "format": "feature",
+        "mustCite": 3,
+        "mustNumber": [
+          "200 Hz",
+          "8 timer"
+        ],
+        "words": [
+          500,
+          750
+        ]
+      },
+      "order": 4,
+      "receipt": {
+        "words": 575,
+        "costUSD": 0.035046,
+        "draft": "kladder/04-hjernens-oeje.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1792302394-5SVCNZTD4Tau8DRIr2z9"
+      },
+      "section": "Hjernen",
+      "slug": "hjernens-oeje",
+      "verdict": {
+        "citations": 3,
+        "checkedAt": "2026-10-18",
+        "editorNote": "Faktatjekket. Fodnoter var titel-tekst uden URL; tilføjet figure.ai/news/helix og figure.ai/news/helix-logistics (begge verificeret 200). Tal (200 Hz, 8 timer, 40 %, Sport Mode) stemmer med briefen; mærket som virksomhedstal.",
+        "status": "accepted-after-edit"
+      },
+      "writer": {
+        "byline": "Qwen3.7 Max (Alibaba)",
+        "fallback": "deepseek/deepseek-v3.2",
+        "model": "qwen/qwen3.7-max"
+      }
+    },
+    {
+      "brief": {
+        "angle": "Tallet: kildetabel over IFR World Robotics 2025 (2024-tal, udgivet 25. september 2025) om collaborative robotter. Fastsæt: 64.542 cobots installeret i 2024, en stigning på 12 %; markedsandel ca. 11,9 % af alle nye industrirobotter. Sammenlign med 2023: 10,6 % og i 2017: ca. 11.000 enheder (2,8 %). For kontekst: 542.076 industrirobotter installeret totalt i 2024. Pointen: coboter er den kategori, der er bygget om kraftsensorer (force-torque-sensorer og sikkerhedsstandarder) — en anden sensor end kameraet. Andelen viser, hvor stor en del af den industrielle robotverden allerede bygger på kraft-føling som sit sikkerhedslag, ikke på syn. Alle tal er IFR-statistik, ikke virksomhedstal.",
+        "format": "tallet",
+        "mustCite": 2,
+        "mustNumber": [
+          "64.542",
+          "11,9 %"
+        ],
+        "words": [
+          300,
+          450
+        ]
+      },
+      "order": 5,
+      "receipt": {
+        "words": 379,
+        "costUSD": 0.028797,
+        "draft": "kladder/05-cobottq.md",
+        "costRouting": "byok",
+        "generationId": "gen-1792302475-RzQ4IrXG2IvRzqisEDpl"
+      },
+      "section": "Tallet",
+      "slug": "cobottq",
+      "verdict": {
+        "citations": 2,
+        "checkedAt": "2026-10-18",
+        "editorNote": "Faktatjekket. Uverificeret tal ~57.600 enheder i 2023 fjernet (tabellen viser nu kun IFR's andel på 10,6 %). Fodnoter erstattet med IFR-presserum (15.9.2025-pressmeddelelse) og ifr.org/worldrobotics. IFR World Robotics 2026 (2025-tal) er udkommet senere; tallet bruger bevidst WR-2025-genereringen ligesom nr. 6.",
+        "status": "accepted-after-edit"
+      },
+      "writer": {
+        "byline": "Gemini 3.5 Flash (Google)",
+        "fallback": "deepseek/deepseek-v3.2",
+        "model": "google/gemini-3.5-flash"
+      }
+    },
+    {
+      "brief": {
+        "angle": "Påstandskontoret afmonterer påstanden: 'Jeg har set det på video, så kan robotten det.' Verificerede fakta: I januar 2024 postede Tesla en video af Optimus der folder en t-shirt. Observatører spottede en operatørshånd og en teleoperations-handske i billedranden, og Elon Musk skrev eftertiden på X at Optimus 'endnu ikke kan gøre dette autonomt'. I oktober 2024 under Teslas 'We, Robot'-arrangement i Hollywood sneg Optimus-robotter sig mellem gæster og blandede drinks; adskillige medier (Bloomberg, Fortune, TechCrunch, IEEE Spectrum) konkluderede bagefter, at de var fjernstyret af mennesker, i bevægelsesregistrerende dragter; Morgan Stanley-analytiker Adam Jonas noterede at robotterne 'relied on tele-ops (human intervention)'; en gæst fangede Optimus på video, der selv siger 'Today I'm assisted by a human. I'm not yet fully autonomous.'. Skriv at IEEE Spectrum (Evan Ackerman) i 2024 udgav en metode-tjekliste for hvornår robotvideoer er teleopereret (speed, mangel på pauser, meningsløs mellembevægelse à la menneskelige tøjninger uden formål, for flink i et ikke struktureret opgave), og at en video aldrig i sig selv er bevis for autonomi. Ingen hype; afmonteringen med venlig præcision, som nr. 5.",
+        "format": "feature",
+        "mustCite": 3,
+        "mustNumber": [
+          "januar 2024",
+          "oktober 2024"
+        ],
+        "words": [
+          350,
+          550
+        ]
+      },
+      "order": 6,
+      "receipt": {
+        "words": 480,
+        "costUSD": 0.00088269849,
+        "draft": "kladder/06-demoet-havde-en-hand.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1792302619-Q2zzLfnfoZCPtCf1qVzb"
+      },
+      "section": "Påstandskontoret",
+      "slug": "demoet-havde-en-hand",
+      "verdict": {
+        "citations": 6,
+        "checkedAt": "2026-10-18",
+        "editorNote": "Faktatjekket. Datoer rettet: t-shirt-video 15.1.2024 (ikke 31.1.), TechCrunch 14.10.2024 (ikke 25.10.), IEEE Spectrum-artiklen er «That Awesome Robot Demo Could Have a Human in the Loop» 23.1.2024 (ikke «How to Spot...»). Alle seks fodnoter koblet til verificerede URL'er (Forbes 403-bot-blok, verificeret via søgning).",
+        "status": "accepted-after-edit"
+      },
+      "writer": {
+        "byline": "DeepSeek V3.2 (DeepSeek)",
+        "fallback": "google/gemini-3.5-flash",
+        "model": "deepseek/deepseek-v3.2"
+      }
+    }
+  ]
+}

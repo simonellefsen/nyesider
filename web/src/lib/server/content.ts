@@ -363,3 +363,24 @@ export function formatDanishDate(iso: string): string {
 		year: 'numeric'
 	}).format(d);
 }
+
+function formatDaNumber(n: number, minFrac: number, maxFrac: number): string {
+	return n.toLocaleString('da-DK', {
+		minimumFractionDigits: minFrac,
+		maximumFractionDigits: maxFrac
+	});
+}
+
+/** Visible kolofon: production spend in USD and kroner. */
+export function formatProductionCost(
+	usd?: number | null,
+	dkk?: number | null
+): string | null {
+	if (typeof usd !== 'number' || Number.isNaN(usd)) return null;
+	const usdLabel = formatDaNumber(usd, 2, 4);
+	if (typeof dkk === 'number' && !Number.isNaN(dkk)) {
+		const dkkLabel = formatDaNumber(dkk, 2, 2);
+		return `Dette nummer kostede ${usdLabel} USD · ${dkkLabel}\u00a0kr. at producere.`;
+	}
+	return `Dette nummer kostede ${usdLabel} USD at producere.`;
+}

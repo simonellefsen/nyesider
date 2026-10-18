@@ -1,0 +1,26 @@
+# NEO skal rydde op — men hvem har egentlig hænderne på styringen?
+
+Den svære opgave i et privat hjem er ikke at gå fra køkken til stue. Det er at samle en genstand op fra et gulv med skiftende rod, åbne en dør, flytte omkring et barn eller et kæledyr, forstå hvad der ikke må væltes, og standse sikkert, når situationen bliver uoverskuelig. Der findes ingen fast opstilling, ingen planlagte gangveje og normalt heller ingen tekniker, der kan kalibrere lys, kameraer eller møbler.
+
+Det er denne opgave, 1X vil sælge med NEO: en humanoid robot til hjemmet, annonceret med forudsalg 28. oktober 2025 og planlagt levering til amerikanske kunder fra 2026. Prisen er angivet til 20.000 USD for Early Access eller 499 USD om måneden som abonnement. Det er et markant produktløfte, men endnu ikke dokumentation for stabilt, selvstændigt husarbejde gennem et helt hverdagsliv.[^1]
+
+NEO er i praksis en mobil krop med to arme, hænder, ben og et hoved med kameraer. Den vejer 29,94 kg og kan ifølge 1X løfte mere end 68 kg. Det sidste er et virksomhedstal: det siger noget om mekanisk kapacitet under bestemte forhold, men ikke nødvendigvis om, hvad robotten sikkert kan løfte i et hjem med mennesker tæt på.
+
+Robotten orienterer sig primært med syn. Hovedet rummer to stereo-fisheye-kameraer på hver 8,85 megapixels med 90 hertz billedrate, fire beamforming-mikrofoner og inertimåleenheder (inertial measurement units, IMU’er) ved leddene. 1X oplyser, at NEO hverken bruger lidar — laserbaseret afstandsmåling — eller et særskilt dybdekamera. Dybde skal i stedet udledes af de to almindelige farvekameraer.
+
+Det valg gør hjemmet til en hård test. Stereo-kameraer kan beregne afstand ved at sammenligne samme motiv fra to vinkler, men blanke gulve, dårligt lys, ensfarvede overflader, rod og delvist skjulte genstande gør opgaven vanskelig. Et menneske kan som regel se, at en mørk bunke ved sofaen er en taske og ikke et hul i gulvet; robotten skal først afgøre det ud fra pixels, tidligere erfaring og usikker geometri.
+
+1X har vist NEO gå på trapper alene med stereo-farvekameraer (red, green, blue, RGB). Ifølge virksomheden estimerer en controller trinenes geometri fra billederne. Controlleren er trænet med forstærkningslæring i simulering, hvor lys, teksturer og andre forhold varierer systematisk — såkaldt domain randomization. Demonstrationen er relevant, fordi trapper er en konkret mobilitetsopgave, hvor fejl kan være alvorlige. Men den beviser ikke, at robotten kan løse alle trappeopgaver i alle hjem eller kombinere trappegang med en uforudsigelig genstand i hænderne.[^2]
+
+NEO’s regnekraft kommer fra en Cortex-computer baseret på NVIDIA Jetson Thor. 1X angiver 2.070 FP4-teraflops, altså beregninger i et fire-bit flydende-kommaformat. Tallet fortæller, at robotten kan køre tunge modeller lokalt, men ikke i sig selv, om modellerne er pålidelige. I fysisk kunstig intelligens er computerkraft kun ét led: robotten skal også opfatte korrekt, planlægge en sikker bevægelse, styre motorerne præcist og kunne afbryde handlingen, før noget går galt.[^3]
+
+Det mest afgørende punkt er imidlertid ikke chippen, men driftsformen. Sammen med salget vil 1X tilbyde Expert Mode, hvor en uddannet medarbejder hos virksomheden kan fjernstyre NEO. Sessionerne skal indsamles som træningsdata, der senere kan gøre robotten mere selvstændig. Det er en fornuftig måde at få eksempler fra rigtige hjem på — men også en indrømmelse af, at robotten ikke altid kan klare arbejdet alene.
+
+Wall Street Journals Joanna Stern skrev efter et besøg hos 1X i oktober 2025, at intet af det, hun så NEO gøre, foregik autonomt: en operatør med navnet Turing styrede robotten. 1X har sagt, at de fleste opgaver skal være autonome i 2026. Det er en tidsplan fra virksomheden, ikke et resultat fra almindelig drift.[^4]
+
+NEO bør derfor læses som en kommerciel installation i enkelte hjem med menneskelig backup. Det er mere end en laboratorieprototype og mere konkret end en scene-demo. Men det er endnu ikke det samme som bevis på stabil drift: en robot, der uge efter uge selv sorterer vasketøj, rydder køkkenet og håndterer hjemmets undtagelser uden en faglært operatør i baggrunden.
+
+[^1]: 1X Technologies, «NEO», produktside med specifikationer: [https://www.1x.tech/neo](https://www.1x.tech/neo).
+[^2]: Humanoids Daily, «1X reveals the RL core that gives its NEO humanoid fluid whole-body mobility», 11. juni 2025: [https://www.humanoidsdaily.com/news/1x-reveals-the-rl-core-that-gives-its-neo-humanoid-fluid-whole-body-mobility](https://www.humanoidsdaily.com/news/1x-reveals-the-rl-core-that-gives-its-neo-humanoid-fluid-whole-body-mobility).
+[^3]: Humanoids Daily, «1X details NEO human-in-the-loop strategy and hardware as pre-orders go live», oktober 2025: [https://www.humanoidsdaily.com/news/1x-details-neo-human-in-the-loop-strategy-and-hardware-as-pre-orders-go-live](https://www.humanoidsdaily.com/news/1x-details-neo-human-in-the-loop-strategy-and-hardware-as-pre-orders-go-live).
+[^4]: Joanna Stern, «I Tried the $20,000 Humanoid Robot», *The Wall Street Journal*, oktober 2025 (videoanmeldelse). Kilde via Humanoids Daily: [https://www.humanoidsdaily.com/news/1x-details-neo-human-in-the-loop-strategy-and-hardware-as-pre-orders-go-live](https://www.humanoidsdaily.com/news/1x-details-neo-human-in-the-loop-strategy-and-hardware-as-pre-orders-go-live).

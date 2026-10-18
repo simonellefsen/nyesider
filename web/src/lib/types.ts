@@ -63,6 +63,11 @@ export type Issue = {
 	imageCredits?: string;
 	articles: ArticleMeta[];
 	productionCostUSD?: number | null;
+	/** USD × Nationalbanken USD/DKK reference rate on fxRateDate. */
+	productionCostDKK?: number | null;
+	fxRateUSDDKK?: number | null;
+	fxRateDate?: string | null;
+	fxRateSource?: string | null;
 };
 
 /** Interactive multi-year trend chart (KRAFTEN online, etc.). */

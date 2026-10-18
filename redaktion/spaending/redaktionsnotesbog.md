@@ -289,8 +289,34 @@ Reuters svarede 401 til automatiserede kald — anden gang efter nr. 3's Xiaomi-
 holdt: behold kilden navngiven, tilføj et verificeret 200-link (her autopro.hu) til samme påstand.
 Nr. 3's anbefaling står ved magt: **føj 401 til `check_links.py`s bot-blokeringsliste.**
 
-## Nr. 7 — kandidater
+## Nr. 7 — udgivet 2026-10-18
 
-- **MCS/lastbiler** — lovet som bagsideløfte i nr. 6 (rastepladsernes elnet, operatører sikrer arealer).
+**Tema:** Roadster Event — hvad Tesla faktisk viste på SpaceX McGregor, dokumenteret vs. show, og hvad Europa kan homologere.
+**6 artikler, 2.363 ord** (leder 159, event-feature 555, trims/depositummer 486, EU-homologering 493, essay 398, Rygtebørs 272). Fem
+artikler kommissioneret på `.env.spaending`; lederen er redaktionens uden byline. Forbrug tekst **0,1390 USD** + 7 Imagine-billeder
+på `.env.local`. `check_issue.py`: **0 fejl, 0 advarsler.** `check_links.py`: **0 døde links** (1 bot-blokeret 403: Engadget —
+læst manuelt via webfetch, samme mønster som nr. 5/6). `bestilling.json`: `redaktion/spaending/numre/2026-10-nr7/bestilling.json`.
+Alt research verificeret i forsknoten før kommissionering; modellerne fik briefs med færdige tal, ikke browsing-krav.
+
+**Model-cast:** GPT-5.6 Terra ×2 (event-feature + EU-homologering — Mistral Large rate-limited 429 i flere minutter, writer
+skiftet), Claude Sonnet 5 (trims/depositummer), Mistral Large (essay — satte sig på 429 efter ventetid), Qwen3.7 Max (Rygtebørs).
+**Regel: hæng ikke to artikler på samme rate-limited provider — skift writer ved gentagne 429.**
+
+### Rettelser under redigering
+
+- **commission.py-nbsp-bugken igen:** kladde 03 indeholdt 7 literale `\u00a0`-sekvenser. Rettet ved overførsel. Fiksen fra nr. 6 blev ikke lavet i `commission.py`.
+- Fodnote-URL'er fra modellerne var generiske forside-links (reuters.com, fortune.com ...). Alle blev skiftet til konkrete URL'er fra research-notatet.
+- Sprogfejl i leder-kladden (egenskrivning): "Europa er endnu father" for "strengere" — rettet ved overførsel.
+
+### Ting der skal deles med nr. 8-arbejdsgangen
+
+- Bagsideløftet til nr. 8 er MCS/lastbiler som lovet i nr. 6 — ikke flyttet til denne udgave.
+- Rygtebørs 06-kladden er rygter-til-fakta-egenstrammet i brief: kun verificerede tal, alt mærket ambition/rygte — ingen
+  brief-drift denne gang (Qwen fulgte brief).
+
+### Kandidater til nr. 8 og frem
+
+- **MCS/lastbiler** — bagsideløfte fra nr. 6, indfries i nr. 8 (rastepladsernes elnet, operatører sikrer arealer).
 - **(2026-09) Londons robotaxi-forsøg — opfølgning** — konkrete køretal/interventionsrater, når data foreligger.
 - **(2026-09) BYD Szeged** — om Q4-produktionen reelt startede (tjek nov/dec 2026).
+- Roadsters EU-typegodkendelsesproces, hvis Performance-variant ansøger (opfølgning).

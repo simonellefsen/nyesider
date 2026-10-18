@@ -1,6 +1,6 @@
 # GNISTEN – Redaktionsnotesbog
 
-Redaktionel backlog og noter — opdateret efter nr. 6 (oktober 2026, "Indbakken uden at trykke send"). Modelerfaringer ligger i det fælles [modelkartotek](../modelkartotek.md).
+Redaktionel backlog og noter — opdateret efter nr. 7 (oktober 2026, "Tre always-on-agenter"). Modelerfaringer ligger i det fælles [modelkartotek](../modelkartotek.md).
 
 ## Identitet
 
@@ -185,18 +185,48 @@ Nr. 5's Værkstedet på Gemini 3.1 Pro kostede 0,1697 USD alene. Samme format p�
 i nr. 6 kostede 0,0306 USD. Tallet siger ikke, at den dyre model var dårlig; det siger, at
 casting skal stå i briefen, før kaldet går af sted.
 
+## Nr. 7 — udgivet 2026-10-18
+
+**Tema:** Tre always-on-agenter med egen cloud-computer — Grok Bot, Muse og dots —
+set fra en ikke-programmør. Landskabet oktober 2026, ikke genoptryk af nr. 4.
+Indfrier «hvordan du siger nej» fra nr. 6; «filer» udsat til nr. 8.
+**7 artikler, 3.103 ord.** Fem artikler reelt kommissioneret på `.env.gnisten`;
+leder og Regningen er redaktionens uden byline. Forbrug **0,1835 USD**.
+Værkstedet på Claude Sonnet 5, bevidst ikke Gemini 3.1 Pro.
+`check_issue.py`: **0 fejl, 0 advarsler.** `check_links.py`: Meta Help-sider
+returnerer 400 til robotter (inkl. prissiden Power 20 USD / Max 100 USD); de er
+udskiftet med newsroom, introducing.muse.ai og research.meta.ai, som svarer 200.
+Muse-priser står derfor uden dollarbeløb. OpenAI Help 403 som i nr. 6.
+`bestilling.json`: `redaktion/gnisten/numre/2026-10-nr7/bestilling.json`.
+
+### Meta Help 400 er ikke det samme som OpenAI 403
+
+`check_links.py` behandler 403/406/429 som unverifiable, men 400 som død.
+Metas Help Center svarede 400 med fuld HTML (Power 20 USD / Max 100 USD læst
+via søgeindeks), så prissiden kunne ikke bære en fodnote uden at fælde tjekket.
+Newsroom siger kun «free for most… subscription plans». Læring: dollarbeløb kun
+når den citerede URL overlever `check_links`; ellers skriv det, newsroom faktisk
+siger.
+
 ## Løfter givet i nr. 6
 
-- **Bagsiden:** hvad der sker, når AI får lov at se dine filer — og hvordan du siger nej.
+- ~~**Bagsiden:** hvad der sker, når AI får lov at se dine filer — og hvordan du siger nej.~~
+  «Sige nej» **brugt i nr. 7** (2026-10-18). «Filer» udsat til nr. 8.
 
-## Historier i støbeskeen til nr. 7+
+## Løfter givet i nr. 7
+
+- **Bagsiden:** hvad der sker, når AI får lov at se dine filer — mapper, vedhæftninger
+  og cloud-computerens filsystem — og hvordan du holder mappen lukket.
+
+## Historier i støbeskeen til nr. 8+
 
 - ~~Sikkerhed for MCP~~ → **brugt i nr. 4** (2026-08-29).
 - ~~Agent niveau 2~~ → **brugt i nr. 4** (2026-08-29).
 - ~~Cloud-planer og prismodeller~~ → **brugt i nr. 5** (2026-09-05).
 - ~~Gratis at komme i gang: GitHub, Vercel, Supabase~~ → **brugt i nr. 5** (2026-09-05).
 - ~~Indbakke-oprydning uden send/slet/løfte~~ → **brugt i nr. 6** (2026-10-03).
-- **Filer og hvordan man siger nej** — nr. 7's bagsideløfte.
+- ~~Hvordan man siger nej~~ → **brugt i nr. 7** (2026-10-18).
+- **Filer — mapper, vedhæftninger, cloud-computerens filsystem** — nr. 8's bagsideløfte.
 - **(2026-08) Læserindsendte prompts** — saml, hvis der kommer svar.
 
 ## Praktisk
@@ -205,6 +235,10 @@ casting skal stå i briefen, før kaldet går af sted.
 - OpenRouter: **kun** `.env.gnisten`. Imagine: `.env.local`.
 
 ## Log
+
+- **2026-10-18:** Nr. 7 udgivet — 'Tre always-on-agenter', indfrier nr. 6's «sige nej»;
+  filer udsat til nr. 8. Fem reelle kald, 0,1835 USD. Værkstedet på Sonnet 5.
+  Meta Help 400 tvang Muse-priser ned på newsrooms formulering uden dollar.
 
 - **2026-10-03:** Nr. 6 udgivet — 'Indbakken uden at trykke send', indfrier nr. 5's
   bagsideløfte. Fem reelle kald, 0,1117 USD. Værkstedet på Sonnet 5 i stedet for Gemini 3.1 Pro.

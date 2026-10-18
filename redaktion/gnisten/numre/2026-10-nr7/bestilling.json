@@ -1,0 +1,250 @@
+{
+  "magazine": "gnisten",
+  "issue": "2026-10-nr7",
+  "issueTheme": "Grok Bot, Muse og dots — tre always-on-agenter med egen cloud-computer, set fra en ikke-programmør. Hvor starter jeg, hvad må den, hvad koster det, hvordan siger jeg nej.",
+  "budget": {
+    "articles": 7,
+    "wordsPerArticle": [
+      400,
+      750
+    ],
+    "targetPages": 10,
+    "note": "Landskabet oktober 2026, ikke genoptryk af nr. 4's Grok Bot-artikel. Syv artikler som nr. 6. Fem reelt kommissioneret. Værkstedet på Sonnet 5, ikke Gemini 3.1 Pro. Bagsideløftet «hvordan man siger nej» flettes ind her; dedikeret «filer» udsættes til nr. 8."
+  },
+  "opgaver": [
+    {
+      "slug": "leder",
+      "order": 1,
+      "section": "Leder",
+      "brief": {
+        "angle": "Kort leder der indfrier nr. 6's bagsideløfte delvist: tre always-on-agenter (Grok Bot, Muse, dots) har fået hver sin cloud-computer. Pointen er ikke at kåre en vinder, men at læseren uden kode kan stille tre spørgsmål: hvor starter jeg, hvad må den, hvordan siger jeg nej. Filer som eget emne udsættes til nr. 8.",
+        "words": [
+          150,
+          250
+        ],
+        "mustCite": 0,
+        "format": "leder"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": 164,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-10-18",
+        "citations": 0,
+        "editorNote": "Redaktionens egen leder, ingen byline, ingen API-kald. Indfrier nr. 6's «sig nej»; filer udsat til nr. 8."
+      }
+    },
+    {
+      "slug": "kortet",
+      "order": 2,
+      "section": "Kortet",
+      "brief": {
+        "angle": "To korte nyhedsnotitser til begyndere, uden forudsætninger. Ikke et genoptryk af GNISTEN nr. 4's Grok Bot-artikel (beta 11. august 2026). Dette er landskabet nu (oktober 2026): tre produkter side om side. (1) Tre always-on-agenter med egen cloud-computer er landet på tre uger: Grok Bot 11. august 2026 (xAI/SpaceXSI), Muse 8. september 2026 (Meta), dots 29. september 2026 (OpenAI, officielt navn «dots» med lille d). Fælles: agenten kører videre, når du lukker computeren. Brug PRÆCIS disse kilder: https://x.ai/news/introducing-grok-bot (11. august 2026) — «Bots have their own computer. They sign into the tools you already use… They finish jobs end to end, and only come back when something needs your approval.» https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/ (8. september 2026) — Muse kører på Muse Secure VM, «a dedicated, virtual machine»; «in the Muse app or directly in WhatsApp»; «Muse is rolling out in the US on iOS, Android, and muse.ai». https://openai.com/index/introducing-dots/ (29. september 2026) — «Powered by GPT‑6 Astra, they have their own cloud computer»; ChatGPT, Slack eller Teams; «over 4,000 apps» via plugins. (2) Hvor kan en dansk læser overhovedet åbne dem? Ærligt: Muse er ifølge Meta i US og Canada (small-business-post 29. sep: «a personal AI agent available in the US and Canada») og Help Center skriver «The Muse app and website are not yet available everywhere» og «limited testing». Ingen EU/Danmark-dato på Metas egne sider. dots: OpenAIs Help Center (Getting started with your dot) — Pro-brugere «in markets excluding the European Economic Area, Switzerland, and the UK»; Business Premium «across all supported ChatGPT regions». Grok Bot: The X Subscription 12. oktober 2026 (https://x.ai/news/x-subscription) samler Grok, Grok Bot, Cursor og X Premium; produktsiden https://x.ai/bot prissætter Premium 30 USD/md, Super 100, Ultra 200, og FAQ: «Grok Bot is included with Premium, Super, Ultra, Teams, and Enterprise.» Pointen: tre navne, tre døre — og to af dem er lukket eller delvist lukket for en dansk privatbruger. Nævn IKKE Opus 5.5 / model-routing: ingen primær kilde hos xAI bærer det. Forklar always-on og cloud-computer i parentes første gang.",
+        "words": [
+          400,
+          600
+        ],
+        "mustCite": 3,
+        "mustNumber": [
+          "tre lanceringer: 11. aug, 8. sep, 29. sep 2026",
+          "Grok Bot Premium 30 USD/md på x.ai/bot"
+        ],
+        "format": "kortet"
+      },
+      "writer": {
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 486,
+        "costUSD": 0.026816,
+        "draft": "kladder/02-kortet.md",
+        "costRouting": "byok",
+        "generationId": "gen-1792302058-KQOqSCDUa12nMMDSFvju"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-10-18",
+        "citations": 7,
+        "editorNote": "Faktatjekket mod xAI Introducing Grok Bot 11. aug, Muse 8. sep, dots 29. sep, Muse small business (US+Canada), OpenAI Help (Pro uden for EØS/CH/UK), X Subscription 12. okt, x.ai/bot (Premium 30 USD). Muse Help 400 til robotter — udskiftet med newsroom. Splittede kladdens samlede OpenAI-fodnote; fjernet 'tre uger' som samlet span."
+      }
+    },
+    {
+      "slug": "fokus-agenter",
+      "order": 3,
+      "section": "Fokus",
+      "brief": {
+        "angle": "Fokus-feature: tre always-on-agenter side om side for en læser uden kode. Ikke kåre en vinder. Fire spørgsmål gennem artiklen: hvor starter jeg, hvad må den, hvad koster det, hvordan siger jeg nej. Brug PRÆCIS disse verificerede kilder og påstande, ingen andre produktpåstande. GROK BOT: https://x.ai/news/introducing-grok-bot (11. aug 2026) + https://docs.x.ai/grok-bot/overview + https://x.ai/bot. Hver Bot har persistent cloud-computer med browser, filsystem og terminal; flere navngivne Bots deler ÉN computer (filer, browser, logins) per konto. Arbejde fortsætter når laptop er lukket. Man skriver til den som en kollega. Flere Bots kan køre parallelt. Pris 18. okt 2026 på x.ai/bot: Premium 30 USD/md, Super 100, Ultra 200; inkluderet med Premium/Super/Ultra/Teams/Enterprise. X Subscription 12. okt: https://x.ai/news/x-subscription — Free 0 og Plus 8 USD/md er andre trin; Grok Bot nævnes som del af pakken, og produktsiden siger inkluderet fra Premium. «Stop now» i chatten stopper arbejde, men fortryder ikke det allerede udførte (docs.x.ai/grok-bot/chat-and-collaboration). Mail/Slack-udkast: du trykker Send eller Discard. Auto Review: Allow once / Always allow / Deny (docs.x.ai/grok-bot/security). MUSE: https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/ (8. sep 2026). Muse Secure VM. Muse-app eller WhatsApp. US ved lancering; 29. sep US og Canada (https://about.fb.com/news/2026/09/introducing-muse-small-business/). Help: ikke tilgængelig overalt, limited testing — ærligt: ingen dansk/EEA-dato hos Meta. Gratis med forbrugsloft; Power 20 USD/md (500 mio. Muse-tokens/uge), Max 100 USD/md (3 mia./uge) — https://www.meta.com/help/subscriptions/1021145227643680/ . Meta: tjekker før send af mail eller køb; brugeren vælger apps og om mail er læs eller send; kan ændre adgang eller afbryde. Small business: «nothing publishes, sends, or spends without your approval.» Hjælp: Allow once / Deny / Always allow; Reset sletter alt (https://www.meta.com/help/artificial-intelligence/1385290430137537/). 18+. DOTS: officielt navn «dots». https://openai.com/index/introducing-dots/ (29. sep 2026) + https://help.openai.com/en/articles/20001530-getting-started-with-your-dot . GPT-6 Astra, egen cloud-computer, over 4.000 apps via plugins, ChatGPT/Slack/Teams. Første dot inkluderet i Pro eller Business Premium. Pro: ekskl. EEA, Schweiz og UK. Business Premium: alle understøttede ChatGPT-regioner. Pause i profilen; Reset sletter samtaler, hukommelse og planlagte opgaver. Lokal computer valgfri og slået FRA; Allow access / Revoke access. Custom rules: Ask before taking action / Hand off to you. Proaktiv research er read-only (kan ikke sende, ændre indhold eller styre browser). ChatGPT Pro-trin 100/200/500 USD ifølge https://help.openai.com/en/articles/9793128-about-chatgpt-pro-tiers — skriv at første dot følger med Pro/Business Premium, og at Pro-prisen er 100, 200 eller 500 USD/md afhængigt af trin; opdigt ikke hvilket trin der er «minimum for dots» ud over «Pro». Nævn IKKE Opus 5.5. Krydslink til nr. 4's Grok Bot-artikel kun som «i august skrev vi om betaen» med relativ sti /gnisten/2026-08-nr4/grokbot. Forklar always-on, cloud-computer, VM, tokens og EEA første gang.",
+        "words": [
+          550,
+          750
+        ],
+        "mustCite": 4,
+        "mustNumber": [
+          "Grok Bot Premium 30 USD/md; Super 100; Ultra 200 (x.ai/bot, okt 2026)",
+          "Muse Power 20 USD/md og Max 100 USD/md; gratis med loft",
+          "dots: første inkluderet i Pro/Business Premium; Pro 100/200/500 USD/md",
+          "tre datoer: 11. aug, 8. sep, 29. sep 2026"
+        ],
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "GPT-5.6 Terra (OpenAI)",
+        "model": "openai/gpt-5.6",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 725,
+        "costUSD": 0.046692,
+        "draft": "kladder/03-fokus-agenter.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1792302095-BCYmz7EClxv15TjiuZS4"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-10-18",
+        "citations": 12,
+        "editorNote": "Faktatjekket mod leverandørsider. Meta Help 400 — Muse-priser uden dollar, kun newsroom «gratis + betalte planer». Sentinel/HITL fra introducing.muse.ai og research.meta.ai. Stop now fra chat-and-collaboration. Ingen Opus 5.5."
+      }
+    },
+    {
+      "slug": "vaerkstedet-nej",
+      "order": 4,
+      "section": "Værkstedet",
+      "brief": {
+        "angle": "Praktisk trin-for-trin til en læser uden programmeringsbaggrund, der vil prøve en always-on-agent UDEN at give den nøglerne til send, slet, køb eller filer. Dette nummer fletter nr. 6's bagsideløfte «hvordan du siger nej» ind her; selve «hvad sker der, når AI ser dine filer» udsættes til nr. 8. Tre bremser, skrevet som handlinger: (A) send aldrig automatisk, (B) køb/betal aldrig automatisk, (C) giv aldrig adgang til din egen computers filer, før du har set stop-knappen. To spor, i den rækkefølge: SPOR 1 — du har endnu ikke et af de tre produkter (typisk dansk privatbruger): Muse er ikke ude i EEA ifølge Metas egne sider; dots på Pro er uden for EEA/CH/UK. Så: kopiér IKKE nøgler ind i en chat. Øv «nej»-sætningen i en almindelig chatbot: «Foreslå aldrig at sende, købe eller slette. Skriv [TJEK] dér, hvor der ellers ville stå et løfte. Spørg, før du anbefaler at forbinde en app.» Det er det sikre begynderspor. SPOR 2 — du HAR adgang (Grok Bot på X Subscription Premium, eller dots via Business Premium i en understøttet region, eller Muse i US/Canada): første opgave SKAL være en opgave der IKKE kræver login i mail, betaling eller lokal disk. Grok Bots eget første-eksempel i https://docs.x.ai/grok-bot/get-started : vedhæft et dokument og bed om fem bullets; «Do not change the source file.» Derefter: sæt bremser FØR næste opgave. Grok Bot: skriv «Stop now» (fortryder ikke det allerede gjort); Auto Review Ask first før ekstern mail (https://docs.x.ai/grok-bot/approvals-security-and-privacy og chat-and-collaboration). Mail/Slack-udkast: Send eller Discard — du trykker. dots: Pause i profilens •••-menu; Custom rules «Ask before taking action» og «Hand off to you»; lokal computer starter slået fra; Revoke access (https://help.openai.com/en/articles/20001530-getting-started-with-your-dot). Muse: Settings → Permissions; Always ask; Disconnect Connectors; Reset sletter alt og kan ikke fortrydes (https://www.meta.com/help/artificial-intelligence/1385290430137537/). Advarsel: Grok Bots Bots deler én computer — logins og filer på den maskine er tilgængelige for alle dine Bots (https://docs.x.ai/grok-bot/overview). dots' proaktive research er read-only ifølge OpenAI, men det gælder kun den baggrunds-research, ikke opgaver du selv giver. Ingen trin med kode, MCP eller API-nøgler. Ingen «installer dette i terminalen».",
+        "words": [
+          550,
+          750
+        ],
+        "mustCite": 3,
+        "mustNumber": [
+          "tre bremser: send, køb, lokale filer",
+          "Grok Bot Stop now; dots Pause; Muse Always ask / Disconnect"
+        ],
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 685,
+        "costUSD": 0.062686,
+        "draft": "kladder/04-vaerkstedet-nej.md",
+        "costRouting": "byok",
+        "generationId": "gen-1792302127-4rwibspkVOyDuDeiOQyb"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-10-18",
+        "citations": 7,
+        "editorNote": "Konverteret ¹-fodnoter til [^n]. Rettede nr. 6-løftet og 'X Subscriptions'. Tre bremser: send, køb, lokale filer. Muse Always ask/Reset (Help 400) erstattet med introducing.muse.ai + newsroom. Sonnet 5, ikke Gemini 3.1 Pro."
+      }
+    },
+    {
+      "slug": "maanedens-prompt",
+      "order": 5,
+      "section": "Månedens prompt",
+      "brief": {
+        "angle": "Månedens prompt: en kopiér-og-brug instruks, man kan give EN always-on-agent (eller øve i en almindelig chat, hvis man ikke har adgang endnu). Vis selve promptteksten i en tydelig boks. Prompten SKAL indeholde bremserne: (1) send aldrig mail, besked eller opslag uden at jeg har trykket send, (2) køb, betal eller book aldrig, (3) slet aldrig filer eller mails, (4) åbn ikke min lokale computers filer, (5) hvor der ellers ville stå et løfte om dato, pris eller levering: skriv [TJEK]. Bed om at agenten først svarer med: hvad den har tænkt sig at gøre, hvilke apps den ville forbinde, og hvad den VENTER på mit ja til. Forklar hvorfor: uden bremserne vil en always-on-agent med egen computer gerne logge ind, sende og køre videre, når du sover. mustCite 0 — ingen tal, ingen produktpåstande, ingen priser. Officielt navn «dots» hvis nævnt. Ingen opdigtede procenttal.",
+        "words": [
+          400,
+          600
+        ],
+        "mustCite": 0,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 567,
+        "costUSD": 0.019432,
+        "draft": "kladder/05-maanedens-prompt.md",
+        "costRouting": "byok",
+        "generationId": "gen-1792302200-KsPaeEUkyIlD1OdpwO3M"
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-10-18",
+        "citations": 0,
+        "editorNote": "Ingen kilder påkrævet. Boks med send/køb/slet/lokale filer og [TJEK]."
+      }
+    },
+    {
+      "slug": "regningen",
+      "order": 6,
+      "section": "Regningen",
+      "brief": {
+        "angle": "Regningen skrives af redaktionen efter kommissionering. Vis det reelle productionCostUSD, hvad den dyreste artikel kostede, og hold det op mod nr. 6 (0,1117 USD) og nr. 5 (0,2378 USD, Værkstedet 0,1697 USD på Gemini 3.1 Pro). Ingen opdigtet produktionshistorie. Nævn at Værkstedet igen er på Sonnet 5.",
+        "words": [
+          200,
+          400
+        ],
+        "mustCite": 0,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": 209,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-10-18",
+        "citations": 0,
+        "editorNote": "Redaktionens egen, ingen byline. Fem kald, 0,1835 USD. Værkstedet 0,0627 på Sonnet 5 vs nr. 5's 0,1697 på Gemini 3.1 Pro."
+      }
+    },
+    {
+      "slug": "sladder",
+      "order": 7,
+      "section": "Sladder",
+      "brief": {
+        "angle": "Sladder-bagsnit i GNISTENs løse, anekdotiske stil: rygter og småhistorier fra AI-værktøjs-verdenen denne måned, ingen kildekrav, INGEN opdigtede procenttal. Hold det i ånden af nummerets tema (always-on-agenter der gerne vil have nøglerne og arbejde videre, mens du sover). Du MÅ parafrasere stemningen omkring tre produkter der alle lover at «gøre arbejdet», og at stop-knappen er blevet den interessante funktion. Opdigt ikke konkrete personnavne, firmaskandaler, beløb eller datoer. Slut med ét konkret, realistisk bagsideløfte til nr. 8, der IKKE allerede er brugt: næste nummer kigger på, hvad der sker, når AI får lov at se dine filer — mapper, vedhæftninger, cloud-computerens filsystem — og hvordan du holder mappen lukket. Det er den del af nr. 6's løfte, dette nummer bevidst udsatte.",
+        "words": [
+          400,
+          600
+        ],
+        "mustCite": 0,
+        "format": "rygteboersen"
+      },
+      "writer": {
+        "byline": "GPT-5.6 Terra (OpenAI)",
+        "model": "openai/gpt-5.6",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 450,
+        "costUSD": 0.027862,
+        "draft": "kladder/07-sladder.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1792302231-csBin74Tt3uVjIqw6vwd"
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-10-18",
+        "citations": 0,
+        "editorNote": "flow:true. Ingen opdigtede procenttal. Bagsideløfte nr. 8: filer og hvordan man holder mappen lukket."
+      }
+    }
+  ]
+}

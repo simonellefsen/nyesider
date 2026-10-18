@@ -1,0 +1,23 @@
+# Påstandskontoret: “Jeg har set det på video, så kan robotten det.”
+
+Teslas humanoid-projekt, Optimus, har i 2024 leveret nogle af de mest sete robotvideoer. De viser tilsyneladende dygtige robotter, der udfører komplekse husstandsopgaver. Men videoen er sjældent hele historien.
+
+Den 15. januar 2024 lagde Tesla-chef Elon Musk en video på X, hvor en Optimus-robot folder en t-shirt.[^1] Den gik straks viralt. Men skarpe observatører bemærkede detaljer i billedranden: en menneskehånd i en teleoperations-handske, der glider ind i billedet og spejler robottens bevægelser. Ca. en halv time senere skrev Musk selv under videoen: «Optimus cannot yet do this autonomously» — Optimus kan endnu ikke gøre det autonomt.[^2] Videoen viste en teknisk demonstration med mennesket i sløjfen, ikke en autonomt fungerende enhed.
+
+I oktober 2024 skruede Tesla op for showet med et «We, Robot»-arrangement i Burbank ved Los Angeles. Optimus-robotter bevægede sig mellem gæsterne, blandede drinks og svarede hurtigt tilbage. Men illusionen holdt ikke ved nærmere eftersyn. Adskillige medier, herunder Bloomberg, The Verge og TechCrunch, konkluderede bagefter, at robotterne var fjernstyret af mennesker i bevægelsesregistrerende dragter, selvom robotterne ifølge kilder med kendskab til forholdene kunne gå på egen hånd med AI — det menneskelige var især samtalen og håndbevægelserne.[^3] Morgan Stanley-analytiker Adam Jonas noterede i sin investorrapport, at robotterne «relied on tele-ops (human intervention)».[^4] Endnu mere sigende var et klip, hvor en gæst fangede en Optimus-robot, der selv sagde: «Today, I'm assisted by a human. I'm not yet fully autonomous.»[^5]
+
+Hvornår er en robotvideo mere reklame end realitet? Robotikjournalist Evan Ackerman, redaktør på IEEE Spectrum, gav allerede i januar 2024 — umiddelbart efter t-shirt-videoen — en tjekliste for at afgøre, om en overbevisende robotvideo rummer et menneske i sløjfen.[^6] Spørgsmålene inkluderer:
+*   **Er opgaven simpelthen for god?** Hvis en robot viser menneskeniveau på en kompleks, ustruktureret opgave, uden forudgående arbejde, så spørg videre.
+*   **For hurtig og flydende?** Avanceret manipulation kræver, at robotten sanser, beslutter og planlægger — det tager tid. En robot, der aldrig stopper, er typisk styret udefra.
+*   **Bevæger den sig som et menneske?** Robotter bevæger sig normalt optimalt; små, formålslose, menneskelignende mellembevægelser (fingerspil, en arm der vender tilbage til hvileposition) er et klassisk tegn på teleoperation.
+
+En overbevisende video er et vigtigt skridt i robotudviklingen – den viser, at maskinens fysiske «krop» kan udføre bevægelserne. Men den beviser ikke autonomi. Autonomi kræver, at robotten selv kan sanse, tolke, beslutte og handle i en ukendt, foranderlig verden uden menneskelig tråddragning. Det er den væsentlige, og langt sværere, teknologiske milepæl.
+
+Næste gang du ser en robot lave kaffe på video, så spørg: Hvem styrer egentlig?
+
+[^1]: Elon Musk på X, videoen «Optimus folds a shirt», 15. januar 2024; gengivet i Matt Novak, Forbes, 15. januar 2024: [https://www.forbes.com/sites/mattnovak/2024/01/15/elon-musks-latest-robot-video-accidentally-gives-away-the-magic-trick/](https://www.forbes.com/sites/mattnovak/2024/01/15/elon-musks-latest-robot-video-accidentally-gives-away-the-magic-trick/).
+[^2]: Musks efterfølgende post på X samme dag: «Important note: Optimus cannot yet do this autonomously…»; gengivet i Loz Blain, New Atlas, 16. januar 2024: [https://newatlas.com/robotics/tesla-optimus-folds-shirt/](https://newatlas.com/robotics/tesla-optimus-folds-shirt/).
+[^3]: Rebecca Bellan, «Tesla Optimus bots were controlled by humans during the ‘We, Robot’ event», TechCrunch, 14. oktober 2024: [https://techcrunch.com/2024/10/14/tesla-optimus-bots-were-controlled-by-humans-during-the-we-robot-event/](https://techcrunch.com/2024/10/14/tesla-optimus-bots-were-controlled-by-humans-during-the-we-robot-event/).
+[^4]: Morgan Stanley-noten af analytiker Adam Jonas, gengivet i Kyle Orland, «Reports: Tesla's prototype Optimus robots were controlled by humans», Ars Technica, 15. oktober 2024: [https://arstechnica.com/ai/2024/10/reports-teslas-prototype-optimus-robots-were-controlled-by-humans/](https://arstechnica.com/ai/2024/10/reports-teslas-prototype-optimus-robots-were-controlled-by-humans/).
+[^5]: Klip fra arrangementet, hvor Optimus selv siger «Today, I'm assisted by a human. I'm not yet fully autonomous.» — gengivet i Ars Technica, 15. oktober 2024 (samme link som fodnote 4).
+[^6]: Evan Ackerman, «That Awesome Robot Demo Could Have a Human in the Loop», IEEE Spectrum, 23. januar 2024: [https://spectrum.ieee.org/robot-teleoperation-autonomy](https://spectrum.ieee.org/robot-teleoperation-autonomy).

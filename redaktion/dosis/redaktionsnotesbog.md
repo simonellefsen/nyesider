@@ -268,7 +268,43 @@ alle tre DOI'er verificeret via CSL-JSON). Cover + 6 artikelbilleder (Imagine, v
 - **Tallet-kladden brugte granatæble/acai** i stedet for nummerets tre cases — genskrevet af
   redaktionen (verdict `rewritten-by-editor`).
 
+## Nr. 7 — udgivet 2026-10-18 (status: published)
+
+**Tema:** Hvad holder i 10 år? — implantater og proteser (hofteprotesen, cochleaimplantatet,
+cybernetikken). Indfrier nr. 6's bagsideløfte. **6 artikler, ~2.975 ord.** Fem artikler
+kommissioneret på `.env.dosis`; lederen er redaktionens uden byline. Forbrug **0,195 USD**.
+`check_issue.py`: **0 fejl, 2 advarsler** (Tallet-hedge-density er bevidst — tabellen markerer
+selv sine huller «ikke opgjort»; Rygtebørsen 197 ord mod briefet 300–500, accepteret som
+brandes kompakte bagsnit). `check_links.py`: **0 døde links (11 tjekket).**
+`bestilling.json`: `redaktion/dosis/numre/2026-10-nr7/bestilling.json`.
+
+### DOI-fangst nr. 4 (samme reproducerbare fejltype)
+
+- **Hofte-kladdens register-DOI `10.2147/CLEP.S99457` opløste via CSL-JSON til *Danish Breast
+  Cancer Cooperative Group*** — for fjerde gang i DOSIS opløser en plausibel DOI til det forkerte
+  arbejde. Rigtigt DOI: `10.2147/CLEP.S99498` (Gundtoft m.fl., «The Danish Hip Arthroplasty
+  Register», *Clinical Epidemiology* 2016;8:509–514, verificeret via CSL-JSON). Feldt modellen
+  også forfatterskabet (A.B. Pedersen stavet som førsteforfatter — det er Gundtoft).
+
+### Andre fangster
+
+- **«Præcis 0 % hjernebetændelse» (Gemini-kladden):** falsk præcisions-retorik om fravær af
+  risiko — fjernet, erstattet af «ingen hjernekirurgi ved håndleddet».
+- **NINDS-fodnote mismatch:** titel «Deep Brain Stimulation for Movement Disorders» linket til
+  parkinsons-disease-siden. Rettet til `deep-brain-stimulation`-siden (403-botblokeret, ikke død).
+- **Tallet:** 4 fodnoter (DHR/RKKP, MDR (EU) 2017/745, Cochlear device reliability reports,
+  Lægemiddelstyrelsen). Talangivelsen «90 %–95 %» er bevidst placeret som størrelsesorden med
+  henvisning til registrets egne årsrapporter, ikke som citat pr. tal.
+
+### Rygtebørsens løfte
+
+- **Bagsiden:** DOSIS nr. 8 om sundheds-wearables' data: hvad må de samle om os, og hvad kan
+  vi reelt få ud af det (ventelig: dataretning, API, tilbagekaldsbøld).
+- **Søster:** PULSEN nr. 7 lå på disk (leder «Delstatus — og en dato») — 1 krydslink lavet fra
+  hofteprotese-artiklen til `/pulsen/2026-10-nr7/leder`.
+
 ## Løfter givet i nr. 6
+
 
 - **Bagsiden:** DOSIS nr. 7 om implantater og proteser — "Hvad holder i 10 år?"
   (hofteproteser, cochleaimplantater, cybernetik).

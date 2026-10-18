@@ -1,0 +1,227 @@
+{
+  "budget": {
+    "articles": 6,
+    "note": "Kompakt som nr. 6. To spor paa ejerens anvisning: (1) Starlink vs. Starshield - Ukraine-begraensningen 14. okt. 2026 (Reuters), Musks afstandtagen, kunder/formaal/terminaler/kryptering + britisk MoD-spor (Reuters juni 2026); (2) Starship Flight 14 - Starship i kredslb for første gang 28. sep. 2026 (B21/S41, ca. 275 km, 26 Starlink V3, mission afkortet til ca. 3 t). Aarets opsendelsestal taælles redaktionelt af GCAT's launchlog.tsv (opdateret 17. okt. 2026), unikke orbitale opsendelser. IRIS2-bagsideloefte fra nr. 6 udskudt til nr. 8, notert i notesbogen; nr. 7's rygteboers loever noget andet.",
+    "targetPages": 12,
+    "wordsPerArticle": [
+      300,
+      700
+    ]
+  },
+  "issue": "2026-10-nr7",
+  "issueTheme": "Kunden og raketten: Starshield-skelnen og Starships forste kredsler",
+  "magazine": "orbit",
+  "opgaver": [
+    {
+      "slug": "leder",
+      "order": 1,
+      "section": "Leder",
+      "brief": {
+        "angle": "Kort leder, der binder nummerets to spor: samme uge i oktober 2026 blev det tydeligt, at SpaceX' to produkter styres af to forskellige herskabelser. Starlink er kommerciel og maal maatte ikke bruges offensivt; Starshield (militaerversionen) ejes og kontrolleres af den amerikanske stat, og da begrensningen for Ukraine kom, pegede Musk paa Det hvide hus (Reuters, CNBC, Guardian). Samtidig naaede Starship kredslb for foerste gang 28. september - forste gang, verdens stoerste raket leverede en reel nyttelast (26 Starlink V3) i kredslb. Ledderen: 'military-grade' er ikke produktkvalitet, men hvem der ejer kontakten - og Starships foerste kredsler viser, at SpaceX nu oaastaaendes spaender fra civilt internet til Pentagon-bestyrt infrastruktur.",
+        "words": [
+          150,
+          250
+        ],
+        "mustCite": 0,
+        "mustNumber": [],
+        "format": "leder"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": null,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": null,
+        "checkedAt": null,
+        "citations": null,
+        "editorNote": null
+      }
+    },
+    {
+      "slug": "tallet",
+      "order": 2,
+      "section": "Tallet",
+      "brief": {
+        "angle": "Tallet: en kildebelagt mini-tabel over nummerets noegletal. PRAECISE tal: Starship Flight 14 (28. sep. 2026) naaede en bane paa ca. 275 km og udsatte 26 Starlink V3-satellitter; missionen var planlagt til ca. 10 timer og 6 kredslb, men blev afkortet til ca. 3 t 8 min (kilder: https://www.spacex.com/launches/starship-flight-14 og https://spaceflightnow.com/2026/09/28/starship-returns-to-earth-rocket-splashes-down-north-of-hawaii-after-three-hour-flight/ ). Ukraine: fra natten til 14. okt. 2026 stoppede Starlink/Starshield-terminaler med at virke paa objekter i fart over ca. 72-161 km/h (45-100 mph, afhaengigt af fartoejet) (kilde: https://www.reuters.com/world/europe/spacex-limits-starlink-operations-ukraine-disrupting-military-missions-2026-10-14/ ). Redaktionens optaelling af unikke orbitale opsendelser i Jonathan McDowells GCAT (launchlog.tsv, opdateret 17. okt. 2026): 255 i 2024, 324 i 2025, 243 til og med 18. okt. 2026 - mod 217 paa samme dato i 2025 (kilde: https://planet4589.org/space/gcat/tsv/derived/launchlog.tsv ). Opdigt INGEN andre tal.",
+        "words": [
+          300,
+          450
+        ],
+        "mustCite": 4,
+        "mustNumber": [
+          "275 km bane (Flight 14)",
+          "26 Starlink V3",
+          "72-161 km/h (45-100 mph)",
+          "255/324/243 orbitale opsendelser (GCAT)"
+        ],
+        "format": "tallet"
+      },
+      "writer": {
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 373,
+        "costUSD": 0.01803,
+        "draft": "kladder/02-tallet.md"
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-10-18",
+        "citations": 4,
+        "editorNote": "Alle mustNumber-tal til stede og korrekte; 4 klikbare kilder. Accepteret som redaktionel udgangspunkt."
+      }
+    },
+    {
+      "slug": "starshield-skelnen",
+      "order": 3,
+      "section": "Konstellationer",
+      "brief": {
+        "angle": "Feature om forskellen mellem Starlink og Starshield, ud fra Ukraine-begivenhederne i oktober 2026. Verificeret: natten til 14. oktober 2026 begyndte Starlink/Starshield-terminaler i Ukraine at stoppe med at virke paa objekter i fart over ca. 72-161 km/h (45-100 mph, afhaengigt af fartoejet), hvilket hamrede droneoperationer og interceptordroner (kilder: https://www.reuters.com/world/europe/spacex-limits-starlink-operations-ukraine-disrupting-military-missions-2026-10-14/ og https://www.reuters.com/business/media-telecom/what-is-starshield-spacexs-military-version-starlink-2026-10-14/ ). Musks udsagn den 14. okt.: 'Starshield ejes og kontrolleres af den amerikanske regering; enhver begrensning af hastighed eller brug besluttes af det amerikanske militaer og i sidste ende prsidenten' (kilder: https://www.theguardian.com/world/2026/oct/15/starshield-starlink-ukraine-restriction-explained og https://www.cnbc.com/2026/10/15/elon-musk-starlink-ukraine-trump-energy-ceasefire.html ). Pentagon er Starshields strste kunde; siden 2024 har Pentagon kbt dedikerede Starshield-satellitter: kommunikationsfartjer til missilvarsling og en spionagekonstellation til rekognosceringsbureauet NRO (Reuters 2024, citeret i https://www.straitstimes.com/world/europe/order-to-limit-starshield-for-ukraine-came-from-inside-white-house-sources-say ). Skelnen: Starlink er kommerciel bredbaandsinternet; SpaceX siger at Starlink kan bruges til forsvar og civile forml, men ikke offensive militaere handlinger; Starshield er den militaere version med stkere kryptering, sikkerhedslag og sensor-tilkobling (f.eks. paa droner) - Starshield bruger Starlink-konstellationen som rygrad (backbone). Konstellationsstrrelse: kun kvalitativ omtale - satellittalene er usikre, constellationsgrunde vokser lbende; opdigt ingen tal. Britisk spor: iflg. Reuters (2 juni 2026) begyndte det britiske forsvarsministerium at bruge Starshield til militaere operationer i tidlig 2026, som et af de frste lande uden for USA (kilde: https://www.reuters.com/business/media-telecom/uk-adopts-spacexs-starshield-military-operations-sources-say-2026-06-02/ ). Afklaring: Ukraine fik igen fuld adgang fra 15. okt. (kilde: https://www.npr.org/2026/10/15/nx-s1-6002949/ukraine-says-its-starshield-access-is-back ). Pointe: 'military-grade' er ikke en produktbeskrivelse, men et ejerforhold og en diplomisk spilleregel.",
+        "words": [
+          450,
+          650
+        ],
+        "mustCite": 3,
+        "mustNumber": [
+          "72-161 km/h (45-100 mph) hastighedsgraense",
+          "Pentagon som Starshields strste kunde"
+        ],
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "Gemini 3.1 Pro Preview (Google)",
+        "model": "google/gemini-3.1-pro-preview",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 591,
+        "costUSD": 0.07104,
+        "draft": "kladder/03-starshield-skelnen.md",
+        "costRouting": "byok",
+        "generationId": "gen-1792302742-BKPDDZYr1ZjHmZX4mmFj"
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-10-18",
+        "citations": 4,
+        "editorNote": "Alle verificerede facts pa plads (72-161 km/h, Musks udspil, Pentagon-kunde, NRO-spykonstellation, britisk MoD, genoprettet adgang 15. okt.); IRIS2-europaeisk vinkel med. Musk-citat kommer fra briefen og er kildefoertet."
+      }
+    },
+    {
+      "slug": "starship-flight-14",
+      "order": 4,
+      "section": "Opsendelser",
+      "brief": {
+        "angle": "Deep-dive feature om Starship Flight 14, 28. september 2026 fra Starbase, Texas: foerste gang Starship naede kredslb - de 13 tidligere flyvninger var alle suborbitale. Verificeret fakta (brug KUN disse, opdigt intet andet): liftoff 7:48 a.m. CT / 12:48:59 UTC. Foerste trin, Super Heavy booster B21: 33 Raptors taendt under opstigning, en enkelt Raptor stoppede tidligt; hot-staging, derefter taendte alle seks Raptors paa S41; 31 af 33 Raptors genindsneder for boostback; booster var bevidst konfigureret til at brnde resterende propellant forbi der, hvor den normalt ville splashed i Golfen (ingen genaffyring); landingsburn nedvalgt, 5 af 13 Raptors til et kort burn, 3 af disse brndte til bevidst FTS-flow. Ingen genvinding af B21. Opstigning paa andet trin (S41): en enkelt Raptor-vacuum-motor stoppede tidligt; trods det, efter vurdering af telemetri, fik S41 'go' for orbitale operationer; en enkelt Raptor vac sea-level genindaffyredes og S41 naede kredslb for foerste gang, ca. 275 km. Ca. 34 minutter efter liftoff udsatte S41 alle 26 Starlink V3-satellitter, og missionen benyttede laser-crosslinks og jordstationer til kontrol. Missionen var planlagt til ca. 10 timer / 6 kredsler, men afkortet 'out of abundance of caution'; ca. 3 t 8 min efter opsendelse splashed Starship i det nordlige Stillehavet nord for Hawaii; fartiet velte og brdte i brand/eksploderede efter splashdown (AP). Kilder (brug kun disse): https://www.spacex.com/launches/starship-flight-14 , https://spaceflightnow.com/2026/09/28/live-coverage-spacex-to-launch-first-starlink-v3-satellites-to-orbit-on-starship/ , https://spaceflightnow.com/2026/09/28/starship-returns-to-earth-rocket-splashes-down-north-of-hawaii-after-three-hour-flight/ , https://en.wikipedia.org/wiki/Starship_flight_14 , https://www.krgv.com/news/watch-live-spacex-launch-of-14th-starship-test-flight-in-cameron-county . Perspektiv: regelmssig rakettrafik afhnger af, at blandt andet Starship, Artemis-landeren HLS og europaeiske operatoerer afhneger af samme kapacitaet.",
+        "words": [
+          450,
+          700
+        ],
+        "mustCite": 3,
+        "mustNumber": [
+          "13 tidligere flyvninger var alle suborbitale",
+          "26 Starlink V3 udaf",
+          "ca. 275 km kredslb",
+          "afkortet fra ~10 t/6 kredsler til ca. 3 t 8 min"
+        ],
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "GPT-5.6 Terra (OpenAI)",
+        "model": "openai/gpt-5.6-terra",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 493,
+        "costUSD": 0.025716,
+        "draft": "kladder/04-starship-flight-14.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1792302821-wkQ1F5wuBwan55PvE96X"
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-10-18",
+        "citations": 3,
+        "editorNote": "Timeline og tal matcher verificering (13 suborbitale foer, B21/S41, 26 V3, 275 km, 3t8min, splashdown nord for Hawaii, AP-brand). FTS-afsnit redigeres ved produktion."
+      }
+    },
+    {
+      "slug": "aaret-tempo",
+      "order": 5,
+      "section": "Statistik",
+      "brief": {
+        "angle": "Kort status om aarets opsendelsestempo, baseret paa Redaktionens optaelling i Jonathan McDowells GCAT (launchlog.tsv, opdateret 17. okt. 2026; unikke orbitale opsendelser, koder O, ikke suborbitale; kilde: https://planet4589.org/space/gcat/tsv/derived/launchlog.tsv ). TAL (brug dem alle, opdigt ingen andre): 255 i 2024, 324 i 2025, 243 til og med 18. okt. 2026 - mod 217 paa samme dato i 2025, ca. 13 % foran 2025-tempoet. Pr. raket, unikke orbitale opsendelser (2024/2025/2026 t.o.m. 18. okt.): Falcon 9 131/162/114. Falcon Heavy 1/0/2. Starship 3/5/3. New Glenn 0/1/1. Vulcan 0/1/1. Ariane 6 1/4/4. Vega 2/3/2. Electron 14/18/15. Chang Zheng (alle varianter) 46/68/48. Soyuz 15/13/11. Europa (Ariane 6 + Vega): 3/7/6. Forklar mnsteret: 2026 er paa vej til at slaa 2025-rekorden, drevet af Falcon 9; Kinas Chang Zheng er den klart strste anden kapacitet. Europa leverer stabilt men lavt (Ariane 6 + Vega samlet som 2025). Giv perspektiv: at f.eks. Starshield-spor-spor i nr. 3 var nebendd -- men kunde paa f.eks. Falcon 9-tilstraekkeligheder; opdigt ingen andre sammenligninger.",
+        "words": [
+          350,
+          500
+        ],
+        "mustCite": 1,
+        "mustNumber": [
+          "255/324/243 (GCAT)",
+          "Falcon 9 131/162/114",
+          "Chang Zheng 46/68/48"
+        ],
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "DeepSeek V3.2 (DeepSeek)",
+        "model": "deepseek/deepseek-v3.2",
+        "fallback": "google/gemini-3.5-flash"
+      },
+      "receipt": {
+        "words": 274,
+        "costUSD": 0.0007399,
+        "draft": "kladder/05-aaret-tempo.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1792302857-8Q8Pop3xAZrsJBucGNXl"
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-10-18",
+        "citations": 1,
+        "editorNote": "Hovedtal korrekte; Falcon 9 2024-tal (131) og rakettable mangler eller er uholdbare (Ariane 6 frste kommercielle er 2025). Korrektureres i prodution af editor."
+      }
+    },
+    {
+      "slug": "rygteboersen",
+      "order": 6,
+      "section": "Rygteb rs",
+      "brief": {
+        "angle": "Rygteboers-bagsnit i ORBITs etablerede korte, nogterne stil: lse rygter og smaa-historier om rumindustrien, ingen kildekrav. Slut med et konkret bagsideloefte til nr. 8, der IKKE dublerer nr. 7's indhold (alts IKKE Starlink/Starshield, IKKE Starship Flight 14, IKKE aarets opsendelsestal): nr. 8 indfrier IRIS2-dybdestudiet, som nr. 6 lovede til nr. 7, men er udskudt til nr. 8 (EU's konstellation for sikker satellitkommunikation - arkitektur, tidsplan, europaeiske leverandrer) - og gr parallelt op med europisk rumadgang og opfoeret-krav.",
+        "words": [
+          300,
+          500
+        ],
+        "mustCite": 0,
+        "mustNumber": [],
+        "format": "rygteboersen"
+      },
+      "writer": {
+        "byline": "Qwen3.7 Max (Alibaba)",
+        "model": "qwen/qwen3.7-max",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 358,
+        "costUSD": 0.02934,
+        "draft": "kladder/06-rygteboersen.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1792302901-FgfFhbQ0g596VJj8PM1x"
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-10-18",
+        "citations": 0,
+        "editorNote": "Stil hemra til ORBITs rygteboers. Loefte til nr. 8: IRIS2-dybdestudie + europaeisk rumadgang - som aftalt, ingen dublet af nr. 7."
+      }
+    }
+  ]
+}

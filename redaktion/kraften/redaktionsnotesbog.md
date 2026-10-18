@@ -295,4 +295,4 @@ OpenRouter: **kun** `.env.kraften`. Imagine: `.env.local`.
 - **2026-08-08 (edit):** KRAFTEN nr. 2 — forklaret *Fit for 55* og *IRA* i EU/USA-artiklen; udfoldet *PJM-agtige køer* i netflaskehalse; Sverige-atom omskrevet fra notes-kladde til færdig feature og flyttet **før** Ordbog/Rygtebørs (lå tidligere som sidste side efter bagsnit).
 - **2026-08-08 (process):** Efter Sverige-kladde-uheldet: `production/check_issue.py` flagger nu **draft/production-meta** i publiceret brødtekst som ERROR; chefredaktør-tjekliste i [redaktion/README](../README.md) kræver eksplicit “færdig læsertekst” + jargon første gang + features før bagsnit.
 - **2026-08-08 (depth):** Features stadig for korte efter batch. Indien: Læseregler væk → prosa. Sverige: flåde (6 reaktorer, Forsmark/Ringhals/Oskarshamn, ~50 TWh/~29 %) + Nordic Baseload Power (Barsebäck, ~2 500 MWe, 4. støtteansøgning juni 2026). Kina, lagring, rum-pakke, tallet, snapshot udvidet.
-
+- 2026-10-18: Nr. 7 udgivet - tema "Powerwalls". Nr. 6 bagsidelofte (elnettet paa Maanen) skubbes til nr. 8; Rygteborsen lofter det bagsidelofte pa ny. Tal og kilder faktatjekket: check_issue og check_links producerer nul fejl.

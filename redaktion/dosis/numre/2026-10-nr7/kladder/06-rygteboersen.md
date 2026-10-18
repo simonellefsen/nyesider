@@ -1,0 +1,7 @@
+## Rygtebørsen
+
+I Silicon Valley-kredse snakkes der allerede om det næste stik mod Musk’s Neuralink: kortdistansetelemetri i proteser. Tanken er, at din hånd- eller knæprotese skulle kunne «ringe hjem» med brugsdata, slidtal og muligvis endda biofeedback til producenten. Sundhedsdata bliver jo til guld, så hvorfor ikke også fra den mekaniske krop? Det ville være et skridt mod en verden, hvor den sundhedsmæssige cyborg-diskussion ikke handler om cybernetiske forstærkelser, men om markedsførings-sfæren omkring den allerede eksisterende hardware. Et anti-«cyborg»-brand, om man vil.
+
+På den mere… festlige front hører vi om et comeback for «party-trick-implantater». Før i tiden var det neodym-magneter i fingrene til at mærke strømførende kabler. Nu spekuleres der i små, subdermale chip-linser, der kan lyse op i takt til musik eller vise en lille animation ved bestemte bevægelser – ren estetik og conversation starter, uden praktisk formål. Her er guruenes lovende fremtidsvisioner heldigvis erstattet af ren, skær underholdning.
+
+Vi lover at tage et kig på **datarådets seneste anbefalinger om sundheds-wearables** i et kommende nummer. Hvad må de egentlig samle om os, og hvordan kan vi – som brugere – få mest muligt ud af dataene uden at sælge sjælen? Det lover vi at grave i.

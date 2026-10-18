@@ -73,7 +73,9 @@ BARE_URL_RE = re.compile(r"(?<![(\]])\bhttps?://[^\s<>\"'`\])]+")
 
 # Hosts that block automated HEAD/GET but are stable, well-known destinations.
 # Skipped deliberately rather than reported as false failures.
-SKIP_HOSTS = {"x.ai"}
+# Reuters blokerer automatiserede foerespoergsmaal med 401 uanset UA (browserwall);
+# links er reelle, men kan ikke verifyeres maskinelt.
+SKIP_HOSTS = {"x.ai", "reuters.com"}
 
 
 def find_links(path: Path) -> set[str]:

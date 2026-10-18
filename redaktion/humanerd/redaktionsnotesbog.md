@@ -309,7 +309,7 @@ levetidstallet var det rigtige. Reglen er stadig: afstem mod begge, og forklar f
 
 ## Idébank
 
-- **(2026-08) Robotten der kan se** — kameraer, kraftsensorer og grænserne for perception.
+- ~~Robotten der kan se~~ → **brugt i nr. 7** (2026-10-18).
 - ~~Håndens problem~~ → **brugt i nr. 6** (2026-10-03).
 - ~~Tre humanoider, tre beviser~~ → **brugt i nr. 3** (2026-08-19).
 - ~~Dronen som robot~~ → **brugt i nr. 5** (2026-09-12).
@@ -326,6 +326,20 @@ levetidstallet var det rigtige. Reglen er stadig: afstem mod begge, og forklar f
 
 ## Log
 
+- **2026-10-18:** Nr. 7 udgivet — "Robotten der kan se", idébank-emne. Fem bestilte artikler +
+  editor-ledet leder: BMW AIQX/AOI i Regensburg (drift, men mennesket holder sin sidste kontrol),
+  1X NEO i hjemmet (kommercielt salg, human-in-the-loop-driftsform, ingen lidar), Figure Helix
+  (VLA-perceptionsstakken, virksomhedstal mærket), IFR-cobotstal (kraft frem for kamera) og
+  Påstandskontoret om Teslas teleopererede Optimus-demoer (tjekliste-fodnote til Evan
+  Ackermans IEEE Spectrum-artikel jan. 2024). Fem fanget-fejl: opdigtede 404'er i NEO-artiklen
+  (1x stairs, Nvidia Jetson-side), dato-fejl i Påstandskontoret (15.1.2024, ikke 31.1.; TechCrunch
+  14.10., ikke 25.10.), forkert IEEE-titel samt et uverificeret 2023-cobottal (~57.600) fjernet
+  fra Tallet. IFR World Robotics 2026 (2025-tal) var udkommet 24.9.2026 — Tallet bruger bevidst
+  WR-2025-genereringen (2024-tal) som nr. 6, fordi temaet citerer de sammenlignelige cobot-andele.
+  Bemærk til fremadrettet: brug WR 2026 fra næste nummer.
+  Produktionspris: 0,1292 USD · 0,8582 kr. (Nationalbankens kurs 16.10.2026: 1 USD = 6,6425 DKK; fxRate-felterne sat i issue.json, omkostningslinjen står i lederen). Billeder:
+  Imagine/xAI i 7 stilarter. Check: check_issue 0/0, check_links 0 dead (1 bot-blokeret 403,
+  Forbes, verificeret ad anden vej).
 - **2026-09-12:** Nr. 5 udgivet — "Dronen som robot", idébank-emne. Tre beviser på tre
   autonominiveauer (politidrone, leveringsdrone, dansk vindmølledrone). Tre fejl fanget og
   rettet, inkl. en forkert finansieringskilde (EU Horizon i stedet for det danske EUDP) og et

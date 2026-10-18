@@ -1,0 +1,227 @@
+{
+  "magazine": "kronike",
+  "issue": "2026-10-nr6",
+  "issueTheme": "Kalmarunionen i dybden — tre riger, to dokumenter, ét kongefællesskab set fra Norge og Sverige",
+  "budget": {
+    "articles": 6,
+    "wordsPerArticle": [
+      150,
+      900
+    ],
+    "targetPages": 12,
+    "note": "Idébankens første nr. 6-kandidat. Kompakt som nr. 4–5 (6 artikler). Features 700–900. Margretes biografi ligger i nr. 1; dette nummer er unionen set fra Norge og Sverige, ikke en gentagelse af hendes liv."
+  },
+  "opgaver": [
+    {
+      "slug": "leder",
+      "order": 1,
+      "section": "Leder",
+      "brief": {
+        "angle": "Kort leder: Kalmarunionen var ikke én nordisk stat. Tre kongeriger, tre love, tre rigsråd, én person på tre troner. Fra København ser det ud som dansk stormagt. Fra Norge og Sverige ser det ud som et kongefællesskab, der aldrig fik en forfatning, og som Sverige til sidst brød, mens Norge blev. Margretes biografi ligger i nr. 1. Dette nummer er unionen set fra de to andre riger.",
+        "words": [
+          150,
+          220
+        ],
+        "mustCite": 0,
+        "format": "leder"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": 152,
+        "costUSD": 0.0,
+        "draft": null
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-10-18",
+        "citations": 0,
+        "editorNote": "Editor-led leder, ingen API-kald — ingen byline, per husregel."
+      }
+    },
+    {
+      "slug": "to-dokumenter",
+      "order": 2,
+      "section": "Riget & grænser",
+      "brief": {
+        "angle": "Feature om, at Kalmarunionen blev stiftet med TO dokumenter, ikke én traktat — og at det ene aldrig blev færdigt. Brug PRÆCIS disse verificerede fakta og ingen andre tal/årstal, medmindre du kan slå dem op: Den 17. juni 1397 (trinitatis søndag) blev Erik af Pommern (født ca. 1382, død 1459), Margrete 1.s søsterdattersøn, kronet i Kalmar til fælles konge over Danmark, Norge og Sverige. Han var i forvejen konge i hvert rige for sig: hyldet i Norge 1389, i Danmark og Sverige 1396. Kroningsdokumentet blev udstedt 13. juli 1397 — et pergamentsbrev med 67 hængende segl fra stormænd i de tre riger. Det bekræfter, at kroningen fandt sted, og lover troskab; det regulerer ikke, hvordan rigerne skal styres sammen. Unionsbrevet, dateret på sankt Margretes dag (13. eller 20. juli 1397), er skrevet på papir, har 17 udstedere, men kun omkring ti påtrykte segl, så svage at man ikke sikkert kan sige hvilke. Brevet krævede, at der senere skulle udstedes seks pergamentsbreve med samme indhold (to til hvert rige). Det skete aldrig. Unionsbrevet siger, at rigerne til evig tid skal have én konge, at et angreb på ét rige gælder alle tre, og at hvert rige skal blive ved sin egen lov og ret. Nordmændene var svagt repræsenteret: den norske ærkebiskop var ikke til stede; kroningen blev foretaget af ærkebiskopperne Jakob af Lund og Henrik af Uppsala. Ingen norske bisper beseglede kroningsbrevet. Unionen var en personalunion, ikke én stat. Erik var omkring 15 år; Margrete 1. (1353–1412) beholdt den faktiske magt til sin død. Scene: Kalmar sommeren 1397 — pergamentet med 67 segl over for papirkladde. Navngivne, der SKAL kunne slås op: Erik af Pommern, Margrete 1., Jakob af Lund, Henrik af Uppsala. Opfind ALDRIG en navngiven stormand, bonde eller ridder som ramme. Opfind ALDRIG et citat. Gæt aldrig en URL; skriv værkets titel, hvis du er usikker. Skriv IKKE Stockholms blodbad eller Bergen 1450 i dybden — de ligger i andre artikler i samme nummer. Gentag ikke Margretes barndom og ægteskab (nr. 1).",
+        "words": [
+          700,
+          900
+        ],
+        "mustCite": 3,
+        "mustNumber": [
+          "17. juni 1397",
+          "67",
+          "13. juli 1397"
+        ],
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 793,
+        "costUSD": 0.027322,
+        "draft": "kladder/02-to-dokumenter.md",
+        "costRouting": "byok",
+        "generationId": "gen-1792302103-IaZI1ty0Ako5Z950ZeJA"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-10-18",
+        "citations": 4,
+        "editorNote": "Rettede literale \\u00a0-escapes og pladsholderfodnoter. Fjernede forkert slægtskab ('hans mosters mor'); rettet til søsterdattersøn. Fire verificerede lex/danmarkshistorien-URL'er. Landet 780 ord."
+      }
+    },
+    {
+      "slug": "norge",
+      "order": 3,
+      "section": "Riget & grænser",
+      "brief": {
+        "angle": "Feature om Norge som den partner, der blev, da Sverige gik. Brug PRÆCIS disse verificerede fakta: Danmark og Norge kom i personalunion 1380, da Oluf arvede Norge efter faderen Håkon 6. Magnusson. Det var 17 år før Kalmarmødet. Ved Christoffer af Bayerns død 1448 valgte Danmark Christian 1. (født 1426, dansk konge 1448–1481) og Sverige Karl 8. Knutsson Bonde. Begge kæmpede om Norge. Karl blev kronet til norsk konge i Nidarosdomen (Trondheim) i november 1449 af ærkebiskop Aslak Bolt, men mistede svensk støtte. Det svenske rigsråd anerkendte på et møde i Halmstad i maj 1450 Christian som norsk konge. Christian 1. blev kronet i Trondheim 2. august 1450. Den 29. august 1450 indgik danske og norske rigsråder i Bergen den såkaldte Bergenstraktat (unionstraktaten af 1450): en «evig union» mellem to ligestillede riger med fælles konge, men egne rigsråd — den første formelle unionsaftale mellem Danmark og Norge. Norge gik fra arverige til valgrige. Scene: kroningen i Trondheim 2. august 1450 ELLER beseglingen i Bergen 29. august. Pointen: da Sverige forlod Kalmarunionen, forlod Norge den ikke. Unionen Danmark–Norge fortsatte til 1814. I 1536 skrev Christian 3. i sin danske håndfæstning (Norgesparagrafen, 30. oktober 1536), at Norge herefter ikke skulle være eller hedde et kongerige for sig, men ligge under Danmarks krone som Jylland, Fyn, Sjælland og Skåne. Den paragraf blev ikke offentliggjort, og kongen bar stadig titlen konge af Danmark og Norge. Navngivne, der SKAL kunne slås op: Christian 1., Karl Knutsson Bonde, Aslak Bolt, Christian 3. Opfind ALDRIG en navngiven norsk bonde, rådmand eller et dagbogscitat. Opfind ALDRIG et besøgstal for Christian 1. i Norge, medmindre du kan slå det op. Gæt aldrig en URL. Skriv IKKE Stockholms blodbad i dybden.",
+        "words": [
+          700,
+          900
+        ],
+        "mustCite": 3,
+        "mustNumber": [
+          "1380",
+          "2. august 1450",
+          "29. august 1450"
+        ],
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "GPT-5.6 Terra (OpenAI)",
+        "model": "openai/gpt-5.6-terra",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 894,
+        "costUSD": 0.038843,
+        "draft": "kladder/03-norge.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1792302160-1oFXG2XJy6XcKWGX4FFZ"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-10-18",
+        "citations": 4,
+        "editorNote": "Kladden gættede snl.no-stier og danmarkshistorien.dk/vis/materiale (410-mønsteret). Erstattet med verificerede snl.no-URL'er (Christian_1. med trailing punktum er den rigtige slug). Landet 718 ord."
+      }
+    },
+    {
+      "slug": "blodbadet",
+      "order": 4,
+      "section": "Krig & krise",
+      "brief": {
+        "angle": "Feature om, hvordan Sverige brød ud af Kalmarunionen: fra Engelbrektsoprøret til Stockholms blodbad og Gustav Vasas kongevalg. Brug PRÆCIS disse verificerede fakta: I juni 1434 stod den svenske lavadelsmand Engelbrekt Engelbrektsson (myrdet 4. maj 1436) i spidsen for et oprør i Dalarna mod Erik af Pommerns fogeder og skattetryk. I august 1434 overtalte han rigsråder i Vadstena til at undsige kongen. Oprøret vendte sig først og fremmest mod Eriks styre og fogder, ikke nødvendigvis mod unionen som idé. Erik blev afsat i Danmark og Sverige 1439 (i Norge 1442). Efter 1448 sad danske konger kun i kortere perioder på den svenske trone. Christian 2. (født 1481, dansk-norsk konge 1513–1523) erobrede Sverige 1520; Sten Sture den yngre faldt i felttoget. Stockholm overgav sig i september mod løfte om amnesti. Den 4. november 1520 lod Christian 2. sig krone som arvekonge af Sverige. Den 7. november blev gæsterne spærret inde på slottet. Ærkebiskop Gustav Trolle anklagede en række personer for kætteri — et påskud til at omgå amnestien. Den 8. og 9. november 1520 blev ifølge chefbødlen 82 mennesker henrettet på Stortorget i Stockholm; tallet er det, bødlen fik løn efter, men kan være lidt højere, fordi nogle borgere ikke stod i registrene. De første halshuggede var biskopperne af Strängnäs og Skara. Ligene lå tre dage på torvet, før de blev brændt; Sten Stures lig blev gravet op og brændt. I Sverige fik Christian øgenavnet Christian Tyran. Gustav Eriksson (Gustav Vasa) ledede oprøret fra 1521 og blev valgt til svensk konge i Strängnäs 6. juni 1523. Frederik 1. frasagde sig i 1524 kravet på Sverige. Scene: Stortorget 8. november 1520. Navngivne: Christian 2., Gustav Trolle, Sten Sture den yngre, Engelbrekt Engelbrektsson, Gustav Vasa. Opfind ALDRIG en menig, et dagbogscitat eller et henrettelsestal ud over 82 (mærk usikkerheden). Gæt aldrig en URL. Skriv IKKE Norges historie i dybden.",
+        "words": [
+          700,
+          900
+        ],
+        "mustCite": 3,
+        "mustNumber": [
+          "1434",
+          "8. og 9. november 1520",
+          "82",
+          "6. juni 1523"
+        ],
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "Gemini 3.1 Pro Preview (Google)",
+        "model": "google/gemini-3.1-pro-preview",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 1001,
+        "costUSD": 0.06881,
+        "draft": "kladder/04-blodbadet.md",
+        "costRouting": "byok",
+        "generationId": "gen-1792302203-AvYLURJRKLJKFPKpEXlk"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-10-18",
+        "citations": 4,
+        "editorNote": "Kladden 1001 ord, leftover **SEKTION**, gættet 410-URL. Kristina Gyllenstierna beholdt (verificeret lex.dk). Fjernede uverificeret Stäket. Forkortet til 700. Fire lex.dk-URL'er."
+      }
+    },
+    {
+      "slug": "tallet",
+      "order": 5,
+      "section": "Tallet",
+      "brief": {
+        "angle": "Tallet: en lille kildetabel over Kalmarunionen set fra dokumenter og brud. Fire rækker, hver med ét hårdt tal + år + kilde: (1) Kroningsdokumentet 13. juli 1397 — 67 hængende segl. (2) Unionsbrevet 1397 — 17 udstedere, omkring 10 segl, papir ikke pergament. (3) Stockholms blodbad 8.–9. november 1520 — 82 henrettede ifølge chefbødlen. (4) Gustav Vasa valgt 6. juni 1523 — Sveriges udtræden; Danmark–Norge fortsatte til 1814. Mærk 82 eksplicit som bødlens tal, med forbehold for at nogle ofre kan mangle i registrene. Ingen opfundne personer. Ingen gætte-URL'er.",
+        "words": [
+          250,
+          450
+        ],
+        "mustCite": 2,
+        "mustNumber": [
+          "67",
+          "82",
+          "1523"
+        ],
+        "format": "tallet"
+      },
+      "writer": {
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 376,
+        "costUSD": 0.015678,
+        "draft": "kladder/05-tallet.md",
+        "costRouting": "byok",
+        "generationId": "gen-1792302257-CuqJTwIvkeCOf28abeb5"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-10-18",
+        "citations": 3,
+        "editorNote": "Byggede kildetabel 67 / 17+ca.10 / 82 / 6. juni. Mærkede 82 som chefbødlens tal med forbehold. Tre verificerede URL'er."
+      }
+    },
+    {
+      "slug": "myter",
+      "order": 6,
+      "section": "Myter & missforståelser",
+      "brief": {
+        "angle": "Myter-bagsnit: afmonter myten «Kalmarunionen var én nordisk stat, og den faldt i 1523». Brug PRÆCIS denne skelnen: Unionen var et kongefællesskab (personalunion). Hvert rige beholdt egne love og eget rigsråd. Unionsbrevet, der skulle have været forfatningen, blev aldrig udstedt på pergament. Sverige forlod unionen, da Gustav Vasa blev valgt 6. juni 1523; Frederik 1. gav afkald på den svenske trone 1524. Norge forlod ikke unionen i 1523. Danmark og Norge fortsatte i kongefællesskab til 1814. Det, der i 1536 ændrede Norges status, var Norgesparagrafen i Christian 3.s danske håndfæstning af 30. oktober 1536 — et løfte til det danske rigsråd, ikke en nordisk opløsningstraktat. Pointen: 1523 er Sveriges brud, ikke hele unionens død, og «stat» er det forkerte ord for 1397. Skriv IKKE et opdigtet citat tilskrevet Margrete, Gustav Vasa eller en historiker. Gæt aldrig en URL.",
+        "words": [
+          350,
+          550
+        ],
+        "mustCite": 2,
+        "format": "myter"
+      },
+      "writer": {
+        "byline": "DeepSeek V3.2 (DeepSeek)",
+        "model": "deepseek/deepseek-v3.2",
+        "fallback": null
+      },
+      "receipt": {
+        "words": 361,
+        "costUSD": 0.00080962,
+        "draft": "kladder/06-myter.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1792302283-9sjtcUrzuxw4xqsOOlVW"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-10-18",
+        "citations": 2,
+        "editorNote": "Kladden opfandt kilder og blandede Enemark-titel ('til Bondeoprør'; rigtig titel er Fra Kalmarbrev til Stockholms blodbad, 1979 — udeladt, ingen klikbar URL). Erstattet med lex.dk/Kalmarunionen og snl.no/Norgesparagrafen."
+      }
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+## Vandrehistorier: Når AI dokumenterer – samme værktøj, forskellig effekt
+
+Den ambient dokumentationsassistent Corti har været i pilotforsøg i den danske sundhedssektor. Et speciale fra Aalborg Universitet (AAU), i samarbejde med Steno Diabetes Center North Denmark, kastede lys på, hvordan det samme system kan have vidt forskellig indvirkning afhængigt af brugeren. I forsøget steg en sygeplejerskes dokumentationstid fra 7,5 til 21,5 minutter (p = 0,024), mens en psystuderendes tid ikke ændrede sig signifikant (62,0 vs. 86,4 minutter, p = 0,190)[^1]. Studiet understreger selv sine begrænsninger, herunder kun to deltagere og et kort forsøgsforløb. Hovedkonklusionen er klar: «Ambient AI forbedrede ikke dokumentationseffektiviteten … og viste ikke tilstrækkelig effekt»[^1]. Med andre ord: automatisering er ikke en garanti for effektivitet.
+
+Billedet af fagfeltets udvikling er også nuanceret. Ifølge RAIN’s (Responsible AI in Health Care Networks) AID_NOTE-projekt var der i 2026 145 publikationer om ambient scribe, mod 56 året før. Men kun 33 af disse studier undersøgte løsningerne i reel klinisk praksis, og de fleste målte kun tidsforbrug – ikke kvalitet eller klinikeroplevelse[^2].
+
+På RAIN-mødet den 30. september 2026, med over 120 deltagere, kom en anden væsentlig pointe frem. Omilon-konsulent Anne Bøgh Fangel beskriver ambient scribe som «et spejl på praksis» og påpegede, at to kolleger let kan vurdere det samme notat forskelligt. En påmindelse om, at kvalitetsvurdering af dokumentation først bliver meningsfuld, når der er fælles kriterier for, hvad et godt notat er.
+
+[^1]: Speciale, Aalborg Universitet: "Implementering af ambient AI til klinisk dokumentation: Et pilotstudie i diabetesbehandling". Konklusionen citeres fra resuméet: "Ambient AI did not improve documentation efficiency in this pilot study and did not demonstrate sufficient effectiveness."
+[^2]: RAIN, AID_NOTE-projektet: "Landscape Review of Ambient Clinical Documentation Solutions, 2026". Tal for publikationer (145 i 2026 vs. 56 i 2025) og antal kliniske studier (33) er hentet fra rapportens executive summary.
