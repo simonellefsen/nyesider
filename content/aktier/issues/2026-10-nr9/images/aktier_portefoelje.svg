@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+  <rect width="600" height="400" fill="#0D1B2A"/>
+  <text x="300" y="30" font-family="sans-serif" font-size="16" fill="#C9A227" text-anchor="middle" font-weight="bold">PORTEFOLJEN - 22 AKTIVE - FORSTE POSITIVE SNIT</text>
+  <rect x="30" y="45" width="170" height="80" rx="8" fill="#1B2838"/>
+  <text x="115" y="75" font-family="sans-serif" font-size="24" fill="#40826D" text-anchor="middle" font-weight="bold">+0,4 %</text>
+  <text x="115" y="100" font-family="sans-serif" font-size="11" fill="#AAAAAA" text-anchor="middle">Alle 32 kandidater</text>
+  <text x="115" y="115" font-family="sans-serif" font-size="10" fill="#888888" text-anchor="middle">16 af 32 i plus</text>
+  <rect x="215" y="45" width="170" height="80" rx="8" fill="#1B2838"/>
+  <text x="300" y="75" font-family="sans-serif" font-size="24" fill="#40826D" text-anchor="middle" font-weight="bold">+2,7 %</text>
+  <text x="300" y="100" font-family="sans-serif" font-size="11" fill="#AAAAAA" text-anchor="middle">22 aktive kandidater</text>
+  <text x="300" y="115" font-family="sans-serif" font-size="10" fill="#888888" text-anchor="middle">13 af 22 i plus</text>
+  <rect x="400" y="45" width="170" height="80" rx="8" fill="#1B2838" stroke="#C9A227" stroke-width="2"/>
+  <text x="485" y="75" font-family="sans-serif" font-size="24" fill="#C9A227" text-anchor="middle" font-weight="bold">+3,7 %</text>
+  <text x="485" y="100" font-family="sans-serif" font-size="11" fill="#AAAAAA" text-anchor="middle">Sidste uge (aktive)</text>
+  <text x="485" y="115" font-family="sans-serif" font-size="10" fill="#888888" text-anchor="middle">20 af 22 i plus</text>
+  <rect x="30" y="140" width="540" height="105" rx="8" fill="#1B2838"/>
+  <text x="50" y="165" font-family="sans-serif" font-size="12" fill="#FFFFFF" font-weight="bold">Per-issue snit (foran begge indeks markeret):</text>
+  <text x="50" y="190" font-family="sans-serif" font-size="11" fill="#AAAAAA">Nr. 1: -2,6 %</text>
+  <text x="150" y="190" font-family="sans-serif" font-size="11" fill="#AAAAAA">Nr. 2: -0,5 %</text>
+  <text x="250" y="190" font-family="sans-serif" font-size="11" fill="#FF6B6B">Nr. 3: -9,8 %</text>
+  <text x="350" y="190" font-family="sans-serif" font-size="11" fill="#40826D" font-weight="bold">Nr. 4: +7,1 %</text>
+  <text x="50" y="215" font-family="sans-serif" font-size="11" fill="#AAAAAA">Nr. 5: -3,0 %</text>
+  <text x="150" y="215" font-family="sans-serif" font-size="11" fill="#40826D" font-weight="bold">Nr. 6: +6,3 %</text>
+  <text x="250" y="215" font-family="sans-serif" font-size="11" fill="#40826D" font-weight="bold">Nr. 7: +8,1 %</text>
+  <text x="350" y="215" font-family="sans-serif" font-size="11" fill="#AAAAAA">Nr. 8: -1,7 %</text>
+  <text x="50" y="235" font-family="sans-serif" font-size="10" fill="#888888">Benchmark: SPY -0,6 % - EUNL +2,0 % (pick-matchet, samme periode)</text>
+  <rect x="30" y="255" width="260" height="95" rx="8" fill="#1B2838"/>
+  <text x="160" y="280" font-family="sans-serif" font-size="12" fill="#40826D" text-anchor="middle" font-weight="bold">BEDSTE AKTIVE</text>
+  <text x="50" y="305" font-family="sans-serif" font-size="11" fill="#AAAAAA">WKL.AS +23,1 % (EUR 81,52)</text>
+  <text x="50" y="325" font-family="sans-serif" font-size="11" fill="#AAAAAA">CAP.PA +17,9 % - INTU +17,9 %</text>
+  <text x="50" y="345" font-family="sans-serif" font-size="11" fill="#AAAAAA">ACN +15,5 % (+9,9 % uge)</text>
+  <rect x="310" y="255" width="260" height="95" rx="8" fill="#1B2838"/>
+  <text x="440" y="280" font-family="sans-serif" font-size="12" fill="#FF6B6B" text-anchor="middle" font-weight="bold">VAERSTE AKTIVE</text>
+  <text x="330" y="305" font-family="sans-serif" font-size="11" fill="#AAAAAA">CMCSA -13,1 % ($21,90)</text>
+  <text x="330" y="325" font-family="sans-serif" font-size="11" fill="#AAAAAA">NOVO-B -12,1 % (DKK 259,60)</text>
+  <text x="330" y="345" font-family="sans-serif" font-size="11" fill="#AAAAAA">YAR.OL -7,7 % (NOK 412,10)</text>
+  <rect x="30" y="360" width="540" height="32" rx="5" fill="#1B2838" stroke="#FF6B6B" stroke-width="1"/>
+  <text x="300" y="382" font-family="sans-serif" font-size="11" fill="#FF6B6B" text-anchor="middle">RETTELSER: Booking Q3 = 3. nov - PayPal Q3 = 27. okt - Rockwool Q3 = 25. nov</text>
+</svg>

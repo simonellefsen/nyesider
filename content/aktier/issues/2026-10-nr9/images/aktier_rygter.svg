@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+  <rect width="600" height="400" fill="#0D1B2A"/>
+  <text x="300" y="30" font-family="sans-serif" font-size="16" fill="#C9A227" text-anchor="middle" font-weight="bold">RYGTEBORS - DET VI IKKE KOBER</text>
+  <rect x="30" y="50" width="260" height="145" rx="8" fill="#1B2838" stroke="#FF6B6B" stroke-width="1"/>
+  <text x="160" y="75" font-family="sans-serif" font-size="13" fill="#FF6B6B" text-anchor="middle" font-weight="bold">CHIPS / AI-HARDWARE X</text>
+  <text x="50" y="100" font-family="sans-serif" font-size="11" fill="#AAAAAA">MU $878,84 (-30 %)</text>
+  <text x="240" y="100" font-family="sans-serif" font-size="11" fill="#FF6B6B" text-anchor="end">fwd P/E 4,2</text>
+  <text x="50" y="120" font-family="sans-serif" font-size="11" fill="#AAAAAA">WDC $332 (-58 %)</text>
+  <text x="50" y="140" font-family="sans-serif" font-size="11" fill="#AAAAAA">ORCL $128,23 (-56 %)</text>
+  <text x="50" y="170" font-family="sans-serif" font-size="10" fill="#888888">Peak-cycle faelde: lav P/E paa</text>
+  <text x="50" y="185" font-family="sans-serif" font-size="10" fill="#888888">topindtjening er ikke billigt</text>
+  <rect x="310" y="50" width="260" height="145" rx="8" fill="#1B2838" stroke="#FF6B6B" stroke-width="1"/>
+  <text x="440" y="75" font-family="sans-serif" font-size="13" fill="#FF6B6B" text-anchor="middle" font-weight="bold">BANKER X</text>
+  <text x="330" y="100" font-family="sans-serif" font-size="11" fill="#AAAAAA">BAC $51,23 (-22 %)</text>
+  <text x="530" y="100" font-family="sans-serif" font-size="11" fill="#AAAAAA" text-anchor="end">P/E 12,2</text>
+  <text x="330" y="120" font-family="sans-serif" font-size="11" fill="#AAAAAA">MS $180,57 (-22 %)</text>
+  <text x="330" y="140" font-family="sans-serif" font-size="11" fill="#AAAAAA">GS $881,26 (-24 %)</text>
+  <text x="330" y="170" font-family="sans-serif" font-size="10" fill="#888888">Faldt efter staerke regnskaber.</text>
+  <text x="330" y="185" font-family="sans-serif" font-size="10" fill="#888888">Folger, ingen kob.</text>
+  <rect x="30" y="210" width="260" height="100" rx="8" fill="#1B2838"/>
+  <text x="160" y="235" font-family="sans-serif" font-size="13" fill="#FFFFFF" text-anchor="middle" font-weight="bold">EU-BANKER (folger)</text>
+  <text x="50" y="260" font-family="sans-serif" font-size="11" fill="#AAAAAA">BNP.PA EUR 89,55 - P/E 8,0 - P/B 0,82</text>
+  <text x="50" y="280" font-family="sans-serif" font-size="11" fill="#AAAAAA">GLE.PA EUR 64,47 - P/E 8,3 - P/B 0,66</text>
+  <text x="50" y="300" font-family="sans-serif" font-size="10" fill="#888888">1m: -13 til -16 % - folger</text>
+  <rect x="310" y="210" width="260" height="100" rx="8" fill="#1B2838"/>
+  <text x="440" y="235" font-family="sans-serif" font-size="13" fill="#FFFFFF" text-anchor="middle" font-weight="bold">INGEN BUND (folger)</text>
+  <text x="330" y="260" font-family="sans-serif" font-size="11" fill="#AAAAAA">PRX.AS EUR 35,96 (-44 %)</text>
+  <text x="330" y="280" font-family="sans-serif" font-size="11" fill="#AAAAAA">MC.PA EUR 397 (-39 %) - NHY.OL</text>
+  <text x="330" y="300" font-family="sans-serif" font-size="10" fill="#888888">Bounce er ikke hojere lavpunkt</text>
+  <rect x="30" y="325" width="540" height="65" rx="8" fill="#1B2838"/>
+  <text x="50" y="350" font-family="sans-serif" font-size="12" fill="#FFFFFF" font-weight="bold">Gentagne afvisninger (stadig gyldige):</text>
+  <text x="50" y="375" font-family="sans-serif" font-size="10" fill="#888888">FISV (-63 %, falling knife) - CHTR (leverage veto) - NOC (tabte F/A-XX) - STLA/ELUX (faelder)</text>
+  <text x="50" y="390" font-family="sans-serif" font-size="10" fill="#888888">CPB/CAG/GIS (value traps) - LULU/NKE (ingen re-pick) - RI.PA (ingen re-entry)</text>
+</svg>

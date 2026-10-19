@@ -1,0 +1,229 @@
+{
+  "magazine": "aktier",
+  "issue": "2026-10-nr9",
+  "issueTheme": "Chipkrakket: Nasdaq −4,5 %, vores kandidater +3,7 % — og vi køber intet",
+  "budget": {
+    "articles": 8,
+    "wordsPerArticle": [300, 850],
+    "targetPages": 10,
+    "note": "Ingen nye kandidater. Følgelisten erstatter kandidat-feature. Chip-crash dominerer Markedet. Tallet handler om exits (10 af 10 steget). Tre kalender-rettelser fra nr. 8."
+  },
+  "opgaver": [
+    {
+      "slug": "leder",
+      "order": 1,
+      "section": "Leder",
+      "brief": {
+        "angle": "Chip-crash, portefølje +3,7 %, ingen nye køb (ærligt), exits stiger, IT-services rotation.",
+        "words": [250, 350],
+        "mustCite": 0,
+        "format": "leder"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": 300,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "rewritten-by-editor",
+        "checkedAt": "2026-10-19",
+        "citations": 0,
+        "editorNote": "Editor-led. Ærlig tone om 0 nye køb som systemet der virker."
+      }
+    },
+    {
+      "slug": "markedet",
+      "order": 2,
+      "section": "Markedet",
+      "brief": {
+        "angle": "SMH −10 % uge (største siden apr 2025), Nasdaq −4,5 %, S&P −2,0 %. ASML/TSMC stærke tal men faldende priser. CPI 3,7 %, Brent $110, bankers FICC-svaghed.",
+        "words": [600, 750],
+        "mustCite": 8,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": 680,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "rewritten-by-editor",
+        "checkedAt": "2026-10-19",
+        "citations": 8,
+        "editorNote": "Editor-led. Investopedia, CNBC, ASML SEC, TSMC, BLS, Reuters/Investing, Cramer citeret."
+      }
+    },
+    {
+      "slug": "folgelisten",
+      "order": 3,
+      "section": "Kandidaten",
+      "brief": {
+        "angle": "Feature om 6 navne vi følger men ikke køber: TMUS/VZ/T (telekom), CTSH (IT-services koncentration), COF (bank før regnskab), BOL.ST (metals). Triggers. TMUS 1-års chart med 52w top og 9. okt shock.",
+        "words": [650, 780],
+        "mustCite": 6,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": 720,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "rewritten-by-editor",
+        "checkedAt": "2026-10-19",
+        "citations": 6,
+        "editorNote": "Editor-led. CNBC preview, Verizon IR, MarketScreener, Cognizant, Capital One/Nasdaq, Boliden/Cision citeret."
+      }
+    },
+    {
+      "slug": "tallet",
+      "order": 4,
+      "section": "Tallet",
+      "brief": {
+        "angle": "10 af 10 exits steget siden salg. STZ +16,4 % til RI.PA +10,7 %. RI.PA én lukke under niveau, nu +17,5 % fra bund. RI.PA 1-års chart med niveau og bund. Spørgsmål om single-close-regel.",
+        "words": [400, 500],
+        "mustCite": 2,
+        "format": "tallet"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": 450,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "rewritten-by-editor",
+        "checkedAt": "2026-10-19",
+        "citations": 2,
+        "editorNote": "Editor-led. Pernod Ricard Q1 FY27 + Investing.com citeret."
+      }
+    },
+    {
+      "slug": "etferne",
+      "order": 5,
+      "section": "ETF'erne",
+      "brief": {
+        "angle": "QQQ −7 % ved P/E 27 (dip ikke udsalg), SPY/VOO −2,4 %, EUNL −1,4 %, CAC 40 −9 % (dybest). SMH/SOXX −20–25 % (chip-ETF'er, ingen bund). Ingen anbefaling.",
+        "words": [340, 420],
+        "mustCite": 0,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": 380,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "rewritten-by-editor",
+        "checkedAt": "2026-10-19",
+        "citations": 0,
+        "editorNote": "Editor-led. Alle tal fra Yahoo Finance. Ingen fodnoter påkrævet."
+      }
+    },
+    {
+      "slug": "portefoeljen",
+      "order": 6,
+      "section": "Porteføljen",
+      "brief": {
+        "angle": "22 aktive, +3,7 % uge, +2,7 % siden pub, +0,4 % alle 32 (første positive). Nr 4/6/7 foran begge indeks. Bedste: WKL +23 %, CAP +18 %, INTU +18 %, ACN +16 %. Værste: CMCSA −13 %, NOVO −12 %. Ingen invalidationer. Near-misses TEL/SAN/CMCSA/DTE. RETTELSE: Booking 3. nov, PayPal 27. okt, Rockwool 25. nov. Kalender for nr. 10.",
+        "words": [750, 900],
+        "mustCite": 3,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": 850,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "rewritten-by-editor",
+        "checkedAt": "2026-10-19",
+        "citations": 3,
+        "editorNote": "Editor-led. Booking IR, PayPal IR, Rockwool financial calendar citeret for rettelser."
+      }
+    },
+    {
+      "slug": "rygteboersen",
+      "order": 7,
+      "section": "Rygtebørsen",
+      "brief": {
+        "angle": "Chips (MU fwd P/E 4,2 = peak-cycle), US-banker (faldt efter stærke tal), EU-banker (følger), ingen bund (PRX/MC/NHY/MATAS), gentagne afvisninger, ingen fra Norden.",
+        "words": [400, 500],
+        "mustCite": 0,
+        "format": "rygteboersen"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": 450,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "rewritten-by-editor",
+        "checkedAt": "2026-10-19",
+        "citations": 0,
+        "editorNote": "Editor-led. Kort format, ingen fodnoter påkrævet."
+      }
+    },
+    {
+      "slug": "bagsnit",
+      "order": 8,
+      "section": "Bagsnit",
+      "brief": {
+        "angle": "Disclaimer, selvkritik (én uge beviser intet, exits kan vende), single-close-regel (åbent spørgsmål, ikke ny regel), IT-services koncentration, track record, kalender for nr. 10.",
+        "words": [340, 420],
+        "mustCite": 0,
+        "format": "bagsnit"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": 380,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "rewritten-by-editor",
+        "checkedAt": "2026-10-19",
+        "citations": 0,
+        "editorNote": "Editor-led. Disclaimer + selvkritik, ingen fodnoter påkrævet."
+      }
+    }
+  ]
+}

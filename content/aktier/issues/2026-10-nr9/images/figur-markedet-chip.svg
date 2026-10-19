@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 350">
+  <rect width="600" height="350" fill="#0D1B2A"/>
+  <text x="300" y="30" font-family="sans-serif" font-size="16" fill="#C9A227" text-anchor="middle" font-weight="bold">UGE 12-16. OKT: SMH vs SPY vs EUNL</text>
+  <rect x="50" y="50" width="500" height="250" rx="5" fill="#1B2838"/>
+  <text x="45" y="80" font-family="sans-serif" font-size="10" fill="#666666" text-anchor="end">0 %</text>
+  <text x="45" y="140" font-family="sans-serif" font-size="10" fill="#666666" text-anchor="end">-5 %</text>
+  <text x="45" y="200" font-family="sans-serif" font-size="10" fill="#666666" text-anchor="end">-10 %</text>
+  <text x="45" y="260" font-family="sans-serif" font-size="10" fill="#666666" text-anchor="end">-15 %</text>
+  <line x1="50" y1="80" x2="550" y2="80" stroke="#444444" stroke-width="1" stroke-dasharray="5,5"/>
+  <line x1="50" y1="140" x2="550" y2="140" stroke="#333333" stroke-width="1" stroke-dasharray="3,3"/>
+  <line x1="50" y1="200" x2="550" y2="200" stroke="#333333" stroke-width="1" stroke-dasharray="3,3"/>
+  <rect x="120" y="80" width="80" height="120" fill="#FF6B6B" opacity="0.8"/>
+  <text x="160" y="215" font-family="sans-serif" font-size="12" fill="#FF6B6B" text-anchor="middle" font-weight="bold">-10 %</text>
+  <text x="160" y="235" font-family="sans-serif" font-size="11" fill="#AAAAAA" text-anchor="middle">SMH</text>
+  <text x="160" y="250" font-family="sans-serif" font-size="9" fill="#888888" text-anchor="middle">(chip-ETF)</text>
+  <rect x="260" y="80" width="80" height="24" fill="#FF6B6B" opacity="0.6"/>
+  <text x="300" y="118" font-family="sans-serif" font-size="12" fill="#FF6B6B" text-anchor="middle" font-weight="bold">-2 %</text>
+  <text x="300" y="135" font-family="sans-serif" font-size="11" fill="#AAAAAA" text-anchor="middle">SPY</text>
+  <text x="300" y="150" font-family="sans-serif" font-size="9" fill="#888888" text-anchor="middle">(S&amp;P 500)</text>
+  <rect x="400" y="80" width="80" height="10" fill="#FF6B6B" opacity="0.4"/>
+  <text x="440" y="103" font-family="sans-serif" font-size="12" fill="#FF6B6B" text-anchor="middle" font-weight="bold">-0,8 %</text>
+  <text x="440" y="120" font-family="sans-serif" font-size="11" fill="#AAAAAA" text-anchor="middle">EUNL</text>
+  <text x="440" y="135" font-family="sans-serif" font-size="9" fill="#888888" text-anchor="middle">(verden)</text>
+  <text x="300" y="320" font-family="sans-serif" font-size="11" fill="#888888" text-anchor="middle">Chip-krak: SMH storste ugefald siden april 2025</text>
+  <text x="300" y="338" font-family="sans-serif" font-size="10" fill="#888888" text-anchor="middle">Staerke ASML/TSMC-tal - faldende priser - Markedet prissaetter cyklen</text>
+</svg>

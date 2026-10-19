@@ -225,51 +225,103 @@ python3 production/load_env.py aktier   # når .env.aktier oprettes
 
 **Porteføljen nu:** 21 aktive fra nr. 1–7 (efter RI.PA exit) + 1 ny = **22 aktive kandidater**.
 
-## Nr. 9 — kandidater / opfølgning
+## Nr. 9 — udgivet (2026-10-19)
 
-**(2026-10-13)** US-banker (JPM, GS, WFC, C).
+**Tema:** Chipkrakket: Nasdaq −4,5 %, vores kandidater +3,7 % — og vi køber intet  
+**Editor-led:** Alle artikler skrevet af chefredaktionen uden byline. Ingen OpenRouter-kald (`.env.aktier` endnu ikke oprettet). `productionCostUSD: 0`.
 
-**(2026-10-14)** US CPI (konsensus 3,6 %).
+**INGEN NYE KANDIDATER** — dette er en bevidst, ærlig beslutning:
+- Screen-resultat: navne der faldt mest har ingen bund; navne med bund er enten i porteføljen eller har regnskab inden for dage.
+- Et ærligt "ingen nye køb" er systemet der virker, ikke en mangel.
+- Følgelisten-feature erstatter kandidat-feature: TMUS, VZ, T, CTSH, COF, BOL.ST — alle følges, ingen købes.
 
-**(2026-10-15)** Pernod Ricard Q1 FY27-salgstal (RI.PA nu ude). Telenor ex-udbytte NOK 4,70.
+**Chip-crash (uge 12–16. okt):**
+- SMH −10 % på ugen (største ugefald siden april 2025).
+- Nasdaq Composite −4,5 %, S&P 500 −2,0 %.
+- ASML/TSMC rapporterede stærke tal → faldende priser (markedet prissætter cyklen).
 
-**(2026-10-22)** Yara Q3 — nitrogen og margin. **Comcast Q3** — CMCSA test.
+**Ærligt scorecard (lukkekurs 16. okt 2026):**
+- Alle 32 kandidater (nr. 1–8): **+0,4 %** (16 af 32 i plus) — første positive snit.
+- 22 aktive: **+2,7 %** siden publikation (13 af 22 i plus).
+- Sidste uge (9.–16. okt): 22 aktive **+3,7 %**, 20 af 22 i plus. SPY −2,0 %, EUNL −0,8 %.
+- Nr. 4, 6 og 7 nu foran både SPY og EUNL over deres respektive perioder.
+- Foran SPY (−0,6 % pick-matchet), bagud af EUNL (+2,0 % pick-matchet).
 
-**(~2026-10-27)** Booking Holdings Q3 — **BINÆRT**. AI-agent-tesen testes. UPS Q3.
+**Bedste aktive:** WKL.AS +23,1 %, CAP.PA +17,9 %, INTU +17,9 %, ACN +15,5 % (+9,9 % sidste uge).  
+**Værste aktive:** CMCSA −13,1 %, NOVO-B −12,1 %, YAR.OL −7,7 %.
+
+**Alle 10 exits steget siden salg (Tallet):**
+- STZ +16,4 %, ZTS +13,9 %, RI.PA +10,7 %, NKE +9,6 %, DECK +8,3 %, BMW.DE +5,0 %, BSX +4,2 %, MBG.DE +3,4 %, HUSQ-B.ST +2,8 %, VOLCAR-B.ST +0,1 %.
+- RI.PA: én lukke under niveau (€58,04 den 5. okt), nu €68,22 (+17,5 % fra bund, +7,9 % over entry).
+- **Åbent spørgsmål:** er single-close-reglen for stram? Evalueres før nr. 10 (ikke ny regel).
+
+**RETTELSER fra nr. 8:**
+- Booking Holdings Q3: ~27. okt → **3. november** efter US-lukke
+- PayPal Q3: 28. okt → **27. oktober** før US-åbning
+- Rockwool Q3: 6. nov → **25. november**
+
+**Invalidationer denne uge: INGEN.** Alle prisniveauer holdt.
+
+**Porteføljen efter nr. 9:** 22 aktive (samme som nr. 8 — ingen exits, ingen nye).
+
+## Nr. 10 — kandidater / opfølgning
+
+**(2026-10-20)** Capital One Q3 (følger); GM, Netflix Q3.
+
+**(2026-10-21)** AT&T Q3 (følger); Tesla Q3.
+
+**(2026-10-22)** **Comcast Q3** — CMCSA test. Yara Q3.
+
+**(2026-10-26)** Verizon Q3 (følger).
+
+**(2026-10-27)** **PayPal Q3** (rettelse — ikke 28. okt). UPS Q3.
 
 **(2026-10-27–28)** FOMC.
 
-**(2026-10-28)** PayPal Q3.
+**(2026-10-28)** T-Mobile US Q3; Telenor Q3.
 
 **(2026-10-29)** Cognizant Q3 + Boliden Q3 (følgere).
 
-**(2026-10-30)** Capgemini Q3 + Wolters Kluwer Q3.
+**(2026-10-30)** Sanofi Q3; Capgemini Q3; Wolters Kluwer Q3 (forventet).
 
-**(2026-11-04)** Novo Q3 + Ahold Q3.
+**(2026-11-03)** **Booking Holdings Q3 — BINÆRT** (rettelse — ikke ~27. okt). Philips Q3 (forventet). US midtermsvalg.
 
-**(2026-11-05)** Deutsche Telekom Q3 — **nøgletest efter TMUS-chok**.
+**(2026-11-04)** Novo Nordisk Q3 + Ahold Delhaize Q3.
 
-**(2026-11-06)** Rockwool Q3.
+**(2026-11-05)** Deutsche Telekom Q3 — nøgletest efter TMUS-chok.
 
-**(2026-11-11)** Royal Unibrew Q3 — **BINÆRT**. Dobbeltbund-test.
+**(2026-11-06)** Orkla Q3.
+
+**(2026-11-10)** US oktober-CPI.
+
+**(2026-11-11)** **Royal Unibrew Q3 — BINÆRT**.
 
 **(2026-11-13)** ACN dividend.
 
-**(2026-12-17)** ACN Q1 FY27 — bekræftelse af bundformation.
+**(2026-11-18)** Lowe's Q3.
 
-**(Dec 2026, ubekræftet)** CCL Q4 FY26.
+**(2026-11-19)** Intuit Q3 (forventet).
+
+**(2026-11-25)** **Rockwool Q3** (rettelse — ikke 6. nov).
+
+**(2026-12-09)** Adobe Q4.
+
+**(2026-12-17)** ACN Q1 FY27.
+
+**(2026-12-18)** CCL Q4 (forventet, ubekræftet).
 
 **Følger (ikke feature endnu):**
-- TMUS/VZ/T — telekomchok 9. okt, shock-day lav. Venter på højere bund.
-- CTSH (Cognizant) — −32 %, fwd 9,3, +53 % over bund. Ville passe bundreglen, men IT-services koncentration (ACN, CAP.PA). Q3 29. okt.
-- BOL.ST (Boliden) — −25 %, P/E 12,3, +35 % over bund. Metals-cyklisk. Q3 29. okt.
-- FISV — aktivist JANA, debit-talks. Feature hvis deal-nyt eller stabilisering.
-- CHTR — leverage veto (D/E >400%, short >50%).
-- NHY.OL — aluminium-cyklisk, fwd P/E 9,6. Falder stadig.
+- TMUS/VZ/T — telekomchok 9. okt, shock-day lav. Bounce +7 % uge. Venter på højere bund.
+- CTSH (Cognizant) — −24 %, fwd 10,4, +70 % over bund. Passer bundreglen, men IT-services koncentration. Q3 29. okt.
+- BOL.ST (Boliden) — −27 %, P/E 12,0, +31 % over bund. Metals-cyklisk. Q3 29. okt.
+- COF (Capital One) — −22 %, fwd 8,4. Højere lavpunkt, men Q3 20. okt.
+- EPAM — −45 %, fwd 8,7. Samme logik som CTSH.
+- FISV — aktivist JANA, debit-talks. Feature hvis deal-nyt.
+- CHTR — leverage veto (D/E >400 %, short >50 %).
+- NHY.OL — aluminium-cyklisk, −36 %, fwd 9,4.
 - DG.PA (Vinci) — fransk skat binær, yield 4,7 %.
-- SGO.PA (Saint-Gobain) — ved 52w lav, følger.
-- COF (Capital One) — kortdelinkvens + Discover.
-- NOC (Northrop) — tabte F/A-XX, faldende kniv.
+- Europæiske banker (BNP.PA, GLE.PA) — følger, ingen bund.
+- PRX.AS, MC.PA — stadig ingen bund.
 
 ## Log
 
@@ -282,3 +334,4 @@ python3 production/load_env.py aktier   # når .env.aktier oprettes
 - **2026-10-05:** Nr. 7 publiceret — *"Regnskabsdag: ni ud, tre ind — vi rydder op i porteføljen"*. Editor-led, ingen bylines, `productionCostUSD: 0`. **RETTELSE** af nr. 4–6's fejl om invalidationer. **Ni invalideret** (ZTS, BMW, HUSQ, NKE, BSX, DECK, VOLCAR, MBG, STZ). Tre nye kandidater: ACN, BKNG, RBREW.CO. **ACN** er første +60%-over-bund kandidat (bekræftet vending). **RBREW** er anden CPH-kandidat efter Rockwool. Track record −6,3 % vs. SPY ~0 % — indekset slog os. Porteføljen nu **22 aktive** (19 fra nr.1–6 + 3 nye).
 - **2026-10-05 (post-merge rettelse):** SVG-filer rettet for UTF-8-kodningsfejl (cp1252 → UTF-8) og XML-well-formedness. Artikler 02–05, 07 og 10 rettet: fjernet usourcerede tal (ACN-medarbejdere, 65 %→57 %, Booking 90 % hotel, targets $230–250/$180–200/DKK 450–480), DAX-niveau korrigeret (21.918→25.231), falsk Reuters-fodnote erstattet med Boursier/TrustFinance, CAC 40/Vinci-kausalitet præciseret, udgivelsesdag søndag→mandag.
 - **2026-10-12:** Nr. 8 publiceret — *"SpaceX-chokket: telekom i frit fald — vi køber ikke kniven"*. Editor-led, ingen bylines, `productionCostUSD: 0`. **RI.PA exit** (€58,04 < €58,60 den 5. okt). **SpaceX telekomchok** (TMUS −13%, VZ −9%, T −10%). DTE.DE −7,9%, CMCSA −18% (holder, fundamental inv.). **Én ny kandidat: CCL** (Carnival, SATELLITE, Q3 beat-and-raise). Vi køber ikke TMUS/VZ/T — shock-day lav er præcis hvad vi stoppede med at købe. **Rettelse:** Comcast Q3 er 22. okt, ikke 24. okt (lørdag). **Ærligt scorecard:** 31 kandidater snit −3,8%, 8 i plus. Indekset slog os igen. Porteføljen nu **22 aktive** (21 fra nr.1–7 + 1 ny).
+- **2026-10-19:** Nr. 9 publiceret — *"Chipkrakket: Nasdaq −4,5 %, vores kandidater +3,7 % — og vi køber intet"*. Editor-led, ingen bylines, `productionCostUSD: 0`. **INGEN NYE KANDIDATER** — ærlig beslutning: faldende navne har ingen bund, bundnavne har regnskab inden for dage. **Chip-crash:** SMH −10 % uge (største siden apr 2025), Nasdaq −4,5 %. **Portefølje:** +3,7 % uge, 20 af 22 i plus. **Alle-picks snit +0,4 %** — første positive. **10 af 10 exits steget**: STZ +16,4 % til RI.PA +10,7 %. RI.PA +17,5 % fra single-close-bund — åbent spørgsmål om reglen. **Tre rettelser**: Booking Q3 = 3. nov, PayPal Q3 = 27. okt, Rockwool Q3 = 25. nov. Porteføljen stadig **22 aktive**.

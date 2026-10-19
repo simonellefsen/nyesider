@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+  <rect width="600" height="400" fill="#0D1B2A"/>
+  <text x="300" y="35" font-family="sans-serif" font-size="18" fill="#C9A227" text-anchor="middle" font-weight="bold">ETF ERNE - INGEN ANBEFALING</text>
+  <rect x="30" y="55" width="260" height="150" rx="8" fill="#1B2838"/>
+  <text x="160" y="80" font-family="sans-serif" font-size="14" fill="#FFFFFF" text-anchor="middle" font-weight="bold">US / VERDEN</text>
+  <text x="50" y="105" font-family="sans-serif" font-size="12" fill="#AAAAAA">SPY/VOO</text>
+  <text x="220" y="105" font-family="sans-serif" font-size="12" fill="#FFFFFF" text-anchor="end">-2,4 % - P/E 24</text>
+  <text x="50" y="130" font-family="sans-serif" font-size="12" fill="#AAAAAA">QQQ</text>
+  <text x="220" y="130" font-family="sans-serif" font-size="12" fill="#FF6B6B" text-anchor="end">-7,0 % - P/E 27</text>
+  <text x="50" y="155" font-family="sans-serif" font-size="12" fill="#AAAAAA">EUNL (verden)</text>
+  <text x="220" y="155" font-family="sans-serif" font-size="12" fill="#FFFFFF" text-anchor="end">-1,4 %</text>
+  <text x="50" y="185" font-family="sans-serif" font-size="11" fill="#888888">Dip fra rekord, ikke udsalg</text>
+  <rect x="310" y="55" width="260" height="150" rx="8" fill="#1B2838"/>
+  <text x="440" y="80" font-family="sans-serif" font-size="14" fill="#FFFFFF" text-anchor="middle" font-weight="bold">EUROPA</text>
+  <text x="330" y="105" font-family="sans-serif" font-size="12" fill="#AAAAAA">EXSA.DE (STOXX 600)</text>
+  <text x="500" y="105" font-family="sans-serif" font-size="12" fill="#FFFFFF" text-anchor="end">-3,5 % - P/E 18</text>
+  <text x="330" y="130" font-family="sans-serif" font-size="12" fill="#AAAAAA">VGK</text>
+  <text x="500" y="130" font-family="sans-serif" font-size="12" fill="#FFFFFF" text-anchor="end">-6,4 % - P/E 17</text>
+  <text x="330" y="155" font-family="sans-serif" font-size="12" fill="#AAAAAA">CAC 40 (indeks)</text>
+  <text x="500" y="155" font-family="sans-serif" font-size="12" fill="#FF6B6B" text-anchor="end">-9,1 % (dybest)</text>
+  <text x="330" y="185" font-family="sans-serif" font-size="11" fill="#888888">Billigere, men ikke billigt</text>
+  <rect x="30" y="220" width="260" height="120" rx="8" fill="#1B2838"/>
+  <text x="160" y="245" font-family="sans-serif" font-size="14" fill="#FFFFFF" text-anchor="middle" font-weight="bold">NORDEN</text>
+  <text x="50" y="275" font-family="sans-serif" font-size="12" fill="#AAAAAA">OMXC25</text>
+  <text x="220" y="275" font-family="sans-serif" font-size="12" fill="#FFFFFF" text-anchor="end">-4,1 %</text>
+  <text x="50" y="300" font-family="sans-serif" font-size="12" fill="#AAAAAA">OMXS30</text>
+  <text x="220" y="300" font-family="sans-serif" font-size="12" fill="#FFFFFF" text-anchor="end">-1,6 %</text>
+  <text x="50" y="325" font-family="sans-serif" font-size="12" fill="#AAAAAA">OSEBX</text>
+  <text x="220" y="325" font-family="sans-serif" font-size="12" fill="#FFFFFF" text-anchor="end">-1,7 %</text>
+  <rect x="310" y="220" width="260" height="120" rx="8" fill="#1B2838" stroke="#FF6B6B" stroke-width="2"/>
+  <text x="440" y="245" font-family="sans-serif" font-size="14" fill="#FF6B6B" text-anchor="middle" font-weight="bold">CHIP-ETF ER</text>
+  <text x="330" y="275" font-family="sans-serif" font-size="12" fill="#AAAAAA">SMH</text>
+  <text x="500" y="275" font-family="sans-serif" font-size="12" fill="#FF6B6B" text-anchor="end">-19,7 % - P/E 29</text>
+  <text x="330" y="300" font-family="sans-serif" font-size="12" fill="#AAAAAA">SOXX</text>
+  <text x="500" y="300" font-family="sans-serif" font-size="12" fill="#FF6B6B" text-anchor="end">-24,8 % - P/E 29</text>
+  <text x="330" y="325" font-family="sans-serif" font-size="11" fill="#888888">Peak-cycle fare - ingen bund</text>
+  <rect x="30" y="355" width="540" height="35" rx="5" fill="#1B2838" stroke="#C9A227" stroke-width="1"/>
+  <text x="300" y="378" font-family="sans-serif" font-size="13" fill="#C9A227" text-anchor="middle" font-weight="bold">VERDIKT: Ingen ETF anbefales - QQQ -7 % ved P/E 27 er dip, ikke udsalg</text>
+</svg>
