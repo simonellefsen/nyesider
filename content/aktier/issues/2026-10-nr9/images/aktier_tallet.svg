@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+  <rect width="600" height="400" fill="#0D1B2A"/>
+  <text x="300" y="40" font-family="sans-serif" font-size="24" fill="#C9A227" text-anchor="middle" font-weight="bold">10 AF 10</text>
+  <text x="300" y="65" font-family="sans-serif" font-size="14" fill="#FFFFFF" text-anchor="middle">Alle vores exits er steget siden salg</text>
+  <rect x="30" y="85" width="540" height="260" rx="10" fill="#1B2838"/>
+  <text x="60" y="115" font-family="sans-serif" font-size="12" fill="#888888">Ticker</text>
+  <text x="180" y="115" font-family="sans-serif" font-size="12" fill="#888888">Exit-kurs</text>
+  <text x="300" y="115" font-family="sans-serif" font-size="12" fill="#888888">16. okt</text>
+  <text x="430" y="115" font-family="sans-serif" font-size="12" fill="#888888">Siden exit</text>
+  <line x1="50" y1="125" x2="550" y2="125" stroke="#444444" stroke-width="1"/>
+  <text x="60" y="150" font-family="sans-serif" font-size="13" fill="#FFFFFF">STZ</text>
+  <text x="180" y="150" font-family="sans-serif" font-size="13" fill="#AAAAAA">$112,87</text>
+  <text x="300" y="150" font-family="sans-serif" font-size="13" fill="#AAAAAA">$131,35</text>
+  <text x="430" y="150" font-family="sans-serif" font-size="13" fill="#40826D" font-weight="bold">+16,4 %</text>
+  <text x="60" y="175" font-family="sans-serif" font-size="13" fill="#FFFFFF">ZTS</text>
+  <text x="180" y="175" font-family="sans-serif" font-size="13" fill="#AAAAAA">$69,69</text>
+  <text x="300" y="175" font-family="sans-serif" font-size="13" fill="#AAAAAA">$79,38</text>
+  <text x="430" y="175" font-family="sans-serif" font-size="13" fill="#40826D" font-weight="bold">+13,9 %</text>
+  <text x="60" y="200" font-family="sans-serif" font-size="13" fill="#C9A227" font-weight="bold">RI.PA</text>
+  <text x="180" y="200" font-family="sans-serif" font-size="13" fill="#AAAAAA">EUR 61,60</text>
+  <text x="300" y="200" font-family="sans-serif" font-size="13" fill="#AAAAAA">EUR 68,22</text>
+  <text x="430" y="200" font-family="sans-serif" font-size="13" fill="#40826D" font-weight="bold">+10,7 %</text>
+  <text x="60" y="225" font-family="sans-serif" font-size="13" fill="#FFFFFF">NKE</text>
+  <text x="180" y="225" font-family="sans-serif" font-size="13" fill="#AAAAAA">$33,87</text>
+  <text x="300" y="225" font-family="sans-serif" font-size="13" fill="#AAAAAA">$37,13</text>
+  <text x="430" y="225" font-family="sans-serif" font-size="13" fill="#40826D" font-weight="bold">+9,6 %</text>
+  <text x="60" y="250" font-family="sans-serif" font-size="13" fill="#FFFFFF">DECK</text>
+  <text x="180" y="250" font-family="sans-serif" font-size="13" fill="#AAAAAA">$79,12</text>
+  <text x="300" y="250" font-family="sans-serif" font-size="13" fill="#AAAAAA">$85,71</text>
+  <text x="430" y="250" font-family="sans-serif" font-size="13" fill="#40826D" font-weight="bold">+8,3 %</text>
+  <text x="60" y="275" font-family="sans-serif" font-size="13" fill="#FFFFFF">BMW.DE</text>
+  <text x="180" y="275" font-family="sans-serif" font-size="13" fill="#AAAAAA">EUR 54,32</text>
+  <text x="300" y="275" font-family="sans-serif" font-size="13" fill="#AAAAAA">EUR 57,06</text>
+  <text x="430" y="275" font-family="sans-serif" font-size="13" fill="#40826D" font-weight="bold">+5,0 %</text>
+  <text x="60" y="300" font-family="sans-serif" font-size="12" fill="#888888">+ BSX +4,2 % - MBG.DE +3,4 % - HUSQ-B +2,8 % - VOLCAR-B +0,1 %</text>
+  <line x1="50" y1="315" x2="550" y2="315" stroke="#444444" stroke-width="1"/>
+  <text x="60" y="335" font-family="sans-serif" font-size="12" fill="#888888">Gennemsnit ved exit: -11,4 % fra pub - Nu: -4,6 % fra pub</text>
+  <text x="300" y="375" font-family="sans-serif" font-size="12" fill="#C9A227" text-anchor="middle">RI.PA: en lukke under niveauet (EUR 58,04) - nu +17,5 % over bund</text>
+  <text x="300" y="393" font-family="sans-serif" font-size="11" fill="#888888" text-anchor="middle">Vi aendrer ikke reglen i samme uge den kostede os - men vi evaluerer</text>
+</svg>
