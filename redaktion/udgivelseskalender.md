@@ -38,6 +38,7 @@ Håndhæves som **ERROR** i `production/check_issue.py` (og dermed i `npm run pr
 | 2026-10-12 | aktier/2026-10-nr8 (nr. 8) |
 | 2026-10-18 | dosis/2026-10-nr7 (nr. 7); gnisten/2026-10-nr7 (nr. 7); horisonten/2026-10-nr7 (nr. 7); humanerd/2026-10-nr7 (nr. 7); indeni/2026-10-nr7 (nr. 7); kraften/2026-10-nr7 (nr. 7); kronike/2026-10-nr6 (nr. 6); kulturboxen/2026-10-nr7 (nr. 7); orbit/2026-10-nr7 (nr. 7); pulsen/2026-10-nr7 (nr. 7); spaending/2026-10-nr7 (nr. 7) |
 | 2026-10-19 | aktier/2026-10-nr9 (nr. 9) |
+| 2026-10-26 | aktier/2026-10-nr10 (nr. 10) |
 
 ## Efter magasin
 
@@ -54,6 +55,7 @@ Håndhæves som **ERROR** i `production/check_issue.py` (og dermed i `npm run pr
 | 7 | `2026-10-nr7` | 2026-10-05 | published | Regnskabsdag: ni ud, tre ind — vi rydder op i porteføljen |
 | 8 | `2026-10-nr8` | 2026-10-12 | published | SpaceX-chokket: telekom i frit fald — vi køber ikke kniven |
 | 9 | `2026-10-nr9` | 2026-10-19 | published | Chipkrakket: Nasdaq −4,5 %, vores kandidater +3,7 % — og vi køber intet |
+| 10 | `2026-10-nr10` | 2026-10-26 | published | Volvo Car −25 % på en uge: exitten holdt — og vi køber Balder til halv substans |
 
 ### dosis
 
