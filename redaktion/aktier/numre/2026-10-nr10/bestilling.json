@@ -1,0 +1,229 @@
+{
+  "magazine": "aktier",
+  "issue": "2026-10-nr10",
+  "issueTheme": "Volvo Car −25 % på en uge: exitten holdt — og vi køber Balder til halv substans",
+  "budget": {
+    "articles": 8,
+    "wordsPerArticle": [320, 780],
+    "targetPages": 10,
+    "note": "Én ny kandidat (Balder SATELLITE). Tallet handler om Volvo Car-kollapset og regelbeslutningen. Ingen invalidationer. 23 aktive efter dette nummer."
+  },
+  "opgaver": [
+    {
+      "slug": "leder",
+      "order": 1,
+      "section": "Leder",
+      "brief": {
+        "angle": "Volvo Car −25 % valgte ugen for vores tvivl. Single-close holdt. Én ny kandidat: Balder (SATELLITE, ~50 % af NAV). 23 aktive efter dette nummer.",
+        "words": [280, 350],
+        "mustCite": 1,
+        "format": "leder"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": 320,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "rewritten-by-editor",
+        "checkedAt": "2026-10-26",
+        "citations": 1,
+        "editorNote": "Editor-led. Volvo Cars Q3 citeret."
+      }
+    },
+    {
+      "slug": "markedet",
+      "order": 2,
+      "section": "Markedet",
+      "brief": {
+        "angle": "S&P −0,5 % uge, Nasdaq −0,7 %. Torsdag Nasdaq −2,6 % (AI-gæld). Fredag telekom (AT&T −11 %, TMUS −8 % på SpaceX). Energi +2,5 % rekord. Brent $110. FOMC næste uge.",
+        "words": [600, 700],
+        "mustCite": 6,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": 650,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "rewritten-by-editor",
+        "checkedAt": "2026-10-26",
+        "citations": 6,
+        "editorNote": "Editor-led. Reuters/Yahoo, WSJ, Investing.com, Motley Fool, AT&T citeret."
+      }
+    },
+    {
+      "slug": "balder",
+      "order": 3,
+      "section": "Kandidaten",
+      "brief": {
+        "angle": "BALD-B.ST: SEK 49,02, ~50 % af NAV (97,03), P/B 0,60, fwd P/E 9,4. Q3 i linje: lejeindtægter +6 %, driftsoverskud +6 %. Bekræftet bund 12. okt SEK 43,51, +12,7 % før Q3. SATELLITE. Risici: LTV 50,2 %, rentefølsomhed, EPS faldt. Invalidation < SEK 43,50.",
+        "words": [620, 720],
+        "mustCite": 2,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": 680,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "rewritten-by-editor",
+        "checkedAt": "2026-10-26",
+        "citations": 2,
+        "editorNote": "Editor-led. Balder Q3 rapport + Börsvärlden/Finwire citeret."
+      }
+    },
+    {
+      "slug": "tallet",
+      "order": 4,
+      "section": "Tallet",
+      "brief": {
+        "angle": "−24,6 % på en uge. Volvo Car Q3: driftstab SEK 5,6 mia. Exit nr. 7 holdt (18. sep < SEK 18). Havde vi holdt: −43 % vs entry. Single-close sparer 32 ppt. Regelbeslutning: vi holder reglen, ingen ændring efter faktum. Ny praksis: niveau under synlig lukkebund.",
+        "words": [480, 560],
+        "mustCite": 3,
+        "format": "tallet"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": 520,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "rewritten-by-editor",
+        "checkedAt": "2026-10-26",
+        "citations": 3,
+        "editorNote": "Editor-led. Volvo Cars Q3, besparelser, Morgonbladet citeret."
+      }
+    },
+    {
+      "slug": "etferne",
+      "order": 5,
+      "section": "ETF'erne",
+      "brief": {
+        "angle": "SPY −2,8 % fra top (P/E 24), QQQ −7,7 % (P/E 27), EUNL −1,9 %, CAC 40 −11 % (dybest). EXSA −5 %, OMXS30 −5,2 %, OMXC25 −3,3 %. Ingen anbefaling — dips fra top, ikke udsalg.",
+        "words": [340, 420],
+        "mustCite": 0,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": 380,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "rewritten-by-editor",
+        "checkedAt": "2026-10-26",
+        "citations": 0,
+        "editorNote": "Editor-led. Alle tal fra Yahoo Finance."
+      }
+    },
+    {
+      "slug": "portefoeljen",
+      "order": 6,
+      "section": "Porteføljen",
+      "brief": {
+        "angle": "32 kandidater +1,4 % (17 i plus). 22 aktive +5,1 %, +2,2 % uge, 18 af 22 i plus. Nr. 3 nu −14,1 % (Volvo Car). Bedste: WKL +33 %, ACN +25 %. BKNG 1,1 % over niveau (Q3 3. nov BINÆRT). CMCSA/YAR Q3 ankommet. Ingen invalidationer. 23 aktive efter Balder. Kalender for nr. 11.",
+        "words": [720, 820],
+        "mustCite": 4,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": 780,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "rewritten-by-editor",
+        "checkedAt": "2026-10-26",
+        "citations": 4,
+        "editorNote": "Editor-led. Comcast Q3, Yara Q3 + rapport PDF citeret."
+      }
+    },
+    {
+      "slug": "rygteboersen",
+      "order": 7,
+      "section": "Rygtebørsen",
+      "brief": {
+        "angle": "Følgelisten: TMUS/T/VZ (telekom, ingen bund), FISV/FIS (højere lav, Q3 3.–4. nov), BOL.ST (metals, Q3 29. okt), CTSH (IT-koncentration), COF (bank). Afviste: MKC (fwd P/E 15), CPB (value-trap), NHY.OL, EU-banker. Ingen fra Norden.",
+        "words": [480, 560],
+        "mustCite": 0,
+        "format": "rygteboersen"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": 520,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "rewritten-by-editor",
+        "checkedAt": "2026-10-26",
+        "citations": 0,
+        "editorNote": "Editor-led. Kort format, alle tal fra Yahoo Finance."
+      }
+    },
+    {
+      "slug": "bagsnit",
+      "order": 8,
+      "section": "Bagsnit",
+      "brief": {
+        "angle": "Disclaimer, selvkritik (én uge beviser intet), regelbeslutning (vi holder single-close), track record (32 +1,4 %), Balder SATELLITE, kalender for nr. 11. BKNG 1,1 % over — binært.",
+        "words": [340, 420],
+        "mustCite": 0,
+        "format": "bagsnit"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": 380,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "rewritten-by-editor",
+        "checkedAt": "2026-10-26",
+        "citations": 0,
+        "editorNote": "Editor-led. Disclaimer + selvkritik, ingen fodnoter påkrævet."
+      }
+    }
+  ]
+}

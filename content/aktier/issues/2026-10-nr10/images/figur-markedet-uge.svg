@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="800" height="400">
+  <rect width="800" height="400" fill="#0D1B2A"/>
+  
+  <!-- Title -->
+  <text x="400" y="30" fill="#C9A227" font-family="system-ui, sans-serif" font-size="18" font-weight="bold" text-anchor="middle">Ugeændringer 19.–23. oktober 2026</text>
+  <text x="400" y="50" fill="#8B9DC3" font-family="system-ui, sans-serif" font-size="12" text-anchor="middle">Indeks og nøgleaktier (Yahoo Finance)</text>
+  
+  <!-- Grid lines -->
+  <g stroke="#1E3A5F" stroke-width="1" stroke-dasharray="4,4">
+    <line x1="150" y1="100" x2="750" y2="100"/>
+    <line x1="150" y1="175" x2="750" y2="175"/>
+    <line x1="150" y1="250" x2="750" y2="250"/>
+    <line x1="150" y1="325" x2="750" y2="325"/>
+  </g>
+  
+  <!-- 0-line -->
+  <line x1="150" y1="250" x2="750" y2="250" stroke="#8B9DC3" stroke-width="1"/>
+  <text x="140" y="254" fill="#8B9DC3" font-family="system-ui, sans-serif" font-size="10" text-anchor="end">0%</text>
+  <text x="140" y="104" fill="#8B9DC3" font-family="system-ui, sans-serif" font-size="10" text-anchor="end">+10%</text>
+  <text x="140" y="329" fill="#8B9DC3" font-family="system-ui, sans-serif" font-size="10" text-anchor="end">−10%</text>
+  
+  <!-- Bars: S&P 500 -0.5%, Nasdaq -0.7%, Dow +0.4%, Euro Stoxx -2.2%, OMXS30 -3.7%, T -10.7%, TMUS -7.9%, Energi +2.5% -->
+  
+  <!-- S&P 500 -0.5% -->
+  <rect x="170" y="250" width="60" height="3.75" fill="#E74C3C"/>
+  <text x="200" y="360" fill="#8B9DC3" font-family="system-ui, sans-serif" font-size="10" text-anchor="middle">S&amp;P</text>
+  <text x="200" y="375" fill="#8B9DC3" font-family="system-ui, sans-serif" font-size="9" text-anchor="middle">−0,5%</text>
+  
+  <!-- Nasdaq -0.7% -->
+  <rect x="240" y="250" width="60" height="5.25" fill="#E74C3C"/>
+  <text x="270" y="360" fill="#8B9DC3" font-family="system-ui, sans-serif" font-size="10" text-anchor="middle">Nasdaq</text>
+  <text x="270" y="375" fill="#8B9DC3" font-family="system-ui, sans-serif" font-size="9" text-anchor="middle">−0,7%</text>
+  
+  <!-- Dow +0.4% -->
+  <rect x="310" y="247" width="60" height="3" fill="#40826D"/>
+  <text x="340" y="360" fill="#8B9DC3" font-family="system-ui, sans-serif" font-size="10" text-anchor="middle">Dow</text>
+  <text x="340" y="375" fill="#8B9DC3" font-family="system-ui, sans-serif" font-size="9" text-anchor="middle">+0,4%</text>
+  
+  <!-- Euro Stoxx -2.2% -->
+  <rect x="380" y="250" width="60" height="16.5" fill="#E74C3C"/>
+  <text x="410" y="360" fill="#8B9DC3" font-family="system-ui, sans-serif" font-size="10" text-anchor="middle">Stoxx 50</text>
+  <text x="410" y="375" fill="#8B9DC3" font-family="system-ui, sans-serif" font-size="9" text-anchor="middle">−2,2%</text>
+  
+  <!-- OMXS30 -3.7% -->
+  <rect x="450" y="250" width="60" height="27.75" fill="#E74C3C"/>
+  <text x="480" y="360" fill="#8B9DC3" font-family="system-ui, sans-serif" font-size="10" text-anchor="middle">OMXS30</text>
+  <text x="480" y="375" fill="#8B9DC3" font-family="system-ui, sans-serif" font-size="9" text-anchor="middle">−3,7%</text>
+  
+  <!-- T -10.7% -->
+  <rect x="520" y="250" width="60" height="80.25" fill="#E74C3C"/>
+  <text x="550" y="360" fill="#8B9DC3" font-family="system-ui, sans-serif" font-size="10" text-anchor="middle">AT&amp;T</text>
+  <text x="550" y="375" fill="#8B9DC3" font-family="system-ui, sans-serif" font-size="9" text-anchor="middle">−10,7%</text>
+  
+  <!-- TMUS -7.9% -->
+  <rect x="590" y="250" width="60" height="59.25" fill="#E74C3C"/>
+  <text x="620" y="360" fill="#8B9DC3" font-family="system-ui, sans-serif" font-size="10" text-anchor="middle">TMUS</text>
+  <text x="620" y="375" fill="#8B9DC3" font-family="system-ui, sans-serif" font-size="9" text-anchor="middle">−7,9%</text>
+  
+  <!-- Energi +2.5% -->
+  <rect x="660" y="231.25" width="60" height="18.75" fill="#40826D"/>
+  <text x="690" y="360" fill="#8B9DC3" font-family="system-ui, sans-serif" font-size="10" text-anchor="middle">Energi</text>
+  <text x="690" y="375" fill="#8B9DC3" font-family="system-ui, sans-serif" font-size="9" text-anchor="middle">+2,5%</text>
+  
+  <!-- Legend -->
+  <rect x="650" y="70" width="15" height="15" fill="#40826D"/>
+  <text x="670" y="82" fill="#8B9DC3" font-family="system-ui, sans-serif" font-size="10">Stigning</text>
+  <rect x="650" y="90" width="15" height="15" fill="#E74C3C"/>
+  <text x="670" y="102" fill="#8B9DC3" font-family="system-ui, sans-serif" font-size="10">Fald</text>
+</svg>

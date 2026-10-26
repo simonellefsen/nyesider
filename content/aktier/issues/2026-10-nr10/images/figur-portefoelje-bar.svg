@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 630" width="700" height="630">
+  <rect width="700" height="630" fill="#0D1B2A"/>
+  
+  <!-- Title -->
+  <text x="350" y="30" fill="#C9A227" font-family="system-ui, sans-serif" font-size="16" font-weight="bold" text-anchor="middle">22 aktive kandidater — % siden publikation</text>
+  <text x="350" y="50" fill="#8B9DC3" font-family="system-ui, sans-serif" font-size="11" text-anchor="middle">Lukkekurs 23. oktober 2026 (Yahoo Finance)</text>
+  
+  <!-- 0-line -->
+  <line x1="350" y1="65" x2="350" y2="615" stroke="#8B9DC3" stroke-width="1"/>
+  <rect x="350" y="75" width="165.5" height="18" fill="#40826D"/>
+  <text x="110" y="88" fill="#8B9DC3" font-family="system-ui, sans-serif" font-size="10" text-anchor="end">WKL.AS</text>
+  <text x="525.5" y="88" fill="#8B9DC3" font-family="system-ui, sans-serif" font-size="9" text-anchor="start">+33.1%</text>
+  <rect x="350" y="100" width="127.0" height="18" fill="#40826D"/>
+  <text x="110" y="113" fill="#8B9DC3" font-family="system-ui, sans-serif" font-size="10" text-anchor="end">ACN</text>
+  <text x="487.0" y="113" fill="#8B9DC3" font-family="system-ui, sans-serif" font-size="9" text-anchor="start">+25.4%</text>
+  <rect x="350" y="125" width="122.5" height="18" fill="#40826D"/>
+  <text x="110" y="138" fill="#8B9DC3" font-family="system-ui, sans-serif" font-size="10" text-anchor="end">INTU</text>
+  <text x="482.5" y="138" fill="#8B9DC3" font-family="system-ui, sans-serif" font-size="9" text-anchor="start">+24.5%</text>
+  <rect x="350" y="150" width="102.5" height="18" fill="#40826D"/>
+  <text x="110" y="163" fill="#8B9DC3" font-family="system-ui, sans-serif" font-size="10" text-anchor="end">CAP.PA</text>
+  <text x="462.5" y="163" fill="#8B9DC3" font-family="system-ui, sans-serif" font-size="9" text-anchor="start">+20.5%</text>
+  <rect x="350" y="175" width="50.5" height="18" fill="#40826D"/>
+  <text x="110" y="188" fill="#8B9DC3" font-family="system-ui, sans-serif" font-size="10" text-anchor="end">PHIA.AS</text>
+  <text x="410.5" y="188" fill="#8B9DC3" font-family="system-ui, sans-serif" font-size="9" text-anchor="start">+10.1%</text>
+  <rect x="350" y="200" width="42.0" height="18" fill="#40826D"/>
+  <text x="110" y="213" fill="#8B9DC3" font-family="system-ui, sans-serif" font-size="10" text-anchor="end">AD.AS</text>
+  <text x="402.0" y="213" fill="#8B9DC3" font-family="system-ui, sans-serif" font-size="9" text-anchor="start">+8.4%</text>
+  <rect x="350" y="225" width="35.0" height="18" fill="#40826D"/>
+  <text x="110" y="238" fill="#8B9DC3" font-family="system-ui, sans-serif" font-size="10" text-anchor="end">RBREW.CO</text>
+  <text x="395.0" y="238" fill="#8B9DC3" font-family="system-ui, sans-serif" font-size="9" text-anchor="start">+7.0%</text>
+  <rect x="350" y="250" width="31.5" height="18" fill="#40826D"/>
+  <text x="110" y="263" fill="#8B9DC3" font-family="system-ui, sans-serif" font-size="10" text-anchor="end">PYPL</text>
+  <text x="391.5" y="263" fill="#8B9DC3" font-family="system-ui, sans-serif" font-size="9" text-anchor="start">+6.3%</text>
+  <rect x="350" y="275" width="30.0" height="18" fill="#40826D"/>
+  <text x="110" y="288" fill="#8B9DC3" font-family="system-ui, sans-serif" font-size="10" text-anchor="end">ADBE</text>
+  <text x="390.0" y="288" fill="#8B9DC3" font-family="system-ui, sans-serif" font-size="9" text-anchor="start">+6.0%</text>
+  <rect x="350" y="300" width="28.0" height="18" fill="#40826D"/>
+  <text x="110" y="313" fill="#8B9DC3" font-family="system-ui, sans-serif" font-size="10" text-anchor="end">PEP</text>
+  <text x="388.0" y="313" fill="#8B9DC3" font-family="system-ui, sans-serif" font-size="9" text-anchor="start">+5.6%</text>
+  <rect x="350" y="325" width="25.0" height="18" fill="#40826D"/>
+  <text x="110" y="338" fill="#8B9DC3" font-family="system-ui, sans-serif" font-size="10" text-anchor="end">LOW</text>
+  <text x="385.0" y="338" fill="#8B9DC3" font-family="system-ui, sans-serif" font-size="9" text-anchor="start">+5.0%</text>
+  <rect x="350" y="350" width="18.5" height="18" fill="#40826D"/>
+  <text x="110" y="363" fill="#8B9DC3" font-family="system-ui, sans-serif" font-size="10" text-anchor="end">ORK.OL</text>
+  <text x="378.5" y="363" fill="#8B9DC3" font-family="system-ui, sans-serif" font-size="9" text-anchor="start">+3.7%</text>
+  <rect x="350" y="375" width="10.0" height="18" fill="#40826D"/>
+  <text x="110" y="388" fill="#8B9DC3" font-family="system-ui, sans-serif" font-size="10" text-anchor="end">UPS</text>
+  <text x="370.0" y="388" fill="#8B9DC3" font-family="system-ui, sans-serif" font-size="9" text-anchor="start">+2.0%</text>
+  <rect x="350" y="400" width="0.5" height="18" fill="#40826D"/>
+  <text x="110" y="413" fill="#8B9DC3" font-family="system-ui, sans-serif" font-size="10" text-anchor="end">SAN.PA</text>
+  <text x="360.5" y="413" fill="#8B9DC3" font-family="system-ui, sans-serif" font-size="9" text-anchor="start">+0.1%</text>
+  <rect x="347.0" y="425" width="3.0" height="18" fill="#E74C3C"/>
+  <text x="110" y="438" fill="#8B9DC3" font-family="system-ui, sans-serif" font-size="10" text-anchor="end">ROCK-B.CO</text>
+  <text x="337.0" y="438" fill="#8B9DC3" font-family="system-ui, sans-serif" font-size="9" text-anchor="end">-0.6%</text>
+  <rect x="345.5" y="450" width="4.5" height="18" fill="#E74C3C"/>
+  <text x="110" y="463" fill="#8B9DC3" font-family="system-ui, sans-serif" font-size="10" text-anchor="end">CCL</text>
+  <text x="335.5" y="463" fill="#8B9DC3" font-family="system-ui, sans-serif" font-size="9" text-anchor="end">-0.9%</text>
+  <rect x="340.0" y="475" width="10.0" height="18" fill="#E74C3C"/>
+  <text x="110" y="488" fill="#8B9DC3" font-family="system-ui, sans-serif" font-size="10" text-anchor="end">BKNG</text>
+  <text x="330.0" y="488" fill="#8B9DC3" font-family="system-ui, sans-serif" font-size="9" text-anchor="end">-2.0%</text>
+  <rect x="332.0" y="500" width="18.0" height="18" fill="#E74C3C"/>
+  <text x="110" y="513" fill="#8B9DC3" font-family="system-ui, sans-serif" font-size="10" text-anchor="end">TEL.OL</text>
+  <text x="322.0" y="513" fill="#8B9DC3" font-family="system-ui, sans-serif" font-size="9" text-anchor="end">-3.6%</text>
+  <rect x="317.5" y="525" width="32.5" height="18" fill="#E74C3C"/>
+  <text x="110" y="538" fill="#8B9DC3" font-family="system-ui, sans-serif" font-size="10" text-anchor="end">DTE.DE</text>
+  <text x="307.5" y="538" fill="#8B9DC3" font-family="system-ui, sans-serif" font-size="9" text-anchor="end">-6.5%</text>
+  <rect x="301.5" y="550" width="48.5" height="18" fill="#E74C3C"/>
+  <text x="110" y="563" fill="#8B9DC3" font-family="system-ui, sans-serif" font-size="10" text-anchor="end">YAR.OL</text>
+  <text x="291.5" y="563" fill="#8B9DC3" font-family="system-ui, sans-serif" font-size="9" text-anchor="end">-9.7%</text>
+  <rect x="300.0" y="575" width="50.0" height="18" fill="#E74C3C"/>
+  <text x="110" y="588" fill="#8B9DC3" font-family="system-ui, sans-serif" font-size="10" text-anchor="end">CMCSA</text>
+  <text x="290.0" y="588" fill="#8B9DC3" font-family="system-ui, sans-serif" font-size="9" text-anchor="end">-10.0%</text>
+  <rect x="290.0" y="600" width="60.0" height="18" fill="#E74C3C"/>
+  <text x="110" y="613" fill="#8B9DC3" font-family="system-ui, sans-serif" font-size="10" text-anchor="end">NOVO-B.CO</text>
+  <text x="280.0" y="613" fill="#8B9DC3" font-family="system-ui, sans-serif" font-size="9" text-anchor="end">-12.0%</text>
+</svg>

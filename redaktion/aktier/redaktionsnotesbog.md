@@ -264,45 +264,68 @@ python3 production/load_env.py aktier   # når .env.aktier oprettes
 
 **Porteføljen efter nr. 9:** 22 aktive (samme som nr. 8 — ingen exits, ingen nye).
 
-## Nr. 10 — kandidater / opfølgning
+## Nr. 10 — udgivet (2026-10-26)
 
-**(2026-10-20)** Capital One Q3 (følger); GM, Netflix Q3.
+**Tema:** Volvo Car −25 % på en uge: exitten holdt — og vi køber Balder til halv substans  
+**Editor-led:** Alle artikler skrevet af chefredaktionen uden byline. Ingen OpenRouter-kald (`.env.aktier` endnu ikke oprettet). `productionCostUSD: 0`.
 
-**(2026-10-21)** AT&T Q3 (følger); Tesla Q3.
+**VOLVO CAR Q3 (23. oktober 2026):**
+- Driftstab SEK 5,6 mia. (mod overskud SEK 6,4 mia. året før)
+- Omsætning SEK 66,9 mia.
+- Trak forward-looking statements, annoncerede SEK 5 mia. besparelser, ~2.500 stillinger
+- Aktien faldt ~28–30 % den dag, lukkede ugen −24,6 % til SEK 10,70
+- Vores nr. 7-exit (18. sep < SEK 18,00) undgik −43 % vs entry (kun −11 % ved exit)
+- **Single-close-reglen holdt.** Beslutning: vi holder reglen uændret.
 
-**(2026-10-22)** **Comcast Q3** — CMCSA test. Yara Q3.
+**ÉN NY KANDIDAT:**
+1. **BALD-B.ST** (Balder, Nasdaq Stockholm) — SEK 49,02 (lukke 23. okt), **SATELLITE**
+   - ~50 % af langsigtede NAV (EPRA NRV SEK 97,03)
+   - P/B 0,60, trail P/E 10,6, fwd P/E 9,4
+   - Q3 i linje med konsensus: lejeindtægter +5,7 %, driftsoverskud +5,9 %
+   - Bekræftet bund: SEK 43,51 (12. okt), derefter +12,7 % før Q3
+   - Risici: LTV 50,2 %, rentefølsomhed, EPS faldt
+   - **Invalidation:** lukke < SEK 43,50
+
+**Scorecard (lukkekurs 23. okt):**
+- Alle 32 kandidater: **+1,4 %**, 17 af 32 i plus
+- 22 aktive: **+5,1 %** siden publikation, 14 af 22 i plus
+- Sidste uge: **+2,2 %**, 18 af 22 i plus (SPY −0,4 %, EUNL −0,5 %)
+
+**Invalidationer denne uge: INGEN.** BKNG lukker kun 1,1 % over niveau — Q3 3. nov er binært.
+
+**Porteføljen efter nr. 10:** **23 aktive** (22 fra nr. 1–8 + BALD-B.ST).
+
+## Nr. 11 — kandidater / opfølgning
 
 **(2026-10-26)** Verizon Q3 (følger).
 
-**(2026-10-27)** **PayPal Q3** (rettelse — ikke 28. okt). UPS Q3.
+**(2026-10-27)** **PayPal Q3**. UPS Q3.
 
 **(2026-10-27–28)** FOMC.
 
-**(2026-10-28)** T-Mobile US Q3; Telenor Q3.
+**(2026-10-28)** T-Mobile US Q3 (følger); Telenor Q3 (følger); Alphabet Q3.
 
 **(2026-10-29)** Cognizant Q3 + Boliden Q3 (følgere).
 
 **(2026-10-30)** Sanofi Q3; Capgemini Q3; Wolters Kluwer Q3 (forventet).
 
-**(2026-11-03)** **Booking Holdings Q3 — BINÆRT** (rettelse — ikke ~27. okt). Philips Q3 (forventet). US midtermsvalg.
+**(2026-11-03)** **Booking Holdings Q3 — BINÆRT** (1,1 % over niveau!). Fiserv Q3 (kandidat?). Philips Q3. US midtermsvalg.
 
-**(2026-11-04)** Novo Nordisk Q3 + Ahold Delhaize Q3.
+**(2026-11-04)** Novo Nordisk Q3 + Ahold Delhaize Q3 + FIS Q3.
 
-**(2026-11-05)** Deutsche Telekom Q3 — nøgletest efter TMUS-chok.
+**(2026-11-05)** Deutsche Telekom Q3.
 
-**(2026-11-06)** Orkla Q3.
+**(2026-11-06)** Orkla Q3 + Charter Q3.
 
 **(2026-11-10)** US oktober-CPI.
 
 **(2026-11-11)** **Royal Unibrew Q3 — BINÆRT**.
 
-**(2026-11-13)** ACN dividend.
-
 **(2026-11-18)** Lowe's Q3.
 
 **(2026-11-19)** Intuit Q3 (forventet).
 
-**(2026-11-25)** **Rockwool Q3** (rettelse — ikke 6. nov).
+**(2026-11-25)** **Rockwool Q3**.
 
 **(2026-12-09)** Adobe Q4.
 
@@ -311,17 +334,21 @@ python3 production/load_env.py aktier   # når .env.aktier oprettes
 **(2026-12-18)** CCL Q4 (forventet, ubekræftet).
 
 **Følger (ikke feature endnu):**
-- TMUS/VZ/T — telekomchok 9. okt, shock-day lav. Bounce +7 % uge. Venter på højere bund.
-- CTSH (Cognizant) — −24 %, fwd 10,4, +70 % over bund. Passer bundreglen, men IT-services koncentration. Q3 29. okt.
-- BOL.ST (Boliden) — −27 %, P/E 12,0, +31 % over bund. Metals-cyklisk. Q3 29. okt.
-- COF (Capital One) — −22 %, fwd 8,4. Højere lavpunkt, men Q3 20. okt.
-- EPAM — −45 %, fwd 8,7. Samme logik som CTSH.
-- FISV — aktivist JANA, debit-talks. Feature hvis deal-nyt.
+- TMUS/VZ/T — telekom. TMUS nyt 52w closing low ($146,54). Ingen bekræftet bund endnu.
+- FISV/FIS — højere lav, Q3 3.–4. nov, kandidater for nr. 11–12.
+- BOL.ST (Boliden) — −33,6 %, P/E 10,9, −9,4 % før Q3 29. okt. Metals-cyklisk.
+- CTSH (Cognizant) — −19 %, fwd 11, IT-koncentration. Q3 29. okt.
+- COF (Capital One) — −22,5 %, fwd 8,4. Q3 aflagt 20. okt, finanssektoren faldt fredag.
+- EPAM — samme logik som CTSH.
 - CHTR — leverage veto (D/E >400 %, short >50 %).
-- NHY.OL — aluminium-cyklisk, −36 %, fwd 9,4.
-- DG.PA (Vinci) — fransk skat binær, yield 4,7 %.
-- Europæiske banker (BNP.PA, GLE.PA) — følger, ingen bund.
-- PRX.AS, MC.PA — stadig ingen bund.
+- NHY.OL — på 52w lav (−44 %), ingen bund.
+- Europæiske banker (BNP.PA, GLE.PA, ACA.PA) — RSI <30, ingen bund.
+- PRX.AS, MC.PA — stadig på 52w lavpunkter.
+
+**Afviste:**
+- MKC — trail P/E 8,7 men fwd P/E 14,9 (engangseffekt).
+- CPB — value-trap (36 % udbyttenedsættelse, leverage).
+- LULU/NKE/RI.PA — ingen re-entry (magasinregel).
 
 ## Log
 
@@ -335,3 +362,4 @@ python3 production/load_env.py aktier   # når .env.aktier oprettes
 - **2026-10-05 (post-merge rettelse):** SVG-filer rettet for UTF-8-kodningsfejl (cp1252 → UTF-8) og XML-well-formedness. Artikler 02–05, 07 og 10 rettet: fjernet usourcerede tal (ACN-medarbejdere, 65 %→57 %, Booking 90 % hotel, targets $230–250/$180–200/DKK 450–480), DAX-niveau korrigeret (21.918→25.231), falsk Reuters-fodnote erstattet med Boursier/TrustFinance, CAC 40/Vinci-kausalitet præciseret, udgivelsesdag søndag→mandag.
 - **2026-10-12:** Nr. 8 publiceret — *"SpaceX-chokket: telekom i frit fald — vi køber ikke kniven"*. Editor-led, ingen bylines, `productionCostUSD: 0`. **RI.PA exit** (€58,04 < €58,60 den 5. okt). **SpaceX telekomchok** (TMUS −13%, VZ −9%, T −10%). DTE.DE −7,9%, CMCSA −18% (holder, fundamental inv.). **Én ny kandidat: CCL** (Carnival, SATELLITE, Q3 beat-and-raise). Vi køber ikke TMUS/VZ/T — shock-day lav er præcis hvad vi stoppede med at købe. **Rettelse:** Comcast Q3 er 22. okt, ikke 24. okt (lørdag). **Ærligt scorecard:** 31 kandidater snit −3,8%, 8 i plus. Indekset slog os igen. Porteføljen nu **22 aktive** (21 fra nr.1–7 + 1 ny).
 - **2026-10-19:** Nr. 9 publiceret — *"Chipkrakket: Nasdaq −4,5 %, vores kandidater +3,7 % — og vi køber intet"*. Editor-led, ingen bylines, `productionCostUSD: 0`. **INGEN NYE KANDIDATER** — ærlig beslutning: faldende navne har ingen bund, bundnavne har regnskab inden for dage. **Chip-crash:** SMH −10 % uge (største siden apr 2025), Nasdaq −4,5 %. **Portefølje:** +3,7 % uge, 20 af 22 i plus. **Alle-picks snit +0,4 %** — første positive. **10 af 10 exits steget**: STZ +16,4 % til RI.PA +10,7 %. RI.PA +17,5 % fra single-close-bund — åbent spørgsmål om reglen. **Tre rettelser**: Booking Q3 = 3. nov, PayPal Q3 = 27. okt, Rockwool Q3 = 25. nov. Porteføljen stadig **22 aktive**.
+- **2026-10-26:** Nr. 10 publiceret — *"Volvo Car −25 % på en uge: exitten holdt — og vi køber Balder til halv substans"*. Editor-led, ingen bylines, `productionCostUSD: 0`. **VOLVO CAR Q3**: driftstab SEK 5,6 mia., aktien −24,6 % på ugen. Vores nr. 7-exit (18. sep) undgik −43 % vs entry. **Single-close-reglen holdt** — beslutning: vi holder reglen uændret. **Én ny kandidat: BALD-B.ST** (Balder, SATELLITE, ~50 % af NAV, invalidation < SEK 43,50). Scorecard: 32 kandidater +1,4 % (17 i plus), 22 aktive +5,1 % siden pub, +2,2 % uge (18 af 22 i plus). **BKNG 1,1 % over niveau — Q3 3. nov er BINÆRT.** Ingen invalidationer. Porteføljen nu **23 aktive** (22 + Balder).

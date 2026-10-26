@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" width="600" height="300">
+  <rect width="600" height="300" fill="#0D1B2A"/>
+  
+  <!-- Title -->
+  <text x="300" y="35" fill="#C9A227" font-family="system-ui, sans-serif" font-size="16" font-weight="bold" text-anchor="middle">BALD-B.ST — Fastighets AB Balder</text>
+  
+  <!-- Key metrics grid -->
+  <rect x="40" y="55" width="160" height="75" fill="#1E3A5F" rx="6"/>
+  <text x="120" y="80" fill="#8B9DC3" font-family="system-ui, sans-serif" font-size="10" text-anchor="middle">Pris / NAV</text>
+  <text x="120" y="110" fill="#40826D" font-family="system-ui, sans-serif" font-size="28" font-weight="bold" text-anchor="middle">~50 %</text>
+  
+  <rect x="220" y="55" width="160" height="75" fill="#1E3A5F" rx="6"/>
+  <text x="300" y="80" fill="#8B9DC3" font-family="system-ui, sans-serif" font-size="10" text-anchor="middle">P/B</text>
+  <text x="300" y="110" fill="#40826D" font-family="system-ui, sans-serif" font-size="28" font-weight="bold" text-anchor="middle">0,60</text>
+  
+  <rect x="400" y="55" width="160" height="75" fill="#1E3A5F" rx="6"/>
+  <text x="480" y="80" fill="#8B9DC3" font-family="system-ui, sans-serif" font-size="10" text-anchor="middle">Fwd P/E</text>
+  <text x="480" y="110" fill="#C9A227" font-family="system-ui, sans-serif" font-size="28" font-weight="bold" text-anchor="middle">9,4</text>
+  
+  <rect x="40" y="145" width="160" height="75" fill="#1E3A5F" rx="6"/>
+  <text x="120" y="170" fill="#8B9DC3" font-family="system-ui, sans-serif" font-size="10" text-anchor="middle">Lejeindtægter Q3</text>
+  <text x="120" y="200" fill="#40826D" font-family="system-ui, sans-serif" font-size="22" font-weight="bold" text-anchor="middle">+5,7 %</text>
+  
+  <rect x="220" y="145" width="160" height="75" fill="#1E3A5F" rx="6"/>
+  <text x="300" y="170" fill="#8B9DC3" font-family="system-ui, sans-serif" font-size="10" text-anchor="middle">Fra 12. okt bund</text>
+  <text x="300" y="200" fill="#40826D" font-family="system-ui, sans-serif" font-size="22" font-weight="bold" text-anchor="middle">+12,7 %</text>
+  
+  <rect x="400" y="145" width="160" height="75" fill="#1E3A5F" rx="6"/>
+  <text x="480" y="170" fill="#8B9DC3" font-family="system-ui, sans-serif" font-size="10" text-anchor="middle">LTV</text>
+  <text x="480" y="200" fill="#E74C3C" font-family="system-ui, sans-serif" font-size="22" font-weight="bold" text-anchor="middle">50,2 %</text>
+  
+  <!-- Bottom -->
+  <text x="300" y="250" fill="#C9A227" font-family="system-ui, sans-serif" font-size="12" text-anchor="middle">SATELLITE · Invalidation &lt; SEK 43,50</text>
+  <text x="300" y="275" fill="#8B9DC3" font-family="system-ui, sans-serif" font-size="10" text-anchor="middle">Bekræftet bund + indtruffet katalysator (Q3 23. okt)</text>
+</svg>
