@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="500" viewBox="0 0 700 500">
+  <rect width="700" height="500" fill="#0D1B2A"/>
+  
+  <text x="350.0" y="30" fill="#C9A227" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle">22 aktive kandidater − % siden publikation (30. okt 2026)</text>
+  
+  <!-- Zero line -->
+  <line x1="385.0" y1="50" x2="385.0" y2="470" stroke="#888" stroke-width="1"/>
+  
+  <rect x="385.0" y="50.0" width="245.7" height="15.3" fill="#40826D"/>
+<text x="95.0" y="61.6" fill="#888" font-family="Arial, sans-serif" font-size="10" text-anchor="end">WKL.AS</text>
+<text x="635.7" y="61.6" fill="white" font-family="Arial, sans-serif" font-size="9" text-anchor="start">+31.3%</text>
+<rect x="385.0" y="69.1" width="234.0" height="15.3" fill="#40826D"/>
+<text x="95.0" y="80.7" fill="#888" font-family="Arial, sans-serif" font-size="10" text-anchor="end">ACN</text>
+<text x="624.0" y="80.7" fill="white" font-family="Arial, sans-serif" font-size="9" text-anchor="start">+29.8%</text>
+<rect x="385.0" y="88.2" width="189.2" height="15.3" fill="#40826D"/>
+<text x="95.0" y="99.8" fill="#888" font-family="Arial, sans-serif" font-size="10" text-anchor="end">CAP.PA</text>
+<text x="579.2" y="99.8" fill="white" font-family="Arial, sans-serif" font-size="9" text-anchor="start">+24.1%</text>
+<rect x="385.0" y="107.3" width="186.1" height="15.3" fill="#40826D"/>
+<text x="95.0" y="118.9" fill="#888" font-family="Arial, sans-serif" font-size="10" text-anchor="end">INTU</text>
+<text x="576.1" y="118.9" fill="white" font-family="Arial, sans-serif" font-size="9" text-anchor="start">+23.7%</text>
+<rect x="385.0" y="126.4" width="84.8" height="15.3" fill="#40826D"/>
+<text x="95.0" y="138.0" fill="#888" font-family="Arial, sans-serif" font-size="10" text-anchor="end">PHIA.AS</text>
+<text x="474.8" y="138.0" fill="white" font-family="Arial, sans-serif" font-size="9" text-anchor="start">+10.8%</text>
+<rect x="385.0" y="145.5" width="82.4" height="15.3" fill="#40826D"/>
+<text x="95.0" y="157.1" fill="#888" font-family="Arial, sans-serif" font-size="10" text-anchor="end">LOW</text>
+<text x="472.4" y="157.1" fill="white" font-family="Arial, sans-serif" font-size="9" text-anchor="start">+10.5%</text>
+<rect x="385.0" y="164.5" width="73.8" height="15.3" fill="#40826D"/>
+<text x="95.0" y="176.2" fill="#888" font-family="Arial, sans-serif" font-size="10" text-anchor="end">CCL</text>
+<text x="463.8" y="176.2" fill="white" font-family="Arial, sans-serif" font-size="9" text-anchor="start">+9.4%</text>
+<rect x="385.0" y="183.6" width="72.2" height="15.3" fill="#40826D"/>
+<text x="95.0" y="195.3" fill="#888" font-family="Arial, sans-serif" font-size="10" text-anchor="end">RBREW.CO</text>
+<text x="462.2" y="195.3" fill="white" font-family="Arial, sans-serif" font-size="9" text-anchor="start">+9.2%</text>
+<rect x="385.0" y="202.7" width="73.0" height="15.3" fill="#40826D"/>
+<text x="95.0" y="214.4" fill="#888" font-family="Arial, sans-serif" font-size="10" text-anchor="end">UPS</text>
+<text x="463.0" y="214.4" fill="white" font-family="Arial, sans-serif" font-size="9" text-anchor="start">+9.3%</text>
+<rect x="385.0" y="221.8" width="60.5" height="15.3" fill="#40826D"/>
+<text x="95.0" y="233.5" fill="#888" font-family="Arial, sans-serif" font-size="10" text-anchor="end">SAN.PA</text>
+<text x="450.5" y="233.5" fill="white" font-family="Arial, sans-serif" font-size="9" text-anchor="start">+7.7%</text>
+<rect x="385.0" y="240.9" width="55.7" height="15.3" fill="#40826D"/>
+<text x="95.0" y="252.5" fill="#888" font-family="Arial, sans-serif" font-size="10" text-anchor="end">AD.AS</text>
+<text x="445.7" y="252.5" fill="white" font-family="Arial, sans-serif" font-size="9" text-anchor="start">+7.1%</text>
+<rect x="385.0" y="260.0" width="53.4" height="15.3" fill="#40826D"/>
+<text x="95.0" y="271.6" fill="#888" font-family="Arial, sans-serif" font-size="10" text-anchor="end">PEP</text>
+<text x="443.4" y="271.6" fill="white" font-family="Arial, sans-serif" font-size="9" text-anchor="start">+6.8%</text>
+<rect x="385.0" y="279.1" width="48.7" height="15.3" fill="#40826D"/>
+<text x="95.0" y="290.7" fill="#888" font-family="Arial, sans-serif" font-size="10" text-anchor="end">PYPL</text>
+<text x="438.7" y="290.7" fill="white" font-family="Arial, sans-serif" font-size="9" text-anchor="start">+6.2%</text>
+<rect x="385.0" y="298.2" width="38.5" height="15.3" fill="#40826D"/>
+<text x="95.0" y="309.8" fill="#888" font-family="Arial, sans-serif" font-size="10" text-anchor="end">ORK.OL</text>
+<text x="428.5" y="309.8" fill="white" font-family="Arial, sans-serif" font-size="9" text-anchor="start">+4.9%</text>
+<rect x="385.0" y="317.3" width="34.5" height="15.3" fill="#40826D"/>
+<text x="95.0" y="328.9" fill="#888" font-family="Arial, sans-serif" font-size="10" text-anchor="end">ROCK-B.CO</text>
+<text x="424.5" y="328.9" fill="white" font-family="Arial, sans-serif" font-size="9" text-anchor="start">+4.4%</text>
+<rect x="385.0" y="336.4" width="3.9" height="15.3" fill="#40826D"/>
+<text x="95.0" y="348.0" fill="#888" font-family="Arial, sans-serif" font-size="10" text-anchor="end">ADBE</text>
+<text x="393.9" y="348.0" fill="white" font-family="Arial, sans-serif" font-size="9" text-anchor="start">+0.5%</text>
+<rect x="383.4" y="355.5" width="1.6" height="15.3" fill="#ff4444"/>
+<text x="95.0" y="367.1" fill="#888" font-family="Arial, sans-serif" font-size="10" text-anchor="end">TEL.OL</text>
+<text x="378.4" y="367.1" fill="white" font-family="Arial, sans-serif" font-size="9" text-anchor="end">-0.2%</text>
+<rect x="367.7" y="374.5" width="17.3" height="15.3" fill="#ff4444"/>
+<text x="95.0" y="386.2" fill="#888" font-family="Arial, sans-serif" font-size="10" text-anchor="end">BALD-B.ST</text>
+<text x="362.7" y="386.2" fill="white" font-family="Arial, sans-serif" font-size="9" text-anchor="end">-2.2%</text>
+<rect x="355.2" y="393.6" width="29.8" height="15.3" fill="#ff4444"/>
+<text x="95.0" y="405.3" fill="#888" font-family="Arial, sans-serif" font-size="10" text-anchor="end">DTE.DE</text>
+<text x="350.2" y="405.3" fill="white" font-family="Arial, sans-serif" font-size="9" text-anchor="end">-3.8%</text>
+<rect x="323.0" y="412.7" width="62.0" height="15.3" fill="#ff4444"/>
+<text x="95.0" y="424.4" fill="#888" font-family="Arial, sans-serif" font-size="10" text-anchor="end">CMCSA</text>
+<text x="318.0" y="424.4" fill="white" font-family="Arial, sans-serif" font-size="9" text-anchor="end">-7.9%</text>
+<rect x="307.3" y="431.8" width="77.7" height="15.3" fill="#ff4444"/>
+<text x="95.0" y="443.5" fill="#888" font-family="Arial, sans-serif" font-size="10" text-anchor="end">NOVO-B.CO</text>
+<text x="302.3" y="443.5" fill="white" font-family="Arial, sans-serif" font-size="9" text-anchor="end">-9.9%</text>
+<rect x="292.4" y="450.9" width="92.6" height="15.3" fill="#ff4444"/>
+<text x="95.0" y="462.5" fill="#888" font-family="Arial, sans-serif" font-size="10" text-anchor="end">YAR.OL</text>
+<text x="287.4" y="462.5" fill="white" font-family="Arial, sans-serif" font-size="9" text-anchor="end">-11.8%</text>
+
+  
+  <text x="695" y="495" fill="#555" font-family="Arial, sans-serif" font-size="9" text-anchor="end">Kilde: Yahoo Finance</text>
+</svg>
