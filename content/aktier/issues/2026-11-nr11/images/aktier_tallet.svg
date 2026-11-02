@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400">
+  <rect width="600" height="400" fill="#0D1B2A"/>
+  <text x="300.0" y="35" fill="#C9A227" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle">Tallet: −12,6%</text>
+  <rect x="25.0" y="60" width="270.0" height="70" fill="#1a2a3a" rx="5"/>
+  <text x="160.0" y="90" fill="#888" font-family="Arial, sans-serif" font-size="12" text-anchor="middle">GOOGL</text>
+  <text x="160.0" y="115" fill="#ff4444" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle">−12,6%</text>
+  <rect x="305.0" y="60" width="270.0" height="70" fill="#1a2a3a" rx="5"/>
+  <text x="440.0" y="90" fill="#888" font-family="Arial, sans-serif" font-size="12" text-anchor="middle">~$500 mia.</text>
+  <text x="440.0" y="115" fill="#ff4444" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle">tabt</text>
+  <rect x="25.0" y="145" width="176.66666666666666" height="70" fill="#1a2a3a" rx="5"/>
+  <text x="113.33333333333333" y="175" fill="#888" font-family="Arial, sans-serif" font-size="12" text-anchor="middle">Trail P/E</text>
+  <text x="113.33333333333333" y="200" fill="#888" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle">14,6</text>
+  <rect x="211.66666666666666" y="145" width="176.66666666666666" height="70" fill="#1a2a3a" rx="5"/>
+  <text x="300.0" y="175" fill="#888" font-family="Arial, sans-serif" font-size="12" text-anchor="middle">Fwd P/E</text>
+  <text x="300.0" y="200" fill="#ff4444" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle">18,5</text>
+  <rect x="398.3333333333333" y="145" width="176.66666666666666" height="70" fill="#1a2a3a" rx="5"/>
+  <text x="486.66666666666663" y="175" fill="#888" font-family="Arial, sans-serif" font-size="12" text-anchor="middle">FCF</text>
+  <text x="486.66666666666663" y="200" fill="#ff4444" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle">−$9,1 mia.</text>
+</svg>

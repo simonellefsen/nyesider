@@ -1,0 +1,229 @@
+{
+  "magazine": "aktier",
+  "issue": "2026-11-nr11",
+  "issueTheme": "Alphabets værste dag nogensinde — vi griber ikke kniven, men køber T-Mobile efter regnskabet",
+  "budget": {
+    "articles": 8,
+    "wordsPerArticle": [320, 780],
+    "targetPages": 10,
+    "note": "Én ny kandidat (TMUS SATELLITE). Én exit (BKNG −3,7 %). Tallet handler om Alphabet −12,6 %. GOOGL på følgeliste. 23 aktive efter dette nummer."
+  },
+  "opgaver": [
+    {
+      "slug": "leder",
+      "order": 1,
+      "section": "Leder",
+      "brief": {
+        "angle": "GOOGL −12,6 % (værste dag nogensinde) — vi køber ikke kniven. TMUS ind (beat-and-raise, bekræftet bund). BKNG ud (−3,7 %). 23 aktive efter nr. 11.",
+        "words": [280, 350],
+        "mustCite": 2,
+        "format": "leder"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": 320,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "rewritten-by-editor",
+        "checkedAt": "2026-11-02",
+        "citations": 2,
+        "editorNote": "Editor-led. T-Mobile og CNBC Alphabet citeret."
+      }
+    },
+    {
+      "slug": "markedet",
+      "order": 2,
+      "section": "Markedet",
+      "brief": {
+        "angle": "S&P −0,6 % uge, Nasdaq −2,0 %. Fredag værste dag siden juni (Nasdaq −2,9 %, Intel −29 %, SOX −7 %). Torsdag Alphabet −12,6 % (rekord). Europa/Norden slog USA (OMXC25 +4,9 %).",
+        "words": [600, 720],
+        "mustCite": 6,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": 680,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "rewritten-by-editor",
+        "checkedAt": "2026-11-02",
+        "citations": 6,
+        "editorNote": "Editor-led. AP, CNBC, Reuters/StreetInsider, NBC News, Morningstar, T. Rowe Price citeret."
+      }
+    },
+    {
+      "slug": "tmus",
+      "order": 3,
+      "section": "Kandidaten",
+      "brief": {
+        "angle": "TMUS: $156,44, −30,4 % fra top, fwd P/E 11,0. Q3 beat-and-raise: rev $23,58 mia. (+7,4 %), EPS $3,22 (+34 %), guidance hævet. Bekræftet bund (23. okt $146,54, 28. okt intradag $143,75, derefter rally). SATELLITE. Risici: SpaceX, churn, DTE overlap. Invalidation < $143,50.",
+        "words": [680, 760],
+        "mustCite": 3,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": 720,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "rewritten-by-editor",
+        "checkedAt": "2026-11-02",
+        "citations": 3,
+        "editorNote": "Editor-led. T-Mobile IR, Investing.com, MarketWatch citeret."
+      }
+    },
+    {
+      "slug": "tallet",
+      "order": 4,
+      "section": "Tallet",
+      "brief": {
+        "angle": "−12,6 % — GOOGL værste dag siden 2004. Q3: rev miss, FCF −$9,1 mia. (2. kvartal), capex fastholdt. Trail P/E 14,6 vs fwd 18,5 (markedet forventer faldende earnings). Følgeliste-betingelse: højere lav > $273,50 + FCF-stabilisering.",
+        "words": [480, 560],
+        "mustCite": 3,
+        "format": "tallet"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": 520,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "rewritten-by-editor",
+        "checkedAt": "2026-11-02",
+        "citations": 3,
+        "editorNote": "Editor-led. Yahoo, NBC News, Reuters/StreetInsider citeret."
+      }
+    },
+    {
+      "slug": "etferne",
+      "order": 5,
+      "section": "ETF'erne",
+      "brief": {
+        "angle": "SPY −3,3 % fra top (P/E 24), QQQ −9,5 % (P/E 26), EUNL −2,1 %, OMXC25 −0,7 % (nær top). QQQ nærmeste kandidat, men P/E 26 + AI-capex-debat = korrektion, ikke bund. Ingen anbefaling.",
+        "words": [340, 420],
+        "mustCite": 0,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": 380,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "rewritten-by-editor",
+        "checkedAt": "2026-11-02",
+        "citations": 0,
+        "editorNote": "Editor-led. Alle tal fra Yahoo Finance."
+      }
+    },
+    {
+      "slug": "portefoeljen",
+      "order": 6,
+      "section": "Porteføljen",
+      "brief": {
+        "angle": "BKNG invalideret: $153,14 (26. okt) < $154,13, exit −3,7 %. 33 kandidater +2,4 % (20 i plus). 22 aktive +7,3 %, 16/22 i plus, uge +1,8 % (SPY −0,6 %). UPS/PYPL/SAN Q3 ankommet — hold. TMUS ind. 23 aktive efter nr. 11.",
+        "words": [720, 820],
+        "mustCite": 4,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": 780,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "rewritten-by-editor",
+        "checkedAt": "2026-11-02",
+        "citations": 4,
+        "editorNote": "Editor-led. MarketWatch BKNG, CNBC UPS, Investing.com PYPL, Sanofi Q3 citeret."
+      }
+    },
+    {
+      "slug": "folgelisten",
+      "order": 7,
+      "section": "Rygtebørsen",
+      "brief": {
+        "angle": "Følgeliste: GOOGL (tilføjet, betingelse), FISV/FIS (højere lav, Q3 3.–4. nov), T/VZ (fravalgt til fordel for TMUS), DG.PA/SGO.PA, COF/BOL.ST. Afviste: CTSH, MKC (fwd P/E), CPB (value-trap), NHY.OL (faldende kniv), NFLX/ORCL/banker. København/Oslo: ingen nye (OMXC25 nær top).",
+        "words": [480, 560],
+        "mustCite": 0,
+        "format": "rygteboersen"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": 520,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "rewritten-by-editor",
+        "checkedAt": "2026-11-02",
+        "citations": 0,
+        "editorNote": "Editor-led. Kort format, alle tal fra Yahoo Finance."
+      }
+    },
+    {
+      "slug": "bagsnit",
+      "order": 8,
+      "section": "Bagsnit",
+      "brief": {
+        "angle": "Selvkritik: BKNG 1,1 % over niveau i nr. 10 → brød mandagen efter. Alphabet vs. T-Mobile = nr. 7-reglen. TMUS SATELLITE (DTE overlap). Track record (33 +2,4 %, 22 aktive +7,3 %). Kalender for nr. 12. Disclaimer.",
+        "words": [340, 420],
+        "mustCite": 0,
+        "format": "bagsnit"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": 380,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "rewritten-by-editor",
+        "checkedAt": "2026-11-02",
+        "citations": 0,
+        "editorNote": "Editor-led. Disclaimer + selvkritik, ingen fodnoter påkrævet."
+      }
+    }
+  ]
+}
