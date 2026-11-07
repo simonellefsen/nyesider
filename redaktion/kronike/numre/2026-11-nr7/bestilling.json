@@ -1,0 +1,227 @@
+{
+  "magazine": "kronike",
+  "issue": "2026-11-nr7",
+  "issueTheme": "Oktober 1943 — jødeaktionen, advarslen og de 481",
+  "budget": {
+    "articles": 6,
+    "wordsPerArticle": [
+      150,
+      900
+    ],
+    "targetPages": 12,
+    "note": "Idébankens første nr. 7-kandidat og bagsideløftet fra nr. 6. Kompakt som nr. 4–6 (6 artikler). Features 700–900. Ikke hele Besættelsen: ét skarpt spor — efteråret 1943 fra regeringens ophør 29. august via Bests telegram 8. september til natten 1.–2. oktober og flugten. 9. april, samarbejdspolitikken 1940–43 og Inge Lehmann/Niels Bohr ligger uden for nummeret."
+  },
+  "opgaver": [
+    {
+      "slug": "leder",
+      "order": 1,
+      "section": "Leder",
+      "brief": {
+        "angle": "Kort leder: Dette nummer er ikke Besættelsen. Det er tre uger i efteråret 1943, da samarbejdets værn faldt, og aktionen mod de danske jøder blev sat i værk. Telegrammet 8. september, advarslen 28.–29. september, natten 1.–2. oktober. Ca. 8000 jøder i landet; 481 blev fanget; flere end 7000 nåede Sverige; 52 døde. Punktet er myte vs. kilde: redningen var enestående og ufuldstændig. 9. april og Inge Lehmann/Niels Bohr ligger udenfor.",
+        "words": [
+          150,
+          220
+        ],
+        "mustCite": 0,
+        "format": "leder"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": 153,
+        "costUSD": 0.0,
+        "draft": null
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-11-07",
+        "citations": 0,
+        "editorNote": "Editor-led leder, ingen API-kald — ingen byline, per husregel. Prislínje 0,1858 USD · 1,24 kr."
+      }
+    },
+    {
+      "slug": "telegrammet",
+      "order": 2,
+      "section": "Krig & krise",
+      "brief": {
+        "angle": "Feature om dokumentet, der satte jødeaktionen i gang: Werner Bests telegram nr. 1032 af 8. september 1943 kl. 13.10 til den tyske udenrigsminister Joachim von Ribbentrop. Brug PRÆCIS disse verificerede fakta og ingen andre tal/årstal, medmindre du kan slå dem op: Den danske regering ophørte 29. august 1943, efter at den havde afvist et tysk ultimatum (bl.a. dødsstraf for sabotage); Danmark var derefter i militær undtagelsestilstand, og departementschefstyret overtog administrationen. Samarbejdspolitikkens værn mod jødeforfølgelse faldt dermed. Werner Best (1903–1989), tysk rigsbefuldmægtiget i Danmark, sendte samme dag telegram nr. 1032, mærket Citissime (ekspres). Han skrev, at der nu også måtte tænkes på en løsning af jødespørgsmålet og frimurerspørgsmålet, og at forholdsreglerne burde tages under den nuværende undtagelsestilstand. Han anmodede om politistyrker, «for at man med eet Slag kan anholde og borttransportere ca. 6.000 Jøder (incl. Kvinder og Børn)», næsten udelukkende i Stor-København, og om skibe til borttransport. Frimurerne slap. Ifølge Gyldendal og Politikens Danmarkshistorie fik Best den 17. september meddelelse om, at aktionen var godkendt af Hitler (Ribbentrop havde forelagt spørgsmålet). SKELN KONSEKVENT: den 28. september er datoen for Duckwitz' advarsel til Hans Hedtoft — det er IKKE datoen for Hitlers ordre. danmarkshistorien.lex.dk's artikel om evakueringen skriver fejlagtigt, at Hitler beordrede deportationen 28. september; brug ikke den dato til Führerordren. Scene: telegrammet selv — København 8. september 1943 kl. 13.10, ankomst Berlin kl. 14.25. Navngivne, der SKAL kunne slås op: Werner Best, Joachim von Ribbentrop, Hermann von Hanneken (kommandant for de tyske tropper i Danmark). Opfind ALDRIG en navngiven menig, en dagbog eller et citat ud over telegrammets egne sætninger. Opfind ALDRIG et citat tilskrevet Best efter krigen. Gæt aldrig en URL; skriv værkets titel, hvis du er usikker. Tilladte, verificerede URL'er: https://danmarkshistorien.lex.dk/Werner_Best_Telegram_til_den_tyske_udenrigsminister_von_Ribbentrop_om_j%C3%B8deaktionen,_8._september_1943 ; https://lex.dk/J%C3%B8deaktionen ; https://gyldendalogpolitikensdanmarkshistorie.lex.dk/Oktober_1943 ; https://danmarkshistorien.lex.dk/Augustopr%C3%B8ret_29._august_1943 . Skriv IKKE Duckwitz, Melchior, synagogen eller flugten over Øresund i dybden — de ligger i andre artikler i samme nummer. Skriv IKKE 9. april 1940 i dybden.",
+        "words": [
+          700,
+          900
+        ],
+        "mustCite": 3,
+        "mustNumber": [
+          "29. august 1943",
+          "8. september 1943",
+          "ca. 6.000"
+        ],
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 699,
+        "costUSD": 0.027778,
+        "draft": "kladder/02-telegrammet.md",
+        "costRouting": "byok",
+        "generationId": "gen-1794035770-AyUu9F1HtnYjxQjFgblp"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-11-07",
+        "citations": 4,
+        "editorNote": "Fjernede Dagmarhus (ikke i telegrammet). 74→75 minutter. von Hanneken var allerede troppekommandant. Sonnet skrev literal \\u00a0. Fire verificerede URL'er. Landet 817 ord."
+      }
+    },
+    {
+      "slug": "advarslen",
+      "order": 3,
+      "section": "Krig & krise",
+      "brief": {
+        "angle": "Feature om, hvordan advarslen spredte sig 28.–29. september 1943 — tre dage før razziaen. Brug PRÆCIS disse verificerede fakta: G.F. Duckwitz (Georg Ferdinand Duckwitz, 29. september 1904 – 16. februar 1973), tysk skibsfartssagkyndig ved gesandtskabet i København og nær fortrolig til Werner Best, rejste i dybeste hemmelighed 22.–25. september 1943 til Stockholm og forhandlede med den svenske statsminister Per Albin Hansson om at modtage de danske jøder. Tilbage i Danmark orienterede Duckwitz den 28. september i forståelse med Werner Best Socialdemokratiets tidligere formand Hans Hedtoft og den øvrige topledelse i partiet om den forestående aktion. C.B. Henriques (Carl Bertel Henriques, 6. november 1870 – 13. juli 1957), højesteretssagfører og fra 1930 formand for Mosaisk Troessamfunds repræsentantskab, var en af de første, der blev underrettet; han var blevet arresteret af tyskerne 29. august, men hurtigt løsladt. Overrabbiner Max Friediger sad interneret i Horserødlejren. Derfor var det rabbiner Marcus Melchior (26. maj 1897 – 22. december 1969) — ikke overrabbiner; den titel fik han først i 1947 — der ledede gudstjenesten. Morgenen den 29. september 1943, jødisk nytår (rosh hashaná), advarede Melchior menigheden i synagogen i Krystalgade og bad dem sprede budskabet. Samme dag skrev Københavns biskop Hans Fuglsang-Damgaard på vegne af de danske biskopper hyrdebrevet «Den danske kirkes stilling til jødespørgsmålet», som blev sendt til de tyske myndigheder via departementscheferne og oplæst i kirkerne søndag 3. oktober. Advarslen nåede Nils Svenningsen, direktør i Udenrigsministeriet og leder af departementschefstyret, om morgenen den 29. september. Scene: synagogen i Krystalgade morgenen den 29. september 1943. Navngivne, der SKAL kunne slås op: G.F. Duckwitz, Hans Hedtoft, C.B. Henriques, Marcus Melchior, Hans Fuglsang-Damgaard, Per Albin Hansson. Kald IKKE Melchior overrabbiner i 1943. SKELN: 28. september er Duckwitz' advarsel; 17. september (Gyldendal) er den dato, Best fik Hitlers godkendelse — bland dem ikke. Opfind ALDRIG en navngiven nabo, fisker, mælkedreng eller et dagbogscitat. Opfind ALDRIG et direkte citat fra Melchior, Henriques eller Hedtoft. Gæt aldrig en URL. Tilladte, verificerede URL'er: https://lex.dk/G.F._Duckwitz ; https://lex.dk/Marcus_Melchior ; https://biografiskleksikon.lex.dk/C.B._Henriques ; https://danmarkshistorien.lex.dk/De_danske_biskoppers_hyrdebrev_af_29._september_1943_%22Den_danske_kirkes_stilling_til_j%C3%B8desp%C3%B8rgsm%C3%A5let%22 ; https://lex.dk/J%C3%B8deaktionen . Skriv IKKE selve razziaen natten 1.–2. oktober eller transporterne over Øresund i dybden.",
+        "words": [
+          700,
+          900
+        ],
+        "mustCite": 3,
+        "mustNumber": [
+          "22.–25. september 1943",
+          "28. september 1943",
+          "29. september 1943"
+        ],
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "GPT-5.6 Terra (OpenAI)",
+        "model": "openai/gpt-5.6-terra",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 791,
+        "costUSD": 0.0311105,
+        "draft": "kladder/03-advarslen.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1794035819-dm8xVwFlUCfcO2667lIl"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-11-07",
+        "citations": 7,
+        "editorNote": "17. september citeret til Gyldendal, ikke lex Jødeaktionen. Melchior ikke kaldt overrabbiner. Friediger via DBL. Landet 750 ord."
+      }
+    },
+    {
+      "slug": "natten",
+      "order": 4,
+      "section": "Krig & krise",
+      "brief": {
+        "angle": "Feature om natten 1.–2. oktober 1943 og det, der fulgte: tomme lejligheder, 481 fanget, flere end 7000 over Øresund, 52 døde. Brug PRÆCIS disse verificerede fakta: Der boede ca. 8000 jøder i Danmark; ca. 5000 af dem i København. Gestapo indfandt sig natten til den 2. oktober. De allerfleste havde forladt deres bopæl. Den første officielle, koordinerede aktion varede tre timer; derefter erklærede Werner Best, at den ikke ville blive gentaget, og indberettede til Berlin, at Danmark nu var judenrein. Tysk politi og Værnemagten optrådte passivt i de følgende dage. Kun 481 jøder blev fanget og ført til kz-lejren Theresienstadt i Bøhmen (lex.dk/Jødeaktionen, Hans Kirchhoff). Flere end 7000 nåede at flygte til Sverige (ca. 95 % ifølge danmarkshistorien.lex.dk). Af de tilfangetagne døde 52, fortrinsvis syge og gamle. De i alt 600–700 transporter fandt sted fra Sjællands nord- og østkyst. Centralt i hjælpen stod de københavnske hospitaler som opsamlings- og transitsteder. I oktober 1943 lå prisen pr. person et sted mellem 1300 og 1500 kr.; en faglært arbejders månedsløn var godt 400 kr. (danmarkshistorien.lex.dk — mærk tallene som den artikels angivelse). Sverige havde proklameret villighed til at modtage de danske jøder. Nils Svenningsen og Werner Best forhandlede efter aktionen en aftale: de deporterede danske jøder skulle ikke sendes videre fra Theresienstadt til en udryddelseslejr, og de kunne modtage pakker fra Dansk Røde Kors. De overlevende blev hjembragt i april 1945 med de hvide busser. SKELN 481 (fanget, Kirchhoff/lex) fra afrundinger som «ca. 500» og fra 472 (folkedrab.dk/lex Theresienstadt om afsendte). Brug 481 som det hårde tal for fangne, 52 for døde. Scene: tomme københavnske lejligheder natten til den 2. oktober 1943. Navngivne: Werner Best, Nils Svenningsen. Opfind ALDRIG en navngiven fisker, flygtningefamilie, læge eller et dagbogscitat. Opfind ALDRIG et henrettelses- eller overlevelsestal ud over 481 og 52. Gæt aldrig en URL. Tilladte, verificerede URL'er: https://lex.dk/J%C3%B8deaktionen ; https://danmarkshistorien.lex.dk/J%C3%B8deaktionen_og_evakueringen_af_danske_j%C3%B8der_i_oktober_1943 ; https://lex.dk/Theresienstadt . Skriv IKKE Duckwitz' Stockholm-rejse eller Melchiors gudstjeneste i dybden.",
+        "words": [
+          700,
+          900
+        ],
+        "mustCite": 3,
+        "mustNumber": [
+          "1.–2. oktober 1943",
+          "481",
+          "52",
+          "600–700"
+        ],
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "Gemini 3.1 Pro Preview (Google)",
+        "model": "google/gemini-3.1-pro-preview",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 845,
+        "costUSD": 0.108664,
+        "draft": "kladder/04-natten.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1794035856-YXaDkMH265YcM6r7uxZH"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-11-07",
+        "citations": 4,
+        "editorNote": "Fjernede opfundet scenedekor (kaffekopper, falske diagnoser, vitaminpiller) og forkert årsløn-sammenligning. 481 vs 472 skelnet. Landet 711 ord."
+      }
+    },
+    {
+      "slug": "tallet",
+      "order": 5,
+      "section": "Tallet",
+      "brief": {
+        "angle": "Tallet: en lille kildetabel over oktober 1943. Fire rækker, hver med ét hårdt tal + år + kilde: (1) 29. august 1943 — den danske regering ophører; samarbejdets værn falder. (2) 8. september 1943 — Bests telegram nr. 1032: ca. 6.000 jøder skal anholdes «med eet Slag». (3) 481 — jøder fanget og ført til Theresienstadt (lex.dk/Jødeaktionen, Kirchhoff). (4) 52 — af de tilfangatagne døde. Mærk 481 og 52 som Kirchhoffs tal; «flere end 7000» og «ca. 8000» er ordenstørrelser, ikke fjerde række. Ingen opfundne personer. Ingen gætte-URL'er. Tilladte URL'er: https://lex.dk/J%C3%B8deaktionen ; https://danmarkshistorien.lex.dk/Werner_Best_Telegram_til_den_tyske_udenrigsminister_von_Ribbentrop_om_j%C3%B8deaktionen,_8._september_1943 .",
+        "words": [
+          250,
+          450
+        ],
+        "mustCite": 2,
+        "mustNumber": [
+          "29. august 1943",
+          "481",
+          "52"
+        ],
+        "format": "tallet"
+      },
+      "writer": {
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 307,
+        "costUSD": 0.017536,
+        "draft": "kladder/05-tallet.md",
+        "costRouting": "byok",
+        "generationId": "gen-1794035956-jJTmrYiGAhI5lGyq9r0f"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-11-07",
+        "citations": 2,
+        "editorNote": "Fjernede forkert telegramcitat («alle Jøder»). Beholdt ca. 6.000 / 481 / 52. To verificerede URL'er."
+      }
+    },
+    {
+      "slug": "myter",
+      "order": 6,
+      "section": "Myter & missforståelser",
+      "brief": {
+        "angle": "Myter-bagsnit: afmonter to myter, ikke tre løse påstande. (1) «Christian 10. red med gul davidsstjerne gennem København.» Det skete ikke. Jødestjernen blev ikke indført i Danmark (heller ikke i Norge). Kongen skrev 10. september 1941 i sin dagbog, at hvis kravet kom, «imødegik vi det bedst ved, at vi alle anlagde Davidsstjernen» — en privat note, ikke en ridetur. Gyldendal nævner, at myten har affødt beretningen i den jødiske historieskrivning. (2) «Danmark reddede alle jøder, og Duckwitz var den eneste tyske helt.» 481 blev fanget; 52 døde. Flere end 7000 flygtede. Det er enestående i holocausts historie, og det er ikke 100 %. Duckwitz advarede 28. september i forståelse med Werner Best, som selv havde foreslået aktionen 8. september og lækket tidspunktet. Redningen var dobbeltspil + svensk kyst + civile både, ikke én mands heltegerning. Skriv IKKE et opdigtet citat tilskrevet Christian 10., Duckwitz, Best eller en historiker. Gæt aldrig en URL. Tilladte URL'er: https://lex.dk/j%C3%B8destjerne ; https://lex.dk/J%C3%B8deaktionen ; https://lex.dk/G.F._Duckwitz ; https://gyldendalogpolitikensdanmarkshistorie.lex.dk/Oktober_1943 .",
+        "words": [
+          350,
+          550
+        ],
+        "mustCite": 2,
+        "format": "myter"
+      },
+      "writer": {
+        "byline": "DeepSeek V3.2 (DeepSeek)",
+        "model": "deepseek/deepseek-v3.2",
+        "fallback": null
+      },
+      "receipt": {
+        "words": 344,
+        "costUSD": 0.0007511,
+        "draft": "kladder/06-myter.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1794035981-KUmCukemXW1G9nFLdKK7"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-11-07",
+        "citations": 5,
+        "editorNote": "Rettet: jødestjernen blev heller ikke indført i Norge. Fjernede 7800/7200. Duckwitz advarede Hedtoft, ikke «modstandsfolk». Dagbog via Kristeligt Dagblad."
+      }
+    }
+  ]
+}

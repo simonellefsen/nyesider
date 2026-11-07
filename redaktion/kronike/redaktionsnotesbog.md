@@ -269,13 +269,38 @@ Struktur: kroningsdokument vs. unionsbrev 1397; Norge blev (Bergen 1450, Norgesp
 - Kort via `generate_map.py` sprunget over (nr. 5-læringen om brudt `.venv`/geopandas).
 - `check_links.py` fejler på rå `ø` i URL (ascii-codec). Samme side svarer 200 med `%C3%B8` (`Unionsbrevet_1397_om_regeringsud%C3%B8velsen_i_Kalmarunionen`). Apostrof-læringen fra nr. 2 gælder stadig: test den form, artiklen ender med.
 
-## Nr. 7 — kandidater
+## Nr. 7 — udgivet 2026-11-07
 
-- **(2026-08) Besættelsen 1940–45 (uden at æde hele nummeret)**
+**Tema:** Oktober 1943 — jødeaktionen, advarslen og de 481
+**Slug:** `2026-11-nr7`
+6 artikler, **3.074 ord**. Fem artikler reelt kommissioneret på `.env.kronike` (Claude Sonnet 5 ×2, GPT-5.6 Terra, Gemini 3.1 Pro Preview, DeepSeek V3.2); lederen er chefredaktionens og har **ingen byline**. Samlet forbrug **0,1858 USD** (1,24 kr. ved Nationalbankens USD/DKK 6,6952 den 6. november 2026). `check_issue.py`: se produktion. `bestilling.json`: `redaktion/kronike/numre/2026-11-nr7/bestilling.json`.
+
+Ikke hele Besættelsen. Spor: efteråret 1943 fra regeringens ophør 29. august via Bests telegram 8. september til natten 1.–2. oktober. 9. april og Inge Lehmann/Niels Bohr ligger udenfor.
+
+Struktur: telegram 1032; advarslen 28.–29. september (Duckwitz, Melchior, hyrdebrevet); natten og de 481; Tallet og Myter i bagsnittet.
+
+### Kernetal
+
+- **29. august 1943:** regeringen ophører; samarbejdets værn falder.
+- **8. september 1943:** Bests telegram nr. 1032 — ca. 6.000 jøder «med eet Slag».
+- **17. september:** Best får meddelelse om Hitlers godkendelse (Gyldendal). **28. september er Duckwitz' advarsel, ikke Führerordren.**
+- **481** fanget (Kirchhoff/lex); **52** døde; flere end 7.000 flygtede.
+
+### Fact-check
+
+- Sonnet 5: literal `\\u00a0`; «74 minutter» var 75; Dagmarhus stod ikke i telegrammet.
+- Tallet-kladden citerede telegrammet for «alle Jøder» — teksten siger ca. 6.000.
+- Myter-kladden skrev, at stjernen blev indført i Norge; lex.dk: hverken Danmark eller Norge.
+- Gemini opfandt scenedekor (kaffekopper, falske diagnoser, vitaminpiller) og en årsløn-sammenligning. 1.300–1.500 kr. er tre til fire måneders faglært løn pr. person.
+- Kort sprunget over (brudt `.venv`).
+
+## Nr. 8 — kandidater
+
 - **(2026-08) Inge Lehmann / Niels Bohr — videnskabsbiografier**
 
 ## Log
 
+- **2026-11-07:** Nr. 7 udgivet — "Oktober 1943 (jødeaktionen)". Features 700–900. Se læringen: 17. september (Hitler-godkendelse, Gyldendal) og 28. september (Duckwitz) skal holdes ude fra hinanden i *hver* brief; 481 vs. 472 er to tal, ikke ét.
 - **2026-10-18:** Nr. 6 udgivet — "Kalmarunionen i dybden (Norge/Sverige)". Features 700–900. Se læringen: gætte-URL'er på snl.no og danmarkshistorien.dk igen; DeepSeek opfandt/blandede Enemark-titel; verificér slægtskab og personer (Kristina Gyllenstierna ok, Carsten Due-Nielsen i nr. 5 var det ikke).
 - **2026-10-03:** Nr. 5 udgivet — "Slesvig-Holsten før 1864". Features 700–900. Se læringen: to dokumenter fra 1851–52 (noter vs. traktat) skal holdes ude fra hinanden i *hver* brief, der nævner 1864-årsagen; Gemini gættede underskriftsstedet.
 - **2026-09-12:** Nr. 4 udgivet — "Christian 4. og stormagtstiden". Se læringen ovenfor: en

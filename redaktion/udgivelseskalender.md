@@ -40,6 +40,7 @@ Håndhæves som **ERROR** i `production/check_issue.py` (og dermed i `npm run pr
 | 2026-10-19 | aktier/2026-10-nr9 (nr. 9) |
 | 2026-10-26 | aktier/2026-10-nr10 (nr. 10) |
 | 2026-11-02 | aktier/2026-11-nr11 (nr. 11) |
+| 2026-11-07 | gnisten/2026-11-nr8 (nr. 8); kronike/2026-11-nr7 (nr. 7) |
 
 ## Efter magasin
 
@@ -82,6 +83,7 @@ Håndhæves som **ERROR** i `production/check_issue.py` (og dermed i `npm run pr
 | 5 | `2026-09-nr5` | 2026-09-05 | published | Skyen som standardvalg — hvad koster det at komme i gang? |
 | 6 | `2026-10-nr6` | 2026-10-03 | published | Indbakken uden at trykke send — kan AI rydde op uden at sende, slette eller love noget på dine vegne? |
 | 7 | `2026-10-nr7` | 2026-10-18 | published | Grok Bot, Muse og dots — tre always-on-agenter med egen cloud-computer, set fra en ikke-programmør |
+| 8 | `2026-11-nr8` | 2026-11-07 | published | Hvad der sker, når AI får lov at se dine filer — mapper, vedhæftninger og cloud-computerens filsystem — og hvordan du holder mappen lukket |
 
 ### horisonten
 
@@ -141,6 +143,7 @@ Håndhæves som **ERROR** i `production/check_issue.py` (og dermed i `npm run pr
 | 4 | `2026-09-nr4` | 2026-09-12 | published | Christian 4. og stormagtstiden — byggekongen, der forarmede sit rige |
 | 5 | `2026-10-nr5` | 2026-10-03 | published | Slesvig-Holsten før 1864 — hertugdømmerne, helstaten og den forfatning, der blev påskud |
 | 6 | `2026-10-nr6` | 2026-10-18 | published | Kalmarunionen i dybden — tre riger, to dokumenter, ét kongefællesskab set fra Norge og Sverige |
+| 7 | `2026-11-nr7` | 2026-11-07 | published | Oktober 1943 — jødeaktionen, advarslen og de 481 |
 
 ### kulturboxen
 

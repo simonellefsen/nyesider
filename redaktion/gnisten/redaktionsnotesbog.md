@@ -1,6 +1,6 @@
 # GNISTEN – Redaktionsnotesbog
 
-Redaktionel backlog og noter — opdateret efter nr. 7 (oktober 2026, "Tre always-on-agenter"). Modelerfaringer ligger i det fælles [modelkartotek](../modelkartotek.md).
+Redaktionel backlog og noter — opdateret efter nr. 8 (november 2026, "Filer og mappen lukket"). Modelerfaringer ligger i det fælles [modelkartotek](../modelkartotek.md).
 
 ## Identitet
 
@@ -199,6 +199,29 @@ udskiftet med newsroom, introducing.muse.ai og research.meta.ai, som svarer 200.
 Muse-priser står derfor uden dollarbeløb. OpenAI Help 403 som i nr. 6.
 `bestilling.json`: `redaktion/gnisten/numre/2026-10-nr7/bestilling.json`.
 
+## Nr. 8 — udgivet 2026-11-07
+
+**Tema:** Filer — mapper, vedhæftninger og cloud-computerens filsystem —
+og hvordan du holder mappen lukket. Indfrier bagsideløftet fra nr. 6/7.
+**7 artikler, 3.138 ord.** Fem artikler reelt kommissioneret på
+`.env.gnisten`; leder og Regningen er redaktionens uden byline.
+Forbrug **0,1887 USD · 1,26 kr.** (kurs 6,6596, 5. november 2026, DNVALD).
+Værkstedet på Claude Sonnet 5, bevidst ikke Gemini 3.1 Pro.
+Tre døre: vedhæftning, forbundet mappe/drev, computerens filsystem.
+Tre bremser: dummy-fil, Disconnect før Drive, Never allow/Revoke før lokal disk.
+Muse Mac Help (Full Disk Access) svarede 400 til `check_links` — citater
+udskiftet med newsroom og muse.ai/blog/security…, som svarer 200.
+OpenAI 9309188 omdirigerer til 11487775 (Settings → Plugins, ikke Connected apps).
+`bestilling.json`: `redaktion/gnisten/numre/2026-11-nr8/bestilling.json`.
+
+### Disconnect sletter ikke det, den allerede har læst
+
+OpenAI skriver det rent ud om dots: at afbryde et plugin stopper ny adgang,
+men sletter ikke kontekst, agenten allerede har bygget. ChatGPT sletter
+heller ikke en Library-fil, når du sletter chatten. Grok Bots `/workspace`
+overlever sletning af en Bot. Det er tre forskellige «luk»-knapper, og
+ingen af dem tømmer det, der allerede er inde.
+
 ### Meta Help 400 er ikke det samme som OpenAI 403
 
 `check_links.py` behandler 403/406/429 som unverifiable, men 400 som død.
@@ -211,14 +234,19 @@ siger.
 ## Løfter givet i nr. 6
 
 - ~~**Bagsiden:** hvad der sker, når AI får lov at se dine filer — og hvordan du siger nej.~~
-  «Sige nej» **brugt i nr. 7** (2026-10-18). «Filer» udsat til nr. 8.
+  «Sige nej» **brugt i nr. 7** (2026-10-18). «Filer» **brugt i nr. 8** (2026-11-07).
 
 ## Løfter givet i nr. 7
 
-- **Bagsiden:** hvad der sker, når AI får lov at se dine filer — mapper, vedhæftninger
-  og cloud-computerens filsystem — og hvordan du holder mappen lukket.
+- ~~**Bagsiden:** hvad der sker, når AI får lov at se dine filer — mapper, vedhæftninger
+  og cloud-computerens filsystem — og hvordan du holder mappen lukket.~~
+  **Indfriet i nr. 8** (2026-11-07).
 
-## Historier i støbeskeen til nr. 8+
+## Løfter givet i nr. 8
+
+- **Bagsiden:** når AI vil huske dig på tværs af samtaler — hukommelse — og hvordan du tømmer den.
+
+## Historier i støbeskeen til nr. 9+
 
 - ~~Sikkerhed for MCP~~ → **brugt i nr. 4** (2026-08-29).
 - ~~Agent niveau 2~~ → **brugt i nr. 4** (2026-08-29).
@@ -226,7 +254,8 @@ siger.
 - ~~Gratis at komme i gang: GitHub, Vercel, Supabase~~ → **brugt i nr. 5** (2026-09-05).
 - ~~Indbakke-oprydning uden send/slet/løfte~~ → **brugt i nr. 6** (2026-10-03).
 - ~~Hvordan man siger nej~~ → **brugt i nr. 7** (2026-10-18).
-- **Filer — mapper, vedhæftninger, cloud-computerens filsystem** — nr. 8's bagsideløfte.
+- ~~Filer — mapper, vedhæftninger, cloud-computerens filsystem~~ → **brugt i nr. 8** (2026-11-07).
+- **Hukommelse — når AI vil huske dig, og hvordan du tømmer den** — nr. 9's bagsideløfte.
 - **(2026-08) Læserindsendte prompts** — saml, hvis der kommer svar.
 
 ## Praktisk
@@ -235,6 +264,10 @@ siger.
 - OpenRouter: **kun** `.env.gnisten`. Imagine: `.env.local`.
 
 ## Log
+
+- **2026-11-07:** Nr. 8 udgivet — 'Filer og mappen lukket', indfrier nr. 6/7's
+  fil-løfte. Fem reelle kald, 0,1887 USD · 1,26 kr. Værkstedet på Sonnet 5.
+  Bagsideløfte nr. 9: hukommelse.
 
 - **2026-10-18:** Nr. 7 udgivet — 'Tre always-on-agenter', indfrier nr. 6's «sige nej»;
   filer udsat til nr. 8. Fem reelle kald, 0,1835 USD. Værkstedet på Sonnet 5.

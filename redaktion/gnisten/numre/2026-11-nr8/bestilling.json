@@ -1,0 +1,251 @@
+{
+  "magazine": "gnisten",
+  "issue": "2026-11-nr8",
+  "issueTheme": "Hvad der sker, når AI får lov at se dine filer — mapper, vedhæftninger og cloud-computerens filsystem — og hvordan du holder mappen lukket. Indfrier bagsideløftet fra nr. 6/7.",
+  "budget": {
+    "articles": 7,
+    "wordsPerArticle": [
+      400,
+      750
+    ],
+    "targetPages": 10,
+    "note": "Indfrier nr. 6/7's bagsideløfte om filer. Syv artikler som nr. 7. Fem reelt kommissioneret. Værkstedet på Sonnet 5, ikke Gemini 3.1 Pro. Tre døre: vedhæftning, forbundet mappe/drev, computerens filsystem. Tre bremser: dummy-fil, Disconnect før Drive, Never allow/Revoke før lokal disk."
+  },
+  "opgaver": [
+    {
+      "slug": "leder",
+      "order": 1,
+      "section": "Leder",
+      "brief": {
+        "angle": "Kort leder der indfrier nr. 6/7's bagsideløfte: hvad der sker, når AI får lov at se dine filer. Tre døre — vedhæftning (én fil du selv vælger), forbundet mappe eller drev, og cloud-computerens filsystem plus din egen disk. Pointen er ikke at forbyde filer, men at læseren uden kode kan holde mappen lukket, indtil opgaven kræver den. Krydslink til nr. 7's nej-nummer. Produktionsprislinjen indsættes efter --sum.",
+        "words": [
+          150,
+          250
+        ],
+        "mustCite": 0,
+        "format": "leder"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": 152,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-11-07",
+        "citations": 0,
+        "editorNote": "Redaktionens egen leder, ingen byline, ingen API-kald. Indfrier nr. 6/7's fil-løfte. Produktionspris 0,1887 USD · 1,26 kr."
+      }
+    },
+    {
+      "slug": "kortet",
+      "order": 2,
+      "section": "Kortet",
+      "brief": {
+        "angle": "To korte nyhedsnotitser til begyndere, uden forudsætninger. Ikke et genoptryk af nr. 7's tre agenter. Dette er fil-landskabet november 2026. (1) Tre døre, ikke én: en vedhæftet fil er ikke det samme som en forbundet mappe, og det er ikke det samme som agentens egen computer. ChatGPT: du vedhæfter filer i samtalen — dokumenter og præsentationer op til 512 MB pr. fil, gratisplan 3 uploads om dagen, betalte 80 filer pr. 3 timer; sletning af chatten sletter ikke filen i Library. Brug PRÆCIS: https://help.openai.com/articles/8555545-file-uploads-faq (Uploading files and audio to ChatGPT, opdateret 7. nov. 2026) — «Documents and presentations have a maximum size of 512 MB per file»; «You can upload up to 80 files every 3 hours. Free users are limited to 3 file uploads per day»; «Deleting a chat does not delete a file saved separately in Library or Space.» Claude Cowork: «Works directly in folders and tools you choose»; «You choose the folders and tools. Claude is designed to work only within what you choose. Deleting anything needs your approval.» Brug https://claude.com/product/cowork og https://support.claude.com/en/articles/13345190-get-started-with-claude-cowork — «Direct local file access: On desktop, Claude can read from and write to your local files without manual uploads or downloads»; «Claude can only read and write files in folders you've connected»; «When using Cowork, Claude requires your explicit permission before permanently deleting any files.» (2) Computerens filsystem er fælles — og lokal disk er et ekstra ja. Grok Bot: alle dine Bots deler én cloud-computer; filer i /workspace kan læses af de andre Bots; 20 vedhæftninger pr. besked, dokumenter 250 MB. Brug https://docs.x.ai/grok-bot/files-and-results (opdateret 29. okt. 2026) — Attachments per message 20; Documents 250 MB each; «Bots can read files other Bots save in /workspace.» Og https://docs.x.ai/grok-bot/computer-and-apps — «Every Bot on your account uses the same computer»; «Files are visible to every Bot»; «Do not place a credential or file on it if another Bot on your account should not be able to use it.» Lokal disk er separat: https://docs.x.ai/grok-bot/approvals-security-and-privacy — Settings → Computer → Your computer: Ask every time (default), Always allow, Never allow; «Use Never allow unless a Bot has a specific reason to work on your local files.» dots: cloud-computeren har egne filer; lokal computer starter slået FRA; Allow access / Revoke access; Offline er ikke det samme som Revoke. Brug https://learn.chatgpt.com/docs/dots/computers-and-apps — «An Offline status means the computer is unavailable; it doesn't revoke the connection. Select Revoke access to remove access.» Muse på Mac: Full Disk Access dækker ALLE filer på Mac'en. Brug https://www.meta.com/help/artificial-intelligence/1126304576638594/ — «This permission covers all the files on your Mac»; sluk i System Settings → Privacy & Security. Muse er ifølge Meta (nr. 7) US/Canada — opdigt ikke en dansk dato. Forklar vedhæftning, mappe, cloud-computer og Full Disk Access i parentes første gang. Nævn IKKE udvikler-API, MCP-serveropsætning eller terminalinstallation.",
+        "words": [
+          400,
+          600
+        ],
+        "mustCite": 3,
+        "mustNumber": [
+          "ChatGPT: 512 MB pr. dokument; gratis 3 uploads/dag; 80 filer pr. 3 timer",
+          "Grok Bot: 20 vedhæftninger pr. besked; dokumenter 250 MB; /workspace delt"
+        ],
+        "format": "kortet"
+      },
+      "writer": {
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 561,
+        "costUSD": 0.038046,
+        "draft": "kladder/02-kortet.md",
+        "costRouting": "byok",
+        "generationId": "gen-1794035788-5SbzetZrpkakai6VXQO7"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-11-07",
+        "citations": 9,
+        "editorNote": "Rettet kladdens 'Metas egen dokumentation' om /workspace til xAI. Splittede den samlede Cowork-fodnote. Muse US/Canada belagt med newsroom 29. sep. Never allow som anbefaling, Ask every time som default."
+      }
+    },
+    {
+      "slug": "fokus-filer",
+      "order": 3,
+      "section": "Fokus",
+      "brief": {
+        "angle": "Fokus-feature: tre døre til dine filer, fire spørgsmål, ingen vinder. Læser uden kode. Ikke kåre et produkt. Fire spørgsmål gennem artiklen: hvad ser den, hvad må den ændre, hvor længe ligger det, hvordan lukker jeg mappen. Brug PRÆCIS disse verificerede kilder og påstande, ingen andre produktpåstande. DØR 1 VEDHÆFTNING: ChatGPT https://help.openai.com/articles/8555545-file-uploads-faq — vedhæft i samtalen; 512 MB pr. dokument/præsentation; 2 mio. tokens pr. tekstfil; CSV/regneark ca. 50 MB; billeder 20 MB; 80 filer/3 timer, Free 3/dag; sletning af chat sletter ikke Library-filen; «Content from a file that was brought into a conversation can remain in that conversation. Deleting a saved file and deleting a conversation are separate actions.» Grok Bot https://docs.x.ai/grok-bot/files-and-results — 20 vedhæftninger, dokumenter 250 MB; eget eksempel: «Do not modify the originals.» DØR 2 MAPPE/DREV: Claude Cowork https://claude.com/product/cowork + https://support.claude.com/en/articles/13345190-get-started-with-claude-cowork + https://support.claude.com/en/articles/13364135-use-claude-cowork-safely — arbejder i mapper du vælger; «Consider creating a dedicated working folder for Claude rather than granting broad access»; «Avoid granting access to local files with sensitive information, like financial documents»; sletning kræver Allow; isolation beskytter din computer, «it doesn't change what Claude can read or do through the access you've granted»; betalt plan (Pro 20 USD/md, Max 100, Ultra 200 på claude.com/product/cowork). ChatGPT Drive-stik: https://help.openai.com/en/articles/9309188-add-files-from-connected-apps-in-chatgpt — nye brugere bruger Google Drive-connector, ikke den gamle file picker; «Once connected, users can ask ChatGPT about any information that's accessible to them in SharePoint or Drive»; Disconnect i Settings under Connected apps; «Please note that disconnecting your app does not affect our file retention policy.» dots Drive: https://learn.chatgpt.com/docs/dots/computers-and-apps — «connect Gmail to find relevant email, Google Drive to read and update documents». DØR 3 COMPUTERENS FILSYSTEM: Grok Bot https://docs.x.ai/grok-bot/computer-and-apps + approvals-security-and-privacy — delt /workspace; «Deleting a Bot does not remove shared-computer files or browser sessions»; lokal: Never allow som default-råd. dots https://learn.chatgpt.com/docs/dots/computers-and-apps — egen cloud-computer med egne filer; lokal Allow access/Revoke; Offline ≠ Revoke. OpenAI dots-privacy https://help.openai.com/en/articles/20001529-dots-privacy-security-and-safety-faqs — «What happens to my information if I disconnect a service linked through a plugin? This stops new access through that connection. It does not delete information your dot has already built into its context.» Muse Mac https://www.meta.com/help/artificial-intelligence/1126304576638594/ — Full Disk Access dækker alle filer; sletning går i papirkurven; sluk i System Settings. Muse ikke i EEA ifølge nr. 7 / Metas egne sider — ingen dansk dato. Fire spørgsmål: (1) Hvad ser den — kun den fil du vedhæftede, eller hele mappen, eller hele disken? (2) Hvad må den ændre — læse, skrive, slette? Claude: slet kræver Allow. Grok: «Do not modify the originals». dots: slet data kan kræve godkendelse hver gang. (3) Hvor længe — ChatGPT Library vs chat; Grok /workspace overlever sletning af Bot; dots-kontekst overlever Disconnect. (4) Hvordan lukker jeg — Disconnect, Revoke access, Never allow, fjern Full Disk Access, slet Library-fil separat. Krydslink til nr. 7: /gnisten/2026-10-nr7/vaerkstedet-nej (stop-knappen) og /gnisten/2026-10-nr6 (indbakkens tre bremser). Forklar vedhæftning, connector, cloud-computer, Full Disk Access og EØS første gang. Ingen kode, MCP-opsætning eller API-nøgler.",
+        "words": [
+          550,
+          750
+        ],
+        "mustCite": 4,
+        "mustNumber": [
+          "ChatGPT 512 MB pr. dokument; Free 3/dag; 80/3 timer",
+          "Grok Bot 20 vedhæftninger; 250 MB; /workspace delt",
+          "Claude Cowork Pro 20 USD/md på claude.com/product/cowork; sletning kræver Allow",
+          "tre døre: vedhæftning, mappe/drev, computerens filsystem"
+        ],
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "GPT-5.6 Terra (OpenAI)",
+        "model": "openai/gpt-5.6",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 760,
+        "costUSD": 0.058812,
+        "draft": "kladder/03-fokus-filer.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1794035835-Ndezf6ZCPmiHDKvcHaON"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-11-07",
+        "citations": 12,
+        "editorNote": "Faktatjekket mod OpenAI file FAQ, connected-apps 11487775, Cowork safely, Grok Bot files/computer/approvals, dots computers-and-apps og privacy FAQ. Muse Mac Help 400 — citat erstattet med newsroom + safety-blog. Never allow er anbefaling, ikke default. Disconnect via Settings → Plugins."
+      }
+    },
+    {
+      "slug": "vaerkstedet-mappe",
+      "order": 4,
+      "section": "Værkstedet",
+      "brief": {
+        "angle": "Praktisk trin-for-trin til en læser uden programmeringsbaggrund, der vil lade AI se EN fil uden at åbne mappen, drevet eller disken. Indfrier nr. 6/7's «filer og hvordan du holder mappen lukket». Tre bremser som handlinger: (A) vedhæft kun én dummy-fil du selv har lavet — aldrig Downloads, aldrig Desktop, aldrig hele Drev; (B) forbind aldrig Google Drive, Dropbox eller en Cowork-mappe, før du har set knappen Disconnect og ved, hvor den sidder; (C) giv aldrig adgang til din egen computers filer (Allow access / Full Disk Access / Execution on this computer), før du har set Revoke / Never allow / fjern tilladelsen. To spor. SPOR 1 — du har en almindelig chatbot (ChatGPT, Claude chat, Grok i browser): opret en tom tekstfil med tre linjer nonsens, gem den som «oev-fil.txt» et sted, der ikke er din privatmappe. Vedhæft KUN den fil. Skriv: «Læs kun den vedhæftede fil. Åbn ikke andre filer. Ændr ikke originalen. Slet ingenting. Svar med tre punkter og [TJEK] hvis du mangler noget.» Find derefter, hvor du sletter filen i Library (ChatGPT: Library → filen → Delete; sletning af chatten er ikke nok — https://help.openai.com/articles/8555545-file-uploads-faq). Forbind IKKE Drive. SPOR 2 — du HAR Cowork, Grok Bot, dots eller Muse: første fil-opgave SKAL være den samme dummy-fil. Claude Cowork: opret en tom mappe kun til test, giv kun den mappe, slå Manually approve til, tjek at sletning spørger om Allow — https://support.claude.com/en/articles/13345190-get-started-with-claude-cowork og https://support.claude.com/en/articles/13364135-use-claude-cowork-safely («dedicated working folder»; «Avoid granting access to local files with sensitive information»). Grok Bot: vedhæft dummy-filen, «Do not change the source file» (https://docs.x.ai/grok-bot/get-started og files-and-results); sæt Execution on this computer til Never allow (https://docs.x.ai/grok-bot/approvals-security-and-privacy); husk at /workspace er fælles for alle Bots. dots: lad lokal computer stå slået fra; Revoke access hvis den er slået til; Offline er ikke Revoke (https://learn.chatgpt.com/docs/dots/computers-and-apps); Disconnect af Drive stopper kun NY adgang, ikke det den allerede har læst (https://help.openai.com/en/articles/20001529-dots-privacy-security-and-safety-faqs). Muse: giv ikke Full Disk Access; hvis den er givet, fjern den i System Settings → Privacy & Security (https://www.meta.com/help/artificial-intelligence/1126304576638594/). Fælles: den første fil-opgave er en test af bremsen, ikke af agenten. Ingen kode, ingen MCP, ingen «installer i terminalen». Krydslink til nr. 7's Værkstedet /gnisten/2026-10-nr7/vaerkstedet-nej.",
+        "words": [
+          550,
+          750
+        ],
+        "mustCite": 3,
+        "mustNumber": [
+          "tre bremser: dummy-fil, Disconnect før drev, Never allow/Revoke før lokal disk",
+          "ChatGPT: slet Library-fil separat fra chat",
+          "Grok Bot Never allow; Cowork dedicated folder + Allow før slet"
+        ],
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 708,
+        "costUSD": 0.040454,
+        "draft": "kladder/04-vaerkstedet-mappe.md",
+        "costRouting": "byok",
+        "generationId": "gen-1794035872-r5GinsEI72DRSonwrjS4"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-11-07",
+        "citations": 8,
+        "editorNote": "Konverteret til GNISTEN-krydslink. Tre bremser: dummy-fil, Disconnect før drev, Never allow/Revoke før lokal disk. Sonnet 5, ikke Gemini 3.1 Pro."
+      }
+    },
+    {
+      "slug": "maanedens-prompt",
+      "order": 5,
+      "section": "Månedens prompt",
+      "brief": {
+        "angle": "Månedens prompt: en kopiér-og-brug instruks, man kan give EN chatbot eller always-on-agent, FØR man vedhæfter en fil. Vis selve promptteksten i en tydelig boks. Prompten SKAL indeholde: (1) læs kun den fil, jeg selv vedhæfter i denne besked — åbn ikke andre filer, mapper eller drev, (2) ændr ikke originalen, (3) slet aldrig filer, (4) foreslå aldrig at forbinde Google Drive, Dropbox, OneDrive eller min lokale computer, (5) hvor der ellers ville stå et løfte om at have læst hele mappen: skriv [TJEK]. Bed om at den først svarer med: hvilken fil den har fået, hvad den vil gøre med den, og hvad den VENTER på mit ja til. Forklar hvorfor: en vedhæftet fil er et ja til dén fil; et forbundet drev eller Full Disk Access er et ja til meget mere, og Disconnect sletter ikke det, den allerede har læst. mustCite 0 — ingen tal, ingen produktpåstande, ingen priser. Officielt navn «dots» hvis nævnt. Ingen opdigtede procenttal.",
+        "words": [
+          400,
+          600
+        ],
+        "mustCite": 0,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 482,
+        "costUSD": 0.02475,
+        "draft": "kladder/05-maanedens-prompt.md",
+        "costRouting": "byok",
+        "generationId": "gen-1794035917-aSw3nX7QcJcQ8DYRtckr"
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-11-07",
+        "citations": 0,
+        "editorNote": "Ingen kilder påkrævet. Boks med én fil, ikke drev, [TJEK] og tre-trins-svar."
+      }
+    },
+    {
+      "slug": "regningen",
+      "order": 6,
+      "section": "Regningen",
+      "brief": {
+        "angle": "Regningen skrives af redaktionen efter kommissionering. Vis det reelle productionCostUSD og productionCostDKK, hvad den dyreste artikel kostede, og hold det op mod nr. 7 (0,1835 USD) og nr. 6 (0,1117 USD). Ingen opdigtet produktionshistorie. Nævn at Værkstedet igen er på Sonnet 5.",
+        "words": [
+          200,
+          400
+        ],
+        "mustCite": 0,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": 183,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-11-07",
+        "citations": 0,
+        "editorNote": "Redaktionens egen, ingen byline. Fem kald, 0,1887 USD · 1,26 kr. Kurs 6,6596 (5. nov. 2026, DNVALD). Værkstedet 0,0405 på Sonnet 5; Fokus dyrest 0,0588."
+      }
+    },
+    {
+      "slug": "sladder",
+      "order": 7,
+      "section": "Sladder",
+      "brief": {
+        "angle": "Sladder-bagsnit i GNISTENs løse, anekdotiske stil: rygter og småhistorier fra AI-værktøjs-verdenen denne måned, ingen kildekrav, INGEN opdigtede procenttal. Hold det i ånden af nummerets tema (AI der gerne vil se mappen, ikke bare den ene fil; Full Disk Access der lyder uskyldigt; Disconnect der ikke tømmer hukommelsen). Du MÅ parafrasere stemningen omkring tre døre til filer, og at den interessante knap er den, der holder mappen lukket. Opdigt ikke konkrete personnavne, firmaskandaler, beløb eller datoer. Slut med ét konkret, realistisk bagsideløfte til nr. 9, der IKKE allerede er brugt: næste nummer kigger på, når AI vil huske dig på tværs af samtaler — hukommelse — og hvordan du tømmer den. Ikke filer (brugt), ikke indbakke (brugt), ikke always-on-agenter (brugt), ikke «sige nej» (brugt).",
+        "words": [
+          400,
+          600
+        ],
+        "mustCite": 0,
+        "format": "rygteboersen"
+      },
+      "writer": {
+        "byline": "GPT-5.6 Terra (OpenAI)",
+        "model": "openai/gpt-5.6",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 459,
+        "costUSD": 0.026592,
+        "draft": "kladder/07-sladder.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1794035952-f5R8KLYArUnkRJkFp9kf"
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-11-07",
+        "citations": 0,
+        "editorNote": "flow:true. Ingen opdigtede procenttal. Bagsideløfte nr. 9: hukommelse og hvordan du tømmer den."
+      }
+    }
+  ]
+}
