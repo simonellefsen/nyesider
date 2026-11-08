@@ -1,0 +1,234 @@
+{
+  "issue": "2026-11-nr8",
+  "magazine": "orbit",
+  "issueTheme": "IRIS²: Europas svar på Starlink — fra koncession til fabrikken",
+  "budget": {
+    "articles": 6,
+    "wordsPerArticle": [
+      250,
+      650
+    ],
+    "note": "Indfrier nr. 6'bagsideløfte (udskudt til nr. 8 pr. ejerens beslutning): IRIS²-dybdestudie — arkitektur, tidsplan, europæiske leverandører — koblet til europæisk rumadgang. Kompakt format som nr. 6/7. GCAT-tal tælles redaktionelt af launchlog.tsv (unikke Launch_Tag med Launch_Code-præfiks 'O'; fil opdateret 2026 Nov 6): 2026 t.o.m. 6. nov. = 254 orbitale opsendelser, mod 261 på samme dato i 2025 (hele 2025 = 324). Pr. raket 2026 t.o.m. 6. nov.: Falcon 9 = 118, Chang Zheng = 51, Electron = 17, Soyuz = 11, Ariane 6 = 4 (1 i 2024, 4 i 2025 — ialt 9 since jul 2024), Starship = 3, Falcon Heavy = 2, Vega = 2, Vulcan = 1, New Glenn = 1."
+  },
+  "opgaver": [
+    {
+      "slug": "leder",
+      "order": 1,
+      "section": "Leder",
+      "brief": {
+        "angle": "(Chefredaktionel leder, skrives uden model.)",
+        "words": [
+          150,
+          250
+        ],
+        "mustCite": 0,
+        "mustNumber": [],
+        "format": "leder"
+      },
+      "writer": {
+        "model": "editor-led",
+        "byline": null,
+        "fallback": null
+      },
+      "receipt": {
+        "words": null,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": null,
+        "checkedAt": null,
+        "citations": null,
+        "editorNote": null
+      }
+    },
+    {
+      "slug": "iris2-arkitekturen",
+      "order": 2,
+      "section": "Konstellationer",
+      "brief": {
+        "angle": "Pædagogisk deep dive: Hvad ER IRIS²? Forklar fra bunden for læsere uden raket-ph.d. (LEO = lav jordbane; MEO = mellem jordbane). Klikbare kilder: https://defence-industry-space.ec.europa.eu/european-union-accelerating-and-reinforcing-iris2-2026-08-07_en og https://www.esa.int/Applications/Connectivity_and_Secure_Communications/IRIS2_reinforced_and_accelerated_as_implementation_advances og https://www.euspa.europa.eu/newsroom-events/news/commission-accelerates-iris2-deployment-enhanced-security-and-expanded og https://www.spacerise.eu . Grundlag: IRIS² = Infrastructure for Resilience, Interconnectivity and Security by Satellite — EU's konstellation for sikker satellitkommunikation som offentlig-privat partnerskab. Koncessionskontrakten blev undertegnet 16. december 2024 med konsortiet SpaceRISE: SES (Luxembourg), Eutelsat (Frankrig) og Hispasat (Spanien), med kernegruppe af underleverandører (Thales Alenia Space, OHB, Airbus Defence and Space, Telespazio, Deutsche Telekom, Orange, Hisdesat, Thales Six). 7. august 2026: efter syv måneders forhandlinger (Rendezvous 1, januar–august 2026) undertegnedes implementation agreement; konstellationen udvides til 348 satellitter — 330 i LEO + 18 i MEO — opsendt i faser og med valgfrie til tillegg hos visse missioner; første opsendelser rykket frem til 2029; tjenester leveres gradualt derfra. Brugere: primært offentlige (EU-stater, forsvar, kritisk infrastruktur, beredskab); senere kommercielt bredbånd. Forklar også hvorfor multi-orbit: LEO-lav latens mange satellitter; MEO-farre, højtflyggende og mere stabile højtstående. Euronews kalder programmet 'Europas svar på Starlink' (https://www.euronews.com/2026/10/16/europes-answer-to-starlink-who-is-building-iris-and-what-is-germanys-role — brug gerne til sammenligningen). Opdigt INGEN tekniske detaljer ud over de oplyste. Ingen kodeblok-SVG.",
+        "words": [
+          400,
+          600
+        ],
+        "mustCite": 3,
+        "mustNumber": [
+          "348 satellitter",
+          "330 LEO + 18 MEO",
+          "første opsendelser 2029"
+        ],
+        "format": "feature"
+      },
+      "writer": {
+        "model": "google/gemini-3.1-pro-preview",
+        "byline": "Gemini 3.1 Pro Preview (Google)",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 649,
+        "costUSD": 0.078812,
+        "draft": "kladder/02-iris2-arkitekturen.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1794122944-sIKksutrEsxPdFX2nfry"
+      },
+      "verdict": {
+        "status": null,
+        "checkedAt": null,
+        "citations": null,
+        "editorNote": null
+      }
+    },
+    {
+      "slug": "leverandoer-milliarder",
+      "order": 3,
+      "section": "Agenturer",
+      "brief": {
+        "angle": "Feature: Hvem bygger IRIS² — og for hvor mange milliarder? Verificeret kronologisk: (1) 31. august 2026 tildelte SES OHB en kontrakt på næsten 1 mia. EUR om at udvikle og fremstille platformene til alle 18 MEO-satellitter — den første store kontrakt under koncessionen (kilder: https://www.ohb.de/en/news/ohb-has-been-awarded-a-contract-worth-nearly-1-billion-for-the-development-and-production-of-eighteen-satellite-platforms-for-iris%C2%B2 og https://europeanspaceflight.com/ses-awards-ohb-1-billion-for-iris2-meo-satellites/ ). (2) 10. september 2026 ved International Space Summit i Paris tildelte Eutelsat LEO-kontrakterne: Aerospacelab (Belgien, grundlagt 2018) er prime contractor for LEO-segmentet med 264 platforme til 2,4 mia. EUR; Airbus Defence and Space tegnegede en indledende kontrakt om 66 LEO Ka-bånd-satellitter, som skal leveres i 2029; Thales Alenia Space bygger nyttelasterne til alle 330 LEO-satellitter til ca. 500 mio. EUR (kilder: https://www.satellitetoday.com/manufacturing/2026/09/10/eutelsat-taps-airbus-and-aerospacelab-for-oneweb-and-iris%C2%B2-satellites og https://europeanspaceflight.com/aerospacelab-thales-alenia-space-secure-5-4-billion-in-iris2-contracts/ ). (3) Medlemsstaterne bidrager: Polen (21. juli 2026) 656,3 mio. EUR til 12 satellitter (6 MEO + 6 LEO) og en jordstation i Warszawa; Spanien op til ca. 2 mia. EUR; Ungarn ca. 500 mio. EUR (kilder: https://payloadspace.com/europes-iris2-constellation-enters-the-build-phase og https://en.wikipedia.org/wiki/IRIS%C2%B2 ). Pointen: kontrakterne i 2026 er bevægelsen fra tegnestue til fabrikshaller; tysk OHB i Bremen og belgisk Aerospacelab i Charleroi viser, at programmet arbejder på tværs af EU-industri (jf. Euronews-artiklen ovenfor). Opdigt ingen kontraktbeløb. Ingen kodeblok-SVG.",
+        "words": [
+          400,
+          600
+        ],
+        "mustCite": 4,
+        "mustNumber": [
+          "OHB ca. 1 mia. EUR (18 MEO-platforme)",
+          "Aerospacelab 2,4 mia. EUR (264 platforme)",
+          "Thales Alenia Space ca. 500 mio. EUR (nyttelaster)",
+          "Polen 656,3 mio. EUR / 12 satellitter",
+          "Spanien op til 2 mia. EUR, Ungarn ca. 500 mio. EUR"
+        ],
+        "format": "feature"
+      },
+      "writer": {
+        "model": "anthropic/claude-sonnet-5",
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 489,
+        "costUSD": 0.030206,
+        "draft": "kladder/03-leverandoer-milliarder.md",
+        "costRouting": "byok",
+        "generationId": "gen-1794123004-ugJYg92Hxx3WukeApKM8"
+      },
+      "verdict": {
+        "status": null,
+        "checkedAt": null,
+        "citations": null,
+        "editorNote": null
+      }
+    },
+    {
+      "slug": "flaskehalsen-2029",
+      "order": 4,
+      "section": "Europæisk rumadgang",
+      "brief": {
+        "angle": "Feature: Flaskehalsen i 2029 er rampen, ikke fabrikshalet. Kobling fra IRIS² til europæisk rumadgang. Verificeret: 7. august 2026-aftalen definerer 'first launches by 2029' og den progressive udrulning derfra (kilder: https://defence-industry-space.ec.europa.eu/european-union-accelerating-and-reinforcing-iris2-2026-08-07_en og https://www.euspa.europa.eu/newsroom-events/news/commission-accelerates-iris2-deployment-enhanced-security-and-expanded ). Euronews (16. oktober 2026; https://www.euronews.com/2026/10/16/europes-answer-to-starlink-who-is-building-iris-and-what-is-germanys-role ) skriver: 'Experts view rocket launches as the bottleneck' og ifølge mediedækning var den oprindelige plan to år tidligere (2027). Redaktionens optælling af unikke orbitale opsendelser i Jonathan McDowells GCAT launchlog.tsv (opdateret 2026 Nov 6; https://planet4589.org/space/gcat/tsv/derived/launchlog.tsv ): Ariane 6 har til og med 6. november 2026 fløjet 1 (2024) + 4 (2025) + 4 (2026) = 9 orbitale missioner siden juli 2024; Vega-familien 2 opsendelser i 2026; til sammenligning 118 Falcon 9-op sendelser alene i 2026. Arianespace-markere melodien: 'Ariane 6 ready for Europe's space ambitions' og nævner fremtidige IRIS²-deployment (kilde: https://www.arianespace.com/news/arianespace-at-the-18th-european-space-conference-ariane-6-ready-for-europes-space-ambitions ). Artiklen skal binde det sammen: fabrikkerne er ikke den flaskehals, der reelt venter 2029 — rampen er. Ingen kodeblok-SVG.",
+        "words": [
+          400,
+          600
+        ],
+        "mustCite": 3,
+        "mustNumber": [
+          "Ariane 6: 9 orbitale opsendelser totalt pr. 6. nov. 2026",
+          "118 Falcon 9-op sendelser i 2026",
+          "første IRIS²-op sendelser 2029"
+        ],
+        "format": "feature"
+      },
+      "writer": {
+        "model": "openai/gpt-5.6-terra",
+        "byline": "GPT-5.6 Terra (OpenAI)",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 496,
+        "costUSD": 0.024901,
+        "draft": "kladder/04-flaskehalsen-2029.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1794123040-sANN9pjWvQZ753yVqiFW"
+      },
+      "verdict": {
+        "status": null,
+        "checkedAt": null,
+        "citations": null,
+        "editorNote": null
+      }
+    },
+    {
+      "slug": "tallet",
+      "order": 5,
+      "section": "Tallet",
+      "brief": {
+        "angle": "Tallet: en kildebelagt mini-tabel over nummerets nøgletal (IRIS² + 2026-op sendelser). KUN disse tal, ingen andre: IRIS²-konstellationen = 348 satellitter (330 LEO + 18 MEO); første opsendelser 2029 (kilder: https://defence-industry-space.ec.europa.eu/european-union-accelerating-and-reinforcing-iris2-2026-08-07_en og https://www.esa.int/Applications/Connectivity_and_Secure_Communications/IRIS2_reinforced_and_accelerated_as_implementation_advances ). Kontraktbeløb 2026: Aerospacelab 2,4 mia. EUR (264 LEO-platforme); OHB ca. 1 mia. EUR (18 MEO-platforme); Thales Alenia Space ca. 500 mio. EUR (nyttelaster) (kilder: https://www.satellitetoday.com/manufacturing/2026/09/10/eutelsat-taps-airbus-and-aerospacelab-for-oneweb-and-iris%C2%B2-satellites og https://www.ohb.de/en/news/ohb-has-been-awarded-a-contract-worth-nearly-1-billion-for-the-development-and-production-of-eighteen-satellite-platforms-for-iris%C2%B2 ). Medlemsstatsbidrag: Polen 656,3 mio. EUR; Spanien op til 2 mia. EUR; Ungarn ca. 500 mio. EUR (kilde: https://payloadspace.com/europes-iris2-constellation-enters-the-build-phase ). Redaktionens optælling af unikke orbitale opsendelser i Jonathan McDowells GCAT launchlog.tsv (opdateret 2026 Nov 6; https://planet4589.org/space/gcat/tsv/derived/launchlog.tsv ): i 2026 t.o.m. 6. november = 254 opsendelser, mod 261 på samme dato i 2025; hele 2025 = 324; forskellen på dato = 7.",
+        "words": [
+          300,
+          450
+        ],
+        "mustCite": 4,
+        "mustNumber": [
+          "348",
+          "330 LEO + 18 MEO",
+          "2029",
+          "2,4 mia. EUR Aerospacelab",
+          "ca. 1 mia. EUR OHB",
+          "Polen 656,3 mio. EUR",
+          "254 vs 261",
+          "324 (2025)"
+        ],
+        "format": "tallet"
+      },
+      "writer": {
+        "model": "deepseek/deepseek-v3.2",
+        "byline": "DeepSeek V3.2 (DeepSeek)",
+        "fallback": "anthropic/claude-sonnet-5"
+      },
+      "receipt": {
+        "words": 470,
+        "costUSD": 0.0070469136,
+        "draft": "kladder/05-tallet.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1794123063-Lw45a7Cjd9hBsWhxmMsI"
+      },
+      "verdict": {
+        "status": null,
+        "checkedAt": null,
+        "citations": null,
+        "editorNote": null
+      }
+    },
+    {
+      "slug": "rygteboersen",
+      "order": 6,
+      "section": "Rygtebørs",
+      "brief": {
+        "angle": "Rygtebørs — korte, lette blikke (humoristisk, men kildelagt; ingen opdigtede navne/tal). flow:true. Tre emner (verificerede): (1) EU og Sydkorea uddybede 18. september 2026 samarbejdet om sikker satellitforbindelse (IRIS²-relateret); kilde: https://defence-industry-space.ec.europa.eu/eu-and-korea-deepen-cooperation-secure-satellite-connectivity-2026-09-18_en (verificér; hvis 404, brug https://www.spacerise.eu nyhedslistning). (2) ESA tildelte 18. september 2026 kontrakter på 20 mio. EUR til studier af fremtidige IRIS²-tjenester; kilde: https://europeanspaceflight.com/esa-awards-20m-in-contracts-to-study-future-iris2-services/ (verificér). (3) Aerospacelab (LEO-prime) har åbnet RFI-konsultationer i en offentligt procurement-portal — et ukendt niveau af gennemsigtighed for et milliard-program; kilde: https://www.aerospacelab.com/open-procurement-processes (verificér). Bagsideløfte til nr. 9: det kommercielle SSA-marked (Space Situational Awareness) — sporet fra nr. 3/4, aldrig brugt som hovedstof. IRIS² er nu indfriet og må IKKE loves igen. Ingen kodeblok-SVG.",
+        "words": [
+          250,
+          400
+        ],
+        "mustCite": 2,
+        "mustNumber": [],
+        "format": "rygtebors"
+      },
+      "writer": {
+        "model": "qwen/qwen3.7-max",
+        "byline": "Qwen3.7 Max (Alibaba)",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 363,
+        "costUSD": 0.0239068,
+        "draft": "kladder/06-rygteboersen.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1794123433-9iQ6NkF8A6ErmRLUWuvI"
+      },
+      "verdict": {
+        "status": null,
+        "checkedAt": null,
+        "citations": null,
+        "editorNote": null
+      }
+    }
+  ]
+}

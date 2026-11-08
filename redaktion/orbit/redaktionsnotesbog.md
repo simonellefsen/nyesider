@@ -307,6 +307,16 @@ Ingen opdigtede launch-datoer. Skeln planlagt/scrub/success/failure. Primære ki
 
 ## Log
 
+- **2026-11-08:** Nr. 8 udgivet — 'IRIS²: Europas svar på Starlink — fra koncession til fabrikken'.
+  6 artikler, editor-led leder uden byline, 0,1649 USD · 1,10 kr (DNVALD 6,6952 / 2026-11-06).
+  Magasinagenten nåede OpenCode-kvoten; Redaktionen producerede på `.env.orbit`.
+  Lås: 348 sats (330 LEO + 18 MEO), implementation agreement 7. aug. 2026, første opsendelser 2029.
+  GCAT unikke orbitale 2026 t.o.m. 6. nov. = 254 (2025 samme dato 261; helår 2025 = 324);
+  Falcon 9 118, Ariane 6 4 i 2026 (9 siden jul. 2024). Korea-kilde: officiel Kommissions-URL 404;
+  brug Defence Industry Europe 18. sep. 2026. European Spaceflight-slugs bruger `e1`/`e5-4`/`e20m`.
+  Aerospacelab RFI-side nævner ~270/~20 — ignorer, hold 330/18. Bagside nr. 9: kommercielt SSA.
+  `content/orbit/issues/2026-11-nr8/` · `redaktion/orbit/numre/2026-11-nr8/`.
+
 - **2026-10-18:** Nr. 7 udgivet — 'Kunden og raketten' (Starlink vs. Starshield + Starship
   Flight 14, to spor pr. ejerens anvisning). 6 artikler, 0 fejl i check_issue, links rene.
   Læringer: (a) **opsendelsestal tælles nu redaktionelt af GCAT launchlog.tsv** (unikke
