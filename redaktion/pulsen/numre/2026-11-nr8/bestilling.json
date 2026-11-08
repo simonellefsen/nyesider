@@ -1,0 +1,227 @@
+{
+  "magazine": "pulsen",
+  "issue": "2026-11-nr8",
+  "issueTheme": "Delstatus nr. 4: AID_NOTE-rapporten udeblev — i stedet tælles der ned mod Digital Sundhed Danmark",
+  "budget": {
+    "articles": 6,
+    "wordsPerArticle": [
+      200,
+      540
+    ],
+    "targetPages": 12,
+    "note": "Kompakt uge-batch som nr. 5-7. Lederen er editor-led; fem artikler kommissioneres på .env.pulsen."
+  },
+  "opgaver": [
+    {
+      "slug": "leder",
+      "order": 1,
+      "section": "Leder",
+      "brief": {
+        "angle": "Editor-led: vi lovede rapporten til Strategisk IT-forum. Den er ikke offentlig pr. 8. nov. 2026 — men høringsfristen for DSD-bekendtgørelsespakken løber 9. nov., og der er 54 dage til sammenlægningen 1. januar 2027. Nummeret holder løftet ved at fortælle, hvor ventetiden i stedet bruges.",
+        "words": [
+          200,
+          260
+        ],
+        "mustCite": 0,
+        "format": "leder"
+      },
+      "writer": {
+        "byline": "Redaktionen",
+        "model": "chefredaktør",
+        "fallback": null
+      },
+      "receipt": {
+        "words": null,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "accepted",
+        "citations": 0,
+        "editorNote": "Editor-led, ingen byline. Redaktionen lukkede nummeret.",
+        "checkedAt": "2026-11-08"
+      }
+    },
+    {
+      "slug": "aidnote-delstatus",
+      "order": 2,
+      "section": "Feature · Ambient AI",
+      "brief": {
+        "angle": "Fjerde delstatus i rækkefølgen. AID_NOTE-rapporten er STADIG ikke offentlig pr. 8. november 2026; rapporten fremlægges for Strategisk IT-forum i november-december 2026 (Pia Normann, Regional IT, iflg. RAIN-beretningen). De eneste offentlige tal er stadig de første fra RAIN-mødet 30. sep. 2026: 7/13 klinikere bruger mindre tid, 6/13 mere; 9/12 brugbart udkast; 8/11 nyttig. SKRIV IKKE nye tal — der findes ingen nye offentlige tal. Artiklens spørgsmål: hvad betyder det analytisk, at et evalueringsrum (evaluering -> rapport -> forum -> grønt lys -> it-projekt) tager længere tid end afprøvningen selv (okt. 2025-okt. 2026)? Brug KUN kilderne: RAIN-beretningen 07.10.2026 på syddansksundhedsinnovation.dk og CAI-X' projektside (cai-x.dk). Gæt aldrig en URL; kopier dem fra denne brief.",
+        "words": [
+          420,
+          520
+        ],
+        "mustCite": 2,
+        "mustNumber": [
+          "7 ud af 13",
+          "6 ud af 13",
+          "9 ud af 12",
+          "8 ud af 11",
+          "november-december 2026"
+        ],
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 431,
+        "costUSD": 0.02683,
+        "draft": "kladder/02-aidnote-delstatus.md",
+        "costRouting": "byok",
+        "generationId": "gen-1794120761-Lw2cRlXblsd05iojL5nb"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "citations": null,
+        "editorNote": "Overført fra kladde, overskrift/standfirst sat, Imagine-billede tilføjet.",
+        "checkedAt": "2026-11-08"
+      }
+    },
+    {
+      "slug": "dsd-nedtaelling",
+      "order": 3,
+      "section": "Feature · Sundheds-it",
+      "brief": {
+        "angle": "Nedtællingen til 1. januar 2027 fortælles nu i bekendtgørelser. Sundheds- og Kirkeministeriet sendte 12. oktober 2026 en pakke med 16 bekendtgørelsesudkast om Digital Sundhed Danmark i offentlig høring, høringsfrist 9. november 2026, ca. 127-130 høringsparter; bekendtgørelse nr. 591 af 25. juni 2026 regulerer overførslen af aktiver, rettigheder og ansatte; fra 1. januar 2027 indberettes til DSD også for reform-opgaverne akutsygepleje, specialiseret genoptræning (§ 139 b) og almen genoptræning (§ 139 a); fra 7. december 2026 kan journaler fra almen praksis deles; ca. 20 bekendtgørelser og vejledninger ophæves, 44 ændres administrativt. KL's status 5. november 2026: digital understøttelse af opgaveflyt fra kommuner til regioner sammen med Danske Regioner og DSD, nu med fokus på patientrettet forebyggelse og rehabilitering på specialiseret niveau (materialet udkommer i november); en national foranalyse om fælles infrastruktur for datadeling af sundhedsdata afsluttes december 2026. Desuden: konferencen 'Fra vision til virkelighed: Bedre brug af sundhedsdata' afholdes 23. november 2026 i København med soft launch af Ét Kontaktpunkt — en ny national indgang til sundhedsdata til sekundær brug; case ved Anton Pottegård, professor i klinisk farmakologi, SDU. sundhed.dk, Sundhedsdatastyrelsen og MedCom ophører som selvstændige organisationer 31. december 2026. Hold dig til de angivne fakta — intet fra hukommelsen. Brug KUN de fire kilde-URL'er, der står i din prompt ved kald: lovguiden.dk-høringssiden, kl.dk 5. nov.-siden, DSD-konferenceprogrammet (cdn1.gopublic.dk PDF) og sundhedsdatastyrelsen.dk om DSD; kopier dem præcis.",
+        "words": [
+          440,
+          540
+        ],
+        "mustCite": 3,
+        "mustNumber": [
+          "16",
+          "9. november 2026",
+          "7. december 2026",
+          "591 af 25. juni 2026",
+          "31. december 2026"
+        ],
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "GPT-5.6 Terra (OpenAI)",
+        "model": "openai/gpt-5.6-terra",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 450,
+        "costUSD": 0.0198825,
+        "draft": "kladder/03-dsd-nedtaelling.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1794120797-NMfurNuXJca8I84f3I6H"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "citations": null,
+        "editorNote": "Overført fra kladde, overskrift/standfirst sat, Imagine-billede tilføjet.",
+        "checkedAt": "2026-11-08"
+      }
+    },
+    {
+      "slug": "ostdanmark-kabale",
+      "order": 4,
+      "section": "Analyse · Ledelse",
+      "brief": {
+        "angle": "54 dage til sammenlægningen 1. januar 2027, og direktørkabalen er på plads: organisationsstruktur vedtaget af det forberedende regionsråd 22. april 2026 (2,8 mio. borgere, 65.000 ansatte); 12 direktører og 13 vicedirektører sat 30. april 2026. Fordelingen iflg. Regional-Insigt 20. maj 2026: 8 af 12 direktørposter til profiler fra Region Hovedstaden (Sundhed, Økonomi, HR, Digitalisering, Kommunikation, Byggeri, Apoteket, Præhospitalet), 4 til Sjælland-profiler (Socialområdet, Regionsudvikling, Koncerntekniske områder, Steno Diabetes Center); kun 6 nuværende direktører (3 fra hver region) mister den direkte direktørstatus; fra 25 til 12 poster ligner en halvering, men regionen oplyser ikke, hvor mange chefstillinger der reelt nedlægges — 13 vicedirektører, projektdirektører og transformationsdirektører gør regnestykket uklart. Eksempler: Ulrik Edelbo fra konstitueret økonomidirektør i Region Sjælland til konstitueret vicedirektør i Koncern Økonomi; Helle Gaub fra konstitueret direktør Koncern Byg til projektdirektør i Ejendomme og Byggerier. Overgangsrammen: de tre vestlige regioners råd overtog 1. januar 2026; Østdanmarks nye råd (47 medlemmer) fungerede 2026 som forberedelsesudvalg; de gamle regionsråd i Hovedstaden og Sjælland beholdt driftsansvaret hele 2026. Neutral analyse af, hvad der konkret er sat i organisation pr. 8. november 2026 — ikke op-ed. Brug KUN de tre kilde-URL'er i din prompt ved kald: regionoest.dk-nyheden 30. april 2026, regionoest.dk-nyheden 22. april 2026 og regional-indsigt.dk 20. maj 2026; kopier dem præcis.",
+        "words": [
+          400,
+          500
+        ],
+        "mustCite": 2,
+        "mustNumber": [
+          "12",
+          "13",
+          "8 af 12",
+          "65.000",
+          "1. januar 2027"
+        ],
+        "format": "analyse"
+      },
+      "writer": {
+        "byline": "Gemini 3.1 Pro (Google)",
+        "model": "google/gemini-3.1-pro-preview",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 479,
+        "costUSD": 0.088206,
+        "draft": "kladder/04-ostdanmark-kabale.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1794120818-RC59gyXO2kCfDPS3sUKc"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "citations": null,
+        "editorNote": "Overført fra kladde, overskrift/standfirst sat, Imagine-billede tilføjet.",
+        "checkedAt": "2026-11-08"
+      }
+    },
+    {
+      "slug": "vandrehistorier",
+      "order": 5,
+      "section": "Vandrehistorie · Fra feltet",
+      "brief": {
+        "angle": "Vandrehistorier med dette nummers tema: samme organisation, system eller fusion ser forskellig ud, afhængigt af hvem der ser den. KUN tre kilder: (1) Regional-Insigt 20. maj 2026 — direktørkabalen kan ligne en halvering fra 25 direktørposter til 12, men kun 6 nuværende direktører mister reelt direktørstatus; titeldiversiteten (projektdirektører, transformationsdirektører, konstituerede vicedirektører) gør billedet usikkert; Ulrik Edelbo og Helle Gaub går fra direktørtitler til vicedirektør-/projektfunktioner. (2) KL 5. november 2026 — opgaveflytningen kræver fælles dialog mellem kommuner og regioner; samme reform ser forskellige behov ud i de to sektorer. (3) RAIN-beretningen 7. oktober 2026 — to kolleger vurderte det samme notat forskelligt. Fortæl historierne ud fra netop disse tre kilder. Opfind IKKE tal, navne eller kilder, der ikke står her.",
+        "words": [
+          350,
+          430
+        ],
+        "mustCite": 2,
+        "format": "vandrehistorie"
+      },
+      "writer": {
+        "byline": "DeepSeek V3.2 (DeepSeek)",
+        "model": "deepseek/deepseek-v3.2",
+        "fallback": "google/gemini-3.5-flash"
+      },
+      "receipt": {
+        "words": 384,
+        "costUSD": 0.0067193064,
+        "draft": "kladder/05-vandrehistorier.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1794120889-CdDX4jEHegagvFGdESOO"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "citations": null,
+        "editorNote": "Overført fra kladde, overskrift/standfirst sat, Imagine-billede tilføjet.",
+        "checkedAt": "2026-11-08"
+      }
+    },
+    {
+      "slug": "quiz",
+      "order": 6,
+      "section": "Sjov og spil",
+      "brief": {
+        "angle": "Fem multiple-choice-spørgsmål (a/b/c + facit i bunden, ét linjefacit) fra nummerets tema: 1) Hvor mange bekendtgørelsesudkast i høringspakken til Digital Sundhed Danmark, sendt i høring 12. oktober 2026? (facit: 16). 2) Høringsfristen for pakken? (facit: 9. november 2026). 3) Fra hvilken dato kan journaler fra almen praksis deles? (facit: 7. december 2026). 4) Antal direktører i Region Østdanmarks koncernorganisation, sat 30. april 2026? (facit: 12). 5) Tre organisationer ophører som selvstændige 31. december 2026, inden Digital Sundhed Danmark træder til — hvilke? (facit: sundhed.dk, Sundhedsdatastyrelsen, MedCom). Bemærk: kladden kender ikke de endelige artikler; redaktøren omskriver spørgsmål + facit 1:1 mod de PUBLICEREDE artikler bagefter.",
+        "words": [
+          200,
+          300
+        ],
+        "mustCite": 0,
+        "format": "quiz"
+      },
+      "writer": {
+        "byline": "Gemini 3.5 Flash (Google)",
+        "model": "google/gemini-3.5-flash",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 240,
+        "costUSD": 0.0320115,
+        "draft": "kladder/06-quiz.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1794121280-1ozr2wPVg3lpMidCt7hp"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "citations": null,
+        "editorNote": "Overført fra kladde, overskrift/standfirst sat, Imagine-billede tilføjet.",
+        "checkedAt": "2026-11-08"
+      }
+    }
+  ]
+}

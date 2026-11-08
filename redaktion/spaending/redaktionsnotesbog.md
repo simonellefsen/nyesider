@@ -316,6 +316,14 @@ skiftet), Claude Sonnet 5 (trims/depositummer), Mistral Large (essay — satte s
 
 ### Kandidater til nr. 8 og frem
 
+## Nr. 8 — udgivet 2026-11-08
+
+**Tema:** MCS til lastbiler — 45 minutters pause, nettet og arealerne. Indfrier nr. 6/7's bagsideløfte.
+**6 artikler.** Fem kommissioneret på `.env.spaending`; lederen er redaktionens uden byline.
+Forbrug **0,1357 USD · 0,91 kr.** (DNVALD 6,6952, 2026-11-06). `bestilling.json`:
+`redaktion/spaending/numre/2026-11-nr8/bestilling.json`.
+Bagside: om de første danske MCS-parker bliver et net eller 25 øer.
+
 - **MCS/lastbiler** — bagsideløfte fra nr. 6, indfries i nr. 8 (rastepladsernes elnet, operatører sikrer arealer).
 - **(2026-09) Londons robotaxi-forsøg — opfølgning** — konkrete køretal/interventionsrater, når data foreligger.
 - **(2026-09) BYD Szeged** — om Q4-produktionen reelt startede (tjek nov/dec 2026).

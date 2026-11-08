@@ -1,0 +1,239 @@
+{
+  "magazine": "spaending",
+  "issue": "2026-11-nr8",
+  "issueTheme": "Megawatt Charging System til lastbiler - 45 minutters pause som ny brændstofpause, nettets flaskehals og kampen om arealerne langs transitkorridorerne",
+  "budget": {
+    "articles": 6,
+    "targetPages": 10,
+    "wordsPerArticle": [
+      150,
+      650
+    ],
+    "note": "Nr. 8 indfrier bagsideløftet fra nr. 6 og 7: MCS/lastbiler. Alle tal i briefs er verificeret af redaktionen i research-notatet 2026-11-07 - modellerne skal IKKE browse, kun formulere. Selskabstal mærkes som selskabstal. Skeln konsekvent mellem dokumenteret og ambition/rygte."
+  },
+  "opgaver": [
+    {
+      "slug": "leder",
+      "order": 1,
+      "section": "Leder",
+      "writer": {
+        "model": "editor-led",
+        "byline": null,
+        "fallback": null
+      },
+      "brief": {
+        "angle": "Kort leder: MCS (op til 3,75 MW) er i drift; IAA i september 2026 viste 80 procent ladning inden den lovpligtige 30-45 minutters førerpause. Men skalaen lakker: VDA taler om ca. 35.000 offentlige MCS-ladepunkter i 2030 mod 730 tunge-køretøjs-ladepunkter over 350 kW i dag. Nummerets pointe: flaskehalsen er ikke stikket, men nettilslutningen (5-6 års ventetid på depotladning ifølge dena) og arealerne - rastepladserne skal blive til små industri-anlæg med transformerstationer og batteribuffere.",
+        "format": "leder",
+        "mustCite": 0,
+        "words": [
+          150,
+          250
+        ]
+      },
+      "receipt": {
+        "words": 194,
+        "costUSD": 0,
+        "draft": null
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-11-08",
+        "citations": 0,
+        "editorNote": "Editor-led, ingen byline. Redaktionen lukkede nummeret."
+      }
+    },
+    {
+      "slug": "mcs-rollout-iaa",
+      "order": 2,
+      "section": "Feature · Teknologi",
+      "writer": {
+        "model": "openai/gpt-5.6-terra",
+        "byline": "GPT-5.6 Terra (OpenAI)",
+        "fallback": "openai/gpt-5.6-terra"
+      },
+      "brief": {
+        "angle": "Hovedfeature: hvad MCS er og hvad der kører i dag. Fakta (verificeret, ingen browsing): MCS = Megawatt Charging System, DC-ladestandard for lastbiler og busser, op til 3,75 MW ved 1.250 V og 3.000 A, stik med syv kontakter, kommunikation over ISO 15118-20. International spec IEC TS 63379 publiceret 9. februar 2026, drevet af CharIN-alliancen. CCS leverer typisk 350-400 kW; MCS skal kunne fylde nok i et lastbilsbatteri inden den lovpligtige 30-45 minutters førerpause. Tysklands første offentlige MCS-ladepunkt åbnede 29. september 2025 ved A2-rastepladsen Lipperland Süd, operatør EnBW mobility+ med ABB-teknik, i HoLa-projektet: op til 1,2 MW; HoLa dækker fire motorvejssider og har fået ca. 12 mio. euro (tysk transportministerium + EU). IAA TRANSPORTATION 13. september 2026, Hannover: Daimler Truck (eActros 600), MAN (eTGX) og Scania demonstrerede sammen med ladestrømoperatøren Milence interoperabel megawatt-ladning på tværs af lastbilmærker - op til 80 procent eller fuldt batteri inden den lovpligtige pause. Scania: 1.000 A / 750 kW som udgangspunkt, potentiale over 3 MW, fuld cyberkrav-implementering. MAN: MCS som standard fra juli 2026 for tidligt-adopterede kunder; eTGX regnet til over 1.000 km om dagen inden normale arbejdstider. Milence er grundlagt af Daimler Truck, TRATON Group og Volvo Group. Konklusion: teknikken er på plads, skaleringen er det ikke.",
+        "format": "feature",
+        "mustCite": 4,
+        "mustNumber": [
+          "3,75 MW",
+          "1.250 V",
+          "3.000 A",
+          "9. februar 2026",
+          "29. september 2025",
+          "1,2 MW",
+          "1.000 km"
+        ],
+        "words": [
+          500,
+          650
+        ]
+      },
+      "receipt": {
+        "words": 558,
+        "costUSD": 0.029584,
+        "draft": "kladder/02-mcs-rollout-iaa.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1794120824-96Ki1HgwXHKrLQZ8hGhd"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-11-08",
+        "citations": null,
+        "editorNote": "Overført fra kladde, overskrift/standfirst sat, Imagine-billede tilføjet."
+      }
+    },
+    {
+      "slug": "nettet-og-arealerne",
+      "order": 3,
+      "section": "Feature · Infrastruktur",
+      "writer": {
+        "model": "anthropic/claude-sonnet-5",
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "fallback": "anthropic/claude-sonnet-5"
+      },
+      "brief": {
+        "angle": "Feature: de to rigtige flaskehalse - nettet og arealerne. Nettet: et MCS-ladepunkt trækker op til 3,75 MW; med fire ladepunkter ad gangen når man nettilslutningen for et lille industriområde - der skal middelspænding og egne transformerstationer plus ofte batteribuffere. Ifølge dena venter små og mellemstore logistikvirksomheder i gennemsnit 5-6 år på nettilslutning til depotladning; früh nettilslutning er hele projektets kritiske vej. Arealer: i Storbritannien fik Moto Hospitality i april 2026 lejekontraktudvidelser med mere end 75 år på ti motorvejsrastepladser med Department for Transport/National Highways, for at frigøre et £500 mio. opgraderingsprogram med 15 eHGV-superhubs og firedobling af antallet af EV-ladebays. bp pulse og Moto bringer high-powered lastbil-ladning fra 2026 ved Lymm (M6) og Toddington North og South (M1). GRIDSERVE åbnede Storbritanniens første offentlige eHGV-charghubs ved Baldock (A1M, seks lastbilbays) og Exeter (M5, fire bays), syv planlagt i 2026. Pointe: de operatører, der kan låse rastepladsareal i årtier, bliver lastbil-elektrificeringens gatekeepere. Danske forhold: Vejdirektoratet bygger 25 offentlige ladeparker til ellastbiler med samlet 133 MW, ca. 760 mio. kroner bevilget; baggrund 91 rastepladser på motorvejsnettet.",
+        "format": "feature",
+        "mustCite": 4,
+        "mustNumber": [
+          "3,75 MW",
+          "5-6 år",
+          "75 år",
+          "£500 mio.",
+          "133 MW",
+          "760 mio."
+        ],
+        "words": [
+          500,
+          620
+        ]
+      },
+      "receipt": {
+        "words": 546,
+        "costUSD": 0.039644,
+        "draft": "kladder/03-nettet-og-arealerne.md",
+        "costRouting": "byok",
+        "generationId": "gen-1794120854-6h3YTOfmcOgujU6G1MzK"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-11-08",
+        "citations": null,
+        "editorNote": "Overført fra kladde, overskrift/standfirst sat, Imagine-billede tilføjet."
+      }
+    },
+    {
+      "slug": "europa-afir-hullet",
+      "order": 4,
+      "section": "Feature · Skalaen",
+      "writer": {
+        "model": "openai/gpt-5.6-terra",
+        "byline": "GPT-5.6 Terra (OpenAI)",
+        "fallback": "openai/gpt-5.6-terra"
+      },
+      "brief": {
+        "angle": "Skala-artikel: gabet mellem regler og behov. AFIR (Alternativbrændstofinfrastrukturforordningen) kræver lastbil-ladepooler langs TEN-T-korridorerne: hver 60 km på kærnetnettet og hver 100 km på det omfattende net; minimumskravet pr. pool stiger fra 900 kW i 2025 til 1.800 kW i 2030. ICCT (rapport 8. oktober 2025) beregner, at EU-flåden af batterielastbiler i 2030 kræver 22-28 GW installeret ladeeffekt, 150.000-175.000 private og 60.000-80.000 offentlige ladere, heraf 4.000-5.300 megawatt-ladere (ca. 15 procent af effektbehovet, kun 2 procent af antallet); depotladning om natten er hovedform. Dækning: AFIR-målene dækker 50-70 procent af det offentlige behov i 2030 - 65-85 procent på kernetnettet, kun 35-45 procent på det omfattende net; i halvdelen af medlemsstaterne (fx Nederlandene og Belgien) kun 30-50 procent. VDA ved IAA i september 2026: Europa trenger ca. 35.000 offentligt tilgængelige MCS-ladepunkter innen 2030; i dag findes 730 ladepunkter med mindst 350 kW udelukkende for tunge køretøjer. Milence/MILES: op til 111.537.000 euro i EU-medfinansiering under AFIF til 284 MCS- og 264 CCS-ladepunkter på 71 lokaliteter i 10 EU-lande inden 2027; første MCS-anlæg i Antwerpen-Bruges havn, op til 1.440 kW. Pointe: regelsættet satte gulvlinjen, godserne skal gera resten.",
+        "format": "feature",
+        "mustCite": 4,
+        "mustNumber": [
+          "35.000",
+          "730",
+          "4.000-5.300",
+          "22-28 GW",
+          "900 kW",
+          "1.800 kW",
+          "111.537.000"
+        ],
+        "words": [
+          450,
+          580
+        ]
+      },
+      "receipt": {
+        "words": 486,
+        "costUSD": 0.028823,
+        "draft": "kladder/04-europa-afir-hullet.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1794120905-QZlZbse7aoGHxO58ok5J"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-11-08",
+        "citations": null,
+        "editorNote": "Overført fra kladde, overskrift/standfirst sat, Imagine-billede tilføjet."
+      }
+    },
+    {
+      "slug": "danmark-ladeparker",
+      "order": 5,
+      "section": "Kort & Watt · Danmark",
+      "writer": {
+        "model": "mistralai/mistral-large",
+        "byline": "Mistral Large (Mistral AI)",
+        "fallback": "openai/gpt-5.6-terra"
+      },
+      "brief": {
+        "angle": "Dansk Kort & Watt: Danmarks påvirlighed fra to retninger. Vejdirektoratet etablerer 25 offentligt tilgængelige ladeparker til ellastbiler på motorvejene med samlet ladeeffekt 133 MW; ca. 760 mio. kroner er afsat. Rammen er 91 rastepladser på motorvejsnettet (heraf 6 med pladser til særtransport) og 137 langs statsvejnettet. Danmarks første megawatt-ladestation er åbnet i Odense (Kempower, op til 1,2 MW til tunge ellastbiler), støttet af regeringens fond til el-lastbiler. Rema Distribution Danmark har fået den første MAN eTGX i Danmark med MCS-tilslutning og er Danmarks første MCS-bruger. Hold 3-5 korte afsnit, hvert afsnit med konkrete tal.",
+        "format": "kort-og-watt",
+        "mustCite": 3,
+        "mustNumber": [
+          "25",
+          "133 MW",
+          "760 mio.",
+          "91",
+          "1,2 MW"
+        ],
+        "words": [
+          380,
+          480
+        ]
+      },
+      "receipt": {
+        "words": 455,
+        "costUSD": 0.008286,
+        "draft": "kladder/05-danmark-ladeparker.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1794120932-eN8KIu7C1eJWtTIJxLma"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-11-08",
+        "citations": null,
+        "editorNote": "Overført fra kladde, overskrift/standfirst sat, Imagine-billede tilføjet."
+      }
+    },
+    {
+      "slug": "rygteboers",
+      "order": 6,
+      "section": "Rygtebørs",
+      "writer": {
+        "model": "qwen/qwen3.7-max",
+        "byline": "Qwen3.7 Max (Alibaba)",
+        "fallback": "openai/gpt-5.6-terra"
+      },
+      "brief": {
+        "angle": "Fire usikre punkter ved MCS-opbygningen - hvert mærket status (dokumenteret / ambition / rygte): 1) Kina: batteribytte dominerer tunge el-lastbiler med en oplyst markedsandel på 60-80 procent (innobu, juli 2026) - MCS og batteribytte er to konkurrerende veje til samme mål. 2) Milences mål om 1.700 offentlige ladere i 2027 er et selskabsmål; det dokumenterede i maj 2026 var 34 hubs med 225 ladepunkter i otte lande (samme måned oplyst 120 mio. euro finansieringsfacilitet via Edmond de Rothschild) og et mål om 90 lokaliteter i 2028. 3) Hydrogen-lastbilen er et konkurrerende bud med langt langsommere opgang - status: ambition. 4) Om CCS nok kan bære de tunge transporter ved 350-400 kW, hvis MCS-hubsne er få - ICCT peger på, at 350 kW-ladere kan dække mere end halvdelen af det offentlige hurtigladningsbehov. Kun verificerede tal; alt andet mærkes. IKKE digte videre (nr. 6-læringen).",
+        "format": "rygteboers",
+        "mustCite": 0,
+        "words": [
+          250,
+          320
+        ]
+      },
+      "receipt": {
+        "words": 266,
+        "costUSD": 0.02934365,
+        "draft": "kladder/06-rygteboers.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1794120948-fspn3dQ6GncEgBYhcU3d"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-11-08",
+        "citations": null,
+        "editorNote": "Overført fra kladde, overskrift/standfirst sat, Imagine-billede tilføjet."
+      }
+    }
+  ]
+}

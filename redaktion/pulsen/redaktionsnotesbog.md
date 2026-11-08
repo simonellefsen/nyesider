@@ -231,6 +231,15 @@ Omskrevet af redaktøren til 5 spørgsmål der matcher de publicerede artikler.
 - **(2026-09) AID_NOTE's resultater**, når evalueringen (okt. 2025–okt. 2026) faktisk afsluttes —
   lovet som bagsideløfte til nr. 6.
 
+## Nr. 8 — udgivet 2026-11-08
+
+**Tema:** Delstatus nr. 4: AID_NOTE-rapporten udeblev; nedtælling mod Digital Sundhed Danmark.
+**6 artikler.** Fem kommissioneret på `.env.pulsen`; lederen er redaktionens uden byline.
+Forbrug **0,1736 USD · 1,16 kr.** (DNVALD 6,6952, 2026-11-06). Rapporten er stadig ikke offentlig;
+nummeret holder løftet ved at fortælle, hvor ventetiden bruges (DSD-høring 9. nov., Østdanmark
+1. jan. 2027). `bestilling.json`: `redaktion/pulsen/numre/2026-11-nr8/bestilling.json`.
+Bagside: nr. 9 når rapporten er offentlig, eller når DSD åbner 1. januar.
+
 ## Log
 
 - **2026-10-18:** Nr. 7 udgivet — delstatus nr. 3. Bagsideløftet fra nr. 6 indfriet ærligt:

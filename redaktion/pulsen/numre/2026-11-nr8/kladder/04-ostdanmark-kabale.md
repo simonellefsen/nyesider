@@ -1,0 +1,17 @@
+# Analyse · Ledelse
+**Direktørkabalen og kommandovejene i fremtidens superregion**
+
+Der er i dag 54 dage til sammenlægningen den 1. januar 2027, hvor Region Hovedstaden og Region Sjælland formelt fusionerer og bliver til Region Østdanmark. Dermed samles ansvaret for 2,8 millioner borgere og 65.000 ansatte under én fælles ledelse. Overgangsrammen har været todelt bygget op: Mens de tre vestdanske regioners råd allerede overtog styringen den 1. januar 2026, har Østdanmarks nye regionsråd, bestående af 47 medlemmer, fungeret som et rent forberedelsesudvalg i hele 2026. De gamle regionsråd i Hovedstaden og Sjælland har derimod fastholdt det formelle driftsansvar for sygehusene året ud.
+
+Nu, frem mod den 8. november 2026, er den nye organisatoriske ramme reelt sat på plads. Det forberedende regionsråd vedtog selve organisationsstrukturen den 22. april 2026, og blot otte dage senere, den 30. april 2026, faldt navnene på den kommende topledelse endeligt på plads[^1].
+
+Den nye ledelsesstruktur byder på 12 direktører og 13 vicedirektører. Ser man på magtfordelingen mellem de to fusionerende enheder, tegner der sig et tydeligt billede af tyngden. Hele 8 af 12 direktørposter er gået til topprofiler fra Region Hovedstaden. Det gælder de tunge tværgående poster som Sundhed, Økonomi, Human Resources (HR), Digitalisering, Kommunikation, Byggeri, Apoteket og Præhospitalet. De resterende fire poster er tilfaldet profiler fra Region Sjælland, som fremover har det øverste direktøransvar for Socialområdet, Regionsudvikling, Koncerntekniske områder samt Steno Diabetes Center[^2].
+
+På papiret ligner nedgangen fra 25 til 12 direktørposter en drastisk halvering, svarende til et fald på over 50\u00a0%, men regionen oplyser ikke, hvor mange reelle chefstillinger der egentlig nedlægges. Regnestykket sløres markant af de 13 vicedirektører samt et nyt lag af projektdirektører og transformationsdirektører. Faktisk er det kun seks nuværende direktører – tre fra hver af de oprindelige regioner – som direkte mister deres direktørstatus i den nye organisation.
+
+Mange fortsætter i det nye system under ændrede titler. Eksempelvis overgår Ulrik Edelbo fra at være konstitueret økonomidirektør i Region Sjælland til en rolle som konstitueret vicedirektør i Koncern Økonomi. På samme måde skifter Helle Gaub fra en stilling som konstitueret direktør for Koncern Byg til en dedikeret rolle som projektdirektør i afdelingen for Ejendomme og Byggerier.
+
+For den samlede danske sundhedssektor, herunder klinikere, ledelse og afdelingerne for sundheds-it, markerer strukturen en massiv centralisering. Med én samlet ledelse forventes der fremover langt mere ensartede krav til systemlandskabet, drift af den fælles elektroniske patientjournal (EPJ) og den teknologiske infrastruktur. Samtidig skal ledelsen håndtere tværgående implementering af tung ny regulering, herunder den europæiske forordning om kunstig intelligens (AI Act), som vil gribe ind i den kliniske drift. Selvom antallet af absolutte topchefer skrumper, vil de kommende år vise, om omlægningen reelt skaber kortere kommandoveje i driften, eller om det udvidede felt af vicedirektører opretholder det gamle ledelsesspænd.
+
+[^1]: Region Østdanmark: [regionoest.dk-nyheden 22. april 2026](regionoest.dk-nyheden 22. april 2026) og [regionoest.dk-nyheden 30. april 2026](regionoest.dk-nyheden 30. april 2026)
+[^2]: Regional-Indsigt: [regional-indsigt.dk 20. maj 2026](regional-indsigt.dk 20. maj 2026)

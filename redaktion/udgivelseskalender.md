@@ -41,7 +41,7 @@ Håndhæves som **ERROR** i `production/check_issue.py` (og dermed i `npm run pr
 | 2026-10-26 | aktier/2026-10-nr10 (nr. 10) |
 | 2026-11-02 | aktier/2026-11-nr11 (nr. 11) |
 | 2026-11-07 | gnisten/2026-11-nr8 (nr. 8); kronike/2026-11-nr7 (nr. 7) |
-| 2026-11-08 | kulturboxen/2026-11-nr8 (nr. 8) |
+| 2026-11-08 | dosis/2026-11-nr8 (nr. 8); kulturboxen/2026-11-nr8 (nr. 8); pulsen/2026-11-nr8 (nr. 8); spaending/2026-11-nr8 (nr. 8) |
 
 ## Efter magasin
 
@@ -72,6 +72,7 @@ Håndhæves som **ERROR** i `production/check_issue.py` (og dermed i `npm run pr
 | 5 | `2026-09-nr5` | 2026-09-12 | published | Tre skeptiske eftersyn: magnesium, creatin og collagen |
 | 6 | `2026-10-nr6` | 2026-10-03 | published | Kirkegården for glemte superfødevarer — en obduktion af, hvordan en wellness-myte dør |
 | 7 | `2026-10-nr7` | 2026-10-18 | published | Hvad holder i 10 år? — en status på implantater og proteser, fra hofteproteser og cochleaimplantater til cybernetik |
+| 8 | `2026-11-nr8` | 2026-11-08 | published | Sundheds-wearables' data — hvad må de samle om os, og hvad kan vi reelt få ud af det |
 
 ### gnisten
 
@@ -182,6 +183,7 @@ Håndhæves som **ERROR** i `production/check_issue.py` (og dermed i `npm run pr
 | 5 | `2026-09-nr5` | 2026-09-05 | published | Opfølgning: Bupa i drift, og AID_NOTE på målstregen |
 | 6 | `2026-10-nr6` | 2026-10-03 | published | Mellemåret: AID_NOTE og genomik uden facit — men med pejlemærker |
 | 7 | `2026-10-nr7` | 2026-10-18 | published | Delstatus nr. 3: AID_NOTE's mellemtal, DSD-trusaften og DSMG uden adhærens-data |
+| 8 | `2026-11-nr8` | 2026-11-08 | published | Delstatus nr. 4: AID_NOTE-rapporten udeblev — i stedet tælles der ned mod Digital Sundhed Danmark |
 
 ### spaending
 
@@ -194,6 +196,7 @@ Håndhæves som **ERROR** i `production/check_issue.py` (og dermed i `npm run pr
 | 5 | `2026-09-nr5` | 2026-09-05 | published | Brugtmarkedet finder sine ben — og to robotaxi-forsøg går fra plan til drift |
 | 6 | `2026-10-nr6` | 2026-10-03 | published | Europa bygger, tester og designer lavt — Szeged, London og Volvos SPA3-platform |
 | 7 | `2026-10-nr7` | 2026-10-18 | published | Roadster Event — hvad Tesla faktisk viste på SpaceX McGregor, dokumenteret vs. show, og hvad Europa kan homologere |
+| 8 | `2026-11-nr8` | 2026-11-08 | published | Megawatt Charging System til lastbiler — 45 minutters pause som ny brændstofpause, nettets flaskehals og kampen om arealerne |
 
 ## Kollisioner (skal være tom)
 

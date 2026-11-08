@@ -303,6 +303,15 @@ brandes kompakte bagsnit). `check_links.py`: **0 døde links (11 tjekket).**
 - **Søster:** PULSEN nr. 7 lå på disk (leder «Delstatus — og en dato») — 1 krydslink lavet fra
   hofteprotese-artiklen til `/pulsen/2026-10-nr7/leder`.
 
+## Nr. 8 — udgivet 2026-11-08 (status: published)
+
+**Tema:** Sundheds-wearables' data — hvad må de samle, og hvad kan vi reelt få ud af det.
+Indfrier nr. 7's bagsideløfte. **6 artikler.** Fem kommissioneret på `.env.dosis`; lederen
+er redaktionens uden byline. Forbrug **0,1558 USD · 1,04 kr.** (DNVALD 6,6952, 2026-11-06).
+`check_issue.py` 0 fejl efter fodnote-fix på `dine-rettigheder` (`[^2]` Datatilsynet).
+`bestilling.json`: `redaktion/dosis/numre/2026-11-nr8/bestilling.json`.
+Bagside: nr. 9 om hjemmetests og blodprøver.
+
 ## Løfter givet i nr. 6
 
 

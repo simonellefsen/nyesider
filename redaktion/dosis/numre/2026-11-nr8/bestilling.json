@@ -1,0 +1,206 @@
+{
+  "magazine": "dosis",
+  "issue": "2026-11-nr8",
+  "issueTheme": "Sundheds-wearables' data — hvad må de samle om os, og hvad kan vi reelt få ud af det (dataretning, API, tilbagekaldelse)? Indfrir nr. 7's bagsideløfte.",
+  "budget": {
+    "articles": 6,
+    "targetPages": 12,
+    "wordsPerArticle": [
+      300,
+      750
+    ],
+    "note": "Kompakt som nr. 5/6/7. Temaet er jura og datastrømme, ikke dosering: opdigt ikke love og gæt ikke app-politikker — hver påstand skal kunne peges på GDPR eller en leverandørs faktiske side."
+  },
+  "opgaver": [
+    {
+      "slug": "leder",
+      "order": 1,
+      "section": "Leder",
+      "brief": {
+        "angle": "Kort leder der indfrier nr. 7's bagsideløfte: sundheds-wearables' data. Fælles pointe: pulsmåleren gør kroppen til råmateriale — men i modsætning til hofteprotesens register ejer ingen offentlig myndighed tabellen. Reglerne er GDPR, ikke et revisionsstudie, og dataerne ligger i leverandørens app-skylle, ikke i et register. Sassy skepsis, ikke guru.",
+        "format": "leder",
+        "mustCite": 0,
+        "words": [
+          150,
+          250
+        ]
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": null,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-11-08",
+        "citations": 0,
+        "editorNote": "Editor-led, ingen byline. Redaktionen lukkede nummeret."
+      }
+    },
+    {
+      "slug": "datahoest",
+      "order": 2,
+      "section": "Wearables & data",
+      "brief": {
+        "angle": "Hvad samler en typisk sundheds-wearable reelt, og hvilke juridiske kategorier ryger det ind i? Puls, søvn, skridt, HRV, evt. CGM og menstruationscyklus. Pointen: meget af det er sundhedsoplysninger i GDPR's art. 9 (følsom kategori), hvor udgangspunktet er forbud — med udtrykkelige undtagelser — ikke et 'nice to have'. Skriv generelt, ikke om ét mærke; leverandørernes detaljer er order 4's sag. OPDIGT INGEN tal om danske brugere eller markedsandele uden publikum-kilde. Forkortelser (GDPR) udfoldes første gang.",
+        "format": "feature",
+        "mustCite": 2,
+        "words": [
+          500,
+          750
+        ]
+      },
+      "writer": {
+        "byline": "GPT-5.6 Terra (OpenAI)",
+        "model": "openai/gpt-5.6-terra",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 745,
+        "costUSD": 0.030024,
+        "draft": "kladder/02-datahoest.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1794120670-dI80JIHQx1J9WCgGRSmh"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-11-08",
+        "citations": null,
+        "editorNote": "Overført fra kladde, overskrift/standfirst sat, Imagine-billede tilføjet."
+      }
+    },
+    {
+      "slug": "dine-rettigheder",
+      "order": 3,
+      "section": "Wearables & data",
+      "brief": {
+        "angle": "Hvad må læseren faktisk kræve, når appen har fyldt vinduerne med kropstekst: indsigt (art. 15), dataportabilitet i maskinlæsbart format (art. 20), sletning (art. 17) og tilbagekaldelse af samtykke (art. 7.3). Danske regler: Datatilsynet er klageinstansen, klage er gratis, tidsfristen for svar er typisk én måned (art. 12.3). Pointe: rettighederne er ikke halbofficielle — de er udgangspunktet. OPDIGT INGEN praksisdetaljer om enkelte firmaer (fx 'sletter i 30 dage') uden kilde; hold dig til lovbogens regler.",
+        "format": "feature",
+        "mustCite": 2,
+        "words": [
+          500,
+          750
+        ]
+      },
+      "writer": {
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 596,
+        "costUSD": 0.023518,
+        "draft": "kladder/03-dine-rettigheder.md",
+        "costRouting": "byok",
+        "generationId": "gen-1794120731-orD8K6Bup2g3HrRd1pIu"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-11-08",
+        "citations": null,
+        "editorNote": "Overført fra kladde, overskrift/standfirst sat, Imagine-billede tilføjet."
+      }
+    },
+    {
+      "slug": "exporten",
+      "order": 4,
+      "section": "Wearables & data",
+      "brief": {
+        "angle": "Hvad får man reelt ud af systemet? Gennemgå kort den praktiske eksport-vej: Apple Health-export (XML i zip), Google Takeout/Fitbit, Garmins .FIT-filer, WHOOP's API — og at de fleste API'er er bygget til udviklere, ikke til kroppens ejer. Pointe: maskinlæsbart er ikke det samme som brugbart. Hver leverandør-påstand SKAL være verificeret på leverandørens virkelige dokumentationsside før accept — gæt INGEN URL'er eller formater.",
+        "format": "feature",
+        "mustCite": 3,
+        "words": [
+          500,
+          750
+        ]
+      },
+      "writer": {
+        "byline": "Gemini 3.1 Pro Preview (Google)",
+        "model": "google/gemini-3.1-pro-preview",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 758,
+        "costUSD": 0.064674,
+        "draft": "kladder/04-exporten.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1794120795-o8QSKu0eXS4295ixxy9F"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-11-08",
+        "citations": null,
+        "editorNote": "Overført fra kladde, overskrift/standfirst sat, Imagine-billede tilføjet."
+      }
+    },
+    {
+      "slug": "tallet",
+      "order": 5,
+      "section": "Tallet",
+      "brief": {
+        "angle": "Tallet: databordet for nummerets påstande. Kort tabel med tal + kilde + år: art. 9's følsomme kategorier, tidsfristen for indsigt (én måned, art. 12.3), tilbagekaldelseskraften (art. 7.3 — så let som at give samtykke), og evt. andel af danskere med wearable (kun med publikum-kilde). 4 fodnoter minimum, alle verificerede. OPDIGT INGEN tal uden publikum-kilde.",
+        "format": "tallet",
+        "mustCite": 4,
+        "words": [
+          500,
+          800
+        ]
+      },
+      "writer": {
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 686,
+        "costUSD": 0.03326,
+        "draft": "kladder/05-tallet.md",
+        "costRouting": "byok",
+        "generationId": "gen-1794120894-x7wXNCTNnFaPsmxUnaeJ"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-11-08",
+        "citations": null,
+        "editorNote": "Overført fra kladde, overskrift/standfirst sat, Imagine-billede tilføjet."
+      }
+    },
+    {
+      "slug": "rygteboersen",
+      "order": 6,
+      "section": "Rygtebørsen",
+      "brief": {
+        "angle": "Rygtebørsen: rygter om wearables og data — datasalg, forsikringstilbud baseret på skridttal, API-nedlukning når indtægten falder, telemetri til sundheds-dashboards. Tæt og sassy, ingen fodnoter. Bagsideløfte: DOSIS nr. 9 om hjemmetests og blodprøver.",
+        "format": "rygteboersen",
+        "mustCite": 0,
+        "words": [
+          300,
+          500
+        ]
+      },
+      "writer": {
+        "byline": "DeepSeek V3.2 (DeepSeek)",
+        "model": "deepseek/deepseek-v3.2",
+        "fallback": null
+      },
+      "receipt": {
+        "words": 426,
+        "costUSD": 0.0043374456,
+        "draft": "kladder/06-rygteboersen.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1794120969-5xhEtU72iCY4SucdQwhT"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-11-08",
+        "citations": 0,
+        "editorNote": "Overført fra kladde, overskrift/standfirst sat, Imagine-billede tilføjet."
+      }
+    }
+  ]
+}
