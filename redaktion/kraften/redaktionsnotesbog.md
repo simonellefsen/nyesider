@@ -296,3 +296,18 @@ OpenRouter: **kun** `.env.kraften`. Imagine: `.env.local`.
 - **2026-08-08 (process):** Efter Sverige-kladde-uheldet: `production/check_issue.py` flagger nu **draft/production-meta** i publiceret brødtekst som ERROR; chefredaktør-tjekliste i [redaktion/README](../README.md) kræver eksplicit “færdig læsertekst” + jargon første gang + features før bagsnit.
 - **2026-08-08 (depth):** Features stadig for korte efter batch. Indien: Læseregler væk → prosa. Sverige: flåde (6 reaktorer, Forsmark/Ringhals/Oskarshamn, ~50 TWh/~29 %) + Nordic Baseload Power (Barsebäck, ~2 500 MWe, 4. støtteansøgning juni 2026). Kina, lagring, rum-pakke, tallet, snapshot udvidet.
 - 2026-10-18: Nr. 7 udgivet - tema "Powerwalls". Nr. 6 bagsidelofte (elnettet paa Maanen) skubbes til nr. 8; Rygteborsen lofter det bagsidelofte pa ny. Tal og kilder faktatjekket: check_issue og check_links producerer nul fejl.
+
+## Nr. 8 — udgivet 2026-11-08
+
+**Tema:** Elnettet på Månen — hvad det kræver at holde lys i 14 døgn i træk gennem månenatten (indfrier nr. 6's bagsideløfte, gentaget i nr. 7). **7 artikler.** Seks artikler kommissioneret på `.env.kraften`; lederen er redaktionens uden byline. Forbrug **0,1241 USD · 0,83 kr.** Kurs DNVALD 6,6952 (6. november 2026). Palet `#14231F / #E3A008 / #4EC9B0`.
+
+### Fanget i faktatjekket
+
+- **Sandia 100 kW og analog-array:** mikrogrid-kladden tilskrev Sandias pressemeddelelse 11. maj 2022 100 kW og et field-programmable analog array. Ingen af delene står i kilden. Beholdt: systemcontroller, tidsskalaer fra under et millisekund til sæsoner, DC, tre sammenkoblede mikrogrids i testbeddet.
+- **«Tre kabler»:** Weaver 2022 beskriver tre DC-mikrogrids forbundet med *tielinjer* (sol + to vandudvindingslaster), ikke tre kabler. Rettet.
+- **VSAT ti meter:** ikke i briefen, men NASA 2021 (op til 32 fod) og NTRS 20220013210 («up to 10m») bærer påstanden. Beholdt med kilde.
+- **RHU ≠ RTG:** låst. Chang'e-3/Yutu: varme, ikke el.
+
+**Bagsiden nr. 9:** er der reelle kommercielle kunder på månens kraft?
+
+- **2026-11-08:** Nr. 8 udgivet — 'Elnettet på Månen'. OpenCode-kvote blokerede magasinagenten; Redaktionen producerede på `.env.kraften`.

@@ -1,0 +1,264 @@
+{
+  "magazine": "kraften",
+  "issue": "2026-11-nr8",
+  "issueTheme": "Elnettet på Månen — hvad det kræver at holde lys i 14 døgn i træk gennem månenatten",
+  "budget": {
+    "articles": 7,
+    "wordsPerArticle": [
+      250,
+      420
+    ],
+    "targetPages": 12,
+    "note": "Indfrier nr. 6's bagsideløfte (gentaget i nr. 7): rum-kraft i watt, ikke opsendelser (ORBIT) og ikke biler (SPÆNDING). Kompakt som nr. 5-7."
+  },
+  "opgaver": [
+    {
+      "slug": "leder",
+      "order": 1,
+      "section": "Leder",
+      "brief": {
+        "angle": "Chefredaktionens leder: månen er det vildeste elnet-miljø, der findes — 14,5 døgn nat ad gangen, temperaturer, der dræber elektronik, og en konkurrence om de første kilowatt på overfladen. Nettet kommer før byen: før der kan bo nogen, skal der være effekt gennem natten. Ingen biler (SPÆNDING) og ingen opsendelser (ORBIT).",
+        "words": [
+          150,
+          250
+        ],
+        "mustCite": 0,
+        "format": "leder"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": null,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-11-08",
+        "citations": 0,
+        "editorNote": "Redaktionens egen leder, ingen byline. Kolofon med DNVALD 6.6952 / 2026-11-06."
+      }
+    },
+    {
+      "slug": "tallet",
+      "order": 2,
+      "section": "Tallet",
+      "brief": {
+        "angle": "Tallet: 14,5. Et månendøgn varer ca. 14,5 jorddøgn lys og ca. 14,5 jorddøgn mørke — den periode, ethvert sol-drevet anlæg på månen skal overleve på batteri eller anden kilde. Kilder og tal at bruge: NASA skriver at hver månenat varer ca. 14,5 jorddøgn (https://www.space.com/nasa-moon-nuclear-reactor-project-first-phase-complete); NASA fremhæver at månenetter ved polerne kan vare MERE end 14 jorddøgn (https://www.nasa.gov/centers-and-facilities/glenn/nasa-seeks-industry-feedback-on-fission-surface-power/); nattemperaturer kan falde til ca. minus 133 °C ifølge NASA (gengivet af CNN om SLIM, https://www.cnn.com/2024/05/02/world/japan-moon-sniper-third-lunar-night-scn), og JAXA angiver ca. minus 170 °C på SLIM's fundsted (https://www.japantimes.co.jp/news/2024/04/25/japan/science-health/japan-moon-lander-survives-third-lunar-night/). I permanent skyggede polar-kratere er det koldere: NASA's Diviner-instrument har målt temperaturer ned til 25 kelvin (ca. minus 248 °C), https://www.diviner.ucla.edu/science. Skeln jorddøgn fra månendøgn; skeln effekt (kW) fra energi (kWh × 14,5 døgn). Hovedpointe: talet 14,5 er grænseværdien, den samlede designudfordring er at levere watt gennem 14,5 døgn — solpaneler alene slås fejl ved solnedgang.",
+        "words": [
+          280,
+          400
+        ],
+        "mustCite": 3,
+        "mustNumber": [
+          "14,5 jorddøgn",
+          "minus ca. 133 °C / ca. 170 °C",
+          "25 kelvin (ca. minus 248 °C) i shadede kratere"
+        ],
+        "format": "tallet"
+      },
+      "writer": {
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 333,
+        "costUSD": 0.01547,
+        "draft": "kladder/02-tallet.md",
+        "costRouting": "byok",
+        "generationId": "gen-1794120821-UnU189lYgA4D7XKKbpxB"
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-11-08",
+        "citations": 4,
+        "editorNote": "Fodnoter udvidet til fulde URL. 14,5 / −133/−170 / 25 K låst."
+      }
+    },
+    {
+      "slug": "maanenatten",
+      "order": 3,
+      "section": "Natten",
+      "brief": {
+        "angle": "Feature: hvad månenatten gør ved hardware, og hvad der har overlevet. To cases: 1) Japans SLIM-månelander (Smart Lander for Investigating Moon), landet 19. januar 2024, IKKE bygget til at overleve natten — overlevede alligevel 3 månenetter og vågnede 4 månendage, sidste kontakt slut maj 2024, mission afsluttet 23. august 2024. Kilder: https://www.reuters.com/technology/space/japans-slim-moon-probe-unexpectedly-survives-lunar-night-2024-02-26/ ; https://www.newscientist.com/article/2428439-japans-slim-moon-lander-has-shockingly-survived-a-third-lunar-night/ . 2) Kinas Chang'e-3 (landet 15. december 2013) og roveren Yutu: holdte varme i natten med radioaktive plutonium-238-varmere med en radioisotope heater unit-profil (RHU — radioisotope heater unit: et radioaktivt varmeelement, der bare udskiller varme; det genererer ingen elektricitet) plus et to-fase væske-loop; Yutu overlevede 32 nætter og virkede i 31 måneder mod et designliv på 3; landeren var aktiv i mere end 2.400 døgn. Kilder: https://spaceflightnow.com/2016/08/04/chinas-yutu-rover-dies-on-the-moon/ ; https://www.space.com/china-change-3-moon-lander-lasts-7-years ; https://www.eoportal.org/satellite-missions/chang-e-3 Advarsel om forvekslingsrisiko: RHU-varmere giver VÆRME, ikke elektricitet — en RTG (radioisotope thermoelectric generator) genererer el; Chang'e-3-kilderne er uenige om, om landeren også har en elektrisk RTG — nævn usikkerheden eller undgå påstanden. De fleste kommercielle månelandere er ikke bygget til nat og dør ved solnedgang; New Scientist (linket ovenfor) skriver at måne-landers typisk kun overlever én månendag. Pointe: overlevelse her er først og fremmest et VARMESPROBLEM: elektronik druk i kulde, og strategierne 'frys ind og håb' (SLIM) kontra 'hold minimum varme' (Chang'e-3) har forskellige priser.",
+        "words": [
+          280,
+          400
+        ],
+        "mustCite": 3,
+        "mustNumber": [
+          "SLIM: 3 nætter overlevet, mission afsluttet august 2024",
+          "Yutu/Chang'e-3: 31 måneder mod 3 måneders designliv",
+          "RHU: varme, ikke el"
+        ],
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "GPT-5.6 Terra (OpenAI)",
+        "model": "openai/gpt-5.6-terra",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 355,
+        "costUSD": 0.0192105,
+        "draft": "kladder/03-maanenatten.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1794120856-pR8y71OaORLCflgyTdio"
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-11-08",
+        "citations": 4,
+        "editorNote": "RHU varme ikke el. SLIM 3 nætter. Yutu 31 mdr. To-fase væskekredsløb."
+      }
+    },
+    {
+      "slug": "solen-paa-polen",
+      "order": 4,
+      "section": "Solenergi",
+      "brief": {
+        "angle": "Feature: solkraft på månen er et lokalitetsproblem. Ved ækvator står solen højt i 14 døgn — så kommer 14 døgn mørke; netop derfor målretter havne- og basis-udvalgte pladser i dag MÅNENS SYDPOLE, hvor 'peaks of eternal light' — højdepunkter på kraterrandene — får sollys ca. 90 % af tiden, men intet sted ever når 100 % (Sky & Telescope: randene af Malapert- og Shackleton-kratere får sollys ca. 90 % af tiden; ingen måne-ejendom er 100 % opplyst: https://skyandtelescope.org/sky-and-telescope-magazine/peaks-of-eternal-light/ ). Lige ved polerne står solen lavt på himlen, skygger er lange, og det nytter at stille panelerne VERTIKALT: NASA udvikler en Vertical Solar Array Technology (VSAT — lodret opstillede solpaneler, der følger den lave sol rundt om horisonten) netop til polarmiljøet. Læg skelnen: høj lys-procent pæn plads til lav elevafstand ≠ dagsmatch; de resterende ~10 % + permanent skyggede kratere (med is og ingredients, men 25 kelvin, https://www.diviner.ucla.edu/science) er selve bruddet, hvor natterummets watt skal capes af lagring eller en anden kilde. Ingen kinesiske missions- eller opsendelsestekniske detaljer — opsendelser tilhører ORBIT.",
+        "words": [
+          280,
+          400
+        ],
+        "mustCite": 2,
+        "mustNumber": [
+          "ca. 90 % sollys på peaks of eternal light",
+          "VSAT: lodrette paneler"
+        ],
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "Gemini 3.5 Flash (Google)",
+        "model": "google/gemini-3.5-flash",
+        "fallback": "minimax/minimax-m3"
+      },
+      "receipt": {
+        "words": 326,
+        "costUSD": 0.0317985,
+        "draft": "kladder/04-solen-paa-polen.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1794120914-Xjhtm1lwiPDVKq9WrvSt"
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-11-08",
+        "citations": 3,
+        "editorNote": "90 % peaks; VSAT op til 10 m via NASA 2021 + NTRS 20220013210. Ingen 100 %."
+      }
+    },
+    {
+      "slug": "fission-100kw",
+      "order": 5,
+      "section": "Fission",
+      "brief": {
+        "angle": "Feature: atomkraften rykker på månen. 2022 valgte NASA/DOE tre hold til at tegne en 40-kilowatt (kW) fission surface power-reaktor, hver kontrakt ca. 5 millioner dollar: Lockheed Martin (med BWXT og Creare), Westinghouse (med Aerojet Rocketdyne) og IX (et joint venture af Intuitive Machines og X-Energy, med Maxar og Boeing). I august 2025 udstedte NASA's fungerende administrator Sean Duffy et direktiv med et hurtigere mål: mindst 100 kW klar til afsendelse i senest 2029, reaktorsystemet under 15 ton (grænsen for en månelander), med lukket Brayton-cycle (en lukket gasturbinetrin, der omsætter reaktorvarme til el i et lukket kredsløb af gas), og krav om, at reaktoren kan integreres i sin egen lander. Direktivet nævner også, at et sikkerhedsareal omkring en reaktor — en såkaldt 'keep-out zone' — de facto kan fungere territorialt. På det tidspunkt fandt NASA også en 'keep-out zone' (et sikkerhedsareal omkring reaktoren, der kan fungere de facto-territorialt) plus Kina/Russlands annoncerede planer om at lave ILRS med et fælles atomkraftværk i mellem-2030'erne (ifølge Scientific American og Reuters, https://www.reuters.com/business/energy/china-led-lunar-base-include-nuclear-power-plant-moons-surface-space-official-2025-04-23/ og https://www.scientificamerican.com/article/nasa-boosts-plans-for-nuclear-reactor-on-the-moon/ ). I januar 2026 bekræftede NASA+DOE MoU: en 'lunar surface reactor' klar senest 2030 (https://www.nasa.gov/news-release/nasa-department-of-energy-to-develop-lunar-surface-reactor-by-2030/ ). 100 kW svarer ca. til strømmen til en amerikansk byblok / 70–80 husstande (NASA's eget regnestykke: 40 kW ≈ 33 husstande, https://www.space.com/nasa-moon-nuclear-reactor-project-first-phase-complete ). Kritisk røst: Science-editorialen (28. august 2025) siger, at 2030-målet er aggressivt og kan rykke andre prioriteringer (https://www.science.org/doi/10.1126/science.aeb6479 ). Skeln nameplate / under udvikling / i drift: intet af dette er i drift endnu.",
+        "words": [
+          300,
+          420
+        ],
+        "mustCite": 3,
+        "mustNumber": [
+          "40-ekes kW-design (2022) sænket til 100 kW (2025)",
+          "15-tonslanderens grænse",
+          "Kina/Rusland: reaktor i 2030'erne (ILRS)",
+          "NASA+DOE MoU januar 2026"
+        ],
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "Claude Opus 4.8 (Anthropic)",
+        "model": "anthropic/claude-opus-4.8",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 400,
+        "costUSD": 0.04559,
+        "draft": "kladder/05-fission-100kw.md",
+        "costRouting": "byok",
+        "generationId": "gen-1794120958-FwISVBtRSnnei3V7luAv"
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-11-08",
+        "citations": 5,
+        "editorNote": "40 kW 2022 hævet til 100 kW 2025. Intet i drift. Science og SciAm splittet."
+      }
+    },
+    {
+      "slug": "maane-mikrogrid",
+      "order": 6,
+      "section": "Nettet",
+      "brief": {
+        "angle": "Feature: selve nettet. Sandia National Laboratories designer i samarbejde med NASA systemcontrolleren til et måne-mikrogrid — et lokalt net, der skal balancere produktion og forbrug på tre tidsskaler på én gang (minutter, døgn og hele månens 29,5-døgns cyklus), skriver Sandia i sin pressemeddelelse fra 11. maj 2022 (https://newsreleases.sandia.gov/lunar_mircogrid/). Controlleren bygges på et 'field-programmable analog array' — et analogt chip, der kan omprogrammeres, og som tåler stråling bedre end kommercielle mikroprocessorer. NASA's egne studier: 'Power and Energy for the Lunar Surface' (Jon Csank m.fl., NASA NTRS, https://ntrs.nasa.gov/api/citations/20220005893/downloads/Power%20and%20Energy%20for%20the%20Lunar%20Surface.pdf) beskriver et mikrogrid, der integrerer fission (en kerne-reaktor), solpaneler og batterier; og William Weaver m.fl. (2022) skitserer et netværk af tre DC-mikrogrid-enheder koblet sammen og kombineret med ISRU (in-situ resource utilization — udvinding af ilt og vand af månens is, https://ntrs.nasa.gov/api/citations/20220017231/downloads/Weaver_P_20220017231_AIAA_SciTech_Forum_National_Harbor_MD.pdf). Hovedpointe: månens net bliver næppe ét centralt kraftværk med lange AC-højpændingslinjer, men distribueret jævnstrøm — DC-net, der spænder fra kilowatt op mod hundredvis, sammenkoblet som mikrogrid-enheder. Udfold DC (jævnstrøm) og AC (vekselstrøm) første gang pr. artikel.",
+        "words": [
+          280,
+          400
+        ],
+        "mustCite": 2,
+        "mustNumber": [
+          "Sandia microgrid: systemcontroller",
+          "tre-kabler DC-mikrogrid (Weaver NASA 2022)",
+          "distribuere DC (DC på tværs af enheder)"
+        ],
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "Mistral Large (Mistral AI)",
+        "model": "mistralai/mistral-large",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 331,
+        "costUSD": 0.006704,
+        "draft": "kladder/06-maane-mikrogrid.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1794124903-yKEdk7lffStJOBZaCRbc"
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-11-08",
+        "citations": 3,
+        "editorNote": "Sandia-controller + tre DC-mikrogrids (Weaver tielinjer). Droppet 100 kW og analog-array, stod ikke i kilden."
+      }
+    },
+    {
+      "slug": "rygteboersen",
+      "order": 7,
+      "section": "Rygtebørs",
+      "brief": {
+        "angle": "Kort bagsnit: det, der endnu kun siges. 1) Star Catcher Industries og Intuitive Machines har ifølge SATNews (13. november 2025) en aftale om at afprøve 'optical power beaming' — trådløs strømning af energia via LASER — til udvidede måne-operationer (https://satnews.com/2025/11/13/star-catcher-intuitive-machines-demo-power-beaming-for-extended-lunar-surface-operations/); idéen: et solpanel i dagslys eller i bane kan skyde sin overskudsstrøm på en anlæg, der ligger i skygge eller månenat. 2) Volta Space Systems vil ifølge Payload (https://payloadspace.com/volta-space-wants-to-beam-power-to-the-moon/) have en satellitkonstellation, der samler solenergi i bane og sender den ned som laser til landere og rovere. 3) NASA-fysiker Geoffrey Landis (Glenn Research Center) har studeret laser-power-beaming i årtier — teknikkatalog-indførselen er i NASA NTRS (f.eks. https://ntrs.nasa.gov/citations/20250009526); teknologien er gammel, markedet er nyt. 4) Løftet til nr. 9: er der reelle kommercielle kunder på månens kraft? Ingen af kil-de-navnene (Star Catcher, Volta) har offentliggjort underskrevne kundeaftaler på månens overflade — skriv sendebetjeningen: hvad der er demo, og hvad er netto. Ikke biler (SPÆNDING), ikke opsendelser (ORBIT).",
+        "words": [
+          200,
+          300
+        ],
+        "mustCite": 0,
+        "mustNumber": [],
+        "format": "rygteboersen"
+      },
+      "writer": {
+        "byline": "Grok 4.5 (xAI)",
+        "model": "x-ai/grok-4.5",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 242,
+        "costUSD": 0.0053452,
+        "draft": "kladder/07-rygteboersen.md",
+        "costRouting": "byok",
+        "generationId": "gen-1794124922-jboJjb1gec64PjsBZIjX"
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-11-08",
+        "citations": 3,
+        "editorNote": "Demo vs netto. Ingen underskrevne måne-kundeaftaler. SATNews 403 bot-block."
+      }
+    }
+  ]
+}

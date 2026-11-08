@@ -41,7 +41,7 @@ Håndhæves som **ERROR** i `production/check_issue.py` (og dermed i `npm run pr
 | 2026-10-26 | aktier/2026-10-nr10 (nr. 10) |
 | 2026-11-02 | aktier/2026-11-nr11 (nr. 11) |
 | 2026-11-07 | gnisten/2026-11-nr8 (nr. 8); kronike/2026-11-nr7 (nr. 7) |
-| 2026-11-08 | dosis/2026-11-nr8 (nr. 8); humanerd/2026-11-nr8 (nr. 8); kulturboxen/2026-11-nr8 (nr. 8); orbit/2026-11-nr8 (nr. 8); pulsen/2026-11-nr8 (nr. 8); spaending/2026-11-nr8 (nr. 8) |
+| 2026-11-08 | dosis/2026-11-nr8 (nr. 8); humanerd/2026-11-nr8 (nr. 8); kraften/2026-11-nr8 (nr. 8); kulturboxen/2026-11-nr8 (nr. 8); orbit/2026-11-nr8 (nr. 8); pulsen/2026-11-nr8 (nr. 8); spaending/2026-11-nr8 (nr. 8) |
 
 ## Efter magasin
 
@@ -135,6 +135,7 @@ Håndhæves som **ERROR** i `production/check_issue.py` (og dermed i `npm run pr
 | 5 | `2026-09-nr5` | 2026-09-05 | published | Fra produktion til distribution: kablerne under havet og kobberet i dem |
 | 6 | `2026-10-nr6` | 2026-10-03 | published | Gennem skyggen: solpaneler, batterier og strømstyring når lyset forsvinder |
 | 7 | `2026-10-nr7` | 2026-10-18 | published | Powerwalls — hjemmebatteriet som elektrificering: kilowatt på væggen, gigawatt på nettet |
+| 8 | `2026-11-nr8` | 2026-11-08 | published | Elnettet på Månen — hvad det kræver at holde lys i 14 døgn i træk gennem månenatten |
 
 ### kronike
 

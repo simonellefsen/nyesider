@@ -1,0 +1,9 @@
+# Rygtebørs: Laserstrøm til månenatten
+
+Idéen er enkel at sige og svær at levere: et solpanel i dagslys — eller i bane — skyder overskudsenergi som laser hen til et anlæg i skygge eller midt i månenatten. «Optical power beaming», trådløs energioverførsel med lys, er pludselig blevet et navn, man hører i samme sætning som kommercielle måneplaner.
+
+Ifølge satellitnyhedstjenesten SATNews har Star Catcher Industries og Intuitive Machines indgået en aftale om at afprøve netop den type laserbaserede strømning med henblik på længere operationer på måneoverfladen. Parallelt fortæller fagmediet Payload, at Volta Space Systems sigter mod en satellitkonstellation, der samler solenergi i bane og sender den ned som laser til landere og rovere. Begge forløb lyder som demonstrationer og systemudvikling — ikke som færdig infrastruktur.
+
+Teknikken er ikke ny. NASA-fysiker Geoffrey Landis ved Glenn Research Center har i årtier arbejdet med laser-power-beaming; teknikkatalog og studier ligger blandt andet i NASA’s tekniske rapportarkiv (NASA NTRS). Det, der er nyt, er markedstonen: private selskaber, der taler om månekraft som en tjeneste.
+
+Her skal sendebetjeningen holdes skarp. Ingen af de nævnte aktører har offentliggjort underskrevne kundeaftaler om levering af strøm på månens overflade. Det, der foreligger i den åbne presse, er demomål, partnerskabsrammer og visioner om konstellationer. Watt på papiret er ikke det samme som watt i regolit. Indtil der er navngivne aftagere, tariffer og driftsdata, forbliver «månestrøm via laser» et løfte i banen — ikke en nettoforretning på jorden under vores fødder, endsige under månestøvet.

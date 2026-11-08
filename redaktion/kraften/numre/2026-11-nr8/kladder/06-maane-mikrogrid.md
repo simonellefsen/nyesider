@@ -1,0 +1,11 @@
+Månen får sit eget mikrogrid – og det bliver jævnstrøm
+
+På Jorden er elektricitetsnettet et sammenvævet system af vekselstrøm (AC), der transporterer energi over hundreder af kilometer fra store kraftværker. På Månen bliver det anderledes. Her er planen et distribueret net af jævnstrøm (DC) i mindre enheder – såkaldte mikrogrids – der kobles sammen, når behovet opstår.
+
+Sandia National Laboratories udvikler i samarbejde med NASA en systemcontroller til et måne-mikrogrid, der skal balancere produktion og forbrug på tre tidsskalaer samtidigt: minutter, døgn og Månens 29,5 døgn lange cyklus. Controlleren bygges på et *field-programmable analog array* – et analogt chip, der kan omprogrammeres og tåler stråling bedre end kommercielle mikroprocessorer. Ifølge Sandias pressemeddelelse fra maj 2022 skal systemet håndtere en effekt på op til **100 kilowatt** fra en kombination af en lille kernekraftreaktor, solpaneler og batterier.
+
+NASA’s egne studier bekræfter konceptet. I rapporten *Power and Energy for the Lunar Surface* (2022) beskriver forskere et mikrogrid, der integrerer fission, solenergi og batterilagring. En anden NASA-analyse fra samme år, forfattet af William Weaver og kolleger, skitserer et netværk af **tre DC-mikrogrid-enheder**, der kobles sammen via tre kabler. Hver enhed kan levere mellem **10 og 100 kilowatt** og understøtter *in-situ resource utilization* (ISRU) – udvinding af ilt og vand fra månens is.
+
+Forskellen på AC og DC er afgørende. Vekselstrøm (AC) er effektiv til langdistance-transmission på Jorden, men på Månen er afstanden mellem energikilder og forbrugere kort. Her er jævnstrøm (DC) mere praktisk, fordi den undgår energitab ved konvertering og bedre passer til solpaneler og batterier. Desuden er DC-systemer nemmere at skalere op i mindre enheder – en fordel, når baser og udstyr flyttes rundt på overfladen.
+
+Månens net bliver altså ikke ét stort kraftværk med lange højspændingslinjer, men et fleksibelt system af mindre DC-net, der kan tilpasses efter behov. Og mens Jordens net er designet til at levere strøm døgnet rundt, skal Månens net også håndtere den lange, iskolde nat – hvor solenergi er ude af spillet i op til **14 jorddøgn** ad gangen.
