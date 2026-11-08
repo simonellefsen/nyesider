@@ -41,6 +41,7 @@ Håndhæves som **ERROR** i `production/check_issue.py` (og dermed i `npm run pr
 | 2026-10-26 | aktier/2026-10-nr10 (nr. 10) |
 | 2026-11-02 | aktier/2026-11-nr11 (nr. 11) |
 | 2026-11-07 | gnisten/2026-11-nr8 (nr. 8); kronike/2026-11-nr7 (nr. 7) |
+| 2026-11-08 | kulturboxen/2026-11-nr8 (nr. 8) |
 
 ## Efter magasin
 
@@ -156,6 +157,7 @@ Håndhæves som **ERROR** i `production/check_issue.py` (og dermed i `npm run pr
 | 5 | `2026-09-nr5` | 2026-09-12 | published | Japan uden kirsebærtræer — arbejde, bolig, dating og hverdag |
 | 6 | `2026-10-nr6` | 2026-10-03 | published | Portugal — hverdag, arbejde, bolig, mad, penge, normer |
 | 7 | `2026-10-nr7` | 2026-10-18 | published | Slovenien — hverdag, arbejde, bolig, mad, penge, normer |
+| 8 | `2026-11-nr8` | 2026-11-08 | published | Spanien — hverdag, arbejde, bolig, mad, penge, normer |
 
 ### orbit
 

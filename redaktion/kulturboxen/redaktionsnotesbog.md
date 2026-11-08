@@ -293,9 +293,30 @@ udkommer, kan «Til HORISONTEN»-bagsnittet få sit link ved genoptryk.
 - **Bagsiden:** ny kultur, samme nysgerrighed — emne endnu ikke valgt.
 - **Til HORISONTEN:** link til søsteren (Lissabon-weekend), når den udkommer.
 
-## Nr. 7 — kandidater
+## Nr. 7 — udgivet 2026-10-18
 
-- Idébanken er tom — næste kultur skal findes fra bunden til nr. 7.
+**Tema:** Slovenien — hverdag, arbejde, bolig, mad, penge, normer.  
+Synket med HORISONTEN nr. 7 (Ljubljana). Søsterlinks i leder og til-horisonten.
+
+## Nr. 8 — udgivet 2026-11-08
+
+**Tema:** Spanien — hverdag, arbejde, bolig, mad, penge, normer.  
+Synket med planlagte HORISONTEN nr. 8 (Sevilla/Andalusien). **Ingen interne søsterlinks** — HORISONTEN havde endnu ikke `issue.json` ved lukning.
+
+Ottek artikler. Leder editor-led uden byline. Syv stykker kommissioneret på `.env.kulturboxen`. Imagine-billeder via `.env.local`. Kort udeladt (`.venv` stadig brudt).
+
+**Kernetal (2025, medmindre andet er angivet):**
+- Udflytning: 30,2 år (kvinder 29,6; mænd 30,8). EU 26,3; Danmark 21,8. Eurostat `yth_demo_030`.
+- 18–34 hos forældre: Spanien 68,7 %; EU 49,8 %; Danmark 18,4 %. Eurostat `ilc_lvps08`.
+- Beskæftigelse 20–64: 72,4 % / EU 76,1 % / DK 79,8 %. Faktisk uge: 36,3 / 35,9 / 33,9 timer.
+- INE EPA: årsarbejdsløshed 10,5 % (2025); 4. kvartal 9,93 %.
+- Ejerandel 73,6 % (EU 68,5 %). Overbelastning 7,2 % (EU 7,7 %).
+- SPACE 2024 / Banco de España: 57 % kontanter ved POS (euroområdet 52 %); Bizum 95 % af P2P-værdi.
+
+**Kladdefælde:** bolig-kladde opfandt prisstigninger, indkomstandele og midlertidighedsprocenter. Omskrevet af redaktionen.
+
+`bestilling.json`: `redaktion/kulturboxen/numre/2026-11-nr8/bestilling.json`.  
+`check_issue.py`: 0 fejl, 0 advarsler. Forbrug 0,143 USD · 0,96 kr. (kurs 6,6952, DNVALD 2026-11-06).
 
 ## Format
 
