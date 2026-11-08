@@ -1,0 +1,238 @@
+{
+  "magazine": "horisonten",
+  "issue": "2026-11-nr8",
+  "issueTheme": "Storby-weekend Sevilla + dagstur-vandring i Andalusien — off-season november",
+  "budget": {
+    "articles": 7,
+    "wordsPerArticle": [
+      150,
+      650
+    ],
+    "targetPages": 12
+  },
+  "notes": "Søster: KULTURBOXEN nr. 8 (spansk hverdag). Krydslinks sat, da begge numre ligger på disk.",
+  "opgaver": [
+    {
+      "slug": "leder",
+      "order": 1,
+      "section": "Leder",
+      "brief": {
+        "angle": "Introducerer temaet: storby-weekend i Sevilla i november, off-season for en dansk rejsende. Ophæng: Guadalquivir-floden, den bilfrie følelse i den gamle bydel, og november-fordele — færre turister og behagelige temperaturer til både byvandring og dagsture. Nummeret er synket med KULTURBOXEN nr. 8, men der linkes ikke til den.",
+        "words": [
+          150,
+          250
+        ],
+        "mustCite": 0,
+        "format": "leder"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": null,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-11-08",
+        "citations": 0,
+        "editorNote": "Redaktionens leder, ingen byline. Søsterlink til KULTURBOXEN nr. 8. Kolofon DNVALD 6.6952."
+      }
+    },
+    {
+      "slug": "overblik",
+      "order": 2,
+      "section": "Overblik",
+      "brief": {
+        "angle": "Overblik over Sevilla i tre historiske lag: romerne kaldte byen Hispalis; den middelalderlige muslimske periode efterlod Alcázar-paladset og kirketårnet Giralda (ombygget til katedral); og i dag er Sevilla hovedstad i den autonome region Andalusien, med cirka 690.000 indbyggere i selve byen. Brug kun disse kilder: https://en.wikipedia.org/wiki/Seville og https://en.wikipedia.org/wiki/Alc%C3%A1zar_of_Seville",
+        "words": [
+          350,
+          600
+        ],
+        "mustCite": 2,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 481,
+        "costUSD": 0.018488,
+        "draft": "kladder/02-overblik.md",
+        "costRouting": "byok",
+        "generationId": "gen-1794120681-UQMkN2B1lLri2cq6FGR2"
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-11-08",
+        "citations": 2,
+        "editorNote": "Hispalis / Alcázar-Giralda / Andalusien. Wikipedia Seville + Alcázar."
+      }
+    },
+    {
+      "slug": "byliv",
+      "order": 3,
+      "section": "Byliv",
+      "brief": {
+        "angle": "Byliv til fods. Bydelene Santa Cruz i den gamle bydel, Triana på den anden side af Guadalquivir-floden (kendt for keramik og flamenco-tradition), Plaza de España bygget til verdensudstillingen i 1929, og Metropol Parasol (træstrukturen \"Setas\", fuldført 2011, arkitekt Jürgen Mayer). November: byens caféer og pladser lever videre uden sommerens overfyldte strandbarskaber. Brug kun disse kilder: https://en.wikipedia.org/wiki/Triana_(Seville) og https://en.wikipedia.org/wiki/Metropol_Parasol og https://en.wikipedia.org/wiki/Plaza_de_Espa%C3%B1a,_Seville",
+        "words": [
+          350,
+          700
+        ],
+        "mustCite": 2,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "Mistral Large (Mistral AI)",
+        "model": "mistralai/mistral-large",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 733,
+        "costUSD": 0.012354,
+        "draft": "kladder/03-byliv.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1794120723-S2LbmAkal0df9fhOMFwc"
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-11-08",
+        "citations": 5,
+        "editorNote": "Santa Cruz, Triana, Plaza de España, Setas. November 15 °C middel / 20 °C max (Wikipedia klimatabel)."
+      }
+    },
+    {
+      "slug": "vandring-caminito",
+      "order": 4,
+      "section": "Vandring",
+      "brief": {
+        "angle": "Dagstur fra byen: Caminito del Rey gennem Desfiladero de los Gaitanes-kløften i Andalusien — gangbroen blev bygget 1901-1905, forfaldt, og blev efter en omfattende restaurering genåbnet for publikum i 2015; den samlede rute er cirka 7,7 km. November giver behagelige vandringstemperaturer. Billetter skal bookes på forhånd. Alternativ tur i byen: parken Parque de María Luisa fra verdensudstillingen i 1929. Tjek altid aktuelle priser, tider og billetter. Brug kun disse kilder: https://en.wikipedia.org/wiki/Caminito_del_Rey og https://en.wikipedia.org/wiki/Plaza_de_Espa%C3%B1a,_Seville",
+        "words": [
+          350,
+          650
+        ],
+        "mustCite": 2,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "Gemini 3.1 Pro Preview (Google)",
+        "model": "google/gemini-3.1-pro-preview",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 452,
+        "costUSD": 0.046978,
+        "draft": "kladder/04-vandring-caminito.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1794120791-IfpbODov97XnQfe7dIFq"
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-11-08",
+        "citations": 3,
+        "editorNote": "7,7 km (ikke 8). Gangbro over 100 m. 1901-05 / genåbnet 2015. Billetter på forhånd."
+      }
+    },
+    {
+      "slug": "mad-og-vin",
+      "order": 5,
+      "section": "Mad & Vin",
+      "brief": {
+        "angle": "Andalusisk mad til en weekendrejsende. Temaer: gazpacho og salmorejo (supper af tomat og brød), tapas-kulturen som Sevilla er kendt for, jamón ibérico, og sherry-vinene fra Jerez de la Frontera ca. 90 km sydvest for Sevilla (beskyttet oprindelsesbetegnelse Jerez-Xérès-Sherry). Brug kun disse kilder: https://en.wikipedia.org/wiki/Andalusian_cuisine og https://en.wikipedia.org/wiki/Sherry",
+        "words": [
+          300,
+          550
+        ],
+        "mustCite": 2,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "GPT-5.6 Terra (OpenAI)",
+        "model": "openai/gpt-5.6-terra",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 388,
+        "costUSD": 0.0139395,
+        "draft": "kladder/05-mad-og-vin.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1794120890-Rdvnim5ZXMxPZZMgETYs"
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-11-08",
+        "citations": 2,
+        "editorNote": "Gazpacho/salmorejo, tapas, jamón ibérico, Jerez-Xérès-Sherry."
+      }
+    },
+    {
+      "slug": "praktisk",
+      "order": 6,
+      "section": "Praktisk",
+      "brief": {
+        "angle": "Logistik. Sevillas lufthavn (SVQ) ligger omkring 10 km øst for bycentrum; rejsetid ind til byen med bus eller taxa. Skriv ingen faste priser —tjek altid aktuelle afgange fra Danmark; ikke alle ruter går direkte uden for sommersæsonen. November er off-season: dagsmiddeltemperaturer omkring 18-20 grader og køligere aftener i Andalusien, hvilket gør måneden god til byvandring. Brug kun disse kilder: https://en.wikipedia.org/wiki/Seville_Airport og https://en.wikipedia.org/wiki/Seville",
+        "words": [
+          300,
+          500
+        ],
+        "mustCite": 2,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "Qwen3.7 Max (Alibaba)",
+        "model": "qwen/qwen3.7-max",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 350,
+        "costUSD": 0.026167975,
+        "draft": "kladder/06-praktisk.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1794120923-KbdlA7zMnie5wE6h2udB"
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-11-08",
+        "citations": 2,
+        "editorNote": "SVQ ca. 10 km øst. Ingen faste priser. November 15/20 °C. Søsterlink KULTURBOXEN hverdagsspor. Literal \\u00a0 fjernet fra kladde."
+      }
+    },
+    {
+      "slug": "rejsevejledning",
+      "order": 7,
+      "section": "Rejsevejledning",
+      "brief": {
+        "angle": "Checklisten for den danske rejsende til Spanien. Udenrigsministeriet har en rejsevejledning for Spanien — link direkte til den, gengiv ikke teksten. Punkter at dække på baggrund af official kilder: UM nævner terrortruslen på niveau 4 af 5 (niveau 4 af 5), lommetyveri i storbyer, naturbrande fra juli til midt oktober, oversvømmelser blandt andet nær Guadalquivir, ES-Alert varslingstjeneste, og at man altid skal kunne vise gyldigt billed-ID. Det blå EU-sygesikringskort kan bruges i Spanien, men erstatter ikke en privat rejseforsikring. EU-borgere rejser ind med pas eller nationalt ID-kort. Drikkepenge er ikke en hård forventning i Spanien som i USA — rund op eller giv lidt for god service, men det er frivilligt. Brug kun disse kilder: https://um.dk/rejse-og-ophold/rejse-til-udlandet/rejsevejledninger/spanien og https://europa.eu/youreurope/citizens/travel/entry-exit/eu-citizen/index_da.htm",
+        "words": [
+          350,
+          550
+        ],
+        "mustCite": 2,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "DeepSeek V3.2 (DeepSeek)",
+        "model": "deepseek/deepseek-v3.2",
+        "fallback": null
+      },
+      "receipt": {
+        "words": 296,
+        "costUSD": 0.00086912,
+        "draft": "kladder/07-rejsevejledning.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1794125797-oBWUYmq0VkfYeG779uYm"
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-11-08",
+        "citations": 2,
+        "editorNote": "UM 19.05.2026: terror 4/5, lommetyveri, naturbrande jul–midt okt, oversvømmelser Guadalquivir. ES-Alert automatisk (ikke tilmelding). Pas/ID. Blåt kort ≠ rejseforsikring."
+      }
+    }
+  ]
+}

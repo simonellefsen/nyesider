@@ -275,3 +275,15 @@ Ikke tilføjet retroaktivt til nr. 1–4 — det er en fremadrettet standard, ik
   reel kommissionering. Se læringen ovenfor. Krydslink til KULTURBOXEN nr. 2 fuldført begge veje.
   Ny fast note: `.env.horisonten` har samme snævre kreditgrænse som `.env.gnisten` — brug
   `--fallback` fremfor at presse Opus-kald igennem ved 402.
+
+## Nr. 8 — udgivet 2026-11-08
+
+**Tema:** Storby-weekend Sevilla + dagstur-vandring i Andalusien, off-season november. **7 artikler.** Seks artikler på `.env.horisonten`; lederen er redaktionens uden byline. Forbrug **0,1188 USD · 0,80 kr.** Kurs DNVALD 6,6952 (6. november 2026). Palet `#123C46 / #D97A4A / #E8C468`. Søster: KULTURBOXEN nr. 8 Spanien. Kort sprunget over (`.venv` i stykker).
+
+### Fanget i faktatjekket
+
+- **Caminito 8 km → 7,7 km.** Wikipedia og det officielle besøgssite siger 7,7 km; kladden afrundede til 8.
+- **November 18–20 °C som dagsmiddel** stod i briefen; Wikipedia (Seville Airport) har dagsmiddel omkring 15 °C og dagsmaksimum omkring 20 °C. Rettet.
+- **ES-Alert:** UM skriver, at man *ikke* skal tilmelde sig — varsling kommer automatisk, hvis offentlige advarsler og roaming er slået til. Kladden havde «tilmeld dig».
+
+- **2026-11-08:** Nr. 8 udgivet — Sevilla/Andalusien. OpenCode-kvote blokerede magasinagenten; Redaktionen producerede på `.env.horisonten`. Søsterlinks HORISONTEN↔KULTURBOXEN sat.

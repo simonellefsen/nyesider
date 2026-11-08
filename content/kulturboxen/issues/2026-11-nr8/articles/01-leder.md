@@ -14,6 +14,6 @@ Hverdagssporene er de samme som i Slovenien- og Portugal-numrene, bare i en ande
 
 Tallene kommer, hvor det er muligt, fra Eurostat, Spaniens statistikinstitut INE og Banco de España. Hvor en påstand ikke kunne belægges, står den ikke — så står mekanismen. Det er metoden i nummeret.
 
-Søstermagasinet HORISONTEN nr. 8 tager Sevilla og Andalusien som rejse, uden for højsæsonen. Først hverdagen. Siden ruten.
+Søstermagasinet [HORISONTEN nr. 8](/horisonten/2026-11-nr8/leder) tager Sevilla og Andalusien som rejse, uden for højsæsonen. Først hverdagen. Siden ruten.
 
 Dette nummer kostede 0,143 USD · 0,96 kr. at producere.

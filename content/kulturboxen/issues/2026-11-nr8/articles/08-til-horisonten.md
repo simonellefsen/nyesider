@@ -14,7 +14,7 @@ Når sommerens varme begynder at aftage i det sydlige Spanien, åbner Sevilla og
 
 Her i KULTURBOXEN kigger vi på hverdagen: hvornår man flytter hjemmefra, hvordan arbejdsdagen deles, hvad der ligger på disken, og hvordan pengene skifter hænder. Det er normer og systemer — ikke ruten dertil. Spørgsmålet er, hvordan folk lever dér. Ikke hvordan du kommer derhen.
 
-Vil man vide, hvornår man bedst rejser, hvilke ruter der binder de hvide bjerglandsbyer sammen, og hvordan man navigerer i Sevilla uden at brænde sammen i varmen, er det søstermagasinet, man skal slå op. HORISONTEN nr. 8 tager Andalusiens ruter og sæson. Det er der, rejselogistikken bliver pakket ud: overnatning, tempo, det praktiske.
+Vil man vide, hvornår man bedst rejser, og hvordan man navigerer i Sevilla uden for højsæsonen, er det søstermagasinet, man skal slå op. [HORISONTEN nr. 8](/horisonten/2026-11-nr8/leder) tager Andalusiens ruter og sæson. Start med [overblikket](/horisonten/2026-11-nr8/overblik), [bylivet](/horisonten/2026-11-nr8/byliv) og [rejsevejledningen](/horisonten/2026-11-nr8/rejsevejledning).
 
 De to magasiner supplerer hinanden. Forståelsen af en kultur starter med hverdagen. Selve rejsen kræver en anden guide. Her bliver vi i gaderne og kigger på, hvordan folk lever, når turisterne er færre. HORISONTEN viser vejen dertil. Vi forklarer, hvad der foregår, når man er landet.
 
