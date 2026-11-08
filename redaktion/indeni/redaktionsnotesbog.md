@@ -19,6 +19,45 @@ Målgruppen er den almindeligt nysgerrige danske læser. Forklar fagord første 
 
 ## Udgivne numre
 
+- **(2026-11) Nr. 8 — "Støvsugeren" — UDGIVET 2026-11-08 (nyt nummer, fra bunden).**
+  7 artikler, **2.535 ord**. Seks artikler reelt kommissioneret på `.env.indeni`; lederen er
+  chefredaktionens og har **ingen byline**. Samlet forbrug **0,1358 USD · 0,91 kr.**
+  (kurs 6,6952, DNVALD 2026-11-06). `check_issue.py` kørt før push. `bestilling.json` under
+  `numre/2026-11-nr8/`. Nummeret har et egenproduceret SVG-diagram
+  (`figur-stoevsuger-luftvej.svg`: dyse → pose/cyklon → motor → filter → ud).
+  Kort sprunget over (`.venv` brudt).
+
+  ### Kernetal
+
+  - **Bestand:** 271 mio. støvsugere i EU27 i 2020 (heraf 45 mio. ledløse+robotter);
+    121 mio. i 1990; 94 % i private hjem = 1,3 pr. husstand; 3.500 m²/år på 38 timer.
+    Ledløse pindmaskiner og robotter uden for 666/2013.
+  - **Watt-tak:** 1.600 W / 62 kWh/år fra 1.9.2014; 900 W / 43 kWh/år, støvudstødning
+    max 1,00 %, 80 dB(A), motor min. 500 timer, slange 40.000 sving fra 1.9.2017.
+    Sniteffekt solgte maskiner ca. 1.800 W (2010) → 700 W (2020). Standardiseret
+    årsforbrug 65 → 35 kWh/a (~68 %). Besparelse 11,7 TWh (2020) / 14,6 TWh (2030).
+  - **Energimærke:** delegeret forordning 665/2013 annulleret af Retten 8.11.2018
+    (Dyson v Commission, T-544/13 RENV); virkning 18.1.2019. Ingen gældende EU-energimærke.
+  - **Europa:** Electrolux Västervik ~500 ansatte, annonceret lukket 11.5.2004, lukket
+    31.3.2005 (511 opsagte i samtidige omtaler), flyttet til Ungarn. Jászberény
+    outsourcede støvsugere sep. 2019 + 100 mio. euro til Nyíregyháza (køleapparater);
+    fabrikken lukker udgangen 2026 (600, køleskabe). Miele Bielefeld 1916 / støvsugere
+    1927, ~1.800 ansatte, ca. 2,5 mio. støvsugere/år, omtrent en tredjedel Dongguan.
+  - **WEEE:** direktiv 2012/19/EU; gratis indlevering af mindre elektriske apparater;
+    producentansvar via Retur (tidligere Elretur). Ingen opdigtede tons, procenter eller kroner.
+
+  ### Redaktionelle greb
+
+  - `02-turen` kladde havde literal `\u00a0` i «94 %»; rettet ved overførsel.
+  - `03-maskinen` leverede inline SVG; trukket ud til separat figurfil + `figures:`/`[FIGUR]`.
+  - `05-europa` kladde gættede Electrolux-/Miele-URL'er; erstattet med verificerede
+    pressemeddelelser (2004, 2019, 2026) og Mieles 125-års milestones-PDF.
+
+- **(2026-10) Nr. 7 — "Vaskemaskinen" — UDGIVET 2026-10-18.**
+  7 artikler. Seks artikler kommissioneret på `.env.indeni`; leder uden byline.
+  `content/indeni/issues/2026-10-nr7/`. Figur: `figur-vaskecyklus.svg`.
+  Produktion 0,1067 USD · 0,71 kr. (kurs 6,6425, DNVALD 2026-10-16).
+
 - **(2026-10) Nr. 6 — "Køleskabet" — UDGIVET 2026-10-03 (nyt nummer, fra bunden).**
   7 artikler, **2.691 ord**. Seks artikler reelt kommissioneret på `.env.indeni`; lederen er
   chefredaktionens og har **ingen byline**. Samlet forbrug **0,0997 USD**. `check_issue.py`:
@@ -236,7 +275,7 @@ levetidstallet ville have pålagt nummeret 0,10 USD, det ikke har brugt.
 - ~~Fjernvarmen~~ → **brugt i nr. 3** (2026-08-19).
 - ~~Kontaktlinsen~~ → **brugt i nr. 4** (2026-08-29).
 - ~~Asfalt~~ → **brugt i nr. 5** (2026-09-12).
-- Idébanken er tom — køleskabet blev valgt fra bunden til nr. 6. Næste genstand skal findes fra bunden til nr. 7.
+- Idébanken er tom — køleskabet blev nr. 6, vaskemaskinen nr. 7, støvsugeren nr. 8. Næste genstand skal findes fra bunden til nr. 9.
 
 ## Løfter til læseren
 

@@ -1,0 +1,15 @@
+## Kredsløbet: En støvsugers sidste vej i Danmark
+
+Når støvsugeren standser, er den ikke blot gammelt plastik. Den er elektrisk affald, og den skal ind i et andet kredsløb end madaffald og pap. I Danmark er rammen EU’s WEEE-direktiv (Waste of Electrical and Electronic Equipment; affald fra elektrisk og elektronisk udstyr), nr. 2012/19/EU[^1]. Direktivet tvinger medlemsstaterne til at organisere indsamling og håndtering af udtjente apparater, så forurenende dele og genanvendelige materialer ikke bare ryger i den almindelige renovation.
+
+Den praktiske vej starter ofte på kommunens genbrugsplads. Her kan en støvsuger, som andre mindre elektriske apparater, afleveres gratis[^2]. Det er enkle greb, som gør kredsløbet synligt i hverdagen: Man trækker ledningen ud, løfter apparatet op på ladvognen og sætter det i beholderen for elektrisk affald. Bagefter overtager et system, som forbrugeren sjældent ser. I Danmark kan producentansvaret blandt andet varetages gennem Retur, der tidligere hed Elretur[^3]. Ordningen samler ind, sorterer og omarbejder elektrisk affald på vegne af de tilsluttede producenter.
+
+Transporten er også en del af historien. En genbrugsplads er ikke slutningen, men et opsamlingssted, hvor elektrisk affald samles og køres videre til behandlingsanlæg. Her kan apparaterne vejes, åbnes og deles op efter komponenter. Den fysiske størrelse, sammensætningen og typen af plastik afgør, om genanvendelse er realistisk, eller om materialet må gå en anden vej.
+
+Demonteringen er stedet, hvor støvsugerens historie bliver til en liste af materialer. Motorens viklinger kan indeholde kobber. Hjelmen eller husets bærende del kan være stål. Disse metaller kan genanvendes, fordi de har en brugbar værdi i det industrielle kredsløb: De kan smeltes om og indgå i nye apparater, komponenter eller konstruktionsdele. Resten er mere modstridende. Poser, filtre, slanger, skum og megen plastik er ofte sammensat af flere materialer, der er svære at adskille. De kan ende i forbrænding eller nedbrydning, fordi det er lettere, billigere eller teknisk nødvendigt uden dybere sortering.
+
+Det er pointen i kredsløbet: WEEE-systemet er ikke en garanti for, at alle dele bliver til nye genstande. Det er en logistisk kæde, der forsøger at fange det, som har den bedste effekt i genanvendelse, og at sortere farlige og blandede dele fra. En støvsuger er derfor ikke blot et enkelt genanvendeligt materiale, men mange små valg: hvor den afleveres, hvem der samler den ind, hvordan den skilles ad, og hvilke dele der stadig kan følge med videre i et nyt produkt.
+
+[^1]: [EUR-Lex: EU-direktiv 2012/19/EU om affald af elektrisk og elektronisk udstyr](https://eur-lex.europa.eu/legal-content/DA/TXT/?uri=CELEX:32012L0019)
+[^2]: [Europa-Kommissionens WEEE-side](https://environment.ec.europa.eu/topics/waste-and-recycling/waste-electrical-and-electronic-equipment-weee_en)
+[^3]: [Retur: dansk producentansvarsordning for el-affald](https://www.retur.dk)

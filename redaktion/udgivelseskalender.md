@@ -41,7 +41,7 @@ Håndhæves som **ERROR** i `production/check_issue.py` (og dermed i `npm run pr
 | 2026-10-26 | aktier/2026-10-nr10 (nr. 10) |
 | 2026-11-02 | aktier/2026-11-nr11 (nr. 11) |
 | 2026-11-07 | gnisten/2026-11-nr8 (nr. 8); kronike/2026-11-nr7 (nr. 7) |
-| 2026-11-08 | dosis/2026-11-nr8 (nr. 8); horisonten/2026-11-nr8 (nr. 8); humanerd/2026-11-nr8 (nr. 8); kraften/2026-11-nr8 (nr. 8); kulturboxen/2026-11-nr8 (nr. 8); orbit/2026-11-nr8 (nr. 8); pulsen/2026-11-nr8 (nr. 8); spaending/2026-11-nr8 (nr. 8) |
+| 2026-11-08 | dosis/2026-11-nr8 (nr. 8); horisonten/2026-11-nr8 (nr. 8); humanerd/2026-11-nr8 (nr. 8); indeni/2026-11-nr8 (nr. 8); kraften/2026-11-nr8 (nr. 8); kulturboxen/2026-11-nr8 (nr. 8); orbit/2026-11-nr8 (nr. 8); pulsen/2026-11-nr8 (nr. 8); spaending/2026-11-nr8 (nr. 8) |
 
 ## Efter magasin
 
@@ -124,6 +124,7 @@ Håndhæves som **ERROR** i `production/check_issue.py` (og dermed i `npm run pr
 | 5 | `2026-09-nr5` | 2026-09-12 | published | Asfalt — fra stenbrud og raffinaderi til vejen, der genopstår som sig selv |
 | 6 | `2026-10-nr6` | 2026-10-03 | published | Køleskabet — fra stål og kølemiddel til kompressoren, der aldrig sover, og kredsløbet der tapper den tom |
 | 7 | `2026-10-nr7` | 2026-10-18 | published | Vaskemaskinen — fra tromle og tætningsliste til økoprogrammet, mikrofiberne i udblødningen og fabrikkerne bag tromlerne |
+| 8 | `2026-11-nr8` | 2026-11-08 | published | Støvsugeren — fra motorens kobber og cyklonens luftveje til posen, filteret, watt-taket, de afviklede europæiske fabrikker og WEEE-stien |
 
 ### kraften
 

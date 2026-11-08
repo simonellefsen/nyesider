@@ -1,0 +1,266 @@
+{
+  "magazine": "indeni",
+  "issue": "2026-11-nr8",
+  "issueTheme": "Støvsugeren — fra motorens kobber og cyklonens luftveje til posen, filteret, watt-taket, de afviklede europæiske fabrikker og WEEE-stien",
+  "budget": {
+    "articles": 7,
+    "wordsPerArticle": [
+      300,
+      550
+    ],
+    "targetPages": 14,
+    "note": "Kompakt uge-batch som nr. 5-7: 6 kommissionerede artikler + chefredaktionens leder. Alle hårde tal er researchede og står i brief.angle; modellerne er eksplicit forbudt at finde på tal udover dem."
+  },
+  "opgaver": [
+    {
+      "slug": "leder",
+      "order": 1,
+      "section": "Leder",
+      "brief": {
+        "angle": "Chefredaktionel leder uden byline: støvsugeren er den maskine, vi parkerer i skabet indtil noget rammer gulvet. Grevinden er 271 millioner til at være, men det interessanteste er policysporet: watt-taket satte grænsen for en effektracet, og energimærket blev senere annulleret af domstol.",
+        "words": [
+          120,
+          160
+        ],
+        "mustCite": 0,
+        "mustNumber": [],
+        "format": "leder"
+      },
+      "writer": {
+        "byline": "Claude Fable 5",
+        "model": "chefredaktør",
+        "fallback": null
+      },
+      "receipt": {
+        "words": null,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-11-08",
+        "citations": 0,
+        "editorNote": "Skrevet direkte af chefredaktionen; ingen kladde, ingen kvittering, ingen byline."
+      }
+    },
+    {
+      "slug": "turen",
+      "order": 2,
+      "section": "Turen",
+      "brief": {
+        "angle": "Støvsugerens råvare-til-hverdag: motoren af kobber og stål, huse, slanger og dele af plastrør, posefilter af papir/melamine eller plastafløb, filterlag efterluften. Brug kun disse tal (EU's Ecodesign Impact Accounting Overview Report 2024 via EU-Kommissionens produkt-side): 271 mio. støvsugere i brug i EU27 i 2020 (inkl. 45 mio. ledløse og robotter), 121 mio. i 1990, 94 % i privat bolig = 1,3 pr. husstand; en husstandsmaskine rengør i gennemsnit 3.500 m2/år på 38 timers drift. Robotter og ledløse pindmaskiner er uden for reguleringen (666/2013). FORBUDT: opdigte vægte i kilo, motor-effekttal eller andele ud over de nævnte.",
+        "words": [
+          420,
+          520
+        ],
+        "mustCite": 2,
+        "mustNumber": [
+          "271 mio. (2020)",
+          "121 mio. (1990)",
+          "1,3 pr. husstand",
+          "3.500 m2/år på 38 timer"
+        ],
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 457,
+        "costUSD": 0.026442,
+        "draft": "kladder/02-turen.md",
+        "costRouting": "byok",
+        "generationId": "gen-1794120796-dmOjuMgxa2Sw7S8kjwT8"
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-11-08",
+        "citations": 2,
+        "editorNote": "Kladde accepteret; \\u00a0-sekvens i 94 % rettet; EIA-tal fodnoteret til vacuum-cleaners_en."
+      }
+    },
+    {
+      "slug": "maskinen",
+      "order": 3,
+      "section": "Maskinen",
+      "brief": {
+        "angle": "Zoom på luftvejen: indløbsdyse → pose eller cyklonforseparator → motor (sidder på renluft-siden i de fleste posemaskiner) → eksaugfiltrering (motorfilter, HEPA) → udmunding. Brug kun disse tal: EU's ecodesignforordning (EU) nr. 666/2013 satte 1.600 W / 62 kWh/år fra 1. september 2014, og 900 W / 43 kWh/år, støvudstødning max 1,00 % og lydeffekt 80 dB(A) fra 1. september 2017; motorlevetid min. 500 timer; slange holdbar efter 40.000 sving under belastning. Sniteffekt for solgte EU-maskiner: ca. 1.800 W omkring 2010 → 700 W i 2020 (EIA-estimater fra EU-Kommissionens produkt-side, Ecodesign Impact Accounting 2024). Forklar HEPA (EN 1822) uden cifre. FORBUDT: fremmede testdata, watt-tal ud over ovenstående.",
+        "words": [
+          440,
+          540
+        ],
+        "mustCite": 2,
+        "mustNumber": [
+          "1.600 W/62 kWh (2014)",
+          "900 W/43 kWh + max 1,00 % støvudstødning + 80 dB(A) + motorlevetid min. 500 timer + slange 40.000 sving (2017)",
+          "1.800 W (2010) → 700 W (2020)"
+        ],
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "GPT-5.6 Terra (OpenAI)",
+        "model": "openai/gpt-5.6-terra",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 576,
+        "costUSD": 0.0398405,
+        "draft": "kladder/03-maskinen.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1794120837-NN81LUR5qpyoVpzvv8FV"
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-11-08",
+        "citations": 2,
+        "editorNote": "Inline SVG trukket ud til figur-stoevsuger-luftvej.svg; figures + [FIGUR] som nr. 7."
+      }
+    },
+    {
+      "slug": "kredsloebet",
+      "order": 4,
+      "section": "Kredsløbet",
+      "brief": {
+        "angle": "Danmarks efterliv for en støvsuger: WEEE-direktivet (2012/19/EU), gratis indlevering af mindre elektriske apparater på den kommunale genbrugsplads, og producentansvaret, der i fx Retur (tidligere Elretur) er organiseret af producenterne. Pointen om demontering: kobber fra motorviklingerne og stål fra hjelmen giver metalværdi ved genanvendelse, mens poser, filtre og megen plast ryger i forbrænding eller nedbrydning. FORBUDT AT FINDE PÅ TAL: brug kun årstal og direktivnumre — ingen tonstal, ingen procenter, ingen værdier. Kilder: EUR-Lex WEEE-direktivet, Retur-forsiden og EU-Kommissionens WEEE-side.",
+        "words": [
+          380,
+          470
+        ],
+        "mustCite": 3,
+        "mustNumber": [],
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "DeepSeek V3.2 (DeepSeek)",
+        "model": "deepseek/deepseek-v3.2",
+        "fallback": "google/gemini-3.5-flash"
+      },
+      "receipt": {
+        "words": 407,
+        "costUSD": 0.004210956,
+        "draft": "kladder/04-kredsloebet.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1794126590-hoT7avvtjRfhelGPBsFH"
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-11-08",
+        "citations": 3,
+        "editorNote": "Ingen opdigtede tons/%/kroner. Kilder: EUR-Lex 2012/19/EU, Kommissionens WEEE-side, Retur/Elretur."
+      }
+    },
+    {
+      "slug": "europa",
+      "order": 5,
+      "section": "Europa",
+      "brief": {
+        "angle": "Europakortet: hvor på kontinentet der i dag faktisk samles husholdningsstøvsugere — og hvad der blev annonceret frem for det, der findes. Historien: Electrolux' støvsugerfabrik i Västervik, Sverige (ca. 500 ansatte) blev annonceret lukket i 2004 og lukkede i marts 2005 (511 ansatte); produktionen flyttede til fabrikken i Ungern. I Jászberény var Electrolux' eneste europæiske støvsugerfabrik; i september 2019 beslutte koncernen at outsource støvsugerproduktionen fra Jászberény til eksterne partneres og investere 100 mio. euro i Nyíregyháza (koleapparat), og i april 2026 blev det besluttet, at også fabrikken i Jászberény lukker udgangen 2026 (600 ansatte, køleskabsproduktion). Kontrasten: Miele fabrikken i Bielefeld (grundlagt 1916, ca. 1.800 ansatte) har lavet støvsugere siden 1927 (pressehilsen 2014); Miele laver ca. 2,5 mio. støvsugere årligt, omr. en tredjedel fra Dongguan i Kina, resten fra Bielefeld (2024 milestones-dokument). Skil klart Electrolux (annoncerede beslutninger inkl. outsource-beslutningen i 2019 lukker EU-koncurrentet) fra Miele (faktiske produktionsgrænser). FORBUDT: andre kapacitetstal.",
+        "words": [
+          460,
+          560
+        ],
+        "mustCite": 4,
+        "mustNumber": [
+          "ca. 500/511 ansatte Västervik (2004/2005)",
+          "100 milj. euro Nyíregyháza (2019)",
+          "2,5 mio. støvsugere/år Miele"
+        ],
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "Grok 4.5 (xAI)",
+        "model": "x-ai/grok-4.5",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 537,
+        "costUSD": 0.0170132,
+        "draft": "kladder/05-europa.md",
+        "costRouting": "byok",
+        "generationId": "gen-1794126801-CdQgYKT1o6RskpmsR1n1"
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-11-08",
+        "citations": 4,
+        "editorNote": "Gættede URL i kladden erstattet med Electrolux-pressemeddelelser 2004/2019/2026 og Miele-milestones 2024. 511-tallet fra samtidige svenske omtaler, ikke Electrolux-PM."
+      }
+    },
+    {
+      "slug": "tallet",
+      "order": 6,
+      "section": "Tallet",
+      "brief": {
+        "angle": "Tabellen: det watt-begrænsede tiår. Rækker (kun disse tal): maxeffekt 1.600 W (fra 1.9.2014) og 900 W (fra 1.9.2017) pr. forordning (EU) nr. 666/2013; sniteffekt for solgte EU-maskiner ca. 1.800 W omkring 2010 -> ca. 700 W i 2020 (EIA-estimater 2024 på EU-Kommissionens produkt-side); standardiseret årsenergiforbrug ved 50 timers årlig drift 65 kWh/a (1990) -> 35 kWh/a (2020), ca. 68 % forbedring; og energibesparelser 11,7 TWh (2020) forventet 14,6 TWh (2030). Ingen priser, ingen danske tal. Fodnote hvert tal med enten legislation.gov.uk/eur/2013/666/annex/I eller EU-Kommissionens produkt-side vacuum-cleaners_en.",
+        "words": [
+          280,
+          380
+        ],
+        "mustCite": 2,
+        "mustNumber": [
+          "1.600/900 W",
+          "65 → 35 kWh/a",
+          "11,7/14,6 TWh"
+        ],
+        "format": "tallet"
+      },
+      "writer": {
+        "byline": "Qwen3.7 Max (Alibaba)",
+        "model": "qwen/qwen3.7-max",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 362,
+        "costUSD": 0.03212255,
+        "draft": "kladder/06-tallet.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1794126859-sY6ghvOugtnuZfom9z91"
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-11-08",
+        "citations": 2,
+        "editorNote": "Kun briefede tal. Fodnoter: legislation.gov.uk annex I + vacuum-cleaners_en."
+      }
+    },
+    {
+      "slug": "paastandskontoret",
+      "order": 7,
+      "section": "Påstandskontoret",
+      "brief": {
+        "angle": "To hverdagspåstande, afmonteret: (1) 'jo mere watt, jo bedre støvsuger' — før reglerne drev markedet effektracen mod maskiner på ca. 2.300 W; 900 W-grænsen (2017) tvang teknologien til at yde mere med mindre, og sniteffekten faldt til 700 W i 2020 uden tab af renseperformance. (2) 'støvsugere har et EU-energimærke' — det var der engang (delegeret forordning 665/2013), men mærket blev annulleret af EU-domstolens ret (General Court, 2018, i Dysons sag mod Kommissionen); i dag er der ingen energimærkning af støvsugere. Hold dig til disse to påstande; ingen fremmede testdata eller priser.",
+        "words": [
+          320,
+          420
+        ],
+        "mustCite": 2,
+        "mustNumber": [
+          "2.300 W (effektracen før reglerne)",
+          "900 W (2017)",
+          "700 W (2020)"
+        ],
+        "format": "paastandskontoret"
+      },
+      "writer": {
+        "byline": "Grok 4.5 (xAI)",
+        "model": "x-ai/grok-4.5",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 400,
+        "costUSD": 0.0161732,
+        "draft": "kladder/07-paastandskontoret.md",
+        "costRouting": "byok",
+        "generationId": "gen-1794126942-qZnzewoY91XfkH7qoyZb"
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-11-08",
+        "citations": 2,
+        "editorNote": "Watt-påstand via EIA/produktside; mærket via Rettens Dyson-dom 2018 og Kommissionens 2019-meddelelse."
+      }
+    }
+  ]
+}
