@@ -41,7 +41,7 @@ Håndhæves som **ERROR** i `production/check_issue.py` (og dermed i `npm run pr
 | 2026-10-26 | aktier/2026-10-nr10 (nr. 10) |
 | 2026-11-02 | aktier/2026-11-nr11 (nr. 11) |
 | 2026-11-07 | gnisten/2026-11-nr8 (nr. 8); kronike/2026-11-nr7 (nr. 7) |
-| 2026-11-08 | dosis/2026-11-nr8 (nr. 8); kulturboxen/2026-11-nr8 (nr. 8); orbit/2026-11-nr8 (nr. 8); pulsen/2026-11-nr8 (nr. 8); spaending/2026-11-nr8 (nr. 8) |
+| 2026-11-08 | dosis/2026-11-nr8 (nr. 8); humanerd/2026-11-nr8 (nr. 8); kulturboxen/2026-11-nr8 (nr. 8); orbit/2026-11-nr8 (nr. 8); pulsen/2026-11-nr8 (nr. 8); spaending/2026-11-nr8 (nr. 8) |
 
 ## Efter magasin
 
@@ -110,6 +110,7 @@ Håndhæves som **ERROR** i `production/check_issue.py` (og dermed i `npm run pr
 | 5 | `2026-09-nr5` | 2026-09-12 | published | Dronen som robot — tre beviser, tre autonominiveauer |
 | 6 | `2026-10-nr6` | 2026-10-03 | published | Håndens problem — gribere, taktilitet, og hvorfor det bløde stadig er svært |
 | 7 | `2026-10-nr7` | 2026-10-18 | published | Robotten der kan se — kameraer, kraftsensorer og grænserne for perception |
+| 8 | `2026-11-nr8` | 2026-11-08 | published | Robotter i krig — militære anvendelser, dual use, menneskelig kontrol, fejlrisiko og dokumentation |
 
 ### indeni
 

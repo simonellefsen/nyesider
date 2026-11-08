@@ -1,0 +1,208 @@
+{
+  "magazine": "humanerd",
+  "issue": "2026-11-nr8",
+  "issueTheme": "Robotter i krig — militære anvendelser, dual use, menneskelig kontrol, fejlrisiko og dokumentation",
+  "budget": {
+    "articles": 6,
+    "wordsPerArticle": [
+      500,
+      800
+    ],
+    "targetPages": 16,
+    "note": "Kompakt uge-batch som nr. 6 og 7: leder (editor, ingen byline) + 5 bestilte artikler. Dokumentationsstof, ikke gadgetstof; selskabstal mærkes; markedstal fra SIPRI (militærforbrug). IFR bruges ikke — IFR måler ikke militærforbrug. Anker: CCW 7. revideringskonference i Genève 16.–20. november 2026."
+  },
+  "opgaver": [
+    {
+      "slug": "themis",
+      "order": 2,
+      "section": "Fabrikken",
+      "brief": {
+        "angle": "Start med opgaven, før kroppen. På ukrainske frontafsnit skal sårede og ammunition gennem ruter, hvor FPV-droner og observationssystemer gør vejen farlig for lastbiler med mennesker. Opgaven er transport, ikke jagt: CASEVAC (casualty evacuation, transport af sårede), forsyninger og rekognoscering. Roboten, der er bestilt til den opgave i kendt skala, er det estiske (Tallinn) Milrem Robotics' THeMIS (Tracked Hybrid Modular Infantry System) — en modulær, bæltegående ladeflade, der kan konfigureres til hver enkelt opgave. Verificerede fakta som SKAL bruges med kilder: (1) Milrem Robotics' pressemeddelelse 6. oktober 2025: over 150 THeMIS UGV'er (unmanned ground vehicles, ubemandede landfartøjer) leveres til Ukraine i en donation finansieret og koordineret af Nederlandene, med en del af samlingen hos nederlandske VDL Defentec i Born. URL: https://milremrobotics.com/milrem-robotics-to-deliver-over-150-themis-ugvs-to-ukraine-in-a-dutch-led-defence-initiative/ (2) Janes, Nicholas Fiorenza, 28. september 2026: Milrem forventer at levere over 150 THeMIS UGV'er til den ukrainske hær inden udgangen af 2026; heraf 100 samlet af VDL Defentec i Born; delvist nederlandsk finansieret og koordineret. Kilden er Gert Hankewitz, Milrems marketing- og kommunikationsdirektør, til journalister i Tallinn 23. september 2026. URL: https://www.janes.com/defence-intelligence-insights/defence-news/industry/ukraine-conflict-milrem-expects-to-deliver-over-150-themis-ugvs-for-ukrainian-army-by-end-of-2026 (3) Milrem THeMIS-familien: logistik, CASEVAC, rekognoscering og en bevæbnet variant. URL: https://milremrobotics.com/themis-family/ (4) Tencore og Milrem underskrev i juni 2026 (Eurosatory) et MoU om service af THeMIS i ukrainske enheder. URL: https://thedefender.media/en/2026/06/tencore-milrem-robotics/ Redaktionel pointe: donation og levering er ikke det samme som stabil drift. Milrems egne driftstal (bl.a. 15 THeMIS i Ukraine siden 2022) er leverandøroplysninger og mærkes som sådanne. Hold artiklen nøgtern og konkret. Ingen opdigtede soldaternavne, enheder eller slagmarker.",
+        "words": [
+          550,
+          750
+        ],
+        "mustCite": 4,
+        "mustNumber": [
+          "over 150 THeMIS UGV",
+          "6. oktober 2025",
+          "leverancer senest udgangen af 2026 (Janes, 28. september 2026)",
+          "nederlandsk finansiering og koordinering; VDL Defentec i Born; 100 af de 150+"
+        ],
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 688,
+        "costUSD": 0.032314,
+        "draft": "kladder/02-themis.md",
+        "costRouting": "byok",
+        "generationId": "gen-1794124391-dUjXGXyaZHLhtD7BMrk9"
+      },
+      "verdict": {
+        "status": null,
+        "checkedAt": null,
+        "citations": null,
+        "editorNote": null
+      }
+    },
+    {
+      "slug": "reguleringsskortet",
+      "order": 3,
+      "section": "Verdenskortet",
+      "brief": {
+        "angle": "Verdenskortet: fire regimer om robotter og menneskelig kontrol. (1) USA: DoD Directive 3000.09 'Autonomy in Weapon Systems' (2012, opdateret 25. januar 2023) kræver 'appropriate levels of human judgment' men ingen generel human-in-the-loop. URL: https://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodd/300009p.pdf NSPM-11 (Det Hvide Hus, juni 2026) befaler en opdatering inden 90 dage og årlig gennemgang. URL: https://www.whitehouse.gov/presidential-actions/2026/06/national-security-presidential-memorandum-nspm-11/ (2) FN's Generalforsamling: resolution 80/57 vedtaget 1. december 2025 med 164 ja-stemmer, 6 nej, 7 hverken/eller (A/RES/80/57). URL: https://digitallibrary.un.org/record/4095989 (3) CCW (Convention on Certain Conventional Weapons, konventionen om visse konventionelle våben). Ifølge Human Rights Watch 7. september 2026 — mærk HRW som aktivistorganisation — støtter 76 stater forhandlinger om et juridisk bindende instrument; 70 af dem er High Contracting Parties (høje kontraherende parter) i CCW. HRW skriver, at Rusland og USA svækkede den endelige GGE-tekst. Brug den live URL: https://www.hrw.org/news/2026/09/07/un-talks-on-killer-robots-end-with-calls-for-negotiations-growing (4) CCW 7. revideringskonference i Genève 16.–20. november 2026 er deadline. URL: https://meetings.unoda.org/ccw-revcon/convention-on-certain-conventional-weapons-seventh-review-conference-2026 Afslutning: deadline for FN-sporet er CCW-revideringskonferencen 16.–20. november 2026 i Genève. Ingen opdigtede stemmetal ud over 164-6-7 og 76/70.",
+        "words": [
+          550,
+          750
+        ],
+        "mustCite": 5,
+        "mustNumber": [
+          "DoD Directive 3000.09 opdateret 25. januar 2023",
+          "NSPM-11 juni 2026",
+          "resolution 80/57 vedtaget 1. december 2025 med 164 ja-stemmer",
+          "76 stater / 70 CCW-medlemmer for forhandlinger (HRW)",
+          "CCW 7. revideringskonference 16.–20. november 2026"
+        ],
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "Qwen3.7 Max (Alibaba)",
+        "model": "qwen/qwen3.7-max",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 659,
+        "costUSD": 0.028439475,
+        "draft": "kladder/03-reguleringsskortet.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1794124434-swd3OoOHrZahiCZWeScf"
+      },
+      "verdict": {
+        "status": null,
+        "checkedAt": null,
+        "citations": null,
+        "editorNote": null
+      }
+    },
+    {
+      "slug": "menneskelig-kontrol",
+      "order": 4,
+      "section": "Hjernen",
+      "brief": {
+        "angle": "Hjernen: menneskelig kontrol som arbejdsbegreb, ikke pathos. Historien: CCW-GGE LAWS 2019s Guiding Principles, hvoraf ét princip kræver 'appropriate levels of human judgment'. URL: https://documents.unoda.org/wp-content/uploads/2020/09/CCW_GGE.1_2019_3_E.pdf Udviklingen: 5. september 2026 afsluttede GGE 2024–2026-mandatet med en konsensusrapport (CCW/GGE.1/2026/3, para 25–44), der indeholder elementer af et instrument uden at fastlåse dets art. URL: https://docs-library.unoda.org/Convention_on_Certain_Conventional_Weapons_-Group_of_Governmental_Experts_on_Lethal_Autonomous_Weapons_Systems_(2026)/CCW-GGE.1-2026-3-Advance_copy.pdf Forklar, hvordan 'appropriate levels of human judgment' optræder i 2019-principperne og i 2026-rapporten. Peg frem mod CCW 7. revideringskonference 16.–20. november 2026 i Genève. Human Rights Watch, 7. september 2026 (aktivistorganisation, mærk): https://www.hrw.org/news/2026/09/07/un-talks-on-killer-robots-end-with-calls-for-negotiations-growing Ingen opdigtede ambassadørnavne. Ingen citater uden verificerbar ordlyd.",
+        "words": [
+          550,
+          750
+        ],
+        "mustCite": 4,
+        "mustNumber": [
+          "2019 Guiding Principles",
+          "GGE-konsensusrapporten 5. september 2026 (CCW/GGE.1/2026/3, para 25–44)",
+          "konferencen 16.–20. november 2026 i Genève"
+        ],
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "GPT-5.6 Terra (OpenAI)",
+        "model": "openai/gpt-5.6-terra",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 721,
+        "costUSD": 0.032569,
+        "draft": "kladder/04-menneskelig-kontrol.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1794124514-seJEXVdZE4MaD6MwJPAE"
+      },
+      "verdict": {
+        "status": null,
+        "checkedAt": null,
+        "citations": null,
+        "editorNote": null
+      }
+    },
+    {
+      "slug": "budgettallet",
+      "order": 5,
+      "section": "Tallet",
+      "brief": {
+        "angle": "Tallet: verdens samlede militærforbrug 2025, fra SIPRI, pressemeddelelse 27. april 2026. URL: https://www.sipri.org/media/press-release/2026/global-military-spending-rise-continues-european-and-asian-expenditures-surge Tabellen: land, mia. USD, ændring realt i procent, en kort kommentar. KUN disse verificerede SIPRI-tal (alle er SIPRI-estimater og læses som sådan): verden 2887 mia. USD (+2,9 %); USA 954 mia. USD (−7,5 %; fald fordi ingen ny militærhjælp til Ukraine blev godkendt i 2025); Kina 336 mia. USD (+7,4 %); Rusland 190 mia. USD (+5,9 %); Tyskland 114 mia. USD (+24 %); Indien 92,1 mia. USD (+8,9 %); Storbritannien 89,0 mia. USD (−2,0 %); Ukraine 84,1 mia. USD (+20 %; 7. største i verden; 40 % af BNP); Europa samlet 864 mia. USD (+14 %). USA+Kina+Rusland = 1480 mia. USD, 51 % af verdens total. IFR måler ikke militærforbrug og må ikke bruges. Ingen robot-andel af budgetterne (tallet findes ikke hos SIPRI). Ingen opdigtede 2026-budgetter. Pointen: militærforbruget er rammen, robotandelen er udokumenteret.",
+        "words": [
+          550,
+          700
+        ],
+        "mustCite": 4,
+        "mustNumber": [
+          "verden 2887 mia. USD i 2025 (+2,9 %)",
+          "USA 954 mia. USD (−7,5 %)",
+          "Kina 336 mia. USD (+7,4 %)",
+          "Rusland 190 mia. USD (+5,9 %)",
+          "Ukraine 84,1 mia. USD (+20 %; 7. største; 40 % af BNP)",
+          "Tyskland 114 mia. USD (+24 %)"
+        ],
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "Gemini 3.5 Flash (Google)",
+        "model": "google/gemini-3.5-flash",
+        "fallback": "minimax/minimax-m3"
+      },
+      "receipt": {
+        "words": 575,
+        "costUSD": 0.050511,
+        "draft": "kladder/05-budgettallet.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1794124546-m3FepghZeIi3KNpKQgmy"
+      },
+      "verdict": {
+        "status": null,
+        "checkedAt": null,
+        "citations": null,
+        "editorNote": null
+      }
+    },
+    {
+      "slug": "kargu",
+      "order": 6,
+      "section": "Paastandskontoret",
+      "brief": {
+        "angle": "Påstandskontoret: 'første autonome drab' — hvad FN-rapporten egentlig siger. Påstanden, der cirkulerer: en STM Kargu-2-drone dræbte et menneske i Libyen autonomt i marts 2020. Dokumenteret: FN Panel of Experts on Libya, rapport S/2021/229 (brev 8. marts 2021). URL: https://digitallibrary.un.org/record/3905159 Rapporten beskriver, at Kargu-2 kunne operere uden dataforbindelse — 'fire, forget and find' — og den rapporterer angreb; den bekræfter IKKE et autonomt drab. NYT 3. juni 2021: https://www.nytimes.com/2021/06/03/world/africa/libya-drone.html NPR 1. juni 2021: https://www.npr.org/2021/06/01/1002196245/a-u-n-report-suggests-libya-saw-the-first-battlefield-killing-by-an-autonomous-d Lieber Institute: https://lieber.westpoint.edu/kargu-2-autonomous-attack-drone-legal-ethical/ Afslutning: lektionen er dokumentationsniveau — beskriv hvad rapporten siger og ikke siger. Ingen sensationalisme. Ingen opdigtede ofre, enheder eller datoer ud over marts 2020-hændelsen som den omtales i rapporten.",
+        "words": [
+          550,
+          750
+        ],
+        "mustCite": 4,
+        "mustNumber": [
+          "FN-rapport S/2021/229 (brev af 8. marts 2021)",
+          "Kargu-2 i Libyen",
+          "marts 2020-hændelsen",
+          "rapporten har ikke bekræftet et autonomt drab"
+        ],
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "DeepSeek V3.2 (DeepSeek)",
+        "model": "deepseek/deepseek-v3.2",
+        "fallback": "google/gemini-3.5-flash"
+      },
+      "receipt": {
+        "words": 548,
+        "costUSD": 0.00102732,
+        "draft": "kladder/06-kargu.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1794124576-MI9hDRU6NXpxeH6eUG0m"
+      },
+      "verdict": {
+        "status": null,
+        "checkedAt": null,
+        "citations": null,
+        "editorNote": null
+      }
+    }
+  ]
+}

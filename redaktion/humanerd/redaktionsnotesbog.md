@@ -326,6 +326,19 @@ levetidstallet var det rigtige. Reglen er stadig: afstem mod begge, og forklar f
 
 ## Log
 
+- **2026-11-08:** Nr. 8 udgivet — "Robotter i krig". Fem bestilte artikler + editor-ledet
+  leder uden byline. Magasinagenten ramte OpenCode-kvoten; Redaktionen producerede på
+  `.env.humanerd`. 0,1449 USD · 0,97 kr (DNVALD 6,6952 / 2026-11-06). Lås: THeMIS over 150
+  UGV, nederlandsk donation 6. okt. 2025, Janes 28. sep. 2026 (leverance inden udgangen af
+  2026, 100 hos VDL Defentec i Born); Tencore-MoU juni 2026. Donation ≠ drift. IFR bruges
+  ikke (måler ikke militærforbrug). SIPRI 2025: verden 2887 (+2,9), USA 954 (−7,5), Kina 336
+  (+7,4), Rusland 190 (+5,9), Tyskland 114 (+24), Ukraine 84,1 (+20; 7. største; 40 % af BNP).
+  Resolution 80/57: 164-6-7 den 1. dec. 2025. HRW 7. sep. 2026 (aktivist): 76/70 for
+  forhandlinger; live URL `.../end-with-calls...` (ikke `ends`). Kargu-2: S/2021/229 beskriver
+  kapacitet, bekræfter ikke autonomt drab. Bagside nr. 9: IFR World Robotics 2026.
+  `content/humanerd/issues/2026-11-nr8/` · `redaktion/humanerd/numre/2026-11-nr8/`.
+  check_issue 0/0, check_links 0 dead (2 bot-403: DoD PDF, NYT).
+
 - **2026-10-18:** Nr. 7 udgivet — "Robotten der kan se", idébank-emne. Fem bestilte artikler +
   editor-ledet leder: BMW AIQX/AOI i Regensburg (drift, men mennesket holder sin sidste kontrol),
   1X NEO i hjemmet (kommercielt salg, human-in-the-loop-driftsform, ingen lidar), Figure Helix

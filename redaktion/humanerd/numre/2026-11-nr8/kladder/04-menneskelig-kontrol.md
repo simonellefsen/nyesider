@@ -1,0 +1,27 @@
+# Menneskelig kontrol er ikke en hånd på et joystick
+
+Når en robot skal flytte kasser på et lager, er menneskelig kontrol et spørgsmål om arbejdsdeling: Hvem sætter opgaven? Hvem godkender undtagelser? Hvem standser anlægget? Og hvem bærer ansvaret, hvis robotten gør skade? I debatten om dødelige autonome våbensystemer er spørgsmålet skærpet til det yderste. Her handler kontrol ikke om brugeroplevelse, men om beslutninger om magtanvendelse, folkeret og ansvar.
+
+Det er baggrunden for formuleringen *appropriate levels of human judgment* — passende niveauer af menneskelig vurdering — i arbejdet under Konventionen om visse konventionelle våben (CCW). Den lyder administrativ, men er et forsøg på at fastholde noget afgørende: En maskines sensorinput, modelberegning og bevægelsesplan må ikke i sig selv blive den instans, der bærer menneskets juridiske og moralske ansvar.
+
+I 2019 vedtog CCW’s høje kontraherende parter 11 vejledende principper for arbejdet med dødelige autonome våbensystemer (*lethal autonomous weapons systems*, LAWS). Et af principperne fastslår, at menneskeligt ansvar for beslutninger om brug af våbensystemer skal bevares, fordi ansvarlighed ikke kan overføres til maskiner. Princippet knytter dette til hele våbnets livscyklus: fra udvikling og anskaffelse til indsættelse, brug og efterfølgende vurdering.[^1]
+
+Det er vigtigt, fordi menneskelig vurdering ikke nødvendigvis betyder, at en operatør fysisk trykker på en knap for hver bevægelse. Et moderne system kan være automatisk i dele af sin funktion: Det kan stabilisere et fartøj, følge et objekt eller beregne en rute hurtigere, end et menneske kan. Men 2019-principperne flytter diskussionen væk fra den snævre forestilling om “menneske i kredsløbet”. Spørgsmålet bliver i stedet, om mennesker har sat rammerne for systemet, forstår dets begrænsninger, kan afvise eller afbryde dets brug og fortsat kan holdes ansvarlige.
+
+Det er en skelnen, der også er genkendelig uden for militæret. En lagerrobot kan få lov til at køre selvstændigt i en afgrænset gang, men kun hvis et menneske har defineret sikkerhedszoner, godkendt hastigheder og kan stoppe driften. I en våbenkontekst er konsekvensen af en forkert klassifikation eller en fejl i omgivelserne imidlertid langt mere alvorlig. Derfor er “passende” ikke et teknisk minimumskrav, som kan løses med en nødstopknap. Det afhænger af opgaven, våbnets funktion, den forventede kontekst og de folkeretlige regler.
+
+Den 5. september 2026 afsluttede Gruppen af Regeringseksperter om Dødelige Autonome Våbensystemer (GGE) sit mandat for 2024–2026 med en konsensusrapport. Rapportens afsnit 25–44 — altså 20 nummererede afsnit — samler elementer til et muligt instrument om LAWS, uden at medlemsstaterne dermed har afgjort, om instrumentet skal være juridisk bindende, politisk eller have en anden form.[^2]
+
+Her optræder idéen om passende niveauer af menneskelig vurdering igen, men i en anden rolle end i 2019. Hvor de 11 principper først og fremmest var fælles pejlemærker, placerer 2026-rapporten menneskelig vurdering blandt de elementer, som et fremtidigt instrument kan skulle omsætte til mere konkret praksis. Det gør formuleringen vigtigere — og sværere. En stat kan ikke nøjes med at erklære, at et menneske “er involveret”. Den må kunne forklare, hvilken beslutning mennesket træffer, på hvilket informationsgrundlag, på hvilket tidspunkt og med hvilken reel mulighed for at gribe ind.
+
+Konsensus betyder heller ikke, at der nu findes en færdig international regel. Det betyder, at CCW-processen har fundet fælles sprog om visse elementer trods betydelige politiske forskelle. Human Rights Watch, en aktivistorganisation, beskrev efter mødet afslutningen som ledsaget af voksende opfordringer til egentlige forhandlinger om regler for “killer robots”. Organisationens vurdering er ikke en neutral status for staternes positioner, men den viser, at presset for et mere forpligtende resultat fortsætter.[^3]
+
+Næste institutionelle prøve bliver CCW’s 7. revideringskonference i Genève, planlagt til 16.–20. november 2026.[^4] Den afgør ikke alene, om verdens stater kan definere menneskelig kontrol ens. Men den kan afgøre, om “appropriate levels of human judgment” forbliver en principformulering — eller bliver begyndelsen på krav, som stater faktisk skal omsætte til regler, procedurer og ansvarskæder.
+
+[^1]: De Forenede Nationers Kontor for Nedrustningsanliggender, *Report of the 2019 session of the Group of Governmental Experts on Emerging Technologies in the Area of Lethal Autonomous Weapons Systems*, CCW/GGE.1/2019/3, bilag IV: [PDF](https://documents.unoda.org/wp-content/uploads/2020/09/CCW_GGE.1_2019_3_E.pdf).
+
+[^2]: De Forenede Nationers Kontor for Nedrustningsanliggender, *Report of the 2026 session of the Group of Governmental Experts on Lethal Autonomous Weapons Systems*, CCW/GGE.1/2026/3, afsnit 25–44: [advance copy PDF](https://docs-library.unoda.org/Convention_on_Certain_Conventional_Weapons_-Group_of_Governmental_Experts_on_Lethal_Autonomous_Weapons_Systems_(2026)/CCW-GGE.1-2026-3-Advance_copy.pdf).
+
+[^3]: Human Rights Watch, “UN Talks on Killer Robots End With Calls for Negotiations Growing”, 7. september 2026: [artikel](https://www.hrw.org/news/2026/09/07/un-talks-on-killer-robots-end-with-calls-for-negotiations-growing).
+
+[^4]: De Forenede Nationers Kontor for Nedrustningsanliggender, *Convention on Certain Conventional Weapons*: [CCW’s officielle side](https://disarmament.unoda.org/the-convention-on-certain-conventional-weapons/).
