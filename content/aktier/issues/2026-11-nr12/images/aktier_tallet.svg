@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400">
+  <rect width="800" height="400" fill="#0D1B2A"/>
+  <g font-family="system-ui, sans-serif" text-anchor="middle">
+    <rect x="100" y="40" width="280" height="150" rx="8" fill="#1B3A4B"/>
+    <text x="240" y="90" fill="#C9A227" font-size="18" font-weight="bold">FIS uge</text>
+    <text x="240" y="130" fill="#E53E3E" font-size="48" font-weight="bold">-25,5 %</text>
+    <text x="240" y="160" fill="#A0AEC0" font-size="14">Ny 52w lav</text>
+    
+    <rect x="420" y="40" width="280" height="150" rx="8" fill="#1B3A4B"/>
+    <text x="560" y="90" fill="#C9A227" font-size="18" font-weight="bold">4. november</text>
+    <text x="560" y="130" fill="#E53E3E" font-size="48" font-weight="bold">-23,7 %</text>
+    <text x="560" y="160" fill="#A0AEC0" font-size="14">Fra $38,99 til $29,76</text>
+    
+    <rect x="100" y="210" width="280" height="150" rx="8" fill="#1B3A4B"/>
+    <text x="240" y="260" fill="#C9A227" font-size="18" font-weight="bold">Trail P/E</text>
+    <text x="240" y="300" fill="#FFFFFF" font-size="48" font-weight="bold">4,3</text>
+    <text x="240" y="330" fill="#A0AEC0" font-size="14">"Billigere" end FISV</text>
+    
+    <rect x="420" y="210" width="280" height="150" rx="8" fill="#1B3A4B"/>
+    <text x="560" y="260" fill="#C9A227" font-size="18" font-weight="bold">Status</text>
+    <text x="560" y="300" fill="#E53E3E" font-size="28" font-weight="bold">AFVIST</text>
+    <text x="560" y="330" fill="#A0AEC0" font-size="14">Faldende kniv</text>
+  </g>
+</svg>

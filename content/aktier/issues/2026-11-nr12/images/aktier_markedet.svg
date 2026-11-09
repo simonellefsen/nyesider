@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400">
+  <rect width="800" height="400" fill="#0D1B2A"/>
+  <g font-family="system-ui, sans-serif" text-anchor="middle">
+    <rect x="40" y="40" width="230" height="150" rx="8" fill="#1B3A4B"/>
+    <text x="155" y="90" fill="#C9A227" font-size="18" font-weight="bold">S&amp;P 500</text>
+    <text x="155" y="120" fill="#E53E3E" font-size="32" font-weight="bold">-2,68 %</text>
+    <text x="155" y="150" fill="#A0AEC0" font-size="14">Vaerste uge i mere end et aar</text>
+    
+    <rect x="285" y="40" width="230" height="150" rx="8" fill="#1B3A4B"/>
+    <text x="400" y="90" fill="#C9A227" font-size="18" font-weight="bold">Nasdaq</text>
+    <text x="400" y="120" fill="#E53E3E" font-size="32" font-weight="bold">-3,37 %</text>
+    <text x="400" y="150" fill="#A0AEC0" font-size="14">Korrektion (over 10 % fra top)</text>
+    
+    <rect x="530" y="40" width="230" height="150" rx="8" fill="#1B3A4B"/>
+    <text x="645" y="90" fill="#C9A227" font-size="18" font-weight="bold">SMH (Chips)</text>
+    <text x="645" y="120" fill="#E53E3E" font-size="32" font-weight="bold">-11,2 %</text>
+    <text x="645" y="150" fill="#A0AEC0" font-size="14">-31 % fra top</text>
+    
+    <rect x="40" y="210" width="230" height="150" rx="8" fill="#1B3A4B"/>
+    <text x="155" y="260" fill="#C9A227" font-size="18" font-weight="bold">Torsdag 5. nov</text>
+    <text x="155" y="290" fill="#E53E3E" font-size="24" font-weight="bold">-4,4 / -5,5 %</text>
+    <text x="155" y="320" fill="#A0AEC0" font-size="14">Vaerste dag siden apr 2025</text>
+    
+    <rect x="285" y="210" width="230" height="150" rx="8" fill="#1B3A4B"/>
+    <text x="400" y="260" fill="#C9A227" font-size="18" font-weight="bold">OMXC25</text>
+    <text x="400" y="290" fill="#40826D" font-size="32" font-weight="bold">+1,75 %</text>
+    <text x="400" y="320" fill="#A0AEC0" font-size="14">Naer 52w top</text>
+    
+    <rect x="530" y="210" width="230" height="150" rx="8" fill="#1B3A4B"/>
+    <text x="645" y="260" fill="#C9A227" font-size="18" font-weight="bold">OSEBX</text>
+    <text x="645" y="290" fill="#E53E3E" font-size="32" font-weight="bold">-4,3 %</text>
+    <text x="645" y="320" fill="#A0AEC0" font-size="14">Faldt med olien</text>
+  </g>
+</svg>

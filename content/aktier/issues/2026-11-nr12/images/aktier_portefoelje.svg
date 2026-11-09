@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400">
+  <rect width="800" height="400" fill="#0D1B2A"/>
+  <g font-family="system-ui, sans-serif" text-anchor="middle">
+    <rect x="40" y="40" width="230" height="150" rx="8" fill="#1B3A4B"/>
+    <text x="155" y="90" fill="#C9A227" font-size="18" font-weight="bold">23 aktive uge</text>
+    <text x="155" y="120" fill="#40826D" font-size="32" font-weight="bold">+3,2 %</text>
+    <text x="155" y="150" fill="#A0AEC0" font-size="14">19 af 23 i plus</text>
+    
+    <rect x="285" y="40" width="230" height="150" rx="8" fill="#1B3A4B"/>
+    <text x="400" y="90" fill="#C9A227" font-size="18" font-weight="bold">SPY uge</text>
+    <text x="400" y="120" fill="#E53E3E" font-size="32" font-weight="bold">-2,7 %</text>
+    <text x="400" y="150" fill="#A0AEC0" font-size="14">Spread +5,9 ppt</text>
+    
+    <rect x="530" y="40" width="230" height="150" rx="8" fill="#1B3A4B"/>
+    <text x="645" y="90" fill="#C9A227" font-size="18" font-weight="bold">Alle 34</text>
+    <text x="645" y="120" fill="#40826D" font-size="32" font-weight="bold">+5,8 %</text>
+    <text x="645" y="150" fill="#A0AEC0" font-size="14">24 af 34 i plus</text>
+    
+    <rect x="40" y="210" width="230" height="150" rx="8" fill="#1B3A4B"/>
+    <text x="155" y="260" fill="#C9A227" font-size="18" font-weight="bold">PHIA.AS</text>
+    <text x="155" y="290" fill="#40826D" font-size="32" font-weight="bold">+12,7 %</text>
+    <text x="155" y="320" fill="#A0AEC0" font-size="14">Ugens bedste</text>
+    
+    <rect x="285" y="210" width="230" height="150" rx="8" fill="#1B3A4B"/>
+    <text x="400" y="260" fill="#C9A227" font-size="18" font-weight="bold">Invalidationer</text>
+    <text x="400" y="290" fill="#40826D" font-size="32" font-weight="bold">0</text>
+    <text x="400" y="320" fill="#A0AEC0" font-size="14">Alle niveauer holdt</text>
+    
+    <rect x="530" y="210" width="230" height="150" rx="8" fill="#1B3A4B"/>
+    <text x="645" y="260" fill="#C9A227" font-size="18" font-weight="bold">Efter nr. 12</text>
+    <text x="645" y="290" fill="#FFFFFF" font-size="32" font-weight="bold">24</text>
+    <text x="645" y="320" fill="#A0AEC0" font-size="14">aktive kandidater</text>
+  </g>
+</svg>

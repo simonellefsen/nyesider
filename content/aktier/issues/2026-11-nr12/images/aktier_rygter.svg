@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400">
+  <rect width="800" height="400" fill="#0D1B2A"/>
+  <g font-family="system-ui, sans-serif" text-anchor="middle">
+    <rect x="40" y="40" width="230" height="150" rx="8" fill="#1B3A4B"/>
+    <text x="155" y="90" fill="#C9A227" font-size="18" font-weight="bold">SGO.PA</text>
+    <text x="155" y="120" fill="#40826D" font-size="28" font-weight="bold">+9,2 % uge</text>
+    <text x="155" y="150" fill="#A0AEC0" font-size="14">Kandidat for nr. 13</text>
+    
+    <rect x="285" y="40" width="230" height="150" rx="8" fill="#1B3A4B"/>
+    <text x="400" y="90" fill="#C9A227" font-size="18" font-weight="bold">GOOGL</text>
+    <text x="400" y="120" fill="#FFFFFF" font-size="28" font-weight="bold">$284,78</text>
+    <text x="400" y="150" fill="#A0AEC0" font-size="14">Holder over $273,50</text>
+    
+    <rect x="530" y="40" width="230" height="150" rx="8" fill="#1B3A4B"/>
+    <text x="645" y="90" fill="#C9A227" font-size="18" font-weight="bold">PRX.AS</text>
+    <text x="645" y="120" fill="#FFFFFF" font-size="28" font-weight="bold">-37,56</text>
+    <text x="645" y="150" fill="#A0AEC0" font-size="14">Ny p- f-lgelisten</text>
+    
+    <rect x="40" y="210" width="230" height="150" rx="8" fill="#1B3A4B"/>
+    <text x="155" y="260" fill="#C9A227" font-size="18" font-weight="bold">FIS</text>
+    <text x="155" y="290" fill="#E53E3E" font-size="24" font-weight="bold">AFVIST</text>
+    <text x="155" y="320" fill="#A0AEC0" font-size="14">Faldende kniv</text>
+    
+    <rect x="285" y="210" width="230" height="150" rx="8" fill="#1B3A4B"/>
+    <text x="400" y="260" fill="#C9A227" font-size="18" font-weight="bold">CVS, MCHP</text>
+    <text x="400" y="290" fill="#E53E3E" font-size="24" font-weight="bold">AFVIST</text>
+    <text x="400" y="320" fill="#A0AEC0" font-size="14">Faldende knive</text>
+    
+    <rect x="530" y="210" width="230" height="150" rx="8" fill="#1B3A4B"/>
+    <text x="645" y="260" fill="#C9A227" font-size="18" font-weight="bold">K-benhavn/Oslo</text>
+    <text x="645" y="290" fill="#FFFFFF" font-size="20" font-weight="bold">Ingen nye</text>
+    <text x="645" y="320" fill="#A0AEC0" font-size="14">OMXC25 ved top</text>
+  </g>
+</svg>
