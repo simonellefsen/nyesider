@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400">
+  <rect width="800" height="400" fill="#0D1B2A"/>
+  <g font-family="system-ui, sans-serif" text-anchor="middle">
+    <rect x="40" y="80" width="175" height="130" rx="8" fill="#1B3A4B"/>
+    <text x="127" y="125" fill="#C9A227" font-size="16" font-weight="bold">SPY</text>
+    <text x="127" y="155" fill="#E53E3E" font-size="26" font-weight="bold">-5,9 %</text>
+    <text x="127" y="180" fill="#A0AEC0" font-size="12">P/E 23,4</text>
+    
+    <rect x="230" y="80" width="175" height="130" rx="8" fill="#1B3A4B"/>
+    <text x="317" y="125" fill="#C9A227" font-size="16" font-weight="bold">QQQ</text>
+    <text x="317" y="155" fill="#E53E3E" font-size="26" font-weight="bold">-14,0 %</text>
+    <text x="317" y="180" fill="#A0AEC0" font-size="12">P/E 27,0 (korrektion)</text>
+    
+    <rect x="420" y="80" width="175" height="130" rx="8" fill="#1B3A4B"/>
+    <text x="507" y="125" fill="#C9A227" font-size="16" font-weight="bold">SMH</text>
+    <text x="507" y="155" fill="#E53E3E" font-size="26" font-weight="bold">-31 %</text>
+    <text x="507" y="180" fill="#A0AEC0" font-size="12">Bjornemarked</text>
+    
+    <rect x="610" y="80" width="150" height="130" rx="8" fill="#1B3A4B"/>
+    <text x="685" y="125" fill="#C9A227" font-size="16" font-weight="bold">OMXC25</text>
+    <text x="685" y="155" fill="#40826D" font-size="26" font-weight="bold">-1,7 %</text>
+    <text x="685" y="180" fill="#A0AEC0" font-size="12">Naer top</text>
+    
+    <rect x="200" y="240" width="400" height="100" rx="8" fill="#1B3A4B"/>
+    <text x="400" y="280" fill="#C9A227" font-size="18" font-weight="bold">Konklusion</text>
+    <text x="400" y="310" fill="#FFFFFF" font-size="20" font-weight="bold">Ingen ETF anbefales</text>
+  </g>
+</svg>

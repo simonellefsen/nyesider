@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400">
+  <rect width="800" height="400" fill="#0D1B2A"/>
+  <g font-family="system-ui, sans-serif" text-anchor="middle">
+    <rect x="40" y="40" width="230" height="150" rx="8" fill="#1B3A4B"/>
+    <text x="155" y="90" fill="#C9A227" font-size="18" font-weight="bold">Pris</text>
+    <text x="155" y="120" fill="#FFFFFF" font-size="32" font-weight="bold">$62,88</text>
+    <text x="155" y="150" fill="#40826D" font-size="14">+25,7 % uge</text>
+    
+    <rect x="285" y="40" width="230" height="150" rx="8" fill="#1B3A4B"/>
+    <text x="400" y="90" fill="#C9A227" font-size="18" font-weight="bold">Forward P/E</text>
+    <text x="400" y="120" fill="#FFFFFF" font-size="32" font-weight="bold">7,9</text>
+    <text x="400" y="150" fill="#A0AEC0" font-size="14">EPS $7,97 forventet</text>
+    
+    <rect x="530" y="40" width="230" height="150" rx="8" fill="#1B3A4B"/>
+    <text x="645" y="90" fill="#C9A227" font-size="18" font-weight="bold">Fra 52w top</text>
+    <text x="645" y="120" fill="#E53E3E" font-size="32" font-weight="bold">-10,7 %</text>
+    <text x="645" y="150" fill="#A0AEC0" font-size="14">Intradag $70,41</text>
+    
+    <rect x="40" y="210" width="230" height="150" rx="8" fill="#1B3A4B"/>
+    <text x="155" y="260" fill="#C9A227" font-size="18" font-weight="bold">Q3 adj. EPS</text>
+    <text x="155" y="290" fill="#FFFFFF" font-size="32" font-weight="bold">$1,75</text>
+    <text x="155" y="320" fill="#40826D" font-size="14">Beat vs $1,72 forventet</text>
+    
+    <rect x="285" y="210" width="230" height="150" rx="8" fill="#1B3A4B"/>
+    <text x="400" y="260" fill="#C9A227" font-size="18" font-weight="bold">Invalidation</text>
+    <text x="400" y="290" fill="#E53E3E" font-size="32" font-weight="bold">$54,50</text>
+    <text x="400" y="320" fill="#A0AEC0" font-size="14">-13,3 % fra kurs</text>
+    
+    <rect x="530" y="210" width="230" height="150" rx="8" fill="#1B3A4B"/>
+    <text x="645" y="260" fill="#C9A227" font-size="18" font-weight="bold">Sleeve</text>
+    <text x="645" y="290" fill="#C9A227" font-size="28" font-weight="bold">SATELLITE</text>
+    <text x="645" y="320" fill="#A0AEC0" font-size="14">Overlap med PYPL</text>
+  </g>
+</svg>

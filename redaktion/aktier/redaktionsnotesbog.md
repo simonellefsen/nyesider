@@ -335,15 +335,49 @@ python3 production/load_env.py aktier   # når .env.aktier oprettes
 
 **Porteføljen efter nr. 11:** 22 aktive (efter BKNG exit) + TMUS = **23 aktive kandidater**.
 
-## Nr. 12 — kandidater / opfølgning
+## Nr. 12 — udgivet (2026-11-09)
 
-**(2026-11-03)** Fiserv Q3 (følger), Philips Q3. US midtermsvalg.
+**Tema:** Tvillingerne: Fiserv +26 %, FIS −25 % — vi ventede på regnskabet, og det betalte sig  
+**Editor-led:** Alle artikler skrevet af chefredaktionen uden byline. Ingen OpenRouter-kald (`.env.aktier` endnu ikke oprettet). `productionCostUSD: 0`.
 
-**(2026-11-04)** Novo Nordisk Q3 + Ahold Delhaize Q3 + FIS Q3 (følger).
+**INGEN INVALIDATIONER.** Alle 23 prisniveauer holdt.
 
-**(2026-11-05)** Deutsche Telekom Q3.
+**ÉN NY KANDIDAT:**
+1. **FISV** (Fiserv, NasdaqGS) — $62,88 (+25,7 % uge), **SATELLITE**
+   - Forward P/E 7,9 (EPS $7,97); på 2026 adj. guide midpoint $7,30 → ~8,6×
+   - P/B 1,59, market cap ~$33,5 mia., ingen udbytte
+   - Q3 (3. nov): adj. EPS $1,75 beat vs. $1,72; guide $7,20–7,40 reaffirmed; Project Elevate besparelser fordoblet til $1 mia.; $500 mio. tilbagekøb i Q4
+   - Bekræftet bund: 2. okt lav $44,36 → rapport-gap til $58,40 (+12,5 %)
+   - Risici: vi køber efter +26 %, RSI ~82, overlap med PYPL
+   - **Invalidation:** lukke < **$54,50** (under rapport-gap)
 
-**(2026-11-06)** Orkla Q3 + Charter Q3.
+**TALLET: FIS −25,5 %** (tvillingen der faldt)
+- 4. nov: $38,99 → $29,76 (−23,7 %), ny 52w lav
+- Trail P/E 4,3, fwd 5,1, yield 6,1 % — "billigere" end FISV
+- Q3: guide skåret (FY adj. EPS growth 1,2–2,4 %), CFO James Kehoe trådte tilbage
+- **Afvist** (faldende kniv, ny lav, CFO-exit)
+
+**BKNG STEG EFTER VORES EXIT:**
+- Exit 26. okt $153,14 (−3,7 % vs. $159,02)
+- Q3 rapport 3. nov → 4. nov: $170,97 (+9,8 %)
+- Fredag 6. nov: $160,67 — **+4,9 % over vores exit**, **+1,0 % over vores købspris**
+- Reglen kostede os gevinsten. Vi holder den alligevel (Volvo Car i nr. 10).
+
+**Scorecard (lukkekurs 6. nov):**
+- Alle 34 kandidater (nr. 1–11): **+5,8 %**, **24 af 34 i plus**
+- Exited (11 navne): −4,0 % vs. publikation, 6 i plus
+- **23 aktive (start af ugen): +10,4 %** siden publikation, **18 af 23 i plus**
+- Uge: **+3,2 %**, **19 af 23 i plus** (SPY −2,7 %, EUNL −1,8 %)
+
+**Bedste:** WKL.AS +36,0 %, ACN +31,0 %, PHIA.AS +25,0 %, INTU +23,8 %.  
+**Værste aktive:** YAR.OL −10,2 %, NOVO-B −8,8 %, DTE.DE −4,4 %, ADBE −3,9 %.  
+**Ugens bevægere:** PHIA.AS +12,7 %, BALD-B +10,4 %, LOW +7,4 %, ROCK-B +5,3 %.
+
+**Ankomne regnskaber (hold):** Novo Nordisk Q3 (guide hævet), Deutsche Telekom Q3 (guide hævet), Ahold Delhaize Q3 (cyber-cut, one-off, hold), Philips Q3 (+12,7 % uge), Orkla Q3.
+
+**Porteføljen efter nr. 12:** 23 aktive + FISV = **24 aktive kandidater**.
+
+## Nr. 13 — kandidater / opfølgning
 
 **(2026-11-10)** US oktober-CPI.
 
@@ -361,22 +395,25 @@ python3 production/load_env.py aktier   # når .env.aktier oprettes
 
 **(2026-12-18)** CCL Q4 (forventet, ubekræftet).
 
+**TBD** Fiserv Q4 (dato ikke bekræftet).
+
 **Følger (ikke feature endnu):**
-- **GOOGL** — følgeliste, betingelse: højere lav > $273,50 + FCF/capex-stabilisering.
-- FISV/FIS — højere lav, Q3 3.–4. nov, kandidater for nr. 12.
-- DG.PA/SGO.PA — flade baser, ingen klar katalysator.
-- COF (Capital One) — fwd P/E 8,5.
-- BOL.ST (Boliden) — metals-cyklisk.
+- **GOOGL** — følgeliste, betingelse: højere lav > $273,50 + FCF/capex-stabilisering. $284,78 (+1,8 % uge), holder.
+- **SGO.PA** (Saint-Gobain) — €74,10 (+9,2 % uge), højere lav siden 7. okt, RSI ~70. **Kandidat for nr. 13 på pullback over ~€70.**
+- DG.PA (Vinci) — €111,60, flad base fortsætter.
+- PRX.AS (Prosus) — €37,56 (−41 % fra top), bounced 10,7 % fra 22. okt lav. Ny på følgelisten. Tencent Q er næste test (dato ikke bekræftet).
+- COF (Capital One) — $201,87 (fwd P/E 8,5).
+- BOL.ST (Boliden) — SEK 503,40 (P/E 10,0).
 
 **Afviste:**
+- **FIS** — faldende kniv, ny 52w lav, CFO-exit, guide skåret. Se Tallet.
 - T/VZ — fravalgt til fordel for TMUS (bedre vækst, beat-and-raise).
-- CTSH — IT-koncentration (vi har ACN, CAP, WKL).
-- MKC — trail P/E 8,7 men fwd P/E 14,9 (engangseffekt).
-- CPB — value-trap (udbyttenedsættelse, leverage).
-- NHY.OL — ny 52w lav, faldende kniv.
-- NFLX/ORCL — 52w lav, ingen bund, AI-capex.
-- EU-banker (ACA.PA, GLE.PA) — RSI <30, ingen bund.
-- CHTR — leverage veto.
+- CVS — $83,85 (−12,5 % den 4. nov), faldende, ingen højere lav.
+- CHTR — $118,07 (−6,2 % fredag), leverage veto.
+- Chips (MCHP, APTV, AKAM) — faldende knive, SMH −31 % fra top.
+- ORCL, NFLX — nær 52w lav, ingen bund.
+- NHY.OL — NOK 68,38 (ny lukkebund 65,32 den 3. nov), faldende kniv.
+- MAERSK-B — DKK 20.300 (−18,5 % på 4 dage), faldt med olie/fragt.
 - LULU/NKE/RI.PA/BKNG — ingen re-entry (magasinregel).
 
 ## Log
@@ -393,3 +430,4 @@ python3 production/load_env.py aktier   # når .env.aktier oprettes
 - **2026-10-19:** Nr. 9 publiceret — *"Chipkrakket: Nasdaq −4,5 %, vores kandidater +3,7 % — og vi køber intet"*. Editor-led, ingen bylines, `productionCostUSD: 0`. **INGEN NYE KANDIDATER** — ærlig beslutning: faldende navne har ingen bund, bundnavne har regnskab inden for dage. **Chip-crash:** SMH −10 % uge (største siden apr 2025), Nasdaq −4,5 %. **Portefølje:** +3,7 % uge, 20 af 22 i plus. **Alle-picks snit +0,4 %** — første positive. **10 af 10 exits steget**: STZ +16,4 % til RI.PA +10,7 %. RI.PA +17,5 % fra single-close-bund — åbent spørgsmål om reglen. **Tre rettelser**: Booking Q3 = 3. nov, PayPal Q3 = 27. okt, Rockwool Q3 = 25. nov. Porteføljen stadig **22 aktive**.
 - **2026-10-26:** Nr. 10 publiceret — *"Volvo Car −25 % på en uge: exitten holdt — og vi køber Balder til halv substans"*. Editor-led, ingen bylines, `productionCostUSD: 0`. **VOLVO CAR Q3**: driftstab SEK 5,6 mia., aktien −24,6 % på ugen. Vores nr. 7-exit (18. sep) undgik −43 % vs entry. **Single-close-reglen holdt** — beslutning: vi holder reglen uændret. **Én ny kandidat: BALD-B.ST** (Balder, SATELLITE, ~50 % af NAV, invalidation < SEK 43,50). Scorecard: 32 kandidater +1,4 % (17 i plus), 22 aktive +5,1 % siden pub, +2,2 % uge (18 af 22 i plus). **BKNG 1,1 % over niveau — Q3 3. nov er BINÆRT.** Ingen invalidationer. Porteføljen nu **23 aktive** (22 + Balder).
 - **2026-11-02:** Nr. 11 publiceret — *"Alphabets værste dag nogensinde — vi griber ikke kniven, men køber T-Mobile efter regnskabet"*. Editor-led, ingen bylines, `productionCostUSD: 0`. **BKNG exit**: $153,14 < $154,13 den 26. okt, −3,7 % vs. publikation, ud før Q3-rapport. **Alphabet −12,6 %** (værste dag siden 2004): ~$500 mia. tabt, trail P/E 14,6 vs. fwd 18,5, FCF −$9,1 mia. for 2. kvartal — nu på følgeliste med betingelse. **Én ny kandidat: TMUS** (T-Mobile US, SATELLITE, $156,44, fwd P/E 11,0, Q3 beat-and-raise, bekræftet bund $146,54, invalidation < $143,50). Scorecard: 33 kandidater +2,4 % (20 i plus), 22 aktive +7,3 % (16 i plus), uge +1,8 % (SPY −0,6 %). **DTE.DE overlap bevidst — TMUS er SATELLITE.** Porteføljen nu **23 aktive** (22 + TMUS).
+- **2026-11-09:** Nr. 12 publiceret — *"Tvillingerne: Fiserv +26 %, FIS −25 % — vi ventede på regnskabet, og det betalte sig"*. Editor-led, ingen bylines, `productionCostUSD: 0`. **Ingen invalidationer.** **Én ny kandidat: FISV** (Fiserv, SATELLITE, $62,88, fwd P/E 7,9, Q3 beat, guide holdt, besparelser fordoblet, invalidation < $54,50). **FIS afvist** (−25,5 % uge, guide cut, CFO-exit, ny 52w lav). **BKNG steg efter exit:** $153,14 → $160,67 (+4,9 %) — reglen kostede os gevinsten, vi holder den. **Midtermschok:** torsdag 5. nov S&P −4,4 %, Nasdaq −5,5 %, værste dag siden apr 2025. SMH −11 % uge. Scorecard: 34 kandidater +5,8 % (24 i plus), 23 aktive +10,4 % (18 i plus), uge +3,2 % (19 i plus) vs SPY −2,7 %. **IT-services/software + PYPL overlap — FISV er SATELLITE.** Porteføljen nu **24 aktive** (23 + FISV).

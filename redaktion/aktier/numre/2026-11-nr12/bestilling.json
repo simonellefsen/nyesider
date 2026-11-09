@@ -1,0 +1,229 @@
+{
+  "magazine": "aktier",
+  "issue": "2026-11-nr12",
+  "issueTheme": "Tvillingerne: Fiserv +26 %, FIS −25 % — vi ventede på regnskabet, og det betalte sig",
+  "budget": {
+    "articles": 8,
+    "wordsPerArticle": [340, 780],
+    "targetPages": 10,
+    "note": "Én ny kandidat (FISV SATELLITE). Ingen invalidationer. Tallet handler om FIS −25,5 %. BKNG steg efter exit. 24 aktive efter dette nummer."
+  },
+  "opgaver": [
+    {
+      "slug": "leder",
+      "order": 1,
+      "section": "Leder",
+      "brief": {
+        "angle": "FISV +26 %, FIS −25 % (tvillinger, modsat udfald). BKNG steg efter vores exit ($153,14 → $160,67). Reglen kostede os gevinsten; vi holder den. 24 aktive efter nr. 12.",
+        "words": [300, 380],
+        "mustCite": 2,
+        "format": "leder"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": 340,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "rewritten-by-editor",
+        "checkedAt": "2026-11-09",
+        "citations": 2,
+        "editorNote": "Editor-led. Yahoo Finance FISV, Motley Fool FIS citeret."
+      }
+    },
+    {
+      "slug": "markedet",
+      "order": 2,
+      "section": "Markedet",
+      "brief": {
+        "angle": "Torsdag 5. nov: S&P −4,4 %, Nasdaq −5,5 %, værste dag siden apr 2025. Midtermsvalg frygt for AI-capex. SMH −11 % uge. Olie −12 %. Europa slog USA (OMXC25 +1,75 %). Vores 23 aktive +3,2 % uge.",
+        "words": [580, 680],
+        "mustCite": 4,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": 620,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "rewritten-by-editor",
+        "checkedAt": "2026-11-09",
+        "citations": 4,
+        "editorNote": "Editor-led. CNBC, AP, Reuters/StreetInsider, Morningstar citeret."
+      }
+    },
+    {
+      "slug": "fisv",
+      "order": 3,
+      "section": "Kandidaten",
+      "brief": {
+        "angle": "FISV: $62,88, +25,7 % uge, fwd P/E 7,9, Q3 beat (adj EPS $1,75 vs $1,72), guide holdt, besparelsesmål fordoblet, $500m buyback Q4. Bekræftet bund (2. okt $44,36 → 3. nov gap). SATELLITE (PYPL overlap). Risici: vi køber efter +26 %, RSI ~82. Invalidation < $54,50.",
+        "words": [680, 760],
+        "mustCite": 3,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": 720,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "rewritten-by-editor",
+        "checkedAt": "2026-11-09",
+        "citations": 3,
+        "editorNote": "Editor-led. Yahoo Finance, MarketWatch, Investing.com citeret."
+      }
+    },
+    {
+      "slug": "tallet",
+      "order": 4,
+      "section": "Tallet",
+      "brief": {
+        "angle": "−25,5 % — FIS uge. 4. nov −23,7 % på én dag. Ny 52w lav $28,73. Trail P/E 4,3, fwd 5,1, yield 6,1 % — 'billigere' end FISV. Guide cut, CFO-exit. Afvist (faldende kniv).",
+        "words": [480, 560],
+        "mustCite": 3,
+        "format": "tallet"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": 520,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "rewritten-by-editor",
+        "checkedAt": "2026-11-09",
+        "citations": 3,
+        "editorNote": "Editor-led. FIS IR, Motley Fool, Seeking Alpha citeret."
+      }
+    },
+    {
+      "slug": "etferne",
+      "order": 5,
+      "section": "ETF'erne",
+      "brief": {
+        "angle": "SPY −5,9 % fra top (P/E 23,4), QQQ −14,0 % (P/E 27, korrektion), SMH −31 % (bjørnemarked). OMXC25 −1,7 % (nær top). QQQ nu interessant — men P/E 27 + midterms-usikkerhed = vent på højere lav. Ingen anbefaling.",
+        "words": [340, 420],
+        "mustCite": 0,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": 380,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "rewritten-by-editor",
+        "checkedAt": "2026-11-09",
+        "citations": 0,
+        "editorNote": "Editor-led. Alle tal fra Yahoo Finance."
+      }
+    },
+    {
+      "slug": "portefoeljen",
+      "order": 6,
+      "section": "Porteføljen",
+      "brief": {
+        "angle": "Ingen invalidationer. 34 kandidater +5,8 % (24 i plus). 23 aktive +10,4 %, uge +3,2 % (19 i plus) vs SPY −2,7 %. PHIA +12,7 %, BALD +10,4 %. Regnskaber: NOVO-B, DTE.DE, AD.AS, PHIA.AS, ORK.OL — hold. BKNG steg til $160,67 efter vores exit. FISV ind. 24 aktive efter nr. 12.",
+        "words": [720, 820],
+        "mustCite": 7,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": 780,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "rewritten-by-editor",
+        "checkedAt": "2026-11-09",
+        "citations": 7,
+        "editorNote": "Editor-led. Novo SEC 6-K, CNBC Novo, DTE IR, Investing.com DTE, Ahold Delhaize IR, Philips IR, AP Booking citeret."
+      }
+    },
+    {
+      "slug": "folgelisten",
+      "order": 7,
+      "section": "Rygtebørsen",
+      "brief": {
+        "angle": "Følgeliste: GOOGL (holder over $273,50), SGO.PA (+9,2 % uge, højere lav, kandidat for nr. 13 på pullback), DG.PA, PRX.AS (ny), T/VZ (fravalgt), COF/BOL.ST. Afviste: FIS, CVS, CHTR, chips (MCHP, APTV), ORCL, NFLX, NHY.OL, MAERSK-B. København/Oslo: ingen nye (OMXC25 ved top, OSEBX faldt med olie).",
+        "words": [480, 560],
+        "mustCite": 0,
+        "format": "rygteboersen"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": 520,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "rewritten-by-editor",
+        "checkedAt": "2026-11-09",
+        "citations": 0,
+        "editorNote": "Editor-led. Kort format, alle tal fra Yahoo Finance."
+      }
+    },
+    {
+      "slug": "bagsnit",
+      "order": 8,
+      "section": "Bagsnit",
+      "brief": {
+        "angle": "Selvkritik: BKNG +4,9 % over vores exit, +1,0 % over købspris. Reglen kostede os gevinsten — vi holder den (Volvo Car). FISV: +26 % dyrere end for en uge siden, invalidation −13,3 %. Overlap (PYPL). Track record. Kalender for nr. 13. Disclaimer.",
+        "words": [360, 440],
+        "mustCite": 0,
+        "format": "bagsnit"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": 400,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "rewritten-by-editor",
+        "checkedAt": "2026-11-09",
+        "citations": 0,
+        "editorNote": "Editor-led. Disclaimer + selvkritik, ingen fodnoter påkrævet."
+      }
+    }
+  ]
+}
