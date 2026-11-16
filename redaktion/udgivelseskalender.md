@@ -43,6 +43,7 @@ Håndhæves som **ERROR** i `production/check_issue.py` (og dermed i `npm run pr
 | 2026-11-07 | gnisten/2026-11-nr8 (nr. 8); kronike/2026-11-nr7 (nr. 7) |
 | 2026-11-08 | dosis/2026-11-nr8 (nr. 8); horisonten/2026-11-nr8 (nr. 8); humanerd/2026-11-nr8 (nr. 8); indeni/2026-11-nr8 (nr. 8); kraften/2026-11-nr8 (nr. 8); kulturboxen/2026-11-nr8 (nr. 8); orbit/2026-11-nr8 (nr. 8); pulsen/2026-11-nr8 (nr. 8); spaending/2026-11-nr8 (nr. 8) |
 | 2026-11-09 | aktier/2026-11-nr12 (nr. 12) |
+| 2026-11-16 | aktier/2026-11-nr13 (nr. 13) |
 
 ## Efter magasin
 
@@ -62,6 +63,7 @@ Håndhæves som **ERROR** i `production/check_issue.py` (og dermed i `npm run pr
 | 10 | `2026-10-nr10` | 2026-10-26 | published | Volvo Car −25 % på en uge: exitten holdt — og vi køber Balder til halv substans |
 | 11 | `2026-11-nr11` | 2026-11-02 | published | Alphabets værste dag nogensinde — vi griber ikke kniven, men køber T-Mobile efter regnskabet |
 | 12 | `2026-11-nr12` | 2026-11-09 | published | Tvillingerne: Fiserv +26 %, FIS −25 % — vi ventede på regnskabet, og det betalte sig |
+| 13 | `2026-11-nr13` | 2026-11-16 | published | Nvidia mister sin chef og 13 % — vi køber mursten i stedet: Saint-Gobain |
 
 ### dosis
 

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 268" width="600" height="268">
+  <style>
+    .title { font: bold 14px sans-serif; fill: #333; }
+    .label { font: 10px sans-serif; fill: #333; }
+    .value { font: 9px sans-serif; fill: #333; }
+    .bar-positive { fill: #40826D; }
+    .bar-negative { fill: #E53935; }
+    .zero-line { stroke: #333; stroke-width: 1; }
+  </style>
+  <rect width="600" height="268" fill="#FAFAFA"/>
+  <text x="300.0" y="20" text-anchor="middle" class="title">Indeks − uge 9.−13. november 2026</text>
+  <line x1="100.0" y1="40" x2="100.0" y2="238" class="zero-line"/>
+  <text x="95" y="52.0" text-anchor="end" class="label">S&amp;P 500</text>
+  <rect x="100.0" y="40" width="306.77777777777777" height="18" class="bar-positive"/>
+  <text x="409.77777777777777" y="52.0" text-anchor="start" class="value">+2.5 %</text>
+  <text x="95" y="74.0" text-anchor="end" class="label">Nasdaq</text>
+  <rect x="100.0" y="62" width="277.44444444444446" height="18" class="bar-positive"/>
+  <text x="380.44444444444446" y="74.0" text-anchor="start" class="value">+2.3 %</text>
+  <text x="95" y="96.0" text-anchor="end" class="label">Dow Jones</text>
+  <rect x="100.0" y="84" width="253.0" height="18" class="bar-positive"/>
+  <text x="356.0" y="96.0" text-anchor="start" class="value">+2.1 %</text>
+  <text x="95" y="118.0" text-anchor="end" class="label">STOXX 600</text>
+  <rect x="100.0" y="106" width="298.2222222222222" height="18" class="bar-positive"/>
+  <text x="401.2222222222222" y="118.0" text-anchor="start" class="value">+2.4 %</text>
+  <text x="95" y="140.0" text-anchor="end" class="label">DAX</text>
+  <rect x="100.0" y="128" width="440.0" height="18" class="bar-positive"/>
+  <text x="543.0" y="140.0" text-anchor="start" class="value">+3.6 %</text>
+  <text x="95" y="162.0" text-anchor="end" class="label">CAC 40</text>
+  <rect x="100.0" y="150" width="344.66666666666663" height="18" class="bar-positive"/>
+  <text x="447.66666666666663" y="162.0" text-anchor="start" class="value">+2.8 %</text>
+  <text x="95" y="184.0" text-anchor="end" class="label">OMXS30</text>
+  <rect x="100.0" y="172" width="332.44444444444446" height="18" class="bar-positive"/>
+  <text x="435.44444444444446" y="184.0" text-anchor="start" class="value">+2.7 %</text>
+  <text x="95" y="206.0" text-anchor="end" class="label">OSEBX</text>
+  <rect x="100.0" y="194" width="347.1111111111111" height="18" class="bar-positive"/>
+  <text x="450.1111111111111" y="206.0" text-anchor="start" class="value">+2.8 %</text>
+  <text x="95" y="228.0" text-anchor="end" class="label">OMXC25</text>
+  <rect x="100.0" y="216" width="48.888888888888886" height="18" class="bar-positive"/>
+  <text x="151.88888888888889" y="228.0" text-anchor="start" class="value">+0.4 %</text>
+</svg>

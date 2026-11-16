@@ -377,44 +377,94 @@ python3 production/load_env.py aktier   # når .env.aktier oprettes
 
 **Porteføljen efter nr. 12:** 23 aktive + FISV = **24 aktive kandidater**.
 
-## Nr. 13 — kandidater / opfølgning
+## Nr. 13 — udgivet (2026-11-16)
 
-**(2026-11-10)** US oktober-CPI.
+**Tema:** Nvidia mister sin chef og 13 % — vi køber mursten i stedet: Saint-Gobain  
+**Editor-led:** Alle artikler skrevet af chefredaktionen uden byline. Ingen OpenRouter-kald (`.env.aktier` endnu ikke oprettet). `productionCostUSD: 0`.
 
-**(2026-11-11)** **Royal Unibrew Q3 — BINÆRT**.
+**INGEN INVALIDATIONER.** Alle 11 prisniveauer holdt (tættest: YAR NOK 406,40 vs 353,40 = +15,0 %; FISV $63,78 vs $54,50 = +17,0 %).
 
-**(2026-11-18)** Lowe's Q3.
+**ÉN NY KANDIDAT:**
+1. **SGO.PA** (Saint-Gobain, Euronext Paris) — €75,30 (lukke 13. nov, −0,8 % på dagen, +1,6 % uge), **SATELLITE**
+   - 52w top €91,30 (intradag) / €90,86 (højeste lukke 13. feb) → −17,5 %
+   - Trailing P/E 14,0, **forward P/E 11,5** (forward EPS €6,57), **P/B 1,45**, yield ~3,0 %, market cap ~€36,7 mia.
+   - Chart: lukkebund €64,76 (7. okt), højere lave €66,36 (21. okt), €66,64 (28. okt), breakout lukke €70,40 (2. nov), sidelæns €74,94–76,34 (9.–13. nov)
+   - Q3-salg 27. okt: €11,62 mia. vs konsensus €11,58 mia., like-for-like +2,5 % (under 3,6 % konsensus), priser +3,2 %, volumen let negativt; 2026 EBITDA-margin >15 % bekræftet
+   - **Vi bøjede betingelsen** (pullback over ~€70 kom aldrig — sidelæns i stedet). Siger det åbent. Kompensation: stram invalidation.
+   - **Overlap med Rockwool (ROCK-B.CO, nr. 4)** — byggematerialer/isolering, ROCK-B rapporterer 25. nov → SATELLITE
+   - **Invalidation:** lukke < **€70,00**
 
-**(2026-11-19)** Intuit Q3 (forventet).
+**TALLET: −12,7 % — Nvidia uden Jensen Huang (faldende kniv)**
+- NVDA faldt 12,7 % på ugen ($186,64 → $162,85), laveste lukke i 1-års filen
+- Torsdag 12. nov: CEO Jensen Huang trådte tilbage (udenomsægteskabelige affærer, spionmistanke); CFO Colette Kress midlertidig CEO
+- 52w top $243,37 (6. okt intradag) → −33,1 %; intradag-lav $148,80 (12. nov)
+- Trailing P/E 20,6, **forward P/E 10,3** (forward EPS $15,85 = 2× nuværende), P/B 17,2
+- **Hvorfor ingen køb:** ledelseskrisen åben, ingen successionsplan, mulig Kina/eksport-risiko, Q3-rapport 17. nov er binær, ingen bekræftet højere bund
+- **Følgeliste-betingelse:** rapport fordøjet + højere lukkelav > $162,85 + ledelsesklarhed
 
-**(2026-11-25)** **Rockwool Q3**.
+**ROYAL UNIBREW Q3 — BINÆRT BESTÅET:**
+- EBIT +5,5 % til DKK 820 mio., margin 18,9 % (+0,8 pp), EPS +10,6 % til DKK 12,5, FCF +37 % til DKK 706 mio.
+- Guide indsnævret til 6–8 % organisk EBIT-vækst (fra 6–10 %)
+- Aktie: DKK 449,00 (11. nov) → DKK 479,00 (13. nov) = **+5,5 % uge, +18,2 % vs vores DKK 405,40**
+- **Forbliver aktiv** — marginer og cash flow holder
+
+**Scorecard (lukkekurs 13. nov):**
+- Alle 35 kandidater (nr. 1–12): **+7,0 %**, **24 af 35 i plus**
+- Exited (11 navne): −3,6 % vs. publikation, 5 i plus
+- **24 aktive (start af ugen): +11,8 %** siden publikation, **19 af 24 i plus**
+- Uge: **+1,8 %**, **21 af 24 i plus** (SPY +2,6 %, EUNL +2,45 %)
+- **Vi lagged indekset** — rallyet var chips og energi, som vi ikke ejer (ACN −3,8 % var tungest)
+
+**Bedste:** WKL.AS +37,1 %, ACN +25,9 %, PHIA.AS +25,4 %, INTU +23,9 %, CAP.PA +23,8 %.  
+**Værste aktive:** YAR.OL −9,0 %, NOVO-B −5,8 %, ADBE −2,3 %, DTE.DE −1,9 %.  
+**Ugens bevægere:** RBREW +5,5 %, AD.AS +5,3 %, TMUS +4,9 %, SAN.PA +4,6 %, UPS +3,8 %, NOVO-B +3,3 %, CMCSA +3,2 %; ACN −3,8 %, CCL −1,2 %, BALD-B −0,7 %.
+
+**Porteføljen efter nr. 13:** 24 aktive + SGO.PA = **25 aktive kandidater**.
+
+**Koncentrationsadvarsler:** IT-services/software (ACN, CAP, WKL, ADBE, INTU); byggematerialer (ROCK-B + SGO).
+
+## Nr. 14 — kandidater / opfølgning
+
+**(2026-11-17)** **Nvidia Q3** (efter US-lukke) — på følgelisten.
+
+**(2026-11-18)** Lowe's Q3 (vores).
+
+**(2026-11-18)** Nvidia medarbejdermøde.
+
+**(2026-11-19)** Intuit Q3 (vores, efter US-lukke).
+
+**(2026-11-25)** **Rockwool Q3** (vores — relevant for SGO overlap).
+
+**(2026-11-25)** Prosus H1.
 
 **(2026-12-09)** Adobe Q4.
 
 **(2026-12-17)** ACN Q1 FY27.
 
-**(2026-12-18)** CCL Q4 (forventet, ubekræftet).
+**(2026-12-18)** CCL Q4 (estimat, ubekræftet).
 
-**TBD** Fiserv Q4 (dato ikke bekræftet).
+**TBD** Fiserv Q4, Saint-Gobain FY (datoer ikke bekræftet).
 
 **Følger (ikke feature endnu):**
-- **GOOGL** — følgeliste, betingelse: højere lav > $273,50 + FCF/capex-stabilisering. $284,78 (+1,8 % uge), holder.
-- **SGO.PA** (Saint-Gobain) — €74,10 (+9,2 % uge), højere lav siden 7. okt, RSI ~70. **Kandidat for nr. 13 på pullback over ~€70.**
-- DG.PA (Vinci) — €111,60, flad base fortsætter.
-- PRX.AS (Prosus) — €37,56 (−41 % fra top), bounced 10,7 % fra 22. okt lav. Ny på følgelisten. Tencent Q er næste test (dato ikke bekræftet).
-- COF (Capital One) — $201,87 (fwd P/E 8,5).
-- BOL.ST (Boliden) — SEK 503,40 (P/E 10,0).
+- **NVDA** — følgeliste, betingelse: rapport fordøjet + højere lukkelav > $162,85 + ledelsesklarhed. $162,85 (13. nov, ny lukkebund).
+- **DG.PA** (Vinci) — €115,50 (+3,5 % uge), trailing P/E 12,8, fwd 11,7, yield 4,4 %. Højere lave siden 1. okt €105,60. Næste i rækken, men SGO først.
+- **COF** (Capital One) — $195,08 (−3,4 % uge), fwd P/E 8,2, P/B 1,12. Tester ~$193 (lukkebund $193,60 12. nov). Brud afslutter basen.
+- **GOOGL** — $295,77 (+3,9 % uge), betingelse $273,50 holdt, fwd P/E 19,5 er ikke billigt.
+- **PRX.AS** (Prosus) — €35,69 (−5,0 % uge, −41,4 % fra top, P/E 7,9). **Rapporterer 25. nov.**
+- **BOL.ST** (Boliden) — SEK 500,40 (P/E 10,0).
 
 **Afviste:**
-- **FIS** — faldende kniv, ny 52w lav, CFO-exit, guide skåret. Se Tallet.
-- T/VZ — fravalgt til fordel for TMUS (bedre vækst, beat-and-raise).
-- CVS — $83,85 (−12,5 % den 4. nov), faldende, ingen højere lav.
-- CHTR — $118,07 (−6,2 % fredag), leverage veto.
-- Chips (MCHP, APTV, AKAM) — faldende knive, SMH −31 % fra top.
-- ORCL, NFLX — nær 52w lav, ingen bund.
-- NHY.OL — NOK 68,38 (ny lukkebund 65,32 den 3. nov), faldende kniv.
-- MAERSK-B — DKK 20.300 (−18,5 % på 4 dage), faldt med olie/fragt.
-- LULU/NKE/RI.PA/BKNG — ingen re-entry (magasinregel).
+- **STLA/STLAP.PA** (Stellantis) — rekordlave, fælde, ingen bund/katalysator.
+- **FIS** — stadig faldende kniv, ny lukkebund $28,31 (10. nov).
+- **TAP** (Molson Coors) — P/E 8,9, P/B 0,74, yield 4,7 % — billigt, men anden bryggeri (RBREW overlap).
+- **RNO.PA** (Renault) — fwd P/E 4,5, P/B 0,40 — auto-sektor falder.
+- **AMD/MU/AVGO** — chip-rebound, ikke værdiinvestering.
+- **CHTR** — +17,2 % uge, leverage-veto står.
+- **IT/CTSH** — IT-services koncentration.
+- **TRMD-A.CO** (Torm) — P/E 5,3, yield ~11,6 %, men kun −15 % fra top, tankercykel.
+- **LULU/NKE/RI.PA/BKNG** — ingen re-entry (magasinregel).
+
+**København:** OMXC25 kun +0,4 % uge og 1,3 % fra top — ingen ny kandidat denne uge.
 
 ## Log
 
@@ -431,3 +481,4 @@ python3 production/load_env.py aktier   # når .env.aktier oprettes
 - **2026-10-26:** Nr. 10 publiceret — *"Volvo Car −25 % på en uge: exitten holdt — og vi køber Balder til halv substans"*. Editor-led, ingen bylines, `productionCostUSD: 0`. **VOLVO CAR Q3**: driftstab SEK 5,6 mia., aktien −24,6 % på ugen. Vores nr. 7-exit (18. sep) undgik −43 % vs entry. **Single-close-reglen holdt** — beslutning: vi holder reglen uændret. **Én ny kandidat: BALD-B.ST** (Balder, SATELLITE, ~50 % af NAV, invalidation < SEK 43,50). Scorecard: 32 kandidater +1,4 % (17 i plus), 22 aktive +5,1 % siden pub, +2,2 % uge (18 af 22 i plus). **BKNG 1,1 % over niveau — Q3 3. nov er BINÆRT.** Ingen invalidationer. Porteføljen nu **23 aktive** (22 + Balder).
 - **2026-11-02:** Nr. 11 publiceret — *"Alphabets værste dag nogensinde — vi griber ikke kniven, men køber T-Mobile efter regnskabet"*. Editor-led, ingen bylines, `productionCostUSD: 0`. **BKNG exit**: $153,14 < $154,13 den 26. okt, −3,7 % vs. publikation, ud før Q3-rapport. **Alphabet −12,6 %** (værste dag siden 2004): ~$500 mia. tabt, trail P/E 14,6 vs. fwd 18,5, FCF −$9,1 mia. for 2. kvartal — nu på følgeliste med betingelse. **Én ny kandidat: TMUS** (T-Mobile US, SATELLITE, $156,44, fwd P/E 11,0, Q3 beat-and-raise, bekræftet bund $146,54, invalidation < $143,50). Scorecard: 33 kandidater +2,4 % (20 i plus), 22 aktive +7,3 % (16 i plus), uge +1,8 % (SPY −0,6 %). **DTE.DE overlap bevidst — TMUS er SATELLITE.** Porteføljen nu **23 aktive** (22 + TMUS).
 - **2026-11-09:** Nr. 12 publiceret — *"Tvillingerne: Fiserv +26 %, FIS −25 % — vi ventede på regnskabet, og det betalte sig"*. Editor-led, ingen bylines, `productionCostUSD: 0`. **Ingen invalidationer.** **Én ny kandidat: FISV** (Fiserv, SATELLITE, $62,88, fwd P/E 7,9, Q3 beat, guide holdt, besparelser fordoblet, invalidation < $54,50). **FIS afvist** (−25,5 % uge, guide cut, CFO-exit, ny 52w lav). **BKNG steg efter exit:** $153,14 → $160,67 (+4,9 %) — reglen kostede os gevinsten, vi holder den. **Midtermschok:** torsdag 5. nov S&P −4,4 %, Nasdaq −5,5 %, værste dag siden apr 2025. SMH −11 % uge. Scorecard: 34 kandidater +5,8 % (24 i plus), 23 aktive +10,4 % (18 i plus), uge +3,2 % (19 i plus) vs SPY −2,7 %. **IT-services/software + PYPL overlap — FISV er SATELLITE.** Porteføljen nu **24 aktive** (23 + FISV).
+- **2026-11-16:** Nr. 13 publiceret — *"Nvidia mister sin chef og 13 % — vi køber mursten i stedet: Saint-Gobain"*. Editor-led, ingen bylines, `productionCostUSD: 0`. **Ingen invalidationer.** **Én ny kandidat: SGO.PA** (Saint-Gobain, SATELLITE, €75,30, fwd P/E 11,5, P/B 1,45, bekræftet højere bund, invalidation < €70,00). **Vi bøjede betingelsen** (pullback over ~€70 kom aldrig), siger det åbent. **NVDA −12,7 %** CEO Jensen Huang trådte tilbage — på følgelisten, ikke køb (ledelseskrisen, Q3 rapport 17. nov binær). **RBREW Q3 bestod** (+5,5 % uge, margin/FCF holder). Scorecard: 35 kandidater +7,0 % (24 i plus), 24 aktive +11,8 % (19 i plus), uge +1,8 % (21 i plus) vs SPY +2,6 %. **Indekset slog os** (rally var chips/energi). **ROCK-B overlap — SGO er SATELLITE.** Porteføljen nu **25 aktive** (24 + SGO).

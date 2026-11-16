@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 598" width="600" height="598">
+  <style>
+    .title { font: bold 14px sans-serif; fill: #333; }
+    .label { font: 10px sans-serif; fill: #333; }
+    .value { font: 9px sans-serif; fill: #333; }
+    .bar-positive { fill: #40826D; }
+    .bar-negative { fill: #E53935; }
+    .zero-line { stroke: #333; stroke-width: 1; }
+  </style>
+  <rect width="600" height="598" fill="#FAFAFA"/>
+  <text x="300.0" y="20" text-anchor="middle" class="title">24 aktive − % siden publikation (lukke 13. nov)</text>
+  <line x1="185.9002169197397" y1="40" x2="185.9002169197397" y2="568" class="zero-line"/>
+  <text x="95" y="52.0" text-anchor="end" class="label">WKL.AS</text>
+  <rect x="185.9002169197397" y="40" width="354.0997830802603" height="18" class="bar-positive"/>
+  <text x="543.0" y="52.0" text-anchor="start" class="value">+37.1 %</text>
+  <text x="95" y="74.0" text-anchor="end" class="label">ACN</text>
+  <rect x="185.9002169197397" y="62" width="247.20173535791753" height="18" class="bar-positive"/>
+  <text x="436.10195227765723" y="74.0" text-anchor="start" class="value">+25.9 %</text>
+  <text x="95" y="96.0" text-anchor="end" class="label">PHIA.AS</text>
+  <rect x="185.9002169197397" y="84" width="242.42950108459866" height="18" class="bar-positive"/>
+  <text x="431.32971800433836" y="96.0" text-anchor="start" class="value">+25.4 %</text>
+  <text x="95" y="118.0" text-anchor="end" class="label">INTU</text>
+  <rect x="185.9002169197397" y="106" width="228.11279826464204" height="18" class="bar-positive"/>
+  <text x="417.01301518438174" y="118.0" text-anchor="start" class="value">+23.9 %</text>
+  <text x="95" y="140.0" text-anchor="end" class="label">CAP.PA</text>
+  <rect x="185.9002169197397" y="128" width="227.15835140997825" height="18" class="bar-positive"/>
+  <text x="416.05856832971796" y="140.0" text-anchor="start" class="value">+23.8 %</text>
+  <text x="95" y="162.0" text-anchor="end" class="label">SAN.PA</text>
+  <rect x="185.9002169197397" y="150" width="174.6637744034707" height="18" class="bar-positive"/>
+  <text x="363.5639913232104" y="162.0" text-anchor="start" class="value">+18.3 %</text>
+  <text x="95" y="184.0" text-anchor="end" class="label">RBREW.CO</text>
+  <rect x="185.9002169197397" y="172" width="173.70932754880693" height="18" class="bar-positive"/>
+  <text x="362.60954446854663" y="184.0" text-anchor="start" class="value">+18.2 %</text>
+  <text x="95" y="206.0" text-anchor="end" class="label">AD.AS</text>
+  <rect x="185.9002169197397" y="194" width="170.84598698481557" height="18" class="bar-positive"/>
+  <text x="359.7462039045553" y="206.0" text-anchor="start" class="value">+17.9 %</text>
+  <text x="95" y="228.0" text-anchor="end" class="label">LOW</text>
+  <rect x="185.9002169197397" y="216" width="193.7527114967462" height="18" class="bar-positive"/>
+  <text x="382.6529284164859" y="228.0" text-anchor="start" class="value">+20.3 %</text>
+  <text x="95" y="250.0" text-anchor="end" class="label">PEP</text>
+  <rect x="185.9002169197397" y="238" width="125.03253796095441" height="18" class="bar-positive"/>
+  <text x="313.9327548806941" y="250.0" text-anchor="start" class="value">+13.1 %</text>
+  <text x="95" y="272.0" text-anchor="end" class="label">UPS</text>
+  <rect x="185.9002169197397" y="260" width="128.85032537960956" height="18" class="bar-positive"/>
+  <text x="317.75054229934926" y="272.0" text-anchor="start" class="value">+13.5 %</text>
+  <text x="95" y="294.0" text-anchor="end" class="label">ORK.OL</text>
+  <rect x="185.9002169197397" y="282" width="126.94143167028199" height="18" class="bar-positive"/>
+  <text x="315.8416485900217" y="294.0" text-anchor="start" class="value">+13.3 %</text>
+  <text x="95" y="316.0" text-anchor="end" class="label">ROCK-B.CO</text>
+  <rect x="185.9002169197397" y="304" width="106.89804772234271" height="18" class="bar-positive"/>
+  <text x="295.7982646420824" y="316.0" text-anchor="start" class="value">+11.2 %</text>
+  <text x="95" y="338.0" text-anchor="end" class="label">CCL</text>
+  <rect x="185.9002169197397" y="326" width="104.03470715835135" height="18" class="bar-positive"/>
+  <text x="292.93492407809106" y="338.0" text-anchor="start" class="value">+10.9 %</text>
+  <text x="95" y="360.0" text-anchor="end" class="label">PYPL</text>
+  <rect x="185.9002169197397" y="348" width="100.21691973969632" height="18" class="bar-positive"/>
+  <text x="289.117136659436" y="360.0" text-anchor="start" class="value">+10.5 %</text>
+  <text x="95" y="382.0" text-anchor="end" class="label">TMUS</text>
+  <rect x="185.9002169197397" y="370" width="82.08242950108462" height="18" class="bar-positive"/>
+  <text x="270.9826464208243" y="382.0" text-anchor="start" class="value">+8.6 %</text>
+  <text x="95" y="404.0" text-anchor="end" class="label">BALD-B.ST</text>
+  <rect x="185.9002169197397" y="392" width="68.72017353579173" height="18" class="bar-positive"/>
+  <text x="257.62039045553144" y="404.0" text-anchor="start" class="value">+7.2 %</text>
+  <text x="95" y="426.0" text-anchor="end" class="label">TEL.OL</text>
+  <rect x="185.9002169197397" y="414" width="25.770065075921877" height="18" class="bar-positive"/>
+  <text x="214.67028199566158" y="426.0" text-anchor="start" class="value">+2.7 %</text>
+  <text x="95" y="448.0" text-anchor="end" class="label">FISV</text>
+  <rect x="185.9002169197397" y="436" width="13.362255965292832" height="18" class="bar-positive"/>
+  <text x="202.26247288503254" y="448.0" text-anchor="start" class="value">+1.4 %</text>
+  <text x="95" y="470.0" text-anchor="end" class="label">CMCSA</text>
+  <rect x="183.99132321041216" y="458" width="1.9088937093275433" height="18" class="bar-negative"/>
+  <text x="180.99132321041216" y="470.0" text-anchor="end" class="value">-0.2 %</text>
+  <text x="95" y="492.0" text-anchor="end" class="label">DTE.DE</text>
+  <rect x="167.76572668112797" y="480" width="18.134490238611733" height="18" class="bar-negative"/>
+  <text x="164.76572668112797" y="492.0" text-anchor="end" class="value">-1.9 %</text>
+  <text x="95" y="514.0" text-anchor="end" class="label">ADBE</text>
+  <rect x="163.9479392624729" y="502" width="21.95227765726682" height="18" class="bar-negative"/>
+  <text x="160.9479392624729" y="514.0" text-anchor="end" class="value">-2.3 %</text>
+  <text x="95" y="536.0" text-anchor="end" class="label">NOVO-B.CO</text>
+  <rect x="130.54229934924078" y="524" width="55.35791757049893" height="18" class="bar-negative"/>
+  <text x="127.54229934924078" y="536.0" text-anchor="end" class="value">-5.8 %</text>
+  <text x="95" y="558.0" text-anchor="end" class="label">YAR.OL</text>
+  <rect x="100.0" y="546" width="85.9002169197397" height="18" class="bar-negative"/>
+  <text x="97.0" y="558.0" text-anchor="end" class="value">-9.0 %</text>
+</svg>
