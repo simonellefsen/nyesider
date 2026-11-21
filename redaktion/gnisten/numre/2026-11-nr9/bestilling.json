@@ -1,0 +1,210 @@
+{
+  "magazine": "gnisten",
+  "issue": "2026-11-nr9",
+  "issueTheme": "Når en AI vil huske dig på tværs af samtaler — hukommelse — og hvordan du tømmer den. Indfrier bagsideløftet fra nr. 8.",
+  "budget": {
+    "articles": 7,
+    "wordsPerArticle": [
+      400,
+      750
+    ],
+    "targetPages": 10,
+    "note": "Indfrier nr. 8's bagsideløfte om hukommelse. Syv artikler som nr. 8. Fem reelt kommissioneret. Værkstedet på Sonnet 5, ikke Gemini 3.1 Pro. Tre lag: det du kan åbne, samtalehistorikken, agentens egne noter. Tre bremser: midlertidig chat før første besked, slet linjen et andet sted end chatten, slet agenten når der ikke er en liste. Gemini Memory summary er ikke i EØS. Bagsideløfte nr. 10: træning, og hvordan du slår den fra."
+  },
+  "opgaver": [
+    {
+      "slug": "leder",
+      "order": 1,
+      "section": "Leder",
+      "brief": {
+        "angle": "Kort leder der indfrier nr. 8's bagsideløfte: når AI vil huske dig på tværs af samtaler, og hvordan du tømmer den. Tre lag — det du kan åbne, samtalehistorikken, agentens egne noter. Pointen er ikke at forbyde hukommelse, men at læseren uden kode kan se, hvilken knap der tømmer, og hvilken der kun pauser. Krydslink til nr. 8: Disconnect tømte ikke det, der allerede var læst. Produktionsprislinjen indsættes efter --sum som sidste sætning.",
+        "words": [
+          150,
+          250
+        ],
+        "mustCite": 0,
+        "format": "leder"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": null,
+        "costUSD": null,
+        "draft": null
+      }
+    },
+    {
+      "slug": "kortet",
+      "order": 2,
+      "section": "Kortet",
+      "brief": {
+        "angle": "To korte notitser til en læser uden kode. November 2026. Ikke et genoptryk af nr. 8's filer. Dette er hukommelse: det, AI'en gemmer på tværs af samtaler, og det, sletning af chatten ikke rører. Tre lag, ikke ét. (1) Det du kan åbne. ChatGPT: Settings → Personalization → Memory. Kontrollerne kan hedde Memory, Reference saved memories, Reference chat history, Memory summary, Manage eller Saved memories, og de varierer efter plan, land og platform. Brug PRÆCIS https://help.openai.com/en/articles/8590148-memory-in-chatgpt — «Memory features and controls can vary by plan, region, platform, and workspace settings.» Saved memories ligger adskilt fra chatten: «Deleting the original chat does not automatically delete a separate saved memory.» «Delete and turn off memory» sletter det, oversigten viser, og slår Memory fra. Den sletter ikke tidligere chats. Claude: hukommelse er som udgangspunkt slået til på Free, Pro, Max og Ultra. Alt, den husker, ligger under Topics. Brug https://support.claude.com/en/articles/11817273-use-claude-s-chat-search-and-memory-to-build-on-previous-context — «When a conversation is deleted, including under a retention period, memory entries generated from it aren’t removed, but you can delete individual memories while memory is on.» Sti: Settings → Your Claude (ældre layout: Settings → Memory) → Manage ved Your memory → Topics → Delete. (2) Samtalehistorikken ved siden af. ChatGPT: slår du Reference chat history fra, er det, den husker fra tidligere chats, planlagt slettet inden 30 dage. Selve chattene bliver. Det sletter ikke saved memories. Claude har en separat kontakt, Search and reference chats, på betalte planer. Gemini har to forskellige sider, og de må ikke blandes. Memory summary (Settings → Personal Intelligence → Memory summary) er «not available in the EEA, Nigeria, Switzerland, or the United Kingdom» — Danmark er i EØS, så den oversigt er lukket her. Brug https://support.google.com/gemini/answer/18617127. Siden om hukommelse fra tidligere chats, https://support.google.com/gemini/answer/16598469, nævner ikke EØS. Den kræver personlig Google-konto, 18 år og Keep Activity. For at slette noget, Gemini har husket, skal du slette alle chats med den oplysning i Gemini Apps Activity. Opdigt ikke, at danske læsere har Memory summary, og opdigt ikke, at de ikke har den anden hukommelse. (3) Agentens egne noter. Grok Bot har ingen hukommelsesskærm. Den beslutter selv, hvad den gemmer, og spørger ikke først. Brug https://docs.x.ai/grok-bot/bots — «There is no memory screen for a personal Bot.» «A Bot decides on its own when something is worth keeping. It doesn't ask first.» Reset af en samtale beholder hukommelsen. Delete a Bot sletter den bots hukommelse. Dots kan ikke vise eller slette enkelte egne minder. Brug https://help.openai.com/en/articles/20001529-dots-privacy-security-and-safety-faqs — «You currently cannot view, delete, or directly modify individual dot memories.» At slå Memory fra i ChatGPT stopper ny deling, men sletter ikke det, dotten allerede har fået. Og https://learn.chatgpt.com/docs/dots/tasks-and-memory — egne noter er «separate from ChatGPT's saved memory». Muse: Assistant-ikon → Identity → Memory, filen Memory.md. Brug https://www.meta.com/help/artificial-intelligence/2225571704857152/ — «After you've deleted something from Muse, Muse may still remember information that it learnt from what you deleted.» Meta har på de sider, vi citerer, ikke nævnt Danmark. Lancering 8. september 2026 var USA (https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/). Australien 17. november 2026 (https://about.fb.com/news/2026/11/muse-is-now-available-in-australia/). Opfind ikke en dansk dato. Officielt navn «dots». Forklar hukommelse, midlertidig chat og EØS i parentes første gang. Ingen kode, ingen MCP, ingen API-nøgler.",
+        "words": [
+          400,
+          600
+        ],
+        "mustCite": 3,
+        "mustNumber": [
+          "ChatGPT: sletning af chatten sletter ikke en separat saved memory; logs op til 30 dage",
+          "Claude: sletning af samtalen fjerner ikke memory-poster; Pause er ikke Reset",
+          "Gemini Memory summary er ikke tilgængelig i EØS"
+        ],
+        "format": "kortet"
+      },
+      "writer": {
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 611,
+        "costUSD": 0.0976,
+        "draft": "kladder/02-kortet.md",
+        "costRouting": "byok",
+        "generationId": "gen-1795246164-lw5iN1M9WZwYVQH9yLVu"
+      }
+    },
+    {
+      "slug": "fokus-hukommelse",
+      "order": 3,
+      "section": "Fokus",
+      "brief": {
+        "angle": "Fokus: tre lag af hukommelse, fire spørgsmål, ingen vinder. Læser uden kode. Ikke kåre et produkt. Fire spørgsmål gennem artiklen: hvad husker den, kan jeg se det, sletter sletning af chatten det, hvordan tømmer jeg det. Brug KUN disse verificerede påstande og URL'er. LAG 1, DET DU KAN ÅBNE. ChatGPT https://help.openai.com/en/articles/8590148-memory-in-chatgpt: Settings → Personalization → Memory. Oversigten er et overblik, ikke alt. «Delete and turn off memory» sletter det, oversigten viser, og slår Memory fra; den sletter ikke tidligere chats. «Don't mention this again» stopper fremtidige henvisninger, men sletter ikke kilden. Saved memories ligger for sig: «Deleting the original chat does not automatically delete a separate saved memory.» At slette en saved memory fjerner den fra fremtidig personalisering, men «does not remove mentions of that information from past conversations.» For at fjerne noget, der er gemt som memory: slet memory og chatten, hvor det blev sagt, plus memory summary, saved memories, almindelige og arkiverede chats, filer i Library eller Space, og afbryd den forbundne app. OpenAI kan beholde logs af slettede saved memories i op til 30 dage. Kontroller varierer efter plan, land og platform — skriv det, opfind ikke en menu, siden ikke nævner. Claude https://support.claude.com/en/articles/11817273-use-claude-s-chat-search-and-memory-to-build-on-previous-context: hukommelse er slået til som udgangspunkt på Free, Pro, Max og Ultra. Den gemmer emner løbende, ikke et sammendrag bagefter. Topics via Settings → Your Claude → Manage ved Your memory (ældre: Settings → Memory). Ret én topic, og rettelsen gælder fremover. Sletning af en samtale fjerner ikke de memory-poster, den har skabt. Følsomme emner (helbred, etnicitet, tro, politik, kønsidentitet) gemmes ikke som standard. Nogle oplysninger gemmes aldrig, heller ikke hvis du beder om det: offentlige id-numre, straffehistorik, kontonumre, immigrationsstatus. LAG 2, SAMTALEHISTORIKKEN. ChatGPT Reference chat history: slået fra, er information fra tidligere chats planlagt slettet inden 30 dage. Chattene bliver, medmindre du sletter dem. Det sletter ikke saved memories. At slå Reference saved memories fra slår også Reference chat history fra. Claude: Search and reference chats er en separat kontakt (betalte planer). Den kan slås fra under Settings → Your Claude. Incognito (spøgelsesikon) gemmes hverken i historik eller hukommelse: https://support.claude.com/en/articles/12260368-use-incognito-chats. En chat med Memory slået fra i +-menuen bliver i historikken og kan stadig findes fra andre chats. Gemini, to sider: Memory summary https://support.google.com/gemini/answer/18617127 er ikke tilgængelig i EØS, Nigeria, Schweiz eller Storbritannien. Danmark er i EØS. Krav, hvor den findes: personlig konto, 18 år, History til, Memory til. Sti: Settings → Personal Intelligence → Memory summary. Eksempel på fjernelse: «Remove my old phone number from your memory.» Hukommelse fra tidligere chats https://support.google.com/gemini/answer/16598469 nævner ikke EØS. Krav: 18 år, personlig konto, Keep Activity til. Ikke i Gems eller Live-chats. For at slette noget, Gemini husker: slet alle chats med oplysningen i Gemini Apps Activity. Der kan gå et øjeblik, før den holder op med at bruge en slettet chat. Fra en forbundet app skal du både slette chattene og afbryde appen. Opdigt ikke, at Memory fra slår det allerede lærte. LAG 3, AGENTENS EGNE NOTER. Grok Bot https://docs.x.ai/grok-bot/bots: ingen hukommelsesskærm. Spørg: «What do you remember about me?» Ret: sig den nye version. Fjern: «Forget that I'm on the launch team.» Den gemmer selv og spørger ikke først. Det, den gemmer i én chat, husker den i alle dine chats med den. Hver Bot har sin egen hukommelse; navn og tidszone deles af alle dine bots. Reset af samtalen beholder hukommelsen. Delete a Bot sletter den bots hukommelse, også delte fakta, den har gemt til de andre. Skjul i sidebaren sletter ikke. Dots https://help.openai.com/en/articles/20001529-dots-privacy-security-and-safety-faqs og https://learn.chatgpt.com/docs/dots/tasks-and-memory: dotten bruger samtalen, relevant ChatGPT-hukommelse og sine egne noter. Noterne er ikke en afskrift og er adskilt fra ChatGPT saved memory. At ændre en ChatGPT-indstilling ændrer ikke nødvendigvis noter, dotten allerede har lavet. At slå Memory fra i ChatGPT stopper ny deling og sletter ikke det, dotten allerede har fået. Du kan ikke se, slette eller rette enkelte dot-minder. At slette dotten starter sletning af dens egen kontekst. Filer, Codex-tråde og ChatGPT-samtaler, den har oprettet, ligger for sig og slettes ikke med den. Andre ChatGPT-minder bliver. Pause sletter ikke. At afbryde et plugin stopper ny adgang, ikke kontekst, den allerede har bygget. Samme dot i ChatGPT og Slack: skift nulstiller ikke noterne. Muse https://www.meta.com/help/artificial-intelligence/2225571704857152/: Memories via Assistant-ikon → Identity → Memory. Du kan rette Memory.md. Efter du har slettet noget, kan Muse stadig huske det, den lærte af det. Forget-færdigheden beder den lede og fjerne «to the best of its ability». Reset (Settings → Data controls → Reset Muse) sletter chat, filer og aktive opgaver og kan ikke fortrydes. Tilgængelighed: citér kun at lanceringen 8. september 2026 var i USA (https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/) og at Australien kom 17. november 2026 (https://about.fb.com/news/2026/11/muse-is-now-available-in-australia/). Skriv, at de sider ikke nævner Danmark. Opfind ikke en EØS-dato. Krydslink: nr. 8 viste, at Disconnect ikke tømmer det, der allerede er læst — /gnisten/2026-11-nr8/fokus-filer. Nr. 7's stopknap: /gnisten/2026-10-nr7/vaerkstedet-nej. Forklar hukommelse, EØS, midlertidig chat og connector i parentes første gang. Fodnoter som [^1]: [Navn: «titel»](url). Ingen kode.",
+        "words": [
+          550,
+          750
+        ],
+        "mustCite": 4,
+        "mustNumber": [
+          "tre lag: det du kan åbne, samtalehistorik, agentens egne noter",
+          "ChatGPT 30 dage for logs af slettede saved memories; Reference chat history 30 dage",
+          "Gemini Memory summary ikke i EØS",
+          "dots: enkelte minder kan ikke slettes; Grok Bot: reset beholder hukommelsen"
+        ],
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "GPT-5.6 Terra (OpenAI)",
+        "model": "openai/gpt-5.6",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 771,
+        "costUSD": 0.049757,
+        "draft": "kladder/03-fokus-hukommelse.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1795246259-o3lYTx2ITqs2vOpIBzUz"
+      }
+    },
+    {
+      "slug": "vaerkstedet-toem",
+      "order": 4,
+      "section": "Værkstedet",
+      "brief": {
+        "angle": "Praktisk trin-for-trin for en læser uden kode, der vil tømme hukommelsen — eller holde én samtale ude af den. Indfrier nr. 8's bagsideløfte. Tre bremser som handlinger. (A) Hold samtalen ude, FØR den første besked. ChatGPT: midlertidig chat. Før start vælger du Unpersonalized, hvis den ikke må bruge eksisterende minder. Du kan ikke ændre valget, efter samtalen er startet. Midlertidige chats opretter eller opdaterer ikke minder. Gemmer du chatten, bliver den almindelig. Kilde: https://help.openai.com/en/articles/8590148-memory-in-chatgpt. Claude: ny chat, +-menuen, slå Memory fra, send så den første besked. Det kan ikke ændres bagefter. Chatten bliver i historikken. Vil du have, at den heller ikke gemmes i historikken, så brug spøgelsesikonet (incognito). Kilder: https://support.claude.com/en/articles/11817273-use-claude-s-chat-search-and-memory-to-build-on-previous-context og https://support.claude.com/en/articles/12260368-use-incognito-chats. (B) Slet den gemte linje et andet sted end chatten. ChatGPT: Settings → Personalization → Memory. Slet i oversigten eller i saved memories. Slet også chatten, også arkiverede, hvis oplysningen står der. Sletning af chatten alene sletter ikke en separat saved memory. «Delete and turn off memory» sletter ikke selve chattene. Reference chat history fra sletter ikke saved memories. Claude: Settings → Your Claude → Manage → Topics → Delete på det enkelte emne. Pause beholder det, der ligger, og stopper brug og nye minder. Reset sletter alle minder, også projektets, og kan ikke fortrydes. Sletning af chatten fjerner ikke memory-posterne. Gemini i Danmark: Memory summary er ikke i EØS (https://support.google.com/gemini/answer/18617127). Skriv det. Den anden side (https://support.google.com/gemini/answer/16598469) siger: slet alle chats med oplysningen i Gemini Apps Activity. Keep Activity skal være til, for at hukommelsen fra chats virker. Opfind ikke en Memory summary-knap til en dansk konto. (C) For agenten er «glem det» ikke det samme som at slette den. Grok Bot (https://docs.x.ai/grok-bot/bots): der er ingen liste. Skriv «What do you remember about me?», ret det forkerte, og skriv «Forget that …». Reset af samtalen beholder hukommelsen. Vil du slette den bots hukommelse, så slet botten (højreklik → Delete). Det kan ikke fortrydes og sletter også samtaler, rutiner og vedhæftninger. Skjul i sidebaren er ikke sletning. Dots (https://help.openai.com/en/articles/20001529-dots-privacy-security-and-safety-faqs): du kan ikke slette ét minde. At slå ChatGPT Memory fra stopper kun ny deling. At slette dotten starter sletning af dens egen kontekst. Filer og ChatGPT-samtaler, den har lavet, bliver. Andre ChatGPT-minder bliver og styres i ChatGPT. Pause sletter ikke. Muse (https://www.meta.com/help/artificial-intelligence/2225571704857152/): bed den glemme et emne (forget, «to the best of its ability»), eller åbn Assistant → Identity → Memory og ret Memory.md. En slettet besked kan efterlade det, den lærte. Reset Muse under Settings → Data controls sletter det hele og kan ikke fortrydes. Nævn, at Meta ikke har nævnt Danmark på lanceringssiden (USA, 8. september 2026) eller Australien-siden (17. november 2026). Fælles: den første hukommelses-opgave er en test af bremsen. Spørg, hvad den husker, før du giver den noget nyt. Ingen kode, ingen MCP. Krydslink /gnisten/2026-11-nr8/vaerkstedet-mappe og /gnisten/2026-10-nr7/vaerkstedet-nej.",
+        "words": [
+          550,
+          750
+        ],
+        "mustCite": 3,
+        "mustNumber": [
+          "tre bremser: midlertidig chat før første besked, slet linjen for sig, slet agenten når der ikke er en liste",
+          "Claude: Memory fra før første besked; Reset kan ikke fortrydes",
+          "Grok Bot: reset beholder hukommelsen; Delete sletter den"
+        ],
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 723,
+        "costUSD": 0.053562,
+        "draft": "kladder/04-vaerkstedet-toem.md",
+        "costRouting": "byok",
+        "generationId": "gen-1795246275-w8BcrJ2WpHaeSOZ9q0Sq"
+      }
+    },
+    {
+      "slug": "maanedens-prompt",
+      "order": 5,
+      "section": "Månedens prompt",
+      "brief": {
+        "angle": "Månedens prompt: en kopiér-og-brug instruks, man giver EN chatbot, FØR man fortæller den noget, der ikke skal huskes. Vis selve promptteksten i en tydelig kodeblok. Prompten SKAL indeholde: (1) gem ikke noget fra denne samtale i din hukommelse, (2) nævn ikke mit navn, mit arbejde, mit helbred eller andre personer i noget, du gemmer, (3) hvis du ellers ville gemme en detalje, så skriv [TJEK] og vent, (4) foreslå ikke at importere hukommelse fra en anden assistent, (5) bed om at det første svar er tre linjer: hvad du allerede husker om mig, hvad du ikke vil gemme fra denne samtale, og hvad jeg selv skal slette i indstillingerne. Forklar bagefter, uden produktpåstande og uden tal: en slettet chat er ikke det samme som en tømt hukommelse, og «glem det» i chatten er ikke det samme som at slette linjen der, hvor den ligger. mustCite 0. Ingen priser, ingen procenter, ingen opdigtede menunavne, ingen kilder.",
+        "words": [
+          400,
+          600
+        ],
+        "mustCite": 0,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 572,
+        "costUSD": 0.024332,
+        "draft": "kladder/05-maanedens-prompt.md",
+        "costRouting": "byok",
+        "generationId": "gen-1795246327-ia4fPFK59xceM3Xd3nSI"
+      }
+    },
+    {
+      "slug": "regningen",
+      "order": 6,
+      "section": "Regningen",
+      "brief": {
+        "angle": "Regningen skrives af redaktionen efter kommissionering. Vis det reelle productionCostUSD og productionCostDKK, hvad den dyreste artikel kostede, og hold det op mod nr. 8 (0,1887 USD) og nr. 7 (0,1835 USD). Ingen opdigtet produktionshistorie. Nævn at Værkstedet igen er på Sonnet 5.",
+        "words": [
+          150,
+          250
+        ],
+        "mustCite": 0,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": null,
+        "costUSD": null,
+        "draft": null
+      }
+    },
+    {
+      "slug": "sladder",
+      "order": 7,
+      "section": "Sladder",
+      "brief": {
+        "angle": "Sladder, let tone, ingen fodnoter (mustCite 0). Pointen: den mest interessante knap denne måned er ikke den, der hedder husk. Det er den, der tømmer. Tre små finesser, holdt kvalitative, uden nye tal og uden menuer, briefen ikke har: at slette chatten tømmer ikke nødvendigvis hukommelsen; pause beholder det, der allerede ligger; og hos en always-on-agent kan du ikke altid åbne listen og slette én linje — så er den knap, der virker, at slette selve agenten, og den knap kan ikke fortrydes. Afslut med bagsideløftet, ordret i ånden: næste nummer kigger på, hvad der sker med samtalen, når du siger nej til at den må træne modellen — og hvor den knap sidder. Det løfte må ikke byttes ud med et andet. Ingen opdigtede procenter, ingen opdigtet produktionshistorie, ingen citater du ikke har fået.",
+        "words": [
+          400,
+          600
+        ],
+        "mustCite": 0,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "GPT-5.6 Terra (OpenAI)",
+        "model": "openai/gpt-5.6",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 451,
+        "costUSD": 0.023727,
+        "draft": "kladder/07-sladder.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1795246358-aXNkOi3uCJbI8C6VvtOi"
+      }
+    }
+  ]
+}

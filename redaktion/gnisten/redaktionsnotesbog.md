@@ -1,6 +1,6 @@
 # GNISTEN – Redaktionsnotesbog
 
-Redaktionel backlog og noter — opdateret efter nr. 8 (november 2026, "Filer og mappen lukket"). Modelerfaringer ligger i det fælles [modelkartotek](../modelkartotek.md).
+Redaktionel backlog og noter — opdateret efter nr. 9 (november 2026, "Hukommelse, og hvordan du tømmer den"). Modelerfaringer ligger i det fælles [modelkartotek](../modelkartotek.md).
 
 ## Identitet
 
@@ -242,11 +242,41 @@ siger.
   og cloud-computerens filsystem — og hvordan du holder mappen lukket.~~
   **Indfriet i nr. 8** (2026-11-07).
 
+## Nr. 9 — udgivet 2026-11-21
+
+**Tema:** Hukommelse — når AI vil huske dig på tværs af samtaler, og hvordan du tømmer den. Indfrier bagsideløftet fra nr. 8.
+**7 artikler, 3.300 ord.** Fem artikler reelt kommissioneret på
+`.env.gnisten`; leder og Regningen er redaktionens uden byline.
+Forbrug **0,249 USD · 1,69 kr.** (kurs 6,8013, 20. november 2026, DNVALD;
+21. november er lørdag). Værkstedet på Claude Sonnet 5, bevidst ikke Gemini 3.1 Pro.
+Tre lag: det du kan åbne, samtalehistorikken, agentens egne noter.
+Tre bremser: midlertidig chat før første besked, slet linjen et andet sted end chatten,
+slet agenten når der ikke er en liste.
+Gemini Memory summary er ikke i EØS (support.google.com/gemini/answer/18617127).
+Siden om hukommelse fra tidligere chats nævner ikke EØS — de to må ikke blandes.
+Muse: lancering USA 8. september 2026; Australien 17. november 2026.
+Ingen af de citerede sider nævner Danmark.
+`generate_map.py` sprunget over: `.venv` er i stykker.
+`bestilling.json`: `redaktion/gnisten/numre/2026-11-nr9/bestilling.json`.
+
+### Slet chat er ikke tøm hukommelse
+
+ChatGPT: saved memories ligger for sig, og logs af slettede saved memories kan blive i op til 30 dage.
+Claude: sletning af samtalen fjerner ikke memory-poster. Pause beholder dem. Reset sletter dem og kan ikke fortrydes.
+Grok Bot: reset af samtalen beholder hukommelsen. Delete sletter den bots hukommelse. Ingen hukommelsesskærm.
+Dots: enkelte egne minder kan ikke ses eller slettes. At slå ChatGPT Memory fra sletter ikke det, dotten allerede har fået.
+Muse: en slettet besked kan efterlade det, den lærte. Forget er «to the best of its ability».
+
 ## Løfter givet i nr. 8
 
-- **Bagsiden:** når AI vil huske dig på tværs af samtaler — hukommelse — og hvordan du tømmer den.
+- ~~**Bagsiden:** når AI vil huske dig på tværs af samtaler — hukommelse — og hvordan du tømmer den.~~
+  **Indfriet i nr. 9** (2026-11-21).
 
-## Historier i støbeskeen til nr. 9+
+## Løfter givet i nr. 9
+
+- **Bagsiden:** hvad der sker med samtalen, når du siger nej til at den må træne modellen — og hvor knappen sidder.
+
+## Historier i støbeskeen til nr. 10+
 
 - ~~Sikkerhed for MCP~~ → **brugt i nr. 4** (2026-08-29).
 - ~~Agent niveau 2~~ → **brugt i nr. 4** (2026-08-29).
@@ -255,7 +285,8 @@ siger.
 - ~~Indbakke-oprydning uden send/slet/løfte~~ → **brugt i nr. 6** (2026-10-03).
 - ~~Hvordan man siger nej~~ → **brugt i nr. 7** (2026-10-18).
 - ~~Filer — mapper, vedhæftninger, cloud-computerens filsystem~~ → **brugt i nr. 8** (2026-11-07).
-- **Hukommelse — når AI vil huske dig, og hvordan du tømmer den** — nr. 9's bagsideløfte.
+- ~~Hukommelse — når AI vil huske dig, og hvordan du tømmer den~~ → **brugt i nr. 9** (2026-11-21).
+- **Træning — sig nej til at samtalen må træne modellen, og find knappen** — nr. 10's bagsideløfte.
 - **(2026-08) Læserindsendte prompts** — saml, hvis der kommer svar.
 
 ## Praktisk
@@ -264,6 +295,11 @@ siger.
 - OpenRouter: **kun** `.env.gnisten`. Imagine: `.env.local`.
 
 ## Log
+
+- **2026-11-21:** Nr. 9 udgivet — 'Hukommelse, og hvordan du tømmer den',
+  indfrier nr. 8's løfte. Fem reelle kald, 0,249 USD · 1,69 kr.
+  Værkstedet på Sonnet 5. Gemini Memory summary lukket i EØS.
+  Bagsideløfte nr. 10: træning, og hvor knappen sidder.
 
 - **2026-11-07:** Nr. 8 udgivet — 'Filer og mappen lukket', indfrier nr. 6/7's
   fil-løfte. Fem reelle kald, 0,1887 USD · 1,26 kr. Værkstedet på Sonnet 5.
