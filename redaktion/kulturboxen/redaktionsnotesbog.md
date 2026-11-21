@@ -1,6 +1,6 @@
 # KULTURBOXEN – Redaktionsnotesbog
 
-Opdateret efter nr. 6 (2026-10-03, *"Portugal — landet bag postkortet"*).
+Opdateret efter nr. 9 (2026-11-21, *"Ungarn — hverdagen bag badene"*).
 OpenRouter: **kun** `.env.kulturboxen`. Imagine: `.env.local` / `XAI_API_KEY`.
 
 ## Identitet
@@ -318,6 +318,25 @@ Ottek artikler. Leder editor-led uden byline. Syv stykker kommissioneret på `.e
 `bestilling.json`: `redaktion/kulturboxen/numre/2026-11-nr8/bestilling.json`.  
 `check_issue.py`: 0 fejl, 0 advarsler. Forbrug 0,143 USD · 0,96 kr. (kurs 6,6952, DNVALD 2026-11-06).
 
+## Nr. 9 — udgivet 2026-11-21
+
+**Tema:** Ungarn — hverdag, arbejde, bolig, mad, penge, normer.
+Søster: HORISONTEN nr. 9, Budapest-weekend. Ingen interne links. Søsterens `issue.json` lå ikke på disk.
+
+Otte artikler. Leder editor-led uden byline. Syv stykker kommissioneret på `.env.kulturboxen`. Imagine via `.env.local`. Kort udeladt (`.venv` stadig brudt).
+
+**Kernetal (2025, Eurostat, medmindre andet er angivet):**
+- Udflytning: 27,3 år. EU 26,3. Danmark 21,8. `yth_demo_030`.
+- 18–34 hos forældre: 55,2 % / EU 49,8 % / DK 18,4 %. `ilc_lvps08`.
+- Beskæftigelse 20–64: 81,1 % / EU 76,1 % / DK 79,8 %. Faktisk uge: 37,4 / 35,9 / 33,9 timer.
+- Ejer 89,8 %, heraf 74,7 % uden lån, 10,2 % lejere. DK: 58,4 % ejer, 12,8 % uden lån, 41,6 % lejer. `ilc_lvho02`.
+- Moms 27 % siden 1. januar 2012. Azonnali fizetés fra 2. marts 2020, fem sekunder, loft 20 mio. forint (MNB).
+
+**Kladdefælde:** til-horisonten opfandt lejeniveauer og lønninger. Omskrevet uden tal, der ikke stod i briefen. Ingen kontantandel — den var ikke belagt.
+
+`bestilling.json`: `redaktion/kulturboxen/numre/2026-11-nr9/bestilling.json`.
+Forbrug 0,1702 USD · 1,16 kr. Kurs 6,8013 (100 USD = 680,13 kr. i Nationalbankens XML 2026-11-20).
+
 ## Format
 
 - **Artikeltal:** typisk **12–16**.  
@@ -325,6 +344,7 @@ Ottek artikler. Leder editor-led uden byline. Syv stykker kommissioneret på `.e
 
 ## Log
 
+- **2026-11-21:** Nr. 9 udgivet — Ungarn. Ingen krydslink til HORISONTEN. Til-horisonten-kladde med opdigtede huslejer kasseret.
 - **2026-10-03:** Nr. 6 udgivet — Portugal, synket med planlagte HORISONTEN nr. 6
   (Lissabon-weekend, endnu ikke på disk — derfor ingen krydslinks). To
   kildefælder fanget (byte-identiske INE-PDF'er, anakronistisk geração

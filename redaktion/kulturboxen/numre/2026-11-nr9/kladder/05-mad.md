@@ -1,0 +1,15 @@
+# Frokosten som hverdagens anker: Den ungarske menza-kultur
+
+Når vi i Danmark tænker på ungarsk mad, falder tankerne hurtigt på rygende varm gulasch serveret på en rustik restaurant. Men bevæger man sig væk fra turiststrøgene og ind i den ungarske hverdag, tegner der sig et helt andet billede. Her er madkulturen ikke defineret af aftenhygge på restaurant, men af en fasttømret struktur, hvor dagens absolutte hovedmåltid indtages midt på dagen.
+
+Hovedmåltidet kaldes *ebéd* (frokost). Hvor en typisk dansk hverdagsrytme kører på en kold madpakke til frokost og et varmt måltid til aften, er det i Ungarn omvendt. Frokosten er det varme, samlende punkt, mens aftensmaden, *vacsora*, ofte blot består af et let, koldt måltid med brød, pålæg og friske grøntsager som peberfrugt og tomat.
+
+Selve hverdagsfrokosten har en fast struktur, der sjældent fraviges. Den indledes næsten altid med en suppe (*leves*). Suppen er ikke en valgfri forret, men en obligatorisk grundpille i måltidet, der spænder fra klare bouilloner til syrlige frugtsupper om sommeren. Herefter følger hovedretten, hvor klassikeren *főzelék* spiller en central rolle. *Főzelék* er en særlig ungarsk spise, som bedst kan beskrives som en tæt, cremet grøntsagsmos eller stuvning, jævnet med syrnet fløde (*tejföl*) eller en meljævning, og ofte serveret med et stykke kød, en pølse eller et spejlæg på toppen. Det er nærende hverdagsmad, som sjældent præsenteres på gourmetrestauranter, men som udgør fundamentet i hjemmene.
+
+Denne madstruktur holdes i hævd gennem en af Ungarns mest udbredte kulturinstitutioner: *menzaen*. En *menza* er en kantine, der findes på skoler, universiteter og arbejdspladser over hele landet. Systemet sikrer, at både børn, studerende og arbejdere får et varmt, nærende måltid midt på dagen. Dette kantinesystem har overlevet skiftende politiske systemer og er fortsat en afgørende ramme om det sociale liv i hverdagen. Det er her, de kulinariske normer og præferencer videregives fra generation til generation.
+
+Ifølge forskning fra det ungarske etnologiske institut, *Bölcsészettudományi Kutatóközpont Néprajztudományi Intézet* (BTK NTI), har denne faste måltidsstruktur med suppe og en varm hovedret midt på dagen dybe rødder i historiske arbejdsrytmer, som senere blev institutionaliseret i industrisamfundets kantiner [1]. For at forstå den ungarske hverdag skal man derfor ikke kigge efter turisthæfternes anbefalinger, men derimod kaste et blik på de dybe tallerkener i den lokale *menza*.
+
+---
+
+[1] Kisbán, Eszter: "A népi táplálkozás" (Den folkelige ernæring) i bogværket *Magyar Néprajz* (Ungarsk Etnografi). Udgivet under medvirken af Bölcsészettudományi Kutatóközpont Néprajztudományi Intézet (BTK NTI). Information om instituttets forskning i ungarske måltidsvaner kan tilgås via: https://nti.abtk.hu
