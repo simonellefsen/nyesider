@@ -1,0 +1,21 @@
+# Fabrikken: Fem millioner arme, der ikke går nogen steder
+
+Opgaven, den handler om, er ikke særlig glamourøs. Den hedder svejsning, materialehåndtering og montage — de samme tre opgaver, som industrirobotter har løst i årtier, i den samme type celle, dag efter dag, skiftehold efter skiftehold. Kroppen, som denne opgave kræver, går ikke rundt blandt mennesker og smiler ikke til et kamera. Den er typisk en arm på en sokkel, fastspændt ved en samlebåndsstation, programmeret til at gentage en bevægelse med millimeterpræcision, tusindvis af gange. Det er den krop, som International Federation of Robotics (IFR) — brancheorganisationen for robotindustrien, med base i Frankfurt — faktisk tæller, når den udgiver sin årlige rapport World Robotics.
+
+Den 24.\u00a0september 2026 offentliggjorde IFR tallene for 2025, og de er usædvanligt runde: Den globale driftsbestand af industrirobotter — altså de arme, der rent faktisk står installeret hos en kunde og arbejder, ikke dem der er bestilt eller under opsætning — steg 9\u00a0% til en rekord på 5 millioner enheder[^1]. Det er et afrundet pressetal fra IFR selv, ikke en national regnskabsopgørelse, men det er den eneste globale optælling af sin art, og den har en lang historik at sammenligne med.
+
+Tilvæksten i 2025 kom fra installationerne: fabrikker verden over satte mere end 600.000 nye robotter i drift sidste år, en stigning på 11\u00a0% i forhold til året før. Her er det værd at holde de to tal adskilt. Driftsbestanden er en status — alt det, der stadig kører. Installationstallet er en strøm — det, der kom til i løbet af året. En arm, der blev skrottet eller skiftet ud, tæller ikke med i installationstallet, men påvirker bestanden. At begge tal vokser samtidig, fortæller, at robotterne ikke bare erstatter hinanden — flåden bliver faktisk større.
+
+Jane Heffner, præsident for IFR, sætter tallet i perspektiv i pressemeddelelsen: de fem millioner er mere end dobbelt så mange som for syv år siden, og den stærkeste vækst findes i Asien, dernæst i Amerika, mens Europa bevæger sig langsommere[^1]. Det er en gengivelse af den formulering, IFR selv har valgt at offentliggøre — ikke en uafhængig analyse af, hvorfor regionerne bevæger sig forskelligt. Pressemeddelelsen navngiver ikke brancher eller lande med præcise fordelingstal, og den skelner heller ikke mellem traditionelle arme og de lettere, menneske-nære "cobots" (collaborative robots, samarbejdende robotter) — den slags detaljer hører hjemme i selve World Robotics-rapporten, ikke i pressemeddelelsen, og bør derfor ikke gættes her.
+
+Det tredje tal i meddelelsen er ikke en optælling, men en prognose, og det er en vigtig forskel at holde fast i: IFR venter, at installationerne stiger yderligere 9\u00a0% til 655.000 enheder i 2026, og at tallet når 806.000 i 2029[^1]. En prognose er et skøn baseret på ordrebøger, investeringsplaner og historiske mønstre — den er ikke en facitliste, og den bliver ikke til "drift", før en fabrik rent faktisk har sat armen op, kørt den ind og holdt den kørende gennem et helt skiftehold uden at stoppe produktionen for at rette fejl.
+
+Det er netop den distinktion, som HumaNerd insisterer på, når overskrifter om "robotrevolutionen" cirkulerer: fem millioner enheder i drift er et solidt, dokumenteret tal fra en etableret kilde. 806.000 nye installationer i 2029 er en forventning, formuleret af den samme kilde, men stadig en forventning. Begge dele er værd at kende. Kun den ene er allerede sket.
+
+For læsere, der vil gå dybere end pressemeddelelsen, udgiver IFR selve World Robotics-rapporten med regional og sektorvis opdeling, som kræver køb eller adgang via organisationens medlemmer og partnere[^2]. Det er her, de tal findes, som pressemeddelelsen bevidst undlader at nævne.
+
+---
+
+[^1]: International Federation of Robotics (IFR), pressemeddelelse, "Five million robots now operate in factories globally", 24.\u00a0september 2026: https://ifr.org/ifr-press-releases/news/five-million-robots-now-operate-in-factories-globally
+
+[^2]: International Federation of Robotics (IFR), rapportserien *World Robotics* (industrial robots-udgaven), udgivet af IFR, Frankfurt: https://ifr.org

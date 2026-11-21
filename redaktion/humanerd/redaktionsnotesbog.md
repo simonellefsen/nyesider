@@ -313,7 +313,7 @@ levetidstallet var det rigtige. Reglen er stadig: afstem mod begge, og forklar f
 - ~~Håndens problem~~ → **brugt i nr. 6** (2026-10-03).
 - ~~Tre humanoider, tre beviser~~ → **brugt i nr. 3** (2026-08-19).
 - ~~Dronen som robot~~ → **brugt i nr. 5** (2026-09-12).
-- **(2026-08) Robotter i krig** — militære anvendelser, dual use, menneskelig kontrol, fejlrisiko og dokumentation. Må ikke behandles som gadgetstof eller produktpromovering; brug primærkilder, folkeretlige rammer og uafhængig rapportering.
+- ~~Robotter i krig~~ → **brugt i nr. 8** (2026-11-08).
 - **(2026-08) Boston Dynamics efter videoen** — fra mobilitet til konkret arbejdscelle, med den samme pilot→drift-målestok som nr. 1.
 - **(2026-08) Humanoiden på scenen** — robotter i koncert, teater, forlystelse, tv og brandaktivering. Skeln mellem autonom robot, teleoperation, forudprogrammeret koreografi og visuel illusion.
 
@@ -325,6 +325,9 @@ levetidstallet var det rigtige. Reglen er stadig: afstem mod begge, og forklar f
 - Vi navngiver drift, når den findes — og siger fra, når det kun er en demo.
 
 ## Log
+
+- **2026-11-21:** Nr. 9 udgivet — «IFR World Robotics 2026», bagsideløftet fra nr. 8. Fem bestilte artikler + editor-ledet leder uden byline. 0,167 USD · 1,1358 DKK (vises som 1,14 kr.). Kurs: Nationalbankens reference, 20. november 2026 (lørdag den 21. har ingen kurs), 680,13 DKK pr. 100 USD = 6,8013. Samme serie som nr. 8: 6. november i feedet er 669,52 pr. 100 = 6,6952. `generate_map.py` sprunget over (.venv i stykker), noteret i `images/SOURCES.md`. Lås, alle IFR: pressemeddelelse 24.9.2026 (5 millioner bestand +9 %, mere end 600.000 installationer +11 %, Kina 354.000 / +20 % / 59 %, hjemlige producenter 195.000 / 55 % mod 57 % i 2024, Japan 36.219 / −19 %, Korea 30.000 / −1 %, Indien næsten 10.500 / +15 % / CAGR 27 % 2020–2025, USA næsten 38.500 / +12 %, Mexico under 5.200 / −7 %, Canada næsten 4.000 / +5 %, Brasilien næsten 4.300 / +38 %, bil næsten 2.100 / +212 % som IFR's vurdering, Tyskland under 25.000 / −8 % / 41 % af EU, Italien omkring 7.800 / −11 %, Frankrig næsten 4.500 / −8 %, Spanien omkring 4.300 / −15 %, prognose 655.000 i 2026 og 806.000 i 2029). Præsidentrapport samme dag: 603.000 (+11 %), bestand 5,079 millioner (+9 %), elektronik og bil hver +10 %, metal og maskiner +22 %, cobots 66.000 / 11 % / +7 % (første år under markedet), professionelle servicerobotter 250.000 i IFR's sample (+24 %). Servicemeddelelse 30.9.2026: næsten 250.000, transport 117.500 / +21 % / 47 %, forbrugerrobotter næsten 34,2 millioner / +37 %, kirurgirobotter 8.400 / +57 %, medicinske robotter +19 %, humanoide over 140 cm omkring 7.000 og ofte teleoperation. Tæthed 12.11.2026: globalt 152, Sydkorea 1.066, Singapore 873, Tyskland 469, Japan 452 (nr. 4), USA 323 (nr. 8), Canada 242, Mexico 64, EU-27 240, Nordamerika 214, Asien 144, Kina 193 (nr. 19, +147 % 2020–2025, nævner fra den nationale økonomiske folketælling). Danmark nævnt i EU's top-10 uden tal — ikke opdigtet. Afrundede pressetal og præsidentrapportens cifre er holdt adskilt. check_issue 0/0, check_links 0 dead. Intet commit/push.
+  `content/humanerd/issues/2026-11-nr9/` · `redaktion/humanerd/numre/2026-11-nr9/`.
 
 - **2026-11-08:** Nr. 8 udgivet — "Robotter i krig". Fem bestilte artikler + editor-ledet
   leder uden byline. Magasinagenten ramte OpenCode-kvoten; Redaktionen producerede på

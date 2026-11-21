@@ -1,0 +1,21 @@
+# Påstandskontoret: «Fem millioner robotter arbejder nu blandt os»
+
+Overskriften, International Federation of Robotics (IFR) selv satte på pressemeddelelsen den 24. september 2026, lyder: fem millioner robotter arbejder nu i fabrikker, globalt. Når ordet fabrikker falder ud, bliver sætningen en anden påstand: at robotterne arbejder blandt os. Påstandskontoret læser den sætning op mod de tre meddelelser, der faktisk udkom.
+
+Det, IFR tæller i den første meddelelse, er driftsbestanden af industrirobotter. Den steg 9 % og nåede 5 millioner enheder i 2025. Årets installationer steg 11 %, og fabrikkerne installerede mere end 600.000 nye enheder. Jane Heffner, præsident for IFR, siger, at de fem millioner er mere end dobbelt så mange som for syv år siden.[^1] Præsidentrapporten samme dag skriver tallene med flere cifre: 603.000 installationer, en stigning på 11 %, og en driftsbestand på 5,079 millioner, en stigning på 9 %.[^2] De afrundede fem millioner og de 5,079 millioner er samme opgørelse. De er ikke to bestande, man kan lægge sammen.
+
+En driftsbestand er de robotter, statistikken stadig har stående som i drift, også årgange der er flere år gamle. En installation er årets tilgang. Begge dele i disse to tekster er industrirobotter: den slags, der svejser, håndterer og samler i produktionen. Heffner placerer den stærkeste vækst i Asien, derefter i Amerika, med Europa i et langsommere tempo. Ingen af formuleringerne siger, at robotterne deler fortov med mennesker.
+
+Den tredje meddelelse, 30. september 2026, er servicerobotter. Her står det tal, som den løse sætning om «blandt os» ofte bliver forvekslet med. Omkring 7.000 humanoide over 140 cm blev solgt globalt i 2025, til kommerciel og professionel brug ud over forskning og underholdning. IFR skriver, at de fleste aktuelle anvendelser er specialiserede og ofte kræver menneskelig teleoperation (fjernstyring). Sikkerhedsstandarder, høje omkostninger til træning og vedligehold og en svag forretningsmodel, særligt i industrien, begrænser udbredelsen.[^3] 7.000 solgte er en anden størrelsesorden end 603.000 installerede industrirobotter og en anden ting end en driftsbestand på 5,079 millioner. Et salg er heller ikke i sig selv et dokumenteret skift uden fjernstyring.
+
+Samme meddelelse har et tal, der er større end de fem millioner, og som alligevel ikke redder påstanden. Forbrugerrobotter steg 37 % til næsten 34,2 millioner enheder. IFR skriver, at de primært er husholdningsrobotter til massemarkedet. En husholdningsrobot i et hjem er et produkt i en stue. Den er ikke en kollega i den forstand, overskriften om fabrikker blev læst som.
+
+Der er også en fjerde kategori, og den er hverken bestand eller salg. I meddelelsen af 24. september venter IFR 655.000 installationer i 2026, en stigning på 9 %, og 806.000 i 2029. Det er en prognose. Den beskriver robotter, statistikken endnu ikke har talt, fordi året ikke er gået.
+
+Reglen er derfor fire ord, der ikke kan byttes om. Installation er årets tilgang. Driftsbestand er det, der står opført som i brug. Stikprøvesalg er det, IFR's servicetælling indsamler, herunder de omkring 7.000 humanoide. Prognose er en forventning. «Fem millioner robotter blandt os» blander den første bestand med en krop, tællingen ikke har. Fabrikkerne har de fem millioner. De humanoide, IFR kunne tælle som solgt i fuld størrelse, er omkring 7.000, og organisationen siger selv, at mange af dem stadig køres på afstand.
+
+[^1]: International Federation of Robotics, pressemeddelelse, «Five Million Robots now Operate in Factories Globally», Frankfurt, 24. september 2026. Driftsbestand, installationer, Heffners fordobling og prognosen: https://ifr.org/ifr-press-releases/news/five-million-robots-now-operate-in-factories-globally
+
+[^2]: Jane Heffner, «President's Report by Jane Heffner», International Federation of Robotics, 24. september 2026. 603.000 installationer og 5,079 millioner i drift: https://ifr.org/ifr-press-releases/news/presidents-report-by-jane-heffner-3-2026
+
+[^3]: International Federation of Robotics, pressemeddelelse, «Global Sales of Professional Service Robots Surge 24%», Frankfurt, 30. september 2026. Humanoide over 140 cm og forbrugerrobotter: https://ifr.org/ifr-press-releases/news/global-sales-of-professional-service-robots-surge-24-percent
