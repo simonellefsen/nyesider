@@ -307,6 +307,19 @@ Ingen opdigtede launch-datoer. Skeln planlagt/scrub/success/failure. Primære ki
 
 ## Log
 
+- **2026-11-21:** Nr. 9 udgivet — 'Hvem sælger oversigten: det kommercielle SSA-marked'.
+  Indfrier nr. 8's bagsideløfte. 6 artikler, editor-led leder uden byline.
+  0,1469 USD · 1,00 kr. DNVALD 6,8013 den 20. november 2026 (lørdag den 21. har ingen ny kurs;
+  Nationalbankens JSON: 680,13 DKK pr. 100 USD). GCAT `launchlog.tsv` opdateret 2026 Nov 19,
+  seneste dato i filen 15. nov.: 266 unikke orbitale opsendelser i 2026 (Launch_Tag, Launch_Code
+  med præfiks O). Samme dato 2025 = 270. Helår 2025 = 324, 2024 = 255. Falcon 9 = 120,
+  Chang Zheng-familien = 54, Electron = 18, Ariane 6 = 4 i 2026 (9 siden juli 2024).
+  Nov 6-tallet fra nr. 8 (254) er ikke genbrugt: filen er revideret siden. Ingen globalt
+  SSA-marked i milliarder — nr. 4's 2,32 mia. USD er ikke gentaget. Kort sprunget over
+  (`.venv` i stykker), noteret i images/SOURCES.md. NCIA-linket svarede 403 i linkcheck;
+  NATO-kilden er nato.int. Bagside nr. 10: Starmind, når AI1 står i GCAT. Ingen række pr. 19. nov.
+  `content/orbit/issues/2026-11-nr9/` · `redaktion/orbit/numre/2026-11-nr9/`.
+
 - **2026-11-08:** Nr. 8 udgivet — 'IRIS²: Europas svar på Starlink — fra koncession til fabrikken'.
   6 artikler, editor-led leder uden byline, 0,1649 USD · 1,10 kr (DNVALD 6,6952 / 2026-11-06).
   Magasinagenten nåede OpenCode-kvoten; Redaktionen producerede på `.env.orbit`.
