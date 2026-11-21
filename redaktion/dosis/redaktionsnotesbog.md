@@ -312,6 +312,19 @@ er redaktionens uden byline. Forbrug **0,1558 USD · 1,04 kr.** (DNVALD 6,6952, 
 `bestilling.json`: `redaktion/dosis/numre/2026-11-nr8/bestilling.json`.
 Bagside: nr. 9 om hjemmetests og blodprøver.
 
+## Nr. 9 — udgivet 2026-11-21 (status: published)
+
+**Tema:** Hjemmetests og blodprøver — hvornår er tallet dit? Indfrier nr. 8's bagsideløfte. Ikke sygehuspolitik. **6 artikler, ca. 2.370 ord.** Fem kommissioneret på `.env.dosis`; lederen er redaktionens uden byline. Forbrug **0,156 USD · 1,06 kr.** (DNVALD 6,8013, 2026-11-20, fredag før udgivelseslørdagen). Kurs slået op hos evaluta.dk (Nationalbankens tabel 20.11.2026: 1 USD = 6,8013) og krydset med en afledt ECB-kurs samme dag. `check_issue.py` 0 fejl.
+`bestilling.json`: `redaktion/dosis/numre/2026-11-nr9/bestilling.json`.
+Bagside: nr. 10 om genetiske forbrugertests.
+
+### Fangster
+
+- **Ejerskab-kladden** påstod, at prøvemateriale destrueres «relativt kort tid» efter måling, og kaldte markedet ureguleret. Begge dele fjernet. IVDR er rammen; opbevaring står i den konkrete aftale.
+- **Tallet** brugte forsiden af sst.dk som kilde til, at et tal ikke er en diagnose. Lånt autoritet fjernet. Rækken hviler på CLSI EP28.
+- **Ozarda 2016**, *Biochemia Medica*, DOI `10.11613/BM.2016.001` verificeret via CSL-JSON (titel og tidsskrift stemmer) før den blev sat ind som fjerde fodnote.
+- Kort sprunget over: `.venv` i stykker, `generate_map.py` ikke kørt. Noteret i `images/SOURCES.md`.
+
 ## Løfter givet i nr. 6
 
 

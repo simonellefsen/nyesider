@@ -1,0 +1,206 @@
+{
+  "magazine": "dosis",
+  "issue": "2026-11-nr9",
+  "issueTheme": "Hjemmetests og blodprøver — hvornår er tallet dit? Indfrir nr. 8's bagsideløfte. Ikke sygehuspolitik.",
+  "budget": {
+    "articles": 6,
+    "targetPages": 12,
+    "wordsPerArticle": [
+      300,
+      750
+    ],
+    "note": "Kompakt som nr. 8. Ingen dosisråd. Opdigt ikke markedsandele, priser eller app-politikker. Hver talpåstand skal kunne peges på en navngiven kilde."
+  },
+  "opgaver": [
+    {
+      "slug": "leder",
+      "order": 1,
+      "section": "Leder",
+      "brief": {
+        "angle": "Editor-led. Skrives af redaktionen.",
+        "format": "leder",
+        "mustCite": 0,
+        "words": [
+          150,
+          250
+        ]
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": null,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-11-21",
+        "citations": null,
+        "editorNote": "Editor-led, ingen byline."
+      }
+    },
+    {
+      "slug": "fingerprikken",
+      "order": 2,
+      "section": "Hjemmetests",
+      "brief": {
+        "angle": "Hvad en kapillær fingerprik (og en hjemmeblodprøve) reelt kan sige, og hvad den ikke kan. Skeln venøs prøve taget af en prøvetager fra kapillær prøve taget derhjemme: præanalytisk fejl (mængde, hæmolyse, tid, temperatur) er ofte større end den biologiske forskel, læseren tror, tallet viser. Nævn EU's forordning om in vitro-diagnostik (forordning (EU) 2017/746, IVDR) som rammen for CE-mærkning af testen — ikke som sygehuspolitik. Ingen dosisråd, ingen produktanbefaling, ingen opdigtede danske brugertal. Forkortelser udfoldes første gang. Fodnoter kun til værker eller institutioner, du er sikker på; gæt ikke DOI eller URL.",
+        "format": "feature",
+        "mustCite": 2,
+        "words": [
+          500,
+          750
+        ]
+      },
+      "writer": {
+        "byline": "GPT-5.6 Terra (OpenAI)",
+        "model": "openai/gpt-5.6-terra",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 754,
+        "costUSD": 0.023932,
+        "draft": "kladder/02-fingerprikken.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1795245935-hnFdgOZe5Iy0vrnkjubQ"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-11-21",
+        "citations": null,
+        "editorNote": "Overført fra kladde. WHO-phlebotomi og IVDR beholdt; ingen produktnavne."
+      }
+    },
+    {
+      "slug": "intervallet",
+      "order": 3,
+      "section": "Hjemmetests",
+      "brief": {
+        "angle": "Hvornår er tallet dit, og hvornår er det laboratoriets befolkning? Forklar referenceinterval som det centrale interval, typisk de midterste 95 procent af en referencegruppe — ikke et mål for det optimale, og ikke en diagnose. Skeln referenceinterval fra klinisk beslutningsgrænse og fra de 'optimale' intervaller, wellness-apps sætter uden at sige, hvilken population de kommer fra. Pointen: et tal inden for intervallet kan stadig være dit problem, og et tal udenfor kan være laboratoriets definition. Ingen dosisråd. Opdigt ikke procentandele af danskere uden for intervallet. Fodnoter kun til navngivne kilder, du er sikker på (fx CLSI EP28 eller en lærebog/myndighed). Gæt ikke DOI.",
+        "format": "feature",
+        "mustCite": 2,
+        "words": [
+          500,
+          750
+        ]
+      },
+      "writer": {
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 664,
+        "costUSD": 0.022282,
+        "draft": "kladder/03-intervallet.md",
+        "costRouting": "byok",
+        "generationId": "gen-1795245964-1OhdSwexHq1JecPFyBFN"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-11-21",
+        "citations": null,
+        "editorNote": "Overført. CLSI EP28 + Ozarda 2016 verificeret via DOI CSL-JSON. Vag IFCC-henvisning fjernet."
+      }
+    },
+    {
+      "slug": "ejerskabet",
+      "order": 4,
+      "section": "Hjemmetests",
+      "brief": {
+        "angle": "Hvem ejer svaret, når du selv har bestilt prøven? Skeln tre lag: den biologiske prøve, laboratorieresultatet og den fortolkning, en app eller et firma lægger ovenpå. GDPR (databeskyttelsesforordningen): sundhedsoplysninger er særlige kategorier (artikel 9); indsigt er artikel 15. Hold dig til lovtekstens rettigheder — opdigt ikke, hvor længe et navngivet dansk firma gemmer prøven, og opdigt ikke priser. Ikke sygehuspolitik og ikke en guide til det offentlige laboratoriesystem. Pointen: tallet er dit i den forstand, at det handler om din krop, men filen kan ligge hos databehandleren, og fortolkningen kan være firmaets produkt. Fodnoter til forordningen eller Datatilsynet, ikke gættede URL'er.",
+        "format": "feature",
+        "mustCite": 2,
+        "words": [
+          500,
+          750
+        ]
+      },
+      "writer": {
+        "byline": "Gemini 3.1 Pro Preview (Google)",
+        "model": "google/gemini-3.1-pro-preview",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 805,
+        "costUSD": 0.086054,
+        "draft": "kladder/04-ejerskabet.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1795245999-qiJhvVXZMX6BXTecVLYT"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-11-21",
+        "citations": null,
+        "editorNote": "Kladde forkortet og rettet: fjernet påstand om destruktion af prøvemateriale og om et ureguleret marked. GDPR art. 9/12/15 beholdt."
+      }
+    },
+    {
+      "slug": "tallet",
+      "order": 5,
+      "section": "Tallet",
+      "brief": {
+        "angle": "Tallet: databordet for nummerets påstande. Kort tabel med tal eller definerede begreber + kilde + år. Skal dække: (1) referenceintervallets typiske dækning, de midterste 95 procent, så omkring 5 procent af raske per analytt falder udenfor — med forbehold om, at det ikke er 5 procent af personer, når man måler mange analytter; (2) IVDR's ikrafttræden/anvendelsesdato som forordning (EU) 2017/746, anvendelse fra 26. maj 2022, med de overgangsfrister du er sikker på — skriv forbehold, hvis du er usikker; (3) GDPR artikel 9 (særlige kategorier) og artikel 15 (indsigt), frist typisk én måned efter artikel 12, stk. 3; (4) mindst én fjerde verificerbar række, fx at et resultat uden klinisk kontekst ikke er en diagnose. Mindst 4 fodnoter, alle til navngivne værker eller institutioner. OPDIGT INGEN markedsandele, priser eller danske brugertal. Gæt ikke DOI. Hellere titel end en opdigtet adresse.",
+        "format": "tallet",
+        "mustCite": 4,
+        "words": [
+          500,
+          800
+        ]
+      },
+      "writer": {
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 607,
+        "costUSD": 0.023078,
+        "draft": "kladder/05-tallet.md",
+        "costRouting": "byok",
+        "generationId": "gen-1795246059-VWhCiBNsnXlgJEPfdvYR"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-11-21",
+        "citations": null,
+        "editorNote": "Kladde rettet: Sundhedsstyrelsen-forside som kilde til 'tal er ikke diagnose' fjernet. Fire fodnoter: CLSI, IVDR, GDPR, Ozarda."
+      }
+    },
+    {
+      "slug": "rygteboersen",
+      "order": 6,
+      "section": "Rygtebørsen",
+      "brief": {
+        "angle": "Rygtebørsen: rygter om hjemmetests og blodprøver — 'optimale' intervaller, der strammes, så flere køber opfølgning; paneler, der vokser, fordi flere tal sælger bedre end ét; apps, der oversætter et laboratorietal til et program. Tæt og sassy, ingen fodnoter, ingen opdigtede citater eller navngivne sager. Bagsideløfte til sidst: DOSIS nr. 10 om genetiske forbrugertests — hvornår er varianten din, og hvornår er den firmaets rapport.",
+        "format": "rygteboersen",
+        "mustCite": 0,
+        "words": [
+          300,
+          500
+        ]
+      },
+      "writer": {
+        "byline": "DeepSeek V3.2 (DeepSeek)",
+        "model": "deepseek/deepseek-v3.2",
+        "fallback": null
+      },
+      "receipt": {
+        "words": 389,
+        "costUSD": 0.0006328,
+        "draft": "kladder/06-rygteboersen.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1795246091-jQ1c7BxrFNK34fpEB02E"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-11-21",
+        "citations": null,
+        "editorNote": "Overført. Metalinjen 'Bagsideløfte' vævet ind i brødtekst. Lover nr. 10 om genetiske forbrugertests."
+      }
+    }
+  ]
+}
