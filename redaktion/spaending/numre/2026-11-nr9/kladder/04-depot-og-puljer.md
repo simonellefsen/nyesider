@@ -1,0 +1,14 @@
+**Kort & Watt: Depotet før nettet**
+
+Mens den offentlige debat ofte kredser om lynladere langs motorvejene, foregår den største udbygning af ladeinfrastruktur til tung transport lige nu et andet sted: på vognmændenes egne depoter. Her står lastbilerne stille størstedelen af døgnet, ofte om natten, og her kan energien fyldes på, uden at køretøjet skal køre efter den. Derfor kommer depot-ladningen før det offentlige net — i hvert fald når det gælder den daglige drift.
+
+Et konkret eksempel er Salling Groups lager i Køge, hvorfra Netto årligt sender over 60.000 lastbiler ud på vejene. Ifølge Dansk e-Mobilitet planlægger koncernen nu en ladepark med 24 ladestandere, der kombinerer megawatt-ladere og superchargers. De første ellastbiler forventes at køre fra lageret i tredje kvartal 2026 — en plan, som den så ud i december 2025, ikke en bekræftet åbning. Nicolai Gradman, direktør for Supply Chain & Logistics i Salling Group, beskriver anlægget som det første af sin slags i koncernen og lægger vægt på, at virksomheden selv må bygge rammerne: «Nu tager vi selv ansvaret for at bygge de nødvendige rammer». Målet er CO2-neutralt på transport i 2040.
+
+Samtidig ruller staten støttepuljerne ud. På samme side oplyser Vejdirektoratet, at der er givet tilsagn om cirka 287 millioner kroner til 311 projekter under ordningen for grøn omstilling af tung vejtransport. Pengene går til 217 virksomheder, der får støtte til køb af 484 ellastbiler, leasing af 436 ellastbiler samt 114 depotladeprojekter og ét destinationsprojekt. Samlet giver det udsigt til 920 ekstra ellastbiler på de danske veje — et tal, der dog stadig er beskedent sammenlignet med de over 60.000 lastbiler, der alene kører fra Køge hvert år.
+
+Næste runde følger i 2026, hvor en ny pulje på 160 millioner kroner åbner for ansøgninger den 4. februar og ligger i forlængelse af de tidligere ordninger. Allerede tidligere på året kunne Kempower den 4. september 2025 oplyse, at en støtteordning på 352,5 millioner kroner havde åbnet den 3. september 2025.
+
+Pointen er, at el-lastbilens infrastruktur bygges i to lag: det offentlige ladenet langs vejene og de private depot-anlæg, hvor køretøjerne alligevel holder. Depotterne kommer først, fordi størstedelen af energien bliver fyldt på hjemme i gården, mens lastbilen læsser eller losser. For vognmanden betyder det, at el-lastbilen kræver både et nyt køretøj og lademulighed på depotet. Det offentlige net bliver så supplementet, hvor ruterne går langt væk fra depotet.
+
+[^1]: Dansk e-Mobilitet, «El-lastbiler kan trække på landsdækkende ladeinfrastruktur», 12. december 2025, https://danskemobilitet.dk/nyheder/ellastbiler-kan-traekke-paa-landsdaekkende-ladeinfrastruktur
+[^2]: Vejdirektoratet, «Pulje til grøn omstilling af tung vejtransport 2026», https://www.vejdirektoratet.dk/side/pulje-til-groen-omstilling-af-tung-vejtransport-2026

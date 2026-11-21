@@ -322,9 +322,22 @@ skiftet), Claude Sonnet 5 (trims/depositummer), Mistral Large (essay — satte s
 **6 artikler.** Fem kommissioneret på `.env.spaending`; lederen er redaktionens uden byline.
 Forbrug **0,1357 USD · 0,91 kr.** (DNVALD 6,6952, 2026-11-06). `bestilling.json`:
 `redaktion/spaending/numre/2026-11-nr8/bestilling.json`.
-Bagside: om de første danske MCS-parker bliver et net eller 25 øer.
+Bagside: om de første danske MCS-parker bliver et net eller 25 øer. Indfriet i nr. 9.
 
-- **MCS/lastbiler** — bagsideløfte fra nr. 6, indfries i nr. 8 (rastepladsernes elnet, operatører sikrer arealer).
-- **(2026-09) Londons robotaxi-forsøg — opfølgning** — konkrete køretal/interventionsrater, når data foreligger.
-- **(2026-09) BYD Szeged** — om Q4-produktionen reelt startede (tjek nov/dec 2026).
-- Roadsters EU-typegodkendelsesproces, hvis Performance-variant ansøger (opfølgning).
+## Nr. 9 — udgivet 2026-11-21
+
+**Tema:** De første danske MCS-parker — et net eller 25 øer. Indfrier nr. 8's bagsideløfte.
+**6 artikler, 1.855 ord.** Fem kommissioneret på `.env.spaending`; lederen er redaktionens uden byline.
+Forbrug **0,1846 USD · 1,26 kr.** (Nationalbankens XML 20. november 2026: 100 USD = 680,13 kr., altså 6,8013. 21. november er en lørdag).
+`check_issue.py`: **0 fejl, 0 advarsler.** `check_links.py`: **0 døde** (electrive 403, læst i research).
+`bestilling.json`: `redaktion/spaending/numre/2026-11-nr9/bestilling.json`.
+
+Det dokumenterbare skel: Vejdirektoratet (opdateret 16. november 2026) har fem offentlige ellastbil-parker i drift (Randers, Herning, Vejle, Padborg, Køge). Dansk e-Mobilitet 12. december 2025 kalder Norlys i Sdr. Borup for den første offentlige MCS-lader. Kempower/GodEnergi: 1,2 MW MCS på Danske Fragtmænds depot i Odense, september 2025. Circle K Padborg er 400 kW, ikke MCS. 2027-udbuddet var i høring 11.–25. november 2026; krav om MCS-stik er ikke dokumenteret. Salling Køge (24 standere) står som plan fra december 2025, ikke som åbnet.
+
+Kort sprunget over: `.venv` i stykker, noteret i `images/SOURCES.md`.
+
+Bagside til nr. 10: om 2027-udbuddet faktisk kræver MCS-stik på de næste offentlige parker.
+
+- **(2026-09) Londons robotaxi-forsøg — opfølgning** — stadig åben, når køretal findes.
+- **(2026-09) BYD Szeged** — om Q4-produktionen reelt startede.
+- Roadsters EU-typegodkendelse, hvis Performance-varianten ansøger.

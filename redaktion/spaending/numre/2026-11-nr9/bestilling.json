@@ -1,0 +1,226 @@
+{
+  "magazine": "spaending",
+  "issue": "2026-11-nr9",
+  "issueTheme": "De første danske MCS-parker: bliver de et net, eller 25 øer? Indfrier bagsideløftet fra nr. 8.",
+  "budget": {
+    "articles": 6,
+    "wordsPerArticle": [
+      180,
+      650
+    ],
+    "note": "Alle tal i briefs er verificeret 2026-11-21. Modellerne må ikke browse og må ikke tilføje tal, citater eller URL'er ud over dem, der står i briefet. Selskabstal mærkes som selskabstal. Skeln CCS-ladepark, megawatt-stander til personbil og MCS-stik til lastbil."
+  },
+  "opgaver": [
+    {
+      "slug": "leder",
+      "order": 1,
+      "section": "Leder",
+      "writer": {
+        "model": "editor-led",
+        "byline": null,
+        "fallback": null
+      },
+      "brief": {
+        "angle": "Editor-led. Fem offentlige ellastbil-parker er i drift (Randers, Herning, Vejle, Padborg, Køge). Det er skelettet til et net med højst 60 km mellem lynladere. Men MCS — megawatt-stikket til lastbilen — er stadig øer: én offentlig hos Norlys i Sdr. Borup og et depot i Odense. De næste ti parker er i høring til udbud primo 2027. Pointen: geografien er et net; stikket er det ikke endnu.",
+        "format": "leder",
+        "mustCite": 0,
+        "words": [
+          200,
+          280
+        ]
+      },
+      "receipt": {
+        "words": 209,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-11-21",
+        "citations": 0,
+        "editorNote": "Editor-led, ingen byline. Sidste sætning er produktionsprisen."
+      }
+    },
+    {
+      "slug": "fem-parker-i-drift",
+      "order": 2,
+      "section": "Feature · Danmark",
+      "writer": {
+        "model": "openai/gpt-5.6-terra",
+        "byline": "GPT-5.6 Terra (OpenAI)",
+        "fallback": "openai/gpt-5.6-terra"
+      },
+      "brief": {
+        "angle": "Hovedfeature. Brug KUN disse fakta og disse URL'er som fodnoter. Vejdirektoratet (https://www.vejdirektoratet.dk/erhvervstransport/ladeparker-til-ellastbiler, siden senest opdateret 16. november 2026): 25 offentligt tilgængelige ladeparker til ellastbiler, samlet ladeeffekt 133 MW, cirka 760 millioner kroner. De første fem er i drift tæt på motorvejen ved Randers, Herning, Vejle, Padborg og Køge. Ladeparkerne opføres frem mod 2030 som del af EU's forordning om infrastruktur for alternative brændstoffer (AFIR, nævn fuldt navn første gang). Udbudsmateriale til ladeparker i 2027 er i høring 11. til 25. november 2026; svar til ellast@vd.dk. Vejdirektoratet udbyder 10 ladeparker primo 2027. Navngivne steder i den høring: Esbjerg, Herning, Odense, Randers, Taulov, Vejle, Aalborg, Helsingør, Køge, Maribo. Transportministeriet 2023 (https://www.trm.dk/nyheder/2023/25-nye-ladeparker-til-ellastbiler): højst 60 kilometer til en lynlader på hovednettet; planen talte dengang om 175 lynladepunkter og små 700 millioner kroner (senere udmøntet til cirka 760 millioner — brug 760 mio. som det aktuelle beløb fra Vejdirektoratet, og nævn 2023-tallet kun som det oprindelige). Vejdirektoratet 2. september 2024 (https://via.ritzau.dk/pressemeddelelse/14011972/nye-ladeparker-til-ellastbiler-skal-opfores-af-det-private-marked?publisherId=13559844&lang=da): aftaler med Norlys, Circle K og E.ON om de første parker; markedet bygger og driver; hvor der ikke er aftale, topper staten op (seks ladepunkter ved Køge blev udbudt). De øvrige 20 åbner i 2027 og 2030. Pointe: fem åbne parker er et skelet langs motorvejen, ikke 25 færdige øer og ikke et færdigt net. Skriv ikke, at alle fem er MCS. Skriv ikke om personbiler.",
+        "format": "feature",
+        "mustCite": 3,
+        "mustNumber": [
+          "25",
+          "133 MW",
+          "760 millioner",
+          "60 kilometer",
+          "11. til 25. november 2026"
+        ],
+        "words": [
+          480,
+          620
+        ]
+      },
+      "receipt": {
+        "words": 498,
+        "costUSD": 0.019298,
+        "draft": "kladder/02-fem-parker-i-drift.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1795245989-BF3gg23hLkSMF5LiAmhX"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-11-21",
+        "citations": 3,
+        "editorNote": "Kladde beholdt. Tilføjet eksplicit, at kilderne ikke kalder de fem parker MCS."
+      }
+    },
+    {
+      "slug": "mcs-er-stadig-oer",
+      "order": 3,
+      "section": "Feature · Stikket",
+      "writer": {
+        "model": "anthropic/claude-sonnet-5",
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "fallback": "anthropic/claude-sonnet-5"
+      },
+      "brief": {
+        "angle": "Feature der skelner tre ting: offentlig ellastbil-park (ofte CCS, Combined Charging System), depot-MCS og megawatt-stander til personbil. Fakta, kun disse: Dansk e-Mobilitet 12. december 2025 (https://danskemobilitet.dk/nyheder/ellastbiler-kan-traekke-paa-landsdaekkende-ladeinfrastruktur): Norlys indviede samme dag fem ladeparker og var oppe på ni (Sdr. Borup ved Randers, Aarhus, Herning, Vejle, Esbjerg, Korsør, Hvidovre, Hillerød og Køge fra 18. december). Organisationen skriver, at deriblandt er Danmarks første offentlige MCS-lader i Sdr. Borup ved Randers, og at Norlys har mere end 50 ladeudtag til tung transport. MCS = Megawatt Charging System. Ellen Trolle, direktør i Norlys' ladeforretning, citeres for at investere i et landsdækkende net til ellastbiler. John Dyrby Paulsen, direktør i Dansk e-Mobilitet: ladeinfrastruktur langs de største veje er et supplement til depotladere. Samme artikel: ca. 42.500 lastbiler i flåden; foreløbig 1.500 lastbiler og sættevognstrækkere på el (tallet er fra december 2025 — datér det). Kempower 4. september 2025 (https://kempower.com/da/news/danmarks-foerste-megawatt-ladestation-med-kempower-ladeloesninger-stoetter-elektrificeringen-af-transport-mens-regeringen-lancerer-en-fond-til-el-lastbiler/): Danmarks første megawatt-ladestation til lastbiler hos Danske Fragtmænds depot i Odense, sammen med GodEnergi, op til 1,2 MW, kompatible tunge ellastbiler på 45 minutter ifølge Kempower (selskabstal). electrive 10. september 2025 (https://www.electrive.com/2025/09/10/kempower-installs-first-megawatt-charging-stations-in-denmark-and-sweden/): samme anlæg er MCS, med både MCS-stik og CCS-stik, op til 1.500 ampere og 1,2 MW. Det er et depot, ikke en offentlig park. Circle K (https://via.ritzau.dk/pressemeddelelse/14094830/circle-k-er-klar-med-de-forste-lynladere-til-lastbiler?lang=da): 400 kW-lynladere til lastbiler, blandt andet Padborg Industrivej 20 (4 pladser) — det er ikke MCS. Konklusion: det offentlige kort er ved at blive et net af ladesteder; MCS-stikket findes dokumenteret ét offentligt sted og på mindst ét depot. Opfind ikke flere MCS-parker.",
+        "format": "feature",
+        "mustCite": 3,
+        "mustNumber": [
+          "1,2 MW",
+          "1.500",
+          "50 ladeudtag",
+          "400 kW",
+          "12. december 2025"
+        ],
+        "words": [
+          480,
+          620
+        ]
+      },
+      "receipt": {
+        "words": 578,
+        "costUSD": 0.03769,
+        "draft": "kladder/03-mcs-er-stadig-oer.md",
+        "costRouting": "byok",
+        "generationId": "gen-1795246009-f462Wv5XYv7MZ1B8qKxU"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-11-21",
+        "citations": 4,
+        "editorNote": "Fjernet forkert åbningsdato for Hillerød og et afsnit der nægtede megawatt til personbiler. Fodnoter gjort til rigtige URL'er."
+      }
+    },
+    {
+      "slug": "depot-og-puljer",
+      "order": 4,
+      "section": "Kort & Watt",
+      "writer": {
+        "model": "mistralai/mistral-large",
+        "byline": "Mistral Large (Mistral AI)",
+        "fallback": "openai/gpt-5.6-terra"
+      },
+      "brief": {
+        "angle": "Kort & Watt, to spor: private anlæg og støttepuljer. Kun disse fakta. Salling Group, gengivet af Dansk e-Mobilitet 12. december 2025 (https://danskemobilitet.dk/nyheder/ellastbiler-kan-traekke-paa-landsdaekkende-ladeinfrastruktur): over 60.000 lastbiler kører årligt ud fra Nettos lager i Køge; ladeparken skal bestå af 24 ladestandere, megawatt-ladere og superchargers; de første ellastbiler forventeligt i 3. kvartal 2026. Nicolai Gradman, direktør for Supply Chain & Logistics: anlægget er det første, og selskabet vil være CO2-neutralt på transport i 2040 (citatets mening, ikke ordret medmindre du holder dig til sætningen på siden: «Nu tager vi selv ansvaret for at bygge de nødvendige rammer»). Skriv det som en plan fra december 2025, ikke som en bekræftet åbning i november 2026. Samme side: Vejdirektoratet har givet tilsagn om cirka 287 millioner kroner til 311 projekter; 217 virksomheder får støtte til køb af 484 ellastbiler, leasing af 436 og 114 depotladeprojekter plus ét destinationsprojekt — udsigt til 920 ekstra ellastbiler. Ny pulje: 160 millioner kroner i 2026, åbner 4. februar (https://www.vejdirektoratet.dk/side/pulje-til-groen-omstilling-af-tung-vejtransport-2026). Kempower 4. september 2025: støtteordning på 352,5 millioner kroner åbnede 3. september 2025. Pointe: det offentlige net og vognmændenes egne depoter er to lag. Depotterne kommer først, fordi det meste af energien tankes hjemme. Ingen personbil-vinkel.",
+        "format": "kort-og-watt",
+        "mustCite": 2,
+        "mustNumber": [
+          "24",
+          "60.000",
+          "920",
+          "160 millioner",
+          "352,5 millioner"
+        ],
+        "words": [
+          380,
+          500
+        ]
+      },
+      "receipt": {
+        "words": 414,
+        "costUSD": 0.08732,
+        "draft": "kladder/04-depot-og-puljer.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1795246053-nbzuQUA1I3Oqu09PeNx6"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-11-21",
+        "citations": 3,
+        "editorNote": "Salling står som plan fra december 2025, ikke som bekræftet åbning. Tilskrev 287 mio. til Dansk e-Mobilitets gengivelse."
+      }
+    },
+    {
+      "slug": "essay-pausen",
+      "order": 5,
+      "section": "Essay",
+      "writer": {
+        "model": "openai/gpt-5.6-terra",
+        "byline": "GPT-5.6 Terra (OpenAI)",
+        "fallback": "openai/gpt-5.6-terra"
+      },
+      "brief": {
+        "angle": "Essay uden nye tal og uden fodnoter. En chauffør på E45 mellem Padborg og Køge. Pausen på 45 minutter er den samme, uanset om stikket hedder CCS eller MCS. Forskellen er, om næste plads med lastbilhøjde, plads til sættevogn og effekt nok ligger inden for de 60 kilometer, som planen lover, eller om man kun kan lade på eget depot. 25 parker kan være et net, hvis de ligger på samme rute og tager samme stik. De er øer, hvis hver operatør vælger sit stik, sin app og sin åbningstid. Slut uden løfte om et årstal, hvor nettet er færdigt. Ingen citater. Ingen kilder. mustCite er 0.",
+        "format": "essay",
+        "mustCite": 0,
+        "words": [
+          340,
+          460
+        ]
+      },
+      "receipt": {
+        "words": 406,
+        "costUSD": 0.012647,
+        "draft": "kladder/05-essay-pausen.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1795246185-TzGSjgOE7XSYVFkWoM8T"
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-11-21",
+        "citations": 0,
+        "editorNote": "Ingen nye tal ud over pausen, 60 km og 25 parker fra briefet."
+      }
+    },
+    {
+      "slug": "rygteboers",
+      "order": 6,
+      "section": "Rygtebørs",
+      "writer": {
+        "model": "qwen/qwen3.7-max",
+        "byline": "Qwen3.7 Max (Alibaba)",
+        "fallback": "qwen/qwen3.7-max"
+      },
+      "brief": {
+        "angle": "Rygtebørs. Fire punkter. Hvert punkt mærkes dokumenteret, plan eller uklart. (1) Dokumenteret: Vejdirektoratet skriver 16. november 2026, at de første fem parker er i drift. (2) Plan, ikke åbning: høringen 11.–25. november 2026 gælder udbud af ladeparker i 2027; det er ikke en meddelelse om, at de ti næste åbner med MCS-stik. Ingen kilde i dette brief siger, at 2027-udbuddet kræver MCS. Skriv det som uklart. (3) Plan fra 2023, ikke bekræftet åben i november 2026: Transportministeriet skrev, at Sund & Bælt åbner en ladepark ved Nyborg i 2025. Nyborg står ikke på Vejdirektoratets liste over de fem parker i drift. Mærk Nyborg som ikke bekræftet her. (4) Selskabstal: Kempower skriver, at Odense-anlægget kan lade på 45 minutter ved op til 1,2 MW. Det er producentens tal for kompatible lastbiler, ikke en målt pause for en navngiven vognmand. Ingen URL'er ud over https://www.vejdirektoratet.dk/erhvervstransport/ladeparker-til-ellastbiler og https://www.trm.dk/nyheder/2023/25-nye-ladeparker-til-ellastbiler og https://kempower.com/da/news/danmarks-foerste-megawatt-ladestation-med-kempower-ladeloesninger-stoetter-elektrificeringen-af-transport-mens-regeringen-lancerer-en-fond-til-el-lastbiler/ . Opfind ikke Rema, MAN eller flere byer.",
+        "format": "rygtebors",
+        "mustCite": 2,
+        "words": [
+          240,
+          360
+        ]
+      },
+      "receipt": {
+        "words": 266,
+        "costUSD": 0.02767395,
+        "draft": "kladder/06-rygteboers.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1795246198-Ol1X8sEsQB7qiXmiK4jI"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-11-21",
+        "citations": 3,
+        "editorNote": "Fjernet BEV-forklaring og ordet statslige. Nyborg mærket ikke bekræftet."
+      }
+    }
+  ]
+}
