@@ -44,7 +44,7 @@ Håndhæves som **ERROR** i `production/check_issue.py` (og dermed i `npm run pr
 | 2026-11-08 | dosis/2026-11-nr8 (nr. 8); horisonten/2026-11-nr8 (nr. 8); humanerd/2026-11-nr8 (nr. 8); indeni/2026-11-nr8 (nr. 8); kraften/2026-11-nr8 (nr. 8); kulturboxen/2026-11-nr8 (nr. 8); orbit/2026-11-nr8 (nr. 8); pulsen/2026-11-nr8 (nr. 8); spaending/2026-11-nr8 (nr. 8) |
 | 2026-11-09 | aktier/2026-11-nr12 (nr. 12) |
 | 2026-11-16 | aktier/2026-11-nr13 (nr. 13) |
-| 2026-11-21 | dosis/2026-11-nr9 (nr. 9); gnisten/2026-11-nr9 (nr. 9); humanerd/2026-11-nr9 (nr. 9); indeni/2026-11-nr9 (nr. 9); kraften/2026-11-nr9 (nr. 9); kulturboxen/2026-11-nr9 (nr. 9); orbit/2026-11-nr9 (nr. 9); pulsen/2026-11-nr9 (nr. 9); spaending/2026-11-nr9 (nr. 9) |
+| 2026-11-21 | dosis/2026-11-nr9 (nr. 9); gnisten/2026-11-nr9 (nr. 9); horisonten/2026-11-nr9 (nr. 9); humanerd/2026-11-nr9 (nr. 9); indeni/2026-11-nr9 (nr. 9); kraften/2026-11-nr9 (nr. 9); kronike/2026-11-nr8 (nr. 8); kulturboxen/2026-11-nr9 (nr. 9); orbit/2026-11-nr9 (nr. 9); pulsen/2026-11-nr9 (nr. 9); spaending/2026-11-nr9 (nr. 9) |
 
 ## Efter magasin
 
@@ -106,6 +106,7 @@ Håndhæves som **ERROR** i `production/check_issue.py` (og dermed i `npm run pr
 | 6 | `2026-10-nr6` | 2026-10-03 | published | Storby-weekend Lissabon — syv bakker, to verdensarvsmonumenter og en kyststi mod vest |
 | 7 | `2026-10-nr7` | 2026-10-18 | published | Storby-weekend Ljubljana — drager, Plečniks broer og Alpernes hovedstad |
 | 8 | `2026-11-nr8` | 2026-11-08 | published | Storby-weekend Sevilla + dagstur-vandring i Andalusien — off-season november |
+| 9 | `2026-11-nr9` | 2026-11-21 | published | Storby-weekend Budapest — sidst i november, uden for højsæsonen |
 
 ### humanerd
 
@@ -160,6 +161,7 @@ Håndhæves som **ERROR** i `production/check_issue.py` (og dermed i `npm run pr
 | 5 | `2026-10-nr5` | 2026-10-03 | published | Slesvig-Holsten før 1864 — hertugdømmerne, helstaten og den forfatning, der blev påskud |
 | 6 | `2026-10-nr6` | 2026-10-18 | published | Kalmarunionen i dybden — tre riger, to dokumenter, ét kongefællesskab set fra Norge og Sverige |
 | 7 | `2026-11-nr7` | 2026-11-07 | published | Oktober 1943 — jødeaktionen, advarslen og de 481 |
+| 8 | `2026-11-nr8` | 2026-11-21 | published | Dansk videnskab i det 20. århundrede — to papirer, ikke to liv |
 
 ### kulturboxen
 
