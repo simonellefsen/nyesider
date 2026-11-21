@@ -61,7 +61,7 @@
       "image": "images/orbit_skranke.png",
       "imageCredit": "AI-genereret motiv (Imagine / xAI)",
       "imageSource": "https://x.ai/",
-      "words": 345,
+      "words": 350,
       "byline": "Claude Sonnet 5 (Anthropic)"
     },
     {
@@ -74,7 +74,7 @@
       "image": "images/orbit_tallet.png",
       "imageCredit": "AI-genereret motiv (Imagine / xAI)",
       "imageSource": "https://x.ai/",
-      "words": 285,
+      "words": 294,
       "byline": "DeepSeek V3.2 (DeepSeek)"
     },
     {
@@ -100,7 +100,7 @@
       "image": "images/orbit_rygteboersen.png",
       "imageCredit": "AI-genereret motiv (Imagine / xAI)",
       "imageSource": "https://x.ai/",
-      "words": 246,
+      "words": 255,
       "byline": "Qwen3.7 Max (Alibaba)",
       "flow": true
     }
