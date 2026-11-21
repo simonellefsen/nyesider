@@ -1,0 +1,33 @@
+# Videnskabens københavnske familietræ
+
+Den 1. september 1893 dannede Sortedam Dossering i København rammen om en diskret, men skelsættende begivenhed i den danske videnskabs- og uddannelseshistorie. Det var dagen, hvor Hanna Adler for første gang slog dørene op for H. Adlers Fællesskole. I dag betragtes fællesundervisning af piger og drenge som en selvfølge, men i slutningen af det nittende århundrede var det et opsigtsvækkende pædagogisk nybrud. Skolen, der lå med udsigt over de københavnske søer, var den første egentlige fællesskole for drenge og piger i hovedstaden.
+
+At det netop blev Hanna Adler, der stod bag dette initiativ, var næppe tilfældigt. Hun var født den 28. maj 1859 ind i det højere københavnske borgerskab som datter af den indflydelsesrige vekselerer D.B. Adler, og indtil sin død den 4. januar 1947 forblev hun en central figur i det lærde miljø. Hanna Adler nøjedes ikke med familiens medfødte kapital; hun søgte videnskaben. Året før hun grundlagde skolen, i 1892, var hun sammen med Kirstine Meyer blevet magister i fysik. Præstationen var historisk, idet de to hermed blev de første kvindelige fysikere i Danmark.[^1] Adler omsatte sin naturvidenskabelige ballast og pionerånd til mursten og klasseværelser.
+
+H. Adlers Fællesskole skulle vise sig at blive et afgørende knudepunkt. En af de elever, der modtog undervisning i det nye, ligestillede system, var den unge Inge Lehmann. Den senere verdensberømte seismolog blev student fra netop denne skole i 1906.[^2] Det er i disse årstal og adresser, man for alvor kan skimte konturerne af et netværk, hvor landets spirende videnskabelige gennembrud ikke blot udsprang af isolerede genier, men voksede frem i et sammenvævet bymiljø.
+
+Familie- og institutionsforbindelserne trak tråde direkte fra skolegården ved søerne til det ypperste inden for fysikken. Hanna Adler var nemlig ikke kun skolebestyrerinde; hun var også moster til Niels Bohr, idet hendes søster, Ellen Adler, var Niels' mor. Selvom det kan være fristende at forestille sig et dynamisk klasseværelse, hvor mosteren underviste sine berømte nevøer, forholder det sig anderledes nøgtern: hverken Niels eller Harald Bohr var nogensinde elever på skolen. Båndene i familien var dog usædvanligt stærke, og Hanna Adlers intellektuelle tyngde prægede klanens kultur markant.[^3]
+
+I 1918 valgte Adler at sikre sit livsværks fremtid ved at skænke skolen til Københavns Kommune. Institutionen kom herefter til at hedde Sortedam Gymnasium, men Adler bevarede overblikket og forblev rektor frem til 1929. At hendes fremtrædende position og baggrund førte til en internering under Besættelsen i 1943 – som hun dog blev løsladt fra, efter at der var indsamlet cirka 400 underskrifter – er en højspændt detalje, men hører til en anden og mørkere fortælling i landets historie. Nærværende fortælling handler om de institutioner, netværket rejste i mellemkrigstiden.
+
+Mens Adler overdrog sin skole til kommunen, konsoliderede hendes nevø sin position på universitetet. Niels Bohr var blevet udnævnt til professor i 1916. Han indså hurtigt, at fremtidens fysik krævede helt andre faciliteter og søgte kort efter sin udnævnelse om midler til at oprette et nyt institut. Den indsats bar frugt få år senere. Den 3. marts 1921 kunne Københavns Universitet officielt indvie Universitetets Institut for Teoretisk Fysik.[^4] 
+
+Ifølge den officielle nobelbiografi havde Bohr allerede fra 1920 i praksis stået i spidsen for instituttet.[^5] Herfra ledede han det miljø, der i de følgende årtier kom til at definere kvantefysikken. Instituttets identitet var i en sådan grad smeltet sammen med dets leder, at det på hans 80-års fødselsdag officielt blev omdøbt til Niels Bohr Institutet – en navngivning, hvor den ældre staveform *Institutet* bevidst blev fastholdt i egennavnet.[^6]
+
+Vejen tilbage til Inge Lehmann og den anden store danske opdagelse går direkte gennem Bohrs eget ægteskab. Niels Bohr var gift med Margrethe Nørlund Bohr (1890–1984). Hun kom fra en prominent akademisk familie og bragte sine egne netværk ind i klanen. Margrethe var søster til historikeren Poul Nørlund og den fremtrædende matematiker Niels Erik Nørlund (1885–1981).
+
+Det var Niels Erik Nørlund, der udgjorde bindeleddet mellem Bohr-familien og den tidligere student fra Hanna Adlers skole. Fra 1923 var Niels Erik Nørlund direktør for Den danske Gradmåling, en statslig institution, der håndterede landets mest komplekse geodætiske beregninger. Nørlund vidste, at arbejdet krævede skarpe matematiske hjerner, og på hans direkte opfordring blev Inge Lehmann i 1925 ansat som assistent i Gradmålingen.[^7]
+
+Den videnskabelige administration var under ombygning. I 1928 blev Den danske Gradmåling lagt sammen med Generalstabens topografiske afdeling for at skabe et tidssvarende og slagkraftigt organ: Geodætisk Institut. Niels Erik Nørlund fortsatte på posten som direktør for det nye samlede institut. 
+
+For Inge Lehmann åbnede fusionen i 1928 en afgørende dør. Samme år blev hun udnævnt til statsgeodæt og gjort til chef for instituttets seismiske afdeling. Det var her, hun fik ansvaret for at analysere de rystelser fra Jordens indre, der senere skulle føre hende frem til påvisningen af Jordens faste indre kerne.
+
+Hermed sluttes ringen. Fysikerens moster, landets første kvindelige fysiker, skabte fundamentet ved at undervise piger og drenge i samme lokale på Sortedam Dossering. Fra dette lokale udsprang den kvinde, der i 1928 overtog ledelsen af den danske seismologi – hentet ind i statens tjeneste af fysikerens egen svoger. To af naturvidenskabens afgørende discipliner, studiet af atomets struktur og udforskningen af klodens kerne, krævede ikke to totalt adskilte verdener. De fandt deres forudsætninger i en lille hovedstads fletværk af familie, nye skoler og bureaukratiske institutioner.
+
+[^1]: [Hanna Adler — Dansk Kvindebiografisk Leksikon, lex.dk](https://lex.dk/Hanna_Adler)
+[^2]: [Inge Lehmann — Dansk Kvindebiografisk Leksikon, lex.dk](https://kvindebiografiskleksikon.lex.dk/Inge_Lehmann)
+[^3]: [Niels Bohr — Dansk Biografisk Leksikon, lex.dk](https://biografiskleksikon.lex.dk/Bohr)
+[^4]: [Historie: Instituttet — Niels Bohr Institutet, Københavns Universitet](https://nbi.ku.dk/hhh/bohr/bohr/institutet/)
+[^5]: [Niels Bohr – Biographical — NobelPrize.org](https://www.nobelprize.org/prizes/physics/1922/bohr/biographical/)
+[^6]: [Niels Bohr Institutet — Den Store Danske, lex.dk](https://lex.dk/Niels_Bohr_Institutet)
+[^7]: [Niels Erik Nørlund — Dansk Biografisk Leksikon, lex.dk](https://lex.dk/Niels_Erik_N%C3%B8rlund)

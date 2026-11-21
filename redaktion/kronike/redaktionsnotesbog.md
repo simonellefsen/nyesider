@@ -294,12 +294,39 @@ Struktur: telegram 1032; advarslen 28.–29. september (Duckwitz, Melchior, hyrd
 - Gemini opfandt scenedekor (kaffekopper, falske diagnoser, vitaminpiller) og en årsløn-sammenligning. 1.300–1.500 kr. er tre til fire måneders faglært løn pr. person.
 - Kort sprunget over (brudt `.venv`).
 
-## Nr. 8 — kandidater
+## Nr. 8 — udgivet 2026-11-21
 
-- **(2026-08) Inge Lehmann / Niels Bohr — videnskabsbiografier**
+**Tema:** Dansk videnskab i det 20. århundrede — to papirer, ikke to liv
+**Slug:** `2026-11-nr8`
+6 artikler, **3.156 ord**. Fem artikler reelt kommissioneret på `.env.kronike` (Claude Sonnet 5 ×2, GPT-5.6 Terra, Gemini 3.1 Pro Preview, DeepSeek V3.2); lederen er chefredaktionens og har **ingen byline**. Samlet forbrug **0,2223 USD** (1,51 kr. ved Nationalbankens USD/DKK 6,8013 den 20. november 2026; 21. november er en lørdag, og kursen er fredagens 680,13 kr. pr. 100 USD). `check_issue.py`: 0 fejl, 0 advarsler. `check_links.py`: 19 links, 0 døde. `bestilling.json`: `redaktion/kronike/numre/2026-11-nr8/bestilling.json`.
+
+Ikke to fulde liv og ikke Besættelsen igen. Spor: Bohrs tre afhandlinger i Philosophical Magazine, juli–november 1913, og hafnium-meddelelsen 11. december 1922; Lehmanns P' 1936; København som arbejdsplads (H. Adlers Fællesskole, instituttet indviet 3. marts 1921, ansættelse hos N.E. Nørlund 1925).
+
+### Kernetal
+
+- **Juli–november 1913:** tre afhandlinger trykt (Dansk Biografisk Leksikon). April 1913 hos lex.dk er færdiggørelsen, ikke trykkemåneden.
+- **9. december 1922:** hafnium fundet af George de Hevesy og Dirk Coster. Bohr opdagede det ikke. Meddelelsen kom i Nobel-forelæsningen 11. december.
+- **3. marts 1921:** Niels Bohr Institutet indviet. Godkendt i slutningen af 1918. Nobel-biografiens «since 1920» er ikke åbningsdatoen.
+- **1936:** P' — større hastighed i den indre kerne (Kölbl-Ebert). Ordet «fast» står hos KVINFO, ikke i den sætning. Hun opdagede ikke kernen (Oldham 1906).
+- **1953:** pension. **58** publikationer (KVINFO). DBL's «omkring et halvt hundrede» er et andet tal og må ikke lægges sammen med de 58.
+
+### Fact-check
+
+- Sonnet opfandt en sal, et reagensglas og at Einstein sad i samme rum. Fjernet. Alfa-stråle-artiklen i Phil. Mag. 1913 er ikke en af de tre.
+- Gemini skrev «vekselerer», et søudsigt og «påviste Jordens faste indre kerne». Fjernet. Ansættelsen i 1925 står på KVINFO, ikke på Nørlunds lex-side. Han var direktør for Gradmålingen fra 1923, ikke for Geodætisk Institut før sammenlægningen i 1928.
+- Tallet-kladden lagde hafnium i «samme år» som 1921. Det er 1922.
+- Lehmann-diskontinuiteten bruges to steder: ca. 200 km i lithosfæren (lex.dk) og den indre kernes overflade (KVINFO). Ikke én side med begge.
+- Brush 1980 (DOI 10.1119/1.12026) svarede HTTP 403. Fodnoten er titel uden URL.
+- Sektioner med & blev `null` i `issue.json`, fordi samleren kun læste et ord uden anførselstegn. Sat til «Videnskab & opfindelser» og «Myter & missforståelser» før check.
+- Kort sprunget over (brudt `.venv`).
+
+## Nr. 9 — kandidater
+
+- Vælges i idébanken. Lehmann/Bohr er brugt i nr. 8. Oktober 1943 er brugt i nr. 7.
 
 ## Log
 
+- **2026-11-21:** Nr. 8 udgivet — "Dansk videnskab i det 20. århundrede". Features 700–900. Se læringen: april 1913 er ikke trykkemåneden; «fast» er KVINFO, ikke P'-sætningen; hafnium er 9. december 1922, ikke 1921; to diskontinuiteter på to kilder.
 - **2026-11-07:** Nr. 7 udgivet — "Oktober 1943 (jødeaktionen)". Features 700–900. Se læringen: 17. september (Hitler-godkendelse, Gyldendal) og 28. september (Duckwitz) skal holdes ude fra hinanden i *hver* brief; 481 vs. 472 er to tal, ikke ét.
 - **2026-10-18:** Nr. 6 udgivet — "Kalmarunionen i dybden (Norge/Sverige)". Features 700–900. Se læringen: gætte-URL'er på snl.no og danmarkshistorien.dk igen; DeepSeek opfandt/blandede Enemark-titel; verificér slægtskab og personer (Kristina Gyllenstierna ok, Carsten Due-Nielsen i nr. 5 var det ikke).
 - **2026-10-03:** Nr. 5 udgivet — "Slesvig-Holsten før 1864". Features 700–900. Se læringen: to dokumenter fra 1851–52 (noter vs. traktat) skal holdes ude fra hinanden i *hver* brief, der nævner 1864-årsagen; Gemini gættede underskriftsstedet.

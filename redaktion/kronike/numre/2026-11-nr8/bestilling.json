@@ -1,0 +1,231 @@
+{
+  "magazine": "kronike",
+  "issue": "2026-11-nr8",
+  "issueTheme": "Dansk videnskab i det 20. århundrede — to papirer, ikke to liv",
+  "budget": {
+    "articles": 6,
+    "wordsPerArticle": [
+      150,
+      900
+    ],
+    "targetPages": 12,
+    "note": "Idébankens videnskabsbiografier, Inge Lehmann og Niels Bohr, som én ramme: dansk videnskab i det 20. århundrede. Ikke to fulde liv. Ikke Besættelsen (nr. 7). Ørsted ligger i nr. 1. Features 700–900. Spor: tre afhandlinger 1913 og hafnium 1922; P' 1936; København som arbejdsplads (Hanna Adlers skole, instituttet 3. marts 1921, Geodætisk Institut). Tallet og Myter i bagsnittet."
+  },
+  "opgaver": [
+    {
+      "slug": "leder",
+      "order": 1,
+      "section": "Leder",
+      "brief": {
+        "angle": "Kort leder: Dette nummer er ikke to biografier og ikke Besættelsen. Det er dansk videnskab i det 20. århundrede, set gennem to papirer og én by. Niels Bohr, født 7. oktober 1885, skrev i 1913 tre afhandlinger om atomets bygning og fik Nobelprisen i fysik 1922. Inge Lehmann, født 13. maj 1888, publicerede i 1936 afhandlingen P' og foreslog en indre kerne. Hun opdagede ikke jordens kerne. Instituttet for teoretisk fysik blev indviet 3. marts 1921. Lehmann blev statsgeodæt i 1928. Ørsted ligger i nr. 1. Oktober 1943 ligger i nr. 7 og må ikke genfortælles.",
+        "words": [
+          150,
+          220
+        ],
+        "mustCite": 0,
+        "format": "leder"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": 182,
+        "costUSD": 0.0,
+        "draft": null
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-11-21",
+        "citations": 0,
+        "editorNote": "Editor-led leder, ingen API-kald og ingen byline. Prislínje 0,2223 USD · 1,51 kr. Kurs 6,8013, Nationalbanken 20. november 2026."
+      }
+    },
+    {
+      "slug": "tre-afhandlinger",
+      "order": 2,
+      "section": "Videnskab & opfindelser",
+      "brief": {
+        "angle": "Feature om dokumentet, ikke om hele livet: Niels Bohrs atomafhandlinger fra 1913 og den københavnske bekræftelse i december 1922. Brug PRÆCIS disse verificerede fakta og ingen andre tal, medmindre de står i de tilladte kilder. Niels Henrik David Bohr, født 7. oktober 1885 i København, død 18. november 1962. Forældre: fysiologen Christian Bohr og Ellen, født Adler. Lillebror: Harald Bohr, senere professor i matematik. Student fra Gammelholm 1903. Magister i fysik 1909, doktor 1911, Københavns Universitet. Efteråret 1911 i Cambridge hos J.J. Thomson. Foråret 1912 i Ernest Rutherfords laboratorium i Manchester. I 1913 udkom arbejdet om atomets bygning i Philosophical Magazine; Nobel-biografien knytter det til Rutherfords opdagelse af atomkernen og Plancks kvanteteori. Opfind IKKE bind, hæfte eller sidetal. Opfind IKKE en engelsk titel, medmindre du er sikker; skriv «tre afhandlinger i Philosophical Magazine, 1913» eller «afhandlingerne om atomets bygning, 1913». Nobel-biografien siger, at billedet senere blev forbedret, især ved Heisenbergs ideer i 1925. Skriv derfor IKKE, at 1913-modellen stadig er den gyldige teori. Lektor i fysik ved Københavns Universitet 1913–1914, tilsvarende stilling ved Victoria University i Manchester 1914–1916, professor i teoretisk fysik i København 1916. Gift 1912 med Margrethe Nørlund. Nobelprisen i fysik 1922 for undersøgelsen af atomernes struktur og den stråling, der udgår fra dem. Forelæsningen «The Structure of the Atom» er dateret 11. december 1922. Ceremonitalen er 10. december 1922 (Arrhenius). Grundstof nr. 72, hafnium (latin Hafnia, København), blev opdaget på instituttet 9. december 1922 af George de Hevesy og Dirk Coster i zirconiummineraler fra Mineralogisk Museum, efter et tip fra Bohr. Bohr opdagede det IKKE selv. Han sluttede sin tale nogle dage senere med meddelelsen; Hevesy-artiklen i Dansk Biografisk Leksikon siger, at meddelelsen faldt i Nobel-forelæsningen 11. december 1922. Georges Urbain påstod uretmæssigt at have fundet stoffet tidligere. Einstein modtog den forsinkede pris for 1921 samme år, for den fotoelektriske effekt, ikke for relativitetsteorien (Niels Bohr Institutet). Scene: Stockholm, Nobel-forelæsningen 11. december 1922, hvor et grundstof fundet to dage forinden i København bliver nævnt. Navngivne, der SKAL kunne slås op: Niels Bohr, Ernest Rutherford, George de Hevesy, Dirk Coster, Harald Bohr. Opfind ALDRIG en laborant, en dagbog eller et citat, der ikke står i de tilladte kilder. Gæt aldrig en URL. Skriv IKKE Inge Lehmann, seismologi eller P' i dybden. Skriv IKKE flugten i 1943, Los Alamos eller atombomben; det er ikke denne artikel. Skriv IKKE instituttets indvielse 3. marts 1921 i dybden; den ligger i en anden artikel. Tilladte URL'er: https://www.nobelprize.org/prizes/physics/1922/bohr/biographical/ ; https://www.nobelprize.org/prizes/physics/1922/bohr/lecture/ ; https://www.nobelprize.org/prizes/physics/1922/ceremony-speech/ ; https://lex.dk/hafnium ; https://biografiskleksikon.lex.dk/George_Hevesy ; https://nbi.ku.dk/hhh/bohr/bohr/nobelprisen/ ; https://lex.dk/Niels_Bohr .",
+        "words": [
+          700,
+          900
+        ],
+        "mustCite": 3,
+        "mustNumber": [
+          "1913",
+          "foråret 1912",
+          "9. december 1922",
+          "11. december 1922",
+          "grundstof 72"
+        ],
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 785,
+        "costUSD": 0.03594,
+        "draft": "kladder/02-tre-afhandlinger.md",
+        "costRouting": "byok",
+        "generationId": "gen-1795246153-vqjujHxExGb9puAC14gd"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-11-21",
+        "citations": 7,
+        "editorNote": "Fjernede opfundet sal, reagensglas og «samme ceremoni» for Einstein. April 1913 (lex) holdt ude fra trykket juli–november (DBL). Alfapartikel-afhandlingen er ikke en af de tre. Landet over 700 ord."
+      }
+    },
+    {
+      "slug": "indre-kernen",
+      "order": 3,
+      "section": "Videnskab & opfindelser",
+      "brief": {
+        "angle": "Feature om ét papir: Inge Lehmanns afhandling P' fra 1936. Ikke et helt liv. Brug PRÆCIS disse verificerede fakta. Inge Lehmann, født 13. maj 1888 i København, død 21. februar 1993 i København, begravet på Hørsholm kirkegård. Ugift. Forældre: psykologen Alfred Georg Ludvig Lehmann (1858–1921) og Ida Sophie Tørsleff (1866–1935). Student 1906 fra H. Adlers Fællesskole. Newnham College, Cambridge, 1911. Beregner i Forsikringsselskabet Danmark 1912–1918. Cand.mag. i matematik 1920. Studieophold i Hamburg 1922. Assistent ved forsikringsmatematisk laboratorium 1923–1926. I 1925, mens hun endnu var på universitetet, blev hun assistent i Den danske Gradmåling på opfordring af professor N.E. Nørlund, der ville etablere seismiske stationer i København og på Grønland. Studieophold i Darmstadt og Strasbourg 1927. Magisterkonferens i geodæsi 1928, som en af de første i Danmark og den første kvinde i faget herhjemme. Samme år blev Den danske Gradmåling til Geodætisk Institut. Hun blev chef for den seismiske afdeling og udnævnt til statsgeodæt. Stationer: København, Ivigtut og Ittoqqortoormiit (Scoresbysund). 1936 publicerede hun P' i Publications du Bureau Central Seismologique International. Hendes egen sætning, gengivet af Kölbl-Ebert i Episodes 2001, lyder: «We take it that, as before, the Earth consists of a core and a mantle, but that inside the core there is an inner core in which the velocity is larger than in the outer one.» Den sætning handler om højere hastighed, ikke om ordet «fast». KVINFO skriver, at hun argumenterede for en lille, fast indre kerne, og knytter signalerne til et jordskælv i New Zealand i 1929. Hold de to formuleringer ude fra hinanden: afhandlingens egen sætning er hastigheden; «fast» er KVINFOs formulering. En tidligere afhandling fra 1930, «P' as read from the records of the earthquake of June 16th 1929», er IKKE 1936-papiret. Bland dem ikke, og opfind ikke 16. juni som publiceringsdato. Hun opdagede IKKE jordens kerne. Kernen som grænse var allerede påvist (Oldham 1906; Gutenberg lagde grænsen nær 2.900 km; Jeffreys viste 1926, at kernen er flydende). Det må siges kort, med forbehold om at de tre årstal er den gængse forskningshistorie hos Brush 1980, ikke et tal, Lehmann selv målte. Opfind IKKE en radius i kilometer. Opfind IKKE, at hun fik Nobelprisen eller William Bowie-medaljen. Pension 1953. KVINFO: af hendes 58 publikationer er over halvdelen fra tiden efter pensioneringen. Dansk Biografisk Leksikon siger «omkring et halvt hundrede». Brug 58 og sig, at det er KVINFOs tal. Sidste artikel, Seismology in the Days of Old, i EOS, 1987, det år hun fyldte 99. Hun blev næsten 105, ikke 105. Scene: seismogrammerne på Geodætisk Institut og afhandlingen P', 1936. Navngivne: Inge Lehmann, N.E. Nørlund. Opfind ALDRIG en assistent, en dagbog eller et citat ud over den engelske sætning ovenfor. Gæt aldrig en URL. Skriv IKKE Bohrs atommodel, hafnium eller instituttet på Blegdamsvej i dybden. Skriv IKKE Besættelsen. Tilladte URL'er: https://kvindebiografiskleksikon.lex.dk/Inge_Lehmann ; https://biografiskleksikon.lex.dk/Inge_Lehmann ; https://lex.dk/Inge_Lehmann ; https://www.episodes.org/journal/view.html?doi=10.18814/epiiugs/2001/v24i4/007 .",
+        "words": [
+          700,
+          900
+        ],
+        "mustCite": 3,
+        "mustNumber": [
+          "1936",
+          "1928",
+          "1953",
+          "58"
+        ],
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "GPT-5.6 Terra (OpenAI)",
+        "model": "openai/gpt-5.6-terra",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 862,
+        "costUSD": 0.031413,
+        "draft": "kladder/03-indre-kernen.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1795246220-mMd3RV9SAq9A4kb29o9C"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-11-21",
+        "citations": 4,
+        "editorNote": "«Omkring et halvt hundrede» lagt tilbage på Dansk Biografisk Leksikon, ikke på lex.dk. 1936-sætningen er hastighed; «fast» er KVINFO. 1930-afhandlingen holdt ude. Ingen opfundet radius."
+      }
+    },
+    {
+      "slug": "koebenhavn",
+      "order": 4,
+      "section": "Videnskab & opfindelser",
+      "brief": {
+        "angle": "Feature om stedet, ikke om geniet: hvordan de to papirer blev mulige i ét København. Brug PRÆCIS disse fakta. Hanna Adler, født 28. maj 1859, død 4. januar 1947, magister i fysik 1892 sammen med Kirstine Meyer, de første kvindelige fysikere i Danmark. Hun åbnede H. Adlers Fællesskole på Sortedam Dossering 1. september 1893, den første egentlige fællesskole for drenge og piger i hovedstaden. I 1918 skænkede hun skolen til Københavns Kommune; den kom til at hedde Sortedam Gymnasium. Hun var rektor til 1929. Inge Lehmann blev student derfra i 1906. Niels Bohr og Harald Bohr var IKKE elever på skolen. Skriv ikke, at de gik der. Adler var datter af D.B. Adler og moster til Niels Bohr (moderen var Ellen Adler). Kort efter udnævnelsen til professor i 1916 søgte Bohr om et institut. Universitetets Institut for Teoretisk Fysik blev indviet 3. marts 1921. På hans 80-års fødselsdag blev det omdøbt til Niels Bohr Institutet. Staveformen er Institutet, ikke Instituttet, når det er egennavnet. Nobel-biografien siger, at han fra 1920 stod i spidsen for instituttet. Brug 3. marts 1921 som indvielsesdato. Opfind ikke en gade og et husnummer. Niels Erik Nørlund (1885–1981) var bror til Poul Nørlund og til Margrethe Nørlund Bohr (1890–1984), Niels Bohrs hustru. Fra 1923 var han direktør for Den danske Gradmåling. I 1928 blev den lagt sammen med Generalstabens topografiske afdeling til Geodætisk Institut, hvor han fortsatte som direktør. Skriv IKKE, at han var direktør for Geodætisk Institut allerede i 1923. På hans opfordring blev Inge Lehmann i 1925 assistent i Gradmålingen. I 1928 blev hun statsgeodæt og chef for den seismiske afdeling. Det er svogeren, der henter seismologen ind, og mosterens skole, Lehmann er student fra. Det er rammen: ikke to enere, men en lille bys familie og to institutioner. Scene: indvielsen 3. marts 1921, eller skolens åbning 1. september 1893 — vælg én og hold den. Opfind ALDRIG et citat fra Bohr, Adler, Nørlund eller Lehmann. Opfind ALDRIG, at Bohr underviste på skolen. Gæt aldrig en URL. Skriv IKKE selve 1913-afhandlingerne eller P'-afhandlingens seismogrammer i dybden. Skriv IKKE Besættelsen, bortset fra højst én sætning om, at Adlers internering i 1943 og løsladelse efter ca. 400 underskrifter ikke er dette nummers historie. Tilladte URL'er: https://lex.dk/Hanna_Adler ; https://lex.dk/Niels_Bohr_Institutet ; https://nbi.ku.dk/hhh/bohr/bohr/institutet/ ; https://lex.dk/Niels_Erik_N%C3%B8rlund ; https://biografiskleksikon.lex.dk/Bohr ; https://kvindebiografiskleksikon.lex.dk/Inge_Lehmann ; https://www.nobelprize.org/prizes/physics/1922/bohr/biographical/ .",
+        "words": [
+          700,
+          900
+        ],
+        "mustCite": 3,
+        "mustNumber": [
+          "1. september 1893",
+          "3. marts 1921",
+          "1925",
+          "1928"
+        ],
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "Gemini 3.1 Pro Preview (Google)",
+        "model": "google/gemini-3.1-pro-preview",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 930,
+        "costUSD": 0.134676,
+        "draft": "kladder/04-koebenhavn.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1795246261-nF2S2sGTl2CjwHjw6GTE"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-11-21",
+        "citations": 8,
+        "editorNote": "Fjernede vekselerer, søudsigt og opfundet motiv. Fodnoter lagt på de rigtige sider: 3. marts er lex, ansættelsen 1925 er KVINFO, Lund-årene er Nørlund-artiklen. Ikke-elever via Blüdnikow. Ingen «fast kerne» som Lehmanns eget ord."
+      }
+    },
+    {
+      "slug": "tallet",
+      "order": 5,
+      "section": "Tallet",
+      "brief": {
+        "angle": "Tallet: en lille kildetabel over dansk videnskab i det 20. århundrede, fire rækker, hver med ét hårdt tal og en kilde. (1) 1913 — Bohrs afhandlinger om atomets bygning i Philosophical Magazine; foråret 1912 var han i Manchester hos Rutherford. (2) 3. marts 1921 — Universitetets Institut for Teoretisk Fysik indvies. Samme række må nævne 9. december 1922 (hafnium, grundstof 72, Hevesy og Coster) og 11. december 1922 (Nobel-forelæsningen), men instituttets dato er rækkens hovedtal. (3) 1936 — Lehmanns P'. Sætningen i afhandlingen handler om en indre kerne med større hastighed. KVINFO siger fast kerne. Skriv begge, bland dem ikke. Hun opdagede ikke jordens kerne. (4) 1953 — Lehmann pensioneres fra Geodætisk Institut. KVINFO: 58 publikationer, over halvdelen efter pensioneringen. Sidste artikel 1987, det år hun fyldte 99. Brug ikke «ca. 50» som om det er samme tal som 58. Ingen opfundne personer. Ingen gætte-URL'er. Ingen Besættelse. Tilladte URL'er: https://www.nobelprize.org/prizes/physics/1922/bohr/biographical/ ; https://lex.dk/Niels_Bohr_Institutet ; https://lex.dk/hafnium ; https://kvindebiografiskleksikon.lex.dk/Inge_Lehmann ; https://www.episodes.org/journal/view.html?doi=10.18814/epiiugs/2001/v24i4/007 .",
+        "words": [
+          250,
+          450
+        ],
+        "mustCite": 3,
+        "mustNumber": [
+          "1913",
+          "3. marts 1921",
+          "1936",
+          "1953"
+        ],
+        "format": "tallet"
+      },
+      "writer": {
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 337,
+        "costUSD": 0.019376,
+        "draft": "kladder/05-tallet.md",
+        "costRouting": "byok",
+        "generationId": "gen-1795246385-HNaUPc6KTaXKbjXzEGVV"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-11-21",
+        "citations": 4,
+        "editorNote": "Fjernede «samme år», som lagde hafnium i 1921. P' er afhandlingens navn, ikke grænsens. Superscripts gjort til markdown-fodnoter."
+      }
+    },
+    {
+      "slug": "myter",
+      "order": 6,
+      "section": "Myter & missforståelser",
+      "brief": {
+        "angle": "Myter-bagsnit: afmonter to myter, ikke en løs liste. (1) «Niels Bohr opfandt atomet, og 1913-modellen er stadig den rigtige.» Han opfandt ikke atomet. Han byggede i 1913 et billede af atomets struktur på Rutherfords kerne og Plancks kvanter. Nobel-biografien siger, at billedet senere blev forbedret, især ved Heisenberg 1925. Han opdagede heller ikke selv hafnium: Hevesy og Coster fandt grundstof 72 den 9. december 1922; Bohr meddelte det. Skriv IKKE, at han byggede atombomben. Nobel-biografien siger, at han under krigen var knyttet til Atomic Energy Project, og at han 9. juni 1950 skrev et åbent brev til FN om åbenhed mellem nationer. Det er én sætning, ikke en krigsartikel. Flugten i 1943 er nr. 7 og må ikke genfortælles. (2) «Inge Lehmann opdagede jordens kerne, og Lehmann-diskontinuiteten er ét bestemt sted.» Hun opdagede ikke kernen. P' (1936) foreslår en indre kerne, hvor hastigheden er større. KVINFO kalder den fast. lex.dk bruger navnet Lehmann-diskontinuiteten om en skilleflade i ca. 200 km dybde i lithosfæren. KVINFO skriver, at det er blevet foreslået at kalde den indre kernes overflade Lehmann-diskontinuiteten. Navnet bruges altså om to forskellige flader. Vælg ikke én af dem som den eneste rigtige. Hun fik ikke Nobelprisen. Opfind ikke en medalje, der ikke står i kilden. Opfind IKKE et citat. Gæt aldrig en URL. Tilladte URL'er: https://www.nobelprize.org/prizes/physics/1922/bohr/biographical/ ; https://lex.dk/hafnium ; https://lex.dk/Inge_Lehmann ; https://kvindebiografiskleksikon.lex.dk/Inge_Lehmann ; https://www.episodes.org/journal/view.html?doi=10.18814/epiiugs/2001/v24i4/007 .",
+        "words": [
+          350,
+          550
+        ],
+        "mustCite": 2,
+        "format": "myter"
+      },
+      "writer": {
+        "byline": "DeepSeek V3.2 (DeepSeek)",
+        "model": "deepseek/deepseek-v3.2",
+        "fallback": null
+      },
+      "receipt": {
+        "words": 373,
+        "costUSD": 0.00093604,
+        "draft": "kladder/06-myter.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1795246412-I2r1Yha7CGrlJlE4l7Wt"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-11-21",
+        "citations": 4,
+        "editorNote": "De to diskontinuiteter lagt på hver sin kilde. «Fast» ikke byttet ud med 1936-sætningen. Hafnium og brevet af 9. juni 1950 med. Flugten i 1943 ikke genfortalt."
+      }
+    }
+  ]
+}
