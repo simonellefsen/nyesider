@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 280" style="background-color: #fcfcfc; border: 1px solid #d1d5db; font-family: ui-sans-serif, system-ui, sans-serif;">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#4b5563" />
+    </marker>
+  </defs>
+  <text x="24" y="32" font-size="16" font-weight="bold" fill="#071C2C">ÉN CYKLUS: VANDET BRUGES FLERE GANGE</text>
+  <text x="24" y="52" font-size="12" fill="#6b7280">Ind — ionbytter — varme — spulearme — filter i sumpen — rundt igen — afløb til sidst</text>
+  <g transform="translate(16, 78)">
+    <rect width="128" height="120" rx="8" fill="#e8f4f1" stroke="#071C2C" stroke-width="2"/>
+    <text x="64" y="36" font-size="13" font-weight="bold" text-anchor="middle" fill="#071C2C">1. Vand ind</text>
+    <text x="64" y="62" font-size="11" text-anchor="middle" fill="#071C2C">Koldt vand</text>
+    <text x="64" y="80" font-size="11" text-anchor="middle" fill="#071C2C">fra hanen</text>
+  </g>
+  <path d="M 150 138 L 178 138" stroke="#4b5563" stroke-width="2" marker-end="url(#arrow)"/>
+  <g transform="translate(184, 78)">
+    <rect width="140" height="120" rx="8" fill="#fde8d6" stroke="#E88D45" stroke-width="2"/>
+    <text x="70" y="32" font-size="13" font-weight="bold" text-anchor="middle" fill="#071C2C">2. Ionbytter</text>
+    <text x="70" y="58" font-size="11" text-anchor="middle" fill="#071C2C">Binder kalk</text>
+    <text x="70" y="76" font-size="11" text-anchor="middle" fill="#071C2C">Regenereres</text>
+    <text x="70" y="94" font-size="11" text-anchor="middle" fill="#071C2C">med salt</text>
+  </g>
+  <path d="M 330 138 L 358 138" stroke="#4b5563" stroke-width="2" marker-end="url(#arrow)"/>
+  <g transform="translate(364, 78)">
+    <rect width="130" height="120" rx="8" fill="#fde8d6" stroke="#E88D45" stroke-width="2"/>
+    <text x="65" y="36" font-size="13" font-weight="bold" text-anchor="middle" fill="#071C2C">3. Varme</text>
+    <text x="65" y="64" font-size="11" text-anchor="middle" fill="#071C2C">Varmelegeme</text>
+    <text x="65" y="82" font-size="11" text-anchor="middle" fill="#071C2C">eller varmepumpe</text>
+  </g>
+  <path d="M 500 138 L 528 138" stroke="#4b5563" stroke-width="2" marker-end="url(#arrow)"/>
+  <g transform="translate(534, 78)">
+    <rect width="140" height="120" rx="8" fill="#e8f4f1" stroke="#071C2C" stroke-width="2"/>
+    <text x="70" y="32" font-size="13" font-weight="bold" text-anchor="middle" fill="#071C2C">4. Spulearme</text>
+    <text x="70" y="58" font-size="11" text-anchor="middle" fill="#071C2C">Cirkulationspumpe</text>
+    <text x="70" y="76" font-size="11" text-anchor="middle" fill="#071C2C">sender vandet</text>
+    <text x="70" y="94" font-size="11" text-anchor="middle" fill="#071C2C">over servicet</text>
+  </g>
+  <path d="M 680 138 L 708 138" stroke="#4b5563" stroke-width="2" marker-end="url(#arrow)"/>
+  <g transform="translate(714, 78)">
+    <rect width="186" height="120" rx="8" fill="#eef2ff" stroke="#3730a3" stroke-width="2"/>
+    <text x="93" y="28" font-size="13" font-weight="bold" text-anchor="middle" fill="#071C2C">5. Filter og sump</text>
+    <text x="93" y="52" font-size="11" text-anchor="middle" fill="#071C2C">Madrester holdes tilbage</text>
+    <text x="93" y="72" font-size="11" text-anchor="middle" fill="#071C2C">Vandet køres rundt igen</text>
+    <text x="93" y="98" font-size="11" text-anchor="middle" fill="#071C2C">Afløbspumpe til sidst</text>
+  </g>
+  <path d="M 800 198 C 800 240, 80 240, 80 198" fill="none" stroke="#4b5563" stroke-width="1.5" stroke-dasharray="5 4" marker-end="url(#arrow)"/>
+  <text x="300" y="258" font-size="11" fill="#6b7280">Stiplet pil: samme vand tilbage i kredsløbet, indtil programmet er færdigt</text>
+</svg>

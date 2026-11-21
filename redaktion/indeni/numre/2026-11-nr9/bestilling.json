@@ -1,0 +1,265 @@
+{
+  "magazine": "indeni",
+  "issue": "2026-11-nr9",
+  "issueTheme": "Opvaskemaskinen — fra ionbytter og spulearme til eco-programmet, de europæiske fabrikker og WEEE-stien",
+  "budget": {
+    "articles": 7,
+    "wordsPerArticle": [
+      320,
+      520
+    ],
+    "targetPages": 14,
+    "note": "Kompakt uge-batch som nr. 6–8: 6 kommissionerede artikler + chefredaktionens leder. Alle hårde tal står i brief.angle. Modellerne må ikke tilføje tal, citater eller anlæg ud over dem."
+  },
+  "opgaver": [
+    {
+      "slug": "leder",
+      "order": 1,
+      "section": "Leder",
+      "brief": {
+        "angle": "Chefredaktionel leder uden byline. Opvaskemaskinen er den maskine, der står lukket, mens eco-programmet kører længe og køligt. Det interessante er ikke knappen, men at energimærket måler ét navngivet program, og at to europæiske fabrikker stadig samler maskiner i Dillingen og Żarów.",
+        "words": [
+          120,
+          170
+        ],
+        "mustCite": 0,
+        "mustNumber": [],
+        "format": "leder"
+      },
+      "writer": {
+        "byline": "Claude Fable 5",
+        "model": "chefredaktør",
+        "fallback": null
+      },
+      "receipt": {
+        "words": null,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-11-21",
+        "citations": 0,
+        "editorNote": "Skrives direkte af chefredaktionen efter --sum; ingen kladde, ingen kvittering, ingen byline. Sidste sætning er produktionsprisen."
+      }
+    },
+    {
+      "slug": "turen",
+      "order": 2,
+      "section": "Turen",
+      "brief": {
+        "angle": "Opvaskemaskinens vej fra dele til køkken. Kar af rustfrit stål eller plast, spulearme af plast, cirkulationspumpe, varmelegeme eller varmepumpe, ionbytter med filtersalt, filtre i sumpen, slanger og aquastop. Brug KUN disse tal, geografi EU27, kilde Europa-Kommissionens produktside for opvaskemaskiner (Ecodesign Impact Accounting Overview Report 2024): i 2020 var 97 millioner husholdningsopvaskemaskiner i brug i EU27, omkring én pr. to boliger; de kørte 220 cyklusser om året, vaskede 197 milliarder kuverter og brugte 214 millioner m3 vand, svarende til 19 kuverter og 21 liter vand pr. uge pr. EU-husstand. Bestanden ventes at stige til 126 millioner i 2030. FORBUDT: opdigte vægte, materialeandele, danske bestandstal eller fabriksnavne.",
+        "words": [
+          400,
+          500
+        ],
+        "mustCite": 1,
+        "mustNumber": [
+          "97 millioner (2020, EU27)",
+          "220 cyklusser/år",
+          "214 millioner m3",
+          "126 millioner (2030)"
+        ],
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 437,
+        "costUSD": 0.026246,
+        "draft": "kladder/02-turen.md",
+        "costRouting": "byok",
+        "generationId": "gen-1795246054-UKSKAD43FIOMPg6QBtqW"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-11-21",
+        "citations": 1,
+        "editorNote": "Kladde sammenlignede med håndopvask og sagde «et årti». Begge dele taget ud. Tallene står."
+      }
+    },
+    {
+      "slug": "maskinen",
+      "order": 3,
+      "section": "Maskinen",
+      "brief": {
+        "angle": "Én cyklus, set som kredsløb. Skriv prosa, IKKE et SVG i teksten. Redaktionen indsætter [FIGUR] til et separat diagram: koldt vand ind → ionbytter (regenereres med salt) → opvarmning → spulearme og cirkulationspumpe → filter og sump → afløbspumpe ud. Eco-programmet er fra 1. marts 2021 navngivet eco, er standardvalg hvor maskinen selv vælger program, og må kun hedde eco (temperatur må tilføjes). Det er det program, der bruges til at vurdere overholdelse. Fra samme dato: energieffektivitetsindeks (EEI) under 63; fra 1. marts 2024 under 56 for maskiner med mindst 10 kuverter. Renseindeks IC over 1,12. Tørreindeks ID over 1,06 ved mere end 7 kuverter. Reservedele til professionelle reparatører i mindst 7 år (motor, pumper, varmelegemer, print); hængsler, spulearme, filtre og kurve til bruger og reparatør i mindst 10 år; levering inden 15 hverdage. Kilde: forordning (EU) 2019/2022, EUR-Lex. FORBUDT: opdigte temperaturer, tryk, liter pr. skyl eller enzymnavne, der ikke står her.",
+        "words": [
+          400,
+          500
+        ],
+        "mustCite": 1,
+        "mustNumber": [
+          "EEI under 63 fra 1.3.2021",
+          "EEI under 56 fra 1.3.2024 ved ≥10 kuverter",
+          "7 år / 10 år reservedele"
+        ],
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "GPT-5.6 Terra (OpenAI)",
+        "model": "openai/gpt-5.6-terra",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 448,
+        "costUSD": 0.0252725,
+        "draft": "kladder/03-maskinen.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1795246089-uzYi378zS0ieB0mZAbVb"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-11-21",
+        "citations": 1,
+        "editorNote": "Prosa beholdt. Lav-effekt-kravene fra samme forordning skrevet ind. SVG ligger som figurfil, ikke i brødteksten."
+      }
+    },
+    {
+      "slug": "kredsloebet",
+      "order": 4,
+      "section": "Kredsløbet",
+      "brief": {
+        "angle": "Når maskinen er udtjent. WEEE-direktiv 2012/19/EU: husholdningsapparater er omfattet; producenter skal sikre, at materialer i direktivets bilag VII kan tages ud med almindeligt værktøj — det står også i (EU) 2019/2022. I Danmark indleveres små og store elektriske apparater gratis på genbrugspladsen; producentansvaret varetages af Retur (tidligere Elretur; elretur.dk peger på retur.dk). Skeln: stål og kobber i motor og varmelegeme har en materialeværdi; plastkurve, pakninger og filtre følger ofte en anden reststrøm. FORBUDT: opdigte tons, indsamlingsprocenter, pantbeløb eller danske kilo. Kilder: EUR-Lex 2012/19/EU og https://retur.dk/da/elretur — verificér at du kun bruger disse to URL'er.",
+        "words": [
+          380,
+          480
+        ],
+        "mustCite": 2,
+        "mustNumber": [],
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "DeepSeek V3.2 (DeepSeek)",
+        "model": "deepseek/deepseek-v3.2",
+        "fallback": "x-ai/grok-4.5"
+      },
+      "receipt": {
+        "words": 350,
+        "costUSD": 0.0007581,
+        "draft": "kladder/04-kredsloebet.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1795246113-19DB6LUuEt6aGNKt2zg8"
+      },
+      "verdict": {
+        "status": "rewritten-by-editor",
+        "checkedAt": "2026-11-21",
+        "citations": 2,
+        "editorNote": "Kladde skrev vaskemaskine, «plast fra printere» og opfundne syrebade. Skrevet om til opvaskemaskine, WEEE og Retur uden tons."
+      }
+    },
+    {
+      "slug": "europa",
+      "order": 5,
+      "section": "Europa",
+      "brief": {
+        "angle": "To faktiske europæiske opvaskemaskinefabrikker. Hold eksisterende produktion adskilt fra annonceret kapacitet. (1) BSH Hausgeräte, Dillingen, Bayern: opvaskemaskiner siden 1976; omkring 2.300 ansatte; produktionen i 2025 er omkring 1,9 millioner apparater og beskrives som stabil — det er eksisterende årsproduktion, ikke et mål. Annonceret, ikke eksisterende: højreollager med plads til 115.000 opvaskemaskiner, byggeri fra begyndelsen af 2026, i drift fra 2028. Det er lagerpladser, ikke ekstra årsproduktion. Kilde: BSH-pressemeddelelse 28. november 2025, https://presse.bsh-group.com/pressreleases/bsh-standort-dillingen-blickt-positiv-in-die-zukunft-3418563. (2) Electrolux, Żarów, Polen: første opvaskemaskine for 20 år siden (omtale 29. september 2025); januar 2006 den nummer 100, september 2006 den nummer 100.000, april 2008 den nummer 1 million; snart den nummer 22 million — det er et kumulativt styktal, ikke en årskapacitet. Mandskab fra 100 til over 800; otte udvidelser, produktionsareal vokset med 35.000 m2. Kilde: https://www.electroluxgroup.com/en/news/od-100-do-22-milionow-zarowska-fabryka-electrolux-swietuje-20-lecie-produkcji/. Nævn kort Solaro ved Milano som et eksisterende italiensk opvaskeanlæg (Electrolux omtaler det som lavastoviglie-site i september 2023), men giv det ingen produktionsvolumen, for den er ikke oplyst. FORBUDT: årskapacitet for Żarów, ansatte i Solaro, og at kalde 115.000 for årsproduktion.",
+        "words": [
+          400,
+          500
+        ],
+        "mustCite": 2,
+        "mustNumber": [
+          "1,9 millioner i Dillingen i 2025",
+          "115.000 lagerpladser fra 2028",
+          "22-millionte i Żarów, kumulativt"
+        ],
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "Grok 4.5 (xAI)",
+        "model": "x-ai/grok-4.5",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 504,
+        "costUSD": 0.0114172,
+        "draft": "kladder/05-europa.md",
+        "costRouting": "byok",
+        "generationId": "gen-1795246137-9kj3CvDn0A2YcmQXQMlf"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-11-21",
+        "citations": 2,
+        "editorNote": "Årsproduktion og lager holdt adskilt. Solaro-kilden fra 2023 lagt på, uden volumen."
+      }
+    },
+    {
+      "slug": "tallet",
+      "order": 6,
+      "section": "Tallet",
+      "brief": {
+        "angle": "En lille tabel med år og geografi EU27, kun solgte maskiners gennemsnit ifølge Kommissionens produktside (EIA 2024). 1990: 1,4 kWh pr. cyklus og 310 kWh/år; vand 30 liter pr. cyklus og 6,7 m3/år. 2020 uden regler ville el have været 262 kWh/år og vand 5,3 m3/år; med regler blev det 174 kWh/år (0,8 kWh pr. cyklus, −34 %) og 2,2 m3/år (10 liter pr. cyklus, −58 %). Reglerne sparede 7,3 TWh el og 295 millioner m3 vand i 2020. Fremskrivning 2030: 10 TWh og 421 millioner m3. Skriv hvad tallet måler: gennemsnit for solgte maskiner, ikke hver model, og ikke håndopvask. Én tabel. Kilde-URL: https://energy-efficient-products.ec.europa.eu/product-list/dishwashers_en",
+        "words": [
+          320,
+          430
+        ],
+        "mustCite": 1,
+        "mustNumber": [
+          "0,8 kWh og 10 liter i 2020",
+          "174 kWh/år",
+          "7,3 TWh i 2020"
+        ],
+        "format": "tallet"
+      },
+      "writer": {
+        "byline": "Qwen3.7 Max (Alibaba)",
+        "model": "qwen/qwen3.7-max",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 362,
+        "costUSD": 0.0389577,
+        "draft": "kladder/06-tallet.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1795246161-oc4oHDK3P8YA5DXx79G5"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-11-21",
+        "citations": 1,
+        "editorNote": "Literal \\u00a0 og kraftværks-billeder fjernet. 10 TWh i 2030 er besparelsen det år, ikke et tillæg."
+      }
+    },
+    {
+      "slug": "paastandskontoret",
+      "order": 7,
+      "section": "Påstandskontoret",
+      "brief": {
+        "angle": "Tre hverdagspåstande, uden facit-tone. (1) «Eco vasker dårligt.» Forordning (EU) 2019/2022 kræver, at brugsanvisningen oplyser, at eco er egnet til normalt snavset service, at det for den brug er det mest effektive program målt på energi og vand tilsammen, og at det bruges til at vurdere overholdelse. Det siger ikke, at et kort varmt program aldrig kan være bedre til fastbrændt snavs. (2) «Skyl af under hanen først.» Samme forordning kræver oplysning om, at manuel forskylning øger vand- og energiforbrug og ikke anbefales. (3) «Håndopvask bruger altid mindre vand.» Forordningen kræver også oplysning om, at maskinen normalt bruger mindre energi og vand i brugsfasen end håndopvask, når den bruges efter anvisningen. Kommissionens produktside illustrerer det med omkring 20 liter i hånden mod 9 liter i en effektiv maskine til op til 15 kuverter — skriv det som sidens illustration, ikke som et laboratorieforsøg med oplyst metode. Energimærket fra 1. marts 2021 er skala A–G og viser eco-programmets forbrug pr. 100 cyklusser, vand pr. cyklus, kapacitet og støj. Kilder: EUR-Lex 2019/2022 og produktsiden. FORBUDT: andre liter-tal.",
+        "words": [
+          380,
+          480
+        ],
+        "mustCite": 2,
+        "mustNumber": [
+          "20 liter mod 9 liter, som illustration",
+          "mærke A–G fra 1.3.2021"
+        ],
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "Grok 4.5 (xAI)",
+        "model": "x-ai/grok-4.5",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 438,
+        "costUSD": 0.0113512,
+        "draft": "kladder/07-paastandskontoret.md",
+        "costRouting": "byok",
+        "generationId": "gen-1795246230-dlUm6SiPegc121Uj1tAK"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-11-21",
+        "citations": 2,
+        "editorNote": "Kladde linkede til en gammel kommissionsssti og kaldte forordningen en parlamentsretsakt. Rettede URL og ophav."
+      }
+    }
+  ]
+}
