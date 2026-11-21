@@ -1,0 +1,9 @@
+## Rygtebørs
+
+I kredse, der følger den globale elektrificering, cirkulerer en forventning om, at en kommerciel måne-økonomi på et tidspunkt vil aftage strøm. Det er vigtigt at fastslå, at der er tale om en fremtidig markedsmekanisme, ikke en eksisterende kundeliste. Ingen køber i dag kilowatt-timer i månestøv.
+
+Den amerikanske rumfartsorganisation, National Aeronautics and Space Administration (NASA), beskriver i deres egne strategiske tekster konturerne af et fremtidigt marked for energi på Månen. Logikken er den samme som i isolerede terrestriske net: Hvis der skal udvindes ressourcer, drives industri eller opretholdes permanent infrastruktur, kræver det stabil og vedvarende kraft. Rumfartens elektrificering handler i denne sammenhæng om at erstatte begrænsede kemiske batterier med kontinuerlig base-load. Men forventningerne hviler på et spinkelt fundament af tidlige aftaler. De første designkontrakter til måne-reaktorer stammer fra 2022, og det officielle 100-kilowatt-mål er formuleret med udgangspunkt i 2025. Derudover findes der en hensigtserklæring, et Memorandum of Understanding (MoU), dateret januar 2026, som stikker en retning ud for internationalt samarbejde om rumkraft.
+
+Der er altså tale om politiske og teknologiske hensigtserklæringer, ikke om bindende kommercielle købsaftaler. Rygtet om det lukrative månenet bygger på antagelsen om, at statslige aktører vil finansiere og bygge den grundlæggende infrastruktur, hvorefter private selskaber kan koble sig på nettet. Men indtil videre er der hverken fysiske reaktorer, etablerede elnet eller betalende kunder i sigte.
+
+Spørgsmålet er, om økonomien i det hele taget kan bære transporten af tung infrastruktur derop. I næste nummer af KRAFTEN stiller vi det helt basale spørgsmål: Hvad ville den allerførste kilowatt-time egentlig koste, hvis en reaktor rent faktisk stod klar på Månen?

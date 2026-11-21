@@ -1,0 +1,263 @@
+{
+  "magazine": "kraften",
+  "issue": "2026-11-nr9",
+  "issueTheme": "Er der reelle kommercielle kunder til kraft på Månen?",
+  "budget": {
+    "articles": 7,
+    "wordsPerArticle": [
+      250,
+      420
+    ],
+    "targetPages": 12,
+    "note": "Indfrier nr. 8's bagsideløfte. Watt og kunder, ikke biler og ikke opsendelser. Ingen Ordbog."
+  },
+  "opgaver": [
+    {
+      "slug": "leder",
+      "order": 1,
+      "section": "Leder",
+      "brief": {
+        "angle": "Chefredaktionens leder: nr. 8 viste, hvad et elnet på Månen kræver. Dette nummer spørger, hvem der betaler. Svaret indtil videre er stater, ikke en elregning. Leverandører er ikke kunder. Ingen biler, ingen opsendelser. Afslut med en sætning om produktionspris, som redaktionen indsætter.",
+        "words": [
+          160,
+          260
+        ],
+        "mustCite": 0,
+        "format": "leder"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": null,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-11-21",
+        "citations": 0,
+        "editorNote": "Redaktionens leder uden byline. Prislinje med DNVALD 6,8013 den 20. november 2026."
+      }
+    },
+    {
+      "slug": "tallet",
+      "order": 2,
+      "section": "Tallet",
+      "brief": {
+        "angle": "Tallet: 5. I juni 2022 gav NASA og det amerikanske energiministerium (Department of Energy, DOE) tre hold hver en kontrakt på omkring 5 millioner dollar — ikke for at sælge strøm, men for et 12-måneders design af et 40-kilowatt (kW) fission surface power-system (overfladekraft fra fission), planlagt til mindst 10 år på Månen. Holdene: Lockheed Martin, Westinghouse og IX (joint venture mellem Intuitive Machines og X-energy). Kilder, brug disse URL'er som fodnoter, opfind ikke andre tal: TechCrunch 21. juni 2022 https://techcrunch.com/2022/06/21/nasa-taps-three-companies-to-design-nuclear-power-plants-for-the-moon/ og X-energy 21. juni 2022 https://x-energy.com/news/intuitive-machines-and-x-energy-led-team-awarded-5-million-to-provide-a-solution-to-deliver-fission-surface-power-to-the-moon-by-2028/ og SpaceNews 20. juli 2023 (Lindsay Kaldon: højst 6 ton, HALEU, fase 2 ikke udbudt endnu) https://spacenews.com/nasa-plans-for-lunar-fission-power-systems-face-fiscal-challenges/ . Skeln designkontrakt fra drift. Ingen kunder, der køber kilowatt-timer (kWh). Skriv på dansk, 280-400 ord, mindst 3 fodnoter med de URL'er.",
+        "words": [
+          280,
+          400
+        ],
+        "mustCite": 3,
+        "format": "tallet",
+        "mustNumber": [
+          "ca. 5 millioner dollar gange tre",
+          "40 kW",
+          "mindst 10 år",
+          "højst 6 ton"
+        ]
+      },
+      "writer": {
+        "byline": "DeepSeek V3.2 (DeepSeek)",
+        "model": "deepseek/deepseek-v3.2",
+        "fallback": "google/gemini-3.5-flash"
+      },
+      "receipt": {
+        "words": 236,
+        "costUSD": 0.0009726,
+        "draft": "kladder/02-tallet.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1795245996-vpwO8PLhfxjWEJto4SjB"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-11-21",
+        "citations": 3,
+        "editorNote": "Kladde rettet: HALEU oversat rigtigt, og fase 2 holdt som ikke udbudt."
+      }
+    },
+    {
+      "slug": "leverandorer",
+      "order": 3,
+      "section": "Leverandører",
+      "brief": {
+        "angle": "De tre 2022-hold er leverandører til en stat, ikke el-kunder. Lockheed Martin med BWXT og Creare; Westinghouse med Aerojet Rocketdyne; IX (Intuitive Machines og X-energy) med Maxar og Boeing. IX's opgave var et étårigt studie af mindst 40 kilowatt elektrisk (kWe) med mål om et flyvesystem i 2028 — det mål er et designmål fra 2022, ikke en reaktor i drift. Citér Steve Altemus kun hvis du bruger X-energys pressemeddelelse ordret og kort. URL'er: https://x-energy.com/news/intuitive-machines-and-x-energy-led-team-awarded-5-million-to-provide-a-solution-to-deliver-fission-surface-power-to-the-moon-by-2028/ og https://techcrunch.com/2022/06/21/nasa-taps-three-companies-to-design-nuclear-power-plants-for-the-moon/ . Opfind ikke nye kontraktbeløb, ikke en købt kilowatt-time, ikke at nogen reaktor er landet. Dansk, 280-400 ord, mindst 2 fodnoter.",
+        "words": [
+          280,
+          400
+        ],
+        "mustCite": 2,
+        "format": "feature",
+        "mustNumber": [
+          "40 kWe",
+          "tre hold",
+          "2028 som designmål fra 2022, ikke drift"
+        ]
+      },
+      "writer": {
+        "byline": "Gemini 3.5 Flash (Google)",
+        "model": "google/gemini-3.5-flash",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 337,
+        "costUSD": 0.0450465,
+        "draft": "kladder/03-leverandorer.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1795246030-p5AvWmLtMPRxjSo3o0RO"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-11-21",
+        "citations": 2,
+        "editorNote": "Fjernet en ubriefet påstand om sol i kratere. Beholdt 40 kWe og 2028 som designmål fra 2022."
+      }
+    },
+    {
+      "slug": "staten-koeber",
+      "order": 4,
+      "section": "Kunden",
+      "brief": {
+        "angle": "Den eneste navngivne køber af månekraft-udvikling er stadig det offentlige. I august 2025 satte NASA's fungerende administrator Sean Duffy et mål om mindst 100 kilowatt klar til afsendelse i 2029 og et system under 15 ton — det er et mål, ikke drift. I januar 2026 underskrev NASA og DOE et memorandum of understanding om en lunar surface reactor senest i 2030. NASA skrev i september 2025, at Steven Sinacore leder Fission Surface Power, og at agenturet måneden før havde sagt mindst 100 kilowatt på Månen inden udgangen af finansåret 2030 og spurgt industrien til råds. Industrien er med som partner og mulig leverandør, ikke som dokumenteret slutkunde med en købsaftale. URL'er du SKAL bruge, opfind ikke andre: https://www.scientificamerican.com/article/nasa-boosts-plans-for-nuclear-reactor-on-the-moon/ og https://www.energy.gov/articles/us-department-energy-and-nasa-develop-lunar-surface-reactor-2030 og https://www.nasa.gov/centers-and-facilities/glenn/nasa-names-glenns-steven-sinacore-to-lead-fission-surface-power/ . Skeln nameplate, plan og drift. Dansk, 280-400 ord, mindst 3 fodnoter.",
+        "words": [
+          280,
+          400
+        ],
+        "mustCite": 3,
+        "format": "feature",
+        "mustNumber": [
+          "mindst 100 kW",
+          "2029 / finansåret 2030",
+          "under 15 ton",
+          "MoU januar 2026"
+        ]
+      },
+      "writer": {
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 355,
+        "costUSD": 0.014834,
+        "draft": "kladder/04-staten-koeber.md",
+        "costRouting": "byok",
+        "generationId": "gen-1795246047-sAXmSHlIQ1mWniRZ3QOC"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-11-21",
+        "citations": 3,
+        "editorNote": "Struktur strammet. 100 kW, 15 ton, 2029, MoU 2030 og Sinacore beholdt med de tre URL'er."
+      }
+    },
+    {
+      "slug": "ilrs",
+      "order": 5,
+      "section": "Anden stat",
+      "brief": {
+        "angle": "Kina og Rusland er også en statslig kunde, ikke et marked. Reuters 23. april 2025: en kinesisk rumembedsmand sagde, at den kinesisk ledede International Lunar Research Station (ILRS) skal have et atomkraftværk på Månens overflade, med russisk medvirken, og at basen sigter mod midten af 2030'erne. Det er en plan. Ingen watt er i drift. Sammenlign kort med det amerikanske spor: begge sider har en stat som bygherre. Opfind ikke megawatt-tal, medmindre de står i Reuters-artiklen — hvis du er usikker, så udelad effekt-tallet. URL: https://www.reuters.com/business/energy/china-led-lunar-base-include-nuclear-power-plant-moons-surface-space-official-2025-04-23/ . Dansk, 250-380 ord, mindst 1 fodnote med den URL. Du må bruge én ekstra fodnote kun hvis du er sikker på adressen.",
+        "words": [
+          250,
+          380
+        ],
+        "mustCite": 1,
+        "format": "feature",
+        "mustNumber": [
+          "midt i 2030'erne",
+          "plan, ikke drift"
+        ]
+      },
+      "writer": {
+        "byline": "Mistral Large (Mistral AI)",
+        "model": "mistralai/mistral-large",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 331,
+        "costUSD": 0.040294,
+        "draft": "kladder/05-ilrs.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1795246063-yNinGBX1pa21jAKv3Hs5"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-11-21",
+        "citations": 1,
+        "editorNote": "Fjernet ubriefet NASA/Artemis-passus og opdigtede megawatt. Reuters 23. april 2025 står."
+      }
+    },
+    {
+      "slug": "ingen-aftale",
+      "order": 6,
+      "section": "Regningen",
+      "brief": {
+        "angle": "Der findes ingen offentliggjort elkøbsaftale (power purchase agreement) for kilowatt-timer på Månen. De penge, der er dokumenteret, er designhonorarer til firmaer og hensigter mellem stater. Nævn de tre gange ca. 5 millioner dollar fra 2022 som det konkrete beløb, læseren kan tjekke, og sig tydeligt, at det ikke er en pris pr. kilowatt-time. Landere, der selv har solpaneler, er ikke kunder hos et måne-elselskab; de medbringer deres egen forsyning. Opfind ikke selskabsnavne ud over Lockheed Martin, Westinghouse, IX, Intuitive Machines og X-energy, og ikke priser. URL'er: https://techcrunch.com/2022/06/21/nasa-taps-three-companies-to-design-nuclear-power-plants-for-the-moon/ og https://www.energy.gov/articles/us-department-energy-and-nasa-develop-lunar-surface-reactor-2030 . Dansk, 280-400 ord, mindst 2 fodnoter.",
+        "words": [
+          280,
+          400
+        ],
+        "mustCite": 2,
+        "format": "feature",
+        "mustNumber": [
+          "ingen offentlig kWh-pris",
+          "ca. 5 millioner dollar gange tre er design, ikke tarif"
+        ]
+      },
+      "writer": {
+        "byline": "Grok 4.5 (xAI)",
+        "model": "x-ai/grok-4.5",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 337,
+        "costUSD": 0.0082812,
+        "draft": "kladder/06-ingen-aftale.md",
+        "costRouting": "byok",
+        "generationId": "gen-1795246115-22WthIp08m6xLtX500H2"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-11-21",
+        "citations": 2,
+        "editorNote": "Fodnoter rettet til [^n]. 2030 lagt på MoU'en, ikke på 2022-kontrakterne."
+      }
+    },
+    {
+      "slug": "rygteboersen",
+      "order": 7,
+      "section": "Rygtebørs",
+      "brief": {
+        "angle": "Rygtebørs, mustCite 0: folk siger, at en kommerciel måne-økonomi vil købe kraft. Skriv nøgternt, at det er en forventning, ikke en kundeliste. Du må nævne, at NASA's egne tekster taler om et fremtidigt marked, men du må IKKE opfinde citater, selskaber, megawatt eller årstal, som ikke står her: designkontrakterne er fra 2022, 100-kilowatt-målet er fra 2025, og MoU'en er fra januar 2026. Ingen fodnoter påkrævet. Ingen biler, ingen opsendelser. Afslut med bagsideløftet: næste nummer spørger, hvad den første kilowatt-time ville koste, hvis en reaktor faktisk står der. Dansk, 220-340 ord.",
+        "words": [
+          220,
+          340
+        ],
+        "mustCite": 0,
+        "format": "rygteboersen"
+      },
+      "writer": {
+        "byline": "Qwen3.7 Max (Alibaba)",
+        "model": "qwen/qwen3.7-max",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 261,
+        "costUSD": 0.033678675,
+        "draft": "kladder/07-rygteboersen.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1795246134-qbfVv3fszINNM5rH3mkE"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-11-21",
+        "citations": 0,
+        "editorNote": "MoU rettet til NASA–DOE, ikke et internationalt elkøb. Bagsideløfte: nr. 10 og kWh-prisen."
+      }
+    }
+  ]
+}

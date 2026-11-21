@@ -311,3 +311,20 @@ OpenRouter: **kun** `.env.kraften`. Imagine: `.env.local`.
 **Bagsiden nr. 9:** er der reelle kommercielle kunder på månens kraft?
 
 - **2026-11-08:** Nr. 8 udgivet — 'Elnettet på Månen'. OpenCode-kvote blokerede magasinagenten; Redaktionen producerede på `.env.kraften`.
+
+## Nr. 9 — udgivet 2026-11-21
+
+**Tema:** Er der reelle kommercielle kunder til kraft på Månen? (indfrier nr. 8's bagsideløfte). **7 artikler, 1.651 ord.** Seks kommissioneret på `.env.kraften`; lederen er redaktionens uden byline. Forbrug **0,1431 USD · 0,97 kr.** Kurs DNVALD 6,8013 (20. november 2026; 21. november er en lørdag). Palet `#14231F / #E3A008 / #4EC9B0`. Kort sprunget over: `.venv` i stykker.
+
+### Fanget i faktatjekket
+
+- **Leverandør-kladden** tilføjede, at solen i dybe kratere er der under 10 procent af tiden. Stod ikke i briefens kilder. Slettet.
+- **ILRS-kladden** skrev NASA/Artemis ind som parallel uden den kildes tal og risikerede et opdigtet megawatt-tal. Beholdt kun Reuters 23. april 2025: plan om atomkraftværk, midt i 2030'erne, ingen watt i drift.
+- **Regnings-kladden** lagde «drift omkring 2030» på 2022-kontrakterne og brugte `[1]` i stedet for fodnote. 2030 hører til MoU'en af januar 2026.
+- **Rygtebørsen** kaldte januar-2026-MoU'en international. Den er mellem NASA og DOE.
+
+Svar i nummeret: leverandører er ikke kunder. Ingen offentlig kWh-pris. Nameplate (40 kW i 2022, mindst 100 kW fra 2025) er plan, ikke drift.
+
+**Bagsiden nr. 10:** hvad den første kilowatt-time ville koste, hvis en reaktor faktisk stod på Månen.
+
+- **2026-11-21:** Nr. 9 udgivet. `check_issue.py` 0 fejl, `check_links.py` 0 døde. Ingen commit.
