@@ -287,3 +287,21 @@ Ikke tilføjet retroaktivt til nr. 1–4 — det er en fremadrettet standard, ik
 - **ES-Alert:** UM skriver, at man *ikke* skal tilmelde sig — varsling kommer automatisk, hvis offentlige advarsler og roaming er slået til. Kladden havde «tilmeld dig».
 
 - **2026-11-08:** Nr. 8 udgivet — Sevilla/Andalusien. OpenCode-kvote blokerede magasinagenten; Redaktionen producerede på `.env.horisonten`. Søsterlinks HORISONTEN↔KULTURBOXEN sat.
+
+## Nr. 9 — udgivet 2026-11-21
+
+**Tema:** Storby-weekend Budapest, sidst i november, uden for højsæsonen. **7 artikler, 2.460 ord** (brødtekst inkl. noter). Seks artikler på `.env.horisonten`; lederen er redaktionens uden byline. Forbrug **0,1199 USD · 0,82 kr.** Kurs DNVALD 6,7997 (19. november 2026; 679,97 kr. pr. 100 dollar). 21. november er en lørdag. Palet `#123C46 / #D97A4A / #E8C468`. Søster: KULTURBOXEN nr. 9. Ingen krydslinks. `content/kulturboxen/issues/2026-11-nr9/issue.json` lå på disk, da nummeret blev samlet. Redaktionen sætter links. Kort sprunget over (`.venv` i stykker), noteret i `images/SOURCES.md`.
+
+### Fanget i faktatjekket
+
+- **Overblik faldt på Gemini 3.1 Pro** og blev skrevet af DeepSeek V3.2. Byline følger kvitteringen.
+- **Klima er en normal, ikke en udsigt.** November 1991-2020, Pestszentlőrinc: middel 5,9 °C, middelmaksimum 9,4 °C, middelminimum 3,1 °C, 48 mm. Kladden sagde «ofte tør» og lovede, at man ikke blev gennemblødt.
+- **Befolkning:** KSH 22.1.2.4, Budapest 1. januar 2026, 1.675.777. Ikke «omkring 1,7 millioner», og ikke landstallet.
+- **Sammenlægning 1872-73** af Pest, Buda og Óbuda. Ikke «to oprindelige bydele» alene.
+- **Kædebroen:** færdig 1849, første stenbro mellem Buda og Pest (verdensarvssitet), 375 m og Adam Clark kun fra Wikipedia. Ingen nuværende trafikregler.
+- **Mad:** pörkölt er gryderet af okse eller svin. Gulyásleves er suppenavnet. Ikke «klar suppe kun på okse», ikke paprikás csirke, ikke tre paprikavarianter.
+- **Tokaj** er 2002, ref. 1063, kriterierne (iii) og (v), Zemplén, Bodrog og Tisza. Over 88.000 ha. Ikke et tal for kerneareal, som siden ikke viser.
+- **Prisniveau:** Eurostat tec00120, husholdningernes forbrug, 2025: Ungarn 77,5 og Danmark 139,7 (EU27_2020 = 100). Ikke et ældre 68,9/140,9 fra en side, tallene ikke stod i.
+- **Lufthavn:** 16 km sydøst, omdøbt 25. marts 2011. 100E til Deák Ferenc tér via Kálvin tér, 40 minutter, 2.500 HUF siden 1. oktober 2025, gyldig 80 minutter. 200E tager almindelig billet. Endestation ikke nævnt på BKK-siden, og den står ikke her. Ingen flytid fra Danmark.
+- **Hotel:** VIZA fra 1. september 2021, id-kort, kørekort eller rejsedokument. Lov 156 af 2016 og dekreterne 235/2019 og 414/2015, som gæstearket selv nævner. Ingen depositum, ingen turistskat, ingen restgyldighed på passet.
+- **Drikkepenge:** ingen lovbestemt procent i kilderne.

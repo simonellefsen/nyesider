@@ -1,0 +1,196 @@
+{
+  "magazine": "horisonten",
+  "issue": "2026-11-nr9",
+  "issueTheme": "Storby-weekend Budapest — sidst i november, uden for højsæsonen",
+  "budget": {
+    "articles": 7,
+    "wordsPerArticle": [
+      150,
+      650
+    ],
+    "targetPages": 12
+  },
+  "notes": "Søster: KULTURBOXEN nr. 9 (ungarsk hverdag: arbejde, bolig, mad, penge). Ingen interne krydslinks. content/kulturboxen/issues/2026-11-nr9/issue.json fandtes ikke, da nummeret blev skrevet. Kort sprunget over: .venv er i stykker. Kurs: DNVALD 19. november 2026, 679,97 DKK pr. 100 USD = 6,7997 DKK pr. USD. 21. november 2026 er en lørdag; sidste observation i DNVALD er torsdag 19. november (ingen 20. november i tabellen).",
+  "opgaver": [
+    {
+      "slug": "leder",
+      "order": 1,
+      "section": "Leder",
+      "brief": {
+        "angle": "Redaktørens leder om en forlænget weekend i Budapest sidst i november. Ophæng: Donau deler bakkerne i Buda fra den flade Pest, og Kædebroen fra 1849 binder dem sammen. November er frakkevejr, ikke højsæson. Nummeret dækker overblik, byliv til fods, vandring på Margit-øen og Gellért-højen, mad og tokajvin, det praktiske og Rejsevejledning. Ingen link til KULTURBOXEN. Ingen byline. Sidste sætning, som redaktøren selv sætter ind efter --sum: «Dette nummer kostede X USD · Y kr. at producere.»",
+        "words": [
+          150,
+          250
+        ],
+        "mustCite": 0,
+        "format": "leder"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": null,
+        "costUSD": null,
+        "draft": null
+      }
+    },
+    {
+      "slug": "overblik",
+      "order": 2,
+      "section": "Overblik",
+      "brief": {
+        "angle": "Overblik over Budapest som rejsemål sidst i november. Brug kun disse fakta, og kun hvis du kan knytte dem til kilden: UNESCO-stedet «Budapest, including the Banks of the Danube, the Buda Castle Quarter and Andrássy Avenue» (ref. 400) blev indskrevet i 1987 og udvidet i 2002 med Andrássy út, Heltepladsen og Millennium-undergrundsbanen. Donau skiller Buda på højre breds bakke fra Pest på venstre breds slette. Pest, Buda og Óbuda blev samlet i 1872-73; selve foreningen kom i 1873. Kædebroen (William Tierney Clarks hængebro) stod færdig i 1849. Parlamentet er nygotisk og bygget 1884-1904. Andrássy út (1872-1885) og Millennium-undergrundsbanen (1893-96) er kontinentets første undergrundsbane. Den romerske by Aquincum ligger nord for verdensarvsområdet. KSH: Budapest havde 1.675.777 indbyggere 1. januar 2026 (tabellen «Population by type of settlement»). HungaroMet, station Pestszentlőrinc, normaler 1991-2020: november har middel 5,9 °C, middelmaksimum 9,4 °C, middelminimum 3,1 °C og 48 mm nedbør. Det er en månedsnormal, ikke en vejrudsigt for en bestemt weekend. Skriv ingen priser, åbningstider eller søsterlink. Brug kun disse kilder: https://whc.unesco.org/en/list/400/ og https://www.ksh.hu/stadat_files/nep/en/nep0037.html og https://www.met.hu/eghajlat/magyarorszag_eghajlata/varosok_jellemzoi/Budapest/",
+        "words": [
+          400,
+          600
+        ],
+        "mustCite": 2,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "DeepSeek V3.2 (DeepSeek)",
+        "model": "deepseek/deepseek-v3.2",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 335,
+        "costUSD": 0.00095746,
+        "draft": "kladder/02-overblik.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1795246246-CGWhEyRL2dQpmqJYSbLf"
+      }
+    },
+    {
+      "slug": "byliv",
+      "order": 3,
+      "section": "Byliv",
+      "brief": {
+        "angle": "En rute til fods gennem den gamle by, ikke et essay om ungarsk hverdag. Tre stræk, alle navngivet: (1) Buda-borgkvarteret på slotsbakken, (2) Donau-promenaden med Kædebroen (Széchenyi lánchíd, åbnet 1849, 375 meter, første permanente bro over Donau i Ungarn, tegnet af William Tierney Clark og bygget under Adam Clark) og Parlamentet på Pest-siden, (3) Andrássy út ud til Heltepladsen og Byparken (Városliget). UNESCO optog borgkvarteret og Donau-bredderne i 1987 og Andrássy út, Heltepladsen og Millennium-banen i 2002. November-normalen fra HungaroMet (1991-2020): middelmaksimum 9,4 °C, middel 5,9 °C. Skriv at man går i frakke, og at det er uden for sommersæsonen. Opfind ingen café-åbningstider, menu-priser eller «bedste bar». Nævn ikke ruinbarer som kulturanalyse. Ingen søsterlink. Brug kun: https://whc.unesco.org/en/list/400/ og https://en.wikipedia.org/wiki/Sz%C3%A9chenyi_Chain_Bridge og https://www.met.hu/eghajlat/magyarorszag_eghajlata/varosok_jellemzoi/Budapest/",
+        "words": [
+          400,
+          650
+        ],
+        "mustCite": 2,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "Grok 4.5 (xAI)",
+        "model": "x-ai/grok-4.5",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 601,
+        "costUSD": 0.0132632,
+        "draft": "kladder/03-byliv.md",
+        "costRouting": "byok",
+        "generationId": "gen-1795246269-IvW71bkbqa4dPqK3cb55"
+      }
+    },
+    {
+      "slug": "vandring",
+      "order": 4,
+      "section": "Vandring",
+      "brief": {
+        "angle": "To vandringer inde i byen, begge egnede sidst i november, fordi de er korte og ikke kræver et pas. (1) Margit-øen (Margitsziget): 2,5 km lang og 500 m bred, mellem Margit-broen i syd og Árpád-broen i nord, mest park. Siden 1980'erne er bilkørsel begrænset til én buslinje, taxaer og varekørsel. (2) Gellért-højen (Gellért-hegy): 235 m over havet, Citadellet (Citadella) på toppen, omkring 140 m over floden. Ved foden, ved Frihedsbroen, ligger Gellért-badet. UNESCO nævner Gellért-højen med citadellet som en del af Donau-panoramaet. HungaroMet november 1991-2020: middel 5,9 °C, middelminimum 3,1 °C, 48 mm nedbør. Skriv ikke en bestemt stis længde, gåtid eller billetpris, medmindre tallet står i en af kilderne. Opfind ingen åbningstid for Citadellet. Ingen søsterlink. Brug kun: https://en.wikipedia.org/wiki/Margaret_Island og https://en.wikipedia.org/wiki/Gell%C3%A9rt_Hill og https://whc.unesco.org/en/list/400/ og https://www.met.hu/eghajlat/magyarorszag_eghajlata/varosok_jellemzoi/Budapest/",
+        "words": [
+          400,
+          600
+        ],
+        "mustCite": 2,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 485,
+        "costUSD": 0.020346,
+        "draft": "kladder/04-vandring.md",
+        "costRouting": "byok",
+        "generationId": "gen-1795246302-yFJ0oXZQR08q32VWjVQ2"
+      }
+    },
+    {
+      "slug": "mad-og-vin",
+      "order": 5,
+      "section": "Mad & Vin",
+      "brief": {
+        "angle": "Hvad en weekendrejsende møder på bordet i Budapest, uden restaurantpriser og uden åbningstider. Brug kun retter og fakta, der faktisk står på de angivne sider. Hvis siden skelner mellem gulyás (suppe) og pörkölt (gryderet), så skriv den skelnen. Tokaj-vinregionens historiske kulturlandskab blev indskrevet på UNESCO-listen i 2002, ref. 1063, kriterier (iii) og (v), i det nordøstlige Ungarn ved Zemplén og floderne Bodrog og Tisza — ikke i Budapest. En weekend kan smage vinen i byen; vinmarken er en udflugt. Nævn ikke en procent for drikkepenge. Ingen søsterlink. Brug kun: https://en.wikipedia.org/wiki/Hungarian_cuisine og https://whc.unesco.org/en/list/1063/ og https://vilagorokseg.e-epites.hu/en/sites/tokaj.html",
+        "words": [
+          350,
+          550
+        ],
+        "mustCite": 2,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "Mistral Large (Mistral AI)",
+        "model": "mistralai/mistral-large",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 372,
+        "costUSD": 0.055558,
+        "draft": "kladder/05-mad-og-vin.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1795246328-ps78uVtGWoSKZd1vdz2W"
+      }
+    },
+    {
+      "slug": "praktisk",
+      "order": 6,
+      "section": "Praktisk",
+      "brief": {
+        "angle": "Sådan kommer man til Budapest og ind i byen. Budapest Ferenc Liszt International Airport (IATA BUD) ligger 16 km sydøst for centrum og blev omdøbt 25. marts 2011 efter Ferenc Liszt. BKK's lufthavnsbus 100E kører mellem lufthavnen og Deák Ferenc tér via Kálvin tér, døgnet rundt. BKK angiver rejsetiden til centrum til 40 minutter. 100E kræver en særlig lufthavnsbillet: 2.500 forint siden 1. oktober 2025 (før da 2.200). Billetten gælder kun den ene tur og kan ikke bruges til omstigning. Bus 200E tager almindelig BKK-billet; lufthavnsbilletten gælder ikke dér. Skriv at prisen kan ændre sig, og at læseren skal tjekke bkk.hu. Valutaen er ungarske forint (HUF), ikke euro. Ungarn har været EU-medlem siden 1. maj 2004 og Schengen-medlem siden 21. december 2007 og forbereder at indføre euroen. Opfind ingen flyselskab, afgangstid eller billetpris fra Danmark. November-normal fra HungaroMet: middel 5,9 °C. Ingen søsterlink. Brug kun: https://en.wikipedia.org/wiki/Ferenc_Liszt_International_Airport og https://bkk.hu/en/tickets-and-passes/prices/airport-shuttle-bus-single-ticket/ og https://bkk.hu/en/visiting-budapest/247-connection-between-the-airport-and-the-city-centre og https://european-union.europa.eu/principles-countries-history/eu-countries/hungary_en og https://www.met.hu/eghajlat/magyarorszag_eghajlata/varosok_jellemzoi/Budapest/",
+        "words": [
+          350,
+          520
+        ],
+        "mustCite": 2,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "Qwen3.7 Max (Alibaba)",
+        "model": "qwen/qwen3.7-max",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 387,
+        "costUSD": 0.02893655,
+        "draft": "kladder/06-praktisk.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1795246411-77cMshmEmyurgzfCmg5R"
+      }
+    },
+    {
+      "slug": "rejsevejledning",
+      "order": 7,
+      "section": "Rejsevejledning",
+      "brief": {
+        "angle": "Tjekliste for den danske rejsende til Ungarn. Udenrigsministeriet har en rejsevejledning for Ungarn, opdateret 30. april 2026. Link til den. Gengiv ikke teksten. Du må kun bruge disse punkter, omskrevet: de fleste danskere har ingen problemer; kriminalitetsrisikoen er forholdsvis lav, men lomme- og tasketyveri sker i Budapest, især i offentlig transport, på togstationer, markeder og ved turistattraktioner; svindel med betalingskort og røveri ved hæveautomater kan ske; oversvømmelser langs Donau rammer sjældent Budapest-området; trafikken i Budapest er tæt, og UM anbefaler kun autoriserede taxaer; man skal altid kunne vise gyldigt billed-ID og bør have pas eller en kopi på sig; besiddelse af narkotika, også i små mængder, er strengt forbudt; det blå EU-sygesikringskort kan bruges i Ungarn og er ikke et alternativ til en privat rejseforsikring, som UM opfordrer til. EU-borgere rejser inden for EU med gyldigt pas eller nationalt ID-kort. Hotel: fra 1. september 2021 skal overnatningssteder registrere gæstens lovpligtige persondata i systemet VIZA via en dokumentlæser. Det officielle gæsteblad nævner lov 156 af 2016 om statens opgaver ved udvikling af turistregioner og regeringsdekret 235/2019 (15. oktober) om gennemførelsen. Gæster over 14 år skal vise pas, ID-kort eller, for ungarere, kørekort; uden dokument kan stedet afvise opholdet. Opfind ingen anden lov eller paragraf. Drikkepenge: ingen af kilderne fastsætter en procent. Skriv det. Sig at man skal se efter, om service allerede står på regningen. Opfind ikke 10 procent. Prisniveau: Eurostats sammenlignelige prisniveau 2024, alle varer, EU = 100: Ungarn 68,9, Danmark 140,9. Det er et indeks, ikke en menu. Valuta: forint, ikke euro. Ingen søsterlink. Brug kun: https://um.dk/rejse-og-ophold/rejse-til-udlandet/rejsevejledninger/ungarn og https://europa.eu/youreurope/citizens/travel/entry-exit/eu-citizen/index_da.htm og https://vizainfo.hu/en/guests og https://vizainfo.hu/media/uploads/adatlapok/a4_information_for_guests_en.pdf og https://ec.europa.eu/eurostat/cache/website/price-levels/ og https://european-union.europa.eu/principles-countries-history/eu-countries/hungary_en og https://stps.dk/borger-og-patient/det-blaa-eu-sygesikringskort/ferie-og-korte-ophold",
+        "words": [
+          400,
+          600
+        ],
+        "mustCite": 2,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "DeepSeek V3.2 (DeepSeek)",
+        "model": "deepseek/deepseek-v3.2",
+        "fallback": "google/gemini-3.5-flash"
+      },
+      "receipt": {
+        "words": 406,
+        "costUSD": 0.000844312,
+        "draft": "kladder/07-rejsevejledning.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1795246467-flZMv5MKcP3tMHyCIV57"
+      }
+    }
+  ]
+}
