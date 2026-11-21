@@ -1,0 +1,7 @@
+# Den længste ventetid
+
+I Sundhedsstyrelsens høring om regler for *ambient clinical documentation* sluttede sidste juni. I dag, syv måneder senere, har klinikeren på en bornemedicinsk afdeling stadig ikke modtaget svar. Hun er en af de 7 ud af 13 på afdelingen, som fortsat bruger tid hver uge på at rette fejl i de automatiserede journaludkast. Hendes kollega, en overlæge, noterede for seks måneder siden, at 6 ud af 13 i deres mandskabsgruppe gjorde det samme. De venter på, at reglerne skaber forudsigelighed for kvalitetssikring.
+
+I en region sidder en administrativ chef. Hans afdeling har påbegyndt opfølgning på to ud af tre områder fra styrelsens høringsnotat, men det tredje er på standby. Han venter på, om høringsindspillene er blevet til konkrete regler, eller om de er forsvundet i systemet. Hans planlægning står i stampe. Årsagen til høringen kendte han godt: for at skabe et fælles og sikkert grundlag for den automatiserede dokumentation. Men hvornår det grundlag kommer, ved han ikke.
+
+Hos en privat leverandør af sundheds-it venter en medarbejder på en ny start. Firmaet skifter navn fra og med den 1. januar. En intern meddelelse i slutningen af november informerede om, at det gamle firmanavn vil «ophøre» den 31. december. For medarbejderen handler ventetiden ikke om lov eller kvalitet, men om, hvad det nye navn vil betyde for deres arbejdsopgaver og forholdet til sundhedssektorens kunder. Navneskiftet er et faktum, men konsekvenserne er endnu ukendte. Ventetiden her handler om identitet.

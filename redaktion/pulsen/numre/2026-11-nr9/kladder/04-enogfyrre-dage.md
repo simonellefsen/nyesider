@@ -1,0 +1,16 @@
+# 41 dage til skæringsdatoen: Det ved vi om Digital Sundhed Danmark
+
+Når kalenderen rammer den 1. januar 2027, træder den danske sundhedssektor ind i en ny fase af den nationale digitalisering. Der er præcis 41 dage fra i dag, den 21. november 2026, til årsskiftet. Men mens de overordnede rammer for den nye organisation, Digital Sundhed Danmark, er på plads, venter ledelser og sundheds-it-afdelinger på tværs af landet stadig på de afgørende detaljer for driften.
+
+Fundamentet for den nye virkelighed blev støbt med lov om Digital Sundhed Danmark (LOV nr 1758), som trådte i kraft den 1. januar 2026.[^1] Loven etablerede den forberedende organisation, der i løbet af det seneste år har arbejdet frem mod den fulde driftsstart. Et af de seneste og mest afgørende skridt blev taget tidligere i denne måned, da Danske Regioner annoncerede, at den nye bestyrelse, som skal sætte den strategiske retning for fremtidens digitale sundhedsvæsen, er officielt udpeget.[^2]
+
+For ledere og it-arkitekter ude i regionerne og kommunerne er det dog ikke kun bestyrelseslokalet, der trækker opmærksomhed. Det er i høj grad maskinrummet og de juridiske detailkrav. Her er billedet nemlig endnu ikke 100 % komplet. Den store bekendtgørelsespakke, som skal udmønte lovens intentioner i konkrete retningslinjer for datahåndtering, systemkrav og snitflader, var i offentlig høring frem til den 9. november 2026. I skrivende stund foreligger de endelige bekendtgørelser endnu ikke som officielt udstedte dokumenter.
+
+Dette skaber et velkendt dilemma i krydsfeltet mellem drift og regulering. Uden de endelige bekendtgørelser skal beslutningstagere navigere efter udkastene, når de forbereder integrationer til den Elektroniske Patientjournal (EPJ – det primære it-system til registrering af patientdata på sygehusene). Det kræver en agil tilgang i it-afdelingerne, da selv små justeringer i de endelige bekendtgørelser kan få betydning for, hvordan data skal struktureres og udveksles mellem sektorerne.
+
+Samtidig skal sektoren forberede sig på, hvordan de nationale krav spiller sammen med kommende europæisk regulering. Her fylder især European Health Data Space (EHDS – EU's kommende forordning for deling af sundhedsdata på tværs af landegrænser) meget i de langsigtede strategier. Digital Sundhed Danmark bliver en central aktør i at sikre, at den danske infrastruktur er klar til at møde disse internationale standarder.
+
+For klinikere og ergoterapeuter på gulvet vil overgangen den 1. januar 2027 sandsynligvis ikke mærkes som et pludseligt ryk i hverdagen. Skærmene og systemerne vil ligne sig selv, når de møder ind på vagt. Men for sundheds-it og ledelse er de næste 41 dage en kritisk overgangsperiode. Den forberedende organisation har haft et år til at bygge broen, og bestyrelsen er nu klar til at tage roret. Nu mangler blot det endelige regelsæt, før Digital Sundhed Danmark for alvor kan overgå fra forberedelse til permanent drift.
+
+[^1]: LOV nr 1758 af 29/12/2025, Lov om Digital Sundhed Danmark. Retsinformation. Tilgængelig på: https://www.retsinformation.dk/api/pdf/254544
+[^2]: Danske Regioner (November 2026). *Ny bestyrelse skal sætte retningen for fremtidens digitale sundhed*. Tilgængelig på: https://www.regioner.dk/services/nyheder/2026/november/ny-bestyrelse-skal-saette-retningen-for-fremtidens-digitale-sundhed/

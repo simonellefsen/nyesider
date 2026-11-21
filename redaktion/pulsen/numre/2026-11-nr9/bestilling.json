@@ -1,0 +1,206 @@
+{
+  "magazine": "pulsen",
+  "issue": "2026-11-nr9",
+  "issueTheme": "Delstatus nr. 5: AID_NOTE-rapporten udeblev — bestyrelsen for Digital Sundhed Danmark er sat",
+  "budget": {
+    "articles": 6,
+    "wordsPerArticle": [
+      200,
+      540
+    ],
+    "targetPages": 12,
+    "note": "Kompakt som nr. 8. Lederen er editor-led. Fem artikler på .env.pulsen."
+  },
+  "opgaver": [
+    {
+      "slug": "leder",
+      "order": 1,
+      "section": "Leder",
+      "brief": {
+        "angle": "Editor-led pr. 21. november 2026. AID_NOTE-rapporten er stadig ikke offentlig. Høringen om DSD-bekendtgørelser lukkede 9. november. Bestyrelsen blev offentliggjort 12. november og tiltrådte 15. november. Der er 41 dage til 1. januar 2027. Opfind ingen nye AID_NOTE-tal.",
+        "words": [
+          200,
+          260
+        ],
+        "mustCite": 0,
+        "format": "leder"
+      },
+      "writer": {
+        "byline": "Redaktionen",
+        "model": "chefredaktør",
+        "fallback": null
+      },
+      "receipt": {
+        "words": null,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "accepted",
+        "citations": 0,
+        "editorNote": "Editor-led.",
+        "checkedAt": "2026-11-21"
+      }
+    },
+    {
+      "slug": "aidnote-delstatus",
+      "order": 2,
+      "section": "Feature · Ambient AI",
+      "brief": {
+        "angle": "Femte delstatus. Pr. 21. november 2026 er AID_NOTE-evalueringsrapporten STADIG ikke offentlig. De eneste offentlige tal er stadig RAIN 30. september / beretning 7. oktober: 7 af 13 mindre tid, 6 af 13 mere, 9 af 12 brugbart udkast, 8 af 11 nyttig. Rapporten skulle fremlægges for Strategisk IT-forum i november-december. Afprøvningen sluttede oktober 2026. SKRIV INGEN nye tal. Kilder kun: https://syddansksundhedsinnovation.dk/nyheder/2026/tale-til-tekst-og-automatiseret-dokumentation og https://cai-x.com/projects/current-projects/aid_note-test-and-assessment-of-ambient-scribe-solutions",
+        "words": [
+          400,
+          500
+        ],
+        "mustCite": 2,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "Claude Sonnet 5 (Anthropic)",
+        "model": "anthropic/claude-sonnet-5",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 423,
+        "costUSD": 0.016222,
+        "draft": "kladder/02-aidnote-delstatus.md",
+        "costRouting": "byok",
+        "generationId": "gen-1795245975-QpXR9ViWcKHIC0qZ5ITv"
+      },
+      "verdict": {
+        "status": "pending",
+        "citations": null,
+        "editorNote": "",
+        "checkedAt": null
+      }
+    },
+    {
+      "slug": "dsd-bestyrelse",
+      "order": 3,
+      "section": "Feature · Sundheds-it",
+      "brief": {
+        "angle": "Hvad der faktisk står offentligt om Digital Sundhed Danmark før åbning. 12. november 2026: sundhedsminister Ida Auken udpegede ni medlemmer efter indstilling fra stat, regioner og kommuner. Tiltrædelse 15. november 2026, fire år. Formand Adam Wolf, næstformand Marianne Dahl. Øvrige: Hanne Andersen, Rikke Würtz, Karin Zimmer, Malthe Falck, Thomas Flarup, Christian Bason, Cathrine Lofthus. Etablering stadig 1. januar 2027. sundhed.dk, Sundhedsdatastyrelsen og MedCom ophører 31. december 2026. Høring af bekendtgørelser lukkede 9. november (sendt 12. oktober, Høringsportalen 71637). Opfind ikke høringssvar eller vedtagne bekendtgørelser. Kilder: https://www.regioner.dk/services/nyheder/2026/november/ny-bestyrelse-skal-saette-retningen-for-fremtidens-digitale-sundhed/ og https://sundhedsdatastyrelsen.dk/nyheder/2026/bestyrelse-for-digital-sundhed-danmark og https://hoeringsportalen.dk/Hearing/Details/71637 og https://www.retsinformation.dk/api/pdf/254544",
+        "words": [
+          420,
+          520
+        ],
+        "mustCite": 2,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "GPT-5.6 Terra (OpenAI)",
+        "model": "openai/gpt-5.6-terra",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 367,
+        "costUSD": 0.0158765,
+        "draft": "kladder/03-dsd-bestyrelse.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1795245997-iEMHHYBRL8hsoHPzCMcW"
+      },
+      "verdict": {
+        "status": "pending",
+        "citations": null,
+        "editorNote": "",
+        "checkedAt": null
+      }
+    },
+    {
+      "slug": "enogfyrre-dage",
+      "order": 4,
+      "section": "Analyse · Ledelse",
+      "brief": {
+        "angle": "41 dage fra 21. november 2026 til 1. januar 2027. Skeln mellem det, der er besluttet (lov om Digital Sundhed Danmark, LOV nr 1758 af 29/12/2025, træder i kraft 1. januar 2026; forberedende organisation fra 1. januar 2026; bestyrelse udpeget) og det, der stadig er udkast (bekendtgørelsespakken i høring til 9. november, endnu ikke dokumenteret som udstedt). Ingen nye AID_NOTE-tal. Kilder: https://www.retsinformation.dk/api/pdf/254544 og https://hoeringsportalen.dk/Hearing/Details/71637 og https://www.regioner.dk/services/nyheder/2026/november/ny-bestyrelse-skal-saette-retningen-for-fremtidens-digitale-sundhed/",
+        "words": [
+          400,
+          500
+        ],
+        "mustCite": 2,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": "Gemini 3.1 Pro (Google)",
+        "model": "google/gemini-3.1-pro-preview",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 477,
+        "costUSD": 0.067516,
+        "draft": "kladder/04-enogfyrre-dage.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1795246011-YybnpqaXQPb7mMi7iyHq"
+      },
+      "verdict": {
+        "status": "pending",
+        "citations": null,
+        "editorNote": "",
+        "checkedAt": null
+      }
+    },
+    {
+      "slug": "vandrehistorier",
+      "order": 5,
+      "section": "Vandrehistorie · Fra feltet",
+      "brief": {
+        "angle": "Tre korte vandrehistorier om den samme ventetid: en kliniker der stadig retter ambient-udkast (7/13 og 6/13), en kommunal chef der venter på om høringen blev til regler, en medarbejder hvis arbejdsgiver skifter navn 31. december. Brug kun de tal og datoer fra de andre briefs. Ingen nye kilder. mustCite 0.",
+        "words": [
+          300,
+          420
+        ],
+        "mustCite": 0,
+        "format": "vandrehistorie"
+      },
+      "writer": {
+        "byline": "DeepSeek V3.2 (DeepSeek)",
+        "model": "deepseek/deepseek-v3.2",
+        "fallback": null
+      },
+      "receipt": {
+        "words": 239,
+        "costUSD": 0.00042616,
+        "draft": "kladder/05-vandrehistorier.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1795246076-zE0jHIogq6weD9SrIEw9"
+      },
+      "verdict": {
+        "status": "pending",
+        "citations": null,
+        "editorNote": "",
+        "checkedAt": null
+      }
+    },
+    {
+      "slug": "quiz",
+      "order": 6,
+      "section": "Sjov og spil",
+      "brief": {
+        "angle": "Fem spørgsmål KUN om disse fakta: rapporten er ikke offentlig; 7 af 13 mindre tid; bestyrelse offentliggjort 12. november og tiltrådt 15. november; formand Adam Wolf; ni medlemmer; høring lukkede 9. november; etablering 1. januar 2027; 41 dage; tre organisationer lukker 31. december. Facit under spørgsmålene. Ingen andre tal.",
+        "words": [
+          180,
+          280
+        ],
+        "mustCite": 0,
+        "format": "quiz"
+      },
+      "writer": {
+        "byline": "Gemini 3.5 Flash (Google)",
+        "model": "google/gemini-3.5-flash",
+        "fallback": "deepseek/deepseek-v3.2"
+      },
+      "receipt": {
+        "words": 213,
+        "costUSD": 0.0665775,
+        "draft": "kladder/06-quiz.md",
+        "costRouting": "openrouter",
+        "generationId": "gen-1795246092-cek4tTj8dKjkxmJWOapD"
+      },
+      "verdict": {
+        "status": "pending",
+        "citations": null,
+        "editorNote": "",
+        "checkedAt": null
+      }
+    }
+  ]
+}

@@ -240,7 +240,13 @@ nummeret holder løftet ved at fortælle, hvor ventetiden bruges (DSD-høring 9.
 1. jan. 2027). `bestilling.json`: `redaktion/pulsen/numre/2026-11-nr8/bestilling.json`.
 Bagside: nr. 9 når rapporten er offentlig, eller når DSD åbner 1. januar.
 
+## Nr. 9 — udgivet 2026-11-21
+
+**Tema:** Delstatus nr. 5. AID_NOTE-rapporten er stadig ikke offentlig. I stedet det, der faktisk står om Digital Sundhed Danmark før åbning: bestyrelse udpeget 12. november, tiltrådt 15. november (Adam Wolf, ni medlemmer), høring lukket 9. november, etablering fortsat 1. januar 2027. **6 artikler, 1.530 ord.** Fem kommissioneret på `.env.pulsen`; lederen er redaktionens uden byline. Forbrug **0,1666 USD · 1,13 kr.** (DNVALD 6,7997 pr. 1 USD, kursdato 2026-11-19; 21. november er lørdag, sidste offentliggjorte bankdag i DNVALD var torsdag 19. november — fredag 20. november lå endnu ikke i tabellen). `check_issue.py` kørt samme dag. `generate_map.py` sprunget over (`.venv` i stykker), noteret i `images/SOURCES.md`. DeepSeek-vandrehistorien opdigtede en Sundhedsstyrelses-høring og en privat leverandør og er omskrevet af redaktøren på nummerets egne tal. Gemini-analysen havde et EHDS-afsnit uden kilde i briefen; det er taget ud. Quiz-facit rettet, så rapporten ikke «viser» 7/13.
+
 ## Log
+
+- **2026-11-21:** Nr. 9 udgivet — delstatus nr. 5. Rapporten ikke offentlig. DSD-bestyrelse (12./15. nov.) er det nye offentlige spor. Kurs DNVALD 679,97 pr. 100 USD = 6,7997 (2026-11-19).
 
 - **2026-10-18:** Nr. 7 udgivet — delstatus nr. 3. Bagsideløftet fra nr. 6 indfriet ærligt:
   rapporten er stadig IKKE offentlig, men første officielle delstatus findes nu (RAIN-mødet
