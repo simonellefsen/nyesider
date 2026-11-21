@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Local gate that mirrors (and exceeds) the Vercel build path.
 # Vercel runs: npm --prefix web run build
-#   → sync-assets + check_issue --all --errors-only + vite build
+#   → sync-assets + check_issue --all --errors-only + vite build + collapse-vercel-routes
 # This script also runs typecheck (svelte-check) and unit tests first so
 # failures show up before a full production build.
 set -euo pipefail

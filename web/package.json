@@ -11,7 +11,7 @@
 		"check:content": "python3 ../production/check_issue.py --all",
 		"check:content:errors": "python3 ../production/check_issue.py --all --errors-only",
 		"dev": "npm run sync-assets && vite dev",
-		"build": "npm run sync-assets && npm run check:content:errors && vite build",
+		"build": "npm run sync-assets && npm run check:content:errors && vite build && node scripts/collapse-vercel-routes.mjs",
 		"preview": "vite preview",
 		"prepare": "svelte-kit sync || echo ''",
 		"lint": "npm run check",
