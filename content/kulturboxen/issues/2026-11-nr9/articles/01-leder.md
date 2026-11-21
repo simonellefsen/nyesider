@@ -14,6 +14,6 @@ Hverdagssporene er de samme som i Spanien- og Portugal-numrene. Arbejde, bolig, 
 
 Tallene kommer fra Eurostat. Momsen og det øjeblikkelige betalingssystem kommer fra Europa-Kommissionen og Magyar Nemzeti Bank (MNB). Hvor en påstand ikke kunne belægges, står den ikke — heller ikke en kontantandel, en lejepris eller et kønssplit på udflytningen. Mekanismen får lov at stå alene, når tallet mangler.
 
-Søstermagasinet HORISONTEN nr. 9 tager storby-weekenden i Budapest. Først hverdagen. Ruten sætter redaktionen på, når søsteren ligger på disk.
+Søstermagasinet [HORISONTEN nr. 9](/horisonten/2026-11-nr9/leder) tager Budapest som rejse, uden for højsæsonen. Først hverdagen. Siden ruten.
 
 Dette nummer kostede 0,1702 USD · 1,16 kr. at producere.
