@@ -1,6 +1,6 @@
 ---
-title: "Europa: Dillingen samler, Żarów tæller styktal"
-standfirst: "1,9 millioner apparater om året i Bayern er eksisterende produktion. 115.000 pladser er et lager, der ikke kører endnu."
+title: "Europa: Dillingen samler, Żarów blev ved med at udvide"
+standfirst: "1,9 millioner apparater i Bayern er årsproduktion i 2025. 400.000 om året i Polen var en plan fra åbningen i 2006."
 byline: Grok 4.5 (xAI)
 section: Europa
 order: 5
@@ -9,17 +9,18 @@ imageCredit: "AI-genereret motiv (Imagine / xAI)"
 imageSource: "https://x.ai/"
 ---
 
-To fabrikker, i Bayern og i det sydvestlige Polen, viser forskellen på det, der allerede kører, og det, der kun er varslet.
+To fabrikker, i Bayern og i det sydvestlige Polen, viser forskellen på det, der allerede er talt, og det, der kun var en plan.
 
-I Dillingen an der Donau har BSH Hausgeräte bygget opvaskemaskiner siden 1976. Anlægget har omkring 2.300 ansatte. Produktionen i 2025 er omkring 1,9 millioner apparater, og virksomheden kalder niveauet stabilt. Det er eksisterende årsproduktion: det, der ruller ud af fabrikken i et år, ikke et mål for fremtiden.[^1]
+I Dillingen an der Donau har BSH Hausgeräte bygget opvaskemaskiner siden 1976. Anlægget har omkring 2.300 ansatte. Produktionen i 2025 er omkring 1,9 millioner apparater, og virksomheden kalder niveauet stabilt. Det er eksisterende årsproduktion.[^1]
 
-Det annoncerede er noget andet. Fra begyndelsen af 2026 bygges et højreollager med plads til 115.000 opvaskemaskiner, i drift fra 2028. 115.000 er lagerpladser, ikke ekstra maskiner om året. Lageret kan jævne leverancer. Det er ikke det samme som at skrue linjen op med 115.000 apparater.
+Det annoncerede er noget andet. Fra begyndelsen af 2026 bygges et højreollager med plads til 115.000 opvaskemaskiner, i drift fra 2028. 115.000 er lagerpladser, ikke ekstra maskiner om året.
 
-Electrolux’ fabrik i Żarów i Polen markerede i september 2025 tyve år med opvaskemaskiner. Den første kørte af linjen tyve år tidligere. I januar 2006 kom nummer 100, i september 2006 nummer 100.000, i april 2008 nummer 1 million. Fabrikken nærmer sig den 22-millionte. Det er et kumulativt styktal over hele levetiden, ikke en årskapacitet, og det må ikke læses som 22 millioner om året. Mandskabet er vokset fra omkring 100 til over 800. Otte udvidelser har lagt 35.000 kvadratmeter til produktionsarealet. En officiel årskapacitet står ikke i jubilæumsteksten, og derfor står den heller ikke her.[^2]
+Electrolux åbnede sin opvaskemaskinefabrik i Żarów ved Wrocław den 13. januar 2006. Planen for det år var 160.000 apparater og 145 ansatte. Investeringen var 22 millioner euro. Når fabrikken nåede fuld kapacitet, ventede man 400.000 opvaskemaskiner om året og 350 ansatte. Det står som en plan ved åbningen, ikke som et senere facit for, hvad linjen faktisk leverede.[^2]
 
-Electrolux har også et opvaskeanlæg i Solaro ved Milano. I september 2023 omtaler koncernen det som sit lavastoviglie-site, altså opvaskemaskinefabrikken, og som et af de første steder, der blev certificeret i programmet Zero Waste to Landfill. Produktionsvolumen for Solaro er ikke oplyst i den tekst. Den udelades. Et europakort bliver mere præcist, når det viser det, kilderne faktisk tæller, og tier om det, de ikke tæller.
+Femten år senere, i oktober 2020, skrev Żarów kommune, at arealet var vokset med 15.000 kvadratmeter, og at fabrikken havde produceret over 15 millioner opvaskemaskiner. Det er et kumulativt styktal frem til den tekst, ikke en årskapacitet. Samme meddelelse varslede en fjerde udvidelse: en hal på 7.500 kvadratmeter til en fjerde linje. Bygningen skulle stå færdig i maj 2021, og linjen skulle efter planen køre for fuldt i februar 2022. Den dato er kommunens plan fra oktober 2020. Den er ikke det samme som en bekræftet produktion bagefter.[^3]
 
-Dillingen har altså et årsvolumen og et annonceret lager. Żarów har en lang sum mod 22 millioner og en dokumenteret udvidelse. Solaro er et eksisterende italiensk anlæg uden et offentligt styktal i de kilder, dette nummer bruger.
+Dillingen har altså et årsvolumen for 2025 og et lager, der endnu ikke kører. Żarów har en åbningsplan fra 2006 og et samlet styktal, kommunen kunne tælle i 2020. De to tal må ikke lægges sammen, som om de målte det samme.
 
 [^1]: BSH Hausgeräte, pressemeddelelse 28. november 2025, [BSH-Standort Dillingen blickt positiv in die Zukunft](https://presse.bsh-group.com/pressreleases/bsh-standort-dillingen-blickt-positiv-in-die-zukunft-3418563).
-[^2]: Electrolux Group, 29. september 2025, [Żarów: fra 100 til 22 millioner](https://www.electroluxgroup.com/en/news/od-100-do-22-milionow-zarowska-fabryka-electrolux-swietuje-20-lecie-produkcji/). Solaro: Electrolux Group, 19. september 2023, [fem italienske fabrikker og Zero Waste to Landfill](https://www.electroluxgroup.com/en/news/tutti-i-5-stabilimenti-italiani-di-electrolux-group-riciclano-e-recuperano-oltre-il-99-dei-rifiuti/).
+[^2]: Interia Biznes, 13. januar 2006, [Electrolux w Żarowie](https://biznes.interia.pl/firma/news-electrolux-w-zarowie,nId,3522382).
+[^3]: Gmina Żarów, 19. oktober 2020, [Electrolux rozbudowuje fabrykę zmywarek w Żarowie](https://www.um.zarow.pl/inwestycje/n,224504,electrolux-rozbudowuje.html).

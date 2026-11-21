@@ -19,6 +19,35 @@ Målgruppen er den almindeligt nysgerrige danske læser. Forklar fagord første 
 
 ## Udgivne numre
 
+- **(2026-11) Nr. 9 — "Opvaskemaskinen" — UDGIVET 2026-11-21.**
+  7 artikler, **2.077 ord**. Seks artikler kommissioneret på `.env.indeni`; leder uden byline.
+  Samlet forbrug **0,114 USD · 0,78 kr.** (kurs 6,7997, DNVALD 2026-11-19; 21. nov. er lørdag,
+  og 20. nov. lå endnu ikke i statistikbanken). `check_issue.py`: 0 fejl. `check_links.py`: 0 døde.
+  Figur: `figur-opvask-kreds.svg`. Kort sprunget over (`.venv` brudt), noteret i `images/SOURCES.md`.
+
+  ### Kernetal
+
+  - **Bestand:** 97 mio. opvaskemaskiner i EU27 i 2020, ca. én pr. to boliger; 220 cyklusser/år;
+    197 mia. kuverter; 214 mio. m³ vand; 19 kuverter og 21 liter/uge pr. husstand.
+    Fremskrivning 126 mio. i 2030. Kilde: Kommissionens produktside / EIA 2024.
+  - **Solgte maskiner:** 1990: 1,4 kWh og 30 liter pr. cyklus. 2020 med regler: 0,8 kWh og
+    10 liter (174 kWh/år, 2,2 m³/år). Besparelse 7,3 TWh og 295 mio. m³ i 2020;
+    10 TWh og 421 mio. m³ i 2030-fremskrivningen.
+  - **Eco:** (EU) 2019/2022. EEI under 63 fra 1.3.2021; under 56 fra 1.3.2024 ved mindst
+    10 kuverter. Reservedele 7 år (professionelle) og 10 år (hængsler, arme, filtre, kurve).
+  - **Europa:** BSH Dillingen, opvaskemaskiner siden 1976, ca. 2.300 ansatte, ca. 1,9 mio.
+    apparater i 2025 (eksisterende). Højreollager til 115.000 maskiner varslet fra 2028
+    (lagerpladser, ikke årsproduktion). Electrolux Żarów åbnet 13.1.2006 med en plan om
+    400.000/år; kommunen talte i okt. 2020 over 15 mio. produceret og varslede en fjerde linje.
+  - **Electrolux’ 2025-jubilæumsside** (22-millionte, over 800 ansatte) timeoutede i
+    `check_links.py`. Tallene er ikke brugt. Solaro er udeladt af samme grund.
+
+  ### Redaktionelle greb
+
+  - `kredsloebet`-kladden skrev vaskemaskine og opfandt separationskemi. Omskrevet.
+  - `tallet`-kladden havde literal `\u00a0` og læste 2030-besparelsen som et tillæg. Rettet.
+  - `paastandskontoret` linkede til en gammel kommissionssti. Erstattet med produktsiden og EUR-Lex.
+
 - **(2026-11) Nr. 8 — "Støvsugeren" — UDGIVET 2026-11-08 (nyt nummer, fra bunden).**
   7 artikler, **2.535 ord**. Seks artikler reelt kommissioneret på `.env.indeni`; lederen er
   chefredaktionens og har **ingen byline**. Samlet forbrug **0,1358 USD · 0,91 kr.**
