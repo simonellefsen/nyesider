@@ -31,7 +31,7 @@ Grok Bot har ingen hukommelsesskærm. Botten beslutter selv, hvad der er værd a
 
 En *dot* (OpenAIs always-on-agent, officielt skrevet med lille d) lader dig ikke se, slette eller rette enkelte egne minder.[^6] Noterne ligger adskilt fra ChatGPTs saved memory og er ikke en afskrift af alt, du har sagt.[^7] Slår du Memory fra i ChatGPT, stopper ny deling til dotten. Det sletter ikke det, den allerede har fået.[^6]
 
-Muse gemmer noter i filen Memory.md under Assistant-ikon → Identity → Memory. Har du slettet noget, kan Muse stadig huske det, den lærte af det.[^8] Meta lancerede Muse i USA den 8. september 2026.[^9] Australien kom den 17. november 2026.[^10] Ingen af de sider nævner Danmark.
+Muse husker det, der betyder noget for dig. Du kan læse, rette eller slette det, den har husket, eller bede den glemme noget bestemt. Spørg den, eller åbn filen MEMORY.md, hvor noterne står. Den leder og fjerner, så godt den kan.[^8] Meta lancerede Muse i USA den 8. september 2026.[^9] Australien kom den 17. november 2026.[^10] Ingen af de sider nævner Danmark.
 
 [^1]: [OpenAI: «Memory in ChatGPT»](https://help.openai.com/en/articles/8590148-memory-in-chatgpt).
 [^2]: [Claude Help: «Use Claude’s chat search and memory to build on previous context»](https://support.claude.com/en/articles/11817273-use-claude-s-chat-search-and-memory-to-build-on-previous-context).
@@ -40,6 +40,6 @@ Muse gemmer noter i filen Memory.md under Assistant-ikon → Identity → Memory
 [^5]: [xAI Docs: «Create and manage Bots»](https://docs.x.ai/grok-bot/bots).
 [^6]: [OpenAI: «Dots privacy, security, and safety FAQs»](https://help.openai.com/en/articles/20001529-dots-privacy-security-and-safety-faqs).
 [^7]: [ChatGPT Learn: «Tasks and memory»](https://learn.chatgpt.com/docs/dots/tasks-and-memory).
-[^8]: [Meta: «How to manage your Muse data»](https://www.meta.com/help/artificial-intelligence/2225571704857152/).
+[^8]: [Meta: «Muse security and privacy»](https://muse.ai/security-and-privacy).
 [^9]: [Meta: «Introducing Muse»](https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/), 8. september 2026.
 [^10]: [Meta: «Muse is now available in Australia»](https://about.fb.com/news/2026/11/muse-is-now-available-in-australia/), 17. november 2026.

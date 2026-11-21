@@ -245,7 +245,7 @@ siger.
 ## Nr. 9 — udgivet 2026-11-21
 
 **Tema:** Hukommelse — når AI vil huske dig på tværs af samtaler, og hvordan du tømmer den. Indfrier bagsideløftet fra nr. 8.
-**7 artikler, 3.300 ord.** Fem artikler reelt kommissioneret på
+**7 artikler, 3.285 ord.** Fem artikler reelt kommissioneret på
 `.env.gnisten`; leder og Regningen er redaktionens uden byline.
 Forbrug **0,249 USD · 1,69 kr.** (kurs 6,8013, 20. november 2026, DNVALD;
 21. november er lørdag). Værkstedet på Claude Sonnet 5, bevidst ikke Gemini 3.1 Pro.
@@ -265,7 +265,7 @@ ChatGPT: saved memories ligger for sig, og logs af slettede saved memories kan b
 Claude: sletning af samtalen fjerner ikke memory-poster. Pause beholder dem. Reset sletter dem og kan ikke fortrydes.
 Grok Bot: reset af samtalen beholder hukommelsen. Delete sletter den bots hukommelse. Ingen hukommelsesskærm.
 Dots: enkelte egne minder kan ikke ses eller slettes. At slå ChatGPT Memory fra sletter ikke det, dotten allerede har fået.
-Muse: en slettet besked kan efterlade det, den lærte. Forget er «to the best of its ability».
+Muse: du kan læse, rette eller slette det, den har husket, eller bede den glemme. Forget er «to the best of its ability». Meta Help svarede 400, så menustien og Reset er ikke citeret. Kilden er muse.ai/security-and-privacy.
 
 ## Løfter givet i nr. 8
 

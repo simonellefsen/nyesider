@@ -37,7 +37,7 @@ Grok Bot har ingen liste. Skriv «What do you remember about me?», ret det fork
 
 En *dot* (OpenAIs always-on-agent) lader dig ikke slette ét minde. At slå Memory fra i ChatGPT stopper kun ny deling. Det sletter ikke det, dotten allerede har fået. Sletter du selve dotten, starter sletning af dens egen kontekst. Filer og ChatGPT-samtaler, den har lavet, bliver. Andre ChatGPT-minder bliver og styres i ChatGPT. Pause sletter intet.[^7]
 
-Muse kan bedes glemme et emne, så godt den kan, eller du åbner Assistant → Identity → Memory og retter Memory.md. En slettet besked kan efterlade det, den lærte. Reset under Settings → Data controls sletter chat, filer og aktive opgaver og kan ikke fortrydes.[^8] Meta lancerede Muse i USA den 8. september 2026 og i Australien den 17. november 2026. De sider nævner ikke Danmark.[^9]
+Muse: spørg, hvad den husker, eller åbn MEMORY.md, hvor noterne står, og ret eller slet der. Du kan også bede den glemme et emne. Den leder og fjerner, så godt den kan.[^8] Meta lancerede Muse i USA den 8. september 2026 og i Australien den 17. november 2026. De sider nævner ikke Danmark.[^9]
 
 ## Den fælles test
 
@@ -52,5 +52,5 @@ Mapperne fra sidste nummer ligger i [Værkstedet i nr. 8](/gnisten/2026-11-nr8/v
 [^5]: [Google: «Get personalization with memory of your past Gemini chats»](https://support.google.com/gemini/answer/16598469).
 [^6]: [xAI Docs: «Create and manage Bots»](https://docs.x.ai/grok-bot/bots).
 [^7]: [OpenAI: «Dots privacy, security, and safety FAQs»](https://help.openai.com/en/articles/20001529-dots-privacy-security-and-safety-faqs).
-[^8]: [Meta: «How to manage your Muse data»](https://www.meta.com/help/artificial-intelligence/2225571704857152/).
+[^8]: [Meta: «Muse security and privacy»](https://muse.ai/security-and-privacy).
 [^9]: [Meta: «Introducing Muse»](https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/), 8. september 2026, og [«Muse is now available in Australia»](https://about.fb.com/news/2026/11/muse-is-now-available-in-australia/), 17. november 2026.

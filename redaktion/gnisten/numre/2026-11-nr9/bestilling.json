@@ -31,9 +31,15 @@
         "fallback": null
       },
       "receipt": {
-        "words": null,
+        "words": 154,
         "costUSD": null,
         "draft": null
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-11-21",
+        "citations": 0,
+        "editorNote": "Redaktionens egen leder, ingen byline, ingen API-kald. Indfrier nr. 8's hukommelsesløfte. Produktionspris 0,249 USD · 1,69 kr."
       }
     },
     {
@@ -65,6 +71,12 @@
         "draft": "kladder/02-kortet.md",
         "costRouting": "byok",
         "generationId": "gen-1795246164-lw5iN1M9WZwYVQH9yLVu"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-11-21",
+        "citations": 10,
+        "editorNote": "Rettet kladdens påstand om midlertidig chat og om Pause som en regel for alle. Meta Help svarede 400, så Muse-stien er byttet til muse.ai/security-and-privacy."
       }
     },
     {
@@ -97,6 +109,12 @@
         "draft": "kladder/03-fokus-hukommelse.md",
         "costRouting": "openrouter",
         "generationId": "gen-1795246259-o3lYTx2ITqs2vOpIBzUz"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-11-21",
+        "citations": 10,
+        "editorNote": "Tilføjet Muse og Grok Bot, der ikke spørger først. Meta Help 400: menustien og Reset er taget ud. Kilden er muse.ai/security-and-privacy."
       }
     },
     {
@@ -128,6 +146,12 @@
         "draft": "kladder/04-vaerkstedet-toem.md",
         "costRouting": "byok",
         "generationId": "gen-1795246275-w8BcrJ2WpHaeSOZ9q0Sq"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-11-21",
+        "citations": 9,
+        "editorNote": "Fjernet 'Memory fra i Dots', en redaktionsnote og MCP. Meta Help 400: Muse-reset og menustien er taget ud. Datoer står på newsroom."
       }
     },
     {
@@ -154,6 +178,12 @@
         "draft": "kladder/05-maanedens-prompt.md",
         "costRouting": "byok",
         "generationId": "gen-1795246327-ia4fPFK59xceM3Xd3nSI"
+      },
+      "verdict": {
+        "status": "accepted-after-edit",
+        "checkedAt": "2026-11-21",
+        "citations": 0,
+        "editorNote": "Promptblokken beholdt. Brødteksten strammet, så den ikke nævner produkter eller tal."
       }
     },
     {
@@ -175,9 +205,15 @@
         "fallback": null
       },
       "receipt": {
-        "words": null,
+        "words": 156,
         "costUSD": null,
         "draft": null
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-11-21",
+        "citations": 0,
+        "editorNote": "Redaktionens egen regning, ingen byline. Fem kvitteringer, 0,249 USD · 1,69 kr. Billeder står ikke i beløbet."
       }
     },
     {
@@ -204,6 +240,12 @@
         "draft": "kladder/07-sladder.md",
         "costRouting": "openrouter",
         "generationId": "gen-1795246358-aXNkOi3uCJbI8C6VvtOi"
+      },
+      "verdict": {
+        "status": "accepted",
+        "checkedAt": "2026-11-21",
+        "citations": 0,
+        "editorNote": "Kladde med forside og flow. Slutter med nr. 10's løfte om træningsfravalg."
       }
     }
   ]

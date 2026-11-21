@@ -37,7 +37,7 @@ Grok Bot har ingen hukommelsesskærm. Den beslutter selv, hvad den gemmer, og sp
 
 En *dot* (OpenAIs always-on-agent) bruger samtalen, relevant ChatGPT-hukommelse og egne noter. Noterne er ikke en afskrift og ligger adskilt fra saved memory.[^7] Du kan ikke se, rette eller slette enkelte dot-minder. At slå Memory fra i ChatGPT stopper ny deling, men sletter ikke det, dotten allerede har fået. Sletning af dotten starter sletning af dens egen kontekst. Filer, Codex-tråde og ChatGPT-samtaler, den har oprettet, ligger for sig og slettes ikke med den.[^8] Pause sletter heller ikke. At afbryde et plugin stopper ny adgang, ikke den kontekst, den allerede har bygget.[^8] Samme skel som i [nr. 8 om filer](/gnisten/2026-11-nr8/fokus-filer): Disconnect tømmer ikke det, der allerede er læst. Og samme skel som [stopknappen i nr. 7](/gnisten/2026-10-nr7/vaerkstedet-nej): at standse er ikke at slette.
 
-Muse lader dig åbne Memory.md via Assistant-ikon → Identity → Memory og rette filen. Efter du har slettet noget, kan Muse stadig huske det, den lærte af det. Forget-færdigheden beder den lede og fjerne, så godt den kan. Reset under Settings → Data controls sletter chat, filer og aktive opgaver og kan ikke fortrydes.[^9] Meta lancerede Muse i USA den 8. september 2026 og åbnede Australien den 17. november 2026. De sider nævner ikke Danmark.[^10]
+Muse lader dig læse, rette eller slette det, den har husket, eller bede den glemme noget bestemt. Du kan spørge, hvad den husker, eller åbne filen MEMORY.md, hvor noterne står. Den leder i minder og støttefiler og fjerner, så godt den kan.[^9] Meta lancerede Muse i USA den 8. september 2026 og åbnede Australien den 17. november 2026. De sider nævner ikke Danmark.[^10]
 
 Der er ingen vinder og ingen knap, der tømmer alle tre lag. Stil de fire spørgsmål på hvert lag, før du regner noget for glemt.
 
@@ -49,5 +49,5 @@ Der er ingen vinder og ingen knap, der tømmer alle tre lag. Stil de fire spørg
 [^6]: [xAI Docs: «Create and manage Bots»](https://docs.x.ai/grok-bot/bots).
 [^7]: [ChatGPT Learn: «Tasks and memory»](https://learn.chatgpt.com/docs/dots/tasks-and-memory).
 [^8]: [OpenAI: «Dots privacy, security, and safety FAQs»](https://help.openai.com/en/articles/20001529-dots-privacy-security-and-safety-faqs).
-[^9]: [Meta: «How to manage your Muse data»](https://www.meta.com/help/artificial-intelligence/2225571704857152/).
+[^9]: [Meta: «Muse security and privacy»](https://muse.ai/security-and-privacy).
 [^10]: [Meta: «Introducing Muse»](https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/), 8. september 2026, og [«Muse is now available in Australia»](https://about.fb.com/news/2026/11/muse-is-now-available-in-australia/), 17. november 2026.
