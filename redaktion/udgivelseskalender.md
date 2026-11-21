@@ -44,6 +44,7 @@ Håndhæves som **ERROR** i `production/check_issue.py` (og dermed i `npm run pr
 | 2026-11-08 | dosis/2026-11-nr8 (nr. 8); horisonten/2026-11-nr8 (nr. 8); humanerd/2026-11-nr8 (nr. 8); indeni/2026-11-nr8 (nr. 8); kraften/2026-11-nr8 (nr. 8); kulturboxen/2026-11-nr8 (nr. 8); orbit/2026-11-nr8 (nr. 8); pulsen/2026-11-nr8 (nr. 8); spaending/2026-11-nr8 (nr. 8) |
 | 2026-11-09 | aktier/2026-11-nr12 (nr. 12) |
 | 2026-11-16 | aktier/2026-11-nr13 (nr. 13) |
+| 2026-11-21 | dosis/2026-11-nr9 (nr. 9); gnisten/2026-11-nr9 (nr. 9); humanerd/2026-11-nr9 (nr. 9); indeni/2026-11-nr9 (nr. 9); kraften/2026-11-nr9 (nr. 9); kulturboxen/2026-11-nr9 (nr. 9); orbit/2026-11-nr9 (nr. 9); pulsen/2026-11-nr9 (nr. 9); spaending/2026-11-nr9 (nr. 9) |
 
 ## Efter magasin
 
@@ -77,6 +78,7 @@ Håndhæves som **ERROR** i `production/check_issue.py` (og dermed i `npm run pr
 | 6 | `2026-10-nr6` | 2026-10-03 | published | Kirkegården for glemte superfødevarer — en obduktion af, hvordan en wellness-myte dør |
 | 7 | `2026-10-nr7` | 2026-10-18 | published | Hvad holder i 10 år? — en status på implantater og proteser, fra hofteproteser og cochleaimplantater til cybernetik |
 | 8 | `2026-11-nr8` | 2026-11-08 | published | Sundheds-wearables' data — hvad må de samle om os, og hvad kan vi reelt få ud af det |
+| 9 | `2026-11-nr9` | 2026-11-21 | published | Hjemmetests og blodprøver — hvornår er tallet dit? |
 
 ### gnisten
 
@@ -90,6 +92,7 @@ Håndhæves som **ERROR** i `production/check_issue.py` (og dermed i `npm run pr
 | 6 | `2026-10-nr6` | 2026-10-03 | published | Indbakken uden at trykke send — kan AI rydde op uden at sende, slette eller love noget på dine vegne? |
 | 7 | `2026-10-nr7` | 2026-10-18 | published | Grok Bot, Muse og dots — tre always-on-agenter med egen cloud-computer, set fra en ikke-programmør |
 | 8 | `2026-11-nr8` | 2026-11-07 | published | Hvad der sker, når AI får lov at se dine filer — mapper, vedhæftninger og cloud-computerens filsystem — og hvordan du holder mappen lukket |
+| 9 | `2026-11-nr9` | 2026-11-21 | published | Når en AI vil huske dig på tværs af samtaler — hukommelse — og hvordan du tømmer den |
 
 ### horisonten
 
@@ -116,6 +119,7 @@ Håndhæves som **ERROR** i `production/check_issue.py` (og dermed i `npm run pr
 | 6 | `2026-10-nr6` | 2026-10-03 | published | Håndens problem — gribere, taktilitet, og hvorfor det bløde stadig er svært |
 | 7 | `2026-10-nr7` | 2026-10-18 | published | Robotten der kan se — kameraer, kraftsensorer og grænserne for perception |
 | 8 | `2026-11-nr8` | 2026-11-08 | published | Robotter i krig — militære anvendelser, dual use, menneskelig kontrol, fejlrisiko og dokumentation |
+| 9 | `2026-11-nr9` | 2026-11-21 | published | IFR World Robotics 2026 — den civile tælling |
 
 ### indeni
 
@@ -129,6 +133,7 @@ Håndhæves som **ERROR** i `production/check_issue.py` (og dermed i `npm run pr
 | 6 | `2026-10-nr6` | 2026-10-03 | published | Køleskabet — fra stål og kølemiddel til kompressoren, der aldrig sover, og kredsløbet der tapper den tom |
 | 7 | `2026-10-nr7` | 2026-10-18 | published | Vaskemaskinen — fra tromle og tætningsliste til økoprogrammet, mikrofiberne i udblødningen og fabrikkerne bag tromlerne |
 | 8 | `2026-11-nr8` | 2026-11-08 | published | Støvsugeren — fra motorens kobber og cyklonens luftveje til posen, filteret, watt-taket, de afviklede europæiske fabrikker og WEEE-stien |
+| 9 | `2026-11-nr9` | 2026-11-21 | published | Opvaskemaskinen — fra ionbytter og spulearme til eco-programmet, Dillingen og Żarów, og WEEE-stien |
 
 ### kraften
 
@@ -142,6 +147,7 @@ Håndhæves som **ERROR** i `production/check_issue.py` (og dermed i `npm run pr
 | 6 | `2026-10-nr6` | 2026-10-03 | published | Gennem skyggen: solpaneler, batterier og strømstyring når lyset forsvinder |
 | 7 | `2026-10-nr7` | 2026-10-18 | published | Powerwalls — hjemmebatteriet som elektrificering: kilowatt på væggen, gigawatt på nettet |
 | 8 | `2026-11-nr8` | 2026-11-08 | published | Elnettet på Månen — hvad det kræver at holde lys i 14 døgn i træk gennem månenatten |
+| 9 | `2026-11-nr9` | 2026-11-21 | published | Er der reelle kommercielle kunder til kraft på Månen? |
 
 ### kronike
 
@@ -167,6 +173,7 @@ Håndhæves som **ERROR** i `production/check_issue.py` (og dermed i `npm run pr
 | 6 | `2026-10-nr6` | 2026-10-03 | published | Portugal — hverdag, arbejde, bolig, mad, penge, normer |
 | 7 | `2026-10-nr7` | 2026-10-18 | published | Slovenien — hverdag, arbejde, bolig, mad, penge, normer |
 | 8 | `2026-11-nr8` | 2026-11-08 | published | Spanien — hverdag, arbejde, bolig, mad, penge, normer |
+| 9 | `2026-11-nr9` | 2026-11-21 | published | Ungarn — hverdag, arbejde, bolig, mad, penge, normer |
 
 ### orbit
 
@@ -180,6 +187,7 @@ Håndhæves som **ERROR** i `production/check_issue.py` (og dermed i `npm run pr
 | 6 | `2026-10-nr6` | 2026-10-03 | published | Løfterne indfries: FAA siger ja til Stillehavet, Starmind venter stadig på rampen |
 | 7 | `2026-10-nr7` | 2026-10-18 | published | Kunden og raketten: Starshield-skelnen og Starships første kredsler |
 | 8 | `2026-11-nr8` | 2026-11-08 | published | IRIS²: Europas svar på Starlink — fra koncession til fabrikken |
+| 9 | `2026-11-nr9` | 2026-11-21 | published | Hvem sælger oversigten: det kommercielle SSA-marked |
 
 ### pulsen
 
@@ -193,6 +201,7 @@ Håndhæves som **ERROR** i `production/check_issue.py` (og dermed i `npm run pr
 | 6 | `2026-10-nr6` | 2026-10-03 | published | Mellemåret: AID_NOTE og genomik uden facit — men med pejlemærker |
 | 7 | `2026-10-nr7` | 2026-10-18 | published | Delstatus nr. 3: AID_NOTE's mellemtal, DSD-trusaften og DSMG uden adhærens-data |
 | 8 | `2026-11-nr8` | 2026-11-08 | published | Delstatus nr. 4: AID_NOTE-rapporten udeblev — i stedet tælles der ned mod Digital Sundhed Danmark |
+| 9 | `2026-11-nr9` | 2026-11-21 | published | Delstatus nr. 5: AID_NOTE-rapporten udeblev — bestyrelsen for Digital Sundhed Danmark er sat |
 
 ### spaending
 
@@ -206,6 +215,7 @@ Håndhæves som **ERROR** i `production/check_issue.py` (og dermed i `npm run pr
 | 6 | `2026-10-nr6` | 2026-10-03 | published | Europa bygger, tester og designer lavt — Szeged, London og Volvos SPA3-platform |
 | 7 | `2026-10-nr7` | 2026-10-18 | published | Roadster Event — hvad Tesla faktisk viste på SpaceX McGregor, dokumenteret vs. show, og hvad Europa kan homologere |
 | 8 | `2026-11-nr8` | 2026-11-08 | published | Megawatt Charging System til lastbiler — 45 minutters pause som ny brændstofpause, nettets flaskehals og kampen om arealerne |
+| 9 | `2026-11-nr9` | 2026-11-21 | published | De første danske MCS-parker: et net eller 25 øer |
 
 ## Kollisioner (skal være tom)
 
