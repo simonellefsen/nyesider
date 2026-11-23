@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" width="600" height="300">
+  <style>
+    .title { font: bold 16px sans-serif; fill: #0D1B2A; }
+    .box-title { font: bold 11px sans-serif; fill: #0D1B2A; }
+    .box-value { font: bold 24px sans-serif; fill: #C9A227; }
+    .box-sub { font: 10px sans-serif; fill: #666; }
+    .box-bg { fill: #F5F5F5; stroke: #E0E0E0; stroke-width: 1; }
+    .positive { fill: #40826D; }
+    .negative { fill: #E53935; }
+  </style>
+  <rect width="600" height="300" fill="#FAFAFA"/>
+  <text x="300" y="30" text-anchor="middle" class="title">ETF'erne − lukke 20. november 2026</text>
+  <rect x="20" y="50" width="270" height="105" rx="5" class="box-bg"/>
+  <text x="155" y="75" text-anchor="middle" class="box-title">SPY</text>
+  <text x="155" y="117.5" text-anchor="middle" class="negative">−11,7 %</text>
+  <text x="155" y="145" text-anchor="middle" class="box-sub">Fra 52w top − korrektion</text>
+  <rect x="310" y="50" width="270" height="105" rx="5" class="box-bg"/>
+  <text x="445" y="75" text-anchor="middle" class="box-title">QQQ</text>
+  <text x="445" y="117.5" text-anchor="middle" class="negative">−20,2 %</text>
+  <text x="445" y="145" text-anchor="middle" class="box-sub">Fra 52w top − bjørnemarked</text>
+  <rect x="20" y="165" width="270" height="105" rx="5" class="box-bg"/>
+  <text x="155" y="190" text-anchor="middle" class="box-title">SMH (chips)</text>
+  <text x="155" y="232.5" text-anchor="middle" class="negative">−40,5 %</text>
+  <text x="155" y="260" text-anchor="middle" class="box-sub">Fra 52w top</text>
+  <rect x="310" y="165" width="270" height="105" rx="5" class="box-bg"/>
+  <text x="445" y="190" text-anchor="middle" class="box-title">Anbefaling</text>
+  <text x="445" y="232.5" text-anchor="middle" class="box-value">INGEN</text>
+  <text x="445" y="260" text-anchor="middle" class="box-sub">Venter på højere lav</text>
+</svg>

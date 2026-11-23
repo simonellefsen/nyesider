@@ -423,48 +423,101 @@ python3 production/load_env.py aktier   # når .env.aktier oprettes
 
 **Koncentrationsadvarsler:** IT-services/software (ACN, CAP, WKL, ADBE, INTU); byggematerialer (ROCK-B + SGO).
 
-## Nr. 14 — kandidater / opfølgning
+## Nr. 14 — udgivet (2026-11-23)
 
-**(2026-11-17)** **Nvidia Q3** (efter US-lukke) — på følgelisten.
+**Tema:** Værste uge siden april 2025: Nvidia −23 % trods rekordkvartal — vi køber intet  
+**Editor-led:** Alle artikler skrevet af chefredaktionen uden byline. Ingen OpenRouter-kald (`.env.aktier` endnu ikke oprettet). `productionCostUSD: 0`.
 
-**(2026-11-18)** Lowe's Q3 (vores).
+**INGEN NYE KANDIDATER** — samme disciplin som nr. 9. I en uge hvor 93 % af amerikanske aktier faldt, og næsten hvert billigt navn lukkede på ny bund fredag, er det billigste at købe ingenting.
 
-**(2026-11-18)** Nvidia medarbejdermøde.
+**NVIDIA Q3 (tirsdag 17. nov):**
+- Omsætning $115,8 mia. (+103 % y/y), Data Center $107,6 mia. (+110 %), non-GAAP EPS $2,68 (konsensus $2,47)
+- Q4-guide $130 mia. slog konsensus $125 mia.
+- **Men aktien faldt −22,9 % på ugen ($162,85 → $125,53)** — syvende ugefald i træk, længste siden 2008
+- Fredag: SEC gransker regnskabspraksis, aktien −14 % til $125,53 (laveste lukke i 1-års fil)
+- Forward P/E 7,6 — billigste i filen
+- **Følgeliste-betingelse opdateret:** højere lukkebund > $125,53 + permanent CEO + klarhed om SEC
 
-**(2026-11-19)** Intuit Q3 (vores, efter US-lukke).
+**INTUIT Q1 FY27 (torsdag 19. nov):**
+- Omsætning +12 % til $4,4 mia., Global Business Solutions +15 %, non-GAAP EPS +56 % til $2,91
+- **Fuldårs-omsætningsguide skåret** til $23,08–23,37 mia. (+8–9 %) fra $23,28–23,51 mia. (+9–10 %), drevet af Credit Karma
+- Justeret EPS-guide $22,88–23,12 fastholdt
+- Mailchimp solgt til Bending Spoons for ~$3,68 mia.
+- **Aktie −20,9 % på ugen til $270,44**, −1,9 % vs vores $275,79
+- **Nyt prisniveau tilføjet:** lukke < $255,00 = ud (under 25. jun lukkebund $255,07)
+
+**LOWE'S Q3 (onsdag 18. nov) — BESTÅET:**
+- Comps +1,8 % (sjette positive kvartal i træk), omsætning +9,3 % til $22,8 mia., adj. EPS $3,10 (+1,3 % inkl. IEEPA-toldrefusion)
+- FY-guide hævet
+- Aktie −3,0 % uge til $220,84, +16,7 % vs vores $189,28
+
+**SGO.PA og FISV tæt på exit:**
+- SGO.PA €71,22 vs exit €70,00 = **1,7 % over** (fem dage i træk ned, −5,4 % vs vores €75,30)
+- FISV $55,88 vs $54,50 = **2,5 % over** (−12,4 % uge, −11,1 % vs vores $62,88)
+- **Rockwool Q3 onsdag 25. nov** kan flytte SGO
+
+**INGEN INVALIDATIONER.** Alle 12 prisniveauer holdt.
+
+**Scorecard (lukkekurs 20. nov):**
+- Alle 36 kandidater (nr. 1–13): **+0,3 %**, **19 af 36 i plus**
+- Exited (11 navne): −10,4 % vs. publikation, 3 i plus
+- **25 aktive (start af ugen): +4,9 %** siden publikation, **16 af 25 i plus**
+- Uge: **−5,7 %**, **1 af 25 i plus** (kun RBREW +0,4 %) vs SPY −8,6 %, EUNL −5,9 %
+
+**Bedste aktive:** WKL.AS +29,6 %, PHIA.AS +20,7 %, RBREW +18,6 %, LOW +16,7 %, SAN.PA +14,7 %, CAP.PA +14,4 %.  
+**Værste aktive:** YAR.OL −14,0 %, ADBE −12,5 %, FISV −11,1 %, NOVO-B −10,5 %, SGO −5,4 %.  
+**Ugens bevægere:** RBREW +0,4 %, CMCSA −1,0 %, DTE.DE −1,0 %, TEL.OL −2,1 %; INTU −20,9 %, FISV −12,4 %, ACN −11,7 %, ADBE −10,4 %.
+
+**Porteføljen efter nr. 14:** Ingen exits, ingen nye = **25 aktive kandidater**.
+
+**Koncentrationsadvarsel bekræftet:** IT-services/software/payments (ACN, CAP, WKL, ADBE, INTU, PYPL, FISV) var ugens slæb.
+
+## Nr. 15 — kandidater / opfølgning
+
+**(2026-11-24)** US consumer confidence.
 
 **(2026-11-25)** **Rockwool Q3** (vores — relevant for SGO overlap).
 
-**(2026-11-25)** Prosus H1.
+**(2026-11-25)** **Prosus H1** (følger).
+
+**(2026-11-25)** US PCE/personal income, durable goods, Fed Beige Book.
+
+**(2026-11-26–27)** US Thanksgiving (lukket/tidlig lukketid).
+
+**(Tidl. december)** Nvidia's Huang og general counsel for Kongressen (dato ikke bekræftet).
 
 **(2026-12-09)** Adobe Q4.
 
-**(2026-12-17)** ACN Q1 FY27.
+**(Mid-december)** Fed-møde (renteforhøjelse priset).
+
+**(2026-12-17)** General Mills Q2 (følger), ACN Q1 FY27.
 
 **(2026-12-18)** CCL Q4 (estimat, ubekræftet).
 
 **TBD** Fiserv Q4, Saint-Gobain FY (datoer ikke bekræftet).
 
 **Følger (ikke feature endnu):**
-- **NVDA** — følgeliste, betingelse: rapport fordøjet + højere lukkelav > $162,85 + ledelsesklarhed. $162,85 (13. nov, ny lukkebund).
-- **DG.PA** (Vinci) — €115,50 (+3,5 % uge), trailing P/E 12,8, fwd 11,7, yield 4,4 %. Højere lave siden 1. okt €105,60. Næste i rækken, men SGO først.
-- **COF** (Capital One) — $195,08 (−3,4 % uge), fwd P/E 8,2, P/B 1,12. Tester ~$193 (lukkebund $193,60 12. nov). Brud afslutter basen.
-- **GOOGL** — $295,77 (+3,9 % uge), betingelse $273,50 holdt, fwd P/E 19,5 er ikke billigt.
-- **PRX.AS** (Prosus) — €35,69 (−5,0 % uge, −41,4 % fra top, P/E 7,9). **Rapporterer 25. nov.**
-- **BOL.ST** (Boliden) — SEK 500,40 (P/E 10,0).
+- **NVDA** — følgeliste, betingelse: højere lukkebund > $125,53 + permanent CEO + klarhed om SEC. $125,53 (20. nov, ny lukkebund). Fwd P/E 7,6.
+- **DG.PA** (Vinci) — €111,00 (−3,9 % uge vs CAC −5,3 %), trailing P/E 12,3, fwd 11,2, yield 4,5 %. Stadig 5,1 % over 1. okt lav €105,60. Næste i rækken, men SGO først.
+- **GIS** (General Mills) — $35,74 (+4,1 % i crash-ugen), fwd P/E 11,4, yield 6,8 %. Negativ trailing GAAP EPS. FY guide skåret. Piper Sandler advarede om dividend-cut-risiko. **Rapport 17. dec.** Betingelse: udbytte fastholdt + guide holdt.
+- **PRX.AS** (Prosus) — €30,19 (−15,4 % uge, ny 52w lav). **Rapporterer 25. nov.**
+- **BOL.ST** (Boliden) — SEK 446,50 (−3,2 % uge).
+
+**Fjernet fra følgelisten:**
+- **GOOGL** — brød $273,50-betingelsen (lukke $272,66 den 19. nov, $265,29 den 20. nov).
+- **COF** — brød ~$193-basen ($178,66 den 20. nov).
 
 **Afviste:**
-- **STLA/STLAP.PA** (Stellantis) — rekordlave, fælde, ingen bund/katalysator.
-- **FIS** — stadig faldende kniv, ny lukkebund $28,31 (10. nov).
-- **TAP** (Molson Coors) — P/E 8,9, P/B 0,74, yield 4,7 % — billigt, men anden bryggeri (RBREW overlap).
-- **RNO.PA** (Renault) — fwd P/E 4,5, P/B 0,40 — auto-sektor falder.
-- **AMD/MU/AVGO** — chip-rebound, ikke værdiinvestering.
-- **CHTR** — +17,2 % uge, leverage-veto står.
-- **IT/CTSH** — IT-services koncentration.
-- **TRMD-A.CO** (Torm) — P/E 5,3, yield ~11,6 %, men kun −15 % fra top, tankercykel.
+- **STLA/STLAP.PA** (Stellantis) — $3,34 laveste lukke i 1-års fil, fælde.
+- **FIS** — $25,83 laveste lukke i 1-års fil, stadig faldende kniv.
+- **AMD/MU/AVGO/SMH** — chip-kompleks, faldende knive, ingen bund.
+- **ORCL** — $101,19 (−59,6 % fra top), laveste lukke i 1-års fil.
+- **TAP** (Molson Coors) — RBREW overlap.
+- **T/telecom** — TMUS/DTE/TEL/CMCSA overlap.
+- **Franske banker** (BNP, GLE, ACA) — P/B 0,6–0,8, ingen højere lav.
 - **LULU/NKE/RI.PA/BKNG** — ingen re-entry (magasinregel).
 
-**København:** OMXC25 kun +0,4 % uge og 1,3 % fra top — ingen ny kandidat denne uge.
+**København:** OMXC25 −4,8 % — intet København-navn opfyldte højere-lav-kravet denne uge.
 
 ## Log
 
@@ -482,3 +535,4 @@ python3 production/load_env.py aktier   # når .env.aktier oprettes
 - **2026-11-02:** Nr. 11 publiceret — *"Alphabets værste dag nogensinde — vi griber ikke kniven, men køber T-Mobile efter regnskabet"*. Editor-led, ingen bylines, `productionCostUSD: 0`. **BKNG exit**: $153,14 < $154,13 den 26. okt, −3,7 % vs. publikation, ud før Q3-rapport. **Alphabet −12,6 %** (værste dag siden 2004): ~$500 mia. tabt, trail P/E 14,6 vs. fwd 18,5, FCF −$9,1 mia. for 2. kvartal — nu på følgeliste med betingelse. **Én ny kandidat: TMUS** (T-Mobile US, SATELLITE, $156,44, fwd P/E 11,0, Q3 beat-and-raise, bekræftet bund $146,54, invalidation < $143,50). Scorecard: 33 kandidater +2,4 % (20 i plus), 22 aktive +7,3 % (16 i plus), uge +1,8 % (SPY −0,6 %). **DTE.DE overlap bevidst — TMUS er SATELLITE.** Porteføljen nu **23 aktive** (22 + TMUS).
 - **2026-11-09:** Nr. 12 publiceret — *"Tvillingerne: Fiserv +26 %, FIS −25 % — vi ventede på regnskabet, og det betalte sig"*. Editor-led, ingen bylines, `productionCostUSD: 0`. **Ingen invalidationer.** **Én ny kandidat: FISV** (Fiserv, SATELLITE, $62,88, fwd P/E 7,9, Q3 beat, guide holdt, besparelser fordoblet, invalidation < $54,50). **FIS afvist** (−25,5 % uge, guide cut, CFO-exit, ny 52w lav). **BKNG steg efter exit:** $153,14 → $160,67 (+4,9 %) — reglen kostede os gevinsten, vi holder den. **Midtermschok:** torsdag 5. nov S&P −4,4 %, Nasdaq −5,5 %, værste dag siden apr 2025. SMH −11 % uge. Scorecard: 34 kandidater +5,8 % (24 i plus), 23 aktive +10,4 % (18 i plus), uge +3,2 % (19 i plus) vs SPY −2,7 %. **IT-services/software + PYPL overlap — FISV er SATELLITE.** Porteføljen nu **24 aktive** (23 + FISV).
 - **2026-11-16:** Nr. 13 publiceret — *"Nvidia mister sin chef og 13 % — vi køber mursten i stedet: Saint-Gobain"*. Editor-led, ingen bylines, `productionCostUSD: 0`. **Ingen invalidationer.** **Én ny kandidat: SGO.PA** (Saint-Gobain, SATELLITE, €75,30, fwd P/E 11,5, P/B 1,45, bekræftet højere bund, invalidation < €70,00). **Vi bøjede betingelsen** (pullback over ~€70 kom aldrig), siger det åbent. **NVDA −12,7 %** CEO Jensen Huang trådte tilbage — på følgelisten, ikke køb (ledelseskrisen, Q3 rapport 17. nov binær). **RBREW Q3 bestod** (+5,5 % uge, margin/FCF holder). Scorecard: 35 kandidater +7,0 % (24 i plus), 24 aktive +11,8 % (19 i plus), uge +1,8 % (21 i plus) vs SPY +2,6 %. **Indekset slog os** (rally var chips/energi). **ROCK-B overlap — SGO er SATELLITE.** Porteføljen nu **25 aktive** (24 + SGO).
+- **2026-11-23:** Nr. 14 publiceret — *"Værste uge siden april 2025: Nvidia −23 % trods rekordkvartal — vi køber intet"*. Editor-led, ingen bylines, `productionCostUSD: 0`. **Ingen invalidationer.** **INGEN NYE KANDIDATER** — samme disciplin som nr. 9. **NVDA Q3 rekord:** +103 % y/y, men −22,9 % uge til $125,53 (syvende ugefald, laveste lukke i 1-års fil), SEC-granskning. **INTU guide-cut:** −20,9 % uge, Mailchimp solgt, nyt prisniveau $255,00 tilføjet. **LOW Q3 bestod:** +1,8 % comps, guide hævet. **SGO 1,7 % over exit, FISV 2,5 % over exit** — overvågning. **GOOGL/COF fjernet** (brød niveauer). Scorecard: 36 kandidater +0,3 % (19 i plus), 25 aktive +4,9 % (16 i plus), uge −5,7 % (kun RBREW +0,4 %) vs SPY −8,6 %. **Vi slog indekset** (defensiv komposition). Porteføljen stadig **25 aktive** (ingen ændring).

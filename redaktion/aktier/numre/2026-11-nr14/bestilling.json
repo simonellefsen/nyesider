@@ -1,0 +1,202 @@
+{
+  "magazine": "aktier",
+  "issue": "2026-11-nr14",
+  "issueTheme": "Værste uge siden april 2025: Nvidia −23 % trods rekordkvartal — vi køber intet",
+  "budget": {
+    "articles": 7,
+    "wordsPerArticle": [300, 1100],
+    "targetPages": 10,
+    "note": "Ingen nye kandidater (som nr. 9). Ingen invalidationer. SGO.PA 1,7 % fra exit. FISV 2,5 % fra exit. Intuit fik nyt prisniveau ($255,00) efter −21 % guide-cut uge. Tallet: NVDA −22,9 % trods rekordkvartal. 25 aktive efter dette nummer."
+  },
+  "opgaver": [
+    {
+      "slug": "leder",
+      "order": 1,
+      "section": "Leder",
+      "brief": {
+        "angle": "Værste uge siden april 2025: S&P −8,6 %, Nasdaq −10 %. Nvidia −23 % trods rekord. 25 aktive −5,7 %. Kun RBREW i plus. Vi køber intet (som nr. 9). SGO/FISV tæt på exit. INTU nyt niveau.",
+        "words": [300, 400],
+        "mustCite": 4,
+        "format": "leder"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": 350,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "rewritten-by-editor",
+        "checkedAt": "2026-11-23",
+        "citations": 4,
+        "editorNote": "Editor-led. Reuters/Yahoo, Dow Jones/Morningstar, Nvidia pressemeddelelse, Investing.com citeret."
+      }
+    },
+    {
+      "slug": "markedet",
+      "order": 2,
+      "section": "Markedet",
+      "brief": {
+        "angle": "S&P −8,61 % til 6.910 (korrektion, 7 dage i træk ned). Nasdaq −10,02 % (neg. for året). STOXX 600 −5,80 % (største siden apr 2025). VIX 35,89. Anthropic IPO fejlede clearing-test. Fed +25bp priset.",
+        "words": [580, 660],
+        "mustCite": 6,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": 620,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "rewritten-by-editor",
+        "checkedAt": "2026-11-23",
+        "citations": 6,
+        "editorNote": "Editor-led. AP News, T. Rowe Price, Reuters/Yahoo, Morningstar, Dow Jones/Morningstar, Reuters/Yahoo Europe citeret."
+      }
+    },
+    {
+      "slug": "tallet",
+      "order": 3,
+      "section": "Tallet",
+      "brief": {
+        "angle": "NVDA −22,9 % ($162,85→$125,53) trods rekordkvartal. Q3 $115,8 mia. +103 %, EPS $2,68 beat. 7-ugers stime (længste siden 2008). SEC-granskning. Fwd P/E 7,6 billigste i filen. Ingen køb — venter på bund + CEO + SEC.",
+        "words": [540, 620],
+        "mustCite": 5,
+        "format": "tallet"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": 580,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "rewritten-by-editor",
+        "checkedAt": "2026-11-23",
+        "citations": 5,
+        "editorNote": "Editor-led. CNBC (2×), Nvidia pressemeddelelse, Investing.com (2×) citeret."
+      }
+    },
+    {
+      "slug": "portefoeljen",
+      "order": 4,
+      "section": "Porteføljen",
+      "brief": {
+        "angle": "Ingen inv. SGO €71,22 1,7 % over €70. FISV $55,88 2,5 % over $54,50. INTU −21 % efter guide-cut, nyt niveau $255. Lowe's Q3 bestod. 25 aktive −5,7 %, kun RBREW +0,4 %. SPY −8,6 %, EUNL −5,9 %. Per-issue vs indeks. 25 aktive efter nr. 14.",
+        "words": [1000, 1150],
+        "mustCite": 6,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": 1100,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "rewritten-by-editor",
+        "checkedAt": "2026-11-23",
+        "citations": 6,
+        "editorNote": "Editor-led. Yahoo Finance Fiserv, Intuit (3×), Lowe's SEC + CNBC citeret."
+      }
+    },
+    {
+      "slug": "etferne",
+      "order": 5,
+      "section": "ETF'erne",
+      "brief": {
+        "angle": "SPY −11,7 % fra top (korrektion), P/E 21,9. QQQ −20,2 % (bjørnemarked), P/E 25,1. SMH −40,5 %. Europa −6–8 %. Tæt på, men ingen anbefaling — venter på højere lav først.",
+        "words": [280, 360],
+        "mustCite": 0,
+        "format": "feature"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": 320,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "rewritten-by-editor",
+        "checkedAt": "2026-11-23",
+        "citations": 0,
+        "editorNote": "Editor-led. Alle tal fra Yahoo Finance."
+      }
+    },
+    {
+      "slug": "folgelisten",
+      "order": 6,
+      "section": "Rygtebørsen",
+      "brief": {
+        "angle": "NVDA ny betingelse (højere lav $125,53 + CEO + SEC). DG.PA holder basen, SGO først. GIS +4 % i crash-ugen, rapport 17. dec. GOOGL/COF fjernet (brød niveauer). Chips: faldende knive. CPH: ingen mødte kravet.",
+        "words": [440, 520],
+        "mustCite": 2,
+        "format": "rygteboersen"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": 480,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "rewritten-by-editor",
+        "checkedAt": "2026-11-23",
+        "citations": 2,
+        "editorNote": "Editor-led. Insider Monkey, Seeking Alpha citeret for GIS."
+      }
+    },
+    {
+      "slug": "bagsnit",
+      "order": 7,
+      "section": "Bagsnit",
+      "brief": {
+        "angle": "Selvkritik: tabte 5,7 %, kun RBREW i plus, edge er kompositionsflaks. SGO 1,7 % fra exit efter én uge. INTU niveau tilføjet efter −21 %. Nul nye køb som nr. 9. Kalender nr. 15. Track record. Disclaimer.",
+        "words": [340, 420],
+        "mustCite": 0,
+        "format": "bagsnit"
+      },
+      "writer": {
+        "byline": null,
+        "model": "editor-led",
+        "fallback": null
+      },
+      "receipt": {
+        "words": 380,
+        "costUSD": null,
+        "draft": null
+      },
+      "verdict": {
+        "status": "rewritten-by-editor",
+        "checkedAt": "2026-11-23",
+        "citations": 0,
+        "editorNote": "Editor-led. Disclaimer + selvkritik, ingen fodnoter påkrævet."
+      }
+    }
+  ]
+}

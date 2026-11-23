@@ -45,6 +45,7 @@ Håndhæves som **ERROR** i `production/check_issue.py` (og dermed i `npm run pr
 | 2026-11-09 | aktier/2026-11-nr12 (nr. 12) |
 | 2026-11-16 | aktier/2026-11-nr13 (nr. 13) |
 | 2026-11-21 | dosis/2026-11-nr9 (nr. 9); gnisten/2026-11-nr9 (nr. 9); horisonten/2026-11-nr9 (nr. 9); humanerd/2026-11-nr9 (nr. 9); indeni/2026-11-nr9 (nr. 9); kraften/2026-11-nr9 (nr. 9); kronike/2026-11-nr8 (nr. 8); kulturboxen/2026-11-nr9 (nr. 9); orbit/2026-11-nr9 (nr. 9); pulsen/2026-11-nr9 (nr. 9); spaending/2026-11-nr9 (nr. 9) |
+| 2026-11-23 | aktier/2026-11-nr14 (nr. 14) |
 
 ## Efter magasin
 
@@ -65,6 +66,7 @@ Håndhæves som **ERROR** i `production/check_issue.py` (og dermed i `npm run pr
 | 11 | `2026-11-nr11` | 2026-11-02 | published | Alphabets værste dag nogensinde — vi griber ikke kniven, men køber T-Mobile efter regnskabet |
 | 12 | `2026-11-nr12` | 2026-11-09 | published | Tvillingerne: Fiserv +26 %, FIS −25 % — vi ventede på regnskabet, og det betalte sig |
 | 13 | `2026-11-nr13` | 2026-11-16 | published | Nvidia mister sin chef og 13 % — vi køber mursten i stedet: Saint-Gobain |
+| 14 | `2026-11-nr14` | 2026-11-23 | published | Værste uge siden april 2025: Nvidia −23 % trods rekordkvartal — vi køber intet |
 
 ### dosis
 
