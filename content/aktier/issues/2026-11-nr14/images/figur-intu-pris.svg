@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 350" width="700" height="350">
+  <style>
+    .title { font: bold 14px sans-serif; fill: #333; }
+    .axis-label { font: 10px sans-serif; fill: #666; }
+    .price-line { fill: none; stroke: #0D1B2A; stroke-width: 1.5; }
+    .high-line { stroke: #40826D; stroke-width: 1; stroke-dasharray: 4,2; }
+    .exit-line { stroke: #E53935; stroke-width: 1.5; stroke-dasharray: 6,3; }
+    .pub-line { stroke: #C9A227; stroke-width: 1; stroke-dasharray: 4,2; }
+    .annotation { font: 9px sans-serif; fill: #333; }
+    .high-text { fill: #40826D; }
+    .exit-text { fill: #E53935; }
+    .pub-text { fill: #C9A227; }
+  </style>
+  <rect width="700" height="350" fill="#FAFAFA"/>
+  <text x="350" y="25" text-anchor="middle" class="title">INTU 1-års prisudvikling − 52w top + NYT exit markeret</text>
+  <text x="60" y="55" class="axis-label">$700</text>
+  <text x="60" y="105" class="axis-label">$550</text>
+  <text x="60" y="155" class="axis-label">$400</text>
+  <text x="60" y="205" class="axis-label">$250</text>
+  <line x1="90" y1="50" x2="680" y2="50" stroke="#E0E0E0" stroke-width="0.5"/>
+  <line x1="90" y1="100" x2="680" y2="100" stroke="#E0E0E0" stroke-width="0.5"/>
+  <line x1="90" y1="150" x2="680" y2="150" stroke="#E0E0E0" stroke-width="0.5"/>
+  <line x1="90" y1="200" x2="680" y2="200" stroke="#E0E0E0" stroke-width="0.5"/>
+  <line x1="90" y1="250" x2="680" y2="250" stroke="#E0E0E0" stroke-width="0.5"/>
+  <text x="90" y="280" class="axis-label">nov 25</text>
+  <text x="188" y="280" class="axis-label">jan 26</text>
+  <text x="286" y="280" class="axis-label">mar 26</text>
+  <text x="384" y="280" class="axis-label">maj 26</text>
+  <text x="482" y="280" class="axis-label">jul 26</text>
+  <text x="580" y="280" class="axis-label">sep 26</text>
+  <text x="655" y="280" class="axis-label">nov 26</text>
+  <line x1="90" y1="49" x2="680" y2="49" class="high-line"/>
+  <text x="200" y="44" class="annotation high-text">52w high $676,55 (26. dec 2025 lukke)</text>
+  <line x1="90" y1="204" x2="680" y2="204" class="exit-line"/>
+  <text x="680" y="212" text-anchor="end" class="annotation exit-text">NYT EXIT $255,00</text>
+  <line x1="560" y1="193" x2="600" y2="193" class="pub-line"/>
+  <text x="555" y="191" text-anchor="end" class="annotation pub-text">Vores $275,79</text>
+  <path d="M90,54 L110,80 L130,100 L150,125 L170,145 L190,165 L210,175 L230,165 L250,155 L270,145 L290,160 L310,170 L330,195 L350,200 L370,185 L390,205 L410,180 L430,170 L450,165 L470,160 L490,165 L510,180 L530,175 L550,165 L570,193 L590,185 L610,180 L630,170 L650,195 L670,210 L680,217" class="price-line"/>
+  <circle cx="90" cy="54" r="4" fill="#40826D"/>
+  <circle cx="400" cy="205" r="4" fill="#666"/>
+  <text x="400" y="220" text-anchor="middle" class="annotation">$255,07 (25. jun − lukkebund)</text>
+  <circle cx="680" cy="217" r="4" fill="#E53935"/>
+  <text x="680" y="237" text-anchor="end" class="annotation exit-text">$270,44 (20. nov) − 5,7 % over exit</text>
+  <text x="350" y="310" text-anchor="middle" class="axis-label">Kilde: Yahoo Finance. Lukkekurser nov 2025 − nov 2026.</text>
+</svg>

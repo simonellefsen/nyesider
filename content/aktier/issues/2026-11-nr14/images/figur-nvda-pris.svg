@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 350" width="700" height="350">
+  <style>
+    .title { font: bold 14px sans-serif; fill: #333; }
+    .axis-label { font: 10px sans-serif; fill: #666; }
+    .price-line { fill: none; stroke: #0D1B2A; stroke-width: 1.5; }
+    .high-line { stroke: #40826D; stroke-width: 1; stroke-dasharray: 4,2; }
+    .low-line { stroke: #E53935; stroke-width: 1; stroke-dasharray: 4,2; }
+    .annotation { font: 9px sans-serif; fill: #333; }
+    .high-text { fill: #40826D; }
+    .low-text { fill: #E53935; }
+  </style>
+  <rect width="700" height="350" fill="#FAFAFA"/>
+  <text x="350" y="25" text-anchor="middle" class="title">NVDA 1-års prisudvikling − 52w top markeret</text>
+  <text x="60" y="55" class="axis-label">$250</text>
+  <text x="60" y="105" class="axis-label">$200</text>
+  <text x="60" y="155" class="axis-label">$150</text>
+  <text x="60" y="205" class="axis-label">$100</text>
+  <line x1="90" y1="50" x2="680" y2="50" stroke="#E0E0E0" stroke-width="0.5"/>
+  <line x1="90" y1="100" x2="680" y2="100" stroke="#E0E0E0" stroke-width="0.5"/>
+  <line x1="90" y1="150" x2="680" y2="150" stroke="#E0E0E0" stroke-width="0.5"/>
+  <line x1="90" y1="200" x2="680" y2="200" stroke="#E0E0E0" stroke-width="0.5"/>
+  <line x1="90" y1="250" x2="680" y2="250" stroke="#E0E0E0" stroke-width="0.5"/>
+  <text x="90" y="280" class="axis-label">nov 25</text>
+  <text x="188" y="280" class="axis-label">jan 26</text>
+  <text x="286" y="280" class="axis-label">mar 26</text>
+  <text x="384" y="280" class="axis-label">maj 26</text>
+  <text x="482" y="280" class="axis-label">jul 26</text>
+  <text x="580" y="280" class="axis-label">sep 26</text>
+  <text x="655" y="280" class="axis-label">nov 26</text>
+  <line x1="90" y1="52" x2="680" y2="52" class="high-line"/>
+  <text x="595" y="47" class="annotation high-text">52w high $243,37 (6. okt)</text>
+  <path d="M90,142 L100,136 L110,145 L120,140 L130,145 L140,141 L150,137 L160,139 L170,133 L180,135 L190,130 L200,131 L210,133 L215,134 L220,132 L230,129 L240,132 L250,127 L260,138 L270,145 L280,139 L290,140 L300,138 L310,145 L320,150 L330,155 L340,146 L350,145 L360,138 L370,145 L380,152 L390,145 L400,138 L410,105 L420,100 L430,96 L440,90 L450,95 L460,89 L470,86 L480,80 L490,79 L500,73 L510,67 L520,74 L530,69 L540,65 L550,61 L560,53 L570,55 L580,57 L590,60 L600,70 L610,76 L620,87 L630,99 L640,108 L650,124 L660,145 L670,155 L680,200" class="price-line"/>
+  <circle cx="560" cy="53" r="4" fill="#40826D"/>
+  <circle cx="680" cy="200" r="4" fill="#E53935"/>
+  <text x="680" y="220" text-anchor="end" class="annotation low-text">$125,53 (20. nov) − ny bund</text>
+  <line x1="665" y1="143" x2="680" y2="143" class="low-line"/>
+  <text x="660" y="147" text-anchor="end" class="annotation">$162,85 (13. nov)</text>
+  <text x="662" y="130" text-anchor="end" class="annotation low-text">rapport 17. nov: $155,46</text>
+  <text x="350" y="310" text-anchor="middle" class="axis-label">Kilde: Yahoo Finance. Lukkekurser nov 2025 − nov 2026.</text>
+</svg>
